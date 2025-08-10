@@ -92,14 +92,28 @@ def save_json(path, data):
 
 def main(suspicious_info, all_results_json, test_selection_json, confirmed_suspicious_file, dataset_name, model_name):
     all_results, test_selection_results, confirmed_suspicious_funcs = {}, {}, {}
+    # read all_results, test_selection_results, confirmed_suspicious_funcs from existing files if they exist
+    if all_results_json.exists():
+        all_results = read_json_file(all_results_json)
+    if test_selection_json.exists():
+        test_selection_results = read_json_file(test_selection_json)
+    if confirmed_suspicious_file.exists():
+        confirmed_suspicious_funcs = read_json_file(confirmed_suspicious_file)
+    logging.info(f"Loaded existing results: {len(all_results)} instances, {len(test_selection_results)} selections, "
+                 f"{len(confirmed_suspicious_funcs)} confirmed suspicious functions")
     dataset_info = get_dataset(dataset_name)
     logging.info(f"Loaded dataset {dataset_name} with {len(dataset_info)} instances")
     logging.info(f"Working with model: {model_name}")
-    logging.info(f"Working with suspicious function file: {suspicious_info}")
+    # logging.info(f"Working with suspicious function file: {suspicious_info}")
 
     for instance_id, suspicious_funcs in suspicious_info.items():
         logging.info("=" * 80)
         logging.info(f"[START] Instance {instance_id}")
+        # if instance_id already processed in test_selection_json, skip
+        if instance_id in test_selection_results:
+            logging.info(f"[SKIP] Instance {instance_id} already processed")
+            continue
+        
         logging.info(f"Suspicious functions: {sum(len(funcs) for funcs in suspicious_funcs.values())}")
 
         instance_info = get_instance_info(dataset_info, instance_id)
@@ -164,11 +178,11 @@ def main(suspicious_info, all_results_json, test_selection_json, confirmed_suspi
         logging.info(f"[END] Instance {instance_id}")
         # break
 
-    # save outputs
-    save_json(all_results_json, all_results)
-    save_json(test_selection_json, test_selection_results)
-    save_json(confirmed_suspicious_file, confirmed_suspicious_funcs)
-    logging.info("All instances processed.")
+        # save outputs
+        save_json(all_results_json, all_results)
+        save_json(test_selection_json, test_selection_results)
+        save_json(confirmed_suspicious_file, confirmed_suspicious_funcs)
+        logging.info("All instances processed.")
 
 
 def parse_args():
