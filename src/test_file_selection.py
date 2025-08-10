@@ -214,7 +214,7 @@ if __name__ == "__main__":
     args = parse_args()
     suspicious_info = read_json_file(args.suspicious_func_json)
 
-    output_dir = Path(args.output_dir_base) / "model_test_files" / args.dataset_name.split("/")[-1]
+    output_dir = Path(args.output_dir_base) / "model_test_files" / args.dataset_name.split("/")[-1] / args.model_name
     output_dir.mkdir(parents=True, exist_ok=True)
 
     all_results_json = output_dir / "model_selected.json"
