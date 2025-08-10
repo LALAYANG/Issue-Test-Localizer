@@ -93,11 +93,14 @@ def save_json(path, data):
 def main(suspicious_info, all_results_json, test_selection_json, confirmed_suspicious_file, dataset_name, model_name):
     all_results, test_selection_results, confirmed_suspicious_funcs = {}, {}, {}
     dataset_info = get_dataset(dataset_name)
+    logging.info(f"Loaded dataset {dataset_name} with {len(dataset_info)} instances")
+    logging.info(f"Working with model: {model_name}")
+    logging.info(f"Working with suspicious function file: {suspicious_info}")
 
     for instance_id, suspicious_funcs in suspicious_info.items():
         logging.info("=" * 80)
         logging.info(f"[START] Instance {instance_id}")
-        logging.info(f"Suspicious functions declared: {sum(len(funcs) for funcs in suspicious_funcs.values())}")
+        logging.info(f"Suspicious functions: {sum(len(funcs) for funcs in suspicious_funcs.values())}")
 
         instance_info = get_instance_info(dataset_info, instance_id)
         if not instance_info:
@@ -106,6 +109,7 @@ def main(suspicious_info, all_results_json, test_selection_json, confirmed_suspi
             continue
 
         # extract suspicious function code
+        logging.info(f"suspicious_funcs: {suspicious_funcs}")
         func_dict, all_test_files = get_suspicious_funcs(suspicious_funcs, instance_info, instance_id)
         if not func_dict:
             logging.warning(f"No extracted functions for {instance_id}, skipping.")
@@ -135,7 +139,9 @@ def main(suspicious_info, all_results_json, test_selection_json, confirmed_suspi
         )
 
         logging.info(f"Sending prompt to model: {model_name}")
-        response = prompt_model(model_name, prompt=prompt, temperature=0.7)
+        logging.info(f"Prompt:\n{prompt}")
+        response = prompt_model(model_name, prompt=prompt)
+        logging.info(f"Model response: \n{response}")
 
         # parse and store results
         test_files = parse_response(response)
@@ -156,6 +162,7 @@ def main(suspicious_info, all_results_json, test_selection_json, confirmed_suspi
         }
 
         logging.info(f"[END] Instance {instance_id}")
+        # break
 
     # save outputs
     save_json(all_results_json, all_results)
@@ -166,10 +173,15 @@ def main(suspicious_info, all_results_json, test_selection_json, confirmed_suspi
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Prompt model to return top 10 test files")
-    parser.add_argument("suspicious_func_json", help="Path to suspicious function JSON file")
-    parser.add_argument("output_dir_base", help="Base directory for output files")
-    parser.add_argument("dataset_name", choices=["princeton-nlp/SWE-bench_Verified", "princeton-nlp/SWE-bench_Lite"], help="Dataset to use")
-    parser.add_argument("model_name", help="Model name (e.g., GCP/claude-3-7-sonnet)")
+    parser.add_argument("--suspicious_func_json", required=True,
+                        help="Path to suspicious function JSON file")
+    parser.add_argument("--output_dir_base", required=True,
+                        help="Base directory for output files")
+    parser.add_argument("--dataset_name", required=True,
+                        choices=["princeton-nlp/SWE-bench_Verified", "princeton-nlp/SWE-bench_Lite"],
+                        help="Dataset to use")
+    parser.add_argument("--model_name", required=True,
+                        help="Model name (e.g., GCP/claude-3-7-sonnet)")
     return parser.parse_args()
 
 
