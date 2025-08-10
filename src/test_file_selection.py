@@ -14,6 +14,7 @@ logging.basicConfig(
     level=logging.INFO
 )
 
+skipped_ids = []
 
 def get_dataset(dataset_name):
     return load_dataset(dataset_name, split="test")
@@ -114,6 +115,10 @@ def main(suspicious_info, all_results_json, test_selection_json, confirmed_suspi
             logging.info(f"[SKIP] Instance {instance_id} already processed")
             continue
         
+        if instance_id in skipped_ids:
+            logging.info(f"[SKIP] Instance {instance_id} is in skipped_ids")
+            continue
+        
         logging.info(f"Suspicious functions: {sum(len(funcs) for funcs in suspicious_funcs.values())}")
 
         instance_info = get_instance_info(dataset_info, instance_id)
@@ -154,8 +159,14 @@ def main(suspicious_info, all_results_json, test_selection_json, confirmed_suspi
 
         logging.info(f"Sending prompt to model: {model_name}")
         logging.info(f"Prompt:\n{prompt}")
-        response = prompt_model(model_name, prompt=prompt)
-        logging.info(f"Model response: \n{response}")
+        try:
+            response = prompt_model(model_name, prompt=prompt)
+            logging.info(f"Model response: \n{response}")
+        except Exception as e:
+            logging.error(f"Error querying model for instance {instance_id}: {e}")
+            # response = ""
+            logging.info(f"[END] Instance {instance_id}")
+            continue
 
         # parse and store results
         test_files = parse_response(response)
