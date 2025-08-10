@@ -11,7 +11,7 @@ import os
 import sys
 from collections import defaultdict
 
-from call_graph_generation import get_imports_from_file, resolve_module_to_file
+# from call_graph_generation import get_imports_from_file, resolve_module_to_file
 
 
 class ClassDefVisitor(ast.NodeVisitor):
