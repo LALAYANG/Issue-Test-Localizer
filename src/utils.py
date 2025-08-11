@@ -318,6 +318,8 @@ def parse_func_code(local_repo_path, file, func_names):
                     key = (node.name, subnode.name)
                     if key in class_methods:
                         func_code[class_methods[key]] = ast.unparse(subnode).strip()
+                    elif subnode.name in top_level_funcs:
+                        func_code[subnode.name] = ast.unparse(subnode).strip()
 
     return func_code
 

@@ -212,6 +212,7 @@ def parse_args():
 
 if __name__ == "__main__":
     args = parse_args()
+    print(f"Loading suspicious function JSON from {args.suspicious_func_json}")
     suspicious_info = read_json_file(args.suspicious_func_json)
 
     output_dir = Path(args.output_dir_base) / "model_test_files" / args.dataset_name.split("/")[-1] / args.model_name
