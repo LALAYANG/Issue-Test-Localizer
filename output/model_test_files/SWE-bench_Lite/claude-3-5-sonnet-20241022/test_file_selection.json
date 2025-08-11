@@ -7940,5 +7940,53 @@
                 "Subs._eval_subs"
             ]
         }
+    },
+    "matplotlib__matplotlib-26011": {
+        "selected_test_files": [
+            "lib/matplotlib/tests/test_axes.py",
+            "lib/matplotlib/tests/test_api.py",
+            "lib/matplotlib/tests/test_basic.py",
+            "lib/matplotlib/tests/test_transforms.py",
+            "lib/matplotlib/tests/test_figure.py",
+            "lib/matplotlib/tests/test_subplots.py",
+            "lib/matplotlib/tests/test_pyplot.py",
+            "lib/matplotlib/tests/test_backend_bases.py",
+            "lib/matplotlib/tests/test_artist.py",
+            "lib/matplotlib/tests/test_callbacks.py"
+        ],
+        "suspicious_funcs": {
+            "lib/matplotlib/axes/_base.py": [
+                "_AxesBase.set_xlim"
+            ],
+            "lib/matplotlib/axes/_axes.py": [
+                "Axes"
+            ],
+            "lib/matplotlib/backend_bases.py": [
+                "FigureCanvasBase"
+            ]
+        }
+    },
+    "sympy__sympy-13971": {
+        "selected_test_files": [
+            "sympy/printing/tests/test_latex.py",
+            "sympy/printing/pretty/tests/test_pretty.py",
+            "sympy/series/tests/test_sequences.py",
+            "sympy/printing/tests/test_str.py",
+            "sympy/printing/tests/test_mathml.py",
+            "sympy/printing/tests/test_preview.py",
+            "sympy/interactive/tests/test_ipythonprinting.py",
+            "sympy/printing/tests/test_numpy.py",
+            "sympy/printing/tests/test_precedence.py",
+            "sympy/printing/tests/test_codeprinter.py"
+        ],
+        "suspicious_funcs": {
+            "sympy/printing/latex.py": [
+                "_print_SeqFormula"
+            ],
+            "sympy/printing/pretty/pretty.py": [
+                "_print_SeqFormula"
+            ],
+            "sympy/interactive/ipythonprinting.py": []
+        }
     }
 }
