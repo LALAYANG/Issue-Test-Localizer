@@ -13212,5 +13212,65 @@
                 "sympify"
             ]
         }
+    },
+    "sympy__sympy-13757": {
+        "selected_test_files": [
+            "sympy/polys/tests/test_polytools.py",
+            "sympy/polys/tests/test_polyclasses.py",
+            "sympy/core/tests/test_mul.py",
+            "sympy/core/tests/test_arit.py",
+            "sympy/core/tests/test_expr.py",
+            "sympy/core/tests/test_operations.py"
+        ],
+        "suspicious_funcs": {
+            "sympy/polys/polytools.py": [
+                "Poly",
+                "Poly.__rmul__",
+                "Poly.__mul__"
+            ],
+            "sympy/core/mul.py": [
+                "Mul",
+                "Mul.flatten"
+            ],
+            "sympy/polys/polyclasses.py": [
+                "DMP",
+                "DMP.__mul__",
+                "DMP.__rmul__"
+            ]
+        }
+    },
+    "sympy__sympy-20801": {
+        "selected_test_files": [
+            "sympy/core/tests/test_expr.py",
+            "sympy/core/tests/test_numbers.py",
+            "sympy/core/tests/test_relational.py",
+            "sympy/core/tests/test_basic.py",
+            "sympy/core/tests/test_equal.py",
+            "sympy/core/tests/test_sympify.py",
+            "sympy/core/tests/test_eval.py",
+            "sympy/core/tests/test_evalf.py",
+            "sympy/core/tests/test_arit.py",
+            "sympy/core/tests/test_logic.py"
+        ],
+        "suspicious_funcs": {
+            "sympy/core/relational.py": [
+                "Equality",
+                "_eval_is_eq"
+            ],
+            "sympy/core/expr.py": [
+                "Expr"
+            ],
+            "sympy/core/numbers.py": [
+                "Float",
+                "Zero",
+                "One",
+                "NegativeOne",
+                "Infinity",
+                "NegativeInfinity",
+                "NaN",
+                "ComplexInfinity",
+                "NumberSymbol"
+            ]
+        }
     }
 }
