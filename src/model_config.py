@@ -2,6 +2,7 @@ import os
 import openai
 import anthropic
 import time
+from openai import OpenAI
 
 def prompt_model(model_name, prompt, temperature=0.8):
     print(f"Using model: {model_name}; temperature: {temperature}")
@@ -24,7 +25,7 @@ def prompt_model(model_name, prompt, temperature=0.8):
     else:
         client = openai.OpenAI(
             api_key=os.environ["OPENAI_API_KEY"],
-            base_url=os.environ["MODEL_SERVING_URL"],
+            # base_url=os.environ["MODEL_SERVING_URL"],
         )
 
         response = client.chat.completions.create(

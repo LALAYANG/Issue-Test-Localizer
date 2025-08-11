@@ -18,7 +18,7 @@ def get_test_modules(norm_info):
     return modules
 
 
-def run_coverage_docker(instance_id, test_methods, cov_dir, max_workers="4"):
+def run_coverage_docker(instance_id, test_methods, cov_dir, dataset_name, max_workers="4"):
     print(
         f"Running coverage for instance {instance_id} with {len(test_methods)} test methods"
     )
@@ -27,7 +27,7 @@ def run_coverage_docker(instance_id, test_methods, cov_dir, max_workers="4"):
         "-m",
         "swebench.harness.run_evaluation",
         "--dataset_name",
-        "princeton-nlp/SWE-bench_Verified",
+        dataset_name, #"princeton-nlp/SWE-bench_Verified"
         "--predictions_path",
         "gold",
         "--max_workers",
@@ -56,10 +56,14 @@ if __name__ == "__main__":
 
     args = sys.argv[1:]
     dataset_name = args[0]  #'princeton-nlp/SWE-bench_Verified'
-    coverage_dir = args[1]
-    suspicious_funcs_file = args[2]
-    selected_tests_file = args[3]
-
+    suspicious_funcs_file = args[1]
+    selected_tests_file = args[2]
+    model_name = args[3]
+    
+    coverage_dir = f"coverage_results_{dataset_name.split('/')[-1]}_{model_name}"
+    if not os.path.exists(coverage_dir):
+        os.makedirs(coverage_dir)
+    
     dataset = load_dataset(dataset_name)
     dataset = dataset["test"]
     norm_data = read_json_to_dict(suspicious_funcs_file)
@@ -67,7 +71,7 @@ if __name__ == "__main__":
 
     def process_item(item):
         instance_id = item["instance_id"]
-        res_dir = f"{coverage_dir}/{instance_id}/.coveragerc"
+        res_dir = f"{coverage_dir}/{instance_id}/{instance_id}_coverage"
         if not os.path.exists(coverage_dir):
             os.makedirs(coverage_dir)
         if os.path.exists(res_dir):
@@ -80,13 +84,13 @@ if __name__ == "__main__":
         test_files = selected_tests[instance_id]["selected_test_files"]
         # modules = get_test_modules(suspicious_funcs)
 
-        run_coverage_docker(instance_id, test_files, coverage_dir)
+        run_coverage_docker(instance_id, test_files, coverage_dir, dataset_name)
 
-    with ProcessPoolExecutor(max_workers=7) as executor:
+    with ProcessPoolExecutor(max_workers=5) as executor:
         futures = [
             executor.submit(process_item, item)
             for item in dataset
-            if "django" not in item["instance_id"]
+            # if item['instance_id'] == "django__django-10097"
         ]  #
         # if item['instance_id'] == "django__django-10097"
 
