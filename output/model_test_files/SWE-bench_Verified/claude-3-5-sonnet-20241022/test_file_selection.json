@@ -13272,5 +13272,80 @@
                 "NumberSymbol"
             ]
         }
+    },
+    "pydata__xarray-7229": {
+        "selected_test_files": [
+            "xarray/tests/test_computation.py",
+            "xarray/tests/test_variable.py",
+            "xarray/tests/test_dataarray.py",
+            "xarray/tests/test_dataset.py",
+            "xarray/tests/test_duck_array_ops.py",
+            "xarray/tests/test_merge.py",
+            "xarray/tests/test_missing.py",
+            "xarray/tests/test_tutorial.py",
+            "xarray/tests/test_indexing.py",
+            "xarray/tests/test_utils.py"
+        ],
+        "suspicious_funcs": {
+            "xarray/core/computation.py": [
+                "where"
+            ],
+            "xarray/core/variable.py": [
+                "Variable",
+                "IndexVariable"
+            ],
+            "xarray/core/dataarray.py": [
+                "DataArray"
+            ]
+        }
+    },
+    "pydata__xarray-7233": {
+        "selected_test_files": [
+            "xarray/tests/test_coarsen.py",
+            "xarray/tests/test_dataset.py",
+            "xarray/tests/test_dataarray.py",
+            "xarray/tests/test_coordinates.py",
+            "xarray/tests/test_rolling.py",
+            "xarray/tests/test_indexing.py",
+            "xarray/tests/test_variable.py",
+            "xarray/tests/test_combine.py",
+            "xarray/tests/test_computation.py",
+            "xarray/tests/test_merge.py"
+        ],
+        "suspicious_funcs": {
+            "xarray/core/rolling.py": [
+                "DataArrayCoarsen",
+                "DatasetCoarsen",
+                "Coarsen"
+            ],
+            "xarray/core/dataset.py": [
+                "Dataset"
+            ],
+            "xarray/core/coordinates.py": [
+                "DatasetCoordinates"
+            ]
+        }
+    },
+    "sphinx-doc__sphinx-9367": {
+        "selected_test_files": [
+            "tests/test_pycode_ast.py",
+            "tests/test_pycode.py",
+            "tests/test_pycode_parser.py",
+            "tests/test_markup.py",
+            "tests/test_parser.py",
+            "tests/test_util_docstrings.py",
+            "tests/test_util_rst.py",
+            "tests/test_build_text.py",
+            "tests/test_build_html.py",
+            "tests/test_domain_py.py"
+        ],
+        "suspicious_funcs": {
+            "sphinx/pycode/ast.py": [
+                "_UnparseVisitor",
+                "visit_Tuple"
+            ],
+            "sphinx/pygments_styles.py": [],
+            "sphinx/highlighting.py": []
+        }
     }
 }
