@@ -1,10 +1,11 @@
 import os
 import openai
 import anthropic
-
+import time
 
 def prompt_model(model_name, prompt, temperature=0.8):
     print(f"Using model: {model_name}; temperature: {temperature}")
+    # time.sleep(20)  # avoid rate limiting
     if "claude" in model_name.lower():
         client = anthropic.Anthropic(
             api_key=os.environ["OPENAI_API_KEY"],
