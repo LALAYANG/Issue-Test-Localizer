@@ -235,7 +235,7 @@ def get_func_lines_code(repo, base_commit, file, fq_funcs, repo_base_dir = "temp
 def query_coverage_data(
     instance_id, tests, modified_file, modified_lines, cov_dir_base, logger
 ):
-    print(modified_file, modified_lines)
+    # print(modified_file, modified_lines)
     cov_dir = os.path.join(cov_dir_base, instance_id)
     if not os.path.exists(cov_dir):
         logger.info(
@@ -314,9 +314,16 @@ def minimize_tests(line_to_tests, file, func, function_body, logger, filtered_te
             if len(candidates) <= 3:
                 chosen_test = candidates
             else:
-                chosen_test = prompt_model_to_select_test(
-                    candidates, file, func, function_body, logger, model_name
-                )
+                try:
+                    chosen_test = prompt_model_to_select_test(
+                        candidates, file, func, function_body, logger, model_name
+                    )
+                except Exception as e:
+                    logger.error(f"Error occurred while prompting model: {e}")
+                    logger.error(f"Remove function body due to token limits")
+                    chosen_test = prompt_model_to_select_test(
+                        candidates, file, func, {}, logger, model_name
+                    )
             selected_tests.extend(chosen_test)
             for test in chosen_test:
                 uncovered_lines -= test_to_lines[test]
@@ -405,6 +412,8 @@ def main(coverage_dir, test_log_dir, suspicious_info, dataset, log_dir, model_na
         if instance_id in prev_results:
             print(f"Skipping {log_file} for instance {instance_id} (already processed)")
             continue
+        # if instance_id != "astropy__astropy-12907":
+        #     continue
         print(f"Processing {log_file} for instance {instance_id}")
         test_results = parse_test_results(log_file)
         passed_tests = test_results['PASS']
