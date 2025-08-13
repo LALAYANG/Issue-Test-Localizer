@@ -430,7 +430,7 @@ def main(coverage_dir, test_log_dir, suspicious_info, dataset, log_dir, model_na
         if instance_id in prev_results and instance_id not in refix:
             print(f"Skipping {log_file} for instance {instance_id} (already processed)")
             continue
-        # if instance_id != "astropy__astropy-12907":
+        # if instance_id != "django__django-14855":
         #     continue
         print(f"Processing {log_file} for instance {instance_id}")
         test_results = parse_test_results(log_file)
