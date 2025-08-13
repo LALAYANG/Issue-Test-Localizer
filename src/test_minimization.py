@@ -369,6 +369,10 @@ def process_instance(
             result = query_coverage_data(
                 instance_id, tests, file, lines, cov_dir, logger
             )
+            
+            if result == None:
+                logger.warning(f"No coverage data found for {file}:{lines}")
+                continue
 
             for line, tests_list in result.items():
                 key = (file, line)
@@ -408,8 +412,11 @@ def process_instance(
 
 def main(coverage_dir, test_log_dir, suspicious_info, dataset, log_dir, model_name, result_json, prev_results):
     test_logs = get_log_file(test_log_dir)
+    refix = ['astropy__astropy-14995', 'django__django-11019', 'django__django-11742', 'django__django-13230', 'django__django-13447', 'django__django-13710', 'django__django-14155', 'django__django-14672', 'django__django-14730', 'django__django-14999', 'django__django-15213', 'django__django-15320', 'django__django-16041', 'matplotlib__matplotlib-23562', 'matplotlib__matplotlib-23563', 'matplotlib__matplotlib-23913', 'matplotlib__matplotlib-25079', 'matplotlib__matplotlib-25442', 'matplotlib__matplotlib-26020', 'mwaskom__seaborn-2848', 'psf__requests-2148', 'psf__requests-2674', 'pytest-dev__pytest-5103', 'pytest-dev__pytest-5692', 'scikit-learn__scikit-learn-10297', 'scikit-learn__scikit-learn-10508', 'scikit-learn__scikit-learn-12471', 'scikit-learn__scikit-learn-13241', 'scikit-learn__scikit-learn-14087', 'scikit-learn__scikit-learn-25747', 'sympy__sympy-12481', 'sympy__sympy-13471', 'sympy__sympy-13480', 'sympy__sympy-14396', 'sympy__sympy-15308', 'sympy__sympy-16792', 'sympy__sympy-18621', 'sympy__sympy-21614', 'sympy__sympy-23117', 'sympy__sympy-23191', 'sympy__sympy-24909']
+
+    print(f"{len(refix)} instances to rerun")
     for instance_id, log_file in test_logs.items():
-        if instance_id in prev_results:
+        if instance_id in prev_results and instance_id not in refix:
             print(f"Skipping {log_file} for instance {instance_id} (already processed)")
             continue
         # if instance_id != "astropy__astropy-12907":
@@ -420,10 +427,12 @@ def main(coverage_dir, test_log_dir, suspicious_info, dataset, log_dir, model_na
         all_selected_tests = process_instance(instance_id, passed_tests, suspicious_info, coverage_dir, log_dir, dataset, model_name, result_json)
         if instance_id not in prev_results:
             prev_results[instance_id] = all_selected_tests
+        elif instance_id in refix:
+            prev_results[instance_id] = all_selected_tests
             
         with open(result_json, "w") as file:
             json.dump(prev_results, file, indent=4)
-        exit(0)
+        # exit(0)
 
 def read_json_file(file_path):
     with open(file_path, "r") as file:
@@ -478,8 +487,6 @@ if __name__ == "__main__":
     datasetname = args.datasetname
     log_dir = args.log_dir
     model_name = args.model_name
-
-    
 
     suspicious_info = read_json_file(suspicious_json)
     log_dir = os.path.join(log_dir, datasetname.split("/")[-1], coverage_dir.replace("/", ""))
