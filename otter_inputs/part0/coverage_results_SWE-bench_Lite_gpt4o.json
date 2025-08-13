@@ -3,24 +3,25 @@
     "instance_id": "django__django-10914",
     "file_function": {
       "file_storage/tests.py": [
-        "test_base_url",
-        "test_race_condition",
-        "test_file_get_accessed_time_timezone",
-        "test_delete_deletes_directories",
-        "test_setting_changed",
         "test_remove_race_handling",
+        "test_file_get_accessed_time_timezone",
+        "test_setting_changed",
+        "test_file_get_created_time_timezone",
         "test_files",
-        "test_save_doesnt_close",
-        "test_file_get_created_time_timezone"
+        "test_delete_deletes_directories",
+        "test_base_url",
+        "test_race_condition"
+      ],
+      "file_uploads/tests.py": [
+        "test_not_a_directory"
+      ],
+      "model_fields/test_filefield.py": [
+        "test_move_temporary_file"
       ],
       "staticfiles_tests/test_storage.py": [
         "test_collect_static_files_subclass_of_static_storage",
-        "test_collect_static_files_permissions",
-        "test_file_change_after_collectstatic"
-      ],
-      "file_uploads/tests.py": [
-        "test_not_a_directory",
-        "test_large_upload"
+        "test_file_change_after_collectstatic",
+        "test_collect_static_files_permissions"
       ]
     }
   },
@@ -28,20 +29,20 @@
     "instance_id": "sympy__sympy-13480",
     "file_function": {
       "sympy/functions/elementary/tests/test_hyperbolic.py": [
-        "test_coth",
-        "test_simplifications"
+        "test_simplifications",
+        "test_coth"
       ]
     }
   },
   {
     "instance_id": "django__django-16139",
     "file_function": {
-      "auth_tests/test_forms.py": [
-        "test_bug_17944_empty_password",
-        "test_username_validity"
-      ],
       "auth_tests/test_views.py": [
         "test_user_change_password"
+      ],
+      "auth_tests/test_forms.py": [
+        "test_username_validity",
+        "test_bug_17944_empty_password"
       ]
     }
   },
@@ -59,9 +60,9 @@
     "instance_id": "sympy__sympy-18621",
     "file_function": {
       "sympy/matrices/expressions/tests/test_blockmatrix.py": [
-        "test_bc_dist_diag",
+        "test_BlockDiagMatrix",
         "test_block_plus_ident",
-        "test_BlockDiagMatrix"
+        "test_bc_dist_diag"
       ]
     }
   },
@@ -69,11 +70,11 @@
     "instance_id": "scikit-learn__scikit-learn-25638",
     "file_function": {
       "sklearn/utils/tests/test_multiclass.py": [
-        "test_unique_labels_mixed_types",
-        "test_type_of_target",
+        "test_type_of_target_pandas_sparse",
         "test_unique_labels_non_specific",
+        "test_type_of_target",
         "test_unique_labels",
-        "test_type_of_target_pandas_sparse"
+        "test_unique_labels_mixed_types"
       ]
     }
   },
@@ -81,9 +82,11 @@
     "instance_id": "django__django-14855",
     "file_function": {
       "admin_views/tests.py": [
+        "test_readonly_text_field",
         "test_label_suffix_translated",
-        "test_view_subtitle_per_object",
+        "test_readonly_get",
         "test_readonly_manytomany_forwards_ref",
+        "test_view_subtitle_per_object",
         "test_view"
       ]
     }
@@ -94,8 +97,8 @@
       "lib/mpl_toolkits/tests/test_mplot3d.py": [
         "test_poly_collection_2d_to_3d_empty",
         "test_poly3dcollection_verts_validation",
-        "test_poly3dcollection_closed",
-        "test_poly3dcollection_alpha"
+        "test_poly3dcollection_alpha",
+        "test_poly3dcollection_closed"
       ]
     }
   },
@@ -103,9 +106,9 @@
     "instance_id": "scikit-learn__scikit-learn-25747",
     "file_function": {
       "sklearn/tests/test_pipeline.py": [
-        "test_feature_union_parallel",
-        "test_set_feature_union_step_drop",
         "test_feature_union_set_output",
+        "test_set_feature_union_step_drop",
+        "test_feature_union_parallel",
         "test_feature_union"
       ]
     }
@@ -114,29 +117,31 @@
     "instance_id": "sympy__sympy-14396",
     "file_function": {
       "sympy/polys/tests/test_polytools.py": [
-        "test_Poly__new__",
-        "test_Poly_set_domain"
+        "test_Poly_set_domain",
+        "test_Poly__new__"
       ],
       "sympy/polys/tests/test_modulargcd.py": [
         "test_to_ZZ_ANP_poly",
-        "test_modgcd_func_field",
         "test_modgcd_algebraic_field"
       ],
       "sympy/polys/tests/test_polyoptions.py": [
         "test_Domain_preprocess"
+      ],
+      "sympy/polys/tests/test_fields.py": [
+        "test_FracElement___div__"
       ]
     }
   },
   {
     "instance_id": "sympy__sympy-13773",
     "file_function": {
+      "sympy/matrices/expressions/tests/test_matexpr.py": [
+        "test_multiplication"
+      ],
       "sympy/matrices/expressions/tests/test_matmul.py": [
-        "test_remove_ids",
+        "test_xxinv",
         "test_refine",
         "test_matmul_no_matrices"
-      ],
-      "sympy/matrices/expressions/tests/test_matexpr.py": [
-        "test_Identity"
       ]
     }
   },
@@ -144,54 +149,62 @@
     "instance_id": "django__django-11019",
     "file_function": {
       "forms_tests/tests/test_media.py": [
-        "test_form_media",
-        "test_merge_warning"
+        "test_merge_warning",
+        "test_form_media"
       ]
     }
   },
   {
     "instance_id": "django__django-13925",
     "file_function": {
-      "model_inheritance/test_abstract_inheritance.py": [
-        "test_multi_inheritance_field_clashes",
-        "test_virtual_field",
-        "test_cannot_override_indirect_abstract_field",
-        "test_override_one2one_relation_auto_field_clashes"
+      "model_regress/tests.py": [
+        "test_get_next_prev_by_field_unsaved",
+        "test_model_init_too_many_args",
+        "test_get_next_prev_by_field",
+        "test_empty_choice"
       ],
       "model_inheritance/tests.py": [
         "test_unique",
         "test_init_subclass",
-        "test_abstract_parent_link",
         "test_eq",
+        "test_update_inherited_model",
         "test_inherited_ordering_pk_desc",
+        "test_abstract_parent_link",
         "test_unique_together",
         "test_related_objects_for_inherited_models"
       ],
-      "model_regress/tests.py": [
-        "test_get_next_prev_by_field_unsaved",
-        "test_empty_choice",
-        "test_model_init_too_many_args",
-        "test_get_next_prev_by_field"
+      "model_fields/test_integerfield.py": [
+        "test_types"
+      ],
+      "model_inheritance/test_abstract_inheritance.py": [
+        "test_override_one2one_relation_auto_field_clashes",
+        "test_virtual_field",
+        "test_multi_inheritance_field_clashes",
+        "test_cannot_override_indirect_abstract_field"
       ],
       "check_framework/test_model_checks.py": [
-        "test_no_collision_abstract_model_interpolation",
         "test_auto_created_pk",
+        "test_collision_across_apps",
         "test_collision_abstract_model",
+        "test_collision_in_same_model",
         "test_no_collision_for_proxy_models"
+      ],
+      "model_fields/tests.py": [
+        "test_overriding_inherited_FIELD_display"
       ]
     }
   },
   {
     "instance_id": "matplotlib__matplotlib-25079",
     "file_function": {
+      "lib/matplotlib/tests/test_colors.py": [
+        "test_scalarmappable_norm_update"
+      ],
       "lib/matplotlib/tests/test_axes.py": [
         "test_imshow_norm_vminvmax"
       ],
       "lib/matplotlib/tests/test_colorbar.py": [
         "test_colorbar_renorm"
-      ],
-      "lib/matplotlib/tests/test_collections.py": [
-        "test_quadmesh_alpha_array"
       ]
     }
   },
@@ -201,35 +214,36 @@
       "tests/lint/unittest_lint.py": [
         "test_init_hooks_called_before_load_plugins"
       ],
-      "tests/config/test_config.py": [
-        "test_unknown_short_option_name",
-        "test_unknown_option_name"
-      ],
       "tests/test_pylint_runners.py": [
         "test_runner_with_arguments",
         "test_runner"
       ],
+      "tests/config/test_functional_config_loading.py": [
+        "test_functional_config_loading"
+      ],
       "tests/test_functional.py": [
         "test_functional"
       ],
-      "tests/config/test_functional_config_loading.py": [
-        "test_functional_config_loading"
+      "tests/config/test_config.py": [
+        "test_unknown_short_option_name",
+        "test_unknown_option_name"
       ]
     }
   },
   {
     "instance_id": "django__django-12308",
     "file_function": {
-      "admin_widgets/tests.py": [
-        "test_readonly_fields"
+      "admin_utils/tests.py": [
+        "test_null_display_for_field",
+        "test_number_formats_display_for_field"
       ],
       "admin_views/tests.py": [
         "test_multiple_sort_same_field",
+        "test_change_form_renders_correct_null_choice_value",
         "test_view"
       ],
-      "admin_utils/tests.py": [
-        "test_number_formats_display_for_field",
-        "test_null_display_for_field"
+      "admin_widgets/tests.py": [
+        "test_readonly_fields"
       ]
     }
   },
@@ -237,8 +251,11 @@
     "instance_id": "django__django-15320",
     "file_function": {
       "expressions/tests.py": [
-        "test_aggregate_subquery_annotation",
+        "test_nested_subquery",
         "test_subquery"
+      ],
+      "aggregation/tests.py": [
+        "test_aggregation_nested_subquery_outerref"
       ]
     }
   },
@@ -254,11 +271,9 @@
     "instance_id": "django__django-11179",
     "file_function": {
       "delete/tests.py": [
-        "test_delete_with_keeping_parents_relationships",
+        "test_cascade",
+        "test_delete_with_keeping_parents",
         "test_bulk"
-      ],
-      "delete_regress/tests.py": [
-        "test_to_field"
       ]
     }
   },
@@ -279,8 +294,8 @@
     "instance_id": "django__django-11815",
     "file_function": {
       "migrations/test_writer.py": [
-        "test_serialize_class_based_validators",
-        "test_serialize_enums"
+        "test_serialize_enums",
+        "test_serialize_class_based_validators"
       ]
     }
   },
@@ -289,51 +304,51 @@
     "file_function": {
       "model_fields/tests.py": [
         "test_field_repr",
-        "test_flatchoices",
         "test_formfield",
-        "test_invalid_choice",
-        "test_blank_in_grouped_choices",
-        "test_check",
         "test_get_choices",
-        "test_field_str"
+        "test_field_str",
+        "test_check",
+        "test_invalid_choice",
+        "test_flatchoices",
+        "test_choices_and_field_display"
+      ],
+      "model_fields/test_booleanfield.py": [
+        "test_select_related",
+        "test_booleanfield_choices_blank",
+        "test_return_type"
       ],
       "model_fields/test_foreignkey.py": [
-        "test_warning_when_unique_true_on_fk",
         "test_abstract_model_app_relative_foreign_key",
-        "test_empty_string_fk"
-      ],
-      "model_fields/test_charfield.py": [
-        "test_max_length_passed_to_formfield",
-        "test_charfield_with_choices_cleans_valid_choice",
-        "test_charfield_with_choices_raises_error_on_invalid_choice",
-        "test_charfield_raises_error_on_empty_string",
-        "test_charfield_raises_error_on_empty_input",
-        "test_charfield_cleans_empty_string_when_blank_true"
-      ],
-      "model_fields/test_integerfield.py": [
-        "test_choices_validation_supports_named_groups",
-        "test_nullable_integerfield_cleans_none_on_null_and_blank_true",
-        "test_enum_choices_invalid_input",
-        "test_documented_range"
-      ],
-      "model_fields/test_promises.py": [
-        "test_CharField"
+        "test_warning_when_unique_true_on_fk"
       ],
       "field_defaults/tests.py": [
         "test_field_defaults"
       ],
-      "model_fields/test_booleanfield.py": [
-        "test_booleanfield_choices_blank",
-        "test_return_type",
-        "test_select_related"
+      "model_fields/test_integerfield.py": [
+        "test_documented_range",
+        "test_nullable_integerfield_cleans_none_on_null_and_blank_true",
+        "test_choices_validation_supports_named_groups",
+        "test_nullable_integerfield_raises_error_with_blank_false",
+        "test_enum_choices_invalid_input"
       ],
       "model_fields/test_field_flags.py": [
         "test_hidden_flag"
+      ],
+      "model_fields/test_charfield.py": [
+        "test_max_length_passed_to_formfield",
+        "test_charfield_raises_error_on_empty_string",
+        "test_charfield_raises_error_on_empty_input",
+        "test_enum_choices_cleans_valid_string",
+        "test_charfield_with_choices_cleans_valid_choice",
+        "test_charfield_with_choices_raises_error_on_invalid_choice"
       ],
       "field_deconstruction/tests.py": [
         "test_file_field",
         "test_char_field_choices",
         "test_foreign_key"
+      ],
+      "model_fields/test_promises.py": [
+        "test_CharField"
       ]
     }
   },
@@ -352,13 +367,13 @@
     "instance_id": "django__django-11133",
     "file_function": {
       "httpwrappers/tests.py": [
-        "test_iter_content",
+        "test_not_modified_repr",
         "test_stream_interface",
-        "test_not_modified_repr"
+        "test_iter_content"
       ],
       "responses/tests.py": [
-        "test_repr_no_content_type",
-        "test_repr"
+        "test_repr",
+        "test_repr_no_content_type"
       ]
     }
   },
@@ -366,8 +381,15 @@
     "instance_id": "django__django-15252",
     "file_function": {
       "backends/base/test_creation.py": [
-        "test_migrate_test_setting_true",
-        "test_migrate_test_setting_false"
+        "test_migrate_test_setting_false",
+        "test_migrate_test_setting_true"
+      ],
+      "migrations/test_executor.py": [
+        "test_migrate_marks_replacement_unapplied"
+      ],
+      "migrations/test_commands.py": [
+        "test_migrate_not_reflected_changes",
+        "test_migrate_backward_to_squashed_migration"
       ]
     }
   },
@@ -391,15 +413,17 @@
     "instance_id": "django__django-14608",
     "file_function": {
       "forms_tests/tests/test_formsets.py": [
-        "test_formset_total_error_count_with_non_form_errors",
-        "test_management_form_invalid_data",
-        "test_customize_management_form_error",
-        "test_no_data_error",
         "test_formset_validate_min_excludes_empty_forms",
-        "test_absolute_max"
+        "test_absolute_max",
+        "test_management_form_invalid_data",
+        "test_disable_delete_extra_formset_forms",
+        "test_formset_total_error_count_with_non_form_errors",
+        "test_no_data_error",
+        "test_customize_management_form_error"
       ],
       "model_formsets/tests.py": [
-        "test_modelformset_validate_max_flag"
+        "test_modelformset_validate_max_flag",
+        "test_simple_save"
       ]
     }
   },
@@ -417,58 +441,60 @@
   {
     "instance_id": "sympy__sympy-13895",
     "file_function": {
-      "sympy/core/tests/test_arit.py": [
-        "test_Pow_is_negative_positive",
-        "test_Pow_is_zero",
-        "test_Pow_is_even_odd",
-        "test_Pow_is_real",
-        "test_pow_E",
-        "test_Pow_is_integer",
-        "test_Mod",
-        "test_Add_is_negative_positive",
-        "test_Pow_is_nonpositive_nonnegative"
-      ],
-      "sympy/simplify/tests/test_powsimp.py": [
-        "test_powsimp",
-        "test_powdenest"
-      ],
-      "sympy/simplify/tests/test_simplify.py": [
-        "test_simplify_function_inverse",
-        "test_simplify_rational",
-        "test_Piecewise",
-        "test_besselsimp",
-        "test_nsimplify",
-        "test_separatevars",
-        "test_issue_9448",
-        "test_simplify_measure",
-        "test_hypersimp",
-        "test_issue_5652"
-      ],
       "sympy/core/tests/test_expr.py": [
-        "test_equals",
-        "test_is_polynomial",
-        "test_is_constant",
-        "test_is_rational_function",
         "test_is_algebraic_expr",
-        "test_action_verbs",
+        "test_is_constant",
         "test_round",
-        "test_issue_11877"
+        "test_action_verbs",
+        "test_equals",
+        "test_is_rational_function",
+        "test_is_polynomial"
       ],
       "sympy/core/tests/test_eval_power.py": [
+        "test_expand",
         "test_issue_7638",
-        "test_issue_6429",
         "test_issue_6782",
         "test_issue_6653",
+        "test_issue_6429",
         "test_better_sqrt",
-        "test_expand",
-        "test_issue_8582",
-        "test_issue_4362"
+        "test_issue_4362",
+        "test_issue_8582"
+      ],
+      "sympy/core/tests/test_arit.py": [
+        "test_Pow_is_negative_positive",
+        "test_Add_is_negative_positive",
+        "test_Pow_is_even_odd",
+        "test_Mod",
+        "test_Pow_is_real",
+        "test_pow_E",
+        "test_Pow_is_nonpositive_nonnegative",
+        "test_Pow_is_integer",
+        "test_Pow_is_zero"
+      ],
+      "sympy/simplify/tests/test_simplify.py": [
+        "test_besselsimp",
+        "test_separatevars",
+        "test_nsimplify",
+        "test_simplify_ratio",
+        "test_hypersimp",
+        "test_issue_9448",
+        "test_simplify_function_inverse",
+        "test_simplify_expr",
+        "test_issue_5652",
+        "test_simplify_rational"
       ],
       "sympy/core/tests/test_numbers.py": [
         "test_NaN"
       ],
       "sympy/core/tests/test_function.py": [
         "test_function__eval_nseries"
+      ],
+      "sympy/simplify/tests/test_powsimp.py": [
+        "test_powdenest",
+        "test_powsimp"
+      ],
+      "sympy/simplify/tests/test_radsimp.py": [
+        "test_issue_5933"
       ]
     }
   },
@@ -476,12 +502,12 @@
     "instance_id": "scikit-learn__scikit-learn-14087",
     "file_function": {
       "sklearn/linear_model/tests/test_logistic.py": [
-        "test_penalty_none",
         "test_LogisticRegressionCV_no_refit",
-        "test_error",
-        "test_l1_ratios_param",
+        "test_penalty_none",
         "test_logistic_regressioncv_class_weights",
-        "test_LogisticRegressionCV_GridSearchCV_elastic_net"
+        "test_LogisticRegressionCV_GridSearchCV_elastic_net",
+        "test_l1_ratios_param",
+        "test_error"
       ],
       "sklearn/tests/test_common.py": [
         "test_estimators",
@@ -494,8 +520,8 @@
     "file_function": {
       "sympy/integrals/tests/test_intpoly.py": [
         "test_decompose",
-        "test_best_origin",
-        "test_polytope_integrate"
+        "test_polytope_integrate",
+        "test_best_origin"
       ]
     }
   },
@@ -507,21 +533,21 @@
     "instance_id": "sympy__sympy-20322",
     "file_function": {
       "sympy/simplify/tests/test_simplify.py": [
-        "test_simplify_expr",
-        "test_simplify_ratio",
-        "test_besselsimp",
-        "test_simplify_kroneckerdelta",
-        "test_issue_15965",
-        "test_simplify_function_inverse",
-        "test_issue_19484",
-        "test_issue_7001",
         "test_simplify_rational",
-        "test_issue_6811"
+        "test_issue_19484",
+        "test_issue_15965",
+        "test_simplify_ratio",
+        "test_issue_6811",
+        "test_simplify_expr",
+        "test_issue_7001",
+        "test_simplify_kroneckerdelta",
+        "test_besselsimp",
+        "test_simplify_function_inverse"
       ],
       "sympy/core/tests/test_sympify.py": [
-        "test_sympify_raises",
+        "test__sympify",
         "test_sympify1",
-        "test__sympify"
+        "test_sympify_raises"
       ],
       "sympy/core/tests/test_expr.py": [
         "test_equals",
@@ -532,8 +558,8 @@
   {
     "instance_id": "django__django-14238",
     "file_function": {
-      "model_inheritance/tests.py": [
-        "test_abstract_parent_link"
+      "model_options/test_default_pk.py": [
+        "test_app_default_auto_field"
       ],
       "model_fields/test_autofield.py": [
         "test_isinstance_of_autofield",
@@ -553,7 +579,8 @@
     "instance_id": "django__django-16041",
     "file_function": {
       "forms_tests/tests/test_formsets.py": [
-        "test_form_kwargs_empty_form"
+        "test_form_kwargs_empty_form",
+        "test_empty_forms_are_unbound"
       ]
     }
   },
@@ -561,19 +588,19 @@
     "instance_id": "sympy__sympy-21847",
     "file_function": {
       "sympy/polys/tests/test_monomials.py": [
-        "test_monomials",
-        "test_monomial_count"
+        "test_monomial_count",
+        "test_monomials"
       ]
     }
   },
   {
     "instance_id": "pylint-dev__pylint-5859",
     "file_function": {
-      "tests/lint/test_utils.py": [
-        "test_issue_template_on_fatal_errors"
-      ],
       "tests/test_func.py": [
         "test_functionality"
+      ],
+      "tests/lint/test_utils.py": [
+        "test_issue_template_on_fatal_errors"
       ],
       "tests/test_functional.py": [
         "test_functional"
@@ -582,16 +609,22 @@
   },
   {
     "instance_id": "psf__requests-2317",
-    "file_function": {}
+    "file_function": {
+      "test_requests.py": [
+        "test_request_and_response_are_pickleable",
+        "test_stream_timeout",
+        "test_status_raising"
+      ]
+    }
   },
   {
     "instance_id": "django__django-13768",
     "file_function": {
       "dispatch/tests.py": [
-        "test_send_robust_no_receivers",
-        "test_send_robust_fail",
         "test_send_robust_success",
-        "test_send_robust_ignored_sender"
+        "test_send_robust_ignored_sender",
+        "test_send_robust_no_receivers",
+        "test_send_robust_fail"
       ]
     }
   },
@@ -599,8 +632,8 @@
     "instance_id": "sympy__sympy-16792",
     "file_function": {
       "sympy/utilities/tests/test_autowrap.py": [
-        "test_cython_wrapper_compile_flags",
-        "test_autowrap_args"
+        "test_autowrap_args",
+        "test_cython_wrapper_compile_flags"
       ]
     }
   },
@@ -608,16 +641,14 @@
     "instance_id": "sympy__sympy-12481",
     "file_function": {
       "sympy/combinatorics/tests/test_permutations.py": [
-        "test_ranking",
-        "test_mul",
+        "test_args",
         "test_Permutation",
-        "test_args"
+        "test_mul"
       ],
       "sympy/combinatorics/tests/test_perm_groups.py": [
-        "test_center"
-      ],
-      "sympy/combinatorics/tests/test_named_groups.py": [
-        "test_DihedralGroup"
+        "test_center",
+        "test_baseswap",
+        "test_is_primitive"
       ]
     }
   },
@@ -625,9 +656,9 @@
     "instance_id": "sympy__sympy-19254",
     "file_function": {
       "sympy/polys/tests/test_factortools.py": [
-        "test_dmp_zz_mignotte_bound",
+        "test_dmp_factor_list",
         "test_dup_zz_mignotte_bound",
-        "test_dmp_zz_factor"
+        "test_dmp_zz_mignotte_bound"
       ]
     }
   },
@@ -635,9 +666,9 @@
     "instance_id": "sympy__sympy-24066",
     "file_function": {
       "sympy/physics/units/tests/test_quantities.py": [
+        "test_check_unit_consistency",
         "test_factor_and_dimension",
         "test_issue_20288",
-        "test_check_unit_consistency",
         "test_dimensional_expr_of_derivative"
       ]
     }
@@ -645,172 +676,179 @@
   {
     "instance_id": "pydata__xarray-3364",
     "file_function": {
-      "xarray/tests/test_concat.py": [
-        "test_concat_compat",
-        "test_concat_errors",
-        "test_concat"
-      ],
       "xarray/tests/test_dataarray.py": [
         "test_groupby_math"
+      ],
+      "xarray/tests/test_concat.py": [
+        "test_concat",
+        "test_concat_compat",
+        "test_concat_errors"
       ]
     }
   },
   {
     "instance_id": "django__django-15213",
     "file_function": {
+      "queries/test_query.py": [
+        "test_filter_conditional"
+      ],
       "expressions/tests.py": [
         "test_filtering_on_annotate_that_uses_q",
-        "test_subquery_filter_by_aggregate",
-        "test_duration_with_datetime_microseconds"
+        "test_subquery_filter_by_aggregate"
       ],
       "aggregation/tests.py": [
-        "test_coalesced_empty_result_set",
-        "test_values_aggregation",
-        "test_aggregation_default_group_by",
         "test_empty_result_optimization",
-        "test_complex_values_aggregation"
+        "test_annotation",
+        "test_complex_values_aggregation",
+        "test_values_aggregation",
+        "test_coalesced_empty_result_set"
       ],
       "queries/tests.py": [
-        "test_col_alias_quoted",
-        "test_join_reuse_order",
+        "test_distinct_ordered_sliced_subquery",
+        "test_exclude_multivalued_exists",
         "test_distinct_ordered_sliced_subquery_aggregation",
-        "test_distinct_ordered_sliced_subquery"
-      ],
-      "queries/test_query.py": [
-        "test_complex_query"
+        "test_col_alias_quoted"
       ],
       "expressions_case/tests.py": [
-        "test_filter_with_aggregation_in_predicate"
+        "test_filter_with_aggregation_in_value"
       ]
     }
   },
   {
     "instance_id": "pydata__xarray-4094",
     "file_function": {
-      "xarray/tests/test_dataset.py": [
-        "test_coarsen_coords",
-        "test_coarsen",
-        "test_dataset_array_math",
-        "test_to_stacked_array_invalid_sample_dims",
-        "test_chunk",
-        "test_to_stacked_array_to_unstacked_dataset_different_dimension",
-        "test_to_stacked_array_name",
-        "test_unstack_errors",
-        "test_modify_inplace",
-        "test_unstack_sparse",
-        "test_groupby_reduce",
-        "test_dataset_math_errors",
-        "test_to_and_from_dict"
-      ],
-      "xarray/tests/test_sparse.py": [
-        "test_dataarray_property",
-        "test_dataarray_method",
-        "test_variable_method",
-        "test_bivariate_ufunc"
-      ],
-      "xarray/tests/test_dask.py": [
-        "test_shift",
-        "test_to_dask_dataframe_2D",
-        "test_univariate_ufunc",
-        "test_compute",
-        "test_roll",
-        "test_groupby"
-      ],
-      "xarray/tests/test_variable.py": [
-        "test_isel",
-        "test_as_sparse",
-        "test_stack",
-        "test_stack_errors",
-        "test_as_variable",
-        "test_set_dims",
-        "test_getitem_fancy",
-        "test_reduce",
-        "test_roll_consistency",
-        "test_data_and_values",
-        "test_inplace_math",
-        "test_unstack_errors",
-        "test_quantile",
-        "test_reduce_keepdims",
-        "test_shift",
-        "test_coarsen",
-        "test_broadcast_equals",
-        "test_rank_dask_raises",
-        "test_setitem_fancy",
-        "test_rank",
-        "test_equals_and_identical"
+      "xarray/tests/test_backends.py": [
+        "test_dask",
+        "test_open_mfdataset_dataset_attr_by_coords",
+        "test_open_and_do_math",
+        "test_open_mfdataset_dataarray_attr_by_coords"
       ],
       "xarray/tests/test_dataarray.py": [
         "test_pad_stat_length",
-        "test_pad_linear_ramp",
-        "test_shift",
         "test_rank",
-        "test_stack_unstack",
-        "test_fillna",
-        "test_pad_reflect",
+        "test_pad_linear_ramp",
+        "test_isel_fancy",
         "test_quantile",
+        "test_groupby_sum",
+        "test_stack_unstack",
         "test_upsample_interpolate",
-        "test_rolling_reduce",
-        "test_reduce_keepdims_bottleneck"
+        "test_reduce_keepdims_bottleneck",
+        "test_pad_reflect",
+        "test_fillna"
       ],
-      "xarray/tests/test_backends.py": [
-        "test_open_mfdataset_dataarray_attr_by_coords",
-        "test_open_and_do_math"
+      "xarray/tests/test_variable.py": [
+        "test_shift",
+        "test_quantile_dask",
+        "test_quantile",
+        "test_as_variable",
+        "test_no_conflicts",
+        "test_reduce_keepdims",
+        "test_stack_errors",
+        "test_unstack_errors",
+        "test_coarsen",
+        "test_stack",
+        "test_equals_and_identical",
+        "test_data_and_values",
+        "test_getitem_fancy",
+        "test_getitem_1d_fancy",
+        "test_reduce",
+        "test_setitem_fancy",
+        "test_set_dims",
+        "test_as_sparse",
+        "test_rank_dask_raises",
+        "test_roll",
+        "test_inplace_math",
+        "test_roll_consistency"
       ],
-      "xarray/tests/test_merge.py": [
-        "test_merge_wrong_input_error"
+      "xarray/tests/test_dataset.py": [
+        "test_coarsen_coords",
+        "test_resample_drop_nondim_coords",
+        "test_unstack_errors",
+        "test_to_stacked_array_name",
+        "test_to_stacked_array_invalid_sample_dims",
+        "test_chunk",
+        "test_dataset_math_auto_align",
+        "test_coarsen",
+        "test_to_stacked_array_to_unstacked_dataset_different_dimension",
+        "test_to_and_from_dict",
+        "test_unstack_sparse",
+        "test_copy_with_data",
+        "test_dataset_array_math",
+        "test_dataset_math_errors"
+      ],
+      "xarray/tests/test_dask.py": [
+        "test_persist_Dataset",
+        "test_compute",
+        "test_roll",
+        "test_dask_layers_and_dependencies",
+        "test_rolling",
+        "test_reindex",
+        "test_shift",
+        "test_normalize_token_with_backend",
+        "test_persist_DataArray",
+        "test_concat"
+      ],
+      "xarray/tests/test_sparse.py": [
+        "test_dataarray_property",
+        "test_bivariate_ufunc",
+        "test_univariate_ufunc",
+        "test_variable_method"
       ],
       "xarray/tests/test_indexing.py": [
         "test_outer_indexer_consistency_with_broadcast_indexes_vectorized"
+      ],
+      "xarray/tests/test_merge.py": [
+        "test_merge_wrong_input_error"
       ]
     }
   },
   {
     "instance_id": "matplotlib__matplotlib-23299",
     "file_function": {
-      "lib/matplotlib/tests/test_backend_bases.py": [
-        "test_canvas_change"
-      ],
-      "lib/matplotlib/tests/test_axes.py": [
-        "test_rc_tick",
-        "test_reset_grid",
-        "test_rc_major_minor_tick"
-      ],
       "lib/matplotlib/tests/test_figure.py": [
         "test_figure_label"
+      ],
+      "lib/matplotlib/tests/test_axes.py": [
+        "test_rc_major_minor_tick",
+        "test_reset_grid",
+        "test_rc_tick"
+      ],
+      "lib/matplotlib/tests/test_backend_bases.py": [
+        "test_canvas_change"
       ]
     }
   },
   {
     "instance_id": "django__django-13033",
     "file_function": {
-      "ordering/tests.py": [
-        "test_order_by_f_expression_duplicates",
-        "test_order_by_constant_value",
-        "test_reversed_ordering",
-        "test_order_by_ptr_field_with_default_ordering_by_expression",
-        "test_order_by_constant_value_without_output_field",
-        "test_order_by_nulls_first",
-        "test_random_ordering"
-      ],
       "queries/tests.py": [
-        "test_exclude_plain",
         "test_ticket7098",
-        "test_exclude_many_to_many",
-        "test_extra_values_order_twice",
+        "test_combine_join_reuse",
         "test_extra_values",
+        "test_exclude_reverse_fk_field_ref",
+        "test_extra_values_order_twice",
+        "test_extra_values_order_multiple",
         "test_field_error_values_list",
-        "test_ticket_23605",
         "test_infinite_loop",
-        "test_extra_multiple_select_params_values_order_by",
+        "test_ticket1050",
         "test_ordering"
       ],
-      "queries/test_qs_combinators.py": [
-        "test_union_with_values_list_and_order",
-        "test_order_raises_on_non_selected_column"
+      "ordering/tests.py": [
+        "test_order_by_nulls_first",
+        "test_random_ordering",
+        "test_order_by_ptr_field_with_default_ordering_by_expression",
+        "test_order_by_constant_value",
+        "test_order_by_f_expression_duplicates",
+        "test_reversed_ordering",
+        "test_order_by_constant_value_without_output_field"
       ],
       "aggregation/tests.py": [
         "test_aggregate_in_order_by",
         "test_aggregation_order_by_not_selected_annotation_values"
+      ],
+      "queries/test_qs_combinators.py": [
+        "test_union_with_values_list_and_order",
+        "test_order_raises_on_non_selected_column"
       ]
     }
   },
@@ -829,15 +867,18 @@
   {
     "instance_id": "django__django-14580",
     "file_function": {
+      "migrations/test_commands.py": [
+        "test_makemigrations_migrations_modules_nonexistent_toplevel_package",
+        "test_squashmigrations_initial_attribute",
+        "test_makemigrations_default_merge_name",
+        "test_makemigrations_auto_merge_name",
+        "test_files_content"
+      ],
       "migrations/test_writer.py": [
         "test_register_serializer",
-        "test_nested_args_signature",
         "test_nested_operation_expand_args_signature",
+        "test_nested_args_signature",
         "test_migration_path"
-      ],
-      "migrations/test_commands.py": [
-        "test_files_content",
-        "test_makemigrations_migrations_modules_nonexistent_toplevel_package"
       ]
     }
   },
@@ -857,8 +898,8 @@
         "test_save_button"
       ],
       "model_forms/tests.py": [
-        "test_show_hidden_initial_changed_queries_efficiently",
-        "test_model_multiple_choice_field"
+        "test_model_multiple_choice_field",
+        "test_show_hidden_initial_changed_queries_efficiently"
       ],
       "model_forms/test_modelchoicefield.py": [
         "test_disabled_modelmultiplechoicefield_has_changed"
@@ -877,15 +918,15 @@
     "instance_id": "sympy__sympy-21055",
     "file_function": {
       "sympy/assumptions/tests/test_refine.py": [
-        "test_pow1",
         "test_Abs",
         "test_re",
-        "test_sign",
-        "test_im",
-        "test_matrixelement",
         "test_atan2",
+        "test_pow2",
+        "test_sign",
+        "test_pow1",
         "test_refine_issue_12724",
-        "test_pow2"
+        "test_im",
+        "test_matrixelement"
       ]
     }
   },
@@ -893,26 +934,26 @@
     "instance_id": "scikit-learn__scikit-learn-13439",
     "file_function": {
       "sklearn/tests/test_pipeline.py": [
-        "test_pipeline_transform",
-        "test_pipeline_sample_weight_supported",
-        "test_set_pipeline_step_passthrough",
         "test_pipeline_methods_preprocessing_svm",
         "test_pipeline_slice",
-        "test_pipeline_with_cache_attribute",
-        "test_pipeline_init",
         "test_fit_predict_with_intermediate_fit_params",
+        "test_pipeline_with_cache_attribute",
+        "test_pipeline_sample_weight_supported",
+        "test_pipeline_transform",
+        "test_pipeline_init",
         "test_pipeline_memory",
-        "test_classes_property",
-        "test_pipeline_index"
-      ],
-      "sklearn/tests/test_common.py": [
-        "test_estimators"
+        "test_pipeline_index",
+        "test_set_pipeline_step_passthrough",
+        "test_classes_property"
       ],
       "sklearn/model_selection/tests/test_search.py": [
         "test_grid_search_allows_nans"
       ],
       "sklearn/model_selection/tests/test_validation.py": [
         "test_cross_val_score_allow_nans"
+      ],
+      "sklearn/tests/test_common.py": [
+        "test_estimators"
       ]
     }
   },
@@ -920,15 +961,15 @@
     "instance_id": "astropy__astropy-14182",
     "file_function": {
       "astropy/io/ascii/tests/test_write.py": [
-        "test_write_formatted_mixin",
+        "test_write_as_columns",
+        "test_write_overwrite_ascii",
         "test_columns_names_with_formats",
+        "test_commented_header_comments",
         "test_write_table",
         "test_write_fill_values",
-        "test_commented_header_comments",
-        "test_write_overwrite_ascii",
         "test_roundtrip_masked",
         "test_names_with_formats",
-        "test_write_as_columns"
+        "test_write_formatted_mixin"
       ],
       "astropy/io/ascii/tests/test_c_reader.py": [
         "test_embedded_newlines"
@@ -939,16 +980,16 @@
     "instance_id": "pylint-dev__pylint-7228",
     "file_function": {
       "tests/test_self.py": [
-        "test_output_file_specified_in_rcfile",
-        "test_error_missing_arguments",
-        "test_output_file_can_be_combined_with_custom_reporter",
-        "test_version",
-        "test_parallel_execution_missing_arguments",
-        "test_output_file_invalid_path_exits_with_code_32",
-        "test_output_file_can_be_combined_with_output_format_option",
-        "test_no_crash_with_formatting_regex_defaults",
         "test_exit_zero",
-        "test_fail_on_exit_code"
+        "test_output_file_valid_path",
+        "test_parallel_execution_missing_arguments",
+        "test_fail_on",
+        "test_output_file_can_be_combined_with_custom_reporter",
+        "test_output_file_can_be_combined_with_output_format_option",
+        "test_version",
+        "test_stdin_missing_modulename",
+        "test_output_file_invalid_path_exits_with_code_32",
+        "test_error_missing_arguments"
       ],
       "tests/lint/unittest_lint.py": [
         "test_init_hooks_called_before_load_plugins"
@@ -962,12 +1003,12 @@
     "instance_id": "sympy__sympy-16988",
     "file_function": {
       "sympy/sets/tests/test_sets.py": [
-        "test_imageset",
+        "test_intersection",
+        "test_issue_9623",
+        "test_issue_10248",
         "test_Intersection_as_relational",
         "test_issue_Symbol_inter",
-        "test_issue_9623",
-        "test_intersection",
-        "test_issue_10248"
+        "test_imageset"
       ]
     }
   },
@@ -975,13 +1016,17 @@
     "instance_id": "sympy__sympy-15346",
     "file_function": {
       "sympy/simplify/tests/test_simplify.py": [
-        "test_simplify_expr",
-        "test_Piecewise",
+        "test_simplify_rational",
         "test_simplify_ratio",
+        "test_simplify_expr",
         "test_besselsimp",
-        "test_simplify_other",
         "test_simplify_function_inverse",
-        "test_simplify_rational"
+        "test_simplify_other",
+        "test_Piecewise"
+      ],
+      "sympy/core/tests/test_expr.py": [
+        "test_action_verbs",
+        "test_is_constant"
       ],
       "sympy/simplify/tests/test_trigsimp.py": [
         "test_trigsimp_groebner",
@@ -989,30 +1034,37 @@
       ],
       "sympy/matrices/tests/test_matrices.py": [
         "test_eigen"
-      ],
-      "sympy/core/tests/test_expr.py": [
-        "test_action_verbs",
-        "test_equals",
-        "test_is_constant"
       ]
     }
   },
   {
     "instance_id": "django__django-12284",
     "file_function": {
-      "model_regress/tests.py": [
-        "test_empty_choice"
-      ],
       "model_fields/tests.py": [
         "test_choices_and_field_display"
+      ],
+      "model_regress/tests.py": [
+        "test_empty_choice"
       ]
     }
   },
   {
     "instance_id": "django__django-15347",
     "file_function": {
-      "messages_tests/test_fallback.py": [
+      "messages_tests/test_cookie.py": [
         "test_get"
+      ],
+      "messages_tests/test_fallback.py": [
+        "test_get_fallback"
+      ],
+      "messages_tests/test_mixins.py": [
+        "test_set_messages_success_on_delete"
+      ],
+      "messages_tests/test_session.py": [
+        "test_get"
+      ],
+      "messages_tests/tests.py": [
+        "test_eq"
       ]
     }
   },
@@ -1028,21 +1080,21 @@
   {
     "instance_id": "sympy__sympy-23117",
     "file_function": {
-      "sympy/tensor/array/tests/test_immutable_ndim_array.py": [
-        "test_ndim_array_converting",
-        "test_issue_21870",
-        "test_ndim_array_initiation"
-      ],
       "sympy/tensor/array/tests/test_arrayop.py": [
         "test_array_permutedims"
       ],
-      "sympy/tensor/array/tests/test_mutable_ndim_array.py": [
-        "test_ndim_array_initiation",
-        "test_diff",
-        "test_arithmetic"
-      ],
       "sympy/tensor/array/tests/test_ndim_array_conversions.py": [
         "test_NDim_array_conv"
+      ],
+      "sympy/tensor/array/tests/test_immutable_ndim_array.py": [
+        "test_ndim_array_converting",
+        "test_ndim_array_initiation",
+        "test_issue_21870"
+      ],
+      "sympy/tensor/array/tests/test_mutable_ndim_array.py": [
+        "test_ndim_array_initiation",
+        "test_arithmetic",
+        "test_converting_functions"
       ]
     }
   },
@@ -1057,11 +1109,10 @@
   {
     "instance_id": "django__django-13321",
     "file_function": {
-      "auth_tests/test_auth_backends.py": [
-        "test_changed_backend_settings"
-      ],
-      "sessions_tests/tests.py": [
-        "test_sessionmanager_save"
+      "auth_tests/test_views.py": [
+        "test_confirm_valid_custom_user",
+        "test_user_password_change_updates_session",
+        "test_session_key_flushed_on_login_after_password_change"
       ]
     }
   },
@@ -1071,149 +1122,155 @@
       "sympy/printing/tests/test_latex.py": [
         "test_issue_9216",
         "test_Feedback_printing",
-        "test_Pow",
         "test_latex_functions",
         "test_latex_basic",
-        "test_latex_SingularityFunction"
+        "test_latex_SingularityFunction",
+        "test_Pow"
       ]
     }
   },
   {
     "instance_id": "django__django-16820",
     "file_function": {
-      "migrations/test_operations/OperationTests/test_rename_index_unnamed_index.py": [
-        "test_rename_index_unnamed_index"
-      ],
-      "migrations/test_optimizer/OptimizerTests/test_create_alter_index_field.py": [
-        "test_create_alter_index_field"
-      ],
       "migrations/test_optimizer/OptimizerTests/test_rename_index.py": [
         "test_rename_index"
-      ],
-      "migrations/test_operations/OperationTests/test_remove_func_index.py": [
-        "test_remove_func_index"
-      ],
-      "migrations/test_operations/OperationTests/test_add_func_index.py": [
-        "test_add_func_index"
-      ],
-      "migrations/test_operations/OperationTests/test_rename_index_arguments.py": [
-        "test_rename_index_arguments"
       ],
       "migrations/test_optimizer/OptimizerTests/test_add_remove_index.py": [
         "test_add_remove_index"
       ],
-      "migrations/test_operations/OperationTests/test_rename_index.py": [
-        "test_rename_index"
-      ],
-      "migrations/test_operations/OperationTests/test_alter_index_together_remove.py": [
-        "test_alter_index_together_remove"
+      "migrations/test_optimizer/OptimizerTests/test_create_alter_index_field.py": [
+        "test_create_alter_index_field"
       ],
       "migrations/test_operations/OperationTests/test_rename_index_unknown_unnamed_index.py": [
         "test_rename_index_unknown_unnamed_index"
+      ],
+      "migrations/test_operations/OperationTests/test_remove_func_index.py": [
+        "test_remove_func_index"
+      ],
+      "migrations/test_operations/OperationTests/test_rename_index.py": [
+        "test_rename_index"
+      ],
+      "migrations/test_operations/OperationTests/test_rename_index_arguments.py": [
+        "test_rename_index_arguments"
+      ],
+      "migrations/test_operations/OperationTests/test_add_func_index.py": [
+        "test_add_func_index"
+      ],
+      "migrations/test_autodetector/AutodetectorIndexTogetherTests/test_add_index_together.py": [
+        "test_add_index_together"
+      ],
+      "migrations/test_operations/OperationTests/test_rename_index_unnamed_index.py": [
+        "test_rename_index_unnamed_index"
       ]
     }
   },
   {
     "instance_id": "django__django-16408",
     "file_function": {
-      "expressions/tests/BasicExpressionsTests/test_nested_subquery.py": [
-        "test_nested_subquery"
-      ],
-      "select_related/tests/SelectRelatedTests/test_field_traversal.py": [
-        "test_field_traversal"
+      "prefetch_related/tests/PrefetchRelatedTests/test_onetoone_reverse_no_match.py": [
+        "test_onetoone_reverse_no_match"
       ],
       "annotations/tests/AliasTests/test_values_alias.py": [
         "test_values_alias"
       ],
-      "expressions/tests/BasicExpressionsTests/test_annotate_values_aggregate.py": [
-        "test_annotate_values_aggregate"
+      "queries/test_query/TestQuery/test_clone_select_related.py": [
+        "test_clone_select_related"
       ],
-      "expressions/tests/ExistsTests/test_negated_empty_exists.py": [
-        "test_negated_empty_exists"
-      ],
-      "queries/test_query/TestQuery/test_multiple_fields.py": [
-        "test_multiple_fields"
-      ],
-      "queries/test_query/TestQuery/test_filter_non_conditional.py": [
-        "test_filter_non_conditional"
-      ],
-      "expressions/tests/BasicExpressionsTests/test_subquery.py": [
-        "test_subquery"
-      ],
-      "filtered_relation/tests/FilteredRelationTests/test_with_join_and_complex_condition.py": [
-        "test_with_join_and_complex_condition"
-      ],
-      "prefetch_related/tests/PrefetchLimitTests/test_foreignkey_reverse.py": [
-        "test_foreignkey_reverse"
-      ],
-      "expressions/tests/BasicExpressionsTests/test_filter_with_join.py": [
-        "test_filter_with_join"
-      ],
-      "expressions/tests/BasicExpressionsTests/test_aggregate_subquery_annotation.py": [
-        "test_aggregate_subquery_annotation"
-      ],
-      "expressions/tests/BasicExpressionsTests/test_annotation_with_nested_outerref.py": [
-        "test_annotation_with_nested_outerref"
-      ],
-      "queries/test_query/TestQuery/test_negated_nullable.py": [
-        "test_negated_nullable"
-      ],
-      "annotations/tests/AliasTests/test_basic_alias_f_transform_annotation.py": [
-        "test_basic_alias_f_transform_annotation"
-      ],
-      "annotations/tests/NonAggregateAnnotationTestCase/test_update_with_annotation.py": [
-        "test_update_with_annotation"
+      "prefetch_related/tests/PrefetchLimitTests/test_reverse_ordering.py": [
+        "test_reverse_ordering"
       ],
       "expressions/tests/BasicExpressionsTests/test_incorrect_joined_field_in_F_expression.py": [
         "test_incorrect_joined_field_in_F_expression"
       ],
-      "queries/test_query/TestQuery/test_foreign_key.py": [
-        "test_foreign_key"
-      ],
-      "filtered_relation/tests/FilteredRelationTests/test_condition_outside_relation_name.py": [
-        "test_condition_outside_relation_name"
+      "filtered_relation/tests/FilteredRelationTests/test_with_join_and_complex_condition.py": [
+        "test_with_join_and_complex_condition"
       ],
       "annotations/tests/AliasTests/test_aggregate_alias.py": [
         "test_aggregate_alias"
       ],
-      "select_related/tests/SelectRelatedTests/test_chaining.py": [
-        "test_chaining"
-      ],
-      "annotations/tests/NonAggregateAnnotationTestCase/test_alias_forbidden_chars.py": [
-        "test_alias_forbidden_chars"
-      ],
-      "select_related/tests/SelectRelatedTests/test_none_clears_list.py": [
-        "test_none_clears_list"
-      ],
-      "queries/test_query/TestQuery/test_non_alias_cols_query.py": [
-        "test_non_alias_cols_query"
-      ],
-      "filtered_relation/tests/FilteredRelationTests/test_condition_deeper_relation_name.py": [
-        "test_condition_deeper_relation_name"
-      ],
-      "annotations/tests/AliasTests/test_alias_sql_injection.py": [
-        "test_alias_sql_injection"
-      ],
-      "filtered_relation/tests/FilteredRelationTests/test_deep_nested_foreign_key.py": [
-        "test_deep_nested_foreign_key"
-      ],
-      "prefetch_related/tests/PrefetchRelatedTests/test_onetoone_reverse_no_match.py": [
-        "test_onetoone_reverse_no_match"
+      "annotations/tests/AliasTests/test_basic_alias_f_transform_annotation.py": [
+        "test_basic_alias_f_transform_annotation"
       ],
       "known_related_objects/tests/ExistingRelatedInstancesTests/test_queryset_or.py": [
         "test_queryset_or"
       ],
+      "annotations/tests/NonAggregateAnnotationTestCase/test_aggregate_over_full_expression_annotation.py": [
+        "test_aggregate_over_full_expression_annotation"
+      ],
+      "queries/test_query/TestQuery/test_filter_non_conditional.py": [
+        "test_filter_non_conditional"
+      ],
       "queries/test_query/TestQuery/test_transform.py": [
         "test_transform"
+      ],
+      "annotations/tests/AliasTests/test_update_with_alias.py": [
+        "test_update_with_alias"
+      ],
+      "expressions/tests/BasicExpressionsTests/test_aggregate_subquery_annotation.py": [
+        "test_aggregate_subquery_annotation"
+      ],
+      "queries/test_query/TestQuery/test_multiple_fields.py": [
+        "test_multiple_fields"
+      ],
+      "queries/test_query/TestQueryNoModel/test_q_annotation.py": [
+        "test_q_annotation"
+      ],
+      "select_related/tests/SelectRelatedTests/test_select_related_with_extra.py": [
+        "test_select_related_with_extra"
+      ],
+      "expressions/tests/BasicExpressionsTests/test_filter_with_join.py": [
+        "test_filter_with_join"
+      ],
+      "select_related/tests/SelectRelatedTests/test_field_traversal.py": [
+        "test_field_traversal"
+      ],
+      "prefetch_related/tests/PrefetchLimitTests/test_foreignkey_reverse.py": [
+        "test_foreignkey_reverse"
+      ],
+      "expressions/tests/BasicExpressionsTests/test_nested_subquery_outer_ref_with_autofield.py": [
+        "test_nested_subquery_outer_ref_with_autofield"
+      ],
+      "prefetch_related/tests/PrefetchLimitTests/test_m2m_forward.py": [
+        "test_m2m_forward"
       ],
       "filtered_relation/tests/FilteredRelationTests/test_relation_name_lookup.py": [
         "test_relation_name_lookup"
       ],
+      "queries/test_query/TestQuery/test_foreign_key.py": [
+        "test_foreign_key"
+      ],
+      "queries/test_query/TestQuery/test_negated_nullable.py": [
+        "test_negated_nullable"
+      ],
+      "expressions/tests/ExistsTests/test_negated_empty_exists.py": [
+        "test_negated_empty_exists"
+      ],
+      "select_related/tests/SelectRelatedTests/test_none_clears_list.py": [
+        "test_none_clears_list"
+      ],
       "annotations/tests/NonAggregateAnnotationTestCase/test_annotation_filter_with_subquery.py": [
         "test_annotation_filter_with_subquery"
       ],
-      "queries/test_query/TestQueryNoModel/test_q_annotation.py": [
-        "test_q_annotation"
+      "expressions/tests/BasicExpressionsTests/test_subquery.py": [
+        "test_subquery"
+      ],
+      "expressions/tests/BasicExpressionsTests/test_annotation_with_nested_outerref.py": [
+        "test_annotation_with_nested_outerref"
+      ],
+      "annotations/tests/NonAggregateAnnotationTestCase/test_alias_sql_injection.py": [
+        "test_alias_sql_injection"
+      ],
+      "annotations/tests/NonAggregateAnnotationTestCase/test_update_with_annotation.py": [
+        "test_update_with_annotation"
+      ],
+      "filtered_relation/tests/FilteredRelationTests/test_deep_nested_foreign_key.py": [
+        "test_deep_nested_foreign_key"
+      ],
+      "filtered_relation/tests/FilteredRelationTests/test_condition_outside_relation_name.py": [
+        "test_condition_outside_relation_name"
+      ],
+      "filtered_relation/tests/FilteredRelationTests/test_condition_deeper_relation_name.py": [
+        "test_condition_deeper_relation_name"
       ]
     }
   },
@@ -1221,78 +1278,79 @@
     "instance_id": "django__django-11630",
     "file_function": {
       "model_regress/tests.py": [
-        "test_get_next_prev_by_field",
-        "test_model_with_evaluate_method",
-        "test_chained_fks",
-        "test_related_gte_lookup",
         "test_get_next_prev_by_field_unsaved",
         "test_model_init_too_many_args",
+        "test_model_with_evaluate_method",
+        "test_chained_fks",
         "test_pk_validation",
+        "test_related_gte_lookup",
+        "test_get_next_prev_by_field",
         "test_empty_choice"
-      ],
-      "model_fields/test_foreignkey.py": [
-        "test_abstract_model_app_relative_foreign_key",
-        "test_warning_when_unique_true_on_fk",
-        "test_empty_string_fk"
-      ],
-      "check_framework/test_model_checks.py": [
-        "test_no_collision_for_proxy_models",
-        "test_no_collision_abstract_model_interpolation",
-        "test_collision_across_apps"
-      ],
-      "model_fields/tests.py": [
-        "test_choices_and_field_display",
-        "test_get_choices_reverse_related_field"
       ],
       "model_fields/test_integerfield.py": [
         "test_documented_range"
       ],
+      "model_fields/test_foreignkey.py": [
+        "test_empty_string_fk",
+        "test_warning_when_unique_true_on_fk",
+        "test_abstract_model_pending_operations"
+      ],
+      "model_fields/tests.py": [
+        "test_get_choices",
+        "test_choices_and_field_display"
+      ],
       "model_regress/test_pickle.py": [
         "test_missing_django_version_unpickling",
-        "test_with_getstate",
-        "test_unsupported_unpickle"
+        "test_unsupported_unpickle",
+        "test_with_getstate"
+      ],
+      "check_framework/test_model_checks.py": [
+        "test_no_collision_abstract_model_interpolation",
+        "test_no_collision_for_proxy_models",
+        "test_collision_across_apps"
       ]
     }
   },
   {
     "instance_id": "sympy__sympy-20590",
     "file_function": {
-      "sympy/core/tests/test_expr.py": [
-        "test_has_piecewise",
-        "test_is_constant",
-        "test_has_basics",
-        "test_find",
-        "test_replace"
-      ],
       "sympy/core/tests/test_subs.py": [
-        "test_issue_2877",
-        "test_dict_set",
+        "test_subs_Matrix",
         "test_issue_8886",
-        "test_mul",
-        "test_subs_Matrix"
+        "test_issue_2877",
+        "test_subs_dict",
+        "test_dict_set"
       ],
       "sympy/core/tests/test_basic.py": [
-        "test_subs",
-        "test_as_dummy",
         "test_matches_basic",
+        "test_subs",
+        "test_doit",
+        "test_as_dummy",
         "test_sorted_args",
-        "test_call",
         "test_rewrite",
         "test_replace_exceptions",
-        "test_doit"
+        "test_call"
       ],
       "sympy/core/tests/test_args.py": [
         "test_sympy__tensor__indexed__IndexedBase",
-        "test_sympy__series__fourier__FourierSeries",
-        "test_sympy__tensor__array__sparse_ndim_array__ImmutableSparseNDimArray"
+        "test_sympy__tensor__array__sparse_ndim_array__ImmutableSparseNDimArray",
+        "test_sympy__series__fourier__FourierSeries"
       ],
       "sympy/core/tests/test_function.py": [
-        "test_nfloat",
-        "test_Derivative_free_symbols",
+        "test_Derivative__new__",
         "test_function__eval_nseries",
+        "test_function_assumptions",
+        "test_nfloat",
         "test_Subs",
         "test_Derivative_as_finite_difference",
-        "test_function_assumptions"
+        "test_diff_symbols"
+      ],
+      "sympy/core/tests/test_expr.py": [
+        "test_find",
+        "test_is_constant",
+        "test_has_basics",
+        "test_replace",
+        "test_has_piecewise"
       ],
       "sympy/core/tests/test_symbol.py": [
         "test_unicode"
@@ -1306,9 +1364,9 @@
     "instance_id": "django__django-11905",
     "file_function": {
       "queries/tests.py": [
-        "test_ticket_18785",
         "test_primary_key",
-        "test_isnull_filter_promotion"
+        "test_isnull_filter_promotion",
+        "test_ticket_18785"
       ]
     }
   },
@@ -1316,15 +1374,16 @@
     "instance_id": "psf__requests-863",
     "file_function": {
       "tests/test_requests.py": [
-        "test_connection_error",
-        "test_params_accepts_kv_list",
-        "test_params_are_added_before_fragment",
-        "test_path_is_not_double_encoded",
-        "test_urlencoded_post_data",
         "test_upload_binary_data",
-        "test_bytes_files",
+        "test_connection_error",
+        "test_useful_exception_for_invalid_port",
+        "test_path_is_not_double_encoded",
+        "test_params_are_added_before_fragment",
         "test_connection_keepalive_and_close",
-        "test_useful_exception_for_invalid_port"
+        "test_params_accepts_kv_list"
+      ],
+      "tests/test_requests_ext.py": [
+        "test_binary_post"
       ]
     }
   },
@@ -1332,18 +1391,24 @@
     "instance_id": "scikit-learn__scikit-learn-13496",
     "file_function": {
       "sklearn/ensemble/tests/test_iforest.py": [
-        "test_iforest_sparse",
         "test_iforest_chunks_works1",
+        "test_iforest_sparse",
         "test_iforest_chunks_works2",
-        "test_iforest_error",
+        "test_iforest_works",
         "test_iforest_subsampled_features",
-        "test_iforest_works"
+        "test_iforest_error"
       ]
     }
   },
   {
     "instance_id": "psf__requests-1963",
-    "file_function": {}
+    "file_function": {
+      "test_requests.py": [
+        "test_pyopenssl_redirect",
+        "test_requests_in_history_are_not_overridden",
+        "test_header_remove_is_case_insensitive"
+      ]
+    }
   },
   {
     "instance_id": "sympy__sympy-15609",
@@ -1359,8 +1424,8 @@
     "file_function": {
       "sympy/matrices/tests/test_matrices.py": [
         "test_issue_10770",
-        "test_col_insert",
-        "test_errors"
+        "test_errors",
+        "test_col_insert"
       ],
       "sympy/matrices/tests/test_commonmatrix.py": [
         "test_col_insert"
@@ -1371,7 +1436,11 @@
     "instance_id": "psf__requests-2148",
     "file_function": {
       "test_requests.py": [
-        "test_response_decode_unicode"
+        "test_requests_are_updated_each_time",
+        "test_request_and_response_are_pickleable",
+        "test_response_decode_unicode",
+        "test_DIGEST_STREAM",
+        "test_decompress_gzip"
       ]
     }
   },
@@ -1379,10 +1448,10 @@
     "instance_id": "scikit-learn__scikit-learn-11040",
     "file_function": {
       "sklearn/neighbors/tests/test_neighbors.py": [
-        "test_unsupervised_kneighbors",
+        "test_neighbors_badargs",
         "test_predict_sparse_ball_kd_tree",
         "test_k_and_radius_neighbors_duplicates",
-        "test_neighbors_badargs"
+        "test_unsupervised_kneighbors"
       ]
     }
   },
@@ -1391,28 +1460,28 @@
     "file_function": {
       "utils_tests/test_numberformat.py": [
         "test_format_number",
-        "test_large_number",
+        "test_float_numbers",
         "test_decimal_numbers",
-        "test_float_numbers"
+        "test_large_number"
       ]
     }
   },
   {
     "instance_id": "django__django-10924",
     "file_function": {
-      "file_storage/test_generate_filename.py": [
-        "test_filefield_generate_filename_with_upload_to"
+      "model_fields/test_filefield.py": [
+        "test_changed",
+        "test_clearable"
       ],
-      "file_storage/tests.py": [
-        "test_custom_valid_name_callable_upload_to",
-        "test_filefield_write"
+      "file_storage/test_generate_filename.py": [
+        "test_filefield_awss3_storage"
       ],
       "migrations/test_autodetector.py": [
         "test_supports_functools_partial"
       ],
-      "model_fields/test_filefield.py": [
-        "test_clearable",
-        "test_changed"
+      "file_storage/tests.py": [
+        "test_filefield_write",
+        "test_custom_valid_name_callable_upload_to"
       ],
       "field_deconstruction/tests.py": [
         "test_file_field"
@@ -1422,27 +1491,30 @@
   {
     "instance_id": "django__django-12856",
     "file_function": {
-      "migrations/test_operations.py": [
-        "test_add_deferred_unique_constraint",
-        "test_remove_partial_unique_constraint",
-        "test_add_partial_unique_constraint",
-        "test_remove_deferred_unique_constraint",
-        "test_create_model_with_deferred_unique_constraint"
-      ],
-      "migrations/test_state.py": [
-        "test_ignore_order_wrt",
-        "test_create_swappable_from_abstract",
-        "test_order_with_respect_to_private_field"
-      ],
       "constraints/tests.py": [
-        "test_deferrable_with_condition",
+        "test_invalid_defer_argument",
+        "test_repr_with_deferrable",
         "test_condition_must_be_q",
+        "test_repr_with_condition",
         "test_eq",
         "test_repr",
         "test_model_validation",
-        "test_repr_with_deferrable",
-        "test_invalid_defer_argument",
-        "test_repr_with_condition"
+        "test_deferrable_with_condition"
+      ],
+      "migrations/test_state.py": [
+        "test_order_with_respect_to_private_field",
+        "test_ignore_order_wrt",
+        "test_render_model_with_multiple_inheritance"
+      ],
+      "migrations/test_operations.py": [
+        "test_remove_deferred_unique_constraint",
+        "test_add_deferred_unique_constraint",
+        "test_create_model_with_deferred_unique_constraint",
+        "test_add_partial_unique_constraint",
+        "test_remove_partial_unique_constraint"
+      ],
+      "migrations/test_autodetector.py": [
+        "test_unmanaged_to_managed"
       ]
     }
   },
@@ -1450,12 +1522,12 @@
     "instance_id": "scikit-learn__scikit-learn-13241",
     "file_function": {
       "sklearn/decomposition/tests/test_kernel_pca.py": [
-        "test_gridsearch_pipeline_precomputed",
-        "test_remove_zero_eig",
-        "test_kernel_pca_consistent_transform",
         "test_gridsearch_pipeline",
+        "test_gridsearch_pipeline_precomputed",
+        "test_kernel_pca_consistent_transform",
         "test_nested_circles",
-        "test_kernel_pca"
+        "test_kernel_pca",
+        "test_remove_zero_eig"
       ]
     }
   },
@@ -1463,10 +1535,14 @@
     "instance_id": "django__django-15738",
     "file_function": {
       "migrations/test_autodetector.py": [
-        "test_proxy_to_mti_with_fk_to_proxy",
+        "test_proxy_to_mti_with_fk_to_proxy_proxy",
         "test_unmanaged_to_managed",
         "test_partly_alter_foo_together",
-        "test_managed_to_unmanaged"
+        "test_rename_index_together_to_index_extra_options",
+        "test_managed_to_unmanaged",
+        "test_rename_index_together_to_index_order_fields",
+        "test_unmanaged_delete",
+        "test_proxy_to_mti_with_fk_to_proxy"
       ]
     }
   },
@@ -1474,14 +1550,14 @@
     "instance_id": "sympy__sympy-13437",
     "file_function": {
       "sympy/series/tests/test_limits.py": [
-        "test_Limit_dir",
+        "test_issue_12555",
         "test_basic1",
-        "test_basic5",
-        "test_issue_9205",
         "test_polynomial",
         "test_issue_6599",
+        "test_basic5",
+        "test_Limit_dir",
         "test_issue_10382",
-        "test_issue_12555",
+        "test_issue_9205",
         "test_issue_5436"
       ]
     }
@@ -1489,37 +1565,36 @@
   {
     "instance_id": "mwaskom__seaborn-3190",
     "file_function": {
-      "tests/_core/test_plot.py": [
-        "test_scale_setup",
-        "test_no_orient_variance",
-        "test_derived_range_with_axis_scaling",
-        "test_paired_and_faceted",
-        "test_drop_variable",
-        "test_pair_single_coordinate_stat_orient",
-        "test_coordinate_scaling",
-        "test_unshared_spacing"
-      ],
       "tests/_core/test_properties.py": [
-        "test_continuous_named_palette",
-        "test_nominal_default_palette_large",
-        "test_bad_scale_values_continuous",
-        "test_bad_scale_values_nominal",
-        "test_continuous_tuple_palette",
         "test_bad_inference_arg",
-        "test_nominal_dict_palette",
-        "test_inference",
         "test_continuous_callable_palette",
-        "test_standardization"
+        "test_nominal_default_palette_large",
+        "test_inference",
+        "test_nominal_dict_palette",
+        "test_standardization",
+        "test_continuous_named_palette",
+        "test_continuous_tuple_palette",
+        "test_bad_scale_values_continuous",
+        "test_bad_scale_values_nominal"
       ],
       "tests/_core/test_scales.py": [
-        "test_symlog_tick_default",
         "test_color_alpha_in_palette",
-        "test_interval_with_range_norm_and_transform",
-        "test_color_with_transform",
-        "test_color_named_values",
+        "test_symlog_tick_default",
         "test_coordinate_transform_error",
+        "test_color_tuple_values",
         "test_coordinate_transform_with_parameter",
-        "test_color_dict_palette"
+        "test_color_with_norm",
+        "test_color_with_transform"
+      ],
+      "tests/_core/test_plot.py": [
+        "test_identity_scale_ignored",
+        "test_drop_variable",
+        "test_on_axes",
+        "test_coordinate_scaling",
+        "test_derived_range_with_axis_scaling",
+        "test_pair_single_coordinate_stat_orient",
+        "test_facets_no_subgroups",
+        "test_scale_setup"
       ],
       "tests/_marks/test_bar.py": [
         "test_mapped_properties"
@@ -1546,9 +1621,12 @@
     "instance_id": "django__django-15498",
     "file_function": {
       "middleware/tests.py": [
-        "test_no_etag_response_empty_content",
+        "test_if_modified_since_and_no_last_modified",
+        "test_no_etag_no_store_cache",
+        "test_middleware_calculates_etag",
+        "test_etag_extended_cache_control",
         "test_no_etag_streaming_response",
-        "test_no_etag_no_store_cache"
+        "test_no_etag_response_empty_content"
       ]
     }
   },
@@ -1563,27 +1641,27 @@
   {
     "instance_id": "scikit-learn__scikit-learn-15535",
     "file_function": {
-      "sklearn/metrics/cluster/tests/test_supervised.py": [
-        "test_contingency_matrix",
-        "test_contingency_matrix_sparse",
-        "test_error_messages_on_wrong_input",
-        "test_adjusted_mutual_info_score"
+      "sklearn/metrics/tests/test_score_objects.py": [
+        "test_supervised_cluster_scorers"
       ],
-      "sklearn/metrics/tests/test_classification.py": [
-        "test_log_loss_pandas_input"
+      "sklearn/metrics/cluster/tests/test_supervised.py": [
+        "test_error_messages_on_wrong_input",
+        "test_contingency_matrix_sparse",
+        "test_adjusted_mutual_info_score",
+        "test_contingency_matrix"
+      ],
+      "sklearn/metrics/tests/test_common.py": [
+        "test_thresholded_invariance_string_vs_numbers_labels",
+        "test_format_invariance_with_1d_vectors"
+      ],
+      "sklearn/metrics/tests/test_pairwise.py": [
+        "test_pairwise_distances"
       ],
       "sklearn/cluster/tests/test_k_means.py": [
         "test_k_means_function"
       ],
-      "sklearn/metrics/tests/test_common.py": [
-        "test_format_invariance_with_1d_vectors",
-        "test_thresholded_invariance_string_vs_numbers_labels"
-      ],
-      "sklearn/metrics/tests/test_score_objects.py": [
-        "test_supervised_cluster_scorers"
-      ],
-      "sklearn/metrics/tests/test_pairwise.py": [
-        "test_cosine_distances"
+      "sklearn/metrics/tests/test_classification.py": [
+        "test_log_loss_pandas_input"
       ]
     }
   },
@@ -1600,35 +1678,35 @@
   {
     "instance_id": "sphinx-doc__sphinx-8506",
     "file_function": {
+      "tests/test_ext_math.py": [
+        "test_math_eqref_format_html",
+        "test_math_number_all_latex"
+      ],
       "tests/test_directive_patch.py": [
         "test_code_directive",
         "test_math_directive"
-      ],
-      "tests/test_ext_math.py": [
-        "test_math_eqref_format_html",
-        "test_mathjax_numfig_html"
       ]
     }
   },
   {
     "instance_id": "scikit-learn__scikit-learn-25500",
     "file_function": {
+      "sklearn/tests/test_calibration.py": [
+        "test_calibrated_classifier_error_base_estimator",
+        "test_calibration_cv_splitter",
+        "test_calibration_with_fit_params",
+        "test_calibration_prefit",
+        "test_calibration_without_sample_weight_base_estimator",
+        "test_calibrated_classifier_cv_double_sample_weights_equivalence",
+        "test_calibrated_classifier_deprecation_base_estimator",
+        "test_calibration_multiclass"
+      ],
       "sklearn/tests/test_isotonic.py": [
         "test_assert_raises_exceptions",
         "test_get_feature_names_out",
-        "test_fast_predict",
         "test_isotonic_regression_pickle",
+        "test_fast_predict",
         "test_isotonic_regression"
-      ],
-      "sklearn/tests/test_calibration.py": [
-        "test_calibrated_classifier_deprecation_base_estimator",
-        "test_calibration_multiclass",
-        "test_calibration_with_fit_params",
-        "test_calibrated_classifier_error_base_estimator",
-        "test_calibrated_classifier_cv_double_sample_weights_equivalence",
-        "test_calibration_prefit",
-        "test_calibration_without_sample_weight_base_estimator",
-        "test_calibration_cv_splitter"
       ],
       "sklearn/tests/test_common.py": [
         "test_pandas_column_name_consistency",
@@ -1640,19 +1718,20 @@
     "instance_id": "django__django-11564",
     "file_function": {
       "staticfiles_tests/test_storage.py": [
-        "test_missing_entry",
         "test_clear_empties_manifest",
-        "test_collect_static_files_permissions",
+        "test_missing_entry",
         "test_collect_static_files_default_permissions",
         "test_manifest_does_not_exist",
-        "test_file_change_after_collectstatic"
+        "test_file_change_after_collectstatic",
+        "test_collect_static_files_permissions"
       ],
       "template_tests/syntax_tests/test_url.py": [
+        "test_url_fail02",
+        "test_url02",
+        "test_url_namespace02",
         "test_url_namespace_explicit_current_app",
         "test_url_asvar03",
-        "test_url02",
-        "test_url03",
-        "test_url_fail02",
+        "test_url_fail11",
         "test_url_fail12"
       ],
       "staticfiles_tests/test_templatetags.py": [
@@ -1663,42 +1742,42 @@
   {
     "instance_id": "sphinx-doc__sphinx-10325",
     "file_function": {
+      "tests/test_ext_autodoc_configs.py": [
+        "test_autodoc_typehints_format_fully_qualified",
+        "test_autodoc_typehints_description_with_documented_init",
+        "test_autodoc_default_options_with_values",
+        "test_autodoc_class_signature_separated_init",
+        "test_autoclass_content_and_docstring_signature_init",
+        "test_autoclass_content_init",
+        "test_autoclass_content_and_docstring_signature_both",
+        "test_autodoc_typehints_format_fully_qualified_for_class_alias",
+        "test_autodoc_typehints_description_with_documented_init_no_undoc",
+        "test_autoclass_content_both"
+      ],
       "tests/test_ext_autodoc.py": [
-        "test_overload",
-        "test_overload2",
-        "test_final",
         "test_autodoc_inherited_members",
-        "test_autodoc_attributes",
         "test_canonical",
         "test_parse_name",
-        "test_format_signature",
-        "test_autodoc_ignore_module_all",
-        "test_autodoc_inherited_members_Base",
+        "test_overload",
         "test_cython",
+        "test_overload2",
+        "test_final",
+        "test_autodoc_imported_members",
+        "test_autodoc_inherited_members_None",
+        "test_autodoc_ignore_module_all",
+        "test_autodoc_attributes",
         "test_autodoc_module_member_order",
-        "test_autodoc_imported_members"
-      ],
-      "tests/test_ext_autodoc_configs.py": [
-        "test_autoclass_content_init",
-        "test_autodoc_typehints_format_fully_qualified_for_class_alias",
-        "test_autodoc_typehints_description_with_documented_init",
-        "test_autodoc_typehints_signature",
-        "test_autodoc_default_options_with_values",
-        "test_autoclass_content_and_docstring_signature_both",
-        "test_autoclass_content_both",
-        "test_autoclass_content_and_docstring_signature_init",
-        "test_autodoc_class_signature_separated_init",
-        "test_autodoc_typehints_description_with_documented_init_no_undoc"
+        "test_format_signature"
       ],
       "tests/test_ext_autodoc_autoclass.py": [
         "test_show_inheritance_for_decendants_of_generic_type",
-        "test_autodoc_process_bases",
+        "test_inherited_instance_variable",
         "test_class_alias_having_doccomment",
-        "test_inherited_instance_variable"
+        "test_show_inheritance_for_subclass_of_generic_type"
       ],
       "tests/test_ext_autodoc_automodule.py": [
-        "test_automodule",
-        "test_subclass_of_mocked_object"
+        "test_subclass_of_mocked_object",
+        "test_automodule"
       ]
     }
   },
@@ -1706,22 +1785,23 @@
     "instance_id": "django__django-13590",
     "file_function": {
       "queries/tests.py": [
-        "test_correct_lookup",
-        "test_exclude_in"
+        "test_subquery_exclude_outerref",
+        "test_exclude_in",
+        "test_correct_lookup"
       ]
     }
   },
   {
     "instance_id": "matplotlib__matplotlib-24334",
     "file_function": {
+      "lib/matplotlib/tests/test_axes.py": [
+        "test_set_noniterable_ticklabels",
+        "test_mismatched_ticklabels",
+        "test_displaced_spine",
+        "test_nodecorator"
+      ],
       "lib/matplotlib/tests/test_text.py": [
         "test_large_subscript_title"
-      ],
-      "lib/matplotlib/tests/test_axes.py": [
-        "test_nodecorator",
-        "test_displaced_spine",
-        "test_mismatched_ticklabels",
-        "test_set_noniterable_ticklabels"
       ]
     }
   },
@@ -1729,19 +1809,22 @@
     "instance_id": "scikit-learn__scikit-learn-14894",
     "file_function": {
       "sklearn/svm/tests/test_svm.py": [
-        "test_svc_bad_kernel",
-        "test_sparse_precomputed",
         "test_bad_input",
-        "test_n_support_oneclass_svr",
-        "test_svc_clone_with_callable_kernel",
-        "test_svm_gamma_error",
+        "test_oneclass",
         "test_precomputed",
-        "test_libsvm_iris"
+        "test_svc_bad_kernel",
+        "test_n_support_oneclass_svr",
+        "test_svm_gamma_error",
+        "test_libsvm_iris",
+        "test_svc_clone_with_callable_kernel"
+      ],
+      "sklearn/utils/tests/test_estimator_checks.py": [
+        "test_check_estimator_pairwise"
       ],
       "sklearn/svm/tests/test_sparse.py": [
         "test_svc",
-        "test_timeout",
-        "test_sparse_oneclasssvm"
+        "test_sparse_oneclasssvm",
+        "test_timeout"
       ]
     }
   },
@@ -1766,31 +1849,28 @@
     "instance_id": "matplotlib__matplotlib-25498",
     "file_function": {
       "lib/matplotlib/tests/test_colorbar.py": [
-        "test_colorbar_format",
         "test_colorbar_get_ticks",
-        "test_boundaries",
-        "test_colorbar_extend_alpha",
         "test_colorbarbase",
+        "test_colorbar_extend_alpha",
         "test_colorbar_renorm",
-        "test_mappable_no_alpha",
-        "test_colorbar_closed_patch",
-        "test_parentless_mappable",
-        "test_colorbar_scale_reset"
+        "test_boundaries",
+        "test_colorbar_scale_reset",
+        "test_colorbar_closed_patch"
       ],
       "lib/matplotlib/tests/test_colors.py": [
-        "test_boundarynorm_and_colorbarbase"
+        "test_cmap_and_norm_from_levels_and_colors"
       ]
     }
   },
   {
     "instance_id": "django__django-13551",
     "file_function": {
-      "auth_tests/test_tokens.py": [
-        "test_token_with_different_secret",
-        "test_check_token_with_nonexistent_token_and_user"
-      ],
       "auth_tests/test_views.py": [
         "test_invalid_link_if_going_directly_to_the_final_reset_password_url"
+      ],
+      "auth_tests/test_tokens.py": [
+        "test_check_token_with_nonexistent_token_and_user",
+        "test_token_with_different_secret"
       ]
     }
   },
@@ -1798,11 +1878,11 @@
     "instance_id": "scikit-learn__scikit-learn-15512",
     "file_function": {
       "sklearn/cluster/tests/test_affinity_propagation.py": [
-        "test_affinity_propagation",
-        "test_affinity_propagation_predict",
+        "test_affinity_propagation_equal_mutual_similarities",
         "test_affinity_propagation_predict_error",
         "test_affinity_propagation_predict_non_convergence",
-        "test_affinity_propagation_equal_mutual_similarities"
+        "test_affinity_propagation_predict",
+        "test_affinity_propagation"
       ]
     }
   },
@@ -1812,36 +1892,33 @@
       "sklearn/compose/tests/test_column_transformer.py": [
         "test_column_transformer_reordered_column_names_remainder",
         "test_column_transformer_dataframe",
-        "test_column_transformer_mixed_cols_sparse",
         "test_column_transformer_empty_columns",
+        "test_verbose_feature_names_out_false_errors",
         "test_column_transformer_set_output",
-        "test_verbose_feature_names_out_false_errors"
+        "test_column_transformer_mixed_cols_sparse"
       ]
     }
   },
   {
     "instance_id": "django__django-17087",
     "file_function": {
+      "migrations/test_operations/OperationTests/test_alter_field_m2m.py": [
+        "test_alter_field_m2m"
+      ],
       "migrations/test_autodetector/AutodetectorTests/test_alter_regex_string_to_compiled_regex.py": [
         "test_alter_regex_string_to_compiled_regex"
       ],
       "migrations/test_autodetector/AutodetectorTests/test_supports_functools_partial.py": [
         "test_supports_functools_partial"
       ],
-      "field_deconstruction/tests/FieldDeconstructionTests/test_foreign_key.py": [
-        "test_foreign_key"
-      ],
-      "migrations/test_autodetector/AutodetectorTests/test_identical_regex_doesnt_alter.py": [
-        "test_identical_regex_doesnt_alter"
-      ],
-      "migrations/test_writer/WriterTests/test_serialize_choices.py": [
-        "test_serialize_choices"
-      ],
       "migrations/test_autodetector/AutodetectorTests/test_different_regex_does_alter.py": [
         "test_different_regex_does_alter"
       ],
       "field_deconstruction/tests/FieldDeconstructionTests/test_char_field_choices.py": [
         "test_char_field_choices"
+      ],
+      "migrations/test_autodetector/AutodetectorTests/test_identical_regex_doesnt_alter.py": [
+        "test_identical_regex_doesnt_alter"
       ]
     }
   },
@@ -1857,14 +1934,14 @@
     "instance_id": "matplotlib__matplotlib-24149",
     "file_function": {
       "lib/matplotlib/tests/test_axes.py": [
-        "test_hist_log",
         "test_bar_tick_label_single",
-        "test_bar_ticklabel_fail",
         "test_bar_labels_length",
+        "test_bar_ticklabel_fail",
         "test_bar_timedelta",
         "test_bar_broadcast_args",
-        "test_bar_edgecolor_none_alpha",
         "test_bar_color_none_alpha",
+        "test_hist_log",
+        "test_bar_edgecolor_none_alpha",
         "test_bar_errbar_zorder"
       ],
       "lib/matplotlib/tests/test_cbook.py": [
@@ -1877,11 +1954,11 @@
     "instance_id": "sympy__sympy-18532",
     "file_function": {
       "sympy/core/tests/test_expr.py": [
-        "test_atoms",
-        "test_is_constant"
+        "test_is_constant",
+        "test_atoms"
       ],
       "sympy/core/tests/test_args.py": [
-        "test_sympy__series__fourier__FourierSeries"
+        "test_sympy__tensor__array__array_comprehension__ArrayComprehension"
       ]
     }
   },
@@ -1889,8 +1966,8 @@
     "instance_id": "django__django-11283",
     "file_function": {
       "auth_tests/test_migrations.py": [
-        "test_user_keeps_same_permissions_after_migrating_backward",
-        "test_migrate_backwards"
+        "test_migrate_backwards",
+        "test_user_keeps_same_permissions_after_migrating_backward"
       ]
     }
   },
@@ -1909,70 +1986,78 @@
   {
     "instance_id": "django__django-12708",
     "file_function": {
-      "schema/tests.py": [
-        "test_unique_together_with_fk_with_existing_index"
-      ],
       "migrations/test_operations.py": [
         "test_alter_unique_together",
         "test_alter_index_together"
+      ],
+      "schema/tests.py": [
+        "test_remove_index_together_does_not_remove_meta_indexes"
       ]
     }
   },
   {
     "instance_id": "pytest-dev__pytest-11143",
     "file_function": {
-      "testing/test_collection.py": [
-        "test_does_not_crash_on_error_from_decorated_function",
-        "test_conftest"
-      ],
       "testing/test_conftest.py": [
         "test_fixture_dependency"
       ],
       "testing/test_assertrewrite.py": [
         "test_place_initial_imports",
         "test_dont_rewrite",
-        "test_load_resource_via_files_with_rewrite"
+        "test_assertion_walrus_operator_dont_rewrite",
+        "test_load_resource_via_files_with_rewrite",
+        "test_remember_rewritten_modules"
+      ],
+      "testing/test_collection.py": [
+        "test_does_not_crash_on_error_from_decorated_function"
       ]
     }
   },
   {
     "instance_id": "django__django-14787",
-    "file_function": {}
+    "file_function": {
+      "decorators/tests.py": [
+        "test_preserve_attributes",
+        "test_descriptors",
+        "test_argumented",
+        "test_preserve_signature"
+      ]
+    }
   },
   {
     "instance_id": "pylint-dev__pylint-7080",
     "file_function": {
-      "tests/lint/test_pylinter.py": [
-        "test_check_deprecation"
-      ],
       "tests/config/test_functional_config_loading.py": [
         "test_functional_config_loading"
+      ],
+      "tests/lint/test_pylinter.py": [
+        "test_check_deprecation"
       ]
     }
   },
   {
     "instance_id": "django__django-11797",
     "file_function": {
-      "expressions/tests.py": [
-        "test_subquery",
-        "test_case_in_filter_if_boolean_output_field",
-        "test_exists_in_filter",
-        "test_boolean_expression_combined"
-      ],
       "queries/test_qs_combinators.py": [
-        "test_union_with_values",
-        "test_ordering"
-      ],
-      "filtered_relation/tests.py": [
-        "test_union"
-      ],
-      "queries/test_query.py": [
-        "test_negated_nullable",
-        "test_foreign_key"
+        "test_union_with_empty_qs",
+        "test_order_raises_on_non_selected_column"
       ],
       "aggregation_regress/tests.py": [
         "test_more_more_more",
         "test_fobj_group_by"
+      ],
+      "filtered_relation/tests.py": [
+        "test_difference"
+      ],
+      "expressions/tests.py": [
+        "test_subquery_in_filter",
+        "test_case_in_filter_if_boolean_output_field",
+        "test_boolean_expression_combined",
+        "test_subquery"
+      ],
+      "queries/test_query.py": [
+        "test_foreign_key",
+        "test_negated_nullable"
       ]
     }
   },
@@ -1980,10 +2065,10 @@
     "instance_id": "scikit-learn__scikit-learn-11281",
     "file_function": {
       "sklearn/mixture/tests/test_gaussian_mixture.py": [
-        "test_gaussian_mixture_attributes",
+        "test_gaussian_mixture_aic_bic",
         "test_gaussian_mixture_predict_predict_proba",
-        "test_gaussian_mixture_estimate_log_prob_resp",
-        "test_gaussian_mixture_aic_bic"
+        "test_gaussian_mixture_attributes",
+        "test_gaussian_mixture_estimate_log_prob_resp"
       ]
     }
   },
@@ -1991,9 +2076,9 @@
     "instance_id": "pylint-dev__pylint-7993",
     "file_function": {
       "tests/reporters/unittest_reporting.py": [
-        "test_multi_format_output",
         "test_template_option",
-        "test_template_option_non_existing"
+        "test_multi_format_output",
+        "test_parseable_output_regression"
       ]
     }
   },
@@ -2001,10 +2086,10 @@
     "instance_id": "matplotlib__matplotlib-23314",
     "file_function": {
       "lib/mpl_toolkits/tests/test_mplot3d.py": [
-        "test_scatter_spiral",
-        "test_bar3d_notshaded",
+        "test_bar3d_shaded",
         "test_patch_modification",
-        "test_colorbar_pos"
+        "test_pan",
+        "test_scatter_spiral"
       ]
     }
   },
@@ -2012,15 +2097,15 @@
     "instance_id": "django__django-14667",
     "file_function": {
       "defer/tests.py": [
-        "test_defer_none_to_clear_deferred_set",
         "test_only_none_raises_error",
-        "test_only",
-        "test_defer_only_chaining"
+        "test_defer_none_to_clear_deferred_set",
+        "test_defer_only_chaining",
+        "test_only"
       ],
       "defer_regress/tests.py": [
-        "test_basic",
+        "test_defer_annotate_select_related",
         "test_defer_with_select_related",
-        "test_defer_annotate_select_related"
+        "test_basic"
       ],
       "queries/tests.py": [
         "test_ticket22023"
@@ -2031,29 +2116,28 @@
     "instance_id": "matplotlib__matplotlib-23913",
     "file_function": {
       "lib/matplotlib/tests/test_legend.py": [
-        "test_legend_labelcolor_rcparam_single",
-        "test_subfigure_legend",
-        "test_legend_labelcolor_markeredgecolor",
         "test_legend_labelcolor_markerfacecolor",
-        "test_legend_title_fontprop_fontsize",
+        "test_legend_labelcolor_linecolor",
         "test_get_set_draggable",
         "test_legend_label_with_leading_underscore",
-        "test_legend_labelcolor_linecolor",
-        "test_warn_args_kwargs"
+        "test_warn_args_kwargs",
+        "test_legend_labelcolor_single",
+        "test_legend_labelcolor_markeredgecolor",
+        "test_legend_title_fontprop_fontsize"
       ]
     }
   },
   {
     "instance_id": "scikit-learn__scikit-learn-13584",
     "file_function": {
-      "sklearn/utils/tests/test_pprint.py": [
-        "test_changed_only",
-        "test_n_max_elements_to_show",
-        "test_gridsearch_pipeline"
-      ],
       "sklearn/tests/test_common.py": [
         "test_parameters_default_constructible",
         "test_estimators"
+      ],
+      "sklearn/utils/tests/test_pprint.py": [
+        "test_n_max_elements_to_show",
+        "test_gridsearch_pipeline",
+        "test_changed_only"
       ]
     }
   },
@@ -2061,21 +2145,23 @@
     "instance_id": "django__django-11583",
     "file_function": {
       "utils_tests/test_autoreload.py": [
+        "test_watch_files_with_recursive_glob",
+        "test_wait_for_apps_ready_checks_for_exception",
+        "test_watch_with_single_file",
+        "test_watchman_unavailable",
+        "test_snapshot_files_ignores_missing_files",
+        "test_calls_start_django",
         "test_wait_for_apps_ready_without_exception",
         "test_swallows_keyboard_interrupt",
-        "test_watch_files_with_recursive_glob",
-        "test_watchman_becomes_unavailable",
-        "test_watchman_unavailable",
-        "test_main_module_is_resolved",
-        "test_wait_for_apps_ready_checks_for_exception",
         "test_paths_are_pathlib_instances",
+        "test_main_module_is_resolved",
         "test_calls_sys_exit",
+        "test_watchman_becomes_unavailable",
+        "test_run_loop_stop_and_return",
         "test_watch_without_absolute",
-        "test_snapshot_files_with_duplicates",
-        "test_calls_start_django",
+        "test_tick_does_not_trigger_twice",
         "test_run_loop_catches_stopiteration",
-        "test_snapshot_files_ignores_missing_files",
-        "test_run_loop_stop_and_return"
+        "test_snapshot_files_with_duplicates"
       ]
     }
   },
@@ -2092,9 +2178,9 @@
     "file_function": {
       "astropy/nddata/mixins/tests/test_ndarithmetic.py": [
         "test_arithmetics_meta_func",
-        "test_arithmetics_wcs_func",
-        "test_psf_warning",
         "test_arithmetics_handle_switches",
+        "test_psf_warning",
+        "test_arithmetics_wcs_func",
         "test_arithmetics_data_masks"
       ],
       "astropy/nddata/tests/test_ccddata.py": [
@@ -2110,50 +2196,56 @@
     "instance_id": "django__django-16400",
     "file_function": {
       "migrations/test_commands.py": [
-        "test_prune_no_app_label",
-        "test_migrate_nonexistent_app_label",
-        "test_migrate_not_reflected_changes",
-        "test_prune_deleted_squashed_migrations_in_replaces",
-        "test_migrate_check",
-        "test_migrate_with_system_checks",
-        "test_migrate_check_plan",
-        "test_ambiguous_prefix",
-        "test_prune_no_migrations_to_prune",
-        "test_unknown_prefix",
+        "test_migrate_check_migrated_app",
         "test_app_without_migrations",
-        "test_migrate_syncdb_app_with_migrations"
+        "test_migrate_with_system_checks",
+        "test_prune_deleted_squashed_migrations_in_replaces",
+        "test_ambiguous_prefix",
+        "test_migrate_nonexistent_app_label",
+        "test_migrate_app_name_specified_as_label",
+        "test_migrate_not_reflected_changes",
+        "test_migrate_syncdb_app_with_migrations",
+        "test_migrate_check",
+        "test_prune_no_migrations_to_prune",
+        "test_migrate_backward_to_squashed_migration",
+        "test_migrate_fake_initial_case_insensitive",
+        "test_migrate_check_plan",
+        "test_prune_no_app_label",
+        "test_unknown_prefix"
+      ],
+      "migrations/test_executor.py": [
+        "test_alter_id_type_with_fk"
       ]
     }
   },
   {
     "instance_id": "sympy__sympy-12419",
     "file_function": {
-      "sympy/matrices/expressions/tests/test_matmul.py": [
-        "test_matmul_args_cnc",
-        "test_refine",
-        "test_matmul_no_matrices",
-        "test_adjoint",
-        "test_determinant",
-        "test_doit_deep_false_still_canonical"
+      "sympy/matrices/expressions/tests/test_matpow.py": [
+        "test_entry",
+        "test_as_explicit_symbol"
+      ],
+      "sympy/matrices/expressions/tests/test_matexpr.py": [
+        "test_single_indexing",
+        "test_matadd_simplify",
+        "test_multiplication",
+        "test_addition",
+        "test_MatPow",
+        "test_Zero_power",
+        "test_ZeroMatrix",
+        "test_matmul_simplify",
+        "test_identity_powers"
       ],
       "sympy/assumptions/tests/test_refine.py": [
         "test_pow"
       ],
-      "sympy/matrices/expressions/tests/test_matexpr.py": [
-        "test_Zero_power",
-        "test_addition",
-        "test_matrixelement_diff",
-        "test_MatPow",
-        "test_multiplication",
-        "test_identity_powers",
-        "test_matadd_simplify",
-        "test_single_indexing",
-        "test_ZeroMatrix",
-        "test_matmul_simplify"
-      ],
-      "sympy/matrices/expressions/tests/test_matpow.py": [
-        "test_as_explicit_symbol",
-        "test_entry"
+      "sympy/matrices/expressions/tests/test_matmul.py": [
+        "test_doit_deep_false_still_canonical",
+        "test_adjoint",
+        "test_matmul_no_matrices",
+        "test_matmul_args_cnc",
+        "test_refine",
+        "test_determinant"
       ],
       "sympy/matrices/expressions/tests/test_inverse.py": [
         "test_inverse"
@@ -2163,21 +2255,21 @@
   {
     "instance_id": "sympy__sympy-13146",
     "file_function": {
-      "sympy/simplify/tests/test_simplify.py": [
-        "test_simplify_expr",
-        "test_simplify_ratio",
-        "test_besselsimp",
-        "test_simplify_other",
-        "test_simplify_function_inverse"
-      ],
       "sympy/simplify/tests/test_combsimp.py": [
         "test_combsimp_gamma"
       ],
-      "sympy/simplify/tests/test_radsimp.py": [
-        "test_issue_5933"
-      ],
       "sympy/core/tests/test_expr.py": [
         "test_is_constant"
+      ],
+      "sympy/simplify/tests/test_simplify.py": [
+        "test_simplify_ratio",
+        "test_simplify_expr",
+        "test_besselsimp",
+        "test_simplify_function_inverse",
+        "test_simplify_other"
+      ],
+      "sympy/simplify/tests/test_radsimp.py": [
+        "test_issue_5933"
       ]
     }
   },
@@ -2185,34 +2277,34 @@
     "instance_id": "sympy__sympy-18189",
     "file_function": {
       "sympy/solvers/tests/test_diophantine.py": [
-        "test_assumptions",
-        "test_issue_9538",
-        "test_classify_diop",
-        "test_diop_ternary_quadratic",
         "test_diophantine_permute_sign",
-        "test_input_format",
+        "test_issue_9538",
         "test_no_square_ternary_quadratic",
+        "test_issue_8943",
         "test_general_pythagorean",
+        "test_diop_ternary_quadratic",
+        "test_input_format",
         "test_diophantine",
-        "test_issue_8943"
+        "test_classify_diop",
+        "test_assumptions"
       ]
     }
   },
   {
     "instance_id": "django__django-14016",
     "file_function": {
+      "expressions_case/tests.py": [
+        "test_m2m_reuse",
+        "test_annotate_exclude",
+        "test_m2m_exclude"
+      ],
       "queries/test_q.py": [
-        "test_deconstruct_or",
-        "test_deconstruct_negated",
-        "test_combine_and_empty",
         "test_reconstruct_negated",
         "test_reconstruct_or",
-        "test_combine_not_q_object"
-      ],
-      "expressions_case/tests.py": [
-        "test_m2m_exclude",
-        "test_annotate_exclude",
-        "test_m2m_reuse"
+        "test_combine_and_empty",
+        "test_deconstruct_negated",
+        "test_combine_not_q_object",
+        "test_deconstruct_or"
       ]
     }
   },
@@ -2220,13 +2312,20 @@
     "instance_id": "django__django-15902",
     "file_function": {
       "forms_tests/tests/test_formsets.py": [
-        "test_formset_total_error_count_with_non_form_errors",
-        "test_repr",
-        "test_customize_management_form_error",
-        "test_non_form_errors",
+        "test_empty_forms_are_unbound",
+        "test_validate_max_ignores_forms_marked_for_deletion",
+        "test_formset_validate_min_excludes_empty_forms",
+        "test_limited_max_forms_two",
+        "test_max_num_zero_with_initial",
         "test_absolute_max_invalid",
+        "test_repr",
+        "test_disable_delete_extra_formset_forms",
+        "test_formset_total_error_count_with_non_form_errors",
+        "test_formsets_with_ordering_custom_widget",
+        "test_form_kwargs_empty_form",
         "test_formset_validate_min_flag_custom_formatted_error",
-        "test_max_num_zero_with_initial"
+        "test_customize_management_form_error",
+        "test_html_safe"
       ],
       "forms_tests/tests/test_renderers.py": [
         "test_get_renderer"
@@ -2257,9 +2356,9 @@
     "instance_id": "sympy__sympy-20639",
     "file_function": {
       "sympy/printing/pretty/tests/test_pretty.py": [
-        "test_issue_6285",
         "test_pretty_sum",
-        "test_pretty_basic"
+        "test_pretty_basic",
+        "test_issue_6285"
       ]
     }
   },
@@ -2267,15 +2366,16 @@
     "instance_id": "django__django-12700",
     "file_function": {
       "view_tests/tests/test_debug.py": [
-        "test_ignore_traceback_evaluation_exceptions",
+        "test_callable_settings",
         "test_paranoid_request",
+        "test_ignore_traceback_evaluation_exceptions",
         "test_multivalue_dict_key_error",
-        "test_404_empty_path_not_in_urls",
         "test_callable_settings_forbidding_to_set_attributes",
         "test_sensitive_function_arguments",
+        "test_message_only",
         "test_sensitive_function_keyword_arguments",
         "test_dict_setting_with_non_str_key",
-        "test_callable_settings"
+        "test_404_empty_path_not_in_urls"
       ]
     }
   },
@@ -2283,14 +2383,14 @@
     "instance_id": "matplotlib__matplotlib-25433",
     "file_function": {
       "lib/matplotlib/tests/test_widgets.py": [
-        "test_save_blitted_widget_as_pdf",
-        "test_slider_slidermin_slidermax",
-        "test_range_slider",
-        "test_slider_horizontal_vertical",
         "test_range_slider_same_init_values",
         "test_MultiCursor",
-        "test_slider_slidermin_slidermax_invalid",
+        "test_range_slider",
         "test_slider_valstep_snapping",
+        "test_slider_horizontal_vertical",
+        "test_slider_slidermin_slidermax",
+        "test_slider_slidermin_slidermax_invalid",
+        "test_save_blitted_widget_as_pdf",
         "test_slider_valmin_valmax"
       ]
     }
@@ -2308,9 +2408,9 @@
     "instance_id": "scikit-learn__scikit-learn-10949",
     "file_function": {
       "sklearn/utils/tests/test_validation.py": [
+        "test_check_array_accept_sparse_type_exception",
         "test_check_array",
-        "test_check_array_pandas_dtype_object_conversion",
-        "test_check_array_accept_sparse_type_exception"
+        "test_check_array_pandas_dtype_object_conversion"
       ],
       "sklearn/tests/test_common.py": [
         "test_non_meta_estimators"
@@ -2321,26 +2421,26 @@
     "instance_id": "django__django-11422",
     "file_function": {
       "utils_tests/test_autoreload.py": [
-        "test_watchman_unavailable",
-        "test_calls_sys_exit",
-        "test_watch_with_single_file",
+        "test_common_roots",
+        "test_watchman_becomes_unavailable",
+        "test_wait_for_apps_ready_checks_for_exception",
         "test_swallows_keyboard_interrupt",
-        "test_python_m_django",
-        "test_watchman_available",
         "test_sys_paths_with_directories",
         "test_paths_are_pathlib_instances",
-        "test_check_errors_catches_all_exceptions",
-        "test_calls_start_django",
         "test_run_loop_catches_stopiteration",
-        "test_run_loop_stop_and_return",
-        "test_file_added",
-        "test_common_roots",
-        "test_watch_without_absolute",
-        "test_wait_for_apps_ready_checks_for_exception",
-        "test_manage_py",
+        "test_watchman_unavailable",
+        "test_watch_with_single_file",
+        "test_calls_start_django",
         "test_wait_for_apps_ready_without_exception",
-        "test_watchman_becomes_unavailable",
-        "test_snapshot_files_ignores_missing_files"
+        "test_watchman_available",
+        "test_python_m_django",
+        "test_watch_without_absolute",
+        "test_watch_files_with_recursive_glob",
+        "test_snapshot_files_ignores_missing_files",
+        "test_manage_py",
+        "test_calls_sys_exit",
+        "test_run_loop_stop_and_return",
+        "test_snapshot_files_with_duplicates"
       ]
     }
   },
@@ -2348,8 +2448,8 @@
     "instance_id": "sympy__sympy-23262",
     "file_function": {
       "sympy/printing/tests/test_pycode.py": [
-        "test_PythonCodePrinter",
         "test_frac",
+        "test_PythonCodePrinter",
         "test_sqrt"
       ]
     }
@@ -2358,25 +2458,25 @@
     "instance_id": "sympy__sympy-22714",
     "file_function": {
       "sympy/geometry/tests/test_point.py": [
-        "test_arguments",
-        "test_Point2D",
         "test_dot",
-        "test_transform",
-        "test_unit",
+        "test_arguments",
+        "test_point",
         "test_point3D",
-        "test_point"
-      ],
-      "sympy/parsing/tests/test_sympy_parser.py": [
-        "test_parsing_definitions",
-        "test_sympy_parser",
-        "test_function_evaluate_false"
+        "test_unit",
+        "test_transform",
+        "test_Point2D"
       ],
       "sympy/core/tests/test_sympify.py": [
-        "test_sympify_raises",
-        "test_issue_6046",
-        "test_sympify1",
+        "test__sympify",
         "test_issue_16859",
-        "test__sympify"
+        "test_sympify1",
+        "test_issue_6046",
+        "test_sympify_raises"
+      ],
+      "sympy/parsing/tests/test_sympy_parser.py": [
+        "test_function_evaluate_false",
+        "test_sympy_parser",
+        "test_parsing_definitions"
       ],
       "sympy/geometry/tests/test_polygon.py": [
         "test_polygon"
@@ -2386,28 +2486,26 @@
   {
     "instance_id": "pylint-dev__pylint-7114",
     "file_function": {
-      "tests/lint/test_utils.py": [
-        "test_issue_template_on_fatal_errors"
-      ],
       "tests/test_self.py": [
-        "test_ignore_pattern_recursive",
-        "test_relative_imports",
-        "test_ignore_recursive",
-        "test_parallel_execution_missing_arguments",
         "test_stdin_syntax_error",
         "test_ignore_path_recursive",
-        "test_json_report_when_file_is_missing",
+        "test_ignore_recursive",
+        "test_relative_imports",
+        "test_ignore_pattern_recursive",
+        "test_parallel_execution_missing_arguments",
+        "test_stdin",
         "test_one_module_fatal_error",
-        "test_stdin"
-      ],
-      "tests/test_regr.py": [
-        "test_check_package___init__"
-      ],
-      "tests/test_func.py": [
-        "test_functionality"
+        "test_json_report_when_file_is_missing"
       ],
       "tests/lint/unittest_expand_modules.py": [
         "test_expand_modules_with_ignore"
+      ],
+      "tests/test_regr.py": [
+        "test_crash",
+        "test_package"
+      ],
+      "tests/lint/test_utils.py": [
+        "test_issue_template_on_fatal_errors"
       ],
       "tests/test_functional.py": [
         "test_functional"
@@ -2418,11 +2516,11 @@
     "instance_id": "astropy__astropy-14365",
     "file_function": {
       "astropy/io/ascii/tests/test_qdp.py": [
-        "test_roundtrip_example",
-        "test_roundtrip",
-        "test_roundtrip_example_comma",
         "test_get_lines_from_qdp",
-        "test_read_write_simple"
+        "test_roundtrip",
+        "test_read_write_simple",
+        "test_roundtrip_example",
+        "test_roundtrip_example_comma"
       ]
     }
   },
@@ -2430,8 +2528,8 @@
     "instance_id": "matplotlib__matplotlib-22835",
     "file_function": {
       "lib/matplotlib/tests/test_image.py": [
-        "test_image_cursor_formatting",
-        "test_format_cursor_data"
+        "test_format_cursor_data",
+        "test_image_cursor_formatting"
       ]
     }
   },
@@ -2439,8 +2537,8 @@
     "instance_id": "django__django-15789",
     "file_function": {
       "template_tests/filter_tests/test_json_script.py": [
-        "test_without_id",
-        "test_basic"
+        "test_basic",
+        "test_without_id"
       ]
     }
   },
@@ -2448,9 +2546,9 @@
     "instance_id": "sympy__sympy-15308",
     "file_function": {
       "sympy/printing/tests/test_latex.py": [
-        "test_Adjoint",
-        "test_latex_basic",
-        "test_latex_matrix_with_functions"
+        "test_latex_mul_symbol",
+        "test_custom_symbol_names",
+        "test_latex_Matrix"
       ]
     }
   },
@@ -2458,10 +2556,10 @@
     "instance_id": "django__django-11039",
     "file_function": {
       "migrations/test_commands.py": [
-        "test_sqlmigrate_backwards",
         "test_sqlmigrate_forwards",
-        "test_sqlmigrate_for_non_atomic_migration",
-        "test_sqlmigrate_app_name_specified_as_label"
+        "test_sqlmigrate_app_name_specified_as_label",
+        "test_sqlmigrate_backwards",
+        "test_sqlmigrate_for_non_atomic_migration"
       ]
     }
   },
@@ -2469,7 +2567,11 @@
     "instance_id": "django__django-14411",
     "file_function": {
       "admin_views/tests.py": [
-        "test_changelist_view"
+        "test_logout_and_password_change_URLs",
+        "test_change_list_sorting_callable_query_expression_reverse",
+        "test_change_list_column_field_classes",
+        "test_view_subtitle_per_object",
+        "test_view"
       ]
     }
   },
@@ -2477,46 +2579,52 @@
     "instance_id": "sphinx-doc__sphinx-10451",
     "file_function": {
       "tests/test_ext_autodoc_configs.py": [
-        "test_autodoc_typehints_description_no_undoc",
-        "test_autodoc_typehints_format_fully_qualified_for_newtype_alias",
-        "test_autodoc_typehints_format_fully_qualified_for_generic_alias",
         "test_autodoc_typehints_format_fully_qualified",
-        "test_autodoc_typehints_description_for_invalid_node",
+        "test_autodoc_typehints_format_fully_qualified_for_newtype_alias",
+        "test_autodoc_typehints_description_no_undoc",
+        "test_autodoc_typehints_description_with_documented_init",
+        "test_autodoc_typehints_format_fully_qualified_for_generic_alias",
         "test_autodoc_typehints_description_no_undoc_doc_rtype",
-        "test_autodoc_typehints_description_with_documented_init"
-      ],
-      "tests/test_ext_autodoc_autofunction.py": [
-        "test_cfunction"
+        "test_autodoc_typehints_description_for_invalid_node"
       ],
       "tests/test_ext_autodoc_automodule.py": [
         "test_subclass_of_mocked_object"
+      ],
+      "tests/test_ext_autodoc_autofunction.py": [
+        "test_cfunction"
       ]
     }
   },
   {
     "instance_id": "django__django-13315",
     "file_function": {
-      "model_forms/tests.py": [
-        "test_validate_foreign_key_to_model_with_overridden_manager",
-        "test_show_hidden_initial_changed_queries_efficiently",
-        "test_non_blank_foreign_key_with_radio",
-        "test_model_multiple_choice_field",
-        "test_limit_choices_to_callable_for_fk_rel",
-        "test_model_multiple_choice_show_hidden_initial",
-        "test_foreignkeys_which_use_to_field"
-      ],
-      "model_fields/test_foreignkey.py": [
-        "test_empty_string_fk",
-        "test_recursive_fks_get_col",
-        "test_non_local_to_field",
-        "test_warning_when_unique_true_on_fk"
-      ],
       "model_forms/test_modelchoicefield.py": [
         "test_disabled_modelmultiplechoicefield_has_changed",
-        "test_clean_model_instance",
         "test_disabled_modelchoicefield_initial_model_instance",
         "test_disabled_modelchoicefield_has_changed",
-        "test_no_extra_query_when_accessing_attrs"
+        "test_choices"
+      ],
+      "model_forms/tests.py": [
+        "test_blank_with_null_foreign_key_field",
+        "test_validate_foreign_key_to_model_with_overridden_manager",
+        "test_model_multiple_choice_field",
+        "test_foreignkeys_which_use_to_field",
+        "test_show_hidden_initial_changed_queries_efficiently",
+        "test_limit_choices_to_callable_for_m2m_rel",
+        "test_model_multiple_choice_show_hidden_initial"
+      ],
+      "model_formsets_regress/tests.py": [
+        "test_resubmit",
+        "test_delete_already_deleted"
+      ],
+      "model_fields/test_foreignkey.py": [
+        "test_non_local_to_field",
+        "test_recursive_fks_get_col",
+        "test_warning_when_unique_true_on_fk",
+        "test_empty_string_fk"
+      ],
+      "foreign_object/tests.py": [
+        "test_prefetch_related_m2m_forward_works"
       ]
     }
   },
@@ -2524,7 +2632,11 @@
     "instance_id": "django__django-13710",
     "file_function": {
       "admin_inlines/tests.py": [
-        "test_custom_get_extra_form"
+        "test_inline_add_fk_noperm",
+        "test_custom_form_tabular_inline_extra_field_label"
+      ],
+      "admin_views/tests.py": [
+        "test_should_be_able_to_edit_related_objects_on_add_view"
       ]
     }
   },
@@ -2540,35 +2652,36 @@
   {
     "instance_id": "django__django-11848",
     "file_function": {
+      "utils_tests/test_http.py": [
+        "test_parsing_rfc850",
+        "test_parsing_year_less_than_70"
+      ],
       "conditional_processing/tests.py": [
         "test_if_modified_since"
-      ],
-      "utils_tests/test_http.py": [
-        "test_parsing_year_less_than_70",
-        "test_parsing_rfc850"
       ]
     }
   },
   {
     "instance_id": "django__django-12747",
     "file_function": {
+      "delete/tests.py": [
+        "test_fast_delete_instance_set_pk_none",
+        "test_protect",
+        "test_delete_with_keeping_parents",
+        "test_deletion_order",
+        "test_do_nothing",
+        "test_delete_with_keeping_parents_relationships",
+        "test_large_delete",
+        "test_protect_multiple",
+        "test_do_nothing_qscount",
+        "test_setnull_from_child",
+        "test_protect_path",
+        "test_fast_delete_large_batch",
+        "test_only_referenced_fields_selected",
+        "test_restrict_path_cascade_indirect_diamond"
+      ],
       "delete_regress/tests.py": [
         "test_19187_values"
-      ],
-      "delete/tests.py": [
-        "test_do_nothing_qscount",
-        "test_fast_delete_instance_set_pk_none",
-        "test_restrict_path_cascade_indirect_diamond",
-        "test_large_delete",
-        "test_setnull_from_child",
-        "test_fast_delete_large_batch",
-        "test_deletion_order",
-        "test_protect_path",
-        "test_protect_multiple",
-        "test_delete_with_keeping_parents",
-        "test_relational_post_delete_signals_happen_before_parent_object",
-        "test_protect",
-        "test_large_delete_related"
       ],
       "save_delete_hooks/tests.py": [
         "test_basic"
@@ -2578,52 +2691,52 @@
   {
     "instance_id": "sphinx-doc__sphinx-8435",
     "file_function": {
-      "tests/test_ext_autosummary.py": [
-        "test_autosummary_skip_member"
-      ],
       "tests/test_ext_autodoc.py": [
-        "test_autodoc_warnings",
-        "test_autodoc_member_order",
         "test_autodoc_TypeVar",
-        "test_singledispatchmethod",
-        "test_autodoc_imported_members",
-        "test_coroutine",
-        "test_autodoc_inner_class",
-        "test_parse_name",
-        "test_format_signature",
-        "test_autodoc_GenericAlias",
+        "test_autodoc_warnings",
         "test_autodoc_decorator",
+        "test_autodoc_attributes",
+        "test_singledispatchmethod",
+        "test_coroutine",
+        "test_autodoc_noindex",
+        "test_autodoc_inherited_members_Base",
+        "test_autodoc_imported_members",
+        "test_autodoc_inner_class",
+        "test_final",
+        "test_autodoc_module_member_order",
+        "test_autodoc_ignore_module_all",
+        "test_singledispatch",
+        "test_autodoc_GenericAlias",
+        "test_autodoc_member_order",
+        "test_parse_name",
         "test_autodoc_inherited_members",
         "test_autodoc_inherited_members_None",
-        "test_autodoc_module_member_order",
-        "test_abstractmethods",
-        "test_singledispatch",
-        "test_autoattribute_instance_attributes",
-        "test_final",
         "test_autodoc_typed_instance_variables",
-        "test_overload",
-        "test_autodoc_attributes",
-        "test_autodoc_noindex",
-        "test_autodoc_ignore_module_all",
-        "test_autodoc_inherited_members_Base"
-      ],
-      "tests/test_ext_autodoc_configs.py": [
-        "test_autodoc_typehints_description",
-        "test_autodoc_typehints_description_for_invalid_node",
-        "test_autodoc_default_options_with_values",
-        "test_autoclass_content_and_docstring_signature_both",
-        "test_autodoc_typehints_none",
-        "test_autodoc_default_options",
-        "test_autoclass_content_and_docstring_signature_init",
-        "test_autodoc_docstring_signature"
+        "test_abstractmethods",
+        "test_format_signature",
+        "test_autoattribute_instance_attributes",
+        "test_overload"
       ],
       "tests/test_ext_autodoc_events.py": [
-        "test_cut_lines",
+        "test_between",
         "test_skip_module_member",
-        "test_between"
+        "test_cut_lines"
       ],
       "tests/test_ext_autodoc_autoclass.py": [
         "test_show_inheritance_for_subclass_of_generic_type"
+      ],
+      "tests/test_ext_autodoc_configs.py": [
+        "test_autodoc_docstring_signature",
+        "test_autodoc_typehints_none",
+        "test_autodoc_default_options",
+        "test_autodoc_default_options_with_values",
+        "test_autoclass_content_and_docstring_signature_init",
+        "test_autodoc_typehints_description",
+        "test_autoclass_content_and_docstring_signature_both",
+        "test_autodoc_typehints_description_for_invalid_node"
+      ],
+      "tests/test_ext_autosummary.py": [
+        "test_autosummary_skip_member"
       ],
       "tests/test_ext_autodoc_private_members.py": [
         "test_private_members"
@@ -2642,10 +2755,10 @@
     "instance_id": "matplotlib__matplotlib-23563",
     "file_function": {
       "lib/mpl_toolkits/tests/test_mplot3d.py": [
-        "test_line3d_set_get_data_3d",
-        "test_errorbar3d",
+        "test_format_coord",
         "test_get_axis_position",
-        "test_format_coord"
+        "test_line3d_set_get_data_3d",
+        "test_errorbar3d"
       ]
     }
   },
@@ -2653,9 +2766,9 @@
     "instance_id": "django__django-15061",
     "file_function": {
       "forms_tests/widget_tests/test_multiwidget.py": [
-        "test_value_from_datadict_subwidgets_name",
         "test_value_omitted_from_data_subwidgets_name",
         "test_text_inputs",
+        "test_value_from_datadict_subwidgets_name",
         "test_constructor_attrs_with_type"
       ],
       "forms_tests/tests/test_media.py": [
@@ -2668,18 +2781,18 @@
     "file_function": {
       "sympy/core/tests/test_function.py": [
         "test_issue_15084_13166",
-        "test_issue_14719_10150",
-        "test_derivative_evaluate",
-        "test_negative_counts",
+        "test_issue_5399",
         "test_unhandled",
-        "test_issue_15241",
+        "test_negative_counts",
         "test_Derivative__new__",
-        "test_derivative_quick_exit",
+        "test_issue_15241",
         "test_issue_15947",
-        "test_issue_5399"
+        "test_derivative_evaluate",
+        "test_issue_14719_10150",
+        "test_derivative_quick_exit"
       ],
       "sympy/matrices/expressions/tests/test_derivatives.py": [
-        "test_derivatives_matrix_norms",
+        "test_matrix_derivatives_of_traces",
         "test_matrix_derivative_vectors_and_scalars"
       ]
     }
@@ -2688,8 +2801,8 @@
     "instance_id": "django__django-14534",
     "file_function": {
       "forms_tests/tests/test_forms.py": [
-        "test_iterable_boundfield_select",
-        "test_form_with_iterable_boundfield_id"
+        "test_form_with_iterable_boundfield_id",
+        "test_iterable_boundfield_select"
       ]
     }
   },
@@ -2697,13 +2810,16 @@
     "instance_id": "django__django-14997",
     "file_function": {
       "migrations/test_operations.py": [
-        "test_add_covering_unique_constraint",
+        "test_alter_field_pk_mti_fk",
         "test_add_partial_unique_constraint"
       ],
       "schema/tests.py": [
-        "test_remove_unique_together_does_not_remove_meta_constraints",
-        "test_func_unique_constraint",
-        "test_alter_not_unique_field_to_primary_key"
+        "test_add_textfield_unhashable_default",
+        "test_add_field_default_dropped",
+        "test_alter_field_type_and_db_collation",
+        "test_alter_not_unique_field_to_primary_key",
+        "test_add_textfield_default_nullable",
+        "test_remove_unique_together_does_not_remove_meta_constraints"
       ]
     }
   },
@@ -2716,13 +2832,14 @@
         "test_converter_reverse_with_second_layer_instance_namespace"
       ],
       "handlers/tests.py": [
-        "test_middleware_returns_none",
+        "test_auto_transaction",
         "test_no_response",
-        "test_auto_transaction"
+        "test_middleware_returns_none"
       ],
       "view_tests/tests/test_debug.py": [
-        "test_template_exceptions",
-        "test_404"
+        "test_404_not_in_urls",
+        "test_404",
+        "test_template_exceptions"
       ],
       "view_tests/tests/test_defaults.py": [
         "test_csrf_token_in_404"
@@ -2733,22 +2850,22 @@
     "instance_id": "sympy__sympy-11870",
     "file_function": {
       "sympy/simplify/tests/test_simplify.py": [
-        "test_simplify_expr",
-        "test_Piecewise",
+        "test_simplify_issue_1308",
         "test_simplify_ratio",
+        "test_simplify_expr",
         "test_besselsimp",
         "test_simplify_function_inverse",
-        "test_simplify_issue_1308",
-        "test_simplify_rational"
-      ],
-      "sympy/simplify/tests/test_trigsimp.py": [
-        "test_issue_2827_trigsimp_methods",
-        "test_trigsimp_groebner",
-        "test_exptrigsimp"
+        "test_simplify_rational",
+        "test_simplify_other",
+        "test_Piecewise"
       ],
       "sympy/core/tests/test_expr.py": [
-        "test_equals",
         "test_is_constant"
+      ],
+      "sympy/simplify/tests/test_trigsimp.py": [
+        "test_trigsimp_groebner",
+        "test_exptrigsimp",
+        "test_issue_2827_trigsimp_methods"
       ]
     }
   },
@@ -2756,22 +2873,21 @@
     "instance_id": "matplotlib__matplotlib-25311",
     "file_function": {
       "lib/matplotlib/tests/test_legend.py": [
-        "test_reverse_legend_handles_and_labels",
-        "test_legend_pathcollection_labelcolor_linecolor",
-        "test_legend_labelcolor_single",
-        "test_get_set_draggable",
-        "test_legend_title_fontprop_fontsize",
-        "test_legend_pathcollection_labelcolor_markfacecolor_cmap",
-        "test_legend_pathcollection_labelcolor_markeredgecolor_cmap",
+        "test_legend_labelcolor_markerfacecolor",
         "test_legend_labelcolor_linecolor",
-        "test_figure_legend_outside",
-        "test_legend_pathcollection_labelcolor_markerfacecolor_iterable",
-        "test_legend_pathcollection_labelcolor_markeredgecolor",
         "test_legend_pathcollection_labelcolor_linecolor_iterable",
-        "test_legend_label_with_leading_underscore",
-        "test_legend_labelcolor_rcparam_markeredgecolor",
+        "test_figure_legend_outside",
+        "test_get_set_draggable",
         "test_legend_pathcollection_labelcolor_markeredgecolor_iterable",
-        "test_legend_pathcollection_labelcolor_linecolor_cmap"
+        "test_legend_labelcolor_rcparam_single",
+        "test_legend_pathcollection_labelcolor_markerfacecolor_iterable",
+        "test_legend_label_with_leading_underscore",
+        "test_legend_pathcollection_labelcolor_markeredgecolor",
+        "test_legend_labelcolor_single",
+        "test_legend_pathcollection_labelcolor_markfacecolor_cmap",
+        "test_legend_labelcolor_markeredgecolor",
+        "test_reverse_legend_handles_and_labels",
+        "test_legend_title_fontprop_fontsize"
       ]
     }
   },
@@ -2786,84 +2902,69 @@
   {
     "instance_id": "django__django-16910",
     "file_function": {
-      "queries/tests/Queries4Tests/test_ticket24525.py": [
-        "test_ticket24525"
-      ],
-      "queries/test_query/TestQueryNoModel/test_subquery_annotation.py": [
-        "test_subquery_annotation"
-      ],
-      "select_related_onetoone/tests/ReverseSelectRelatedValidationTests/test_reverse_related_validation.py": [
-        "test_reverse_related_validation"
-      ],
       "queries/tests/Queries3Tests/test_ticket22023.py": [
         "test_ticket22023"
-      ],
-      "queries/tests/SelectRelatedTests/test_tickets_3045_3288.py": [
-        "test_tickets_3045_3288"
-      ],
-      "queries/test_qs_combinators/QuerySetSetOperationTests/test_union_multiple_models_with_values_list_and_order.py": [
-        "test_union_multiple_models_with_values_list_and_order"
-      ],
-      "select_related_onetoone/tests/ReverseSelectRelatedTestCase/test_inheritance_deferred2.py": [
-        "test_inheritance_deferred2"
-      ],
-      "select_related/tests/SelectRelatedTests/test_select_related_with_extra.py": [
-        "test_select_related_with_extra"
-      ],
-      "select_related/tests/SelectRelatedTests/test_chaining.py": [
-        "test_chaining"
-      ],
-      "select_related/tests/SelectRelatedTests/test_none_clears_list.py": [
-        "test_none_clears_list"
-      ],
-      "queries/test_query/TestQueryNoModel/test_rawsql_annotation.py": [
-        "test_rawsql_annotation"
-      ],
-      "defer/tests/InvalidDeferTests/test_invalid_only.py": [
-        "test_invalid_only"
-      ],
-      "queries/tests/ValuesQuerysetTests/test_field_error_values_list.py": [
-        "test_field_error_values_list"
-      ],
-      "queries/tests/QuerySetBitwiseOperationTests/test_subquery_aliases.py": [
-        "test_subquery_aliases"
-      ],
-      "queries/test_qs_combinators/QuerySetSetOperationTests/test_union_with_values_list_and_order_on_annotation.py": [
-        "test_union_with_values_list_and_order_on_annotation"
-      ],
-      "defer/tests/DeferTests/test_only_none_raises_error.py": [
-        "test_only_none_raises_error"
       ],
       "queries/test_query/TestQuery/test_clone_select_related.py": [
         "test_clone_select_related"
       ],
-      "defer/tests/DeferTests/test_defer_with_select_related.py": [
-        "test_defer_with_select_related"
+      "queries/tests/Queries4Tests/test_ticket24525.py": [
+        "test_ticket24525"
+      ],
+      "queries/tests/ValuesQuerysetTests/test_field_error_values_list.py": [
+        "test_field_error_values_list"
+      ],
+      "defer/tests/DeferTests/test_defer_foreign_keys_are_deferred_and_not_traversed.py": [
+        "test_defer_foreign_keys_are_deferred_and_not_traversed"
       ],
       "queries/test_query/TestQueryNoModel/test_q_annotation.py": [
         "test_q_annotation"
       ],
+      "select_related/tests/SelectRelatedTests/test_select_related_with_extra.py": [
+        "test_select_related_with_extra"
+      ],
+      "select_related_onetoone/tests/ReverseSelectRelatedValidationTests/test_reverse_related_validation.py": [
+        "test_reverse_related_validation"
+      ],
+      "select_related/tests/SelectRelatedTests/test_none_clears_list.py": [
+        "test_none_clears_list"
+      ],
       "queries/tests/Ticket20955Tests/test_ticket_20955.py": [
         "test_ticket_20955"
+      ],
+      "defer/tests/DeferTests/test_only_none_raises_error.py": [
+        "test_only_none_raises_error"
+      ],
+      "defer/tests/InvalidDeferTests/test_invalid_only.py": [
+        "test_invalid_only"
+      ],
+      "queries/test_qs_combinators/QuerySetSetOperationTests/test_union_with_values_list_and_order.py": [
+        "test_union_with_values_list_and_order"
+      ],
+      "queries/tests/ToFieldTests/test_nested_in_subquery.py": [
+        "test_nested_in_subquery"
+      ],
+      "select_related_onetoone/tests/ReverseSelectRelatedTestCase/test_inheritance_deferred2.py": [
+        "test_inheritance_deferred2"
       ]
     }
   },
   {
     "instance_id": "sympy__sympy-13915",
     "file_function": {
-      "sympy/solvers/tests/test_solvers.py": [
-        "test_solve_transcendental",
-        "test_uselogcombine",
-        "test_issue_5132"
-      ],
       "sympy/core/tests/test_subs.py": [
-        "test_subs_dict",
-        "test_issue_4680",
-        "test_Function_subs",
         "test_issue_2877",
+        "test_Function_subs",
+        "test_issue_4680",
         "test_issue_8886",
+        "test_subs_dict",
         "test_dict_set",
         "test_2arg_hack"
+      ],
+      "sympy/solvers/tests/test_solvers.py": [
+        "test_issue_5132",
+        "test_solve_transcendental",
+        "test_uselogcombine"
       ],
       "sympy/core/tests/test_basic.py": [
         "test_subs"
@@ -2873,48 +2974,51 @@
   {
     "instance_id": "django__django-11964",
     "file_function": {
-      "model_fields/test_integerfield.py": [
-        "test_integerfield_raises_error_on_empty_input",
-        "test_invalid_value",
-        "test_types"
-      ],
       "model_enums/tests.py": [
         "test_textchoices_functional_api"
       ],
+      "model_fields/test_integerfield.py": [
+        "test_invalid_value",
+        "test_integerfield_raises_error_on_empty_input",
+        "test_documented_range"
+      ],
+      "model_fields/test_textfield.py": [
+        "test_emoji"
+      ],
       "model_fields/test_charfield.py": [
-        "test_assignment_from_choice_enum",
-        "test_lookup_integer_in_charfield"
+        "test_lookup_integer_in_charfield",
+        "test_assignment_from_choice_enum"
       ]
     }
   },
   {
     "instance_id": "sympy__sympy-12171",
     "file_function": {
-      "sympy/printing/tests/test_julia.py": [
-        "test_julia_not_supported",
-        "test_boolean",
-        "test_julia_matrix_assign_to"
-      ],
       "sympy/printing/tests/test_ccode.py": [
         "test_ccode_constants_other",
         "test_ccode_inline_function",
-        "test_ccode_reserved_words",
-        "test_ccode_boolean",
-        "test_ccode_Piecewise",
-        "test_ccode_loops_matrix_vector",
-        "test_ccode_loops_addfactor",
-        "test_ccode_Pow",
         "test_ccode_loops_add",
+        "test_ccode_Piecewise",
+        "test_ccode_boolean",
+        "test_ccode_Pow",
+        "test_Matrix_printing",
+        "test_ccode_reserved_words",
         "test_ccode_For",
-        "test_Matrix_printing"
-      ],
-      "sympy/printing/tests/test_rcode.py": [
-        "test_rcode_For",
-        "test_rcode_Piecewise_deep"
+        "test_ccode_loops_matrix_vector",
+        "test_ccode_loops_multiple_contractions"
       ],
       "sympy/printing/tests/test_codeprinter.py": [
         "test_print_Dummy",
         "test_print_Symbol"
+      ],
+      "sympy/printing/tests/test_julia.py": [
+        "test_boolean",
+        "test_julia_not_supported",
+        "test_julia_matrix_assign_to"
+      ],
+      "sympy/printing/tests/test_rcode.py": [
+        "test_rcode_sgn",
+        "test_dummy_loops"
       ],
       "sympy/printing/tests/test_mathematica.py": [
         "test_constants"
@@ -2924,81 +3028,78 @@
   {
     "instance_id": "sympy__sympy-17655",
     "file_function": {
+      "sympy/geometry/tests/test_point.py": [
+        "test_point"
+      ],
       "sympy/geometry/tests/test_ellipse.py": [
-        "test_ellipse_geom",
         "test_second_moment_of_area",
+        "test_ellipse_geom",
         "test_ellipse_random_point"
       ],
-      "sympy/geometry/tests/test_entity.py": [
-        "test_reflect_entity_overrides"
+      "sympy/geometry/tests/test_plane.py": [
+        "test_plane"
       ],
       "sympy/geometry/tests/test_line.py": [
         "test_line_intersection"
+      ],
+      "sympy/geometry/tests/test_entity.py": [
+        "test_reflect_entity_overrides"
       ],
       "sympy/geometry/tests/test_util.py": [
         "test_idiff"
       ],
       "sympy/geometry/tests/test_curve.py": [
         "test_free_symbols"
-      ],
-      "sympy/geometry/tests/test_point.py": [
-        "test_point"
-      ],
-      "sympy/geometry/tests/test_plane.py": [
-        "test_plane"
       ]
     }
   },
   {
     "instance_id": "django__django-17051",
     "file_function": {
-      "bulk_create/tests/BulkCreateTests/test_update_conflicts_invalid_update_fields.py": [
-        "test_update_conflicts_invalid_update_fields"
-      ],
-      "queries/tests/Ticket22429Tests/test_ticket_22429.py": [
-        "test_ticket_22429"
-      ],
-      "bulk_create/tests/BulkCreateTests/test_update_conflicts_unique_fields_required.py": [
-        "test_update_conflicts_unique_fields_required"
-      ],
       "bulk_create/tests/BulkCreateTests/test_ignore_update_conflicts_exclusive.py": [
         "test_ignore_update_conflicts_exclusive"
       ],
-      "bulk_create/tests/BulkCreateTests/test_bulk_insert_nullable_fields.py": [
-        "test_bulk_insert_nullable_fields"
-      ],
-      "expressions/tests/BasicExpressionsTests/test_object_update_unsaved_objects.py": [
-        "test_object_update_unsaved_objects"
-      ],
-      "expressions/tests/BasicExpressionsTests/test_object_create_with_aggregate.py": [
-        "test_object_create_with_aggregate"
-      ],
-      "bulk_create/tests/BulkCreateTests/test_update_conflicts_invalid_unique_fields.py": [
-        "test_update_conflicts_invalid_unique_fields"
-      ],
-      "bulk_create/tests/BulkCreateTests/test_bulk_insert_now.py": [
-        "test_bulk_insert_now"
+      "bulk_create/tests/BulkCreateTests/test_multi_table_inheritance_unsupported.py": [
+        "test_multi_table_inheritance_unsupported"
       ],
       "bulk_create/tests/BulkCreateTests/test_simple.py": [
         "test_simple"
       ],
+      "queries/test_db_returning/ReturningValuesTests/test_bulk_insert.py": [
+        "test_bulk_insert"
+      ],
+      "bulk_create/tests/BulkCreateTests/test_update_conflicts_invalid_update_fields.py": [
+        "test_update_conflicts_invalid_update_fields"
+      ],
       "bulk_create/tests/BulkCreateTests/test_update_conflicts_no_update_fields.py": [
         "test_update_conflicts_no_update_fields"
-      ],
-      "bulk_create/tests/BulkCreateTests/test_update_conflicts_pk_in_update_fields.py": [
-        "test_update_conflicts_pk_in_update_fields"
-      ],
-      "bulk_create/tests/BulkCreateTests/test_invalid_batch_size_exception.py": [
-        "test_invalid_batch_size_exception"
       ],
       "bulk_create/tests/BulkCreateTests/test_update_conflicts_unique_fields_pk.py": [
         "test_update_conflicts_unique_fields_pk"
       ],
-      "queries/test_db_returning/ReturningValuesTests/test_bulk_insert.py": [
-        "test_bulk_insert"
+      "bulk_create/tests/BulkCreateTests/test_update_conflicts_unique_fields_required.py": [
+        "test_update_conflicts_unique_fields_required"
       ],
-      "bulk_create/tests/BulkCreateTests/test_multi_table_inheritance_unsupported.py": [
-        "test_multi_table_inheritance_unsupported"
+      "bulk_create/tests/BulkCreateTests/test_update_conflicts_invalid_unique_fields.py": [
+        "test_update_conflicts_invalid_unique_fields"
+      ],
+      "queries/tests/Ticket22429Tests/test_ticket_22429.py": [
+        "test_ticket_22429"
+      ],
+      "bulk_create/tests/BulkCreateTests/test_invalid_batch_size_exception.py": [
+        "test_invalid_batch_size_exception"
+      ],
+      "expressions/tests/BasicExpressionsTests/test_object_create_with_aggregate.py": [
+        "test_object_create_with_aggregate"
+      ],
+      "bulk_create/tests/BulkCreateTests/test_bulk_insert_now.py": [
+        "test_bulk_insert_now"
+      ],
+      "bulk_create/tests/BulkCreateTests/test_update_conflicts_pk_in_update_fields.py": [
+        "test_update_conflicts_pk_in_update_fields"
+      ],
+      "expressions/tests/BasicExpressionsTests/test_object_update_unsaved_objects.py": [
+        "test_object_update_unsaved_objects"
       ]
     }
   },
@@ -3006,96 +3107,103 @@
     "instance_id": "sphinx-doc__sphinx-8801",
     "file_function": {
       "tests/test_ext_autodoc.py": [
+        "test_partialmethod",
         "test_overload",
-        "test_slots",
-        "test_autodoc_exclude_members",
-        "test_autodoc_warnings",
-        "test_final",
-        "test_autodoc_noindex",
-        "test_autodoc_typed_instance_variables",
-        "test_hide_value",
-        "test_autodoc_member_order",
-        "test_format_signature",
-        "test_autodoc_inherited_members_Base",
         "test_enum_class",
-        "test_autodoc_inner_class",
+        "test_partialmethod_undoc_members",
+        "test_hide_value",
+        "test_autodoc_noindex",
+        "test_final",
+        "test_autodoc_member_order",
         "test_autodoc_typed_inherited_instance_variables",
         "test_autodoc_imported_members",
-        "test_autodoc_special_members"
+        "test_autodoc_special_members",
+        "test_slots",
+        "test_autodoc_inherited_members_Base",
+        "test_name_mangling",
+        "test_autodoc_exclude_members",
+        "test_autodoc_inner_class",
+        "test_autodoc_typed_instance_variables",
+        "test_new_documenter",
+        "test_autodoc_warnings",
+        "test_format_signature"
       ],
       "tests/test_ext_autodoc_private_members.py": [
-        "test_private_field_and_private_members",
         "test_private_members"
-      ],
-      "tests/test_ext_autodoc_events.py": [
-        "test_skip_module_member"
       ],
       "tests/test_ext_autodoc_autoclass.py": [
         "test_slots_attribute",
-        "test_show_inheritance_for_subclass_of_generic_type",
-        "test_inherited_instance_variable"
+        "test_show_inheritance_for_subclass_of_generic_type"
+      ],
+      "tests/test_ext_autosummary.py": [
+        "test_autosummary_skip_member",
+        "test_autosummary_recursive_skips_mocked_modules"
       ],
       "tests/test_ext_autodoc_automodule.py": [
-        "test_subclass_of_mocked_object"
+        "test_subclass_of_mocked_object",
+        "test_empty_all"
       ],
-      "tests/test_ext_autodoc_autoattribute.py": [
-        "test_autoattribute_hide_value"
+      "tests/test_ext_autodoc_events.py": [
+        "test_process_docstring"
       ]
     }
   },
   {
     "instance_id": "django__django-12113",
     "file_function": {
-      "backends/sqlite/tests.py": [
-        "test_pathlib_name",
-        "test_database_sharing_in_threads",
-        "test_constraint_checks_disabled_atomic_allowed"
-      ],
       "backends/tests.py": [
-        "test_disable_constraint_checks_manually",
-        "test_queries",
+        "test_closing_non_shared_connections",
         "test_check_constraints",
+        "test_connections_thread_local",
+        "test_queries",
         "test_cursor_executemany_with_iterator"
       ],
-      "transactions/tests.py": [
-        "test_orm_query_after_error_and_rollback"
+      "backends/sqlite/tests.py": [
+        "test_constraint_checks_disabled_atomic_allowed",
+        "test_pathlib_name",
+        "test_database_sharing_in_threads"
+      ],
+      "migrations/test_multidb.py": [
+        "test_create_model"
       ],
       "multiple_database/tests.py": [
         "test_pseudo_empty_fixtures"
+      ],
+      "transactions/tests.py": [
+        "test_orm_query_after_error_and_rollback"
       ]
     }
   },
   {
     "instance_id": "django__django-12497",
     "file_function": {
-      "m2m_regress/tests.py": [
-        "test_multiple_m2m"
-      ],
-      "m2m_and_m2o/tests.py": [
-        "test_m2m_and_m2o"
-      ],
       "invalid_models_tests/test_relative_fields.py": [
+        "test_unique_m2m",
+        "test_many_to_many_to_missing_model",
+        "test_relationship_model_with_foreign_key_to_wrong_model",
+        "test_ambiguous_relationship_model",
+        "test_clash_between_accessors",
+        "test_too_many_foreign_keys_in_self_referential_model",
+        "test_many_to_many_with_useless_options",
+        "test_relationship_model_missing_foreign_key",
+        "test_hidden_m2m_to_m2m",
         "test_invalid_order",
         "test_missing_relationship_model_on_model_check",
-        "test_hidden_m2m_to_m2m",
-        "test_too_many_foreign_keys_in_self_referential_model",
-        "test_unique_m2m",
-        "test_ambiguous_relationship_model",
-        "test_valid_model",
-        "test_many_to_many_with_useless_options",
-        "test_reverse_query_name_clash",
-        "test_relationship_model_with_foreign_key_to_wrong_model",
-        "test_m2m_to_abstract_model",
-        "test_relationship_model_missing_foreign_key",
+        "test_invalid_field",
         "test_explicit_field_names",
-        "test_invalid_field"
-      ],
-      "m2m_through/tests.py": [
-        "test_create_on_reverse_m2m_with_intermediate_model",
-        "test_through_fields"
+        "test_missing_relationship_model"
       ],
       "m2m_recursive/tests.py": [
         "test_recursive_m2m_related_to_self"
+      ],
+      "m2m_through/tests.py": [
+        "test_through_fields",
+        "test_add_on_reverse_m2m_with_intermediate_model",
+        "test_through_fields_self_referential",
+        "test_set_on_reverse_m2m_with_intermediate_model"
+      ],
+      "m2m_regress/tests.py": [
+        "test_multiple_m2m"
       ],
       "model_fields/test_manytomanyfield.py": [
         "test_value_from_object_instance_with_pk"
@@ -3105,31 +3213,31 @@
   {
     "instance_id": "sympy__sympy-13031",
     "file_function": {
+      "sympy/matrices/expressions/tests/test_blockmatrix.py": [
+        "test_BlockDiagMatrix",
+        "test_blockcut",
+        "test_reblock_2x2",
+        "test_BlockMatrix_Determinant",
+        "test_squareBlockMatrix",
+        "test_BlockMatrix",
+        "test_BlockMatrix_trace"
+      ],
       "sympy/matrices/tests/test_matrices.py": [
-        "test_simplify",
-        "test_diagonal_solve",
-        "test_fancy_index_matrix",
         "test_zeros_ones_fill",
-        "test_LDLsolve",
-        "test_multiplication",
+        "test_inv_block",
         "test_errors",
-        "test_diff",
+        "test_gauss_jordan_solve",
+        "test_multiplication",
+        "test_simplify",
         "test_submatrix_assignment",
+        "test_fancy_index_matrix",
+        "test_diff",
+        "test_copyin",
+        "test_dual",
         "test_issue_9457_9467_9876",
         "test_inverse",
-        "test_inv_block",
-        "test_gauss_jordan_solve",
-        "test_dual",
+        "test_LDLsolve",
         "test_col_row_op"
-      ],
-      "sympy/matrices/expressions/tests/test_blockmatrix.py": [
-        "test_BlockMatrix_Determinant",
-        "test_BlockMatrix_trace",
-        "test_reblock_2x2",
-        "test_BlockDiagMatrix",
-        "test_BlockMatrix",
-        "test_squareBlockMatrix",
-        "test_blockcut"
       ],
       "sympy/matrices/tests/test_immutable.py": [
         "test_function_return_types"
@@ -3140,16 +3248,17 @@
     "instance_id": "sympy__sympy-13471",
     "file_function": {
       "sympy/core/tests/test_numbers.py": [
-        "test_Float_RealElement",
-        "test_comp",
-        "test_conversion_to_mpmath",
-        "test_Float_gcd_lcm_cofactors",
-        "test_float_mpf",
         "test_Float",
+        "test_Float_gcd_lcm_cofactors",
+        "test_conversion_to_mpmath",
+        "test_comp",
+        "test_Float_RealElement",
         "test_Float_idempotence",
+        "test_float_mpf",
         "test_divmod"
       ],
       "sympy/core/tests/test_evalf.py": [
+        "test_evalf_divergent_series",
         "test_evalf_sum"
       ]
     }
@@ -3157,17 +3266,22 @@
   {
     "instance_id": "pydata__xarray-4493",
     "file_function": {
-      "xarray/tests/test_dataset.py": [
-        "test_reset_index"
+      "xarray/tests/test_backends.py": [
+        "test_open_multi_dataset",
+        "test_open_mfdataset_does_same_as_concat",
+        "test_open_mfdataset_list_attr"
+      ],
+      "xarray/tests/test_dataarray.py": [
+        "test_idxmin",
+        "test_set_index",
+        "test_idxmax"
       ],
       "xarray/tests/test_dask.py": [
         "test_chunk"
       ],
-      "xarray/tests/test_dataarray.py": [
-        "test_idxmin",
-        "test_pad_constant",
-        "test_selection_multiindex_from_level",
-        "test_idxmax"
+      "xarray/tests/test_dataset.py": [
+        "test_dask_is_lazy",
+        "test_reset_index"
       ]
     }
   },
@@ -3175,8 +3289,9 @@
     "instance_id": "django__django-14999",
     "file_function": {
       "migrations/test_operations.py": [
-        "test_rename_model_with_self_referential_m2m",
-        "test_rename_model_with_m2m"
+        "test_rename_m2m_target_model",
+        "test_rename_model_with_m2m",
+        "test_rename_model_with_self_referential_m2m"
       ]
     }
   },
@@ -3184,64 +3299,67 @@
     "instance_id": "django__django-14752",
     "file_function": {
       "admin_views/test_autocomplete_view.py": [
-        "test_success"
+        "test_limit_choices_to",
+        "test_success",
+        "test_custom_to_field",
+        "test_custom_to_field_permission_denied"
       ]
     }
   },
   {
     "instance_id": "sympy__sympy-20212",
     "file_function": {
-      "sympy/core/tests/test_complex.py": [
-        "test_issue_5236",
-        "test_pow_issue_1724",
-        "test_expand",
-        "test_expand_complex",
-        "test_issue_11518"
-      ],
       "sympy/core/tests/test_subs.py": [
         "test_subs_noncommutative",
         "test_logexppow"
       ],
-      "sympy/core/tests/test_arit.py": [
-        "test_Pow_is_negative_positive",
-        "test_Pow_is_zero",
-        "test_Pow_is_even_odd",
-        "test_Pow_is_real",
-        "test_polar",
-        "test_pow_E",
-        "test_Pow_is_integer",
-        "test_Mod",
-        "test_Pow_is_nonpositive_nonnegative",
-        "test_Mod_Pow"
-      ],
       "sympy/core/tests/test_power.py": [
-        "test_better_sqrt",
-        "test_power_rewrite_exp",
+        "test_issue_6208",
         "test_Pow_Expr_args",
-        "test_issue_4362",
-        "test_issue_6100_12942_4473",
-        "test_issue_7638",
-        "test_zero",
         "test_nseries",
+        "test_zero",
+        "test_issue_7638",
+        "test_better_sqrt",
         "test_expand",
-        "test_issue_3449"
+        "test_issue_4362",
+        "test_power_rewrite_exp"
       ],
       "sympy/core/tests/test_expr.py": [
-        "test_equals",
-        "test_as_numer_denom",
-        "test_is_constant",
-        "test_leadterm",
-        "test_is_rational_function",
         "test_is_algebraic_expr",
         "test_as_coeff_Mul",
-        "test_as_leading_term4",
-        "test_action_verbs",
         "test_is_meromorphic",
-        "test_round"
+        "test_is_constant",
+        "test_leadterm",
+        "test_round",
+        "test_as_numer_denom",
+        "test_action_verbs",
+        "test_equals",
+        "test_as_leading_term4",
+        "test_is_rational_function"
+      ],
+      "sympy/core/tests/test_arit.py": [
+        "test_Pow_is_negative_positive",
+        "test_Pow_is_even_odd",
+        "test_Mod",
+        "test_Pow_is_real",
+        "test_pow_E",
+        "test_Pow_is_nonpositive_nonnegative",
+        "test_Mod_Pow",
+        "test_polar",
+        "test_Pow_is_integer",
+        "test_Pow_is_zero"
+      ],
+      "sympy/core/tests/test_complex.py": [
+        "test_issue_11518",
+        "test_expand_complex",
+        "test_real_imag",
+        "test_evalc",
+        "test_expand",
+        "test_issue_5429"
       ],
       "sympy/core/tests/test_numbers.py": [
-        "test_latex",
         "test_NaN",
+        "test_latex",
         "test_ComplexInfinity"
       ],
       "sympy/core/tests/test_function.py": [
@@ -3253,8 +3371,8 @@
     "instance_id": "sympy__sympy-24152",
     "file_function": {
       "sympy/physics/quantum/tests/test_tensorproduct.py": [
-        "test_tensor_product_expand",
-        "test_tensor_product_commutator"
+        "test_tensor_product_commutator",
+        "test_tensor_product_expand"
       ]
     }
   },
@@ -3280,27 +3398,25 @@
     "instance_id": "django__django-13220",
     "file_function": {
       "validators/tests.py": [
+        "test_message_dict",
         "test_message_list",
-        "test_single_message",
-        "test_message_dict"
+        "test_single_message"
       ],
-      "validation/test_unique.py": [
-        "test_unique_errors"
-      ],
-      "auth_tests/test_validators.py": [
-        "test_validate_password"
-      ],
-      "validation/tests.py": [
-        "test_custom_validate_method"
-      ],
-      "test_exceptions/test_validation_error.py": [
-        "test_messages_concatenates_error_dict_values"
+      "forms_tests/tests/test_validators.py": [
+        "test_all_errors_get_reported"
       ],
       "validation/test_picklable.py": [
         "test_validationerror_is_picklable"
       ],
-      "forms_tests/tests/test_validators.py": [
-        "test_all_errors_get_reported"
+      "test_exceptions/test_validation_error.py": [
+        "test_messages_concatenates_error_dict_values"
+      ],
+      "validation/tests.py": [
+        "test_custom_validate_method",
+        "test_invalid_generic_ip_raises_error"
+      ],
+      "validation/test_error_messages.py": [
+        "test_autofield_field_raises_error_message"
       ]
     }
   },
@@ -3308,34 +3424,44 @@
     "instance_id": "django__django-15388",
     "file_function": {
       "utils_tests/test_autoreload.py": [
+        "test_watch_files_with_recursive_glob",
+        "test_wait_for_apps_ready_checks_for_exception",
+        "test_watchman_unavailable",
+        "test_watch_dir_with_unresolvable_path",
+        "test_snapshot_files_ignores_missing_files",
+        "test_manage_py",
+        "test_calls_start_django",
         "test_wait_for_apps_ready_without_exception",
         "test_swallows_keyboard_interrupt",
-        "test_calls_start_django",
-        "test_python_m_django",
+        "test_calls_sys_exit",
         "test_watchman_available",
         "test_watchman_becomes_unavailable",
-        "test_watchman_unavailable",
-        "test_wait_for_apps_ready_checks_for_exception",
-        "test_snapshot_files_ignores_missing_files",
-        "test_calls_sys_exit",
-        "test_watch_dir_with_unresolvable_path",
+        "test_python_m_django",
+        "test_run_loop_stop_and_return",
+        "test_tick_does_not_trigger_twice",
+        "test_watch_with_glob",
         "test_run_loop_catches_stopiteration",
-        "test_manage_py",
-        "test_run_loop_stop_and_return"
+        "test_snapshot_files_with_duplicates"
       ]
     }
   },
   {
     "instance_id": "django__django-16873",
     "file_function": {
-      "template_tests/filter_tests/test_join/FunctionTests/test_noniterable_arg.py": [
-        "test_noniterable_arg"
-      ],
-      "template_tests/filter_tests/test_join/FunctionTests/test_autoescape.py": [
-        "test_autoescape"
+      "template_tests/filter_tests/test_join/FunctionTests/test_noniterable_arg_autoescape_off.py": [
+        "test_noniterable_arg_autoescape_off"
       ],
       "template_tests/filter_tests/test_join/JoinTests/test_join07.py": [
         "test_join07"
+      ],
+      "template_tests/filter_tests/test_join/FunctionTests/test_noniterable_arg.py": [
+        "test_noniterable_arg"
+      ],
+      "template_tests/filter_tests/test_join/FunctionTests/test_list.py": [
+        "test_list"
+      ],
+      "template_tests/filter_tests/test_join/FunctionTests/test_autoescape.py": [
+        "test_autoescape"
       ]
     }
   },
@@ -3343,22 +3469,30 @@
     "instance_id": "django__django-16229",
     "file_function": {
       "model_forms/tests.py": [
+        "test_callable_field_default",
         "test_override_unique_together_message",
-        "test_save_with_data_errors",
+        "test_unique_for_date",
+        "test_invalid_meta_model",
+        "test_default_filefield",
         "test_validates_with_replaced_field_excluded",
         "test_no_model_class",
-        "test_callable_field_default",
         "test_initial_values",
-        "test_filefield_required_false",
-        "test_unique_for_date"
+        "test_save_with_data_errors"
       ],
       "admin_views/tests.py": [
         "test_save_as_new_with_inlines_with_validation_errors",
         "test_custom_admin_site_password_change_with_extra_context",
         "test_custom_admin_site_password_change_template",
-        "test_save_button",
+        "test_password_change_helptext",
         "test_save_continue_editing_button",
-        "test_password_change_helptext"
+        "test_save_button",
+        "test_login_has_permission",
+        "test_changelist_view",
+        "test_non_form_errors",
+        "test_get_sortable_by_columns_subset"
+      ],
+      "admin_views/test_forms.py": [
+        "test_inactive_user"
       ]
     }
   },
@@ -3366,35 +3500,35 @@
     "instance_id": "sphinx-doc__sphinx-7738",
     "file_function": {
       "tests/test_ext_napoleon_docstring.py": [
-        "test_class_data_member_inline",
-        "test_section_header_formatting",
-        "test_parameters_with_class_reference",
-        "test_list_in_parameter_description",
-        "test_code_block_in_returns_section",
-        "test_keywords_with_types",
-        "test_class_data_member",
-        "test_sphinx_admonitions",
-        "test_underscore_in_attribute",
-        "test_section_header_underline_length",
+        "test_see_also_refs",
         "test_docstrings",
-        "test_raises_types",
-        "test_attributes_with_class_reference",
         "test_noindex",
-        "test_custom_generic_sections",
-        "test_see_also_refs"
+        "test_list_in_parameter_description",
+        "test_class_data_member",
+        "test_parameters_with_class_reference",
+        "test_code_block_in_returns_section",
+        "test_attributes_with_class_reference",
+        "test_keywords_with_types",
+        "test_sphinx_admonitions",
+        "test_section_header_formatting",
+        "test_class_data_member_inline",
+        "test_section_header_underline_length",
+        "test_underscore_in_attribute",
+        "test_raises_types",
+        "test_custom_generic_sections"
       ]
     }
   },
   {
     "instance_id": "matplotlib__matplotlib-23987",
     "file_function": {
-      "lib/matplotlib/tests/test_figure.py": [
-        "test_invalid_layouts"
-      ],
       "lib/matplotlib/tests/test_constrainedlayout.py": [
         "test_constrained_layout15",
-        "test_compressed1",
-        "test_discouraged_api"
+        "test_discouraged_api",
+        "test_compressed1"
+      ],
+      "lib/matplotlib/tests/test_figure.py": [
+        "test_invalid_layouts"
       ]
     }
   },
@@ -3410,11 +3544,11 @@
   {
     "instance_id": "django__django-11742",
     "file_function": {
-      "check_framework/test_model_checks.py": [
-        "test_no_collision_abstract_model_interpolation"
-      ],
       "model_fields/tests.py": [
         "test_check"
+      ],
+      "check_framework/test_model_checks.py": [
+        "test_no_collision_abstract_model_interpolation"
       ]
     }
   },
@@ -3431,45 +3565,50 @@
   {
     "instance_id": "django__django-13401",
     "file_function": {
-      "model_inheritance/test_abstract_inheritance.py": [
-        "test_multi_inheritance_field_clashes"
-      ],
       "invalid_models_tests/test_models.py": [
+        "test_inheritance_clash",
         "test_field_name_clash_with_child_accessor"
+      ],
+      "model_inheritance/tests.py": [
+        "test_filter_inherited_on_null",
+        "test_exclude_inherited_on_null"
+      ],
+      "model_inheritance/test_abstract_inheritance.py": [
+        "test_multiple_inheritance_cannot_shadow_concrete_inherited_field"
       ]
     }
   },
   {
     "instance_id": "django__django-11001",
     "file_function": {
-      "expressions_case/tests.py": [
-        "test_annotate_values_not_in_order_by"
+      "queries/tests.py": [
+        "test_extra_values_order_multiple",
+        "test_extra_select_params_values_order_in_extra",
+        "test_ordering",
+        "test_extra_values_order_twice"
       ],
       "ordering/tests.py": [
-        "test_order_by_f_expression_duplicates",
-        "test_order_by_nulls_last",
         "test_order_by_f_expression",
+        "test_order_by_nulls_last",
         "test_order_by_nulls_first",
-        "test_orders_nulls_first_on_filtered_subquery",
+        "test_reverse_ordering_pure",
+        "test_order_by_f_expression_duplicates",
         "test_random_ordering"
-      ],
-      "aggregation/tests.py": [
-        "test_annotate_values_list"
       ],
       "annotations/tests.py": [
         "test_mti_annotations"
       ],
-      "queries/tests.py": [
-        "test_extra_values_order_multiple",
-        "test_ordering",
-        "test_extra_select_params_values_order_in_extra",
-        "test_extra_multiple_select_params_values_order_by"
+      "aggregation/tests.py": [
+        "test_annotate_values_list"
+      ],
+      "queryset_pickle/tests.py": [
+        "test_specialized_queryset"
       ],
       "db_functions/tests.py": [
         "test_nested_function_ordering"
       ],
-      "queryset_pickle/tests.py": [
-        "test_specialized_queryset"
+      "expressions_case/tests.py": [
+        "test_annotate_values_not_in_order_by"
       ]
     }
   },
@@ -3480,27 +3619,30 @@
   {
     "instance_id": "matplotlib__matplotlib-23476",
     "file_function": {
+      "lib/matplotlib/tests/test_figure.py": [
+        "test_subfigure_dpi",
+        "test_deepcopy"
+      ],
       "lib/matplotlib/tests/test_pickle.py": [
         "test_polar"
-      ],
-      "lib/matplotlib/tests/test_figure.py": [
-        "test_deepcopy",
-        "test_subfigure_dpi"
       ]
     }
   },
   {
     "instance_id": "django__django-14017",
     "file_function": {
-      "queries/test_q.py": [
-        "test_reconstruct_and",
-        "test_combine_and_empty",
-        "test_combine_not_q_object",
-        "test_combine_or_empty"
-      ],
       "expressions/tests.py": [
-        "test_boolean_expression_combined",
-        "test_reversed_and"
+        "test_reversed_and",
+        "test_boolean_expression_combined"
+      ],
+      "queries/test_q.py": [
+        "test_deconstruct_and",
+        "test_combine_and_empty",
+        "test_combine_or_empty",
+        "test_combine_not_q_object"
+      ],
+      "queries/tests.py": [
+        "test_ticket_23605"
       ]
     }
   },
@@ -3508,8 +3650,8 @@
     "instance_id": "sphinx-doc__sphinx-7975",
     "file_function": {
       "tests/test_environment_indexentries.py": [
-        "test_create_index_by_key",
-        "test_create_single_index"
+        "test_create_single_index",
+        "test_create_index_by_key"
       ],
       "tests/test_build_html.py": [
         "test_html5_output",
@@ -3521,9 +3663,9 @@
     "instance_id": "django__django-13230",
     "file_function": {
       "syndication_tests/tests.py": [
+        "test_template_context_feed",
         "test_feed_last_modified_time",
-        "test_template_feed",
-        "test_template_context_feed"
+        "test_template_feed"
       ]
     }
   },
@@ -3532,9 +3674,9 @@
     "file_function": {
       "sympy/physics/units/tests/test_util.py": [
         "test_convert_to_quantities",
-        "test_check_dimensions",
         "test_quantity_simplify",
-        "test_eval_simplify"
+        "test_eval_simplify",
+        "test_check_dimensions"
       ],
       "sympy/physics/units/tests/test_quantities.py": [
         "test_issue_14932"
@@ -3553,10 +3695,10 @@
     "instance_id": "scikit-learn__scikit-learn-10297",
     "file_function": {
       "sklearn/linear_model/tests/test_ridge.py": [
-        "test_class_weights_cv",
-        "test_ridgecv_sample_weight",
+        "test_ridgecv_store_cv_values",
         "test_class_weight_vs_sample_weight",
-        "test_ridgecv_store_cv_values"
+        "test_class_weights_cv",
+        "test_ridgecv_sample_weight"
       ]
     }
   },
@@ -3575,37 +3717,37 @@
   {
     "instance_id": "sympy__sympy-18087",
     "file_function": {
-      "sympy/functions/elementary/tests/test_trigonometric.py": [
-        "test_sec",
-        "test_sincos_rewrite_sqrt",
-        "test_real_imag",
-        "test_trig_period",
-        "test_sec_rewrite",
-        "test_csc_rewrite",
-        "test_csc"
+      "sympy/holonomic/tests/test_holonomic.py": [
+        "test_diff",
+        "test_to_meijerg"
       ],
       "sympy/simplify/tests/test_simplify.py": [
+        "test_besselsimp",
         "test_simplify_ratio",
+        "test_issue_7001",
         "test_simplify_kroneckerdelta",
         "test_simplify_function_inverse",
-        "test_simplify_rational",
-        "test_simplify_expr",
-        "test_besselsimp",
         "test_issue_15965",
-        "test_issue_7001"
+        "test_simplify_expr",
+        "test_simplify_rational"
       ],
       "sympy/simplify/tests/test_trigsimp.py": [
+        "test_trigsimp_groebner",
         "test_trigsimp_issues",
-        "test_issue_2827_trigsimp_methods",
         "test_trigsimp_old",
-        "test_trigsimp_groebner"
+        "test_issue_2827_trigsimp_methods"
+      ],
+      "sympy/functions/elementary/tests/test_trigonometric.py": [
+        "test_trig_period",
+        "test_cos",
+        "test_sec",
+        "test_csc_rewrite",
+        "test_real_imag",
+        "test_sec_rewrite",
+        "test_csc"
       ],
       "sympy/core/tests/test_expr.py": [
         "test_equals"
-      ],
-      "sympy/holonomic/tests/test_holonomic.py": [
-        "test_to_meijerg",
-        "test_diff"
       ]
     }
   },
@@ -3617,35 +3759,35 @@
         "test_order_by_ptr_field_with_default_ordering_by_expression",
         "test_orders_nulls_first_on_filtered_subquery"
       ],
-      "many_to_one/tests.py": [
-        "test_save_nullable_fk_after_parent_with_to_field",
-        "test_save_nullable_fk_after_parent",
-        "test_related_object"
-      ],
-      "order_with_respect_to/tests.py": [
-        "test_duplicate_order_field"
+      "model_regress/tests.py": [
+        "test_pk_validation"
       ],
       "model_regress/test_pickle.py": [
         "test_missing_django_version_unpickling",
-        "test_with_getstate",
-        "test_unsupported_unpickle"
+        "test_unsupported_unpickle",
+        "test_with_getstate"
       ],
-      "model_regress/tests.py": [
-        "test_pk_validation"
+      "many_to_one/tests.py": [
+        "test_related_object",
+        "test_save_nullable_fk_after_parent_with_to_field",
+        "test_save_nullable_fk_after_parent"
+      ],
+      "order_with_respect_to/tests.py": [
+        "test_duplicate_order_field"
       ]
     }
   },
   {
     "instance_id": "sphinx-doc__sphinx-11445",
     "file_function": {
-      "tests/test_environment_indexentries.py": [
-        "test_create_single_index"
-      ],
-      "tests/test_directive_object_description.py": [
-        "test_object_description_content_line_number"
-      ],
       "tests/test_docutilsconf.py": [
         "test_html_with_default_docutilsconf"
+      ],
+      "tests/test_environment_indexentries.py": [
+        "test_create_main_index"
+      ],
+      "tests/test_environment_toctree.py": [
+        "test_domain_objects"
       ]
     }
   },
@@ -3653,48 +3795,50 @@
     "instance_id": "django__django-11910",
     "file_function": {
       "migrations/test_autodetector.py": [
-        "test_concrete_field_changed_to_many_to_many",
-        "test_add_date_fields_with_auto_now_add_asking_for_default",
-        "test_rename_field_foreign_key_to_field",
+        "test_managed_to_unmanaged",
         "test_rename_foreign_object_fields",
-        "test_rename_m2m_through_model",
-        "test_unmanaged_to_managed",
-        "test_rename_related_field_preserved_db_column",
-        "test_alter_fk_before_model_deletion",
-        "test_many_to_many_changed_to_concrete_field",
         "test_alter_field_to_not_null_oneoff_default",
-        "test_unmanaged_delete"
+        "test_rename_field_foreign_key_to_field",
+        "test_many_to_many_changed_to_concrete_field",
+        "test_rename_model_with_renamed_rel_field",
+        "test_add_date_fields_with_auto_now_add_asking_for_default",
+        "test_unmanaged_to_managed",
+        "test_alter_fk_before_model_deletion",
+        "test_proxy_to_mti_with_fk_to_proxy",
+        "test_concrete_field_changed_to_many_to_many",
+        "test_rename_related_field_preserved_db_column",
+        "test_rename_m2m_through_model"
       ],
       "migrations/test_operations.py": [
+        "test_rename_missing_field",
         "test_rename_referenced_field_state_forward",
         "test_rename_field",
-        "test_rename_missing_field",
         "test_rename_field_reloads_state_on_fk_target_changes",
         "test_alter_field"
       ],
       "migrations/test_optimizer.py": [
-        "test_alter_field_delete_field",
-        "test_alter_field_rename_field"
+        "test_alter_field_rename_field",
+        "test_alter_field_delete_field"
       ]
     }
   },
   {
     "instance_id": "django__django-12908",
     "file_function": {
-      "queries/tests.py": [
-        "test_ticket7155",
-        "test_distinct_ordered_sliced_subquery_aggregation",
-        "test_tickets_1878_2939"
-      ],
       "queries/test_qs_combinators.py": [
-        "test_intersection_with_empty_qs",
-        "test_unsupported_ordering_slicing_raises_db_error",
-        "test_difference_with_empty_qs",
-        "test_union_with_extra_and_values_list",
-        "test_qs_with_subcompound_qs",
         "test_union_with_empty_qs",
+        "test_difference_with_empty_qs",
+        "test_union_with_values_list_and_order",
+        "test_unsupported_ordering_slicing_raises_db_error",
+        "test_qs_with_subcompound_qs",
+        "test_intersection_with_empty_qs",
         "test_union_with_two_annotated_values_list",
-        "test_union_with_values_list_and_order"
+        "test_union_with_extra_and_values_list"
+      ],
+      "queries/tests.py": [
+        "test_exclude_with_q_object_distinct",
+        "test_ticket4464",
+        "test_distinct_ordered_sliced_subquery_aggregation"
       ]
     }
   },
@@ -3702,12 +3846,12 @@
     "instance_id": "psf__requests-2674",
     "file_function": {
       "test_requests.py": [
-        "test_invalid_timeout",
-        "test_request_ok_set",
+        "test_total_timeout_connect",
         "test_connection_error_invalid_domain",
-        "test_connect_timeout",
         "test_status_raising",
-        "test_total_timeout_connect"
+        "test_invalid_timeout",
+        "test_connect_timeout",
+        "test_request_ok_set"
       ]
     }
   },
@@ -3715,24 +3859,28 @@
     "instance_id": "sphinx-doc__sphinx-8595",
     "file_function": {
       "tests/test_ext_autodoc.py": [
+        "test_autodoc_inherited_members_Base",
+        "test_name_mangling",
+        "test_autodoc_exclude_members",
+        "test_autodoc_typed_instance_variables",
+        "test_autodoc_ignore_module_all",
         "test_autodoc_attributes",
         "test_cython",
-        "test_autodoc_module_member_order",
-        "test_autodoc_exclude_members",
         "test_parse_name",
-        "test_autodoc_ignore_module_all",
-        "test_autodoc_inherited_members_Base",
-        "test_autodoc_typed_instance_variables"
+        "test_autodoc_module_member_order"
       ],
       "tests/test_ext_autodoc_private_members.py": [
         "test_private_field_and_private_members",
         "test_private_members"
       ],
-      "tests/test_ext_autodoc_autoclass.py": [
-        "test_inherited_instance_variable"
-      ],
       "tests/test_ext_autodoc_events.py": [
         "test_skip_module_member"
+      ],
+      "tests/test_ext_autosummary.py": [
+        "test_autosummary_skip_member"
+      ],
+      "tests/test_ext_autodoc_autoclass.py": [
+        "test_inherited_instance_variable"
       ]
     }
   },
@@ -3740,17 +3888,17 @@
     "instance_id": "mwaskom__seaborn-3407",
     "file_function": {
       "tests/test_axisgrid.py": [
-        "test_pairplot_kde",
-        "test_specific_nonsquare_axes",
-        "test_pairplot_hist",
-        "test_remove_hue_from_default",
-        "test_pairplot_reg_hue",
         "test_corner",
+        "test_pairplot_kde",
+        "test_legend",
         "test_dropna",
-        "test_empty_grid",
-        "test_pairplot",
         "test_pairplot_markers",
-        "test_legend"
+        "test_empty_grid",
+        "test_remove_hue_from_default",
+        "test_pairplot_hist",
+        "test_pairplot",
+        "test_specific_nonsquare_axes",
+        "test_pairplot_reg_hue"
       ]
     }
   },
@@ -3759,33 +3907,34 @@
     "file_function": {
       "tests/test_ext_autodoc.py": [
         "test_autodoc_warnings",
-        "test_autodoc_member_order",
-        "test_autodoc_imported_members",
         "test_coroutine",
-        "test_autodoc_inner_class",
-        "test_format_signature",
-        "test_singledispatch",
-        "test_autoattribute_instance_attributes",
-        "test_final",
-        "test_autodoc_typed_instance_variables",
-        "test_overload",
         "test_autodoc_noindex",
+        "test_autodoc_inherited_members_Base",
+        "test_autodoc_imported_members",
+        "test_autodoc_inner_class",
+        "test_final",
         "test_autodoc_ignore_module_all",
-        "test_autodoc_inherited_members_Base"
-      ],
-      "tests/test_ext_autodoc_configs.py": [
-        "test_autodoc_typehints_description",
-        "test_autoclass_content_both",
-        "test_autodoc_default_options_with_values",
-        "test_autoclass_content_and_docstring_signature_both",
-        "test_autoclass_content_and_docstring_signature_init"
+        "test_singledispatch",
+        "test_autodoc_member_order",
+        "test_autodoc_typed_inherited_instance_variables",
+        "test_autodoc_TYPE_CHECKING",
+        "test_format_signature",
+        "test_autoattribute_instance_attributes",
+        "test_overload"
       ],
       "tests/test_ext_autodoc_events.py": [
         "test_process_docstring"
       ],
+      "tests/test_ext_autodoc_configs.py": [
+        "test_autodoc_typehints_none",
+        "test_autoclass_content_both",
+        "test_autodoc_default_options_with_values",
+        "test_autoclass_content_init",
+        "test_autoclass_content_and_docstring_signature_both"
+      ],
       "tests/test_ext_autodoc_private_members.py": [
-        "test_private_field_and_private_members",
-        "test_private_members"
+        "test_private_members",
+        "test_private_field_and_private_members"
       ]
     }
   },
@@ -3795,15 +3944,15 @@
       "queries/tests.py": [
         "test_ticket7155",
         "test_subquery_exclude_outerref",
+        "test_tickets_6180_6203",
         "test_correct_lookup",
         "test_ticket7791",
         "test_error_raised_on_filter_with_dictionary",
-        "test_ticket_23605",
-        "test_tickets_6180_6203"
+        "test_ticket_23605"
       ],
       "queries/test_query.py": [
-        "test_filter_non_conditional",
-        "test_foreign_key"
+        "test_foreign_key",
+        "test_filter_non_conditional"
       ]
     }
   },
@@ -3819,8 +3968,8 @@
     "instance_id": "scikit-learn__scikit-learn-13497",
     "file_function": {
       "sklearn/feature_selection/tests/test_mutual_info.py": [
-        "test_mutual_info_classif_mixed",
-        "test_mutual_info_options"
+        "test_mutual_info_options",
+        "test_mutual_info_classif_mixed"
       ]
     }
   },
@@ -3828,11 +3977,11 @@
     "instance_id": "sympy__sympy-24213",
     "file_function": {
       "sympy/physics/units/tests/test_quantities.py": [
-        "test_check_unit_consistency",
         "test_dimensional_expr_of_derivative",
-        "test_issue_20288",
+        "test_check_unit_consistency",
         "test_issue_24062",
-        "test_factor_and_dimension"
+        "test_factor_and_dimension",
+        "test_issue_20288"
       ]
     }
   },
@@ -3843,44 +3992,44 @@
   {
     "instance_id": "sympy__sympy-17022",
     "file_function": {
-      "sympy/printing/tests/test_python.py": [
-        "test_python_functions",
-        "test_python_keyword_symbol_name_escaping"
-      ],
       "sympy/utilities/tests/test_lambdify.py": [
         "test_lambdify_Derivative_arg_issue_16468",
         "test_lambdify_imps",
-        "test_matrix",
         "test_nested_args",
-        "test_dummification"
+        "test_issue_2790",
+        "test_matrix"
+      ],
+      "sympy/printing/tests/test_python.py": [
+        "test_python_functions",
+        "test_python_keyword_symbol_name_escaping"
       ]
     }
   },
   {
     "instance_id": "django__django-12589",
     "file_function": {
-      "aggregation/tests.py": [
-        "test_complex_aggregations_require_kwarg",
-        "test_group_by_exists_annotation",
-        "test_multi_arg_aggregate"
-      ],
-      "filtered_relation/tests.py": [
-        "test_with_join_and_complex_condition"
-      ],
       "aggregation_regress/tests.py": [
-        "test_duplicate_alias",
-        "test_name_expressions",
-        "test_m2m_name_conflict",
-        "test_field_name_conflict",
         "test_more_more_more",
-        "test_reverse_relation_name_conflict"
+        "test_having_group_by",
+        "test_duplicate_alias",
+        "test_field_name_conflict",
+        "test_fk_attname_conflict",
+        "test_m2m_name_conflict"
+      ],
+      "queries/test_explain.py": [
+        "test_basic"
       ],
       "queries/tests.py": [
         "test_distinct_ordered_sliced_subquery",
         "test_distinct_ordered_sliced_subquery_aggregation"
       ],
-      "queries/test_explain.py": [
-        "test_basic"
+      "aggregation/tests.py": [
+        "test_multi_arg_aggregate",
+        "test_complex_aggregations_require_kwarg",
+        "test_group_by_exists_annotation"
+      ],
+      "filtered_relation/tests.py": [
+        "test_with_join_and_complex_condition"
       ]
     }
   },
@@ -3889,11 +4038,11 @@
     "file_function": {
       "lib/matplotlib/tests/test_style.py": [
         "test_context_with_union_of_dict_and_namedstyle",
-        "test_use_url",
         "test_context_with_dict_after_namedstyle",
         "test_deprecated_seaborn_styles",
-        "test_context_with_dict_before_namedstyle",
-        "test_alias"
+        "test_use_url",
+        "test_alias",
+        "test_context_with_dict_before_namedstyle"
       ]
     }
   },
@@ -3901,9 +4050,10 @@
     "instance_id": "sympy__sympy-12236",
     "file_function": {
       "sympy/polys/tests/test_partfrac.py": [
-        "test_apart_full",
+        "test_assemble_partfrac_list",
         "test_apart",
-        "test_assemble_partfrac_list"
+        "test_noncommutative",
+        "test_apart_full"
       ]
     }
   },
@@ -3911,12 +4061,12 @@
     "instance_id": "django__django-15400",
     "file_function": {
       "utils_tests/test_lazyobject.py": [
-        "test_copy_class",
-        "test_copy_list",
         "test_deepcopy_class",
+        "test_copy_list",
         "test_deepcopy_list",
-        "test_copy_list_no_evaluation",
-        "test_repr"
+        "test_repr",
+        "test_copy_class",
+        "test_copy_list_no_evaluation"
       ]
     }
   },
@@ -3924,9 +4074,9 @@
     "instance_id": "sympy__sympy-24102",
     "file_function": {
       "sympy/parsing/tests/test_mathematica.py": [
+        "test_mathematica",
         "test_parser_mathematica_tokenizer",
-        "test_parser_mathematica_exp_alt",
-        "test_mathematica"
+        "test_parser_mathematica_exp_alt"
       ]
     }
   },
@@ -3937,58 +4087,59 @@
         "test_subs_noncommutative",
         "test_logexppow"
       ],
-      "sympy/core/tests/test_arit.py": [
-        "test_Pow_is_negative_positive",
-        "test_Pow_is_zero",
-        "test_Pow_is_even_odd",
-        "test_Pow_is_real",
-        "test_pow_E",
-        "test_Pow_is_integer",
-        "test_Mod",
-        "test_Pow_is_nonpositive_nonnegative"
-      ],
-      "sympy/simplify/tests/test_simplify.py": [
-        "test_simplify_ratio",
-        "test_simplify_function_inverse",
-        "test_simplify_rational",
-        "test_Piecewise",
-        "test_besselsimp",
-        "test_issue_from_PR1599",
-        "test_nsimplify",
-        "test_separatevars",
-        "test_issue_9448",
-        "test_hypersimp"
-      ],
-      "sympy/simplify/tests/test_powsimp.py": [
-        "test_powsimp",
-        "test_powdenest"
-      ],
-      "sympy/core/tests/test_relational.py": [
-        "test_issue_10401"
-      ],
       "sympy/core/tests/test_expr.py": [
-        "test_equals",
-        "test_is_polynomial",
-        "test_as_numer_denom",
-        "test_is_constant",
-        "test_is_rational_function",
         "test_is_algebraic_expr",
-        "test_action_verbs",
+        "test_is_constant",
         "test_round",
-        "test_issue_11877"
+        "test_issue_11877",
+        "test_action_verbs",
+        "test_equals",
+        "test_is_rational_function",
+        "test_is_polynomial"
       ],
       "sympy/core/tests/test_eval_power.py": [
+        "test_expand",
         "test_issue_7638",
-        "test_issue_6429",
         "test_issue_6782",
         "test_issue_6653",
+        "test_issue_6429",
         "test_better_sqrt",
-        "test_expand",
-        "test_issue_8582",
-        "test_issue_4362"
+        "test_issue_4362",
+        "test_issue_8582"
+      ],
+      "sympy/core/tests/test_arit.py": [
+        "test_Pow_is_negative_positive",
+        "test_Pow_is_even_odd",
+        "test_Mod",
+        "test_Pow_is_real",
+        "test_pow_E",
+        "test_Pow_is_nonpositive_nonnegative",
+        "test_Pow_is_integer",
+        "test_Pow_is_zero"
+      ],
+      "sympy/simplify/tests/test_simplify.py": [
+        "test_besselsimp",
+        "test_separatevars",
+        "test_Piecewise",
+        "test_nsimplify",
+        "test_simplify_ratio",
+        "test_hypersimp",
+        "test_issue_from_PR1599",
+        "test_issue_9448",
+        "test_simplify_function_inverse",
+        "test_issue_5652",
+        "test_simplify_rational"
       ],
       "sympy/core/tests/test_function.py": [
         "test_function__eval_nseries"
+      ],
+      "sympy/simplify/tests/test_powsimp.py": [
+        "test_issue_from_PR1599",
+        "test_powdenest",
+        "test_powsimp"
+      ],
+      "sympy/core/tests/test_relational.py": [
+        "test_issue_10401"
       ]
     }
   },
@@ -4003,31 +4154,31 @@
   {
     "instance_id": "django__django-13964",
     "file_function": {
-      "model_fields/test_foreignkey.py": [
-        "test_to_python",
-        "test_warning_when_unique_true_on_fk",
-        "test_non_local_to_field",
-        "test_recursive_fks_get_col"
-      ],
-      "many_to_one/tests.py": [
-        "test_delete",
-        "test_add_then_remove_after_prefetch",
-        "test_save_nullable_fk_after_parent_with_to_field",
-        "test_save_nullable_fk_after_parent",
-        "test_fk_assignment_and_related_object_cache"
-      ],
-      "foreign_object/tests.py": [
-        "test_check_composite_foreign_object",
-        "test_check_subset_composite_foreign_object",
-        "test_double_nested_query",
-        "test_inheritance",
-        "test_prefetch_related_m2m_forward_works"
-      ],
-      "foreign_object/test_empty_join.py": [
-        "test_empty_join_conditions"
-      ],
       "foreign_object/test_forms.py": [
         "test_foreign_object_form"
+      ],
+      "foreign_object/tests.py": [
+        "test_double_nested_query",
+        "test_inheritance",
+        "test_check_subset_composite_foreign_object",
+        "test_check_composite_foreign_object",
+        "test_many_to_many_related_query_name",
+        "test_prefetch_related_m2m_forward_works",
+        "test_batch_create_foreign_object"
+      ],
+      "many_to_one/tests.py": [
+        "test_save_nullable_fk_after_parent_with_to_field",
+        "test_set_after_prefetch",
+        "test_save_nullable_fk_after_parent",
+        "test_fk_assignment_and_related_object_cache",
+        "test_add_then_remove_after_prefetch",
+        "test_delete"
+      ],
+      "model_fields/test_foreignkey.py": [
+        "test_non_local_to_field",
+        "test_warning_when_unique_true_on_fk",
+        "test_to_python",
+        "test_recursive_fks_get_col"
       ],
       "model_fields/tests.py": [
         "test_overriding_inherited_FIELD_display"
@@ -4038,19 +4189,18 @@
     "instance_id": "django__django-13933",
     "file_function": {
       "model_forms/tests.py": [
-        "test_show_hidden_initial_changed_queries_efficiently",
-        "test_initial_values",
-        "test_callable_called_each_time_form_is_instantiated",
-        "test_fields_for_model_applies_limit_choices_to",
         "test_non_blank_foreign_key_with_radio",
-        "test_model_multiple_choice_field"
+        "test_model_multiple_choice_field",
+        "test_initial_values",
+        "test_show_hidden_initial_changed_queries_efficiently",
+        "test_fields_for_model_applies_limit_choices_to"
       ],
       "model_forms/test_modelchoicefield.py": [
-        "test_disabled_modelmultiplechoicefield_has_changed",
-        "test_basics",
-        "test_choices",
+        "test_disabled_modelchoicefield_initial_model_instance",
         "test_disabled_modelchoicefield_has_changed",
-        "test_disabled_modelchoicefield_initial_model_instance"
+        "test_choices",
+        "test_basics",
+        "test_disabled_modelmultiplechoicefield_has_changed"
       ],
       "model_formsets/tests.py": [
         "test_commit_false"
@@ -4061,24 +4211,27 @@
     "instance_id": "django__django-13447",
     "file_function": {
       "admin_views/tests.py": [
-        "test_disallowed_filtering",
+        "test_disallowed_to_field",
         "test_list_editable_ordering",
-        "test_change_view",
+        "test_relation_spanning_filters",
+        "test_disallowed_filtering",
+        "test_view",
         "test_exact_matches",
-        "test_change_list_sorting_callable_query_expression_reverse",
-        "test_disallowed_to_field"
+        "test_change_list_sorting_callable_query_expression_reverse"
       ],
       "admin_changelist/test_date_hierarchy.py": [
-        "test_invalid_params",
+        "test_bounded_params_with_dst_time_zone",
         "test_bounded_params",
-        "test_bounded_params_with_dst_time_zone"
+        "test_invalid_params"
       ],
       "admin_changelist/tests.py": [
-        "test_total_ordering_optimization",
         "test_clear_all_filters_link_callable_filter",
+        "test_show_all",
+        "test_clear_all_filters_link",
+        "test_specified_ordering_by_f_expression_without_asc_desc",
+        "test_total_ordering_optimization",
         "test_select_related_preserved_when_multi_valued_in_search_fields",
         "test_changelist_search_form_validation",
-        "test_specified_ordering_by_f_expression_without_asc_desc",
         "test_total_ordering_optimization_meta_constraints",
         "test_no_clear_all_filters_link"
       ]
@@ -4087,40 +4240,40 @@
   {
     "instance_id": "django__django-12125",
     "file_function": {
+      "migrations/test_optimizer.py": [
+        "test_create_model_rename_field",
+        "test_create_model_add_field"
+      ],
       "migrations/test_writer.py": [
         "test_serialize_class_based_validators"
-      ],
-      "migrations/test_optimizer.py": [
-        "test_create_model_remove_field",
-        "test_create_model_add_field"
       ]
     }
   },
   {
     "instance_id": "sympy__sympy-18057",
     "file_function": {
+      "sympy/core/tests/test_expr.py": [
+        "test_action_verbs",
+        "test_SAGE1",
+        "test_count"
+      ],
       "sympy/core/tests/test_sympify.py": [
+        "test_sympify1",
         "test_sympyify_iterables",
         "test_lambda_raises",
-        "test_sympify1",
-        "test_sympify_keywords",
+        "test_sympify_raises",
         "test_int_float"
-      ],
-      "sympy/core/tests/test_expr.py": [
-        "test_find",
-        "test_action_verbs",
-        "test_SAGE1"
       ]
     }
   },
   {
     "instance_id": "django__django-14672",
     "file_function": {
-      "proxy_model_inheritance/tests.py": [
-        "test_table_exists"
-      ],
       "model_fields/test_manytomanyfield.py": [
         "test_abstract_model_app_relative_foreign_key"
+      ],
+      "proxy_model_inheritance/tests.py": [
+        "test_table_exists"
       ]
     }
   },
@@ -4146,10 +4299,10 @@
     "file_function": {
       "sklearn/preprocessing/tests/test_encoders.py": [
         "test_one_hot_encoder",
-        "test_one_hot_encoder_sparse",
-        "test_one_hot_encoder_inverse",
+        "test_one_hot_encoder_force_new_behaviour",
         "test_one_hot_encoder_handle_unknown",
-        "test_one_hot_encoder_force_new_behaviour"
+        "test_one_hot_encoder_inverse",
+        "test_one_hot_encoder_sparse"
       ]
     }
   },
@@ -4168,19 +4321,22 @@
   {
     "instance_id": "astropy__astropy-12907",
     "file_function": {
-      "astropy/modeling/tests/test_separable.py": [
-        "test_separable",
-        "test_cdot",
-        "test_cstack"
-      ],
       "astropy/modeling/tests/test_models.py": [
         "test_custom_separability_matrix"
+      ],
+      "astropy/modeling/tests/test_separable.py": [
+        "test_cdot",
+        "test_separable",
+        "test_cstack"
       ]
     }
   },
   {
     "instance_id": "django__django-15819",
     "file_function": {
+      "check_framework/test_model_checks.py": [
+        "test_auto_created_inherited_parent_link"
+      ],
       "inspectdb/tests.py": [
         "test_composite_primary_key",
         "test_attribute_name_not_python_keyword"
@@ -4190,88 +4346,85 @@
       ],
       "model_fields/test_foreignkey.py": [
         "test_warning_when_unique_true_on_fk"
-      ],
-      "check_framework/test_model_checks.py": [
-        "test_explicit_inherited_pk"
       ]
     }
   },
   {
     "instance_id": "sympy__sympy-11897",
     "file_function": {
+      "sympy/vector/tests/test_printing.py": [
+        "test_latex_printing"
+      ],
       "sympy/printing/tests/test_latex.py": [
-        "test_latex_Poly",
-        "test_latex_RootSum",
-        "test_ZeroMatrix",
-        "test_latex",
-        "test_issue_7180",
-        "test_latex_NDimArray",
-        "test_latex_functions",
-        "test_integral_transforms",
-        "test_latex_basic",
-        "test_latex_DiracDelta",
-        "test_latex_limits",
-        "test_latex_bessel",
-        "test_hyper_printing",
-        "test_latex_FracElement",
-        "test_Hadamard",
-        "test_latex_integrals",
+        "test_latex_Range",
+        "test_latex_ConditionSet",
+        "test_latex_Heaviside",
         "test_latex_FourierSeries",
-        "test_latex_productset",
-        "test_issue_7117",
-        "test_latex_RandomDomain",
-        "test_latex_Piecewise",
-        "test_latex_Matrix",
-        "test_latex_Complexes",
-        "test_latex_AccumuBounds",
+        "test_latex_LeviCivita",
+        "test_Tr",
+        "test_latex_builtins",
+        "test_latex_NDimArray",
         "test_latex_sum",
-        "test_latex_permutation",
-        "test_latex_fresnel",
-        "test_latex_product",
+        "test_latex_Matrix",
+        "test_latex_SingularityFunction",
+        "test_latex_ComplexRootOf",
+        "test_latex",
         "test_issue_10489",
-        "test_latex_ImageSet",
         "test_latex_union",
-        "test_latex_symmetric_difference",
-        "test_Adjoint",
-        "test_latex_intervals",
-        "test_boolean_args_order",
         "test_latex_numbers",
         "test_PolynomialRingBase",
         "test_latex_sequences",
-        "test_latex_subs",
-        "test_latex_UnevaluatedExpr",
-        "test_latex_Heaviside",
-        "test_latex_ConditionSet",
-        "test_latex_Contains",
-        "test_latex_issue_4381",
-        "test_latex_Naturals0",
-        "test_Tr",
-        "test_latex_MatrixSlice",
-        "test_latex_ComplexRegion",
-        "test_categories",
         "test_latex_KroneckerDelta",
-        "test_latex_builtins",
-        "test_latex_LeviCivita",
+        "test_latex_ImageSet",
         "test_latex_derivatives",
-        "test_latex_Range",
-        "test_modifiers",
-        "test_latex_Integers",
-        "test_latex_list",
-        "test_latex_Complement",
-        "test_latex_mul_symbol",
-        "test_latex_ComplexRootOf",
+        "test_latex_subs",
+        "test_latex_fresnel",
+        "test_categories",
+        "test_latex_product",
+        "test_latex_Complexes",
+        "test_latex_ComplexRegion",
+        "test_latex_limits",
+        "test_latex_RootSum",
+        "test_latex_Poly",
         "test_latex_Float",
+        "test_latex_list",
+        "test_latex_FormalPowerSeries",
+        "test_latex_Complement",
         "test_Modules",
         "test_latex_indexed",
-        "test_latex_commutator",
-        "test_latex_SingularityFunction",
-        "test_latex_Lambda",
-        "test_latex_FormalPowerSeries",
+        "test_latex_AccumuBounds",
         "test_builtin_no_args",
-        "test_QuotientRing"
-      ],
-      "sympy/vector/tests/test_printing.py": [
-        "test_latex_printing"
+        "test_latex_productset",
+        "test_latex_DiracDelta",
+        "test_integral_transforms",
+        "test_latex_intervals",
+        "test_latex_Integers",
+        "test_latex_UnevaluatedExpr",
+        "test_latex_Contains",
+        "test_latex_bessel",
+        "test_boolean_args_order",
+        "test_latex_basic",
+        "test_latex_RandomDomain",
+        "test_Hadamard",
+        "test_hyper_printing",
+        "test_latex_FracElement",
+        "test_latex_integrals",
+        "test_latex_MatrixSlice",
+        "test_QuotientRing",
+        "test_latex_Lambda",
+        "test_latex_commutator",
+        "test_issue_7180",
+        "test_builtins_without_args",
+        "test_latex_symmetric_difference",
+        "test_latex_Naturals0",
+        "test_Adjoint",
+        "test_latex_symbols",
+        "test_ZeroMatrix",
+        "test_latex_Piecewise",
+        "test_latex_functions",
+        "test_issue_7117",
+        "test_latex_permutation",
+        "test_latex_mul_symbol"
       ]
     }
   },
@@ -4279,15 +4432,15 @@
     "instance_id": "scikit-learn__scikit-learn-14092",
     "file_function": {
       "sklearn/neighbors/tests/test_nca.py": [
+        "test_auto_init",
         "test_params_validation",
-        "test_toy_example_collapse_points",
+        "test_convergence_warning",
+        "test_callback",
+        "test_warm_start_effectiveness",
         "test_warm_start_validation",
         "test_init_transformation",
-        "test_auto_init",
-        "test_convergence_warning",
-        "test_warm_start_effectiveness",
-        "test_callback",
-        "test_verbose"
+        "test_verbose",
+        "test_toy_example_collapse_points"
       ],
       "sklearn/utils/tests/test_validation.py": [
         "test_check_scalar_invalid"
@@ -4314,13 +4467,13 @@
     "instance_id": "sympy__sympy-16503",
     "file_function": {
       "sympy/printing/pretty/tests/test_pretty.py": [
-        "test_issue_5524",
-        "test_pretty_sum",
-        "test_pretty_Add",
-        "test_GroebnerBasis",
         "test_pretty_basic",
+        "test_issue_5524",
         "test_pretty_piecewise",
         "test_issue_7117",
+        "test_GroebnerBasis",
+        "test_pretty_Add",
+        "test_pretty_sum",
         "test_issue_13651"
       ]
     }
@@ -4329,21 +4482,21 @@
     "instance_id": "django__django-11049",
     "file_function": {
       "forms_tests/field_tests/test_durationfield.py": [
-        "test_durationfield_prepare_value",
-        "test_overflow_translation",
         "test_overflow",
-        "test_durationfield_integer_value",
-        "test_durationfield_clean"
+        "test_overflow_translation",
+        "test_durationfield_clean",
+        "test_durationfield_prepare_value",
+        "test_durationfield_integer_value"
       ],
       "model_fields/test_durationfield.py": [
+        "test_fractional_seconds",
         "test_dumping",
+        "test_create_empty",
         "test_exact",
         "test_simple_roundtrip",
-        "test_invalid_string",
         "test_formfield",
         "test_loading",
-        "test_fractional_seconds",
-        "test_create_empty"
+        "test_invalid_string"
       ]
     }
   },
@@ -4358,29 +4511,29 @@
   {
     "instance_id": "django__django-15695",
     "file_function": {
-      "migrations/test_operations.py": [
-        "test_rename_index",
-        "test_rename_index_unnamed_index",
-        "test_rename_index_arguments",
-        "test_rename_index_unknown_unnamed_index"
-      ],
       "migrations/test_optimizer.py": [
         "test_rename_index"
+      ],
+      "migrations/test_operations.py": [
+        "test_rename_index_unknown_unnamed_index",
+        "test_rename_index",
+        "test_rename_index_arguments",
+        "test_rename_index_unnamed_index"
       ]
     }
   },
   {
     "instance_id": "matplotlib__matplotlib-24970",
     "file_function": {
-      "lib/matplotlib/tests/test_colors.py": [
-        "test_colormap_endian",
-        "test_colormap_alpha_array",
-        "test_non_mutable_get_values",
-        "test_colormap_bad_data_with_alpha",
-        "test_colormap_copy"
-      ],
       "lib/matplotlib/tests/test_image.py": [
         "test_mask_image_over_under"
+      ],
+      "lib/matplotlib/tests/test_colors.py": [
+        "test_colormap_copy",
+        "test_colormap_alpha_array",
+        "test_non_mutable_get_values",
+        "test_colormap_endian",
+        "test_colormap_bad_data_with_alpha"
       ]
     }
   },
@@ -4388,7 +4541,11 @@
     "instance_id": "mwaskom__seaborn-2848",
     "file_function": {
       "tests/test_axisgrid.py": [
-        "test_corner"
+        "test_corner",
+        "test_hue_in_map",
+        "test_hue_kws",
+        "test_map",
+        "test_map_lower"
       ],
       "tests/test_relational.py": [
         "test_scatterplot_smoke"
@@ -4399,16 +4556,19 @@
     "instance_id": "django__django-15781",
     "file_function": {
       "admin_scripts/tests.py": [
-        "test_runner_hostname_ipv6",
-        "test_migration_warning_one_app",
         "test_migration_warning_multiple_apps",
+        "test_no_color_force_color_mutually_exclusive_execute",
+        "test_force_color_execute",
         "test_no_color_force_color_mutually_exclusive_command_init",
         "test_custom_stderr",
         "test_skip_checks",
-        "test_no_color_force_color_mutually_exclusive_execute",
-        "test_force_color_execute"
+        "test_migration_warning_one_app",
+        "test_runner_custom_defaults"
       ],
       "user_commands/tests.py": [
+        "test_subparser_invalid_option",
+        "test_subparser",
+        "test_subparser_dest_args",
         "test_requires_system_checks_invalid",
         "test_check_migrations",
         "test_output_transaction"
@@ -4418,12 +4578,12 @@
   {
     "instance_id": "sympy__sympy-20049",
     "file_function": {
-      "sympy/physics/mechanics/tests/test_body.py": [
-        "test_particle_body_add_force"
-      ],
       "sympy/physics/vector/tests/test_point.py": [
         "test_point_partial_velocity",
         "test_point_v2pt_theorys"
+      ],
+      "sympy/physics/mechanics/tests/test_body.py": [
+        "test_particle_body_add_force"
       ]
     }
   },
@@ -4431,11 +4591,11 @@
     "instance_id": "sphinx-doc__sphinx-8474",
     "file_function": {
       "tests/test_build_latex.py": [
-        "test_latex_basic_manual_ja",
-        "test_babel_with_unknown_language",
+        "test_footnote",
         "test_latex_logo_if_not_found",
+        "test_latex_additional_settings_for_language_code",
         "test_babel_with_language_de",
-        "test_footnote"
+        "test_polyglossia_with_language_de"
       ],
       "tests/test_environment.py": [
         "test_images"
@@ -4446,27 +4606,27 @@
     "instance_id": "matplotlib__matplotlib-26020",
     "file_function": {
       "lib/mpl_toolkits/axes_grid1/tests/test_axes_grid1.py": [
-        "test_grid_axes_lists",
-        "test_image_grid_single_bottom",
         "test_image_grid",
-        "test_image_grid_each_left_label_mode_all",
         "test_image_grid_label_mode_deprecation_warning",
-        "test_grid_axes_position"
+        "test_image_grid_single_bottom",
+        "test_image_grid_each_left_label_mode_all",
+        "test_grid_axes_position",
+        "test_grid_axes_lists"
       ]
     }
   },
   {
     "instance_id": "sympy__sympy-12454",
     "file_function": {
+      "sympy/matrices/tests/test_matrices.py": [
+        "test_issue_10658",
+        "test_hessenberg"
+      ],
       "sympy/matrices/tests/test_commonmatrix.py": [
         "test_is_hessenberg"
       ],
       "sympy/matrices/tests/test_sparse.py": [
         "test_sparse_matrix"
-      ],
-      "sympy/matrices/tests/test_matrices.py": [
-        "test_issue_10658",
-        "test_hessenberg"
       ]
     }
   },
@@ -4474,23 +4634,23 @@
     "instance_id": "sympy__sympy-19487",
     "file_function": {
       "sympy/core/tests/test_function.py": [
-        "test_function__eval_nseries",
-        "test_subs_in_derivative",
-        "test_Subs",
-        "test_fdiff_argument_index_error",
         "test_diff_wrt",
+        "test_evalf_default",
+        "test_function__eval_nseries",
+        "test_diff_wrt_not_allowed",
         "test_issue_7027",
-        "test_evalf_default"
+        "test_fdiff_argument_index_error",
+        "test_Subs"
       ],
       "sympy/functions/elementary/tests/test_miscellaneous.py": [
+        "test_instantiation_evaluation",
         "test_Min",
-        "test_rewrite_as_Abs",
-        "test_instantiation_evaluation"
+        "test_rewrite_as_Abs"
       ],
       "sympy/core/tests/test_expr.py": [
+        "test_eval_interval",
         "test_random",
-        "test_as_leading_term_stub",
-        "test_eval_interval"
+        "test_as_leading_term_stub"
       ]
     }
   },
@@ -4505,6 +4665,11 @@
   {
     "instance_id": "django__django-11620",
     "file_function": {
+      "test_client_regress/tests.py": [
+        "test_nontext_contains",
+        "test_nested_requests",
+        "test_json"
+      ],
       "view_tests/tests/test_debug.py": [
         "test_404",
         "test_template_encoding",
@@ -4516,14 +4681,14 @@
     "instance_id": "sympy__sympy-15011",
     "file_function": {
       "sympy/utilities/tests/test_lambdify.py": [
-        "test_lambdify_docstring",
-        "test_own_namespace_2",
-        "test_matrix",
-        "test_issue_14941",
-        "test_mpmath_precision",
-        "test_nested_args",
+        "test_lambdify_imps",
         "test_lambdify_dummy_arg",
-        "test_dummification"
+        "test_nested_args",
+        "test_mpmath_precision",
+        "test_dummification",
+        "test_matrix",
+        "test_lambdify_docstring",
+        "test_issue_14941"
       ]
     }
   },
@@ -4531,11 +4696,11 @@
     "instance_id": "scikit-learn__scikit-learn-13779",
     "file_function": {
       "sklearn/ensemble/tests/test_voting.py": [
+        "test_weights_regressor",
         "test_estimator_init",
         "test_set_estimator_none",
-        "test_sample_weight",
-        "test_weights_regressor",
-        "test_multilabel"
+        "test_multilabel",
+        "test_sample_weight"
       ]
     }
   },
@@ -4543,42 +4708,49 @@
     "instance_id": "sphinx-doc__sphinx-8627",
     "file_function": {
       "tests/test_ext_autodoc.py": [
-        "test_overload",
-        "test_coroutine",
-        "test_autodoc_exclude_members",
-        "test_autodoc_warnings",
-        "test_autodoc_noindex",
-        "test_name_mangling",
-        "test_autodoc_typed_instance_variables",
-        "test_singledispatch",
         "test_autodoc_inherited_members",
-        "test_autodoc_member_order",
-        "test_autodoc_attributes",
+        "test_partialmethod",
         "test_parse_name",
-        "test_autodoc_ignore_module_all",
-        "test_format_signature",
-        "test_autodoc_inherited_members_Base",
+        "test_overload",
         "test_enum_class",
+        "test_partialmethod_undoc_members",
+        "test_autodoc_noindex",
         "test_cython",
-        "test_autodoc_module_member_order",
-        "test_autodoc_inner_class",
+        "test_singledispatch",
+        "test_autodoc_member_order",
         "test_autodoc_imported_members",
-        "test_autodoc_special_members"
+        "test_autodoc_special_members",
+        "test_autodoc_inherited_members_Base",
+        "test_name_mangling",
+        "test_autodoc_exclude_members",
+        "test_autodoc_typed_instance_variables",
+        "test_autodoc_ignore_module_all",
+        "test_autodoc_attributes",
+        "test_new_documenter",
+        "test_coroutine",
+        "test_autodoc_warnings",
+        "test_autodoc_module_member_order",
+        "test_format_signature"
+      ],
+      "tests/test_ext_autosummary.py": [
+        "test_empty_autosummary_generate",
+        "test_autosummary_generate",
+        "test_autosummary_generate_overwrite1",
+        "test_autosummary_skip_member",
+        "test_autosummary_recursive_skips_mocked_modules",
+        "test_autosummary_generate_overwrite2"
       ],
       "tests/test_ext_autodoc_private_members.py": [
-        "test_private_members"
-      ],
-      "tests/test_ext_autodoc_events.py": [
-        "test_skip_module_member",
-        "test_cut_lines",
-        "test_between"
+        "test_private_field_and_private_members"
       ],
       "tests/test_ext_autodoc_autoclass.py": [
         "test_slots_attribute"
       ],
-      "tests/test_ext_autosummary.py": [
-        "test_empty_autosummary_generate",
-        "test_autosummary_generate"
+      "tests/test_ext_autodoc_events.py": [
+        "test_between",
+        "test_skip_module_member",
+        "test_process_docstring",
+        "test_cut_lines"
       ],
       "tests/test_ext_autodoc_automodule.py": [
         "test_subclass_of_mocked_object"
