@@ -153,6 +153,13 @@ def get_base_commit(instance_id, dataset):
     for item in dataset:
         if item['instance_id'] == instance_id:
             return item['base_commit'], item['repo']
+        
+def _names_from_target(t):
+    if isinstance(t, ast.Name):
+        yield t.id
+    elif isinstance(t, (ast.Tuple, ast.List)):
+        for e in t.elts:
+            yield from _names_from_target(e)
 
 def get_func_lines_code(repo, base_commit, file, fq_funcs, repo_base_dir = "temp_repos"):
     repo_dir = os.path.join(repo_base_dir, repo.split('/')[-1])
@@ -228,10 +235,45 @@ def get_func_lines_code(repo, base_commit, file, fq_funcs, repo_base_dir = "temp
                             break
     ##
         if not func_lines:
+            for node in tree.body:
+                if isinstance(node, ast.Assign):
+                    targets = [n for t in node.targets for n in _names_from_target(t)]
+                    for name in targets:
+                        if name in top_level_funcs or name in whole_classes:
+                            start = node.lineno
+                            end = getattr(node, "end_lineno", start)
+                            func_lines = set(range(start, end + 1))
+                            print(f"Found {name} (assign) at lines {start}-{end}")
+                            res[name] = (func_lines, ast.unparse(node))
+                            break
+                elif isinstance(node, ast.AnnAssign):
+                    targets = list(_names_from_target(node.target))
+                    for name in targets:
+                        if name in top_level_funcs or name in whole_classes:
+                            start = node.lineno
+                            end = getattr(node, "end_lineno", start)
+                            func_lines = set(range(start, end + 1))
+                            print(f"Found {name} (annassign) at lines {start}-{end}")
+                            res[name] = (func_lines, ast.unparse(node))
+                            break
+
+                elif isinstance(node, ast.AugAssign):
+                    targets = list(_names_from_target(node.target))
+                    for name in targets:
+                        if name in top_level_funcs or name in whole_classes:
+                            start = node.lineno
+                            end = getattr(node, "end_lineno", start)
+                            func_lines = set(range(start, end + 1))
+                            print(f"Found {name} (augassign) at lines {start}-{end}")
+                            res[name] = (func_lines, ast.unparse(node))
+                            break
+        if not func_lines:
             print(f"Function {func} not found in {file} at commit {base_commit}.")
 
     return res, repo_dir
 
+
+from bisect import bisect_left
 def query_coverage_data(
     instance_id, modified_file, modified_lines, cov_dir_base, logger
 ):
@@ -255,12 +297,36 @@ def query_coverage_data(
         format_file = file.replace("/testbed/", "")
         if modified_file == format_file:
             lineno_contexts = data.contexts_by_lineno(file)
+            nonempty_lines = sorted(ln for ln, ctx in lineno_contexts.items() if ctx != [''])
+            logger.info(f"Found context for file {file}:\n{lineno_contexts}")
             for lineno, contexts in lineno_contexts.items():
                 if lineno in modified_lines:
                     if lineno not in all_contexts:
                         all_contexts[lineno] = []
+                    contexts = [c for c in contexts if c != ""]
                     all_contexts[lineno].extend(contexts)
+                    if len(contexts) == 0:
+                        logger.info(f"Not found context for line {lineno}, retrieve to tests covered the nearest lines")
+                        # Retrieve tests covering the nearest lines in lineno_context with non-empty context
+                        i = bisect_left(nonempty_lines, lineno) - 1
+                        if i >= 0:
+                            prev_ln = nonempty_lines[i]
+                            fallback = lineno_contexts.get(prev_ln, [])
+                            if fallback:
+                                logger.info(
+                                    f"No direct context for line {lineno}; "
+                                    f"using {len(fallback)} context(s) from previous covered line {prev_ln}."
+                                )
+                                if prev_ln not in all_contexts:
+                                    all_contexts[prev_ln] = []
+                                all_contexts[prev_ln].extend(fallback)
+                            else:
+                                logger.info(f"No direct context for {lineno} and previous line {prev_ln} empty.")
+
+                        
     logger.info(f"Line coverage contexts for instance {instance_id}:\n{json.dumps(all_contexts, indent=2)}")
+            
+    
     return all_contexts
 
 
@@ -424,7 +490,8 @@ def process_instance(
 
 def main(coverage_dir, test_log_dir, suspicious_info, dataset, log_dir, model_name, result_json, prev_results):
     test_logs = get_log_file(test_log_dir)
-    refix = ['django__django-13344']
+    # refix = ['matplotlib__matplotlib-23299', 'django__django-16315', 'sympy__sympy-20916', 'astropy__astropy-13579', 'django__django-11728', 'pydata__xarray-6599', 'astropy__astropy-8707', 'sympy__sympy-23413', 'psf__requests-1766', 'pydata__xarray-4687', 'django__django-11099', 'sympy__sympy-17139', 'pylint-dev__pylint-6903', 'django__django-13809', 'django__django-15629', 'sympy__sympy-13877', 'django__django-10097', 'pallets__flask-5014', 'django__django-11138', 'django__django-16255', 'pylint-dev__pylint-7277', 'pydata__xarray-6461', 'django__django-7530', 'django__django-14376', 'django__django-14672', 'astropy__astropy-8872', 'django__django-16145', 'django__django-16082', 'django__django-12039']
+    refix = ['sympy__sympy-20916']
     # refix = ['pytest-dev__pytest-7236', 'pytest-dev__pytest-5787', 'pytest-dev__pytest-5631', 'pytest-dev__pytest-6202', 'pytest-dev__pytest-5840', 'pytest-dev__pytest-7571', 'pytest-dev__pytest-8399', 'pytest-dev__pytest-6197', 'pytest-dev__pytest-5809', 'pytest-dev__pytest-7982', 'pytest-dev__pytest-7490', 'pytest-dev__pytest-7205', 'pytest-dev__pytest-7432', 'pytest-dev__pytest-5262', 'pytest-dev__pytest-7521', 'pytest-dev__pytest-7324']
     print(f"{len(refix)} instances to rerun")
     for instance_id, log_file in test_logs.items():
