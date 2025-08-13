@@ -391,9 +391,12 @@ def process_instance(
     all_tests = set(t for testlist in combined_line_to_tests.values() for t in testlist)
     logger.info(f"\n#Before Minimization: {len(all_tests)} unique tests")
     passed_all_tests = set(t for t in all_tests if t in passed_tests)
-    logger.info(f"Passed tests before minimization: {len(passed_all_tests)}")
-
-    tests = list(passed_all_tests)
+    if len(passed_all_tests) > 0:
+        tests = list(passed_all_tests)
+        logger.info(f"Passed tests before minimization: {len(tests)}")
+    else:
+        tests = list(all_tests)
+        logger.info(f"Passed tests = 0 , will use original {len(tests)} tests")
 
     # Perform minimization on combined coverage
     file_str = ", ".join(sorted(set(f for f, _ in function_info)))
