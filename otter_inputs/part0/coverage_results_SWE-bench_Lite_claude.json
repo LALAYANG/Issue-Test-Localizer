@@ -2,7 +2,7 @@
   {
     "instance_id": "django__django-10914",
     "file_function": {
-      "file_storage/tests.py": [
+      "tests/file_storage/tests.py": [
         "test_file_get_accessed_time_timezone",
         "test_setting_changed",
         "test_file_get_modified_time_timezone",
@@ -19,10 +19,10 @@
         "test_delete_deletes_directories",
         "test_base_url"
       ],
-      "file_uploads/tests.py": [
+      "tests/file_uploads/tests.py": [
         "test_not_a_directory"
       ],
-      "files/tests.py": [
+      "tests/files/tests.py": [
         "test_open_resets_file_to_start_and_returns_context_manager"
       ]
     }
@@ -39,10 +39,10 @@
   {
     "instance_id": "django__django-16139",
     "file_function": {
-      "auth_tests/test_views.py": [
+      "tests/auth_tests/test_views.py": [
         "test_user_change_password"
       ],
-      "auth_tests/test_forms.py": [
+      "tests/auth_tests/test_forms.py": [
         "test_bug_17944_empty_password",
         "test_username_validity"
       ]
@@ -90,7 +90,7 @@
   {
     "instance_id": "django__django-14855",
     "file_function": {
-      "admin_views/tests.py": [
+      "tests/admin_views/tests.py": [
         "test_view_subtitle_per_object"
       ]
     }
@@ -166,20 +166,20 @@
   {
     "instance_id": "django__django-11019",
     "file_function": {
-      "model_forms/tests.py": [
+      "tests/model_forms/tests.py": [
         "test_image_field",
         "test_callable_field_default"
       ],
-      "forms_tests/tests/test_media.py": [
+      "tests/forms_tests/tests/test_media.py": [
         "test_form_media",
         "test_media_inheritance_from_property",
         "test_merge_warning",
         "test_media_inheritance_single_type"
       ],
-      "forms_tests/widget_tests/test_widget.py": [
+      "tests/forms_tests/widget_tests/test_widget.py": [
         "test_value_omitted_from_data"
       ],
-      "forms_tests/tests/test_forms.py": [
+      "tests/forms_tests/tests/test_forms.py": [
         "test_templates_with_forms",
         "test_hidden_widget",
         "test_form_with_noniterable_boundfield"
@@ -189,7 +189,7 @@
   {
     "instance_id": "django__django-13925",
     "file_function": {
-      "model_options/test_default_pk.py": [
+      "tests/model_options/test_default_pk.py": [
         "test_app_default_auto_field",
         "test_app_default_auto_field_none",
         "test_app_default_auto_field_nonexistent",
@@ -265,20 +265,20 @@
   {
     "instance_id": "django__django-12308",
     "file_function": {
-      "admin_utils/tests.py": [
+      "tests/admin_utils/tests.py": [
         "test_list_display_for_value",
         "test_number_formats_with_thousand_separator_display_for_field",
         "test_number_formats_display_for_field",
         "test_list_display_for_value_boolean",
         "test_null_display_for_field"
       ],
-      "admin_views/tests.py": [
+      "tests/admin_views/tests.py": [
         "test_change_list_sorting_model_admin",
         "test_change_list_sorting_callable",
         "test_multiple_sort_same_field",
         "test_change_list_column_field_classes"
       ],
-      "admin_changelist/tests.py": [
+      "tests/admin_changelist/tests.py": [
         "test_computed_list_display_localization"
       ]
     }
@@ -286,7 +286,7 @@
   {
     "instance_id": "django__django-15320",
     "file_function": {
-      "expressions/tests.py": [
+      "tests/expressions/tests.py": [
         "test_nested_subquery",
         "test_subquery",
         "test_nested_subquery_outer_ref_2"
@@ -296,7 +296,7 @@
   {
     "instance_id": "django__django-13757",
     "file_function": {
-      "model_fields/test_jsonfield.py": [
+      "tests/model_fields/test_jsonfield.py": [
         "test_key_transform_expression",
         "test_isnull_key",
         "test_isnull_key_or_none",
@@ -309,18 +309,18 @@
   {
     "instance_id": "django__django-11179",
     "file_function": {
-      "delete_regress/tests.py": [
+      "tests/delete_regress/tests.py": [
         "test_foreign_key_delete_nullifies_correct_columns"
       ],
-      "delete/tests.py": [
+      "tests/delete/tests.py": [
         "test_setnull",
         "test_m2m",
         "test_do_nothing_qscount"
       ],
-      "model_forms/tests.py": [
+      "tests/model_forms/tests.py": [
         "test_file_field_data"
       ],
-      "save_delete_hooks/tests.py": [
+      "tests/save_delete_hooks/tests.py": [
         "test_basic"
       ]
     }
@@ -337,14 +337,14 @@
   {
     "instance_id": "django__django-11815",
     "file_function": {
-      "migrations/test_commands.py": [
+      "tests/migrations/test_commands.py": [
         "test_makemigrations_with_custom_name",
         "test_makemigrations_migrations_modules_nonexistent_toplevel_package",
         "test_migrate_with_system_checks",
         "test_makemigrations_disabled_migrations_for_app",
         "test_squashmigrations_squashes"
       ],
-      "migrations/test_writer.py": [
+      "tests/migrations/test_writer.py": [
         "test_register_serializer",
         "test_migration_path",
         "test_migration_file_header_comments"
@@ -354,7 +354,7 @@
   {
     "instance_id": "django__django-11999",
     "file_function": {
-      "model_fields/tests.py": [
+      "tests/model_fields/tests.py": [
         "test_formfield",
         "test_choices_and_field_display",
         "test_flatchoices",
@@ -364,27 +364,27 @@
         "test_field_str",
         "test_check"
       ],
-      "model_fields/test_charfield.py": [
+      "tests/model_fields/test_charfield.py": [
         "test_charfield_with_choices_raises_error_on_invalid_choice",
         "test_enum_choices_invalid_input",
         "test_charfield_cleans_empty_string_when_blank_true",
         "test_charfield_with_choices_cleans_valid_choice"
       ],
-      "model_inheritance/test_abstract_inheritance.py": [
+      "tests/model_inheritance/test_abstract_inheritance.py": [
         "test_multi_inheritance_field_clashes"
       ],
-      "model_forms/tests.py": [
+      "tests/model_forms/tests.py": [
         "test_default_filefield",
         "test_custom_error_messages",
         "test_exclude_and_validation",
         "test_setattr_raises_validation_error_field_specific"
       ],
-      "model_inheritance/tests.py": [
+      "tests/model_inheritance/tests.py": [
         "test_filter_inherited_on_null",
         "test_exclude_inherited_on_null",
         "test_update_inherited_model"
       ],
-      "model_formsets/tests.py": [
+      "tests/model_formsets/tests.py": [
         "test_custom_pk",
         "test_callable_defaults",
         "test_outdated_deletion"
@@ -496,7 +496,7 @@
   {
     "instance_id": "django__django-11133",
     "file_function": {
-      "httpwrappers/tests.py": [
+      "tests/httpwrappers/tests.py": [
         "test_iter_content",
         "test_non_string_content",
         "test_lazy_content"
@@ -506,14 +506,14 @@
   {
     "instance_id": "django__django-15252",
     "file_function": {
-      "migrations/test_executor.py": [
+      "tests/migrations/test_executor.py": [
         "test_migrate_marks_replacement_unapplied",
         "test_alter_id_type_with_fk"
       ],
-      "migrations/test_commands.py": [
+      "tests/migrations/test_commands.py": [
         "test_migrate_backward_to_squashed_migration"
       ],
-      "backends/base/test_creation.py": [
+      "tests/backends/base/test_creation.py": [
         "test_migrate_test_setting_true",
         "test_migrate_test_setting_false"
       ]
@@ -531,7 +531,7 @@
   {
     "instance_id": "django__django-15851",
     "file_function": {
-      "dbshell/test_postgresql.py": [
+      "tests/dbshell/test_postgresql.py": [
         "test_crash_password_does_not_leak",
         "test_ssl_certificate",
         "test_passfile"
@@ -541,7 +541,7 @@
   {
     "instance_id": "django__django-14608",
     "file_function": {
-      "forms_tests/tests/test_formsets.py": [
+      "tests/forms_tests/tests/test_formsets.py": [
         "test_no_data_error",
         "test_formset_total_error_count_with_non_form_errors",
         "test_non_form_errors"
@@ -678,19 +678,19 @@
   {
     "instance_id": "django__django-14238",
     "file_function": {
-      "model_options/test_default_pk.py": [
+      "tests/model_options/test_default_pk.py": [
         "test_app_default_auto_field",
         "test_default_auto_field_setting"
       ],
-      "model_forms/tests.py": [
+      "tests/model_forms/tests.py": [
         "test_inherited_unique",
         "test_onetoonefield",
         "test_m2m_editing"
       ],
-      "model_fields/test_autofield.py": [
+      "tests/model_fields/test_autofield.py": [
         "test_issubclass_of_autofield"
       ],
-      "model_fields/test_integerfield.py": [
+      "tests/model_fields/test_integerfield.py": [
         "test_rel_db_type",
         "test_coercing",
         "test_types"
@@ -713,7 +713,7 @@
   {
     "instance_id": "django__django-16041",
     "file_function": {
-      "forms_tests/tests/test_formsets.py": [
+      "tests/forms_tests/tests/test_formsets.py": [
         "test_empty_forms_are_unbound",
         "test_disable_delete_extra_formset_forms",
         "test_form_kwargs_empty_form"
@@ -765,7 +765,7 @@
   {
     "instance_id": "django__django-13768",
     "file_function": {
-      "dispatch/tests.py": [
+      "tests/dispatch/tests.py": [
         "test_send_robust_fail",
         "test_send_robust_ignored_sender",
         "test_send_robust_no_receivers",
@@ -843,13 +843,13 @@
   {
     "instance_id": "django__django-15213",
     "file_function": {
-      "annotations/tests.py": [
+      "tests/annotations/tests.py": [
         "test_q_expression_annotation_with_aggregation",
         "test_grouping_by_q_expression_annotation",
         "test_combined_f_expression_annotation_with_aggregation",
         "test_combined_expression_annotation_with_aggregation"
       ],
-      "expressions/tests.py": [
+      "tests/expressions/tests.py": [
         "test_expressions"
       ]
     }
@@ -883,7 +883,7 @@
   {
     "instance_id": "django__django-13033",
     "file_function": {
-      "ordering/tests.py": [
+      "tests/ordering/tests.py": [
         "test_random_ordering",
         "test_order_by_nulls_first",
         "test_order_by_constant_value",
@@ -891,14 +891,14 @@
         "test_reverse_ordering_pure",
         "test_order_by_f_expression_duplicates"
       ],
-      "queries/tests.py": [
+      "tests/queries/tests.py": [
         "test_disjunction_promotion_select_related",
         "test_ordering",
         "test_extra_values_order_multiple",
         "test_join_reuse_order",
         "test_infinite_loop"
       ],
-      "select_related/tests.py": [
+      "tests/select_related/tests.py": [
         "test_chaining"
       ]
     }
@@ -906,15 +906,15 @@
   {
     "instance_id": "django__django-15202",
     "file_function": {
-      "forms_tests/tests/test_validators.py": [
+      "tests/forms_tests/tests/test_validators.py": [
         "test_value_placeholder_with_char_field"
       ],
-      "forms_tests/field_tests/test_urlfield.py": [
+      "tests/forms_tests/field_tests/test_urlfield.py": [
         "test_urlfield_strip_on_none_value",
         "test_urlfield_clean_not_required",
         "test_urlfield_clean_invalid"
       ],
-      "validators/tests.py": [
+      "tests/validators/tests.py": [
         "test_validators"
       ]
     }
@@ -922,13 +922,13 @@
   {
     "instance_id": "django__django-14580",
     "file_function": {
-      "migrations/test_writer.py": [
+      "tests/migrations/test_writer.py": [
         "test_register_serializer",
         "test_migration_path",
         "test_register_non_serializer",
         "test_serialize_numbers"
       ],
-      "migrations/test_commands.py": [
+      "tests/migrations/test_commands.py": [
         "test_makemigrations_migrations_modules_nonexistent_toplevel_package",
         "test_files_content",
         "test_makemigrations_auto_merge_name",
@@ -950,7 +950,7 @@
   {
     "instance_id": "django__django-15790",
     "file_function": {
-      "check_framework/test_templates.py": [
+      "tests/check_framework/test_templates.py": [
         "test_template_tags_with_same_library_name",
         "test_template_tags_with_same_library_name_and_module_name"
       ]
@@ -959,15 +959,15 @@
   {
     "instance_id": "django__django-13158",
     "file_function": {
-      "model_forms/tests.py": [
+      "tests/model_forms/tests.py": [
         "test_model_multiple_choice_field",
         "test_model_multiple_choice_required_false",
         "test_m2m_editing"
       ],
-      "queries/test_qs_combinators.py": [
+      "tests/queries/test_qs_combinators.py": [
         "test_union_with_empty_qs"
       ],
-      "admin_views/tests.py": [
+      "tests/admin_views/tests.py": [
         "test_change"
       ]
     }
@@ -1085,7 +1085,7 @@
   {
     "instance_id": "django__django-12284",
     "file_function": {
-      "model_fields/test_charfield.py": [
+      "tests/model_fields/test_charfield.py": [
         "test_assignment_from_choice_enum",
         "test_charfield_with_choices_raises_error_on_invalid_choice",
         "test_enum_choices_invalid_input",
@@ -1094,7 +1094,7 @@
         "test_max_length_passed_to_formfield",
         "test_charfield_cleans_empty_string_when_blank_true"
       ],
-      "model_fields/tests.py": [
+      "tests/model_fields/tests.py": [
         "test_formfield",
         "test_choices_and_field_display",
         "test_flatchoices",
@@ -1105,7 +1105,7 @@
         "test_overriding_FIELD_display",
         "test_check"
       ],
-      "validation/tests.py": [
+      "tests/validation/tests.py": [
         "test_invalid_v4_ip_raises_error",
         "test_invalid_v6_ip_raises_error",
         "test_validation_with_invalid_blank_field",
@@ -1114,7 +1114,7 @@
         "test_validation_with_empty_blank_field",
         "test_correct_FK_value_validates"
       ],
-      "model_inheritance/tests.py": [
+      "tests/model_inheritance/tests.py": [
         "test_eq",
         "test_update_parent_filtering",
         "test_unique_together",
@@ -1123,10 +1123,10 @@
         "test_filter_inherited_on_null",
         "test_select_related_defer"
       ],
-      "model_inheritance/test_abstract_inheritance.py": [
+      "tests/model_inheritance/test_abstract_inheritance.py": [
         "test_multi_inheritance_field_clashes"
       ],
-      "validation/test_unique.py": [
+      "tests/validation/test_unique.py": [
         "test_unique_for_date",
         "test_unique_for_date_with_nullable_date"
       ]
@@ -1135,14 +1135,14 @@
   {
     "instance_id": "django__django-15347",
     "file_function": {
-      "messages_tests/test_fallback.py": [
+      "tests/messages_tests/test_fallback.py": [
         "test_get",
         "test_get_fallback"
       ],
-      "messages_tests/test_mixins.py": [
+      "tests/messages_tests/test_mixins.py": [
         "test_set_messages_success_on_delete"
       ],
-      "messages_tests/test_cookie.py": [
+      "tests/messages_tests/test_cookie.py": [
         "test_get"
       ]
     }
@@ -1188,11 +1188,11 @@
   {
     "instance_id": "django__django-13321",
     "file_function": {
-      "auth_tests/test_views.py": [
+      "tests/auth_tests/test_views.py": [
         "test_login_session_without_hash_session_key",
         "test_session_key_flushed_on_login"
       ],
-      "sessions_tests/tests.py": [
+      "tests/sessions_tests/tests.py": [
         "test_sessionmanager_save"
       ]
     }
@@ -1208,13 +1208,13 @@
   {
     "instance_id": "django__django-16820",
     "file_function": {
-      "migrations/test_optimizer/OptimizerTests/test_add_remove_index.py": [
+      "tests/migrations/test_optimizer/OptimizerTests/test_add_remove_index.py": [
         "test_add_remove_index"
       ],
-      "migrations/test_operations/OperationTests/test_add_func_index.py": [
+      "tests/migrations/test_operations/OperationTests/test_add_func_index.py": [
         "test_add_func_index"
       ],
-      "migrations/test_operations/OperationTests/test_remove_func_index.py": [
+      "tests/migrations/test_operations/OperationTests/test_remove_func_index.py": [
         "test_remove_func_index"
       ]
     }
@@ -1222,28 +1222,28 @@
   {
     "instance_id": "django__django-16408",
     "file_function": {
-      "filtered_relation/tests/FilteredRelationTests/test_with_join_and_complex_condition.py": [
+      "tests/filtered_relation/tests/FilteredRelationTests/test_with_join_and_complex_condition.py": [
         "test_with_join_and_complex_condition"
       ],
-      "queries/test_query/TestQuery/test_multiple_fields.py": [
+      "tests/queries/test_query/TestQuery/test_multiple_fields.py": [
         "test_multiple_fields"
       ],
-      "filtered_relation/tests/FilteredRelationTests/test_condition_deeper_relation_name.py": [
+      "tests/filtered_relation/tests/FilteredRelationTests/test_condition_deeper_relation_name.py": [
         "test_condition_deeper_relation_name"
       ],
-      "aggregation_regress/tests/AggregationTests/test_field_error.py": [
+      "tests/aggregation_regress/tests/AggregationTests/test_field_error.py": [
         "test_field_error"
       ],
-      "queries/test_query/TestQuery/test_non_alias_cols_query.py": [
+      "tests/queries/test_query/TestQuery/test_non_alias_cols_query.py": [
         "test_non_alias_cols_query"
       ],
-      "queries/tests/ValuesQuerysetTests/test_field_error_values_list.py": [
+      "tests/queries/tests/ValuesQuerysetTests/test_field_error_values_list.py": [
         "test_field_error_values_list"
       ],
-      "filtered_relation/tests/FilteredRelationTests/test_condition_outside_relation_name.py": [
+      "tests/filtered_relation/tests/FilteredRelationTests/test_condition_outside_relation_name.py": [
         "test_condition_outside_relation_name"
       ],
-      "filtered_relation/tests/FilteredRelationTests/test_relation_name_lookup.py": [
+      "tests/filtered_relation/tests/FilteredRelationTests/test_relation_name_lookup.py": [
         "test_relation_name_lookup"
       ]
     }
@@ -1251,7 +1251,7 @@
   {
     "instance_id": "django__django-11630",
     "file_function": {
-      "check_framework/test_model_checks.py": [
+      "tests/check_framework/test_model_checks.py": [
         "test_collision_in_different_models",
         "test_collision_in_same_app",
         "test_collision_in_same_model",
@@ -1315,19 +1315,19 @@
   {
     "instance_id": "django__django-11905",
     "file_function": {
-      "queries/tests.py": [
+      "tests/queries/tests.py": [
         "test_excluded_intermediary_m2m_table_joined",
         "test_ticket7096",
         "test_primary_key",
         "test_null_in_exclude_qs"
       ],
-      "custom_lookups/tests.py": [
+      "tests/custom_lookups/tests.py": [
         "test_div3_bilateral_extract",
         "test_bilateral_inner_qs",
         "test_basic_lookup",
         "test_custom_exact_lookup_none_rhs"
       ],
-      "lookup/tests.py": [
+      "tests/lookup/tests.py": [
         "test_regex",
         "test_none",
         "test_custom_field_none_rhs"
@@ -1445,7 +1445,7 @@
   {
     "instance_id": "django__django-16046",
     "file_function": {
-      "utils_tests/test_numberformat.py": [
+      "tests/utils_tests/test_numberformat.py": [
         "test_decimal_numbers",
         "test_format_number",
         "test_float_numbers",
@@ -1460,7 +1460,7 @@
   {
     "instance_id": "django__django-12856",
     "file_function": {
-      "constraints/tests.py": [
+      "tests/constraints/tests.py": [
         "test_deferrable_with_condition",
         "test_condition_must_be_q",
         "test_eq",
@@ -1469,7 +1469,7 @@
         "test_repr_with_condition",
         "test_repr_with_deferrable"
       ],
-      "migrations/test_operations.py": [
+      "tests/migrations/test_operations.py": [
         "test_remove_deferred_unique_constraint",
         "test_remove_partial_unique_constraint",
         "test_create_model_with_deferred_unique_constraint",
@@ -1511,7 +1511,7 @@
   {
     "instance_id": "django__django-15738",
     "file_function": {
-      "migrations/test_operations.py": [
+      "tests/migrations/test_operations.py": [
         "test_remove_covering_unique_constraint",
         "test_alter_index_together_remove_with_unique_together",
         "test_alter_unique_together_remove",
@@ -1529,20 +1529,20 @@
         "test_rename_referenced_field_state_forward",
         "test_remove_unique_together_on_pk_field"
       ],
-      "migrations/test_autodetector.py": [
+      "tests/migrations/test_autodetector.py": [
         "test_partly_alter_foo_together",
         "test_create_model_and_unique_together",
         "test_proxy_to_mti_with_fk_to_proxy_proxy",
         "test_proxy_non_model_parent",
         "test_rename_foreign_object_fields"
       ],
-      "migrations/test_commands.py": [
+      "tests/migrations/test_commands.py": [
         "test_migrate_with_system_checks",
         "test_migrate_not_reflected_changes",
         "test_creates_replace_migration_manual_porting",
         "test_migrate_fake_initial_case_insensitive"
       ],
-      "migrations/test_state.py": [
+      "tests/migrations/test_state.py": [
         "test_rename_model",
         "test_add_model_other_app",
         "test_many_relations_to_same_model",
@@ -1601,7 +1601,7 @@
   {
     "instance_id": "django__django-15498",
     "file_function": {
-      "middleware/tests.py": [
+      "tests/middleware/tests.py": [
         "test_if_none_match_and_no_etag",
         "test_no_etag_no_store_cache",
         "test_if_modified_since_and_same_last_modified",
@@ -1692,7 +1692,7 @@
   {
     "instance_id": "django__django-11564",
     "file_function": {
-      "template_tests/syntax_tests/test_static.py": [
+      "tests/template_tests/syntax_tests/test_static.py": [
         "test_static_statictag_without_path",
         "test_static_prefixtag02",
         "test_static_prefixtag04",
@@ -1701,13 +1701,13 @@
         "test_static_prefixtag_without_as",
         "test_static_statictag03"
       ],
-      "staticfiles_tests/test_storage.py": [
+      "tests/staticfiles_tests/test_storage.py": [
         "test_missing_entry",
         "test_collect_static_files_permissions",
         "test_collect_static_files_subclass_of_static_storage",
         "test_file_change_after_collectstatic"
       ],
-      "staticfiles_tests/test_templatetags.py": [
+      "tests/staticfiles_tests/test_templatetags.py": [
         "test_template_tag"
       ]
     }
@@ -1758,7 +1758,7 @@
   {
     "instance_id": "django__django-13590",
     "file_function": {
-      "queries/tests.py": [
+      "tests/queries/tests.py": [
         "test_subquery_exclude_outerref",
         "test_correct_lookup",
         "test_exclude_in"
@@ -1828,7 +1828,7 @@
   {
     "instance_id": "django__django-13551",
     "file_function": {
-      "auth_tests/test_tokens.py": [
+      "tests/auth_tests/test_tokens.py": [
         "test_check_token_with_nonexistent_token_and_user",
         "test_make_token",
         "test_token_default_hashing_algorithm"
@@ -1879,37 +1879,37 @@
   {
     "instance_id": "django__django-17087",
     "file_function": {
-      "migrations/test_writer/WriterTests/test_serialize_enums.py": [
+      "tests/migrations/test_writer/WriterTests/test_serialize_enums.py": [
         "test_serialize_enums"
       ],
-      "migrations/test_writer/WriterTests/test_serialize_complex_func_index.py": [
+      "tests/migrations/test_writer/WriterTests/test_serialize_complex_func_index.py": [
         "test_serialize_complex_func_index"
       ],
-      "migrations/test_writer/WriterTests/test_serialize_collections.py": [
+      "tests/migrations/test_writer/WriterTests/test_serialize_collections.py": [
         "test_serialize_collections"
       ],
-      "migrations/test_writer/WriterTests/test_register_serializer.py": [
+      "tests/migrations/test_writer/WriterTests/test_register_serializer.py": [
         "test_register_serializer"
       ],
-      "migrations/test_writer/WriterTests/test_serialize_builtin_types.py": [
+      "tests/migrations/test_writer/WriterTests/test_serialize_builtin_types.py": [
         "test_serialize_builtin_types"
       ],
-      "migrations/test_writer/WriterTests/test_serialize_managers.py": [
+      "tests/migrations/test_writer/WriterTests/test_serialize_managers.py": [
         "test_serialize_managers"
       ],
-      "migrations/test_writer/OperationWriterTests/test_nested_args_signature.py": [
+      "tests/migrations/test_writer/OperationWriterTests/test_nested_args_signature.py": [
         "test_nested_args_signature"
       ],
-      "migrations/test_writer/WriterTests/test_serialize_type_model.py": [
+      "tests/migrations/test_writer/WriterTests/test_serialize_type_model.py": [
         "test_serialize_type_model"
       ],
-      "migrations/test_writer/WriterTests/test_serialize_lazy_objects.py": [
+      "tests/migrations/test_writer/WriterTests/test_serialize_lazy_objects.py": [
         "test_serialize_lazy_objects"
       ],
-      "migrations/test_writer/WriterTests/test_deconstruct_class_arguments.py": [
+      "tests/migrations/test_writer/WriterTests/test_deconstruct_class_arguments.py": [
         "test_deconstruct_class_arguments"
       ],
-      "migrations/test_writer/OperationWriterTests/test_nested_operation_expand_args_signature.py": [
+      "tests/migrations/test_writer/OperationWriterTests/test_nested_operation_expand_args_signature.py": [
         "test_nested_operation_expand_args_signature"
       ]
     }
@@ -2027,7 +2027,7 @@
   {
     "instance_id": "django__django-11283",
     "file_function": {
-      "auth_tests/test_migrations.py": [
+      "tests/auth_tests/test_migrations.py": [
         "test_migrate_backwards",
         "test_user_keeps_same_permissions_after_migrating_backward"
       ]
@@ -2044,52 +2044,52 @@
   {
     "instance_id": "django__django-16816",
     "file_function": {
-      "admin_checks/tests/SystemChecksTestCase/test_readonly_lambda.py": [
+      "tests/admin_checks/tests/SystemChecksTestCase/test_readonly_lambda.py": [
         "test_readonly_lambda"
       ],
-      "admin_checks/tests/SystemChecksTestCase/test_readonly_and_editable.py": [
+      "tests/admin_checks/tests/SystemChecksTestCase/test_readonly_and_editable.py": [
         "test_readonly_and_editable"
       ],
-      "admin_checks/tests/SystemChecksTestCase/test_list_editable_not_a_list_or_tuple.py": [
+      "tests/admin_checks/tests/SystemChecksTestCase/test_list_editable_not_a_list_or_tuple.py": [
         "test_list_editable_not_a_list_or_tuple"
       ],
-      "admin_checks/tests/SystemChecksTestCase/test_check_fieldset_sublists_for_duplicates.py": [
+      "tests/admin_checks/tests/SystemChecksTestCase/test_check_fieldset_sublists_for_duplicates.py": [
         "test_check_fieldset_sublists_for_duplicates"
       ],
-      "admin_checks/tests/SystemChecksTestCase/test_exclude_duplicate_values.py": [
+      "tests/admin_checks/tests/SystemChecksTestCase/test_exclude_duplicate_values.py": [
         "test_exclude_duplicate_values"
       ],
-      "admin_checks/tests/SystemChecksTestCase/test_field_name_not_in_list_display.py": [
+      "tests/admin_checks/tests/SystemChecksTestCase/test_field_name_not_in_list_display.py": [
         "test_field_name_not_in_list_display"
       ],
-      "admin_checks/tests/SystemChecksTestCase/test_check_sublists_for_duplicates.py": [
+      "tests/admin_checks/tests/SystemChecksTestCase/test_check_sublists_for_duplicates.py": [
         "test_check_sublists_for_duplicates"
       ],
-      "admin_checks/tests/SystemChecksTestCase/test_nonexistent_field.py": [
+      "tests/admin_checks/tests/SystemChecksTestCase/test_nonexistent_field.py": [
         "test_nonexistent_field"
       ],
-      "admin_checks/tests/SystemChecksTestCase/test_readonly_on_method.py": [
+      "tests/admin_checks/tests/SystemChecksTestCase/test_readonly_on_method.py": [
         "test_readonly_on_method"
       ],
-      "admin_checks/tests/SystemChecksTestCase/test_readonly_fields_not_list_or_tuple.py": [
+      "tests/admin_checks/tests/SystemChecksTestCase/test_readonly_fields_not_list_or_tuple.py": [
         "test_readonly_fields_not_list_or_tuple"
       ],
-      "admin_checks/tests/SystemChecksTestCase/test_allows_checks_relying_on_other_modeladmins.py": [
+      "tests/admin_checks/tests/SystemChecksTestCase/test_allows_checks_relying_on_other_modeladmins.py": [
         "test_allows_checks_relying_on_other_modeladmins"
       ],
-      "admin_checks/tests/SystemChecksTestCase/test_nonexistent_field_on_inline.py": [
+      "tests/admin_checks/tests/SystemChecksTestCase/test_nonexistent_field_on_inline.py": [
         "test_nonexistent_field_on_inline"
       ],
-      "admin_checks/tests/SystemChecksTestCase/test_readonly_on_modeladmin.py": [
+      "tests/admin_checks/tests/SystemChecksTestCase/test_readonly_on_modeladmin.py": [
         "test_readonly_on_modeladmin"
       ],
-      "admin_checks/tests/SystemChecksTestCase/test_app_label_in_admin_checks.py": [
+      "tests/admin_checks/tests/SystemChecksTestCase/test_app_label_in_admin_checks.py": [
         "test_app_label_in_admin_checks"
       ],
-      "admin_checks/tests/SystemChecksTestCase/test_nested_fieldsets.py": [
+      "tests/admin_checks/tests/SystemChecksTestCase/test_nested_fieldsets.py": [
         "test_nested_fieldsets"
       ],
-      "admin_checks/tests/SystemChecksTestCase/test_list_editable_missing_field.py": [
+      "tests/admin_checks/tests/SystemChecksTestCase/test_list_editable_missing_field.py": [
         "test_list_editable_missing_field"
       ]
     }
@@ -2097,11 +2097,11 @@
   {
     "instance_id": "django__django-12708",
     "file_function": {
-      "schema/tests.py": [
+      "tests/schema/tests.py": [
         "test_unique_together",
         "test_index_together"
       ],
-      "migrations/test_operations.py": [
+      "tests/migrations/test_operations.py": [
         "test_alter_unique_together"
       ]
     }
@@ -2140,12 +2140,12 @@
   {
     "instance_id": "django__django-13265",
     "file_function": {
-      "migrations/test_autodetector.py": [
+      "tests/migrations/test_autodetector.py": [
         "test_circular_dependency_mixed_addcreate",
         "test_add_alter_order_with_respect_to",
         "test_circular_fk_dependency"
       ],
-      "migrations/test_optimizer.py": [
+      "tests/migrations/test_optimizer.py": [
         "test_optimize_through_create",
         "test_none_app_label"
       ]
@@ -2154,7 +2154,7 @@
   {
     "instance_id": "django__django-14787",
     "file_function": {
-      "decorators/tests.py": [
+      "tests/decorators/tests.py": [
         "test_descriptors",
         "test_argumented",
         "test_preserve_attributes",
@@ -2177,20 +2177,20 @@
   {
     "instance_id": "django__django-11797",
     "file_function": {
-      "queries/tests.py": [
+      "tests/queries/tests.py": [
         "test_correct_lookup",
         "test_distinct_ordered_sliced_subquery",
         "test_error_raised_on_filter_with_dictionary",
         "test_subquery_exclude_outerref",
         "test_distinct_ordered_sliced_subquery_aggregation"
       ],
-      "queries/test_query.py": [
+      "tests/queries/test_query.py": [
         "test_foreign_key"
       ],
-      "lookup/tests.py": [
+      "tests/lookup/tests.py": [
         "test_relation_nested_lookup_error"
       ],
-      "aggregation_regress/tests.py": [
+      "tests/aggregation_regress/tests.py": [
         "test_fobj_group_by",
         "test_more_more_more"
       ]
@@ -2269,19 +2269,19 @@
   {
     "instance_id": "django__django-14667",
     "file_function": {
-      "defer_regress/tests.py": [
+      "tests/defer_regress/tests.py": [
         "test_defer_with_select_related",
         "test_basic"
       ],
-      "aggregation/tests.py": [
+      "tests/aggregation/tests.py": [
         "test_annotate_defer_select_related"
       ],
-      "defer/tests.py": [
+      "tests/defer/tests.py": [
         "test_defer_none_to_clear_deferred_set",
         "test_only",
         "test_defer_only_chaining"
       ],
-      "queries/tests.py": [
+      "tests/queries/tests.py": [
         "test_named_values_list_with_fields"
       ]
     }
@@ -2345,7 +2345,7 @@
   {
     "instance_id": "django__django-11583",
     "file_function": {
-      "utils_tests/test_autoreload.py": [
+      "tests/utils_tests/test_autoreload.py": [
         "test_main_module_is_resolved",
         "test_file_added",
         "test_snapshot_files_ignores_missing_files",
@@ -2388,7 +2388,7 @@
   {
     "instance_id": "django__django-16400",
     "file_function": {
-      "auth_tests/test_management.py": [
+      "tests/auth_tests/test_management.py": [
         "test_fields_with_fk_interactive",
         "test_default_permissions",
         "test_createsuperuser_command_suggested_username_with_database_option",
@@ -2396,10 +2396,10 @@
         "test_fields_with_m2m_interactive",
         "test_with_database"
       ],
-      "migrate_signals/tests.py": [
+      "tests/migrate_signals/tests.py": [
         "test_args"
       ],
-      "migrations/test_commands.py": [
+      "tests/migrations/test_commands.py": [
         "test_migrate_fake_initial_case_insensitive",
         "test_migrate_with_system_checks",
         "test_migrate_backward_to_squashed_migration"
@@ -2552,7 +2552,7 @@
   {
     "instance_id": "django__django-12286",
     "file_function": {
-      "check_framework/test_translation.py": [
+      "tests/check_framework/test_translation.py": [
         "test_inconsistent_language_settings"
       ]
     }
@@ -2560,14 +2560,14 @@
   {
     "instance_id": "django__django-14016",
     "file_function": {
-      "queries/test_q.py": [
+      "tests/queries/test_q.py": [
         "test_reconstruct_or",
         "test_combine_and_empty",
         "test_combine_not_q_object",
         "test_deconstruct_or",
         "test_combine_or_empty"
       ],
-      "or_lookups/tests.py": [
+      "tests/or_lookups/tests.py": [
         "test_filter_or"
       ]
     }
@@ -2575,10 +2575,10 @@
   {
     "instance_id": "django__django-15902",
     "file_function": {
-      "forms_tests/tests/test_renderers.py": [
+      "tests/forms_tests/tests/test_renderers.py": [
         "test_get_renderer"
       ],
-      "forms_tests/tests/test_formsets.py": [
+      "tests/forms_tests/tests/test_formsets.py": [
         "test_customize_management_form_error",
         "test_repr",
         "test_html_safe",
@@ -2605,7 +2605,7 @@
   {
     "instance_id": "django__django-14915",
     "file_function": {
-      "model_forms/test_modelchoicefield.py": [
+      "tests/model_forms/test_modelchoicefield.py": [
         "test_choices",
         "test_choice_iterator_passes_model_to_widget",
         "test_disabled_modelchoicefield_has_changed",
@@ -2717,7 +2717,7 @@
   {
     "instance_id": "django__django-12700",
     "file_function": {
-      "view_tests/tests/test_debug.py": [
+      "tests/view_tests/tests/test_debug.py": [
         "test_dict_setting_with_non_str_key",
         "test_callable_settings_forbidding_to_set_attributes",
         "test_callable_settings",
@@ -2781,12 +2781,12 @@
   {
     "instance_id": "django__django-14730",
     "file_function": {
-      "invalid_models_tests/test_relative_fields.py": [
+      "tests/invalid_models_tests/test_relative_fields.py": [
         "test_unique_m2m",
         "test_many_to_many_to_missing_model",
         "test_relationship_model_missing_foreign_key"
       ],
-      "model_fields/test_manytomanyfield.py": [
+      "tests/model_fields/test_manytomanyfield.py": [
         "test_through_db_table_mutually_exclusive",
         "test_invalid_to_parameter"
       ]
@@ -2795,7 +2795,7 @@
   {
     "instance_id": "django__django-11422",
     "file_function": {
-      "utils_tests/test_autoreload.py": [
+      "tests/utils_tests/test_autoreload.py": [
         "test_file_added",
         "test_snapshot_files_ignores_missing_files",
         "test_paths_are_pathlib_instances",
@@ -2904,11 +2904,11 @@
   {
     "instance_id": "django__django-15789",
     "file_function": {
-      "utils_tests/test_html.py": [
+      "tests/utils_tests/test_html.py": [
         "test_json_script",
         "test_json_script_without_id"
       ],
-      "template_tests/filter_tests/test_json_script.py": [
+      "tests/template_tests/filter_tests/test_json_script.py": [
         "test_basic"
       ]
     }
@@ -3000,7 +3000,7 @@
   {
     "instance_id": "django__django-11039",
     "file_function": {
-      "migrations/test_commands.py": [
+      "tests/migrations/test_commands.py": [
         "test_sqlmigrate_backwards",
         "test_sqlmigrate_forwards",
         "test_sqlmigrate_app_name_specified_as_label",
@@ -3011,7 +3011,7 @@
   {
     "instance_id": "django__django-14411",
     "file_function": {
-      "auth_tests/test_forms.py": [
+      "tests/auth_tests/test_forms.py": [
         "test_readonly_field_has_changed",
         "test_bug_17944_empty_password",
         "test_bug_17944_unmanageable_password",
@@ -3019,7 +3019,7 @@
         "test_unusable_password",
         "test_bug_19349_render_with_none_value"
       ],
-      "auth_tests/test_views.py": [
+      "tests/auth_tests/test_views.py": [
         "test_user_change_password"
       ]
     }
@@ -3045,12 +3045,12 @@
   {
     "instance_id": "django__django-13315",
     "file_function": {
-      "model_forms/tests.py": [
+      "tests/model_forms/tests.py": [
         "test_fields_for_model_applies_limit_choices_to",
         "test_limit_choices_to_callable_for_fk_rel",
         "test_blank_foreign_key_with_radio"
       ],
-      "model_forms/test_modelchoicefield.py": [
+      "tests/model_forms/test_modelchoicefield.py": [
         "test_choices_bool"
       ]
     }
@@ -3058,7 +3058,7 @@
   {
     "instance_id": "django__django-13710",
     "file_function": {
-      "admin_inlines/tests.py": [
+      "tests/admin_inlines/tests.py": [
         "test_inline_editable_pk",
         "test_inline_primary",
         "test_inline_add_fk_add_perm",
@@ -3066,7 +3066,7 @@
         "test_inline_nonauto_noneditable_pk",
         "test_inline_nonauto_noneditable_inherited_pk"
       ],
-      "admin_views/tests.py": [
+      "tests/admin_views/tests.py": [
         "test_should_be_able_to_edit_related_objects_on_add_view"
       ]
     }
@@ -3086,7 +3086,7 @@
   {
     "instance_id": "django__django-11848",
     "file_function": {
-      "utils_tests/test_http.py": [
+      "tests/utils_tests/test_http.py": [
         "test_parsing_rfc850",
         "test_parsing_year_less_than_70"
       ]
@@ -3095,10 +3095,10 @@
   {
     "instance_id": "django__django-12747",
     "file_function": {
-      "delete_regress/tests.py": [
+      "tests/delete_regress/tests.py": [
         "test_foreign_key_delete_nullifies_correct_columns"
       ],
-      "delete/tests.py": [
+      "tests/delete/tests.py": [
         "test_setnull",
         "test_m2m",
         "test_fast_delete_instance_set_pk_none",
@@ -3126,7 +3126,7 @@
   {
     "instance_id": "django__django-12453",
     "file_function": {
-      "test_runner/test_debug_sql.py": [
+      "tests/test_runner/test_debug_sql.py": [
         "test_output_normal",
         "test_output_verbose"
       ]
@@ -3154,7 +3154,7 @@
   {
     "instance_id": "django__django-15061",
     "file_function": {
-      "forms_tests/field_tests/test_multivaluefield.py": [
+      "tests/forms_tests/field_tests/test_multivaluefield.py": [
         "test_form_as_table",
         "test_render_required_attributes",
         "test_form_as_table_data"
@@ -3197,7 +3197,7 @@
   {
     "instance_id": "django__django-14534",
     "file_function": {
-      "forms_tests/tests/test_forms.py": [
+      "tests/forms_tests/tests/test_forms.py": [
         "test_iterable_boundfield_select",
         "test_form_with_iterable_boundfield_id"
       ]
@@ -3206,7 +3206,7 @@
   {
     "instance_id": "django__django-14997",
     "file_function": {
-      "migrations/test_operations.py": [
+      "tests/migrations/test_operations.py": [
         "test_remove_covering_unique_constraint",
         "test_remove_deferred_unique_constraint",
         "test_add_covering_unique_constraint",
@@ -3216,7 +3216,7 @@
         "test_repoint_field_m2m",
         "test_create_model_with_partial_unique_constraint"
       ],
-      "constraints/tests.py": [
+      "tests/constraints/tests.py": [
         "test_eq",
         "test_deconstruction_with_include",
         "test_deferrable_with_opclasses",
@@ -3238,7 +3238,7 @@
         "test_eq_with_expressions",
         "test_repr"
       ],
-      "schema/tests.py": [
+      "tests/schema/tests.py": [
         "test_m2m_custom",
         "test_m2m",
         "test_rename_referenced_field",
@@ -3252,7 +3252,7 @@
         "test_add_field_db_collation",
         "test_alter_not_unique_field_to_primary_key"
       ],
-      "migrations/test_executor.py": [
+      "tests/migrations/test_executor.py": [
         "test_migrate_backward_to_squashed_migration",
         "test_alter_id_type_with_fk"
       ]
@@ -3261,16 +3261,16 @@
   {
     "instance_id": "django__django-12184",
     "file_function": {
-      "urlpatterns_reverse/tests.py": [
+      "tests/urlpatterns_reverse/tests.py": [
         "test_invalid_regex",
         "test_invalid_reverse",
         "test_ambiguous_object",
         "test_404_tried_urls_have_names"
       ],
-      "handlers/tests.py": [
+      "tests/handlers/tests.py": [
         "test_no_response"
       ],
-      "urlpatterns/tests.py": [
+      "tests/urlpatterns/tests.py": [
         "test_matching_urls"
       ]
     }
@@ -3337,13 +3337,13 @@
   {
     "instance_id": "django__django-16910",
     "file_function": {
-      "select_related/tests/SelectRelatedTests/test_none_clears_list.py": [
+      "tests/select_related/tests/SelectRelatedTests/test_none_clears_list.py": [
         "test_none_clears_list"
       ],
-      "queries/tests/Queries3Tests/test_ticket22023.py": [
+      "tests/queries/tests/Queries3Tests/test_ticket22023.py": [
         "test_ticket22023"
       ],
-      "select_related_regress/tests/SelectRelatedRegressTests/test_regression_10733.py": [
+      "tests/select_related_regress/tests/SelectRelatedRegressTests/test_regression_10733.py": [
         "test_regression_10733"
       ]
     }
@@ -3375,16 +3375,16 @@
   {
     "instance_id": "django__django-11964",
     "file_function": {
-      "model_forms/tests.py": [
+      "tests/model_forms/tests.py": [
         "test_save_blank_null_unique_charfield_saves_null",
         "test_foreignkeys_which_use_to_field",
         "test_file_field_data"
       ],
-      "model_fields/test_promises.py": [
+      "tests/model_fields/test_promises.py": [
         "test_CharField",
         "test_SlugField"
       ],
-      "model_fields/tests.py": [
+      "tests/model_fields/tests.py": [
         "test_get_choices"
       ]
     }
@@ -3404,19 +3404,19 @@
   {
     "instance_id": "django__django-17051",
     "file_function": {
-      "bulk_create/tests/BulkCreateTests/test_multi_table_inheritance_unsupported.py": [
+      "tests/bulk_create/tests/BulkCreateTests/test_multi_table_inheritance_unsupported.py": [
         "test_multi_table_inheritance_unsupported"
       ],
-      "bulk_create/tests/BulkCreateTests/test_simple.py": [
+      "tests/bulk_create/tests/BulkCreateTests/test_simple.py": [
         "test_simple"
       ],
-      "bulk_create/tests/BulkCreateTests/test_update_conflicts_unique_fields_pk.py": [
+      "tests/bulk_create/tests/BulkCreateTests/test_update_conflicts_unique_fields_pk.py": [
         "test_update_conflicts_unique_fields_pk"
       ],
-      "queries/test_db_returning/ReturningValuesTests/test_bulk_insert.py": [
+      "tests/queries/test_db_returning/ReturningValuesTests/test_bulk_insert.py": [
         "test_bulk_insert"
       ],
-      "bulk_create/tests/BulkCreateTests/test_invalid_batch_size_exception.py": [
+      "tests/bulk_create/tests/BulkCreateTests/test_invalid_batch_size_exception.py": [
         "test_invalid_batch_size_exception"
       ]
     }
@@ -3452,25 +3452,25 @@
   {
     "instance_id": "django__django-12113",
     "file_function": {
-      "backends/sqlite/tests.py": [
+      "tests/backends/sqlite/tests.py": [
         "test_constraint_checks_disabled_atomic_allowed",
         "test_database_sharing_in_threads",
         "test_autoincrement",
         "test_pathlib_name"
       ],
-      "backends/tests.py": [
+      "tests/backends/tests.py": [
         "test_check_constraints",
         "test_cursor_executemany",
         "test_queries",
         "test_disable_constraint_checks_manually"
       ],
-      "multiple_database/tests.py": [
+      "tests/multiple_database/tests.py": [
         "test_pseudo_empty_fixtures"
       ],
-      "backends/base/test_base.py": [
+      "tests/backends/base/test_base.py": [
         "test_database_queried"
       ],
-      "transactions/tests.py": [
+      "tests/transactions/tests.py": [
         "test_orm_query_after_error_and_rollback"
       ]
     }
@@ -3478,17 +3478,17 @@
   {
     "instance_id": "django__django-12497",
     "file_function": {
-      "model_fields/test_foreignkey.py": [
+      "tests/model_fields/test_foreignkey.py": [
         "test_warning_when_unique_true_on_fk",
         "test_non_local_to_field",
         "test_recursive_fks_get_col",
         "test_to_python",
         "test_empty_string_fk"
       ],
-      "m2m_regress/tests.py": [
+      "tests/m2m_regress/tests.py": [
         "test_add_m2m_with_base_class"
       ],
-      "model_fields/test_manytomanyfield.py": [
+      "tests/model_fields/test_manytomanyfield.py": [
         "test_value_from_object_instance_with_pk",
         "test_abstract_model_app_relative_foreign_key"
       ]
@@ -3540,11 +3540,11 @@
   {
     "instance_id": "django__django-14999",
     "file_function": {
-      "migrations/test_optimizer.py": [
+      "tests/migrations/test_optimizer.py": [
         "test_optimize_elidable_operation",
         "test_alter_alter_table_model"
       ],
-      "migrations/test_operations.py": [
+      "tests/migrations/test_operations.py": [
         "test_rename_model_with_m2m",
         "test_rename_m2m_target_model",
         "test_rename_model_with_self_referential_m2m"
@@ -3554,7 +3554,7 @@
   {
     "instance_id": "django__django-14752",
     "file_function": {
-      "admin_views/test_autocomplete_view.py": [
+      "tests/admin_views/test_autocomplete_view.py": [
         "test_field_does_not_allowed",
         "test_missing_search_fields",
         "test_limit_choices_to",
@@ -3665,7 +3665,7 @@
   {
     "instance_id": "django__django-15996",
     "file_function": {
-      "migrations/test_writer.py": [
+      "tests/migrations/test_writer.py": [
         "test_serialize_enums",
         "test_serialize_complex_func_index",
         "test_serialize_builtins",
@@ -3682,23 +3682,23 @@
   {
     "instance_id": "django__django-13220",
     "file_function": {
-      "forms_tests/tests/test_error_messages.py": [
+      "tests/forms_tests/tests/test_error_messages.py": [
         "test_list_error_message"
       ],
-      "validation/tests.py": [
+      "tests/validation/tests.py": [
         "test_invalid_generic_ip_raises_error",
         "test_custom_validate_method"
       ],
-      "test_exceptions/test_validation_error.py": [
+      "tests/test_exceptions/test_validation_error.py": [
         "test_messages_concatenates_error_dict_values"
       ],
-      "validation/test_picklable.py": [
+      "tests/validation/test_picklable.py": [
         "test_validationerror_is_picklable"
       ],
-      "model_fields/tests.py": [
+      "tests/model_fields/tests.py": [
         "test_invalid_choice"
       ],
-      "forms_tests/tests/test_validators.py": [
+      "tests/forms_tests/tests/test_validators.py": [
         "test_all_errors_get_reported"
       ]
     }
@@ -3706,7 +3706,7 @@
   {
     "instance_id": "django__django-15388",
     "file_function": {
-      "utils_tests/test_autoreload.py": [
+      "tests/utils_tests/test_autoreload.py": [
         "test_watch_files_with_recursive_glob",
         "test_snapshot_files_ignores_missing_files",
         "test_watch_with_glob",
@@ -3725,11 +3725,11 @@
         "test_wait_for_apps_ready_checks_for_exception",
         "test_calls_start_django"
       ],
-      "template_tests/test_response.py": [
+      "tests/template_tests/test_response.py": [
         "test_middleware_caching",
         "test_using"
       ],
-      "template_tests/test_loaders.py": [
+      "tests/template_tests/test_loaders.py": [
         "test_directory_security"
       ]
     }
@@ -3737,13 +3737,13 @@
   {
     "instance_id": "django__django-16873",
     "file_function": {
-      "template_tests/filter_tests/test_join/FunctionTests/test_list.py": [
+      "tests/template_tests/filter_tests/test_join/FunctionTests/test_list.py": [
         "test_list"
       ],
-      "template_tests/filter_tests/test_join/FunctionTests/test_autoescape.py": [
+      "tests/template_tests/filter_tests/test_join/FunctionTests/test_autoescape.py": [
         "test_autoescape"
       ],
-      "template_tests/filter_tests/test_join/FunctionTests/test_noniterable_arg.py": [
+      "tests/template_tests/filter_tests/test_join/FunctionTests/test_noniterable_arg.py": [
         "test_noniterable_arg"
       ]
     }
@@ -3751,7 +3751,7 @@
   {
     "instance_id": "django__django-16229",
     "file_function": {
-      "admin_inlines/tests.py": [
+      "tests/admin_inlines/tests.py": [
         "test_main_model_is_rendered_as_read_only",
         "test_post_to_change_url_not_allowed",
         "test_verbose_name_inline",
@@ -3763,7 +3763,7 @@
         "test_inline_primary",
         "test_inline_change_m2m_view_only_perm"
       ],
-      "admin_views/tests.py": [
+      "tests/admin_views/tests.py": [
         "test_pluggable_search",
         "test_should_be_able_to_edit_related_objects_on_change_view",
         "test_delete_view_nonexistent_obj",
@@ -3790,7 +3790,7 @@
         "test_custom_model_admin_templates",
         "test_list_editable_action_choices"
       ],
-      "model_formsets/tests.py": [
+      "tests/model_formsets/tests.py": [
         "test_inlineformset_factory_widgets",
         "test_inlineformset_factory_field_class_overrides",
         "test_inlineformset_with_arrayfield",
@@ -3799,17 +3799,17 @@
         "test_inlineformset_factory_error_messages_overrides",
         "test_inlineformset_factory_help_text_overrides"
       ],
-      "model_formsets_regress/tests.py": [
+      "tests/model_formsets_regress/tests.py": [
         "test_inlineformset_factory_default"
       ],
-      "model_forms/tests.py": [
+      "tests/model_forms/tests.py": [
         "test_override_unique_together_message",
         "test_validates_with_replaced_field_excluded",
         "test_invalid_meta_model",
         "test_save_with_data_errors",
         "test_unique_for_date"
       ],
-      "forms_tests/tests/test_forms.py": [
+      "tests/forms_tests/tests/test_forms.py": [
         "test_forms_with_file_fields"
       ]
     }
@@ -3864,7 +3864,7 @@
   {
     "instance_id": "django__django-11742",
     "file_function": {
-      "model_fields/tests.py": [
+      "tests/model_fields/tests.py": [
         "test_get_choices_reverse_related_field_default_ordering",
         "test_formfield",
         "test_choices_and_field_display",
@@ -3876,7 +3876,7 @@
         "test_field_str",
         "test_check"
       ],
-      "model_fields/test_charfield.py": [
+      "tests/model_fields/test_charfield.py": [
         "test_charfield_with_choices_raises_error_on_invalid_choice",
         "test_enum_choices_invalid_input",
         "test_lookup_integer_in_charfield",
@@ -3884,7 +3884,7 @@
         "test_max_length_passed_to_formfield",
         "test_charfield_cleans_empty_string_when_blank_true"
       ],
-      "validation/tests.py": [
+      "tests/validation/tests.py": [
         "test_invalid_v4_ip_raises_error",
         "test_validation_with_invalid_blank_field",
         "test_invalid_generic_ip_raises_error",
@@ -3907,14 +3907,14 @@
   {
     "instance_id": "django__django-13401",
     "file_function": {
-      "model_inheritance/tests.py": [
+      "tests/model_inheritance/tests.py": [
         "test_filter_inherited_on_null",
         "test_exclude_inherited_on_null"
       ],
-      "model_inheritance_regress/tests.py": [
+      "tests/model_inheritance_regress/tests.py": [
         "test_issue_7276"
       ],
-      "model_inheritance/test_abstract_inheritance.py": [
+      "tests/model_inheritance/test_abstract_inheritance.py": [
         "test_multiple_inheritance_cannot_shadow_concrete_inherited_field",
         "test_multi_inheritance_field_clashes"
       ]
@@ -3952,10 +3952,10 @@
   {
     "instance_id": "django__django-11001",
     "file_function": {
-      "expressions_case/tests.py": [
+      "tests/expressions_case/tests.py": [
         "test_annotate_values_not_in_order_by"
       ],
-      "ordering/tests.py": [
+      "tests/ordering/tests.py": [
         "test_order_by_nulls_first",
         "test_random_ordering",
         "test_orders_nulls_first_on_filtered_subquery",
@@ -3963,21 +3963,21 @@
         "test_order_by_nulls_last",
         "test_order_by_f_expression_duplicates"
       ],
-      "queries/tests.py": [
+      "tests/queries/tests.py": [
         "test_ordering",
         "test_extra_select_params_values_order_in_extra",
         "test_extra_values_order_multiple",
         "test_extra_values_order_twice"
       ],
-      "aggregation_regress/tests.py": [
+      "tests/aggregation_regress/tests.py": [
         "test_annotation",
         "test_more_more_more"
       ],
-      "expressions_window/tests.py": [
+      "tests/expressions_window/tests.py": [
         "test_max_per_year",
         "test_subquery_row_range_rank"
       ],
-      "db_functions/tests.py": [
+      "tests/db_functions/tests.py": [
         "test_nested_function_ordering"
       ]
     }
@@ -4001,16 +4001,16 @@
   {
     "instance_id": "django__django-14017",
     "file_function": {
-      "expressions/tests.py": [
+      "tests/expressions/tests.py": [
         "test_filtering_on_q_that_is_boolean",
         "test_aggregate_subquery_annotation",
         "test_filtering_on_annotate_that_uses_q",
         "test_subquery"
       ],
-      "queries/tests.py": [
+      "tests/queries/tests.py": [
         "test_ticket5261"
       ],
-      "queries/test_q.py": [
+      "tests/queries/test_q.py": [
         "test_reconstruct_or",
         "test_combine_and_empty",
         "test_combine_not_q_object",
@@ -4041,7 +4041,7 @@
   {
     "instance_id": "django__django-12983",
     "file_function": {
-      "utils_tests/test_text.py": [
+      "tests/utils_tests/test_text.py": [
         "test_slugify"
       ]
     }
@@ -4061,7 +4061,7 @@
   {
     "instance_id": "django__django-16379",
     "file_function": {
-      "cache/tests.py": [
+      "tests/cache/tests.py": [
         "test_empty_cache_file_considered_expired"
       ]
     }
@@ -4084,16 +4084,16 @@
   {
     "instance_id": "django__django-12470",
     "file_function": {
-      "aggregation/tests.py": [
+      "tests/aggregation/tests.py": [
         "test_aggregate_in_order_by"
       ],
-      "queries/tests.py": [
+      "tests/queries/tests.py": [
         "test_invalid_order_by",
         "test_ordering",
         "test_slicing_cannot_reorder_queryset_once_sliced",
         "test_tickets_5324_6704"
       ],
-      "ordering/tests.py": [
+      "tests/ordering/tests.py": [
         "test_orders_nulls_first_on_filtered_subquery"
       ]
     }
@@ -4124,14 +4124,14 @@
   {
     "instance_id": "django__django-11910",
     "file_function": {
-      "migrations/test_operations.py": [
+      "tests/migrations/test_operations.py": [
         "test_alter_field",
         "test_rename_field_reloads_state_on_fk_target_changes",
         "test_rename_referenced_field_state_forward",
         "test_rename_missing_field",
         "test_rename_field"
       ],
-      "migrations/test_autodetector.py": [
+      "tests/migrations/test_autodetector.py": [
         "test_alter_fk_before_model_deletion",
         "test_rename_foreign_object_fields"
       ]
@@ -4140,7 +4140,7 @@
   {
     "instance_id": "django__django-12908",
     "file_function": {
-      "queries/test_qs_combinators.py": [
+      "tests/queries/test_qs_combinators.py": [
         "test_union_with_values_list_and_order",
         "test_qs_with_subcompound_qs",
         "test_difference_with_empty_qs",
@@ -4148,11 +4148,11 @@
         "test_union_with_empty_qs",
         "test_unsupported_ordering_slicing_raises_db_error"
       ],
-      "queries/tests.py": [
+      "tests/queries/tests.py": [
         "test_distinct_ordered_sliced_subquery",
         "test_distinct_ordered_sliced_subquery_aggregation"
       ],
-      "aggregation_regress/tests.py": [
+      "tests/aggregation_regress/tests.py": [
         "test_annotation",
         "test_annotate_joins",
         "test_more_more_more",
@@ -4243,16 +4243,16 @@
   {
     "instance_id": "django__django-13028",
     "file_function": {
-      "queries/tests.py": [
+      "tests/queries/tests.py": [
         "test_correct_lookup",
         "test_error_raised_on_filter_with_dictionary",
         "test_subquery_exclude_outerref"
       ],
-      "queries/test_query.py": [
+      "tests/queries/test_query.py": [
         "test_foreign_key",
         "test_filter_non_conditional"
       ],
-      "aggregation_regress/tests.py": [
+      "tests/aggregation_regress/tests.py": [
         "test_ticket_11293_q_immutable",
         "test_annotation_disjunction"
       ]
@@ -4365,18 +4365,18 @@
   {
     "instance_id": "django__django-13448",
     "file_function": {
-      "backends/base/test_creation.py": [
+      "tests/backends/base/test_creation.py": [
         "test_circular_reference_with_natural_key",
         "test_custom_test_name",
         "test_custom_test_name_with_test_prefix",
         "test_self_reference",
         "test_circular_reference"
       ],
-      "test_runner/test_debug_sql.py": [
+      "tests/test_runner/test_debug_sql.py": [
         "test_output_verbose",
         "test_output_normal"
       ],
-      "test_runner/tests.py": [
+      "tests/test_runner/tests.py": [
         "test_setup_aliased_default_database"
       ]
     }
@@ -4404,15 +4404,15 @@
   {
     "instance_id": "django__django-12589",
     "file_function": {
-      "queries/tests.py": [
+      "tests/queries/tests.py": [
         "test_distinct_ordered_sliced_subquery",
         "test_distinct_ordered_sliced_subquery_aggregation"
       ],
-      "aggregation/tests.py": [
+      "tests/aggregation/tests.py": [
         "test_group_by_exists_annotation",
         "test_group_by_subquery_annotation"
       ],
-      "aggregation_regress/tests.py": [
+      "tests/aggregation_regress/tests.py": [
         "test_fobj_group_by",
         "test_more_more_more"
       ]
@@ -4441,10 +4441,10 @@
   {
     "instance_id": "django__django-15400",
     "file_function": {
-      "utils_tests/test_simplelazyobject.py": [
+      "tests/utils_tests/test_simplelazyobject.py": [
         "test_pickle"
       ],
-      "utils_tests/test_lazyobject.py": [
+      "tests/utils_tests/test_lazyobject.py": [
         "test_deepcopy_class",
         "test_repr",
         "test_delattr",
@@ -4524,15 +4524,15 @@
   {
     "instance_id": "django__django-13964",
     "file_function": {
-      "model_inheritance/tests.py": [
+      "tests/model_inheritance/tests.py": [
         "test_update_inherited_model",
         "test_related_objects_for_inherited_models",
         "test_parent_cache_reuse"
       ],
-      "queries/tests.py": [
+      "tests/queries/tests.py": [
         "test_ticket9848"
       ],
-      "foreign_object/tests.py": [
+      "tests/foreign_object/tests.py": [
         "test_inheritance",
         "test_translations"
       ]
@@ -4541,17 +4541,17 @@
   {
     "instance_id": "django__django-13933",
     "file_function": {
-      "model_forms/test_modelchoicefield.py": [
+      "tests/model_forms/test_modelchoicefield.py": [
         "test_choices",
         "test_disabled_modelchoicefield_has_changed",
         "test_disabled_modelmultiplechoicefield_has_changed",
         "test_disabled_modelchoicefield_initial_model_instance",
         "test_basics"
       ],
-      "forms_tests/tests/test_error_messages.py": [
+      "tests/forms_tests/tests/test_error_messages.py": [
         "test_modelchoicefield"
       ],
-      "model_forms/tests.py": [
+      "tests/model_forms/tests.py": [
         "test_model_multiple_choice_field",
         "test_fields_for_model_applies_limit_choices_to",
         "test_callable_called_each_time_form_is_instantiated",
@@ -4563,7 +4563,7 @@
   {
     "instance_id": "django__django-13447",
     "file_function": {
-      "admin_views/tests.py": [
+      "tests/admin_views/tests.py": [
         "test_render_views_no_subtitle",
         "test_add",
         "test_delete_view_nonexistent_obj",
@@ -4574,7 +4574,7 @@
   {
     "instance_id": "django__django-12125",
     "file_function": {
-      "migrations/test_writer.py": [
+      "tests/migrations/test_writer.py": [
         "test_simple_migration",
         "test_deconstruct_class_arguments",
         "test_serialize_fields",
@@ -4602,7 +4602,7 @@
   {
     "instance_id": "django__django-14672",
     "file_function": {
-      "model_fields/test_manytomanyfield.py": [
+      "tests/model_fields/test_manytomanyfield.py": [
         "test_abstract_model_app_relative_foreign_key"
       ]
     }
@@ -4610,11 +4610,11 @@
   {
     "instance_id": "django__django-14155",
     "file_function": {
-      "handlers/tests.py": [
+      "tests/handlers/tests.py": [
         "test_unawaited_response",
         "test_no_response"
       ],
-      "urlpatterns_reverse/tests.py": [
+      "tests/urlpatterns_reverse/tests.py": [
         "test_repr",
         "test_urlpattern_resolve"
       ]
@@ -4645,14 +4645,14 @@
   {
     "instance_id": "django__django-15814",
     "file_function": {
-      "model_inheritance/tests.py": [
+      "tests/model_inheritance/tests.py": [
         "test_inherited_multiple_objects_returned_exception",
         "test_parent_cache_reuse",
         "test_related_objects_for_inherited_models",
         "test_queryset_class_getitem",
         "test_reverse_relation_for_different_hierarchy_tree"
       ],
-      "queries/tests.py": [
+      "tests/queries/tests.py": [
         "test_ticket_21203",
         "test_heterogeneous_qs_combination",
         "test_21001",
@@ -4703,11 +4703,11 @@
         "test_slicing_cannot_filter_queryset_once_sliced",
         "test_ticket24525"
       ],
-      "select_related/tests.py": [
+      "tests/select_related/tests.py": [
         "test_none_clears_list",
         "test_chaining"
       ],
-      "queries/test_query.py": [
+      "tests/queries/test_query.py": [
         "test_names_to_path_field",
         "test_transform",
         "test_clone_select_related",
@@ -4717,18 +4717,18 @@
         "test_multiple_fields",
         "test_filter_conditional_join"
       ],
-      "select_related_onetoone/tests.py": [
+      "tests/select_related_onetoone/tests.py": [
         "test_reverse_related_validation_with_filtered_relation",
         "test_onetoone_with_two_subclasses",
         "test_inheritance_deferred2"
       ],
-      "proxy_model_inheritance/tests.py": [
+      "tests/proxy_model_inheritance/tests.py": [
         "test_table_exists"
       ],
-      "proxy_models/tests.py": [
+      "tests/proxy_models/tests.py": [
         "test_proxy_bug"
       ],
-      "select_related_regress/tests.py": [
+      "tests/select_related_regress/tests.py": [
         "test_regression_10733"
       ]
     }
@@ -4749,7 +4749,7 @@
   {
     "instance_id": "django__django-15819",
     "file_function": {
-      "inspectdb/tests.py": [
+      "tests/inspectdb/tests.py": [
         "test_attribute_name_not_python_keyword"
       ]
     }
@@ -4868,7 +4868,7 @@
   {
     "instance_id": "django__django-11049",
     "file_function": {
-      "forms_tests/field_tests/test_durationfield.py": [
+      "tests/forms_tests/field_tests/test_durationfield.py": [
         "test_durationfield_prepare_value",
         "test_durationfield_clean",
         "test_overflow_translation",
@@ -4880,7 +4880,7 @@
   {
     "instance_id": "django__django-15695",
     "file_function": {
-      "migrations/test_operations.py": [
+      "tests/migrations/test_operations.py": [
         "test_rename_index_unknown_unnamed_index",
         "test_rename_index",
         "test_rename_index_arguments",
@@ -4909,7 +4909,7 @@
   {
     "instance_id": "django__django-13660",
     "file_function": {
-      "shell/tests.py": [
+      "tests/shell/tests.py": [
         "test_stdin_read",
         "test_shell_with_ipython_not_installed",
         "test_shell_with_bpython_not_installed",
@@ -5005,14 +5005,14 @@
   {
     "instance_id": "django__django-11620",
     "file_function": {
-      "admin_views/tests.py": [
+      "tests/admin_views/tests.py": [
         "test_allows_attributeerror_to_bubble_up",
         "test_add_view",
         "test_invalid_appindex_url",
         "test_i18n_language_non_english_default",
         "test_add_with_GET_args"
       ],
-      "urlpatterns/tests.py": [
+      "tests/urlpatterns/tests.py": [
         "test_resolve_value_error_means_no_match",
         "test_invalid_converter",
         "test_resolve_type_error_propagates",
@@ -5023,13 +5023,13 @@
         "test_path_lookup_with_double_inclusion",
         "test_converter_reverse"
       ],
-      "resolve_url/tests.py": [
+      "tests/resolve_url/tests.py": [
         "test_non_view_callable_raises_no_reverse_match"
       ],
-      "handlers/tests.py": [
+      "tests/handlers/tests.py": [
         "test_no_response"
       ],
-      "middleware_exceptions/tests.py": [
+      "tests/middleware_exceptions/tests.py": [
         "test_process_template_response_returns_none"
       ]
     }
