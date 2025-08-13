@@ -199,7 +199,7 @@ def get_func_lines_code(repo, base_commit, file, fq_funcs, repo_base_dir = "temp
 
 
         for node in tree.body:
-            if isinstance(node, ast.FunctionDef):
+            if isinstance(node, ast.FunctionDef) or isinstance(node, ast.AsyncFunctionDef):
                 if node.name in top_level_funcs:
                     start_lineno = node.lineno
                     end_lineno = getattr(node, "end_lineno", node.body[-1].lineno)
@@ -217,7 +217,7 @@ def get_func_lines_code(repo, base_commit, file, fq_funcs, repo_base_dir = "temp
                     break
 
                 for subnode in node.body:
-                    if isinstance(subnode, ast.FunctionDef):
+                    if isinstance(subnode, ast.FunctionDef) or isinstance(subnode, ast.AsyncFunctionDef):
                         key = (node.name, subnode.name)
                         if key in class_methods:
                             start_lineno = subnode.lineno
@@ -316,13 +316,13 @@ def minimize_tests(line_to_tests, file, func, function_body, logger, filtered_te
             else:
                 try:
                     chosen_test = prompt_model_to_select_test(
-                        candidates, file, func, function_body, logger, model_name
+                        candidates, file, func, function_body.keys(), logger, model_name
                     )
                 except Exception as e:
                     logger.error(f"Error occurred while prompting model: {e}")
                     logger.error(f"Remove function body due to token limits")
                     import time
-                    time.sleep(30)  # wait for a while before retrying
+                    time.sleep(40)  # wait for a while before retrying
                     chosen_test = prompt_model_to_select_test(
                         candidates, file, func, {}, logger, model_name
                     )
@@ -424,14 +424,17 @@ def process_instance(
 
 def main(coverage_dir, test_log_dir, suspicious_info, dataset, log_dir, model_name, result_json, prev_results):
     test_logs = get_log_file(test_log_dir)
-    refix = []
+    refix = ['django__django-13344']
+    # refix = ['pytest-dev__pytest-7236', 'pytest-dev__pytest-5787', 'pytest-dev__pytest-5631', 'pytest-dev__pytest-6202', 'pytest-dev__pytest-5840', 'pytest-dev__pytest-7571', 'pytest-dev__pytest-8399', 'pytest-dev__pytest-6197', 'pytest-dev__pytest-5809', 'pytest-dev__pytest-7982', 'pytest-dev__pytest-7490', 'pytest-dev__pytest-7205', 'pytest-dev__pytest-7432', 'pytest-dev__pytest-5262', 'pytest-dev__pytest-7521', 'pytest-dev__pytest-7324']
     print(f"{len(refix)} instances to rerun")
     for instance_id, log_file in test_logs.items():
+        # print(instance_id, log_file)
         if instance_id in prev_results and instance_id not in refix:
-            print(f"Skipping {log_file} for instance {instance_id} (already processed)")
+            # print(f"Skipping {log_file} for instance {instance_id} (already processed)")
             continue
-        # if instance_id != "django__django-14855":
-        #     continue
+        if instance_id not in refix:
+            # print(f"Skipping {log_file} for instance {instance_id} (not in refix)")
+            continue
         print(f"Processing {log_file} for instance {instance_id}")
         test_results = parse_test_results(log_file)
         passed_tests = test_results['PASS']
