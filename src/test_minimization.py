@@ -337,10 +337,15 @@ def minimize_tests(line_to_tests, file, func, function_body, logger, filtered_te
     return list(set(selected_tests))
 
 def process_instance(
-    instance_id, passed_tests, suspicious_info, cov_dir, log_dir, dataset, model_name, result_json
+    instance_id, passed_tests_fq, suspicious_info, cov_dir, log_dir, dataset, model_name, result_json
 ):
     logger = setup_logger(instance_id, log_dir)
-
+    
+    logger.info(f"{passed_tests_fq}")
+    passed_tests = [test.replace(".py::", "::").replace("/", ".").replace("::", ".") for test in passed_tests_fq]
+    logger.info(f"Processed passed tests: {passed_tests}")
+    
+    
     if len(passed_tests) <= 5 and len(passed_tests) > 0:
         logger.info(
             f"Instance {instance_id} has {len(passed_tests)} tests, skip minimization!"
@@ -358,7 +363,7 @@ def process_instance(
     all_selected_tests = []
 
     logger.info(f"*************** Processing instance {instance_id} ***************")
-    logger.info(tests)
+    logger.info(passed_tests)
 
     combined_line_to_tests = defaultdict(list)
     function_info = {}
