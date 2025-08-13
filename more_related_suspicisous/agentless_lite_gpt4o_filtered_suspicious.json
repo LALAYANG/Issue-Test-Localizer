@@ -40,7 +40,6 @@
   },
   "astropy__astropy-14995": {
     "astropy/nddata/mixins/ndarithmetic.py": [
-      "NDArithmeticMixin",
       "NDArithmeticMixin._arithmetic",
       "NDArithmeticMixin._arithmetic_mask",
       "NDArithmeticMixin.multiply"
@@ -75,7 +74,6 @@
   },
   "django__django-11019": {
     "django/forms/widgets.py": [
-      "Media",
       "Media.__add__",
       "Media.merge"
     ],
@@ -187,7 +185,6 @@
   },
   "django__django-11742": {
     "django/db/models/fields/__init__.py": [
-      "Field",
       "Field.__init__",
       "Field._check_choices",
       "Field.check",
@@ -413,7 +410,6 @@
   },
   "django__django-13230": {
     "django/contrib/syndication/views.py": [
-      "Feed",
       "Feed.get_feed"
     ]
   },
@@ -452,7 +448,6 @@
       "ChangeList"
     ],
     "django/contrib/admin/options.py": [
-      "ModelAdmin",
       "ModelAdmin._build_app_dict"
     ]
   },
@@ -481,7 +476,6 @@
   },
   "django__django-13710": {
     "django/contrib/admin/options.py": [
-      "InlineModelAdmin",
       "InlineModelAdmin.__init__"
     ]
   },
@@ -532,7 +526,6 @@
   },
   "django__django-14155": {
     "django/urls/resolvers.py": [
-      "ResolverMatch",
       "ResolverMatch.__init__",
       "ResolverMatch.__repr__"
     ]
@@ -585,14 +578,12 @@
   },
   "django__django-14672": {
     "django/db/models/fields/reverse_related.py": [
-      "ManyToManyRel",
       "ManyToManyRel.__init__",
       "ManyToManyRel.identity"
     ]
   },
   "django__django-14730": {
     "django/db/models/fields/related.py": [
-      "ManyToManyField",
       "ManyToManyField.__init__",
       "ManyToManyField.check",
       "ManyToManyField._check_ignored_options"
@@ -629,7 +620,6 @@
   },
   "django__django-14999": {
     "django/db/migrations/operations/models.py": [
-      "RenameModel",
       "RenameModel.database_forwards",
       "RenameModel.database_backwards"
     ]
@@ -650,11 +640,8 @@
   },
   "django__django-15213": {
     "django/db/models/expressions.py": [
-      "ExpressionWrapper",
       "ExpressionWrapper.as_sql",
-      "Combinable",
       "Combinable.__invert__",
-      "CombinedExpression",
       "CombinedExpression.as_sql"
     ],
     "django/db/models/sql/compiler.py": [
@@ -674,7 +661,6 @@
   },
   "django__django-15320": {
     "django/db/models/expressions.py": [
-      "Subquery",
       "Subquery.__init__",
       "Subquery.as_sql"
     ]
@@ -793,7 +779,6 @@
   },
   "django__django-16041": {
     "django/forms/formsets.py": [
-      "BaseFormSet",
       "BaseFormSet.empty_form"
     ]
   },
@@ -1004,7 +989,6 @@
   },
   "matplotlib__matplotlib-23562": {
     "lib/mpl_toolkits/mplot3d/art3d.py": [
-      "Poly3DCollection",
       "Poly3DCollection.get_facecolor",
       "Poly3DCollection.set_facecolor",
       "Poly3DCollection.set_3d_properties"
@@ -1015,7 +999,6 @@
       "Axes3D.plot"
     ],
     "lib/mpl_toolkits/mplot3d/art3d.py": [
-      "Line3D",
       "Line3D.__init__",
       "Line3D.set_3d_properties",
       "Line3D.set_data_3d",
@@ -1024,7 +1007,6 @@
   },
   "matplotlib__matplotlib-23913": {
     "lib/matplotlib/legend.py": [
-      "Legend",
       "Legend.__init__",
       "Legend.set_draggable"
     ]
@@ -1097,7 +1079,6 @@
   },
   "matplotlib__matplotlib-25079": {
     "lib/matplotlib/cm.py": [
-      "ScalarMappable",
       "ScalarMappable.set_norm",
       "ScalarMappable.changed"
     ]
@@ -1137,7 +1118,6 @@
   },
   "matplotlib__matplotlib-25442": {
     "lib/matplotlib/offsetbox.py": [
-      "DraggableBase",
       "DraggableBase.canvas",
       "DraggableBase.disconnect",
       "DraggableBase._check_still_parented"
@@ -1157,13 +1137,11 @@
   "matplotlib__matplotlib-26020": {
     "lib/mpl_toolkits/axes_grid1/axes_grid.py": [
       "_tick_only",
-      "Grid.set_label_mode",
-      "Grid"
+      "Grid.set_label_mode"
     ]
   },
   "mwaskom__seaborn-2848": {
     "seaborn/axisgrid.py": [
-      "PairGrid",
       "PairGrid.map",
       "PairGrid._map_bivariate",
       "PairGrid._plot_bivariate"
@@ -1220,7 +1198,6 @@
   },
   "psf__requests-2148": {
     "requests/models.py": [
-      "Response",
       "Response.iter_content",
       "Response.iter_lines",
       "Response.content",
@@ -1253,7 +1230,6 @@
       "RetryError"
     ],
     "requests/adapters.py": [
-      "HTTPAdapter",
       "HTTPAdapter.send"
     ]
   },
@@ -1382,7 +1358,6 @@
     "src/_pytest/assertion/rewrite.py": [
       "AssertionRewritingHook",
       "rewrite_asserts",
-      "AssertionRewriter",
       "AssertionRewriter.visit_Assert",
       "AssertionRewriter.visit_Call_35",
       "AssertionRewriter.visit_Call_legacy"
@@ -1427,7 +1402,6 @@
   },
   "pytest-dev__pytest-5692": {
     "src/_pytest/junitxml.py": [
-      "LogXML",
       "LogXML.__init__",
       "LogXML.pytest_sessionfinish",
       "LogXML.to_xml"
@@ -1509,17 +1483,14 @@
   },
   "scikit-learn__scikit-learn-10297": {
     "sklearn/linear_model/ridge.py": [
-      "RidgeClassifierCV",
       "RidgeClassifierCV.__init__",
       "RidgeClassifierCV.fit",
-      "_BaseRidgeCV",
       "_BaseRidgeCV.__init__",
       "_BaseRidgeCV.fit"
     ]
   },
   "scikit-learn__scikit-learn-10508": {
     "sklearn/preprocessing/label.py": [
-      "LabelEncoder",
       "LabelEncoder.transform"
     ]
   },
@@ -1543,7 +1514,6 @@
   },
   "scikit-learn__scikit-learn-12471": {
     "sklearn/preprocessing/_encoders.py": [
-      "OneHotEncoder",
       "OneHotEncoder.transform",
       "OneHotEncoder._transform_new",
       "OneHotEncoder._legacy_transform"
@@ -1558,7 +1528,6 @@
   },
   "scikit-learn__scikit-learn-13241": {
     "sklearn/decomposition/kernel_pca.py": [
-      "KernelPCA",
       "KernelPCA.fit_transform",
       "KernelPCA._fit_transform"
     ]
@@ -1598,7 +1567,6 @@
   },
   "scikit-learn__scikit-learn-14087": {
     "sklearn/linear_model/logistic.py": [
-      "LogisticRegressionCV",
       "LogisticRegressionCV.fit"
     ]
   },
@@ -1681,7 +1649,6 @@
   },
   "scikit-learn__scikit-learn-25747": {
     "sklearn/pipeline.py": [
-      "FeatureUnion",
       "FeatureUnion.fit_transform",
       "FeatureUnion.transform",
       "FeatureUnion._hstack"
@@ -1937,7 +1904,6 @@
   },
   "sympy__sympy-12481": {
     "sympy/combinatorics/permutations.py": [
-      "Permutation",
       "Permutation.__new__",
       "Permutation._af_new",
       "Permutation.cyclic_form",
@@ -1999,7 +1965,6 @@
   },
   "sympy__sympy-13471": {
     "sympy/core/numbers.py": [
-      "Float",
       "Float.__new__",
       "Float.__getnewargs__",
       "Float.__getstate__"
@@ -2007,7 +1972,6 @@
   },
   "sympy__sympy-13480": {
     "sympy/functions/elementary/hyperbolic.py": [
-      "coth",
       "coth.eval"
     ]
   },
@@ -2069,7 +2033,6 @@
   },
   "sympy__sympy-14396": {
     "sympy/polys/polyoptions.py": [
-      "Domain",
       "Domain.preprocess"
     ]
   },
@@ -2093,7 +2056,6 @@
   },
   "sympy__sympy-15308": {
     "sympy/printing/latex.py": [
-      "LatexPrinter",
       "LatexPrinter._print_Trace",
       "latex"
     ]
@@ -2152,7 +2114,6 @@
   "sympy__sympy-16792": {
     "sympy/utilities/autowrap.py": [
       "autowrap",
-      "CythonCodeWrapper",
       "CythonCodeWrapper._prototype_arg",
       "CythonCodeWrapper._declare_arg",
       "CythonCodeWrapper._prepare_files"
@@ -2248,7 +2209,6 @@
   },
   "sympy__sympy-18621": {
     "sympy/matrices/expressions/blockmatrix.py": [
-      "BlockDiagMatrix",
       "BlockDiagMatrix.__new__",
       "BlockDiagMatrix.blocks",
       "BlockDiagMatrix._entry"
@@ -2381,7 +2341,6 @@
   },
   "sympy__sympy-21614": {
     "sympy/core/function.py": [
-      "Derivative",
       "Derivative.__new__"
     ]
   },
@@ -2426,14 +2385,12 @@
   },
   "sympy__sympy-23117": {
     "sympy/tensor/array/ndim_array.py": [
-      "NDimArray",
       "NDimArray._scan_iterable_shape",
       "NDimArray._handle_ndarray_creation_inputs"
     ]
   },
   "sympy__sympy-23191": {
     "sympy/printing/pretty/pretty.py": [
-      "PrettyPrinter",
       "PrettyPrinter._print_Cross",
       "PrettyPrinter._print_Curl",
       "PrettyPrinter._print_BasisDependent"
@@ -2469,7 +2426,6 @@
   },
   "sympy__sympy-24909": {
     "sympy/physics/units/prefixes.py": [
-      "Prefix",
       "Prefix.__mul__"
     ]
   }
