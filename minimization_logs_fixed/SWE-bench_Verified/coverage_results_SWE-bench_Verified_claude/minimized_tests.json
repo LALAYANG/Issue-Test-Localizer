@@ -1087,7 +1087,11 @@
         "astropy.io.fits.tests.test_diff.TestDiff.test_different_table_field_names"
     ],
     "django__django-16315": [],
-    "sympy__sympy-20916": [],
+    "sympy__sympy-20916": [
+        "sympy.printing.pretty.tests.test_pretty.test_upretty_greek",
+        "sympy.printing.pretty.tests.test_pretty.test_pretty_unicode_str",
+        "sympy.printing.pretty.tests.test_pretty.test_pretty_sqrt_char_knob"
+    ],
     "django__django-15572": [
         "template_tests.test_autoreloader.Jinja2TemplateReloadTests.test_watch_for_template_changes",
         "template_tests.test_autoreloader.TemplateReloadTests.test_watch_for_template_changes",
@@ -1803,7 +1807,9 @@
         "expressions.tests.FTimeDeltaTests.test_duration_with_datetime",
         "aggregation.tests.AggregateTestCase.test_sum_duration_field"
     ],
-    "psf__requests-1766": [],
+    "psf__requests-1766": [
+        "test_requests.RequestsTestCase.test_DIGEST_STREAM"
+    ],
     "django__django-17087": [
         "migrations.test_writer.WriterTests.test_serialize_class_based_validators",
         "migrations.test_writer.WriterTests.test_serialize_path_like",
@@ -3803,7 +3809,10 @@
         "pytest-dev__pytest-7982",
         []
     ],
-    "pylint-dev__pylint-7277": [],
+    "pylint-dev__pylint-7277": [
+        "test_pylint_runners.test_runner",
+        "test_pylint_runners.test_runner_with_arguments"
+    ],
     "pydata__xarray-6461": [],
     "django__django-11149": [
         "admin_views.tests.AdminInlineTests.test_simple_inline_permissions",
@@ -4991,7 +5000,9 @@
         "sympy.core.tests.test_arit.test_float_int_round",
         "sympy.core.tests.test_numbers.test_Infinity"
     ],
-    "django__django-14672": [],
+    "django__django-14672": [
+        "model_fields.test_manytomanyfield.ManyToManyFieldTests.test_abstract_model_app_relative_foreign_key"
+    ],
     "django__django-14155": [
         "urlpatterns_reverse.tests.ResolverMatchTests.test_repr",
         "handlers.tests.AsyncHandlerRequestTests.test_unawaited_response",
@@ -5607,7 +5618,11 @@
         "astropy.utils.tests.test_misc.test_inherit_docstrings",
         "astropy.modeling.tests.test_parameters.test_non_broadcasting_parameters"
     ],
-    "django__django-12039": [],
+    "django__django-12039": [
+        "backends.test_ddl_references.IndexNameTests.test_repr",
+        "indexes.tests.PartialIndexTests.test_partial_index",
+        "schema.tests.SchemaTests.test_indexes"
+    ],
     "scikit-learn__scikit-learn-14710": [
         "sklearn.ensemble._hist_gradient_boosting.tests.test_warm_start.test_warm_start_yields_identical_results",
         "sklearn.ensemble._hist_gradient_boosting.tests.test_gradient_boosting.test_invalid_classification_loss",
