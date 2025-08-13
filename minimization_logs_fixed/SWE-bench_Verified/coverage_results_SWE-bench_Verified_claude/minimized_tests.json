@@ -1269,14 +1269,8 @@
         "tests.test_ext_autodoc_configs.test_autodoc_typehints_signature",
         "tests.test_ext_autodoc.test_autodoc"
     ],
-    "astropy__astropy-13579": [
-        "astropy__astropy-13579",
-        []
-    ],
-    "django__django-11728": [
-        "django__django-11728",
-        []
-    ],
+    "astropy__astropy-13579": [],
+    "django__django-11728": [],
     "django__django-16877": [
         "template_tests.filter_tests.test_safeseq.SafeseqTests.test_safeseq02",
         "template_tests.filter_tests.test_force_escape.ForceEscapeTests.test_force_escape07",
@@ -2841,14 +2835,11 @@
         "migrations.test_loader.LoaderTests.test_load_import_error"
     ],
     "psf__requests-1142": [
-        "psf__requests-1142",
-        [
-            "test_requests.RequestsTestCase.test_path_is_not_double_encoded",
-            "test_requests.RequestsTestCase.test_entry_points",
-            "test_requests.RequestsTestCase.test_basic_building",
-            "test_requests.RequestsTestCase.test_invalid_url",
-            "test_requests.RequestsTestCase.test_params_are_added_before_fragment"
-        ]
+        "test_requests.RequestsTestCase.test_path_is_not_double_encoded",
+        "test_requests.RequestsTestCase.test_entry_points",
+        "test_requests.RequestsTestCase.test_basic_building",
+        "test_requests.RequestsTestCase.test_invalid_url",
+        "test_requests.RequestsTestCase.test_params_are_added_before_fragment"
     ],
     "django__django-15161": [
         "expressions_window.tests.NonQueryWindowTests.test_window_frame_repr",
@@ -3759,10 +3750,7 @@
         "tests._core.test_plot.TestPairInterface.test_two_variables_single_order_error",
         "tests._core.test_scales.TestContinuous.test_log_tick_every"
     ],
-    "pytest-dev__pytest-7982": [
-        "pytest-dev__pytest-7982",
-        []
-    ],
+    "pytest-dev__pytest-7982": [],
     "pylint-dev__pylint-7277": [],
     "pydata__xarray-6461": [],
     "django__django-11149": [
