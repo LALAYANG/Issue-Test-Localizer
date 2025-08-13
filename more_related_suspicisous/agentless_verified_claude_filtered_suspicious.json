@@ -9,7 +9,6 @@
   },
   "astropy__astropy-13033": {
     "astropy/timeseries/core.py": [
-      "BaseTimeSeries",
       "BaseTimeSeries._check_required_columns",
       "autocheck_required_columns"
     ]
@@ -80,7 +79,6 @@
   },
   "astropy__astropy-14369": {
     "astropy/units/format/cds.py": [
-      "CDS",
       "CDS._parse_unit",
       "CDS.parse",
       "CDS.to_string"
@@ -89,7 +87,6 @@
   "astropy__astropy-14508": {
     "astropy/io/fits/card.py": [
       "_format_float",
-      "Card",
       "Card._format_value"
     ]
   },
@@ -100,7 +97,6 @@
   },
   "astropy__astropy-14598": {
     "astropy/io/fits/card.py": [
-      "Card",
       "Card._format_value",
       "Card._parse_value",
       "Card.fromstring",
@@ -109,7 +105,6 @@
   },
   "astropy__astropy-14995": {
     "astropy/nddata/mixins/ndarithmetic.py": [
-      "NDArithmeticMixin",
       "NDArithmeticMixin._arithmetic_mask",
       "NDArithmeticMixin._arithmetic",
       "NDArithmeticMixin.multiply"
@@ -128,7 +123,6 @@
   },
   "astropy__astropy-7606": {
     "astropy/units/core.py": [
-      "UnrecognizedUnit",
       "Unit.__call__",
       "UnrecognizedUnit.__eq__"
     ]
@@ -160,13 +154,11 @@
   },
   "django__django-10554": {
     "django/db/models/sql/compiler.py": [
-      "SQLCompiler",
       "SQLCompiler.get_order_by",
       "SQLCompiler.as_sql",
       "SQLCompiler.execute_sql"
     ],
     "django/db/models/sql/query.py": [
-      "Query",
       "Query.add_ordering",
       "Query.clear_ordering"
     ]
@@ -200,7 +192,6 @@
   },
   "django__django-11066": {
     "django/contrib/contenttypes/management/__init__.py": [
-      "RenameContentType",
       "RenameContentType._rename"
     ]
   },
@@ -213,7 +204,6 @@
   },
   "django__django-11095": {
     "django/contrib/admin/options.py": [
-      "ModelAdmin",
       "ModelAdmin.get_inline_instances",
       "ModelAdmin.get_inlines",
       "ModelAdmin.get_formsets_with_inlines",
@@ -228,13 +218,11 @@
   },
   "django__django-11119": {
     "django/template/engine.py": [
-      "Engine.render_to_string",
-      "Engine"
+      "Engine.render_to_string"
     ]
   },
   "django__django-11133": {
     "django/http/response.py": [
-      "HttpResponse",
       "HttpResponse.content",
       "HttpResponse.content.setter",
       "HttpResponse.make_bytes",
@@ -253,14 +241,12 @@
   },
   "django__django-11141": {
     "django/db/migrations/loader.py": [
-      "MigrationLoader",
       "MigrationLoader.migrations_module",
       "MigrationLoader.load_disk"
     ]
   },
   "django__django-11149": {
     "django/contrib/admin/options.py": [
-      "InlineModelAdmin",
       "TabularInline",
       "InlineModelAdmin.has_view_permission",
       "InlineModelAdmin.has_change_permission",
@@ -276,7 +262,6 @@
   },
   "django__django-11179": {
     "django/db/models/deletion.py": [
-      "Collector",
       "Collector.delete"
     ]
   },
@@ -287,7 +272,6 @@
   },
   "django__django-11211": {
     "django/contrib/contenttypes/fields.py": [
-      "GenericForeignKey",
       "GenericForeignKey.get_prefetch_queryset",
       "GenericForeignKey.__get__"
     ]
@@ -321,7 +305,6 @@
   },
   "django__django-11299": {
     "django/db/models/constraints.py": [
-      "CheckConstraint",
       "CheckConstraint._get_check_sql"
     ],
     "django/db/backends/sqlite3/schema.py": [
@@ -337,15 +320,12 @@
   },
   "django__django-11400": {
     "django/contrib/admin/filters.py": [
-      "RelatedFieldListFilter",
-      "RelatedOnlyFieldListFilter",
       "RelatedFieldListFilter.field_choices",
       "RelatedOnlyFieldListFilter.field_choices"
     ]
   },
   "django__django-11433": {
     "django/forms/models.py": [
-      "BaseModelForm",
       "BaseModelForm._post_clean",
       "BaseModelForm.save",
       "construct_instance"
@@ -391,7 +371,6 @@
   },
   "django__django-11551": {
     "django/contrib/admin/checks.py": [
-      "ModelAdminChecks",
       "ModelAdminChecks._check_list_display_item"
     ]
   },
@@ -420,7 +399,6 @@
   },
   "django__django-11740": {
     "django/db/migrations/autodetector.py": [
-      "MigrationAutodetector",
       "MigrationAutodetector._detect_changes",
       "MigrationAutodetector.generate_altered_fields",
       "MigrationAutodetector._get_dependencies_for_foreign_key"
@@ -472,7 +450,6 @@
   },
   "django__django-11885": {
     "django/db/models/deletion.py": [
-      "Collector",
       "Collector.can_fast_delete",
       "Collector.delete",
       "Collector.collect",
@@ -488,7 +465,6 @@
   },
   "django__django-11964": {
     "django/db/models/fields/__init__.py": [
-      "CharField",
       "CharField.to_python",
       "CharField.get_prep_value"
     ]
@@ -539,7 +515,6 @@
   },
   "django__django-12209": {
     "django/db/models/base.py": [
-      "Model",
       "Model.save_base",
       "Model._save_table",
       "Model._do_insert"
@@ -556,7 +531,6 @@
   },
   "django__django-12273": {
     "django/db/models/base.py": [
-      "Model",
       "Model._get_pk_val",
       "Model._set_pk_val",
       "Model.save",
@@ -575,8 +549,6 @@
   },
   "django__django-12276": {
     "django/forms/widgets.py": [
-      "FileInput",
-      "ClearableFileInput",
       "ClearableFileInput.use_required_attribute",
       "FileInput.use_required_attribute"
     ]
@@ -605,7 +577,6 @@
       "Model._save_parents"
     ],
     "django/db/models/options.py": [
-      "Options",
       "Options.setup_pk",
       "Options._populate_directed_relation_graph"
     ]
@@ -638,7 +609,6 @@
   },
   "django__django-12708": {
     "django/db/backends/base/schema.py": [
-      "BaseDatabaseSchemaEditor",
       "BaseDatabaseSchemaEditor._delete_composed_index",
       "BaseDatabaseSchemaEditor._constraint_names",
       "BaseDatabaseSchemaEditor.alter_index_together",
@@ -659,7 +629,6 @@
   },
   "django__django-12754": {
     "django/db/migrations/autodetector.py": [
-      "MigrationAutodetector",
       "MigrationAutodetector._detect_changes",
       "MigrationAutodetector.generate_created_models",
       "MigrationAutodetector.generate_removed_fields",
@@ -690,7 +659,6 @@
   "django__django-13012": {
     "django/db/models/expressions.py": [
       "ExpressionWrapper",
-      "Value",
       "Value.get_group_by_cols"
     ]
   },
@@ -708,7 +676,6 @@
   },
   "django__django-13033": {
     "django/db/models/sql/query.py": [
-      "Query",
       "Query.add_ordering",
       "Query.build_filter",
       "Query.setup_joins",
@@ -752,14 +719,12 @@
   },
   "django__django-13158": {
     "django/db/models/query.py": [
-      "QuerySet",
       "QuerySet.none",
       "QuerySet.union",
       "QuerySet._chain",
       "QuerySet._clone"
     ],
     "django/forms/models.py": [
-      "ModelMultipleChoiceField",
       "ModelMultipleChoiceField.clean",
       "ModelMultipleChoiceField._check_values"
     ]
@@ -790,7 +755,6 @@
   },
   "django__django-13279": {
     "django/contrib/sessions/backends/base.py": [
-      "SessionBase",
       "SessionBase.encode",
       "SessionBase.decode",
       "SessionBase._legacy_decode"
@@ -809,7 +773,6 @@
   },
   "django__django-13315": {
     "django/forms/models.py": [
-      "ModelChoiceField",
       "ModelChoiceField.get_limit_choices_to",
       "ModelChoiceField._get_choices",
       "apply_limit_choices_to_to_formfield"
@@ -817,18 +780,15 @@
   },
   "django__django-13343": {
     "django/db/models/fields/files.py": [
-      "FileField",
       "FileField.deconstruct"
     ]
   },
   "django__django-13344": {
     "django/core/handlers/asgi.py": [
-      "ASGIHandler",
       "ASGIHandler.send_response",
       "ASGIHandler.__call__"
     ],
     "django/core/handlers/base.py": [
-      "BaseHandler",
       "BaseHandler._get_response_async",
       "BaseHandler.get_response_async"
     ]
@@ -857,7 +817,6 @@
   },
   "django__django-13401": {
     "django/db/models/fields/__init__.py": [
-      "Field",
       "Field.__eq__",
       "Field.__lt__",
       "Field.__hash__"
@@ -865,7 +824,6 @@
   },
   "django__django-13406": {
     "django/db/models/query.py": [
-      "QuerySet",
       "QuerySet.__getstate__",
       "QuerySet.__setstate__",
       "QuerySet.values",
@@ -875,7 +833,6 @@
       "ValuesListIterable"
     ],
     "django/db/models/sql/query.py": [
-      "Query",
       "Query.__deepcopy__",
       "Query.clone",
       "Query.set_values"
@@ -890,17 +847,14 @@
   },
   "django__django-13417": {
     "django/db/models/query.py": [
-      "QuerySet",
       "QuerySet.annotate",
       "QuerySet.ordered"
     ],
     "django/db/models/sql/query.py": [
-      "Query",
       "Query.add_annotation",
       "Query.set_group_by"
     ],
     "django/db/models/sql/compiler.py": [
-      "SQLCompiler",
       "SQLCompiler.get_group_by",
       "SQLCompiler.get_order_by"
     ]
@@ -913,13 +867,11 @@
   },
   "django__django-13512": {
     "django/db/models/fields/json.py": [
-      "JSONField",
       "JSONField.formfield"
     ]
   },
   "django__django-13513": {
     "django/views/debug.py": [
-      "ExceptionReporter",
       "ExceptionReporter.get_traceback_frames",
       "explicit_or_implicit_cause"
     ]
@@ -942,7 +894,6 @@
   },
   "django__django-13569": {
     "django/db/models/sql/compiler.py": [
-      "SQLCompiler",
       "SQLCompiler.get_group_by"
     ]
   },
@@ -958,7 +909,6 @@
   },
   "django__django-13670": {
     "django/utils/dateformat.py": [
-      "DateFormat",
       "DateFormat.y"
     ]
   },
@@ -970,8 +920,6 @@
   },
   "django__django-13786": {
     "django/db/migrations/operations/models.py": [
-      "CreateModel",
-      "AlterModelOptions",
       "CreateModel.reduce",
       "CreateModel.state_forwards",
       "AlterModelOptions.state_forwards"
@@ -995,7 +943,6 @@
   },
   "django__django-13810": {
     "django/core/handlers/base.py": [
-      "BaseHandler",
       "BaseHandler.load_middleware",
       "BaseHandler.adapt_method_mode",
       "BaseHandler._get_response_async"
@@ -1003,7 +950,6 @@
   },
   "django__django-13820": {
     "django/db/migrations/loader.py": [
-      "MigrationLoader",
       "MigrationLoader.load_disk"
     ]
   },
@@ -1069,14 +1015,12 @@
   },
   "django__django-14034": {
     "django/forms/fields.py": [
-      "MultiValueField",
       "MultiValueField.validate",
       "MultiValueField.clean"
     ]
   },
   "django__django-14053": {
     "django/contrib/staticfiles/storage.py": [
-      "HashedFilesMixin",
       "HashedFilesMixin.post_process",
       "HashedFilesMixin._post_process"
     ]
@@ -1088,7 +1032,6 @@
   },
   "django__django-14122": {
     "django/db/models/sql/compiler.py": [
-      "SQLCompiler",
       "SQLCompiler.get_group_by",
       "SQLCompiler.get_order_by"
     ]
@@ -1158,13 +1101,11 @@
   },
   "django__django-14373": {
     "django/utils/dateformat.py": [
-      "DateFormat",
       "DateFormat.Y"
     ]
   },
   "django__django-14376": {
     "django/db/backends/mysql/base.py": [
-      "DatabaseWrapper",
       "DatabaseWrapper.get_connection_params",
       "DatabaseWrapper.get_new_connection"
     ]
@@ -1182,7 +1123,6 @@
   },
   "django__django-14493": {
     "django/contrib/staticfiles/storage.py": [
-      "HashedFilesMixin",
       "ManifestFilesMixin",
       "ManifestStaticFilesStorage",
       "HashedFilesMixin.post_process",
@@ -1191,7 +1131,6 @@
   },
   "django__django-14500": {
     "django/db/migrations/executor.py": [
-      "MigrationExecutor",
       "MigrationExecutor.unapply_migration",
       "MigrationExecutor.check_replacements"
     ],
@@ -1202,7 +1141,6 @@
   "django__django-14534": {
     "django/forms/boundfield.py": [
       "BoundField",
-      "BoundWidget",
       "BoundWidget.id_for_label"
     ]
   },
@@ -1225,7 +1163,6 @@
   },
   "django__django-14608": {
     "django/forms/formsets.py": [
-      "BaseFormSet",
       "BaseFormSet.non_form_errors"
     ]
   },
@@ -1241,14 +1178,12 @@
   },
   "django__django-14672": {
     "django/db/models/fields/reverse_related.py": [
-      "ManyToManyRel",
       "ManyToManyRel.identity",
       "ManyToManyRel.__hash__"
     ]
   },
   "django__django-14725": {
     "django/forms/models.py": [
-      "BaseModelFormSet",
       "modelformset_factory",
       "BaseModelFormSet.save_new",
       "BaseModelFormSet.save_new_objects",
@@ -1315,7 +1250,6 @@
   },
   "django__django-15022": {
     "django/contrib/admin/options.py": [
-      "ModelAdmin",
       "ModelAdmin.get_search_results",
       "ModelAdmin.get_queryset"
     ]
@@ -1325,7 +1259,6 @@
       "Command"
     ],
     "django/db/backends/postgresql/introspection.py": [
-      "DatabaseIntrospection",
       "DatabaseIntrospection.get_relations",
       "DatabaseIntrospection.get_key_columns",
       "DatabaseIntrospection.get_constraints"
@@ -1348,7 +1281,6 @@
   },
   "django__django-15104": {
     "django/db/migrations/autodetector.py": [
-      "MigrationAutodetector",
       "MigrationAutodetector.only_relation_agnostic_fields",
       "MigrationAutodetector.generate_renamed_models"
     ]
@@ -1432,7 +1364,6 @@
   },
   "django__django-15315": {
     "django/db/models/fields/__init__.py": [
-      "Field",
       "Field.__hash__",
       "Field.__eq__",
       "Field.contribute_to_class"
@@ -1454,7 +1385,6 @@
   },
   "django__django-15380": {
     "django/db/migrations/autodetector.py": [
-      "MigrationAutodetector",
       "MigrationAutodetector.generate_renamed_fields",
       "MigrationAutodetector.generate_renamed_models",
       "MigrationAutodetector._detect_changes"
@@ -1470,7 +1400,6 @@
   },
   "django__django-15467": {
     "django/contrib/admin/options.py": [
-      "BaseModelAdmin",
       "BaseModelAdmin.formfield_for_foreignkey"
     ]
   },
@@ -1504,13 +1433,11 @@
   },
   "django__django-15561": {
     "django/db/backends/sqlite3/schema.py": [
-      "DatabaseSchemaEditor",
       "DatabaseSchemaEditor.alter_field",
       "DatabaseSchemaEditor._alter_field",
       "DatabaseSchemaEditor._remake_table"
     ],
     "django/db/backends/base/schema.py": [
-      "BaseDatabaseSchemaEditor",
       "BaseDatabaseSchemaEditor._field_should_be_altered"
     ]
   },
@@ -1548,7 +1475,6 @@
   },
   "django__django-15731": {
     "django/db/models/manager.py": [
-      "BaseManager",
       "BaseManager._get_queryset_methods",
       "BaseManager.from_queryset"
     ]
@@ -1603,14 +1529,12 @@
   "django__django-15930": {
     "django/db/models/expressions.py": [
       "When",
-      "Case",
       "Case.as_sql"
     ]
   },
   "django__django-15957": {
     "django/db/models/query.py": [
       "Prefetch",
-      "QuerySet",
       "QuerySet.prefetch_related",
       "prefetch_related_objects",
       "prefetch_one_level"
@@ -1636,7 +1560,6 @@
   },
   "django__django-16032": {
     "django/db/models/query.py": [
-      "QuerySet",
       "QuerySet.annotate",
       "QuerySet.alias",
       "QuerySet._annotate",
@@ -1645,13 +1568,11 @@
       "QuerySet._filter_or_exclude_inplace"
     ],
     "django/db/models/sql/query.py": [
-      "Query",
       "Query.add_annotation",
       "Query.build_filter",
       "Query.add_filter"
     ],
     "django/db/models/sql/compiler.py": [
-      "SQLCompiler",
       "SQLCompiler.get_select",
       "SQLCompiler.as_sql"
     ]
@@ -1691,7 +1612,6 @@
   },
   "django__django-16255": {
     "django/contrib/sitemaps/__init__.py": [
-      "Sitemap",
       "Sitemap.get_latest_lastmod"
     ]
   },
@@ -1711,8 +1631,7 @@
     ],
     "django/db/models/sql/query.py": [
       "Query.get_count",
-      "Query.add_annotation",
-      "Query"
+      "Query.add_annotation"
     ]
   },
   "django__django-16315": {
@@ -1722,7 +1641,6 @@
   },
   "django__django-16333": {
     "django/contrib/auth/forms.py": [
-      "UserCreationForm",
       "UserCreationForm.save"
     ]
   },
@@ -1744,7 +1662,6 @@
   },
   "django__django-16493": {
     "django/db/models/fields/files.py": [
-      "FileField",
       "FileField.deconstruct"
     ]
   },
@@ -1768,7 +1685,6 @@
   },
   "django__django-16569": {
     "django/forms/formsets.py": [
-      "BaseFormSet",
       "BaseFormSet.add_fields",
       "BaseFormSet.empty_form",
       "formset_factory"
@@ -1792,13 +1708,11 @@
   },
   "django__django-16642": {
     "django/http/response.py": [
-      "FileResponse",
       "FileResponse.set_headers"
     ]
   },
   "django__django-16661": {
     "django/contrib/admin/options.py": [
-      "BaseModelAdmin",
       "BaseModelAdmin.lookup_allowed",
       "ModelAdmin"
     ]
@@ -1810,13 +1724,11 @@
   },
   "django__django-16667": {
     "django/forms/widgets.py": [
-      "SelectDateWidget",
       "SelectDateWidget.value_from_datadict"
     ]
   },
   "django__django-16801": {
     "django/db/models/fields/files.py": [
-      "ImageField",
       "ImageField.contribute_to_class",
       "ImageField.update_dimension_fields"
     ]
@@ -1843,7 +1755,6 @@
   },
   "django__django-16899": {
     "django/contrib/admin/checks.py": [
-      "BaseModelAdminChecks",
       "BaseModelAdminChecks._check_readonly_fields",
       "BaseModelAdminChecks._check_readonly_fields_item"
     ]
@@ -1892,11 +1803,9 @@
   },
   "django__django-17087": {
     "django/db/migrations/writer.py": [
-      "MigrationWriter",
       "MigrationWriter.serialize"
     ],
     "django/db/migrations/serializer.py": [
-      "DeconstructableSerializer",
       "DeconstructableSerializer._serialize_path"
     ]
   },
@@ -1927,13 +1836,11 @@
   },
   "matplotlib__matplotlib-20488": {
     "lib/matplotlib/colors.py": [
-      "LogNorm",
       "LogNorm.__call__",
       "LogNorm.autoscale",
       "LogNorm.autoscale_None"
     ],
     "lib/matplotlib/image.py": [
-      "_ImageBase",
       "_ImageBase._make_image",
       "_ImageBase.make_image",
       "_ImageBase.draw"
@@ -1947,7 +1854,6 @@
   },
   "matplotlib__matplotlib-20826": {
     "lib/matplotlib/axes/_base.py": [
-      "_AxesBase",
       "_AxesBase.clear",
       "_AxesBase.cla"
     ]
@@ -1966,7 +1872,6 @@
   },
   "matplotlib__matplotlib-22719": {
     "lib/matplotlib/category.py": [
-      "StrCategoryConverter",
       "StrCategoryConverter.convert"
     ],
     "lib/matplotlib/units.py": [
@@ -1976,7 +1881,6 @@
   },
   "matplotlib__matplotlib-22865": {
     "lib/matplotlib/colorbar.py": [
-      "Colorbar",
       "Colorbar._add_solids",
       "Colorbar._add_solids_patches",
       "Colorbar._do_extends"
@@ -1984,7 +1888,6 @@
   },
   "matplotlib__matplotlib-22871": {
     "lib/matplotlib/dates.py": [
-      "ConciseDateFormatter",
       "ConciseDateFormatter.__init__",
       "ConciseDateFormatter.__call__",
       "ConciseDateFormatter.get_offset",
@@ -2020,18 +1923,15 @@
   },
   "matplotlib__matplotlib-23476": {
     "lib/matplotlib/figure.py": [
-      "Figure",
       "Figure.__setstate__",
       "Figure._get_dpi",
       "Figure._set_dpi"
     ],
     "lib/matplotlib/backend_bases.py": [
-      "FigureCanvasBase",
       "FigureCanvasBase._set_device_pixel_ratio",
       "FigureCanvasBase.get_width_height"
     ],
     "lib/matplotlib/backends/backend_macosx.py": [
-      "FigureCanvasMac",
       "FigureCanvasMac.__init__",
       "FigureCanvasMac.resize"
     ]
@@ -2089,7 +1989,6 @@
   "matplotlib__matplotlib-24970": {
     "lib/matplotlib/colors.py": [
       "ListedColormap",
-      "Colormap",
       "Colormap.__call__",
       "_to_rgba_no_colorcycle",
       "to_rgba",
@@ -2179,7 +2078,6 @@
   },
   "matplotlib__matplotlib-26208": {
     "lib/matplotlib/axes/_base.py": [
-      "_AxesBase",
       "_AxesBase.twinx",
       "_AxesBase.update_datalim"
     ]
@@ -2190,19 +2088,16 @@
       "inset_axes"
     ],
     "lib/matplotlib/offsetbox.py": [
-      "OffsetBox",
       "AnchoredOffsetbox",
       "OffsetBox.get_window_extent"
     ]
   },
   "matplotlib__matplotlib-26342": {
     "lib/matplotlib/contour.py": [
-      "ContourSet",
       "ContourSet.get_paths",
       "ContourSet.set_paths"
     ],
     "lib/matplotlib/collections.py": [
-      "Collection",
       "Collection.get_paths",
       "Collection.set_paths"
     ]
@@ -2232,7 +2127,6 @@
   "mwaskom__seaborn-3187": {
     "seaborn/_core/scales.py": [
       "Scale",
-      "Continuous",
       "Continuous._get_formatter"
     ],
     "seaborn/_marks/dot.py": [
@@ -2241,13 +2135,11 @@
   },
   "pallets__flask-5014": {
     "src/flask/blueprints.py": [
-      "Blueprint",
       "Blueprint.__init__"
     ]
   },
   "psf__requests-1142": {
     "requests/models.py": [
-      "PreparedRequest",
       "PreparedRequest.prepare_body",
       "PreparedRequest.prepare_content_length"
     ]
@@ -2257,13 +2149,11 @@
       "PreparedRequest"
     ],
     "requests/sessions.py": [
-      "Session",
       "Session.request"
     ]
   },
   "psf__requests-1766": {
     "requests/auth.py": [
-      "HTTPDigestAuth",
       "HTTPDigestAuth.build_digest_header"
     ]
   },
@@ -2284,7 +2174,6 @@
   },
   "psf__requests-2931": {
     "requests/models.py": [
-      "PreparedRequest",
       "PreparedRequest.prepare_body"
     ],
     "requests/utils.py": [
@@ -2359,7 +2248,6 @@
   },
   "pydata__xarray-4075": {
     "xarray/core/weighted.py": [
-      "Weighted",
       "Weighted._sum_of_weights",
       "Weighted._weighted_mean"
     ]
@@ -2501,7 +2389,6 @@
   },
   "pylint-dev__pylint-6528": {
     "pylint/lint/pylinter.py": [
-      "PyLinter",
       "PyLinter._discover_files",
       "PyLinter._expand_files",
       "PyLinter._iterate_file_descrs"
@@ -2540,7 +2427,6 @@
   },
   "pytest-dev__pytest-10051": {
     "src/_pytest/logging.py": [
-      "LogCaptureFixture",
       "LogCaptureFixture.get_records",
       "LogCaptureFixture.clear"
     ]
@@ -2593,14 +2479,11 @@
   },
   "pytest-dev__pytest-5840": {
     "src/_pytest/python.py": [
-      "Module",
       "Module._importtestmodule",
-      "Package",
       "Package._collectfile",
       "pytest_collect_file"
     ],
     "src/_pytest/main.py": [
-      "Session",
       "Session._collectfile",
       "Session._parsearg",
       "Session._tryconvertpyarg"
@@ -2734,7 +2617,6 @@
   },
   "scikit-learn__scikit-learn-12973": {
     "sklearn/linear_model/least_angle.py": [
-      "LassoLarsIC",
       "LassoLarsIC.fit"
     ]
   },
@@ -2750,7 +2632,6 @@
   },
   "scikit-learn__scikit-learn-13135": {
     "sklearn/preprocessing/_discretization.py": [
-      "KBinsDiscretizer",
       "KBinsDiscretizer.fit",
       "KBinsDiscretizer.transform"
     ]
@@ -2832,7 +2713,6 @@
   },
   "scikit-learn__scikit-learn-14894": {
     "sklearn/svm/base.py": [
-      "BaseLibSVM",
       "BaseLibSVM._sparse_fit",
       "BaseLibSVM._get_coef"
     ]
@@ -2863,7 +2743,6 @@
   },
   "scikit-learn__scikit-learn-25232": {
     "sklearn/impute/_iterative.py": [
-      "IterativeImputer",
       "IterativeImputer._initial_imputation"
     ]
   },
@@ -2881,7 +2760,6 @@
   },
   "scikit-learn__scikit-learn-25931": {
     "sklearn/ensemble/_iforest.py": [
-      "IsolationForest",
       "IsolationForest.fit",
       "IsolationForest.predict",
       "IsolationForest._compute_score_samples"
@@ -3102,7 +2980,6 @@
   "sphinx-doc__sphinx-8269": {
     "sphinx/builders/linkcheck.py": [
       "check_anchor",
-      "CheckExternalLinksBuilder",
       "CheckExternalLinksBuilder.process_result",
       "CheckExternalLinksBuilder.write_entry"
     ]
@@ -3145,7 +3022,6 @@
       "PyXrefMixin",
       "PyField",
       "PyTypedField",
-      "PythonDomain",
       "PythonDomain.find_obj",
       "PythonDomain.resolve_xref"
     ]
@@ -3321,7 +3197,6 @@
   },
   "sympy__sympy-12419": {
     "sympy/matrices/expressions/matexpr.py": [
-      "Identity",
       "Identity._entry"
     ],
     "sympy/assumptions/refine.py": [
@@ -3343,7 +3218,6 @@
   },
   "sympy__sympy-13031": {
     "sympy/matrices/common.py": [
-      "MatrixShaping",
       "MatrixShaping.hstack",
       "MatrixShaping.vstack"
     ]
@@ -3367,7 +3241,6 @@
   },
   "sympy__sympy-13480": {
     "sympy/functions/elementary/hyperbolic.py": [
-      "coth",
       "coth.eval"
     ]
   },
@@ -3380,7 +3253,6 @@
   "sympy__sympy-13615": {
     "sympy/sets/sets.py": [
       "Complement",
-      "FiniteSet",
       "Set._complement",
       "Set.complement",
       "Interval._complement",
@@ -3392,19 +3264,16 @@
   },
   "sympy__sympy-13647": {
     "sympy/matrices/common.py": [
-      "MatrixShaping",
       "MatrixShaping._eval_col_insert",
       "MatrixShaping.col_insert"
     ]
   },
   "sympy__sympy-13757": {
     "sympy/polys/polytools.py": [
-      "Poly",
       "Poly.__rmul__",
       "Poly.__mul__"
     ],
     "sympy/core/mul.py": [
-      "Mul",
       "Mul.flatten"
     ]
   },
@@ -3416,7 +3285,6 @@
   },
   "sympy__sympy-13852": {
     "sympy/functions/special/zeta_functions.py": [
-      "polylog",
       "polylog.eval",
       "polylog._eval_expand_func"
     ]
@@ -3531,7 +3399,6 @@
   },
   "sympy__sympy-15976": {
     "sympy/printing/mathml.py": [
-      "MathMLPresentationPrinter",
       "MathMLPresentationPrinter._print_Symbol",
       "mathml"
     ]
@@ -3663,7 +3530,6 @@
   },
   "sympy__sympy-19495": {
     "sympy/sets/conditionset.py": [
-      "ConditionSet",
       "ConditionSet._eval_subs"
     ]
   },
@@ -3680,7 +3546,6 @@
     ],
     "sympy/physics/quantum/operator.py": [
       "IdentityOperator",
-      "Operator",
       "Operator.__mul__"
     ]
   },
@@ -3713,7 +3578,6 @@
     "sympy/sets/sets.py": [
       "ProductSet",
       "FiniteSet",
-      "Set",
       "Set.is_subset",
       "Set._eval_is_subset"
     ]
@@ -3750,7 +3614,6 @@
   },
   "sympy__sympy-21379": {
     "sympy/functions/elementary/piecewise.py": [
-      "Piecewise",
       "Piecewise._eval_subs",
       "piecewise_fold"
     ],
@@ -3853,7 +3716,6 @@
   },
   "sympy__sympy-23950": {
     "sympy/sets/contains.py": [
-      "Contains",
       "Contains.as_set"
     ]
   },
