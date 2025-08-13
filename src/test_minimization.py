@@ -416,13 +416,13 @@ def process_instance(
         logger.info(
             f"Instance {instance_id} has {len(passed_tests)} tests, skip minimization!"
         )
-        return (instance_id, passed_tests)
+        return passed_tests
 
     if instance_id not in suspicious_info:
         logger.warning(
             f"Instance {instance_id} not found in suspicious info, skipping..."
         )
-        return (instance_id, [])
+        return []
 
     normalized_funcs = suspicious_info[instance_id]
     base_commit, repo_name = get_base_commit(instance_id, dataset)
@@ -491,7 +491,7 @@ def process_instance(
 def main(coverage_dir, test_log_dir, suspicious_info, dataset, log_dir, model_name, result_json, prev_results):
     test_logs = get_log_file(test_log_dir)
     # refix = ['matplotlib__matplotlib-23299', 'django__django-16315', 'sympy__sympy-20916', 'astropy__astropy-13579', 'django__django-11728', 'pydata__xarray-6599', 'astropy__astropy-8707', 'sympy__sympy-23413', 'psf__requests-1766', 'pydata__xarray-4687', 'django__django-11099', 'sympy__sympy-17139', 'pylint-dev__pylint-6903', 'django__django-13809', 'django__django-15629', 'sympy__sympy-13877', 'django__django-10097', 'pallets__flask-5014', 'django__django-11138', 'django__django-16255', 'pylint-dev__pylint-7277', 'pydata__xarray-6461', 'django__django-7530', 'django__django-14376', 'django__django-14672', 'astropy__astropy-8872', 'django__django-16145', 'django__django-16082', 'django__django-12039']
-    refix = ['sympy__sympy-20916']
+    refix = ['matplotlib__matplotlib-23299', 'django__django-16315', 'astropy__astropy-13579', 'django__django-11728', 'pydata__xarray-6599', 'astropy__astropy-8707', 'sympy__sympy-23413', 'psf__requests-1766', 'pydata__xarray-4687', 'django__django-11099', 'sympy__sympy-17139', 'pylint-dev__pylint-6903', 'django__django-13809', 'django__django-15629', 'sympy__sympy-13877', 'django__django-10097', 'pallets__flask-5014', 'django__django-11138', 'django__django-16255', 'pylint-dev__pylint-7277', 'pydata__xarray-6461', 'django__django-7530', 'django__django-14376', 'django__django-14672', 'astropy__astropy-8872', 'django__django-16145', 'django__django-16082', 'django__django-12039']
     # refix = ['pytest-dev__pytest-7236', 'pytest-dev__pytest-5787', 'pytest-dev__pytest-5631', 'pytest-dev__pytest-6202', 'pytest-dev__pytest-5840', 'pytest-dev__pytest-7571', 'pytest-dev__pytest-8399', 'pytest-dev__pytest-6197', 'pytest-dev__pytest-5809', 'pytest-dev__pytest-7982', 'pytest-dev__pytest-7490', 'pytest-dev__pytest-7205', 'pytest-dev__pytest-7432', 'pytest-dev__pytest-5262', 'pytest-dev__pytest-7521', 'pytest-dev__pytest-7324']
     print(f"{len(refix)} instances to rerun")
     for instance_id, log_file in test_logs.items():
