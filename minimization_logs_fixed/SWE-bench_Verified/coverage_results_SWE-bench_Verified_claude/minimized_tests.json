@@ -2636,7 +2636,12 @@
         "matplotlib.tests.test_legend.test_alpha_handles",
         "matplotlib.tests.test_legend.test_rc"
     ],
-    "django__django-13344": [],
+    "django__django-13344": [
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_process_view_return_response",
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_process_template_response",
+        "handlers.tests.AsyncHandlerRequestTests.test_suspiciousop_in_view_returns_400",
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_exception_in_async_render_passed_to_process_exception"
+    ],
     "astropy__astropy-13977": [
         "astropy.units.tests.test_quantity_array_methods.TestArrayConversion.test_fill",
         "astropy.units.tests.test_quantity.test_arrays",
