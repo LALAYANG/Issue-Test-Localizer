@@ -2837,7 +2837,16 @@
         "sympy.polys.tests.test_polytools.test_intervals",
         "sympy.polys.tests.test_polytools.test_Poly_all_terms"
     ],
-    "pytest-dev__pytest-5840": [],
+    "pytest-dev__pytest-5840": [
+        "test_session.TestNewSession.test_collect_only_with_various_situations",
+        "test_collection.TestPrunetraceback.test_custom_repr_failure",
+        "test_session.SessionTests.test_syntax_error_module",
+        "test_conftest.test_conftest_symlink",
+        "test_conftest.test_fixture_dependency",
+        "test_session.SessionTests.test_nested_import_error",
+        "test_collection.TestCustomConftests.test_collectignore_exclude_on_option",
+        "test_config.TestPytestPluginsVariable.test_pytest_plugins_in_non_top_level_conftest_unsupported_pyargs"
+    ],
     "pylint-dev__pylint-6903": [],
     "django__django-12406": [
         "model_forms.tests.ModelFormBasicTests.test_m2m_initial_callable",
@@ -3411,7 +3420,13 @@
         "responses.test_fileresponse.FileResponseTests.test_content_length_nonzero_starting_position_file",
         "responses.test_fileresponse.FileResponseTests.test_response_nonzero_starting_position"
     ],
-    "pytest-dev__pytest-8399": [],
+    "pytest-dev__pytest-8399": [
+        "test_unittest.test_do_class_cleanups_on_setupclass_failure",
+        "test_unittest.test_no_teardown_if_setupclass_failed",
+        "test_unittest.test_class_method_containing_test_issue1558",
+        "test_unittest.test_setup",
+        "test_unittest.test_runTest_method"
+    ],
     "django__django-14792": [
         "utils_tests.test_timezone.TimezoneTests.test_override_string_tz",
         "utils_tests.test_timezone.TimezoneTests.test_override_fixed_offset",
@@ -3624,7 +3639,24 @@
         "file_storage.tests.FileStorageTests.test_makedirs_race_handling",
         "file_storage.tests.FileStorageTests.test_remove_race_handling"
     ],
-    "pytest-dev__pytest-6197": [],
+    "pytest-dev__pytest-6197": [
+        "test_collection.test_collect_sub_with_symlinks",
+        "test_collection.TestSession.test_collect_protocol_method",
+        "test_conftest.test_conftest_uppercase",
+        "test_collection.TestSession.test_find_byid_without_instance_parents",
+        "test_collection.Test_getinitialnodes.test_global_file",
+        "test_collection.TestCollectFS.test_ignored_virtualenvs",
+        "test_config.TestOverrideIniArgs.test_override_ini_pathlist",
+        "test_conftest.test_conftest_symlink",
+        "test_session.test_exclude_glob",
+        "test_session.TestNewSession.test_minus_x_import_error",
+        "test_collection.test_collect_with_chdir_during_import",
+        "test_collection.test_matchnodes_two_collections_same_file",
+        "test_collection.TestCustomConftests.test_collectignore_exclude_on_option",
+        "test_session.test_exclude",
+        "test_config.TestPytestPluginsVariable.test_pytest_plugins_in_non_top_level_conftest_unsupported_pyargs",
+        "test_collection.test_collect_pkg_init_only"
+    ],
     "pylint-dev__pylint-6386": [
         "test_functional_config_loading.test_functional_config_loading",
         "lint.unittest_lint.test_load_plugin_command_line",
@@ -3805,10 +3837,7 @@
         "tests._core.test_plot.TestPairInterface.test_two_variables_single_order_error",
         "tests._core.test_scales.TestContinuous.test_log_tick_every"
     ],
-    "pytest-dev__pytest-7982": [
-        "pytest-dev__pytest-7982",
-        []
-    ],
+    "pytest-dev__pytest-7982": [],
     "pylint-dev__pylint-7277": [
         "test_pylint_runners.test_runner",
         "test_pylint_runners.test_runner_with_arguments"
