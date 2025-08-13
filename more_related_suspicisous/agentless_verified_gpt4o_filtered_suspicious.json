@@ -37,7 +37,6 @@
       "write"
     ],
     "astropy/io/ascii/html.py": [
-      "HTML",
       "HTML.write"
     ]
   },
@@ -189,11 +188,9 @@
   },
   "django__django-10880": {
     "django/db/models/expressions.py": [
-      "Case",
       "Case.as_sql"
     ],
     "django/db/models/aggregates.py": [
-      "Count",
       "Count.as_sql"
     ]
   },
@@ -234,7 +231,6 @@
   },
   "django__django-11095": {
     "django/contrib/admin/options.py": [
-      "ModelAdmin",
       "ModelAdmin.get_inline_instances"
     ]
   },
@@ -271,8 +267,6 @@
   },
   "django__django-11149": {
     "django/contrib/admin/options.py": [
-      "BaseModelAdmin",
-      "InlineModelAdmin",
       "TabularInline",
       "BaseModelAdmin.has_view_or_change_permission",
       "InlineModelAdmin.has_view_or_change_permission"
@@ -299,7 +293,6 @@
   },
   "django__django-11211": {
     "django/contrib/contenttypes/fields.py": [
-      "GenericForeignKey",
       "GenericForeignKey.get_prefetch_queryset"
     ]
   },
@@ -337,7 +330,6 @@
   },
   "django__django-11299": {
     "django/db/models/constraints.py": [
-      "CheckConstraint",
       "CheckConstraint._get_check_sql"
     ]
   },
@@ -365,7 +357,6 @@
   },
   "django__django-11477": {
     "django/urls/resolvers.py": [
-      "URLResolver",
       "URLResolver.reverse",
       "URLResolver._reverse_with_prefix"
     ]
@@ -453,7 +444,6 @@
   },
   "django__django-11820": {
     "django/db/models/base.py": [
-      "Model",
       "Model._check_ordering"
     ],
     "django/db/models/options.py": [
@@ -476,7 +466,6 @@
   },
   "django__django-11885": {
     "django/db/models/deletion.py": [
-      "Collector",
       "Collector.delete",
       "Collector.can_fast_delete",
       "Collector.get_del_batches"
@@ -541,12 +530,10 @@
   },
   "django__django-12193": {
     "django/forms/widgets.py": [
-      "CheckboxInput",
       "CheckboxInput.get_context"
     ],
     "django/contrib/postgres/forms/array.py": [
       "SplitArrayField",
-      "SplitArrayWidget",
       "SplitArrayWidget.get_context"
     ]
   },
@@ -680,7 +667,6 @@
   },
   "django__django-13012": {
     "django/db/models/expressions.py": [
-      "ExpressionWrapper",
       "ExpressionWrapper.get_group_by_cols",
       "BaseExpression.get_group_by_cols",
       "Value.get_group_by_cols"
@@ -804,12 +790,10 @@
   },
   "django__django-13344": {
     "django/core/handlers/asgi.py": [
-      "ASGIHandler",
       "ASGIHandler.__call__",
       "ASGIHandler.send_response"
     ],
     "django/core/handlers/base.py": [
-      "BaseHandler",
       "BaseHandler.get_response",
       "BaseHandler.get_response_async",
       "BaseHandler._get_response",
@@ -979,7 +963,6 @@
   },
   "django__django-13809": {
     "django/core/management/commands/runserver.py": [
-      "Command",
       "Command.add_arguments",
       "Command.handle",
       "Command.inner_run"
@@ -1060,12 +1043,10 @@
   },
   "django__django-14017": {
     "django/db/models/query_utils.py": [
-      "Q",
       "Q.__and__",
       "Q._combine"
     ],
     "django/db/models/expressions.py": [
-      "Combinable",
       "Combinable.__and__",
       "Combinable.__rand__",
       "Exists"
@@ -1073,14 +1054,12 @@
   },
   "django__django-14034": {
     "django/forms/fields.py": [
-      "MultiValueField",
       "MultiValueField.clean",
       "MultiValueField.validate"
     ]
   },
   "django__django-14053": {
     "django/contrib/staticfiles/storage.py": [
-      "HashedFilesMixin",
       "HashedFilesMixin.post_process",
       "HashedFilesMixin._post_process"
     ]
@@ -1106,7 +1085,6 @@
   },
   "django__django-14155": {
     "django/urls/resolvers.py": [
-      "ResolverMatch",
       "ResolverMatch.__init__",
       "ResolverMatch.__repr__"
     ]
@@ -1286,11 +1264,9 @@
   },
   "django__django-14725": {
     "django/forms/models.py": [
-      "BaseModelFormSet",
       "BaseModelFormSet.save_new",
       "BaseModelFormSet._construct_form",
       "modelformset_factory",
-      "BaseInlineFormSet",
       "BaseInlineFormSet.save_new",
       "inlineformset_factory"
     ]
@@ -1342,7 +1318,6 @@
   },
   "django__django-14999": {
     "django/db/migrations/operations/models.py": [
-      "RenameModel",
       "RenameModel.database_forwards",
       "RenameModel.database_backwards"
     ]
@@ -1451,7 +1426,6 @@
   },
   "django__django-15268": {
     "django/db/migrations/optimizer.py": [
-      "MigrationOptimizer",
       "MigrationOptimizer.optimize",
       "MigrationOptimizer.optimize_inner"
     ],
@@ -1461,7 +1435,6 @@
       "ModelOptionOperation.reduce"
     ],
     "django/db/migrations/autodetector.py": [
-      "MigrationAutodetector",
       "MigrationAutodetector._optimize_migrations",
       "MigrationAutodetector._get_altered_foo_together_operations",
       "MigrationAutodetector._generate_removed_altered_foo_together",
@@ -1513,12 +1486,10 @@
   },
   "django__django-15375": {
     "django/db/models/aggregates.py": [
-      "Aggregate",
       "Aggregate.__init__",
       "Aggregate.as_sql"
     ],
     "django/db/models/sql/compiler.py": [
-      "SQLAggregateCompiler",
       "SQLAggregateCompiler.as_sql"
     ]
   },
@@ -1755,7 +1726,6 @@
   },
   "django__django-16145": {
     "django/core/management/commands/runserver.py": [
-      "Command",
       "Command.inner_run"
     ]
   },
@@ -1791,7 +1761,6 @@
       "QuerySet._batched_insert"
     ],
     "django/db/models/sql/compiler.py": [
-      "SQLInsertCompiler",
       "SQLInsertCompiler.assemble_as_sql",
       "SQLInsertCompiler.as_sql",
       "SQLInsertCompiler.execute_sql"
@@ -1809,7 +1778,6 @@
   },
   "django__django-16454": {
     "django/core/management/base.py": [
-      "CommandParser",
       "CommandParser.add_subparsers",
       "CommandParser.add_parser",
       "CommandParser.error"
@@ -1882,7 +1850,6 @@
   },
   "django__django-16642": {
     "django/http/response.py": [
-      "FileResponse",
       "FileResponse.set_headers"
     ]
   },
@@ -1904,7 +1871,6 @@
   },
   "django__django-16801": {
     "django/db/models/fields/files.py": [
-      "ImageField",
       "ImageField.contribute_to_class"
     ]
   },
@@ -2060,14 +2026,12 @@
   },
   "matplotlib__matplotlib-22865": {
     "lib/matplotlib/colorbar.py": [
-      "Colorbar",
       "Colorbar._do_extends",
       "Colorbar._add_solids_patches"
     ]
   },
   "matplotlib__matplotlib-22871": {
     "lib/matplotlib/dates.py": [
-      "ConciseDateFormatter",
       "ConciseDateFormatter.__call__",
       "ConciseDateFormatter.get_offset"
     ]
@@ -2083,13 +2047,11 @@
   },
   "matplotlib__matplotlib-23314": {
     "lib/matplotlib/axes/_base.py": [
-      "_AxesBase",
       "_AxesBase.set_visible"
     ]
   },
   "matplotlib__matplotlib-23412": {
     "lib/matplotlib/patches.py": [
-      "Patch",
       "Patch.set_linestyle",
       "Patch.draw",
       "Rectangle",
@@ -2147,7 +2109,6 @@
   },
   "matplotlib__matplotlib-24870": {
     "lib/matplotlib/contour.py": [
-      "ContourSet",
       "ContourSet._process_args",
       "ContourSet._process_levels"
     ]
@@ -2213,7 +2174,6 @@
   },
   "matplotlib__matplotlib-25775": {
     "lib/matplotlib/text.py": [
-      "Text",
       "Text.__init__",
       "Text.draw"
     ]
@@ -2258,7 +2218,6 @@
   },
   "matplotlib__matplotlib-26342": {
     "lib/matplotlib/contour.py": [
-      "ContourSet",
       "ContourSet.__init__",
       "ContourSet.get_paths",
       "ContourSet.set_paths"
@@ -2338,13 +2297,11 @@
   },
   "psf__requests-1766": {
     "requests/auth.py": [
-      "HTTPDigestAuth",
       "HTTPDigestAuth.build_digest_header"
     ]
   },
   "psf__requests-1921": {
     "requests/sessions.py": [
-      "Session",
       "Session.request"
     ],
     "requests/models.py": [
@@ -2353,7 +2310,6 @@
   },
   "psf__requests-2317": {
     "requests/sessions.py": [
-      "Session",
       "Session.request",
       "Session.send"
     ]
@@ -2558,11 +2514,9 @@
   },
   "pydata__xarray-7233": {
     "xarray/core/dataset.py": [
-      "Dataset",
       "Dataset._replace_vars_and_dims"
     ],
     "xarray/core/rolling.py": [
-      "DatasetCoarsen",
       "DatasetCoarsen.construct"
     ]
   },
@@ -2586,7 +2540,6 @@
   },
   "pylint-dev__pylint-4604": {
     "pylint/checkers/imports.py": [
-      "ImportsChecker",
       "ImportsChecker.visit_import",
       "ImportsChecker.visit_importfrom"
     ],
@@ -2655,7 +2608,6 @@
   },
   "pytest-dev__pytest-10051": {
     "src/_pytest/logging.py": [
-      "LogCaptureFixture",
       "LogCaptureFixture.clear",
       "LogCaptureFixture.get_records"
     ]
@@ -2681,7 +2633,6 @@
   },
   "pytest-dev__pytest-5262": {
     "src/_pytest/capture.py": [
-      "EncodedFile",
       "EncodedFile.write"
     ]
   },
@@ -2783,7 +2734,6 @@
   },
   "pytest-dev__pytest-7571": {
     "src/_pytest/logging.py": [
-      "LogCaptureFixture",
       "LogCaptureFixture.set_level",
       "LogCaptureFixture._finalize",
       "caplog"
@@ -2802,13 +2752,10 @@
   },
   "scikit-learn__scikit-learn-10297": {
     "sklearn/linear_model/ridge.py": [
-      "RidgeClassifierCV",
       "RidgeClassifierCV.__init__",
       "RidgeClassifierCV.fit",
-      "_BaseRidgeCV",
       "_BaseRidgeCV.__init__",
       "_BaseRidgeCV.fit",
-      "_RidgeGCV",
       "_RidgeGCV.__init__",
       "_RidgeGCV.fit"
     ]
@@ -2820,7 +2767,6 @@
   },
   "scikit-learn__scikit-learn-10908": {
     "sklearn/feature_extraction/text.py": [
-      "CountVectorizer",
       "CountVectorizer.get_feature_names",
       "CountVectorizer.transform",
       "VectorizerMixin._validate_vocabulary"
@@ -2828,7 +2774,6 @@
   },
   "scikit-learn__scikit-learn-11310": {
     "sklearn/model_selection/_search.py": [
-      "BaseSearchCV",
       "BaseSearchCV.fit"
     ]
   },
@@ -2846,7 +2791,6 @@
   },
   "scikit-learn__scikit-learn-12682": {
     "sklearn/decomposition/dict_learning.py": [
-      "SparseCoder",
       "SparseCoder.__init__",
       "SparseCoder.fit",
       "_sparse_encode",
@@ -2855,20 +2799,17 @@
   },
   "scikit-learn__scikit-learn-12973": {
     "sklearn/linear_model/least_angle.py": [
-      "LassoLarsIC",
       "LassoLarsIC.fit"
     ]
   },
   "scikit-learn__scikit-learn-13124": {
     "sklearn/model_selection/_split.py": [
-      "StratifiedKFold",
       "StratifiedKFold._make_test_folds",
       "StratifiedKFold.split"
     ]
   },
   "scikit-learn__scikit-learn-13135": {
     "sklearn/preprocessing/_discretization.py": [
-      "KBinsDiscretizer",
       "KBinsDiscretizer.fit",
       "KBinsDiscretizer.transform"
     ]
@@ -2911,7 +2852,6 @@
   },
   "scikit-learn__scikit-learn-14087": {
     "sklearn/linear_model/logistic.py": [
-      "LogisticRegressionCV",
       "LogisticRegressionCV.fit"
     ]
   },
@@ -2982,7 +2922,6 @@
   },
   "scikit-learn__scikit-learn-25232": {
     "sklearn/impute/_iterative.py": [
-      "IterativeImputer",
       "IterativeImputer.__init__",
       "IterativeImputer._initial_imputation"
     ]
@@ -3000,7 +2939,6 @@
   },
   "scikit-learn__scikit-learn-25931": {
     "sklearn/ensemble/_iforest.py": [
-      "IsolationForest",
       "IsolationForest.fit",
       "IsolationForest.predict"
     ]
@@ -3055,7 +2993,6 @@
   },
   "sphinx-doc__sphinx-10435": {
     "sphinx/writers/latex.py": [
-      "LaTeXTranslator",
       "LaTeXTranslator.visit_literal",
       "LaTeXTranslator.depart_literal"
     ]
@@ -3102,13 +3039,11 @@
   },
   "sphinx-doc__sphinx-10466": {
     "sphinx/builders/gettext.py": [
-      "Message",
       "Message.__init__"
     ]
   },
   "sphinx-doc__sphinx-10614": {
     "sphinx/ext/inheritance_diagram.py": [
-      "InheritanceGraph",
       "InheritanceGraph.generate_dot",
       "html_visit_inheritance_diagram"
     ]
@@ -3173,7 +3108,6 @@
       "ASTUnaryOpExpr",
       "ASTBinOpExpr",
       "ASTFallbackExpr",
-      "DefinitionParser",
       "DefinitionParser._parse_literal",
       "DefinitionParser._parse_primary_expression",
       "DefinitionParser._parse_postfix_expression",
@@ -3184,15 +3118,11 @@
   },
   "sphinx-doc__sphinx-7748": {
     "sphinx/ext/autodoc/__init__.py": [
-      "DocstringSignatureMixin",
       "DocstringSignatureMixin._find_signature",
       "DocstringSignatureMixin.get_doc",
       "DocstringSignatureMixin.format_signature",
-      "FunctionDocumenter",
       "FunctionDocumenter.format_signature",
-      "MethodDocumenter",
       "MethodDocumenter.format_signature",
-      "ClassDocumenter",
       "ClassDocumenter.format_signature"
     ]
   },
@@ -3244,7 +3174,6 @@
   },
   "sphinx-doc__sphinx-8056": {
     "sphinx/ext/napoleon/docstring.py": [
-      "NumpyDocstring",
       "NumpyDocstring._consume_field",
       "NumpyDocstring._parse_parameters_section",
       "NumpyDocstring._format_fields",
@@ -3358,7 +3287,6 @@
   },
   "sphinx-doc__sphinx-8595": {
     "sphinx/ext/autodoc/__init__.py": [
-      "ModuleDocumenter",
       "ModuleDocumenter.get_object_members",
       "ModuleDocumenter.get_module_members"
     ]
@@ -3511,7 +3439,6 @@
   "sphinx-doc__sphinx-9367": {
     "sphinx/pycode/ast.py": [
       "unparse",
-      "_UnparseVisitor",
       "_UnparseVisitor.visit_Tuple"
     ]
   },
@@ -3620,7 +3547,6 @@
   },
   "sympy__sympy-12481": {
     "sympy/combinatorics/permutations.py": [
-      "Permutation",
       "Permutation.__new__",
       "Permutation._af_new"
     ]
@@ -3662,13 +3588,11 @@
   },
   "sympy__sympy-13480": {
     "sympy/functions/elementary/hyperbolic.py": [
-      "coth",
       "coth.eval"
     ]
   },
   "sympy__sympy-13551": {
     "sympy/concrete/products.py": [
-      "Product",
       "Product.doit",
       "Product._eval_product"
     ]
@@ -3685,7 +3609,6 @@
   },
   "sympy__sympy-13647": {
     "sympy/matrices/dense.py": [
-      "MutableDenseMatrix",
       "MutableDenseMatrix.col_insert"
     ]
   },
@@ -3707,7 +3630,6 @@
   },
   "sympy__sympy-13852": {
     "sympy/functions/special/zeta_functions.py": [
-      "polylog",
       "polylog.eval",
       "polylog._eval_expand_func"
     ]
@@ -3790,7 +3712,6 @@
       "_get_namespace"
     ],
     "sympy/printing/pycode.py": [
-      "MpmathPrinter",
       "MpmathPrinter._print_Float"
     ]
   },
@@ -3899,7 +3820,6 @@
   },
   "sympy__sympy-17655": {
     "sympy/geometry/point.py": [
-      "Point",
       "Point.__add__",
       "Point.__mul__",
       "Point._normalize_dimension"
@@ -3908,7 +3828,6 @@
       "Mul"
     ],
     "sympy/core/expr.py": [
-      "Expr",
       "Expr.__mul__",
       "Expr.__rmul__"
     ]
@@ -3991,7 +3910,6 @@
   },
   "sympy__sympy-19495": {
     "sympy/sets/conditionset.py": [
-      "ConditionSet",
       "ConditionSet._eval_subs"
     ]
   },
@@ -4241,7 +4159,6 @@
   },
   "sympy__sympy-24562": {
     "sympy/core/numbers.py": [
-      "Rational",
       "Rational.__new__"
     ]
   },
