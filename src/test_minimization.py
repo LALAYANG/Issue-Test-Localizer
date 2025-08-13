@@ -412,8 +412,7 @@ def process_instance(
 
 def main(coverage_dir, test_log_dir, suspicious_info, dataset, log_dir, model_name, result_json, prev_results):
     test_logs = get_log_file(test_log_dir)
-    refix = ['astropy__astropy-14995', 'django__django-11019', 'django__django-11742', 'django__django-13230', 'django__django-13447', 'django__django-13710', 'django__django-14155', 'django__django-14672', 'django__django-14730', 'django__django-14999', 'django__django-15213', 'django__django-15320', 'django__django-16041', 'matplotlib__matplotlib-23562', 'matplotlib__matplotlib-23563', 'matplotlib__matplotlib-23913', 'matplotlib__matplotlib-25079', 'matplotlib__matplotlib-25442', 'matplotlib__matplotlib-26020', 'mwaskom__seaborn-2848', 'psf__requests-2148', 'psf__requests-2674', 'pytest-dev__pytest-5103', 'pytest-dev__pytest-5692', 'scikit-learn__scikit-learn-10297', 'scikit-learn__scikit-learn-10508', 'scikit-learn__scikit-learn-12471', 'scikit-learn__scikit-learn-13241', 'scikit-learn__scikit-learn-14087', 'scikit-learn__scikit-learn-25747', 'sympy__sympy-12481', 'sympy__sympy-13471', 'sympy__sympy-13480', 'sympy__sympy-14396', 'sympy__sympy-15308', 'sympy__sympy-16792', 'sympy__sympy-18621', 'sympy__sympy-21614', 'sympy__sympy-23117', 'sympy__sympy-23191', 'sympy__sympy-24909']
-
+    refix = []
     print(f"{len(refix)} instances to rerun")
     for instance_id, log_file in test_logs.items():
         if instance_id in prev_results and instance_id not in refix:
