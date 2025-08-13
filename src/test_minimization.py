@@ -233,7 +233,7 @@ def get_func_lines_code(repo, base_commit, file, fq_funcs, repo_base_dir = "temp
     return res, repo_dir
 
 def query_coverage_data(
-    instance_id, tests, modified_file, modified_lines, cov_dir_base, logger
+    instance_id, modified_file, modified_lines, cov_dir_base, logger
 ):
     # print(modified_file, modified_lines)
     cov_dir = os.path.join(cov_dir_base, instance_id)
@@ -321,6 +321,8 @@ def minimize_tests(line_to_tests, file, func, function_body, logger, filtered_te
                 except Exception as e:
                     logger.error(f"Error occurred while prompting model: {e}")
                     logger.error(f"Remove function body due to token limits")
+                    import time
+                    time.sleep(30)  # wait for a while before retrying
                     chosen_test = prompt_model_to_select_test(
                         candidates, file, func, {}, logger, model_name
                     )
@@ -335,15 +337,15 @@ def minimize_tests(line_to_tests, file, func, function_body, logger, filtered_te
     return list(set(selected_tests))
 
 def process_instance(
-    instance_id, tests, suspicious_info, cov_dir, log_dir, dataset, model_name, result_json
+    instance_id, passed_tests, suspicious_info, cov_dir, log_dir, dataset, model_name, result_json
 ):
     logger = setup_logger(instance_id, log_dir)
 
-    if len(tests) <= 5 and len(tests) > 0:
+    if len(passed_tests) <= 5 and len(passed_tests) > 0:
         logger.info(
-            f"Instance {instance_id} has {len(tests)} tests, skip minimization!"
+            f"Instance {instance_id} has {len(passed_tests)} tests, skip minimization!"
         )
-        return (instance_id, tests)
+        return (instance_id, passed_tests)
 
     if instance_id not in suspicious_info:
         logger.warning(
@@ -367,7 +369,7 @@ def process_instance(
         for func in linenos:
             lines, func_code = linenos[func]
             result = query_coverage_data(
-                instance_id, tests, file, lines, cov_dir, logger
+                instance_id, file, lines, cov_dir, logger
             )
             
             if result == None:
@@ -383,8 +385,10 @@ def process_instance(
     # Log before minimization
     all_tests = set(t for testlist in combined_line_to_tests.values() for t in testlist)
     logger.info(f"\n#Before Minimization: {len(all_tests)} unique tests")
+    passed_all_tests = set(t for t in all_tests if t in passed_tests)
+    logger.info(f"Passed tests before minimization: {len(passed_all_tests)}")
 
-    tests = list(all_tests)
+    tests = list(passed_all_tests)
 
     # Perform minimization on combined coverage
     file_str = ", ".join(sorted(set(f for f, _ in function_info)))
