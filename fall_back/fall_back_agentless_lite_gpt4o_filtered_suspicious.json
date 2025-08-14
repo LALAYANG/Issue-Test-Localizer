@@ -1,0 +1,441 @@
+[
+  {
+    "instance_id": "sympy__sympy-15678",
+    "file_function": {
+      "sympy/geometry/tests/test_util.py": [
+        "test_idiff"
+      ],
+      "sympy/utilities/tests/test_wester.py": [
+        "test_U8"
+      ]
+    }
+  },
+  {
+    "instance_id": "pytest-dev__pytest-5227",
+    "file_function": {
+      "testing/logging/test_formatter.py": [
+        "test_coloredlogformatter"
+      ],
+      "testing/logging/test_reporting.py": [
+        "section"
+      ]
+    }
+  },
+  {
+    "instance_id": "sympy__sympy-11400",
+    "file_function": {
+      "sympy/printing/tests/test_ccode.py": [
+        "test_ccode_Indexed"
+      ]
+    }
+  },
+  {
+    "instance_id": "pallets__flask-4045",
+    "file_function": {
+      "tests/test_async.py": [
+        "_async_app",
+        "index"
+      ],
+      "tests/test_cli.py": [
+        "test_cli_blueprints",
+        "test_cli_empty"
+      ]
+    }
+  },
+  {
+    "instance_id": "sympy__sympy-21627",
+    "file_function": {
+      "sympy/parsing/autolev/test-examples/ruletest7.py": [],
+      "sympy/solvers/tests/test_solveset.py": [
+        "test_solve_hyperbolic",
+        "test_solve_trig_hyp_symbolic",
+        "test_is_lambert"
+      ],
+      "sympy/solvers/tests/test_constantsimp.py": [
+        "test_ode_solutions"
+      ],
+      "sympy/solvers/tests/test_solvers.py": [
+        "test_solve_transcendental",
+        "test_issue_4671_4463_4467",
+        "s_check",
+        "test_issue_21034"
+      ],
+      "sympy/solvers/ode/tests/test_single.py": [
+        "_get_examples_ode_sol_2nd_nonlinear_autonomous_conserved",
+        "_get_examples_ode_sol_1st_homogeneous_coeff_best"
+      ],
+      "sympy/solvers/ode/tests/test_ode.py": [
+        "test_issue_5112_5430"
+      ],
+      "sympy/series/tests/test_formal.py": [
+        "test_fps__hyper"
+      ],
+      "sympy/series/tests/test_nseries.py": [
+        "test_hyperbolic"
+      ],
+      "sympy/series/tests/test_gruntz.py": [
+        "test_gruntz_hyperbolic"
+      ],
+      "sympy/vector/tests/test_coordsysrect.py": [
+        "test_check_orthogonality"
+      ],
+      "sympy/printing/tests/test_tensorflow.py": [
+        "test_tensorflow_math"
+      ],
+      "sympy/printing/tests/test_jscode.py": [
+        "test_jscode_functions"
+      ],
+      "sympy/printing/tests/test_c.py": [
+        "check"
+      ],
+      "sympy/printing/tests/test_mathml.py": [
+        "test_content_mathml_trig",
+        "test_presentation_mathml_trig"
+      ],
+      "sympy/core/tests/test_power.py": [
+        "test_issue_17450"
+      ],
+      "sympy/core/tests/test_args.py": [
+        "test_sympy__functions__elementary__hyperbolic__acosh",
+        "test_sympy__functions__elementary__hyperbolic__cosh"
+      ],
+      "sympy/core/tests/test_evalf.py": [
+        "test_issue_17421"
+      ],
+      "sympy/core/tests/test_complex.py": [
+        "test_conjugate",
+        "test_evalc",
+        "test_issue_5236"
+      ],
+      "sympy/simplify/tests/test_simplify.py": [
+        "test_besselsimp",
+        "test_issue_6920"
+      ],
+      "sympy/simplify/tests/test_trigsimp.py": [
+        "test_trigsimp1",
+        "test_trigsimp1a",
+        "test_issue_3210",
+        "test_trigsimp_issue_7761",
+        "test_trigsimp_noncommutative",
+        "test_hyperbolic_simp",
+        "valid",
+        "test_issue_21594",
+        "test_trigsimp_old"
+      ],
+      "sympy/simplify/tests/test_fu.py": [
+        "test_hyper_as_trig"
+      ],
+      "sympy/holonomic/tests/test_holonomic.py": [
+        "test_expr_to_holonomic",
+        "test_to_expr"
+      ],
+      "sympy/functions/elementary/tests/test_trigonometric.py": [
+        "test_sin_rewrite",
+        "test_cos",
+        "test_cos_rewrite",
+        "test_tan_rewrite",
+        "test_cot_rewrite",
+        "test_real_imag",
+        "test_sec",
+        "test_csc"
+      ],
+      "sympy/functions/elementary/tests/test_exponential.py": [
+        "test_exp_rewrite"
+      ],
+      "sympy/functions/elementary/tests/test_hyperbolic.py": [
+        "test_sinh",
+        "test_cosh",
+        "test_cosh_series",
+        "test_cosh_fdiff",
+        "test_tanh",
+        "test_coth",
+        "test_csch",
+        "test_sech",
+        "test_acosh",
+        "test_acosh_rewrite",
+        "test_acosh_series",
+        "test_acosh_fdiff",
+        "test_asech",
+        "test_inverses",
+        "test_leading_term",
+        "test_complex",
+        "test_simplifications",
+        "test_issue_4136",
+        "test_sinh_rewrite",
+        "test_cosh_rewrite",
+        "test_tanh_rewrite",
+        "test_coth_rewrite",
+        "test_csch_rewrite",
+        "test_derivs",
+        "test_sinh_expansion",
+        "test_cosh_expansion",
+        "test_cosh_positive",
+        "test_cosh_nonnegative",
+        "test_real_assumptions",
+        "test_sign_assumptions"
+      ],
+      "sympy/functions/special/tests/test_error_functions.py": [
+        "test_ci"
+      ],
+      "sympy/functions/special/tests/test_bessel.py": [
+        "test_expand"
+      ],
+      "sympy/plotting/intervalmath/tests/test_interval_functions.py": [
+        "test_cosh",
+        "test_acosh"
+      ],
+      "sympy/integrals/tests/test_integrals.py": [
+        "test_issue_4403",
+        "test_issue_4492",
+        "test_issue_8368",
+        "test_issue_8901",
+        "test_issue_14064",
+        "test_issue_21034"
+      ],
+      "sympy/integrals/tests/test_meijerint.py": [
+        "test_expint",
+        "test_messy",
+        "test_issue_8368"
+      ],
+      "sympy/integrals/tests/test_transforms.py": [
+        "test_issue_8368_7173",
+        "simp_hyp",
+        "test_issue_7173"
+      ],
+      "sympy/integrals/tests/test_manual.py": [
+        "test_manualintegrate_inversetrig",
+        "test_manualintegrate_special"
+      ],
+      "sympy/integrals/tests/test_heurisch.py": [
+        "test_heurisch_trigonometric",
+        "test_heurisch_hyperbolic"
+      ],
+      "sympy/integrals/rubi/tests/test_utility_function.py": [
+        "test_ArcCosh",
+        "test_HyperbolicQ",
+        "test_SinhQ",
+        "test_CoshQ",
+        "test_SinhCoshQ",
+        "test_InverseHyperbolicQ",
+        "test_InverseFunctionQ",
+        "test_PureFunctionOfSinhQ",
+        "test_PureFunctionOfTanhQ",
+        "test_PureFunctionOfCoshQ",
+        "test_FunctionOfCoshQ",
+        "test_SubstForHyperbolic",
+        "test_TryTanhSubst",
+        "test_TrigReduce"
+      ],
+      "sympy/integrals/rubi/rubi_tests/tests/test_hyperbolic_sine.py": [
+        "test_1"
+      ],
+      "sympy/integrals/rubi/rubi_tests/tests/test_logarithms.py": [
+        "test_2"
+      ],
+      "sympy/integrals/rubi/rubi_tests/tests/test_miscellaneous_algebra.py": [
+        "test_2",
+        "test_4"
+      ],
+      "sympy/polys/tests/test_ring_series.py": [
+        "test_cosh",
+        "test_puiseux"
+      ],
+      "sympy/stats/tests/test_continuous_rv.py": [
+        "test_moment_generating_function"
+      ],
+      "sympy/external/tests/test_codegen.py": [
+        "test_intrinsic_math1_codegen"
+      ],
+      "sympy/utilities/tests/test_wester.py": [
+        "test_K5",
+        "test_V7",
+        "test_X10",
+        "test_X11",
+        "test_Y3"
+      ],
+      "sympy/utilities/tests/test_lambdify.py": [
+        "test_numpy_numexpr"
+      ],
+      "sympy/utilities/tests/test_codegen.py": [
+        "test_ansi_math1_codegen",
+        "test_intrinsic_math_codegen"
+      ]
+    }
+  },
+  {
+    "instance_id": "pytest-dev__pytest-5103",
+    "file_function": {
+      "testing/test_assertion.py": [
+        "callequal",
+        "test_reprcompare_notin",
+        "test_reprcompare_whitespaces"
+      ],
+      "testing/test_assertrewrite.py": [
+        "rewrite",
+        "test_remember_rewritten_modules",
+        "spy_write_pyc",
+        "spy_imp_find_module"
+      ],
+      "src/_pytest/pytester.py": [
+        "inline_run",
+        "revert_warn_already_imported"
+      ]
+    }
+  },
+  {
+    "instance_id": "django__django-16255",
+    "file_function": {
+      "tests/sitemaps_tests/test_http.py": [
+        "test_sitemap_get_urls_no_site_1",
+        "test_sitemap_get_urls_no_site_2",
+        "test_sitemap_item"
+      ],
+      "tests/sitemaps_tests/test_generic.py": [
+        "test_generic_sitemap_attributes",
+        "test_get_protocol_defined_in_constructor",
+        "test_get_protocol_passed_as_argument",
+        "test_get_protocol_default",
+        "test_get_protocol_default_warning"
+      ]
+    }
+  },
+  {
+    "instance_id": "sympy__sympy-22840",
+    "file_function": {
+      "sympy/printing/tests/test_llvmjit.py": [
+        "test_cse",
+        "test_cse_multiple",
+        "test_callback_cubature_multiple"
+      ],
+      "sympy/core/tests/test_subs.py": [
+        "test_derivative_subs",
+        "test_issue_6559"
+      ],
+      "sympy/simplify/tests/test_cse.py": [
+        "test_preprocess_for_cse",
+        "test_postprocess_for_cse",
+        "test_cse_single",
+        "test_cse_single2",
+        "test_cse_not_possible",
+        "test_nested_substitution",
+        "test_subtraction_opt",
+        "test_multiple_expressions",
+        "test_non_commutative_cse",
+        "test_bypass_non_commutatives",
+        "test_non_commutative_order",
+        "test_issue_10228",
+        "test_powers",
+        "test_issue_4498",
+        "test_issue_4020",
+        "test_issue_4203",
+        "test_issue_6263",
+        "test_dont_cse_tuples",
+        "test_pow_invpow",
+        "test_postprocess",
+        "test_issue_4499",
+        "test_issue_6169",
+        "test_cse_Indexed",
+        "test_cse_MatrixSymbol",
+        "test_cse_MatrixExpr",
+        "test_Piecewise",
+        "test_ignore_order_terms",
+        "test_name_conflict",
+        "test_name_conflict_cust_symbols",
+        "test_symbols_exhausted_error",
+        "test_issue_7840",
+        "test_issue_8891",
+        "test_issue_11230",
+        "check",
+        "test_hollow_rejection",
+        "test_cse_ignore",
+        "test_cse_ignore_issue_15002",
+        "test_cse__performance",
+        "test_issue_12070",
+        "test_issue_13000",
+        "test_issue_18203",
+        "test_unevaluated_mul",
+        "test_cse_release_variables",
+        "test_cse_list",
+        "test_unevaluated_Mul"
+      ],
+      "sympy/codegen/tests/test_ast.py": [
+        "test_CodeBlock_cse",
+        "test_CodeBlock_cse__issue_14118"
+      ],
+      "sympy/utilities/tests/test_lambdify.py": [
+        "minmem"
+      ]
+    }
+  },
+  {
+    "instance_id": "django__django-13448",
+    "file_function": {
+      "tests/backends/base/test_creation.py": [
+        "test_default_name",
+        "test_custom_test_name",
+        "test_custom_test_name_with_test_prefix"
+      ]
+    }
+  },
+  {
+    "instance_id": "pytest-dev__pytest-5221",
+    "file_function": {
+      "doc/en/example/costlysetup/conftest.py": [
+        "setup"
+      ],
+      "testing/test_junitxml.py": [
+        "test_unicode_issue368",
+        "test_global_properties",
+        "test_url_property"
+      ],
+      "testing/test_pathlib.py": [
+        "match_"
+      ],
+      "testing/test_doctest.py": [
+        "makeit"
+      ],
+      "testing/test_capture.py": [
+        "test_getmethod_default_no_fd"
+      ],
+      "testing/test_conftest.py": [
+        "basedir"
+      ],
+      "testing/test_terminal.py": [
+        "option",
+        "test_internalerror",
+        "test_writeline",
+        "test_show_runtest_logstart",
+        "test_rewrite"
+      ],
+      "testing/test_nose.py": [
+        "f"
+      ],
+      "testing/example_scripts/unittest/test_parametrized_fixture_error_message.py": [
+        "two"
+      ],
+      "src/_pytest/unittest.py": [
+        "collect",
+        "_inject_setup_teardown_fixtures",
+        "fixture"
+      ],
+      "src/_pytest/pytester.py": [
+        "LineMatcher_fixture",
+        "getnode",
+        "getpathnode"
+      ],
+      "src/_pytest/doctest.py": [
+        "doctest_namespace"
+      ]
+    }
+  },
+  {
+    "instance_id": "sympy__sympy-22005",
+    "file_function": {
+      "sympy/solvers/tests/test_polysys.py": [
+        "test_solve_poly_system",
+        "test_solve_biquadratic",
+        "test_solve_issue_3686"
+      ]
+    }
+  }
+]

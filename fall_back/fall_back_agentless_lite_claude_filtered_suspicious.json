@@ -1,0 +1,246 @@
+[
+  {
+    "instance_id": "pytest-dev__pytest-5227",
+    "file_function": {
+      "testing/logging/test_formatter.py": [
+        "test_coloredlogformatter"
+      ],
+      "testing/logging/test_reporting.py": [
+        "section"
+      ]
+    }
+  },
+  {
+    "instance_id": "sympy__sympy-13437",
+    "file_function": {
+      "sympy/parsing/tests/test_sympy_parser.py": [
+        "test_sympy_parser"
+      ],
+      "sympy/series/tests/test_limits.py": [
+        "test_basic1",
+        "test_basic2",
+        "test_basic3",
+        "test_basic4",
+        "eval",
+        "test_issue_3885",
+        "test_issue_10382",
+        "test_Limit",
+        "test_floor",
+        "test_floor_requires_robust_assumptions",
+        "test_ceiling",
+        "test_ceiling_requires_robust_assumptions",
+        "test_atan",
+        "test_abs",
+        "test_heuristic",
+        "test_issue_3871",
+        "test_exponential",
+        "test_exponential2",
+        "test_doit",
+        "test_AccumBounds",
+        "test_doit2",
+        "test_issue_3792",
+        "test_issue_4090",
+        "test_issue_4547",
+        "test_issue_5164",
+        "test_issue_5183",
+        "test_issue_5184",
+        "test_issue_5229",
+        "test_issue_4546",
+        "test_issue_3934",
+        "test_calculate_series",
+        "test_issue_5955",
+        "test_newissue",
+        "test_extended_real_line",
+        "test_order_oo",
+        "test_issue_5436",
+        "test_Limit_dir",
+        "test_polynomial",
+        "test_rational",
+        "test_issue_5740",
+        "test_issue_6366",
+        "test_factorial",
+        "test_issue_6560",
+        "test_issue_5172",
+        "test_issue_7088",
+        "test_issue_6364",
+        "test_issue_4099",
+        "test_issue_4503",
+        "test_issue_8730",
+        "test_issue_10801",
+        "test_issue_9205",
+        "test_limit_seq",
+        "test_issue_11879",
+        "test_limit_with_Float",
+        "test_issue_10610",
+        "test_issue_6599",
+        "test_issue_12555"
+      ],
+      "sympy/series/tests/test_nseries.py": [
+        "test_issue_4329"
+      ],
+      "sympy/series/tests/test_order.py": [
+        "test_order_subs_limits"
+      ],
+      "sympy/series/tests/test_demidovich.py": [
+        "test_Limits_simple_0",
+        "test_Limits_simple_1",
+        "test_Limits_simple_2",
+        "test_Limits_simple_3a",
+        "test_Limits_simple_3b",
+        "test_Limits_simple_4a",
+        "test_limits_simple_4aa",
+        "test_Limits_simple_4b",
+        "test_Limits_simple_4c",
+        "test_bounded",
+        "test_f1a",
+        "test_f1a2",
+        "test_f1b",
+        "test_f2a",
+        "test_f2",
+        "test_f3"
+      ],
+      "sympy/printing/tests/test_python.py": [
+        "test_python_limits"
+      ],
+      "sympy/printing/tests/test_str.py": [
+        "test_Limit"
+      ],
+      "sympy/printing/tests/test_conventions.py": [
+        "test_requires_partial"
+      ],
+      "sympy/printing/tests/test_latex.py": [
+        "test_latex_limits"
+      ],
+      "sympy/printing/tests/test_mathml.py": [
+        "test_mathml_limits"
+      ],
+      "sympy/printing/pretty/tests/test_pretty.py": [
+        "test_pretty_limits"
+      ],
+      "sympy/core/tests/test_args.py": [
+        "test_sympy__functions__combinatorial__numbers__bell",
+        "test_sympy__series__limits__Limit"
+      ],
+      "sympy/functions/elementary/tests/test_interface.py": [
+        "eval"
+      ],
+      "sympy/functions/combinatorial/tests/test_comb_numbers.py": [
+        "test_fibonacci",
+        "test_bell",
+        "test_harmonic_limit_fail"
+      ],
+      "sympy/functions/special/tests/test_hyper.py": [
+        "test_limits"
+      ],
+      "sympy/functions/special/tests/test_error_functions.py": [
+        "test_erf",
+        "test_ci"
+      ],
+      "sympy/matrices/tests/test_matrices.py": [
+        "test_issue_3749",
+        "test_limit"
+      ],
+      "sympy/matrices/tests/test_commonmatrix.py": [
+        "test_limit"
+      ],
+      "sympy/utilities/tests/test_pickling.py": [
+        "test_series"
+      ],
+      "sympy/utilities/tests/test_iterables.py": [
+        "test_bell_perm"
+      ],
+      "sympy/utilities/tests/test_wester.py": [
+        "test_I11",
+        "test_T1",
+        "test_T2",
+        "test_T3",
+        "test_T4",
+        "test_T5",
+        "test_T6",
+        "test_T7",
+        "test_T8",
+        "test_T9",
+        "test_T10",
+        "test_T11",
+        "test_T12",
+        "test_T13",
+        "test_T14"
+      ]
+    }
+  },
+  {
+    "instance_id": "pallets__flask-4045",
+    "file_function": {
+      "tests/test_async.py": [
+        "_async_app",
+        "index"
+      ],
+      "tests/test_cli.py": [
+        "test_cli_blueprints",
+        "test_cli_empty"
+      ]
+    }
+  },
+  {
+    "instance_id": "sympy__sympy-16106",
+    "file_function": {
+      "sympy/printing/tests/test_mathml.py": [
+        "test_content_mathml_order",
+        "test_presentation_mathml_order"
+      ],
+      "sympy/utilities/tests/test_pickling.py": [
+        "test_printing1",
+        "test_printing2"
+      ]
+    }
+  },
+  {
+    "instance_id": "sympy__sympy-17139",
+    "file_function": {
+      "sympy/simplify/tests/test_fu.py": [
+        "test_TR6"
+      ]
+    }
+  },
+  {
+    "instance_id": "django__django-16255",
+    "file_function": {
+      "tests/sitemaps_tests/test_http.py": [
+        "test_sitemap_get_urls_no_site_1",
+        "test_sitemap_get_urls_no_site_2",
+        "test_sitemap_item"
+      ],
+      "tests/sitemaps_tests/test_generic.py": [
+        "test_generic_sitemap_attributes",
+        "test_get_protocol_defined_in_constructor",
+        "test_get_protocol_passed_as_argument",
+        "test_get_protocol_default",
+        "test_get_protocol_default_warning"
+      ]
+    }
+  },
+  {
+    "instance_id": "pytest-dev__pytest-5221",
+    "file_function": {
+      "testing/test_capture.py": [
+        "test_getmethod_default_no_fd"
+      ]
+    }
+  },
+  {
+    "instance_id": "django__django-15781",
+    "file_function": {
+      "tests/user_commands/tests.py": [
+        "patched_check",
+        "test_create_parser_kwargs"
+      ],
+      "tests/admin_scripts/tests.py": [
+        "test_no_color_force_color_mutually_exclusive_execute",
+        "test_no_color_force_color_mutually_exclusive_command_init",
+        "test_base_run_from_argv",
+        "raise_command_error",
+        "test_run_from_argv_closes_connections"
+      ]
+    }
+  }
+]
