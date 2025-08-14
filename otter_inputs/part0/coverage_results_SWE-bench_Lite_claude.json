@@ -757,7 +757,7 @@
   {
     "instance_id": "psf__requests-2317",
     "file_function": {
-      "test_requests.py": [
+      "tests/test_requests.py": [
         "test_HTTP_200_OK_GET_WITH_PARAMS",
         "test_BASICAUTH_TUPLE_HTTP_200_OK_GET",
         "test_HTTP_200_OK_PUT"
@@ -1372,7 +1372,7 @@
   {
     "instance_id": "psf__requests-1963",
     "file_function": {
-      "test_requests.py": [
+      "tests/test_requests.py": [
         "test_DIGEST_HTTP_200_OK_GET",
         "test_uppercase_scheme_redirect",
         "test_stream_timeout",
@@ -1425,7 +1425,7 @@
   {
     "instance_id": "psf__requests-2148",
     "file_function": {
-      "test_requests.py": [
+      "tests/test_requests.py": [
         "test_DIGEST_STREAM",
         "test_user_agent_transfers",
         "test_response_decode_unicode",
@@ -1596,7 +1596,7 @@
   {
     "instance_id": "matplotlib__matplotlib-25332",
     "file_function": {
-      "matplotlib/testing/decorators.py": [
+      "lib/matplotlib/testing/decorators.py": [
         "test_pickle_load_from_subprocess"
       ],
       "lib/matplotlib/tests/test_figure.py": [
@@ -4241,7 +4241,7 @@
   {
     "instance_id": "psf__requests-2674",
     "file_function": {
-      "test_requests.py": [
+      "tests/test_requests.py": [
         "test_connection_error_invalid_port",
         "test_DIGEST_HTTP_200_OK_GET",
         "test_total_timeout_connect",
