@@ -210,6 +210,7 @@
       ],
       "lib/matplotlib/tests/test_colorbar.py": [
         "test_colorbar_contourf_extend_patches",
+        "test_remove_cb_whose_mappable_has_no_figure",
         "test_colorbar_extension_length",
         "test_remove_from_figure_cl",
         "test_cbar_minorticks_for_rc_xyminortickvisible",
@@ -229,6 +230,7 @@
       "lib/matplotlib/tests/test_image.py": [
         "test_jpeg_alpha",
         "test_imsave_color_alpha",
+        "test_str_norms",
         "test_imshow_quantitynd"
       ],
       "lib/matplotlib/tests/test_contour.py": [
@@ -1208,6 +1210,15 @@
   {
     "instance_id": "django__django-16820",
     "file_function": {
+      "tests/migrations/test_operations.py": [
+        "test_remove_index",
+        "test_add_index"
+      ],
+      "tests/migrations/test_autodetector.py": [
+        "test_remove_field_and_index_together",
+        "test_index_together_ordering",
+        "test_same_app_circular_fk_dependency_with_unique_together_and_indexes"
+      ],
       "tests/migrations/test_optimizer/OptimizerTests/test_add_remove_index.py": [
         "test_add_remove_index"
       ],
@@ -1455,7 +1466,11 @@
   },
   {
     "instance_id": "django__django-10924",
-    "file_function": {}
+    "file_function": {
+      "tests/model_forms/tests.py": [
+        "test_file_path_field_blank"
+      ]
+    }
   },
   {
     "instance_id": "django__django-12856",
@@ -1581,6 +1596,9 @@
   {
     "instance_id": "matplotlib__matplotlib-25332",
     "file_function": {
+      "matplotlib/testing/decorators.py": [
+        "test_pickle_load_from_subprocess"
+      ],
       "lib/matplotlib/tests/test_figure.py": [
         "test_deepcopy"
       ],
@@ -1772,6 +1790,7 @@
         "test_mismatched_ticklabels",
         "test_displaced_spine",
         "test_set_noniterable_ticklabels",
+        "test_set_ticks_with_labels",
         "test_nodecorator"
       ],
       "lib/matplotlib/tests/test_text.py": [
@@ -1792,7 +1811,11 @@
   },
   {
     "instance_id": "django__django-16527",
-    "file_function": {}
+    "file_function": {
+      "tests/admin_views/tests.py": [
+        "test_change_view"
+      ]
+    }
   },
   {
     "instance_id": "sphinx-doc__sphinx-7686",
@@ -2047,6 +2070,16 @@
       "tests/admin_checks/tests/SystemChecksTestCase/test_readonly_lambda.py": [
         "test_readonly_lambda"
       ],
+      "tests/admin_checks/tests.py": [
+        "test_non_model_fields",
+        "test_exclude_inline_model_admin",
+        "test_non_model_first_field",
+        "test_fk_exclusion",
+        "test_fieldsets_fields_non_tuple",
+        "test_custom_get_form_with_fieldsets",
+        "test_exclude_values",
+        "test_graceful_m2m_fail"
+      ],
       "tests/admin_checks/tests/SystemChecksTestCase/test_readonly_and_editable.py": [
         "test_readonly_and_editable"
       ],
@@ -2064,6 +2097,9 @@
       ],
       "tests/admin_checks/tests/SystemChecksTestCase/test_check_sublists_for_duplicates.py": [
         "test_check_sublists_for_duplicates"
+      ],
+      "tests/admin_views/tests.py": [
+        "test_check"
       ],
       "tests/admin_checks/tests/SystemChecksTestCase/test_nonexistent_field.py": [
         "test_nonexistent_field"
@@ -2229,11 +2265,13 @@
         "test_axes3d_focal_length_checks",
         "test_bar3d_lightsource",
         "test_add_collection3d_zs_array",
+        "test_contourf3d_extend",
         "test_colorbar_pos",
         "test_wireframe3dzerostrideraises",
         "test_scatter3d",
         "test_errorbar3d",
         "test_shared_axes_retick",
+        "test_quiver3d_empty",
         "test_patch_modification",
         "test_axes3d_isometric",
         "test_contour3d",
@@ -2263,6 +2301,15 @@
       ],
       "lib/matplotlib/tests/test_collections.py": [
         "test_polycollection_close"
+      ]
+    }
+  },
+  {
+    "instance_id": "matplotlib__matplotlib-25442",
+    "file_function": {
+      "lib/matplotlib/tests/test_offsetbox.py": [
+        "test_annotationbbox_extents",
+        "test_picking"
       ]
     }
   },
@@ -3300,6 +3347,7 @@
         "test_legend_labelcolor_markeredgecolor",
         "test_get_set_draggable",
         "test_legend_pathcollection_labelcolor_markeredgecolor_iterable",
+        "test_reverse_legend_display",
         "test_legend_pathcollection_labelcolor_markfacecolor_cmap",
         "test_legend_pathcollection_labelcolor_markerfacecolor_iterable",
         "test_legend_set_alignment",
@@ -3337,6 +3385,16 @@
   {
     "instance_id": "django__django-16910",
     "file_function": {
+      "tests/prefetch_related/tests.py": [
+        "test_filter_deferred"
+      ],
+      "tests/select_related/tests.py": [
+        "test_select_related_after_values",
+        "test_select_related_after_values_list"
+      ],
+      "tests/select_related_regress/tests.py": [
+        "test_regression_12851"
+      ],
       "tests/select_related/tests/SelectRelatedTests/test_none_clears_list.py": [
         "test_none_clears_list"
       ],
@@ -3984,17 +4042,28 @@
   },
   {
     "instance_id": "django__django-13658",
-    "file_function": {}
+    "file_function": {
+      "tests/bash_completion/tests.py": [
+        "test_completed_subcommand",
+        "test_manage_py",
+        "test_subcommands",
+        "test_django_admin_py"
+      ],
+      "tests/user_commands/tests.py": [
+        "test_system_exit"
+      ]
+    }
   },
   {
     "instance_id": "matplotlib__matplotlib-23476",
     "file_function": {
+      "lib/matplotlib/tests/test_pickle.py": [
+        "test_complete",
+        "test_polar"
+      ],
       "lib/matplotlib/tests/test_figure.py": [
         "test_savefig_pixel_ratio",
         "test_deepcopy"
-      ],
-      "lib/matplotlib/tests/test_pickle.py": [
-        "test_polar"
       ]
     }
   },
@@ -4068,7 +4137,16 @@
   },
   {
     "instance_id": "django__django-16595",
-    "file_function": {}
+    "file_function": {
+      "tests/migrations/test_commands.py": [
+        "test_makemigrations_interactive_not_null_alteration",
+        "test_makemigrations_interactive_not_null_addition"
+      ],
+      "tests/migrations/test_optimizer.py": [
+        "test_alter_field_delete_field",
+        "test_alter_field_rename_field"
+      ]
+    }
   },
   {
     "instance_id": "sympy__sympy-18087",
@@ -4850,6 +4928,15 @@
     }
   },
   {
+    "instance_id": "sympy__sympy-13971",
+    "file_function": {
+      "sympy/printing/tests/test_latex.py": [
+        "test_latex_sequences",
+        "test_latex_Range"
+      ]
+    }
+  },
+  {
     "instance_id": "sympy__sympy-20154",
     "file_function": {
       "sympy/utilities/tests/test_iterables.py": [
@@ -4874,6 +4961,17 @@
         "test_overflow_translation",
         "test_overflow",
         "test_durationfield_integer_value"
+      ]
+    }
+  },
+  {
+    "instance_id": "sympy__sympy-14317",
+    "file_function": {
+      "sympy/printing/tests/test_latex.py": [
+        "test_latex_Poly",
+        "test_Modules",
+        "test_QuotientRing",
+        "test_PolynomialRingBase"
       ]
     }
   },
