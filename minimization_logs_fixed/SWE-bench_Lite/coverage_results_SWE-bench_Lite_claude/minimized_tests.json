@@ -3164,7 +3164,10 @@
         "sklearn.neighbors.tests.test_nca.test_convergence_warning"
     ],
     "pydata__xarray-5131": [],
-    "sympy__sympy-13971": [],
+    "sympy__sympy-13971": [
+        "sympy.printing.tests.test_latex.test_latex_sequences",
+        "sympy.printing.tests.test_latex.test_latex_Range"
+    ],
     "sympy__sympy-20154": [
         "sympy.utilities.tests.test_iterables.test_partitions"
     ],
@@ -3178,7 +3181,12 @@
         "forms_tests.field_tests.test_durationfield.DurationFieldTest.test_overflow",
         "forms_tests.field_tests.test_durationfield.DurationFieldTest.test_durationfield_integer_value"
     ],
-    "sympy__sympy-14317": [],
+    "sympy__sympy-14317": [
+        "sympy.printing.tests.test_latex.test_latex_Poly",
+        "sympy.printing.tests.test_latex.test_Modules",
+        "sympy.printing.tests.test_latex.test_QuotientRing",
+        "sympy.printing.tests.test_latex.test_PolynomialRingBase"
+    ],
     "django__django-15695": [
         "migrations.test_operations.OperationTests.test_rename_index_unknown_unnamed_index",
         "migrations.test_operations.OperationTests.test_rename_index",
