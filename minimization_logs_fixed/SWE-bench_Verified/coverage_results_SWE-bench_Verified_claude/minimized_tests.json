@@ -713,7 +713,18 @@
         "xarray.tests.test_dataarray.TestDataArray.test_stack_unstack",
         "xarray.tests.test_dataset.TestDataset.test_to_stacked_array_to_unstacked_dataset_different_dimension"
     ],
-    "matplotlib__matplotlib-23299": [],
+    "matplotlib__matplotlib-23299": [
+        "matplotlib.tests.test_figure.test_too_many_figures",
+        "matplotlib.tests.test_figure.test_clf_keyword",
+        "matplotlib.tests.test_figure.test_figure",
+        "matplotlib.tests.test_rcparams.test_rcparams",
+        "matplotlib.tests.test_pyplot.test_pyplot_box",
+        "matplotlib.tests.test_pyplot.test_ion",
+        "matplotlib.tests.test_pyplot.test_ioff",
+        "matplotlib.tests.test_figure.test_figure_label",
+        "matplotlib.tests.test_backend_template.test_new_manager",
+        "matplotlib.tests.test_pyplot.test_nested_ion_ioff"
+    ],
     "scikit-learn__scikit-learn-10908": [
         "sklearn.feature_extraction.tests.test_text.test_count_vectorizer_max_features",
         "sklearn.feature_extraction.tests.test_text.test_tfidfvectorizer_binary",
@@ -1323,7 +1334,13 @@
         "admin_views.tests.AdminKeepChangeListFiltersTests.test_add_view",
         "admin_widgets.tests.AdminFormfieldForDBFieldTests.test_field_with_choices"
     ],
-    "pydata__xarray-6599": [],
+    "pydata__xarray-6599": [
+        "xarray.tests.test_duck_array_ops.test_datetime_to_numeric_cftime",
+        "xarray.tests.test_duck_array_ops.test_datetime_to_numeric_datetime64",
+        "xarray.tests.test_duck_array_ops.test_timedelta_to_numeric",
+        "xarray.tests.test_duck_array_ops.test_pd_timedelta_to_float",
+        "xarray.tests.test_duck_array_ops.test_cftime_datetime_mean"
+    ],
     "django__django-11451": [
         "auth_tests.test_remote_user.RemoteUserTest.test_user_switch_forces_new_login",
         "auth_tests.test_forms.AuthenticationFormTest.test_inactive_user",
@@ -1354,7 +1371,9 @@
         "sympy.matrices.tests.test_matrices.test_col_insert",
         "sympy.matrices.tests.test_commonmatrix.test_col_insert"
     ],
-    "astropy__astropy-8707": [],
+    "astropy__astropy-8707": [
+        "astropy.io.fits.tests.test_image.test_bzero_mishandled_info"
+    ],
     "sympy__sympy-23534": [
         "sympy.core.tests.test_symbol.test_symbols",
         "sympy.core.tests.test_function.test_function_assumptions",
@@ -2287,7 +2306,22 @@
         "xarray.tests.test_variable.TestVariable.test_big_endian_reduce",
         "xarray.tests.test_duck_array_ops.test_min_count"
     ],
-    "pydata__xarray-4687": [],
+    "pydata__xarray-4687": [
+        "xarray.tests.test_computation.test_apply_dask",
+        "xarray.tests.test_computation.test_where",
+        "xarray.tests.test_computation.test_output_wrong_dims",
+        "xarray.tests.test_computation.test_apply_two_outputs",
+        "xarray.tests.test_computation.test_output_wrong_dim_size",
+        "xarray.tests.test_computation.test_apply_output_core_dimension",
+        "xarray.tests.test_computation.test_dot",
+        "xarray.tests.test_computation.test_output_wrong_number",
+        "xarray.tests.test_computation.test_dot_align_coords",
+        "xarray.tests.test_computation.test_apply_input_core_dimension",
+        "xarray.tests.test_missing.test_interpolate_dask",
+        "xarray.tests.test_computation.test_apply_exclude",
+        "xarray.tests.test_computation.test_vectorize_dask_new_output_dims",
+        "xarray.tests.test_variable.TestVariable.test_quantile_chunked_dim_error"
+    ],
     "scikit-learn__scikit-learn-26323": [
         "sklearn.compose.tests.test_column_transformer.test_feature_name_validation_missing_columns_drop_passthough",
         "sklearn.compose.tests.test_column_transformer.test_2D_transformer_output",
@@ -3850,7 +3884,12 @@
         "test_pylint_runners.test_runner",
         "test_pylint_runners.test_runner_with_arguments"
     ],
-    "pydata__xarray-6461": [],
+    "pydata__xarray-6461": [
+        "xarray.tests.test_computation.test_dot",
+        "xarray.tests.test_computation.test_where_attrs",
+        "xarray.tests.test_computation.test_dot_align_coords",
+        "xarray.tests.test_computation.test_where"
+    ],
     "django__django-11149": [
         "admin_views.tests.AdminInlineTests.test_simple_inline_permissions",
         "admin_views.tests.AdminViewBasicTest.test_edit_save_as_delete_inline",
@@ -5432,7 +5471,43 @@
         "sympy.combinatorics.tests.test_perm_groups.test_minimal_blocks",
         "sympy.combinatorics.tests.test_perm_groups.test_sylow_subgroup"
     ],
-    "astropy__astropy-8872": [],
+    "astropy__astropy-8872": [
+        "astropy.units.tests.test_quantity_ufuncs.TestQuantityTrigonometricFuncs.test_testexcs",
+        "astropy.units.tests.test_quantity_array_methods.TestArrayConversion.test_not_implemented",
+        "astropy.units.tests.test_quantity_array_methods.TestQuantityStatsFuncs.test_nansum_inplace",
+        "astropy.units.tests.test_equivalencies.test_equivalency_context",
+        "astropy.units.tests.test_quantity_array_methods.TestQuantityStatsFuncs.test_argmin",
+        "astropy.units.tests.test_quantity_array_methods.TestQuantityStatsFuncs.test_ediff1d",
+        "astropy.units.tests.test_quantity_array_methods.TestQuantityStatsFuncs.test_var",
+        "astropy.units.tests.test_quantity_array_methods.TestArrayConversion.test_sort",
+        "astropy.units.tests.test_quantity_array_methods.TestQuantityStatsFuncs.test_diff",
+        "astropy.units.tests.test_quantity_array_methods.TestQuantityArrayCopy.test_flat",
+        "astropy.units.tests.test_quantity_array_methods.TestQuantityReshapeFuncs.test_squeeze",
+        "astropy.units.tests.test_units.test_compose_into_arbitrary_units",
+        "astropy.units.tests.test_units.test_fractional_powers",
+        "astropy.units.tests.test_quantity_array_methods.TestArrayConversion.test_slice",
+        "astropy.units.tests.test_quantity_array_methods.TestArrayConversion.test_item",
+        "astropy.units.tests.test_quantity_array_methods.TestArrayConversion.test_fill",
+        "astropy.units.tests.test_format.test_ogip_grammar",
+        "astropy.units.tests.test_quantity_array_methods.TestQuantityStatsFuncs.test_trace_func",
+        "astropy.units.tests.test_quantity_ufuncs.TestComparisonUfuncs.test_comparison_valid_units",
+        "astropy.units.tests.test_quantity_array_methods.TestArrayConversion.test_take_put",
+        "astropy.units.tests.test_units.test_long_int",
+        "astropy.units.tests.test_quantity_array_methods.TestQuantityStatsFuncs.test_dot_meth",
+        "astropy.units.tests.test_quantity_array_methods.TestQuantityArrayCopy.test_si_copies",
+        "astropy.units.tests.test_quantity_ufuncs.TestInplaceUfuncs.test_two_argument_ufunc_inplace_1",
+        "astropy.units.tests.test_quantity_array_methods.TestQuantityStatsFuncs.test_round",
+        "astropy.units.tests.test_quantity_array_methods.TestQuantityStatsFuncs.test_std",
+        "astropy.units.tests.test_quantity_array_methods.TestArrayConversion.test_slice_to_quantity",
+        "astropy.units.tests.test_quantity_array_methods.TestQuantityStatsFuncs.test_trace_meth",
+        "astropy.units.tests.test_quantity_array_methods.TestQuantityStatsFuncs.test_argmax",
+        "astropy.units.tests.test_quantity_array_methods.TestQuantityStatsFuncs.test_median",
+        "astropy.units.tests.test_quantity_ufuncs.TestQuantityMathFuncs.test_floor_divide_remainder_and_divmod",
+        "astropy.units.tests.test_format.test_scale_effectively_unity",
+        "astropy.units.tests.test_units.test_dimensionless_to_si",
+        "astropy.units.tests.test_units.test_radian_base",
+        "astropy.units.tests.test_units.test_invalid_scale"
+    ],
     "django__django-13417": [
         "aggregation.tests.AggregateTestCase.test_aggregation_subquery_annotation_values",
         "ordering.tests.OrderingTests.test_random_ordering",
