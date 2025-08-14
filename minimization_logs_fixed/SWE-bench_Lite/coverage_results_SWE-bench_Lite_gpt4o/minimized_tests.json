@@ -1029,11 +1029,11 @@
     ],
     "pytest-dev__pytest-11148": [],
     "psf__requests-3362": [
+        "tests.test_utils.test_get_encoding_from_headers",
         "tests.test_testserver.TestTestServer.test_text_response",
-        "tests.test_testserver.TestTestServer.test_basic_response",
-        "tests.test_requests.TestRequests.test_response_decode_unicode",
         "tests.test_requests.TestRequests.test_response_chunk_size_int",
-        "tests.test_utils.test_get_encoding_from_headers"
+        "tests.test_requests.TestRequests.test_response_decode_unicode",
+        "tests.test_testserver.TestTestServer.test_basic_response"
     ],
     "matplotlib__matplotlib-24334": [
         "matplotlib.tests.test_axes.test_set_noniterable_ticklabels",
@@ -2702,12 +2702,12 @@
         "sklearn.neighbors.tests.test_nca.test_toy_example_collapse_points"
     ],
     "pydata__xarray-5131": [
-        "xarray.tests.test_formatting_html.test_repr_text_fallback",
         "xarray.tests.test_formatting_html.test_short_data_repr_html_non_str_keys",
-        "xarray.tests.test_formatting.TestFormatting.test_array_repr",
         "xarray.tests.test_formatting_html.test_repr_of_dataset",
-        "xarray.tests.test_formatting.test_large_array_repr_length",
-        "xarray.tests.test_formatting_html.test_repr_of_dataarray"
+        "xarray.tests.test_formatting_html.test_repr_text_fallback",
+        "xarray.tests.test_formatting_html.test_repr_of_dataarray",
+        "xarray.tests.test_formatting.TestFormatting.test_array_repr",
+        "xarray.tests.test_formatting.test_large_array_repr_length"
     ],
     "sympy__sympy-13971": [
         "sympy.printing.tests.test_latex.test_latex_sequences"
