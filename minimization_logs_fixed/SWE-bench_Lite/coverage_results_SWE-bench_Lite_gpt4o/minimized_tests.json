@@ -773,7 +773,20 @@
         "sympy.printing.tests.test_latex.test_latex_indexed",
         "sympy.printing.tests.test_latex.test_latex_sum"
     ],
-    "pytest-dev__pytest-8906": [],
+    "pytest-dev__pytest-8906": [
+        "test_skipping.TestXFail.test_xfail_raises",
+        "test_skipping.TestXFail.test_xfail_xpassed_strict",
+        "test_skipping.TestXFail.test_dynamic_xfail_no_run",
+        "test_skipping.test_reportchars_all",
+        "test_skipping.TestSkipif.test_skipif_conditional",
+        "test_skipping.TestXFail.test_xfail_not_run_xfail_reporting",
+        "test_skipping.TestSkip.test_skip_no_reason",
+        "test_pytester.test_xpassed_with_strict_is_considered_a_failure",
+        "test_skipping.TestXFail.test_dynamic_xfail_set_during_runtest_passed_strict",
+        "test_skipping.test_reportchars",
+        "test_unittest.test_exit_outcome",
+        "test_skipping.TestXFail.test_xfail_imperative"
+    ],
     "sympy__sympy-13647": [
         "sympy.matrices.tests.test_matrices.test_issue_10770",
         "sympy.matrices.tests.test_matrices.test_errors",
@@ -915,7 +928,16 @@
         "sklearn.metrics.tests.test_common.test_format_invariance_with_1d_vectors",
         "sklearn.metrics.tests.test_classification.test_log_loss_pandas_input"
     ],
-    "pytest-dev__pytest-7373": [],
+    "pytest-dev__pytest-7373": [
+        "test_skipping.test_imperativeskip_on_xfail_test",
+        "test_skipping.TestXFail.test_xfail_raises",
+        "test_skipping.TestEvaluator.test_marked_skip_with_not_string",
+        "test_skipping.TestBooleanCondition.test_skipif_noreason",
+        "test_skipping.test_direct_gives_error",
+        "test_skipping.test_errors_in_xfail_skip_expressions",
+        "test_skipping.TestXFail.test_xfail_condition_keyword",
+        "test_skipping.TestXFail.test_xfail_not_run_xfail_reporting"
+    ],
     "sympy__sympy-17630": [
         "sympy.matrices.expressions.tests.test_blockmatrix.test_BlockDiagMatrix",
         "sympy.matrices.expressions.tests.test_blockmatrix.test_BlockMatrix",
@@ -1157,7 +1179,10 @@
         "mpl_toolkits.tests.test_mplot3d.test_pan",
         "mpl_toolkits.tests.test_mplot3d.test_scatter_spiral"
     ],
-    "matplotlib__matplotlib-25442": [],
+    "matplotlib__matplotlib-25442": [
+        "matplotlib.tests.test_offsetbox.test_annotationbbox_extents",
+        "matplotlib.tests.test_offsetbox.test_picking"
+    ],
     "pallets__flask-4045": [],
     "pallets__flask-4992": [],
     "django__django-14667": [
@@ -1170,7 +1195,11 @@
         "defer_regress.tests.DeferRegressionTest.test_basic",
         "defer.tests.DeferTests.test_only"
     ],
-    "pytest-dev__pytest-5692": [],
+    "pytest-dev__pytest-5692": [
+        "test_session.TestNewSession.test_order_of_execution",
+        "test_pytester.test_unicode_args",
+        "test_reports.TestHooks.test_test_report"
+    ],
     "sympy__sympy-21627": [],
     "matplotlib__matplotlib-23913": [
         "matplotlib.tests.test_legend.test_legend_labelcolor_markerfacecolor",
@@ -1323,7 +1352,15 @@
     "django__django-14915": [
         "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_choice_iterator_passes_model_to_widget"
     ],
-    "pytest-dev__pytest-5495": [],
+    "pytest-dev__pytest-5495": [
+        "test_assertrewrite.TestAssertionRewrite.test_len",
+        "test_assertrewrite.TestAssertionRewrite.test_comparisons",
+        "test_assertrewrite.TestAssertionRewrite.test_boolop",
+        "test_assertrewrite.TestAssertionRewrite.test_assert_raising_nonzero_in_comparison",
+        "test_assertrewrite.TestAssertionRewrite.test_dont_rewrite_if_hasattr_fails",
+        "test_assertrewrite.TestAssertionRewrite.test_formatchar",
+        "test_assertrewrite.TestAssertionRewrite.test_custom_repr"
+    ],
     "sympy__sympy-20639": [
         "sympy.printing.pretty.tests.test_pretty.test_pretty_sum",
         "sympy.printing.pretty.tests.test_pretty.test_pretty_basic",
@@ -1363,7 +1400,11 @@
         "sklearn.tests.test_common.test_non_meta_estimators",
         "sklearn.utils.tests.test_validation.test_check_array_pandas_dtype_object_conversion"
     ],
-    "django__django-14730": [],
+    "django__django-14730": [
+        "m2m_intermediary.tests.M2MIntermediaryTests.test_intermediary",
+        "m2m_regress.tests.M2MRegressionTests.test_multiple_m2m",
+        "many_to_many.tests.ManyToManyTests.test_add_remove_set_by_to_field"
+    ],
     "django__django-11422": [
         "utils_tests.test_autoreload.TestCommonRoots.test_common_roots",
         "utils_tests.test_autoreload.StartDjangoTests.test_watchman_becomes_unavailable",
@@ -1563,7 +1604,11 @@
         "test_ext_autodoc_configs.test_autodoc_typehints_description_for_invalid_node",
         "test_ext_autodoc.test_overload"
     ],
-    "django__django-12453": [],
+    "django__django-12453": [
+        "test_runner.test_debug_sql.TestDebugSQL.test_output_normal",
+        "test_runner.test_debug_sql.TestDebugSQL.test_output_verbose",
+        "test_runner.tests.SQLiteInMemoryTestDbs.test_transaction_support"
+    ],
     "sympy__sympy-18835": [
         "sympy.utilities.tests.test_iterables.test_uniq"
     ],
@@ -1927,7 +1972,12 @@
         "test_build_manpage.test_rubric",
         "test_build_manpage.test_all"
     ],
-    "pytest-dev__pytest-7168": [],
+    "pytest-dev__pytest-7168": [
+        "test_excinfo.TestFormattedExcinfo.test_repr_local_with_exception_in_class_property",
+        "test_saferepr.test_baseexception",
+        "test_debugging.test_raises_bdbquit_with_eoferror",
+        "test_excinfo.TestFormattedExcinfo.test_repr_local_with_error"
+    ],
     "django__django-15996": [
         "migrations.test_writer.WriterTests.test_serialize_enums",
         "migrations.test_writer.WriterTests.test_serialize_enum_flags"
@@ -2039,7 +2089,16 @@
         "invalid_models_tests.test_models.ShadowingFieldsTests.test_field_name_clash_with_child_accessor",
         "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multiple_inheritance_cannot_shadow_concrete_inherited_field"
     ],
-    "pytest-dev__pytest-7490": [],
+    "pytest-dev__pytest-7490": [
+        "test_skipping.TestXFail.test_xfail_raises",
+        "test_skipping.TestXFail.test_dynamic_xfail_no_run",
+        "test_skipping.TestXFail.test_xfail_condition_keyword",
+        "test_skipping.TestXFail.test_xfail_not_run_xfail_reporting",
+        "test_skipping.TestXFail.test_strict_xfail",
+        "test_skipping.TestXFail.test_xfail_imperative",
+        "test_skipping.test_xfail_skipif_with_globals",
+        "test_skipping.TestXFail.test_strict_xfail_default_from_file"
+    ],
     "sympy__sympy-22840": [],
     "django__django-11001": [
         "queries.tests.ValuesQuerysetTests.test_extra_values_order_multiple",
@@ -2116,7 +2175,11 @@
         "migrations.test_autodetector.AutodetectorTests.test_rename_field_preserved_db_column",
         "migrations.test_autodetector.AutodetectorTests.test_alter_field_and_unique_together"
     ],
-    "pytest-dev__pytest-8365": [],
+    "pytest-dev__pytest-8365": [
+        "test_tmpdir.TestTempdirHandler.test_mktemp",
+        "test_tmpdir.test_tmpdir_fallback_uid_not_found",
+        "test_tmpdir.test_mktemp"
+    ],
     "sympy__sympy-18087": [
         "sympy.holonomic.tests.test_holonomic.test_diff",
         "sympy.simplify.tests.test_simplify.test_besselsimp",
@@ -2141,7 +2204,19 @@
         "sympy.holonomic.tests.test_holonomic.test_to_meijerg",
         "sympy.simplify.tests.test_simplify.test_simplify_rational"
     ],
-    "pytest-dev__pytest-9359": [],
+    "pytest-dev__pytest-9359": [
+        "test_assertrewrite.TestAssertionPass.test_hook_call",
+        "test_collection.TestNodeKeywords.test_keyword_matching_is_case_insensitive_by_default",
+        "test_assertrewrite.TestAssertionRewriteHookDetails.test_get_data_support",
+        "test_collection.test_continue_on_collection_errors",
+        "test_collection.TestSession.test_collect_protocol_method",
+        "test_assertrewrite.TestRewriteOnImport.test_pycache_is_a_file",
+        "test_excinfo.TestTraceback_f_g_h.test_traceback_messy_recursion",
+        "test_collection.TestCustomConftests.test_ignore_collect_not_called_on_argument",
+        "test_assertrewrite.test_rewrite_infinite_recursion",
+        "test_assertrewrite.TestRewriteOnImport.test_orphaned_pyc_file",
+        "test_assertrewrite.TestRewriteOnImport.test_load_resource_via_files_with_rewrite"
+    ],
     "django__django-12470": [
         "ordering.tests.OrderingTests.test_related_ordering_duplicate_table_reference",
         "model_regress.tests.ModelValidationTest.test_pk_validation",
@@ -2203,7 +2278,11 @@
         "test_requests.TestTimeout.test_connect_timeout",
         "test_requests.RequestsTestCase.test_request_ok_set"
     ],
-    "pytest-dev__pytest-6116": [],
+    "pytest-dev__pytest-6116": [
+        "test_collection.TestCollectFS.test_ignored_certain_directories",
+        "test_config.TestConfigAPI.test_config_getoption",
+        "test_collection.TestCollectFS.test_custom_norecursedirs"
+    ],
     "sphinx-doc__sphinx-8595": [
         "tests.test_ext_autodoc.test_autodoc_inherited_members_Base",
         "tests.test_ext_autodoc.test_name_mangling",
@@ -2283,11 +2362,25 @@
         "sympy.physics.units.tests.test_quantities.test_factor_and_dimension",
         "sympy.physics.units.tests.test_quantities.test_issue_20288"
     ],
-    "pytest-dev__pytest-7432": [],
+    "pytest-dev__pytest-7432": [
+        "test_skipping.TestXFail.test_xfail_raises",
+        "test_reports.TestReportSerialization.test_itemreport_outcomes",
+        "test_skipping.TestXFail.test_strict_xfail_default_from_file",
+        "test_skipping.TestXFail.test_xfail_imperative_in_setup_function",
+        "test_skipping.TestXFail.test_strict_xfail",
+        "test_skipping.TestXFail.test_xfail_imperative",
+        "test_unittest.test_unittest_expected_failure_for_passing_test_is_fail"
+    ],
     "django__django-12915": [
         "staticfiles_tests.test_liveserver.StaticLiveServerView.test_collectstatic_emulation"
     ],
-    "pytest-dev__pytest-7220": [],
+    "pytest-dev__pytest-7220": [
+        "test_getfixturevalue_dynamic.test",
+        "test_nodes.test_std_warn_not_pytestwarning",
+        "test_pytester.test_testdir_outcomes_with_multiple_errors",
+        "test_pytester.test_xpassed_with_strict_is_considered_a_failure",
+        "test_nodes.test_node_from_parent_disallowed_arguments"
+    ],
     "django__django-13448": [],
     "sympy__sympy-17022": [
         "sympy.utilities.tests.test_lambdify.test_lambdify_Derivative_arg_issue_16468",
@@ -2476,7 +2569,11 @@
         "sklearn.preprocessing.tests.test_encoders.test_one_hot_encoder_inverse",
         "sklearn.preprocessing.tests.test_encoders.test_one_hot_encoder_sparse"
     ],
-    "pytest-dev__pytest-5413": [],
+    "pytest-dev__pytest-5413": [
+        "test_session.SessionTests.test_broken_repr",
+        "test_session.SessionTests.test_raises_output",
+        "test_pytester.test_assert_outcomes_after_pytest_error"
+    ],
     "django__django-15814": [
         "model_inheritance.tests.ModelInheritanceDataTests.test_update_works_on_parent_and_child_models_at_once",
         "model_inheritance.tests.ModelInheritanceDataTests.test_exclude_inherited_on_null",
