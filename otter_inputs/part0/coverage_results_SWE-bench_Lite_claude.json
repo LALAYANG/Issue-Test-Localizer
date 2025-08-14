@@ -1410,6 +1410,23 @@
     }
   },
   {
+    "instance_id": "pytest-dev__pytest-8906",
+    "file_function": {
+      "testing/test_skipping.py": [
+        "test_imperativeskip_on_xfail_test",
+        "test_skipped_reasons_functional"
+      ],
+      "testing/test_runner.py": [
+        "test_pytest_exit",
+        "test_pytest_exit_msg",
+        "test_skipfunction"
+      ],
+      "testing/test_unittest.py": [
+        "test_exit_outcome"
+      ]
+    }
+  },
+  {
     "instance_id": "sympy__sympy-13647",
     "file_function": {
       "sympy/matrices/tests/test_commonmatrix.py": [
@@ -1638,6 +1655,22 @@
     }
   },
   {
+    "instance_id": "pytest-dev__pytest-7373",
+    "file_function": {
+      "testing/test_skipping.py": [
+        "test_marked_skip_with_not_string",
+        "test_mark_xfail_item",
+        "test_skipif_noreason",
+        "test_direct_gives_error",
+        "test_xfail_raises",
+        "test_errors_in_xfail_skip_expressions",
+        "test_xfail_not_run_xfail_reporting",
+        "test_xfail_condition_keyword",
+        "test_xfail_simple"
+      ]
+    }
+  },
+  {
     "instance_id": "sympy__sympy-17630",
     "file_function": {
       "sympy/matrices/expressions/tests/test_blockmatrix.py": [
@@ -1780,6 +1813,23 @@
         "test_subquery_exclude_outerref",
         "test_correct_lookup",
         "test_exclude_in"
+      ]
+    }
+  },
+  {
+    "instance_id": "psf__requests-3362",
+    "file_function": {
+      "tests/test_lowlevel.py": [
+        "test_chunked_upload"
+      ],
+      "tests/test_requests.py": [
+        "test_response_chunk_size_int",
+        "test_response_decode_unicode"
+      ],
+      "tests/test_utils.py": [
+        "test_precedence",
+        "test_none",
+        "test_get_encoding_from_headers"
       ]
     }
   },
@@ -2334,6 +2384,20 @@
     }
   },
   {
+    "instance_id": "pytest-dev__pytest-5692",
+    "file_function": {
+      "testing/test_config.py": [
+        "test_override_ini_handled_asap"
+      ],
+      "testing/test_runner.py": [
+        "test_logstart_logfinish_hooks"
+      ],
+      "testing/test_reports.py": [
+        "test_test_report"
+      ]
+    }
+  },
+  {
     "instance_id": "matplotlib__matplotlib-23913",
     "file_function": {
       "lib/matplotlib/tests/test_legend.py": [
@@ -2663,6 +2727,26 @@
         "test_disabled_modelchoicefield_initial_model_instance",
         "test_basics",
         "test_disabled_multiplemodelchoicefield"
+      ]
+    }
+  },
+  {
+    "instance_id": "pytest-dev__pytest-5495",
+    "file_function": {
+      "testing/test_assertrewrite.py": [
+        "test_many_brackets",
+        "test_boolop",
+        "test_call",
+        "test_len",
+        "test_long_case",
+        "test_dont_rewrite",
+        "test_boolop_percent",
+        "test_reload_is_same",
+        "test_custom_repr",
+        "test_place_initial_imports"
+      ],
+      "testing/test_failures.py": [
+        "test_failure_demo_fails_properly"
       ]
     }
   },
@@ -3721,6 +3805,14 @@
     }
   },
   {
+    "instance_id": "pytest-dev__pytest-7168",
+    "file_function": {
+      "testing/test_saferepr.py": [
+        "test_baseexception"
+      ]
+    }
+  },
+  {
     "instance_id": "django__django-15996",
     "file_function": {
       "tests/migrations/test_writer.py": [
@@ -3979,6 +4071,25 @@
     }
   },
   {
+    "instance_id": "pytest-dev__pytest-7490",
+    "file_function": {
+      "testing/test_skipping.py": [
+        "test_xfail_not_run_no_setup_run",
+        "test_strict_xfail",
+        "test_mark_xfail_item",
+        "test_dynamic_xfail_no_run",
+        "test_xfail_xpassed_strict",
+        "test_xfail_raises",
+        "test_strict_xfail_default_from_file",
+        "test_xfail_run_anyway",
+        "test_xfail_not_run_xfail_reporting",
+        "test_xfail_imperative",
+        "test_xfail_condition_keyword",
+        "test_skipif_reporting_multiple"
+      ]
+    }
+  },
+  {
     "instance_id": "sympy__sympy-22840",
     "file_function": {
       "sympy/matrices/expressions/tests/test_matexpr.py": [
@@ -4149,6 +4260,15 @@
     }
   },
   {
+    "instance_id": "pytest-dev__pytest-8365",
+    "file_function": {
+      "testing/test_tmpdir.py": [
+        "test_mktemp",
+        "test_tmpdir_fallback_uid_not_found"
+      ]
+    }
+  },
+  {
     "instance_id": "sympy__sympy-18087",
     "file_function": {
       "sympy/simplify/tests/test_trigsimp.py": [
@@ -4156,6 +4276,30 @@
         "test_trigsimp_groebner",
         "test_trigsimp1",
         "test_issue_2827_trigsimp_methods"
+      ]
+    }
+  },
+  {
+    "instance_id": "pytest-dev__pytest-9359",
+    "file_function": {
+      "testing/test_assertrewrite.py": [
+        "test_many_brackets",
+        "test_hook_call",
+        "test_boolop",
+        "test_call",
+        "test_remember_rewritten_modules",
+        "test_long_case",
+        "test_read_pyc_more_invalid",
+        "test_get_assertion_exprs",
+        "test_dont_rewrite",
+        "test_get_data_support",
+        "test_place_initial_imports"
+      ],
+      "testing/test_failures.py": [
+        "test_failure_demo_fails_properly"
+      ],
+      "testing/test_runner.py": [
+        "test_runtest_in_module_ordering"
       ]
     }
   },
@@ -4251,6 +4395,33 @@
         "test_decompress_gzip",
         "test_connection_error_invalid_domain",
         "test_connect_timeout"
+      ]
+    }
+  },
+  {
+    "instance_id": "pytest-dev__pytest-6116",
+    "file_function": {
+      "testing/test_collection.py": [
+        "test_collect_init_tests",
+        "test_collect_protocol_method",
+        "test_matchnodes_two_collections_same_file",
+        "test_collect_topdir",
+        "test_ignore_collect_path",
+        "test_collect_pkg_init_only",
+        "test_collectignore_exclude_on_option",
+        "test_exit_on_collection_with_maxfail_smaller_than_n_errors"
+      ],
+      "testing/test_runner.py": [
+        "test_collect_result",
+        "test_passfunction"
+      ],
+      "testing/test_session.py": [
+        "test_minus_x_import_error",
+        "test_exclude_glob"
+      ],
+      "testing/test_config.py": [
+        "test_pytest_plugins_in_non_top_level_conftest_unsupported_pyargs",
+        "test_config_blocked_default_plugins"
       ]
     }
   },
@@ -4437,6 +4608,56 @@
         "test_factor_and_dimension",
         "test_issue_24062",
         "test_check_unit_consistency"
+      ]
+    }
+  },
+  {
+    "instance_id": "pytest-dev__pytest-7432",
+    "file_function": {
+      "testing/test_skipping.py": [
+        "test_xfail_imperative_in_setup_function",
+        "test_strict_xfail",
+        "test_xfail_raises",
+        "test_strict_xfail_default_from_file",
+        "test_xfail_imperative"
+      ],
+      "testing/test_reports.py": [
+        "test_itemreport_outcomes"
+      ]
+    }
+  },
+  {
+    "instance_id": "pytest-dev__pytest-7220",
+    "file_function": {
+      "testing/test_session.py": [
+        "test_minus_x_import_error",
+        "test_maxfail",
+        "test_exit_first_problem",
+        "test_collect_only_with_various_situations",
+        "test_basic_testitem_events"
+      ],
+      "testing/test_pytester.py": [
+        "test_runresult_assertion_on_xfail",
+        "test_runresult_assertion_on_xpassed"
+      ],
+      "testing/test_reports.py": [
+        "test_itemreport_outcomes"
+      ],
+      "testing/test_config.py": [
+        "test_pytest_plugins_in_non_top_level_conftest_unsupported_pyargs",
+        "test_options_on_small_file_do_not_blow_up",
+        "test_setupcfg_uses_toolpytest_with_pytest"
+      ],
+      "testing/test_capture.py": [
+        "test_teardown_capturing",
+        "test_capture_scope_cache",
+        "test_capsysbinary"
+      ],
+      "testing/test_runner.py": [
+        "test_makereport_getsource_dynamic_code",
+        "test_pytest_no_tests_collected_exit_status",
+        "test_importorskip_custom_reason",
+        "test_pytest_exit_returncode"
       ]
     }
   },
@@ -4721,6 +4942,23 @@
     }
   },
   {
+    "instance_id": "pytest-dev__pytest-5413",
+    "file_function": {
+      "testing/test_excinfo.py": [
+        "test_match_succeeds",
+        "test_excinfo_for_later",
+        "test_excinfo_repr",
+        "test_excinfo_str",
+        "test_match_raises_error",
+        "test_no_recursion_index_on_recursion_error",
+        "test_traceback_no_recursion_index"
+      ],
+      "testing/test_collection.py": [
+        "test_collector_respects_tbstyle"
+      ]
+    }
+  },
+  {
     "instance_id": "django__django-15814",
     "file_function": {
       "tests/model_inheritance/tests.py": [
@@ -4924,6 +5162,21 @@
         "test_callback",
         "test_params_validation",
         "test_convergence_warning"
+      ]
+    }
+  },
+  {
+    "instance_id": "pydata__xarray-5131",
+    "file_function": {
+      "xarray/tests/test_computation.py": [
+        "test_apply_1d_and_0d",
+        "test_apply_groupby_add",
+        "test_apply_identity"
+      ],
+      "xarray/tests/test_groupby.py": [
+        "test_groupby_repr_datetime",
+        "test_groupby_repr",
+        "test_groupby_drops_nans"
       ]
     }
   },
