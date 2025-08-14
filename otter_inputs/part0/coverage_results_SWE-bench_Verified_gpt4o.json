@@ -484,6 +484,25 @@
     }
   },
   {
+    "instance_id": "pytest-dev__pytest-7236",
+    "file_function": {
+      "testing/test_unittest.py": [
+        "test_setup",
+        "test_unittest_expected_failure_for_failing_test_is_xfail",
+        "test_pdb_teardown_called",
+        "test_unittest_skip_issue1169",
+        "test_runTest_method",
+        "test_testcase_custom_exception_info",
+        "test_exit_outcome",
+        "test_unittest_expected_failure_for_passing_test_is_fail",
+        "test_async_support",
+        "test_unittest_raise_skip_issue748",
+        "test_testcase_totally_incompatible_exception_info",
+        "test_class_method_containing_test_issue1558"
+      ]
+    }
+  },
+  {
     "instance_id": "sympy__sympy-16450",
     "file_function": {
       "sympy/core/tests/test_assumptions.py": [
@@ -530,6 +549,24 @@
       ],
       "tests/model_fields/tests.py": [
         "test_choices_and_field_display"
+      ]
+    }
+  },
+  {
+    "instance_id": "pytest-dev__pytest-5787",
+    "file_function": {
+      "testing/test_reports.py": [
+        "test_test_report",
+        "test_collect_report",
+        "test_unserialization_failure",
+        "test_invalid_report_types"
+      ],
+      "testing/test_pdb.py": [
+        "test_raises_bdbquit_with_eoferror"
+      ],
+      "testing/test_runner.py": [
+        "test_failure_in_teardown_function",
+        "test_exact_teardown_issue1206"
       ]
     }
   },
@@ -2277,6 +2314,25 @@
     }
   },
   {
+    "instance_id": "pydata__xarray-6599",
+    "file_function": {
+      "xarray/tests/test_missing.py": [
+        "test_interpolate_na_max_gap_time_specifier",
+        "test_interpolate_na_max_gap_errors"
+      ],
+      "xarray/tests/test_duck_array_ops.py": [
+        "test_cftime_datetime_mean",
+        "test_pd_timedelta_to_float"
+      ],
+      "xarray/tests/test_computation.py": [
+        "test_where"
+      ],
+      "xarray/tests/test_units.py": [
+        "test_where_dataarray"
+      ]
+    }
+  },
+  {
     "instance_id": "django__django-11451",
     "file_function": {
       "tests/auth_tests/test_forms.py": [
@@ -2299,6 +2355,14 @@
       ],
       "tests/migrations/test_executor.py": [
         "test_migrate_backward_to_squashed_migration"
+      ]
+    }
+  },
+  {
+    "instance_id": "astropy__astropy-8707",
+    "file_function": {
+      "astropy/io/fits/tests/test_image.py": [
+        "test_bzero_mishandled_info"
       ]
     }
   },
@@ -2600,6 +2664,19 @@
         "test_makemigrations_scriptable_merge",
         "test_makemigrations_empty_connections",
         "test_makemigrations_non_interactive_unique_callable_default_addition"
+      ]
+    }
+  },
+  {
+    "instance_id": "pytest-dev__pytest-5631",
+    "file_function": {
+      "testing/test_unittest.py": [
+        "test_error_message_with_parametrized_fixtures",
+        "test_class_method_containing_test_issue1558",
+        "test_module_level_pytestmark"
+      ],
+      "testing/test_collection.py": [
+        "test_collect_invalid_signature_message"
       ]
     }
   },
@@ -3765,6 +3842,16 @@
     }
   },
   {
+    "instance_id": "pydata__xarray-4687",
+    "file_function": {
+      "xarray/tests/test_computation.py": [
+        "test_cov",
+        "test_corr",
+        "test_autocov"
+      ]
+    }
+  },
+  {
     "instance_id": "scikit-learn__scikit-learn-26323",
     "file_function": {
       "sklearn/compose/tests/test_column_transformer.py": [
@@ -4105,6 +4192,16 @@
     }
   },
   {
+    "instance_id": "pytest-dev__pytest-6202",
+    "file_function": {
+      "testing/test_collection.py": [
+        "test_getparent",
+        "test_class_and_functions_discovery_using_glob",
+        "test_collect_protocol_method"
+      ]
+    }
+  },
+  {
     "instance_id": "django__django-15732",
     "file_function": {
       "tests/migrations/test_autodetector.py": [
@@ -4249,6 +4346,33 @@
         "test_DMP_exclude",
         "test_DMP_functionality",
         "test_DMP___eq__"
+      ]
+    }
+  },
+  {
+    "instance_id": "pytest-dev__pytest-5840",
+    "file_function": {
+      "testing/test_session.py": [
+        "test_minus_x_import_error"
+      ],
+      "testing/test_collection.py": [
+        "test_collectignore_exclude_on_option",
+        "test_collect_protocol_method",
+        "test_collect_topdir",
+        "test_collect_pkg_init_only",
+        "test_global_file",
+        "test_matchnodes_two_collections_same_file",
+        "test_collect_init_tests"
+      ],
+      "testing/test_config.py": [
+        "test_config_blocked_default_plugins",
+        "test_pytest_plugins_in_non_top_level_conftest_unsupported_pyargs"
+      ],
+      "testing/test_conftest.py": [
+        "test_conftest_symlink"
+      ],
+      "testing/test_pathlib.py": [
+        "test_access_denied_during_cleanup"
       ]
     }
   },
@@ -4984,6 +5108,15 @@
     }
   },
   {
+    "instance_id": "pytest-dev__pytest-7571",
+    "file_function": {
+      "testing/test_fixture.py": [
+        "test_clear",
+        "test_caplog_can_override_global_log_level"
+      ]
+    }
+  },
+  {
     "instance_id": "django__django-15375",
     "file_function": {
       "tests/aggregation_regress/tests.py": [
@@ -5272,6 +5405,17 @@
       ],
       "tests/responses/test_fileresponse/FileResponseTests/test_content_length_nonzero_starting_position_file.py": [
         "test_content_length_nonzero_starting_position_file"
+      ]
+    }
+  },
+  {
+    "instance_id": "pytest-dev__pytest-8399",
+    "file_function": {
+      "testing/test_unittest.py": [
+        "test_runTest_method",
+        "test_setup",
+        "test_no_teardown_if_setupclass_failed",
+        "test_do_class_cleanups_on_setupclass_failure"
       ]
     }
   },
@@ -5683,6 +5827,20 @@
     }
   },
   {
+    "instance_id": "pytest-dev__pytest-6197",
+    "file_function": {
+      "testing/test_collection.py": [
+        "test_collect_sub_with_symlinks",
+        "test_collectignore_via_conftest",
+        "test_collect_pkg_init_and_file_in_args",
+        "test_collect_init_tests"
+      ],
+      "testing/test_config.py": [
+        "test_pytest_plugins_in_non_top_level_conftest_unsupported_pyargs"
+      ]
+    }
+  },
+  {
     "instance_id": "matplotlib__matplotlib-22871",
     "file_function": {
       "lib/matplotlib/tests/test_dates.py": [
@@ -5821,6 +5979,16 @@
         "test_unawaited_response",
         "test_middleware_returns_none",
         "test_no_response"
+      ]
+    }
+  },
+  {
+    "instance_id": "pytest-dev__pytest-5809",
+    "file_function": {
+      "testing/test_pastebin.py": [
+        "test_create_new_paste",
+        "test_non_ascii_paste_text",
+        "test_all"
       ]
     }
   },
@@ -6008,11 +6176,43 @@
     }
   },
   {
+    "instance_id": "pytest-dev__pytest-7982",
+    "file_function": {
+      "testing/test_collection.py": [
+        "test_collectignore_exclude_on_option",
+        "test_ignored_virtualenvs"
+      ]
+    }
+  },
+  {
     "instance_id": "pylint-dev__pylint-7277",
     "file_function": {
       "tests/test_pylint_runners.py": [
         "test_runner",
         "test_runner_with_arguments"
+      ]
+    }
+  },
+  {
+    "instance_id": "pydata__xarray-6461",
+    "file_function": {
+      "xarray/tests/test_missing.py": [
+        "test_interpolate",
+        "test_interpolate_pd_compat"
+      ],
+      "xarray/tests/test_computation.py": [
+        "test_where_attrs",
+        "test_where",
+        "test_apply_exclude",
+        "test_apply_dask_parallelized_two_args",
+        "test_dot",
+        "test_apply_input_core_dimension",
+        "test_dot_align_coords"
+      ],
+      "xarray/tests/test_groupby.py": [
+        "test_ds_groupby_quantile",
+        "test_da_groupby_quantile",
+        "test_resample_min_count"
       ]
     }
   },
@@ -6083,6 +6283,22 @@
         "test_intersection_with_empty_qs",
         "test_qs_with_subcompound_qs",
         "test_unsupported_ordering_slicing_raises_db_error"
+      ]
+    }
+  },
+  {
+    "instance_id": "pytest-dev__pytest-7490",
+    "file_function": {
+      "testing/test_skipping.py": [
+        "test_imperativeskip_on_xfail_test",
+        "test_mark_xfail_item",
+        "test_xfail_not_run_xfail_reporting",
+        "test_xfail_condition_keyword",
+        "test_xfail_raises",
+        "test_strict_xfail_default_from_file",
+        "test_xfail_imperative",
+        "test_strict_xfail",
+        "test_dynamic_xfail_no_run"
       ]
     }
   },
@@ -6654,6 +6870,15 @@
     }
   },
   {
+    "instance_id": "pytest-dev__pytest-7205",
+    "file_function": {
+      "testing/test_setuponly.py": [
+        "test_show_fixtures_with_parameters",
+        "test_show_fixtures_with_parameter_ids"
+      ]
+    }
+  },
+  {
     "instance_id": "django__django-13128",
     "file_function": {
       "tests/expressions/tests.py": [
@@ -6970,6 +7195,21 @@
       ],
       "tests/unittest_reporting.py": [
         "test_multi_format_output"
+      ]
+    }
+  },
+  {
+    "instance_id": "pytest-dev__pytest-7432",
+    "file_function": {
+      "testing/test_reports.py": [
+        "test_itemreport_outcomes"
+      ],
+      "testing/test_skipping.py": [
+        "test_strict_xfail_default_from_file",
+        "test_xfail_run_anyway",
+        "test_xfail_imperative",
+        "test_strict_xfail",
+        "test_xfail_raises"
       ]
     }
   },
@@ -7832,6 +8072,29 @@
     }
   },
   {
+    "instance_id": "pytest-dev__pytest-7521",
+    "file_function": {
+      "testing/test_capture.py": [
+        "test_simple_fail_second_start",
+        "test_capturing_basic_api",
+        "test_simple_many",
+        "test_capsysbinary",
+        "test_fixture_use_by_other_fixtures_teardown",
+        "test_capture_is_represented_on_failure_issue128",
+        "test_simple",
+        "test_simple_resume_suspend",
+        "test_fdcapture_invalid_fd_without_fd_reuse",
+        "test_reset_twice_error"
+      ],
+      "testing/test_config.py": [
+        "test_options_on_small_file_do_not_blow_up"
+      ],
+      "testing/test_main.py": [
+        "test_wrap_session_notify_exception"
+      ]
+    }
+  },
+  {
     "instance_id": "sympy__sympy-13551",
     "file_function": {
       "sympy/concrete/tests/test_products.py": [
@@ -8362,6 +8625,30 @@
     }
   },
   {
+    "instance_id": "astropy__astropy-8872",
+    "file_function": {
+      "astropy/units/tests/test_quantity_ufuncs.py": [
+        "test_two_argument_two_output_ufunc_inplace",
+        "test_frexp_array",
+        "test_floor_divide_remainder_and_divmod",
+        "test_one_argument_two_output_ufunc_inplace"
+      ],
+      "astropy/units/tests/test_quantity_helpers.py": [
+        "test_allclose_isclose_default",
+        "test_allclose_isclose"
+      ],
+      "astropy/units/tests/test_quantity_array_methods.py": [
+        "test_clip_inplace",
+        "test_squeeze",
+        "test_flat"
+      ],
+      "astropy/units/tests/test_units.py": [
+        "test_long_int",
+        "test_invalid_scale"
+      ]
+    }
+  },
+  {
     "instance_id": "django__django-13417",
     "file_function": {
       "tests/ordering/tests.py": [
@@ -8565,6 +8852,14 @@
     "file_function": {
       "sympy/printing/tests/test_pycode.py": [
         "test_PythonCodePrinter"
+      ]
+    }
+  },
+  {
+    "instance_id": "pytest-dev__pytest-7324",
+    "file_function": {
+      "testing/test_debugging.py": [
+        "test_raises_bdbquit_with_eoferror"
       ]
     }
   },
