@@ -60,7 +60,12 @@
         "sklearn.tests.test_pipeline.test_feature_union_parallel",
         "sklearn.tests.test_pipeline.test_feature_union"
     ],
-    "sphinx-doc__sphinx-8713": [],
+    "sphinx-doc__sphinx-8713": [
+        "tests.test_ext_napoleon_docstring.NumpyDocstringTest.test_parameters_with_class_reference",
+        "tests.test_ext_napoleon_docstring.GoogleDocstringTest.test_list_in_parameter_description",
+        "tests.test_ext_napoleon_docstring.NumpyDocstringTest.test_multiple_parameters",
+        "tests.test_ext_napoleon_docstring.GoogleDocstringTest.test_noindex"
+    ],
     "sympy__sympy-14396": [
         "sympy.polys.tests.test_polytools.test_Poly_set_domain",
         "sympy.polys.tests.test_modulargcd.test_to_ZZ_ANP_poly",
