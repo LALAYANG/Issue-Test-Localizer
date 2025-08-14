@@ -501,7 +501,11 @@
     "sympy__sympy-13177": [
         "sympy.core.tests.test_arit.test_Mod"
     ],
-    "django__django-15790": [],
+    "django__django-15790": [
+        "template_tests.test_engine.GetDefaultTests.test_multiple_engines_configured",
+        "template_tests.test_custom.TemplateTagLoadingTests.test_load_annotated_function",
+        "template_tests.test_engine.EngineTest.test_repr"
+    ],
     "django__django-13158": [
         "admin_views.tests.AdminViewProxyModelPermissionsTests.test_add",
         "model_forms.tests.ModelMultipleChoiceFieldTests.test_model_multiple_choice_field",
@@ -1143,7 +1147,12 @@
         "test_assertrewrite.TestRewriteOnImport.test_load_resource_via_files_with_rewrite",
         "test_assertrewrite.TestRewriteOnImport.test_remember_rewritten_modules"
     ],
-    "django__django-13265": [],
+    "django__django-13265": [
+        "migrations.test_autodetector.AutodetectorTests.test_default_related_name_option",
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_to_managed",
+        "migrations.test_autodetector.AutodetectorTests.test_managed_to_unmanaged",
+        "migrations.test_autodetector.AutodetectorTests.test_add_alter_order_with_respect_to"
+    ],
     "django__django-14787": [
         "decorators.tests.MethodDecoratorTests.test_preserve_attributes",
         "decorators.tests.MethodDecoratorTests.test_descriptors",
@@ -1331,7 +1340,12 @@
         "queries.test_q.QTests.test_deconstruct_or",
         "expressions_case.tests.CaseExpressionTests.test_m2m_exclude"
     ],
-    "sympy__sympy-17139": [],
+    "sympy__sympy-17139": [
+        "sympy.simplify.tests.test_fu.test_TR5",
+        "sympy.simplify.tests.test_trigsimp.test_issue_4661",
+        "sympy.simplify.tests.test_fu.test__TR56",
+        "sympy.simplify.tests.test_fu.test_TR6"
+    ],
     "django__django-15902": [
         "forms_tests.tests.test_formsets.TestIsBoundBehavior.test_empty_forms_are_unbound",
         "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_validate_max_ignores_forms_marked_for_deletion",
