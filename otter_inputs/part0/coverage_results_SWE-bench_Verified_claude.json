@@ -322,7 +322,7 @@
   {
     "instance_id": "psf__requests-2931",
     "file_function": {
-      "test_requests.py": [
+      "tests/test_requests.py": [
         "test_params_bytes_are_encoded",
         "test_data_argument_accepts_tuples",
         "test_basic_auth_str_is_always_native",
@@ -429,7 +429,10 @@
       ],
       "lib/matplotlib/tests/test_axes.py": [
         "test_boxplot_dates_pandas",
-        "test_bar_pandas"
+        "test_bar_decimal_center",
+        "test_barh_decimal_center",
+        "test_bar_pandas",
+        "test_plot_decimal"
       ],
       "lib/matplotlib/tests/test_units.py": [
         "test_empty_arrays"
@@ -965,6 +968,10 @@
       "tests/forms_tests/tests/test_formsets/FormsFormsetTestCase/test_empty_permitted_ignored_empty_form.py": [
         "test_empty_permitted_ignored_empty_form"
       ],
+      "tests/forms_tests/tests/test_formsets.py": [
+        "test_empty_formset_is_multipart",
+        "test_formset_with_ordering_and_deletion"
+      ],
       "tests/forms_tests/tests/test_formsets/FormsFormsetTestCase/test_absolute_max_invalid.py": [
         "test_absolute_max_invalid"
       ],
@@ -1033,7 +1040,7 @@
   {
     "instance_id": "psf__requests-2317",
     "file_function": {
-      "test_requests.py": [
+      "tests/test_requests.py": [
         "test_json_param_post_content_type_works",
         "test_params_are_merged_case_sensitive",
         "test_request_cookie_overrides_session_cookie"
@@ -1060,11 +1067,13 @@
         "test_corner_center",
         "test_color_override_warning",
         "test_default_antialiased",
+        "test_rotate_rect_draw",
         "test_default_joinstyle",
         "test_contains_points",
         "test_default_linestyle",
         "test_rotate_rect",
-        "test_empty_verts"
+        "test_empty_verts",
+        "test_patch_linestyle_none"
       ],
       "lib/matplotlib/tests/test_collections.py": [
         "test_pathcollection_legend_elements"
@@ -1446,6 +1455,8 @@
       "lib/matplotlib/tests/test_figure.py": [
         "test_ginput",
         "test_align_labels_stray_axes",
+        "test_animated_with_canvas_change",
+        "test_add_artist",
         "test_picking_does_not_stale",
         "test_figure_legend",
         "test_deepcopy"
@@ -1652,6 +1663,20 @@
       "tests/admin_views/tests/SaveAsTests/test_save_as_new_with_validation_errors_with_inlines.py": [
         "test_save_as_new_with_validation_errors_with_inlines"
       ],
+      "tests/admin_inlines/tests.py": [
+        "test_stacked_inline_hidden_field_with_view_only_permissions",
+        "test_inline_hidden_field_no_column"
+      ],
+      "tests/admin_views/tests.py": [
+        "test_char_pk_inline",
+        "test_change_view_with_view_and_delete_inlines",
+        "test_integer_pk_inline",
+        "test_edit_save_as_delete_inline"
+      ],
+      "tests/model_forms/tests.py": [
+        "test_setattr_raises_validation_error_non_field",
+        "test_empty_fields_to_construct_instance"
+      ],
       "tests/model_formsets/tests/ModelFormsetTest/test_inlineformset_with_arrayfield.py": [
         "test_inlineformset_with_arrayfield"
       ],
@@ -1675,6 +1700,9 @@
       ],
       "tests/model_formsets/tests/ModelFormsetTest/test_prevent_duplicates_from_with_the_same_formset.py": [
         "test_prevent_duplicates_from_with_the_same_formset"
+      ],
+      "tests/modeladmin/tests.py": [
+        "test_raw_id_fields_widget_override"
       ],
       "tests/model_forms/tests/UniqueTest/test_override_unique_together_message.py": [
         "test_override_unique_together_message"
@@ -1799,6 +1827,16 @@
       ],
       "astropy/io/fits/tests/test_convenience.py": [
         "test_printdiff"
+      ]
+    }
+  },
+  {
+    "instance_id": "sympy__sympy-20916",
+    "file_function": {
+      "sympy/printing/pretty/tests/test_pretty.py": [
+        "test_upretty_greek",
+        "test_pretty_unicode_str",
+        "test_pretty_sqrt_char_knob"
       ]
     }
   },
@@ -1941,6 +1979,9 @@
   {
     "instance_id": "django__django-16938",
     "file_function": {
+      "tests/serializers/tests.py": [
+        "test_serialize_no_only_pk_with_natural_keys"
+      ],
       "tests/fixtures/tests/FixtureLoadingTests/test_loading_and_dumping.py": [
         "test_loading_and_dumping"
       ],
@@ -1961,6 +2002,7 @@
         "test_jpeg_alpha",
         "test_empty_imshow",
         "test_respects_bbox",
+        "test_full_invalid",
         "test_image_preserve_size2",
         "test_composite",
         "test_mask_image_all"
@@ -1999,6 +2041,8 @@
         "test_remove_shared_axes",
         "test_bar_timedelta",
         "test_inset_polar",
+        "test_matshow",
+        "test_spy",
         "test_date_timezone_x_and_y",
         "test_autoscale_log_shared",
         "test_secondary_xy",
@@ -2551,6 +2595,9 @@
         "test_annotation_contains",
         "test_annotate_errors"
       ],
+      "lib/matplotlib/testing/decorators.py": [
+        "test_pickle_load_from_subprocess"
+      ],
       "lib/matplotlib/tests/test_axes.py": [
         "test_annotate_default_arrow"
       ],
@@ -2641,6 +2688,14 @@
       ],
       "tests/modeladmin/test_checks/FieldsetsCheckTests/test_valid_case.py": [
         "test_valid_case"
+      ],
+      "tests/modeladmin/test_checks.py": [
+        "test_missing_field",
+        "test_valid_case",
+        "test_invalid_field",
+        "test_not_iterable",
+        "test_readonly_field_not_list_or_tuple",
+        "test_readonly_field_missing"
       ],
       "tests/admin_checks/tests/SystemChecksTestCase/test_nonexistent_field.py": [
         "test_nonexistent_field"
@@ -2887,8 +2942,15 @@
       "tests/migrations/test_commands/OptimizeMigrationTests/test_creates_replace_migration_manual_porting.py": [
         "test_creates_replace_migration_manual_porting"
       ],
+      "tests/migrations/test_commands.py": [
+        "test_makemigrations_with_custom_name",
+        "test_makemigrations_disabled_migrations_for_app"
+      ],
       "tests/migrations/test_commands/OptimizeMigrationTests/test_fails_squash_migration_manual_porting.py": [
         "test_fails_squash_migration_manual_porting"
+      ],
+      "tests/migrations/test_writer.py": [
+        "test_migration_file_header_comments"
       ],
       "tests/migrations/test_writer/WriterTests/test_register_serializer.py": [
         "test_register_serializer"
@@ -2917,7 +2979,11 @@
   },
   {
     "instance_id": "django__django-16527",
-    "file_function": {}
+    "file_function": {
+      "tests/admin_views/tests.py": [
+        "test_change_view"
+      ]
+    }
   },
   {
     "instance_id": "sphinx-doc__sphinx-9229",
@@ -3025,8 +3091,20 @@
     }
   },
   {
+    "instance_id": "psf__requests-1766",
+    "file_function": {
+      "tests/test_requests.py": [
+        "test_DIGEST_STREAM"
+      ]
+    }
+  },
+  {
     "instance_id": "django__django-17087",
     "file_function": {
+      "tests/migrations/test_writer.py": [
+        "test_serialize_class_based_validators",
+        "test_simple_migration"
+      ],
       "tests/migrations/test_writer/WriterTests/test_serialize_path_like.py": [
         "test_serialize_path_like"
       ],
@@ -3075,6 +3153,7 @@
         "test_bar_ticklabel_fail",
         "test_bar_labels_length",
         "test_bar_errbar_zorder",
+        "test_hist_log_2",
         "test_bar_broadcast_args",
         "test_bar_tick_label_single"
       ],
@@ -3295,7 +3374,13 @@
   },
   {
     "instance_id": "django__django-16801",
-    "file_function": {}
+    "file_function": {
+      "tests/model_fields/test_imagefield.py": [
+        "test_field_save_and_delete_methods",
+        "test_dimensions",
+        "test_size_method"
+      ]
+    }
   },
   {
     "instance_id": "django__django-15563",
@@ -3504,6 +3589,7 @@
         "test_lasso_selector",
         "test_span_selector",
         "test_polygon_selector",
+        "test_rect_visibility",
         "test_span_selector_direction",
         "test_span_selector_drag"
       ]
@@ -3587,9 +3673,11 @@
         "test_autoscale",
         "test_plotsurface_1d_raises",
         "test_mixedsamplesraises",
+        "test_quiver3d_empty",
         "test_computed_zorder",
         "test_aspect_equal_error",
         "test_contour3d",
+        "test_contourf3d_extend",
         "test_quiver3d_masked",
         "test_surface3d_masked",
         "test_pan",
@@ -3724,6 +3812,10 @@
       "tests/migrations/test_operations/OperationTests/test_rename_index_arguments.py": [
         "test_rename_index_arguments"
       ],
+      "tests/migrations/test_operations.py": [
+        "test_add_index",
+        "test_remove_index"
+      ],
       "tests/migrations/test_operations/OperationTests/test_remove_func_index.py": [
         "test_remove_func_index"
       ],
@@ -3744,6 +3836,9 @@
       ],
       "tests/migrations/test_autodetector/AutodetectorTests/test_rename_indexes.py": [
         "test_rename_indexes"
+      ],
+      "tests/migrations/test_autodetector.py": [
+        "test_order_fields_indexes"
       ],
       "tests/migrations/test_operations/OperationTests/test_rename_index_unnamed_index.py": [
         "test_rename_index_unnamed_index"
@@ -4290,6 +4385,19 @@
     }
   },
   {
+    "instance_id": "django__django-13344",
+    "file_function": {
+      "tests/middleware_exceptions/tests.py": [
+        "test_process_view_return_response",
+        "test_process_template_response",
+        "test_exception_in_async_render_passed_to_process_exception"
+      ],
+      "tests/handlers/tests.py": [
+        "test_suspiciousop_in_view_returns_400"
+      ]
+    }
+  },
+  {
     "instance_id": "astropy__astropy-13977",
     "file_function": {
       "astropy/units/tests/test_quantity_array_methods.py": [
@@ -4411,6 +4519,10 @@
   {
     "instance_id": "django__django-16631",
     "file_function": {
+      "tests/auth_tests/test_views.py": [
+        "test_user_password_change_updates_session",
+        "test_session_key_flushed_on_login_after_password_change"
+      ],
       "tests/auth_tests/test_middleware/TestAuthenticationMiddleware/test_changed_password_invalidates_session.py": [
         "test_changed_password_invalidates_session"
       ]
@@ -4419,6 +4531,9 @@
   {
     "instance_id": "django__django-16612",
     "file_function": {
+      "tests/admin_views/tests.py": [
+        "test_trailing_slash_required"
+      ],
       "tests/admin_views/tests/AdminSiteFinalCatchAllPatternTests/test_missing_slash_append_slash_true_unknown_url.py": [
         "test_missing_slash_append_slash_true_unknown_url"
       ],
@@ -4527,6 +4642,7 @@
         "test_transform",
         "test_Poly_sub_ground",
         "test_div",
+        "test_Poly_strip",
         "test_Poly_all_coeffs",
         "test_Poly_to_exact",
         "test_gff",
@@ -4617,7 +4733,7 @@
   {
     "instance_id": "psf__requests-1142",
     "file_function": {
-      "test_requests.py": [
+      "tests/test_requests.py": [
         "test_path_is_not_double_encoded",
         "test_entry_points",
         "test_basic_building",
@@ -4742,6 +4858,9 @@
       ],
       "lib/matplotlib/tests/test_transforms.py": [
         "test_nonsingular"
+      ],
+      "lib/matplotlib/tests/test_axes.py": [
+        "test_log_scales"
       ]
     }
   },
@@ -4824,6 +4943,7 @@
         "test_lambdify_Derivative_arg_issue_16468",
         "test_sym_integral",
         "test_lambdify_dummy_arg",
+        "test_lambdify",
         "test_issue_14941",
         "test_ITE",
         "test_special_printers",
@@ -5047,6 +5167,9 @@
         "test_domain_py_xrefs",
         "test_optional_pyfunction_signature",
         "test_pyfunction"
+      ],
+      "tests/test_ext_autodoc.py": [
+        "test_autodoc"
       ]
     }
   },
@@ -5202,6 +5325,22 @@
     }
   },
   {
+    "instance_id": "sympy__sympy-13877",
+    "file_function": {
+      "sympy/matrices/tests/test_matrices.py": [
+        "test_determinant",
+        "test_errors",
+        "test_inv_block",
+        "test_inverse",
+        "test_matrix_inverse_mod",
+        "test_det_LU_decomposition"
+      ],
+      "sympy/matrices/tests/test_commonmatrix.py": [
+        "test_det"
+      ]
+    }
+  },
+  {
     "instance_id": "django__django-11848",
     "file_function": {
       "tests/utils_tests/test_http.py": [
@@ -5213,7 +5352,7 @@
   {
     "instance_id": "psf__requests-1724",
     "file_function": {
-      "test_requests.py": [
+      "tests/test_requests.py": [
         "test_params_are_added_before_fragment",
         "test_basic_building",
         "test_DIGESTAUTH_WRONG_HTTP_401_GET",
@@ -5274,6 +5413,9 @@
         "test_pyfunction",
         "test_optional_pyfunction_signature",
         "test_pyobject_prefix"
+      ],
+      "tests/test_ext_autodoc.py": [
+        "test_autodoc"
       ]
     }
   },
@@ -5489,6 +5631,9 @@
       "tests/responses/test_fileresponse/FileResponseTests/test_content_length_nonzero_starting_position_buffer.py": [
         "test_content_length_nonzero_starting_position_buffer"
       ],
+      "tests/middleware/tests.py": [
+        "test_compress_file_response"
+      ],
       "tests/responses/test_fileresponse/FileResponseTests/test_content_length_nonzero_starting_position_file_seekable_no_tell.py": [
         "test_content_length_nonzero_starting_position_file_seekable_no_tell"
       ],
@@ -5599,6 +5744,7 @@
         "test_legend_labelcolor_single",
         "test_get_set_draggable",
         "test_legend_auto4",
+        "test_reverse_legend_display",
         "test_legend_pathcollection_labelcolor_linecolor_iterable",
         "test_legend_labelcolor_rcparam_single",
         "test_warn_big_data_best_loc",
@@ -5636,6 +5782,7 @@
     "instance_id": "sympy__sympy-21930",
     "file_function": {
       "sympy/physics/tests/test_secondquant.py": [
+        "test_commutator",
         "test_commutation",
         "test_basic_apply",
         "test_create",
@@ -5922,10 +6069,14 @@
     "file_function": {
       "lib/matplotlib/tests/test_axes.py": [
         "test_hist_labels",
+        "test_hist_density",
         "test_hist_step_log_bottom",
         "test_hist_normed_density",
+        "test_hist_stacked_bar",
         "test_hist_unequal_bins_density",
         "test_hist_steplog",
+        "test_hist_stacked_weighted",
+        "test_hist_stacked_density",
         "test_length_one_hist"
       ]
     }
@@ -6124,6 +6275,15 @@
     }
   },
   {
+    "instance_id": "pylint-dev__pylint-7277",
+    "file_function": {
+      "tests/test_pylint_runners.py": [
+        "test_runner",
+        "test_runner_with_arguments"
+      ]
+    }
+  },
+  {
     "instance_id": "django__django-11149",
     "file_function": {
       "tests/admin_views/tests.py": [
@@ -6254,7 +6414,8 @@
         "test_aitoff_proj",
         "test_mollweide_forward_inverse_closure",
         "test_mollweide_grid",
-        "test_twinx_cla"
+        "test_twinx_cla",
+        "test_minorticks_on_rcParams_both"
       ],
       "lib/matplotlib/tests/test_ticker.py": [
         "test_minorticks_rc"
@@ -6280,7 +6441,14 @@
   },
   {
     "instance_id": "django__django-13658",
-    "file_function": {}
+    "file_function": {
+      "tests/bash_completion/tests.py": [
+        "test_manage_py",
+        "test_django_admin_py",
+        "test_completed_subcommand",
+        "test_subcommands"
+      ]
+    }
   },
   {
     "instance_id": "matplotlib__matplotlib-23476",
@@ -6290,6 +6458,7 @@
         "test_deepcopy"
       ],
       "lib/matplotlib/tests/test_pickle.py": [
+        "test_complete",
         "test_polar"
       ]
     }
@@ -6498,6 +6667,18 @@
   {
     "instance_id": "django__django-16595",
     "file_function": {
+      "tests/migrations/test_operations.py": [
+        "test_alter_field",
+        "test_alter_field_pk_fk",
+        "test_alter_field_pk"
+      ],
+      "tests/migrations/test_optimizer.py": [
+        "test_alter_field_delete_field",
+        "test_alter_field_rename_field"
+      ],
+      "tests/migrations/test_commands.py": [
+        "test_makemigrations_interactive_not_null_alteration"
+      ],
       "tests/migrations/test_operations/FieldOperationTests/test_references_field_by_from_fields.py": [
         "test_references_field_by_from_fields"
       ]
@@ -6761,6 +6942,7 @@
         "test_hist_stacked_weighted",
         "test_hist_stacked_bar",
         "test_hist_unequal_bins_density",
+        "test_hist_log_2",
         "test_hist_step_horiz",
         "test_hist_zorder",
         "test_hist_stacked_density"
@@ -6890,6 +7072,7 @@
     "file_function": {
       "lib/matplotlib/tests/test_colors.py": [
         "test_colormaps_get_cmap",
+        "test_double_register_builtin_cmap",
         "test_register_cmap",
         "test_unregister_builtin_cmap"
       ],
@@ -6897,10 +7080,13 @@
         "test_unclipped",
         "test_empty_imshow",
         "test_cursor_data",
+        "test_large_image",
         "test_composite",
         "test_imshow_clips_rgb_to_valid_range",
+        "test_imshow_10_10_1",
         "test_axesimage_get_shape",
         "test_image_array_alpha_validation",
+        "test_str_norms",
         "test_imshow_10_10_2",
         "test_jpeg_2d",
         "test_imsave_pil_kwargs_png",
@@ -7011,7 +7197,7 @@
   {
     "instance_id": "psf__requests-1921",
     "file_function": {
-      "test_requests.py": [
+      "tests/test_requests.py": [
         "test_request_and_response_are_pickleable",
         "test_DIGEST_STREAM",
         "test_cannot_send_unprepared_requests",
@@ -7461,6 +7647,13 @@
   {
     "instance_id": "django__django-16502",
     "file_function": {
+      "tests/servers/tests.py": [
+        "test_closes_connection_with_content_length",
+        "test_keep_alive_on_connection_with_content_length"
+      ],
+      "tests/servers/test_basehttp.py": [
+        "test_strips_underscore_headers"
+      ],
       "tests/servers/test_basehttp/WSGIRequestHandlerTestCase/test_log_message.py": [
         "test_log_message"
       ],
@@ -7860,6 +8053,7 @@
         "test_only_concrete_fields_allowed",
         "test_no_fields",
         "test_invalid_batch_size",
+        "test_batch_size",
         "test_multiple_fields"
       ]
     }
@@ -7912,6 +8106,14 @@
     }
   },
   {
+    "instance_id": "django__django-14672",
+    "file_function": {
+      "tests/model_fields/test_manytomanyfield.py": [
+        "test_abstract_model_app_relative_foreign_key"
+      ]
+    }
+  },
+  {
     "instance_id": "django__django-14155",
     "file_function": {
       "tests/urlpatterns_reverse/tests.py": [
@@ -7949,6 +8151,7 @@
         "test_annotation_update",
         "test_annotation_contains",
         "test_annotation_antialiased",
+        "test_annotation_units",
         "test_annotate_errors"
       ],
       "lib/matplotlib/tests/test_axes.py": [
@@ -7968,6 +8171,7 @@
         "test_see_also_refs",
         "test_list_in_parameter_description",
         "test_code_block_in_returns_section",
+        "test_docstrings",
         "test_sphinx_admonitions",
         "test_noindex",
         "test_raises_types",
@@ -7975,7 +8179,6 @@
         "test_class_data_member",
         "test_class_data_member_inline",
         "test_section_header_formatting",
-        "test_docstrings",
         "test_attributes_docstring",
         "test_attributes_with_class_reference",
         "test_custom_generic_sections",
@@ -8373,7 +8576,11 @@
   },
   {
     "instance_id": "django__django-16493",
-    "file_function": {}
+    "file_function": {
+      "tests/file_storage/tests.py": [
+        "test_deconstruction"
+      ]
+    }
   },
   {
     "instance_id": "sphinx-doc__sphinx-10449",
@@ -8438,6 +8645,12 @@
   {
     "instance_id": "django__django-16661",
     "file_function": {
+      "tests/admin_views/test_actions.py": [
+        "test_popup_template_response_on_add",
+        "test_default_redirect",
+        "test_model_admin_no_delete_permission",
+        "test_user_message_on_none_selected"
+      ],
       "tests/admin_inlines/tests/TestInlinePermissions/test_inline_add_fk_noperm.py": [
         "test_inline_add_fk_noperm"
       ],
@@ -8446,6 +8659,28 @@
       ],
       "tests/admin_views/tests/AdminViewBasicTest/test_add_with_GET_args.py": [
         "test_add_with_GET_args"
+      ],
+      "tests/admin_views/tests.py": [
+        "test_popup_dismiss_related",
+        "test_list_editable_pagination",
+        "test_change_view",
+        "test_delete_view_with_no_default_permissions",
+        "test_allows_attributeerror_to_bubble_up",
+        "test_change_view_with_view_and_delete_inlines",
+        "test_change_view_save_as_new",
+        "test_unicode_delete",
+        "test_change_view_with_view_only_inlines",
+        "test_basic_inheritance_GET_string_PK",
+        "test_user_fk_delete_popup",
+        "test_with_fk_to_field",
+        "test_incorrect_lookup_parameters",
+        "test_save_as_new_with_validation_errors",
+        "test_allowed_filtering_15103",
+        "test_history_view",
+        "test_basic_edit_GET_string_PK",
+        "test_limit_choices_to",
+        "test_user_fk_change_popup",
+        "test_delete_view"
       ],
       "tests/admin_views/tests/AdminUserMessageTest/test_message_debug.py": [
         "test_message_debug"
@@ -8485,6 +8720,9 @@
       ],
       "tests/admin_inlines/tests/TestInlinePermissions/test_inline_change_fk_all_perms.py": [
         "test_inline_change_fk_all_perms"
+      ],
+      "tests/admin_inlines/tests.py": [
+        "test_callable_lookup"
       ],
       "tests/admin_views/tests/AdminKeepChangeListFiltersTests/test_add_view.py": [
         "test_add_view"
@@ -8852,6 +9090,9 @@
         "test_scatter_c",
         "test_pcolormesh_alpha"
       ],
+      "lib/matplotlib/testing/decorators/check_figures_equal/<locals>/decorator/<locals>.py": [
+        "wrapper"
+      ],
       "lib/matplotlib/tests/test_colorbar.py": [
         "test_proportional_colorbars"
       ],
@@ -8939,7 +9180,11 @@
   },
   {
     "instance_id": "django__django-17029",
-    "file_function": {}
+    "file_function": {
+      "tests/migrations/test_executor.py": [
+        "test_custom_user"
+      ]
+    }
   },
   {
     "instance_id": "django__django-11163",
@@ -8964,6 +9209,20 @@
       ],
       "astropy/modeling/tests/test_parameters.py": [
         "test_non_broadcasting_parameters"
+      ]
+    }
+  },
+  {
+    "instance_id": "django__django-12039",
+    "file_function": {
+      "tests/backends/test_ddl_references.py": [
+        "test_repr"
+      ],
+      "tests/indexes/tests.py": [
+        "test_partial_index"
+      ],
+      "tests/schema/tests.py": [
+        "test_indexes"
       ]
     }
   },
