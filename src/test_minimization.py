@@ -216,6 +216,24 @@ def get_func_lines_code(repo, base_commit, file, fq_funcs, repo_base_dir = "temp
                     print(f"Found {func} at lines {start_lineno}-{end_lineno}")
                     res[func] = (func_lines,ast.unparse(node))
                     break
+                for subnode in node.body:
+                    if isinstance(subnode, ast.FunctionDef) or isinstance(subnode, ast.AsyncFunctionDef):
+                        print("Found function:", subnode.name)
+                        key = (node.name, subnode.name)
+                        if key in class_methods:
+                            start_lineno = subnode.lineno
+                            end_lineno = getattr(subnode, "end_lineno", subnode.body[-1].lineno)
+                            func_lines = set(range(start_lineno, end_lineno + 1))
+                            print(f"Found {func} at lines {start_lineno}-{end_lineno}")
+                            res[func] = (func_lines,ast.unparse(node))
+                            break
+                        if subnode.name in top_level_funcs:
+                            start_lineno = subnode.lineno
+                            end_lineno = getattr(subnode, "end_lineno", subnode.body[-1].lineno)
+                            func_lines = set(range(start_lineno, end_lineno + 1))
+                            print(f"Found {func} at lines {start_lineno}-{end_lineno}")
+                            res[func] = (func_lines,ast.unparse(node))
+                            break
             elif isinstance(node, ast.ClassDef):
                 if node.name in whole_classes:
                     start_lineno = node.lineno
@@ -511,8 +529,8 @@ def main(coverage_dir, test_log_dir, suspicious_info, dataset, log_dir, model_na
 
     # lite gpt
     # refix = ['sphinx-doc__sphinx-8713', 'pallets__flask-5063', 'sympy__sympy-15678', 'pytest-dev__pytest-5227', 'django__django-15790', 'pytest-dev__pytest-8906', 'sympy__sympy-11400', 'pytest-dev__pytest-7373', 'pytest-dev__pytest-11148', 'psf__requests-3362', 'django__django-13265', 'matplotlib__matplotlib-25442', 'pallets__flask-4045', 'pallets__flask-4992', 'pytest-dev__pytest-5692', 'sympy__sympy-21627', 'matplotlib__matplotlib-26011', 'django__django-11099', 'sympy__sympy-17139', 'pytest-dev__pytest-5495', 'django__django-14730', 'pytest-dev__pytest-5103', 'django__django-12453', 'django__django-16255', 'pytest-dev__pytest-7168', 'pytest-dev__pytest-7490', 'sympy__sympy-22840', 'pytest-dev__pytest-8365', 'pytest-dev__pytest-9359', 'pytest-dev__pytest-6116', 'pytest-dev__pytest-7432', 'pytest-dev__pytest-7220', 'django__django-13448', 'pytest-dev__pytest-5221', 'pytest-dev__pytest-5413', 'pydata__xarray-5131', 'sympy__sympy-22005', 'django__django-13660']
-    refix = ['sphinx-doc__sphinx-8713']
-    
+    refix = ['pallets__flask-5063', 'sympy__sympy-15678', 'pytest-dev__pytest-5227', 'sympy__sympy-11400', 'pytest-dev__pytest-11148', 'psf__requests-3362', 'pallets__flask-4045', 'pallets__flask-4992', 'sympy__sympy-21627', 'matplotlib__matplotlib-26011', 'django__django-11099', 'sympy__sympy-17139', 'pytest-dev__pytest-5103', 'django__django-16255', 'sympy__sympy-22840', 'django__django-13448', 'pytest-dev__pytest-5221', 'pydata__xarray-5131', 'sympy__sympy-22005', 'django__django-13660']
+
     print(f"{len(refix)} instances to rerun")
     for instance_id, log_file in test_logs.items():
         # print(instance_id, log_file)
