@@ -1065,7 +1065,14 @@
         "queries.tests.Queries1Tests.test_exclude_in"
     ],
     "pytest-dev__pytest-11148": [],
-    "psf__requests-3362": [],
+    "psf__requests-3362": [
+        "tests.test_lowlevel.test_chunked_upload",
+        "tests.test_requests.TestRequests.test_response_chunk_size_int",
+        "tests.test_utils.TestContentEncodingDetection.test_precedence",
+        "tests.test_requests.TestRequests.test_response_decode_unicode",
+        "tests.test_utils.TestContentEncodingDetection.test_none",
+        "tests.test_utils.test_get_encoding_from_headers"
+    ],
     "matplotlib__matplotlib-24334": [
         "matplotlib.tests.test_axes.test_mismatched_ticklabels",
         "matplotlib.tests.test_axes.test_displaced_spine",
@@ -3163,7 +3170,14 @@
         "sklearn.neighbors.tests.test_nca.test_params_validation",
         "sklearn.neighbors.tests.test_nca.test_convergence_warning"
     ],
-    "pydata__xarray-5131": [],
+    "pydata__xarray-5131": [
+        "xarray.tests.test_computation.test_apply_1d_and_0d",
+        "xarray.tests.test_computation.test_apply_groupby_add",
+        "xarray.tests.test_groupby.test_groupby_repr_datetime",
+        "xarray.tests.test_computation.test_apply_identity",
+        "xarray.tests.test_groupby.test_groupby_repr",
+        "xarray.tests.test_groupby.test_groupby_drops_nans"
+    ],
     "sympy__sympy-13971": [
         "sympy.printing.tests.test_latex.test_latex_sequences",
         "sympy.printing.tests.test_latex.test_latex_Range"
