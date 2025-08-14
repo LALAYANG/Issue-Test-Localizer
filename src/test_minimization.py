@@ -203,10 +203,12 @@ def get_func_lines_code(repo, base_commit, file, fq_funcs, repo_base_dir = "temp
                 whole_classes.add(func)
             else:
                 top_level_funcs.add(func)
-
+        print("whole_classes:", whole_classes)
+        print("top_level_funcs:", top_level_funcs)
 
         for node in tree.body:
             if isinstance(node, ast.FunctionDef) or isinstance(node, ast.AsyncFunctionDef):
+                print("Found function:", node.name)
                 if node.name in top_level_funcs:
                     start_lineno = node.lineno
                     end_lineno = getattr(node, "end_lineno", node.body[-1].lineno)
@@ -227,6 +229,13 @@ def get_func_lines_code(repo, base_commit, file, fq_funcs, repo_base_dir = "temp
                     if isinstance(subnode, ast.FunctionDef) or isinstance(subnode, ast.AsyncFunctionDef):
                         key = (node.name, subnode.name)
                         if key in class_methods:
+                            start_lineno = subnode.lineno
+                            end_lineno = getattr(subnode, "end_lineno", subnode.body[-1].lineno)
+                            func_lines = set(range(start_lineno, end_lineno + 1))
+                            print(f"Found {func} at lines {start_lineno}-{end_lineno}")
+                            res[func] = (func_lines,ast.unparse(node))
+                            break
+                        if subnode.name in top_level_funcs:
                             start_lineno = subnode.lineno
                             end_lineno = getattr(subnode, "end_lineno", subnode.body[-1].lineno)
                             func_lines = set(range(start_lineno, end_lineno + 1))
@@ -490,9 +499,20 @@ def process_instance(
 
 def main(coverage_dir, test_log_dir, suspicious_info, dataset, log_dir, model_name, result_json, prev_results):
     test_logs = get_log_file(test_log_dir)
+    
+    #verified_claude to fix
     # refix = ['matplotlib__matplotlib-23299', 'django__django-16315', 'sympy__sympy-20916', 'astropy__astropy-13579', 'django__django-11728', 'pydata__xarray-6599', 'astropy__astropy-8707', 'sympy__sympy-23413', 'psf__requests-1766', 'pydata__xarray-4687', 'django__django-11099', 'sympy__sympy-17139', 'pylint-dev__pylint-6903', 'django__django-13809', 'django__django-15629', 'sympy__sympy-13877', 'django__django-10097', 'pallets__flask-5014', 'django__django-11138', 'django__django-16255', 'pylint-dev__pylint-7277', 'pydata__xarray-6461', 'django__django-7530', 'django__django-14376', 'django__django-14672', 'astropy__astropy-8872', 'django__django-16145', 'django__django-16082', 'django__django-12039']
-    refix = ['matplotlib__matplotlib-23299', 'django__django-16315', 'astropy__astropy-13579', 'django__django-11728', 'pydata__xarray-6599', 'astropy__astropy-8707', 'sympy__sympy-23413', 'psf__requests-1766', 'pydata__xarray-4687', 'django__django-11099', 'sympy__sympy-17139', 'pylint-dev__pylint-6903', 'django__django-13809', 'django__django-15629', 'sympy__sympy-13877', 'django__django-10097', 'pallets__flask-5014', 'django__django-11138', 'django__django-16255', 'pylint-dev__pylint-7277', 'pydata__xarray-6461', 'django__django-7530', 'django__django-14376', 'django__django-14672', 'astropy__astropy-8872', 'django__django-16145', 'django__django-16082', 'django__django-12039']
-    # refix = ['pytest-dev__pytest-7236', 'pytest-dev__pytest-5787', 'pytest-dev__pytest-5631', 'pytest-dev__pytest-6202', 'pytest-dev__pytest-5840', 'pytest-dev__pytest-7571', 'pytest-dev__pytest-8399', 'pytest-dev__pytest-6197', 'pytest-dev__pytest-5809', 'pytest-dev__pytest-7982', 'pytest-dev__pytest-7490', 'pytest-dev__pytest-7205', 'pytest-dev__pytest-7432', 'pytest-dev__pytest-5262', 'pytest-dev__pytest-7521', 'pytest-dev__pytest-7324']
+    # refix = ['matplotlib__matplotlib-23299', 'django__django-16315', 'django__django-11728', 'pydata__xarray-6599', 'astropy__astropy-8707', 'sympy__sympy-23413', 'pydata__xarray-4687', 'django__django-11099', 'sympy__sympy-17139', 'pylint-dev__pylint-6903', 'django__django-13809', 'django__django-15629', 'sympy__sympy-13877', 'django__django-10097', 'pallets__flask-5014', 'django__django-11138', 'django__django-16255', 'pydata__xarray-6461', 'django__django-7530', 'django__django-14376', 'astropy__astropy-8872', 'django__django-16145', 'django__django-16082']
+    # refix = ['pytest-dev__pytest-5262','pytest-dev__pytest-5840','pytest-dev__pytest-6197','pytest-dev__pytest-7982','pytest-dev__pytest-8399']
+    # verified gpt4o to fix
+    
+    #lite claude
+    # refix = ['matplotlib__matplotlib-23562', 'pallets__flask-5063', 'django__django-14382', 'pytest-dev__pytest-5227', 'pytest-dev__pytest-8906', 'sympy__sympy-13437', 'scikit-learn__scikit-learn-15535', 'pytest-dev__pytest-7373', 'pytest-dev__pytest-11148', 'psf__requests-3362', 'matplotlib__matplotlib-25442', 'pallets__flask-4045', 'pallets__flask-4992', 'pytest-dev__pytest-5692', 'sympy__sympy-21627', 'sympy__sympy-16106', 'django__django-11099', 'sympy__sympy-17139', 'pytest-dev__pytest-5495', 'pytest-dev__pytest-5103', 'django__django-16255', 'sympy__sympy-12171', 'pytest-dev__pytest-7168', 'pytest-dev__pytest-7490', 'django__django-13230', 'pytest-dev__pytest-8365', 'pytest-dev__pytest-9359', 'pytest-dev__pytest-6116', 'pytest-dev__pytest-7432', 'django__django-12915', 'pytest-dev__pytest-7220', 'pytest-dev__pytest-5221', 'pytest-dev__pytest-5413', 'pydata__xarray-5131', 'sympy__sympy-13971', 'sympy__sympy-14317', 'django__django-15781']
+
+    # lite gpt
+    # refix = ['sphinx-doc__sphinx-8713', 'pallets__flask-5063', 'sympy__sympy-15678', 'pytest-dev__pytest-5227', 'django__django-15790', 'pytest-dev__pytest-8906', 'sympy__sympy-11400', 'pytest-dev__pytest-7373', 'pytest-dev__pytest-11148', 'psf__requests-3362', 'django__django-13265', 'matplotlib__matplotlib-25442', 'pallets__flask-4045', 'pallets__flask-4992', 'pytest-dev__pytest-5692', 'sympy__sympy-21627', 'matplotlib__matplotlib-26011', 'django__django-11099', 'sympy__sympy-17139', 'pytest-dev__pytest-5495', 'django__django-14730', 'pytest-dev__pytest-5103', 'django__django-12453', 'django__django-16255', 'pytest-dev__pytest-7168', 'pytest-dev__pytest-7490', 'sympy__sympy-22840', 'pytest-dev__pytest-8365', 'pytest-dev__pytest-9359', 'pytest-dev__pytest-6116', 'pytest-dev__pytest-7432', 'pytest-dev__pytest-7220', 'django__django-13448', 'pytest-dev__pytest-5221', 'pytest-dev__pytest-5413', 'pydata__xarray-5131', 'sympy__sympy-22005', 'django__django-13660']
+    refix = ['sphinx-doc__sphinx-8713']
+    
     print(f"{len(refix)} instances to rerun")
     for instance_id, log_file in test_logs.items():
         # print(instance_id, log_file)
