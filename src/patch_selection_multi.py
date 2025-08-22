@@ -76,7 +76,7 @@ class ResultStore:
             self._save()
 
 
-DEFAULT_UNIQPATCH_TMPL = "agentless_verified_all_unique_patches/{instance_id}/*.jsonl"
+DEFAULT_UNIQPATCH_TMPL = "all_patches/verified_gpt4o_all_unique_patches/{instance_id}/*.jsonl"
 REPO_PATH_IN_CONTAINER = "/testbed"
 OCCUR_COUNT_FILE = "regression_reproduction_data/per_instance_patch_counts.json"
 RESULTS_DIR_DEFAULT = Path("test_logs/results")
@@ -829,16 +829,16 @@ def best_patch_by_occurrence(
 def select_final_patches(
     summaries: List[Dict[str, object]], instance_id: str, top: List
 ) -> List[Dict[str, object]]:
-    gd_patch_file = "SWE-bench/resolved_instance_merged_patches.json"
-    if not Path(gd_patch_file).exists():
-        raise FileNotFoundError(f"Ground truth patch file not found: {gd_patch_file}")
-    gd_patches = json.loads(Path(gd_patch_file).read_text(encoding="utf-8"))
-    if instance_id not in gd_patches:
-        raise ValueError(
-            f"Instance ID {instance_id} not found in ground truth patches."
-        )
-    gd_patch = gd_patches[instance_id]
-    gd_patch_norm = [normalize_patch(patch) for patch in gd_patch]
+    # gd_patch_file = "SWE-bench/resolved_instance_merged_patches.json"
+    # if not Path(gd_patch_file).exists():
+    #     raise FileNotFoundError(f"Ground truth patch file not found: {gd_patch_file}")
+    # gd_patches = json.loads(Path(gd_patch_file).read_text(encoding="utf-8"))
+    # if instance_id not in gd_patches:
+    #     raise ValueError(
+    #         f"Instance ID {instance_id} not found in ground truth patches."
+    #     )
+    # gd_patch = gd_patches[instance_id]
+    # gd_patch_norm = [normalize_patch(patch) for patch in gd_patch]
 
     final_patches = []
     for summary in summaries:
@@ -856,10 +856,10 @@ def select_final_patches(
                         "test_name": test_name,
                         "patch_file": outcome["patch_file"],
                         "patch_content": patch_content,
-                        "if_ground_truth_match": normalize_patch(
-                            patch_content["model_patch"]
-                        )
-                        in gd_patch_norm,
+                        # "if_ground_truth_match": normalize_patch(
+                        #     patch_content["model_patch"]
+                        # )
+                        # in gd_patch_norm,
                         "if_by_counts": False,
                     }
                     if res not in final_patches:
@@ -896,7 +896,7 @@ def select_final_patches(
                 "instance_id": instance_id,
                 "patch_content": best_patch,
                 "freq": cnt,
-                "if_ground_truth_match": normalize_patch(best_patch) in gd_patch_norm,
+                # "if_ground_truth_match": normalize_patch(best_patch) in gd_patch_norm,
                 "if_by_counts": True,
             }
             if res not in final_patches:
@@ -1019,8 +1019,10 @@ def main():
             # if not repro_tests_map.get(inst):
             #     log.warning("No reproduction tests provided for %s; skipping.", inst)
             #     continue
-            if inst in skip:
-                print(f"Skipping {inst} (in skip list)")
+            # if inst in skip:
+            #     print(f"Skipping {inst} (in skip list)")
+            #     continue
+            if inst != "astropy__astropy-12907":
                 continue
 
             summary_result = Path(log_dir) / f"{inst}_summary.json"
