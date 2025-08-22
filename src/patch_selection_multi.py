@@ -374,7 +374,6 @@ def evaluate_patches(
 
 # ============================== reproduction tests ==============================
 
-
 def verify_repro_fails_on_clean_repo(
     container: str,
     repo_path: str,
@@ -382,29 +381,52 @@ def verify_repro_fails_on_clean_repo(
     test_name: str,
     logger: logging.Logger,
     instance_id: str,
+    store: Optional[ResultStore] = None,
+    test_idx: int = 0,
 ) -> bool:
-    """Return True if the repro test FAILS on the clean repo (as expected)."""
+    """
+    Return True if the repro test FAILS on the clean repo (as expected).
+    Also stores result in the store under "fail_on_original_repo".
+    """
+    label = f"{test_name}#{test_idx}"
+    
+    if store:
+        cached = store.get("reproduction", "fail_on_original_repo", label)
+        if cached is not None:
+            logger.info("[cache] Original repo test %s -> %s", label, "FAIL" if cached else "PASS")
+            return bool(cached)
+
     logger.info("Verifying repro test fails on clean repo: %s", test_name)
     git_reset_clean(container, repo_path, logger)
+
     TEMP_PATCH_PATH = Path(
         f"temp_repro_patch_{instance_id}_{test_name.split('/')[-1].split('::')[-1]}.patch"
     )
     TEMP_PATCH_PATH.write_text(test_patch, encoding="utf-8")
     remote_candidate = f"/tmp/repro_patch_{instance_id}.patch"
+    
     apply_patch_in_container(
         container, repo_path, TEMP_PATCH_PATH, remote_candidate, logger
     )
+
     try:
         TEMP_PATCH_PATH.unlink()
     except Exception as e:
         logger.debug("Failed to cleanup temp patch file %s: %s", TEMP_PATCH_PATH, e)
 
     rc = run_tests(container, test_name, instance_id, logger)
-    if rc == 0:
+    passed = rc == 0
+    fails_on_clean_repo = not passed
+
+    if store:
+        store.set("reproduction", "fail_on_original_repo", label, fails_on_clean_repo)
+
+    if passed:
         logger.warning(
             "Reproduction test unexpectedly PASSED on clean repo: %s", test_name
         )
         return False
+
     logger.info("Reproduction test correctly FAILS on clean repo: %s", test_name)
     return True
 
@@ -725,18 +747,29 @@ def process_instance(
             logger.info(f"testname: {test_name}")
             logger.info(test_patch)
 
-            if not verify_repro_fails_on_clean_repo(
-                container_id, repo_path, test_patch, test_name, logger, instance_id
-            ):
+            label = f"{test_name}#{test_idx}"
+            repro_fails = verify_repro_fails_on_clean_repo(
+                container=container_id,
+                repo_path=repo_path,
+                test_patch=test_patch,
+                test_name=test_name,
+                logger=logger,
+                instance_id=instance_id,
+                store=store,
+                test_idx=test_idx,
+            )
+            
+            summary["reproduction"][label] = {
+                "repro_fails_on_clean": repro_fails, #repro_fails_on_clean
+                "outcomes": [],
+            }
+
+            if not repro_fails:
                 logger.warning(
                     "Skipping repro evaluation for %s (test %s does not fail on clean repo).",
                     instance_id,
                     test_name,
                 )
-                summary["reproduction"][f"{test_name}#{test_idx}"] = {
-                    "repro_fails_on_clean": False,
-                    "outcomes": [],
-                }
                 continue
 
             outcomes = evaluate_top_patches_with_repro(
@@ -750,17 +783,15 @@ def process_instance(
                 store=store,
             )
 
-            summary["reproduction"][f"{test_name}#{test_idx}"] = {
-                "repro_fails_on_clean": True,
-                "outcomes": [
-                    {
-                        "patch_file": o.patch_file,
-                        "inst": o.instance_id,
-                        "passed": o.passed,
-                    }
-                    for o in outcomes
-                ],
-            }
+            summary["reproduction"][label]["outcomes"] = [
+                {
+                    "patch_file": o.patch_file,
+                    "inst": o.instance_id,
+                    "passed": o.passed,
+                }
+                for o in outcomes
+            ]
+
 
             logger.info(
                 "Reproduction test %s for instance %s: %d outcomes",
@@ -773,8 +804,8 @@ def process_instance(
         logger.info("Cleaning up container %s", container_id)
         docker_stop_rm(container_id, logger)
 
-    final = select_final_patches([summary], instance_id, top)
-    summary["final_patches"] = final
+    # final = select_final_patches([summary], instance_id, top)
+    # summary["final_patches"] = final
 
     logger.info(
         "Summary for instance %s: %s", instance_id, json.dumps(summary, indent=2)
