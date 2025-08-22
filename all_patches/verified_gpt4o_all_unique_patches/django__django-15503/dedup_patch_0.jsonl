@@ -1,0 +1,1 @@
+{"model_name_or_path": "agentless", "instance_id": "django__django-15503", "model_patch": "--- a/django/db/backends/sqlite3/operations.py\n+++ b/django/db/backends/sqlite3/operations.py\n+    def json_extract_path(self, column, path):\n+        path = [\"'%s'\" % p if not p.isdigit() else p for p in path]\n+        return 'JSON_EXTRACT(%s, %s)' % (column, ', '.join(path))"}

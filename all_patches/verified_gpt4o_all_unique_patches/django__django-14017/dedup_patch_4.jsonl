@@ -1,0 +1,1 @@
+{"model_name_or_path": "agentless", "instance_id": "django__django-14017", "model_patch": "--- a/django/db/models/query_utils.py\n+++ b/django/db/models/query_utils.py\n+    def __rand__(self, other):\n+        if isinstance(other, Combinable) and other.conditional:\n+            return self._combine(Q(other), self.AND)\n+        return NotImplemented"}

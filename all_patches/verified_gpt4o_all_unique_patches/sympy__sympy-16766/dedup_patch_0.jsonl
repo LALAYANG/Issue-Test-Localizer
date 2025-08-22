@@ -1,0 +1,1 @@
+{"model_name_or_path": "agentless", "instance_id": "sympy__sympy-16766", "model_patch": "--- a/sympy/printing/pycode.py\n+++ b/sympy/printing/pycode.py\n+    def _print_Indexed(self, expr):\n+        base, *index = expr.args\n+        return '{}[{}]'.format(str(base), ', '.join([self._print(ind) for ind in index]))"}

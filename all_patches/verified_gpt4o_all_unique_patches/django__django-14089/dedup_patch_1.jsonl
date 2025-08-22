@@ -1,0 +1,1 @@
+{"model_name_or_path": "agentless", "instance_id": "django__django-14089", "model_patch": "--- a/django/utils/datastructures.py\n+++ b/django/utils/datastructures.py\n+    def __reversed__(self):\n+        return reversed(list(self.dict.keys()))"}

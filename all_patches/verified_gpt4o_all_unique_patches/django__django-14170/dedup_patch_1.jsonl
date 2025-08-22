@@ -1,0 +1,1 @@
+{"model_name_or_path": "agentless", "instance_id": "django__django-14170", "model_patch": "--- a/django/db/models/lookups.py\n+++ b/django/db/models/lookups.py\n+    def as_sql(self, compiler, connection):\n+        if self.lookup_name == 'iso_year':\n+            return super(YearLookup, self).as_sql(compiler, connection)\n+        return super().as_sql(compiler, connection)"}

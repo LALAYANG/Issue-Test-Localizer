@@ -1,0 +1,1 @@
+{"model_name_or_path": "agentless", "instance_id": "django__django-14915", "model_patch": "--- a/django/forms/models.py\n+++ b/django/forms/models.py\n+    def __hash__(self):\n+        return hash(self.value)"}

@@ -1,0 +1,1 @@
+{"model_name_or_path": "agentless", "instance_id": "django__django-11532", "model_patch": "--- a/django/core/mail/utils.py\n+++ b/django/core/mail/utils.py\n+import idna\n+    def get_punycode(self):\n+        fqdn = self.get_fqdn()\n+        try:\n+            return idna.encode(fqdn).decode('ascii')\n+        except idna.IDNAError:\n+            return fqdn"}

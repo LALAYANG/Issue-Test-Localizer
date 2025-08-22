@@ -1,0 +1,1 @@
+{"model_name_or_path": "agentless", "instance_id": "django__django-13012", "model_patch": "--- a/django/db/models/expressions.py\n+++ b/django/db/models/expressions.py\n+    def get_group_by_cols(self, alias=None):\n+        if isinstance(self.expression, Value):\n+            return []\n+        return self.expression.get_group_by_cols(alias)"}

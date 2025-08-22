@@ -1,0 +1,1 @@
+{"model_name_or_path": "agentless", "instance_id": "django__django-14011", "model_patch": "--- a/django/core/servers/basehttp.py\n+++ b/django/core/servers/basehttp.py\n+    def shutdown_request(self, request):\n+        super().shutdown_request(request)\n+        from django.db import connections\n+        for conn in connections.all():\n+            conn.close()"}

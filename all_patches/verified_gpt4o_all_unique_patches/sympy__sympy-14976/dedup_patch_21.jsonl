@@ -1,0 +1,1 @@
+{"model_name_or_path": "agentless", "instance_id": "sympy__sympy-14976", "model_patch": "--- a/sympy/printing/pycode.py\n+++ b/sympy/printing/pycode.py\n+def _print_Rational(self, expr):\n+    return 'mpmath.mpf(%s)/mpmath.mpf(%s)' % (self._print(expr.p), self._print(expr.q))\n+MpmathPrinter._print_Rational = _print_Rational"}

@@ -1,0 +1,1 @@
+{"model_name_or_path": "agentless", "instance_id": "django__django-16136", "model_patch": "--- a/django/http/response.py\n+++ b/django/http/response.py\n+import asyncio\n+    def __await__(self):\n+        async def coro():\n+            return self\n+        return coro().__await__()"}

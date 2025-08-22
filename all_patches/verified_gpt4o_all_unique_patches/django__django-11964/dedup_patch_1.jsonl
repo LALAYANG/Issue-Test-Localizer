@@ -1,0 +1,1 @@
+{"model_name_or_path": "agentless", "instance_id": "django__django-11964", "model_patch": "--- a/django/db/models/enums.py\n+++ b/django/db/models/enums.py\n-    pass\n+    def __str__(self):\n+        return str(self.value)"}

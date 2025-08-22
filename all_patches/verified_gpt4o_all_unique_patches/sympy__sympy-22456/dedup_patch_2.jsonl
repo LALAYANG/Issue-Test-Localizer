@@ -1,0 +1,1 @@
+{"model_name_or_path": "agentless", "instance_id": "sympy__sympy-22456", "model_patch": "--- a/sympy/codegen/ast.py\n+++ b/sympy/codegen/ast.py\n+    def __new__(cls, text):\n+        text = cls._construct_text(text)\n+        obj = Token.__new__(cls, text)\n+        obj.text = text\n+        return obj\n+\n+    @property\n+    def args(self):\n+        return (self.text,)\n+"}

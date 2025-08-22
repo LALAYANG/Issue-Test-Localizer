@@ -1,0 +1,1 @@
+{"model_name_or_path": "agentless", "instance_id": "sympy__sympy-14976", "model_patch": "--- a/sympy/printing/pycode.py\n+++ b/sympy/printing/pycode.py\n-_known_constants_mpmath = {'Pi': 'pi'}\n+_known_constants_mpmath = {'Pi': 'pi', 'Rational': 'mpf'}\n+    def _print_Rational(self, e):\n+        return '{0}({1})/{0}({2})'.format(self._module_format('mpmath.mpf'), e.p, e.q)"}

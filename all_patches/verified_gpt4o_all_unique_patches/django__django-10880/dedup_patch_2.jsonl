@@ -1,0 +1,1 @@
+{"model_name_or_path": "agentless", "instance_id": "django__django-10880", "model_patch": "--- a/django/db/models/aggregates.py\n+++ b/django/db/models/aggregates.py\n+    def as_sql(self, compiler, connection):\n+        if self.distinct:\n+            self.function = 'COUNT(DISTINCT %s )' % self.function\n+        return super().as_sql(compiler, connection)"}

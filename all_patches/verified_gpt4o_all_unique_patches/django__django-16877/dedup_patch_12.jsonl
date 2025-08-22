@@ -1,0 +1,1 @@
+{"model_name_or_path": "agentless", "instance_id": "django__django-16877", "model_patch": "--- a/django/template/defaultfilters.py\n+++ b/django/template/defaultfilters.py\n+@register.filter(is_safe=True, needs_autoescape=True)\n+def escapeseq(value, autoescape=True):\n+    if autoescape:\n+        value = [conditional_escape(v) for v in value]\n+    return value"}

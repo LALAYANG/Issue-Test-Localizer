@@ -1,0 +1,1 @@
+{"model_name_or_path": "agentless", "instance_id": "django__django-15127", "model_patch": "--- a/django/contrib/messages/storage/base.py\n+++ b/django/contrib/messages/storage/base.py\n-LEVEL_TAGS = utils.get_level_tags()\n+def get_level_tags():\n+    return utils.get_level_tags()\n+LEVEL_TAGS = property(get_level_tags)"}
