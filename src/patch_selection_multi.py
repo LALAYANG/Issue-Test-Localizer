@@ -1000,17 +1000,9 @@ def main():
     log = logging.getLogger("main")
 
     instances = load_instances(args.instances_file)
-    # instances = ['matplotlib__matplotlib-13989', 'pylint-dev__pylint-4970', 'sphinx-doc__sphinx-8269'] #'astropy__astropy-12907',
     repro_tests_map = load_repro_tests(args.reproduction_tests_json)
     regression_tests = load_tests_file(args.tests_file)
     log_dir = Path(args.log_dir)
-    skip = [
-        "django__django-16819",
-        "django__django-16145",
-        "scikit-learn__scikit-learn-25931",
-        "sphinx-doc__sphinx-8269",
-        "django__django-11211",
-    ]
 
     print(
         f"Starting evaluation for {len(instances)} instance(s) with up to {args.max_workers} worker(s). "
