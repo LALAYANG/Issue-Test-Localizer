@@ -239,6 +239,7 @@ def run_pytest(container: str, test_name: str, logger: Optional[logging.Logger])
             logger.info("[TEST STDOUT]\n%s", res.stdout)
         if res.stderr:
             logger.info("[TEST STDERR]\n%s", res.stderr)
+        # logger.info(res)
         logger.info("Test %s -> returncode %s", test_name, res.returncode)
     return res.returncode
 
@@ -740,7 +741,10 @@ def process_instance(
             # apply the test_patch to the clean repo and run the repro test
             # print(test_patch)
             test_idx += 1
-            patched_test_name = extract_testname_from_patch(test_patch)
+            if "reproduce_bug.py" in test_patch:
+                patched_test_name = "reproduce_bug.py"
+            else:
+                patched_test_name = extract_testname_from_patch(test_patch)
             test_name = transform_testname(patched_test_name, instance_id)
             # print(f"testname: {test_name}")
             logger.info(f"Reproduction test {test_idx}")
@@ -1053,7 +1057,7 @@ def main():
             # if inst in skip:
             #     print(f"Skipping {inst} (in skip list)")
             #     continue
-            if inst != "astropy__astropy-12907":
+            if inst != "django__django-10097":
                 continue
 
             summary_result = Path(log_dir) / f"{inst}_summary.json"
