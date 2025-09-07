@@ -1,0 +1,5270 @@
+{
+  "astropy__astropy-14182": {
+    "astropy/io/ascii/rst.py": [
+      {
+        "function": "get_fixedwidth_params",
+        "qualname": "SimpleRSTHeader.get_fixedwidth_params",
+        "start": 22,
+        "end": 26
+      }
+    ]
+  },
+  "astropy__astropy-7746": {
+    "astropy/wcs/wcs.py": [
+      {
+        "function": "_array_converter",
+        "qualname": "WCS._array_converter",
+        "start": 1208,
+        "end": 1276
+      }
+    ]
+  },
+  "astropy__astropy-12907": {
+    "astropy/modeling/separable.py": [
+      {
+        "function": "_cstack",
+        "qualname": "_cstack",
+        "start": 219,
+        "end": 247
+      }
+    ]
+  },
+  "astropy__astropy-14365": {
+    "astropy/io/ascii/qdp.py": [
+      {
+        "function": "_line_type",
+        "qualname": "_line_type",
+        "start": 20,
+        "end": 85
+      },
+      {
+        "function": "_get_tables_from_qdp_file",
+        "qualname": "_get_tables_from_qdp_file",
+        "start": 237,
+        "end": 342
+      }
+    ]
+  },
+  "astropy__astropy-14995": {
+    "astropy/nddata/mixins/ndarithmetic.py": [
+      {
+        "function": "_arithmetic_mask",
+        "qualname": "NDArithmeticMixin._arithmetic_mask",
+        "start": 485,
+        "end": 527
+      }
+    ]
+  },
+  "django__django-11905": {},
+  "django__django-11797": {
+    "django/db/models/lookups.py": [
+      {
+        "function": "process_rhs",
+        "qualname": "Lookup.process_rhs",
+        "start": 84,
+        "end": 96
+      },
+      {
+        "function": "process_rhs",
+        "qualname": "FieldGetDbPrepValueIterableMixin.process_rhs",
+        "start": 227,
+        "end": 233
+      },
+      {
+        "function": "process_rhs",
+        "qualname": "Exact.process_rhs",
+        "start": 261,
+        "end": 273
+      },
+      {
+        "function": "process_rhs",
+        "qualname": "IExact.process_rhs",
+        "start": 281,
+        "end": 285
+      },
+      {
+        "function": "process_rhs",
+        "qualname": "In.process_rhs",
+        "start": 333,
+        "end": 359
+      },
+      {
+        "function": "process_rhs",
+        "qualname": "PatternLookup.process_rhs",
+        "start": 413,
+        "end": 417
+      }
+    ]
+  },
+  "astropy__astropy-6938": {
+    "astropy/io/fits/fitsrec.py": [
+      {
+        "function": "_scale_back_ascii",
+        "qualname": "FITS_rec._scale_back_ascii",
+        "start": 1196,
+        "end": 1264
+      }
+    ]
+  },
+  "django__django-11019": {
+    "django/forms/widgets.py": [
+      {
+        "function": "__str__",
+        "qualname": "Media.__str__",
+        "start": 57,
+        "end": 58
+      },
+      {
+        "function": "__getitem__",
+        "qualname": "Media.__getitem__",
+        "start": 111,
+        "end": 115
+      }
+    ]
+  },
+  "django__django-14238": {
+    "django/db/models/fields/__init__.py": [
+      {
+        "function": "__instancecheck__",
+        "qualname": "AutoFieldMeta.__instancecheck__",
+        "start": 2523,
+        "end": 2524
+      }
+    ]
+  },
+  "django__django-11630": {
+    "django/core/checks/model_checks.py": [
+      {
+        "function": "check_all_models",
+        "qualname": "check_all_models",
+        "start": 11,
+        "end": 74
+      }
+    ]
+  },
+  "django__django-10914": {
+    "django/conf/global_settings.py": [
+      {
+        "function": "gettext_noop",
+        "qualname": "gettext_noop",
+        "start": 9,
+        "end": 10
+      }
+    ]
+  },
+  "django__django-14017": {
+    "django/db/models/query_utils.py": [
+      {
+        "function": "__init__",
+        "qualname": "Q.__init__",
+        "start": 39,
+        "end": 40
+      },
+      {
+        "function": "__init__",
+        "qualname": "DeferredAttribute.__init__",
+        "start": 105,
+        "end": 106
+      },
+      {
+        "function": "__init__",
+        "qualname": "FilteredRelation.__init__",
+        "start": 288,
+        "end": 296
+      }
+    ]
+  },
+  "django__django-13964": {
+    "django/db/models/base.py": [
+      {
+        "function": "_prepare_related_fields_for_save",
+        "qualname": "Model._prepare_related_fields_for_save",
+        "start": 911,
+        "end": 943
+      }
+    ]
+  },
+  "django__django-13590": {
+    "django/db/models/sql/query.py": [
+      {
+        "function": "resolve_lookup_value",
+        "qualname": "Query.resolve_lookup_value",
+        "start": 1072,
+        "end": 1084
+      }
+    ]
+  },
+  "django__django-11283": {
+    "django/contrib/auth/migrations/0011_update_proxy_permissions.py": [
+      {
+        "function": "update_proxy_model_permissions",
+        "qualname": "update_proxy_model_permissions",
+        "start": 5,
+        "end": 30
+      }
+    ]
+  },
+  "django__django-14672": {
+    "django/db/models/fields/reverse_related.py": [
+      {
+        "function": "__init__",
+        "qualname": "ForeignObjectRel.__init__",
+        "start": 39,
+        "end": 50
+      },
+      {
+        "function": "__init__",
+        "qualname": "ManyToOneRel.__init__",
+        "start": 223,
+        "end": 234
+      },
+      {
+        "function": "__init__",
+        "qualname": "OneToOneRel.__init__",
+        "start": 266,
+        "end": 277
+      },
+      {
+        "function": "__init__",
+        "qualname": "ManyToManyRel.__init__",
+        "start": 288,
+        "end": 307
+      }
+    ]
+  },
+  "django__django-13710": {
+    "django/contrib/admin/options.py": [
+      {
+        "function": "__init__",
+        "qualname": "BaseModelAdmin.__init__",
+        "start": 123,
+        "end": 129
+      },
+      {
+        "function": "__init__",
+        "qualname": "ModelAdmin.__init__",
+        "start": 587,
+        "end": 591
+      },
+      {
+        "function": "__init__",
+        "qualname": "InlineModelAdmin.__init__",
+        "start": 2034,
+        "end": 2043
+      }
+    ]
+  },
+  "django__django-11999": {
+    "django/db/models/fields/__init__.py": [
+      {
+        "function": "contribute_to_class",
+        "qualname": "Field.contribute_to_class",
+        "start": 749,
+        "end": 767
+      },
+      {
+        "function": "contribute_to_class",
+        "qualname": "DateField.contribute_to_class",
+        "start": 1189,
+        "end": 1199
+      },
+      {
+        "function": "contribute_to_class",
+        "qualname": "AutoFieldMixin.contribute_to_class",
+        "start": 2357,
+        "end": 2363
+      }
+    ]
+  },
+  "django__django-11742": {
+    "django/db/models/fields/__init__.py": []
+  },
+  "django__django-13551": {
+    "django/contrib/auth/tokens.py": [
+      {
+        "function": "_make_token_with_timestamp",
+        "qualname": "PasswordResetTokenGenerator._make_token_with_timestamp",
+        "start": 64,
+        "end": 77
+      },
+      {
+        "function": "_make_hash_value",
+        "qualname": "PasswordResetTokenGenerator._make_hash_value",
+        "start": 79,
+        "end": 97
+      }
+    ]
+  },
+  "django__django-12308": {
+    "django/contrib/admin/utils.py": [
+      {
+        "function": "display_for_field",
+        "qualname": "display_for_field",
+        "start": 380,
+        "end": 402
+      }
+    ]
+  },
+  "django__django-13033": {
+    "django/db/models/sql/compiler.py": [
+      {
+        "function": "find_ordering_name",
+        "qualname": "SQLCompiler.find_ordering_name",
+        "start": 715,
+        "end": 749
+      }
+    ]
+  },
+  "django__django-11049": {},
+  "django__django-12497": {
+    "django/db/models/fields/related.py": [
+      {
+        "function": "_check_relationship_model",
+        "qualname": "ManyToManyField._check_relationship_model",
+        "start": 1235,
+        "end": 1426
+      }
+    ]
+  },
+  "django__django-14411": {
+    "django/contrib/auth/forms.py": [
+      {
+        "function": "get_context",
+        "qualname": "ReadOnlyPasswordHashWidget.get_context",
+        "start": 37,
+        "end": 51
+      }
+    ]
+  },
+  "django__django-11179": {
+    "django/db/models/deletion.py": [
+      {
+        "function": "delete",
+        "qualname": "Collector.delete",
+        "start": 262,
+        "end": 327
+      }
+    ]
+  },
+  "django__django-11039": {
+    "django/core/management/commands/sqlmigrate.py": [
+      {
+        "function": "handle",
+        "qualname": "Command.handle",
+        "start": 32,
+        "end": 65
+      }
+    ]
+  },
+  "django__django-12470": {
+    "django/db/models/sql/compiler.py": [
+      {
+        "function": "find_ordering_name",
+        "qualname": "SQLCompiler.find_ordering_name",
+        "start": 699,
+        "end": 733
+      }
+    ]
+  },
+  "django__django-11133": {
+    "django/http/response.py": [
+      {
+        "function": "make_bytes",
+        "qualname": "HttpResponseBase.make_bytes",
+        "start": 223,
+        "end": 237
+      }
+    ]
+  },
+  "django__django-11564": {
+    "django/conf/__init__.py": [
+      {
+        "function": "configure",
+        "qualname": "LazySettings.configure",
+        "start": 97,
+        "end": 110
+      },
+      {
+        "function": "PASSWORD_RESET_TIMEOUT_DAYS",
+        "qualname": "LazySettings.PASSWORD_RESET_TIMEOUT_DAYS",
+        "start": 118,
+        "end": 129
+      }
+    ]
+  },
+  "django__django-13265": {
+    "django/db/migrations/autodetector.py": [
+      {
+        "function": "_detect_changes",
+        "qualname": "MigrationAutodetector._detect_changes",
+        "start": 101,
+        "end": 196
+      },
+      {
+        "function": "generate_created_models",
+        "qualname": "MigrationAutodetector.generate_created_models",
+        "start": 509,
+        "end": 682
+      }
+    ]
+  },
+  "django__django-12284": {
+    "django/db/models/fields/__init__.py": [
+      {
+        "function": "contribute_to_class",
+        "qualname": "Field.contribute_to_class",
+        "start": 750,
+        "end": 772
+      },
+      {
+        "function": "contribute_to_class",
+        "qualname": "DateField.contribute_to_class",
+        "start": 1194,
+        "end": 1204
+      },
+      {
+        "function": "contribute_to_class",
+        "qualname": "AutoFieldMixin.contribute_to_class",
+        "start": 2375,
+        "end": 2381
+      }
+    ]
+  },
+  "django__django-14730": {
+    "django/db/models/fields/related.py": [
+      {
+        "function": "_check_ignored_options",
+        "qualname": "ManyToManyField._check_ignored_options",
+        "start": 1230,
+        "end": 1261
+      }
+    ]
+  },
+  "django__django-13448": {
+    "django/db/backends/base/creation.py": [
+      {
+        "function": "create_test_db",
+        "qualname": "BaseDatabaseCreation.create_test_db",
+        "start": 30,
+        "end": 85
+      }
+    ]
+  },
+  "django__django-12453": {
+    "django/db/backends/base/creation.py": [
+      {
+        "function": "deserialize_db_from_string",
+        "qualname": "BaseDatabaseCreation.deserialize_db_from_string",
+        "start": 123,
+        "end": 130
+      }
+    ]
+  },
+  "django__django-14608": {
+    "django/forms/formsets.py": [
+      {
+        "function": "full_clean",
+        "qualname": "BaseFormSet.full_clean",
+        "start": 330,
+        "end": 383
+      }
+    ]
+  },
+  "django__django-13321": {
+    "django/contrib/sessions/backends/base.py": [
+      {
+        "function": "decode",
+        "qualname": "SessionBase.decode",
+        "start": 119,
+        "end": 125
+      }
+    ]
+  },
+  "django__django-11848": {
+    "django/utils/http.py": [
+      {
+        "function": "parse_http_date",
+        "qualname": "parse_http_date",
+        "start": 158,
+        "end": 191
+      }
+    ]
+  },
+  "django__django-12983": {
+    "django/utils/text.py": [
+      {
+        "function": "unescape_string_literal",
+        "qualname": "unescape_string_literal",
+        "start": 373,
+        "end": 390
+      }
+    ]
+  },
+  "django__django-11910": {
+    "django/db/migrations/autodetector.py": [
+      {
+        "function": "generate_altered_fields",
+        "qualname": "MigrationAutodetector.generate_altered_fields",
+        "start": 904,
+        "end": 981
+      }
+    ]
+  },
+  "django__django-13401": {
+    "django/db/models/fields/__init__.py": [
+      {
+        "function": "clone",
+        "qualname": "Field.clone",
+        "start": 508,
+        "end": 514
+      }
+    ]
+  },
+  "django__django-14016": {
+    "django/db/models/query_utils.py": [
+      {
+        "function": "_combine",
+        "qualname": "Q._combine",
+        "start": 43,
+        "end": 58
+      }
+    ]
+  },
+  "django__django-12856": {
+    "django/db/models/base.py": [
+      {
+        "function": "_check_constraints",
+        "qualname": "Model._check_constraints",
+        "start": 1867,
+        "end": 1929
+      }
+    ]
+  },
+  "django__django-13220": {
+    "django/core/exceptions.py": [
+      {
+        "function": "__str__",
+        "qualname": "ValidationError.__str__",
+        "start": 177,
+        "end": 180
+      }
+    ]
+  },
+  "django__django-13660": {
+    "django/core/management/commands/shell.py": [
+      {
+        "function": "python",
+        "qualname": "Command.python",
+        "start": 42,
+        "end": 82
+      }
+    ]
+  },
+  "django__django-12708": {
+    "django/db/backends/base/schema.py": [
+      {
+        "function": "alter_index_together",
+        "qualname": "BaseDatabaseSchemaEditor.alter_index_together",
+        "start": 386,
+        "end": 400
+      }
+    ]
+  },
+  "django__django-13158": {
+    "django/db/models/sql/query.py": [
+      {
+        "function": "clone",
+        "qualname": "RawQuery.clone",
+        "start": 86,
+        "end": 87
+      },
+      {
+        "function": "clone",
+        "qualname": "Query.clone",
+        "start": 288,
+        "end": 336
+      },
+      {
+        "function": "split_exclude",
+        "qualname": "Query.split_exclude",
+        "start": 1705,
+        "end": 1776
+      }
+    ]
+  },
+  "django__django-11001": {
+    "django/db/models/sql/compiler.py": [
+      {
+        "function": "__init__",
+        "qualname": "SQLCompiler.__init__",
+        "start": 23,
+        "end": 36
+      }
+    ]
+  },
+  "django__django-12700": {
+    "django/views/debug.py": [
+      {
+        "function": "cleanse_setting",
+        "qualname": "SafeExceptionReporterFilter.cleanse_setting",
+        "start": 83,
+        "end": 102
+      }
+    ]
+  },
+  "django__django-14382": {
+    "django/core/management/templates.py": [
+      {
+        "function": "handle",
+        "qualname": "TemplateCommand.handle",
+        "start": 58,
+        "end": 183
+      }
+    ]
+  },
+  "django__django-11583": {
+    "django/utils/autoreload.py": [
+      {
+        "function": "iter_modules_and_files",
+        "qualname": "iter_modules_and_files",
+        "start": 109,
+        "end": 147
+      }
+    ]
+  },
+  "django__django-11620": {
+    "django/views/debug.py": [
+      {
+        "function": "technical_404_response",
+        "qualname": "technical_404_response",
+        "start": 459,
+        "end": 512
+      }
+    ]
+  },
+  "django__django-13658": {
+    "django/core/management/__init__.py": [
+      {
+        "function": "execute",
+        "qualname": "ManagementUtility.execute",
+        "start": 334,
+        "end": 408
+      }
+    ]
+  },
+  "django__django-13230": {
+    "django/contrib/syndication/views.py": [
+      {
+        "function": "get_feed",
+        "qualname": "Feed.get_feed",
+        "start": 123,
+        "end": 219
+      }
+    ]
+  },
+  "django__django-14534": {
+    "django/forms/boundfield.py": [
+      {
+        "function": "template_name",
+        "qualname": "BoundWidget.template_name",
+        "start": 273,
+        "end": 276
+      }
+    ]
+  },
+  "django__django-14580": {
+    "django/db/migrations/serializer.py": [
+      {
+        "function": "_format",
+        "qualname": "BaseSequenceSerializer._format",
+        "start": 32,
+        "end": 33
+      },
+      {
+        "function": "_format",
+        "qualname": "FrozensetSerializer._format",
+        "start": 139,
+        "end": 140
+      },
+      {
+        "function": "_format",
+        "qualname": "SequenceSerializer._format",
+        "start": 250,
+        "end": 251
+      },
+      {
+        "function": "_format",
+        "qualname": "SetSerializer._format",
+        "start": 255,
+        "end": 258
+      },
+      {
+        "function": "_format",
+        "qualname": "TupleSerializer._format",
+        "start": 267,
+        "end": 270
+      }
+    ]
+  },
+  "django__django-13028": {
+    "django/db/models/sql/query.py": [
+      {
+        "function": "check_related_objects",
+        "qualname": "Query.check_related_objects",
+        "start": 1105,
+        "end": 1123
+      }
+    ]
+  },
+  "django__django-14752": {
+    "django/contrib/admin/views/autocomplete.py": [
+      {
+        "function": "get",
+        "qualname": "AutocompleteJsonView.get",
+        "start": 12,
+        "end": 33
+      }
+    ]
+  },
+  "django__django-13315": {
+    "django/forms/models.py": [
+      {
+        "function": "model_to_dict",
+        "qualname": "model_to_dict",
+        "start": 73,
+        "end": 95
+      }
+    ]
+  },
+  "django__django-12113": {
+    "django/db/backends/sqlite3/creation.py": [
+      {
+        "function": "test_db_signature",
+        "qualname": "DatabaseCreation.test_db_signature",
+        "start": 89,
+        "end": 101
+      }
+    ]
+  },
+  "django__django-12184": {
+    "django/urls/resolvers.py": [
+      {
+        "function": "match",
+        "qualname": "RegexPattern.match",
+        "start": 155,
+        "end": 164
+      },
+      {
+        "function": "match",
+        "qualname": "RoutePattern.match",
+        "start": 255,
+        "end": 267
+      },
+      {
+        "function": "match",
+        "qualname": "LocalePrefixPattern.match",
+        "start": 306,
+        "end": 310
+      }
+    ]
+  },
+  "django__django-11815": {},
+  "django__django-14667": {
+    "django/db/models/sql/query.py": [
+      {
+        "function": "add_deferred_loading",
+        "qualname": "Query.add_deferred_loading",
+        "start": 2071,
+        "end": 2089
+      }
+    ]
+  },
+  "django__django-13768": {
+    "django/dispatch/dispatcher.py": [
+      {
+        "function": "send_robust",
+        "qualname": "Signal.send_robust",
+        "start": 182,
+        "end": 214
+      }
+    ]
+  },
+  "django__django-12589": {
+    "django/db/models/sql/query.py": [
+      {
+        "function": "set_group_by",
+        "qualname": "Query.set_group_by",
+        "start": 1921,
+        "end": 1947
+      }
+    ]
+  },
+  "django__django-10924": {
+    "django/db/models/fields/__init__.py": [
+      {
+        "function": "get_prep_value",
+        "qualname": "Field.get_prep_value",
+        "start": 768,
+        "end": 772
+      },
+      {
+        "function": "get_prep_value",
+        "qualname": "AutoField.get_prep_value",
+        "start": 960,
+        "end": 965
+      },
+      {
+        "function": "get_prep_value",
+        "qualname": "BooleanField.get_prep_value",
+        "start": 1013,
+        "end": 1017
+      },
+      {
+        "function": "get_prep_value",
+        "qualname": "CharField.get_prep_value",
+        "start": 1079,
+        "end": 1081
+      },
+      {
+        "function": "get_prep_value",
+        "qualname": "DateField.get_prep_value",
+        "start": 1265,
+        "end": 1267
+      },
+      {
+        "function": "get_prep_value",
+        "qualname": "DateTimeField.get_prep_value",
+        "start": 1406,
+        "end": 1423
+      },
+      {
+        "function": "get_prep_value",
+        "qualname": "DecimalField.get_prep_value",
+        "start": 1564,
+        "end": 1566
+      },
+      {
+        "function": "get_prep_value",
+        "qualname": "FilePathField.get_prep_value",
+        "start": 1704,
+        "end": 1708
+      },
+      {
+        "function": "get_prep_value",
+        "qualname": "FloatField.get_prep_value",
+        "start": 1732,
+        "end": 1736
+      },
+      {
+        "function": "get_prep_value",
+        "qualname": "IntegerField.get_prep_value",
+        "start": 1814,
+        "end": 1818
+      },
+      {
+        "function": "get_prep_value",
+        "qualname": "IPAddressField.get_prep_value",
+        "start": 1878,
+        "end": 1882
+      },
+      {
+        "function": "get_prep_value",
+        "qualname": "GenericIPAddressField.get_prep_value",
+        "start": 1949,
+        "end": 1958
+      },
+      {
+        "function": "get_prep_value",
+        "qualname": "TextField.get_prep_value",
+        "start": 2084,
+        "end": 2086
+      },
+      {
+        "function": "get_prep_value",
+        "qualname": "TimeField.get_prep_value",
+        "start": 2210,
+        "end": 2212
+      },
+      {
+        "function": "get_prep_value",
+        "qualname": "UUIDField.get_prep_value",
+        "start": 2337,
+        "end": 2339
+      }
+    ]
+  },
+  "django__django-12747": {
+    "django/db/models/deletion.py": [
+      {
+        "function": "delete",
+        "qualname": "Collector.delete",
+        "start": 379,
+        "end": 445
+      }
+    ]
+  },
+  "django__django-12908": {
+    "django/db/models/query.py": [
+      {
+        "function": "distinct",
+        "qualname": "QuerySet.distinct",
+        "start": 1137,
+        "end": 1145
+      }
+    ]
+  },
+  "django__django-11099": {},
+  "django__django-12125": {
+    "django/db/migrations/serializer.py": [
+      {
+        "function": "serialize",
+        "qualname": "BaseSerializer.serialize",
+        "start": 25,
+        "end": 26
+      },
+      {
+        "function": "serialize",
+        "qualname": "BaseSequenceSerializer.serialize",
+        "start": 33,
+        "end": 41
+      },
+      {
+        "function": "serialize",
+        "qualname": "BaseSimpleSerializer.serialize",
+        "start": 45,
+        "end": 46
+      },
+      {
+        "function": "serialize",
+        "qualname": "ChoicesSerializer.serialize",
+        "start": 50,
+        "end": 51
+      },
+      {
+        "function": "serialize",
+        "qualname": "DateTimeSerializer.serialize",
+        "start": 56,
+        "end": 57
+      },
+      {
+        "function": "serialize",
+        "qualname": "DatetimeDatetimeSerializer.serialize",
+        "start": 62,
+        "end": 68
+      },
+      {
+        "function": "serialize",
+        "qualname": "DecimalSerializer.serialize",
+        "start": 72,
+        "end": 73
+      },
+      {
+        "function": "serialize",
+        "qualname": "DeconstructableSerializer.serialize",
+        "start": 102,
+        "end": 103
+      },
+      {
+        "function": "serialize",
+        "qualname": "DictionarySerializer.serialize",
+        "start": 107,
+        "end": 116
+      },
+      {
+        "function": "serialize",
+        "qualname": "EnumSerializer.serialize",
+        "start": 120,
+        "end": 126
+      },
+      {
+        "function": "serialize",
+        "qualname": "FloatSerializer.serialize",
+        "start": 130,
+        "end": 133
+      },
+      {
+        "function": "serialize",
+        "qualname": "FunctionTypeSerializer.serialize",
+        "start": 142,
+        "end": 160
+      },
+      {
+        "function": "serialize",
+        "qualname": "FunctoolsPartialSerializer.serialize",
+        "start": 164,
+        "end": 179
+      },
+      {
+        "function": "serialize",
+        "qualname": "IterableSerializer.serialize",
+        "start": 183,
+        "end": 193
+      },
+      {
+        "function": "serialize",
+        "qualname": "ModelFieldSerializer.serialize",
+        "start": 197,
+        "end": 199
+      },
+      {
+        "function": "serialize",
+        "qualname": "ModelManagerSerializer.serialize",
+        "start": 203,
+        "end": 209
+      },
+      {
+        "function": "serialize",
+        "qualname": "OperationSerializer.serialize",
+        "start": 213,
+        "end": 217
+      },
+      {
+        "function": "serialize",
+        "qualname": "RegexSerializer.serialize",
+        "start": 221,
+        "end": 231
+      },
+      {
+        "function": "serialize",
+        "qualname": "SettingsReferenceSerializer.serialize",
+        "start": 247,
+        "end": 248
+      },
+      {
+        "function": "serialize",
+        "qualname": "TypeSerializer.serialize",
+        "start": 259,
+        "end": 272
+      },
+      {
+        "function": "serialize",
+        "qualname": "UUIDSerializer.serialize",
+        "start": 276,
+        "end": 277
+      }
+    ]
+  },
+  "django__django-13925": {
+    "django/db/models/base.py": [
+      {
+        "function": "check",
+        "qualname": "Model.check",
+        "start": 1266,
+        "end": 1296
+      }
+    ]
+  },
+  "django__django-14155": {
+    "django/urls/resolvers.py": [
+      {
+        "function": "__getitem__",
+        "qualname": "ResolverMatch.__getitem__",
+        "start": 58,
+        "end": 59
+      }
+    ]
+  },
+  "django__django-11964": {
+    "django/db/models/enums.py": [
+      {
+        "function": "values",
+        "qualname": "ChoicesMeta.values",
+        "start": 57,
+        "end": 58
+      }
+    ]
+  },
+  "django__django-13447": {
+    "django/contrib/admin/sites.py": [
+      {
+        "function": "_build_app_dict",
+        "qualname": "AdminSite._build_app_dict",
+        "start": 433,
+        "end": 499
+      }
+    ]
+  },
+  "django__django-11422": {
+    "django/utils/autoreload.py": [
+      {
+        "function": "iter_modules_and_files",
+        "qualname": "iter_modules_and_files",
+        "start": 110,
+        "end": 136
+      }
+    ]
+  },
+  "pallets__flask-4045": {
+    "src/flask/blueprints.py": [
+      {
+        "function": "__init__",
+        "qualname": "BlueprintSetupState.__init__",
+        "start": 32,
+        "end": 75
+      },
+      {
+        "function": "add_url_rule",
+        "qualname": "BlueprintSetupState.add_url_rule",
+        "start": 77,
+        "end": 105
+      },
+      {
+        "function": "__init__",
+        "qualname": "Blueprint.__init__",
+        "start": 171,
+        "end": 201
+      },
+      {
+        "function": "add_url_rule",
+        "qualname": "Blueprint.add_url_rule",
+        "start": 353,
+        "end": 369
+      }
+    ]
+  },
+  "pallets__flask-5063": {
+    "src/flask/cli.py": [
+      {
+        "function": "shell_command",
+        "qualname": "shell_command",
+        "start": 941,
+        "end": 985
+      }
+    ]
+  },
+  "psf__requests-1963": {
+    "requests/sessions.py": [
+      {
+        "function": "resolve_redirects",
+        "qualname": "SessionRedirectMixin.resolve_redirects",
+        "start": 84,
+        "end": 184
+      }
+    ]
+  },
+  "django__django-13757": {
+    "django/db/models/fields/json.py": [
+      {
+        "function": "process_rhs",
+        "qualname": "JSONExact.process_rhs",
+        "start": 252,
+        "end": 260
+      },
+      {
+        "function": "process_rhs",
+        "qualname": "CaseInsensitiveMixin.process_rhs",
+        "start": 359,
+        "end": 363
+      },
+      {
+        "function": "process_rhs",
+        "qualname": "KeyTransformExact.process_rhs",
+        "start": 412,
+        "end": 429
+      },
+      {
+        "function": "process_rhs",
+        "qualname": "KeyTransformNumericLookupMixin.process_rhs",
+        "start": 479,
+        "end": 483
+      }
+    ]
+  },
+  "django__django-12915": {
+    "django/contrib/staticfiles/handlers.py": [
+      {
+        "function": "get_response",
+        "qualname": "StaticFilesHandlerMixin.get_response",
+        "start": 49,
+        "end": 53
+      }
+    ]
+  },
+  "django__django-12286": {
+    "django/core/checks/translation.py": [
+      {
+        "function": "check_setting_languages_bidi",
+        "qualname": "check_setting_languages_bidi",
+        "start": 47,
+        "end": 52
+      }
+    ]
+  },
+  "psf__requests-3362": {
+    "requests/utils.py": [
+      {
+        "function": "get_encoding_from_headers",
+        "qualname": "get_encoding_from_headers",
+        "start": 339,
+        "end": 356
+      }
+    ]
+  },
+  "psf__requests-2317": {
+    "requests/sessions.py": [
+      {
+        "function": "request",
+        "qualname": "Session.request",
+        "start": 378,
+        "end": 459
+      }
+    ]
+  },
+  "psf__requests-2674": {
+    "requests/adapters.py": [
+      {
+        "function": "send",
+        "qualname": "BaseAdapter.send",
+        "start": 47,
+        "end": 48
+      },
+      {
+        "function": "send",
+        "qualname": "HTTPAdapter.send",
+        "start": 324,
+        "end": 435
+      }
+    ]
+  },
+  "psf__requests-2148": {
+    "requests/models.py": []
+  },
+  "psf__requests-863": {
+    "requests/models.py": [
+      {
+        "function": "path_url",
+        "qualname": "Request.path_url",
+        "start": 439,
+        "end": 461
+      }
+    ]
+  },
+  "pallets__flask-4992": {
+    "src/flask/config.py": [
+      {
+        "function": "from_file",
+        "qualname": "Config.from_file",
+        "start": 232,
+        "end": 273
+      }
+    ]
+  },
+  "django__django-13933": {
+    "django/forms/models.py": [
+      {
+        "function": "to_python",
+        "qualname": "ModelChoiceField.to_python",
+        "start": 1278,
+        "end": 1288
+      },
+      {
+        "function": "to_python",
+        "qualname": "ModelMultipleChoiceField.to_python",
+        "start": 1315,
+        "end": 1318
+      }
+    ]
+  },
+  "mwaskom__seaborn-3010": {
+    "seaborn/_stats/regression.py": [
+      {
+        "function": "_fit_predict",
+        "qualname": "PolyFit._fit_predict",
+        "start": 22,
+        "end": 34
+      }
+    ]
+  },
+  "mwaskom__seaborn-2848": {
+    "seaborn/_oldcore.py": [
+      {
+        "function": "_lookup_single",
+        "qualname": "SemanticMapping._lookup_single",
+        "start": 58,
+        "end": 60
+      },
+      {
+        "function": "_lookup_single",
+        "qualname": "HueMapping._lookup_single",
+        "start": 146,
+        "end": 165
+      },
+      {
+        "function": "_lookup_single",
+        "qualname": "SizeMapping._lookup_single",
+        "start": 336,
+        "end": 345
+      },
+      {
+        "function": "_lookup_single",
+        "qualname": "StyleMapping._lookup_single",
+        "start": 555,
+        "end": 561
+      }
+    ]
+  },
+  "mwaskom__seaborn-3190": {
+    "seaborn/_core/scales.py": [
+      {
+        "function": "_setup",
+        "qualname": "Scale._setup",
+        "start": 105,
+        "end": 108
+      },
+      {
+        "function": "_setup",
+        "qualname": "Nominal._setup",
+        "start": 155,
+        "end": 234
+      },
+      {
+        "function": "_setup",
+        "qualname": "ContinuousBase._setup",
+        "start": 322,
+        "end": 392
+      }
+    ]
+  },
+  "mwaskom__seaborn-3407": {
+    "seaborn/axisgrid.py": [
+      {
+        "function": "map_diag",
+        "qualname": "PairGrid.map_diag",
+        "start": 1431,
+        "end": 1511
+      }
+    ]
+  },
+  "pydata__xarray-4094": {
+    "xarray/core/dataarray.py": [
+      {
+        "function": "to_unstacked_dataset",
+        "qualname": "DataArray.to_unstacked_dataset",
+        "start": 1901,
+        "end": 1967
+      }
+    ]
+  },
+  "pydata__xarray-4493": {
+    "xarray/core/variable.py": [
+      {
+        "function": "as_variable",
+        "qualname": "as_variable",
+        "start": 86,
+        "end": 164
+      }
+    ]
+  },
+  "pylint-dev__pylint-5859": {
+    "pylint/checkers/misc.py": [
+      {
+        "function": "open",
+        "qualname": "EncodingChecker.open",
+        "start": 119,
+        "end": 128
+      }
+    ]
+  },
+  "pydata__xarray-5131": {
+    "xarray/core/groupby.py": [
+      {
+        "function": "__iter__",
+        "qualname": "GroupBy.__iter__",
+        "start": 435,
+        "end": 436
+      }
+    ]
+  },
+  "pylint-dev__pylint-6506": {
+    "pylint/config/config_initialization.py": [
+      {
+        "function": "_config_initialization",
+        "qualname": "_config_initialization",
+        "start": 20,
+        "end": 106
+      }
+    ]
+  },
+  "pylint-dev__pylint-7228": {
+    "pylint/config/argument.py": [
+      {
+        "function": "_py_version_transformer",
+        "qualname": "_py_version_transformer",
+        "start": 91,
+        "end": 99
+      },
+      {
+        "function": "_regexp_paths_csv_transfomer",
+        "qualname": "_regexp_paths_csv_transfomer",
+        "start": 110,
+        "end": 121
+      }
+    ]
+  },
+  "pylint-dev__pylint-7114": {
+    "pylint/lint/expand_modules.py": [
+      {
+        "function": "expand_modules",
+        "qualname": "expand_modules",
+        "start": 64,
+        "end": 162
+      }
+    ]
+  },
+  "pylint-dev__pylint-7080": {
+    "pylint/lint/expand_modules.py": [
+      {
+        "function": "_is_ignored_file",
+        "qualname": "_is_ignored_file",
+        "start": 49,
+        "end": 60
+      }
+    ]
+  },
+  "pylint-dev__pylint-7993": {
+    "pylint/reporters/text.py": [
+      {
+        "function": "on_set_current_module",
+        "qualname": "TextReporter.on_set_current_module",
+        "start": 166,
+        "end": 186
+      }
+    ]
+  },
+  "pytest-dev__pytest-11148": {
+    "src/_pytest/pathlib.py": [
+      {
+        "function": "import_path",
+        "qualname": "import_path",
+        "start": 486,
+        "end": 590
+      }
+    ]
+  },
+  "pytest-dev__pytest-5103": {
+    "src/_pytest/assertion/rewrite.py": [
+      {
+        "function": "visit_Call_35",
+        "qualname": "AssertionRewriter.visit_Call_35",
+        "start": 967,
+        "end": 992
+      },
+      {
+        "function": "visit_Call_legacy",
+        "qualname": "AssertionRewriter.visit_Call_legacy",
+        "start": 1000,
+        "end": 1028
+      }
+    ]
+  },
+  "pydata__xarray-3364": {
+    "xarray/core/concat.py": [
+      {
+        "function": "_dataset_concat",
+        "qualname": "_dataset_concat",
+        "start": 263,
+        "end": 385
+      }
+    ]
+  },
+  "pytest-dev__pytest-11143": {
+    "src/_pytest/assertion/rewrite.py": [
+      {
+        "function": "run",
+        "qualname": "AssertionRewriter.run",
+        "start": 660,
+        "end": 742
+      }
+    ]
+  },
+  "pytest-dev__pytest-5413": {
+    "src/_pytest/_code/code.py": [
+      {
+        "function": "getrepr",
+        "qualname": "ExceptionInfo.getrepr",
+        "start": 478,
+        "end": 535
+      }
+    ]
+  },
+  "pytest-dev__pytest-5227": {},
+  "pydata__xarray-4248": {
+    "xarray/core/formatting.py": [
+      {
+        "function": "inline_variable_array_repr",
+        "qualname": "inline_variable_array_repr",
+        "start": 256,
+        "end": 268
+      }
+    ]
+  },
+  "pytest-dev__pytest-5692": {
+    "src/_pytest/junitxml.py": [
+      {
+        "function": "pytest_sessionfinish",
+        "qualname": "LogXML.pytest_sessionfinish",
+        "start": 643,
+        "end": 671
+      }
+    ]
+  },
+  "pytest-dev__pytest-5495": {
+    "src/_pytest/assertion/util.py": [
+      {
+        "function": "_compare_eq_iterable",
+        "qualname": "_compare_eq_iterable",
+        "start": 241,
+        "end": 253
+      }
+    ]
+  },
+  "pytest-dev__pytest-7220": {
+    "src/_pytest/nodes.py": [
+      {
+        "function": "_repr_failure_py",
+        "qualname": "Node._repr_failure_py",
+        "start": 333,
+        "end": 377
+      }
+    ]
+  },
+  "pytest-dev__pytest-5221": {
+    "src/_pytest/python.py": [
+      {
+        "function": "_showfixtures_main",
+        "qualname": "_showfixtures_main",
+        "start": 1303,
+        "end": 1355
+      }
+    ]
+  },
+  "pytest-dev__pytest-6116": {
+    "src/_pytest/main.py": [
+      {
+        "function": "pytest_addoption",
+        "qualname": "pytest_addoption",
+        "start": 46,
+        "end": 181
+      }
+    ]
+  },
+  "pytest-dev__pytest-7168": {
+    "src/_pytest/_io/saferepr.py": [
+      {
+        "function": "_format_repr_exception",
+        "qualname": "_format_repr_exception",
+        "start": 15,
+        "end": 24
+      }
+    ]
+  },
+  "pytest-dev__pytest-7432": {
+    "src/_pytest/skipping.py": [
+      {
+        "function": "pytest_runtest_makereport",
+        "qualname": "pytest_runtest_makereport",
+        "start": 261,
+        "end": 305
+      }
+    ]
+  },
+  "pytest-dev__pytest-7373": {
+    "src/_pytest/mark/evaluate.py": [
+      {
+        "function": "_istrue",
+        "qualname": "MarkEvaluator._istrue",
+        "start": 82,
+        "end": 121
+      }
+    ]
+  },
+  "pytest-dev__pytest-8906": {
+    "src/_pytest/python.py": [
+      {
+        "function": "_importtestmodule",
+        "qualname": "Module._importtestmodule",
+        "start": 572,
+        "end": 617
+      }
+    ]
+  },
+  "pytest-dev__pytest-8365": {
+    "src/_pytest/tmpdir.py": [
+      {
+        "function": "getbasetemp",
+        "qualname": "TempPathFactory.getbasetemp",
+        "start": 102,
+        "end": 125
+      },
+      {
+        "function": "getbasetemp",
+        "qualname": "TempdirFactory.getbasetemp",
+        "start": 146,
+        "end": 148
+      }
+    ]
+  },
+  "pytest-dev__pytest-7490": {
+    "src/_pytest/skipping.py": [
+      {
+        "function": "evaluate_xfail_marks",
+        "qualname": "evaluate_xfail_marks",
+        "start": 200,
+        "end": 222
+      },
+      {
+        "function": "pytest_runtest_call",
+        "qualname": "pytest_runtest_call",
+        "start": 248,
+        "end": 257
+      }
+    ]
+  },
+  "pytest-dev__pytest-9359": {
+    "src/_pytest/_code/source.py": [
+      {
+        "function": "get_statement_startend2",
+        "qualname": "get_statement_startend2",
+        "start": 146,
+        "end": 165
+      }
+    ]
+  },
+  "django__django-14787": {
+    "django/utils/decorators.py": []
+  },
+  "django__django-14999": {
+    "django/db/migrations/operations/models.py": [
+      {
+        "function": "database_forwards",
+        "qualname": "CreateModel.database_forwards",
+        "start": 89,
+        "end": 92
+      },
+      {
+        "function": "database_forwards",
+        "qualname": "DeleteModel.database_forwards",
+        "start": 266,
+        "end": 269
+      },
+      {
+        "function": "database_forwards",
+        "qualname": "RenameModel.database_forwards",
+        "start": 319,
+        "end": 368
+      },
+      {
+        "function": "database_forwards",
+        "qualname": "AlterModelTable.database_forwards",
+        "start": 437,
+        "end": 453
+      },
+      {
+        "function": "database_forwards",
+        "qualname": "AlterTogetherOptionOperation.database_forwards",
+        "start": 500,
+        "end": 509
+      },
+      {
+        "function": "database_forwards",
+        "qualname": "AlterOrderWithRespectTo.database_forwards",
+        "start": 580,
+        "end": 596
+      },
+      {
+        "function": "database_forwards",
+        "qualname": "AlterModelOptions.database_forwards",
+        "start": 663,
+        "end": 664
+      },
+      {
+        "function": "database_forwards",
+        "qualname": "AlterModelManagers.database_forwards",
+        "start": 696,
+        "end": 697
+      },
+      {
+        "function": "database_forwards",
+        "qualname": "AddIndex.database_forwards",
+        "start": 733,
+        "end": 736
+      },
+      {
+        "function": "database_forwards",
+        "qualname": "RemoveIndex.database_forwards",
+        "start": 782,
+        "end": 787
+      },
+      {
+        "function": "database_forwards",
+        "qualname": "AddConstraint.database_forwards",
+        "start": 825,
+        "end": 828
+      },
+      {
+        "function": "database_forwards",
+        "qualname": "RemoveConstraint.database_forwards",
+        "start": 859,
+        "end": 864
+      }
+    ]
+  },
+  "scikit-learn__scikit-learn-10297": {},
+  "django__django-14855": {
+    "django/contrib/admin/helpers.py": [
+      {
+        "function": "get_admin_url",
+        "qualname": "AdminReadonlyField.get_admin_url",
+        "start": 206,
+        "end": 215
+      }
+    ]
+  },
+  "django__django-14915": {
+    "django/forms/models.py": [
+      {
+        "function": "__init__",
+        "qualname": "ModelFormOptions.__init__",
+        "start": 202,
+        "end": 211
+      },
+      {
+        "function": "__init__",
+        "qualname": "BaseModelForm.__init__",
+        "start": 287,
+        "end": 314
+      },
+      {
+        "function": "__init__",
+        "qualname": "BaseModelFormSet.__init__",
+        "start": 575,
+        "end": 579
+      },
+      {
+        "function": "__init__",
+        "qualname": "BaseInlineFormSet.__init__",
+        "start": 906,
+        "end": 927
+      },
+      {
+        "function": "__init__",
+        "qualname": "InlineForeignKeyField.__init__",
+        "start": 1130,
+        "end": 1140
+      },
+      {
+        "function": "__init__",
+        "qualname": "ModelChoiceIteratorValue.__init__",
+        "start": 1162,
+        "end": 1164
+      },
+      {
+        "function": "__init__",
+        "qualname": "ModelChoiceIterator.__init__",
+        "start": 1176,
+        "end": 1178
+      },
+      {
+        "function": "__init__",
+        "qualname": "ModelChoiceField.__init__",
+        "start": 1216,
+        "end": 1235
+      },
+      {
+        "function": "__init__",
+        "qualname": "ModelMultipleChoiceField.__init__",
+        "start": 1336,
+        "end": 1337
+      }
+    ]
+  },
+  "scikit-learn__scikit-learn-13584": {
+    "sklearn/utils/_pprint.py": [
+      {
+        "function": "_changed_params",
+        "qualname": "_changed_params",
+        "start": 87,
+        "end": 101
+      }
+    ]
+  },
+  "scikit-learn__scikit-learn-13497": {
+    "sklearn/feature_selection/mutual_info_.py": [
+      {
+        "function": "_estimate_mi",
+        "qualname": "_estimate_mi",
+        "start": 195,
+        "end": 290
+      }
+    ]
+  },
+  "django__django-15814": {
+    "django/db/models/sql/query.py": [
+      {
+        "function": "deferred_to_data",
+        "qualname": "Query.deferred_to_data",
+        "start": 721,
+        "end": 802
+      }
+    ]
+  },
+  "django__django-15851": {
+    "django/db/backends/postgresql/client.py": [
+      {
+        "function": "settings_to_cmd_args_env",
+        "qualname": "DatabaseClient.settings_to_cmd_args_env",
+        "start": 10,
+        "end": 54
+      }
+    ]
+  },
+  "django__django-15996": {},
+  "django__django-15320": {},
+  "scikit-learn__scikit-learn-13142": {
+    "sklearn/mixture/base.py": [
+      {
+        "function": "fit_predict",
+        "qualname": "BaseMixture.fit_predict",
+        "start": 194,
+        "end": 276
+      }
+    ]
+  },
+  "django__django-16910": {
+    "django/db/models/sql/query.py": [
+      {
+        "function": "_get_only_select_mask",
+        "qualname": "Query._get_only_select_mask",
+        "start": 775,
+        "end": 790
+      }
+    ]
+  },
+  "scikit-learn__scikit-learn-11040": {
+    "sklearn/neighbors/base.py": [
+      {
+        "function": "_fit",
+        "qualname": "NeighborsBase._fit",
+        "start": 157,
+        "end": 262
+      }
+    ]
+  },
+  "django__django-16379": {
+    "django/core/cache/backends/filebased.py": [
+      {
+        "function": "_delete",
+        "qualname": "FileBasedCache._delete",
+        "start": 81,
+        "end": 89
+      }
+    ]
+  },
+  "django__django-16041": {
+    "django/forms/formsets.py": [
+      {
+        "function": "extra_forms",
+        "qualname": "BaseFormSet.extra_forms",
+        "start": 254,
+        "end": 256
+      }
+    ]
+  },
+  "scikit-learn__scikit-learn-13439": {
+    "sklearn/pipeline.py": [
+      {
+        "function": "_iter",
+        "qualname": "Pipeline._iter",
+        "start": 190,
+        "end": 200
+      },
+      {
+        "function": "_iter",
+        "qualname": "FeatureUnion._iter",
+        "start": 764,
+        "end": 772
+      }
+    ]
+  },
+  "scikit-learn__scikit-learn-14087": {
+    "sklearn/linear_model/logistic.py": [
+      {
+        "function": "fit",
+        "qualname": "LogisticRegression.fit",
+        "start": 1453,
+        "end": 1609
+      },
+      {
+        "function": "fit",
+        "qualname": "LogisticRegressionCV.fit",
+        "start": 1936,
+        "end": 2212
+      }
+    ]
+  },
+  "scikit-learn__scikit-learn-14894": {
+    "sklearn/svm/base.py": [
+      {
+        "function": "_sparse_fit",
+        "qualname": "BaseLibSVM._sparse_fit",
+        "start": 261,
+        "end": 294
+      }
+    ]
+  },
+  "scikit-learn__scikit-learn-13779": {
+    "sklearn/ensemble/voting.py": [
+      {
+        "function": "fit",
+        "qualname": "_BaseVoting.fit",
+        "start": 64,
+        "end": 101
+      },
+      {
+        "function": "fit",
+        "qualname": "VotingClassifier.fit",
+        "start": 240,
+        "end": 273
+      },
+      {
+        "function": "fit",
+        "qualname": "VotingRegressor.fit",
+        "start": 430,
+        "end": 451
+      }
+    ]
+  },
+  "scikit-learn__scikit-learn-13241": {
+    "sklearn/decomposition/kernel_pca.py": [
+      {
+        "function": "_fit_transform",
+        "qualname": "KernelPCA._fit_transform",
+        "start": 181,
+        "end": 223
+      }
+    ]
+  },
+  "django__django-15388": {
+    "django/template/autoreload.py": [
+      {
+        "function": "watch_for_template_changes",
+        "qualname": "watch_for_template_changes",
+        "start": 44,
+        "end": 46
+      }
+    ]
+  },
+  "django__django-16816": {
+    "django/contrib/admin/checks.py": [
+      {
+        "function": "_check_list_display_item",
+        "qualname": "ModelAdminChecks._check_list_display_item",
+        "start": 893,
+        "end": 930
+      }
+    ]
+  },
+  "django__django-15202": {
+    "django/core/validators.py": [
+      {
+        "function": "__call__",
+        "qualname": "RegexValidator.__call__",
+        "start": 41,
+        "end": 49
+      },
+      {
+        "function": "__call__",
+        "qualname": "URLValidator.__call__",
+        "start": 100,
+        "end": 143
+      },
+      {
+        "function": "__call__",
+        "qualname": "EmailValidator.__call__",
+        "start": 183,
+        "end": 202
+      },
+      {
+        "function": "__call__",
+        "qualname": "BaseValidator.__call__",
+        "start": 325,
+        "end": 330
+      },
+      {
+        "function": "__call__",
+        "qualname": "DecimalValidator.__call__",
+        "start": 425,
+        "end": 464
+      },
+      {
+        "function": "__call__",
+        "qualname": "FileExtensionValidator.__call__",
+        "start": 491,
+        "end": 502
+      },
+      {
+        "function": "__call__",
+        "qualname": "ProhibitNullCharactersValidator.__call__",
+        "start": 539,
+        "end": 541
+      }
+    ]
+  },
+  "scikit-learn__scikit-learn-11281": {
+    "sklearn/mixture/base.py": [
+      {
+        "function": "_initialize",
+        "qualname": "BaseMixture._initialize",
+        "start": 161,
+        "end": 170
+      },
+      {
+        "function": "fit",
+        "qualname": "BaseMixture.fit",
+        "start": 172,
+        "end": 243
+      }
+    ]
+  },
+  "django__django-15819": {
+    "django/core/management/commands/inspectdb.py": []
+  },
+  "scikit-learn__scikit-learn-15512": {
+    "sklearn/cluster/_affinity_propagation.py": [
+      {
+        "function": "affinity_propagation",
+        "qualname": "affinity_propagation",
+        "start": 33,
+        "end": 231
+      },
+      {
+        "function": "predict",
+        "qualname": "AffinityPropagation.predict",
+        "start": 396,
+        "end": 421
+      }
+    ]
+  },
+  "django__django-15738": {
+    "django/db/migrations/autodetector.py": [
+      {
+        "function": "generate_added_fields",
+        "qualname": "MigrationAutodetector.generate_added_fields",
+        "start": 1016,
+        "end": 1021
+      }
+    ]
+  },
+  "django__django-15902": {},
+  "django__django-15347": {
+    "django/contrib/messages/storage/cookie.py": [
+      {
+        "function": "default",
+        "qualname": "MessageEncoder.default",
+        "start": 17,
+        "end": 25
+      }
+    ]
+  },
+  "scikit-learn__scikit-learn-14092": {
+    "sklearn/neighbors/nca.py": [
+      {
+        "function": "_validate_params",
+        "qualname": "NeighborhoodComponentsAnalysis._validate_params",
+        "start": 262,
+        "end": 368
+      }
+    ]
+  },
+  "scikit-learn__scikit-learn-12471": {
+    "sklearn/preprocessing/_encoders.py": [
+      {
+        "function": "_transform",
+        "qualname": "_BaseEncoder._transform",
+        "start": 91,
+        "end": 118
+      }
+    ]
+  },
+  "scikit-learn__scikit-learn-10508": {
+    "sklearn/preprocessing/label.py": [
+      {
+        "function": "transform",
+        "qualname": "LabelEncoder.transform",
+        "start": 115,
+        "end": 135
+      },
+      {
+        "function": "inverse_transform",
+        "qualname": "LabelEncoder.inverse_transform",
+        "start": 137,
+        "end": 156
+      },
+      {
+        "function": "transform",
+        "qualname": "LabelBinarizer.transform",
+        "start": 311,
+        "end": 340
+      },
+      {
+        "function": "inverse_transform",
+        "qualname": "LabelBinarizer.inverse_transform",
+        "start": 342,
+        "end": 389
+      },
+      {
+        "function": "transform",
+        "qualname": "MultiLabelBinarizer.transform",
+        "start": 748,
+        "end": 772
+      },
+      {
+        "function": "inverse_transform",
+        "qualname": "MultiLabelBinarizer.inverse_transform",
+        "start": 798,
+        "end": 830
+      }
+    ]
+  },
+  "django__django-15695": {
+    "django/db/migrations/operations/models.py": [
+      {
+        "function": "database_forwards",
+        "qualname": "CreateModel.database_forwards",
+        "start": 93,
+        "end": 96
+      },
+      {
+        "function": "database_forwards",
+        "qualname": "DeleteModel.database_forwards",
+        "start": 321,
+        "end": 324
+      },
+      {
+        "function": "database_forwards",
+        "qualname": "RenameModel.database_forwards",
+        "start": 370,
+        "end": 425
+      },
+      {
+        "function": "database_forwards",
+        "qualname": "AlterModelTable.database_forwards",
+        "start": 499,
+        "end": 517
+      },
+      {
+        "function": "database_forwards",
+        "qualname": "AlterTogetherOptionOperation.database_forwards",
+        "start": 560,
+        "end": 569
+      },
+      {
+        "function": "database_forwards",
+        "qualname": "AlterOrderWithRespectTo.database_forwards",
+        "start": 645,
+        "end": 669
+      },
+      {
+        "function": "database_forwards",
+        "qualname": "AlterModelOptions.database_forwards",
+        "start": 731,
+        "end": 732
+      },
+      {
+        "function": "database_forwards",
+        "qualname": "AlterModelManagers.database_forwards",
+        "start": 760,
+        "end": 761
+      },
+      {
+        "function": "database_forwards",
+        "qualname": "AddIndex.database_forwards",
+        "start": 797,
+        "end": 800
+      },
+      {
+        "function": "database_forwards",
+        "qualname": "RemoveIndex.database_forwards",
+        "start": 846,
+        "end": 851
+      },
+      {
+        "function": "database_forwards",
+        "qualname": "RenameIndex.database_forwards",
+        "start": 934,
+        "end": 966
+      },
+      {
+        "function": "database_forwards",
+        "qualname": "AddConstraint.database_forwards",
+        "start": 1035,
+        "end": 1038
+      },
+      {
+        "function": "database_forwards",
+        "qualname": "RemoveConstraint.database_forwards",
+        "start": 1076,
+        "end": 1081
+      }
+    ]
+  },
+  "django__django-16255": {
+    "django/contrib/sitemaps/__init__.py": [
+      {
+        "function": "get_latest_lastmod",
+        "qualname": "Sitemap.get_latest_lastmod",
+        "start": 165,
+        "end": 174
+      },
+      {
+        "function": "get_latest_lastmod",
+        "qualname": "GenericSitemap.get_latest_lastmod",
+        "start": 251,
+        "end": 258
+      }
+    ]
+  },
+  "django__django-15061": {
+    "django/forms/widgets.py": [
+      {
+        "function": "get_context",
+        "qualname": "Widget.get_context",
+        "start": 232,
+        "end": 242
+      },
+      {
+        "function": "get_context",
+        "qualname": "Input.get_context",
+        "start": 297,
+        "end": 300
+      },
+      {
+        "function": "get_context",
+        "qualname": "PasswordInput.get_context",
+        "start": 331,
+        "end": 334
+      },
+      {
+        "function": "get_context",
+        "qualname": "MultipleHiddenInput.get_context",
+        "start": 349,
+        "end": 366
+      },
+      {
+        "function": "get_context",
+        "qualname": "ClearableFileInput.get_context",
+        "start": 434,
+        "end": 446
+      },
+      {
+        "function": "get_context",
+        "qualname": "CheckboxInput.get_context",
+        "start": 528,
+        "end": 531
+      },
+      {
+        "function": "get_context",
+        "qualname": "ChoiceWidget.get_context",
+        "start": 640,
+        "end": 643
+      },
+      {
+        "function": "get_context",
+        "qualname": "Select.get_context",
+        "start": 680,
+        "end": 684
+      },
+      {
+        "function": "get_context",
+        "qualname": "MultiWidget.get_context",
+        "start": 820,
+        "end": 849
+      },
+      {
+        "function": "get_context",
+        "qualname": "SelectDateWidget.get_context",
+        "start": 984,
+        "end": 1018
+      }
+    ]
+  },
+  "django__django-16595": {
+    "django/db/migrations/operations/fields.py": [
+      {
+        "function": "migration_name_fragment",
+        "qualname": "AddField.migration_name_fragment",
+        "start": 126,
+        "end": 127
+      },
+      {
+        "function": "migration_name_fragment",
+        "qualname": "RemoveField.migration_name_fragment",
+        "start": 184,
+        "end": 185
+      },
+      {
+        "function": "migration_name_fragment",
+        "qualname": "AlterField.migration_name_fragment",
+        "start": 246,
+        "end": 247
+      },
+      {
+        "function": "migration_name_fragment",
+        "qualname": "RenameField.migration_name_fragment",
+        "start": 327,
+        "end": 332
+      }
+    ]
+  },
+  "django__django-16820": {
+    "django/db/migrations/operations/models.py": [
+      {
+        "function": "reduce",
+        "qualname": "ModelOperation.reduce",
+        "start": 32,
+        "end": 35
+      },
+      {
+        "function": "reduce",
+        "qualname": "CreateModel.reduce",
+        "start": 136,
+        "end": 306
+      },
+      {
+        "function": "reduce",
+        "qualname": "RenameModel.reduce",
+        "start": 445,
+        "end": 460
+      },
+      {
+        "function": "reduce",
+        "qualname": "ModelOptionOperation.reduce",
+        "start": 464,
+        "end": 470
+      },
+      {
+        "function": "reduce",
+        "qualname": "AddIndex.reduce",
+        "start": 864,
+        "end": 867
+      },
+      {
+        "function": "reduce",
+        "qualname": "RenameIndex.reduce",
+        "start": 1044,
+        "end": 1059
+      }
+    ]
+  },
+  "django__django-17087": {
+    "django/db/migrations/serializer.py": [
+      {
+        "function": "serialize",
+        "qualname": "BaseSerializer.serialize",
+        "start": 26,
+        "end": 29
+      },
+      {
+        "function": "serialize",
+        "qualname": "BaseSequenceSerializer.serialize",
+        "start": 38,
+        "end": 46
+      },
+      {
+        "function": "serialize",
+        "qualname": "BaseSimpleSerializer.serialize",
+        "start": 55,
+        "end": 56
+      },
+      {
+        "function": "serialize",
+        "qualname": "ChoicesSerializer.serialize",
+        "start": 60,
+        "end": 61
+      },
+      {
+        "function": "serialize",
+        "qualname": "DateTimeSerializer.serialize",
+        "start": 67,
+        "end": 68
+      },
+      {
+        "function": "serialize",
+        "qualname": "DatetimeDatetimeSerializer.serialize",
+        "start": 74,
+        "end": 78
+      },
+      {
+        "function": "serialize",
+        "qualname": "DecimalSerializer.serialize",
+        "start": 82,
+        "end": 83
+      },
+      {
+        "function": "serialize",
+        "qualname": "DeconstructableSerializer.serialize",
+        "start": 112,
+        "end": 113
+      },
+      {
+        "function": "serialize",
+        "qualname": "DictionarySerializer.serialize",
+        "start": 117,
+        "end": 126
+      },
+      {
+        "function": "serialize",
+        "qualname": "EnumSerializer.serialize",
+        "start": 130,
+        "end": 149
+      },
+      {
+        "function": "serialize",
+        "qualname": "FloatSerializer.serialize",
+        "start": 153,
+        "end": 156
+      },
+      {
+        "function": "serialize",
+        "qualname": "FunctionTypeSerializer.serialize",
+        "start": 165,
+        "end": 189
+      },
+      {
+        "function": "serialize",
+        "qualname": "FunctoolsPartialSerializer.serialize",
+        "start": 193,
+        "end": 211
+      },
+      {
+        "function": "serialize",
+        "qualname": "IterableSerializer.serialize",
+        "start": 215,
+        "end": 225
+      },
+      {
+        "function": "serialize",
+        "qualname": "ModelFieldSerializer.serialize",
+        "start": 229,
+        "end": 231
+      },
+      {
+        "function": "serialize",
+        "qualname": "ModelManagerSerializer.serialize",
+        "start": 235,
+        "end": 241
+      },
+      {
+        "function": "serialize",
+        "qualname": "OperationSerializer.serialize",
+        "start": 245,
+        "end": 250
+      },
+      {
+        "function": "serialize",
+        "qualname": "PathLikeSerializer.serialize",
+        "start": 254,
+        "end": 255
+      },
+      {
+        "function": "serialize",
+        "qualname": "PathSerializer.serialize",
+        "start": 259,
+        "end": 263
+      },
+      {
+        "function": "serialize",
+        "qualname": "RegexSerializer.serialize",
+        "start": 267,
+        "end": 279
+      },
+      {
+        "function": "serialize",
+        "qualname": "SettingsReferenceSerializer.serialize",
+        "start": 295,
+        "end": 298
+      },
+      {
+        "function": "serialize",
+        "qualname": "TypeSerializer.serialize",
+        "start": 309,
+        "end": 324
+      },
+      {
+        "function": "serialize",
+        "qualname": "UUIDSerializer.serialize",
+        "start": 328,
+        "end": 329
+      }
+    ]
+  },
+  "scikit-learn__scikit-learn-14983": {
+    "sklearn/model_selection/_split.py": [
+      {
+        "function": "get_n_splits",
+        "qualname": "BaseCrossValidator.get_n_splits",
+        "start": 102,
+        "end": 103
+      },
+      {
+        "function": "get_n_splits",
+        "qualname": "LeaveOneOut.get_n_splits",
+        "start": 165,
+        "end": 187
+      },
+      {
+        "function": "get_n_splits",
+        "qualname": "LeavePOut.get_n_splits",
+        "start": 249,
+        "end": 266
+      },
+      {
+        "function": "get_n_splits",
+        "qualname": "_BaseKFold.get_n_splits",
+        "start": 329,
+        "end": 348
+      },
+      {
+        "function": "get_n_splits",
+        "qualname": "LeaveOneGroupOut.get_n_splits",
+        "start": 881,
+        "end": 906
+      },
+      {
+        "function": "get_n_splits",
+        "qualname": "LeavePGroupsOut.get_n_splits",
+        "start": 1012,
+        "end": 1037
+      },
+      {
+        "function": "get_n_splits",
+        "qualname": "_RepeatedSplits.get_n_splits",
+        "start": 1139,
+        "end": 1164
+      },
+      {
+        "function": "get_n_splits",
+        "qualname": "BaseShuffleSplit.get_n_splits",
+        "start": 1322,
+        "end": 1341
+      },
+      {
+        "function": "get_n_splits",
+        "qualname": "PredefinedSplit.get_n_splits",
+        "start": 1875,
+        "end": 1894
+      },
+      {
+        "function": "get_n_splits",
+        "qualname": "_CVIterableWrapper.get_n_splits",
+        "start": 1902,
+        "end": 1921
+      },
+      {
+        "function": "_build_repr",
+        "qualname": "_build_repr",
+        "start": 2138,
+        "end": 2168
+      }
+    ]
+  },
+  "django__django-16139": {
+    "django/contrib/auth/forms.py": [
+      {
+        "function": "__init__",
+        "qualname": "ReadOnlyPasswordHashField.__init__",
+        "start": 66,
+        "end": 69
+      },
+      {
+        "function": "__init__",
+        "qualname": "UserCreationForm.__init__",
+        "start": 111,
+        "end": 116
+      },
+      {
+        "function": "__init__",
+        "qualname": "UserChangeForm.__init__",
+        "start": 162,
+        "end": 171
+      },
+      {
+        "function": "__init__",
+        "qualname": "AuthenticationForm.__init__",
+        "start": 195,
+        "end": 210
+      },
+      {
+        "function": "__init__",
+        "qualname": "SetPasswordForm.__init__",
+        "start": 374,
+        "end": 376
+      },
+      {
+        "function": "__init__",
+        "qualname": "AdminPasswordChangeForm.__init__",
+        "start": 456,
+        "end": 458
+      }
+    ]
+  },
+  "scikit-learn__scikit-learn-10949": {
+    "sklearn/utils/validation.py": [
+      {
+        "function": "check_array",
+        "qualname": "check_array",
+        "start": 354,
+        "end": 584
+      }
+    ]
+  },
+  "django__django-15789": {
+    "django/utils/html.py": [
+      {
+        "function": "escapejs",
+        "qualname": "escapejs",
+        "start": 50,
+        "end": 52
+      },
+      {
+        "function": "json_script",
+        "qualname": "json_script",
+        "start": 62,
+        "end": 77
+      }
+    ]
+  },
+  "django__django-14997": {
+    "django/db/backends/ddl_references.py": [
+      {
+        "function": "__init__",
+        "qualname": "Table.__init__",
+        "start": 45,
+        "end": 47
+      },
+      {
+        "function": "__init__",
+        "qualname": "TableColumns.__init__",
+        "start": 63,
+        "end": 65
+      },
+      {
+        "function": "__init__",
+        "qualname": "Columns.__init__",
+        "start": 80,
+        "end": 83
+      },
+      {
+        "function": "__init__",
+        "qualname": "IndexName.__init__",
+        "start": 102,
+        "end": 105
+      },
+      {
+        "function": "__init__",
+        "qualname": "IndexColumns.__init__",
+        "start": 112,
+        "end": 114
+      },
+      {
+        "function": "__init__",
+        "qualname": "ForeignKeyName.__init__",
+        "start": 135,
+        "end": 139
+      },
+      {
+        "function": "__init__",
+        "qualname": "Statement.__init__",
+        "start": 174,
+        "end": 176
+      },
+      {
+        "function": "__init__",
+        "qualname": "Expressions.__init__",
+        "start": 205,
+        "end": 210
+      }
+    ]
+  },
+  "django__django-15400": {
+    "django/utils/functional.py": [
+      {
+        "function": "__deepcopy__",
+        "qualname": "LazyObject.__deepcopy__",
+        "start": 343,
+        "end": 350
+      },
+      {
+        "function": "__deepcopy__",
+        "qualname": "SimpleLazyObject.__deepcopy__",
+        "start": 426,
+        "end": 433
+      }
+    ]
+  },
+  "scikit-learn__scikit-learn-13496": {
+    "sklearn/ensemble/iforest.py": [
+      {
+        "function": "__init__",
+        "qualname": "IsolationForest.__init__",
+        "start": 167,
+        "end": 193
+      }
+    ]
+  },
+  "django__django-16408": {
+    "django/db/models/sql/compiler.py": []
+  },
+  "django__django-16527": {
+    "django/contrib/admin/templatetags/admin_modify.py": [
+      {
+        "function": "submit_row",
+        "qualname": "submit_row",
+        "start": 61,
+        "end": 112
+      }
+    ]
+  },
+  "django__django-16229": {
+    "django/forms/boundfield.py": [
+      {
+        "function": "as_widget",
+        "qualname": "BoundField.as_widget",
+        "start": 84,
+        "end": 104
+      }
+    ]
+  },
+  "django__django-15213": {
+    "django/db/models/fields/__init__.py": [
+      {
+        "function": "formfield",
+        "qualname": "Field.formfield",
+        "start": 909,
+        "end": 945
+      },
+      {
+        "function": "formfield",
+        "qualname": "BooleanField.formfield",
+        "start": 985,
+        "end": 995
+      },
+      {
+        "function": "formfield",
+        "qualname": "CharField.formfield",
+        "start": 1073,
+        "end": 1082
+      },
+      {
+        "function": "formfield",
+        "qualname": "DateField.formfield",
+        "start": 1300,
+        "end": 1304
+      },
+      {
+        "function": "formfield",
+        "qualname": "DateTimeField.formfield",
+        "start": 1427,
+        "end": 1431
+      },
+      {
+        "function": "formfield",
+        "qualname": "DecimalField.formfield",
+        "start": 1566,
+        "end": 1572
+      },
+      {
+        "function": "formfield",
+        "qualname": "DurationField.formfield",
+        "start": 1628,
+        "end": 1632
+      },
+      {
+        "function": "formfield",
+        "qualname": "EmailField.formfield",
+        "start": 1650,
+        "end": 1656
+      },
+      {
+        "function": "formfield",
+        "qualname": "FilePathField.formfield",
+        "start": 1708,
+        "end": 1717
+      },
+      {
+        "function": "formfield",
+        "qualname": "FloatField.formfield",
+        "start": 1756,
+        "end": 1760
+      },
+      {
+        "function": "formfield",
+        "qualname": "IntegerField.formfield",
+        "start": 1843,
+        "end": 1847
+      },
+      {
+        "function": "formfield",
+        "qualname": "BigIntegerField.formfield",
+        "start": 1857,
+        "end": 1862
+      },
+      {
+        "function": "formfield",
+        "qualname": "GenericIPAddressField.formfield",
+        "start": 1975,
+        "end": 1980
+      },
+      {
+        "function": "formfield",
+        "qualname": "PositiveBigIntegerField.formfield",
+        "start": 2044,
+        "end": 2048
+      },
+      {
+        "function": "formfield",
+        "qualname": "PositiveIntegerField.formfield",
+        "start": 2057,
+        "end": 2061
+      },
+      {
+        "function": "formfield",
+        "qualname": "PositiveSmallIntegerField.formfield",
+        "start": 2070,
+        "end": 2074
+      },
+      {
+        "function": "formfield",
+        "qualname": "SlugField.formfield",
+        "start": 2102,
+        "end": 2107
+      },
+      {
+        "function": "formfield",
+        "qualname": "TextField.formfield",
+        "start": 2157,
+        "end": 2165
+      },
+      {
+        "function": "formfield",
+        "qualname": "TimeField.formfield",
+        "start": 2278,
+        "end": 2282
+      },
+      {
+        "function": "formfield",
+        "qualname": "URLField.formfield",
+        "start": 2299,
+        "end": 2305
+      },
+      {
+        "function": "formfield",
+        "qualname": "UUIDField.formfield",
+        "start": 2418,
+        "end": 2422
+      },
+      {
+        "function": "formfield",
+        "qualname": "AutoFieldMixin.formfield",
+        "start": 2474,
+        "end": 2475
+      }
+    ]
+  },
+  "django__django-15252": {
+    "django/db/migrations/executor.py": [
+      {
+        "function": "migrate",
+        "qualname": "MigrationExecutor.migrate",
+        "start": 91,
+        "end": 134
+      }
+    ]
+  },
+  "django__django-15790": {
+    "django/core/checks/templates.py": [
+      {
+        "function": "check_string_if_invalid_is_string",
+        "qualname": "check_string_if_invalid_is_string",
+        "start": 37,
+        "end": 47
+      },
+      {
+        "function": "check_for_template_tags_with_the_same_name",
+        "qualname": "check_for_template_tags_with_the_same_name",
+        "start": 51,
+        "end": 75
+      }
+    ]
+  },
+  "django__django-15498": {
+    "django/views/static.py": [
+      {
+        "function": "was_modified_since",
+        "qualname": "was_modified_since",
+        "start": 114,
+        "end": 140
+      }
+    ]
+  },
+  "django__django-17051": {
+    "django/db/models/query.py": [
+      {
+        "function": "_batched_insert",
+        "qualname": "QuerySet._batched_insert",
+        "start": 1821,
+        "end": 1858
+      }
+    ]
+  },
+  "django__django-16046": {
+    "django/utils/numberformat.py": [
+      {
+        "function": "format",
+        "qualname": "format",
+        "start": 7,
+        "end": 104
+      }
+    ]
+  },
+  "sphinx-doc__sphinx-10325": {
+    "sphinx/ext/autodoc/__init__.py": [
+      {
+        "function": "exclude_members_option",
+        "qualname": "exclude_members_option",
+        "start": 105,
+        "end": 109
+      },
+      {
+        "function": "filter_members",
+        "qualname": "Documenter.filter_members",
+        "start": 667,
+        "end": 818
+      }
+    ]
+  },
+  "matplotlib__matplotlib-22711": {
+    "lib/matplotlib/widgets.py": [
+      {
+        "function": "_update",
+        "qualname": "Slider._update",
+        "start": 511,
+        "end": 534
+      },
+      {
+        "function": "set_val",
+        "qualname": "Slider.set_val",
+        "start": 545,
+        "end": 568
+      },
+      {
+        "function": "_update_val_from_pos",
+        "qualname": "RangeSlider._update_val_from_pos",
+        "start": 806,
+        "end": 816
+      },
+      {
+        "function": "_update",
+        "qualname": "RangeSlider._update",
+        "start": 818,
+        "end": 852
+      },
+      {
+        "function": "set_val",
+        "qualname": "RangeSlider.set_val",
+        "start": 888,
+        "end": 919
+      },
+      {
+        "function": "set_val",
+        "qualname": "TextBox.set_val",
+        "start": 1264,
+        "end": 1272
+      },
+      {
+        "function": "_update",
+        "qualname": "Cursor._update",
+        "start": 1659,
+        "end": 1668
+      },
+      {
+        "function": "_update",
+        "qualname": "MultiCursor._update",
+        "start": 1783,
+        "end": 1795
+      }
+    ]
+  },
+  "matplotlib__matplotlib-25442": {
+    "lib/matplotlib/offsetbox.py": [
+      {
+        "function": "__init__",
+        "qualname": "OffsetBox.__init__",
+        "start": 217,
+        "end": 225
+      },
+      {
+        "function": "__init__",
+        "qualname": "PackerBase.__init__",
+        "start": 422,
+        "end": 465
+      },
+      {
+        "function": "__init__",
+        "qualname": "PaddedBox.__init__",
+        "start": 536,
+        "end": 563
+      },
+      {
+        "function": "__init__",
+        "qualname": "DrawingArea.__init__",
+        "start": 604,
+        "end": 622
+      },
+      {
+        "function": "__init__",
+        "qualname": "TextArea.__init__",
+        "start": 717,
+        "end": 743
+      },
+      {
+        "function": "__init__",
+        "qualname": "AuxTransformBox.__init__",
+        "start": 839,
+        "end": 845
+      },
+      {
+        "function": "__init__",
+        "qualname": "AnchoredOffsetbox.__init__",
+        "start": 931,
+        "end": 995
+      },
+      {
+        "function": "__init__",
+        "qualname": "AnchoredText.__init__",
+        "start": 1104,
+        "end": 1139
+      },
+      {
+        "function": "__init__",
+        "qualname": "OffsetImage.__init__",
+        "start": 1144,
+        "end": 1174
+      },
+      {
+        "function": "__init__",
+        "qualname": "AnnotationBbox.__init__",
+        "start": 1228,
+        "end": 1335
+      },
+      {
+        "function": "__init__",
+        "qualname": "DraggableBase.__init__",
+        "start": 1497,
+        "end": 1508
+      },
+      {
+        "function": "on_pick",
+        "qualname": "DraggableBase.on_pick",
+        "start": 1526,
+        "end": 1541
+      },
+      {
+        "function": "_check_still_parented",
+        "qualname": "DraggableBase._check_still_parented",
+        "start": 1552,
+        "end": 1557
+      },
+      {
+        "function": "__init__",
+        "qualname": "DraggableOffsetBox.__init__",
+        "start": 1581,
+        "end": 1583
+      },
+      {
+        "function": "__init__",
+        "qualname": "DraggableAnnotation.__init__",
+        "start": 1606,
+        "end": 1608
+      }
+    ]
+  },
+  "sphinx-doc__sphinx-10451": {
+    "sphinx/ext/autodoc/typehints.py": [
+      {
+        "function": "modify_field_list",
+        "qualname": "modify_field_list",
+        "start": 89,
+        "end": 138
+      },
+      {
+        "function": "augment_descriptions_with_types",
+        "qualname": "augment_descriptions_with_types",
+        "start": 141,
+        "end": 187
+      }
+    ]
+  },
+  "django__django-15781": {
+    "django/core/management/base.py": [
+      {
+        "function": "create_parser",
+        "qualname": "BaseCommand.create_parser",
+        "start": 284,
+        "end": 358
+      }
+    ]
+  },
+  "django__django-16873": {
+    "django/template/defaultfilters.py": [
+      {
+        "function": "join",
+        "qualname": "join",
+        "start": 585,
+        "end": 593
+      }
+    ]
+  },
+  "sphinx-doc__sphinx-8282": {
+    "sphinx/ext/autodoc/__init__.py": [
+      {
+        "function": "format_signature",
+        "qualname": "Documenter.format_signature",
+        "start": 455,
+        "end": 488
+      },
+      {
+        "function": "add_directive_header",
+        "qualname": "Documenter.add_directive_header",
+        "start": 490,
+        "end": 510
+      },
+      {
+        "function": "document_members",
+        "qualname": "Documenter.document_members",
+        "start": 746,
+        "end": 789
+      },
+      {
+        "function": "add_directive_header",
+        "qualname": "ModuleDocumenter.add_directive_header",
+        "start": 973,
+        "end": 984
+      },
+      {
+        "function": "format_signature",
+        "qualname": "DocstringSignatureMixin.format_signature",
+        "start": 1164,
+        "end": 1175
+      },
+      {
+        "function": "format_signature",
+        "qualname": "DocstringStripSignatureMixin.format_signature",
+        "start": 1183,
+        "end": 1193
+      },
+      {
+        "function": "document_members",
+        "qualname": "FunctionDocumenter.document_members",
+        "start": 1231,
+        "end": 1232
+      },
+      {
+        "function": "add_directive_header",
+        "qualname": "FunctionDocumenter.add_directive_header",
+        "start": 1234,
+        "end": 1239
+      },
+      {
+        "function": "format_signature",
+        "qualname": "FunctionDocumenter.format_signature",
+        "start": 1241,
+        "end": 1272
+      },
+      {
+        "function": "format_signature",
+        "qualname": "ClassDocumenter.format_signature",
+        "start": 1469,
+        "end": 1493
+      },
+      {
+        "function": "add_directive_header",
+        "qualname": "ClassDocumenter.add_directive_header",
+        "start": 1509,
+        "end": 1529
+      },
+      {
+        "function": "document_members",
+        "qualname": "ClassDocumenter.document_members",
+        "start": 1594,
+        "end": 1597
+      },
+      {
+        "function": "add_directive_header",
+        "qualname": "DataDocumenter.add_directive_header",
+        "start": 1642,
+        "end": 1682
+      },
+      {
+        "function": "document_members",
+        "qualname": "DataDocumenter.document_members",
+        "start": 1684,
+        "end": 1685
+      },
+      {
+        "function": "add_directive_header",
+        "qualname": "GenericAliasDocumenter.add_directive_header",
+        "start": 1744,
+        "end": 1747
+      },
+      {
+        "function": "add_directive_header",
+        "qualname": "TypeVarDocumenter.add_directive_header",
+        "start": 1769,
+        "end": 1772
+      },
+      {
+        "function": "add_directive_header",
+        "qualname": "MethodDocumenter.add_directive_header",
+        "start": 1864,
+        "end": 1878
+      },
+      {
+        "function": "document_members",
+        "qualname": "MethodDocumenter.document_members",
+        "start": 1880,
+        "end": 1881
+      },
+      {
+        "function": "format_signature",
+        "qualname": "MethodDocumenter.format_signature",
+        "start": 1883,
+        "end": 1920
+      },
+      {
+        "function": "document_members",
+        "qualname": "AttributeDocumenter.document_members",
+        "start": 1987,
+        "end": 1988
+      },
+      {
+        "function": "add_directive_header",
+        "qualname": "AttributeDocumenter.add_directive_header",
+        "start": 2032,
+        "end": 2073
+      },
+      {
+        "function": "document_members",
+        "qualname": "PropertyDocumenter.document_members",
+        "start": 2110,
+        "end": 2111
+      },
+      {
+        "function": "add_directive_header",
+        "qualname": "PropertyDocumenter.add_directive_header",
+        "start": 2117,
+        "end": 2122
+      }
+    ]
+  },
+  "matplotlib__matplotlib-23314": {
+    "lib/mpl_toolkits/mplot3d/axes3d.py": [
+      {
+        "function": "apply_aspect",
+        "qualname": "Axes3D.apply_aspect",
+        "start": 371,
+        "end": 386
+      }
+    ]
+  },
+  "matplotlib__matplotlib-25311": {
+    "lib/matplotlib/offsetbox.py": [
+      {
+        "function": "__init__",
+        "qualname": "OffsetBox.__init__",
+        "start": 217,
+        "end": 225
+      },
+      {
+        "function": "__init__",
+        "qualname": "PackerBase.__init__",
+        "start": 422,
+        "end": 465
+      },
+      {
+        "function": "__init__",
+        "qualname": "PaddedBox.__init__",
+        "start": 537,
+        "end": 564
+      },
+      {
+        "function": "__init__",
+        "qualname": "DrawingArea.__init__",
+        "start": 605,
+        "end": 623
+      },
+      {
+        "function": "__init__",
+        "qualname": "TextArea.__init__",
+        "start": 719,
+        "end": 744
+      },
+      {
+        "function": "__init__",
+        "qualname": "AuxTransformBox.__init__",
+        "start": 840,
+        "end": 846
+      },
+      {
+        "function": "__init__",
+        "qualname": "AnchoredOffsetbox.__init__",
+        "start": 933,
+        "end": 997
+      },
+      {
+        "function": "__init__",
+        "qualname": "AnchoredText.__init__",
+        "start": 1107,
+        "end": 1142
+      },
+      {
+        "function": "__init__",
+        "qualname": "OffsetImage.__init__",
+        "start": 1148,
+        "end": 1178
+      },
+      {
+        "function": "__init__",
+        "qualname": "AnnotationBbox.__init__",
+        "start": 1233,
+        "end": 1341
+      },
+      {
+        "function": "__init__",
+        "qualname": "DraggableBase.__init__",
+        "start": 1503,
+        "end": 1515
+      },
+      {
+        "function": "__init__",
+        "qualname": "DraggableOffsetBox.__init__",
+        "start": 1585,
+        "end": 1587
+      },
+      {
+        "function": "__init__",
+        "qualname": "DraggableAnnotation.__init__",
+        "start": 1610,
+        "end": 1612
+      }
+    ]
+  },
+  "sphinx-doc__sphinx-8506": {
+    "sphinx/domains/std.py": [
+      {
+        "function": "handle_signature",
+        "qualname": "GenericObject.handle_signature",
+        "start": 58,
+        "end": 66
+      },
+      {
+        "function": "handle_signature",
+        "qualname": "Cmdoption.handle_signature",
+        "start": 186,
+        "end": 212
+      }
+    ]
+  },
+  "sphinx-doc__sphinx-7686": {
+    "sphinx/ext/autosummary/generate.py": [
+      {
+        "function": "render",
+        "qualname": "AutosummaryRenderer.render",
+        "start": 161,
+        "end": 173
+      }
+    ]
+  },
+  "sphinx-doc__sphinx-7738": {
+    "sphinx/ext/napoleon/docstring.py": [
+      {
+        "function": "_dedent",
+        "qualname": "GoogleDocstring._dedent",
+        "start": 313,
+        "end": 318
+      }
+    ]
+  },
+  "sphinx-doc__sphinx-7975": {
+    "sphinx/environment/adapters/indexentries.py": []
+  },
+  "sphinx-doc__sphinx-8721": {
+    "sphinx/ext/viewcode.py": [
+      {
+        "function": "collect_pages",
+        "qualname": "collect_pages",
+        "start": 181,
+        "end": 276
+      }
+    ]
+  },
+  "sphinx-doc__sphinx-8474": {
+    "sphinx/domains/std.py": [
+      {
+        "function": "_resolve_numref_xref",
+        "qualname": "StandardDomain._resolve_numref_xref",
+        "start": 829,
+        "end": 889
+      }
+    ]
+  },
+  "sphinx-doc__sphinx-8801": {
+    "sphinx/ext/autodoc/importer.py": [
+      {
+        "function": "get_class_members",
+        "qualname": "get_class_members",
+        "start": 245,
+        "end": 318
+      }
+    ]
+  },
+  "sphinx-doc__sphinx-11445": {
+    "sphinx/util/rst.py": [
+      {
+        "function": "prepend_prolog",
+        "qualname": "prepend_prolog",
+        "start": 78,
+        "end": 97
+      }
+    ]
+  },
+  "sphinx-doc__sphinx-8435": {
+    "sphinx/ext/autodoc/__init__.py": [
+      {
+        "function": "add_directive_header",
+        "qualname": "Documenter.add_directive_header",
+        "start": 515,
+        "end": 535
+      },
+      {
+        "function": "add_directive_header",
+        "qualname": "ModuleDocumenter.add_directive_header",
+        "start": 1011,
+        "end": 1022
+      },
+      {
+        "function": "add_directive_header",
+        "qualname": "FunctionDocumenter.add_directive_header",
+        "start": 1278,
+        "end": 1283
+      },
+      {
+        "function": "add_directive_header",
+        "qualname": "ClassDocumenter.add_directive_header",
+        "start": 1563,
+        "end": 1586
+      },
+      {
+        "function": "add_directive_header",
+        "qualname": "DataDocumenter.add_directive_header",
+        "start": 1699,
+        "end": 1739
+      },
+      {
+        "function": "add_directive_header",
+        "qualname": "GenericAliasDocumenter.add_directive_header",
+        "start": 1801,
+        "end": 1804
+      },
+      {
+        "function": "add_directive_header",
+        "qualname": "TypeVarDocumenter.add_directive_header",
+        "start": 1826,
+        "end": 1829
+      },
+      {
+        "function": "add_directive_header",
+        "qualname": "MethodDocumenter.add_directive_header",
+        "start": 1920,
+        "end": 1934
+      },
+      {
+        "function": "add_directive_header",
+        "qualname": "AttributeDocumenter.add_directive_header",
+        "start": 2090,
+        "end": 2131
+      },
+      {
+        "function": "add_directive_header",
+        "qualname": "PropertyDocumenter.add_directive_header",
+        "start": 2175,
+        "end": 2180
+      }
+    ]
+  },
+  "scikit-learn__scikit-learn-15535": {
+    "sklearn/metrics/cluster/_supervised.py": [
+      {
+        "function": "check_clusterings",
+        "qualname": "check_clusterings",
+        "start": 34,
+        "end": 61
+      }
+    ]
+  },
+  "scikit-learn__scikit-learn-25500": {
+    "sklearn/isotonic.py": [
+      {
+        "function": "fit",
+        "qualname": "IsotonicRegression.fit",
+        "start": 313,
+        "end": 361
+      },
+      {
+        "function": "transform",
+        "qualname": "IsotonicRegression.transform",
+        "start": 363,
+        "end": 398
+      },
+      {
+        "function": "predict",
+        "qualname": "IsotonicRegression.predict",
+        "start": 400,
+        "end": 413
+      }
+    ]
+  },
+  "sphinx-doc__sphinx-8273": {
+    "sphinx/builders/manpage.py": [
+      {
+        "function": "write",
+        "qualname": "ManualPageBuilder.write",
+        "start": 59,
+        "end": 100
+      },
+      {
+        "function": "setup",
+        "qualname": "setup",
+        "start": 113,
+        "end": 123
+      }
+    ]
+  },
+  "sphinx-doc__sphinx-8595": {
+    "sphinx/ext/autodoc/__init__.py": [
+      {
+        "function": "get_module_members",
+        "qualname": "ModuleDocumenter.get_module_members",
+        "start": 1046,
+        "end": 1072
+      }
+    ]
+  },
+  "sphinx-doc__sphinx-8713": {
+    "sphinx/ext/napoleon/docstring.py": [
+      {
+        "function": "_parse_notes_section",
+        "qualname": "GoogleDocstring._parse_notes_section",
+        "start": 680,
+        "end": 682
+      }
+    ]
+  },
+  "sphinx-doc__sphinx-8627": {
+    "sphinx/util/typing.py": [
+      {
+        "function": "restify",
+        "qualname": "restify",
+        "start": 89,
+        "end": 105
+      },
+      {
+        "function": "stringify",
+        "qualname": "stringify",
+        "start": 284,
+        "end": 312
+      }
+    ]
+  },
+  "django__django-16400": {
+    "django/contrib/auth/management/__init__.py": [
+      {
+        "function": "create_permissions",
+        "qualname": "create_permissions",
+        "start": 37,
+        "end": 106
+      }
+    ]
+  },
+  "matplotlib__matplotlib-24970": {
+    "lib/matplotlib/colors.py": [
+      {
+        "function": "__call__",
+        "qualname": "Colormap.__call__",
+        "start": 683,
+        "end": 759
+      },
+      {
+        "function": "__call__",
+        "qualname": "Normalize.__call__",
+        "start": 1314,
+        "end": 1358
+      },
+      {
+        "function": "__call__",
+        "qualname": "TwoSlopeNorm.__call__",
+        "start": 1452,
+        "end": 1468
+      },
+      {
+        "function": "__call__",
+        "qualname": "PowerNorm.__call__",
+        "start": 1870,
+        "end": 1897
+      },
+      {
+        "function": "__call__",
+        "qualname": "BoundaryNorm.__call__",
+        "start": 1987,
+        "end": 2027
+      },
+      {
+        "function": "__call__",
+        "qualname": "NoNorm.__call__",
+        "start": 2045,
+        "end": 2046
+      }
+    ]
+  },
+  "scikit-learn__scikit-learn-25638": {
+    "sklearn/utils/multiclass.py": [
+      {
+        "function": "is_multilabel",
+        "qualname": "is_multilabel",
+        "start": 126,
+        "end": 184
+      },
+      {
+        "function": "type_of_target",
+        "qualname": "type_of_target",
+        "start": 210,
+        "end": 367
+      }
+    ]
+  },
+  "scikit-learn__scikit-learn-25747": {
+    "sklearn/utils/_set_output.py": [
+      {
+        "function": "_wrap_in_pandas_container",
+        "qualname": "_wrap_in_pandas_container",
+        "start": 10,
+        "end": 62
+      }
+    ]
+  },
+  "matplotlib__matplotlib-25433": {
+    "lib/matplotlib/figure.py": []
+  },
+  "matplotlib__matplotlib-26011": {
+    "lib/matplotlib/axis.py": [
+      {
+        "function": "_set_lim",
+        "qualname": "Axis._set_lim",
+        "start": 1179,
+        "end": 1251
+      }
+    ]
+  },
+  "matplotlib__matplotlib-18869": {},
+  "matplotlib__matplotlib-25498": {
+    "lib/matplotlib/colorbar.py": [
+      {
+        "function": "__init__",
+        "qualname": "_ColorbarSpine.__init__",
+        "start": 124,
+        "end": 127
+      },
+      {
+        "function": "__init__",
+        "qualname": "_ColorbarAxesLocator.__init__",
+        "start": 150,
+        "end": 152
+      },
+      {
+        "function": "__init__",
+        "qualname": "Colorbar.__init__",
+        "start": 282,
+        "end": 441
+      },
+      {
+        "function": "_process_values",
+        "qualname": "Colorbar._process_values",
+        "start": 1065,
+        "end": 1116
+      }
+    ]
+  },
+  "scikit-learn__scikit-learn-25570": {
+    "sklearn/compose/_column_transformer.py": [
+      {
+        "function": "_hstack",
+        "qualname": "ColumnTransformer._hstack",
+        "start": 824,
+        "end": 875
+      }
+    ]
+  },
+  "matplotlib__matplotlib-25079": {
+    "lib/matplotlib/colors.py": [
+      {
+        "function": "inverse",
+        "qualname": "Normalize.inverse",
+        "start": 1351,
+        "end": 1361
+      },
+      {
+        "function": "inverse",
+        "qualname": "TwoSlopeNorm.inverse",
+        "start": 1465,
+        "end": 1473
+      },
+      {
+        "function": "inverse",
+        "qualname": "PowerNorm.inverse",
+        "start": 1894,
+        "end": 1904
+      },
+      {
+        "function": "inverse",
+        "qualname": "BoundaryNorm.inverse",
+        "start": 2024,
+        "end": 2032
+      },
+      {
+        "function": "inverse",
+        "qualname": "NoNorm.inverse",
+        "start": 2043,
+        "end": 2044
+      }
+    ]
+  },
+  "matplotlib__matplotlib-24334": {
+    "lib/matplotlib/axis.py": [
+      {
+        "function": "set_ticks",
+        "qualname": "Axis.set_ticks",
+        "start": 1990,
+        "end": 2027
+      }
+    ]
+  },
+  "matplotlib__matplotlib-23562": {
+    "lib/mpl_toolkits/mplot3d/art3d.py": [
+      {
+        "function": "set_alpha",
+        "qualname": "Poly3DCollection.set_alpha",
+        "start": 854,
+        "end": 867
+      }
+    ]
+  },
+  "sympy__sympy-13177": {
+    "sympy/core/mod.py": []
+  },
+  "sympy__sympy-11400": {
+    "sympy/printing/ccode.py": [
+      {
+        "function": "_print_Symbol",
+        "qualname": "CCodePrinter._print_Symbol",
+        "start": 225,
+        "end": 232
+      }
+    ]
+  },
+  "matplotlib__matplotlib-26020": {},
+  "sympy__sympy-12236": {
+    "sympy/polys/domains/polynomialring.py": [
+      {
+        "function": "from_PolynomialRing",
+        "qualname": "PolynomialRing.from_PolynomialRing",
+        "start": 98,
+        "end": 103
+      }
+    ]
+  },
+  "matplotlib__matplotlib-22835": {
+    "lib/matplotlib/artist.py": [
+      {
+        "function": "format_cursor_data",
+        "qualname": "Artist.format_cursor_data",
+        "start": 1277,
+        "end": 1321
+      }
+    ]
+  },
+  "sympy__sympy-12454": {
+    "sympy/matrices/matrices.py": [
+      {
+        "function": "_eval_is_zero",
+        "qualname": "MatrixProperties._eval_is_zero",
+        "start": 634,
+        "end": 639
+      },
+      {
+        "function": "is_upper",
+        "qualname": "MatrixProperties.is_upper",
+        "start": 1072,
+        "end": 1115
+      }
+    ]
+  },
+  "matplotlib__matplotlib-23299": {
+    "lib/matplotlib/__init__.py": [
+      {
+        "function": "rc_context",
+        "qualname": "rc_context",
+        "start": 1058,
+        "end": 1098
+      }
+    ]
+  },
+  "sympy__sympy-13146": {
+    "sympy/core/operations.py": [
+      {
+        "function": "_eval_evalf",
+        "qualname": "AssocOp._eval_evalf",
+        "start": 296,
+        "end": 350
+      }
+    ]
+  },
+  "sympy__sympy-12171": {
+    "sympy/printing/mathematica.py": [
+      {
+        "function": "_print_Integral",
+        "qualname": "MCodePrinter._print_Integral",
+        "start": 102,
+        "end": 107
+      }
+    ]
+  },
+  "sympy__sympy-13031": {
+    "sympy/matrices/sparse.py": [
+      {
+        "function": "col_join",
+        "qualname": "MutableSparseMatrix.col_join",
+        "start": 949,
+        "end": 1007
+      },
+      {
+        "function": "row_join",
+        "qualname": "MutableSparseMatrix.row_join",
+        "start": 1159,
+        "end": 1213
+      }
+    ]
+  },
+  "matplotlib__matplotlib-24265": {
+    "lib/matplotlib/style/core.py": [
+      {
+        "function": "use",
+        "qualname": "use",
+        "start": 68,
+        "end": 161
+      },
+      {
+        "function": "update_nested_dict",
+        "qualname": "update_nested_dict",
+        "start": 233,
+        "end": 244
+      }
+    ]
+  },
+  "matplotlib__matplotlib-23964": {
+    "lib/matplotlib/backends/backend_ps.py": [
+      {
+        "function": "draw_text",
+        "qualname": "RendererPS.draw_text",
+        "start": 617,
+        "end": 684
+      }
+    ]
+  },
+  "sympy__sympy-13471": {
+    "sympy/core/numbers.py": [
+      {
+        "function": "__new__",
+        "qualname": "Number.__new__",
+        "start": 528,
+        "end": 547
+      },
+      {
+        "function": "__new__",
+        "qualname": "Float.__new__",
+        "start": 941,
+        "end": 1068
+      },
+      {
+        "function": "__new__",
+        "qualname": "Rational.__new__",
+        "start": 1453,
+        "end": 1522
+      },
+      {
+        "function": "__new__",
+        "qualname": "Integer.__new__",
+        "start": 1957,
+        "end": 1980
+      },
+      {
+        "function": "__new__",
+        "qualname": "AlgebraicNumber.__new__",
+        "start": 2307,
+        "end": 2362
+      },
+      {
+        "function": "__new__",
+        "qualname": "RationalConstant.__new__",
+        "start": 2434,
+        "end": 2435
+      },
+      {
+        "function": "__new__",
+        "qualname": "IntegerConstant.__new__",
+        "start": 2441,
+        "end": 2442
+      },
+      {
+        "function": "__new__",
+        "qualname": "Infinity.__new__",
+        "start": 2695,
+        "end": 2696
+      },
+      {
+        "function": "__new__",
+        "qualname": "NegativeInfinity.__new__",
+        "start": 2918,
+        "end": 2919
+      },
+      {
+        "function": "__new__",
+        "qualname": "NaN.__new__",
+        "start": 3179,
+        "end": 3180
+      },
+      {
+        "function": "__new__",
+        "qualname": "ComplexInfinity.__new__",
+        "start": 3277,
+        "end": 3278
+      },
+      {
+        "function": "__new__",
+        "qualname": "NumberSymbol.__new__",
+        "start": 3328,
+        "end": 3329
+      }
+    ]
+  },
+  "matplotlib__matplotlib-23563": {
+    "lib/mpl_toolkits/mplot3d/art3d.py": [
+      {
+        "function": "__init__",
+        "qualname": "Text3D.__init__",
+        "start": 93,
+        "end": 95
+      },
+      {
+        "function": "__init__",
+        "qualname": "Line3D.__init__",
+        "start": 164,
+        "end": 169
+      },
+      {
+        "function": "__init__",
+        "qualname": "Patch3D.__init__",
+        "start": 327,
+        "end": 329
+      },
+      {
+        "function": "__init__",
+        "qualname": "PathPatch3D.__init__",
+        "start": 353,
+        "end": 356
+      },
+      {
+        "function": "__init__",
+        "qualname": "Patch3DCollection.__init__",
+        "start": 401,
+        "end": 419
+      },
+      {
+        "function": "__init__",
+        "qualname": "Path3DCollection.__init__",
+        "start": 496,
+        "end": 515
+      },
+      {
+        "function": "__init__",
+        "qualname": "Poly3DCollection.__init__",
+        "start": 684,
+        "end": 710
+      }
+    ]
+  },
+  "sympy__sympy-11897": {
+    "sympy/printing/latex.py": [
+      {
+        "function": "_needs_mul_brackets",
+        "qualname": "LatexPrinter._needs_mul_brackets",
+        "start": 220,
+        "end": 244
+      }
+    ]
+  },
+  "sympy__sympy-13647": {
+    "sympy/matrices/common.py": []
+  },
+  "sympy__sympy-14317": {
+    "sympy/printing/latex.py": [
+      {
+        "function": "_print_PolynomialRingBase",
+        "qualname": "LatexPrinter._print_PolynomialRingBase",
+        "start": 1847,
+        "end": 1853
+      }
+    ]
+  },
+  "matplotlib__matplotlib-23476": {
+    "lib/matplotlib/figure.py": [
+      {
+        "function": "__getstate__",
+        "qualname": "Figure.__getstate__",
+        "start": 3015,
+        "end": 3033
+      }
+    ]
+  },
+  "sympy__sympy-14817": {
+    "sympy/printing/pretty/pretty.py": [
+      {
+        "function": "_print_MatAdd",
+        "qualname": "PrettyPrinter._print_MatAdd",
+        "start": 821,
+        "end": 835
+      }
+    ]
+  },
+  "sympy__sympy-16792": {
+    "sympy/utilities/codegen.py": [
+      {
+        "function": "routine",
+        "qualname": "CodeGen.routine",
+        "start": 577,
+        "end": 745
+      },
+      {
+        "function": "routine",
+        "qualname": "JuliaCodeGen.routine",
+        "start": 1319,
+        "end": 1408
+      },
+      {
+        "function": "routine",
+        "qualname": "OctaveCodeGen.routine",
+        "start": 1528,
+        "end": 1616
+      },
+      {
+        "function": "routine",
+        "qualname": "RustCodeGen.routine",
+        "start": 1764,
+        "end": 1847
+      }
+    ]
+  },
+  "sympy__sympy-11870": {
+    "sympy/functions/elementary/trigonometric.py": [
+      {
+        "function": "_eval_rewrite_as_csc",
+        "qualname": "sin._eval_rewrite_as_csc",
+        "start": 405,
+        "end": 406
+      },
+      {
+        "function": "_eval_rewrite_as_csc",
+        "qualname": "cos._eval_rewrite_as_csc",
+        "start": 836,
+        "end": 837
+      },
+      {
+        "function": "_eval_rewrite_as_csc",
+        "qualname": "tan._eval_rewrite_as_csc",
+        "start": 1145,
+        "end": 1148
+      },
+      {
+        "function": "_eval_rewrite_as_csc",
+        "qualname": "cot._eval_rewrite_as_csc",
+        "start": 1398,
+        "end": 1401
+      },
+      {
+        "function": "_eval_rewrite_as_csc",
+        "qualname": "sec._eval_rewrite_as_csc",
+        "start": 1636,
+        "end": 1637
+      },
+      {
+        "function": "_eval_rewrite_as_jn",
+        "qualname": "sinc._eval_rewrite_as_jn",
+        "start": 1815,
+        "end": 1817
+      }
+    ]
+  },
+  "sympy__sympy-13043": {
+    "sympy/integrals/intpoly.py": [
+      {
+        "function": "decompose",
+        "qualname": "decompose",
+        "start": 538,
+        "end": 597
+      }
+    ]
+  },
+  "sympy__sympy-14774": {
+    "sympy/printing/latex.py": [
+      {
+        "function": "_print_Function",
+        "qualname": "LatexPrinter._print_Function",
+        "start": 715,
+        "end": 782
+      }
+    ]
+  },
+  "sympy__sympy-12419": {
+    "sympy/matrices/expressions/matexpr.py": [
+      {
+        "function": "conjugate",
+        "qualname": "MatrixExpr.conjugate",
+        "start": 207,
+        "end": 208
+      },
+      {
+        "function": "_eval_derivative",
+        "qualname": "MatrixElement._eval_derivative",
+        "start": 368,
+        "end": 379
+      },
+      {
+        "function": "conjugate",
+        "qualname": "Identity.conjugate",
+        "start": 475,
+        "end": 476
+      },
+      {
+        "function": "conjugate",
+        "qualname": "ZeroMatrix.conjugate",
+        "start": 529,
+        "end": 530
+      }
+    ]
+  },
+  "sympy__sympy-15609": {
+    "sympy/printing/latex.py": [
+      {
+        "function": "_print_MatrixBase",
+        "qualname": "LatexPrinter._print_MatrixBase",
+        "start": 1409,
+        "end": 1434
+      }
+    ]
+  },
+  "sympy__sympy-13437": {
+    "sympy/functions/combinatorial/numbers.py": [
+      {
+        "function": "_bell_incomplete_poly",
+        "qualname": "bell._bell_incomplete_poly",
+        "start": 407,
+        "end": 433
+      }
+    ]
+  },
+  "sympy__sympy-18057": {
+    "sympy/core/expr.py": [
+      {
+        "function": "_hashable_content",
+        "qualname": "Expr._hashable_content",
+        "start": 113,
+        "end": 120
+      }
+    ]
+  },
+  "sympy__sympy-14024": {
+    "sympy/core/numbers.py": [
+      {
+        "function": "_eval_power",
+        "qualname": "Float._eval_power",
+        "start": 1213,
+        "end": 1243
+      },
+      {
+        "function": "_eval_power",
+        "qualname": "Rational._eval_power",
+        "start": 1671,
+        "end": 1711
+      },
+      {
+        "function": "_eval_power",
+        "qualname": "Integer._eval_power",
+        "start": 2182,
+        "end": 2289
+      },
+      {
+        "function": "_eval_power",
+        "qualname": "Zero._eval_power",
+        "start": 2500,
+        "end": 2514
+      },
+      {
+        "function": "_eval_power",
+        "qualname": "One._eval_power",
+        "start": 2562,
+        "end": 2563
+      },
+      {
+        "function": "_eval_power",
+        "qualname": "NegativeOne._eval_power",
+        "start": 2615,
+        "end": 2635
+      },
+      {
+        "function": "_eval_power",
+        "qualname": "Infinity._eval_power",
+        "start": 2802,
+        "end": 2839
+      },
+      {
+        "function": "_eval_power",
+        "qualname": "NegativeInfinity._eval_power",
+        "start": 3026,
+        "end": 3060
+      },
+      {
+        "function": "_eval_power",
+        "qualname": "ComplexInfinity._eval_power",
+        "start": 3315,
+        "end": 3326
+      },
+      {
+        "function": "_eval_power",
+        "qualname": "Exp1._eval_power",
+        "start": 3448,
+        "end": 3450
+      },
+      {
+        "function": "_eval_power",
+        "qualname": "ImaginaryUnit._eval_power",
+        "start": 3758,
+        "end": 3781
+      }
+    ]
+  },
+  "sympy__sympy-15308": {
+    "sympy/printing/latex.py": [
+      {
+        "function": "_do_exponent",
+        "qualname": "LatexPrinter._do_exponent",
+        "start": 286,
+        "end": 290
+      },
+      {
+        "function": "_print_Transpose",
+        "qualname": "LatexPrinter._print_Transpose",
+        "start": 1457,
+        "end": 1463
+      }
+    ]
+  },
+  "sympy__sympy-15678": {
+    "sympy/geometry/util.py": [
+      {
+        "function": "idiff",
+        "qualname": "idiff",
+        "start": 528,
+        "end": 587
+      }
+    ]
+  },
+  "sympy__sympy-17139": {
+    "sympy/simplify/fu.py": []
+  },
+  "sympy__sympy-13773": {
+    "sympy/matrices/common.py": [
+      {
+        "function": "__div__",
+        "qualname": "MatrixArithmetic.__div__",
+        "start": 1971,
+        "end": 1972
+      },
+      {
+        "function": "__radd__",
+        "qualname": "MatrixArithmetic.__radd__",
+        "start": 2066,
+        "end": 2067
+      }
+    ]
+  },
+  "sympy__sympy-16106": {
+    "sympy/printing/mathml.py": [
+      {
+        "function": "_print_Lambda",
+        "qualname": "MathMLPresentationPrinter._print_Lambda",
+        "start": 1257,
+        "end": 1271
+      }
+    ]
+  },
+  "sympy__sympy-13480": {
+    "sympy/functions/elementary/hyperbolic.py": [
+      {
+        "function": "eval",
+        "qualname": "sinh.eval",
+        "start": 98,
+        "end": 144
+      },
+      {
+        "function": "eval",
+        "qualname": "cosh.eval",
+        "start": 258,
+        "end": 301
+      },
+      {
+        "function": "eval",
+        "qualname": "tanh.eval",
+        "start": 416,
+        "end": 466
+      },
+      {
+        "function": "eval",
+        "qualname": "coth.eval",
+        "start": 557,
+        "end": 607
+      },
+      {
+        "function": "eval",
+        "qualname": "ReciprocalHyperbolicFunction.eval",
+        "start": 679,
+        "end": 689
+      },
+      {
+        "function": "eval",
+        "qualname": "asinh.eval",
+        "start": 861,
+        "end": 890
+      },
+      {
+        "function": "eval",
+        "qualname": "acosh.eval",
+        "start": 946,
+        "end": 993
+      },
+      {
+        "function": "eval",
+        "qualname": "atanh.eval",
+        "start": 1051,
+        "end": 1080
+      },
+      {
+        "function": "eval",
+        "qualname": "acoth.eval",
+        "start": 1124,
+        "end": 1153
+      },
+      {
+        "function": "eval",
+        "qualname": "asech.eval",
+        "start": 1231,
+        "end": 1282
+      },
+      {
+        "function": "eval",
+        "qualname": "acsch.eval",
+        "start": 1353,
+        "end": 1394
+      }
+    ]
+  },
+  "sympy__sympy-19007": {
+    "sympy/matrices/expressions/blockmatrix.py": [
+      {
+        "function": "transpose",
+        "qualname": "BlockMatrix.transpose",
+        "start": 212,
+        "end": 233
+      }
+    ]
+  },
+  "sympy__sympy-15011": {
+    "sympy/utilities/lambdify.py": [
+      {
+        "function": "_is_safe_ident",
+        "qualname": "_EvaluatorPrinter._is_safe_ident",
+        "start": 692,
+        "end": 694
+      },
+      {
+        "function": "_is_safe_ident",
+        "qualname": "_EvaluatorPrinter._is_safe_ident",
+        "start": 699,
+        "end": 701
+      },
+      {
+        "function": "_preprocess",
+        "qualname": "_EvaluatorPrinter._preprocess",
+        "start": 704,
+        "end": 744
+      }
+    ]
+  },
+  "sympy__sympy-15345": {
+    "sympy/printing/mathematica.py": [
+      {
+        "function": "_print_Function",
+        "qualname": "MCodePrinter._print_Function",
+        "start": 96,
+        "end": 102
+      }
+    ]
+  },
+  "sympy__sympy-17022": {
+    "sympy/printing/pycode.py": [
+      {
+        "function": "_print_MatrixBase",
+        "qualname": "AbstractPythonCodePrinter._print_MatrixBase",
+        "start": 286,
+        "end": 289
+      },
+      {
+        "function": "_print_MatrixBase",
+        "qualname": "NumPyPrinter._print_MatrixBase",
+        "start": 605,
+        "end": 609
+      }
+    ]
+  },
+  "matplotlib__matplotlib-24149": {
+    "lib/matplotlib/axes/_axes.py": [
+      {
+        "function": "_convert_dx",
+        "qualname": "Axes._convert_dx",
+        "start": 2153,
+        "end": 2202
+      }
+    ]
+  },
+  "sympy__sympy-13971": {
+    "sympy/printing/latex.py": [
+      {
+        "function": "_print_SeqFormula",
+        "qualname": "LatexPrinter._print_SeqFormula",
+        "start": 1647,
+        "end": 1660
+      }
+    ]
+  },
+  "sympy__sympy-17630": {
+    "sympy/matrices/expressions/matexpr.py": []
+  },
+  "sympy__sympy-20212": {
+    "sympy/core/power.py": [
+      {
+        "function": "__new__",
+        "qualname": "Pow.__new__",
+        "start": 270,
+        "end": 337
+      }
+    ]
+  },
+  "sympy__sympy-18835": {
+    "sympy/utilities/iterables.py": [
+      {
+        "function": "has_variety",
+        "qualname": "has_variety",
+        "start": 2066,
+        "end": 2085
+      },
+      {
+        "function": "uniq",
+        "qualname": "uniq",
+        "start": 2088,
+        "end": 2124
+      }
+    ]
+  },
+  "matplotlib__matplotlib-25332": {},
+  "sympy__sympy-17655": {
+    "sympy/geometry/point.py": [
+      {
+        "function": "__mul__",
+        "qualname": "Point.__mul__",
+        "start": 250,
+        "end": 279
+      }
+    ]
+  },
+  "sympy__sympy-16988": {
+    "sympy/sets/sets.py": [
+      {
+        "function": "__new__",
+        "qualname": "ProductSet.__new__",
+        "start": 647,
+        "end": 665
+      },
+      {
+        "function": "__new__",
+        "qualname": "Interval.__new__",
+        "start": 809,
+        "end": 846
+      },
+      {
+        "function": "__new__",
+        "qualname": "Union.__new__",
+        "start": 1065,
+        "end": 1080
+      },
+      {
+        "function": "__new__",
+        "qualname": "Intersection.__new__",
+        "start": 1259,
+        "end": 1274
+      },
+      {
+        "function": "__new__",
+        "qualname": "Complement.__new__",
+        "start": 1414,
+        "end": 1418
+      },
+      {
+        "function": "__new__",
+        "qualname": "FiniteSet.__new__",
+        "start": 1581,
+        "end": 1593
+      },
+      {
+        "function": "__new__",
+        "qualname": "SymmetricDifference.__new__",
+        "start": 1759,
+        "end": 1763
+      }
+    ]
+  },
+  "sympy__sympy-14396": {
+    "sympy/polys/polyoptions.py": [
+      {
+        "function": "preprocess",
+        "qualname": "Option.preprocess",
+        "start": 35,
+        "end": 36
+      },
+      {
+        "function": "preprocess",
+        "qualname": "BooleanOption.preprocess",
+        "start": 53,
+        "end": 57
+      },
+      {
+        "function": "preprocess",
+        "qualname": "Gens.preprocess",
+        "start": 282,
+        "end": 295
+      },
+      {
+        "function": "preprocess",
+        "qualname": "Wrt.preprocess",
+        "start": 309,
+        "end": 322
+      },
+      {
+        "function": "preprocess",
+        "qualname": "Sort.preprocess",
+        "start": 338,
+        "end": 344
+      },
+      {
+        "function": "preprocess",
+        "qualname": "Order.preprocess",
+        "start": 360,
+        "end": 361
+      },
+      {
+        "function": "preprocess",
+        "qualname": "Domain.preprocess",
+        "start": 413,
+        "end": 483
+      },
+      {
+        "function": "preprocess",
+        "qualname": "Extension.preprocess",
+        "start": 537,
+        "end": 551
+      },
+      {
+        "function": "preprocess",
+        "qualname": "Modulus.preprocess",
+        "start": 569,
+        "end": 576
+      },
+      {
+        "function": "preprocess",
+        "qualname": "Gen.preprocess",
+        "start": 678,
+        "end": 682
+      },
+      {
+        "function": "preprocess",
+        "qualname": "Symbols.preprocess",
+        "start": 705,
+        "end": 709
+      },
+      {
+        "function": "preprocess",
+        "qualname": "Method.preprocess",
+        "start": 718,
+        "end": 722
+      }
+    ]
+  },
+  "sympy__sympy-16503": {
+    "sympy/printing/pretty/pretty.py": []
+  },
+  "sympy__sympy-20442": {
+    "sympy/physics/units/util.py": [
+      {
+        "function": "_get_conversion_matrix_for_expr",
+        "qualname": "_get_conversion_matrix_for_expr",
+        "start": 13,
+        "end": 34
+      }
+    ]
+  },
+  "sympy__sympy-18087": {
+    "sympy/core/exprtools.py": [
+      {
+        "function": "__init__",
+        "qualname": "Factors.__init__",
+        "start": 292,
+        "end": 405
+      },
+      {
+        "function": "as_expr",
+        "qualname": "Factors.as_expr",
+        "start": 435,
+        "end": 461
+      },
+      {
+        "function": "__init__",
+        "qualname": "Term.__init__",
+        "start": 822,
+        "end": 856
+      },
+      {
+        "function": "as_expr",
+        "qualname": "Term.as_expr",
+        "start": 864,
+        "end": 865
+      }
+    ]
+  },
+  "sympy__sympy-16281": {
+    "sympy/printing/pretty/pretty.py": [
+      {
+        "function": "_print_Product",
+        "qualname": "PrettyPrinter._print_Product",
+        "start": 473,
+        "end": 526
+      }
+    ]
+  },
+  "sympy__sympy-12481": {
+    "sympy/combinatorics/permutations.py": [
+      {
+        "function": "__new__",
+        "qualname": "Permutation.__new__",
+        "start": 801,
+        "end": 929
+      }
+    ]
+  },
+  "sympy__sympy-18698": {
+    "sympy/polys/polytools.py": [
+      {
+        "function": "_symbolic_factor_list",
+        "qualname": "_symbolic_factor_list",
+        "start": 5898,
+        "end": 5953
+      }
+    ]
+  },
+  "sympy__sympy-13915": {
+    "sympy/core/mul.py": []
+  },
+  "sympy__sympy-14308": {
+    "sympy/printing/pretty/pretty.py": [
+      {
+        "function": "_print_BasisDependent",
+        "qualname": "PrettyPrinter._print_BasisDependent",
+        "start": 889,
+        "end": 964
+      }
+    ]
+  },
+  "matplotlib__matplotlib-23913": {
+    "lib/matplotlib/legend.py": [
+      {
+        "function": "__init__",
+        "qualname": "DraggableLegend.__init__",
+        "start": 54,
+        "end": 74
+      },
+      {
+        "function": "_update_bbox_to_anchor",
+        "qualname": "DraggableLegend._update_bbox_to_anchor",
+        "start": 92,
+        "end": 94
+      },
+      {
+        "function": "__init__",
+        "qualname": "Legend.__init__",
+        "start": 306,
+        "end": 575
+      }
+    ]
+  },
+  "sympy__sympy-20639": {
+    "sympy/printing/pretty/pretty.py": [
+      {
+        "function": "_print_Mul",
+        "qualname": "PrettyPrinter._print_Mul",
+        "start": 1828,
+        "end": 1902
+      },
+      {
+        "function": "_print_nth_root",
+        "qualname": "PrettyPrinter._print_nth_root",
+        "start": 1905,
+        "end": 1948
+      },
+      {
+        "function": "_print_Pow",
+        "qualname": "PrettyPrinter._print_Pow",
+        "start": 1950,
+        "end": 1965
+      }
+    ]
+  },
+  "sympy__sympy-18621": {
+    "sympy/matrices/expressions/blockmatrix.py": [
+      {
+        "function": "blocks",
+        "qualname": "BlockMatrix.blocks",
+        "start": 145,
+        "end": 146
+      },
+      {
+        "function": "blocks",
+        "qualname": "BlockDiagMatrix.blocks",
+        "start": 298,
+        "end": 304
+      }
+    ]
+  },
+  "sympy__sympy-15346": {
+    "sympy/simplify/trigsimp.py": [
+      {
+        "function": "_futrig",
+        "qualname": "_futrig",
+        "start": 1110,
+        "end": 1167
+      }
+    ]
+  },
+  "matplotlib__matplotlib-23987": {
+    "lib/matplotlib/figure.py": [
+      {
+        "function": "__init__",
+        "qualname": "_AxesStack.__init__",
+        "start": 65,
+        "end": 67
+      },
+      {
+        "function": "__init__",
+        "qualname": "SubplotParams.__init__",
+        "start": 98,
+        "end": 127
+      },
+      {
+        "function": "__init__",
+        "qualname": "FigureBase.__init__",
+        "start": 163,
+        "end": 191
+      },
+      {
+        "function": "__init__",
+        "qualname": "SubFigure.__init__",
+        "start": 2086,
+        "end": 2155
+      },
+      {
+        "function": "__init__",
+        "qualname": "Figure.__init__",
+        "start": 2312,
+        "end": 2497
+      }
+    ]
+  },
+  "sympy__sympy-21379": {
+    "sympy/core/mod.py": [
+      {
+        "function": "eval",
+        "qualname": "Mod.eval",
+        "start": 38,
+        "end": 221
+      }
+    ]
+  },
+  "sympy__sympy-13895": {
+    "sympy/core/numbers.py": [
+      {
+        "function": "_eval_power",
+        "qualname": "Float._eval_power",
+        "start": 1213,
+        "end": 1243
+      },
+      {
+        "function": "_eval_power",
+        "qualname": "Rational._eval_power",
+        "start": 1671,
+        "end": 1711
+      },
+      {
+        "function": "_eval_power",
+        "qualname": "Integer._eval_power",
+        "start": 2182,
+        "end": 2289
+      },
+      {
+        "function": "_eval_power",
+        "qualname": "Zero._eval_power",
+        "start": 2500,
+        "end": 2514
+      },
+      {
+        "function": "_eval_power",
+        "qualname": "One._eval_power",
+        "start": 2562,
+        "end": 2563
+      },
+      {
+        "function": "_eval_power",
+        "qualname": "NegativeOne._eval_power",
+        "start": 2615,
+        "end": 2635
+      },
+      {
+        "function": "_eval_power",
+        "qualname": "Infinity._eval_power",
+        "start": 2802,
+        "end": 2839
+      },
+      {
+        "function": "_eval_power",
+        "qualname": "NegativeInfinity._eval_power",
+        "start": 3026,
+        "end": 3060
+      },
+      {
+        "function": "_eval_power",
+        "qualname": "ComplexInfinity._eval_power",
+        "start": 3315,
+        "end": 3326
+      },
+      {
+        "function": "_eval_power",
+        "qualname": "Exp1._eval_power",
+        "start": 3448,
+        "end": 3450
+      },
+      {
+        "function": "_eval_power",
+        "qualname": "ImaginaryUnit._eval_power",
+        "start": 3758,
+        "end": 3781
+      }
+    ]
+  },
+  "sympy__sympy-20154": {
+    "sympy/utilities/iterables.py": [
+      {
+        "function": "partitions",
+        "qualname": "partitions",
+        "start": 1696,
+        "end": 1847
+      }
+    ]
+  },
+  "sympy__sympy-19254": {
+    "sympy/polys/factortools.py": [
+      {
+        "function": "dmp_trial_division",
+        "qualname": "dmp_trial_division",
+        "start": 103,
+        "end": 123
+      }
+    ]
+  },
+  "sympy__sympy-20049": {
+    "sympy/physics/vector/point.py": [
+      {
+        "function": "vel",
+        "qualname": "Point.vel",
+        "start": 499,
+        "end": 524
+      }
+    ]
+  },
+  "sympy__sympy-21612": {
+    "sympy/printing/str.py": []
+  },
+  "sympy__sympy-18532": {
+    "sympy/core/basic.py": [
+      {
+        "function": "atoms",
+        "qualname": "Basic.atoms",
+        "start": 434,
+        "end": 512
+      }
+    ]
+  },
+  "sympy__sympy-18199": {
+    "sympy/ntheory/residue_ntheory.py": [
+      {
+        "function": "_nthroot_mod1",
+        "qualname": "_nthroot_mod1",
+        "start": 700,
+        "end": 743
+      },
+      {
+        "function": "nthroot_mod",
+        "qualname": "nthroot_mod",
+        "start": 746,
+        "end": 807
+      }
+    ]
+  },
+  "sympy__sympy-21627": {
+    "sympy/functions/elementary/complexes.py": [
+      {
+        "function": "eval",
+        "qualname": "re.eval",
+        "start": 67,
+        "end": 105
+      },
+      {
+        "function": "eval",
+        "qualname": "im.eval",
+        "start": 191,
+        "end": 228
+      },
+      {
+        "function": "eval",
+        "qualname": "sign.eval",
+        "start": 334,
+        "end": 381
+      },
+      {
+        "function": "eval",
+        "qualname": "Abs.eval",
+        "start": 529,
+        "end": 621
+      },
+      {
+        "function": "eval",
+        "qualname": "arg.eval",
+        "start": 750,
+        "end": 768
+      },
+      {
+        "function": "eval",
+        "qualname": "conjugate.eval",
+        "start": 827,
+        "end": 830
+      },
+      {
+        "function": "eval",
+        "qualname": "transpose.eval",
+        "start": 898,
+        "end": 901
+      },
+      {
+        "function": "eval",
+        "qualname": "adjoint.eval",
+        "start": 942,
+        "end": 948
+      },
+      {
+        "function": "eval",
+        "qualname": "polar_lift.eval",
+        "start": 1022,
+        "end": 1053
+      },
+      {
+        "function": "eval",
+        "qualname": "periodic_argument.eval",
+        "start": 1127,
+        "end": 1152
+      },
+      {
+        "function": "eval",
+        "qualname": "principal_branch.eval",
+        "start": 1232,
+        "end": 1281
+      }
+    ]
+  },
+  "sympy__sympy-20590": {},
+  "sympy__sympy-21055": {
+    "sympy/assumptions/refine.py": [
+      {
+        "function": "refine_im",
+        "qualname": "refine_im",
+        "start": 278,
+        "end": 298
+      },
+      {
+        "function": "refine_matrixelement",
+        "qualname": "refine_matrixelement",
+        "start": 353,
+        "end": 374
+      }
+    ]
+  },
+  "sympy__sympy-20322": {
+    "sympy/core/mul.py": [
+      {
+        "function": "_eval_is_zero",
+        "qualname": "Mul._eval_is_zero",
+        "start": 1248,
+        "end": 1263
+      }
+    ]
+  },
+  "sympy__sympy-18189": {
+    "sympy/solvers/diophantine.py": [
+      {
+        "function": "diophantine",
+        "qualname": "diophantine",
+        "start": 101,
+        "end": 351
+      }
+    ]
+  },
+  "sympy__sympy-21171": {
+    "sympy/printing/latex.py": [
+      {
+        "function": "_print_DiracDelta",
+        "qualname": "LatexPrinter._print_DiracDelta",
+        "start": 1961,
+        "end": 1969
+      }
+    ]
+  },
+  "sympy__sympy-21614": {
+    "sympy/core/function.py": [
+      {
+        "function": "free_symbols",
+        "qualname": "FunctionClass.free_symbols",
+        "start": 204,
+        "end": 205
+      },
+      {
+        "function": "free_symbols",
+        "qualname": "Derivative.free_symbols",
+        "start": 1703,
+        "end": 1708
+      },
+      {
+        "function": "free_symbols",
+        "qualname": "Lambda.free_symbols",
+        "start": 2057,
+        "end": 2058
+      },
+      {
+        "function": "free_symbols",
+        "qualname": "Subs.free_symbols",
+        "start": 2346,
+        "end": 2348
+      }
+    ]
+  },
+  "sympy__sympy-22005": {
+    "sympy/solvers/polysys.py": []
+  },
+  "sympy__sympy-24152": {
+    "sympy/physics/quantum/tensorproduct.py": [
+      {
+        "function": "_eval_expand_tensorproduct",
+        "qualname": "TensorProduct._eval_expand_tensorproduct",
+        "start": 241,
+        "end": 257
+      }
+    ]
+  },
+  "sympy__sympy-22840": {
+    "sympy/simplify/cse_main.py": [
+      {
+        "function": "tree_cse",
+        "qualname": "tree_cse",
+        "start": 550,
+        "end": 692
+      }
+    ]
+  },
+  "sympy__sympy-19487": {
+    "sympy/functions/elementary/complexes.py": [
+      {
+        "function": "_eval_rewrite_as_Heaviside",
+        "qualname": "sign._eval_rewrite_as_Heaviside",
+        "start": 392,
+        "end": 395
+      },
+      {
+        "function": "_eval_rewrite_as_Heaviside",
+        "qualname": "Abs._eval_rewrite_as_Heaviside",
+        "start": 618,
+        "end": 623
+      }
+    ]
+  },
+  "sympy__sympy-24066": {
+    "sympy/physics/units/unitsystem.py": [
+      {
+        "function": "_collect_factor_and_dimension",
+        "qualname": "UnitSystem._collect_factor_and_dimension",
+        "start": 152,
+        "end": 200
+      }
+    ]
+  },
+  "sympy__sympy-22714": {
+    "sympy/geometry/point.py": [
+      {
+        "function": "__new__",
+        "qualname": "Point.__new__",
+        "start": 109,
+        "end": 179
+      },
+      {
+        "function": "__new__",
+        "qualname": "Point2D.__new__",
+        "start": 912,
+        "end": 916
+      },
+      {
+        "function": "__new__",
+        "qualname": "Point3D.__new__",
+        "start": 1119,
+        "end": 1123
+      }
+    ]
+  },
+  "sympy__sympy-23191": {
+    "sympy/printing/pretty/pretty.py": [
+      {
+        "function": "_print_BasisDependent",
+        "qualname": "PrettyPrinter._print_BasisDependent",
+        "start": 1095,
+        "end": 1193
+      }
+    ]
+  },
+  "sympy__sympy-21847": {
+    "sympy/polys/monomials.py": [
+      {
+        "function": "itermonomials",
+        "qualname": "itermonomials",
+        "start": 15,
+        "end": 152
+      }
+    ]
+  },
+  "sympy__sympy-24102": {
+    "sympy/parsing/mathematica.py": [
+      {
+        "function": "_from_mathematica_to_tokens",
+        "qualname": "MathematicaParser._from_mathematica_to_tokens",
+        "start": 622,
+        "end": 667
+      }
+    ]
+  },
+  "sympy__sympy-24213": {
+    "sympy/physics/units/unitsystem.py": [
+      {
+        "function": "_collect_factor_and_dimension",
+        "qualname": "UnitSystem._collect_factor_and_dimension",
+        "start": 152,
+        "end": 199
+      }
+    ]
+  },
+  "sympy__sympy-24909": {
+    "sympy/physics/units/prefixes.py": [
+      {
+        "function": "__mul__",
+        "qualname": "Prefix.__mul__",
+        "start": 81,
+        "end": 97
+      },
+      {
+        "function": "__truediv__",
+        "qualname": "Prefix.__truediv__",
+        "start": 99,
+        "end": 113
+      }
+    ]
+  },
+  "sympy__sympy-23117": {
+    "sympy/tensor/array/ndim_array.py": [
+      {
+        "function": "__new__",
+        "qualname": "ArrayKind.__new__",
+        "start": 68,
+        "end": 71
+      },
+      {
+        "function": "__new__",
+        "qualname": "NDimArray.__new__",
+        "start": 142,
+        "end": 144
+      },
+      {
+        "function": "_check_special_bounds",
+        "qualname": "NDimArray._check_special_bounds",
+        "start": 562,
+        "end": 566
+      }
+    ]
+  },
+  "sympy__sympy-23262": {
+    "sympy/utilities/lambdify.py": [
+      {
+        "function": "_recursive_to_string",
+        "qualname": "_recursive_to_string",
+        "start": 948,
+        "end": 968
+      }
+    ]
+  }
+}
