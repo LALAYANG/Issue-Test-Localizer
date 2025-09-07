@@ -1,0 +1,79 @@
+{
+  "regression": {
+    "all_patches/lite_claude_all_unique_patches/pytest-dev__pytest-5413/dedup_patch_0.jsonl": {
+      "pytest-dev__pytest-5413": {
+        "test_excinfo.py::test_match_succeeds": false,
+        "test_excinfo.py::test_excinfo_for_later": false,
+        "test_excinfo.py::test_excinfo_repr": false,
+        "test_excinfo.py::test_excinfo_str": false,
+        "test_excinfo.py::test_match_raises_error": false,
+        "test_excinfo.py::test_no_recursion_index_on_recursion_error": false,
+        "test_excinfo.py::TestTraceback_f_g_h::test_traceback_no_recursion_index": false,
+        "test_collection.py::test_collector_respects_tbstyle": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/pytest-dev__pytest-5413/dedup_patch_1.jsonl": {
+      "pytest-dev__pytest-5413": {
+        "test_excinfo.py::test_match_succeeds": false,
+        "test_excinfo.py::test_excinfo_for_later": false,
+        "test_excinfo.py::test_excinfo_repr": false,
+        "test_excinfo.py::test_excinfo_str": false,
+        "test_excinfo.py::test_match_raises_error": false,
+        "test_excinfo.py::test_no_recursion_index_on_recursion_error": false,
+        "test_excinfo.py::TestTraceback_f_g_h::test_traceback_no_recursion_index": false,
+        "test_collection.py::test_collector_respects_tbstyle": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/pytest-dev__pytest-5413/dedup_patch_2.jsonl": {
+      "pytest-dev__pytest-5413": {
+        "test_excinfo.py::test_match_succeeds": false,
+        "test_excinfo.py::test_excinfo_for_later": false,
+        "test_excinfo.py::test_excinfo_repr": false,
+        "test_excinfo.py::test_excinfo_str": false,
+        "test_excinfo.py::test_match_raises_error": false,
+        "test_excinfo.py::test_no_recursion_index_on_recursion_error": false,
+        "test_excinfo.py::TestTraceback_f_g_h::test_traceback_no_recursion_index": false,
+        "test_collection.py::test_collector_respects_tbstyle": false
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "pytest-dev__pytest-5413": {
+        "testing/python/raises.py::TestRaises::test_str_on_raises_context_variable#1": true,
+        "testing/python/raises.py::TestRaises::test_raises_str_representation#2": false,
+        "testing/python/raises.py::TestRaises::test_str_on_raises_context_shows_full_message#3": true,
+        "testing/python/raises.py::TestRaises::test_raises_str_multiline#4": true,
+        "testing/python/raises.py::TestRaises::test_str_on_raises_context_variable#5": true,
+        "testing/python/raises.py::TestRaises::test_str_on_raises_context_variable#6": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/pytest-dev__pytest-5413/dedup_patch_0.jsonl": {
+      "pytest-dev__pytest-5413": {
+        "testing/python/raises.py::TestRaises::test_str_on_raises_context_variable#1": true,
+        "testing/python/raises.py::TestRaises::test_str_on_raises_context_shows_full_message#3": true,
+        "testing/python/raises.py::TestRaises::test_raises_str_multiline#4": true,
+        "testing/python/raises.py::TestRaises::test_str_on_raises_context_variable#5": true,
+        "testing/python/raises.py::TestRaises::test_str_on_raises_context_variable#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/pytest-dev__pytest-5413/dedup_patch_1.jsonl": {
+      "pytest-dev__pytest-5413": {
+        "testing/python/raises.py::TestRaises::test_str_on_raises_context_variable#1": false,
+        "testing/python/raises.py::TestRaises::test_str_on_raises_context_shows_full_message#3": false,
+        "testing/python/raises.py::TestRaises::test_raises_str_multiline#4": true,
+        "testing/python/raises.py::TestRaises::test_str_on_raises_context_variable#5": false,
+        "testing/python/raises.py::TestRaises::test_str_on_raises_context_variable#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/pytest-dev__pytest-5413/dedup_patch_2.jsonl": {
+      "pytest-dev__pytest-5413": {
+        "testing/python/raises.py::TestRaises::test_str_on_raises_context_variable#1": true,
+        "testing/python/raises.py::TestRaises::test_str_on_raises_context_shows_full_message#3": true,
+        "testing/python/raises.py::TestRaises::test_raises_str_multiline#4": true,
+        "testing/python/raises.py::TestRaises::test_str_on_raises_context_variable#5": true,
+        "testing/python/raises.py::TestRaises::test_str_on_raises_context_variable#6": false
+      }
+    }
+  }
+}

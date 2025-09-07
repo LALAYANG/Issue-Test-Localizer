@@ -1,0 +1,51 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/scikit-learn__scikit-learn-10297/dedup_patch_0.jsonl": {
+      "scikit-learn__scikit-learn-10297": {
+        "sklearn/linear_model/tests/test_ridge.py::test_ridgecv_store_cv_values": true,
+        "sklearn/linear_model/tests/test_ridge.py::test_class_weights_cv": true,
+        "sklearn/linear_model/tests/test_ridge.py::test_ridgecv_sample_weight": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/scikit-learn__scikit-learn-10297/dedup_patch_1.jsonl": {
+      "scikit-learn__scikit-learn-10297": {
+        "sklearn/linear_model/tests/test_ridge.py::test_ridgecv_store_cv_values": true,
+        "sklearn/linear_model/tests/test_ridge.py::test_class_weights_cv": true,
+        "sklearn/linear_model/tests/test_ridge.py::test_ridgecv_sample_weight": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/scikit-learn__scikit-learn-10297/dedup_patch_2.jsonl": {
+      "scikit-learn__scikit-learn-10297": {
+        "sklearn/linear_model/tests/test_ridge.py::test_ridgecv_store_cv_values": true,
+        "sklearn/linear_model/tests/test_ridge.py::test_class_weights_cv": true,
+        "sklearn/linear_model/tests/test_ridge.py::test_ridgecv_sample_weight": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/scikit-learn__scikit-learn-10297/dedup_patch_3.jsonl": {
+      "scikit-learn__scikit-learn-10297": {
+        "sklearn/linear_model/tests/test_ridge.py::test_ridgecv_store_cv_values": true,
+        "sklearn/linear_model/tests/test_ridge.py::test_class_weights_cv": true,
+        "sklearn/linear_model/tests/test_ridge.py::test_ridgecv_sample_weight": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/scikit-learn__scikit-learn-10297/dedup_patch_4.jsonl": {
+      "scikit-learn__scikit-learn-10297": {
+        "sklearn/linear_model/tests/test_ridge.py::test_ridgecv_store_cv_values": true,
+        "sklearn/linear_model/tests/test_ridge.py::test_class_weights_cv": true,
+        "sklearn/linear_model/tests/test_ridge.py::test_ridgecv_sample_weight": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "scikit-learn__scikit-learn-10297": {
+        "sklearn/linear_model/tests/test_ridge.py::test_ridgecv_store_cv_values#1": false,
+        "sklearn/linear_model/tests/test_ridge.py::test_ridgecv_store_cv_values#2": false,
+        "sklearn/linear_model/tests/test_ridge.py::test_ridgecv_store_cv_values#3": false,
+        "sklearn/linear_model/tests/test_ridge.py::test_ridgecv_store_cv_values#4": false,
+        "sklearn/linear_model/tests/test_ridge.py::test_ridge_classifier_no_support_multilabel#5": false,
+        "sklearn/linear_model/tests/test_ridge.py::test_ridge_classifier_no_support_multilabel#6": false
+      }
+    }
+  }
+}

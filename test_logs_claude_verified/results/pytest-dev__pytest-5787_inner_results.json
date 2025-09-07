@@ -1,0 +1,555 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/pytest-dev__pytest-5787/dedup_patch_0.jsonl": {
+      "pytest-dev__pytest-5787": {
+        "test_reports.py::TestReportSerialization::test_extended_report_deserialization": false,
+        "test_junitxml.py::TestPython::test_summing_simple_with_errors": false,
+        "test_junitxml.py::TestPython::test_setup_error_captures_stdout": false,
+        "test_runner.py::BaseFunctionalTests::test_failure_in_teardown_function": false,
+        "test_reports.py::TestHooks::test_invalid_report_types": false,
+        "test_runner.py::test_unicode_in_longrepr": false,
+        "test_reports.py::TestReportSerialization::test_reprentries_serialization_170": false,
+        "test_runner.py::test_report_extra_parameters": false,
+        "test_reports.py::TestReportSerialization::test_collectreport_fail": false,
+        "test_terminal.py::test_skip_counting_towards_summary": false,
+        "test_junitxml.py::test_unicode_issue368": false,
+        "test_reports.py::TestReportSerialization::test_reprentries_serialization_196": false,
+        "test_reports.py::TestHooks::test_test_report": false,
+        "test_junitxml.py::TestPython::test_setup_error_captures_stderr": false,
+        "test_reports.py::TestHooks::test_collect_report": false,
+        "test_reports.py::TestReportSerialization::test_xdist_report_longrepr_reprcrash_130": false,
+        "test_reports.py::TestReportSerialization::test_paths_support": false,
+        "test_reports.py::TestReportSerialization::test_unserialization_failure": false,
+        "test_terminal.py::test_pass_output_reporting": false,
+        "test_reports.py::TestReportSerialization::test_itemreport_outcomes": false,
+        "test_junitxml.py::TestPython::test_avoid_double_stdout": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pytest-dev__pytest-5787/dedup_patch_1.jsonl": {
+      "pytest-dev__pytest-5787": {
+        "test_reports.py::TestReportSerialization::test_extended_report_deserialization": false,
+        "test_junitxml.py::TestPython::test_summing_simple_with_errors": false,
+        "test_junitxml.py::TestPython::test_setup_error_captures_stdout": false,
+        "test_runner.py::BaseFunctionalTests::test_failure_in_teardown_function": false,
+        "test_reports.py::TestHooks::test_invalid_report_types": false,
+        "test_runner.py::test_unicode_in_longrepr": false,
+        "test_reports.py::TestReportSerialization::test_reprentries_serialization_170": false,
+        "test_runner.py::test_report_extra_parameters": false,
+        "test_reports.py::TestReportSerialization::test_collectreport_fail": false,
+        "test_terminal.py::test_skip_counting_towards_summary": false,
+        "test_junitxml.py::test_unicode_issue368": false,
+        "test_reports.py::TestReportSerialization::test_reprentries_serialization_196": false,
+        "test_reports.py::TestHooks::test_test_report": false,
+        "test_junitxml.py::TestPython::test_setup_error_captures_stderr": false,
+        "test_reports.py::TestHooks::test_collect_report": false,
+        "test_reports.py::TestReportSerialization::test_xdist_report_longrepr_reprcrash_130": false,
+        "test_reports.py::TestReportSerialization::test_paths_support": false,
+        "test_reports.py::TestReportSerialization::test_unserialization_failure": false,
+        "test_terminal.py::test_pass_output_reporting": false,
+        "test_reports.py::TestReportSerialization::test_itemreport_outcomes": false,
+        "test_junitxml.py::TestPython::test_avoid_double_stdout": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pytest-dev__pytest-5787/dedup_patch_10.jsonl": {
+      "pytest-dev__pytest-5787": {
+        "test_reports.py::TestReportSerialization::test_extended_report_deserialization": false,
+        "test_junitxml.py::TestPython::test_summing_simple_with_errors": false,
+        "test_junitxml.py::TestPython::test_setup_error_captures_stdout": false,
+        "test_runner.py::BaseFunctionalTests::test_failure_in_teardown_function": false,
+        "test_reports.py::TestHooks::test_invalid_report_types": false,
+        "test_runner.py::test_unicode_in_longrepr": false,
+        "test_reports.py::TestReportSerialization::test_reprentries_serialization_170": false,
+        "test_runner.py::test_report_extra_parameters": false,
+        "test_reports.py::TestReportSerialization::test_collectreport_fail": false,
+        "test_terminal.py::test_skip_counting_towards_summary": false,
+        "test_junitxml.py::test_unicode_issue368": false,
+        "test_reports.py::TestReportSerialization::test_reprentries_serialization_196": false,
+        "test_reports.py::TestHooks::test_test_report": false,
+        "test_junitxml.py::TestPython::test_setup_error_captures_stderr": false,
+        "test_reports.py::TestHooks::test_collect_report": false,
+        "test_reports.py::TestReportSerialization::test_xdist_report_longrepr_reprcrash_130": false,
+        "test_reports.py::TestReportSerialization::test_paths_support": false,
+        "test_reports.py::TestReportSerialization::test_unserialization_failure": false,
+        "test_terminal.py::test_pass_output_reporting": false,
+        "test_reports.py::TestReportSerialization::test_itemreport_outcomes": false,
+        "test_junitxml.py::TestPython::test_avoid_double_stdout": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pytest-dev__pytest-5787/dedup_patch_11.jsonl": {
+      "pytest-dev__pytest-5787": {
+        "test_reports.py::TestReportSerialization::test_extended_report_deserialization": false,
+        "test_junitxml.py::TestPython::test_summing_simple_with_errors": false,
+        "test_junitxml.py::TestPython::test_setup_error_captures_stdout": false,
+        "test_runner.py::BaseFunctionalTests::test_failure_in_teardown_function": false,
+        "test_reports.py::TestHooks::test_invalid_report_types": false,
+        "test_runner.py::test_unicode_in_longrepr": false,
+        "test_reports.py::TestReportSerialization::test_reprentries_serialization_170": false,
+        "test_runner.py::test_report_extra_parameters": false,
+        "test_reports.py::TestReportSerialization::test_collectreport_fail": false,
+        "test_terminal.py::test_skip_counting_towards_summary": false,
+        "test_junitxml.py::test_unicode_issue368": false,
+        "test_reports.py::TestReportSerialization::test_reprentries_serialization_196": false,
+        "test_reports.py::TestHooks::test_test_report": false,
+        "test_junitxml.py::TestPython::test_setup_error_captures_stderr": false,
+        "test_reports.py::TestHooks::test_collect_report": false,
+        "test_reports.py::TestReportSerialization::test_xdist_report_longrepr_reprcrash_130": false,
+        "test_reports.py::TestReportSerialization::test_paths_support": false,
+        "test_reports.py::TestReportSerialization::test_unserialization_failure": false,
+        "test_terminal.py::test_pass_output_reporting": false,
+        "test_reports.py::TestReportSerialization::test_itemreport_outcomes": false,
+        "test_junitxml.py::TestPython::test_avoid_double_stdout": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pytest-dev__pytest-5787/dedup_patch_12.jsonl": {
+      "pytest-dev__pytest-5787": {
+        "test_reports.py::TestReportSerialization::test_extended_report_deserialization": false,
+        "test_junitxml.py::TestPython::test_summing_simple_with_errors": false,
+        "test_junitxml.py::TestPython::test_setup_error_captures_stdout": false,
+        "test_runner.py::BaseFunctionalTests::test_failure_in_teardown_function": false,
+        "test_reports.py::TestHooks::test_invalid_report_types": false,
+        "test_runner.py::test_unicode_in_longrepr": false,
+        "test_reports.py::TestReportSerialization::test_reprentries_serialization_170": false,
+        "test_runner.py::test_report_extra_parameters": false,
+        "test_reports.py::TestReportSerialization::test_collectreport_fail": false,
+        "test_terminal.py::test_skip_counting_towards_summary": false,
+        "test_junitxml.py::test_unicode_issue368": false,
+        "test_reports.py::TestReportSerialization::test_reprentries_serialization_196": false,
+        "test_reports.py::TestHooks::test_test_report": false,
+        "test_junitxml.py::TestPython::test_setup_error_captures_stderr": false,
+        "test_reports.py::TestHooks::test_collect_report": false,
+        "test_reports.py::TestReportSerialization::test_xdist_report_longrepr_reprcrash_130": false,
+        "test_reports.py::TestReportSerialization::test_paths_support": false,
+        "test_reports.py::TestReportSerialization::test_unserialization_failure": false,
+        "test_terminal.py::test_pass_output_reporting": false,
+        "test_reports.py::TestReportSerialization::test_itemreport_outcomes": false,
+        "test_junitxml.py::TestPython::test_avoid_double_stdout": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pytest-dev__pytest-5787/dedup_patch_13.jsonl": {
+      "pytest-dev__pytest-5787": {
+        "test_reports.py::TestReportSerialization::test_extended_report_deserialization": false,
+        "test_junitxml.py::TestPython::test_summing_simple_with_errors": false,
+        "test_junitxml.py::TestPython::test_setup_error_captures_stdout": false,
+        "test_runner.py::BaseFunctionalTests::test_failure_in_teardown_function": false,
+        "test_reports.py::TestHooks::test_invalid_report_types": false,
+        "test_runner.py::test_unicode_in_longrepr": false,
+        "test_reports.py::TestReportSerialization::test_reprentries_serialization_170": false,
+        "test_runner.py::test_report_extra_parameters": false,
+        "test_reports.py::TestReportSerialization::test_collectreport_fail": false,
+        "test_terminal.py::test_skip_counting_towards_summary": false,
+        "test_junitxml.py::test_unicode_issue368": false,
+        "test_reports.py::TestReportSerialization::test_reprentries_serialization_196": false,
+        "test_reports.py::TestHooks::test_test_report": false,
+        "test_junitxml.py::TestPython::test_setup_error_captures_stderr": false,
+        "test_reports.py::TestHooks::test_collect_report": false,
+        "test_reports.py::TestReportSerialization::test_xdist_report_longrepr_reprcrash_130": false,
+        "test_reports.py::TestReportSerialization::test_paths_support": false,
+        "test_reports.py::TestReportSerialization::test_unserialization_failure": false,
+        "test_terminal.py::test_pass_output_reporting": false,
+        "test_reports.py::TestReportSerialization::test_itemreport_outcomes": false,
+        "test_junitxml.py::TestPython::test_avoid_double_stdout": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pytest-dev__pytest-5787/dedup_patch_14.jsonl": {
+      "pytest-dev__pytest-5787": {
+        "test_reports.py::TestReportSerialization::test_extended_report_deserialization": false,
+        "test_junitxml.py::TestPython::test_summing_simple_with_errors": false,
+        "test_junitxml.py::TestPython::test_setup_error_captures_stdout": false,
+        "test_runner.py::BaseFunctionalTests::test_failure_in_teardown_function": false,
+        "test_reports.py::TestHooks::test_invalid_report_types": false,
+        "test_runner.py::test_unicode_in_longrepr": false,
+        "test_reports.py::TestReportSerialization::test_reprentries_serialization_170": false,
+        "test_runner.py::test_report_extra_parameters": false,
+        "test_reports.py::TestReportSerialization::test_collectreport_fail": false,
+        "test_terminal.py::test_skip_counting_towards_summary": false,
+        "test_junitxml.py::test_unicode_issue368": false,
+        "test_reports.py::TestReportSerialization::test_reprentries_serialization_196": false,
+        "test_reports.py::TestHooks::test_test_report": false,
+        "test_junitxml.py::TestPython::test_setup_error_captures_stderr": false,
+        "test_reports.py::TestHooks::test_collect_report": false,
+        "test_reports.py::TestReportSerialization::test_xdist_report_longrepr_reprcrash_130": false,
+        "test_reports.py::TestReportSerialization::test_paths_support": false,
+        "test_reports.py::TestReportSerialization::test_unserialization_failure": false,
+        "test_terminal.py::test_pass_output_reporting": false,
+        "test_reports.py::TestReportSerialization::test_itemreport_outcomes": false,
+        "test_junitxml.py::TestPython::test_avoid_double_stdout": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pytest-dev__pytest-5787/dedup_patch_15.jsonl": {
+      "pytest-dev__pytest-5787": {
+        "test_reports.py::TestReportSerialization::test_extended_report_deserialization": false,
+        "test_junitxml.py::TestPython::test_summing_simple_with_errors": false,
+        "test_junitxml.py::TestPython::test_setup_error_captures_stdout": false,
+        "test_runner.py::BaseFunctionalTests::test_failure_in_teardown_function": false,
+        "test_reports.py::TestHooks::test_invalid_report_types": false,
+        "test_runner.py::test_unicode_in_longrepr": false,
+        "test_reports.py::TestReportSerialization::test_reprentries_serialization_170": false,
+        "test_runner.py::test_report_extra_parameters": false,
+        "test_reports.py::TestReportSerialization::test_collectreport_fail": false,
+        "test_terminal.py::test_skip_counting_towards_summary": false,
+        "test_junitxml.py::test_unicode_issue368": false,
+        "test_reports.py::TestReportSerialization::test_reprentries_serialization_196": false,
+        "test_reports.py::TestHooks::test_test_report": false,
+        "test_junitxml.py::TestPython::test_setup_error_captures_stderr": false,
+        "test_reports.py::TestHooks::test_collect_report": false,
+        "test_reports.py::TestReportSerialization::test_xdist_report_longrepr_reprcrash_130": false,
+        "test_reports.py::TestReportSerialization::test_paths_support": false,
+        "test_reports.py::TestReportSerialization::test_unserialization_failure": false,
+        "test_terminal.py::test_pass_output_reporting": false,
+        "test_reports.py::TestReportSerialization::test_itemreport_outcomes": false,
+        "test_junitxml.py::TestPython::test_avoid_double_stdout": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pytest-dev__pytest-5787/dedup_patch_16.jsonl": {
+      "pytest-dev__pytest-5787": {
+        "test_reports.py::TestReportSerialization::test_extended_report_deserialization": false,
+        "test_junitxml.py::TestPython::test_summing_simple_with_errors": false,
+        "test_junitxml.py::TestPython::test_setup_error_captures_stdout": false,
+        "test_runner.py::BaseFunctionalTests::test_failure_in_teardown_function": false,
+        "test_reports.py::TestHooks::test_invalid_report_types": false,
+        "test_runner.py::test_unicode_in_longrepr": false,
+        "test_reports.py::TestReportSerialization::test_reprentries_serialization_170": false,
+        "test_runner.py::test_report_extra_parameters": false,
+        "test_reports.py::TestReportSerialization::test_collectreport_fail": false,
+        "test_terminal.py::test_skip_counting_towards_summary": false,
+        "test_junitxml.py::test_unicode_issue368": false,
+        "test_reports.py::TestReportSerialization::test_reprentries_serialization_196": false,
+        "test_reports.py::TestHooks::test_test_report": false,
+        "test_junitxml.py::TestPython::test_setup_error_captures_stderr": false,
+        "test_reports.py::TestHooks::test_collect_report": false,
+        "test_reports.py::TestReportSerialization::test_xdist_report_longrepr_reprcrash_130": false,
+        "test_reports.py::TestReportSerialization::test_paths_support": false,
+        "test_reports.py::TestReportSerialization::test_unserialization_failure": false,
+        "test_terminal.py::test_pass_output_reporting": false,
+        "test_reports.py::TestReportSerialization::test_itemreport_outcomes": false,
+        "test_junitxml.py::TestPython::test_avoid_double_stdout": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pytest-dev__pytest-5787/dedup_patch_17.jsonl": {
+      "pytest-dev__pytest-5787": {
+        "test_reports.py::TestReportSerialization::test_extended_report_deserialization": false,
+        "test_junitxml.py::TestPython::test_summing_simple_with_errors": false,
+        "test_junitxml.py::TestPython::test_setup_error_captures_stdout": false,
+        "test_runner.py::BaseFunctionalTests::test_failure_in_teardown_function": false,
+        "test_reports.py::TestHooks::test_invalid_report_types": false,
+        "test_runner.py::test_unicode_in_longrepr": false,
+        "test_reports.py::TestReportSerialization::test_reprentries_serialization_170": false,
+        "test_runner.py::test_report_extra_parameters": false,
+        "test_reports.py::TestReportSerialization::test_collectreport_fail": false,
+        "test_terminal.py::test_skip_counting_towards_summary": false,
+        "test_junitxml.py::test_unicode_issue368": false,
+        "test_reports.py::TestReportSerialization::test_reprentries_serialization_196": false,
+        "test_reports.py::TestHooks::test_test_report": false,
+        "test_junitxml.py::TestPython::test_setup_error_captures_stderr": false,
+        "test_reports.py::TestHooks::test_collect_report": false,
+        "test_reports.py::TestReportSerialization::test_xdist_report_longrepr_reprcrash_130": false,
+        "test_reports.py::TestReportSerialization::test_paths_support": false,
+        "test_reports.py::TestReportSerialization::test_unserialization_failure": false,
+        "test_terminal.py::test_pass_output_reporting": false,
+        "test_reports.py::TestReportSerialization::test_itemreport_outcomes": false,
+        "test_junitxml.py::TestPython::test_avoid_double_stdout": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pytest-dev__pytest-5787/dedup_patch_2.jsonl": {
+      "pytest-dev__pytest-5787": {
+        "test_reports.py::TestReportSerialization::test_extended_report_deserialization": false,
+        "test_junitxml.py::TestPython::test_summing_simple_with_errors": false,
+        "test_junitxml.py::TestPython::test_setup_error_captures_stdout": false,
+        "test_runner.py::BaseFunctionalTests::test_failure_in_teardown_function": false,
+        "test_reports.py::TestHooks::test_invalid_report_types": false,
+        "test_runner.py::test_unicode_in_longrepr": false,
+        "test_reports.py::TestReportSerialization::test_reprentries_serialization_170": false,
+        "test_runner.py::test_report_extra_parameters": false,
+        "test_reports.py::TestReportSerialization::test_collectreport_fail": false,
+        "test_terminal.py::test_skip_counting_towards_summary": false,
+        "test_junitxml.py::test_unicode_issue368": false,
+        "test_reports.py::TestReportSerialization::test_reprentries_serialization_196": false,
+        "test_reports.py::TestHooks::test_test_report": false,
+        "test_junitxml.py::TestPython::test_setup_error_captures_stderr": false,
+        "test_reports.py::TestHooks::test_collect_report": false,
+        "test_reports.py::TestReportSerialization::test_xdist_report_longrepr_reprcrash_130": false,
+        "test_reports.py::TestReportSerialization::test_paths_support": false,
+        "test_reports.py::TestReportSerialization::test_unserialization_failure": false,
+        "test_terminal.py::test_pass_output_reporting": false,
+        "test_reports.py::TestReportSerialization::test_itemreport_outcomes": false,
+        "test_junitxml.py::TestPython::test_avoid_double_stdout": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pytest-dev__pytest-5787/dedup_patch_3.jsonl": {
+      "pytest-dev__pytest-5787": {
+        "test_reports.py::TestReportSerialization::test_extended_report_deserialization": false,
+        "test_junitxml.py::TestPython::test_summing_simple_with_errors": false,
+        "test_junitxml.py::TestPython::test_setup_error_captures_stdout": false,
+        "test_runner.py::BaseFunctionalTests::test_failure_in_teardown_function": false,
+        "test_reports.py::TestHooks::test_invalid_report_types": false,
+        "test_runner.py::test_unicode_in_longrepr": false,
+        "test_reports.py::TestReportSerialization::test_reprentries_serialization_170": false,
+        "test_runner.py::test_report_extra_parameters": false,
+        "test_reports.py::TestReportSerialization::test_collectreport_fail": false,
+        "test_terminal.py::test_skip_counting_towards_summary": false,
+        "test_junitxml.py::test_unicode_issue368": false,
+        "test_reports.py::TestReportSerialization::test_reprentries_serialization_196": false,
+        "test_reports.py::TestHooks::test_test_report": false,
+        "test_junitxml.py::TestPython::test_setup_error_captures_stderr": false,
+        "test_reports.py::TestHooks::test_collect_report": false,
+        "test_reports.py::TestReportSerialization::test_xdist_report_longrepr_reprcrash_130": false,
+        "test_reports.py::TestReportSerialization::test_paths_support": false,
+        "test_reports.py::TestReportSerialization::test_unserialization_failure": false,
+        "test_terminal.py::test_pass_output_reporting": false,
+        "test_reports.py::TestReportSerialization::test_itemreport_outcomes": false,
+        "test_junitxml.py::TestPython::test_avoid_double_stdout": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pytest-dev__pytest-5787/dedup_patch_4.jsonl": {
+      "pytest-dev__pytest-5787": {
+        "test_reports.py::TestReportSerialization::test_extended_report_deserialization": false,
+        "test_junitxml.py::TestPython::test_summing_simple_with_errors": false,
+        "test_junitxml.py::TestPython::test_setup_error_captures_stdout": false,
+        "test_runner.py::BaseFunctionalTests::test_failure_in_teardown_function": false,
+        "test_reports.py::TestHooks::test_invalid_report_types": false,
+        "test_runner.py::test_unicode_in_longrepr": false,
+        "test_reports.py::TestReportSerialization::test_reprentries_serialization_170": false,
+        "test_runner.py::test_report_extra_parameters": false,
+        "test_reports.py::TestReportSerialization::test_collectreport_fail": false,
+        "test_terminal.py::test_skip_counting_towards_summary": false,
+        "test_junitxml.py::test_unicode_issue368": false,
+        "test_reports.py::TestReportSerialization::test_reprentries_serialization_196": false,
+        "test_reports.py::TestHooks::test_test_report": false,
+        "test_junitxml.py::TestPython::test_setup_error_captures_stderr": false,
+        "test_reports.py::TestHooks::test_collect_report": false,
+        "test_reports.py::TestReportSerialization::test_xdist_report_longrepr_reprcrash_130": false,
+        "test_reports.py::TestReportSerialization::test_paths_support": false,
+        "test_reports.py::TestReportSerialization::test_unserialization_failure": false,
+        "test_terminal.py::test_pass_output_reporting": false,
+        "test_reports.py::TestReportSerialization::test_itemreport_outcomes": false,
+        "test_junitxml.py::TestPython::test_avoid_double_stdout": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pytest-dev__pytest-5787/dedup_patch_5.jsonl": {
+      "pytest-dev__pytest-5787": {
+        "test_reports.py::TestReportSerialization::test_extended_report_deserialization": false,
+        "test_junitxml.py::TestPython::test_summing_simple_with_errors": false,
+        "test_junitxml.py::TestPython::test_setup_error_captures_stdout": false,
+        "test_runner.py::BaseFunctionalTests::test_failure_in_teardown_function": false,
+        "test_reports.py::TestHooks::test_invalid_report_types": false,
+        "test_runner.py::test_unicode_in_longrepr": false,
+        "test_reports.py::TestReportSerialization::test_reprentries_serialization_170": false,
+        "test_runner.py::test_report_extra_parameters": false,
+        "test_reports.py::TestReportSerialization::test_collectreport_fail": false,
+        "test_terminal.py::test_skip_counting_towards_summary": false,
+        "test_junitxml.py::test_unicode_issue368": false,
+        "test_reports.py::TestReportSerialization::test_reprentries_serialization_196": false,
+        "test_reports.py::TestHooks::test_test_report": false,
+        "test_junitxml.py::TestPython::test_setup_error_captures_stderr": false,
+        "test_reports.py::TestHooks::test_collect_report": false,
+        "test_reports.py::TestReportSerialization::test_xdist_report_longrepr_reprcrash_130": false,
+        "test_reports.py::TestReportSerialization::test_paths_support": false,
+        "test_reports.py::TestReportSerialization::test_unserialization_failure": false,
+        "test_terminal.py::test_pass_output_reporting": false,
+        "test_reports.py::TestReportSerialization::test_itemreport_outcomes": false,
+        "test_junitxml.py::TestPython::test_avoid_double_stdout": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pytest-dev__pytest-5787/dedup_patch_6.jsonl": {
+      "pytest-dev__pytest-5787": {
+        "test_reports.py::TestReportSerialization::test_extended_report_deserialization": false,
+        "test_junitxml.py::TestPython::test_summing_simple_with_errors": false,
+        "test_junitxml.py::TestPython::test_setup_error_captures_stdout": false,
+        "test_runner.py::BaseFunctionalTests::test_failure_in_teardown_function": false,
+        "test_reports.py::TestHooks::test_invalid_report_types": false,
+        "test_runner.py::test_unicode_in_longrepr": false,
+        "test_reports.py::TestReportSerialization::test_reprentries_serialization_170": false,
+        "test_runner.py::test_report_extra_parameters": false,
+        "test_reports.py::TestReportSerialization::test_collectreport_fail": false,
+        "test_terminal.py::test_skip_counting_towards_summary": false,
+        "test_junitxml.py::test_unicode_issue368": false,
+        "test_reports.py::TestReportSerialization::test_reprentries_serialization_196": false,
+        "test_reports.py::TestHooks::test_test_report": false,
+        "test_junitxml.py::TestPython::test_setup_error_captures_stderr": false,
+        "test_reports.py::TestHooks::test_collect_report": false,
+        "test_reports.py::TestReportSerialization::test_xdist_report_longrepr_reprcrash_130": false,
+        "test_reports.py::TestReportSerialization::test_paths_support": false,
+        "test_reports.py::TestReportSerialization::test_unserialization_failure": false,
+        "test_terminal.py::test_pass_output_reporting": false,
+        "test_reports.py::TestReportSerialization::test_itemreport_outcomes": false,
+        "test_junitxml.py::TestPython::test_avoid_double_stdout": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pytest-dev__pytest-5787/dedup_patch_7.jsonl": {
+      "pytest-dev__pytest-5787": {
+        "test_reports.py::TestReportSerialization::test_extended_report_deserialization": false,
+        "test_junitxml.py::TestPython::test_summing_simple_with_errors": false,
+        "test_junitxml.py::TestPython::test_setup_error_captures_stdout": false,
+        "test_runner.py::BaseFunctionalTests::test_failure_in_teardown_function": false,
+        "test_reports.py::TestHooks::test_invalid_report_types": false,
+        "test_runner.py::test_unicode_in_longrepr": false,
+        "test_reports.py::TestReportSerialization::test_reprentries_serialization_170": false,
+        "test_runner.py::test_report_extra_parameters": false,
+        "test_reports.py::TestReportSerialization::test_collectreport_fail": false,
+        "test_terminal.py::test_skip_counting_towards_summary": false,
+        "test_junitxml.py::test_unicode_issue368": false,
+        "test_reports.py::TestReportSerialization::test_reprentries_serialization_196": false,
+        "test_reports.py::TestHooks::test_test_report": false,
+        "test_junitxml.py::TestPython::test_setup_error_captures_stderr": false,
+        "test_reports.py::TestHooks::test_collect_report": false,
+        "test_reports.py::TestReportSerialization::test_xdist_report_longrepr_reprcrash_130": false,
+        "test_reports.py::TestReportSerialization::test_paths_support": false,
+        "test_reports.py::TestReportSerialization::test_unserialization_failure": false,
+        "test_terminal.py::test_pass_output_reporting": false,
+        "test_reports.py::TestReportSerialization::test_itemreport_outcomes": false,
+        "test_junitxml.py::TestPython::test_avoid_double_stdout": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pytest-dev__pytest-5787/dedup_patch_8.jsonl": {
+      "pytest-dev__pytest-5787": {
+        "test_reports.py::TestReportSerialization::test_extended_report_deserialization": false,
+        "test_junitxml.py::TestPython::test_summing_simple_with_errors": false,
+        "test_junitxml.py::TestPython::test_setup_error_captures_stdout": false,
+        "test_runner.py::BaseFunctionalTests::test_failure_in_teardown_function": false,
+        "test_reports.py::TestHooks::test_invalid_report_types": false,
+        "test_runner.py::test_unicode_in_longrepr": false,
+        "test_reports.py::TestReportSerialization::test_reprentries_serialization_170": false,
+        "test_runner.py::test_report_extra_parameters": false,
+        "test_reports.py::TestReportSerialization::test_collectreport_fail": false,
+        "test_terminal.py::test_skip_counting_towards_summary": false,
+        "test_junitxml.py::test_unicode_issue368": false,
+        "test_reports.py::TestReportSerialization::test_reprentries_serialization_196": false,
+        "test_reports.py::TestHooks::test_test_report": false,
+        "test_junitxml.py::TestPython::test_setup_error_captures_stderr": false,
+        "test_reports.py::TestHooks::test_collect_report": false,
+        "test_reports.py::TestReportSerialization::test_xdist_report_longrepr_reprcrash_130": false,
+        "test_reports.py::TestReportSerialization::test_paths_support": false,
+        "test_reports.py::TestReportSerialization::test_unserialization_failure": false,
+        "test_terminal.py::test_pass_output_reporting": false,
+        "test_reports.py::TestReportSerialization::test_itemreport_outcomes": false,
+        "test_junitxml.py::TestPython::test_avoid_double_stdout": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pytest-dev__pytest-5787/dedup_patch_9.jsonl": {
+      "pytest-dev__pytest-5787": {
+        "test_reports.py::TestReportSerialization::test_extended_report_deserialization": false,
+        "test_junitxml.py::TestPython::test_summing_simple_with_errors": false,
+        "test_junitxml.py::TestPython::test_setup_error_captures_stdout": false,
+        "test_runner.py::BaseFunctionalTests::test_failure_in_teardown_function": false,
+        "test_reports.py::TestHooks::test_invalid_report_types": false,
+        "test_runner.py::test_unicode_in_longrepr": false,
+        "test_reports.py::TestReportSerialization::test_reprentries_serialization_170": false,
+        "test_runner.py::test_report_extra_parameters": false,
+        "test_reports.py::TestReportSerialization::test_collectreport_fail": false,
+        "test_terminal.py::test_skip_counting_towards_summary": false,
+        "test_junitxml.py::test_unicode_issue368": false,
+        "test_reports.py::TestReportSerialization::test_reprentries_serialization_196": false,
+        "test_reports.py::TestHooks::test_test_report": false,
+        "test_junitxml.py::TestPython::test_setup_error_captures_stderr": false,
+        "test_reports.py::TestHooks::test_collect_report": false,
+        "test_reports.py::TestReportSerialization::test_xdist_report_longrepr_reprcrash_130": false,
+        "test_reports.py::TestReportSerialization::test_paths_support": false,
+        "test_reports.py::TestReportSerialization::test_unserialization_failure": false,
+        "test_terminal.py::test_pass_output_reporting": false,
+        "test_reports.py::TestReportSerialization::test_itemreport_outcomes": false,
+        "test_junitxml.py::TestPython::test_avoid_double_stdout": false
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "pytest-dev__pytest-5787": {
+        "testing/test_reports.py::TestReportSerialization::test_chained_exception_serialization#1": true,
+        "testing/code/test_excinfo.py::test_no_recursion_index_on_recursion_error#2": false,
+        "testing/code/test_excinfo.py::test_no_recursion_index_on_recursion_error#3": false,
+        "testing/code/test_excinfo.py::test_no_recursion_index_on_recursion_error#4": false,
+        "testing/code/test_excinfo.py::test_no_recursion_index_on_recursion_error#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pytest-dev__pytest-5787/dedup_patch_0.jsonl": {
+      "pytest-dev__pytest-5787": {
+        "testing/test_reports.py::TestReportSerialization::test_chained_exception_serialization#1": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pytest-dev__pytest-5787/dedup_patch_1.jsonl": {
+      "pytest-dev__pytest-5787": {
+        "testing/test_reports.py::TestReportSerialization::test_chained_exception_serialization#1": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pytest-dev__pytest-5787/dedup_patch_10.jsonl": {
+      "pytest-dev__pytest-5787": {
+        "testing/test_reports.py::TestReportSerialization::test_chained_exception_serialization#1": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pytest-dev__pytest-5787/dedup_patch_11.jsonl": {
+      "pytest-dev__pytest-5787": {
+        "testing/test_reports.py::TestReportSerialization::test_chained_exception_serialization#1": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pytest-dev__pytest-5787/dedup_patch_12.jsonl": {
+      "pytest-dev__pytest-5787": {
+        "testing/test_reports.py::TestReportSerialization::test_chained_exception_serialization#1": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pytest-dev__pytest-5787/dedup_patch_13.jsonl": {
+      "pytest-dev__pytest-5787": {
+        "testing/test_reports.py::TestReportSerialization::test_chained_exception_serialization#1": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pytest-dev__pytest-5787/dedup_patch_14.jsonl": {
+      "pytest-dev__pytest-5787": {
+        "testing/test_reports.py::TestReportSerialization::test_chained_exception_serialization#1": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pytest-dev__pytest-5787/dedup_patch_15.jsonl": {
+      "pytest-dev__pytest-5787": {
+        "testing/test_reports.py::TestReportSerialization::test_chained_exception_serialization#1": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pytest-dev__pytest-5787/dedup_patch_16.jsonl": {
+      "pytest-dev__pytest-5787": {
+        "testing/test_reports.py::TestReportSerialization::test_chained_exception_serialization#1": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pytest-dev__pytest-5787/dedup_patch_17.jsonl": {
+      "pytest-dev__pytest-5787": {
+        "testing/test_reports.py::TestReportSerialization::test_chained_exception_serialization#1": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pytest-dev__pytest-5787/dedup_patch_2.jsonl": {
+      "pytest-dev__pytest-5787": {
+        "testing/test_reports.py::TestReportSerialization::test_chained_exception_serialization#1": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pytest-dev__pytest-5787/dedup_patch_3.jsonl": {
+      "pytest-dev__pytest-5787": {
+        "testing/test_reports.py::TestReportSerialization::test_chained_exception_serialization#1": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pytest-dev__pytest-5787/dedup_patch_4.jsonl": {
+      "pytest-dev__pytest-5787": {
+        "testing/test_reports.py::TestReportSerialization::test_chained_exception_serialization#1": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pytest-dev__pytest-5787/dedup_patch_5.jsonl": {
+      "pytest-dev__pytest-5787": {
+        "testing/test_reports.py::TestReportSerialization::test_chained_exception_serialization#1": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pytest-dev__pytest-5787/dedup_patch_6.jsonl": {
+      "pytest-dev__pytest-5787": {
+        "testing/test_reports.py::TestReportSerialization::test_chained_exception_serialization#1": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pytest-dev__pytest-5787/dedup_patch_7.jsonl": {
+      "pytest-dev__pytest-5787": {
+        "testing/test_reports.py::TestReportSerialization::test_chained_exception_serialization#1": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pytest-dev__pytest-5787/dedup_patch_8.jsonl": {
+      "pytest-dev__pytest-5787": {
+        "testing/test_reports.py::TestReportSerialization::test_chained_exception_serialization#1": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pytest-dev__pytest-5787/dedup_patch_9.jsonl": {
+      "pytest-dev__pytest-5787": {
+        "testing/test_reports.py::TestReportSerialization::test_chained_exception_serialization#1": false
+      }
+    }
+  }
+}

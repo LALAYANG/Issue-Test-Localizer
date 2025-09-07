@@ -1,0 +1,185 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/scikit-learn__scikit-learn-13328/dedup_patch_0.jsonl": {
+      "scikit-learn__scikit-learn-13328": {
+        "sklearn/tests/test_common.py::test_estimators": false,
+        "sklearn/linear_model/tests/test_huber.py::test_huber_warm_start": true,
+        "sklearn/linear_model/tests/test_huber.py::test_huber_and_sgd_same_results": true,
+        "sklearn/linear_model/tests/test_base.py::test_preprocess_data_multioutput": false,
+        "sklearn/linear_model/tests/test_base.py::test_raises_value_error_if_sample_weights_greater_than_1d": false,
+        "sklearn/linear_model/tests/test_base.py::test_sparse_preprocess_data_with_return_mean": false,
+        "sklearn/linear_model/tests/test_base.py::test_preprocess_copy_data_no_checks": true,
+        "sklearn/linear_model/tests/test_huber.py::test_huber_scaling_invariant": true,
+        "sklearn/linear_model/tests/test_base.py::test_linear_regression_sparse_equal_dense": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/scikit-learn__scikit-learn-13328/dedup_patch_1.jsonl": {
+      "scikit-learn__scikit-learn-13328": {
+        "sklearn/tests/test_common.py::test_estimators": true,
+        "sklearn/linear_model/tests/test_huber.py::test_huber_warm_start": true,
+        "sklearn/linear_model/tests/test_huber.py::test_huber_and_sgd_same_results": true,
+        "sklearn/linear_model/tests/test_base.py::test_preprocess_data_multioutput": true,
+        "sklearn/linear_model/tests/test_base.py::test_raises_value_error_if_sample_weights_greater_than_1d": true,
+        "sklearn/linear_model/tests/test_base.py::test_sparse_preprocess_data_with_return_mean": true,
+        "sklearn/linear_model/tests/test_base.py::test_preprocess_copy_data_no_checks": true,
+        "sklearn/linear_model/tests/test_huber.py::test_huber_scaling_invariant": true,
+        "sklearn/linear_model/tests/test_base.py::test_linear_regression_sparse_equal_dense": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/scikit-learn__scikit-learn-13328/dedup_patch_10.jsonl": {
+      "scikit-learn__scikit-learn-13328": {
+        "sklearn/tests/test_common.py::test_estimators": true,
+        "sklearn/linear_model/tests/test_huber.py::test_huber_warm_start": true,
+        "sklearn/linear_model/tests/test_huber.py::test_huber_and_sgd_same_results": true,
+        "sklearn/linear_model/tests/test_base.py::test_preprocess_data_multioutput": true,
+        "sklearn/linear_model/tests/test_base.py::test_raises_value_error_if_sample_weights_greater_than_1d": true,
+        "sklearn/linear_model/tests/test_base.py::test_sparse_preprocess_data_with_return_mean": true,
+        "sklearn/linear_model/tests/test_base.py::test_preprocess_copy_data_no_checks": true,
+        "sklearn/linear_model/tests/test_huber.py::test_huber_scaling_invariant": true,
+        "sklearn/linear_model/tests/test_base.py::test_linear_regression_sparse_equal_dense": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/scikit-learn__scikit-learn-13328/dedup_patch_11.jsonl": {
+      "scikit-learn__scikit-learn-13328": {
+        "sklearn/tests/test_common.py::test_estimators": false,
+        "sklearn/linear_model/tests/test_huber.py::test_huber_warm_start": false,
+        "sklearn/linear_model/tests/test_huber.py::test_huber_and_sgd_same_results": false,
+        "sklearn/linear_model/tests/test_base.py::test_preprocess_data_multioutput": true,
+        "sklearn/linear_model/tests/test_base.py::test_raises_value_error_if_sample_weights_greater_than_1d": true,
+        "sklearn/linear_model/tests/test_base.py::test_sparse_preprocess_data_with_return_mean": true,
+        "sklearn/linear_model/tests/test_base.py::test_preprocess_copy_data_no_checks": true,
+        "sklearn/linear_model/tests/test_huber.py::test_huber_scaling_invariant": false,
+        "sklearn/linear_model/tests/test_base.py::test_linear_regression_sparse_equal_dense": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/scikit-learn__scikit-learn-13328/dedup_patch_12.jsonl": {
+      "scikit-learn__scikit-learn-13328": {
+        "sklearn/tests/test_common.py::test_estimators": true,
+        "sklearn/linear_model/tests/test_huber.py::test_huber_warm_start": true,
+        "sklearn/linear_model/tests/test_huber.py::test_huber_and_sgd_same_results": true,
+        "sklearn/linear_model/tests/test_base.py::test_preprocess_data_multioutput": true,
+        "sklearn/linear_model/tests/test_base.py::test_raises_value_error_if_sample_weights_greater_than_1d": true,
+        "sklearn/linear_model/tests/test_base.py::test_sparse_preprocess_data_with_return_mean": true,
+        "sklearn/linear_model/tests/test_base.py::test_preprocess_copy_data_no_checks": true,
+        "sklearn/linear_model/tests/test_huber.py::test_huber_scaling_invariant": true,
+        "sklearn/linear_model/tests/test_base.py::test_linear_regression_sparse_equal_dense": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/scikit-learn__scikit-learn-13328/dedup_patch_2.jsonl": {
+      "scikit-learn__scikit-learn-13328": {
+        "sklearn/tests/test_common.py::test_estimators": true,
+        "sklearn/linear_model/tests/test_huber.py::test_huber_warm_start": true,
+        "sklearn/linear_model/tests/test_huber.py::test_huber_and_sgd_same_results": true,
+        "sklearn/linear_model/tests/test_base.py::test_preprocess_data_multioutput": true,
+        "sklearn/linear_model/tests/test_base.py::test_raises_value_error_if_sample_weights_greater_than_1d": true,
+        "sklearn/linear_model/tests/test_base.py::test_sparse_preprocess_data_with_return_mean": true,
+        "sklearn/linear_model/tests/test_base.py::test_preprocess_copy_data_no_checks": true,
+        "sklearn/linear_model/tests/test_huber.py::test_huber_scaling_invariant": true,
+        "sklearn/linear_model/tests/test_base.py::test_linear_regression_sparse_equal_dense": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/scikit-learn__scikit-learn-13328/dedup_patch_3.jsonl": {
+      "scikit-learn__scikit-learn-13328": {
+        "sklearn/tests/test_common.py::test_estimators": true,
+        "sklearn/linear_model/tests/test_huber.py::test_huber_warm_start": true,
+        "sklearn/linear_model/tests/test_huber.py::test_huber_and_sgd_same_results": true,
+        "sklearn/linear_model/tests/test_base.py::test_preprocess_data_multioutput": true,
+        "sklearn/linear_model/tests/test_base.py::test_raises_value_error_if_sample_weights_greater_than_1d": true,
+        "sklearn/linear_model/tests/test_base.py::test_sparse_preprocess_data_with_return_mean": true,
+        "sklearn/linear_model/tests/test_base.py::test_preprocess_copy_data_no_checks": true,
+        "sklearn/linear_model/tests/test_huber.py::test_huber_scaling_invariant": true,
+        "sklearn/linear_model/tests/test_base.py::test_linear_regression_sparse_equal_dense": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/scikit-learn__scikit-learn-13328/dedup_patch_4.jsonl": {
+      "scikit-learn__scikit-learn-13328": {
+        "sklearn/tests/test_common.py::test_estimators": true,
+        "sklearn/linear_model/tests/test_huber.py::test_huber_warm_start": true,
+        "sklearn/linear_model/tests/test_huber.py::test_huber_and_sgd_same_results": true,
+        "sklearn/linear_model/tests/test_base.py::test_preprocess_data_multioutput": true,
+        "sklearn/linear_model/tests/test_base.py::test_raises_value_error_if_sample_weights_greater_than_1d": true,
+        "sklearn/linear_model/tests/test_base.py::test_sparse_preprocess_data_with_return_mean": true,
+        "sklearn/linear_model/tests/test_base.py::test_preprocess_copy_data_no_checks": true,
+        "sklearn/linear_model/tests/test_huber.py::test_huber_scaling_invariant": true,
+        "sklearn/linear_model/tests/test_base.py::test_linear_regression_sparse_equal_dense": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/scikit-learn__scikit-learn-13328/dedup_patch_5.jsonl": {
+      "scikit-learn__scikit-learn-13328": {
+        "sklearn/tests/test_common.py::test_estimators": true,
+        "sklearn/linear_model/tests/test_huber.py::test_huber_warm_start": true,
+        "sklearn/linear_model/tests/test_huber.py::test_huber_and_sgd_same_results": true,
+        "sklearn/linear_model/tests/test_base.py::test_preprocess_data_multioutput": true,
+        "sklearn/linear_model/tests/test_base.py::test_raises_value_error_if_sample_weights_greater_than_1d": true,
+        "sklearn/linear_model/tests/test_base.py::test_sparse_preprocess_data_with_return_mean": true,
+        "sklearn/linear_model/tests/test_base.py::test_preprocess_copy_data_no_checks": true,
+        "sklearn/linear_model/tests/test_huber.py::test_huber_scaling_invariant": true,
+        "sklearn/linear_model/tests/test_base.py::test_linear_regression_sparse_equal_dense": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/scikit-learn__scikit-learn-13328/dedup_patch_6.jsonl": {
+      "scikit-learn__scikit-learn-13328": {
+        "sklearn/tests/test_common.py::test_estimators": false,
+        "sklearn/linear_model/tests/test_huber.py::test_huber_warm_start": true,
+        "sklearn/linear_model/tests/test_huber.py::test_huber_and_sgd_same_results": true,
+        "sklearn/linear_model/tests/test_base.py::test_preprocess_data_multioutput": true,
+        "sklearn/linear_model/tests/test_base.py::test_raises_value_error_if_sample_weights_greater_than_1d": true,
+        "sklearn/linear_model/tests/test_base.py::test_sparse_preprocess_data_with_return_mean": true,
+        "sklearn/linear_model/tests/test_base.py::test_preprocess_copy_data_no_checks": true,
+        "sklearn/linear_model/tests/test_huber.py::test_huber_scaling_invariant": true,
+        "sklearn/linear_model/tests/test_base.py::test_linear_regression_sparse_equal_dense": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/scikit-learn__scikit-learn-13328/dedup_patch_7.jsonl": {
+      "scikit-learn__scikit-learn-13328": {
+        "sklearn/tests/test_common.py::test_estimators": true,
+        "sklearn/linear_model/tests/test_huber.py::test_huber_warm_start": true,
+        "sklearn/linear_model/tests/test_huber.py::test_huber_and_sgd_same_results": true,
+        "sklearn/linear_model/tests/test_base.py::test_preprocess_data_multioutput": true,
+        "sklearn/linear_model/tests/test_base.py::test_raises_value_error_if_sample_weights_greater_than_1d": true,
+        "sklearn/linear_model/tests/test_base.py::test_sparse_preprocess_data_with_return_mean": true,
+        "sklearn/linear_model/tests/test_base.py::test_preprocess_copy_data_no_checks": true,
+        "sklearn/linear_model/tests/test_huber.py::test_huber_scaling_invariant": true,
+        "sklearn/linear_model/tests/test_base.py::test_linear_regression_sparse_equal_dense": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/scikit-learn__scikit-learn-13328/dedup_patch_8.jsonl": {
+      "scikit-learn__scikit-learn-13328": {
+        "sklearn/tests/test_common.py::test_estimators": true,
+        "sklearn/linear_model/tests/test_huber.py::test_huber_warm_start": true,
+        "sklearn/linear_model/tests/test_huber.py::test_huber_and_sgd_same_results": true,
+        "sklearn/linear_model/tests/test_base.py::test_preprocess_data_multioutput": true,
+        "sklearn/linear_model/tests/test_base.py::test_raises_value_error_if_sample_weights_greater_than_1d": true,
+        "sklearn/linear_model/tests/test_base.py::test_sparse_preprocess_data_with_return_mean": true,
+        "sklearn/linear_model/tests/test_base.py::test_preprocess_copy_data_no_checks": true,
+        "sklearn/linear_model/tests/test_huber.py::test_huber_scaling_invariant": true,
+        "sklearn/linear_model/tests/test_base.py::test_linear_regression_sparse_equal_dense": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/scikit-learn__scikit-learn-13328/dedup_patch_9.jsonl": {
+      "scikit-learn__scikit-learn-13328": {
+        "sklearn/tests/test_common.py::test_estimators": false,
+        "sklearn/linear_model/tests/test_huber.py::test_huber_warm_start": false,
+        "sklearn/linear_model/tests/test_huber.py::test_huber_and_sgd_same_results": false,
+        "sklearn/linear_model/tests/test_base.py::test_preprocess_data_multioutput": true,
+        "sklearn/linear_model/tests/test_base.py::test_raises_value_error_if_sample_weights_greater_than_1d": true,
+        "sklearn/linear_model/tests/test_base.py::test_sparse_preprocess_data_with_return_mean": true,
+        "sklearn/linear_model/tests/test_base.py::test_preprocess_copy_data_no_checks": true,
+        "sklearn/linear_model/tests/test_huber.py::test_huber_scaling_invariant": false,
+        "sklearn/linear_model/tests/test_base.py::test_linear_regression_sparse_equal_dense": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "scikit-learn__scikit-learn-13328": {
+        "sklearn/linear_model/tests/test_huber.py::test_huber_better_r2_score#1": false,
+        "sklearn/linear_model/tests/test_huber.py::test_huber_warm_start#2": false,
+        "sklearn/linear_model/tests/test_huber.py::test_huber_sparse#3": false,
+        "sklearn/linear_model/tests/test_huber.py::test_huber_sparse#4": false,
+        "sklearn/linear_model/tests/test_huber.py::test_huber_sample_weights#5": false,
+        "sklearn/linear_model/tests/test_huber.py::test_huber_sparse#6": false
+      }
+    }
+  }
+}

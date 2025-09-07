@@ -1,0 +1,33 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/pytest-dev__pytest-5809/dedup_patch_0.jsonl": {
+      "pytest-dev__pytest-5809": {
+        "test_pastebin.py::TestPasteCapture::test_failed": false,
+        "test_pastebin.py::TestPaste::test_create_new_paste": false,
+        "test_pastebin.py::TestPasteCapture::test_non_ascii_paste_text": false
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "pytest-dev__pytest-5809": {
+        "testing/test_pastebin.py::TestPaste::test_create_new_paste#1": true,
+        "testing/test_pastebin.py::TestPaste::test_lexer_type_for_pastebin#2": true,
+        "testing/test_pastebin.py::TestPaste::test_create_new_paste_with_bad_content#3": true,
+        "testing/test_pastebin.py::TestPaste::test_create_new_paste_with_bad_lexer#4": true,
+        "testing/test_pastebin.py::TestPaste::test_create_new_paste#5": true,
+        "testing/test_pastebin.py::TestPaste::test_lexer_for_paste_is_text#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pytest-dev__pytest-5809/dedup_patch_0.jsonl": {
+      "pytest-dev__pytest-5809": {
+        "testing/test_pastebin.py::TestPaste::test_create_new_paste#1": true,
+        "testing/test_pastebin.py::TestPaste::test_lexer_type_for_pastebin#2": false,
+        "testing/test_pastebin.py::TestPaste::test_create_new_paste_with_bad_content#3": false,
+        "testing/test_pastebin.py::TestPaste::test_create_new_paste_with_bad_lexer#4": false,
+        "testing/test_pastebin.py::TestPaste::test_create_new_paste#5": true,
+        "testing/test_pastebin.py::TestPaste::test_lexer_for_paste_is_text#6": true
+      }
+    }
+  }
+}

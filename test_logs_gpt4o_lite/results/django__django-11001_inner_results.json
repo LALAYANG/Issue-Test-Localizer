@@ -1,0 +1,132 @@
+{
+  "regression": {
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11001/dedup_patch_0.jsonl": {
+      "django__django-11001": {
+        "queries.tests.ValuesQuerysetTests.test_extra_values_order_multiple": true,
+        "ordering.tests.OrderingTests.test_order_by_f_expression": true,
+        "queries.tests.ValuesQuerysetTests.test_extra_select_params_values_order_in_extra": true,
+        "ordering.tests.OrderingTests.test_order_by_nulls_last": true,
+        "ordering.tests.OrderingTests.test_order_by_nulls_first": true,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_mti_annotations": true,
+        "ordering.tests.OrderingTests.test_reverse_ordering_pure": true,
+        "queries.tests.Queries5Tests.test_ordering": true,
+        "ordering.tests.OrderingTests.test_order_by_f_expression_duplicates": true,
+        "aggregation.tests.AggregateTestCase.test_annotate_values_list": true,
+        "queryset_pickle.tests.PickleabilityTestCase.test_specialized_queryset": true,
+        "ordering.tests.OrderingTests.test_random_ordering": true,
+        "queries.tests.ValuesQuerysetTests.test_extra_values_order_twice": true,
+        "db_functions.tests.FunctionTests.test_nested_function_ordering": true,
+        "expressions_case.tests.CaseExpressionTests.test_annotate_values_not_in_order_by": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11001/dedup_patch_1.jsonl": {
+      "django__django-11001": {
+        "queries.tests.ValuesQuerysetTests.test_extra_values_order_multiple": true,
+        "ordering.tests.OrderingTests.test_order_by_f_expression": true,
+        "queries.tests.ValuesQuerysetTests.test_extra_select_params_values_order_in_extra": true,
+        "ordering.tests.OrderingTests.test_order_by_nulls_last": true,
+        "ordering.tests.OrderingTests.test_order_by_nulls_first": true,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_mti_annotations": true,
+        "ordering.tests.OrderingTests.test_reverse_ordering_pure": true,
+        "queries.tests.Queries5Tests.test_ordering": true,
+        "ordering.tests.OrderingTests.test_order_by_f_expression_duplicates": true,
+        "aggregation.tests.AggregateTestCase.test_annotate_values_list": true,
+        "queryset_pickle.tests.PickleabilityTestCase.test_specialized_queryset": true,
+        "ordering.tests.OrderingTests.test_random_ordering": true,
+        "queries.tests.ValuesQuerysetTests.test_extra_values_order_twice": true,
+        "db_functions.tests.FunctionTests.test_nested_function_ordering": true,
+        "expressions_case.tests.CaseExpressionTests.test_annotate_values_not_in_order_by": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11001/dedup_patch_2.jsonl": {
+      "django__django-11001": {
+        "queries.tests.ValuesQuerysetTests.test_extra_values_order_multiple": true,
+        "ordering.tests.OrderingTests.test_order_by_f_expression": true,
+        "queries.tests.ValuesQuerysetTests.test_extra_select_params_values_order_in_extra": true,
+        "ordering.tests.OrderingTests.test_order_by_nulls_last": true,
+        "ordering.tests.OrderingTests.test_order_by_nulls_first": true,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_mti_annotations": true,
+        "ordering.tests.OrderingTests.test_reverse_ordering_pure": true,
+        "queries.tests.Queries5Tests.test_ordering": true,
+        "ordering.tests.OrderingTests.test_order_by_f_expression_duplicates": true,
+        "aggregation.tests.AggregateTestCase.test_annotate_values_list": true,
+        "queryset_pickle.tests.PickleabilityTestCase.test_specialized_queryset": true,
+        "ordering.tests.OrderingTests.test_random_ordering": true,
+        "queries.tests.ValuesQuerysetTests.test_extra_values_order_twice": true,
+        "db_functions.tests.FunctionTests.test_nested_function_ordering": true,
+        "expressions_case.tests.CaseExpressionTests.test_annotate_values_not_in_order_by": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11001/dedup_patch_3.jsonl": {
+      "django__django-11001": {
+        "queries.tests.ValuesQuerysetTests.test_extra_values_order_multiple": true,
+        "ordering.tests.OrderingTests.test_order_by_f_expression": true,
+        "queries.tests.ValuesQuerysetTests.test_extra_select_params_values_order_in_extra": true,
+        "ordering.tests.OrderingTests.test_order_by_nulls_last": true,
+        "ordering.tests.OrderingTests.test_order_by_nulls_first": true,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_mti_annotations": true,
+        "ordering.tests.OrderingTests.test_reverse_ordering_pure": true,
+        "queries.tests.Queries5Tests.test_ordering": true,
+        "ordering.tests.OrderingTests.test_order_by_f_expression_duplicates": true,
+        "aggregation.tests.AggregateTestCase.test_annotate_values_list": true,
+        "queryset_pickle.tests.PickleabilityTestCase.test_specialized_queryset": true,
+        "ordering.tests.OrderingTests.test_random_ordering": true,
+        "queries.tests.ValuesQuerysetTests.test_extra_values_order_twice": true,
+        "db_functions.tests.FunctionTests.test_nested_function_ordering": true,
+        "expressions_case.tests.CaseExpressionTests.test_annotate_values_not_in_order_by": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-11001": {
+        "raw_query.tests.RawQueryTests.test_subquery_in_raw_sql#1": false,
+        "raw_query.tests.RawQueryTests.test_multiline_rawsql_order_by#2": true,
+        "raw_query.tests.RawQueryTests.test_subquery_in_raw_sql#3": false,
+        "raw_query.tests.RawQueryTests.test_multiline_rawsql_ordering#4": true,
+        "raw_query.tests.RawQueryTests.test_multiline_rawsql_order_by#5": true,
+        "raw_query.tests.RawQueryTests.test_subquery_in_raw_sql#6": false,
+        "raw_query.tests.RawQueryTests.test_multiline_rawsql_ordering#7": true,
+        "raw_query.tests.RawQueryTests.test_multiline_rawsql_order_by#8": true,
+        "raw_query.tests.RawQueryTests.test_subquery_in_raw_sql#9": false,
+        "raw_query.tests.RawQueryTests.test_multiline_rawsql_order_by#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11001/dedup_patch_0.jsonl": {
+      "django__django-11001": {
+        "raw_query.tests.RawQueryTests.test_multiline_rawsql_order_by#2": false,
+        "raw_query.tests.RawQueryTests.test_multiline_rawsql_ordering#4": false,
+        "raw_query.tests.RawQueryTests.test_multiline_rawsql_order_by#5": false,
+        "raw_query.tests.RawQueryTests.test_multiline_rawsql_ordering#7": false,
+        "raw_query.tests.RawQueryTests.test_multiline_rawsql_order_by#8": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11001/dedup_patch_1.jsonl": {
+      "django__django-11001": {
+        "raw_query.tests.RawQueryTests.test_multiline_rawsql_order_by#2": false,
+        "raw_query.tests.RawQueryTests.test_multiline_rawsql_ordering#4": false,
+        "raw_query.tests.RawQueryTests.test_multiline_rawsql_order_by#5": false,
+        "raw_query.tests.RawQueryTests.test_multiline_rawsql_ordering#7": false,
+        "raw_query.tests.RawQueryTests.test_multiline_rawsql_order_by#8": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11001/dedup_patch_2.jsonl": {
+      "django__django-11001": {
+        "raw_query.tests.RawQueryTests.test_multiline_rawsql_order_by#2": false,
+        "raw_query.tests.RawQueryTests.test_multiline_rawsql_ordering#4": false,
+        "raw_query.tests.RawQueryTests.test_multiline_rawsql_order_by#5": false,
+        "raw_query.tests.RawQueryTests.test_multiline_rawsql_ordering#7": false,
+        "raw_query.tests.RawQueryTests.test_multiline_rawsql_order_by#8": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11001/dedup_patch_3.jsonl": {
+      "django__django-11001": {
+        "raw_query.tests.RawQueryTests.test_multiline_rawsql_order_by#2": false,
+        "raw_query.tests.RawQueryTests.test_multiline_rawsql_ordering#4": false,
+        "raw_query.tests.RawQueryTests.test_multiline_rawsql_order_by#5": false,
+        "raw_query.tests.RawQueryTests.test_multiline_rawsql_ordering#7": false,
+        "raw_query.tests.RawQueryTests.test_multiline_rawsql_order_by#8": false
+      }
+    }
+  }
+}

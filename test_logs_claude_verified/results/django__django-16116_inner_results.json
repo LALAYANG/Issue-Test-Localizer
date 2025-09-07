@@ -1,0 +1,100 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/django__django-16116/dedup_patch_0.jsonl": {
+      "django__django-16116": {
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_update_dependency_migration": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_scriptable_merge": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_auto_merge_name": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_inconsistent_history_db_failure": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_continues_number_sequence_after_squash": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_empty_connections": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_update_manual_porting": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_update_squash_migration": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_update_existing_name": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_default_merge_name": true,
+        "migrations.test_commands.AppLabelErrorTests.test_makemigrations_app_name_specified_as_label": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_update_no_migration": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_update_applied_migration": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_with_invalid_custom_name": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16116/dedup_patch_1.jsonl": {
+      "django__django-16116": {
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_update_dependency_migration": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_scriptable_merge": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_auto_merge_name": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_inconsistent_history_db_failure": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_continues_number_sequence_after_squash": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_empty_connections": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_update_manual_porting": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_update_squash_migration": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_update_existing_name": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_default_merge_name": true,
+        "migrations.test_commands.AppLabelErrorTests.test_makemigrations_app_name_specified_as_label": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_update_no_migration": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_update_applied_migration": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_with_invalid_custom_name": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16116/dedup_patch_2.jsonl": {
+      "django__django-16116": {
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_update_dependency_migration": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_scriptable_merge": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_auto_merge_name": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_inconsistent_history_db_failure": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_continues_number_sequence_after_squash": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_empty_connections": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_update_manual_porting": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_update_squash_migration": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_update_existing_name": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_default_merge_name": true,
+        "migrations.test_commands.AppLabelErrorTests.test_makemigrations_app_name_specified_as_label": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_update_no_migration": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_update_applied_migration": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_with_invalid_custom_name": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-16116": {
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_check#1": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_check_no_migrations_created#2": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_check_without_dry_run#3": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_check_no_migrations_with_changes#4": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_check#5": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_check_dry_run#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16116/dedup_patch_0.jsonl": {
+      "django__django-16116": {
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_check#1": false,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_check_no_migrations_created#2": false,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_check_without_dry_run#3": false,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_check_no_migrations_with_changes#4": false,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_check#5": false,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_check_dry_run#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16116/dedup_patch_1.jsonl": {
+      "django__django-16116": {
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_check#1": false,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_check_no_migrations_created#2": false,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_check_without_dry_run#3": false,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_check_no_migrations_with_changes#4": false,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_check#5": false,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_check_dry_run#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16116/dedup_patch_2.jsonl": {
+      "django__django-16116": {
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_check#1": false,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_check_no_migrations_created#2": false,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_check_without_dry_run#3": false,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_check_no_migrations_with_changes#4": false,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_check#5": false,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_check_dry_run#6": false
+      }
+    }
+  }
+}

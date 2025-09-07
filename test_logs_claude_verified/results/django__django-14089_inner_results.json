@@ -1,0 +1,54 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/django__django-14089/dedup_patch_0.jsonl": {
+      "django__django-14089": {
+        "admin_views.tests.AdminViewListEditable.test_non_form_errors": true,
+        "utils_tests.test_datastructures.OrderedSetTests.test_remove": true,
+        "utils_tests.test_datastructures.OrderedSetTests.test_contains": true,
+        "admin_views.tests.AdminViewDeletedObjectsTest.test_perms_needed": true,
+        "admin_views.tests.AdminViewProxyModelPermissionsTests.test_change": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14089/dedup_patch_1.jsonl": {
+      "django__django-14089": {
+        "admin_views.tests.AdminViewListEditable.test_non_form_errors": true,
+        "utils_tests.test_datastructures.OrderedSetTests.test_remove": true,
+        "utils_tests.test_datastructures.OrderedSetTests.test_contains": true,
+        "admin_views.tests.AdminViewDeletedObjectsTest.test_perms_needed": true,
+        "admin_views.tests.AdminViewProxyModelPermissionsTests.test_change": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-14089": {
+        "utils_tests.test_datastructures.OrderedSetTests.test_reversed#1": true,
+        "utils_tests.test_datastructures.OrderedSetTests.test_reversed#2": true,
+        "utils_tests.test_datastructures.OrderedSetTests.test_reversed#3": true,
+        "utils_tests.test_datastructures.OrderedSetTests.test_ordered_set_reversed#4": true,
+        "utils_tests.test_datastructures.OrderedSetTests.test_reversed#5": true,
+        "utils_tests.test_datastructures.OrderedSetTests.test_reversed#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14089/dedup_patch_0.jsonl": {
+      "django__django-14089": {
+        "utils_tests.test_datastructures.OrderedSetTests.test_reversed#1": true,
+        "utils_tests.test_datastructures.OrderedSetTests.test_reversed#2": true,
+        "utils_tests.test_datastructures.OrderedSetTests.test_reversed#3": true,
+        "utils_tests.test_datastructures.OrderedSetTests.test_ordered_set_reversed#4": false,
+        "utils_tests.test_datastructures.OrderedSetTests.test_reversed#5": true,
+        "utils_tests.test_datastructures.OrderedSetTests.test_reversed#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14089/dedup_patch_1.jsonl": {
+      "django__django-14089": {
+        "utils_tests.test_datastructures.OrderedSetTests.test_reversed#1": true,
+        "utils_tests.test_datastructures.OrderedSetTests.test_reversed#2": true,
+        "utils_tests.test_datastructures.OrderedSetTests.test_reversed#3": true,
+        "utils_tests.test_datastructures.OrderedSetTests.test_ordered_set_reversed#4": false,
+        "utils_tests.test_datastructures.OrderedSetTests.test_reversed#5": true,
+        "utils_tests.test_datastructures.OrderedSetTests.test_reversed#6": true
+      }
+    }
+  }
+}

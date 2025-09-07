@@ -1,0 +1,33 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/pytest-dev__pytest-8399/dedup_patch_0.jsonl": {
+      "pytest-dev__pytest-8399": {
+        "test_unittest.py::test_do_class_cleanups_on_setupclass_failure": false,
+        "test_unittest.py::test_no_teardown_if_setupclass_failed": false,
+        "test_unittest.py::test_class_method_containing_test_issue1558": false,
+        "test_unittest.py::test_setup": false,
+        "test_unittest.py::test_runTest_method": false
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "pytest-dev__pytest-8399": {
+        "testing/python/fixtures.py::TestShowFixtures::test_unittest_fixture_is_private#1": true,
+        "testing/python/fixtures.py::TestShowFixtures::test_unittest_fixtures_private#2": true,
+        "testing/python/fixtures.py::TestShowFixtures::test_unittest_fixtures_are_private_in_fixtures_output#3": true,
+        "testing/python/fixtures.py::TestShowFixtures::test_unittest_fixtures_are_private#4": true,
+        "testing/python/fixtures.py::TestShowFixtures::test_unittest_fixtures_are_hidden_by_default#5": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pytest-dev__pytest-8399/dedup_patch_0.jsonl": {
+      "pytest-dev__pytest-8399": {
+        "testing/python/fixtures.py::TestShowFixtures::test_unittest_fixture_is_private#1": false,
+        "testing/python/fixtures.py::TestShowFixtures::test_unittest_fixtures_private#2": false,
+        "testing/python/fixtures.py::TestShowFixtures::test_unittest_fixtures_are_private_in_fixtures_output#3": false,
+        "testing/python/fixtures.py::TestShowFixtures::test_unittest_fixtures_are_private#4": false,
+        "testing/python/fixtures.py::TestShowFixtures::test_unittest_fixtures_are_hidden_by_default#5": true
+      }
+    }
+  }
+}

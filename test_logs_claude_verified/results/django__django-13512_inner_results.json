@@ -1,0 +1,48 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/django__django-13512/dedup_patch_0.jsonl": {
+      "django__django-13512": {
+        "model_fields.test_jsonfield.TestFormField.test_formfield": true,
+        "model_fields.test_jsonfield.TestFormField.test_formfield_custom_encoder_decoder": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13512/dedup_patch_1.jsonl": {
+      "django__django-13512": {
+        "model_fields.test_jsonfield.TestFormField.test_formfield": true,
+        "model_fields.test_jsonfield.TestFormField.test_formfield_custom_encoder_decoder": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-13512": {
+        "admin_views.tests.AdminViewOnSiteTests.test_jsonfield_unicode_edit#1": true,
+        "admin_views.tests.AdminViewUnicodeTest.test_jsonfield_unicode_display#2": true,
+        "admin_views.tests.AdminViewUnicodeTest.test_jsonfield_unicode_edit#3": true,
+        "admin_views.tests.AdminViewUnicodeTest.test_jsonfield_unicode_display#4": true,
+        "admin_views.tests.AdminViewUnicodeTest.test_json_field_unicode_display#5": true,
+        "admin_views.tests.AdminViewUnicodeTest.test_jsonfield_unicode_edit#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13512/dedup_patch_0.jsonl": {
+      "django__django-13512": {
+        "admin_views.tests.AdminViewOnSiteTests.test_jsonfield_unicode_edit#1": false,
+        "admin_views.tests.AdminViewUnicodeTest.test_jsonfield_unicode_display#2": false,
+        "admin_views.tests.AdminViewUnicodeTest.test_jsonfield_unicode_edit#3": false,
+        "admin_views.tests.AdminViewUnicodeTest.test_jsonfield_unicode_display#4": false,
+        "admin_views.tests.AdminViewUnicodeTest.test_json_field_unicode_display#5": false,
+        "admin_views.tests.AdminViewUnicodeTest.test_jsonfield_unicode_edit#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13512/dedup_patch_1.jsonl": {
+      "django__django-13512": {
+        "admin_views.tests.AdminViewOnSiteTests.test_jsonfield_unicode_edit#1": false,
+        "admin_views.tests.AdminViewUnicodeTest.test_jsonfield_unicode_display#2": false,
+        "admin_views.tests.AdminViewUnicodeTest.test_jsonfield_unicode_edit#3": false,
+        "admin_views.tests.AdminViewUnicodeTest.test_jsonfield_unicode_display#4": false,
+        "admin_views.tests.AdminViewUnicodeTest.test_json_field_unicode_display#5": false,
+        "admin_views.tests.AdminViewUnicodeTest.test_jsonfield_unicode_edit#6": false
+      }
+    }
+  }
+}

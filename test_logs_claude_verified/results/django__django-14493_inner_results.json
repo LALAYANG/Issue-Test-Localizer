@@ -1,0 +1,49 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/django__django-14493/dedup_patch_0.jsonl": {
+      "django__django-14493": {
+        "staticfiles_tests.test_storage.TestCollectionManifestStorage.test_missing_entry": true,
+        "staticfiles_tests.test_storage.TestCollectionManifestStorage.test_clear_empties_manifest": true,
+        "staticfiles_tests.test_management.TestCollectionVerbosity.test_verbosity_1_with_post_process": true,
+        "staticfiles_tests.test_management.TestCollectionVerbosity.test_verbosity_2_with_post_process": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14493/dedup_patch_1.jsonl": {
+      "django__django-14493": {
+        "staticfiles_tests.test_storage.TestCollectionManifestStorage.test_missing_entry": true,
+        "staticfiles_tests.test_storage.TestCollectionManifestStorage.test_clear_empties_manifest": true,
+        "staticfiles_tests.test_management.TestCollectionVerbosity.test_verbosity_1_with_post_process": true,
+        "staticfiles_tests.test_management.TestCollectionVerbosity.test_verbosity_2_with_post_process": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-14493": {
+        "staticfiles_tests.test_storage.TestHashedFiles.test_max_post_process_passes_zero#1": true,
+        "staticfiles_tests.test_storage.TestHashedFiles.test_max_post_process_passes_zero#2": true,
+        "staticfiles_tests.test_storage.TestHashedFiles.test_zero_post_process_passes#3": true,
+        "staticfiles_tests.test_storage.TestHashedFiles.test_max_post_process_passes_zero#4": true,
+        "staticfiles_tests.test_storage.TestHashedFiles.test_max_post_process_passes_zero#5": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14493/dedup_patch_0.jsonl": {
+      "django__django-14493": {
+        "staticfiles_tests.test_storage.TestHashedFiles.test_max_post_process_passes_zero#1": false,
+        "staticfiles_tests.test_storage.TestHashedFiles.test_max_post_process_passes_zero#2": false,
+        "staticfiles_tests.test_storage.TestHashedFiles.test_zero_post_process_passes#3": false,
+        "staticfiles_tests.test_storage.TestHashedFiles.test_max_post_process_passes_zero#4": false,
+        "staticfiles_tests.test_storage.TestHashedFiles.test_max_post_process_passes_zero#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14493/dedup_patch_1.jsonl": {
+      "django__django-14493": {
+        "staticfiles_tests.test_storage.TestHashedFiles.test_max_post_process_passes_zero#1": false,
+        "staticfiles_tests.test_storage.TestHashedFiles.test_max_post_process_passes_zero#2": false,
+        "staticfiles_tests.test_storage.TestHashedFiles.test_zero_post_process_passes#3": false,
+        "staticfiles_tests.test_storage.TestHashedFiles.test_max_post_process_passes_zero#4": false,
+        "staticfiles_tests.test_storage.TestHashedFiles.test_max_post_process_passes_zero#5": false
+      }
+    }
+  }
+}

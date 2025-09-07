@@ -1,0 +1,756 @@
+{
+  "regression": {
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-22840/dedup_patch_0.jsonl": {
+      "sympy__sympy-22840": {
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": true,
+        "sympy/simplify/tests/test_cse.py::test_cse_single2": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_8891": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_single_indexing": true,
+        "sympy/simplify/tests/test_cse.py::test_cse_list": true,
+        "sympy/printing/tests/test_str.py::test_MatrixSlice": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_pow_index": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_4498": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_6263": true,
+        "sympy/simplify/tests/test_cse.py::test_name_conflict_cust_symbols": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_errors": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_Identity_index": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_4020": true,
+        "sympy/simplify/tests/test_cse.py::test_postprocess": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_inv": true,
+        "sympy/simplify/tests/test_cse.py::test_symbols_exhausted_error": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-22840/dedup_patch_1.jsonl": {
+      "sympy__sympy-22840": {
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": false,
+        "sympy/simplify/tests/test_cse.py::test_cse_single2": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_8891": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_single_indexing": true,
+        "sympy/simplify/tests/test_cse.py::test_cse_list": true,
+        "sympy/printing/tests/test_str.py::test_MatrixSlice": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_pow_index": false,
+        "sympy/simplify/tests/test_cse.py::test_issue_4498": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_6263": true,
+        "sympy/simplify/tests/test_cse.py::test_name_conflict_cust_symbols": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_errors": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_Identity_index": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_4020": true,
+        "sympy/simplify/tests/test_cse.py::test_postprocess": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_inv": true,
+        "sympy/simplify/tests/test_cse.py::test_symbols_exhausted_error": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-22840/dedup_patch_10.jsonl": {
+      "sympy__sympy-22840": {
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": true,
+        "sympy/simplify/tests/test_cse.py::test_cse_single2": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_8891": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_single_indexing": false,
+        "sympy/simplify/tests/test_cse.py::test_cse_list": true,
+        "sympy/printing/tests/test_str.py::test_MatrixSlice": false,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_pow_index": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_4498": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_6263": true,
+        "sympy/simplify/tests/test_cse.py::test_name_conflict_cust_symbols": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_errors": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_Identity_index": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_4020": true,
+        "sympy/simplify/tests/test_cse.py::test_postprocess": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_inv": true,
+        "sympy/simplify/tests/test_cse.py::test_symbols_exhausted_error": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-22840/dedup_patch_11.jsonl": {
+      "sympy__sympy-22840": {
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": false,
+        "sympy/simplify/tests/test_cse.py::test_cse_single2": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_8891": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_single_indexing": false,
+        "sympy/simplify/tests/test_cse.py::test_cse_list": true,
+        "sympy/printing/tests/test_str.py::test_MatrixSlice": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_pow_index": false,
+        "sympy/simplify/tests/test_cse.py::test_issue_4498": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_6263": true,
+        "sympy/simplify/tests/test_cse.py::test_name_conflict_cust_symbols": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_errors": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_Identity_index": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_4020": true,
+        "sympy/simplify/tests/test_cse.py::test_postprocess": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_inv": false,
+        "sympy/simplify/tests/test_cse.py::test_symbols_exhausted_error": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-22840/dedup_patch_12.jsonl": {
+      "sympy__sympy-22840": {
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": false,
+        "sympy/simplify/tests/test_cse.py::test_cse_single2": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_8891": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_single_indexing": false,
+        "sympy/simplify/tests/test_cse.py::test_cse_list": true,
+        "sympy/printing/tests/test_str.py::test_MatrixSlice": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_pow_index": false,
+        "sympy/simplify/tests/test_cse.py::test_issue_4498": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_6263": true,
+        "sympy/simplify/tests/test_cse.py::test_name_conflict_cust_symbols": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_errors": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_Identity_index": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_4020": true,
+        "sympy/simplify/tests/test_cse.py::test_postprocess": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_inv": false,
+        "sympy/simplify/tests/test_cse.py::test_symbols_exhausted_error": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-22840/dedup_patch_13.jsonl": {
+      "sympy__sympy-22840": {
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": false,
+        "sympy/simplify/tests/test_cse.py::test_cse_single2": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_8891": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_single_indexing": false,
+        "sympy/simplify/tests/test_cse.py::test_cse_list": true,
+        "sympy/printing/tests/test_str.py::test_MatrixSlice": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_pow_index": false,
+        "sympy/simplify/tests/test_cse.py::test_issue_4498": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_6263": true,
+        "sympy/simplify/tests/test_cse.py::test_name_conflict_cust_symbols": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_errors": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_Identity_index": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_4020": true,
+        "sympy/simplify/tests/test_cse.py::test_postprocess": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_inv": false,
+        "sympy/simplify/tests/test_cse.py::test_symbols_exhausted_error": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-22840/dedup_patch_14.jsonl": {
+      "sympy__sympy-22840": {
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": true,
+        "sympy/simplify/tests/test_cse.py::test_cse_single2": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_8891": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_single_indexing": true,
+        "sympy/simplify/tests/test_cse.py::test_cse_list": true,
+        "sympy/printing/tests/test_str.py::test_MatrixSlice": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_pow_index": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_4498": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_6263": true,
+        "sympy/simplify/tests/test_cse.py::test_name_conflict_cust_symbols": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_errors": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_Identity_index": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_4020": true,
+        "sympy/simplify/tests/test_cse.py::test_postprocess": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_inv": true,
+        "sympy/simplify/tests/test_cse.py::test_symbols_exhausted_error": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-22840/dedup_patch_15.jsonl": {
+      "sympy__sympy-22840": {
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": false,
+        "sympy/simplify/tests/test_cse.py::test_cse_single2": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_8891": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_single_indexing": true,
+        "sympy/simplify/tests/test_cse.py::test_cse_list": true,
+        "sympy/printing/tests/test_str.py::test_MatrixSlice": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_pow_index": false,
+        "sympy/simplify/tests/test_cse.py::test_issue_4498": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_6263": true,
+        "sympy/simplify/tests/test_cse.py::test_name_conflict_cust_symbols": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_errors": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_Identity_index": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_4020": true,
+        "sympy/simplify/tests/test_cse.py::test_postprocess": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_inv": true,
+        "sympy/simplify/tests/test_cse.py::test_symbols_exhausted_error": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-22840/dedup_patch_16.jsonl": {
+      "sympy__sympy-22840": {
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": false,
+        "sympy/simplify/tests/test_cse.py::test_cse_single2": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_8891": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_single_indexing": false,
+        "sympy/simplify/tests/test_cse.py::test_cse_list": true,
+        "sympy/printing/tests/test_str.py::test_MatrixSlice": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_pow_index": false,
+        "sympy/simplify/tests/test_cse.py::test_issue_4498": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_6263": true,
+        "sympy/simplify/tests/test_cse.py::test_name_conflict_cust_symbols": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_errors": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_Identity_index": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_4020": true,
+        "sympy/simplify/tests/test_cse.py::test_postprocess": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_inv": false,
+        "sympy/simplify/tests/test_cse.py::test_symbols_exhausted_error": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-22840/dedup_patch_17.jsonl": {
+      "sympy__sympy-22840": {
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": true,
+        "sympy/simplify/tests/test_cse.py::test_cse_single2": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_8891": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_single_indexing": true,
+        "sympy/simplify/tests/test_cse.py::test_cse_list": true,
+        "sympy/printing/tests/test_str.py::test_MatrixSlice": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_pow_index": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_4498": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_6263": true,
+        "sympy/simplify/tests/test_cse.py::test_name_conflict_cust_symbols": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_errors": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_Identity_index": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_4020": true,
+        "sympy/simplify/tests/test_cse.py::test_postprocess": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_inv": true,
+        "sympy/simplify/tests/test_cse.py::test_symbols_exhausted_error": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-22840/dedup_patch_18.jsonl": {
+      "sympy__sympy-22840": {
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": true,
+        "sympy/simplify/tests/test_cse.py::test_cse_single2": false,
+        "sympy/simplify/tests/test_cse.py::test_issue_8891": false,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_single_indexing": true,
+        "sympy/simplify/tests/test_cse.py::test_cse_list": false,
+        "sympy/printing/tests/test_str.py::test_MatrixSlice": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_pow_index": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_4498": false,
+        "sympy/simplify/tests/test_cse.py::test_issue_6263": false,
+        "sympy/simplify/tests/test_cse.py::test_name_conflict_cust_symbols": false,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_errors": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_Identity_index": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_4020": false,
+        "sympy/simplify/tests/test_cse.py::test_postprocess": false,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_inv": true,
+        "sympy/simplify/tests/test_cse.py::test_symbols_exhausted_error": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-22840/dedup_patch_19.jsonl": {
+      "sympy__sympy-22840": {
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": true,
+        "sympy/simplify/tests/test_cse.py::test_cse_single2": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_8891": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_single_indexing": true,
+        "sympy/simplify/tests/test_cse.py::test_cse_list": true,
+        "sympy/printing/tests/test_str.py::test_MatrixSlice": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_pow_index": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_4498": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_6263": true,
+        "sympy/simplify/tests/test_cse.py::test_name_conflict_cust_symbols": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_errors": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_Identity_index": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_4020": true,
+        "sympy/simplify/tests/test_cse.py::test_postprocess": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_inv": true,
+        "sympy/simplify/tests/test_cse.py::test_symbols_exhausted_error": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-22840/dedup_patch_2.jsonl": {
+      "sympy__sympy-22840": {
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": false,
+        "sympy/simplify/tests/test_cse.py::test_cse_single2": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_8891": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_single_indexing": true,
+        "sympy/simplify/tests/test_cse.py::test_cse_list": true,
+        "sympy/printing/tests/test_str.py::test_MatrixSlice": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_pow_index": false,
+        "sympy/simplify/tests/test_cse.py::test_issue_4498": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_6263": true,
+        "sympy/simplify/tests/test_cse.py::test_name_conflict_cust_symbols": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_errors": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_Identity_index": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_4020": true,
+        "sympy/simplify/tests/test_cse.py::test_postprocess": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_inv": true,
+        "sympy/simplify/tests/test_cse.py::test_symbols_exhausted_error": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-22840/dedup_patch_20.jsonl": {
+      "sympy__sympy-22840": {
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": true,
+        "sympy/simplify/tests/test_cse.py::test_cse_single2": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_8891": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_single_indexing": true,
+        "sympy/simplify/tests/test_cse.py::test_cse_list": true,
+        "sympy/printing/tests/test_str.py::test_MatrixSlice": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_pow_index": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_4498": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_6263": true,
+        "sympy/simplify/tests/test_cse.py::test_name_conflict_cust_symbols": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_errors": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_Identity_index": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_4020": true,
+        "sympy/simplify/tests/test_cse.py::test_postprocess": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_inv": true,
+        "sympy/simplify/tests/test_cse.py::test_symbols_exhausted_error": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-22840/dedup_patch_21.jsonl": {
+      "sympy__sympy-22840": {
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": true,
+        "sympy/simplify/tests/test_cse.py::test_cse_single2": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_8891": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_single_indexing": true,
+        "sympy/simplify/tests/test_cse.py::test_cse_list": true,
+        "sympy/printing/tests/test_str.py::test_MatrixSlice": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_pow_index": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_4498": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_6263": true,
+        "sympy/simplify/tests/test_cse.py::test_name_conflict_cust_symbols": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_errors": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_Identity_index": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_4020": true,
+        "sympy/simplify/tests/test_cse.py::test_postprocess": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_inv": true,
+        "sympy/simplify/tests/test_cse.py::test_symbols_exhausted_error": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-22840/dedup_patch_22.jsonl": {
+      "sympy__sympy-22840": {
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": true,
+        "sympy/simplify/tests/test_cse.py::test_cse_single2": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_8891": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_single_indexing": true,
+        "sympy/simplify/tests/test_cse.py::test_cse_list": true,
+        "sympy/printing/tests/test_str.py::test_MatrixSlice": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_pow_index": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_4498": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_6263": true,
+        "sympy/simplify/tests/test_cse.py::test_name_conflict_cust_symbols": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_errors": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_Identity_index": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_4020": true,
+        "sympy/simplify/tests/test_cse.py::test_postprocess": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_inv": true,
+        "sympy/simplify/tests/test_cse.py::test_symbols_exhausted_error": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-22840/dedup_patch_23.jsonl": {
+      "sympy__sympy-22840": {
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": true,
+        "sympy/simplify/tests/test_cse.py::test_cse_single2": false,
+        "sympy/simplify/tests/test_cse.py::test_issue_8891": false,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_single_indexing": true,
+        "sympy/simplify/tests/test_cse.py::test_cse_list": false,
+        "sympy/printing/tests/test_str.py::test_MatrixSlice": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_pow_index": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_4498": false,
+        "sympy/simplify/tests/test_cse.py::test_issue_6263": false,
+        "sympy/simplify/tests/test_cse.py::test_name_conflict_cust_symbols": false,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_errors": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_Identity_index": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_4020": false,
+        "sympy/simplify/tests/test_cse.py::test_postprocess": false,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_inv": true,
+        "sympy/simplify/tests/test_cse.py::test_symbols_exhausted_error": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-22840/dedup_patch_24.jsonl": {
+      "sympy__sympy-22840": {
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": true,
+        "sympy/simplify/tests/test_cse.py::test_cse_single2": false,
+        "sympy/simplify/tests/test_cse.py::test_issue_8891": false,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_single_indexing": true,
+        "sympy/simplify/tests/test_cse.py::test_cse_list": false,
+        "sympy/printing/tests/test_str.py::test_MatrixSlice": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_pow_index": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_4498": false,
+        "sympy/simplify/tests/test_cse.py::test_issue_6263": false,
+        "sympy/simplify/tests/test_cse.py::test_name_conflict_cust_symbols": false,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_errors": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_Identity_index": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_4020": false,
+        "sympy/simplify/tests/test_cse.py::test_postprocess": false,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_inv": true,
+        "sympy/simplify/tests/test_cse.py::test_symbols_exhausted_error": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-22840/dedup_patch_25.jsonl": {
+      "sympy__sympy-22840": {
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": true,
+        "sympy/simplify/tests/test_cse.py::test_cse_single2": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_8891": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_single_indexing": true,
+        "sympy/simplify/tests/test_cse.py::test_cse_list": true,
+        "sympy/printing/tests/test_str.py::test_MatrixSlice": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_pow_index": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_4498": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_6263": true,
+        "sympy/simplify/tests/test_cse.py::test_name_conflict_cust_symbols": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_errors": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_Identity_index": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_4020": true,
+        "sympy/simplify/tests/test_cse.py::test_postprocess": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_inv": true,
+        "sympy/simplify/tests/test_cse.py::test_symbols_exhausted_error": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-22840/dedup_patch_26.jsonl": {
+      "sympy__sympy-22840": {
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": true,
+        "sympy/simplify/tests/test_cse.py::test_cse_single2": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_8891": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_single_indexing": true,
+        "sympy/simplify/tests/test_cse.py::test_cse_list": true,
+        "sympy/printing/tests/test_str.py::test_MatrixSlice": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_pow_index": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_4498": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_6263": true,
+        "sympy/simplify/tests/test_cse.py::test_name_conflict_cust_symbols": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_errors": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_Identity_index": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_4020": true,
+        "sympy/simplify/tests/test_cse.py::test_postprocess": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_inv": true,
+        "sympy/simplify/tests/test_cse.py::test_symbols_exhausted_error": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-22840/dedup_patch_27.jsonl": {
+      "sympy__sympy-22840": {
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": true,
+        "sympy/simplify/tests/test_cse.py::test_cse_single2": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_8891": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_single_indexing": true,
+        "sympy/simplify/tests/test_cse.py::test_cse_list": true,
+        "sympy/printing/tests/test_str.py::test_MatrixSlice": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_pow_index": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_4498": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_6263": true,
+        "sympy/simplify/tests/test_cse.py::test_name_conflict_cust_symbols": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_errors": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_Identity_index": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_4020": true,
+        "sympy/simplify/tests/test_cse.py::test_postprocess": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_inv": true,
+        "sympy/simplify/tests/test_cse.py::test_symbols_exhausted_error": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-22840/dedup_patch_28.jsonl": {
+      "sympy__sympy-22840": {
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": true,
+        "sympy/simplify/tests/test_cse.py::test_cse_single2": false,
+        "sympy/simplify/tests/test_cse.py::test_issue_8891": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_single_indexing": true,
+        "sympy/simplify/tests/test_cse.py::test_cse_list": true,
+        "sympy/printing/tests/test_str.py::test_MatrixSlice": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_pow_index": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_4498": false,
+        "sympy/simplify/tests/test_cse.py::test_issue_6263": false,
+        "sympy/simplify/tests/test_cse.py::test_name_conflict_cust_symbols": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_errors": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_Identity_index": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_4020": false,
+        "sympy/simplify/tests/test_cse.py::test_postprocess": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_inv": true,
+        "sympy/simplify/tests/test_cse.py::test_symbols_exhausted_error": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-22840/dedup_patch_29.jsonl": {
+      "sympy__sympy-22840": {
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": true,
+        "sympy/simplify/tests/test_cse.py::test_cse_single2": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_8891": false,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_single_indexing": true,
+        "sympy/simplify/tests/test_cse.py::test_cse_list": true,
+        "sympy/printing/tests/test_str.py::test_MatrixSlice": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_pow_index": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_4498": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_6263": true,
+        "sympy/simplify/tests/test_cse.py::test_name_conflict_cust_symbols": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_errors": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_Identity_index": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_4020": true,
+        "sympy/simplify/tests/test_cse.py::test_postprocess": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_inv": true,
+        "sympy/simplify/tests/test_cse.py::test_symbols_exhausted_error": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-22840/dedup_patch_3.jsonl": {
+      "sympy__sympy-22840": {
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": true,
+        "sympy/simplify/tests/test_cse.py::test_cse_single2": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_8891": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_single_indexing": true,
+        "sympy/simplify/tests/test_cse.py::test_cse_list": true,
+        "sympy/printing/tests/test_str.py::test_MatrixSlice": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_pow_index": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_4498": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_6263": true,
+        "sympy/simplify/tests/test_cse.py::test_name_conflict_cust_symbols": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_errors": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_Identity_index": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_4020": true,
+        "sympy/simplify/tests/test_cse.py::test_postprocess": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_inv": true,
+        "sympy/simplify/tests/test_cse.py::test_symbols_exhausted_error": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-22840/dedup_patch_30.jsonl": {
+      "sympy__sympy-22840": {
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": true,
+        "sympy/simplify/tests/test_cse.py::test_cse_single2": false,
+        "sympy/simplify/tests/test_cse.py::test_issue_8891": false,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_single_indexing": true,
+        "sympy/simplify/tests/test_cse.py::test_cse_list": false,
+        "sympy/printing/tests/test_str.py::test_MatrixSlice": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_pow_index": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_4498": false,
+        "sympy/simplify/tests/test_cse.py::test_issue_6263": false,
+        "sympy/simplify/tests/test_cse.py::test_name_conflict_cust_symbols": false,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_errors": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_Identity_index": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_4020": false,
+        "sympy/simplify/tests/test_cse.py::test_postprocess": false,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_inv": true,
+        "sympy/simplify/tests/test_cse.py::test_symbols_exhausted_error": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-22840/dedup_patch_31.jsonl": {
+      "sympy__sympy-22840": {
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": true,
+        "sympy/simplify/tests/test_cse.py::test_cse_single2": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_8891": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_single_indexing": true,
+        "sympy/simplify/tests/test_cse.py::test_cse_list": true,
+        "sympy/printing/tests/test_str.py::test_MatrixSlice": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_pow_index": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_4498": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_6263": true,
+        "sympy/simplify/tests/test_cse.py::test_name_conflict_cust_symbols": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_errors": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_Identity_index": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_4020": true,
+        "sympy/simplify/tests/test_cse.py::test_postprocess": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_inv": true,
+        "sympy/simplify/tests/test_cse.py::test_symbols_exhausted_error": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-22840/dedup_patch_32.jsonl": {
+      "sympy__sympy-22840": {
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": true,
+        "sympy/simplify/tests/test_cse.py::test_cse_single2": false,
+        "sympy/simplify/tests/test_cse.py::test_issue_8891": false,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_single_indexing": true,
+        "sympy/simplify/tests/test_cse.py::test_cse_list": false,
+        "sympy/printing/tests/test_str.py::test_MatrixSlice": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_pow_index": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_4498": false,
+        "sympy/simplify/tests/test_cse.py::test_issue_6263": false,
+        "sympy/simplify/tests/test_cse.py::test_name_conflict_cust_symbols": false,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_errors": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_Identity_index": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_4020": false,
+        "sympy/simplify/tests/test_cse.py::test_postprocess": false,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_inv": true,
+        "sympy/simplify/tests/test_cse.py::test_symbols_exhausted_error": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-22840/dedup_patch_33.jsonl": {
+      "sympy__sympy-22840": {
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": true,
+        "sympy/simplify/tests/test_cse.py::test_cse_single2": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_8891": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_single_indexing": true,
+        "sympy/simplify/tests/test_cse.py::test_cse_list": true,
+        "sympy/printing/tests/test_str.py::test_MatrixSlice": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_pow_index": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_4498": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_6263": true,
+        "sympy/simplify/tests/test_cse.py::test_name_conflict_cust_symbols": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_errors": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_Identity_index": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_4020": true,
+        "sympy/simplify/tests/test_cse.py::test_postprocess": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_inv": true,
+        "sympy/simplify/tests/test_cse.py::test_symbols_exhausted_error": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-22840/dedup_patch_34.jsonl": {
+      "sympy__sympy-22840": {
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": true,
+        "sympy/simplify/tests/test_cse.py::test_cse_single2": false,
+        "sympy/simplify/tests/test_cse.py::test_issue_8891": false,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_single_indexing": true,
+        "sympy/simplify/tests/test_cse.py::test_cse_list": false,
+        "sympy/printing/tests/test_str.py::test_MatrixSlice": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_pow_index": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_4498": false,
+        "sympy/simplify/tests/test_cse.py::test_issue_6263": false,
+        "sympy/simplify/tests/test_cse.py::test_name_conflict_cust_symbols": false,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_errors": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_Identity_index": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_4020": false,
+        "sympy/simplify/tests/test_cse.py::test_postprocess": false,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_inv": true,
+        "sympy/simplify/tests/test_cse.py::test_symbols_exhausted_error": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-22840/dedup_patch_35.jsonl": {
+      "sympy__sympy-22840": {
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": true,
+        "sympy/simplify/tests/test_cse.py::test_cse_single2": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_8891": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_single_indexing": true,
+        "sympy/simplify/tests/test_cse.py::test_cse_list": true,
+        "sympy/printing/tests/test_str.py::test_MatrixSlice": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_pow_index": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_4498": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_6263": true,
+        "sympy/simplify/tests/test_cse.py::test_name_conflict_cust_symbols": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_errors": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_Identity_index": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_4020": true,
+        "sympy/simplify/tests/test_cse.py::test_postprocess": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_inv": true,
+        "sympy/simplify/tests/test_cse.py::test_symbols_exhausted_error": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-22840/dedup_patch_36.jsonl": {
+      "sympy__sympy-22840": {
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": true,
+        "sympy/simplify/tests/test_cse.py::test_cse_single2": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_8891": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_single_indexing": true,
+        "sympy/simplify/tests/test_cse.py::test_cse_list": true,
+        "sympy/printing/tests/test_str.py::test_MatrixSlice": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_pow_index": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_4498": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_6263": true,
+        "sympy/simplify/tests/test_cse.py::test_name_conflict_cust_symbols": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_errors": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_Identity_index": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_4020": true,
+        "sympy/simplify/tests/test_cse.py::test_postprocess": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_inv": true,
+        "sympy/simplify/tests/test_cse.py::test_symbols_exhausted_error": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-22840/dedup_patch_4.jsonl": {
+      "sympy__sympy-22840": {
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": false,
+        "sympy/simplify/tests/test_cse.py::test_cse_single2": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_8891": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_single_indexing": true,
+        "sympy/simplify/tests/test_cse.py::test_cse_list": true,
+        "sympy/printing/tests/test_str.py::test_MatrixSlice": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_pow_index": false,
+        "sympy/simplify/tests/test_cse.py::test_issue_4498": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_6263": true,
+        "sympy/simplify/tests/test_cse.py::test_name_conflict_cust_symbols": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_errors": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_Identity_index": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_4020": true,
+        "sympy/simplify/tests/test_cse.py::test_postprocess": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_inv": true,
+        "sympy/simplify/tests/test_cse.py::test_symbols_exhausted_error": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-22840/dedup_patch_5.jsonl": {
+      "sympy__sympy-22840": {
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": false,
+        "sympy/simplify/tests/test_cse.py::test_cse_single2": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_8891": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_single_indexing": true,
+        "sympy/simplify/tests/test_cse.py::test_cse_list": true,
+        "sympy/printing/tests/test_str.py::test_MatrixSlice": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_pow_index": false,
+        "sympy/simplify/tests/test_cse.py::test_issue_4498": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_6263": true,
+        "sympy/simplify/tests/test_cse.py::test_name_conflict_cust_symbols": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_errors": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_Identity_index": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_4020": true,
+        "sympy/simplify/tests/test_cse.py::test_postprocess": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_inv": true,
+        "sympy/simplify/tests/test_cse.py::test_symbols_exhausted_error": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-22840/dedup_patch_6.jsonl": {
+      "sympy__sympy-22840": {
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": false,
+        "sympy/simplify/tests/test_cse.py::test_cse_single2": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_8891": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_single_indexing": true,
+        "sympy/simplify/tests/test_cse.py::test_cse_list": true,
+        "sympy/printing/tests/test_str.py::test_MatrixSlice": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_pow_index": false,
+        "sympy/simplify/tests/test_cse.py::test_issue_4498": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_6263": true,
+        "sympy/simplify/tests/test_cse.py::test_name_conflict_cust_symbols": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_errors": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_Identity_index": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_4020": true,
+        "sympy/simplify/tests/test_cse.py::test_postprocess": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_inv": true,
+        "sympy/simplify/tests/test_cse.py::test_symbols_exhausted_error": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-22840/dedup_patch_7.jsonl": {
+      "sympy__sympy-22840": {
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": false,
+        "sympy/simplify/tests/test_cse.py::test_cse_single2": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_8891": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_single_indexing": false,
+        "sympy/simplify/tests/test_cse.py::test_cse_list": true,
+        "sympy/printing/tests/test_str.py::test_MatrixSlice": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_pow_index": false,
+        "sympy/simplify/tests/test_cse.py::test_issue_4498": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_6263": true,
+        "sympy/simplify/tests/test_cse.py::test_name_conflict_cust_symbols": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_errors": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_Identity_index": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_4020": true,
+        "sympy/simplify/tests/test_cse.py::test_postprocess": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_inv": false,
+        "sympy/simplify/tests/test_cse.py::test_symbols_exhausted_error": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-22840/dedup_patch_8.jsonl": {
+      "sympy__sympy-22840": {
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": false,
+        "sympy/simplify/tests/test_cse.py::test_cse_single2": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_8891": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_single_indexing": false,
+        "sympy/simplify/tests/test_cse.py::test_cse_list": true,
+        "sympy/printing/tests/test_str.py::test_MatrixSlice": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_pow_index": false,
+        "sympy/simplify/tests/test_cse.py::test_issue_4498": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_6263": true,
+        "sympy/simplify/tests/test_cse.py::test_name_conflict_cust_symbols": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_errors": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_Identity_index": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_4020": true,
+        "sympy/simplify/tests/test_cse.py::test_postprocess": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_inv": false,
+        "sympy/simplify/tests/test_cse.py::test_symbols_exhausted_error": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-22840/dedup_patch_9.jsonl": {
+      "sympy__sympy-22840": {
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": true,
+        "sympy/simplify/tests/test_cse.py::test_cse_single2": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_8891": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_single_indexing": true,
+        "sympy/simplify/tests/test_cse.py::test_cse_list": true,
+        "sympy/printing/tests/test_str.py::test_MatrixSlice": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_pow_index": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_4498": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_6263": true,
+        "sympy/simplify/tests/test_cse.py::test_name_conflict_cust_symbols": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_errors": true,
+        "sympy/matrices/expressions/tests/test_indexing.py::test_Identity_index": true,
+        "sympy/simplify/tests/test_cse.py::test_issue_4020": true,
+        "sympy/simplify/tests/test_cse.py::test_postprocess": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_inv": true,
+        "sympy/simplify/tests/test_cse.py::test_symbols_exhausted_error": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "sympy__sympy-22840": {
+        "sympy/simplify/tests/test_cse.py::test_cse_MatrixSymbol#1": false,
+        "sympy/simplify/tests/test_cse.py::test_cse_MatrixSymbol#2": false,
+        "sympy/simplify/tests/test_cse.py::test_cse_MatrixSymbol#3": false,
+        "sympy/simplify/tests/test_cse.py::test_cse_Indexed#4": false,
+        "sympy/simplify/tests/test_cse.py::test_cse_MatrixSymbol#5": false,
+        "sympy/simplify/tests/test_cse.py::test_cse_Indexed#6": false
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "regression": {
+    "all_patches/lite_claude_all_unique_patches/sphinx-doc__sphinx-7975/dedup_patch_0.jsonl": {
+      "sphinx-doc__sphinx-7975": {
+        "tests/test_build_html.py::test_html4_output": true,
+        "tests/test_build.py::test_build_all": false,
+        "tests/test_build_html.py::test_html5_output": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sphinx-doc__sphinx-7975/dedup_patch_1.jsonl": {
+      "sphinx-doc__sphinx-7975": {
+        "tests/test_build_html.py::test_html4_output": true,
+        "tests/test_build.py::test_build_all": false,
+        "tests/test_build_html.py::test_html5_output": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sphinx-doc__sphinx-7975/dedup_patch_2.jsonl": {
+      "sphinx-doc__sphinx-7975": {
+        "tests/test_build_html.py::test_html4_output": true,
+        "tests/test_build.py::test_build_all": false,
+        "tests/test_build_html.py::test_html5_output": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sphinx-doc__sphinx-7975/dedup_patch_3.jsonl": {
+      "sphinx-doc__sphinx-7975": {
+        "tests/test_build_html.py::test_html4_output": true,
+        "tests/test_build.py::test_build_all": false,
+        "tests/test_build_html.py::test_html5_output": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sphinx-doc__sphinx-7975/dedup_patch_4.jsonl": {
+      "sphinx-doc__sphinx-7975": {
+        "tests/test_build_html.py::test_html4_output": true,
+        "tests/test_build.py::test_build_all": false,
+        "tests/test_build_html.py::test_html5_output": false
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "sphinx-doc__sphinx-7975": {
+        "tests/test_environment_indexentries.py::test_create_index_by_key#1": false,
+        "tests/test_environment_indexentries.py::test_create_single_index#2": false,
+        "tests/test_environment_indexentries.py::test_create_index_by_key#3": false,
+        "tests/test_environment_indexentries.py::test_create_index_by_key#4": false,
+        "tests/test_environment_indexentries.py::test_create_index_by_key#5": false,
+        "tests/test_environment_indexentries.py::test_create_index_by_key#6": false
+      }
+    }
+  }
+}

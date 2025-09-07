@@ -1,0 +1,201 @@
+{
+  "regression": {
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-24909/dedup_patch_0.jsonl": {
+      "sympy__sympy-24909": {
+        "sympy/physics/units/tests/test_prefixes.py::test_prefix_operations": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-24909/dedup_patch_1.jsonl": {
+      "sympy__sympy-24909": {
+        "sympy/physics/units/tests/test_prefixes.py::test_prefix_operations": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-24909/dedup_patch_10.jsonl": {
+      "sympy__sympy-24909": {
+        "sympy/physics/units/tests/test_prefixes.py::test_prefix_operations": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-24909/dedup_patch_11.jsonl": {
+      "sympy__sympy-24909": {
+        "sympy/physics/units/tests/test_prefixes.py::test_prefix_operations": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-24909/dedup_patch_12.jsonl": {
+      "sympy__sympy-24909": {
+        "sympy/physics/units/tests/test_prefixes.py::test_prefix_operations": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-24909/dedup_patch_13.jsonl": {
+      "sympy__sympy-24909": {
+        "sympy/physics/units/tests/test_prefixes.py::test_prefix_operations": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-24909/dedup_patch_14.jsonl": {
+      "sympy__sympy-24909": {
+        "sympy/physics/units/tests/test_prefixes.py::test_prefix_operations": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-24909/dedup_patch_15.jsonl": {
+      "sympy__sympy-24909": {
+        "sympy/physics/units/tests/test_prefixes.py::test_prefix_operations": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-24909/dedup_patch_16.jsonl": {
+      "sympy__sympy-24909": {
+        "sympy/physics/units/tests/test_prefixes.py::test_prefix_operations": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-24909/dedup_patch_17.jsonl": {
+      "sympy__sympy-24909": {
+        "sympy/physics/units/tests/test_prefixes.py::test_prefix_operations": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-24909/dedup_patch_18.jsonl": {
+      "sympy__sympy-24909": {
+        "sympy/physics/units/tests/test_prefixes.py::test_prefix_operations": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-24909/dedup_patch_2.jsonl": {
+      "sympy__sympy-24909": {
+        "sympy/physics/units/tests/test_prefixes.py::test_prefix_operations": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-24909/dedup_patch_3.jsonl": {
+      "sympy__sympy-24909": {
+        "sympy/physics/units/tests/test_prefixes.py::test_prefix_operations": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-24909/dedup_patch_4.jsonl": {
+      "sympy__sympy-24909": {
+        "sympy/physics/units/tests/test_prefixes.py::test_prefix_operations": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-24909/dedup_patch_5.jsonl": {
+      "sympy__sympy-24909": {
+        "sympy/physics/units/tests/test_prefixes.py::test_prefix_operations": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-24909/dedup_patch_6.jsonl": {
+      "sympy__sympy-24909": {
+        "sympy/physics/units/tests/test_prefixes.py::test_prefix_operations": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-24909/dedup_patch_7.jsonl": {
+      "sympy__sympy-24909": {
+        "sympy/physics/units/tests/test_prefixes.py::test_prefix_operations": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-24909/dedup_patch_8.jsonl": {
+      "sympy__sympy-24909": {
+        "sympy/physics/units/tests/test_prefixes.py::test_prefix_operations": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-24909/dedup_patch_9.jsonl": {
+      "sympy__sympy-24909": {
+        "sympy/physics/units/tests/test_prefixes.py::test_prefix_operations": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "sympy__sympy-24909": {
+        "sympy/physics/units/tests/test_prefixes.py::test_prefix_operations#1": false,
+        "sympy/physics/units/tests/test_prefixes.py::test_bases#2": false,
+        "sympy/physics/units/tests/test_prefixes.py::test_prefix_operations#3": false,
+        "sympy/physics/units/tests/test_prefixes.py::test_prefix_operations#4": false,
+        "sympy/physics/units/tests/test_prefixes.py::test_bases#5": false,
+        "sympy/physics/units/tests/test_prefixes.py::test_prefix_operations#6": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-24909/dedup_patch_0.jsonl": {
+      "sympy__sympy-24909": {
+        "sympy/physics/units/tests/test_prefixes.py::test_prefix_operations#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-24909/dedup_patch_1.jsonl": {
+      "sympy__sympy-24909": {
+        "sympy/physics/units/tests/test_prefixes.py::test_prefix_operations#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-24909/dedup_patch_10.jsonl": {
+      "sympy__sympy-24909": {
+        "sympy/physics/units/tests/test_prefixes.py::test_prefix_operations#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-24909/dedup_patch_11.jsonl": {
+      "sympy__sympy-24909": {
+        "sympy/physics/units/tests/test_prefixes.py::test_prefix_operations#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-24909/dedup_patch_12.jsonl": {
+      "sympy__sympy-24909": {
+        "sympy/physics/units/tests/test_prefixes.py::test_prefix_operations#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-24909/dedup_patch_13.jsonl": {
+      "sympy__sympy-24909": {
+        "sympy/physics/units/tests/test_prefixes.py::test_prefix_operations#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-24909/dedup_patch_14.jsonl": {
+      "sympy__sympy-24909": {
+        "sympy/physics/units/tests/test_prefixes.py::test_prefix_operations#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-24909/dedup_patch_15.jsonl": {
+      "sympy__sympy-24909": {
+        "sympy/physics/units/tests/test_prefixes.py::test_prefix_operations#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-24909/dedup_patch_17.jsonl": {
+      "sympy__sympy-24909": {
+        "sympy/physics/units/tests/test_prefixes.py::test_prefix_operations#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-24909/dedup_patch_18.jsonl": {
+      "sympy__sympy-24909": {
+        "sympy/physics/units/tests/test_prefixes.py::test_prefix_operations#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-24909/dedup_patch_2.jsonl": {
+      "sympy__sympy-24909": {
+        "sympy/physics/units/tests/test_prefixes.py::test_prefix_operations#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-24909/dedup_patch_3.jsonl": {
+      "sympy__sympy-24909": {
+        "sympy/physics/units/tests/test_prefixes.py::test_prefix_operations#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-24909/dedup_patch_4.jsonl": {
+      "sympy__sympy-24909": {
+        "sympy/physics/units/tests/test_prefixes.py::test_prefix_operations#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-24909/dedup_patch_5.jsonl": {
+      "sympy__sympy-24909": {
+        "sympy/physics/units/tests/test_prefixes.py::test_prefix_operations#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-24909/dedup_patch_6.jsonl": {
+      "sympy__sympy-24909": {
+        "sympy/physics/units/tests/test_prefixes.py::test_prefix_operations#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-24909/dedup_patch_7.jsonl": {
+      "sympy__sympy-24909": {
+        "sympy/physics/units/tests/test_prefixes.py::test_prefix_operations#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-24909/dedup_patch_8.jsonl": {
+      "sympy__sympy-24909": {
+        "sympy/physics/units/tests/test_prefixes.py::test_prefix_operations#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-24909/dedup_patch_9.jsonl": {
+      "sympy__sympy-24909": {
+        "sympy/physics/units/tests/test_prefixes.py::test_prefix_operations#6": false
+      }
+    }
+  }
+}

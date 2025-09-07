@@ -1,0 +1,42 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/django__django-12713/dedup_patch_0.jsonl": {
+      "django__django-12713": {
+        "admin_widgets.tests.AdminForeignKeyRawIdWidget.test_nonexistent_target_id": true,
+        "admin_views.tests.UserAdminTest.test_user_permission_performance": true,
+        "admin_views.tests.AdminViewListEditable.test_changelist_input_html": true,
+        "admin_inlines.tests.TestInline.test_inline_primary": true,
+        "admin_views.tests.AdminKeepChangeListFiltersTests.test_change_view": true,
+        "admin_widgets.tests.AdminForeignKeyRawIdWidget.test_invalid_target_id": true,
+        "admin_widgets.tests.AdminFormfieldForDBFieldTests.test_choices_with_radio_fields": true,
+        "admin_views.tests.AdminKeepChangeListFiltersTests.test_add_view": true,
+        "admin_widgets.tests.AdminFormfieldForDBFieldTests.test_field_with_choices": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12713/dedup_patch_1.jsonl": {
+      "django__django-12713": {
+        "admin_widgets.tests.AdminForeignKeyRawIdWidget.test_nonexistent_target_id": true,
+        "admin_views.tests.UserAdminTest.test_user_permission_performance": true,
+        "admin_views.tests.AdminViewListEditable.test_changelist_input_html": true,
+        "admin_inlines.tests.TestInline.test_inline_primary": true,
+        "admin_views.tests.AdminKeepChangeListFiltersTests.test_change_view": true,
+        "admin_widgets.tests.AdminForeignKeyRawIdWidget.test_invalid_target_id": true,
+        "admin_widgets.tests.AdminFormfieldForDBFieldTests.test_choices_with_radio_fields": true,
+        "admin_views.tests.AdminKeepChangeListFiltersTests.test_add_view": true,
+        "admin_widgets.tests.AdminFormfieldForDBFieldTests.test_field_with_choices": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-12713": {
+        "admin_widgets.tests.AdminFormfieldForDBFieldTests.test_override_widget_in_formfield_for_manytomany#1": false,
+        "admin_widgets.tests.AdminFormfieldForDBFieldTests.test_widget_override_for_manytomany#2": false,
+        "admin_widgets.tests.AdminFormfieldForDBFieldTests.test_formfield_overrides_for_manytomany#3": false,
+        "admin_widgets.tests.AdminFormfieldForDBFieldTests.test_widget_override_for_manytomany#4": false,
+        "admin_widgets.tests.AdminFormfieldForDBFieldTests.test_formfield_overrides#5": false,
+        "admin_widgets.tests.AdminFormfieldForDBFieldTests.test_formfield_for_manytomany_widget_override#6": false
+      }
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/astropy__astropy-13033/dedup_patch_0.jsonl": {
+      "astropy__astropy-13033": {
+        "astropy/timeseries/tests/test_sampled.py::test_required_columns": false,
+        "astropy/timeseries/tests/test_sampled.py::test_empty_initialization": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/astropy__astropy-13033/dedup_patch_1.jsonl": {
+      "astropy__astropy-13033": {
+        "astropy/timeseries/tests/test_sampled.py::test_required_columns": false,
+        "astropy/timeseries/tests/test_sampled.py::test_empty_initialization": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/astropy__astropy-13033/dedup_patch_2.jsonl": {
+      "astropy__astropy-13033": {
+        "astropy/timeseries/tests/test_sampled.py::test_required_columns": false,
+        "astropy/timeseries/tests/test_sampled.py::test_empty_initialization": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/astropy__astropy-13033/dedup_patch_3.jsonl": {
+      "astropy__astropy-13033": {
+        "astropy/timeseries/tests/test_sampled.py::test_required_columns": false,
+        "astropy/timeseries/tests/test_sampled.py::test_empty_initialization": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/astropy__astropy-13033/dedup_patch_4.jsonl": {
+      "astropy__astropy-13033": {
+        "astropy/timeseries/tests/test_sampled.py::test_required_columns": false,
+        "astropy/timeseries/tests/test_sampled.py::test_empty_initialization": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/astropy__astropy-13033/dedup_patch_5.jsonl": {
+      "astropy__astropy-13033": {
+        "astropy/timeseries/tests/test_sampled.py::test_required_columns": false,
+        "astropy/timeseries/tests/test_sampled.py::test_empty_initialization": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/astropy__astropy-13033/dedup_patch_6.jsonl": {
+      "astropy__astropy-13033": {
+        "astropy/timeseries/tests/test_sampled.py::test_required_columns": false,
+        "astropy/timeseries/tests/test_sampled.py::test_empty_initialization": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/astropy__astropy-13033/dedup_patch_7.jsonl": {
+      "astropy__astropy-13033": {
+        "astropy/timeseries/tests/test_sampled.py::test_required_columns": false,
+        "astropy/timeseries/tests/test_sampled.py::test_empty_initialization": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/astropy__astropy-13033/dedup_patch_8.jsonl": {
+      "astropy__astropy-13033": {
+        "astropy/timeseries/tests/test_sampled.py::test_required_columns": false,
+        "astropy/timeseries/tests/test_sampled.py::test_empty_initialization": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "astropy__astropy-13033": {
+        "astropy/timeseries/tests/test_sampled.py::test_required_columns#1": false,
+        "astropy/timeseries/tests/test_sampled.py::test_required_columns#2": false,
+        "astropy/timeseries/tests/test_sampled.py::test_required_columns#3": false,
+        "astropy/timeseries/tests/test_sampled.py::test_tess_astropy#4": false,
+        "astropy/timeseries/tests/test_sampled.py::test_tess_astropy#5": false
+      }
+    }
+  }
+}

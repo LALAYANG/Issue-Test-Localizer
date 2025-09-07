@@ -1,0 +1,32 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/django__django-16139/dedup_patch_0.jsonl": {
+      "django__django-16139": {
+        "auth_tests.test_forms.UserChangeFormTest.test_username_field_autocapitalize_none": true,
+        "admin_views.tests.UserAdminTest.test_user_permission_performance": true,
+        "auth_tests.test_forms.UserChangeFormTest.test_bug_17944_empty_password": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-16139": {
+        "admin_views.tests.AdminSiteFinalCatchAllPatternTests.test_password_reset_link_with_to_field#1": true,
+        "admin_views.tests.AdminViewBasicTest.test_password_change_link_with_to_field#2": true,
+        "admin_views.tests.UserAdminTest.test_user_admin_password_link_with_to_field#3": true,
+        "admin_views.tests.AdminViewBasicTest.test_password_change_link_with_to_field#4": true,
+        "admin_views.tests.AdminSiteFinalCatchAllPatternTests.test_password_help_text_with_to_field#5": false,
+        "admin_views.tests.AdminSearchTest.test_user_change_password_link_with_to_field#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16139/dedup_patch_0.jsonl": {
+      "django__django-16139": {
+        "admin_views.tests.AdminSiteFinalCatchAllPatternTests.test_password_reset_link_with_to_field#1": false,
+        "admin_views.tests.AdminViewBasicTest.test_password_change_link_with_to_field#2": false,
+        "admin_views.tests.UserAdminTest.test_user_admin_password_link_with_to_field#3": false,
+        "admin_views.tests.AdminViewBasicTest.test_password_change_link_with_to_field#4": false,
+        "admin_views.tests.AdminSearchTest.test_user_change_password_link_with_to_field#6": false
+      }
+    }
+  }
+}

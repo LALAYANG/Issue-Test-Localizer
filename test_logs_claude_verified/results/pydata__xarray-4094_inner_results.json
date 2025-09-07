@@ -1,0 +1,536 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-4094/dedup_patch_0.jsonl": {
+      "pydata__xarray-4094": {
+        "xarray/tests/test_dataarray.py::TestDataArray::test_to_unstacked_dataset_raises_value_error": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_fill_value": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_sparse": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset": true,
+        "xarray/tests/test_dataarray.py::TestDataArray::test_stack_unstack": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_different_dimension": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-4094/dedup_patch_1.jsonl": {
+      "pydata__xarray-4094": {
+        "xarray/tests/test_dataarray.py::TestDataArray::test_to_unstacked_dataset_raises_value_error": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_fill_value": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_sparse": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset": true,
+        "xarray/tests/test_dataarray.py::TestDataArray::test_stack_unstack": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_different_dimension": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-4094/dedup_patch_10.jsonl": {
+      "pydata__xarray-4094": {
+        "xarray/tests/test_dataarray.py::TestDataArray::test_to_unstacked_dataset_raises_value_error": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_fill_value": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_sparse": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset": true,
+        "xarray/tests/test_dataarray.py::TestDataArray::test_stack_unstack": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_different_dimension": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-4094/dedup_patch_11.jsonl": {
+      "pydata__xarray-4094": {
+        "xarray/tests/test_dataarray.py::TestDataArray::test_to_unstacked_dataset_raises_value_error": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_fill_value": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_sparse": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset": true,
+        "xarray/tests/test_dataarray.py::TestDataArray::test_stack_unstack": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_different_dimension": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-4094/dedup_patch_12.jsonl": {
+      "pydata__xarray-4094": {
+        "xarray/tests/test_dataarray.py::TestDataArray::test_to_unstacked_dataset_raises_value_error": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_fill_value": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_sparse": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset": false,
+        "xarray/tests/test_dataarray.py::TestDataArray::test_stack_unstack": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_different_dimension": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-4094/dedup_patch_13.jsonl": {
+      "pydata__xarray-4094": {
+        "xarray/tests/test_dataarray.py::TestDataArray::test_to_unstacked_dataset_raises_value_error": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_fill_value": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_sparse": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset": false,
+        "xarray/tests/test_dataarray.py::TestDataArray::test_stack_unstack": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_different_dimension": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-4094/dedup_patch_14.jsonl": {
+      "pydata__xarray-4094": {
+        "xarray/tests/test_dataarray.py::TestDataArray::test_to_unstacked_dataset_raises_value_error": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_fill_value": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_sparse": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset": true,
+        "xarray/tests/test_dataarray.py::TestDataArray::test_stack_unstack": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_different_dimension": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-4094/dedup_patch_15.jsonl": {
+      "pydata__xarray-4094": {
+        "xarray/tests/test_dataarray.py::TestDataArray::test_to_unstacked_dataset_raises_value_error": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_fill_value": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_sparse": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset": true,
+        "xarray/tests/test_dataarray.py::TestDataArray::test_stack_unstack": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_different_dimension": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-4094/dedup_patch_16.jsonl": {
+      "pydata__xarray-4094": {
+        "xarray/tests/test_dataarray.py::TestDataArray::test_to_unstacked_dataset_raises_value_error": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_fill_value": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_sparse": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset": false,
+        "xarray/tests/test_dataarray.py::TestDataArray::test_stack_unstack": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_different_dimension": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-4094/dedup_patch_17.jsonl": {
+      "pydata__xarray-4094": {
+        "xarray/tests/test_dataarray.py::TestDataArray::test_to_unstacked_dataset_raises_value_error": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_fill_value": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_sparse": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset": true,
+        "xarray/tests/test_dataarray.py::TestDataArray::test_stack_unstack": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_different_dimension": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-4094/dedup_patch_18.jsonl": {
+      "pydata__xarray-4094": {
+        "xarray/tests/test_dataarray.py::TestDataArray::test_to_unstacked_dataset_raises_value_error": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_fill_value": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_sparse": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset": true,
+        "xarray/tests/test_dataarray.py::TestDataArray::test_stack_unstack": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_different_dimension": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-4094/dedup_patch_19.jsonl": {
+      "pydata__xarray-4094": {
+        "xarray/tests/test_dataarray.py::TestDataArray::test_to_unstacked_dataset_raises_value_error": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_fill_value": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_sparse": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset": false,
+        "xarray/tests/test_dataarray.py::TestDataArray::test_stack_unstack": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_different_dimension": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-4094/dedup_patch_2.jsonl": {
+      "pydata__xarray-4094": {
+        "xarray/tests/test_dataarray.py::TestDataArray::test_to_unstacked_dataset_raises_value_error": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_fill_value": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_sparse": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset": true,
+        "xarray/tests/test_dataarray.py::TestDataArray::test_stack_unstack": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_different_dimension": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-4094/dedup_patch_20.jsonl": {
+      "pydata__xarray-4094": {
+        "xarray/tests/test_dataarray.py::TestDataArray::test_to_unstacked_dataset_raises_value_error": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_fill_value": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_sparse": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset": true,
+        "xarray/tests/test_dataarray.py::TestDataArray::test_stack_unstack": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_different_dimension": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-4094/dedup_patch_21.jsonl": {
+      "pydata__xarray-4094": {
+        "xarray/tests/test_dataarray.py::TestDataArray::test_to_unstacked_dataset_raises_value_error": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_fill_value": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_sparse": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset": true,
+        "xarray/tests/test_dataarray.py::TestDataArray::test_stack_unstack": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_different_dimension": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-4094/dedup_patch_22.jsonl": {
+      "pydata__xarray-4094": {
+        "xarray/tests/test_dataarray.py::TestDataArray::test_to_unstacked_dataset_raises_value_error": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_fill_value": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_sparse": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset": true,
+        "xarray/tests/test_dataarray.py::TestDataArray::test_stack_unstack": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_different_dimension": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-4094/dedup_patch_23.jsonl": {
+      "pydata__xarray-4094": {
+        "xarray/tests/test_dataarray.py::TestDataArray::test_to_unstacked_dataset_raises_value_error": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_fill_value": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_sparse": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset": false,
+        "xarray/tests/test_dataarray.py::TestDataArray::test_stack_unstack": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_different_dimension": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-4094/dedup_patch_24.jsonl": {
+      "pydata__xarray-4094": {
+        "xarray/tests/test_dataarray.py::TestDataArray::test_to_unstacked_dataset_raises_value_error": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_fill_value": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_sparse": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset": true,
+        "xarray/tests/test_dataarray.py::TestDataArray::test_stack_unstack": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_different_dimension": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-4094/dedup_patch_25.jsonl": {
+      "pydata__xarray-4094": {
+        "xarray/tests/test_dataarray.py::TestDataArray::test_to_unstacked_dataset_raises_value_error": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_fill_value": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_sparse": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset": false,
+        "xarray/tests/test_dataarray.py::TestDataArray::test_stack_unstack": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_different_dimension": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-4094/dedup_patch_26.jsonl": {
+      "pydata__xarray-4094": {
+        "xarray/tests/test_dataarray.py::TestDataArray::test_to_unstacked_dataset_raises_value_error": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_fill_value": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_sparse": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset": true,
+        "xarray/tests/test_dataarray.py::TestDataArray::test_stack_unstack": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_different_dimension": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-4094/dedup_patch_27.jsonl": {
+      "pydata__xarray-4094": {
+        "xarray/tests/test_dataarray.py::TestDataArray::test_to_unstacked_dataset_raises_value_error": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_fill_value": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_sparse": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset": false,
+        "xarray/tests/test_dataarray.py::TestDataArray::test_stack_unstack": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_different_dimension": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-4094/dedup_patch_28.jsonl": {
+      "pydata__xarray-4094": {
+        "xarray/tests/test_dataarray.py::TestDataArray::test_to_unstacked_dataset_raises_value_error": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_fill_value": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_sparse": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset": false,
+        "xarray/tests/test_dataarray.py::TestDataArray::test_stack_unstack": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_different_dimension": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-4094/dedup_patch_29.jsonl": {
+      "pydata__xarray-4094": {
+        "xarray/tests/test_dataarray.py::TestDataArray::test_to_unstacked_dataset_raises_value_error": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_fill_value": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_sparse": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset": false,
+        "xarray/tests/test_dataarray.py::TestDataArray::test_stack_unstack": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_different_dimension": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-4094/dedup_patch_3.jsonl": {
+      "pydata__xarray-4094": {
+        "xarray/tests/test_dataarray.py::TestDataArray::test_to_unstacked_dataset_raises_value_error": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_fill_value": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_sparse": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset": true,
+        "xarray/tests/test_dataarray.py::TestDataArray::test_stack_unstack": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_different_dimension": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-4094/dedup_patch_30.jsonl": {
+      "pydata__xarray-4094": {
+        "xarray/tests/test_dataarray.py::TestDataArray::test_to_unstacked_dataset_raises_value_error": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_fill_value": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_sparse": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset": true,
+        "xarray/tests/test_dataarray.py::TestDataArray::test_stack_unstack": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_different_dimension": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-4094/dedup_patch_31.jsonl": {
+      "pydata__xarray-4094": {
+        "xarray/tests/test_dataarray.py::TestDataArray::test_to_unstacked_dataset_raises_value_error": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_fill_value": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_sparse": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset": false,
+        "xarray/tests/test_dataarray.py::TestDataArray::test_stack_unstack": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_different_dimension": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-4094/dedup_patch_32.jsonl": {
+      "pydata__xarray-4094": {
+        "xarray/tests/test_dataarray.py::TestDataArray::test_to_unstacked_dataset_raises_value_error": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_fill_value": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_sparse": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset": false,
+        "xarray/tests/test_dataarray.py::TestDataArray::test_stack_unstack": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_different_dimension": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-4094/dedup_patch_33.jsonl": {
+      "pydata__xarray-4094": {
+        "xarray/tests/test_dataarray.py::TestDataArray::test_to_unstacked_dataset_raises_value_error": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_fill_value": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_sparse": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset": false,
+        "xarray/tests/test_dataarray.py::TestDataArray::test_stack_unstack": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_different_dimension": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-4094/dedup_patch_34.jsonl": {
+      "pydata__xarray-4094": {
+        "xarray/tests/test_dataarray.py::TestDataArray::test_to_unstacked_dataset_raises_value_error": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_fill_value": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_sparse": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset": false,
+        "xarray/tests/test_dataarray.py::TestDataArray::test_stack_unstack": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_different_dimension": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-4094/dedup_patch_35.jsonl": {
+      "pydata__xarray-4094": {
+        "xarray/tests/test_dataarray.py::TestDataArray::test_to_unstacked_dataset_raises_value_error": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_fill_value": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_sparse": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset": true,
+        "xarray/tests/test_dataarray.py::TestDataArray::test_stack_unstack": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_different_dimension": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-4094/dedup_patch_36.jsonl": {
+      "pydata__xarray-4094": {
+        "xarray/tests/test_dataarray.py::TestDataArray::test_to_unstacked_dataset_raises_value_error": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_fill_value": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_sparse": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset": true,
+        "xarray/tests/test_dataarray.py::TestDataArray::test_stack_unstack": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_different_dimension": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-4094/dedup_patch_37.jsonl": {
+      "pydata__xarray-4094": {
+        "xarray/tests/test_dataarray.py::TestDataArray::test_to_unstacked_dataset_raises_value_error": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_fill_value": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_sparse": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset": true,
+        "xarray/tests/test_dataarray.py::TestDataArray::test_stack_unstack": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_different_dimension": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-4094/dedup_patch_4.jsonl": {
+      "pydata__xarray-4094": {
+        "xarray/tests/test_dataarray.py::TestDataArray::test_to_unstacked_dataset_raises_value_error": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_fill_value": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_sparse": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset": false,
+        "xarray/tests/test_dataarray.py::TestDataArray::test_stack_unstack": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_different_dimension": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-4094/dedup_patch_5.jsonl": {
+      "pydata__xarray-4094": {
+        "xarray/tests/test_dataarray.py::TestDataArray::test_to_unstacked_dataset_raises_value_error": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_fill_value": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_sparse": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset": false,
+        "xarray/tests/test_dataarray.py::TestDataArray::test_stack_unstack": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_different_dimension": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-4094/dedup_patch_6.jsonl": {
+      "pydata__xarray-4094": {
+        "xarray/tests/test_dataarray.py::TestDataArray::test_to_unstacked_dataset_raises_value_error": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_fill_value": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_sparse": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset": false,
+        "xarray/tests/test_dataarray.py::TestDataArray::test_stack_unstack": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_different_dimension": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-4094/dedup_patch_7.jsonl": {
+      "pydata__xarray-4094": {
+        "xarray/tests/test_dataarray.py::TestDataArray::test_to_unstacked_dataset_raises_value_error": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_fill_value": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_sparse": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset": false,
+        "xarray/tests/test_dataarray.py::TestDataArray::test_stack_unstack": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_different_dimension": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-4094/dedup_patch_8.jsonl": {
+      "pydata__xarray-4094": {
+        "xarray/tests/test_dataarray.py::TestDataArray::test_to_unstacked_dataset_raises_value_error": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_fill_value": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_sparse": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset": false,
+        "xarray/tests/test_dataarray.py::TestDataArray::test_stack_unstack": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_different_dimension": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-4094/dedup_patch_9.jsonl": {
+      "pydata__xarray-4094": {
+        "xarray/tests/test_dataarray.py::TestDataArray::test_to_unstacked_dataset_raises_value_error": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_fill_value": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_unstack_sparse": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset": false,
+        "xarray/tests/test_dataarray.py::TestDataArray::test_stack_unstack": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_different_dimension": false
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "pydata__xarray-4094": {
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_single_dim#1": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_single_dim#2": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_unstacked_dataset_single_dim#3": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_unstacked_dataset_single_dim#4": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_single_dim#5": true,
+        "xarray/tests/test_dataarray.py::TestDataArray::test_to_unstacked_dataset_single_dim#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-4094/dedup_patch_0.jsonl": {
+      "pydata__xarray-4094": {
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_single_dim#1": false,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_single_dim#2": false,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_unstacked_dataset_single_dim#3": false,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_unstacked_dataset_single_dim#4": false,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_single_dim#5": false,
+        "xarray/tests/test_dataarray.py::TestDataArray::test_to_unstacked_dataset_single_dim#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-4094/dedup_patch_1.jsonl": {
+      "pydata__xarray-4094": {
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_single_dim#1": false,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_single_dim#2": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_unstacked_dataset_single_dim#3": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_unstacked_dataset_single_dim#4": false,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_single_dim#5": false,
+        "xarray/tests/test_dataarray.py::TestDataArray::test_to_unstacked_dataset_single_dim#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-4094/dedup_patch_10.jsonl": {
+      "pydata__xarray-4094": {
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_single_dim#1": false,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_single_dim#2": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_unstacked_dataset_single_dim#3": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_unstacked_dataset_single_dim#4": false,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_single_dim#5": false,
+        "xarray/tests/test_dataarray.py::TestDataArray::test_to_unstacked_dataset_single_dim#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-4094/dedup_patch_11.jsonl": {
+      "pydata__xarray-4094": {
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_single_dim#1": false,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_single_dim#2": false,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_unstacked_dataset_single_dim#3": false,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_unstacked_dataset_single_dim#4": false,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_single_dim#5": false,
+        "xarray/tests/test_dataarray.py::TestDataArray::test_to_unstacked_dataset_single_dim#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-4094/dedup_patch_15.jsonl": {
+      "pydata__xarray-4094": {
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_single_dim#1": false,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_single_dim#2": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_unstacked_dataset_single_dim#3": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_unstacked_dataset_single_dim#4": false,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_single_dim#5": false,
+        "xarray/tests/test_dataarray.py::TestDataArray::test_to_unstacked_dataset_single_dim#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-4094/dedup_patch_17.jsonl": {
+      "pydata__xarray-4094": {
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_single_dim#1": false,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_single_dim#2": false,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_unstacked_dataset_single_dim#3": false,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_unstacked_dataset_single_dim#4": false,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_single_dim#5": false,
+        "xarray/tests/test_dataarray.py::TestDataArray::test_to_unstacked_dataset_single_dim#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-4094/dedup_patch_18.jsonl": {
+      "pydata__xarray-4094": {
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_single_dim#1": false,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_single_dim#2": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_unstacked_dataset_single_dim#3": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_unstacked_dataset_single_dim#4": false,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_single_dim#5": false,
+        "xarray/tests/test_dataarray.py::TestDataArray::test_to_unstacked_dataset_single_dim#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-4094/dedup_patch_2.jsonl": {
+      "pydata__xarray-4094": {
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_single_dim#1": false,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_single_dim#2": false,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_unstacked_dataset_single_dim#3": false,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_unstacked_dataset_single_dim#4": false,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_single_dim#5": false,
+        "xarray/tests/test_dataarray.py::TestDataArray::test_to_unstacked_dataset_single_dim#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-4094/dedup_patch_21.jsonl": {
+      "pydata__xarray-4094": {
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_single_dim#1": false,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_single_dim#2": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_unstacked_dataset_single_dim#3": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_unstacked_dataset_single_dim#4": false,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_single_dim#5": false,
+        "xarray/tests/test_dataarray.py::TestDataArray::test_to_unstacked_dataset_single_dim#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-4094/dedup_patch_22.jsonl": {
+      "pydata__xarray-4094": {
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_single_dim#1": false,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_single_dim#2": false,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_unstacked_dataset_single_dim#3": false,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_unstacked_dataset_single_dim#4": false,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_single_dim#5": false,
+        "xarray/tests/test_dataarray.py::TestDataArray::test_to_unstacked_dataset_single_dim#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-4094/dedup_patch_26.jsonl": {
+      "pydata__xarray-4094": {
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_single_dim#1": false,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_single_dim#2": false,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_unstacked_dataset_single_dim#3": false,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_unstacked_dataset_single_dim#4": false,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_single_dim#5": false,
+        "xarray/tests/test_dataarray.py::TestDataArray::test_to_unstacked_dataset_single_dim#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-4094/dedup_patch_3.jsonl": {
+      "pydata__xarray-4094": {
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_single_dim#1": false,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_single_dim#2": false,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_unstacked_dataset_single_dim#3": false,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_unstacked_dataset_single_dim#4": false,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_single_dim#5": false,
+        "xarray/tests/test_dataarray.py::TestDataArray::test_to_unstacked_dataset_single_dim#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-4094/dedup_patch_36.jsonl": {
+      "pydata__xarray-4094": {
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_single_dim#1": false,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_single_dim#2": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_unstacked_dataset_single_dim#3": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_unstacked_dataset_single_dim#4": false,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_single_dim#5": false,
+        "xarray/tests/test_dataarray.py::TestDataArray::test_to_unstacked_dataset_single_dim#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-4094/dedup_patch_37.jsonl": {
+      "pydata__xarray-4094": {
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_single_dim#1": false,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_single_dim#2": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_unstacked_dataset_single_dim#3": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_unstacked_dataset_single_dim#4": false,
+        "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset_single_dim#5": false,
+        "xarray/tests/test_dataarray.py::TestDataArray::test_to_unstacked_dataset_single_dim#6": true
+      }
+    }
+  }
+}

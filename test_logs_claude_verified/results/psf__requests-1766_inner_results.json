@@ -1,0 +1,23 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/psf__requests-1766/dedup_patch_0.jsonl": {
+      "psf__requests-1766": {
+        "test_requests.py::RequestsTestCase::test_DIGEST_STREAM": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "psf__requests-1766": {
+        "test_requests.py::RequestsTestCase::test_digest_auth_qop_is_quoted#1": true,
+        "test_requests.py::RequestsTestCase::test_digest_auth_qop_quoting#2": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/psf__requests-1766/dedup_patch_0.jsonl": {
+      "psf__requests-1766": {
+        "test_requests.py::RequestsTestCase::test_digest_auth_qop_is_quoted#1": true,
+        "test_requests.py::RequestsTestCase::test_digest_auth_qop_quoting#2": false
+      }
+    }
+  }
+}

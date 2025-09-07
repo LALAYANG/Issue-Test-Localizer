@@ -1,0 +1,96 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/django__django-13315/dedup_patch_0.jsonl": {
+      "django__django-13315": {
+        "model_forms.tests.ModelFormBasicTests.test_validate_foreign_key_uses_default_manager": true,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_disabled_modelchoicefield": true,
+        "model_forms.tests.OtherModelFormTests.test_foreignkeys_which_use_to_field": true,
+        "model_forms.tests.LimitChoicesToTests.test_callable_called_each_time_form_is_instantiated": true,
+        "model_forms.tests.LimitChoicesToTests.test_fields_for_model_applies_limit_choices_to": true,
+        "model_forms.tests.LimitChoicesToTests.test_limit_choices_to_callable_for_fk_rel": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13315/dedup_patch_1.jsonl": {
+      "django__django-13315": {
+        "model_forms.tests.ModelFormBasicTests.test_validate_foreign_key_uses_default_manager": true,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_disabled_modelchoicefield": true,
+        "model_forms.tests.OtherModelFormTests.test_foreignkeys_which_use_to_field": true,
+        "model_forms.tests.LimitChoicesToTests.test_callable_called_each_time_form_is_instantiated": true,
+        "model_forms.tests.LimitChoicesToTests.test_fields_for_model_applies_limit_choices_to": true,
+        "model_forms.tests.LimitChoicesToTests.test_limit_choices_to_callable_for_fk_rel": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13315/dedup_patch_2.jsonl": {
+      "django__django-13315": {
+        "model_forms.tests.ModelFormBasicTests.test_validate_foreign_key_uses_default_manager": true,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_disabled_modelchoicefield": true,
+        "model_forms.tests.OtherModelFormTests.test_foreignkeys_which_use_to_field": true,
+        "model_forms.tests.LimitChoicesToTests.test_callable_called_each_time_form_is_instantiated": true,
+        "model_forms.tests.LimitChoicesToTests.test_fields_for_model_applies_limit_choices_to": true,
+        "model_forms.tests.LimitChoicesToTests.test_limit_choices_to_callable_for_fk_rel": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13315/dedup_patch_3.jsonl": {
+      "django__django-13315": {
+        "model_forms.tests.ModelFormBasicTests.test_validate_foreign_key_uses_default_manager": true,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_disabled_modelchoicefield": true,
+        "model_forms.tests.OtherModelFormTests.test_foreignkeys_which_use_to_field": true,
+        "model_forms.tests.LimitChoicesToTests.test_callable_called_each_time_form_is_instantiated": true,
+        "model_forms.tests.LimitChoicesToTests.test_fields_for_model_applies_limit_choices_to": true,
+        "model_forms.tests.LimitChoicesToTests.test_limit_choices_to_callable_for_fk_rel": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-13315": {
+        "model_forms.tests.LimitChoicesToTests.test_limit_choices_to_with_q_object_join_no_duplicates#1": true,
+        "model_forms.tests.LimitChoicesToTests.test_limit_choices_to_q_object_no_duplicates#2": true,
+        "model_forms.tests.LimitChoicesToTests.test_limit_choices_to_q_object_with_join_no_duplicates#3": true,
+        "model_forms.tests.LimitChoicesToTests.test_limit_choices_to_q_object_for_fk_rel#4": true,
+        "model_forms.tests.LimitChoicesToTests.test_limit_choices_to_q_object_for_fk_rel#5": true,
+        "model_forms.tests.LimitChoicesToTests.test_limit_choices_to_q_object_with_joins#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13315/dedup_patch_0.jsonl": {
+      "django__django-13315": {
+        "model_forms.tests.LimitChoicesToTests.test_limit_choices_to_with_q_object_join_no_duplicates#1": false,
+        "model_forms.tests.LimitChoicesToTests.test_limit_choices_to_q_object_no_duplicates#2": false,
+        "model_forms.tests.LimitChoicesToTests.test_limit_choices_to_q_object_with_join_no_duplicates#3": false,
+        "model_forms.tests.LimitChoicesToTests.test_limit_choices_to_q_object_for_fk_rel#4": false,
+        "model_forms.tests.LimitChoicesToTests.test_limit_choices_to_q_object_for_fk_rel#5": false,
+        "model_forms.tests.LimitChoicesToTests.test_limit_choices_to_q_object_with_joins#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13315/dedup_patch_1.jsonl": {
+      "django__django-13315": {
+        "model_forms.tests.LimitChoicesToTests.test_limit_choices_to_with_q_object_join_no_duplicates#1": false,
+        "model_forms.tests.LimitChoicesToTests.test_limit_choices_to_q_object_no_duplicates#2": false,
+        "model_forms.tests.LimitChoicesToTests.test_limit_choices_to_q_object_with_join_no_duplicates#3": false,
+        "model_forms.tests.LimitChoicesToTests.test_limit_choices_to_q_object_for_fk_rel#4": false,
+        "model_forms.tests.LimitChoicesToTests.test_limit_choices_to_q_object_for_fk_rel#5": false,
+        "model_forms.tests.LimitChoicesToTests.test_limit_choices_to_q_object_with_joins#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13315/dedup_patch_2.jsonl": {
+      "django__django-13315": {
+        "model_forms.tests.LimitChoicesToTests.test_limit_choices_to_with_q_object_join_no_duplicates#1": false,
+        "model_forms.tests.LimitChoicesToTests.test_limit_choices_to_q_object_no_duplicates#2": false,
+        "model_forms.tests.LimitChoicesToTests.test_limit_choices_to_q_object_with_join_no_duplicates#3": false,
+        "model_forms.tests.LimitChoicesToTests.test_limit_choices_to_q_object_for_fk_rel#4": false,
+        "model_forms.tests.LimitChoicesToTests.test_limit_choices_to_q_object_for_fk_rel#5": false,
+        "model_forms.tests.LimitChoicesToTests.test_limit_choices_to_q_object_with_joins#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13315/dedup_patch_3.jsonl": {
+      "django__django-13315": {
+        "model_forms.tests.LimitChoicesToTests.test_limit_choices_to_with_q_object_join_no_duplicates#1": false,
+        "model_forms.tests.LimitChoicesToTests.test_limit_choices_to_q_object_no_duplicates#2": false,
+        "model_forms.tests.LimitChoicesToTests.test_limit_choices_to_q_object_with_join_no_duplicates#3": false,
+        "model_forms.tests.LimitChoicesToTests.test_limit_choices_to_q_object_for_fk_rel#4": false,
+        "model_forms.tests.LimitChoicesToTests.test_limit_choices_to_q_object_for_fk_rel#5": false,
+        "model_forms.tests.LimitChoicesToTests.test_limit_choices_to_q_object_with_joins#6": false
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "regression": {
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-13480/dedup_patch_0.jsonl": {
+      "sympy__sympy-13480": {
+        "sympy/functions/elementary/tests/test_hyperbolic.py::test_simplifications": true,
+        "sympy/functions/elementary/tests/test_hyperbolic.py::test_coth": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "sympy__sympy-13480": {
+        "sympy/functions/elementary/tests/test_hyperbolic.py::test_tanh_series#1": false,
+        "sympy/functions/elementary/tests/test_hyperbolic.py::test_coth#2": false,
+        "sympy/functions/elementary/tests/test_hyperbolic.py::test_coth#3": false,
+        "sympy/functions/elementary/tests/test_hyperbolic.py::test_coth_rewrite#4": false,
+        "sympy/functions/elementary/tests/test_hyperbolic.py::test_coth_rewrite#5": false,
+        "sympy/functions/elementary/tests/test_hyperbolic.py::test_tanh_series#6": false
+      }
+    }
+  }
+}

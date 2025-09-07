@@ -1,0 +1,81 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/scikit-learn__scikit-learn-13779/dedup_patch_0.jsonl": {
+      "scikit-learn__scikit-learn-13779": {
+        "sklearn/ensemble/tests/test_voting.py::test_set_estimator_none": true,
+        "sklearn/ensemble/tests/test_voting.py::test_multilabel": true,
+        "sklearn/ensemble/tests/test_voting.py::test_estimator_init": true,
+        "sklearn/ensemble/tests/test_voting.py::test_transform": true,
+        "sklearn/ensemble/tests/test_voting.py::test_sample_weight": true,
+        "sklearn/ensemble/tests/test_voting.py::test_predict_proba_on_toy_problem": true,
+        "sklearn/ensemble/tests/test_voting.py::test_predictproba_hardvoting": true,
+        "sklearn/ensemble/tests/test_voting.py::test_notfitted": true,
+        "sklearn/ensemble/tests/test_voting.py::test_weights_regressor": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/scikit-learn__scikit-learn-13779/dedup_patch_1.jsonl": {
+      "scikit-learn__scikit-learn-13779": {
+        "sklearn/ensemble/tests/test_voting.py::test_set_estimator_none": true,
+        "sklearn/ensemble/tests/test_voting.py::test_multilabel": true,
+        "sklearn/ensemble/tests/test_voting.py::test_estimator_init": true,
+        "sklearn/ensemble/tests/test_voting.py::test_transform": true,
+        "sklearn/ensemble/tests/test_voting.py::test_sample_weight": true,
+        "sklearn/ensemble/tests/test_voting.py::test_predict_proba_on_toy_problem": true,
+        "sklearn/ensemble/tests/test_voting.py::test_predictproba_hardvoting": true,
+        "sklearn/ensemble/tests/test_voting.py::test_notfitted": true,
+        "sklearn/ensemble/tests/test_voting.py::test_weights_regressor": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/scikit-learn__scikit-learn-13779/dedup_patch_2.jsonl": {
+      "scikit-learn__scikit-learn-13779": {
+        "sklearn/ensemble/tests/test_voting.py::test_set_estimator_none": true,
+        "sklearn/ensemble/tests/test_voting.py::test_multilabel": true,
+        "sklearn/ensemble/tests/test_voting.py::test_estimator_init": true,
+        "sklearn/ensemble/tests/test_voting.py::test_transform": true,
+        "sklearn/ensemble/tests/test_voting.py::test_sample_weight": true,
+        "sklearn/ensemble/tests/test_voting.py::test_predict_proba_on_toy_problem": true,
+        "sklearn/ensemble/tests/test_voting.py::test_predictproba_hardvoting": true,
+        "sklearn/ensemble/tests/test_voting.py::test_notfitted": true,
+        "sklearn/ensemble/tests/test_voting.py::test_weights_regressor": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/scikit-learn__scikit-learn-13779/dedup_patch_3.jsonl": {
+      "scikit-learn__scikit-learn-13779": {
+        "sklearn/ensemble/tests/test_voting.py::test_set_estimator_none": true,
+        "sklearn/ensemble/tests/test_voting.py::test_multilabel": true,
+        "sklearn/ensemble/tests/test_voting.py::test_estimator_init": true,
+        "sklearn/ensemble/tests/test_voting.py::test_transform": true,
+        "sklearn/ensemble/tests/test_voting.py::test_sample_weight": true,
+        "sklearn/ensemble/tests/test_voting.py::test_predict_proba_on_toy_problem": true,
+        "sklearn/ensemble/tests/test_voting.py::test_predictproba_hardvoting": true,
+        "sklearn/ensemble/tests/test_voting.py::test_notfitted": true,
+        "sklearn/ensemble/tests/test_voting.py::test_weights_regressor": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/scikit-learn__scikit-learn-13779/dedup_patch_4.jsonl": {
+      "scikit-learn__scikit-learn-13779": {
+        "sklearn/ensemble/tests/test_voting.py::test_set_estimator_none": true,
+        "sklearn/ensemble/tests/test_voting.py::test_multilabel": true,
+        "sklearn/ensemble/tests/test_voting.py::test_estimator_init": true,
+        "sklearn/ensemble/tests/test_voting.py::test_transform": true,
+        "sklearn/ensemble/tests/test_voting.py::test_sample_weight": true,
+        "sklearn/ensemble/tests/test_voting.py::test_predict_proba_on_toy_problem": true,
+        "sklearn/ensemble/tests/test_voting.py::test_predictproba_hardvoting": true,
+        "sklearn/ensemble/tests/test_voting.py::test_notfitted": true,
+        "sklearn/ensemble/tests/test_voting.py::test_weights_regressor": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "scikit-learn__scikit-learn-13779": {
+        "sklearn/ensemble/tests/test_voting.py::test_sample_weight#1": false,
+        "sklearn/ensemble/tests/test_voting.py::test_sample_weight#2": false,
+        "sklearn/ensemble/tests/test_voting.py::test_sample_weight#3": false,
+        "sklearn/ensemble/tests/test_voting.py::test_set_estimator_none#4": false,
+        "sklearn/ensemble/tests/test_voting.py::test_set_estimator_none#5": false,
+        "sklearn/ensemble/tests/test_voting.py::test_set_estimator_none#6": false
+      }
+    }
+  }
+}

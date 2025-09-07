@@ -1,0 +1,35 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/django__django-16569/dedup_patch_0.jsonl": {
+      "django__django-16569": {
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_empty_permitted_ignored_empty_form": true,
+        "forms_tests.tests.test_formsets.TestEmptyFormSet.test_empty_formset_is_multipart": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_absolute_max_invalid": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_with_ordering_and_deletion": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_form_kwargs_empty_form": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-16569": {
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_empty_form_with_can_delete_and_can_delete_extra_false#1": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_empty_form_with_disabled_delete_extra#2": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_empty_form_with_can_delete_extra_false#3": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_empty_form_with_can_delete_and_can_delete_extra_false#4": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_empty_form_with_can_delete_but_not_extra#5": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_empty_form_with_can_delete_but_not_extra#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16569/dedup_patch_0.jsonl": {
+      "django__django-16569": {
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_empty_form_with_can_delete_and_can_delete_extra_false#1": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_empty_form_with_disabled_delete_extra#2": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_empty_form_with_can_delete_extra_false#3": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_empty_form_with_can_delete_and_can_delete_extra_false#4": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_empty_form_with_can_delete_but_not_extra#5": false,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_empty_form_with_can_delete_but_not_extra#6": true
+      }
+    }
+  }
+}

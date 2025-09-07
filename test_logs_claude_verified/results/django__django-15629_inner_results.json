@@ -1,0 +1,95 @@
+{
+  "regression": {},
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-15629": {
+        "tests.SchemaTests.test_db_collation_propagation_to_foreign_keys#1": true,
+        "tests.SchemaTests.test_db_collation_propagation_to_foreign_keys#2": true,
+        "tests.SchemaTests.test_db_collation_propagation_to_foreign_keys#3": true,
+        "tests.SchemaTests.test_db_collation_propagation_to_foreign_keys#4": true,
+        "test_logging.SchemaLoggerTests.test_db_collation_propagation_to_foreign_keys#5": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15629/dedup_patch_0.jsonl": {
+      "django__django-15629": {
+        "tests.SchemaTests.test_db_collation_propagation_to_foreign_keys#1": false,
+        "tests.SchemaTests.test_db_collation_propagation_to_foreign_keys#2": false,
+        "tests.SchemaTests.test_db_collation_propagation_to_foreign_keys#3": false,
+        "tests.SchemaTests.test_db_collation_propagation_to_foreign_keys#4": false,
+        "test_logging.SchemaLoggerTests.test_db_collation_propagation_to_foreign_keys#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15629/dedup_patch_1.jsonl": {
+      "django__django-15629": {
+        "tests.SchemaTests.test_db_collation_propagation_to_foreign_keys#1": false,
+        "tests.SchemaTests.test_db_collation_propagation_to_foreign_keys#2": false,
+        "tests.SchemaTests.test_db_collation_propagation_to_foreign_keys#3": false,
+        "tests.SchemaTests.test_db_collation_propagation_to_foreign_keys#4": false,
+        "test_logging.SchemaLoggerTests.test_db_collation_propagation_to_foreign_keys#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15629/dedup_patch_2.jsonl": {
+      "django__django-15629": {
+        "tests.SchemaTests.test_db_collation_propagation_to_foreign_keys#1": false,
+        "tests.SchemaTests.test_db_collation_propagation_to_foreign_keys#2": false,
+        "tests.SchemaTests.test_db_collation_propagation_to_foreign_keys#3": false,
+        "tests.SchemaTests.test_db_collation_propagation_to_foreign_keys#4": false,
+        "test_logging.SchemaLoggerTests.test_db_collation_propagation_to_foreign_keys#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15629/dedup_patch_3.jsonl": {
+      "django__django-15629": {
+        "tests.SchemaTests.test_db_collation_propagation_to_foreign_keys#1": false,
+        "tests.SchemaTests.test_db_collation_propagation_to_foreign_keys#2": false,
+        "tests.SchemaTests.test_db_collation_propagation_to_foreign_keys#3": false,
+        "tests.SchemaTests.test_db_collation_propagation_to_foreign_keys#4": false,
+        "test_logging.SchemaLoggerTests.test_db_collation_propagation_to_foreign_keys#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15629/dedup_patch_4.jsonl": {
+      "django__django-15629": {
+        "tests.SchemaTests.test_db_collation_propagation_to_foreign_keys#1": false,
+        "tests.SchemaTests.test_db_collation_propagation_to_foreign_keys#2": false,
+        "tests.SchemaTests.test_db_collation_propagation_to_foreign_keys#3": false,
+        "tests.SchemaTests.test_db_collation_propagation_to_foreign_keys#4": false,
+        "test_logging.SchemaLoggerTests.test_db_collation_propagation_to_foreign_keys#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15629/dedup_patch_5.jsonl": {
+      "django__django-15629": {
+        "tests.SchemaTests.test_db_collation_propagation_to_foreign_keys#1": false,
+        "tests.SchemaTests.test_db_collation_propagation_to_foreign_keys#2": false,
+        "tests.SchemaTests.test_db_collation_propagation_to_foreign_keys#3": false,
+        "tests.SchemaTests.test_db_collation_propagation_to_foreign_keys#4": false,
+        "test_logging.SchemaLoggerTests.test_db_collation_propagation_to_foreign_keys#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15629/dedup_patch_6.jsonl": {
+      "django__django-15629": {
+        "tests.SchemaTests.test_db_collation_propagation_to_foreign_keys#1": false,
+        "tests.SchemaTests.test_db_collation_propagation_to_foreign_keys#2": false,
+        "tests.SchemaTests.test_db_collation_propagation_to_foreign_keys#3": false,
+        "tests.SchemaTests.test_db_collation_propagation_to_foreign_keys#4": false,
+        "test_logging.SchemaLoggerTests.test_db_collation_propagation_to_foreign_keys#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15629/dedup_patch_7.jsonl": {
+      "django__django-15629": {
+        "tests.SchemaTests.test_db_collation_propagation_to_foreign_keys#1": false,
+        "tests.SchemaTests.test_db_collation_propagation_to_foreign_keys#2": false,
+        "tests.SchemaTests.test_db_collation_propagation_to_foreign_keys#3": false,
+        "tests.SchemaTests.test_db_collation_propagation_to_foreign_keys#4": false,
+        "test_logging.SchemaLoggerTests.test_db_collation_propagation_to_foreign_keys#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15629/dedup_patch_8.jsonl": {
+      "django__django-15629": {
+        "tests.SchemaTests.test_db_collation_propagation_to_foreign_keys#1": false,
+        "tests.SchemaTests.test_db_collation_propagation_to_foreign_keys#2": false,
+        "tests.SchemaTests.test_db_collation_propagation_to_foreign_keys#3": false,
+        "tests.SchemaTests.test_db_collation_propagation_to_foreign_keys#4": false,
+        "test_logging.SchemaLoggerTests.test_db_collation_propagation_to_foreign_keys#5": false
+      }
+    }
+  }
+}

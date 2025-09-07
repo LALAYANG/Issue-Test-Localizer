@@ -1,0 +1,93 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/sphinx-doc__sphinx-7889/dedup_patch_0.jsonl": {
+      "sphinx-doc__sphinx-7889": {
+        "tests/test_ext_autodoc_mock.py::test_MockObject": true,
+        "tests/test_ext_autodoc_mock.py::test_abc_MockObject": true,
+        "tests/test_ext_autodoc_configs.py::test_mocked_module_imports": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/sphinx-doc__sphinx-7889/dedup_patch_1.jsonl": {
+      "sphinx-doc__sphinx-7889": {
+        "tests/test_ext_autodoc_mock.py::test_MockObject": true,
+        "tests/test_ext_autodoc_mock.py::test_abc_MockObject": true,
+        "tests/test_ext_autodoc_configs.py::test_mocked_module_imports": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/sphinx-doc__sphinx-7889/dedup_patch_10.jsonl": {
+      "sphinx-doc__sphinx-7889": {
+        "tests/test_ext_autodoc_mock.py::test_MockObject": true,
+        "tests/test_ext_autodoc_mock.py::test_abc_MockObject": true,
+        "tests/test_ext_autodoc_configs.py::test_mocked_module_imports": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/sphinx-doc__sphinx-7889/dedup_patch_2.jsonl": {
+      "sphinx-doc__sphinx-7889": {
+        "tests/test_ext_autodoc_mock.py::test_MockObject": true,
+        "tests/test_ext_autodoc_mock.py::test_abc_MockObject": true,
+        "tests/test_ext_autodoc_configs.py::test_mocked_module_imports": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/sphinx-doc__sphinx-7889/dedup_patch_3.jsonl": {
+      "sphinx-doc__sphinx-7889": {
+        "tests/test_ext_autodoc_mock.py::test_MockObject": true,
+        "tests/test_ext_autodoc_mock.py::test_abc_MockObject": true,
+        "tests/test_ext_autodoc_configs.py::test_mocked_module_imports": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/sphinx-doc__sphinx-7889/dedup_patch_4.jsonl": {
+      "sphinx-doc__sphinx-7889": {
+        "tests/test_ext_autodoc_mock.py::test_MockObject": true,
+        "tests/test_ext_autodoc_mock.py::test_abc_MockObject": true,
+        "tests/test_ext_autodoc_configs.py::test_mocked_module_imports": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/sphinx-doc__sphinx-7889/dedup_patch_5.jsonl": {
+      "sphinx-doc__sphinx-7889": {
+        "tests/test_ext_autodoc_mock.py::test_MockObject": true,
+        "tests/test_ext_autodoc_mock.py::test_abc_MockObject": true,
+        "tests/test_ext_autodoc_configs.py::test_mocked_module_imports": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/sphinx-doc__sphinx-7889/dedup_patch_6.jsonl": {
+      "sphinx-doc__sphinx-7889": {
+        "tests/test_ext_autodoc_mock.py::test_MockObject": true,
+        "tests/test_ext_autodoc_mock.py::test_abc_MockObject": true,
+        "tests/test_ext_autodoc_configs.py::test_mocked_module_imports": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/sphinx-doc__sphinx-7889/dedup_patch_7.jsonl": {
+      "sphinx-doc__sphinx-7889": {
+        "tests/test_ext_autodoc_mock.py::test_MockObject": true,
+        "tests/test_ext_autodoc_mock.py::test_abc_MockObject": true,
+        "tests/test_ext_autodoc_configs.py::test_mocked_module_imports": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/sphinx-doc__sphinx-7889/dedup_patch_8.jsonl": {
+      "sphinx-doc__sphinx-7889": {
+        "tests/test_ext_autodoc_mock.py::test_MockObject": true,
+        "tests/test_ext_autodoc_mock.py::test_abc_MockObject": true,
+        "tests/test_ext_autodoc_configs.py::test_mocked_module_imports": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/sphinx-doc__sphinx-7889/dedup_patch_9.jsonl": {
+      "sphinx-doc__sphinx-7889": {
+        "tests/test_ext_autodoc_mock.py::test_MockObject": true,
+        "tests/test_ext_autodoc_mock.py::test_abc_MockObject": true,
+        "tests/test_ext_autodoc_configs.py::test_mocked_module_imports": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "sphinx-doc__sphinx-7889": {
+        "tests/test_ext_autodoc_mock.py::test_abc_MockObject#1": false,
+        "tests/test_ext_autodoc_mock.py::test_mock#2": false,
+        "tests/test_ext_autodoc_mock.py::test_mock#3": false,
+        "tests/test_ext_autodoc_mock.py::test_abc_MockObject#4": false,
+        "tests/test_ext_autodoc_mock.py::test_abc_MockObject#5": false,
+        "tests/test_ext_autodoc_mock.py::test_MockObject#6": false
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "regression": {
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-13971/dedup_patch_0.jsonl": {
+      "sympy__sympy-13971": {
+        "sympy/printing/tests/test_latex.py::test_latex_sequences": false,
+        "sympy/printing/tests/test_latex.py::test_latex_Range": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-13971/dedup_patch_1.jsonl": {
+      "sympy__sympy-13971": {
+        "sympy/printing/tests/test_latex.py::test_latex_sequences": false,
+        "sympy/printing/tests/test_latex.py::test_latex_Range": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "sympy__sympy-13971": {
+        "sympy/printing/tests/test_latex.py::test_latex_Range#1": false,
+        "sympy/series/tests/test_sequences.py::test_find_linear_recurrence#2": false,
+        "sympy/series/tests/test_sequences.py::test_SeqFormula#3": false,
+        "sympy/series/tests/test_sequences.py::test_SeqFormula#4": false,
+        "sympy/series/tests/test_sequences.py::test_SeqPer#5": false,
+        "sympy/series/tests/test_sequences.py::test_SeqPer#6": false
+      }
+    }
+  }
+}

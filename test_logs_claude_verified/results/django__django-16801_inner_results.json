@@ -1,0 +1,202 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/django__django-16801/dedup_patch_0.jsonl": {
+      "django__django-16801": {
+        "model_fields.test_imagefield.ImageFieldTwoDimensionsTests.test_field_save_and_delete_methods": true,
+        "model_fields.test_imagefield.TwoImageFieldTests.test_dimensions": true,
+        "model_fields.test_imagefield.ImageFieldTwoDimensionsTests.test_dimensions": true,
+        "model_fields.test_imagefield.ImageFieldTests.test_size_method": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16801/dedup_patch_1.jsonl": {
+      "django__django-16801": {
+        "model_fields.test_imagefield.ImageFieldTwoDimensionsTests.test_field_save_and_delete_methods": true,
+        "model_fields.test_imagefield.TwoImageFieldTests.test_dimensions": true,
+        "model_fields.test_imagefield.ImageFieldTwoDimensionsTests.test_dimensions": true,
+        "model_fields.test_imagefield.ImageFieldTests.test_size_method": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16801/dedup_patch_10.jsonl": {
+      "django__django-16801": {
+        "model_fields.test_imagefield.ImageFieldTwoDimensionsTests.test_field_save_and_delete_methods": true,
+        "model_fields.test_imagefield.TwoImageFieldTests.test_dimensions": true,
+        "model_fields.test_imagefield.ImageFieldTwoDimensionsTests.test_dimensions": true,
+        "model_fields.test_imagefield.ImageFieldTests.test_size_method": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16801/dedup_patch_2.jsonl": {
+      "django__django-16801": {
+        "model_fields.test_imagefield.ImageFieldTwoDimensionsTests.test_field_save_and_delete_methods": true,
+        "model_fields.test_imagefield.TwoImageFieldTests.test_dimensions": true,
+        "model_fields.test_imagefield.ImageFieldTwoDimensionsTests.test_dimensions": true,
+        "model_fields.test_imagefield.ImageFieldTests.test_size_method": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16801/dedup_patch_3.jsonl": {
+      "django__django-16801": {
+        "model_fields.test_imagefield.ImageFieldTwoDimensionsTests.test_field_save_and_delete_methods": true,
+        "model_fields.test_imagefield.TwoImageFieldTests.test_dimensions": true,
+        "model_fields.test_imagefield.ImageFieldTwoDimensionsTests.test_dimensions": true,
+        "model_fields.test_imagefield.ImageFieldTests.test_size_method": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16801/dedup_patch_4.jsonl": {
+      "django__django-16801": {
+        "model_fields.test_imagefield.ImageFieldTwoDimensionsTests.test_field_save_and_delete_methods": true,
+        "model_fields.test_imagefield.TwoImageFieldTests.test_dimensions": true,
+        "model_fields.test_imagefield.ImageFieldTwoDimensionsTests.test_dimensions": true,
+        "model_fields.test_imagefield.ImageFieldTests.test_size_method": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16801/dedup_patch_5.jsonl": {
+      "django__django-16801": {
+        "model_fields.test_imagefield.ImageFieldTwoDimensionsTests.test_field_save_and_delete_methods": true,
+        "model_fields.test_imagefield.TwoImageFieldTests.test_dimensions": true,
+        "model_fields.test_imagefield.ImageFieldTwoDimensionsTests.test_dimensions": true,
+        "model_fields.test_imagefield.ImageFieldTests.test_size_method": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16801/dedup_patch_6.jsonl": {
+      "django__django-16801": {
+        "model_fields.test_imagefield.ImageFieldTwoDimensionsTests.test_field_save_and_delete_methods": true,
+        "model_fields.test_imagefield.TwoImageFieldTests.test_dimensions": true,
+        "model_fields.test_imagefield.ImageFieldTwoDimensionsTests.test_dimensions": true,
+        "model_fields.test_imagefield.ImageFieldTests.test_size_method": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16801/dedup_patch_7.jsonl": {
+      "django__django-16801": {
+        "model_fields.test_imagefield.ImageFieldTwoDimensionsTests.test_field_save_and_delete_methods": true,
+        "model_fields.test_imagefield.TwoImageFieldTests.test_dimensions": true,
+        "model_fields.test_imagefield.ImageFieldTwoDimensionsTests.test_dimensions": true,
+        "model_fields.test_imagefield.ImageFieldTests.test_size_method": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16801/dedup_patch_8.jsonl": {
+      "django__django-16801": {
+        "model_fields.test_imagefield.ImageFieldTwoDimensionsTests.test_field_save_and_delete_methods": true,
+        "model_fields.test_imagefield.TwoImageFieldTests.test_dimensions": true,
+        "model_fields.test_imagefield.ImageFieldTwoDimensionsTests.test_dimensions": true,
+        "model_fields.test_imagefield.ImageFieldTests.test_size_method": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16801/dedup_patch_9.jsonl": {
+      "django__django-16801": {
+        "model_fields.test_imagefield.ImageFieldTwoDimensionsTests.test_field_save_and_delete_methods": true,
+        "model_fields.test_imagefield.TwoImageFieldTests.test_dimensions": true,
+        "model_fields.test_imagefield.ImageFieldTwoDimensionsTests.test_dimensions": true,
+        "model_fields.test_imagefield.ImageFieldTests.test_size_method": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-16801": {
+        "model_fields.test_imagefield.TwoImageFieldTests.test_no_post_init_signal_without_dimensions#1": true,
+        "model_fields.test_imagefield.TwoImageFieldTests.test_no_signal_handler_without_dimensions#2": true,
+        "model_fields.test_imagefield.TwoImageFieldTests.test_no_signal_handler_without_dimensions#3": true,
+        "model_fields.test_imagefield.TwoImageFieldTests.test_no_post_init_signal_without_dimensions#4": true,
+        "model_fields.test_imagefield.TwoImageFieldTests.test_no_signal_handler_without_dimensions#5": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16801/dedup_patch_0.jsonl": {
+      "django__django-16801": {
+        "model_fields.test_imagefield.TwoImageFieldTests.test_no_post_init_signal_without_dimensions#1": false,
+        "model_fields.test_imagefield.TwoImageFieldTests.test_no_signal_handler_without_dimensions#2": false,
+        "model_fields.test_imagefield.TwoImageFieldTests.test_no_signal_handler_without_dimensions#3": false,
+        "model_fields.test_imagefield.TwoImageFieldTests.test_no_post_init_signal_without_dimensions#4": false,
+        "model_fields.test_imagefield.TwoImageFieldTests.test_no_signal_handler_without_dimensions#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16801/dedup_patch_1.jsonl": {
+      "django__django-16801": {
+        "model_fields.test_imagefield.TwoImageFieldTests.test_no_post_init_signal_without_dimensions#1": false,
+        "model_fields.test_imagefield.TwoImageFieldTests.test_no_signal_handler_without_dimensions#2": false,
+        "model_fields.test_imagefield.TwoImageFieldTests.test_no_signal_handler_without_dimensions#3": false,
+        "model_fields.test_imagefield.TwoImageFieldTests.test_no_post_init_signal_without_dimensions#4": false,
+        "model_fields.test_imagefield.TwoImageFieldTests.test_no_signal_handler_without_dimensions#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16801/dedup_patch_10.jsonl": {
+      "django__django-16801": {
+        "model_fields.test_imagefield.TwoImageFieldTests.test_no_post_init_signal_without_dimensions#1": false,
+        "model_fields.test_imagefield.TwoImageFieldTests.test_no_signal_handler_without_dimensions#2": false,
+        "model_fields.test_imagefield.TwoImageFieldTests.test_no_signal_handler_without_dimensions#3": false,
+        "model_fields.test_imagefield.TwoImageFieldTests.test_no_post_init_signal_without_dimensions#4": false,
+        "model_fields.test_imagefield.TwoImageFieldTests.test_no_signal_handler_without_dimensions#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16801/dedup_patch_2.jsonl": {
+      "django__django-16801": {
+        "model_fields.test_imagefield.TwoImageFieldTests.test_no_post_init_signal_without_dimensions#1": false,
+        "model_fields.test_imagefield.TwoImageFieldTests.test_no_signal_handler_without_dimensions#2": false,
+        "model_fields.test_imagefield.TwoImageFieldTests.test_no_signal_handler_without_dimensions#3": false,
+        "model_fields.test_imagefield.TwoImageFieldTests.test_no_post_init_signal_without_dimensions#4": false,
+        "model_fields.test_imagefield.TwoImageFieldTests.test_no_signal_handler_without_dimensions#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16801/dedup_patch_3.jsonl": {
+      "django__django-16801": {
+        "model_fields.test_imagefield.TwoImageFieldTests.test_no_post_init_signal_without_dimensions#1": false,
+        "model_fields.test_imagefield.TwoImageFieldTests.test_no_signal_handler_without_dimensions#2": false,
+        "model_fields.test_imagefield.TwoImageFieldTests.test_no_signal_handler_without_dimensions#3": false,
+        "model_fields.test_imagefield.TwoImageFieldTests.test_no_post_init_signal_without_dimensions#4": false,
+        "model_fields.test_imagefield.TwoImageFieldTests.test_no_signal_handler_without_dimensions#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16801/dedup_patch_4.jsonl": {
+      "django__django-16801": {
+        "model_fields.test_imagefield.TwoImageFieldTests.test_no_post_init_signal_without_dimensions#1": false,
+        "model_fields.test_imagefield.TwoImageFieldTests.test_no_signal_handler_without_dimensions#2": false,
+        "model_fields.test_imagefield.TwoImageFieldTests.test_no_signal_handler_without_dimensions#3": false,
+        "model_fields.test_imagefield.TwoImageFieldTests.test_no_post_init_signal_without_dimensions#4": false,
+        "model_fields.test_imagefield.TwoImageFieldTests.test_no_signal_handler_without_dimensions#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16801/dedup_patch_5.jsonl": {
+      "django__django-16801": {
+        "model_fields.test_imagefield.TwoImageFieldTests.test_no_post_init_signal_without_dimensions#1": false,
+        "model_fields.test_imagefield.TwoImageFieldTests.test_no_signal_handler_without_dimensions#2": false,
+        "model_fields.test_imagefield.TwoImageFieldTests.test_no_signal_handler_without_dimensions#3": false,
+        "model_fields.test_imagefield.TwoImageFieldTests.test_no_post_init_signal_without_dimensions#4": false,
+        "model_fields.test_imagefield.TwoImageFieldTests.test_no_signal_handler_without_dimensions#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16801/dedup_patch_6.jsonl": {
+      "django__django-16801": {
+        "model_fields.test_imagefield.TwoImageFieldTests.test_no_post_init_signal_without_dimensions#1": false,
+        "model_fields.test_imagefield.TwoImageFieldTests.test_no_signal_handler_without_dimensions#2": false,
+        "model_fields.test_imagefield.TwoImageFieldTests.test_no_signal_handler_without_dimensions#3": false,
+        "model_fields.test_imagefield.TwoImageFieldTests.test_no_post_init_signal_without_dimensions#4": false,
+        "model_fields.test_imagefield.TwoImageFieldTests.test_no_signal_handler_without_dimensions#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16801/dedup_patch_7.jsonl": {
+      "django__django-16801": {
+        "model_fields.test_imagefield.TwoImageFieldTests.test_no_post_init_signal_without_dimensions#1": false,
+        "model_fields.test_imagefield.TwoImageFieldTests.test_no_signal_handler_without_dimensions#2": false,
+        "model_fields.test_imagefield.TwoImageFieldTests.test_no_signal_handler_without_dimensions#3": false,
+        "model_fields.test_imagefield.TwoImageFieldTests.test_no_post_init_signal_without_dimensions#4": false,
+        "model_fields.test_imagefield.TwoImageFieldTests.test_no_signal_handler_without_dimensions#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16801/dedup_patch_8.jsonl": {
+      "django__django-16801": {
+        "model_fields.test_imagefield.TwoImageFieldTests.test_no_post_init_signal_without_dimensions#1": false,
+        "model_fields.test_imagefield.TwoImageFieldTests.test_no_signal_handler_without_dimensions#2": false,
+        "model_fields.test_imagefield.TwoImageFieldTests.test_no_signal_handler_without_dimensions#3": false,
+        "model_fields.test_imagefield.TwoImageFieldTests.test_no_post_init_signal_without_dimensions#4": false,
+        "model_fields.test_imagefield.TwoImageFieldTests.test_no_signal_handler_without_dimensions#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16801/dedup_patch_9.jsonl": {
+      "django__django-16801": {
+        "model_fields.test_imagefield.TwoImageFieldTests.test_no_post_init_signal_without_dimensions#1": false,
+        "model_fields.test_imagefield.TwoImageFieldTests.test_no_signal_handler_without_dimensions#2": false,
+        "model_fields.test_imagefield.TwoImageFieldTests.test_no_signal_handler_without_dimensions#3": false,
+        "model_fields.test_imagefield.TwoImageFieldTests.test_no_post_init_signal_without_dimensions#4": false,
+        "model_fields.test_imagefield.TwoImageFieldTests.test_no_signal_handler_without_dimensions#5": false
+      }
+    }
+  }
+}

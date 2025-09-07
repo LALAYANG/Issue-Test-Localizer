@@ -1,0 +1,21 @@
+{
+  "regression": {
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-12454/dedup_patch_0.jsonl": {
+      "sympy__sympy-12454": {
+        "sympy/matrices/tests/test_sparse.py::test_sparse_matrix": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "sympy__sympy-12454": {
+        "sympy/matrices/tests/test_matrices.py::test_is_symbolic#1": false,
+        "sympy/matrices/tests/test_matrices.py::test_is_symbolic#2": false,
+        "sympy/matrices/tests/test_matrices.py::test_is_symbolic#3": false,
+        "sympy/matrices/tests/test_matrices.py::test_is_symbolic#4": false,
+        "sympy/matrices/tests/test_matrices.py::test_is_upper#5": false,
+        "sympy/matrices/tests/test_matrices.py::test_is_symbolic#6": false
+      }
+    }
+  }
+}

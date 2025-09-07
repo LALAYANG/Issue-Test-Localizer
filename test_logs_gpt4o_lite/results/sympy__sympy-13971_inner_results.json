@@ -1,0 +1,40 @@
+{
+  "regression": {
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-13971/dedup_patch_0.jsonl": {
+      "sympy__sympy-13971": {
+        "sympy/printing/tests/test_latex.py::test_latex_sequences": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-13971/dedup_patch_1.jsonl": {
+      "sympy__sympy-13971": {
+        "sympy/printing/tests/test_latex.py::test_latex_sequences": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-13971/dedup_patch_2.jsonl": {
+      "sympy__sympy-13971": {
+        "sympy/printing/tests/test_latex.py::test_latex_sequences": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-13971/dedup_patch_3.jsonl": {
+      "sympy__sympy-13971": {
+        "sympy/printing/tests/test_latex.py::test_latex_sequences": false
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "sympy__sympy-13971": {
+        "sympy/series/tests/test_sequences.py::test_SeqPer#1": false,
+        "sympy/printing/tests/test_latex.py::test_latex_Range#2": false,
+        "sympy/printing/tests/test_latex.py::test_latex_Range#3": false,
+        "sympy/printing/tests/test_latex.py::test_latex_Range#4": false,
+        "sympy/series/tests/test_sequences.py::test_SeqPer#5": false,
+        "sympy/printing/tests/test_latex.py::test_latex_sequences#6": false,
+        "sympy/series/tests/test_sequences.py::test_SeqFormula#7": false,
+        "sympy/printing/tests/test_latex.py::test_latex_Range#8": false,
+        "sympy/printing/tests/test_latex.py::test_latex_sequences#9": false,
+        "sympy/series/tests/test_sequences.py::test_SeqFormula#10": false
+      }
+    }
+  }
+}

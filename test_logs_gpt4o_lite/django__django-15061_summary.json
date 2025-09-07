@@ -1,0 +1,106 @@
+{
+  "instance_id": "django__django-15061",
+  "container_id": "186446e32f50ee1054d9a0adda1abd462ba1f9c55f9b71f9d9ba26477723d827",
+  "regression": {
+    "results": [
+      {
+        "patch_file": "all_patches/lite_gpt4o_all_unique_patches/django__django-15061/dedup_patch_0.jsonl",
+        "inst": "django__django-15061",
+        "passed": 5,
+        "failed": 0
+      }
+    ],
+    "top_passed": 5,
+    "top_subset_size": 1
+  },
+  "reproduction": {
+    "forms_tests.widget_tests.test_multiwidget.MultiWidgetTest.test_multiwidget_id_for_label#1": {
+      "repro_fails_on_clean": true,
+      "outcomes": [
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/django__django-15061/dedup_patch_0.jsonl",
+          "inst": "django__django-15061",
+          "passed": true
+        }
+      ]
+    },
+    "forms_tests.widget_tests.test_multiwidget.MultiWidgetTest.test_id_for_label_removal#2": {
+      "repro_fails_on_clean": true,
+      "outcomes": [
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/django__django-15061/dedup_patch_0.jsonl",
+          "inst": "django__django-15061",
+          "passed": false
+        }
+      ]
+    },
+    "forms_tests.widget_tests.test_multiwidget.MultiWidgetTest.test_id_for_label_removal#3": {
+      "repro_fails_on_clean": true,
+      "outcomes": [
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/django__django-15061/dedup_patch_0.jsonl",
+          "inst": "django__django-15061",
+          "passed": true
+        }
+      ]
+    },
+    "forms_tests.widget_tests.test_multiwidget.MultiWidgetTest.test_id_for_label_removal#4": {
+      "repro_fails_on_clean": true,
+      "outcomes": [
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/django__django-15061/dedup_patch_0.jsonl",
+          "inst": "django__django-15061",
+          "passed": false
+        }
+      ]
+    },
+    "forms_tests.widget_tests.test_multiwidget.MultiWidgetTest.test_multiwidget_label_tag#5": {
+      "repro_fails_on_clean": true,
+      "outcomes": [
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/django__django-15061/dedup_patch_0.jsonl",
+          "inst": "django__django-15061",
+          "passed": false
+        }
+      ]
+    },
+    "forms_tests.widget_tests.test_multiwidget.MultiWidgetTest.test_constructor_attrs#6": {
+      "repro_fails_on_clean": true,
+      "outcomes": [
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/django__django-15061/dedup_patch_0.jsonl",
+          "inst": "django__django-15061",
+          "passed": false
+        }
+      ]
+    },
+    "forms_tests.widget_tests.test_multiwidget.MultiWidgetTest.test_label_without_for_attribute#7": {
+      "repro_fails_on_clean": true,
+      "outcomes": [
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/django__django-15061/dedup_patch_0.jsonl",
+          "inst": "django__django-15061",
+          "passed": false
+        }
+      ]
+    },
+    "forms_tests.widget_tests.test_multiwidget.MultiWidgetTest.test_id_for_label#8": {
+      "repro_fails_on_clean": true,
+      "outcomes": [
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/django__django-15061/dedup_patch_0.jsonl",
+          "inst": "django__django-15061",
+          "passed": true
+        }
+      ]
+    },
+    "forms_tests.widget_tests.test_multiwidget.MultiWidgetTest.test_multiwidget_label_id#9": {
+      "repro_fails_on_clean": false,
+      "outcomes": []
+    },
+    "forms_tests.widget_tests.test_multiwidget.MultiWidgetTest.test_label_id_without_index#10": {
+      "repro_fails_on_clean": false,
+      "outcomes": []
+    }
+  }
+}

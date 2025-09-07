@@ -1,0 +1,30 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/django__django-10999/dedup_patch_0.jsonl": {
+      "django__django-10999": {
+        "utils_tests.test_dateparse.DurationParseTests.test_parse_postgresql_format": true,
+        "utils_tests.test_dateparse.DurationParseTests.test_negative": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-10999": {
+        "utils_tests.test_dateparse.DurationParseTests.test_negative#1": true,
+        "utils_tests.test_dateparse.DurationParseTests.test_negative#2": true,
+        "utils_tests.test_dateparse.DurationParseTests.test_negative#3": true,
+        "utils_tests.test_dateparse.DurationParseTests.test_negative#4": true,
+        "utils_tests.test_dateparse.DurationParseTests.test_negative_hours_duration#5": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-10999/dedup_patch_0.jsonl": {
+      "django__django-10999": {
+        "utils_tests.test_dateparse.DurationParseTests.test_negative#1": false,
+        "utils_tests.test_dateparse.DurationParseTests.test_negative#2": false,
+        "utils_tests.test_dateparse.DurationParseTests.test_negative#3": true,
+        "utils_tests.test_dateparse.DurationParseTests.test_negative#4": false,
+        "utils_tests.test_dateparse.DurationParseTests.test_negative_hours_duration#5": true
+      }
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "regression": {
+    "all_patches/lite_claude_all_unique_patches/django__django-15061/dedup_patch_0.jsonl": {
+      "django__django-15061": {
+        "forms_tests.field_tests.test_multivaluefield.MultiValueFieldTest.test_form_as_table": false,
+        "forms_tests.field_tests.test_multivaluefield.MultiValueFieldTest.test_render_required_attributes": true,
+        "forms_tests.field_tests.test_multivaluefield.MultiValueFieldTest.test_form_as_table_data": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15061/dedup_patch_1.jsonl": {
+      "django__django-15061": {
+        "forms_tests.field_tests.test_multivaluefield.MultiValueFieldTest.test_form_as_table": false,
+        "forms_tests.field_tests.test_multivaluefield.MultiValueFieldTest.test_render_required_attributes": true,
+        "forms_tests.field_tests.test_multivaluefield.MultiValueFieldTest.test_form_as_table_data": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15061/dedup_patch_2.jsonl": {
+      "django__django-15061": {
+        "forms_tests.field_tests.test_multivaluefield.MultiValueFieldTest.test_form_as_table": false,
+        "forms_tests.field_tests.test_multivaluefield.MultiValueFieldTest.test_render_required_attributes": true,
+        "forms_tests.field_tests.test_multivaluefield.MultiValueFieldTest.test_form_as_table_data": false
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-15061": {
+        "forms_tests.widget_tests.test_multiwidget.MultiWidgetTest.test_multiwidget_no_label_for#1": true,
+        "forms_tests.widget_tests.test_multiwidget.MultiWidgetTest.test_label_without_for_attribute#2": true,
+        "forms_tests.widget_tests.test_multiwidget.MultiWidgetTest.test_id_for_label#3": true,
+        "forms_tests.widget_tests.test_multiwidget.MultiWidgetTest.test_multiwidget_label_tag#4": true,
+        "forms_tests.widget_tests.test_multiwidget.MultiWidgetTest.test_multiwidget_id_for_label#5": true,
+        "forms_tests.widget_tests.test_multiwidget.MultiWidgetTest.test_multiwidget_id_for_label_returns_none#6": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15061/dedup_patch_0.jsonl": {
+      "django__django-15061": {
+        "forms_tests.widget_tests.test_multiwidget.MultiWidgetTest.test_multiwidget_no_label_for#1": false,
+        "forms_tests.widget_tests.test_multiwidget.MultiWidgetTest.test_label_without_for_attribute#2": false,
+        "forms_tests.widget_tests.test_multiwidget.MultiWidgetTest.test_id_for_label#3": true,
+        "forms_tests.widget_tests.test_multiwidget.MultiWidgetTest.test_multiwidget_label_tag#4": false,
+        "forms_tests.widget_tests.test_multiwidget.MultiWidgetTest.test_multiwidget_id_for_label#5": true,
+        "forms_tests.widget_tests.test_multiwidget.MultiWidgetTest.test_multiwidget_id_for_label_returns_none#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15061/dedup_patch_1.jsonl": {
+      "django__django-15061": {
+        "forms_tests.widget_tests.test_multiwidget.MultiWidgetTest.test_multiwidget_no_label_for#1": false,
+        "forms_tests.widget_tests.test_multiwidget.MultiWidgetTest.test_label_without_for_attribute#2": false,
+        "forms_tests.widget_tests.test_multiwidget.MultiWidgetTest.test_id_for_label#3": true,
+        "forms_tests.widget_tests.test_multiwidget.MultiWidgetTest.test_multiwidget_label_tag#4": false,
+        "forms_tests.widget_tests.test_multiwidget.MultiWidgetTest.test_multiwidget_id_for_label#5": true,
+        "forms_tests.widget_tests.test_multiwidget.MultiWidgetTest.test_multiwidget_id_for_label_returns_none#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15061/dedup_patch_2.jsonl": {
+      "django__django-15061": {
+        "forms_tests.widget_tests.test_multiwidget.MultiWidgetTest.test_multiwidget_no_label_for#1": false,
+        "forms_tests.widget_tests.test_multiwidget.MultiWidgetTest.test_label_without_for_attribute#2": false,
+        "forms_tests.widget_tests.test_multiwidget.MultiWidgetTest.test_id_for_label#3": true,
+        "forms_tests.widget_tests.test_multiwidget.MultiWidgetTest.test_multiwidget_label_tag#4": false,
+        "forms_tests.widget_tests.test_multiwidget.MultiWidgetTest.test_multiwidget_id_for_label#5": true,
+        "forms_tests.widget_tests.test_multiwidget.MultiWidgetTest.test_multiwidget_id_for_label_returns_none#6": false
+      }
+    }
+  }
+}

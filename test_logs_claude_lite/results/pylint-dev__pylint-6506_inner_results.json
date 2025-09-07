@@ -1,0 +1,203 @@
+{
+  "regression": {
+    "all_patches/lite_claude_all_unique_patches/pylint-dev__pylint-6506/dedup_patch_0.jsonl": {
+      "pylint-dev__pylint-6506": {
+        "tests/test_find_default_config_files.py::test_verbose_output_no_config": false,
+        "tests/test_config.py::test_unknown_option_name": false,
+        "tests/test_functional.py::test_functional": false,
+        "tests/test_config.py::test_unknown_short_option_name": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/pylint-dev__pylint-6506/dedup_patch_1.jsonl": {
+      "pylint-dev__pylint-6506": {
+        "tests/test_find_default_config_files.py::test_verbose_output_no_config": false,
+        "tests/test_config.py::test_unknown_option_name": false,
+        "tests/test_functional.py::test_functional": false,
+        "tests/test_config.py::test_unknown_short_option_name": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/pylint-dev__pylint-6506/dedup_patch_10.jsonl": {
+      "pylint-dev__pylint-6506": {
+        "tests/test_find_default_config_files.py::test_verbose_output_no_config": false,
+        "tests/test_config.py::test_unknown_option_name": false,
+        "tests/test_functional.py::test_functional": false,
+        "tests/test_config.py::test_unknown_short_option_name": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/pylint-dev__pylint-6506/dedup_patch_2.jsonl": {
+      "pylint-dev__pylint-6506": {
+        "tests/test_find_default_config_files.py::test_verbose_output_no_config": false,
+        "tests/test_config.py::test_unknown_option_name": false,
+        "tests/test_functional.py::test_functional": false,
+        "tests/test_config.py::test_unknown_short_option_name": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/pylint-dev__pylint-6506/dedup_patch_3.jsonl": {
+      "pylint-dev__pylint-6506": {
+        "tests/test_find_default_config_files.py::test_verbose_output_no_config": false,
+        "tests/test_config.py::test_unknown_option_name": false,
+        "tests/test_functional.py::test_functional": false,
+        "tests/test_config.py::test_unknown_short_option_name": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/pylint-dev__pylint-6506/dedup_patch_4.jsonl": {
+      "pylint-dev__pylint-6506": {
+        "tests/test_find_default_config_files.py::test_verbose_output_no_config": false,
+        "tests/test_config.py::test_unknown_option_name": false,
+        "tests/test_functional.py::test_functional": false,
+        "tests/test_config.py::test_unknown_short_option_name": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/pylint-dev__pylint-6506/dedup_patch_5.jsonl": {
+      "pylint-dev__pylint-6506": {
+        "tests/test_find_default_config_files.py::test_verbose_output_no_config": false,
+        "tests/test_config.py::test_unknown_option_name": false,
+        "tests/test_functional.py::test_functional": false,
+        "tests/test_config.py::test_unknown_short_option_name": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/pylint-dev__pylint-6506/dedup_patch_6.jsonl": {
+      "pylint-dev__pylint-6506": {
+        "tests/test_find_default_config_files.py::test_verbose_output_no_config": false,
+        "tests/test_config.py::test_unknown_option_name": false,
+        "tests/test_functional.py::test_functional": false,
+        "tests/test_config.py::test_unknown_short_option_name": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/pylint-dev__pylint-6506/dedup_patch_7.jsonl": {
+      "pylint-dev__pylint-6506": {
+        "tests/test_find_default_config_files.py::test_verbose_output_no_config": false,
+        "tests/test_config.py::test_unknown_option_name": false,
+        "tests/test_functional.py::test_functional": false,
+        "tests/test_config.py::test_unknown_short_option_name": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/pylint-dev__pylint-6506/dedup_patch_8.jsonl": {
+      "pylint-dev__pylint-6506": {
+        "tests/test_find_default_config_files.py::test_verbose_output_no_config": false,
+        "tests/test_config.py::test_unknown_option_name": false,
+        "tests/test_functional.py::test_functional": false,
+        "tests/test_config.py::test_unknown_short_option_name": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/pylint-dev__pylint-6506/dedup_patch_9.jsonl": {
+      "pylint-dev__pylint-6506": {
+        "tests/test_find_default_config_files.py::test_verbose_output_no_config": false,
+        "tests/test_config.py::test_unknown_option_name": false,
+        "tests/test_functional.py::test_functional": false,
+        "tests/test_config.py::test_unknown_short_option_name": false
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "pylint-dev__pylint-6506": {
+        "tests/config/test_argparse_config.py::TestArguments::test_unrecognized_option_no_traceback#1": true,
+        "tests/config/test_argparse_config.py::TestArguments::test_unrecognized_option_no_traceback#2": true,
+        "tests/config/test_config.py::test_short_verbose#3": false,
+        "tests/config/test_argparse_config.py::TestArguments::test_unrecognized_argument#4": true,
+        "tests/config/test_argparse_config.py::TestArguments::test_unrecognized_option_error_handling#5": true,
+        "tests/config/test_argparse_config.py::TestArguments::test_unrecognized_option_no_traceback#6": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/pylint-dev__pylint-6506/dedup_patch_0.jsonl": {
+      "pylint-dev__pylint-6506": {
+        "tests/config/test_argparse_config.py::TestArguments::test_unrecognized_option_no_traceback#1": false,
+        "tests/config/test_argparse_config.py::TestArguments::test_unrecognized_option_no_traceback#2": false,
+        "tests/config/test_argparse_config.py::TestArguments::test_unrecognized_argument#4": false,
+        "tests/config/test_argparse_config.py::TestArguments::test_unrecognized_option_error_handling#5": false,
+        "tests/config/test_argparse_config.py::TestArguments::test_unrecognized_option_no_traceback#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/pylint-dev__pylint-6506/dedup_patch_1.jsonl": {
+      "pylint-dev__pylint-6506": {
+        "tests/config/test_argparse_config.py::TestArguments::test_unrecognized_option_no_traceback#1": false,
+        "tests/config/test_argparse_config.py::TestArguments::test_unrecognized_option_no_traceback#2": false,
+        "tests/config/test_argparse_config.py::TestArguments::test_unrecognized_argument#4": false,
+        "tests/config/test_argparse_config.py::TestArguments::test_unrecognized_option_error_handling#5": false,
+        "tests/config/test_argparse_config.py::TestArguments::test_unrecognized_option_no_traceback#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/pylint-dev__pylint-6506/dedup_patch_10.jsonl": {
+      "pylint-dev__pylint-6506": {
+        "tests/config/test_argparse_config.py::TestArguments::test_unrecognized_option_no_traceback#1": false,
+        "tests/config/test_argparse_config.py::TestArguments::test_unrecognized_option_no_traceback#2": false,
+        "tests/config/test_argparse_config.py::TestArguments::test_unrecognized_argument#4": false,
+        "tests/config/test_argparse_config.py::TestArguments::test_unrecognized_option_error_handling#5": false,
+        "tests/config/test_argparse_config.py::TestArguments::test_unrecognized_option_no_traceback#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/pylint-dev__pylint-6506/dedup_patch_2.jsonl": {
+      "pylint-dev__pylint-6506": {
+        "tests/config/test_argparse_config.py::TestArguments::test_unrecognized_option_no_traceback#1": false,
+        "tests/config/test_argparse_config.py::TestArguments::test_unrecognized_option_no_traceback#2": false,
+        "tests/config/test_argparse_config.py::TestArguments::test_unrecognized_argument#4": false,
+        "tests/config/test_argparse_config.py::TestArguments::test_unrecognized_option_error_handling#5": false,
+        "tests/config/test_argparse_config.py::TestArguments::test_unrecognized_option_no_traceback#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/pylint-dev__pylint-6506/dedup_patch_3.jsonl": {
+      "pylint-dev__pylint-6506": {
+        "tests/config/test_argparse_config.py::TestArguments::test_unrecognized_option_no_traceback#1": false,
+        "tests/config/test_argparse_config.py::TestArguments::test_unrecognized_option_no_traceback#2": false,
+        "tests/config/test_argparse_config.py::TestArguments::test_unrecognized_argument#4": false,
+        "tests/config/test_argparse_config.py::TestArguments::test_unrecognized_option_error_handling#5": false,
+        "tests/config/test_argparse_config.py::TestArguments::test_unrecognized_option_no_traceback#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/pylint-dev__pylint-6506/dedup_patch_4.jsonl": {
+      "pylint-dev__pylint-6506": {
+        "tests/config/test_argparse_config.py::TestArguments::test_unrecognized_option_no_traceback#1": false,
+        "tests/config/test_argparse_config.py::TestArguments::test_unrecognized_option_no_traceback#2": false,
+        "tests/config/test_argparse_config.py::TestArguments::test_unrecognized_argument#4": false,
+        "tests/config/test_argparse_config.py::TestArguments::test_unrecognized_option_error_handling#5": false,
+        "tests/config/test_argparse_config.py::TestArguments::test_unrecognized_option_no_traceback#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/pylint-dev__pylint-6506/dedup_patch_5.jsonl": {
+      "pylint-dev__pylint-6506": {
+        "tests/config/test_argparse_config.py::TestArguments::test_unrecognized_option_no_traceback#1": false,
+        "tests/config/test_argparse_config.py::TestArguments::test_unrecognized_option_no_traceback#2": false,
+        "tests/config/test_argparse_config.py::TestArguments::test_unrecognized_argument#4": false,
+        "tests/config/test_argparse_config.py::TestArguments::test_unrecognized_option_error_handling#5": false,
+        "tests/config/test_argparse_config.py::TestArguments::test_unrecognized_option_no_traceback#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/pylint-dev__pylint-6506/dedup_patch_6.jsonl": {
+      "pylint-dev__pylint-6506": {
+        "tests/config/test_argparse_config.py::TestArguments::test_unrecognized_option_no_traceback#1": false,
+        "tests/config/test_argparse_config.py::TestArguments::test_unrecognized_option_no_traceback#2": false,
+        "tests/config/test_argparse_config.py::TestArguments::test_unrecognized_argument#4": false,
+        "tests/config/test_argparse_config.py::TestArguments::test_unrecognized_option_error_handling#5": false,
+        "tests/config/test_argparse_config.py::TestArguments::test_unrecognized_option_no_traceback#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/pylint-dev__pylint-6506/dedup_patch_7.jsonl": {
+      "pylint-dev__pylint-6506": {
+        "tests/config/test_argparse_config.py::TestArguments::test_unrecognized_option_no_traceback#1": false,
+        "tests/config/test_argparse_config.py::TestArguments::test_unrecognized_option_no_traceback#2": false,
+        "tests/config/test_argparse_config.py::TestArguments::test_unrecognized_argument#4": false,
+        "tests/config/test_argparse_config.py::TestArguments::test_unrecognized_option_error_handling#5": false,
+        "tests/config/test_argparse_config.py::TestArguments::test_unrecognized_option_no_traceback#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/pylint-dev__pylint-6506/dedup_patch_8.jsonl": {
+      "pylint-dev__pylint-6506": {
+        "tests/config/test_argparse_config.py::TestArguments::test_unrecognized_option_no_traceback#1": false,
+        "tests/config/test_argparse_config.py::TestArguments::test_unrecognized_option_no_traceback#2": false,
+        "tests/config/test_argparse_config.py::TestArguments::test_unrecognized_argument#4": false,
+        "tests/config/test_argparse_config.py::TestArguments::test_unrecognized_option_error_handling#5": false,
+        "tests/config/test_argparse_config.py::TestArguments::test_unrecognized_option_no_traceback#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/pylint-dev__pylint-6506/dedup_patch_9.jsonl": {
+      "pylint-dev__pylint-6506": {
+        "tests/config/test_argparse_config.py::TestArguments::test_unrecognized_option_no_traceback#1": false,
+        "tests/config/test_argparse_config.py::TestArguments::test_unrecognized_option_no_traceback#2": false,
+        "tests/config/test_argparse_config.py::TestArguments::test_unrecognized_argument#4": false,
+        "tests/config/test_argparse_config.py::TestArguments::test_unrecognized_option_error_handling#5": false,
+        "tests/config/test_argparse_config.py::TestArguments::test_unrecognized_option_no_traceback#6": false
+      }
+    }
+  }
+}

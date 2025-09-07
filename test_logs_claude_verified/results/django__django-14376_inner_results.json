@@ -1,0 +1,15 @@
+{
+  "regression": {},
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-14376": {
+        "backends.mysql.tests.IsolationLevelTests.test_connection_params_use_modern_kwargs#1": false,
+        "backends.mysql.tests.IsolationLevelTests.test_connection_params_use_modern_kwargs#2": false,
+        "backends.mysql.tests.IsolationLevelTests.test_mysql_connection_kwargs#3": false,
+        "backends.mysql.tests.IsolationLevelTests.test_database_password_kwargs#4": false,
+        "backends.mysql.tests.IsolationLevelTests.test_deprecated_mysql_kwargs#5": false,
+        "backends.mysql.tests.IsolationLevelTests.test_connection_params_use_modern_args#6": false
+      }
+    }
+  }
+}

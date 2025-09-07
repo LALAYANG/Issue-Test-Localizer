@@ -1,0 +1,66 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/django__django-11951/dedup_patch_0.jsonl": {
+      "django__django-11951": {
+        "queries.test_bulk_update.BulkUpdateTests.test_large_batch": true,
+        "queries.test_bulk_update.BulkUpdateTests.test_update_custom_primary_key": true,
+        "queries.test_bulk_update.BulkUpdateTests.test_no_fields": true,
+        "bulk_create.tests.BulkCreateTests.test_non_auto_increment_pk": true,
+        "queries.test_bulk_update.BulkUpdateTests.test_empty_objects": true,
+        "queries.test_bulk_update.BulkUpdateTests.test_only_concrete_fields_allowed": true,
+        "bulk_create.tests.BulkCreateTests.test_simple": true,
+        "bulk_create.tests.BulkCreateTests.test_set_state_with_pk_specified": true,
+        "queries.test_bulk_update.BulkUpdateTests.test_invalid_batch_size": true,
+        "queries.test_bulk_update.BulkUpdateNoteTests.test_unsaved_models": true,
+        "bulk_create.tests.BulkCreateTests.test_multi_table_inheritance_unsupported": true,
+        "bulk_create.tests.BulkCreateTests.test_large_batch_mixed": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11951/dedup_patch_1.jsonl": {
+      "django__django-11951": {
+        "queries.test_bulk_update.BulkUpdateTests.test_large_batch": true,
+        "queries.test_bulk_update.BulkUpdateTests.test_update_custom_primary_key": true,
+        "queries.test_bulk_update.BulkUpdateTests.test_no_fields": true,
+        "bulk_create.tests.BulkCreateTests.test_non_auto_increment_pk": true,
+        "queries.test_bulk_update.BulkUpdateTests.test_empty_objects": true,
+        "queries.test_bulk_update.BulkUpdateTests.test_only_concrete_fields_allowed": true,
+        "bulk_create.tests.BulkCreateTests.test_simple": true,
+        "bulk_create.tests.BulkCreateTests.test_set_state_with_pk_specified": true,
+        "queries.test_bulk_update.BulkUpdateTests.test_invalid_batch_size": true,
+        "queries.test_bulk_update.BulkUpdateNoteTests.test_unsaved_models": true,
+        "bulk_create.tests.BulkCreateTests.test_multi_table_inheritance_unsupported": true,
+        "bulk_create.tests.BulkCreateTests.test_large_batch_mixed": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-11951": {
+        "bulk_create.tests.BulkCreateTests.test_batch_size_respects_max_batch_size#1": false,
+        "bulk_create.tests.BulkCreateTests.test_batch_size_respects_max_batch_size#2": true,
+        "bulk_create.tests.BulkCreateTests.test_batch_size_respects_max_batch_size#3": true,
+        "bulk_create.tests.BulkCreateTests.test_batch_size_with_max_batch_size#4": true,
+        "bulk_create.tests.BulkCreateTests.test_batch_size_respects_max_batch_size#5": true,
+        "bulk_create.tests.BulkCreateTests.test_batch_size_respects_max_batch_size#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11951/dedup_patch_0.jsonl": {
+      "django__django-11951": {
+        "bulk_create.tests.BulkCreateTests.test_batch_size_respects_max_batch_size#2": true,
+        "bulk_create.tests.BulkCreateTests.test_batch_size_respects_max_batch_size#3": true,
+        "bulk_create.tests.BulkCreateTests.test_batch_size_with_max_batch_size#4": false,
+        "bulk_create.tests.BulkCreateTests.test_batch_size_respects_max_batch_size#5": true,
+        "bulk_create.tests.BulkCreateTests.test_batch_size_respects_max_batch_size#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11951/dedup_patch_1.jsonl": {
+      "django__django-11951": {
+        "bulk_create.tests.BulkCreateTests.test_batch_size_respects_max_batch_size#2": true,
+        "bulk_create.tests.BulkCreateTests.test_batch_size_respects_max_batch_size#3": true,
+        "bulk_create.tests.BulkCreateTests.test_batch_size_with_max_batch_size#4": false,
+        "bulk_create.tests.BulkCreateTests.test_batch_size_respects_max_batch_size#5": true,
+        "bulk_create.tests.BulkCreateTests.test_batch_size_respects_max_batch_size#6": false
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/matplotlib__matplotlib-26113/dedup_patch_0.jsonl": {
+      "matplotlib__matplotlib-26113": {
+        "lib/matplotlib/tests/test_axes.py::test_hexbin_extent": true,
+        "lib/matplotlib/tests/test_axes.py::test_hexbin_log": true,
+        "lib/matplotlib/tests/test_axes.py::test_hexbin_pickable": true,
+        "lib/matplotlib/tests/test_axes.py::test_hexbin_linear": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "matplotlib__matplotlib-26113": {
+        "lib/matplotlib/tests/test_axes.py::test_hexbin_empty#1": false,
+        "lib/matplotlib/tests/test_axes.py::test_hexbin_empty#2": false,
+        "lib/matplotlib/tests/test_axes.py::test_hexbin_empty#3": false,
+        "lib/matplotlib/tests/test_axes.py::test_hexbin_empty#4": false,
+        "lib/matplotlib/tests/test_axes.py::test_tick_param_labelfont#5": false,
+        "lib/matplotlib/tests/test_axes.py::test_hexbin_empty#6": false
+      }
+    }
+  }
+}

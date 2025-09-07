@@ -1,0 +1,112 @@
+{
+  "regression": {
+    "all_patches/lite_claude_all_unique_patches/django__django-15789/dedup_patch_0.jsonl": {
+      "django__django-15789": {
+        "utils_tests.test_html.TestUtilsHtml.test_json_script": true,
+        "utils_tests.test_html.TestUtilsHtml.test_json_script_without_id": true,
+        "template_tests.filter_tests.test_json_script.JsonScriptTests.test_basic": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15789/dedup_patch_1.jsonl": {
+      "django__django-15789": {
+        "utils_tests.test_html.TestUtilsHtml.test_json_script": true,
+        "utils_tests.test_html.TestUtilsHtml.test_json_script_without_id": true,
+        "template_tests.filter_tests.test_json_script.JsonScriptTests.test_basic": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15789/dedup_patch_2.jsonl": {
+      "django__django-15789": {
+        "utils_tests.test_html.TestUtilsHtml.test_json_script": true,
+        "utils_tests.test_html.TestUtilsHtml.test_json_script_without_id": true,
+        "template_tests.filter_tests.test_json_script.JsonScriptTests.test_basic": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15789/dedup_patch_3.jsonl": {
+      "django__django-15789": {
+        "utils_tests.test_html.TestUtilsHtml.test_json_script": true,
+        "utils_tests.test_html.TestUtilsHtml.test_json_script_without_id": true,
+        "template_tests.filter_tests.test_json_script.JsonScriptTests.test_basic": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15789/dedup_patch_4.jsonl": {
+      "django__django-15789": {
+        "utils_tests.test_html.TestUtilsHtml.test_json_script": true,
+        "utils_tests.test_html.TestUtilsHtml.test_json_script_without_id": true,
+        "template_tests.filter_tests.test_json_script.JsonScriptTests.test_basic": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15789/dedup_patch_5.jsonl": {
+      "django__django-15789": {
+        "utils_tests.test_html.TestUtilsHtml.test_json_script": true,
+        "utils_tests.test_html.TestUtilsHtml.test_json_script_without_id": true,
+        "template_tests.filter_tests.test_json_script.JsonScriptTests.test_basic": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-15789": {
+        "utils_tests.test_html.TestUtilsHtml.test_json_script_with_custom_encoder#1": true,
+        "utils_tests.test_html.TestUtilsHtml.test_json_script_with_custom_encoder#2": true,
+        "utils_tests.test_html.TestUtilsHtml.test_json_script_custom_encoder#3": false,
+        "utils_tests.test_html.TestUtilsHtml.test_json_script_custom_encoder#4": true,
+        "utils_tests.test_html.TestUtilsHtml.test_json_script_with_encoder#5": true,
+        "utils_tests.test_html.TestUtilsHtml.test_json_script_custom_encoder#6": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15789/dedup_patch_0.jsonl": {
+      "django__django-15789": {
+        "utils_tests.test_html.TestUtilsHtml.test_json_script_with_custom_encoder#1": true,
+        "utils_tests.test_html.TestUtilsHtml.test_json_script_with_custom_encoder#2": true,
+        "utils_tests.test_html.TestUtilsHtml.test_json_script_custom_encoder#4": false,
+        "utils_tests.test_html.TestUtilsHtml.test_json_script_with_encoder#5": true,
+        "utils_tests.test_html.TestUtilsHtml.test_json_script_custom_encoder#6": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15789/dedup_patch_1.jsonl": {
+      "django__django-15789": {
+        "utils_tests.test_html.TestUtilsHtml.test_json_script_with_custom_encoder#1": true,
+        "utils_tests.test_html.TestUtilsHtml.test_json_script_with_custom_encoder#2": true,
+        "utils_tests.test_html.TestUtilsHtml.test_json_script_custom_encoder#4": false,
+        "utils_tests.test_html.TestUtilsHtml.test_json_script_with_encoder#5": true,
+        "utils_tests.test_html.TestUtilsHtml.test_json_script_custom_encoder#6": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15789/dedup_patch_2.jsonl": {
+      "django__django-15789": {
+        "utils_tests.test_html.TestUtilsHtml.test_json_script_with_custom_encoder#1": true,
+        "utils_tests.test_html.TestUtilsHtml.test_json_script_with_custom_encoder#2": true,
+        "utils_tests.test_html.TestUtilsHtml.test_json_script_custom_encoder#4": false,
+        "utils_tests.test_html.TestUtilsHtml.test_json_script_with_encoder#5": true,
+        "utils_tests.test_html.TestUtilsHtml.test_json_script_custom_encoder#6": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15789/dedup_patch_3.jsonl": {
+      "django__django-15789": {
+        "utils_tests.test_html.TestUtilsHtml.test_json_script_with_custom_encoder#1": true,
+        "utils_tests.test_html.TestUtilsHtml.test_json_script_with_custom_encoder#2": true,
+        "utils_tests.test_html.TestUtilsHtml.test_json_script_custom_encoder#4": false,
+        "utils_tests.test_html.TestUtilsHtml.test_json_script_with_encoder#5": true,
+        "utils_tests.test_html.TestUtilsHtml.test_json_script_custom_encoder#6": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15789/dedup_patch_4.jsonl": {
+      "django__django-15789": {
+        "utils_tests.test_html.TestUtilsHtml.test_json_script_with_custom_encoder#1": true,
+        "utils_tests.test_html.TestUtilsHtml.test_json_script_with_custom_encoder#2": true,
+        "utils_tests.test_html.TestUtilsHtml.test_json_script_custom_encoder#4": false,
+        "utils_tests.test_html.TestUtilsHtml.test_json_script_with_encoder#5": true,
+        "utils_tests.test_html.TestUtilsHtml.test_json_script_custom_encoder#6": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15789/dedup_patch_5.jsonl": {
+      "django__django-15789": {
+        "utils_tests.test_html.TestUtilsHtml.test_json_script_with_custom_encoder#1": true,
+        "utils_tests.test_html.TestUtilsHtml.test_json_script_with_custom_encoder#2": true,
+        "utils_tests.test_html.TestUtilsHtml.test_json_script_custom_encoder#4": false,
+        "utils_tests.test_html.TestUtilsHtml.test_json_script_with_encoder#5": true,
+        "utils_tests.test_html.TestUtilsHtml.test_json_script_custom_encoder#6": true
+      }
+    }
+  }
+}

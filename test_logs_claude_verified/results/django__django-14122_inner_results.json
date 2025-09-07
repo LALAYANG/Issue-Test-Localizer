@@ -1,0 +1,620 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/django__django-14122/dedup_patch_0.jsonl": {
+      "django__django-14122": {
+        "ordering.tests.OrderingTests.test_order_by_constant_value": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_order_raises_on_non_selected_column": true,
+        "aggregation_regress.tests.AggregationTests.test_name_expressions": true,
+        "queries.tests.ValuesQuerysetTests.test_extra_values_order_multiple": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_union_with_values_list_and_order_on_annotation": true,
+        "aggregation_regress.tests.AggregationTests.test_more_more_more": true,
+        "ordering.tests.OrderingTests.test_extra_ordering_with_table_name": true,
+        "ordering.tests.OrderingTests.test_reverse_meta_ordering_pure": true,
+        "queries.tests.Queries5Tests.test_ordering": true,
+        "aggregation.tests.AggregateTestCase.test_expression_on_aggregation": true,
+        "aggregation_regress.tests.AggregationTests.test_having_group_by": true,
+        "ordering.tests.OrderingTests.test_order_by_nulls_first": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14122/dedup_patch_1.jsonl": {
+      "django__django-14122": {
+        "ordering.tests.OrderingTests.test_order_by_constant_value": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_order_raises_on_non_selected_column": true,
+        "aggregation_regress.tests.AggregationTests.test_name_expressions": true,
+        "queries.tests.ValuesQuerysetTests.test_extra_values_order_multiple": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_union_with_values_list_and_order_on_annotation": true,
+        "aggregation_regress.tests.AggregationTests.test_more_more_more": true,
+        "ordering.tests.OrderingTests.test_extra_ordering_with_table_name": true,
+        "ordering.tests.OrderingTests.test_reverse_meta_ordering_pure": true,
+        "queries.tests.Queries5Tests.test_ordering": true,
+        "aggregation.tests.AggregateTestCase.test_expression_on_aggregation": true,
+        "aggregation_regress.tests.AggregationTests.test_having_group_by": true,
+        "ordering.tests.OrderingTests.test_order_by_nulls_first": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14122/dedup_patch_10.jsonl": {
+      "django__django-14122": {
+        "ordering.tests.OrderingTests.test_order_by_constant_value": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_order_raises_on_non_selected_column": true,
+        "aggregation_regress.tests.AggregationTests.test_name_expressions": true,
+        "queries.tests.ValuesQuerysetTests.test_extra_values_order_multiple": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_union_with_values_list_and_order_on_annotation": true,
+        "aggregation_regress.tests.AggregationTests.test_more_more_more": true,
+        "ordering.tests.OrderingTests.test_extra_ordering_with_table_name": true,
+        "ordering.tests.OrderingTests.test_reverse_meta_ordering_pure": true,
+        "queries.tests.Queries5Tests.test_ordering": true,
+        "aggregation.tests.AggregateTestCase.test_expression_on_aggregation": true,
+        "aggregation_regress.tests.AggregationTests.test_having_group_by": true,
+        "ordering.tests.OrderingTests.test_order_by_nulls_first": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14122/dedup_patch_11.jsonl": {
+      "django__django-14122": {
+        "ordering.tests.OrderingTests.test_order_by_constant_value": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_order_raises_on_non_selected_column": true,
+        "aggregation_regress.tests.AggregationTests.test_name_expressions": true,
+        "queries.tests.ValuesQuerysetTests.test_extra_values_order_multiple": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_union_with_values_list_and_order_on_annotation": true,
+        "aggregation_regress.tests.AggregationTests.test_more_more_more": true,
+        "ordering.tests.OrderingTests.test_extra_ordering_with_table_name": true,
+        "ordering.tests.OrderingTests.test_reverse_meta_ordering_pure": true,
+        "queries.tests.Queries5Tests.test_ordering": true,
+        "aggregation.tests.AggregateTestCase.test_expression_on_aggregation": true,
+        "aggregation_regress.tests.AggregationTests.test_having_group_by": true,
+        "ordering.tests.OrderingTests.test_order_by_nulls_first": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14122/dedup_patch_12.jsonl": {
+      "django__django-14122": {
+        "ordering.tests.OrderingTests.test_order_by_constant_value": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_order_raises_on_non_selected_column": true,
+        "aggregation_regress.tests.AggregationTests.test_name_expressions": true,
+        "queries.tests.ValuesQuerysetTests.test_extra_values_order_multiple": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_union_with_values_list_and_order_on_annotation": true,
+        "aggregation_regress.tests.AggregationTests.test_more_more_more": true,
+        "ordering.tests.OrderingTests.test_extra_ordering_with_table_name": true,
+        "ordering.tests.OrderingTests.test_reverse_meta_ordering_pure": true,
+        "queries.tests.Queries5Tests.test_ordering": true,
+        "aggregation.tests.AggregateTestCase.test_expression_on_aggregation": true,
+        "aggregation_regress.tests.AggregationTests.test_having_group_by": true,
+        "ordering.tests.OrderingTests.test_order_by_nulls_first": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14122/dedup_patch_13.jsonl": {
+      "django__django-14122": {
+        "ordering.tests.OrderingTests.test_order_by_constant_value": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_order_raises_on_non_selected_column": true,
+        "aggregation_regress.tests.AggregationTests.test_name_expressions": true,
+        "queries.tests.ValuesQuerysetTests.test_extra_values_order_multiple": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_union_with_values_list_and_order_on_annotation": true,
+        "aggregation_regress.tests.AggregationTests.test_more_more_more": true,
+        "ordering.tests.OrderingTests.test_extra_ordering_with_table_name": true,
+        "ordering.tests.OrderingTests.test_reverse_meta_ordering_pure": true,
+        "queries.tests.Queries5Tests.test_ordering": true,
+        "aggregation.tests.AggregateTestCase.test_expression_on_aggregation": true,
+        "aggregation_regress.tests.AggregationTests.test_having_group_by": true,
+        "ordering.tests.OrderingTests.test_order_by_nulls_first": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14122/dedup_patch_14.jsonl": {
+      "django__django-14122": {
+        "ordering.tests.OrderingTests.test_order_by_constant_value": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_order_raises_on_non_selected_column": true,
+        "aggregation_regress.tests.AggregationTests.test_name_expressions": false,
+        "queries.tests.ValuesQuerysetTests.test_extra_values_order_multiple": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_union_with_values_list_and_order_on_annotation": true,
+        "aggregation_regress.tests.AggregationTests.test_more_more_more": false,
+        "ordering.tests.OrderingTests.test_extra_ordering_with_table_name": true,
+        "ordering.tests.OrderingTests.test_reverse_meta_ordering_pure": true,
+        "queries.tests.Queries5Tests.test_ordering": true,
+        "aggregation.tests.AggregateTestCase.test_expression_on_aggregation": false,
+        "aggregation_regress.tests.AggregationTests.test_having_group_by": false,
+        "ordering.tests.OrderingTests.test_order_by_nulls_first": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14122/dedup_patch_15.jsonl": {
+      "django__django-14122": {
+        "ordering.tests.OrderingTests.test_order_by_constant_value": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_order_raises_on_non_selected_column": true,
+        "aggregation_regress.tests.AggregationTests.test_name_expressions": true,
+        "queries.tests.ValuesQuerysetTests.test_extra_values_order_multiple": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_union_with_values_list_and_order_on_annotation": true,
+        "aggregation_regress.tests.AggregationTests.test_more_more_more": true,
+        "ordering.tests.OrderingTests.test_extra_ordering_with_table_name": true,
+        "ordering.tests.OrderingTests.test_reverse_meta_ordering_pure": true,
+        "queries.tests.Queries5Tests.test_ordering": true,
+        "aggregation.tests.AggregateTestCase.test_expression_on_aggregation": true,
+        "aggregation_regress.tests.AggregationTests.test_having_group_by": true,
+        "ordering.tests.OrderingTests.test_order_by_nulls_first": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14122/dedup_patch_16.jsonl": {
+      "django__django-14122": {
+        "ordering.tests.OrderingTests.test_order_by_constant_value": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_order_raises_on_non_selected_column": true,
+        "aggregation_regress.tests.AggregationTests.test_name_expressions": false,
+        "queries.tests.ValuesQuerysetTests.test_extra_values_order_multiple": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_union_with_values_list_and_order_on_annotation": true,
+        "aggregation_regress.tests.AggregationTests.test_more_more_more": false,
+        "ordering.tests.OrderingTests.test_extra_ordering_with_table_name": true,
+        "ordering.tests.OrderingTests.test_reverse_meta_ordering_pure": true,
+        "queries.tests.Queries5Tests.test_ordering": true,
+        "aggregation.tests.AggregateTestCase.test_expression_on_aggregation": false,
+        "aggregation_regress.tests.AggregationTests.test_having_group_by": false,
+        "ordering.tests.OrderingTests.test_order_by_nulls_first": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14122/dedup_patch_17.jsonl": {
+      "django__django-14122": {
+        "ordering.tests.OrderingTests.test_order_by_constant_value": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_order_raises_on_non_selected_column": true,
+        "aggregation_regress.tests.AggregationTests.test_name_expressions": true,
+        "queries.tests.ValuesQuerysetTests.test_extra_values_order_multiple": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_union_with_values_list_and_order_on_annotation": true,
+        "aggregation_regress.tests.AggregationTests.test_more_more_more": true,
+        "ordering.tests.OrderingTests.test_extra_ordering_with_table_name": true,
+        "ordering.tests.OrderingTests.test_reverse_meta_ordering_pure": true,
+        "queries.tests.Queries5Tests.test_ordering": true,
+        "aggregation.tests.AggregateTestCase.test_expression_on_aggregation": true,
+        "aggregation_regress.tests.AggregationTests.test_having_group_by": true,
+        "ordering.tests.OrderingTests.test_order_by_nulls_first": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14122/dedup_patch_18.jsonl": {
+      "django__django-14122": {
+        "ordering.tests.OrderingTests.test_order_by_constant_value": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_order_raises_on_non_selected_column": true,
+        "aggregation_regress.tests.AggregationTests.test_name_expressions": true,
+        "queries.tests.ValuesQuerysetTests.test_extra_values_order_multiple": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_union_with_values_list_and_order_on_annotation": true,
+        "aggregation_regress.tests.AggregationTests.test_more_more_more": true,
+        "ordering.tests.OrderingTests.test_extra_ordering_with_table_name": true,
+        "ordering.tests.OrderingTests.test_reverse_meta_ordering_pure": true,
+        "queries.tests.Queries5Tests.test_ordering": true,
+        "aggregation.tests.AggregateTestCase.test_expression_on_aggregation": true,
+        "aggregation_regress.tests.AggregationTests.test_having_group_by": true,
+        "ordering.tests.OrderingTests.test_order_by_nulls_first": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14122/dedup_patch_19.jsonl": {
+      "django__django-14122": {
+        "ordering.tests.OrderingTests.test_order_by_constant_value": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_order_raises_on_non_selected_column": true,
+        "aggregation_regress.tests.AggregationTests.test_name_expressions": true,
+        "queries.tests.ValuesQuerysetTests.test_extra_values_order_multiple": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_union_with_values_list_and_order_on_annotation": true,
+        "aggregation_regress.tests.AggregationTests.test_more_more_more": true,
+        "ordering.tests.OrderingTests.test_extra_ordering_with_table_name": true,
+        "ordering.tests.OrderingTests.test_reverse_meta_ordering_pure": true,
+        "queries.tests.Queries5Tests.test_ordering": true,
+        "aggregation.tests.AggregateTestCase.test_expression_on_aggregation": true,
+        "aggregation_regress.tests.AggregationTests.test_having_group_by": true,
+        "ordering.tests.OrderingTests.test_order_by_nulls_first": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14122/dedup_patch_2.jsonl": {
+      "django__django-14122": {
+        "ordering.tests.OrderingTests.test_order_by_constant_value": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_order_raises_on_non_selected_column": true,
+        "aggregation_regress.tests.AggregationTests.test_name_expressions": true,
+        "queries.tests.ValuesQuerysetTests.test_extra_values_order_multiple": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_union_with_values_list_and_order_on_annotation": true,
+        "aggregation_regress.tests.AggregationTests.test_more_more_more": true,
+        "ordering.tests.OrderingTests.test_extra_ordering_with_table_name": true,
+        "ordering.tests.OrderingTests.test_reverse_meta_ordering_pure": true,
+        "queries.tests.Queries5Tests.test_ordering": true,
+        "aggregation.tests.AggregateTestCase.test_expression_on_aggregation": true,
+        "aggregation_regress.tests.AggregationTests.test_having_group_by": true,
+        "ordering.tests.OrderingTests.test_order_by_nulls_first": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14122/dedup_patch_20.jsonl": {
+      "django__django-14122": {
+        "ordering.tests.OrderingTests.test_order_by_constant_value": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_order_raises_on_non_selected_column": true,
+        "aggregation_regress.tests.AggregationTests.test_name_expressions": true,
+        "queries.tests.ValuesQuerysetTests.test_extra_values_order_multiple": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_union_with_values_list_and_order_on_annotation": true,
+        "aggregation_regress.tests.AggregationTests.test_more_more_more": true,
+        "ordering.tests.OrderingTests.test_extra_ordering_with_table_name": true,
+        "ordering.tests.OrderingTests.test_reverse_meta_ordering_pure": true,
+        "queries.tests.Queries5Tests.test_ordering": true,
+        "aggregation.tests.AggregateTestCase.test_expression_on_aggregation": true,
+        "aggregation_regress.tests.AggregationTests.test_having_group_by": true,
+        "ordering.tests.OrderingTests.test_order_by_nulls_first": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14122/dedup_patch_21.jsonl": {
+      "django__django-14122": {
+        "ordering.tests.OrderingTests.test_order_by_constant_value": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_order_raises_on_non_selected_column": true,
+        "aggregation_regress.tests.AggregationTests.test_name_expressions": true,
+        "queries.tests.ValuesQuerysetTests.test_extra_values_order_multiple": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_union_with_values_list_and_order_on_annotation": true,
+        "aggregation_regress.tests.AggregationTests.test_more_more_more": true,
+        "ordering.tests.OrderingTests.test_extra_ordering_with_table_name": true,
+        "ordering.tests.OrderingTests.test_reverse_meta_ordering_pure": true,
+        "queries.tests.Queries5Tests.test_ordering": true,
+        "aggregation.tests.AggregateTestCase.test_expression_on_aggregation": true,
+        "aggregation_regress.tests.AggregationTests.test_having_group_by": true,
+        "ordering.tests.OrderingTests.test_order_by_nulls_first": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14122/dedup_patch_22.jsonl": {
+      "django__django-14122": {
+        "ordering.tests.OrderingTests.test_order_by_constant_value": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_order_raises_on_non_selected_column": true,
+        "aggregation_regress.tests.AggregationTests.test_name_expressions": true,
+        "queries.tests.ValuesQuerysetTests.test_extra_values_order_multiple": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_union_with_values_list_and_order_on_annotation": true,
+        "aggregation_regress.tests.AggregationTests.test_more_more_more": true,
+        "ordering.tests.OrderingTests.test_extra_ordering_with_table_name": true,
+        "ordering.tests.OrderingTests.test_reverse_meta_ordering_pure": true,
+        "queries.tests.Queries5Tests.test_ordering": true,
+        "aggregation.tests.AggregateTestCase.test_expression_on_aggregation": true,
+        "aggregation_regress.tests.AggregationTests.test_having_group_by": true,
+        "ordering.tests.OrderingTests.test_order_by_nulls_first": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14122/dedup_patch_23.jsonl": {
+      "django__django-14122": {
+        "ordering.tests.OrderingTests.test_order_by_constant_value": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_order_raises_on_non_selected_column": true,
+        "aggregation_regress.tests.AggregationTests.test_name_expressions": true,
+        "queries.tests.ValuesQuerysetTests.test_extra_values_order_multiple": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_union_with_values_list_and_order_on_annotation": true,
+        "aggregation_regress.tests.AggregationTests.test_more_more_more": true,
+        "ordering.tests.OrderingTests.test_extra_ordering_with_table_name": true,
+        "ordering.tests.OrderingTests.test_reverse_meta_ordering_pure": true,
+        "queries.tests.Queries5Tests.test_ordering": true,
+        "aggregation.tests.AggregateTestCase.test_expression_on_aggregation": true,
+        "aggregation_regress.tests.AggregationTests.test_having_group_by": true,
+        "ordering.tests.OrderingTests.test_order_by_nulls_first": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14122/dedup_patch_3.jsonl": {
+      "django__django-14122": {
+        "ordering.tests.OrderingTests.test_order_by_constant_value": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_order_raises_on_non_selected_column": true,
+        "aggregation_regress.tests.AggregationTests.test_name_expressions": true,
+        "queries.tests.ValuesQuerysetTests.test_extra_values_order_multiple": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_union_with_values_list_and_order_on_annotation": true,
+        "aggregation_regress.tests.AggregationTests.test_more_more_more": true,
+        "ordering.tests.OrderingTests.test_extra_ordering_with_table_name": true,
+        "ordering.tests.OrderingTests.test_reverse_meta_ordering_pure": true,
+        "queries.tests.Queries5Tests.test_ordering": true,
+        "aggregation.tests.AggregateTestCase.test_expression_on_aggregation": true,
+        "aggregation_regress.tests.AggregationTests.test_having_group_by": true,
+        "ordering.tests.OrderingTests.test_order_by_nulls_first": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14122/dedup_patch_4.jsonl": {
+      "django__django-14122": {
+        "ordering.tests.OrderingTests.test_order_by_constant_value": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_order_raises_on_non_selected_column": true,
+        "aggregation_regress.tests.AggregationTests.test_name_expressions": true,
+        "queries.tests.ValuesQuerysetTests.test_extra_values_order_multiple": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_union_with_values_list_and_order_on_annotation": true,
+        "aggregation_regress.tests.AggregationTests.test_more_more_more": true,
+        "ordering.tests.OrderingTests.test_extra_ordering_with_table_name": true,
+        "ordering.tests.OrderingTests.test_reverse_meta_ordering_pure": true,
+        "queries.tests.Queries5Tests.test_ordering": true,
+        "aggregation.tests.AggregateTestCase.test_expression_on_aggregation": true,
+        "aggregation_regress.tests.AggregationTests.test_having_group_by": true,
+        "ordering.tests.OrderingTests.test_order_by_nulls_first": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14122/dedup_patch_5.jsonl": {
+      "django__django-14122": {
+        "ordering.tests.OrderingTests.test_order_by_constant_value": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_order_raises_on_non_selected_column": true,
+        "aggregation_regress.tests.AggregationTests.test_name_expressions": true,
+        "queries.tests.ValuesQuerysetTests.test_extra_values_order_multiple": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_union_with_values_list_and_order_on_annotation": true,
+        "aggregation_regress.tests.AggregationTests.test_more_more_more": true,
+        "ordering.tests.OrderingTests.test_extra_ordering_with_table_name": true,
+        "ordering.tests.OrderingTests.test_reverse_meta_ordering_pure": true,
+        "queries.tests.Queries5Tests.test_ordering": true,
+        "aggregation.tests.AggregateTestCase.test_expression_on_aggregation": true,
+        "aggregation_regress.tests.AggregationTests.test_having_group_by": true,
+        "ordering.tests.OrderingTests.test_order_by_nulls_first": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14122/dedup_patch_6.jsonl": {
+      "django__django-14122": {
+        "ordering.tests.OrderingTests.test_order_by_constant_value": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_order_raises_on_non_selected_column": true,
+        "aggregation_regress.tests.AggregationTests.test_name_expressions": true,
+        "queries.tests.ValuesQuerysetTests.test_extra_values_order_multiple": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_union_with_values_list_and_order_on_annotation": true,
+        "aggregation_regress.tests.AggregationTests.test_more_more_more": true,
+        "ordering.tests.OrderingTests.test_extra_ordering_with_table_name": true,
+        "ordering.tests.OrderingTests.test_reverse_meta_ordering_pure": true,
+        "queries.tests.Queries5Tests.test_ordering": true,
+        "aggregation.tests.AggregateTestCase.test_expression_on_aggregation": true,
+        "aggregation_regress.tests.AggregationTests.test_having_group_by": true,
+        "ordering.tests.OrderingTests.test_order_by_nulls_first": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14122/dedup_patch_7.jsonl": {
+      "django__django-14122": {
+        "ordering.tests.OrderingTests.test_order_by_constant_value": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_order_raises_on_non_selected_column": true,
+        "aggregation_regress.tests.AggregationTests.test_name_expressions": true,
+        "queries.tests.ValuesQuerysetTests.test_extra_values_order_multiple": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_union_with_values_list_and_order_on_annotation": true,
+        "aggregation_regress.tests.AggregationTests.test_more_more_more": true,
+        "ordering.tests.OrderingTests.test_extra_ordering_with_table_name": true,
+        "ordering.tests.OrderingTests.test_reverse_meta_ordering_pure": true,
+        "queries.tests.Queries5Tests.test_ordering": true,
+        "aggregation.tests.AggregateTestCase.test_expression_on_aggregation": true,
+        "aggregation_regress.tests.AggregationTests.test_having_group_by": true,
+        "ordering.tests.OrderingTests.test_order_by_nulls_first": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14122/dedup_patch_8.jsonl": {
+      "django__django-14122": {
+        "ordering.tests.OrderingTests.test_order_by_constant_value": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_order_raises_on_non_selected_column": true,
+        "aggregation_regress.tests.AggregationTests.test_name_expressions": true,
+        "queries.tests.ValuesQuerysetTests.test_extra_values_order_multiple": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_union_with_values_list_and_order_on_annotation": true,
+        "aggregation_regress.tests.AggregationTests.test_more_more_more": true,
+        "ordering.tests.OrderingTests.test_extra_ordering_with_table_name": true,
+        "ordering.tests.OrderingTests.test_reverse_meta_ordering_pure": true,
+        "queries.tests.Queries5Tests.test_ordering": true,
+        "aggregation.tests.AggregateTestCase.test_expression_on_aggregation": true,
+        "aggregation_regress.tests.AggregationTests.test_having_group_by": true,
+        "ordering.tests.OrderingTests.test_order_by_nulls_first": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14122/dedup_patch_9.jsonl": {
+      "django__django-14122": {
+        "ordering.tests.OrderingTests.test_order_by_constant_value": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_order_raises_on_non_selected_column": true,
+        "aggregation_regress.tests.AggregationTests.test_name_expressions": true,
+        "queries.tests.ValuesQuerysetTests.test_extra_values_order_multiple": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_union_with_values_list_and_order_on_annotation": true,
+        "aggregation_regress.tests.AggregationTests.test_more_more_more": true,
+        "ordering.tests.OrderingTests.test_extra_ordering_with_table_name": true,
+        "ordering.tests.OrderingTests.test_reverse_meta_ordering_pure": true,
+        "queries.tests.Queries5Tests.test_ordering": true,
+        "aggregation.tests.AggregateTestCase.test_expression_on_aggregation": true,
+        "aggregation_regress.tests.AggregationTests.test_having_group_by": true,
+        "ordering.tests.OrderingTests.test_order_by_nulls_first": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-14122": {
+        "ordering.tests.OrderingTests.test_meta_ordering_not_in_group_by#1": true,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#2": true,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#3": true,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#4": true,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#5": true,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14122/dedup_patch_0.jsonl": {
+      "django__django-14122": {
+        "ordering.tests.OrderingTests.test_meta_ordering_not_in_group_by#1": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#2": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#3": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#4": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#5": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14122/dedup_patch_1.jsonl": {
+      "django__django-14122": {
+        "ordering.tests.OrderingTests.test_meta_ordering_not_in_group_by#1": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#2": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#3": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#4": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#5": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14122/dedup_patch_10.jsonl": {
+      "django__django-14122": {
+        "ordering.tests.OrderingTests.test_meta_ordering_not_in_group_by#1": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#2": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#3": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#4": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#5": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14122/dedup_patch_11.jsonl": {
+      "django__django-14122": {
+        "ordering.tests.OrderingTests.test_meta_ordering_not_in_group_by#1": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#2": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#3": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#4": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#5": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14122/dedup_patch_12.jsonl": {
+      "django__django-14122": {
+        "ordering.tests.OrderingTests.test_meta_ordering_not_in_group_by#1": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#2": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#3": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#4": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#5": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14122/dedup_patch_13.jsonl": {
+      "django__django-14122": {
+        "ordering.tests.OrderingTests.test_meta_ordering_not_in_group_by#1": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#2": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#3": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#4": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#5": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14122/dedup_patch_15.jsonl": {
+      "django__django-14122": {
+        "ordering.tests.OrderingTests.test_meta_ordering_not_in_group_by#1": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#2": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#3": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#4": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#5": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14122/dedup_patch_17.jsonl": {
+      "django__django-14122": {
+        "ordering.tests.OrderingTests.test_meta_ordering_not_in_group_by#1": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#2": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#3": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#4": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#5": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14122/dedup_patch_18.jsonl": {
+      "django__django-14122": {
+        "ordering.tests.OrderingTests.test_meta_ordering_not_in_group_by#1": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#2": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#3": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#4": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#5": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14122/dedup_patch_19.jsonl": {
+      "django__django-14122": {
+        "ordering.tests.OrderingTests.test_meta_ordering_not_in_group_by#1": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#2": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#3": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#4": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#5": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14122/dedup_patch_2.jsonl": {
+      "django__django-14122": {
+        "ordering.tests.OrderingTests.test_meta_ordering_not_in_group_by#1": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#2": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#3": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#4": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#5": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14122/dedup_patch_20.jsonl": {
+      "django__django-14122": {
+        "ordering.tests.OrderingTests.test_meta_ordering_not_in_group_by#1": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#2": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#3": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#4": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#5": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14122/dedup_patch_21.jsonl": {
+      "django__django-14122": {
+        "ordering.tests.OrderingTests.test_meta_ordering_not_in_group_by#1": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#2": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#3": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#4": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#5": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14122/dedup_patch_22.jsonl": {
+      "django__django-14122": {
+        "ordering.tests.OrderingTests.test_meta_ordering_not_in_group_by#1": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#2": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#3": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#4": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#5": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14122/dedup_patch_23.jsonl": {
+      "django__django-14122": {
+        "ordering.tests.OrderingTests.test_meta_ordering_not_in_group_by#1": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#2": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#3": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#4": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#5": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14122/dedup_patch_3.jsonl": {
+      "django__django-14122": {
+        "ordering.tests.OrderingTests.test_meta_ordering_not_in_group_by#1": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#2": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#3": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#4": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#5": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14122/dedup_patch_4.jsonl": {
+      "django__django-14122": {
+        "ordering.tests.OrderingTests.test_meta_ordering_not_in_group_by#1": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#2": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#3": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#4": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#5": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14122/dedup_patch_5.jsonl": {
+      "django__django-14122": {
+        "ordering.tests.OrderingTests.test_meta_ordering_not_in_group_by#1": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#2": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#3": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#4": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#5": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14122/dedup_patch_6.jsonl": {
+      "django__django-14122": {
+        "ordering.tests.OrderingTests.test_meta_ordering_not_in_group_by#1": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#2": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#3": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#4": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#5": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14122/dedup_patch_7.jsonl": {
+      "django__django-14122": {
+        "ordering.tests.OrderingTests.test_meta_ordering_not_in_group_by#1": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#2": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#3": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#4": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#5": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14122/dedup_patch_8.jsonl": {
+      "django__django-14122": {
+        "ordering.tests.OrderingTests.test_meta_ordering_not_in_group_by#1": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#2": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#3": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#4": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#5": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14122/dedup_patch_9.jsonl": {
+      "django__django-14122": {
+        "ordering.tests.OrderingTests.test_meta_ordering_not_in_group_by#1": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#2": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#3": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#4": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#5": false,
+        "aggregation.tests.AggregateTestCase.test_meta_ordering_not_in_group_by#6": false
+      }
+    }
+  }
+}

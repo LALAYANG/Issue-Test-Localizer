@@ -1,0 +1,86 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/django__django-13670/dedup_patch_0.jsonl": {
+      "django__django-13670": {
+        "utils_tests.test_dateformat.DateFormatTests.test_time_formats": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13670/dedup_patch_1.jsonl": {
+      "django__django-13670": {
+        "utils_tests.test_dateformat.DateFormatTests.test_time_formats": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13670/dedup_patch_2.jsonl": {
+      "django__django-13670": {
+        "utils_tests.test_dateformat.DateFormatTests.test_time_formats": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13670/dedup_patch_3.jsonl": {
+      "django__django-13670": {
+        "utils_tests.test_dateformat.DateFormatTests.test_time_formats": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13670/dedup_patch_4.jsonl": {
+      "django__django-13670": {
+        "utils_tests.test_dateformat.DateFormatTests.test_time_formats": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13670/dedup_patch_5.jsonl": {
+      "django__django-13670": {
+        "utils_tests.test_dateformat.DateFormatTests.test_time_formats": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-13670": {
+        "utils_tests.test_dateformat.DateFormatTests.test_y_format_with_small_years#1": true,
+        "utils_tests.test_dateformat.DateFormatTests.test_y_format_with_small_year#2": true,
+        "utils_tests.test_dateformat.DateFormatTests.test_y_format_for_small_years#3": true,
+        "utils_tests.test_dateformat.DateFormatTests.test_time_formats#4": true,
+        "utils_tests.test_dateformat.DateFormatTests.test_date_formats#5": true,
+        "utils_tests.test_dateformat.DateFormatTests.test_date_formats#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13670/dedup_patch_0.jsonl": {
+      "django__django-13670": {
+        "utils_tests.test_dateformat.DateFormatTests.test_y_format_with_small_years#1": true,
+        "utils_tests.test_dateformat.DateFormatTests.test_y_format_with_small_year#2": true,
+        "utils_tests.test_dateformat.DateFormatTests.test_y_format_for_small_years#3": true,
+        "utils_tests.test_dateformat.DateFormatTests.test_time_formats#4": true,
+        "utils_tests.test_dateformat.DateFormatTests.test_date_formats#5": true,
+        "utils_tests.test_dateformat.DateFormatTests.test_date_formats#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13670/dedup_patch_1.jsonl": {
+      "django__django-13670": {
+        "utils_tests.test_dateformat.DateFormatTests.test_y_format_with_small_years#1": true,
+        "utils_tests.test_dateformat.DateFormatTests.test_y_format_with_small_year#2": true,
+        "utils_tests.test_dateformat.DateFormatTests.test_y_format_for_small_years#3": true,
+        "utils_tests.test_dateformat.DateFormatTests.test_time_formats#4": true,
+        "utils_tests.test_dateformat.DateFormatTests.test_date_formats#5": true,
+        "utils_tests.test_dateformat.DateFormatTests.test_date_formats#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13670/dedup_patch_4.jsonl": {
+      "django__django-13670": {
+        "utils_tests.test_dateformat.DateFormatTests.test_y_format_with_small_years#1": true,
+        "utils_tests.test_dateformat.DateFormatTests.test_y_format_with_small_year#2": true,
+        "utils_tests.test_dateformat.DateFormatTests.test_y_format_for_small_years#3": true,
+        "utils_tests.test_dateformat.DateFormatTests.test_time_formats#4": true,
+        "utils_tests.test_dateformat.DateFormatTests.test_date_formats#5": true,
+        "utils_tests.test_dateformat.DateFormatTests.test_date_formats#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13670/dedup_patch_5.jsonl": {
+      "django__django-13670": {
+        "utils_tests.test_dateformat.DateFormatTests.test_y_format_with_small_years#1": true,
+        "utils_tests.test_dateformat.DateFormatTests.test_y_format_with_small_year#2": true,
+        "utils_tests.test_dateformat.DateFormatTests.test_y_format_for_small_years#3": true,
+        "utils_tests.test_dateformat.DateFormatTests.test_time_formats#4": true,
+        "utils_tests.test_dateformat.DateFormatTests.test_date_formats#5": true,
+        "utils_tests.test_dateformat.DateFormatTests.test_date_formats#6": true
+      }
+    }
+  }
+}

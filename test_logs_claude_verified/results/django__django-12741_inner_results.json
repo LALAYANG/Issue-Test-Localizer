@@ -1,0 +1,28 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/django__django-12741/dedup_patch_0.jsonl": {
+      "django__django-12741": {
+        "backends.base.test_operations.SqlFlushTests.test_execute_sql_flush_statements": false,
+        "backends.base.test_operations.SimpleDatabaseOperationTests.test_sql_flush": true,
+        "backends.tests.LongNameTest.test_sequence_name_length_limits_flush": false
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-12741": {
+        "backends.base.test_operations.SqlFlushTests.test_sql_flush_no_tables#1": false,
+        "backends.base.test_operations.SqlFlushTests.test_sql_flush_no_tables#2": false,
+        "backends.base.test_operations.SqlFlushTests.test_execute_sql_flush_without_using_parameter#3": false,
+        "backends.base.test_operations.SqlFlushTests.test_sql_flush_no_tables#4": false,
+        "backends.base.test_operations.SqlFlushTests.test_execute_sql_flush_without_using_parameter#5": true,
+        "backends.base.test_operations.SqlFlushTests.test_sql_flush_no_tables#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12741/dedup_patch_0.jsonl": {
+      "django__django-12741": {
+        "backends.base.test_operations.SqlFlushTests.test_execute_sql_flush_without_using_parameter#5": false
+      }
+    }
+  }
+}

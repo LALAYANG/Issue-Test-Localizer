@@ -1,0 +1,67 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/django__django-13590/dedup_patch_0.jsonl": {
+      "django__django-13590": {
+        "queries.tests.Queries1Tests.test_exclude_in": false,
+        "expressions.tests.IterableLookupInnerExpressionsTests.test_complex_expressions_do_not_introduce_sql_injection_via_untrusted_string_inclusion": false,
+        "expressions.tests.IterableLookupInnerExpressionsTests.test_in_lookup_allows_F_expressions_and_expressions_for_integers": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13590/dedup_patch_1.jsonl": {
+      "django__django-13590": {
+        "queries.tests.Queries1Tests.test_exclude_in": false,
+        "expressions.tests.IterableLookupInnerExpressionsTests.test_complex_expressions_do_not_introduce_sql_injection_via_untrusted_string_inclusion": false,
+        "expressions.tests.IterableLookupInnerExpressionsTests.test_in_lookup_allows_F_expressions_and_expressions_for_integers": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13590/dedup_patch_2.jsonl": {
+      "django__django-13590": {
+        "queries.tests.Queries1Tests.test_exclude_in": false,
+        "expressions.tests.IterableLookupInnerExpressionsTests.test_complex_expressions_do_not_introduce_sql_injection_via_untrusted_string_inclusion": false,
+        "expressions.tests.IterableLookupInnerExpressionsTests.test_in_lookup_allows_F_expressions_and_expressions_for_integers": false
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-13590": {
+        "queries.test_query.TestQuery.test_named_tuple_lookup_value#1": true,
+        "queries.test_query.TestQuery.test_named_tuple_range_lookup#2": true,
+        "queries.test_query.TestQuery.test_named_tuple_range_lookup#3": true,
+        "queries.test_query.TestQuery.test_named_tuple_lookup_value#4": true,
+        "queries.test_query.TestQuery.test_named_tuple_range_lookup#5": true,
+        "queries.test_query.TestQuery.test_named_tuple_range_lookup#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13590/dedup_patch_0.jsonl": {
+      "django__django-13590": {
+        "queries.test_query.TestQuery.test_named_tuple_lookup_value#1": false,
+        "queries.test_query.TestQuery.test_named_tuple_range_lookup#2": false,
+        "queries.test_query.TestQuery.test_named_tuple_range_lookup#3": false,
+        "queries.test_query.TestQuery.test_named_tuple_lookup_value#4": true,
+        "queries.test_query.TestQuery.test_named_tuple_range_lookup#5": false,
+        "queries.test_query.TestQuery.test_named_tuple_range_lookup#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13590/dedup_patch_1.jsonl": {
+      "django__django-13590": {
+        "queries.test_query.TestQuery.test_named_tuple_lookup_value#1": false,
+        "queries.test_query.TestQuery.test_named_tuple_range_lookup#2": false,
+        "queries.test_query.TestQuery.test_named_tuple_range_lookup#3": false,
+        "queries.test_query.TestQuery.test_named_tuple_lookup_value#4": true,
+        "queries.test_query.TestQuery.test_named_tuple_range_lookup#5": false,
+        "queries.test_query.TestQuery.test_named_tuple_range_lookup#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13590/dedup_patch_2.jsonl": {
+      "django__django-13590": {
+        "queries.test_query.TestQuery.test_named_tuple_lookup_value#1": false,
+        "queries.test_query.TestQuery.test_named_tuple_range_lookup#2": false,
+        "queries.test_query.TestQuery.test_named_tuple_range_lookup#3": false,
+        "queries.test_query.TestQuery.test_named_tuple_lookup_value#4": true,
+        "queries.test_query.TestQuery.test_named_tuple_range_lookup#5": false,
+        "queries.test_query.TestQuery.test_named_tuple_range_lookup#6": false
+      }
+    }
+  }
+}

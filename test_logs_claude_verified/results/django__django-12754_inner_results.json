@@ -1,0 +1,994 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/django__django-12754/dedup_patch_0.jsonl": {
+      "django__django-12754": {
+        "migrations.test_autodetector.AutodetectorTests.test_add_model_order_with_respect_to": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_delete": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_inconsistent_history_db_failure": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_with_custom_name": true,
+        "migrations.test_autodetector.AutodetectorTests.test_create_with_through_model": true,
+        "migrations.test_autodetector.AutodetectorTests.test_foreign_key_removed_before_target_model": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_to_managed": true,
+        "migrations.test_autodetector.AutodetectorTests.test_managed_to_unmanaged": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy_proxy": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy": true,
+        "migrations.test_autodetector.AutodetectorTests.test_same_app_circular_fk_dependency_with_unique_together_and_indexes": true,
+        "migrations.test_commands.MigrateTests.test_migrate_syncdb_deferred_sql_executed_with_schemaeditor": true,
+        "migrations.test_autodetector.AutodetectorTests.test_many_to_many_removed_before_through_model": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_non_interactive_not_null_alteration": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12754/dedup_patch_1.jsonl": {
+      "django__django-12754": {
+        "migrations.test_autodetector.AutodetectorTests.test_add_model_order_with_respect_to": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_delete": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_inconsistent_history_db_failure": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_with_custom_name": true,
+        "migrations.test_autodetector.AutodetectorTests.test_create_with_through_model": true,
+        "migrations.test_autodetector.AutodetectorTests.test_foreign_key_removed_before_target_model": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_to_managed": true,
+        "migrations.test_autodetector.AutodetectorTests.test_managed_to_unmanaged": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy_proxy": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy": true,
+        "migrations.test_autodetector.AutodetectorTests.test_same_app_circular_fk_dependency_with_unique_together_and_indexes": true,
+        "migrations.test_commands.MigrateTests.test_migrate_syncdb_deferred_sql_executed_with_schemaeditor": true,
+        "migrations.test_autodetector.AutodetectorTests.test_many_to_many_removed_before_through_model": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_non_interactive_not_null_alteration": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12754/dedup_patch_10.jsonl": {
+      "django__django-12754": {
+        "migrations.test_autodetector.AutodetectorTests.test_add_model_order_with_respect_to": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_delete": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_inconsistent_history_db_failure": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_with_custom_name": true,
+        "migrations.test_autodetector.AutodetectorTests.test_create_with_through_model": true,
+        "migrations.test_autodetector.AutodetectorTests.test_foreign_key_removed_before_target_model": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_to_managed": true,
+        "migrations.test_autodetector.AutodetectorTests.test_managed_to_unmanaged": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy_proxy": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy": true,
+        "migrations.test_autodetector.AutodetectorTests.test_same_app_circular_fk_dependency_with_unique_together_and_indexes": true,
+        "migrations.test_commands.MigrateTests.test_migrate_syncdb_deferred_sql_executed_with_schemaeditor": true,
+        "migrations.test_autodetector.AutodetectorTests.test_many_to_many_removed_before_through_model": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_non_interactive_not_null_alteration": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12754/dedup_patch_11.jsonl": {
+      "django__django-12754": {
+        "migrations.test_autodetector.AutodetectorTests.test_add_model_order_with_respect_to": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_delete": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_inconsistent_history_db_failure": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_with_custom_name": true,
+        "migrations.test_autodetector.AutodetectorTests.test_create_with_through_model": true,
+        "migrations.test_autodetector.AutodetectorTests.test_foreign_key_removed_before_target_model": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_to_managed": true,
+        "migrations.test_autodetector.AutodetectorTests.test_managed_to_unmanaged": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy_proxy": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy": true,
+        "migrations.test_autodetector.AutodetectorTests.test_same_app_circular_fk_dependency_with_unique_together_and_indexes": true,
+        "migrations.test_commands.MigrateTests.test_migrate_syncdb_deferred_sql_executed_with_schemaeditor": true,
+        "migrations.test_autodetector.AutodetectorTests.test_many_to_many_removed_before_through_model": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_non_interactive_not_null_alteration": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12754/dedup_patch_12.jsonl": {
+      "django__django-12754": {
+        "migrations.test_autodetector.AutodetectorTests.test_add_model_order_with_respect_to": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_delete": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_inconsistent_history_db_failure": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_with_custom_name": true,
+        "migrations.test_autodetector.AutodetectorTests.test_create_with_through_model": true,
+        "migrations.test_autodetector.AutodetectorTests.test_foreign_key_removed_before_target_model": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_to_managed": true,
+        "migrations.test_autodetector.AutodetectorTests.test_managed_to_unmanaged": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy_proxy": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy": true,
+        "migrations.test_autodetector.AutodetectorTests.test_same_app_circular_fk_dependency_with_unique_together_and_indexes": true,
+        "migrations.test_commands.MigrateTests.test_migrate_syncdb_deferred_sql_executed_with_schemaeditor": true,
+        "migrations.test_autodetector.AutodetectorTests.test_many_to_many_removed_before_through_model": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_non_interactive_not_null_alteration": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12754/dedup_patch_13.jsonl": {
+      "django__django-12754": {
+        "migrations.test_autodetector.AutodetectorTests.test_add_model_order_with_respect_to": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_delete": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_inconsistent_history_db_failure": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_with_custom_name": true,
+        "migrations.test_autodetector.AutodetectorTests.test_create_with_through_model": true,
+        "migrations.test_autodetector.AutodetectorTests.test_foreign_key_removed_before_target_model": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_to_managed": true,
+        "migrations.test_autodetector.AutodetectorTests.test_managed_to_unmanaged": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy_proxy": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy": true,
+        "migrations.test_autodetector.AutodetectorTests.test_same_app_circular_fk_dependency_with_unique_together_and_indexes": true,
+        "migrations.test_commands.MigrateTests.test_migrate_syncdb_deferred_sql_executed_with_schemaeditor": true,
+        "migrations.test_autodetector.AutodetectorTests.test_many_to_many_removed_before_through_model": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_non_interactive_not_null_alteration": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12754/dedup_patch_14.jsonl": {
+      "django__django-12754": {
+        "migrations.test_autodetector.AutodetectorTests.test_add_model_order_with_respect_to": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_delete": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_inconsistent_history_db_failure": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_with_custom_name": true,
+        "migrations.test_autodetector.AutodetectorTests.test_create_with_through_model": true,
+        "migrations.test_autodetector.AutodetectorTests.test_foreign_key_removed_before_target_model": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_to_managed": true,
+        "migrations.test_autodetector.AutodetectorTests.test_managed_to_unmanaged": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy_proxy": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy": true,
+        "migrations.test_autodetector.AutodetectorTests.test_same_app_circular_fk_dependency_with_unique_together_and_indexes": true,
+        "migrations.test_commands.MigrateTests.test_migrate_syncdb_deferred_sql_executed_with_schemaeditor": true,
+        "migrations.test_autodetector.AutodetectorTests.test_many_to_many_removed_before_through_model": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_non_interactive_not_null_alteration": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12754/dedup_patch_15.jsonl": {
+      "django__django-12754": {
+        "migrations.test_autodetector.AutodetectorTests.test_add_model_order_with_respect_to": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_delete": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_inconsistent_history_db_failure": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_with_custom_name": true,
+        "migrations.test_autodetector.AutodetectorTests.test_create_with_through_model": true,
+        "migrations.test_autodetector.AutodetectorTests.test_foreign_key_removed_before_target_model": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_to_managed": true,
+        "migrations.test_autodetector.AutodetectorTests.test_managed_to_unmanaged": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy_proxy": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy": true,
+        "migrations.test_autodetector.AutodetectorTests.test_same_app_circular_fk_dependency_with_unique_together_and_indexes": true,
+        "migrations.test_commands.MigrateTests.test_migrate_syncdb_deferred_sql_executed_with_schemaeditor": true,
+        "migrations.test_autodetector.AutodetectorTests.test_many_to_many_removed_before_through_model": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_non_interactive_not_null_alteration": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12754/dedup_patch_16.jsonl": {
+      "django__django-12754": {
+        "migrations.test_autodetector.AutodetectorTests.test_add_model_order_with_respect_to": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_delete": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_inconsistent_history_db_failure": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_with_custom_name": true,
+        "migrations.test_autodetector.AutodetectorTests.test_create_with_through_model": true,
+        "migrations.test_autodetector.AutodetectorTests.test_foreign_key_removed_before_target_model": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_to_managed": true,
+        "migrations.test_autodetector.AutodetectorTests.test_managed_to_unmanaged": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy_proxy": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy": true,
+        "migrations.test_autodetector.AutodetectorTests.test_same_app_circular_fk_dependency_with_unique_together_and_indexes": true,
+        "migrations.test_commands.MigrateTests.test_migrate_syncdb_deferred_sql_executed_with_schemaeditor": true,
+        "migrations.test_autodetector.AutodetectorTests.test_many_to_many_removed_before_through_model": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_non_interactive_not_null_alteration": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12754/dedup_patch_17.jsonl": {
+      "django__django-12754": {
+        "migrations.test_autodetector.AutodetectorTests.test_add_model_order_with_respect_to": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_delete": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_inconsistent_history_db_failure": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_with_custom_name": true,
+        "migrations.test_autodetector.AutodetectorTests.test_create_with_through_model": true,
+        "migrations.test_autodetector.AutodetectorTests.test_foreign_key_removed_before_target_model": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_to_managed": true,
+        "migrations.test_autodetector.AutodetectorTests.test_managed_to_unmanaged": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy_proxy": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy": true,
+        "migrations.test_autodetector.AutodetectorTests.test_same_app_circular_fk_dependency_with_unique_together_and_indexes": true,
+        "migrations.test_commands.MigrateTests.test_migrate_syncdb_deferred_sql_executed_with_schemaeditor": true,
+        "migrations.test_autodetector.AutodetectorTests.test_many_to_many_removed_before_through_model": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_non_interactive_not_null_alteration": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12754/dedup_patch_18.jsonl": {
+      "django__django-12754": {
+        "migrations.test_autodetector.AutodetectorTests.test_add_model_order_with_respect_to": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_delete": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_inconsistent_history_db_failure": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_with_custom_name": true,
+        "migrations.test_autodetector.AutodetectorTests.test_create_with_through_model": true,
+        "migrations.test_autodetector.AutodetectorTests.test_foreign_key_removed_before_target_model": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_to_managed": true,
+        "migrations.test_autodetector.AutodetectorTests.test_managed_to_unmanaged": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy_proxy": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy": true,
+        "migrations.test_autodetector.AutodetectorTests.test_same_app_circular_fk_dependency_with_unique_together_and_indexes": true,
+        "migrations.test_commands.MigrateTests.test_migrate_syncdb_deferred_sql_executed_with_schemaeditor": true,
+        "migrations.test_autodetector.AutodetectorTests.test_many_to_many_removed_before_through_model": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_non_interactive_not_null_alteration": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12754/dedup_patch_19.jsonl": {
+      "django__django-12754": {
+        "migrations.test_autodetector.AutodetectorTests.test_add_model_order_with_respect_to": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_delete": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_inconsistent_history_db_failure": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_with_custom_name": true,
+        "migrations.test_autodetector.AutodetectorTests.test_create_with_through_model": true,
+        "migrations.test_autodetector.AutodetectorTests.test_foreign_key_removed_before_target_model": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_to_managed": true,
+        "migrations.test_autodetector.AutodetectorTests.test_managed_to_unmanaged": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy_proxy": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy": true,
+        "migrations.test_autodetector.AutodetectorTests.test_same_app_circular_fk_dependency_with_unique_together_and_indexes": true,
+        "migrations.test_commands.MigrateTests.test_migrate_syncdb_deferred_sql_executed_with_schemaeditor": true,
+        "migrations.test_autodetector.AutodetectorTests.test_many_to_many_removed_before_through_model": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_non_interactive_not_null_alteration": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12754/dedup_patch_2.jsonl": {
+      "django__django-12754": {
+        "migrations.test_autodetector.AutodetectorTests.test_add_model_order_with_respect_to": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_delete": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_inconsistent_history_db_failure": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_with_custom_name": true,
+        "migrations.test_autodetector.AutodetectorTests.test_create_with_through_model": true,
+        "migrations.test_autodetector.AutodetectorTests.test_foreign_key_removed_before_target_model": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_to_managed": true,
+        "migrations.test_autodetector.AutodetectorTests.test_managed_to_unmanaged": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy_proxy": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy": true,
+        "migrations.test_autodetector.AutodetectorTests.test_same_app_circular_fk_dependency_with_unique_together_and_indexes": true,
+        "migrations.test_commands.MigrateTests.test_migrate_syncdb_deferred_sql_executed_with_schemaeditor": true,
+        "migrations.test_autodetector.AutodetectorTests.test_many_to_many_removed_before_through_model": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_non_interactive_not_null_alteration": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12754/dedup_patch_20.jsonl": {
+      "django__django-12754": {
+        "migrations.test_autodetector.AutodetectorTests.test_add_model_order_with_respect_to": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_delete": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_inconsistent_history_db_failure": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_with_custom_name": true,
+        "migrations.test_autodetector.AutodetectorTests.test_create_with_through_model": true,
+        "migrations.test_autodetector.AutodetectorTests.test_foreign_key_removed_before_target_model": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_to_managed": true,
+        "migrations.test_autodetector.AutodetectorTests.test_managed_to_unmanaged": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy_proxy": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy": true,
+        "migrations.test_autodetector.AutodetectorTests.test_same_app_circular_fk_dependency_with_unique_together_and_indexes": true,
+        "migrations.test_commands.MigrateTests.test_migrate_syncdb_deferred_sql_executed_with_schemaeditor": true,
+        "migrations.test_autodetector.AutodetectorTests.test_many_to_many_removed_before_through_model": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_non_interactive_not_null_alteration": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12754/dedup_patch_21.jsonl": {
+      "django__django-12754": {
+        "migrations.test_autodetector.AutodetectorTests.test_add_model_order_with_respect_to": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_delete": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_inconsistent_history_db_failure": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_with_custom_name": true,
+        "migrations.test_autodetector.AutodetectorTests.test_create_with_through_model": true,
+        "migrations.test_autodetector.AutodetectorTests.test_foreign_key_removed_before_target_model": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_to_managed": true,
+        "migrations.test_autodetector.AutodetectorTests.test_managed_to_unmanaged": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy_proxy": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy": true,
+        "migrations.test_autodetector.AutodetectorTests.test_same_app_circular_fk_dependency_with_unique_together_and_indexes": true,
+        "migrations.test_commands.MigrateTests.test_migrate_syncdb_deferred_sql_executed_with_schemaeditor": true,
+        "migrations.test_autodetector.AutodetectorTests.test_many_to_many_removed_before_through_model": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_non_interactive_not_null_alteration": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12754/dedup_patch_22.jsonl": {
+      "django__django-12754": {
+        "migrations.test_autodetector.AutodetectorTests.test_add_model_order_with_respect_to": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_delete": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_inconsistent_history_db_failure": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_with_custom_name": true,
+        "migrations.test_autodetector.AutodetectorTests.test_create_with_through_model": true,
+        "migrations.test_autodetector.AutodetectorTests.test_foreign_key_removed_before_target_model": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_to_managed": true,
+        "migrations.test_autodetector.AutodetectorTests.test_managed_to_unmanaged": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy_proxy": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy": true,
+        "migrations.test_autodetector.AutodetectorTests.test_same_app_circular_fk_dependency_with_unique_together_and_indexes": true,
+        "migrations.test_commands.MigrateTests.test_migrate_syncdb_deferred_sql_executed_with_schemaeditor": true,
+        "migrations.test_autodetector.AutodetectorTests.test_many_to_many_removed_before_through_model": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_non_interactive_not_null_alteration": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12754/dedup_patch_23.jsonl": {
+      "django__django-12754": {
+        "migrations.test_autodetector.AutodetectorTests.test_add_model_order_with_respect_to": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_delete": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_inconsistent_history_db_failure": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_with_custom_name": true,
+        "migrations.test_autodetector.AutodetectorTests.test_create_with_through_model": true,
+        "migrations.test_autodetector.AutodetectorTests.test_foreign_key_removed_before_target_model": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_to_managed": true,
+        "migrations.test_autodetector.AutodetectorTests.test_managed_to_unmanaged": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy_proxy": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy": true,
+        "migrations.test_autodetector.AutodetectorTests.test_same_app_circular_fk_dependency_with_unique_together_and_indexes": true,
+        "migrations.test_commands.MigrateTests.test_migrate_syncdb_deferred_sql_executed_with_schemaeditor": true,
+        "migrations.test_autodetector.AutodetectorTests.test_many_to_many_removed_before_through_model": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_non_interactive_not_null_alteration": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12754/dedup_patch_24.jsonl": {
+      "django__django-12754": {
+        "migrations.test_autodetector.AutodetectorTests.test_add_model_order_with_respect_to": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_delete": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_inconsistent_history_db_failure": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_with_custom_name": true,
+        "migrations.test_autodetector.AutodetectorTests.test_create_with_through_model": true,
+        "migrations.test_autodetector.AutodetectorTests.test_foreign_key_removed_before_target_model": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_to_managed": true,
+        "migrations.test_autodetector.AutodetectorTests.test_managed_to_unmanaged": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy_proxy": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy": true,
+        "migrations.test_autodetector.AutodetectorTests.test_same_app_circular_fk_dependency_with_unique_together_and_indexes": true,
+        "migrations.test_commands.MigrateTests.test_migrate_syncdb_deferred_sql_executed_with_schemaeditor": true,
+        "migrations.test_autodetector.AutodetectorTests.test_many_to_many_removed_before_through_model": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_non_interactive_not_null_alteration": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12754/dedup_patch_25.jsonl": {
+      "django__django-12754": {
+        "migrations.test_autodetector.AutodetectorTests.test_add_model_order_with_respect_to": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_delete": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_inconsistent_history_db_failure": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_with_custom_name": true,
+        "migrations.test_autodetector.AutodetectorTests.test_create_with_through_model": true,
+        "migrations.test_autodetector.AutodetectorTests.test_foreign_key_removed_before_target_model": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_to_managed": true,
+        "migrations.test_autodetector.AutodetectorTests.test_managed_to_unmanaged": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy_proxy": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy": true,
+        "migrations.test_autodetector.AutodetectorTests.test_same_app_circular_fk_dependency_with_unique_together_and_indexes": true,
+        "migrations.test_commands.MigrateTests.test_migrate_syncdb_deferred_sql_executed_with_schemaeditor": true,
+        "migrations.test_autodetector.AutodetectorTests.test_many_to_many_removed_before_through_model": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_non_interactive_not_null_alteration": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12754/dedup_patch_26.jsonl": {
+      "django__django-12754": {
+        "migrations.test_autodetector.AutodetectorTests.test_add_model_order_with_respect_to": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_delete": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_inconsistent_history_db_failure": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_with_custom_name": true,
+        "migrations.test_autodetector.AutodetectorTests.test_create_with_through_model": true,
+        "migrations.test_autodetector.AutodetectorTests.test_foreign_key_removed_before_target_model": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_to_managed": true,
+        "migrations.test_autodetector.AutodetectorTests.test_managed_to_unmanaged": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy_proxy": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy": true,
+        "migrations.test_autodetector.AutodetectorTests.test_same_app_circular_fk_dependency_with_unique_together_and_indexes": true,
+        "migrations.test_commands.MigrateTests.test_migrate_syncdb_deferred_sql_executed_with_schemaeditor": true,
+        "migrations.test_autodetector.AutodetectorTests.test_many_to_many_removed_before_through_model": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_non_interactive_not_null_alteration": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12754/dedup_patch_27.jsonl": {
+      "django__django-12754": {
+        "migrations.test_autodetector.AutodetectorTests.test_add_model_order_with_respect_to": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_delete": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_inconsistent_history_db_failure": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_with_custom_name": true,
+        "migrations.test_autodetector.AutodetectorTests.test_create_with_through_model": true,
+        "migrations.test_autodetector.AutodetectorTests.test_foreign_key_removed_before_target_model": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_to_managed": true,
+        "migrations.test_autodetector.AutodetectorTests.test_managed_to_unmanaged": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy_proxy": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy": true,
+        "migrations.test_autodetector.AutodetectorTests.test_same_app_circular_fk_dependency_with_unique_together_and_indexes": true,
+        "migrations.test_commands.MigrateTests.test_migrate_syncdb_deferred_sql_executed_with_schemaeditor": true,
+        "migrations.test_autodetector.AutodetectorTests.test_many_to_many_removed_before_through_model": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_non_interactive_not_null_alteration": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12754/dedup_patch_28.jsonl": {
+      "django__django-12754": {
+        "migrations.test_autodetector.AutodetectorTests.test_add_model_order_with_respect_to": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_delete": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_inconsistent_history_db_failure": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_with_custom_name": true,
+        "migrations.test_autodetector.AutodetectorTests.test_create_with_through_model": true,
+        "migrations.test_autodetector.AutodetectorTests.test_foreign_key_removed_before_target_model": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_to_managed": true,
+        "migrations.test_autodetector.AutodetectorTests.test_managed_to_unmanaged": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy_proxy": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy": true,
+        "migrations.test_autodetector.AutodetectorTests.test_same_app_circular_fk_dependency_with_unique_together_and_indexes": true,
+        "migrations.test_commands.MigrateTests.test_migrate_syncdb_deferred_sql_executed_with_schemaeditor": true,
+        "migrations.test_autodetector.AutodetectorTests.test_many_to_many_removed_before_through_model": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_non_interactive_not_null_alteration": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12754/dedup_patch_29.jsonl": {
+      "django__django-12754": {
+        "migrations.test_autodetector.AutodetectorTests.test_add_model_order_with_respect_to": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_delete": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_inconsistent_history_db_failure": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_with_custom_name": true,
+        "migrations.test_autodetector.AutodetectorTests.test_create_with_through_model": true,
+        "migrations.test_autodetector.AutodetectorTests.test_foreign_key_removed_before_target_model": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_to_managed": true,
+        "migrations.test_autodetector.AutodetectorTests.test_managed_to_unmanaged": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy_proxy": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy": true,
+        "migrations.test_autodetector.AutodetectorTests.test_same_app_circular_fk_dependency_with_unique_together_and_indexes": true,
+        "migrations.test_commands.MigrateTests.test_migrate_syncdb_deferred_sql_executed_with_schemaeditor": true,
+        "migrations.test_autodetector.AutodetectorTests.test_many_to_many_removed_before_through_model": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_non_interactive_not_null_alteration": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12754/dedup_patch_3.jsonl": {
+      "django__django-12754": {
+        "migrations.test_autodetector.AutodetectorTests.test_add_model_order_with_respect_to": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_delete": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_inconsistent_history_db_failure": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_with_custom_name": true,
+        "migrations.test_autodetector.AutodetectorTests.test_create_with_through_model": true,
+        "migrations.test_autodetector.AutodetectorTests.test_foreign_key_removed_before_target_model": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_to_managed": true,
+        "migrations.test_autodetector.AutodetectorTests.test_managed_to_unmanaged": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy_proxy": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy": true,
+        "migrations.test_autodetector.AutodetectorTests.test_same_app_circular_fk_dependency_with_unique_together_and_indexes": true,
+        "migrations.test_commands.MigrateTests.test_migrate_syncdb_deferred_sql_executed_with_schemaeditor": true,
+        "migrations.test_autodetector.AutodetectorTests.test_many_to_many_removed_before_through_model": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_non_interactive_not_null_alteration": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12754/dedup_patch_30.jsonl": {
+      "django__django-12754": {
+        "migrations.test_autodetector.AutodetectorTests.test_add_model_order_with_respect_to": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_delete": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_inconsistent_history_db_failure": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_with_custom_name": true,
+        "migrations.test_autodetector.AutodetectorTests.test_create_with_through_model": true,
+        "migrations.test_autodetector.AutodetectorTests.test_foreign_key_removed_before_target_model": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_to_managed": true,
+        "migrations.test_autodetector.AutodetectorTests.test_managed_to_unmanaged": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy_proxy": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy": true,
+        "migrations.test_autodetector.AutodetectorTests.test_same_app_circular_fk_dependency_with_unique_together_and_indexes": true,
+        "migrations.test_commands.MigrateTests.test_migrate_syncdb_deferred_sql_executed_with_schemaeditor": true,
+        "migrations.test_autodetector.AutodetectorTests.test_many_to_many_removed_before_through_model": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_non_interactive_not_null_alteration": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12754/dedup_patch_31.jsonl": {
+      "django__django-12754": {
+        "migrations.test_autodetector.AutodetectorTests.test_add_model_order_with_respect_to": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_delete": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_inconsistent_history_db_failure": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_with_custom_name": true,
+        "migrations.test_autodetector.AutodetectorTests.test_create_with_through_model": true,
+        "migrations.test_autodetector.AutodetectorTests.test_foreign_key_removed_before_target_model": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_to_managed": true,
+        "migrations.test_autodetector.AutodetectorTests.test_managed_to_unmanaged": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy_proxy": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy": true,
+        "migrations.test_autodetector.AutodetectorTests.test_same_app_circular_fk_dependency_with_unique_together_and_indexes": true,
+        "migrations.test_commands.MigrateTests.test_migrate_syncdb_deferred_sql_executed_with_schemaeditor": true,
+        "migrations.test_autodetector.AutodetectorTests.test_many_to_many_removed_before_through_model": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_non_interactive_not_null_alteration": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12754/dedup_patch_32.jsonl": {
+      "django__django-12754": {
+        "migrations.test_autodetector.AutodetectorTests.test_add_model_order_with_respect_to": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_delete": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_inconsistent_history_db_failure": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_with_custom_name": true,
+        "migrations.test_autodetector.AutodetectorTests.test_create_with_through_model": true,
+        "migrations.test_autodetector.AutodetectorTests.test_foreign_key_removed_before_target_model": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_to_managed": true,
+        "migrations.test_autodetector.AutodetectorTests.test_managed_to_unmanaged": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy_proxy": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy": true,
+        "migrations.test_autodetector.AutodetectorTests.test_same_app_circular_fk_dependency_with_unique_together_and_indexes": true,
+        "migrations.test_commands.MigrateTests.test_migrate_syncdb_deferred_sql_executed_with_schemaeditor": true,
+        "migrations.test_autodetector.AutodetectorTests.test_many_to_many_removed_before_through_model": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_non_interactive_not_null_alteration": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12754/dedup_patch_33.jsonl": {
+      "django__django-12754": {
+        "migrations.test_autodetector.AutodetectorTests.test_add_model_order_with_respect_to": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_delete": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_inconsistent_history_db_failure": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_with_custom_name": true,
+        "migrations.test_autodetector.AutodetectorTests.test_create_with_through_model": true,
+        "migrations.test_autodetector.AutodetectorTests.test_foreign_key_removed_before_target_model": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_to_managed": true,
+        "migrations.test_autodetector.AutodetectorTests.test_managed_to_unmanaged": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy_proxy": false,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy": true,
+        "migrations.test_autodetector.AutodetectorTests.test_same_app_circular_fk_dependency_with_unique_together_and_indexes": true,
+        "migrations.test_commands.MigrateTests.test_migrate_syncdb_deferred_sql_executed_with_schemaeditor": true,
+        "migrations.test_autodetector.AutodetectorTests.test_many_to_many_removed_before_through_model": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_non_interactive_not_null_alteration": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12754/dedup_patch_34.jsonl": {
+      "django__django-12754": {
+        "migrations.test_autodetector.AutodetectorTests.test_add_model_order_with_respect_to": false,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_delete": false,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_inconsistent_history_db_failure": false,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_with_custom_name": false,
+        "migrations.test_autodetector.AutodetectorTests.test_create_with_through_model": false,
+        "migrations.test_autodetector.AutodetectorTests.test_foreign_key_removed_before_target_model": false,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_to_managed": false,
+        "migrations.test_autodetector.AutodetectorTests.test_managed_to_unmanaged": false,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy_proxy": false,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy": false,
+        "migrations.test_autodetector.AutodetectorTests.test_same_app_circular_fk_dependency_with_unique_together_and_indexes": false,
+        "migrations.test_commands.MigrateTests.test_migrate_syncdb_deferred_sql_executed_with_schemaeditor": false,
+        "migrations.test_autodetector.AutodetectorTests.test_many_to_many_removed_before_through_model": false,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_non_interactive_not_null_alteration": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12754/dedup_patch_35.jsonl": {
+      "django__django-12754": {
+        "migrations.test_autodetector.AutodetectorTests.test_add_model_order_with_respect_to": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_delete": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_inconsistent_history_db_failure": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_with_custom_name": true,
+        "migrations.test_autodetector.AutodetectorTests.test_create_with_through_model": true,
+        "migrations.test_autodetector.AutodetectorTests.test_foreign_key_removed_before_target_model": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_to_managed": true,
+        "migrations.test_autodetector.AutodetectorTests.test_managed_to_unmanaged": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy_proxy": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy": true,
+        "migrations.test_autodetector.AutodetectorTests.test_same_app_circular_fk_dependency_with_unique_together_and_indexes": true,
+        "migrations.test_commands.MigrateTests.test_migrate_syncdb_deferred_sql_executed_with_schemaeditor": true,
+        "migrations.test_autodetector.AutodetectorTests.test_many_to_many_removed_before_through_model": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_non_interactive_not_null_alteration": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12754/dedup_patch_4.jsonl": {
+      "django__django-12754": {
+        "migrations.test_autodetector.AutodetectorTests.test_add_model_order_with_respect_to": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_delete": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_inconsistent_history_db_failure": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_with_custom_name": true,
+        "migrations.test_autodetector.AutodetectorTests.test_create_with_through_model": true,
+        "migrations.test_autodetector.AutodetectorTests.test_foreign_key_removed_before_target_model": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_to_managed": true,
+        "migrations.test_autodetector.AutodetectorTests.test_managed_to_unmanaged": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy_proxy": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy": true,
+        "migrations.test_autodetector.AutodetectorTests.test_same_app_circular_fk_dependency_with_unique_together_and_indexes": true,
+        "migrations.test_commands.MigrateTests.test_migrate_syncdb_deferred_sql_executed_with_schemaeditor": true,
+        "migrations.test_autodetector.AutodetectorTests.test_many_to_many_removed_before_through_model": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_non_interactive_not_null_alteration": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12754/dedup_patch_5.jsonl": {
+      "django__django-12754": {
+        "migrations.test_autodetector.AutodetectorTests.test_add_model_order_with_respect_to": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_delete": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_inconsistent_history_db_failure": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_with_custom_name": true,
+        "migrations.test_autodetector.AutodetectorTests.test_create_with_through_model": true,
+        "migrations.test_autodetector.AutodetectorTests.test_foreign_key_removed_before_target_model": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_to_managed": true,
+        "migrations.test_autodetector.AutodetectorTests.test_managed_to_unmanaged": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy_proxy": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy": true,
+        "migrations.test_autodetector.AutodetectorTests.test_same_app_circular_fk_dependency_with_unique_together_and_indexes": true,
+        "migrations.test_commands.MigrateTests.test_migrate_syncdb_deferred_sql_executed_with_schemaeditor": true,
+        "migrations.test_autodetector.AutodetectorTests.test_many_to_many_removed_before_through_model": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_non_interactive_not_null_alteration": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12754/dedup_patch_6.jsonl": {
+      "django__django-12754": {
+        "migrations.test_autodetector.AutodetectorTests.test_add_model_order_with_respect_to": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_delete": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_inconsistent_history_db_failure": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_with_custom_name": true,
+        "migrations.test_autodetector.AutodetectorTests.test_create_with_through_model": true,
+        "migrations.test_autodetector.AutodetectorTests.test_foreign_key_removed_before_target_model": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_to_managed": true,
+        "migrations.test_autodetector.AutodetectorTests.test_managed_to_unmanaged": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy_proxy": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy": true,
+        "migrations.test_autodetector.AutodetectorTests.test_same_app_circular_fk_dependency_with_unique_together_and_indexes": true,
+        "migrations.test_commands.MigrateTests.test_migrate_syncdb_deferred_sql_executed_with_schemaeditor": true,
+        "migrations.test_autodetector.AutodetectorTests.test_many_to_many_removed_before_through_model": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_non_interactive_not_null_alteration": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12754/dedup_patch_7.jsonl": {
+      "django__django-12754": {
+        "migrations.test_autodetector.AutodetectorTests.test_add_model_order_with_respect_to": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_delete": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_inconsistent_history_db_failure": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_with_custom_name": true,
+        "migrations.test_autodetector.AutodetectorTests.test_create_with_through_model": true,
+        "migrations.test_autodetector.AutodetectorTests.test_foreign_key_removed_before_target_model": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_to_managed": true,
+        "migrations.test_autodetector.AutodetectorTests.test_managed_to_unmanaged": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy_proxy": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy": true,
+        "migrations.test_autodetector.AutodetectorTests.test_same_app_circular_fk_dependency_with_unique_together_and_indexes": true,
+        "migrations.test_commands.MigrateTests.test_migrate_syncdb_deferred_sql_executed_with_schemaeditor": true,
+        "migrations.test_autodetector.AutodetectorTests.test_many_to_many_removed_before_through_model": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_non_interactive_not_null_alteration": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12754/dedup_patch_8.jsonl": {
+      "django__django-12754": {
+        "migrations.test_autodetector.AutodetectorTests.test_add_model_order_with_respect_to": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_delete": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_inconsistent_history_db_failure": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_with_custom_name": true,
+        "migrations.test_autodetector.AutodetectorTests.test_create_with_through_model": true,
+        "migrations.test_autodetector.AutodetectorTests.test_foreign_key_removed_before_target_model": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_to_managed": true,
+        "migrations.test_autodetector.AutodetectorTests.test_managed_to_unmanaged": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy_proxy": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy": true,
+        "migrations.test_autodetector.AutodetectorTests.test_same_app_circular_fk_dependency_with_unique_together_and_indexes": true,
+        "migrations.test_commands.MigrateTests.test_migrate_syncdb_deferred_sql_executed_with_schemaeditor": true,
+        "migrations.test_autodetector.AutodetectorTests.test_many_to_many_removed_before_through_model": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_non_interactive_not_null_alteration": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12754/dedup_patch_9.jsonl": {
+      "django__django-12754": {
+        "migrations.test_autodetector.AutodetectorTests.test_add_model_order_with_respect_to": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_delete": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_inconsistent_history_db_failure": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_with_custom_name": true,
+        "migrations.test_autodetector.AutodetectorTests.test_create_with_through_model": true,
+        "migrations.test_autodetector.AutodetectorTests.test_foreign_key_removed_before_target_model": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_to_managed": true,
+        "migrations.test_autodetector.AutodetectorTests.test_managed_to_unmanaged": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy_proxy": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy": true,
+        "migrations.test_autodetector.AutodetectorTests.test_same_app_circular_fk_dependency_with_unique_together_and_indexes": true,
+        "migrations.test_commands.MigrateTests.test_migrate_syncdb_deferred_sql_executed_with_schemaeditor": true,
+        "migrations.test_autodetector.AutodetectorTests.test_many_to_many_removed_before_through_model": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_non_interactive_not_null_alteration": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-12754": {
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#1": true,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#2": true,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#3": true,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#4": true,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#5": true,
+        "migrations.test_autodetector.AutodetectorTests.test_field_move_to_new_model_subclass#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12754/dedup_patch_0.jsonl": {
+      "django__django-12754": {
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#1": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#2": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#3": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#4": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#5": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_move_to_new_model_subclass#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12754/dedup_patch_1.jsonl": {
+      "django__django-12754": {
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#1": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#2": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#3": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#4": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#5": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_move_to_new_model_subclass#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12754/dedup_patch_10.jsonl": {
+      "django__django-12754": {
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#1": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#2": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#3": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#4": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#5": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_move_to_new_model_subclass#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12754/dedup_patch_11.jsonl": {
+      "django__django-12754": {
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#1": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#2": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#3": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#4": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#5": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_move_to_new_model_subclass#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12754/dedup_patch_12.jsonl": {
+      "django__django-12754": {
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#1": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#2": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#3": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#4": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#5": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_move_to_new_model_subclass#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12754/dedup_patch_13.jsonl": {
+      "django__django-12754": {
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#1": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#2": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#3": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#4": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#5": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_move_to_new_model_subclass#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12754/dedup_patch_14.jsonl": {
+      "django__django-12754": {
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#1": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#2": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#3": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#4": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#5": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_move_to_new_model_subclass#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12754/dedup_patch_15.jsonl": {
+      "django__django-12754": {
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#1": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#2": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#3": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#4": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#5": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_move_to_new_model_subclass#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12754/dedup_patch_16.jsonl": {
+      "django__django-12754": {
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#1": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#2": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#3": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#4": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#5": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_move_to_new_model_subclass#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12754/dedup_patch_17.jsonl": {
+      "django__django-12754": {
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#1": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#2": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#3": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#4": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#5": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_move_to_new_model_subclass#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12754/dedup_patch_18.jsonl": {
+      "django__django-12754": {
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#1": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#2": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#3": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#4": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#5": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_move_to_new_model_subclass#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12754/dedup_patch_19.jsonl": {
+      "django__django-12754": {
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#1": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#2": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#3": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#4": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#5": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_move_to_new_model_subclass#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12754/dedup_patch_2.jsonl": {
+      "django__django-12754": {
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#1": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#2": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#3": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#4": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#5": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_move_to_new_model_subclass#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12754/dedup_patch_20.jsonl": {
+      "django__django-12754": {
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#1": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#2": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#3": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#4": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#5": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_move_to_new_model_subclass#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12754/dedup_patch_21.jsonl": {
+      "django__django-12754": {
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#1": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#2": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#3": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#4": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#5": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_move_to_new_model_subclass#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12754/dedup_patch_22.jsonl": {
+      "django__django-12754": {
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#1": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#2": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#3": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#4": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#5": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_move_to_new_model_subclass#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12754/dedup_patch_23.jsonl": {
+      "django__django-12754": {
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#1": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#2": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#3": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#4": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#5": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_move_to_new_model_subclass#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12754/dedup_patch_24.jsonl": {
+      "django__django-12754": {
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#1": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#2": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#3": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#4": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#5": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_move_to_new_model_subclass#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12754/dedup_patch_25.jsonl": {
+      "django__django-12754": {
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#1": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#2": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#3": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#4": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#5": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_move_to_new_model_subclass#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12754/dedup_patch_26.jsonl": {
+      "django__django-12754": {
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#1": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#2": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#3": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#4": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#5": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_move_to_new_model_subclass#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12754/dedup_patch_27.jsonl": {
+      "django__django-12754": {
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#1": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#2": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#3": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#4": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#5": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_move_to_new_model_subclass#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12754/dedup_patch_28.jsonl": {
+      "django__django-12754": {
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#1": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#2": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#3": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#4": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#5": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_move_to_new_model_subclass#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12754/dedup_patch_29.jsonl": {
+      "django__django-12754": {
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#1": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#2": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#3": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#4": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#5": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_move_to_new_model_subclass#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12754/dedup_patch_30.jsonl": {
+      "django__django-12754": {
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#1": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#2": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#3": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#4": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#5": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_move_to_new_model_subclass#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12754/dedup_patch_31.jsonl": {
+      "django__django-12754": {
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#1": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#2": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#3": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#4": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#5": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_move_to_new_model_subclass#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12754/dedup_patch_32.jsonl": {
+      "django__django-12754": {
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#1": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#2": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#3": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#4": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#5": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_move_to_new_model_subclass#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12754/dedup_patch_35.jsonl": {
+      "django__django-12754": {
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#1": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#2": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#3": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#4": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#5": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_move_to_new_model_subclass#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12754/dedup_patch_4.jsonl": {
+      "django__django-12754": {
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#1": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#2": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#3": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#4": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#5": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_move_to_new_model_subclass#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12754/dedup_patch_5.jsonl": {
+      "django__django-12754": {
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#1": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#2": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#3": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#4": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#5": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_move_to_new_model_subclass#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12754/dedup_patch_6.jsonl": {
+      "django__django-12754": {
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#1": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#2": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#3": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#4": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#5": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_move_to_new_model_subclass#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12754/dedup_patch_7.jsonl": {
+      "django__django-12754": {
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#1": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#2": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#3": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#4": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#5": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_move_to_new_model_subclass#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12754/dedup_patch_8.jsonl": {
+      "django__django-12754": {
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#1": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#2": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#3": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#4": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#5": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_move_to_new_model_subclass#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12754/dedup_patch_9.jsonl": {
+      "django__django-12754": {
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#1": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#2": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#3": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#4": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_moved_to_new_model_subclass#5": false,
+        "migrations.test_autodetector.AutodetectorTests.test_field_move_to_new_model_subclass#6": false
+      }
+    }
+  }
+}

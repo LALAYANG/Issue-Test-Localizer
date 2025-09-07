@@ -1,0 +1,64 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/django__django-13794/dedup_patch_0.jsonl": {
+      "django__django-13794": {
+        "template_tests.filter_tests.test_add.AddTests.test_add03": false,
+        "template_tests.filter_tests.test_add.AddTests.test_add02": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13794/dedup_patch_1.jsonl": {
+      "django__django-13794": {
+        "template_tests.filter_tests.test_add.AddTests.test_add03": false,
+        "template_tests.filter_tests.test_add.AddTests.test_add02": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13794/dedup_patch_2.jsonl": {
+      "django__django-13794": {
+        "template_tests.filter_tests.test_add.AddTests.test_add03": false,
+        "template_tests.filter_tests.test_add.AddTests.test_add02": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13794/dedup_patch_3.jsonl": {
+      "django__django-13794": {
+        "template_tests.filter_tests.test_add.AddTests.test_add03": true,
+        "template_tests.filter_tests.test_add.AddTests.test_add02": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13794/dedup_patch_4.jsonl": {
+      "django__django-13794": {
+        "template_tests.filter_tests.test_add.AddTests.test_add03": false,
+        "template_tests.filter_tests.test_add.AddTests.test_add02": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13794/dedup_patch_5.jsonl": {
+      "django__django-13794": {
+        "template_tests.filter_tests.test_add.AddTests.test_add03": false,
+        "template_tests.filter_tests.test_add.AddTests.test_add02": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13794/dedup_patch_6.jsonl": {
+      "django__django-13794": {
+        "template_tests.filter_tests.test_add.AddTests.test_add03": false,
+        "template_tests.filter_tests.test_add.AddTests.test_add02": false
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-13794": {
+        "template_tests.filter_tests.test_add.AddTests.test_add_lazy_string#1": true,
+        "template_tests.filter_tests.test_add.FunctionTests.test_add#2": false,
+        "template_tests.filter_tests.test_add.FunctionTests.test_add#3": false,
+        "template_tests.filter_tests.test_add.FunctionTests.test_add#4": false,
+        "template_tests.filter_tests.test_add.AddTests.test_add07#5": true,
+        "template_tests.filter_tests.test_add.FunctionTests.test_add#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13794/dedup_patch_3.jsonl": {
+      "django__django-13794": {
+        "template_tests.filter_tests.test_add.AddTests.test_add_lazy_string#1": true,
+        "template_tests.filter_tests.test_add.AddTests.test_add07#5": true
+      }
+    }
+  }
+}

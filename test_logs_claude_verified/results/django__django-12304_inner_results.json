@@ -1,0 +1,92 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/django__django-12304/dedup_patch_0.jsonl": {
+      "django__django-12304": {
+        "model_enums.tests.ChoicesTests.test_str": false,
+        "model_enums.tests.ChoicesTests.test_integerchoices_containment": false,
+        "model_enums.tests.ChoicesTests.test_textchoices_containment": false,
+        "model_enums.tests.ChoicesTests.test_textchoices_blank_value": false,
+        "model_enums.tests.ChoicesTests.test_textchoices_functional_api": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12304/dedup_patch_1.jsonl": {
+      "django__django-12304": {
+        "model_enums.tests.ChoicesTests.test_str": false,
+        "model_enums.tests.ChoicesTests.test_integerchoices_containment": false,
+        "model_enums.tests.ChoicesTests.test_textchoices_containment": false,
+        "model_enums.tests.ChoicesTests.test_textchoices_blank_value": false,
+        "model_enums.tests.ChoicesTests.test_textchoices_functional_api": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12304/dedup_patch_2.jsonl": {
+      "django__django-12304": {
+        "model_enums.tests.ChoicesTests.test_str": false,
+        "model_enums.tests.ChoicesTests.test_integerchoices_containment": false,
+        "model_enums.tests.ChoicesTests.test_textchoices_containment": false,
+        "model_enums.tests.ChoicesTests.test_textchoices_blank_value": false,
+        "model_enums.tests.ChoicesTests.test_textchoices_functional_api": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12304/dedup_patch_3.jsonl": {
+      "django__django-12304": {
+        "model_enums.tests.ChoicesTests.test_str": false,
+        "model_enums.tests.ChoicesTests.test_integerchoices_containment": false,
+        "model_enums.tests.ChoicesTests.test_textchoices_containment": false,
+        "model_enums.tests.ChoicesTests.test_textchoices_blank_value": false,
+        "model_enums.tests.ChoicesTests.test_textchoices_functional_api": false
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-12304": {
+        "template_tests.syntax_tests.test_if.IfTagTests.test_enumeration_comparison_in_template#1": true,
+        "template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_with_enum#2": true,
+        "template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_enum_comparison#3": true,
+        "template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_with_enum_comparison#4": true,
+        "template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_with_enum#5": true,
+        "template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_with_enum#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12304/dedup_patch_0.jsonl": {
+      "django__django-12304": {
+        "template_tests.syntax_tests.test_if.IfTagTests.test_enumeration_comparison_in_template#1": false,
+        "template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_with_enum#2": false,
+        "template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_enum_comparison#3": false,
+        "template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_with_enum_comparison#4": false,
+        "template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_with_enum#5": false,
+        "template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_with_enum#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12304/dedup_patch_1.jsonl": {
+      "django__django-12304": {
+        "template_tests.syntax_tests.test_if.IfTagTests.test_enumeration_comparison_in_template#1": false,
+        "template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_with_enum#2": false,
+        "template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_enum_comparison#3": false,
+        "template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_with_enum_comparison#4": false,
+        "template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_with_enum#5": false,
+        "template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_with_enum#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12304/dedup_patch_2.jsonl": {
+      "django__django-12304": {
+        "template_tests.syntax_tests.test_if.IfTagTests.test_enumeration_comparison_in_template#1": false,
+        "template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_with_enum#2": false,
+        "template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_enum_comparison#3": false,
+        "template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_with_enum_comparison#4": false,
+        "template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_with_enum#5": false,
+        "template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_with_enum#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12304/dedup_patch_3.jsonl": {
+      "django__django-12304": {
+        "template_tests.syntax_tests.test_if.IfTagTests.test_enumeration_comparison_in_template#1": false,
+        "template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_with_enum#2": false,
+        "template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_enum_comparison#3": false,
+        "template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_with_enum_comparison#4": false,
+        "template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_with_enum#5": false,
+        "template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_with_enum#6": false
+      }
+    }
+  }
+}

@@ -1,0 +1,271 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/django__django-13121/dedup_patch_0.jsonl": {
+      "django__django-13121": {
+        "aggregation.tests.AggregateTestCase.test_avg_duration_field": true,
+        "expressions.tests.FTimeDeltaTests.test_duration_with_datetime": true,
+        "aggregation.tests.AggregateTestCase.test_sum_duration_field": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13121/dedup_patch_1.jsonl": {
+      "django__django-13121": {
+        "aggregation.tests.AggregateTestCase.test_avg_duration_field": true,
+        "expressions.tests.FTimeDeltaTests.test_duration_with_datetime": true,
+        "aggregation.tests.AggregateTestCase.test_sum_duration_field": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13121/dedup_patch_10.jsonl": {
+      "django__django-13121": {
+        "aggregation.tests.AggregateTestCase.test_avg_duration_field": true,
+        "expressions.tests.FTimeDeltaTests.test_duration_with_datetime": true,
+        "aggregation.tests.AggregateTestCase.test_sum_duration_field": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13121/dedup_patch_11.jsonl": {
+      "django__django-13121": {
+        "aggregation.tests.AggregateTestCase.test_avg_duration_field": true,
+        "expressions.tests.FTimeDeltaTests.test_duration_with_datetime": true,
+        "aggregation.tests.AggregateTestCase.test_sum_duration_field": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13121/dedup_patch_12.jsonl": {
+      "django__django-13121": {
+        "aggregation.tests.AggregateTestCase.test_avg_duration_field": true,
+        "expressions.tests.FTimeDeltaTests.test_duration_with_datetime": true,
+        "aggregation.tests.AggregateTestCase.test_sum_duration_field": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13121/dedup_patch_13.jsonl": {
+      "django__django-13121": {
+        "aggregation.tests.AggregateTestCase.test_avg_duration_field": true,
+        "expressions.tests.FTimeDeltaTests.test_duration_with_datetime": true,
+        "aggregation.tests.AggregateTestCase.test_sum_duration_field": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13121/dedup_patch_14.jsonl": {
+      "django__django-13121": {
+        "aggregation.tests.AggregateTestCase.test_avg_duration_field": true,
+        "expressions.tests.FTimeDeltaTests.test_duration_with_datetime": true,
+        "aggregation.tests.AggregateTestCase.test_sum_duration_field": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13121/dedup_patch_2.jsonl": {
+      "django__django-13121": {
+        "aggregation.tests.AggregateTestCase.test_avg_duration_field": true,
+        "expressions.tests.FTimeDeltaTests.test_duration_with_datetime": true,
+        "aggregation.tests.AggregateTestCase.test_sum_duration_field": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13121/dedup_patch_3.jsonl": {
+      "django__django-13121": {
+        "aggregation.tests.AggregateTestCase.test_avg_duration_field": true,
+        "expressions.tests.FTimeDeltaTests.test_duration_with_datetime": true,
+        "aggregation.tests.AggregateTestCase.test_sum_duration_field": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13121/dedup_patch_4.jsonl": {
+      "django__django-13121": {
+        "aggregation.tests.AggregateTestCase.test_avg_duration_field": true,
+        "expressions.tests.FTimeDeltaTests.test_duration_with_datetime": true,
+        "aggregation.tests.AggregateTestCase.test_sum_duration_field": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13121/dedup_patch_5.jsonl": {
+      "django__django-13121": {
+        "aggregation.tests.AggregateTestCase.test_avg_duration_field": true,
+        "expressions.tests.FTimeDeltaTests.test_duration_with_datetime": true,
+        "aggregation.tests.AggregateTestCase.test_sum_duration_field": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13121/dedup_patch_6.jsonl": {
+      "django__django-13121": {
+        "aggregation.tests.AggregateTestCase.test_avg_duration_field": true,
+        "expressions.tests.FTimeDeltaTests.test_duration_with_datetime": true,
+        "aggregation.tests.AggregateTestCase.test_sum_duration_field": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13121/dedup_patch_7.jsonl": {
+      "django__django-13121": {
+        "aggregation.tests.AggregateTestCase.test_avg_duration_field": true,
+        "expressions.tests.FTimeDeltaTests.test_duration_with_datetime": true,
+        "aggregation.tests.AggregateTestCase.test_sum_duration_field": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13121/dedup_patch_8.jsonl": {
+      "django__django-13121": {
+        "aggregation.tests.AggregateTestCase.test_avg_duration_field": true,
+        "expressions.tests.FTimeDeltaTests.test_duration_with_datetime": true,
+        "aggregation.tests.AggregateTestCase.test_sum_duration_field": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13121/dedup_patch_9.jsonl": {
+      "django__django-13121": {
+        "aggregation.tests.AggregateTestCase.test_avg_duration_field": true,
+        "expressions.tests.FTimeDeltaTests.test_duration_with_datetime": true,
+        "aggregation.tests.AggregateTestCase.test_sum_duration_field": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-13121": {
+        "expressions.tests.FTimeDeltaTests.test_duration_only_expressions#1": true,
+        "expressions.tests.ExpressionWrapperTests.test_duration_expressions#2": true,
+        "expressions.tests.FTimeDeltaTests.test_duration_only_expressions#3": true,
+        "expressions.tests.FTimeDeltaTests.test_duration_only_expressions#4": true,
+        "expressions.tests.ExpressionWrapperTests.test_duration_expressions#5": true,
+        "expressions.tests.FTimeDeltaTests.test_duration_only_expressions#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13121/dedup_patch_0.jsonl": {
+      "django__django-13121": {
+        "expressions.tests.FTimeDeltaTests.test_duration_only_expressions#1": false,
+        "expressions.tests.ExpressionWrapperTests.test_duration_expressions#2": false,
+        "expressions.tests.FTimeDeltaTests.test_duration_only_expressions#3": false,
+        "expressions.tests.FTimeDeltaTests.test_duration_only_expressions#4": false,
+        "expressions.tests.ExpressionWrapperTests.test_duration_expressions#5": false,
+        "expressions.tests.FTimeDeltaTests.test_duration_only_expressions#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13121/dedup_patch_1.jsonl": {
+      "django__django-13121": {
+        "expressions.tests.FTimeDeltaTests.test_duration_only_expressions#1": false,
+        "expressions.tests.ExpressionWrapperTests.test_duration_expressions#2": false,
+        "expressions.tests.FTimeDeltaTests.test_duration_only_expressions#3": false,
+        "expressions.tests.FTimeDeltaTests.test_duration_only_expressions#4": false,
+        "expressions.tests.ExpressionWrapperTests.test_duration_expressions#5": false,
+        "expressions.tests.FTimeDeltaTests.test_duration_only_expressions#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13121/dedup_patch_10.jsonl": {
+      "django__django-13121": {
+        "expressions.tests.FTimeDeltaTests.test_duration_only_expressions#1": false,
+        "expressions.tests.ExpressionWrapperTests.test_duration_expressions#2": false,
+        "expressions.tests.FTimeDeltaTests.test_duration_only_expressions#3": false,
+        "expressions.tests.FTimeDeltaTests.test_duration_only_expressions#4": false,
+        "expressions.tests.ExpressionWrapperTests.test_duration_expressions#5": false,
+        "expressions.tests.FTimeDeltaTests.test_duration_only_expressions#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13121/dedup_patch_11.jsonl": {
+      "django__django-13121": {
+        "expressions.tests.FTimeDeltaTests.test_duration_only_expressions#1": false,
+        "expressions.tests.ExpressionWrapperTests.test_duration_expressions#2": false,
+        "expressions.tests.FTimeDeltaTests.test_duration_only_expressions#3": false,
+        "expressions.tests.FTimeDeltaTests.test_duration_only_expressions#4": false,
+        "expressions.tests.ExpressionWrapperTests.test_duration_expressions#5": false,
+        "expressions.tests.FTimeDeltaTests.test_duration_only_expressions#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13121/dedup_patch_12.jsonl": {
+      "django__django-13121": {
+        "expressions.tests.FTimeDeltaTests.test_duration_only_expressions#1": false,
+        "expressions.tests.ExpressionWrapperTests.test_duration_expressions#2": false,
+        "expressions.tests.FTimeDeltaTests.test_duration_only_expressions#3": false,
+        "expressions.tests.FTimeDeltaTests.test_duration_only_expressions#4": false,
+        "expressions.tests.ExpressionWrapperTests.test_duration_expressions#5": false,
+        "expressions.tests.FTimeDeltaTests.test_duration_only_expressions#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13121/dedup_patch_13.jsonl": {
+      "django__django-13121": {
+        "expressions.tests.FTimeDeltaTests.test_duration_only_expressions#1": false,
+        "expressions.tests.ExpressionWrapperTests.test_duration_expressions#2": false,
+        "expressions.tests.FTimeDeltaTests.test_duration_only_expressions#3": false,
+        "expressions.tests.FTimeDeltaTests.test_duration_only_expressions#4": false,
+        "expressions.tests.ExpressionWrapperTests.test_duration_expressions#5": false,
+        "expressions.tests.FTimeDeltaTests.test_duration_only_expressions#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13121/dedup_patch_14.jsonl": {
+      "django__django-13121": {
+        "expressions.tests.FTimeDeltaTests.test_duration_only_expressions#1": false,
+        "expressions.tests.ExpressionWrapperTests.test_duration_expressions#2": false,
+        "expressions.tests.FTimeDeltaTests.test_duration_only_expressions#3": false,
+        "expressions.tests.FTimeDeltaTests.test_duration_only_expressions#4": false,
+        "expressions.tests.ExpressionWrapperTests.test_duration_expressions#5": false,
+        "expressions.tests.FTimeDeltaTests.test_duration_only_expressions#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13121/dedup_patch_2.jsonl": {
+      "django__django-13121": {
+        "expressions.tests.FTimeDeltaTests.test_duration_only_expressions#1": false,
+        "expressions.tests.ExpressionWrapperTests.test_duration_expressions#2": false,
+        "expressions.tests.FTimeDeltaTests.test_duration_only_expressions#3": false,
+        "expressions.tests.FTimeDeltaTests.test_duration_only_expressions#4": false,
+        "expressions.tests.ExpressionWrapperTests.test_duration_expressions#5": false,
+        "expressions.tests.FTimeDeltaTests.test_duration_only_expressions#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13121/dedup_patch_3.jsonl": {
+      "django__django-13121": {
+        "expressions.tests.FTimeDeltaTests.test_duration_only_expressions#1": false,
+        "expressions.tests.ExpressionWrapperTests.test_duration_expressions#2": false,
+        "expressions.tests.FTimeDeltaTests.test_duration_only_expressions#3": false,
+        "expressions.tests.FTimeDeltaTests.test_duration_only_expressions#4": false,
+        "expressions.tests.ExpressionWrapperTests.test_duration_expressions#5": false,
+        "expressions.tests.FTimeDeltaTests.test_duration_only_expressions#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13121/dedup_patch_4.jsonl": {
+      "django__django-13121": {
+        "expressions.tests.FTimeDeltaTests.test_duration_only_expressions#1": false,
+        "expressions.tests.ExpressionWrapperTests.test_duration_expressions#2": false,
+        "expressions.tests.FTimeDeltaTests.test_duration_only_expressions#3": false,
+        "expressions.tests.FTimeDeltaTests.test_duration_only_expressions#4": false,
+        "expressions.tests.ExpressionWrapperTests.test_duration_expressions#5": false,
+        "expressions.tests.FTimeDeltaTests.test_duration_only_expressions#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13121/dedup_patch_5.jsonl": {
+      "django__django-13121": {
+        "expressions.tests.FTimeDeltaTests.test_duration_only_expressions#1": false,
+        "expressions.tests.ExpressionWrapperTests.test_duration_expressions#2": false,
+        "expressions.tests.FTimeDeltaTests.test_duration_only_expressions#3": false,
+        "expressions.tests.FTimeDeltaTests.test_duration_only_expressions#4": false,
+        "expressions.tests.ExpressionWrapperTests.test_duration_expressions#5": false,
+        "expressions.tests.FTimeDeltaTests.test_duration_only_expressions#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13121/dedup_patch_6.jsonl": {
+      "django__django-13121": {
+        "expressions.tests.FTimeDeltaTests.test_duration_only_expressions#1": false,
+        "expressions.tests.ExpressionWrapperTests.test_duration_expressions#2": false,
+        "expressions.tests.FTimeDeltaTests.test_duration_only_expressions#3": false,
+        "expressions.tests.FTimeDeltaTests.test_duration_only_expressions#4": false,
+        "expressions.tests.ExpressionWrapperTests.test_duration_expressions#5": false,
+        "expressions.tests.FTimeDeltaTests.test_duration_only_expressions#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13121/dedup_patch_7.jsonl": {
+      "django__django-13121": {
+        "expressions.tests.FTimeDeltaTests.test_duration_only_expressions#1": false,
+        "expressions.tests.ExpressionWrapperTests.test_duration_expressions#2": false,
+        "expressions.tests.FTimeDeltaTests.test_duration_only_expressions#3": false,
+        "expressions.tests.FTimeDeltaTests.test_duration_only_expressions#4": false,
+        "expressions.tests.ExpressionWrapperTests.test_duration_expressions#5": false,
+        "expressions.tests.FTimeDeltaTests.test_duration_only_expressions#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13121/dedup_patch_8.jsonl": {
+      "django__django-13121": {
+        "expressions.tests.FTimeDeltaTests.test_duration_only_expressions#1": false,
+        "expressions.tests.ExpressionWrapperTests.test_duration_expressions#2": false,
+        "expressions.tests.FTimeDeltaTests.test_duration_only_expressions#3": false,
+        "expressions.tests.FTimeDeltaTests.test_duration_only_expressions#4": false,
+        "expressions.tests.ExpressionWrapperTests.test_duration_expressions#5": false,
+        "expressions.tests.FTimeDeltaTests.test_duration_only_expressions#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13121/dedup_patch_9.jsonl": {
+      "django__django-13121": {
+        "expressions.tests.FTimeDeltaTests.test_duration_only_expressions#1": false,
+        "expressions.tests.ExpressionWrapperTests.test_duration_expressions#2": false,
+        "expressions.tests.FTimeDeltaTests.test_duration_only_expressions#3": false,
+        "expressions.tests.FTimeDeltaTests.test_duration_only_expressions#4": false,
+        "expressions.tests.ExpressionWrapperTests.test_duration_expressions#5": false,
+        "expressions.tests.FTimeDeltaTests.test_duration_only_expressions#6": false
+      }
+    }
+  }
+}

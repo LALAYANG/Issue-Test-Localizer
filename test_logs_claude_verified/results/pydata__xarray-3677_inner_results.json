@@ -1,0 +1,135 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-3677/dedup_patch_0.jsonl": {
+      "pydata__xarray-3677": {
+        "xarray/tests/test_merge.py::TestMergeMethod::test_merge_fill_value": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_constructor_pandas_single": true,
+        "xarray/tests/test_merge.py::TestMergeFunction::test_merge_wrong_input_error": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-3677/dedup_patch_1.jsonl": {
+      "pydata__xarray-3677": {
+        "xarray/tests/test_merge.py::TestMergeMethod::test_merge_fill_value": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_constructor_pandas_single": true,
+        "xarray/tests/test_merge.py::TestMergeFunction::test_merge_wrong_input_error": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-3677/dedup_patch_2.jsonl": {
+      "pydata__xarray-3677": {
+        "xarray/tests/test_merge.py::TestMergeMethod::test_merge_fill_value": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_constructor_pandas_single": true,
+        "xarray/tests/test_merge.py::TestMergeFunction::test_merge_wrong_input_error": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-3677/dedup_patch_3.jsonl": {
+      "pydata__xarray-3677": {
+        "xarray/tests/test_merge.py::TestMergeMethod::test_merge_fill_value": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_constructor_pandas_single": true,
+        "xarray/tests/test_merge.py::TestMergeFunction::test_merge_wrong_input_error": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-3677/dedup_patch_4.jsonl": {
+      "pydata__xarray-3677": {
+        "xarray/tests/test_merge.py::TestMergeMethod::test_merge_fill_value": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_constructor_pandas_single": true,
+        "xarray/tests/test_merge.py::TestMergeFunction::test_merge_wrong_input_error": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-3677/dedup_patch_5.jsonl": {
+      "pydata__xarray-3677": {
+        "xarray/tests/test_merge.py::TestMergeMethod::test_merge_fill_value": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_constructor_pandas_single": true,
+        "xarray/tests/test_merge.py::TestMergeFunction::test_merge_wrong_input_error": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-3677/dedup_patch_6.jsonl": {
+      "pydata__xarray-3677": {
+        "xarray/tests/test_merge.py::TestMergeMethod::test_merge_fill_value": true,
+        "xarray/tests/test_dataset.py::TestDataset::test_constructor_pandas_single": true,
+        "xarray/tests/test_merge.py::TestMergeFunction::test_merge_wrong_input_error": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "pydata__xarray-3677": {
+        "xarray/tests/test_merge.py::TestMergeMethod::test_merge_dataarray#1": true,
+        "xarray/tests/test_merge.py::TestMergeMethod::test_merge_dataarray#2": true,
+        "xarray/tests/test_merge.py::TestMergeMethod::test_merge_dataarray_into_dataset#3": true,
+        "xarray/tests/test_merge.py::TestMergeMethod::test_merge_dataarray#4": true,
+        "xarray/tests/test_merge.py::TestMergeMethod::test_merge_dataarray_into_dataset#5": true,
+        "xarray/tests/test_merge.py::TestMergeMethod::test_merge_dataarray_with_dataset_method#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-3677/dedup_patch_0.jsonl": {
+      "pydata__xarray-3677": {
+        "xarray/tests/test_merge.py::TestMergeMethod::test_merge_dataarray#1": false,
+        "xarray/tests/test_merge.py::TestMergeMethod::test_merge_dataarray#2": true,
+        "xarray/tests/test_merge.py::TestMergeMethod::test_merge_dataarray_into_dataset#3": false,
+        "xarray/tests/test_merge.py::TestMergeMethod::test_merge_dataarray#4": true,
+        "xarray/tests/test_merge.py::TestMergeMethod::test_merge_dataarray_into_dataset#5": true,
+        "xarray/tests/test_merge.py::TestMergeMethod::test_merge_dataarray_with_dataset_method#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-3677/dedup_patch_1.jsonl": {
+      "pydata__xarray-3677": {
+        "xarray/tests/test_merge.py::TestMergeMethod::test_merge_dataarray#1": false,
+        "xarray/tests/test_merge.py::TestMergeMethod::test_merge_dataarray#2": true,
+        "xarray/tests/test_merge.py::TestMergeMethod::test_merge_dataarray_into_dataset#3": false,
+        "xarray/tests/test_merge.py::TestMergeMethod::test_merge_dataarray#4": true,
+        "xarray/tests/test_merge.py::TestMergeMethod::test_merge_dataarray_into_dataset#5": true,
+        "xarray/tests/test_merge.py::TestMergeMethod::test_merge_dataarray_with_dataset_method#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-3677/dedup_patch_2.jsonl": {
+      "pydata__xarray-3677": {
+        "xarray/tests/test_merge.py::TestMergeMethod::test_merge_dataarray#1": false,
+        "xarray/tests/test_merge.py::TestMergeMethod::test_merge_dataarray#2": true,
+        "xarray/tests/test_merge.py::TestMergeMethod::test_merge_dataarray_into_dataset#3": false,
+        "xarray/tests/test_merge.py::TestMergeMethod::test_merge_dataarray#4": true,
+        "xarray/tests/test_merge.py::TestMergeMethod::test_merge_dataarray_into_dataset#5": true,
+        "xarray/tests/test_merge.py::TestMergeMethod::test_merge_dataarray_with_dataset_method#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-3677/dedup_patch_3.jsonl": {
+      "pydata__xarray-3677": {
+        "xarray/tests/test_merge.py::TestMergeMethod::test_merge_dataarray#1": false,
+        "xarray/tests/test_merge.py::TestMergeMethod::test_merge_dataarray#2": true,
+        "xarray/tests/test_merge.py::TestMergeMethod::test_merge_dataarray_into_dataset#3": false,
+        "xarray/tests/test_merge.py::TestMergeMethod::test_merge_dataarray#4": true,
+        "xarray/tests/test_merge.py::TestMergeMethod::test_merge_dataarray_into_dataset#5": true,
+        "xarray/tests/test_merge.py::TestMergeMethod::test_merge_dataarray_with_dataset_method#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-3677/dedup_patch_4.jsonl": {
+      "pydata__xarray-3677": {
+        "xarray/tests/test_merge.py::TestMergeMethod::test_merge_dataarray#1": false,
+        "xarray/tests/test_merge.py::TestMergeMethod::test_merge_dataarray#2": true,
+        "xarray/tests/test_merge.py::TestMergeMethod::test_merge_dataarray_into_dataset#3": false,
+        "xarray/tests/test_merge.py::TestMergeMethod::test_merge_dataarray#4": true,
+        "xarray/tests/test_merge.py::TestMergeMethod::test_merge_dataarray_into_dataset#5": true,
+        "xarray/tests/test_merge.py::TestMergeMethod::test_merge_dataarray_with_dataset_method#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-3677/dedup_patch_5.jsonl": {
+      "pydata__xarray-3677": {
+        "xarray/tests/test_merge.py::TestMergeMethod::test_merge_dataarray#1": false,
+        "xarray/tests/test_merge.py::TestMergeMethod::test_merge_dataarray#2": true,
+        "xarray/tests/test_merge.py::TestMergeMethod::test_merge_dataarray_into_dataset#3": false,
+        "xarray/tests/test_merge.py::TestMergeMethod::test_merge_dataarray#4": true,
+        "xarray/tests/test_merge.py::TestMergeMethod::test_merge_dataarray_into_dataset#5": true,
+        "xarray/tests/test_merge.py::TestMergeMethod::test_merge_dataarray_with_dataset_method#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-3677/dedup_patch_6.jsonl": {
+      "pydata__xarray-3677": {
+        "xarray/tests/test_merge.py::TestMergeMethod::test_merge_dataarray#1": false,
+        "xarray/tests/test_merge.py::TestMergeMethod::test_merge_dataarray#2": true,
+        "xarray/tests/test_merge.py::TestMergeMethod::test_merge_dataarray_into_dataset#3": false,
+        "xarray/tests/test_merge.py::TestMergeMethod::test_merge_dataarray#4": true,
+        "xarray/tests/test_merge.py::TestMergeMethod::test_merge_dataarray_into_dataset#5": true,
+        "xarray/tests/test_merge.py::TestMergeMethod::test_merge_dataarray_with_dataset_method#6": true
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/pytest-dev__pytest-6202/dedup_patch_0.jsonl": {
+      "pytest-dev__pytest-6202": {
+        "test_collection.py::TestCollector::test_getparent": false,
+        "test_junitxml.py::TestPython::test_classname_instance": false,
+        "test_terminal.py::TestTerminal::test_itemreport_subclasses_show_subclassed_file": false
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "pytest-dev__pytest-6202": {
+        "testing/test_reports.py::TestReportSerialization::test_parametrize_nodeid_with_dots_and_brackets#1": true,
+        "testing/test_reports.py::TestReportSerialization::test_parametrize_id_with_dots_and_brackets#2": true,
+        "testing/test_terminal.py::test_format_session_duration#3": false,
+        "testing/test_reports.py::TestHooks::test_parametrize_with_dot_bracket#4": true,
+        "testing/test_reports.py::TestHooks::test_parametrize_with_dot_bracket#5": true,
+        "testing/test_reports.py::TestReportSerialization::test_parametrize_id_with_dots_and_brackets#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pytest-dev__pytest-6202/dedup_patch_0.jsonl": {
+      "pytest-dev__pytest-6202": {
+        "testing/test_reports.py::TestReportSerialization::test_parametrize_nodeid_with_dots_and_brackets#1": false,
+        "testing/test_reports.py::TestReportSerialization::test_parametrize_id_with_dots_and_brackets#2": false,
+        "testing/test_reports.py::TestHooks::test_parametrize_with_dot_bracket#4": false,
+        "testing/test_reports.py::TestHooks::test_parametrize_with_dot_bracket#5": false,
+        "testing/test_reports.py::TestReportSerialization::test_parametrize_id_with_dots_and_brackets#6": false
+      }
+    }
+  }
+}

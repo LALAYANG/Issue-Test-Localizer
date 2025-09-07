@@ -1,0 +1,19 @@
+{
+  "regression": {},
+  "reproduction": {
+    "fail_on_original_repo": {
+      "sympy__sympy-22840": {
+        "sympy/simplify/tests/test_cse.py::test_cse_Indexed#1": false,
+        "sympy/simplify/tests/test_cse.py::test_cse_MatrixExpr#2": false,
+        "sympy/simplify/tests/test_cse.py::test_cse_Indexed#3": false,
+        "sympy/simplify/tests/test_cse.py::test_cse_MatrixSymbol#4": false,
+        "sympy/simplify/tests/test_cse.py::test_cse_MatrixSymbol#5": false,
+        "sympy/simplify/tests/test_cse.py::test_cse_MatrixSymbol#6": false,
+        "sympy/simplify/tests/test_cse.py::test_issue_18991#7": false,
+        "sympy/simplify/tests/test_cse.py::test_cse_MatrixSymbol#8": false,
+        "sympy/simplify/tests/test_cse.py::test_cse_MatrixSymbol#9": false,
+        "sympy/simplify/tests/test_cse.py::test_cse_MatrixExpr#10": false
+      }
+    }
+  }
+}

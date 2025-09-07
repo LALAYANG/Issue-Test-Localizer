@@ -1,0 +1,253 @@
+{
+  "regression": {},
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-10097": {
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#1": true,
+        "validators.tests.TestValidatorEquality.test_url_validator_user_password_validation#2": true,
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#3": true,
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#4": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-10097/dedup_patch_0.jsonl": {
+      "django__django-10097": {
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#1": false,
+        "validators.tests.TestValidatorEquality.test_url_validator_user_password_validation#2": false,
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#3": false,
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#4": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-10097/dedup_patch_1.jsonl": {
+      "django__django-10097": {
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#1": false,
+        "validators.tests.TestValidatorEquality.test_url_validator_user_password_validation#2": true,
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#3": false,
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#4": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-10097/dedup_patch_10.jsonl": {
+      "django__django-10097": {
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#1": false,
+        "validators.tests.TestValidatorEquality.test_url_validator_user_password_validation#2": true,
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#3": false,
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#4": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-10097/dedup_patch_11.jsonl": {
+      "django__django-10097": {
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#1": false,
+        "validators.tests.TestValidatorEquality.test_url_validator_user_password_validation#2": true,
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#3": false,
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#4": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-10097/dedup_patch_12.jsonl": {
+      "django__django-10097": {
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#1": false,
+        "validators.tests.TestValidatorEquality.test_url_validator_user_password_validation#2": true,
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#3": false,
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#4": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-10097/dedup_patch_13.jsonl": {
+      "django__django-10097": {
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#1": false,
+        "validators.tests.TestValidatorEquality.test_url_validator_user_password_validation#2": true,
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#3": false,
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#4": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-10097/dedup_patch_14.jsonl": {
+      "django__django-10097": {
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#1": false,
+        "validators.tests.TestValidatorEquality.test_url_validator_user_password_validation#2": false,
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#3": false,
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#4": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-10097/dedup_patch_15.jsonl": {
+      "django__django-10097": {
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#1": false,
+        "validators.tests.TestValidatorEquality.test_url_validator_user_password_validation#2": false,
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#3": false,
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#4": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-10097/dedup_patch_16.jsonl": {
+      "django__django-10097": {
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#1": false,
+        "validators.tests.TestValidatorEquality.test_url_validator_user_password_validation#2": true,
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#3": false,
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#4": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-10097/dedup_patch_17.jsonl": {
+      "django__django-10097": {
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#1": false,
+        "validators.tests.TestValidatorEquality.test_url_validator_user_password_validation#2": false,
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#3": false,
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#4": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-10097/dedup_patch_18.jsonl": {
+      "django__django-10097": {
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#1": false,
+        "validators.tests.TestValidatorEquality.test_url_validator_user_password_validation#2": true,
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#3": false,
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#4": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-10097/dedup_patch_19.jsonl": {
+      "django__django-10097": {
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#1": false,
+        "validators.tests.TestValidatorEquality.test_url_validator_user_password_validation#2": true,
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#3": false,
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#4": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-10097/dedup_patch_2.jsonl": {
+      "django__django-10097": {
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#1": false,
+        "validators.tests.TestValidatorEquality.test_url_validator_user_password_validation#2": true,
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#3": false,
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#4": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-10097/dedup_patch_20.jsonl": {
+      "django__django-10097": {
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#1": false,
+        "validators.tests.TestValidatorEquality.test_url_validator_user_password_validation#2": true,
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#3": false,
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#4": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-10097/dedup_patch_21.jsonl": {
+      "django__django-10097": {
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#1": false,
+        "validators.tests.TestValidatorEquality.test_url_validator_user_password_validation#2": true,
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#3": false,
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#4": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-10097/dedup_patch_22.jsonl": {
+      "django__django-10097": {
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#1": false,
+        "validators.tests.TestValidatorEquality.test_url_validator_user_password_validation#2": false,
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#3": false,
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#4": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-10097/dedup_patch_23.jsonl": {
+      "django__django-10097": {
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#1": false,
+        "validators.tests.TestValidatorEquality.test_url_validator_user_password_validation#2": true,
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#3": false,
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#4": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-10097/dedup_patch_24.jsonl": {
+      "django__django-10097": {
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#1": false,
+        "validators.tests.TestValidatorEquality.test_url_validator_user_password_validation#2": true,
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#3": false,
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#4": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-10097/dedup_patch_25.jsonl": {
+      "django__django-10097": {
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#1": false,
+        "validators.tests.TestValidatorEquality.test_url_validator_user_password_validation#2": true,
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#3": false,
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#4": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-10097/dedup_patch_26.jsonl": {
+      "django__django-10097": {
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#1": false,
+        "validators.tests.TestValidatorEquality.test_url_validator_user_password_validation#2": false,
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#3": false,
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#4": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-10097/dedup_patch_27.jsonl": {
+      "django__django-10097": {
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#1": false,
+        "validators.tests.TestValidatorEquality.test_url_validator_user_password_validation#2": true,
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#3": false,
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#4": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-10097/dedup_patch_28.jsonl": {
+      "django__django-10097": {
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#1": false,
+        "validators.tests.TestValidatorEquality.test_url_validator_user_password_validation#2": true,
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#3": false,
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#4": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-10097/dedup_patch_29.jsonl": {
+      "django__django-10097": {
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#1": false,
+        "validators.tests.TestValidatorEquality.test_url_validator_user_password_validation#2": true,
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#3": false,
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#4": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-10097/dedup_patch_3.jsonl": {
+      "django__django-10097": {
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#1": false,
+        "validators.tests.TestValidatorEquality.test_url_validator_user_password_validation#2": false,
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#3": false,
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#4": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-10097/dedup_patch_4.jsonl": {
+      "django__django-10097": {
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#1": false,
+        "validators.tests.TestValidatorEquality.test_url_validator_user_password_validation#2": true,
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#3": false,
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#4": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-10097/dedup_patch_5.jsonl": {
+      "django__django-10097": {
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#1": false,
+        "validators.tests.TestValidatorEquality.test_url_validator_user_password_validation#2": false,
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#3": false,
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#4": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-10097/dedup_patch_6.jsonl": {
+      "django__django-10097": {
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#1": false,
+        "validators.tests.TestValidatorEquality.test_url_validator_user_password_validation#2": true,
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#3": false,
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#4": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-10097/dedup_patch_7.jsonl": {
+      "django__django-10097": {
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#1": false,
+        "validators.tests.TestValidatorEquality.test_url_validator_user_password_validation#2": true,
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#3": false,
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#4": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-10097/dedup_patch_8.jsonl": {
+      "django__django-10097": {
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#1": false,
+        "validators.tests.TestValidatorEquality.test_url_validator_user_password_validation#2": true,
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#3": false,
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#4": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-10097/dedup_patch_9.jsonl": {
+      "django__django-10097": {
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#1": false,
+        "validators.tests.TestValidatorEquality.test_url_validator_user_password_validation#2": true,
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#3": false,
+        "validators.tests.TestValidatorEquality.test_url_validator_rejects_invalid_username_password_chars#4": true
+      }
+    }
+  }
+}

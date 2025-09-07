@@ -1,0 +1,48 @@
+{
+  "regression": {
+    "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-5692/dedup_patch_0.jsonl": {
+      "pytest-dev__pytest-5692": {
+        "test_session.py::TestNewSession::test_order_of_execution": false,
+        "test_pytester.py::test_unicode_args": false,
+        "test_reports.py::TestHooks::test_test_report": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-5692/dedup_patch_1.jsonl": {
+      "pytest-dev__pytest-5692": {
+        "test_session.py::TestNewSession::test_order_of_execution": false,
+        "test_pytester.py::test_unicode_args": false,
+        "test_reports.py::TestHooks::test_test_report": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-5692/dedup_patch_2.jsonl": {
+      "pytest-dev__pytest-5692": {
+        "test_session.py::TestNewSession::test_order_of_execution": false,
+        "test_pytester.py::test_unicode_args": false,
+        "test_reports.py::TestHooks::test_test_report": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-5692/dedup_patch_3.jsonl": {
+      "pytest-dev__pytest-5692": {
+        "test_session.py::TestNewSession::test_order_of_execution": false,
+        "test_pytester.py::test_unicode_args": false,
+        "test_reports.py::TestHooks::test_test_report": false
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "pytest-dev__pytest-5692": {
+        "testing/test_junitxml.py::test_record_testsuite_property#1": false,
+        "testing/test_junitxml.py::test_record_testsuite_property#2": false,
+        "testing/test_junitxml.py::test_global_properties#3": false,
+        "testing/test_junitxml.py::test_url_property#4": false,
+        "testing/test_junitxml.py::test_record_testsuite_property#5": false,
+        "testing/test_junitxml.py::test_record_testsuite_property_type_checking#6": false,
+        "testing/test_junitxml.py::test_record_testsuite_property#7": false,
+        "testing/test_junitxml.py::test_global_properties#8": false,
+        "testing/test_junitxml.py::test_record_testsuite_property#9": false,
+        "testing/test_junitxml.py::test_record_testsuite_property#10": false
+      }
+    }
+  }
+}

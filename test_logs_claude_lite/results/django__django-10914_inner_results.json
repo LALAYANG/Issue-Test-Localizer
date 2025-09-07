@@ -1,0 +1,46 @@
+{
+  "regression": {
+    "all_patches/lite_claude_all_unique_patches/django__django-10914/dedup_patch_0.jsonl": {
+      "django__django-10914": {
+        "file_storage.tests.FileStorageTests.test_file_get_accessed_time_timezone": true,
+        "file_storage.tests.FileStorageTests.test_setting_changed": true,
+        "file_storage.tests.FileStorageTests.test_file_get_modified_time_timezone": true,
+        "file_storage.tests.FileStoragePermissions.test_file_upload_directory_permissions": true,
+        "file_storage.tests.FileStorageTests.test_makedirs_race_handling": true,
+        "file_storage.tests.FileStorageTests.test_save_doesnt_close": true,
+        "file_storage.tests.FileStorageTests.test_file_get_created_time_timezone": true,
+        "file_storage.tests.FileSaveRaceConditionTest.test_race_condition": true,
+        "file_uploads.tests.DirectoryCreationTests.test_not_a_directory": true,
+        "file_storage.tests.FileStoragePermissions.test_file_upload_permissions": true,
+        "file_storage.tests.FileStorageTests.test_listdir": true,
+        "file_storage.tests.FileFieldStorageTests.test_files": true,
+        "file_storage.tests.FileStorageTests.test_file_chunks_error": true,
+        "file_storage.tests.FileStorageTests.test_remove_race_handling": true,
+        "file_storage.tests.FileStorageTests.test_delete_deletes_directories": true,
+        "files.tests.InMemoryUploadedFileTests.test_open_resets_file_to_start_and_returns_context_manager": true,
+        "file_storage.tests.FileStorageTests.test_base_url": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-10914": {
+        "file_storage.tests.FileStoragePermissions.test_default_file_permissions#1": true,
+        "file_uploads.tests.MultiParserTests.test_file_permissions#2": false,
+        "file_uploads.tests.FileUploadTests.test_file_permissions#3": true,
+        "file_uploads.tests.FileUploadTests.test_file_upload_permissions#4": true,
+        "file_uploads.tests.FileUploadTests.test_file_upload_permissions#5": true,
+        "file_uploads.tests.FileUploadTests.test_file_upload_permissions#6": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-10914/dedup_patch_0.jsonl": {
+      "django__django-10914": {
+        "file_storage.tests.FileStoragePermissions.test_default_file_permissions#1": false,
+        "file_uploads.tests.FileUploadTests.test_file_permissions#3": false,
+        "file_uploads.tests.FileUploadTests.test_file_upload_permissions#4": false,
+        "file_uploads.tests.FileUploadTests.test_file_upload_permissions#5": false,
+        "file_uploads.tests.FileUploadTests.test_file_upload_permissions#6": false
+      }
+    }
+  }
+}

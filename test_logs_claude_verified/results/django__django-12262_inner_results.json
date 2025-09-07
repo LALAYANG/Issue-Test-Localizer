@@ -1,0 +1,482 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/django__django-12262/dedup_patch_0.jsonl": {
+      "django__django-12262": {
+        "template_tests.test_library.FilterRegistrationTests.test_filter_name_arg": true,
+        "template_tests.test_library.TagRegistrationTests.test_tag_invalid": true,
+        "template_tests.test_custom.SimpleTagTests.test_simple_tags": true,
+        "template_tests.test_library.TagRegistrationTests.test_tag_name_kwarg": true,
+        "template_tests.test_custom.InclusionTagTests.test_inclusion_tag_errors": true,
+        "template_tests.test_custom.InclusionTagTests.test_include_tag_missing_context": true,
+        "template_tests.test_custom.TemplateTagLoadingTests.test_load_annotated_function": true,
+        "template_tests.test_library.InclusionTagRegistrationTests.test_inclusion_tag_wrapped": true,
+        "template_tests.test_library.SimpleTagRegistrationTests.test_simple_tag_wrapped": true,
+        "template_tests.test_library.TagRegistrationTests.test_tag": true,
+        "template_tests.test_custom.InclusionTagTests.test_inclusion_tags_from_template": true,
+        "template_tests.test_custom.SimpleTagTests.test_simple_tag_errors": true,
+        "template_tests.test_custom.InclusionTagTests.test_inclusion_tags": true,
+        "template_tests.test_library.TagRegistrationTests.test_tag_parens": true,
+        "template_tests.test_library.FilterRegistrationTests.test_filter": true,
+        "template_tests.test_library.SimpleTagRegistrationTests.test_simple_tag_invalid": true,
+        "template_tests.test_library.InclusionTagRegistrationTests.test_inclusion_tag_name": true,
+        "template_tests.test_library.FilterRegistrationTests.test_filter_invalid": true,
+        "template_tests.test_library.SimpleTagRegistrationTests.test_simple_tag": true,
+        "template_tests.test_library.FilterRegistrationTests.test_filter_parens": true,
+        "template_tests.test_library.InclusionTagRegistrationTests.test_inclusion_tag": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12262/dedup_patch_1.jsonl": {
+      "django__django-12262": {
+        "template_tests.test_library.FilterRegistrationTests.test_filter_name_arg": true,
+        "template_tests.test_library.TagRegistrationTests.test_tag_invalid": true,
+        "template_tests.test_custom.SimpleTagTests.test_simple_tags": true,
+        "template_tests.test_library.TagRegistrationTests.test_tag_name_kwarg": true,
+        "template_tests.test_custom.InclusionTagTests.test_inclusion_tag_errors": true,
+        "template_tests.test_custom.InclusionTagTests.test_include_tag_missing_context": true,
+        "template_tests.test_custom.TemplateTagLoadingTests.test_load_annotated_function": true,
+        "template_tests.test_library.InclusionTagRegistrationTests.test_inclusion_tag_wrapped": true,
+        "template_tests.test_library.SimpleTagRegistrationTests.test_simple_tag_wrapped": true,
+        "template_tests.test_library.TagRegistrationTests.test_tag": true,
+        "template_tests.test_custom.InclusionTagTests.test_inclusion_tags_from_template": true,
+        "template_tests.test_custom.SimpleTagTests.test_simple_tag_errors": true,
+        "template_tests.test_custom.InclusionTagTests.test_inclusion_tags": true,
+        "template_tests.test_library.TagRegistrationTests.test_tag_parens": true,
+        "template_tests.test_library.FilterRegistrationTests.test_filter": true,
+        "template_tests.test_library.SimpleTagRegistrationTests.test_simple_tag_invalid": true,
+        "template_tests.test_library.InclusionTagRegistrationTests.test_inclusion_tag_name": true,
+        "template_tests.test_library.FilterRegistrationTests.test_filter_invalid": true,
+        "template_tests.test_library.SimpleTagRegistrationTests.test_simple_tag": true,
+        "template_tests.test_library.FilterRegistrationTests.test_filter_parens": true,
+        "template_tests.test_library.InclusionTagRegistrationTests.test_inclusion_tag": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12262/dedup_patch_10.jsonl": {
+      "django__django-12262": {
+        "template_tests.test_library.FilterRegistrationTests.test_filter_name_arg": true,
+        "template_tests.test_library.TagRegistrationTests.test_tag_invalid": true,
+        "template_tests.test_custom.SimpleTagTests.test_simple_tags": true,
+        "template_tests.test_library.TagRegistrationTests.test_tag_name_kwarg": true,
+        "template_tests.test_custom.InclusionTagTests.test_inclusion_tag_errors": true,
+        "template_tests.test_custom.InclusionTagTests.test_include_tag_missing_context": true,
+        "template_tests.test_custom.TemplateTagLoadingTests.test_load_annotated_function": true,
+        "template_tests.test_library.InclusionTagRegistrationTests.test_inclusion_tag_wrapped": true,
+        "template_tests.test_library.SimpleTagRegistrationTests.test_simple_tag_wrapped": true,
+        "template_tests.test_library.TagRegistrationTests.test_tag": true,
+        "template_tests.test_custom.InclusionTagTests.test_inclusion_tags_from_template": true,
+        "template_tests.test_custom.SimpleTagTests.test_simple_tag_errors": true,
+        "template_tests.test_custom.InclusionTagTests.test_inclusion_tags": true,
+        "template_tests.test_library.TagRegistrationTests.test_tag_parens": true,
+        "template_tests.test_library.FilterRegistrationTests.test_filter": true,
+        "template_tests.test_library.SimpleTagRegistrationTests.test_simple_tag_invalid": true,
+        "template_tests.test_library.InclusionTagRegistrationTests.test_inclusion_tag_name": true,
+        "template_tests.test_library.FilterRegistrationTests.test_filter_invalid": true,
+        "template_tests.test_library.SimpleTagRegistrationTests.test_simple_tag": true,
+        "template_tests.test_library.FilterRegistrationTests.test_filter_parens": true,
+        "template_tests.test_library.InclusionTagRegistrationTests.test_inclusion_tag": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12262/dedup_patch_11.jsonl": {
+      "django__django-12262": {
+        "template_tests.test_library.FilterRegistrationTests.test_filter_name_arg": true,
+        "template_tests.test_library.TagRegistrationTests.test_tag_invalid": true,
+        "template_tests.test_custom.SimpleTagTests.test_simple_tags": true,
+        "template_tests.test_library.TagRegistrationTests.test_tag_name_kwarg": true,
+        "template_tests.test_custom.InclusionTagTests.test_inclusion_tag_errors": true,
+        "template_tests.test_custom.InclusionTagTests.test_include_tag_missing_context": true,
+        "template_tests.test_custom.TemplateTagLoadingTests.test_load_annotated_function": true,
+        "template_tests.test_library.InclusionTagRegistrationTests.test_inclusion_tag_wrapped": true,
+        "template_tests.test_library.SimpleTagRegistrationTests.test_simple_tag_wrapped": true,
+        "template_tests.test_library.TagRegistrationTests.test_tag": true,
+        "template_tests.test_custom.InclusionTagTests.test_inclusion_tags_from_template": true,
+        "template_tests.test_custom.SimpleTagTests.test_simple_tag_errors": true,
+        "template_tests.test_custom.InclusionTagTests.test_inclusion_tags": true,
+        "template_tests.test_library.TagRegistrationTests.test_tag_parens": true,
+        "template_tests.test_library.FilterRegistrationTests.test_filter": true,
+        "template_tests.test_library.SimpleTagRegistrationTests.test_simple_tag_invalid": true,
+        "template_tests.test_library.InclusionTagRegistrationTests.test_inclusion_tag_name": true,
+        "template_tests.test_library.FilterRegistrationTests.test_filter_invalid": true,
+        "template_tests.test_library.SimpleTagRegistrationTests.test_simple_tag": true,
+        "template_tests.test_library.FilterRegistrationTests.test_filter_parens": true,
+        "template_tests.test_library.InclusionTagRegistrationTests.test_inclusion_tag": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12262/dedup_patch_12.jsonl": {
+      "django__django-12262": {
+        "template_tests.test_library.FilterRegistrationTests.test_filter_name_arg": true,
+        "template_tests.test_library.TagRegistrationTests.test_tag_invalid": true,
+        "template_tests.test_custom.SimpleTagTests.test_simple_tags": true,
+        "template_tests.test_library.TagRegistrationTests.test_tag_name_kwarg": true,
+        "template_tests.test_custom.InclusionTagTests.test_inclusion_tag_errors": true,
+        "template_tests.test_custom.InclusionTagTests.test_include_tag_missing_context": true,
+        "template_tests.test_custom.TemplateTagLoadingTests.test_load_annotated_function": true,
+        "template_tests.test_library.InclusionTagRegistrationTests.test_inclusion_tag_wrapped": true,
+        "template_tests.test_library.SimpleTagRegistrationTests.test_simple_tag_wrapped": true,
+        "template_tests.test_library.TagRegistrationTests.test_tag": true,
+        "template_tests.test_custom.InclusionTagTests.test_inclusion_tags_from_template": true,
+        "template_tests.test_custom.SimpleTagTests.test_simple_tag_errors": true,
+        "template_tests.test_custom.InclusionTagTests.test_inclusion_tags": true,
+        "template_tests.test_library.TagRegistrationTests.test_tag_parens": true,
+        "template_tests.test_library.FilterRegistrationTests.test_filter": true,
+        "template_tests.test_library.SimpleTagRegistrationTests.test_simple_tag_invalid": true,
+        "template_tests.test_library.InclusionTagRegistrationTests.test_inclusion_tag_name": true,
+        "template_tests.test_library.FilterRegistrationTests.test_filter_invalid": true,
+        "template_tests.test_library.SimpleTagRegistrationTests.test_simple_tag": true,
+        "template_tests.test_library.FilterRegistrationTests.test_filter_parens": true,
+        "template_tests.test_library.InclusionTagRegistrationTests.test_inclusion_tag": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12262/dedup_patch_13.jsonl": {
+      "django__django-12262": {
+        "template_tests.test_library.FilterRegistrationTests.test_filter_name_arg": true,
+        "template_tests.test_library.TagRegistrationTests.test_tag_invalid": true,
+        "template_tests.test_custom.SimpleTagTests.test_simple_tags": true,
+        "template_tests.test_library.TagRegistrationTests.test_tag_name_kwarg": true,
+        "template_tests.test_custom.InclusionTagTests.test_inclusion_tag_errors": true,
+        "template_tests.test_custom.InclusionTagTests.test_include_tag_missing_context": true,
+        "template_tests.test_custom.TemplateTagLoadingTests.test_load_annotated_function": true,
+        "template_tests.test_library.InclusionTagRegistrationTests.test_inclusion_tag_wrapped": true,
+        "template_tests.test_library.SimpleTagRegistrationTests.test_simple_tag_wrapped": true,
+        "template_tests.test_library.TagRegistrationTests.test_tag": true,
+        "template_tests.test_custom.InclusionTagTests.test_inclusion_tags_from_template": true,
+        "template_tests.test_custom.SimpleTagTests.test_simple_tag_errors": true,
+        "template_tests.test_custom.InclusionTagTests.test_inclusion_tags": true,
+        "template_tests.test_library.TagRegistrationTests.test_tag_parens": true,
+        "template_tests.test_library.FilterRegistrationTests.test_filter": true,
+        "template_tests.test_library.SimpleTagRegistrationTests.test_simple_tag_invalid": true,
+        "template_tests.test_library.InclusionTagRegistrationTests.test_inclusion_tag_name": true,
+        "template_tests.test_library.FilterRegistrationTests.test_filter_invalid": true,
+        "template_tests.test_library.SimpleTagRegistrationTests.test_simple_tag": true,
+        "template_tests.test_library.FilterRegistrationTests.test_filter_parens": true,
+        "template_tests.test_library.InclusionTagRegistrationTests.test_inclusion_tag": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12262/dedup_patch_14.jsonl": {
+      "django__django-12262": {
+        "template_tests.test_library.FilterRegistrationTests.test_filter_name_arg": true,
+        "template_tests.test_library.TagRegistrationTests.test_tag_invalid": true,
+        "template_tests.test_custom.SimpleTagTests.test_simple_tags": true,
+        "template_tests.test_library.TagRegistrationTests.test_tag_name_kwarg": true,
+        "template_tests.test_custom.InclusionTagTests.test_inclusion_tag_errors": true,
+        "template_tests.test_custom.InclusionTagTests.test_include_tag_missing_context": true,
+        "template_tests.test_custom.TemplateTagLoadingTests.test_load_annotated_function": true,
+        "template_tests.test_library.InclusionTagRegistrationTests.test_inclusion_tag_wrapped": true,
+        "template_tests.test_library.SimpleTagRegistrationTests.test_simple_tag_wrapped": true,
+        "template_tests.test_library.TagRegistrationTests.test_tag": true,
+        "template_tests.test_custom.InclusionTagTests.test_inclusion_tags_from_template": true,
+        "template_tests.test_custom.SimpleTagTests.test_simple_tag_errors": true,
+        "template_tests.test_custom.InclusionTagTests.test_inclusion_tags": true,
+        "template_tests.test_library.TagRegistrationTests.test_tag_parens": true,
+        "template_tests.test_library.FilterRegistrationTests.test_filter": true,
+        "template_tests.test_library.SimpleTagRegistrationTests.test_simple_tag_invalid": true,
+        "template_tests.test_library.InclusionTagRegistrationTests.test_inclusion_tag_name": true,
+        "template_tests.test_library.FilterRegistrationTests.test_filter_invalid": true,
+        "template_tests.test_library.SimpleTagRegistrationTests.test_simple_tag": true,
+        "template_tests.test_library.FilterRegistrationTests.test_filter_parens": true,
+        "template_tests.test_library.InclusionTagRegistrationTests.test_inclusion_tag": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12262/dedup_patch_2.jsonl": {
+      "django__django-12262": {
+        "template_tests.test_library.FilterRegistrationTests.test_filter_name_arg": true,
+        "template_tests.test_library.TagRegistrationTests.test_tag_invalid": true,
+        "template_tests.test_custom.SimpleTagTests.test_simple_tags": true,
+        "template_tests.test_library.TagRegistrationTests.test_tag_name_kwarg": true,
+        "template_tests.test_custom.InclusionTagTests.test_inclusion_tag_errors": true,
+        "template_tests.test_custom.InclusionTagTests.test_include_tag_missing_context": true,
+        "template_tests.test_custom.TemplateTagLoadingTests.test_load_annotated_function": true,
+        "template_tests.test_library.InclusionTagRegistrationTests.test_inclusion_tag_wrapped": true,
+        "template_tests.test_library.SimpleTagRegistrationTests.test_simple_tag_wrapped": true,
+        "template_tests.test_library.TagRegistrationTests.test_tag": true,
+        "template_tests.test_custom.InclusionTagTests.test_inclusion_tags_from_template": true,
+        "template_tests.test_custom.SimpleTagTests.test_simple_tag_errors": true,
+        "template_tests.test_custom.InclusionTagTests.test_inclusion_tags": true,
+        "template_tests.test_library.TagRegistrationTests.test_tag_parens": true,
+        "template_tests.test_library.FilterRegistrationTests.test_filter": true,
+        "template_tests.test_library.SimpleTagRegistrationTests.test_simple_tag_invalid": true,
+        "template_tests.test_library.InclusionTagRegistrationTests.test_inclusion_tag_name": true,
+        "template_tests.test_library.FilterRegistrationTests.test_filter_invalid": true,
+        "template_tests.test_library.SimpleTagRegistrationTests.test_simple_tag": true,
+        "template_tests.test_library.FilterRegistrationTests.test_filter_parens": true,
+        "template_tests.test_library.InclusionTagRegistrationTests.test_inclusion_tag": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12262/dedup_patch_3.jsonl": {
+      "django__django-12262": {
+        "template_tests.test_library.FilterRegistrationTests.test_filter_name_arg": true,
+        "template_tests.test_library.TagRegistrationTests.test_tag_invalid": true,
+        "template_tests.test_custom.SimpleTagTests.test_simple_tags": true,
+        "template_tests.test_library.TagRegistrationTests.test_tag_name_kwarg": true,
+        "template_tests.test_custom.InclusionTagTests.test_inclusion_tag_errors": true,
+        "template_tests.test_custom.InclusionTagTests.test_include_tag_missing_context": true,
+        "template_tests.test_custom.TemplateTagLoadingTests.test_load_annotated_function": true,
+        "template_tests.test_library.InclusionTagRegistrationTests.test_inclusion_tag_wrapped": true,
+        "template_tests.test_library.SimpleTagRegistrationTests.test_simple_tag_wrapped": true,
+        "template_tests.test_library.TagRegistrationTests.test_tag": true,
+        "template_tests.test_custom.InclusionTagTests.test_inclusion_tags_from_template": true,
+        "template_tests.test_custom.SimpleTagTests.test_simple_tag_errors": true,
+        "template_tests.test_custom.InclusionTagTests.test_inclusion_tags": true,
+        "template_tests.test_library.TagRegistrationTests.test_tag_parens": true,
+        "template_tests.test_library.FilterRegistrationTests.test_filter": true,
+        "template_tests.test_library.SimpleTagRegistrationTests.test_simple_tag_invalid": true,
+        "template_tests.test_library.InclusionTagRegistrationTests.test_inclusion_tag_name": true,
+        "template_tests.test_library.FilterRegistrationTests.test_filter_invalid": true,
+        "template_tests.test_library.SimpleTagRegistrationTests.test_simple_tag": true,
+        "template_tests.test_library.FilterRegistrationTests.test_filter_parens": true,
+        "template_tests.test_library.InclusionTagRegistrationTests.test_inclusion_tag": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12262/dedup_patch_4.jsonl": {
+      "django__django-12262": {
+        "template_tests.test_library.FilterRegistrationTests.test_filter_name_arg": true,
+        "template_tests.test_library.TagRegistrationTests.test_tag_invalid": true,
+        "template_tests.test_custom.SimpleTagTests.test_simple_tags": false,
+        "template_tests.test_library.TagRegistrationTests.test_tag_name_kwarg": true,
+        "template_tests.test_custom.InclusionTagTests.test_inclusion_tag_errors": true,
+        "template_tests.test_custom.InclusionTagTests.test_include_tag_missing_context": true,
+        "template_tests.test_custom.TemplateTagLoadingTests.test_load_annotated_function": true,
+        "template_tests.test_library.InclusionTagRegistrationTests.test_inclusion_tag_wrapped": true,
+        "template_tests.test_library.SimpleTagRegistrationTests.test_simple_tag_wrapped": true,
+        "template_tests.test_library.TagRegistrationTests.test_tag": true,
+        "template_tests.test_custom.InclusionTagTests.test_inclusion_tags_from_template": true,
+        "template_tests.test_custom.SimpleTagTests.test_simple_tag_errors": true,
+        "template_tests.test_custom.InclusionTagTests.test_inclusion_tags": true,
+        "template_tests.test_library.TagRegistrationTests.test_tag_parens": true,
+        "template_tests.test_library.FilterRegistrationTests.test_filter": true,
+        "template_tests.test_library.SimpleTagRegistrationTests.test_simple_tag_invalid": true,
+        "template_tests.test_library.InclusionTagRegistrationTests.test_inclusion_tag_name": true,
+        "template_tests.test_library.FilterRegistrationTests.test_filter_invalid": true,
+        "template_tests.test_library.SimpleTagRegistrationTests.test_simple_tag": true,
+        "template_tests.test_library.FilterRegistrationTests.test_filter_parens": true,
+        "template_tests.test_library.InclusionTagRegistrationTests.test_inclusion_tag": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12262/dedup_patch_5.jsonl": {
+      "django__django-12262": {
+        "template_tests.test_library.FilterRegistrationTests.test_filter_name_arg": true,
+        "template_tests.test_library.TagRegistrationTests.test_tag_invalid": true,
+        "template_tests.test_custom.SimpleTagTests.test_simple_tags": true,
+        "template_tests.test_library.TagRegistrationTests.test_tag_name_kwarg": true,
+        "template_tests.test_custom.InclusionTagTests.test_inclusion_tag_errors": true,
+        "template_tests.test_custom.InclusionTagTests.test_include_tag_missing_context": true,
+        "template_tests.test_custom.TemplateTagLoadingTests.test_load_annotated_function": true,
+        "template_tests.test_library.InclusionTagRegistrationTests.test_inclusion_tag_wrapped": true,
+        "template_tests.test_library.SimpleTagRegistrationTests.test_simple_tag_wrapped": true,
+        "template_tests.test_library.TagRegistrationTests.test_tag": true,
+        "template_tests.test_custom.InclusionTagTests.test_inclusion_tags_from_template": true,
+        "template_tests.test_custom.SimpleTagTests.test_simple_tag_errors": true,
+        "template_tests.test_custom.InclusionTagTests.test_inclusion_tags": true,
+        "template_tests.test_library.TagRegistrationTests.test_tag_parens": true,
+        "template_tests.test_library.FilterRegistrationTests.test_filter": true,
+        "template_tests.test_library.SimpleTagRegistrationTests.test_simple_tag_invalid": true,
+        "template_tests.test_library.InclusionTagRegistrationTests.test_inclusion_tag_name": true,
+        "template_tests.test_library.FilterRegistrationTests.test_filter_invalid": true,
+        "template_tests.test_library.SimpleTagRegistrationTests.test_simple_tag": true,
+        "template_tests.test_library.FilterRegistrationTests.test_filter_parens": true,
+        "template_tests.test_library.InclusionTagRegistrationTests.test_inclusion_tag": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12262/dedup_patch_6.jsonl": {
+      "django__django-12262": {
+        "template_tests.test_library.FilterRegistrationTests.test_filter_name_arg": true,
+        "template_tests.test_library.TagRegistrationTests.test_tag_invalid": true,
+        "template_tests.test_custom.SimpleTagTests.test_simple_tags": true,
+        "template_tests.test_library.TagRegistrationTests.test_tag_name_kwarg": true,
+        "template_tests.test_custom.InclusionTagTests.test_inclusion_tag_errors": true,
+        "template_tests.test_custom.InclusionTagTests.test_include_tag_missing_context": true,
+        "template_tests.test_custom.TemplateTagLoadingTests.test_load_annotated_function": true,
+        "template_tests.test_library.InclusionTagRegistrationTests.test_inclusion_tag_wrapped": true,
+        "template_tests.test_library.SimpleTagRegistrationTests.test_simple_tag_wrapped": true,
+        "template_tests.test_library.TagRegistrationTests.test_tag": true,
+        "template_tests.test_custom.InclusionTagTests.test_inclusion_tags_from_template": true,
+        "template_tests.test_custom.SimpleTagTests.test_simple_tag_errors": true,
+        "template_tests.test_custom.InclusionTagTests.test_inclusion_tags": true,
+        "template_tests.test_library.TagRegistrationTests.test_tag_parens": true,
+        "template_tests.test_library.FilterRegistrationTests.test_filter": true,
+        "template_tests.test_library.SimpleTagRegistrationTests.test_simple_tag_invalid": true,
+        "template_tests.test_library.InclusionTagRegistrationTests.test_inclusion_tag_name": true,
+        "template_tests.test_library.FilterRegistrationTests.test_filter_invalid": true,
+        "template_tests.test_library.SimpleTagRegistrationTests.test_simple_tag": true,
+        "template_tests.test_library.FilterRegistrationTests.test_filter_parens": true,
+        "template_tests.test_library.InclusionTagRegistrationTests.test_inclusion_tag": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12262/dedup_patch_7.jsonl": {
+      "django__django-12262": {
+        "template_tests.test_library.FilterRegistrationTests.test_filter_name_arg": true,
+        "template_tests.test_library.TagRegistrationTests.test_tag_invalid": true,
+        "template_tests.test_custom.SimpleTagTests.test_simple_tags": true,
+        "template_tests.test_library.TagRegistrationTests.test_tag_name_kwarg": true,
+        "template_tests.test_custom.InclusionTagTests.test_inclusion_tag_errors": true,
+        "template_tests.test_custom.InclusionTagTests.test_include_tag_missing_context": true,
+        "template_tests.test_custom.TemplateTagLoadingTests.test_load_annotated_function": true,
+        "template_tests.test_library.InclusionTagRegistrationTests.test_inclusion_tag_wrapped": true,
+        "template_tests.test_library.SimpleTagRegistrationTests.test_simple_tag_wrapped": true,
+        "template_tests.test_library.TagRegistrationTests.test_tag": true,
+        "template_tests.test_custom.InclusionTagTests.test_inclusion_tags_from_template": true,
+        "template_tests.test_custom.SimpleTagTests.test_simple_tag_errors": true,
+        "template_tests.test_custom.InclusionTagTests.test_inclusion_tags": true,
+        "template_tests.test_library.TagRegistrationTests.test_tag_parens": true,
+        "template_tests.test_library.FilterRegistrationTests.test_filter": true,
+        "template_tests.test_library.SimpleTagRegistrationTests.test_simple_tag_invalid": true,
+        "template_tests.test_library.InclusionTagRegistrationTests.test_inclusion_tag_name": true,
+        "template_tests.test_library.FilterRegistrationTests.test_filter_invalid": true,
+        "template_tests.test_library.SimpleTagRegistrationTests.test_simple_tag": true,
+        "template_tests.test_library.FilterRegistrationTests.test_filter_parens": true,
+        "template_tests.test_library.InclusionTagRegistrationTests.test_inclusion_tag": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12262/dedup_patch_8.jsonl": {
+      "django__django-12262": {
+        "template_tests.test_library.FilterRegistrationTests.test_filter_name_arg": true,
+        "template_tests.test_library.TagRegistrationTests.test_tag_invalid": true,
+        "template_tests.test_custom.SimpleTagTests.test_simple_tags": false,
+        "template_tests.test_library.TagRegistrationTests.test_tag_name_kwarg": true,
+        "template_tests.test_custom.InclusionTagTests.test_inclusion_tag_errors": true,
+        "template_tests.test_custom.InclusionTagTests.test_include_tag_missing_context": true,
+        "template_tests.test_custom.TemplateTagLoadingTests.test_load_annotated_function": true,
+        "template_tests.test_library.InclusionTagRegistrationTests.test_inclusion_tag_wrapped": true,
+        "template_tests.test_library.SimpleTagRegistrationTests.test_simple_tag_wrapped": true,
+        "template_tests.test_library.TagRegistrationTests.test_tag": true,
+        "template_tests.test_custom.InclusionTagTests.test_inclusion_tags_from_template": true,
+        "template_tests.test_custom.SimpleTagTests.test_simple_tag_errors": true,
+        "template_tests.test_custom.InclusionTagTests.test_inclusion_tags": true,
+        "template_tests.test_library.TagRegistrationTests.test_tag_parens": true,
+        "template_tests.test_library.FilterRegistrationTests.test_filter": true,
+        "template_tests.test_library.SimpleTagRegistrationTests.test_simple_tag_invalid": true,
+        "template_tests.test_library.InclusionTagRegistrationTests.test_inclusion_tag_name": true,
+        "template_tests.test_library.FilterRegistrationTests.test_filter_invalid": true,
+        "template_tests.test_library.SimpleTagRegistrationTests.test_simple_tag": true,
+        "template_tests.test_library.FilterRegistrationTests.test_filter_parens": true,
+        "template_tests.test_library.InclusionTagRegistrationTests.test_inclusion_tag": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12262/dedup_patch_9.jsonl": {
+      "django__django-12262": {
+        "template_tests.test_library.FilterRegistrationTests.test_filter_name_arg": true,
+        "template_tests.test_library.TagRegistrationTests.test_tag_invalid": true,
+        "template_tests.test_custom.SimpleTagTests.test_simple_tags": true,
+        "template_tests.test_library.TagRegistrationTests.test_tag_name_kwarg": true,
+        "template_tests.test_custom.InclusionTagTests.test_inclusion_tag_errors": true,
+        "template_tests.test_custom.InclusionTagTests.test_include_tag_missing_context": true,
+        "template_tests.test_custom.TemplateTagLoadingTests.test_load_annotated_function": true,
+        "template_tests.test_library.InclusionTagRegistrationTests.test_inclusion_tag_wrapped": true,
+        "template_tests.test_library.SimpleTagRegistrationTests.test_simple_tag_wrapped": true,
+        "template_tests.test_library.TagRegistrationTests.test_tag": true,
+        "template_tests.test_custom.InclusionTagTests.test_inclusion_tags_from_template": true,
+        "template_tests.test_custom.SimpleTagTests.test_simple_tag_errors": true,
+        "template_tests.test_custom.InclusionTagTests.test_inclusion_tags": true,
+        "template_tests.test_library.TagRegistrationTests.test_tag_parens": true,
+        "template_tests.test_library.FilterRegistrationTests.test_filter": true,
+        "template_tests.test_library.SimpleTagRegistrationTests.test_simple_tag_invalid": true,
+        "template_tests.test_library.InclusionTagRegistrationTests.test_inclusion_tag_name": true,
+        "template_tests.test_library.FilterRegistrationTests.test_filter_invalid": true,
+        "template_tests.test_library.SimpleTagRegistrationTests.test_simple_tag": true,
+        "template_tests.test_library.FilterRegistrationTests.test_filter_parens": true,
+        "template_tests.test_library.InclusionTagRegistrationTests.test_inclusion_tag": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-12262": {
+        "template_tests.syntax_tests.test_simple_tag.SimpleTagTests.test_simpletag_renamed03#1": false,
+        "template_tests.syntax_tests.test_simple_tag.SimpleTagTests.test_simpletag_renamed03#2": false,
+        "template_tests.syntax_tests.test_simple_tag.SimpleTagTests.test_simpletag_renamed03#3": true,
+        "template_tests.syntax_tests.test_simple_tag.SimpleTagTests.test_simpletag_renamed03#4": false,
+        "template_tests.syntax_tests.test_simple_tag.SimpleTagTests.test_keyword_only_args_with_defaults#5": true,
+        "template_tests.syntax_tests.test_simple_tag.SimpleTagTests.test_simpletag_renamed03#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12262/dedup_patch_0.jsonl": {
+      "django__django-12262": {
+        "template_tests.syntax_tests.test_simple_tag.SimpleTagTests.test_simpletag_renamed03#3": false,
+        "template_tests.syntax_tests.test_simple_tag.SimpleTagTests.test_keyword_only_args_with_defaults#5": false,
+        "template_tests.syntax_tests.test_simple_tag.SimpleTagTests.test_simpletag_renamed03#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12262/dedup_patch_1.jsonl": {
+      "django__django-12262": {
+        "template_tests.syntax_tests.test_simple_tag.SimpleTagTests.test_simpletag_renamed03#3": false,
+        "template_tests.syntax_tests.test_simple_tag.SimpleTagTests.test_keyword_only_args_with_defaults#5": false,
+        "template_tests.syntax_tests.test_simple_tag.SimpleTagTests.test_simpletag_renamed03#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12262/dedup_patch_10.jsonl": {
+      "django__django-12262": {
+        "template_tests.syntax_tests.test_simple_tag.SimpleTagTests.test_simpletag_renamed03#3": false,
+        "template_tests.syntax_tests.test_simple_tag.SimpleTagTests.test_keyword_only_args_with_defaults#5": false,
+        "template_tests.syntax_tests.test_simple_tag.SimpleTagTests.test_simpletag_renamed03#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12262/dedup_patch_11.jsonl": {
+      "django__django-12262": {
+        "template_tests.syntax_tests.test_simple_tag.SimpleTagTests.test_simpletag_renamed03#3": false,
+        "template_tests.syntax_tests.test_simple_tag.SimpleTagTests.test_keyword_only_args_with_defaults#5": false,
+        "template_tests.syntax_tests.test_simple_tag.SimpleTagTests.test_simpletag_renamed03#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12262/dedup_patch_12.jsonl": {
+      "django__django-12262": {
+        "template_tests.syntax_tests.test_simple_tag.SimpleTagTests.test_simpletag_renamed03#3": false,
+        "template_tests.syntax_tests.test_simple_tag.SimpleTagTests.test_keyword_only_args_with_defaults#5": false,
+        "template_tests.syntax_tests.test_simple_tag.SimpleTagTests.test_simpletag_renamed03#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12262/dedup_patch_13.jsonl": {
+      "django__django-12262": {
+        "template_tests.syntax_tests.test_simple_tag.SimpleTagTests.test_simpletag_renamed03#3": false,
+        "template_tests.syntax_tests.test_simple_tag.SimpleTagTests.test_keyword_only_args_with_defaults#5": false,
+        "template_tests.syntax_tests.test_simple_tag.SimpleTagTests.test_simpletag_renamed03#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12262/dedup_patch_14.jsonl": {
+      "django__django-12262": {
+        "template_tests.syntax_tests.test_simple_tag.SimpleTagTests.test_simpletag_renamed03#3": false,
+        "template_tests.syntax_tests.test_simple_tag.SimpleTagTests.test_keyword_only_args_with_defaults#5": false,
+        "template_tests.syntax_tests.test_simple_tag.SimpleTagTests.test_simpletag_renamed03#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12262/dedup_patch_2.jsonl": {
+      "django__django-12262": {
+        "template_tests.syntax_tests.test_simple_tag.SimpleTagTests.test_simpletag_renamed03#3": false,
+        "template_tests.syntax_tests.test_simple_tag.SimpleTagTests.test_keyword_only_args_with_defaults#5": false,
+        "template_tests.syntax_tests.test_simple_tag.SimpleTagTests.test_simpletag_renamed03#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12262/dedup_patch_3.jsonl": {
+      "django__django-12262": {
+        "template_tests.syntax_tests.test_simple_tag.SimpleTagTests.test_simpletag_renamed03#3": false,
+        "template_tests.syntax_tests.test_simple_tag.SimpleTagTests.test_keyword_only_args_with_defaults#5": false,
+        "template_tests.syntax_tests.test_simple_tag.SimpleTagTests.test_simpletag_renamed03#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12262/dedup_patch_5.jsonl": {
+      "django__django-12262": {
+        "template_tests.syntax_tests.test_simple_tag.SimpleTagTests.test_simpletag_renamed03#3": false,
+        "template_tests.syntax_tests.test_simple_tag.SimpleTagTests.test_keyword_only_args_with_defaults#5": false,
+        "template_tests.syntax_tests.test_simple_tag.SimpleTagTests.test_simpletag_renamed03#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12262/dedup_patch_6.jsonl": {
+      "django__django-12262": {
+        "template_tests.syntax_tests.test_simple_tag.SimpleTagTests.test_simpletag_renamed03#3": false,
+        "template_tests.syntax_tests.test_simple_tag.SimpleTagTests.test_keyword_only_args_with_defaults#5": false,
+        "template_tests.syntax_tests.test_simple_tag.SimpleTagTests.test_simpletag_renamed03#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12262/dedup_patch_7.jsonl": {
+      "django__django-12262": {
+        "template_tests.syntax_tests.test_simple_tag.SimpleTagTests.test_simpletag_renamed03#3": false,
+        "template_tests.syntax_tests.test_simple_tag.SimpleTagTests.test_keyword_only_args_with_defaults#5": false,
+        "template_tests.syntax_tests.test_simple_tag.SimpleTagTests.test_simpletag_renamed03#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12262/dedup_patch_9.jsonl": {
+      "django__django-12262": {
+        "template_tests.syntax_tests.test_simple_tag.SimpleTagTests.test_simpletag_renamed03#3": false,
+        "template_tests.syntax_tests.test_simple_tag.SimpleTagTests.test_keyword_only_args_with_defaults#5": false,
+        "template_tests.syntax_tests.test_simple_tag.SimpleTagTests.test_simpletag_renamed03#6": false
+      }
+    }
+  }
+}

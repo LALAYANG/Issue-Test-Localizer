@@ -1,0 +1,216 @@
+{
+  "regression": {
+    "all_patches/lite_gpt4o_all_unique_patches/sphinx-doc__sphinx-8721/dedup_patch_0.jsonl": {
+      "sphinx-doc__sphinx-8721": {
+        "tests/test_ext_viewcode.py::test_local_source_files": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sphinx-doc__sphinx-8721/dedup_patch_1.jsonl": {
+      "sphinx-doc__sphinx-8721": {
+        "tests/test_ext_viewcode.py::test_local_source_files": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sphinx-doc__sphinx-8721/dedup_patch_10.jsonl": {
+      "sphinx-doc__sphinx-8721": {
+        "tests/test_ext_viewcode.py::test_local_source_files": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sphinx-doc__sphinx-8721/dedup_patch_11.jsonl": {
+      "sphinx-doc__sphinx-8721": {
+        "tests/test_ext_viewcode.py::test_local_source_files": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sphinx-doc__sphinx-8721/dedup_patch_12.jsonl": {
+      "sphinx-doc__sphinx-8721": {
+        "tests/test_ext_viewcode.py::test_local_source_files": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sphinx-doc__sphinx-8721/dedup_patch_13.jsonl": {
+      "sphinx-doc__sphinx-8721": {
+        "tests/test_ext_viewcode.py::test_local_source_files": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sphinx-doc__sphinx-8721/dedup_patch_2.jsonl": {
+      "sphinx-doc__sphinx-8721": {
+        "tests/test_ext_viewcode.py::test_local_source_files": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sphinx-doc__sphinx-8721/dedup_patch_3.jsonl": {
+      "sphinx-doc__sphinx-8721": {
+        "tests/test_ext_viewcode.py::test_local_source_files": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sphinx-doc__sphinx-8721/dedup_patch_4.jsonl": {
+      "sphinx-doc__sphinx-8721": {
+        "tests/test_ext_viewcode.py::test_local_source_files": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sphinx-doc__sphinx-8721/dedup_patch_5.jsonl": {
+      "sphinx-doc__sphinx-8721": {
+        "tests/test_ext_viewcode.py::test_local_source_files": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sphinx-doc__sphinx-8721/dedup_patch_6.jsonl": {
+      "sphinx-doc__sphinx-8721": {
+        "tests/test_ext_viewcode.py::test_local_source_files": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sphinx-doc__sphinx-8721/dedup_patch_7.jsonl": {
+      "sphinx-doc__sphinx-8721": {
+        "tests/test_ext_viewcode.py::test_local_source_files": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sphinx-doc__sphinx-8721/dedup_patch_8.jsonl": {
+      "sphinx-doc__sphinx-8721": {
+        "tests/test_ext_viewcode.py::test_local_source_files": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sphinx-doc__sphinx-8721/dedup_patch_9.jsonl": {
+      "sphinx-doc__sphinx-8721": {
+        "tests/test_ext_viewcode.py::test_local_source_files": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "sphinx-doc__sphinx-8721": {
+        "tests/test_ext_viewcode.py::test_viewcode#1": true,
+        "tests/test_build_epub.py::test_epub_assets#2": false,
+        "tests/test_ext_viewcode.py::test_viewcode#3": true,
+        "tests/test_build_epub.py::test_build_epub#4": false,
+        "tests/test_build_epub.py::EPUBElementTree::test_build_epub#5": true,
+        "tests/test_build_epub.py::test_epub_assets#6": false,
+        "tests/test_ext_viewcode.py::test_viewcode#7": true,
+        "tests/test_build_epub.py::test_epub_assets#8": false,
+        "tests/test_ext_viewcode.py::test_viewcode#9": true,
+        "tests/test_build_epub.py::test_build_epub#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sphinx-doc__sphinx-8721/dedup_patch_0.jsonl": {
+      "sphinx-doc__sphinx-8721": {
+        "tests/test_ext_viewcode.py::test_viewcode#1": false,
+        "tests/test_ext_viewcode.py::test_viewcode#3": false,
+        "tests/test_build_epub.py::EPUBElementTree::test_build_epub#5": false,
+        "tests/test_ext_viewcode.py::test_viewcode#7": false,
+        "tests/test_ext_viewcode.py::test_viewcode#9": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sphinx-doc__sphinx-8721/dedup_patch_1.jsonl": {
+      "sphinx-doc__sphinx-8721": {
+        "tests/test_ext_viewcode.py::test_viewcode#1": false,
+        "tests/test_ext_viewcode.py::test_viewcode#3": false,
+        "tests/test_build_epub.py::EPUBElementTree::test_build_epub#5": false,
+        "tests/test_ext_viewcode.py::test_viewcode#7": false,
+        "tests/test_ext_viewcode.py::test_viewcode#9": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sphinx-doc__sphinx-8721/dedup_patch_10.jsonl": {
+      "sphinx-doc__sphinx-8721": {
+        "tests/test_ext_viewcode.py::test_viewcode#1": false,
+        "tests/test_ext_viewcode.py::test_viewcode#3": false,
+        "tests/test_build_epub.py::EPUBElementTree::test_build_epub#5": false,
+        "tests/test_ext_viewcode.py::test_viewcode#7": false,
+        "tests/test_ext_viewcode.py::test_viewcode#9": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sphinx-doc__sphinx-8721/dedup_patch_11.jsonl": {
+      "sphinx-doc__sphinx-8721": {
+        "tests/test_ext_viewcode.py::test_viewcode#1": false,
+        "tests/test_ext_viewcode.py::test_viewcode#3": false,
+        "tests/test_build_epub.py::EPUBElementTree::test_build_epub#5": false,
+        "tests/test_ext_viewcode.py::test_viewcode#7": false,
+        "tests/test_ext_viewcode.py::test_viewcode#9": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sphinx-doc__sphinx-8721/dedup_patch_12.jsonl": {
+      "sphinx-doc__sphinx-8721": {
+        "tests/test_ext_viewcode.py::test_viewcode#1": false,
+        "tests/test_ext_viewcode.py::test_viewcode#3": false,
+        "tests/test_build_epub.py::EPUBElementTree::test_build_epub#5": false,
+        "tests/test_ext_viewcode.py::test_viewcode#7": false,
+        "tests/test_ext_viewcode.py::test_viewcode#9": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sphinx-doc__sphinx-8721/dedup_patch_13.jsonl": {
+      "sphinx-doc__sphinx-8721": {
+        "tests/test_ext_viewcode.py::test_viewcode#1": false,
+        "tests/test_ext_viewcode.py::test_viewcode#3": false,
+        "tests/test_build_epub.py::EPUBElementTree::test_build_epub#5": false,
+        "tests/test_ext_viewcode.py::test_viewcode#7": false,
+        "tests/test_ext_viewcode.py::test_viewcode#9": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sphinx-doc__sphinx-8721/dedup_patch_2.jsonl": {
+      "sphinx-doc__sphinx-8721": {
+        "tests/test_ext_viewcode.py::test_viewcode#1": false,
+        "tests/test_ext_viewcode.py::test_viewcode#3": false,
+        "tests/test_build_epub.py::EPUBElementTree::test_build_epub#5": false,
+        "tests/test_ext_viewcode.py::test_viewcode#7": false,
+        "tests/test_ext_viewcode.py::test_viewcode#9": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sphinx-doc__sphinx-8721/dedup_patch_3.jsonl": {
+      "sphinx-doc__sphinx-8721": {
+        "tests/test_ext_viewcode.py::test_viewcode#1": false,
+        "tests/test_ext_viewcode.py::test_viewcode#3": false,
+        "tests/test_build_epub.py::EPUBElementTree::test_build_epub#5": false,
+        "tests/test_ext_viewcode.py::test_viewcode#7": false,
+        "tests/test_ext_viewcode.py::test_viewcode#9": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sphinx-doc__sphinx-8721/dedup_patch_4.jsonl": {
+      "sphinx-doc__sphinx-8721": {
+        "tests/test_ext_viewcode.py::test_viewcode#1": false,
+        "tests/test_ext_viewcode.py::test_viewcode#3": false,
+        "tests/test_build_epub.py::EPUBElementTree::test_build_epub#5": false,
+        "tests/test_ext_viewcode.py::test_viewcode#7": false,
+        "tests/test_ext_viewcode.py::test_viewcode#9": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sphinx-doc__sphinx-8721/dedup_patch_5.jsonl": {
+      "sphinx-doc__sphinx-8721": {
+        "tests/test_ext_viewcode.py::test_viewcode#1": false,
+        "tests/test_ext_viewcode.py::test_viewcode#3": false,
+        "tests/test_build_epub.py::EPUBElementTree::test_build_epub#5": false,
+        "tests/test_ext_viewcode.py::test_viewcode#7": false,
+        "tests/test_ext_viewcode.py::test_viewcode#9": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sphinx-doc__sphinx-8721/dedup_patch_6.jsonl": {
+      "sphinx-doc__sphinx-8721": {
+        "tests/test_ext_viewcode.py::test_viewcode#1": false,
+        "tests/test_ext_viewcode.py::test_viewcode#3": false,
+        "tests/test_build_epub.py::EPUBElementTree::test_build_epub#5": false,
+        "tests/test_ext_viewcode.py::test_viewcode#7": false,
+        "tests/test_ext_viewcode.py::test_viewcode#9": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sphinx-doc__sphinx-8721/dedup_patch_7.jsonl": {
+      "sphinx-doc__sphinx-8721": {
+        "tests/test_ext_viewcode.py::test_viewcode#1": false,
+        "tests/test_ext_viewcode.py::test_viewcode#3": false,
+        "tests/test_build_epub.py::EPUBElementTree::test_build_epub#5": false,
+        "tests/test_ext_viewcode.py::test_viewcode#7": false,
+        "tests/test_ext_viewcode.py::test_viewcode#9": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sphinx-doc__sphinx-8721/dedup_patch_8.jsonl": {
+      "sphinx-doc__sphinx-8721": {
+        "tests/test_ext_viewcode.py::test_viewcode#1": false,
+        "tests/test_ext_viewcode.py::test_viewcode#3": false,
+        "tests/test_build_epub.py::EPUBElementTree::test_build_epub#5": false,
+        "tests/test_ext_viewcode.py::test_viewcode#7": false,
+        "tests/test_ext_viewcode.py::test_viewcode#9": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sphinx-doc__sphinx-8721/dedup_patch_9.jsonl": {
+      "sphinx-doc__sphinx-8721": {
+        "tests/test_ext_viewcode.py::test_viewcode#1": false,
+        "tests/test_ext_viewcode.py::test_viewcode#3": false,
+        "tests/test_build_epub.py::EPUBElementTree::test_build_epub#5": false,
+        "tests/test_ext_viewcode.py::test_viewcode#7": false,
+        "tests/test_ext_viewcode.py::test_viewcode#9": false
+      }
+    }
+  }
+}

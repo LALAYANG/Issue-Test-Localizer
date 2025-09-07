@@ -1,0 +1,78 @@
+{
+  "instance_id": "django__django-14382",
+  "container_id": "08a93a2ec419dc264ab55073b5a911f5e98eeacdc325ef410fa8a4a565097206",
+  "regression": {
+    "results": [
+      {
+        "patch_file": "all_patches/lite_claude_all_unique_patches/django__django-14382/dedup_patch_0.jsonl",
+        "inst": "django__django-14382",
+        "passed": 0,
+        "failed": 0
+      }
+    ],
+    "top_passed": 0,
+    "top_subset_size": 1
+  },
+  "reproduction": {
+    "admin_scripts.tests.StartProject.test_startapp_dir_with_trailing_slash#1": {
+      "repro_fails_on_clean": true,
+      "outcomes": [
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/django__django-14382/dedup_patch_0.jsonl",
+          "inst": "django__django-14382",
+          "passed": false
+        }
+      ]
+    },
+    "admin_scripts.tests.StartProject.test_startapp_directory_with_trailing_slash#2": {
+      "repro_fails_on_clean": true,
+      "outcomes": [
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/django__django-14382/dedup_patch_0.jsonl",
+          "inst": "django__django-14382",
+          "passed": false
+        }
+      ]
+    },
+    "admin_scripts.tests.StartProject.test_startapp_directory_with_trailing_slash#3": {
+      "repro_fails_on_clean": true,
+      "outcomes": [
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/django__django-14382/dedup_patch_0.jsonl",
+          "inst": "django__django-14382",
+          "passed": false
+        }
+      ]
+    },
+    "admin_scripts.tests.StartProject.test_startapp_with_trailing_slash#4": {
+      "repro_fails_on_clean": true,
+      "outcomes": [
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/django__django-14382/dedup_patch_0.jsonl",
+          "inst": "django__django-14382",
+          "passed": false
+        }
+      ]
+    },
+    "admin_scripts.tests.StartProject.test_startapp_with_trailing_slash#5": {
+      "repro_fails_on_clean": true,
+      "outcomes": [
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/django__django-14382/dedup_patch_0.jsonl",
+          "inst": "django__django-14382",
+          "passed": false
+        }
+      ]
+    },
+    "admin_scripts.tests.StartProject.test_startapp_with_trailing_slash#6": {
+      "repro_fails_on_clean": true,
+      "outcomes": [
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/django__django-14382/dedup_patch_0.jsonl",
+          "inst": "django__django-14382",
+          "passed": false
+        }
+      ]
+    }
+  }
+}

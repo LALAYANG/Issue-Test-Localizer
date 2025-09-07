@@ -1,0 +1,655 @@
+{
+  "regression": {
+    "all_patches/lite_claude_all_unique_patches/django__django-14667/dedup_patch_0.jsonl": {
+      "django__django-14667": {
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": true,
+        "aggregation.tests.AggregateTestCase.test_annotate_defer_select_related": true,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": true,
+        "defer.tests.DeferTests.test_only": true,
+        "defer_regress.tests.DeferRegressionTest.test_basic": true,
+        "queries.tests.ValuesQuerysetTests.test_named_values_list_with_fields": true,
+        "defer.tests.DeferTests.test_defer_only_chaining": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-14667/dedup_patch_1.jsonl": {
+      "django__django-14667": {
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": true,
+        "aggregation.tests.AggregateTestCase.test_annotate_defer_select_related": true,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": true,
+        "defer.tests.DeferTests.test_only": true,
+        "defer_regress.tests.DeferRegressionTest.test_basic": true,
+        "queries.tests.ValuesQuerysetTests.test_named_values_list_with_fields": true,
+        "defer.tests.DeferTests.test_defer_only_chaining": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-14667/dedup_patch_10.jsonl": {
+      "django__django-14667": {
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": true,
+        "aggregation.tests.AggregateTestCase.test_annotate_defer_select_related": true,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": true,
+        "defer.tests.DeferTests.test_only": true,
+        "defer_regress.tests.DeferRegressionTest.test_basic": true,
+        "queries.tests.ValuesQuerysetTests.test_named_values_list_with_fields": true,
+        "defer.tests.DeferTests.test_defer_only_chaining": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-14667/dedup_patch_11.jsonl": {
+      "django__django-14667": {
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": true,
+        "aggregation.tests.AggregateTestCase.test_annotate_defer_select_related": true,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": true,
+        "defer.tests.DeferTests.test_only": true,
+        "defer_regress.tests.DeferRegressionTest.test_basic": true,
+        "queries.tests.ValuesQuerysetTests.test_named_values_list_with_fields": true,
+        "defer.tests.DeferTests.test_defer_only_chaining": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-14667/dedup_patch_12.jsonl": {
+      "django__django-14667": {
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": true,
+        "aggregation.tests.AggregateTestCase.test_annotate_defer_select_related": true,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": true,
+        "defer.tests.DeferTests.test_only": true,
+        "defer_regress.tests.DeferRegressionTest.test_basic": true,
+        "queries.tests.ValuesQuerysetTests.test_named_values_list_with_fields": true,
+        "defer.tests.DeferTests.test_defer_only_chaining": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-14667/dedup_patch_13.jsonl": {
+      "django__django-14667": {
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": true,
+        "aggregation.tests.AggregateTestCase.test_annotate_defer_select_related": true,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": true,
+        "defer.tests.DeferTests.test_only": true,
+        "defer_regress.tests.DeferRegressionTest.test_basic": true,
+        "queries.tests.ValuesQuerysetTests.test_named_values_list_with_fields": true,
+        "defer.tests.DeferTests.test_defer_only_chaining": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-14667/dedup_patch_14.jsonl": {
+      "django__django-14667": {
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": true,
+        "aggregation.tests.AggregateTestCase.test_annotate_defer_select_related": true,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": true,
+        "defer.tests.DeferTests.test_only": true,
+        "defer_regress.tests.DeferRegressionTest.test_basic": true,
+        "queries.tests.ValuesQuerysetTests.test_named_values_list_with_fields": true,
+        "defer.tests.DeferTests.test_defer_only_chaining": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-14667/dedup_patch_15.jsonl": {
+      "django__django-14667": {
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": true,
+        "aggregation.tests.AggregateTestCase.test_annotate_defer_select_related": true,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": true,
+        "defer.tests.DeferTests.test_only": false,
+        "defer_regress.tests.DeferRegressionTest.test_basic": false,
+        "queries.tests.ValuesQuerysetTests.test_named_values_list_with_fields": true,
+        "defer.tests.DeferTests.test_defer_only_chaining": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-14667/dedup_patch_16.jsonl": {
+      "django__django-14667": {
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": true,
+        "aggregation.tests.AggregateTestCase.test_annotate_defer_select_related": true,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": true,
+        "defer.tests.DeferTests.test_only": true,
+        "defer_regress.tests.DeferRegressionTest.test_basic": true,
+        "queries.tests.ValuesQuerysetTests.test_named_values_list_with_fields": true,
+        "defer.tests.DeferTests.test_defer_only_chaining": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-14667/dedup_patch_17.jsonl": {
+      "django__django-14667": {
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": true,
+        "aggregation.tests.AggregateTestCase.test_annotate_defer_select_related": true,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": true,
+        "defer.tests.DeferTests.test_only": true,
+        "defer_regress.tests.DeferRegressionTest.test_basic": true,
+        "queries.tests.ValuesQuerysetTests.test_named_values_list_with_fields": true,
+        "defer.tests.DeferTests.test_defer_only_chaining": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-14667/dedup_patch_18.jsonl": {
+      "django__django-14667": {
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": true,
+        "aggregation.tests.AggregateTestCase.test_annotate_defer_select_related": true,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": true,
+        "defer.tests.DeferTests.test_only": true,
+        "defer_regress.tests.DeferRegressionTest.test_basic": true,
+        "queries.tests.ValuesQuerysetTests.test_named_values_list_with_fields": true,
+        "defer.tests.DeferTests.test_defer_only_chaining": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-14667/dedup_patch_19.jsonl": {
+      "django__django-14667": {
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": true,
+        "aggregation.tests.AggregateTestCase.test_annotate_defer_select_related": true,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": true,
+        "defer.tests.DeferTests.test_only": true,
+        "defer_regress.tests.DeferRegressionTest.test_basic": true,
+        "queries.tests.ValuesQuerysetTests.test_named_values_list_with_fields": true,
+        "defer.tests.DeferTests.test_defer_only_chaining": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-14667/dedup_patch_2.jsonl": {
+      "django__django-14667": {
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": true,
+        "aggregation.tests.AggregateTestCase.test_annotate_defer_select_related": true,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": true,
+        "defer.tests.DeferTests.test_only": true,
+        "defer_regress.tests.DeferRegressionTest.test_basic": true,
+        "queries.tests.ValuesQuerysetTests.test_named_values_list_with_fields": true,
+        "defer.tests.DeferTests.test_defer_only_chaining": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-14667/dedup_patch_20.jsonl": {
+      "django__django-14667": {
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": true,
+        "aggregation.tests.AggregateTestCase.test_annotate_defer_select_related": true,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": true,
+        "defer.tests.DeferTests.test_only": true,
+        "defer_regress.tests.DeferRegressionTest.test_basic": true,
+        "queries.tests.ValuesQuerysetTests.test_named_values_list_with_fields": true,
+        "defer.tests.DeferTests.test_defer_only_chaining": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-14667/dedup_patch_21.jsonl": {
+      "django__django-14667": {
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": true,
+        "aggregation.tests.AggregateTestCase.test_annotate_defer_select_related": true,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": true,
+        "defer.tests.DeferTests.test_only": true,
+        "defer_regress.tests.DeferRegressionTest.test_basic": true,
+        "queries.tests.ValuesQuerysetTests.test_named_values_list_with_fields": true,
+        "defer.tests.DeferTests.test_defer_only_chaining": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-14667/dedup_patch_22.jsonl": {
+      "django__django-14667": {
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": true,
+        "aggregation.tests.AggregateTestCase.test_annotate_defer_select_related": true,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": true,
+        "defer.tests.DeferTests.test_only": true,
+        "defer_regress.tests.DeferRegressionTest.test_basic": true,
+        "queries.tests.ValuesQuerysetTests.test_named_values_list_with_fields": true,
+        "defer.tests.DeferTests.test_defer_only_chaining": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-14667/dedup_patch_23.jsonl": {
+      "django__django-14667": {
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": true,
+        "aggregation.tests.AggregateTestCase.test_annotate_defer_select_related": true,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": true,
+        "defer.tests.DeferTests.test_only": true,
+        "defer_regress.tests.DeferRegressionTest.test_basic": true,
+        "queries.tests.ValuesQuerysetTests.test_named_values_list_with_fields": true,
+        "defer.tests.DeferTests.test_defer_only_chaining": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-14667/dedup_patch_24.jsonl": {
+      "django__django-14667": {
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": true,
+        "aggregation.tests.AggregateTestCase.test_annotate_defer_select_related": true,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": true,
+        "defer.tests.DeferTests.test_only": true,
+        "defer_regress.tests.DeferRegressionTest.test_basic": true,
+        "queries.tests.ValuesQuerysetTests.test_named_values_list_with_fields": true,
+        "defer.tests.DeferTests.test_defer_only_chaining": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-14667/dedup_patch_25.jsonl": {
+      "django__django-14667": {
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": true,
+        "aggregation.tests.AggregateTestCase.test_annotate_defer_select_related": true,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": true,
+        "defer.tests.DeferTests.test_only": true,
+        "defer_regress.tests.DeferRegressionTest.test_basic": true,
+        "queries.tests.ValuesQuerysetTests.test_named_values_list_with_fields": true,
+        "defer.tests.DeferTests.test_defer_only_chaining": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-14667/dedup_patch_26.jsonl": {
+      "django__django-14667": {
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": true,
+        "aggregation.tests.AggregateTestCase.test_annotate_defer_select_related": true,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": true,
+        "defer.tests.DeferTests.test_only": true,
+        "defer_regress.tests.DeferRegressionTest.test_basic": true,
+        "queries.tests.ValuesQuerysetTests.test_named_values_list_with_fields": true,
+        "defer.tests.DeferTests.test_defer_only_chaining": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-14667/dedup_patch_27.jsonl": {
+      "django__django-14667": {
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": true,
+        "aggregation.tests.AggregateTestCase.test_annotate_defer_select_related": true,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": true,
+        "defer.tests.DeferTests.test_only": true,
+        "defer_regress.tests.DeferRegressionTest.test_basic": true,
+        "queries.tests.ValuesQuerysetTests.test_named_values_list_with_fields": true,
+        "defer.tests.DeferTests.test_defer_only_chaining": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-14667/dedup_patch_28.jsonl": {
+      "django__django-14667": {
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": true,
+        "aggregation.tests.AggregateTestCase.test_annotate_defer_select_related": true,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": true,
+        "defer.tests.DeferTests.test_only": true,
+        "defer_regress.tests.DeferRegressionTest.test_basic": true,
+        "queries.tests.ValuesQuerysetTests.test_named_values_list_with_fields": true,
+        "defer.tests.DeferTests.test_defer_only_chaining": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-14667/dedup_patch_29.jsonl": {
+      "django__django-14667": {
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": true,
+        "aggregation.tests.AggregateTestCase.test_annotate_defer_select_related": true,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": true,
+        "defer.tests.DeferTests.test_only": true,
+        "defer_regress.tests.DeferRegressionTest.test_basic": true,
+        "queries.tests.ValuesQuerysetTests.test_named_values_list_with_fields": true,
+        "defer.tests.DeferTests.test_defer_only_chaining": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-14667/dedup_patch_3.jsonl": {
+      "django__django-14667": {
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": true,
+        "aggregation.tests.AggregateTestCase.test_annotate_defer_select_related": true,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": true,
+        "defer.tests.DeferTests.test_only": true,
+        "defer_regress.tests.DeferRegressionTest.test_basic": true,
+        "queries.tests.ValuesQuerysetTests.test_named_values_list_with_fields": true,
+        "defer.tests.DeferTests.test_defer_only_chaining": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-14667/dedup_patch_30.jsonl": {
+      "django__django-14667": {
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": true,
+        "aggregation.tests.AggregateTestCase.test_annotate_defer_select_related": true,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": true,
+        "defer.tests.DeferTests.test_only": true,
+        "defer_regress.tests.DeferRegressionTest.test_basic": true,
+        "queries.tests.ValuesQuerysetTests.test_named_values_list_with_fields": true,
+        "defer.tests.DeferTests.test_defer_only_chaining": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-14667/dedup_patch_31.jsonl": {
+      "django__django-14667": {
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": true,
+        "aggregation.tests.AggregateTestCase.test_annotate_defer_select_related": true,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": true,
+        "defer.tests.DeferTests.test_only": true,
+        "defer_regress.tests.DeferRegressionTest.test_basic": true,
+        "queries.tests.ValuesQuerysetTests.test_named_values_list_with_fields": true,
+        "defer.tests.DeferTests.test_defer_only_chaining": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-14667/dedup_patch_32.jsonl": {
+      "django__django-14667": {
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": true,
+        "aggregation.tests.AggregateTestCase.test_annotate_defer_select_related": true,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": true,
+        "defer.tests.DeferTests.test_only": true,
+        "defer_regress.tests.DeferRegressionTest.test_basic": true,
+        "queries.tests.ValuesQuerysetTests.test_named_values_list_with_fields": true,
+        "defer.tests.DeferTests.test_defer_only_chaining": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-14667/dedup_patch_33.jsonl": {
+      "django__django-14667": {
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": true,
+        "aggregation.tests.AggregateTestCase.test_annotate_defer_select_related": true,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": true,
+        "defer.tests.DeferTests.test_only": true,
+        "defer_regress.tests.DeferRegressionTest.test_basic": true,
+        "queries.tests.ValuesQuerysetTests.test_named_values_list_with_fields": true,
+        "defer.tests.DeferTests.test_defer_only_chaining": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-14667/dedup_patch_34.jsonl": {
+      "django__django-14667": {
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": true,
+        "aggregation.tests.AggregateTestCase.test_annotate_defer_select_related": true,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": true,
+        "defer.tests.DeferTests.test_only": true,
+        "defer_regress.tests.DeferRegressionTest.test_basic": true,
+        "queries.tests.ValuesQuerysetTests.test_named_values_list_with_fields": true,
+        "defer.tests.DeferTests.test_defer_only_chaining": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-14667/dedup_patch_35.jsonl": {
+      "django__django-14667": {
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": true,
+        "aggregation.tests.AggregateTestCase.test_annotate_defer_select_related": true,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": true,
+        "defer.tests.DeferTests.test_only": true,
+        "defer_regress.tests.DeferRegressionTest.test_basic": true,
+        "queries.tests.ValuesQuerysetTests.test_named_values_list_with_fields": true,
+        "defer.tests.DeferTests.test_defer_only_chaining": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-14667/dedup_patch_36.jsonl": {
+      "django__django-14667": {
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": true,
+        "aggregation.tests.AggregateTestCase.test_annotate_defer_select_related": true,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": true,
+        "defer.tests.DeferTests.test_only": true,
+        "defer_regress.tests.DeferRegressionTest.test_basic": true,
+        "queries.tests.ValuesQuerysetTests.test_named_values_list_with_fields": true,
+        "defer.tests.DeferTests.test_defer_only_chaining": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-14667/dedup_patch_37.jsonl": {
+      "django__django-14667": {
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": true,
+        "aggregation.tests.AggregateTestCase.test_annotate_defer_select_related": true,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": true,
+        "defer.tests.DeferTests.test_only": true,
+        "defer_regress.tests.DeferRegressionTest.test_basic": true,
+        "queries.tests.ValuesQuerysetTests.test_named_values_list_with_fields": true,
+        "defer.tests.DeferTests.test_defer_only_chaining": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-14667/dedup_patch_38.jsonl": {
+      "django__django-14667": {
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": true,
+        "aggregation.tests.AggregateTestCase.test_annotate_defer_select_related": true,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": true,
+        "defer.tests.DeferTests.test_only": true,
+        "defer_regress.tests.DeferRegressionTest.test_basic": true,
+        "queries.tests.ValuesQuerysetTests.test_named_values_list_with_fields": true,
+        "defer.tests.DeferTests.test_defer_only_chaining": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-14667/dedup_patch_4.jsonl": {
+      "django__django-14667": {
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": true,
+        "aggregation.tests.AggregateTestCase.test_annotate_defer_select_related": true,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": true,
+        "defer.tests.DeferTests.test_only": true,
+        "defer_regress.tests.DeferRegressionTest.test_basic": true,
+        "queries.tests.ValuesQuerysetTests.test_named_values_list_with_fields": true,
+        "defer.tests.DeferTests.test_defer_only_chaining": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-14667/dedup_patch_5.jsonl": {
+      "django__django-14667": {
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": true,
+        "aggregation.tests.AggregateTestCase.test_annotate_defer_select_related": true,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": true,
+        "defer.tests.DeferTests.test_only": true,
+        "defer_regress.tests.DeferRegressionTest.test_basic": true,
+        "queries.tests.ValuesQuerysetTests.test_named_values_list_with_fields": true,
+        "defer.tests.DeferTests.test_defer_only_chaining": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-14667/dedup_patch_6.jsonl": {
+      "django__django-14667": {
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": true,
+        "aggregation.tests.AggregateTestCase.test_annotate_defer_select_related": true,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": true,
+        "defer.tests.DeferTests.test_only": true,
+        "defer_regress.tests.DeferRegressionTest.test_basic": true,
+        "queries.tests.ValuesQuerysetTests.test_named_values_list_with_fields": true,
+        "defer.tests.DeferTests.test_defer_only_chaining": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-14667/dedup_patch_7.jsonl": {
+      "django__django-14667": {
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": true,
+        "aggregation.tests.AggregateTestCase.test_annotate_defer_select_related": true,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": true,
+        "defer.tests.DeferTests.test_only": true,
+        "defer_regress.tests.DeferRegressionTest.test_basic": true,
+        "queries.tests.ValuesQuerysetTests.test_named_values_list_with_fields": true,
+        "defer.tests.DeferTests.test_defer_only_chaining": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-14667/dedup_patch_8.jsonl": {
+      "django__django-14667": {
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": true,
+        "aggregation.tests.AggregateTestCase.test_annotate_defer_select_related": true,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": true,
+        "defer.tests.DeferTests.test_only": true,
+        "defer_regress.tests.DeferRegressionTest.test_basic": true,
+        "queries.tests.ValuesQuerysetTests.test_named_values_list_with_fields": true,
+        "defer.tests.DeferTests.test_defer_only_chaining": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-14667/dedup_patch_9.jsonl": {
+      "django__django-14667": {
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": true,
+        "aggregation.tests.AggregateTestCase.test_annotate_defer_select_related": true,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": true,
+        "defer.tests.DeferTests.test_only": true,
+        "defer_regress.tests.DeferRegressionTest.test_basic": true,
+        "queries.tests.ValuesQuerysetTests.test_named_values_list_with_fields": true,
+        "defer.tests.DeferTests.test_defer_only_chaining": false
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-14667": {
+        "defer.tests.DeferTests.test_defer_only_chaining_clears_deferred_fields#1": true,
+        "defer.tests.DeferTests.test_defer_only_chaining#2": true,
+        "defer.tests.DeferTests.test_defer_only_chaining#3": true,
+        "defer.tests.DeferTests.test_defer_only_chaining#4": true,
+        "defer.tests.DeferTests.test_defer_after_only_clears_deferred_fields#5": true,
+        "defer.tests.DeferTests.test_only_defer_clears_deferred_fields#6": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-14667/dedup_patch_0.jsonl": {
+      "django__django-14667": {
+        "defer.tests.DeferTests.test_defer_only_chaining_clears_deferred_fields#1": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#2": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#3": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#4": false,
+        "defer.tests.DeferTests.test_defer_after_only_clears_deferred_fields#5": false,
+        "defer.tests.DeferTests.test_only_defer_clears_deferred_fields#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-14667/dedup_patch_11.jsonl": {
+      "django__django-14667": {
+        "defer.tests.DeferTests.test_defer_only_chaining_clears_deferred_fields#1": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#2": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#3": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#4": false,
+        "defer.tests.DeferTests.test_defer_after_only_clears_deferred_fields#5": false,
+        "defer.tests.DeferTests.test_only_defer_clears_deferred_fields#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-14667/dedup_patch_12.jsonl": {
+      "django__django-14667": {
+        "defer.tests.DeferTests.test_defer_only_chaining_clears_deferred_fields#1": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#2": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#3": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#4": false,
+        "defer.tests.DeferTests.test_defer_after_only_clears_deferred_fields#5": false,
+        "defer.tests.DeferTests.test_only_defer_clears_deferred_fields#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-14667/dedup_patch_16.jsonl": {
+      "django__django-14667": {
+        "defer.tests.DeferTests.test_defer_only_chaining_clears_deferred_fields#1": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#2": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#3": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#4": false,
+        "defer.tests.DeferTests.test_defer_after_only_clears_deferred_fields#5": false,
+        "defer.tests.DeferTests.test_only_defer_clears_deferred_fields#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-14667/dedup_patch_17.jsonl": {
+      "django__django-14667": {
+        "defer.tests.DeferTests.test_defer_only_chaining_clears_deferred_fields#1": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#2": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#3": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#4": false,
+        "defer.tests.DeferTests.test_defer_after_only_clears_deferred_fields#5": false,
+        "defer.tests.DeferTests.test_only_defer_clears_deferred_fields#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-14667/dedup_patch_18.jsonl": {
+      "django__django-14667": {
+        "defer.tests.DeferTests.test_defer_only_chaining_clears_deferred_fields#1": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#2": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#3": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#4": false,
+        "defer.tests.DeferTests.test_defer_after_only_clears_deferred_fields#5": false,
+        "defer.tests.DeferTests.test_only_defer_clears_deferred_fields#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-14667/dedup_patch_2.jsonl": {
+      "django__django-14667": {
+        "defer.tests.DeferTests.test_defer_only_chaining_clears_deferred_fields#1": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#2": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#3": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#4": false,
+        "defer.tests.DeferTests.test_defer_after_only_clears_deferred_fields#5": false,
+        "defer.tests.DeferTests.test_only_defer_clears_deferred_fields#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-14667/dedup_patch_20.jsonl": {
+      "django__django-14667": {
+        "defer.tests.DeferTests.test_defer_only_chaining_clears_deferred_fields#1": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#2": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#3": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#4": false,
+        "defer.tests.DeferTests.test_defer_after_only_clears_deferred_fields#5": false,
+        "defer.tests.DeferTests.test_only_defer_clears_deferred_fields#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-14667/dedup_patch_21.jsonl": {
+      "django__django-14667": {
+        "defer.tests.DeferTests.test_defer_only_chaining_clears_deferred_fields#1": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#2": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#3": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#4": false,
+        "defer.tests.DeferTests.test_defer_after_only_clears_deferred_fields#5": false,
+        "defer.tests.DeferTests.test_only_defer_clears_deferred_fields#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-14667/dedup_patch_24.jsonl": {
+      "django__django-14667": {
+        "defer.tests.DeferTests.test_defer_only_chaining_clears_deferred_fields#1": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#2": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#3": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#4": false,
+        "defer.tests.DeferTests.test_defer_after_only_clears_deferred_fields#5": false,
+        "defer.tests.DeferTests.test_only_defer_clears_deferred_fields#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-14667/dedup_patch_25.jsonl": {
+      "django__django-14667": {
+        "defer.tests.DeferTests.test_defer_only_chaining_clears_deferred_fields#1": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#2": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#3": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#4": false,
+        "defer.tests.DeferTests.test_defer_after_only_clears_deferred_fields#5": false,
+        "defer.tests.DeferTests.test_only_defer_clears_deferred_fields#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-14667/dedup_patch_26.jsonl": {
+      "django__django-14667": {
+        "defer.tests.DeferTests.test_defer_only_chaining_clears_deferred_fields#1": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#2": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#3": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#4": false,
+        "defer.tests.DeferTests.test_defer_after_only_clears_deferred_fields#5": false,
+        "defer.tests.DeferTests.test_only_defer_clears_deferred_fields#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-14667/dedup_patch_27.jsonl": {
+      "django__django-14667": {
+        "defer.tests.DeferTests.test_defer_only_chaining_clears_deferred_fields#1": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#2": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#3": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#4": false,
+        "defer.tests.DeferTests.test_defer_after_only_clears_deferred_fields#5": false,
+        "defer.tests.DeferTests.test_only_defer_clears_deferred_fields#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-14667/dedup_patch_28.jsonl": {
+      "django__django-14667": {
+        "defer.tests.DeferTests.test_defer_only_chaining_clears_deferred_fields#1": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#2": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#3": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#4": false,
+        "defer.tests.DeferTests.test_defer_after_only_clears_deferred_fields#5": false,
+        "defer.tests.DeferTests.test_only_defer_clears_deferred_fields#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-14667/dedup_patch_31.jsonl": {
+      "django__django-14667": {
+        "defer.tests.DeferTests.test_defer_only_chaining_clears_deferred_fields#1": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#2": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#3": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#4": false,
+        "defer.tests.DeferTests.test_defer_after_only_clears_deferred_fields#5": false,
+        "defer.tests.DeferTests.test_only_defer_clears_deferred_fields#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-14667/dedup_patch_32.jsonl": {
+      "django__django-14667": {
+        "defer.tests.DeferTests.test_defer_only_chaining_clears_deferred_fields#1": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#2": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#3": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#4": false,
+        "defer.tests.DeferTests.test_defer_after_only_clears_deferred_fields#5": false,
+        "defer.tests.DeferTests.test_only_defer_clears_deferred_fields#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-14667/dedup_patch_34.jsonl": {
+      "django__django-14667": {
+        "defer.tests.DeferTests.test_defer_only_chaining_clears_deferred_fields#1": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#2": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#3": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#4": false,
+        "defer.tests.DeferTests.test_defer_after_only_clears_deferred_fields#5": false,
+        "defer.tests.DeferTests.test_only_defer_clears_deferred_fields#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-14667/dedup_patch_35.jsonl": {
+      "django__django-14667": {
+        "defer.tests.DeferTests.test_defer_only_chaining_clears_deferred_fields#1": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#2": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#3": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#4": false,
+        "defer.tests.DeferTests.test_defer_after_only_clears_deferred_fields#5": false,
+        "defer.tests.DeferTests.test_only_defer_clears_deferred_fields#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-14667/dedup_patch_37.jsonl": {
+      "django__django-14667": {
+        "defer.tests.DeferTests.test_defer_only_chaining_clears_deferred_fields#1": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#2": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#3": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#4": false,
+        "defer.tests.DeferTests.test_defer_after_only_clears_deferred_fields#5": false,
+        "defer.tests.DeferTests.test_only_defer_clears_deferred_fields#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-14667/dedup_patch_4.jsonl": {
+      "django__django-14667": {
+        "defer.tests.DeferTests.test_defer_only_chaining_clears_deferred_fields#1": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#2": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#3": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#4": false,
+        "defer.tests.DeferTests.test_defer_after_only_clears_deferred_fields#5": false,
+        "defer.tests.DeferTests.test_only_defer_clears_deferred_fields#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-14667/dedup_patch_8.jsonl": {
+      "django__django-14667": {
+        "defer.tests.DeferTests.test_defer_only_chaining_clears_deferred_fields#1": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#2": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#3": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#4": false,
+        "defer.tests.DeferTests.test_defer_after_only_clears_deferred_fields#5": false,
+        "defer.tests.DeferTests.test_only_defer_clears_deferred_fields#6": false
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "regression": {
+    "all_patches/lite_claude_all_unique_patches/astropy__astropy-6938/dedup_patch_0.jsonl": {
+      "astropy__astropy-6938": {
+        "astropy/io/fits/tests/test_table.py::TestTableFunctions::test_new_table_from_recarray": true,
+        "astropy/io/fits/tests/test_table.py::TestColumnFunctions::test_zero_precision_float_column": true,
+        "astropy/io/fits/tests/test_table.py::TestTableFunctions::test_missing_tnull": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/astropy__astropy-6938/dedup_patch_1.jsonl": {
+      "astropy__astropy-6938": {
+        "astropy/io/fits/tests/test_table.py::TestTableFunctions::test_new_table_from_recarray": false,
+        "astropy/io/fits/tests/test_table.py::TestColumnFunctions::test_zero_precision_float_column": true,
+        "astropy/io/fits/tests/test_table.py::TestTableFunctions::test_missing_tnull": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/astropy__astropy-6938/dedup_patch_2.jsonl": {
+      "astropy__astropy-6938": {
+        "astropy/io/fits/tests/test_table.py::TestTableFunctions::test_new_table_from_recarray": true,
+        "astropy/io/fits/tests/test_table.py::TestColumnFunctions::test_zero_precision_float_column": true,
+        "astropy/io/fits/tests/test_table.py::TestTableFunctions::test_missing_tnull": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "astropy__astropy-6938": {
+        "astropy/io/fits/tests/test_table.py::TestTableFunctions::test_d_exponent_in_ascii_table#1": true,
+        "astropy/io/fits/tests/test_table.py::TestTableFunctions::test_d_exponent_in_fits_output#2": true,
+        "astropy/io/fits/tests/test_table.py::test_regression_scalar_indexing#3": false,
+        "astropy/io/fits/tests/test_table.py::test_regression_scalar_indexing#4": false,
+        "astropy/io/fits/tests/test_table.py::test_regression_scalar_indexing#5": false,
+        "astropy/io/fits/tests/test_table.py::TestTableFunctions::test_d_exponent_in_ascii_table#6": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/astropy__astropy-6938/dedup_patch_0.jsonl": {
+      "astropy__astropy-6938": {
+        "astropy/io/fits/tests/test_table.py::TestTableFunctions::test_d_exponent_in_ascii_table#1": false,
+        "astropy/io/fits/tests/test_table.py::TestTableFunctions::test_d_exponent_in_fits_output#2": false,
+        "astropy/io/fits/tests/test_table.py::TestTableFunctions::test_d_exponent_in_ascii_table#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/astropy__astropy-6938/dedup_patch_2.jsonl": {
+      "astropy__astropy-6938": {
+        "astropy/io/fits/tests/test_table.py::TestTableFunctions::test_d_exponent_in_ascii_table#1": false,
+        "astropy/io/fits/tests/test_table.py::TestTableFunctions::test_d_exponent_in_fits_output#2": false,
+        "astropy/io/fits/tests/test_table.py::TestTableFunctions::test_d_exponent_in_ascii_table#6": false
+      }
+    }
+  }
+}

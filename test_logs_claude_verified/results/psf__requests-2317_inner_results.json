@@ -1,0 +1,26 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/psf__requests-2317/dedup_patch_0.jsonl": {
+      "psf__requests-2317": {
+        "test_requests.py::RequestsTestCase::test_json_param_post_content_type_works": true,
+        "test_requests.py::RequestsTestCase::test_params_are_merged_case_sensitive": true,
+        "test_requests.py::RequestsTestCase::test_request_cookie_overrides_session_cookie": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/psf__requests-2317/dedup_patch_1.jsonl": {
+      "psf__requests-2317": {
+        "test_requests.py::RequestsTestCase::test_json_param_post_content_type_works": true,
+        "test_requests.py::RequestsTestCase::test_params_are_merged_case_sensitive": true,
+        "test_requests.py::RequestsTestCase::test_request_cookie_overrides_session_cookie": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "psf__requests-2317": {
+        "test_requests.py::test_prepare_unicode_url#1": false,
+        "test_requests.py::test_prepare_unicode_url#2": false
+      }
+    }
+  }
+}

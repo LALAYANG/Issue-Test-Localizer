@@ -1,0 +1,219 @@
+{
+  "regression": {
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11039/dedup_patch_0.jsonl": {
+      "django__django-11039": {
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_forwards": true,
+        "migrations.test_commands.AppLabelErrorTests.test_sqlmigrate_app_name_specified_as_label": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_backwards": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_for_non_atomic_migration": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11039/dedup_patch_1.jsonl": {
+      "django__django-11039": {
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_forwards": true,
+        "migrations.test_commands.AppLabelErrorTests.test_sqlmigrate_app_name_specified_as_label": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_backwards": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_for_non_atomic_migration": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11039/dedup_patch_2.jsonl": {
+      "django__django-11039": {
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_forwards": true,
+        "migrations.test_commands.AppLabelErrorTests.test_sqlmigrate_app_name_specified_as_label": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_backwards": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_for_non_atomic_migration": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11039/dedup_patch_3.jsonl": {
+      "django__django-11039": {
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_forwards": true,
+        "migrations.test_commands.AppLabelErrorTests.test_sqlmigrate_app_name_specified_as_label": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_backwards": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_for_non_atomic_migration": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11039/dedup_patch_4.jsonl": {
+      "django__django-11039": {
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_forwards": true,
+        "migrations.test_commands.AppLabelErrorTests.test_sqlmigrate_app_name_specified_as_label": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_backwards": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_for_non_atomic_migration": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11039/dedup_patch_5.jsonl": {
+      "django__django-11039": {
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_forwards": true,
+        "migrations.test_commands.AppLabelErrorTests.test_sqlmigrate_app_name_specified_as_label": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_backwards": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_for_non_atomic_migration": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11039/dedup_patch_6.jsonl": {
+      "django__django-11039": {
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_forwards": true,
+        "migrations.test_commands.AppLabelErrorTests.test_sqlmigrate_app_name_specified_as_label": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_backwards": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_for_non_atomic_migration": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11039/dedup_patch_7.jsonl": {
+      "django__django-11039": {
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_forwards": true,
+        "migrations.test_commands.AppLabelErrorTests.test_sqlmigrate_app_name_specified_as_label": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_backwards": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_for_non_atomic_migration": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11039/dedup_patch_8.jsonl": {
+      "django__django-11039": {
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_forwards": true,
+        "migrations.test_commands.AppLabelErrorTests.test_sqlmigrate_app_name_specified_as_label": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_backwards": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_for_non_atomic_migration": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11039/dedup_patch_9.jsonl": {
+      "django__django-11039": {
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_forwards": true,
+        "migrations.test_commands.AppLabelErrorTests.test_sqlmigrate_app_name_specified_as_label": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_backwards": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_for_non_atomic_migration": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-11039": {
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_respects_can_rollback_ddl#1": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_non_atomic_with_no_rollback_ddl#2": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_no_transaction_when_cant_rollback_ddl#3": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_no_transaction_when_cant_rollback_ddl#4": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_no_transaction_when_cant_rollback_ddl#5": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_for_db_without_transactional_ddl#6": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_for_non_atomic_migration_with_no_rollback_support#7": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_respects_transactional_ddl_support#8": true,
+        "migrations.test_commands.AppLabelErrorTests.test_squashmigrations_app_name_specified_as_label#9": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11039/dedup_patch_0.jsonl": {
+      "django__django-11039": {
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_respects_can_rollback_ddl#1": false,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_non_atomic_with_no_rollback_ddl#2": false,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_no_transaction_when_cant_rollback_ddl#3": false,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_no_transaction_when_cant_rollback_ddl#4": false,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_no_transaction_when_cant_rollback_ddl#5": false,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_for_db_without_transactional_ddl#6": false,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_for_non_atomic_migration_with_no_rollback_support#7": false,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_respects_transactional_ddl_support#8": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11039/dedup_patch_1.jsonl": {
+      "django__django-11039": {
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_respects_can_rollback_ddl#1": false,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_non_atomic_with_no_rollback_ddl#2": false,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_no_transaction_when_cant_rollback_ddl#3": false,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_no_transaction_when_cant_rollback_ddl#4": false,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_no_transaction_when_cant_rollback_ddl#5": false,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_for_db_without_transactional_ddl#6": false,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_for_non_atomic_migration_with_no_rollback_support#7": false,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_respects_transactional_ddl_support#8": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11039/dedup_patch_2.jsonl": {
+      "django__django-11039": {
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_respects_can_rollback_ddl#1": false,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_non_atomic_with_no_rollback_ddl#2": false,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_no_transaction_when_cant_rollback_ddl#3": false,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_no_transaction_when_cant_rollback_ddl#4": false,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_no_transaction_when_cant_rollback_ddl#5": false,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_for_db_without_transactional_ddl#6": false,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_for_non_atomic_migration_with_no_rollback_support#7": false,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_respects_transactional_ddl_support#8": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11039/dedup_patch_3.jsonl": {
+      "django__django-11039": {
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_respects_can_rollback_ddl#1": false,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_non_atomic_with_no_rollback_ddl#2": false,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_no_transaction_when_cant_rollback_ddl#3": false,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_no_transaction_when_cant_rollback_ddl#4": false,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_no_transaction_when_cant_rollback_ddl#5": false,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_for_db_without_transactional_ddl#6": false,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_for_non_atomic_migration_with_no_rollback_support#7": false,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_respects_transactional_ddl_support#8": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11039/dedup_patch_4.jsonl": {
+      "django__django-11039": {
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_respects_can_rollback_ddl#1": false,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_non_atomic_with_no_rollback_ddl#2": false,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_no_transaction_when_cant_rollback_ddl#3": false,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_no_transaction_when_cant_rollback_ddl#4": false,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_no_transaction_when_cant_rollback_ddl#5": false,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_for_db_without_transactional_ddl#6": false,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_for_non_atomic_migration_with_no_rollback_support#7": false,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_respects_transactional_ddl_support#8": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11039/dedup_patch_5.jsonl": {
+      "django__django-11039": {
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_respects_can_rollback_ddl#1": false,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_non_atomic_with_no_rollback_ddl#2": false,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_no_transaction_when_cant_rollback_ddl#3": false,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_no_transaction_when_cant_rollback_ddl#4": false,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_no_transaction_when_cant_rollback_ddl#5": false,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_for_db_without_transactional_ddl#6": false,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_for_non_atomic_migration_with_no_rollback_support#7": false,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_respects_transactional_ddl_support#8": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11039/dedup_patch_6.jsonl": {
+      "django__django-11039": {
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_respects_can_rollback_ddl#1": false,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_non_atomic_with_no_rollback_ddl#2": false,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_no_transaction_when_cant_rollback_ddl#3": false,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_no_transaction_when_cant_rollback_ddl#4": false,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_no_transaction_when_cant_rollback_ddl#5": false,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_for_db_without_transactional_ddl#6": false,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_for_non_atomic_migration_with_no_rollback_support#7": false,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_respects_transactional_ddl_support#8": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11039/dedup_patch_7.jsonl": {
+      "django__django-11039": {
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_respects_can_rollback_ddl#1": false,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_non_atomic_with_no_rollback_ddl#2": false,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_no_transaction_when_cant_rollback_ddl#3": false,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_no_transaction_when_cant_rollback_ddl#4": false,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_no_transaction_when_cant_rollback_ddl#5": false,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_for_db_without_transactional_ddl#6": false,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_for_non_atomic_migration_with_no_rollback_support#7": false,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_respects_transactional_ddl_support#8": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11039/dedup_patch_8.jsonl": {
+      "django__django-11039": {
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_respects_can_rollback_ddl#1": false,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_non_atomic_with_no_rollback_ddl#2": false,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_no_transaction_when_cant_rollback_ddl#3": false,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_no_transaction_when_cant_rollback_ddl#4": false,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_no_transaction_when_cant_rollback_ddl#5": false,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_for_db_without_transactional_ddl#6": false,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_for_non_atomic_migration_with_no_rollback_support#7": false,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_respects_transactional_ddl_support#8": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11039/dedup_patch_9.jsonl": {
+      "django__django-11039": {
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_respects_can_rollback_ddl#1": false,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_non_atomic_with_no_rollback_ddl#2": false,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_no_transaction_when_cant_rollback_ddl#3": false,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_no_transaction_when_cant_rollback_ddl#4": false,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_no_transaction_when_cant_rollback_ddl#5": false,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_for_db_without_transactional_ddl#6": false,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_for_non_atomic_migration_with_no_rollback_support#7": false,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_respects_transactional_ddl_support#8": false
+      }
+    }
+  }
+}

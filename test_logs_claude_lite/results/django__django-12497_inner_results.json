@@ -1,0 +1,38 @@
+{
+  "regression": {
+    "all_patches/lite_claude_all_unique_patches/django__django-12497/dedup_patch_0.jsonl": {
+      "django__django-12497": {
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_non_local_to_field": true,
+        "m2m_regress.tests.M2MRegressionTests.test_add_m2m_with_base_class": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_recursive_fks_get_col": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_to_python": true,
+        "model_fields.test_manytomanyfield.ManyToManyFieldDBTests.test_value_from_object_instance_with_pk": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_empty_string_fk": true,
+        "model_fields.test_manytomanyfield.ManyToManyFieldTests.test_abstract_model_app_relative_foreign_key": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-12497": {
+        "m2m_through.tests.M2mThroughReferentialTests.test_recursive_relationship_error_message#1": true,
+        "model_fields.test_manytomanyfield.ManyToManyFieldTests.test_recursive_relationship_hint_message#2": true,
+        "m2m_through.tests.M2mThroughReferentialTests.test_recursive_relationship_error_message#3": true,
+        "m2m_through.tests.M2mThroughReferentialTests.test_recursive_relationship_hint#4": true,
+        "m2m_through.tests.M2mThroughReferentialTests.test_recursive_relationship_hint_message#5": true,
+        "m2m_through.tests.M2mThroughReferentialTests.test_recursive_relationship_hint_message#6": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12497/dedup_patch_0.jsonl": {
+      "django__django-12497": {
+        "m2m_through.tests.M2mThroughReferentialTests.test_recursive_relationship_error_message#1": false,
+        "model_fields.test_manytomanyfield.ManyToManyFieldTests.test_recursive_relationship_hint_message#2": false,
+        "m2m_through.tests.M2mThroughReferentialTests.test_recursive_relationship_error_message#3": false,
+        "m2m_through.tests.M2mThroughReferentialTests.test_recursive_relationship_hint#4": false,
+        "m2m_through.tests.M2mThroughReferentialTests.test_recursive_relationship_hint_message#5": true,
+        "m2m_through.tests.M2mThroughReferentialTests.test_recursive_relationship_hint_message#6": false
+      }
+    }
+  }
+}

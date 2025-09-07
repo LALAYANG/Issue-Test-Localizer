@@ -1,0 +1,100 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/pytest-dev__pytest-7205/dedup_patch_0.jsonl": {
+      "pytest-dev__pytest-7205": {
+        "test_setuponly.py::test_show_fixtures_with_parameters": false,
+        "test_setuponly.py::test_show_fixtures_with_parameter_ids": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pytest-dev__pytest-7205/dedup_patch_1.jsonl": {
+      "pytest-dev__pytest-7205": {
+        "test_setuponly.py::test_show_fixtures_with_parameters": false,
+        "test_setuponly.py::test_show_fixtures_with_parameter_ids": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pytest-dev__pytest-7205/dedup_patch_10.jsonl": {
+      "pytest-dev__pytest-7205": {
+        "test_setuponly.py::test_show_fixtures_with_parameters": false,
+        "test_setuponly.py::test_show_fixtures_with_parameter_ids": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pytest-dev__pytest-7205/dedup_patch_11.jsonl": {
+      "pytest-dev__pytest-7205": {
+        "test_setuponly.py::test_show_fixtures_with_parameters": false,
+        "test_setuponly.py::test_show_fixtures_with_parameter_ids": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pytest-dev__pytest-7205/dedup_patch_12.jsonl": {
+      "pytest-dev__pytest-7205": {
+        "test_setuponly.py::test_show_fixtures_with_parameters": false,
+        "test_setuponly.py::test_show_fixtures_with_parameter_ids": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pytest-dev__pytest-7205/dedup_patch_13.jsonl": {
+      "pytest-dev__pytest-7205": {
+        "test_setuponly.py::test_show_fixtures_with_parameters": false,
+        "test_setuponly.py::test_show_fixtures_with_parameter_ids": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pytest-dev__pytest-7205/dedup_patch_2.jsonl": {
+      "pytest-dev__pytest-7205": {
+        "test_setuponly.py::test_show_fixtures_with_parameters": false,
+        "test_setuponly.py::test_show_fixtures_with_parameter_ids": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pytest-dev__pytest-7205/dedup_patch_3.jsonl": {
+      "pytest-dev__pytest-7205": {
+        "test_setuponly.py::test_show_fixtures_with_parameters": false,
+        "test_setuponly.py::test_show_fixtures_with_parameter_ids": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pytest-dev__pytest-7205/dedup_patch_4.jsonl": {
+      "pytest-dev__pytest-7205": {
+        "test_setuponly.py::test_show_fixtures_with_parameters": false,
+        "test_setuponly.py::test_show_fixtures_with_parameter_ids": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pytest-dev__pytest-7205/dedup_patch_5.jsonl": {
+      "pytest-dev__pytest-7205": {
+        "test_setuponly.py::test_show_fixtures_with_parameters": false,
+        "test_setuponly.py::test_show_fixtures_with_parameter_ids": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pytest-dev__pytest-7205/dedup_patch_6.jsonl": {
+      "pytest-dev__pytest-7205": {
+        "test_setuponly.py::test_show_fixtures_with_parameters": false,
+        "test_setuponly.py::test_show_fixtures_with_parameter_ids": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pytest-dev__pytest-7205/dedup_patch_7.jsonl": {
+      "pytest-dev__pytest-7205": {
+        "test_setuponly.py::test_show_fixtures_with_parameters": false,
+        "test_setuponly.py::test_show_fixtures_with_parameter_ids": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pytest-dev__pytest-7205/dedup_patch_8.jsonl": {
+      "pytest-dev__pytest-7205": {
+        "test_setuponly.py::test_show_fixtures_with_parameters": false,
+        "test_setuponly.py::test_show_fixtures_with_parameter_ids": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pytest-dev__pytest-7205/dedup_patch_9.jsonl": {
+      "pytest-dev__pytest-7205": {
+        "test_setuponly.py::test_show_fixtures_with_parameters": false,
+        "test_setuponly.py::test_show_fixtures_with_parameter_ids": false
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "pytest-dev__pytest-7205": {
+        "testing/test_setuponly.py::test_show_fixtures_with_parameters#1": false,
+        "testing/test_setuponly.py::test_setup_show_with_KeyboardInterrupt_in_test#2": false,
+        "testing/test_setuponly.py::test_setup_show_with_KeyboardInterrupt_in_test#3": false,
+        "testing/test_setuponly.py::test_show_fixtures_with_parameters#4": false,
+        "testing/test_setuponly.py::test_show_fixtures_with_parameters#5": false,
+        "testing/test_setuponly.py::test_show_fixtures_with_parameters#6": false
+      }
+    }
+  }
+}

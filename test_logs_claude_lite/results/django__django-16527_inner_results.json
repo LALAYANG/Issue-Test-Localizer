@@ -1,0 +1,46 @@
+{
+  "regression": {
+    "all_patches/lite_claude_all_unique_patches/django__django-16527/dedup_patch_0.jsonl": {
+      "django__django-16527": {
+        "admin_views.tests.AdminViewPermissionsTest.test_change_view": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-16527/dedup_patch_1.jsonl": {
+      "django__django-16527": {
+        "admin_views.tests.AdminViewPermissionsTest.test_change_view": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-16527": {
+        "admin_views.test_templatetags.AdminTemplateTagsTest.test_submit_row#1": true,
+        "admin_views.test_templatetags.AdminTemplateTagsTest.test_submit_row_save_as_new_with_add_permission#2": true,
+        "admin_views.test_templatetags.AdminTemplateTagsTest.test_show_save_as_new_with_add_permission#3": true,
+        "admin_views.test_templatetags.AdminTemplateTagsTest.test_submit_row_save_as_new_permissions#4": true,
+        "admin_views.test_templatetags.AdminTemplateTagsTest.test_show_save_as_new_with_add_permission#5": true,
+        "admin_views.test_templatetags.AdminTemplateTagsTest.test_submit_row_show_save_as_new_with_add_permission#6": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-16527/dedup_patch_0.jsonl": {
+      "django__django-16527": {
+        "admin_views.test_templatetags.AdminTemplateTagsTest.test_submit_row#1": true,
+        "admin_views.test_templatetags.AdminTemplateTagsTest.test_submit_row_save_as_new_with_add_permission#2": false,
+        "admin_views.test_templatetags.AdminTemplateTagsTest.test_show_save_as_new_with_add_permission#3": false,
+        "admin_views.test_templatetags.AdminTemplateTagsTest.test_submit_row_save_as_new_permissions#4": true,
+        "admin_views.test_templatetags.AdminTemplateTagsTest.test_show_save_as_new_with_add_permission#5": false,
+        "admin_views.test_templatetags.AdminTemplateTagsTest.test_submit_row_show_save_as_new_with_add_permission#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-16527/dedup_patch_1.jsonl": {
+      "django__django-16527": {
+        "admin_views.test_templatetags.AdminTemplateTagsTest.test_submit_row#1": true,
+        "admin_views.test_templatetags.AdminTemplateTagsTest.test_submit_row_save_as_new_with_add_permission#2": false,
+        "admin_views.test_templatetags.AdminTemplateTagsTest.test_show_save_as_new_with_add_permission#3": false,
+        "admin_views.test_templatetags.AdminTemplateTagsTest.test_submit_row_save_as_new_permissions#4": true,
+        "admin_views.test_templatetags.AdminTemplateTagsTest.test_show_save_as_new_with_add_permission#5": false,
+        "admin_views.test_templatetags.AdminTemplateTagsTest.test_submit_row_show_save_as_new_with_add_permission#6": false
+      }
+    }
+  }
+}

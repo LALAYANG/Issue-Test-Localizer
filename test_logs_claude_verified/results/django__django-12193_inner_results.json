@@ -1,0 +1,61 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/django__django-12193/dedup_patch_0.jsonl": {
+      "django__django-12193": {
+        "forms_tests.widget_tests.test_checkboxinput.CheckboxInputTest.test_render_check_test": true,
+        "forms_tests.tests.test_forms.FormsTestCase.test_various_boolean_values": true,
+        "forms_tests.tests.test_forms.FormsTestCase.test_boundfield_id_for_label": true,
+        "forms_tests.widget_tests.test_widget.WidgetTests.test_value_omitted_from_data": true,
+        "forms_tests.widget_tests.test_checkboxinput.CheckboxInputTest.test_render_int": true,
+        "forms_tests.widget_tests.test_checkboxinput.CheckboxInputTest.test_value_from_datadict": true,
+        "forms_tests.tests.test_forms.FormsTestCase.test_forms_with_radio": true,
+        "forms_tests.widget_tests.test_checkboxinput.CheckboxInputTest.test_value_omitted_from_data": true,
+        "forms_tests.widget_tests.test_checkboxinput.CheckboxInputTest.test_render_value": true,
+        "forms_tests.tests.test_forms.FormsTestCase.test_form_with_noniterable_boundfield": true,
+        "forms_tests.tests.test_forms.FormsTestCase.test_hidden_widget": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12193/dedup_patch_1.jsonl": {
+      "django__django-12193": {
+        "forms_tests.widget_tests.test_checkboxinput.CheckboxInputTest.test_render_check_test": true,
+        "forms_tests.tests.test_forms.FormsTestCase.test_various_boolean_values": true,
+        "forms_tests.tests.test_forms.FormsTestCase.test_boundfield_id_for_label": true,
+        "forms_tests.widget_tests.test_widget.WidgetTests.test_value_omitted_from_data": true,
+        "forms_tests.widget_tests.test_checkboxinput.CheckboxInputTest.test_render_int": true,
+        "forms_tests.widget_tests.test_checkboxinput.CheckboxInputTest.test_value_from_datadict": true,
+        "forms_tests.tests.test_forms.FormsTestCase.test_forms_with_radio": true,
+        "forms_tests.widget_tests.test_checkboxinput.CheckboxInputTest.test_value_omitted_from_data": true,
+        "forms_tests.widget_tests.test_checkboxinput.CheckboxInputTest.test_render_value": true,
+        "forms_tests.tests.test_forms.FormsTestCase.test_form_with_noniterable_boundfield": true,
+        "forms_tests.tests.test_forms.FormsTestCase.test_hidden_widget": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12193/dedup_patch_2.jsonl": {
+      "django__django-12193": {
+        "forms_tests.widget_tests.test_checkboxinput.CheckboxInputTest.test_render_check_test": true,
+        "forms_tests.tests.test_forms.FormsTestCase.test_various_boolean_values": true,
+        "forms_tests.tests.test_forms.FormsTestCase.test_boundfield_id_for_label": true,
+        "forms_tests.widget_tests.test_widget.WidgetTests.test_value_omitted_from_data": true,
+        "forms_tests.widget_tests.test_checkboxinput.CheckboxInputTest.test_render_int": true,
+        "forms_tests.widget_tests.test_checkboxinput.CheckboxInputTest.test_value_from_datadict": true,
+        "forms_tests.tests.test_forms.FormsTestCase.test_forms_with_radio": true,
+        "forms_tests.widget_tests.test_checkboxinput.CheckboxInputTest.test_value_omitted_from_data": true,
+        "forms_tests.widget_tests.test_checkboxinput.CheckboxInputTest.test_render_value": true,
+        "forms_tests.tests.test_forms.FormsTestCase.test_form_with_noniterable_boundfield": true,
+        "forms_tests.tests.test_forms.FormsTestCase.test_hidden_widget": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-12193": {
+        "postgres_tests.test_array.TestSplitFormField.test_boolean_splitarrayfield_rendering#1": false,
+        "postgres_tests.test_array.TestSplitFormField.test_boolean_splitarrayfield_rendering#2": false,
+        "postgres_tests.test_array.TestSplitFormWidget.test_splitarrayfield_boolean_field_rendering#3": false,
+        "postgres_tests.test_array.TestSplitFormWidget.test_boolean_array_rendering#4": false,
+        "postgres_tests.test_array.TestSplitFormField.test_boolean_array_field_rendering#5": false,
+        "postgres_tests.test_array.TestSplitFormWidget.test_boolean_splitarrayfield_rendering#6": false
+      }
+    }
+  }
+}

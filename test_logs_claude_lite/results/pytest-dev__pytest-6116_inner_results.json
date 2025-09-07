@@ -1,0 +1,44 @@
+{
+  "regression": {
+    "all_patches/lite_claude_all_unique_patches/pytest-dev__pytest-6116/dedup_patch_0.jsonl": {
+      "pytest-dev__pytest-6116": {
+        "test_collection.py::test_collect_init_tests": false,
+        "test_runner.py::TestSessionReports::test_collect_result": false,
+        "test_session.py::TestNewSession::test_minus_x_import_error": false,
+        "test_collection.py::TestSession::test_collect_protocol_method": false,
+        "test_collection.py::test_matchnodes_two_collections_same_file": false,
+        "test_config.py::TestPytestPluginsVariable::test_pytest_plugins_in_non_top_level_conftest_unsupported_pyargs": false,
+        "test_config.py::test_config_blocked_default_plugins": false,
+        "test_collection.py::TestSession::test_collect_topdir": false,
+        "test_session.py::test_exclude_glob": false,
+        "test_collection.py::TestCustomConftests::test_ignore_collect_path": false,
+        "test_collection.py::test_collect_pkg_init_only": false,
+        "test_collection.py::TestCustomConftests::test_collectignore_exclude_on_option": false,
+        "test_runner.py::BaseFunctionalTests::test_passfunction": false,
+        "test_collection.py::test_exit_on_collection_with_maxfail_smaller_than_n_errors": false
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "pytest-dev__pytest-6116": {
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#1": true,
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#2": true,
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#3": true,
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#4": true,
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#5": true,
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#6": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/pytest-dev__pytest-6116/dedup_patch_0.jsonl": {
+      "pytest-dev__pytest-6116": {
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#1": false,
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#2": false,
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#3": false,
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#4": false,
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#5": false,
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#6": false
+      }
+    }
+  }
+}

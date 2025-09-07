@@ -1,0 +1,776 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/django__django-11885/dedup_patch_0.jsonl": {
+      "django__django-11885": {
+        "delete.tests.FastDeleteTests.test_fast_delete_instance_set_pk_none": true,
+        "delete.tests.OnDeleteTests.test_do_nothing_qscount": true,
+        "delete.tests.DeletionTests.test_deletion_order": true,
+        "many_to_many.tests.ManyToManyTests.test_clear": true,
+        "delete_regress.tests.DeleteCascadeTests.test_generic_relation_cascade": true,
+        "delete.tests.DeletionTests.test_only_referenced_fields_selected": true,
+        "delete.tests.FastDeleteTests.test_fast_delete_qs": true,
+        "delete.tests.DeletionTests.test_can_defer_constraint_checks": true,
+        "delete.tests.DeletionTests.test_delete_with_keeping_parents": true,
+        "delete.tests.OnDeleteTests.test_setnull_from_parent": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11885/dedup_patch_1.jsonl": {
+      "django__django-11885": {
+        "delete.tests.FastDeleteTests.test_fast_delete_instance_set_pk_none": true,
+        "delete.tests.OnDeleteTests.test_do_nothing_qscount": true,
+        "delete.tests.DeletionTests.test_deletion_order": true,
+        "many_to_many.tests.ManyToManyTests.test_clear": true,
+        "delete_regress.tests.DeleteCascadeTests.test_generic_relation_cascade": true,
+        "delete.tests.DeletionTests.test_only_referenced_fields_selected": true,
+        "delete.tests.FastDeleteTests.test_fast_delete_qs": true,
+        "delete.tests.DeletionTests.test_can_defer_constraint_checks": true,
+        "delete.tests.DeletionTests.test_delete_with_keeping_parents": true,
+        "delete.tests.OnDeleteTests.test_setnull_from_parent": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11885/dedup_patch_10.jsonl": {
+      "django__django-11885": {
+        "delete.tests.FastDeleteTests.test_fast_delete_instance_set_pk_none": true,
+        "delete.tests.OnDeleteTests.test_do_nothing_qscount": true,
+        "delete.tests.DeletionTests.test_deletion_order": true,
+        "many_to_many.tests.ManyToManyTests.test_clear": true,
+        "delete_regress.tests.DeleteCascadeTests.test_generic_relation_cascade": true,
+        "delete.tests.DeletionTests.test_only_referenced_fields_selected": true,
+        "delete.tests.FastDeleteTests.test_fast_delete_qs": true,
+        "delete.tests.DeletionTests.test_can_defer_constraint_checks": true,
+        "delete.tests.DeletionTests.test_delete_with_keeping_parents": true,
+        "delete.tests.OnDeleteTests.test_setnull_from_parent": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11885/dedup_patch_11.jsonl": {
+      "django__django-11885": {
+        "delete.tests.FastDeleteTests.test_fast_delete_instance_set_pk_none": true,
+        "delete.tests.OnDeleteTests.test_do_nothing_qscount": true,
+        "delete.tests.DeletionTests.test_deletion_order": true,
+        "many_to_many.tests.ManyToManyTests.test_clear": true,
+        "delete_regress.tests.DeleteCascadeTests.test_generic_relation_cascade": true,
+        "delete.tests.DeletionTests.test_only_referenced_fields_selected": true,
+        "delete.tests.FastDeleteTests.test_fast_delete_qs": true,
+        "delete.tests.DeletionTests.test_can_defer_constraint_checks": true,
+        "delete.tests.DeletionTests.test_delete_with_keeping_parents": true,
+        "delete.tests.OnDeleteTests.test_setnull_from_parent": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11885/dedup_patch_12.jsonl": {
+      "django__django-11885": {
+        "delete.tests.FastDeleteTests.test_fast_delete_instance_set_pk_none": true,
+        "delete.tests.OnDeleteTests.test_do_nothing_qscount": true,
+        "delete.tests.DeletionTests.test_deletion_order": true,
+        "many_to_many.tests.ManyToManyTests.test_clear": true,
+        "delete_regress.tests.DeleteCascadeTests.test_generic_relation_cascade": true,
+        "delete.tests.DeletionTests.test_only_referenced_fields_selected": true,
+        "delete.tests.FastDeleteTests.test_fast_delete_qs": true,
+        "delete.tests.DeletionTests.test_can_defer_constraint_checks": true,
+        "delete.tests.DeletionTests.test_delete_with_keeping_parents": true,
+        "delete.tests.OnDeleteTests.test_setnull_from_parent": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11885/dedup_patch_13.jsonl": {
+      "django__django-11885": {
+        "delete.tests.FastDeleteTests.test_fast_delete_instance_set_pk_none": true,
+        "delete.tests.OnDeleteTests.test_do_nothing_qscount": true,
+        "delete.tests.DeletionTests.test_deletion_order": true,
+        "many_to_many.tests.ManyToManyTests.test_clear": true,
+        "delete_regress.tests.DeleteCascadeTests.test_generic_relation_cascade": true,
+        "delete.tests.DeletionTests.test_only_referenced_fields_selected": true,
+        "delete.tests.FastDeleteTests.test_fast_delete_qs": true,
+        "delete.tests.DeletionTests.test_can_defer_constraint_checks": true,
+        "delete.tests.DeletionTests.test_delete_with_keeping_parents": true,
+        "delete.tests.OnDeleteTests.test_setnull_from_parent": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11885/dedup_patch_14.jsonl": {
+      "django__django-11885": {
+        "delete.tests.FastDeleteTests.test_fast_delete_instance_set_pk_none": true,
+        "delete.tests.OnDeleteTests.test_do_nothing_qscount": true,
+        "delete.tests.DeletionTests.test_deletion_order": true,
+        "many_to_many.tests.ManyToManyTests.test_clear": true,
+        "delete_regress.tests.DeleteCascadeTests.test_generic_relation_cascade": true,
+        "delete.tests.DeletionTests.test_only_referenced_fields_selected": true,
+        "delete.tests.FastDeleteTests.test_fast_delete_qs": true,
+        "delete.tests.DeletionTests.test_can_defer_constraint_checks": true,
+        "delete.tests.DeletionTests.test_delete_with_keeping_parents": true,
+        "delete.tests.OnDeleteTests.test_setnull_from_parent": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11885/dedup_patch_15.jsonl": {
+      "django__django-11885": {
+        "delete.tests.FastDeleteTests.test_fast_delete_instance_set_pk_none": true,
+        "delete.tests.OnDeleteTests.test_do_nothing_qscount": true,
+        "delete.tests.DeletionTests.test_deletion_order": true,
+        "many_to_many.tests.ManyToManyTests.test_clear": true,
+        "delete_regress.tests.DeleteCascadeTests.test_generic_relation_cascade": true,
+        "delete.tests.DeletionTests.test_only_referenced_fields_selected": true,
+        "delete.tests.FastDeleteTests.test_fast_delete_qs": true,
+        "delete.tests.DeletionTests.test_can_defer_constraint_checks": true,
+        "delete.tests.DeletionTests.test_delete_with_keeping_parents": true,
+        "delete.tests.OnDeleteTests.test_setnull_from_parent": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11885/dedup_patch_16.jsonl": {
+      "django__django-11885": {
+        "delete.tests.FastDeleteTests.test_fast_delete_instance_set_pk_none": true,
+        "delete.tests.OnDeleteTests.test_do_nothing_qscount": true,
+        "delete.tests.DeletionTests.test_deletion_order": true,
+        "many_to_many.tests.ManyToManyTests.test_clear": true,
+        "delete_regress.tests.DeleteCascadeTests.test_generic_relation_cascade": true,
+        "delete.tests.DeletionTests.test_only_referenced_fields_selected": true,
+        "delete.tests.FastDeleteTests.test_fast_delete_qs": true,
+        "delete.tests.DeletionTests.test_can_defer_constraint_checks": true,
+        "delete.tests.DeletionTests.test_delete_with_keeping_parents": true,
+        "delete.tests.OnDeleteTests.test_setnull_from_parent": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11885/dedup_patch_17.jsonl": {
+      "django__django-11885": {
+        "delete.tests.FastDeleteTests.test_fast_delete_instance_set_pk_none": true,
+        "delete.tests.OnDeleteTests.test_do_nothing_qscount": true,
+        "delete.tests.DeletionTests.test_deletion_order": true,
+        "many_to_many.tests.ManyToManyTests.test_clear": true,
+        "delete_regress.tests.DeleteCascadeTests.test_generic_relation_cascade": true,
+        "delete.tests.DeletionTests.test_only_referenced_fields_selected": true,
+        "delete.tests.FastDeleteTests.test_fast_delete_qs": true,
+        "delete.tests.DeletionTests.test_can_defer_constraint_checks": true,
+        "delete.tests.DeletionTests.test_delete_with_keeping_parents": true,
+        "delete.tests.OnDeleteTests.test_setnull_from_parent": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11885/dedup_patch_18.jsonl": {
+      "django__django-11885": {
+        "delete.tests.FastDeleteTests.test_fast_delete_instance_set_pk_none": true,
+        "delete.tests.OnDeleteTests.test_do_nothing_qscount": true,
+        "delete.tests.DeletionTests.test_deletion_order": true,
+        "many_to_many.tests.ManyToManyTests.test_clear": true,
+        "delete_regress.tests.DeleteCascadeTests.test_generic_relation_cascade": true,
+        "delete.tests.DeletionTests.test_only_referenced_fields_selected": true,
+        "delete.tests.FastDeleteTests.test_fast_delete_qs": true,
+        "delete.tests.DeletionTests.test_can_defer_constraint_checks": true,
+        "delete.tests.DeletionTests.test_delete_with_keeping_parents": true,
+        "delete.tests.OnDeleteTests.test_setnull_from_parent": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11885/dedup_patch_19.jsonl": {
+      "django__django-11885": {
+        "delete.tests.FastDeleteTests.test_fast_delete_instance_set_pk_none": true,
+        "delete.tests.OnDeleteTests.test_do_nothing_qscount": true,
+        "delete.tests.DeletionTests.test_deletion_order": true,
+        "many_to_many.tests.ManyToManyTests.test_clear": true,
+        "delete_regress.tests.DeleteCascadeTests.test_generic_relation_cascade": true,
+        "delete.tests.DeletionTests.test_only_referenced_fields_selected": true,
+        "delete.tests.FastDeleteTests.test_fast_delete_qs": true,
+        "delete.tests.DeletionTests.test_can_defer_constraint_checks": true,
+        "delete.tests.DeletionTests.test_delete_with_keeping_parents": true,
+        "delete.tests.OnDeleteTests.test_setnull_from_parent": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11885/dedup_patch_2.jsonl": {
+      "django__django-11885": {
+        "delete.tests.FastDeleteTests.test_fast_delete_instance_set_pk_none": true,
+        "delete.tests.OnDeleteTests.test_do_nothing_qscount": true,
+        "delete.tests.DeletionTests.test_deletion_order": true,
+        "many_to_many.tests.ManyToManyTests.test_clear": true,
+        "delete_regress.tests.DeleteCascadeTests.test_generic_relation_cascade": true,
+        "delete.tests.DeletionTests.test_only_referenced_fields_selected": true,
+        "delete.tests.FastDeleteTests.test_fast_delete_qs": true,
+        "delete.tests.DeletionTests.test_can_defer_constraint_checks": true,
+        "delete.tests.DeletionTests.test_delete_with_keeping_parents": true,
+        "delete.tests.OnDeleteTests.test_setnull_from_parent": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11885/dedup_patch_20.jsonl": {
+      "django__django-11885": {
+        "delete.tests.FastDeleteTests.test_fast_delete_instance_set_pk_none": true,
+        "delete.tests.OnDeleteTests.test_do_nothing_qscount": true,
+        "delete.tests.DeletionTests.test_deletion_order": true,
+        "many_to_many.tests.ManyToManyTests.test_clear": true,
+        "delete_regress.tests.DeleteCascadeTests.test_generic_relation_cascade": true,
+        "delete.tests.DeletionTests.test_only_referenced_fields_selected": true,
+        "delete.tests.FastDeleteTests.test_fast_delete_qs": true,
+        "delete.tests.DeletionTests.test_can_defer_constraint_checks": true,
+        "delete.tests.DeletionTests.test_delete_with_keeping_parents": true,
+        "delete.tests.OnDeleteTests.test_setnull_from_parent": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11885/dedup_patch_21.jsonl": {
+      "django__django-11885": {
+        "delete.tests.FastDeleteTests.test_fast_delete_instance_set_pk_none": true,
+        "delete.tests.OnDeleteTests.test_do_nothing_qscount": true,
+        "delete.tests.DeletionTests.test_deletion_order": true,
+        "many_to_many.tests.ManyToManyTests.test_clear": true,
+        "delete_regress.tests.DeleteCascadeTests.test_generic_relation_cascade": true,
+        "delete.tests.DeletionTests.test_only_referenced_fields_selected": true,
+        "delete.tests.FastDeleteTests.test_fast_delete_qs": true,
+        "delete.tests.DeletionTests.test_can_defer_constraint_checks": true,
+        "delete.tests.DeletionTests.test_delete_with_keeping_parents": true,
+        "delete.tests.OnDeleteTests.test_setnull_from_parent": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11885/dedup_patch_22.jsonl": {
+      "django__django-11885": {
+        "delete.tests.FastDeleteTests.test_fast_delete_instance_set_pk_none": true,
+        "delete.tests.OnDeleteTests.test_do_nothing_qscount": true,
+        "delete.tests.DeletionTests.test_deletion_order": true,
+        "many_to_many.tests.ManyToManyTests.test_clear": true,
+        "delete_regress.tests.DeleteCascadeTests.test_generic_relation_cascade": true,
+        "delete.tests.DeletionTests.test_only_referenced_fields_selected": true,
+        "delete.tests.FastDeleteTests.test_fast_delete_qs": true,
+        "delete.tests.DeletionTests.test_can_defer_constraint_checks": true,
+        "delete.tests.DeletionTests.test_delete_with_keeping_parents": true,
+        "delete.tests.OnDeleteTests.test_setnull_from_parent": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11885/dedup_patch_23.jsonl": {
+      "django__django-11885": {
+        "delete.tests.FastDeleteTests.test_fast_delete_instance_set_pk_none": true,
+        "delete.tests.OnDeleteTests.test_do_nothing_qscount": true,
+        "delete.tests.DeletionTests.test_deletion_order": true,
+        "many_to_many.tests.ManyToManyTests.test_clear": true,
+        "delete_regress.tests.DeleteCascadeTests.test_generic_relation_cascade": true,
+        "delete.tests.DeletionTests.test_only_referenced_fields_selected": true,
+        "delete.tests.FastDeleteTests.test_fast_delete_qs": true,
+        "delete.tests.DeletionTests.test_can_defer_constraint_checks": true,
+        "delete.tests.DeletionTests.test_delete_with_keeping_parents": true,
+        "delete.tests.OnDeleteTests.test_setnull_from_parent": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11885/dedup_patch_24.jsonl": {
+      "django__django-11885": {
+        "delete.tests.FastDeleteTests.test_fast_delete_instance_set_pk_none": true,
+        "delete.tests.OnDeleteTests.test_do_nothing_qscount": true,
+        "delete.tests.DeletionTests.test_deletion_order": true,
+        "many_to_many.tests.ManyToManyTests.test_clear": true,
+        "delete_regress.tests.DeleteCascadeTests.test_generic_relation_cascade": true,
+        "delete.tests.DeletionTests.test_only_referenced_fields_selected": true,
+        "delete.tests.FastDeleteTests.test_fast_delete_qs": true,
+        "delete.tests.DeletionTests.test_can_defer_constraint_checks": true,
+        "delete.tests.DeletionTests.test_delete_with_keeping_parents": true,
+        "delete.tests.OnDeleteTests.test_setnull_from_parent": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11885/dedup_patch_25.jsonl": {
+      "django__django-11885": {
+        "delete.tests.FastDeleteTests.test_fast_delete_instance_set_pk_none": true,
+        "delete.tests.OnDeleteTests.test_do_nothing_qscount": true,
+        "delete.tests.DeletionTests.test_deletion_order": true,
+        "many_to_many.tests.ManyToManyTests.test_clear": true,
+        "delete_regress.tests.DeleteCascadeTests.test_generic_relation_cascade": true,
+        "delete.tests.DeletionTests.test_only_referenced_fields_selected": true,
+        "delete.tests.FastDeleteTests.test_fast_delete_qs": true,
+        "delete.tests.DeletionTests.test_can_defer_constraint_checks": true,
+        "delete.tests.DeletionTests.test_delete_with_keeping_parents": true,
+        "delete.tests.OnDeleteTests.test_setnull_from_parent": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11885/dedup_patch_26.jsonl": {
+      "django__django-11885": {
+        "delete.tests.FastDeleteTests.test_fast_delete_instance_set_pk_none": true,
+        "delete.tests.OnDeleteTests.test_do_nothing_qscount": true,
+        "delete.tests.DeletionTests.test_deletion_order": true,
+        "many_to_many.tests.ManyToManyTests.test_clear": false,
+        "delete_regress.tests.DeleteCascadeTests.test_generic_relation_cascade": false,
+        "delete.tests.DeletionTests.test_only_referenced_fields_selected": true,
+        "delete.tests.FastDeleteTests.test_fast_delete_qs": false,
+        "delete.tests.DeletionTests.test_can_defer_constraint_checks": true,
+        "delete.tests.DeletionTests.test_delete_with_keeping_parents": true,
+        "delete.tests.OnDeleteTests.test_setnull_from_parent": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11885/dedup_patch_27.jsonl": {
+      "django__django-11885": {
+        "delete.tests.FastDeleteTests.test_fast_delete_instance_set_pk_none": true,
+        "delete.tests.OnDeleteTests.test_do_nothing_qscount": true,
+        "delete.tests.DeletionTests.test_deletion_order": true,
+        "many_to_many.tests.ManyToManyTests.test_clear": true,
+        "delete_regress.tests.DeleteCascadeTests.test_generic_relation_cascade": true,
+        "delete.tests.DeletionTests.test_only_referenced_fields_selected": true,
+        "delete.tests.FastDeleteTests.test_fast_delete_qs": true,
+        "delete.tests.DeletionTests.test_can_defer_constraint_checks": true,
+        "delete.tests.DeletionTests.test_delete_with_keeping_parents": true,
+        "delete.tests.OnDeleteTests.test_setnull_from_parent": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11885/dedup_patch_28.jsonl": {
+      "django__django-11885": {
+        "delete.tests.FastDeleteTests.test_fast_delete_instance_set_pk_none": true,
+        "delete.tests.OnDeleteTests.test_do_nothing_qscount": true,
+        "delete.tests.DeletionTests.test_deletion_order": true,
+        "many_to_many.tests.ManyToManyTests.test_clear": true,
+        "delete_regress.tests.DeleteCascadeTests.test_generic_relation_cascade": true,
+        "delete.tests.DeletionTests.test_only_referenced_fields_selected": true,
+        "delete.tests.FastDeleteTests.test_fast_delete_qs": true,
+        "delete.tests.DeletionTests.test_can_defer_constraint_checks": true,
+        "delete.tests.DeletionTests.test_delete_with_keeping_parents": true,
+        "delete.tests.OnDeleteTests.test_setnull_from_parent": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11885/dedup_patch_29.jsonl": {
+      "django__django-11885": {
+        "delete.tests.FastDeleteTests.test_fast_delete_instance_set_pk_none": true,
+        "delete.tests.OnDeleteTests.test_do_nothing_qscount": true,
+        "delete.tests.DeletionTests.test_deletion_order": true,
+        "many_to_many.tests.ManyToManyTests.test_clear": true,
+        "delete_regress.tests.DeleteCascadeTests.test_generic_relation_cascade": true,
+        "delete.tests.DeletionTests.test_only_referenced_fields_selected": true,
+        "delete.tests.FastDeleteTests.test_fast_delete_qs": true,
+        "delete.tests.DeletionTests.test_can_defer_constraint_checks": true,
+        "delete.tests.DeletionTests.test_delete_with_keeping_parents": true,
+        "delete.tests.OnDeleteTests.test_setnull_from_parent": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11885/dedup_patch_3.jsonl": {
+      "django__django-11885": {
+        "delete.tests.FastDeleteTests.test_fast_delete_instance_set_pk_none": true,
+        "delete.tests.OnDeleteTests.test_do_nothing_qscount": true,
+        "delete.tests.DeletionTests.test_deletion_order": true,
+        "many_to_many.tests.ManyToManyTests.test_clear": true,
+        "delete_regress.tests.DeleteCascadeTests.test_generic_relation_cascade": true,
+        "delete.tests.DeletionTests.test_only_referenced_fields_selected": true,
+        "delete.tests.FastDeleteTests.test_fast_delete_qs": true,
+        "delete.tests.DeletionTests.test_can_defer_constraint_checks": true,
+        "delete.tests.DeletionTests.test_delete_with_keeping_parents": true,
+        "delete.tests.OnDeleteTests.test_setnull_from_parent": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11885/dedup_patch_30.jsonl": {
+      "django__django-11885": {
+        "delete.tests.FastDeleteTests.test_fast_delete_instance_set_pk_none": true,
+        "delete.tests.OnDeleteTests.test_do_nothing_qscount": true,
+        "delete.tests.DeletionTests.test_deletion_order": true,
+        "many_to_many.tests.ManyToManyTests.test_clear": true,
+        "delete_regress.tests.DeleteCascadeTests.test_generic_relation_cascade": true,
+        "delete.tests.DeletionTests.test_only_referenced_fields_selected": true,
+        "delete.tests.FastDeleteTests.test_fast_delete_qs": true,
+        "delete.tests.DeletionTests.test_can_defer_constraint_checks": true,
+        "delete.tests.DeletionTests.test_delete_with_keeping_parents": true,
+        "delete.tests.OnDeleteTests.test_setnull_from_parent": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11885/dedup_patch_31.jsonl": {
+      "django__django-11885": {
+        "delete.tests.FastDeleteTests.test_fast_delete_instance_set_pk_none": true,
+        "delete.tests.OnDeleteTests.test_do_nothing_qscount": true,
+        "delete.tests.DeletionTests.test_deletion_order": true,
+        "many_to_many.tests.ManyToManyTests.test_clear": true,
+        "delete_regress.tests.DeleteCascadeTests.test_generic_relation_cascade": true,
+        "delete.tests.DeletionTests.test_only_referenced_fields_selected": true,
+        "delete.tests.FastDeleteTests.test_fast_delete_qs": true,
+        "delete.tests.DeletionTests.test_can_defer_constraint_checks": true,
+        "delete.tests.DeletionTests.test_delete_with_keeping_parents": true,
+        "delete.tests.OnDeleteTests.test_setnull_from_parent": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11885/dedup_patch_32.jsonl": {
+      "django__django-11885": {
+        "delete.tests.FastDeleteTests.test_fast_delete_instance_set_pk_none": true,
+        "delete.tests.OnDeleteTests.test_do_nothing_qscount": true,
+        "delete.tests.DeletionTests.test_deletion_order": true,
+        "many_to_many.tests.ManyToManyTests.test_clear": true,
+        "delete_regress.tests.DeleteCascadeTests.test_generic_relation_cascade": true,
+        "delete.tests.DeletionTests.test_only_referenced_fields_selected": true,
+        "delete.tests.FastDeleteTests.test_fast_delete_qs": true,
+        "delete.tests.DeletionTests.test_can_defer_constraint_checks": true,
+        "delete.tests.DeletionTests.test_delete_with_keeping_parents": true,
+        "delete.tests.OnDeleteTests.test_setnull_from_parent": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11885/dedup_patch_33.jsonl": {
+      "django__django-11885": {
+        "delete.tests.FastDeleteTests.test_fast_delete_instance_set_pk_none": true,
+        "delete.tests.OnDeleteTests.test_do_nothing_qscount": true,
+        "delete.tests.DeletionTests.test_deletion_order": true,
+        "many_to_many.tests.ManyToManyTests.test_clear": true,
+        "delete_regress.tests.DeleteCascadeTests.test_generic_relation_cascade": true,
+        "delete.tests.DeletionTests.test_only_referenced_fields_selected": true,
+        "delete.tests.FastDeleteTests.test_fast_delete_qs": true,
+        "delete.tests.DeletionTests.test_can_defer_constraint_checks": true,
+        "delete.tests.DeletionTests.test_delete_with_keeping_parents": true,
+        "delete.tests.OnDeleteTests.test_setnull_from_parent": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11885/dedup_patch_34.jsonl": {
+      "django__django-11885": {
+        "delete.tests.FastDeleteTests.test_fast_delete_instance_set_pk_none": true,
+        "delete.tests.OnDeleteTests.test_do_nothing_qscount": true,
+        "delete.tests.DeletionTests.test_deletion_order": true,
+        "many_to_many.tests.ManyToManyTests.test_clear": true,
+        "delete_regress.tests.DeleteCascadeTests.test_generic_relation_cascade": true,
+        "delete.tests.DeletionTests.test_only_referenced_fields_selected": true,
+        "delete.tests.FastDeleteTests.test_fast_delete_qs": true,
+        "delete.tests.DeletionTests.test_can_defer_constraint_checks": true,
+        "delete.tests.DeletionTests.test_delete_with_keeping_parents": true,
+        "delete.tests.OnDeleteTests.test_setnull_from_parent": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11885/dedup_patch_35.jsonl": {
+      "django__django-11885": {
+        "delete.tests.FastDeleteTests.test_fast_delete_instance_set_pk_none": true,
+        "delete.tests.OnDeleteTests.test_do_nothing_qscount": true,
+        "delete.tests.DeletionTests.test_deletion_order": true,
+        "many_to_many.tests.ManyToManyTests.test_clear": true,
+        "delete_regress.tests.DeleteCascadeTests.test_generic_relation_cascade": false,
+        "delete.tests.DeletionTests.test_only_referenced_fields_selected": true,
+        "delete.tests.FastDeleteTests.test_fast_delete_qs": true,
+        "delete.tests.DeletionTests.test_can_defer_constraint_checks": true,
+        "delete.tests.DeletionTests.test_delete_with_keeping_parents": false,
+        "delete.tests.OnDeleteTests.test_setnull_from_parent": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11885/dedup_patch_36.jsonl": {
+      "django__django-11885": {
+        "delete.tests.FastDeleteTests.test_fast_delete_instance_set_pk_none": true,
+        "delete.tests.OnDeleteTests.test_do_nothing_qscount": true,
+        "delete.tests.DeletionTests.test_deletion_order": true,
+        "many_to_many.tests.ManyToManyTests.test_clear": true,
+        "delete_regress.tests.DeleteCascadeTests.test_generic_relation_cascade": true,
+        "delete.tests.DeletionTests.test_only_referenced_fields_selected": true,
+        "delete.tests.FastDeleteTests.test_fast_delete_qs": true,
+        "delete.tests.DeletionTests.test_can_defer_constraint_checks": true,
+        "delete.tests.DeletionTests.test_delete_with_keeping_parents": true,
+        "delete.tests.OnDeleteTests.test_setnull_from_parent": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11885/dedup_patch_37.jsonl": {
+      "django__django-11885": {
+        "delete.tests.FastDeleteTests.test_fast_delete_instance_set_pk_none": true,
+        "delete.tests.OnDeleteTests.test_do_nothing_qscount": true,
+        "delete.tests.DeletionTests.test_deletion_order": true,
+        "many_to_many.tests.ManyToManyTests.test_clear": true,
+        "delete_regress.tests.DeleteCascadeTests.test_generic_relation_cascade": true,
+        "delete.tests.DeletionTests.test_only_referenced_fields_selected": true,
+        "delete.tests.FastDeleteTests.test_fast_delete_qs": true,
+        "delete.tests.DeletionTests.test_can_defer_constraint_checks": true,
+        "delete.tests.DeletionTests.test_delete_with_keeping_parents": true,
+        "delete.tests.OnDeleteTests.test_setnull_from_parent": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11885/dedup_patch_38.jsonl": {
+      "django__django-11885": {
+        "delete.tests.FastDeleteTests.test_fast_delete_instance_set_pk_none": true,
+        "delete.tests.OnDeleteTests.test_do_nothing_qscount": true,
+        "delete.tests.DeletionTests.test_deletion_order": true,
+        "many_to_many.tests.ManyToManyTests.test_clear": true,
+        "delete_regress.tests.DeleteCascadeTests.test_generic_relation_cascade": true,
+        "delete.tests.DeletionTests.test_only_referenced_fields_selected": true,
+        "delete.tests.FastDeleteTests.test_fast_delete_qs": true,
+        "delete.tests.DeletionTests.test_can_defer_constraint_checks": true,
+        "delete.tests.DeletionTests.test_delete_with_keeping_parents": true,
+        "delete.tests.OnDeleteTests.test_setnull_from_parent": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11885/dedup_patch_39.jsonl": {
+      "django__django-11885": {
+        "delete.tests.FastDeleteTests.test_fast_delete_instance_set_pk_none": false,
+        "delete.tests.OnDeleteTests.test_do_nothing_qscount": false,
+        "delete.tests.DeletionTests.test_deletion_order": false,
+        "many_to_many.tests.ManyToManyTests.test_clear": false,
+        "delete_regress.tests.DeleteCascadeTests.test_generic_relation_cascade": false,
+        "delete.tests.DeletionTests.test_only_referenced_fields_selected": false,
+        "delete.tests.FastDeleteTests.test_fast_delete_qs": false,
+        "delete.tests.DeletionTests.test_can_defer_constraint_checks": false,
+        "delete.tests.DeletionTests.test_delete_with_keeping_parents": false,
+        "delete.tests.OnDeleteTests.test_setnull_from_parent": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11885/dedup_patch_4.jsonl": {
+      "django__django-11885": {
+        "delete.tests.FastDeleteTests.test_fast_delete_instance_set_pk_none": true,
+        "delete.tests.OnDeleteTests.test_do_nothing_qscount": true,
+        "delete.tests.DeletionTests.test_deletion_order": true,
+        "many_to_many.tests.ManyToManyTests.test_clear": true,
+        "delete_regress.tests.DeleteCascadeTests.test_generic_relation_cascade": true,
+        "delete.tests.DeletionTests.test_only_referenced_fields_selected": true,
+        "delete.tests.FastDeleteTests.test_fast_delete_qs": true,
+        "delete.tests.DeletionTests.test_can_defer_constraint_checks": true,
+        "delete.tests.DeletionTests.test_delete_with_keeping_parents": true,
+        "delete.tests.OnDeleteTests.test_setnull_from_parent": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11885/dedup_patch_5.jsonl": {
+      "django__django-11885": {
+        "delete.tests.FastDeleteTests.test_fast_delete_instance_set_pk_none": true,
+        "delete.tests.OnDeleteTests.test_do_nothing_qscount": true,
+        "delete.tests.DeletionTests.test_deletion_order": true,
+        "many_to_many.tests.ManyToManyTests.test_clear": true,
+        "delete_regress.tests.DeleteCascadeTests.test_generic_relation_cascade": true,
+        "delete.tests.DeletionTests.test_only_referenced_fields_selected": true,
+        "delete.tests.FastDeleteTests.test_fast_delete_qs": true,
+        "delete.tests.DeletionTests.test_can_defer_constraint_checks": true,
+        "delete.tests.DeletionTests.test_delete_with_keeping_parents": true,
+        "delete.tests.OnDeleteTests.test_setnull_from_parent": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11885/dedup_patch_6.jsonl": {
+      "django__django-11885": {
+        "delete.tests.FastDeleteTests.test_fast_delete_instance_set_pk_none": true,
+        "delete.tests.OnDeleteTests.test_do_nothing_qscount": true,
+        "delete.tests.DeletionTests.test_deletion_order": true,
+        "many_to_many.tests.ManyToManyTests.test_clear": true,
+        "delete_regress.tests.DeleteCascadeTests.test_generic_relation_cascade": true,
+        "delete.tests.DeletionTests.test_only_referenced_fields_selected": true,
+        "delete.tests.FastDeleteTests.test_fast_delete_qs": true,
+        "delete.tests.DeletionTests.test_can_defer_constraint_checks": true,
+        "delete.tests.DeletionTests.test_delete_with_keeping_parents": true,
+        "delete.tests.OnDeleteTests.test_setnull_from_parent": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11885/dedup_patch_7.jsonl": {
+      "django__django-11885": {
+        "delete.tests.FastDeleteTests.test_fast_delete_instance_set_pk_none": true,
+        "delete.tests.OnDeleteTests.test_do_nothing_qscount": true,
+        "delete.tests.DeletionTests.test_deletion_order": true,
+        "many_to_many.tests.ManyToManyTests.test_clear": true,
+        "delete_regress.tests.DeleteCascadeTests.test_generic_relation_cascade": true,
+        "delete.tests.DeletionTests.test_only_referenced_fields_selected": true,
+        "delete.tests.FastDeleteTests.test_fast_delete_qs": true,
+        "delete.tests.DeletionTests.test_can_defer_constraint_checks": true,
+        "delete.tests.DeletionTests.test_delete_with_keeping_parents": true,
+        "delete.tests.OnDeleteTests.test_setnull_from_parent": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11885/dedup_patch_8.jsonl": {
+      "django__django-11885": {
+        "delete.tests.FastDeleteTests.test_fast_delete_instance_set_pk_none": true,
+        "delete.tests.OnDeleteTests.test_do_nothing_qscount": true,
+        "delete.tests.DeletionTests.test_deletion_order": true,
+        "many_to_many.tests.ManyToManyTests.test_clear": true,
+        "delete_regress.tests.DeleteCascadeTests.test_generic_relation_cascade": true,
+        "delete.tests.DeletionTests.test_only_referenced_fields_selected": true,
+        "delete.tests.FastDeleteTests.test_fast_delete_qs": true,
+        "delete.tests.DeletionTests.test_can_defer_constraint_checks": true,
+        "delete.tests.DeletionTests.test_delete_with_keeping_parents": true,
+        "delete.tests.OnDeleteTests.test_setnull_from_parent": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11885/dedup_patch_9.jsonl": {
+      "django__django-11885": {
+        "delete.tests.FastDeleteTests.test_fast_delete_instance_set_pk_none": true,
+        "delete.tests.OnDeleteTests.test_do_nothing_qscount": true,
+        "delete.tests.DeletionTests.test_deletion_order": true,
+        "many_to_many.tests.ManyToManyTests.test_clear": true,
+        "delete_regress.tests.DeleteCascadeTests.test_generic_relation_cascade": true,
+        "delete.tests.DeletionTests.test_only_referenced_fields_selected": true,
+        "delete.tests.FastDeleteTests.test_fast_delete_qs": true,
+        "delete.tests.DeletionTests.test_can_defer_constraint_checks": true,
+        "delete.tests.DeletionTests.test_delete_with_keeping_parents": true,
+        "delete.tests.OnDeleteTests.test_setnull_from_parent": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-11885": {
+        "delete.tests.FastDeleteTests.test_combined_fast_delete_queries#1": true,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#2": true,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#3": true,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#4": true,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#5": true,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11885/dedup_patch_0.jsonl": {
+      "django__django-11885": {
+        "delete.tests.FastDeleteTests.test_combined_fast_delete_queries#1": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#2": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#3": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#4": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#5": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11885/dedup_patch_11.jsonl": {
+      "django__django-11885": {
+        "delete.tests.FastDeleteTests.test_combined_fast_delete_queries#1": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#2": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#3": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#4": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#5": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11885/dedup_patch_13.jsonl": {
+      "django__django-11885": {
+        "delete.tests.FastDeleteTests.test_combined_fast_delete_queries#1": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#2": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#3": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#4": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#5": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11885/dedup_patch_14.jsonl": {
+      "django__django-11885": {
+        "delete.tests.FastDeleteTests.test_combined_fast_delete_queries#1": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#2": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#3": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#4": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#5": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11885/dedup_patch_16.jsonl": {
+      "django__django-11885": {
+        "delete.tests.FastDeleteTests.test_combined_fast_delete_queries#1": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#2": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#3": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#4": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#5": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11885/dedup_patch_18.jsonl": {
+      "django__django-11885": {
+        "delete.tests.FastDeleteTests.test_combined_fast_delete_queries#1": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#2": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#3": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#4": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#5": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11885/dedup_patch_19.jsonl": {
+      "django__django-11885": {
+        "delete.tests.FastDeleteTests.test_combined_fast_delete_queries#1": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#2": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#3": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#4": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#5": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11885/dedup_patch_22.jsonl": {
+      "django__django-11885": {
+        "delete.tests.FastDeleteTests.test_combined_fast_delete_queries#1": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#2": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#3": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#4": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#5": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11885/dedup_patch_23.jsonl": {
+      "django__django-11885": {
+        "delete.tests.FastDeleteTests.test_combined_fast_delete_queries#1": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#2": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#3": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#4": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#5": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11885/dedup_patch_24.jsonl": {
+      "django__django-11885": {
+        "delete.tests.FastDeleteTests.test_combined_fast_delete_queries#1": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#2": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#3": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#4": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#5": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11885/dedup_patch_3.jsonl": {
+      "django__django-11885": {
+        "delete.tests.FastDeleteTests.test_combined_fast_delete_queries#1": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#2": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#3": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#4": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#5": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11885/dedup_patch_30.jsonl": {
+      "django__django-11885": {
+        "delete.tests.FastDeleteTests.test_combined_fast_delete_queries#1": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#2": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#3": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#4": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#5": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11885/dedup_patch_31.jsonl": {
+      "django__django-11885": {
+        "delete.tests.FastDeleteTests.test_combined_fast_delete_queries#1": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#2": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#3": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#4": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#5": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11885/dedup_patch_32.jsonl": {
+      "django__django-11885": {
+        "delete.tests.FastDeleteTests.test_combined_fast_delete_queries#1": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#2": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#3": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#4": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#5": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11885/dedup_patch_33.jsonl": {
+      "django__django-11885": {
+        "delete.tests.FastDeleteTests.test_combined_fast_delete_queries#1": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#2": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#3": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#4": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#5": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11885/dedup_patch_36.jsonl": {
+      "django__django-11885": {
+        "delete.tests.FastDeleteTests.test_combined_fast_delete_queries#1": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#2": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#3": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#4": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#5": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11885/dedup_patch_38.jsonl": {
+      "django__django-11885": {
+        "delete.tests.FastDeleteTests.test_combined_fast_delete_queries#1": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#2": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#3": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#4": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#5": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11885/dedup_patch_4.jsonl": {
+      "django__django-11885": {
+        "delete.tests.FastDeleteTests.test_combined_fast_delete_queries#1": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#2": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#3": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#4": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#5": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11885/dedup_patch_5.jsonl": {
+      "django__django-11885": {
+        "delete.tests.FastDeleteTests.test_combined_fast_delete_queries#1": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#2": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#3": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#4": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#5": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11885/dedup_patch_9.jsonl": {
+      "django__django-11885": {
+        "delete.tests.FastDeleteTests.test_combined_fast_delete_queries#1": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#2": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#3": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#4": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#5": false,
+        "delete.tests.FastDeleteTests.test_combine_fast_delete_queries#6": false
+      }
+    }
+  }
+}

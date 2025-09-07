@@ -1,0 +1,58 @@
+{
+  "regression": {
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-13177/dedup_patch_0.jsonl": {
+      "sympy__sympy-13177": {
+        "sympy/core/tests/test_arit.py::test_Mod": true,
+        "sympy/core/tests/test_arit.py::test_Mod_is_nonposneg": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-13177/dedup_patch_1.jsonl": {
+      "sympy__sympy-13177": {
+        "sympy/core/tests/test_arit.py::test_Mod": true,
+        "sympy/core/tests/test_arit.py::test_Mod_is_nonposneg": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-13177/dedup_patch_2.jsonl": {
+      "sympy__sympy-13177": {
+        "sympy/core/tests/test_arit.py::test_Mod": true,
+        "sympy/core/tests/test_arit.py::test_Mod_is_nonposneg": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-13177/dedup_patch_3.jsonl": {
+      "sympy__sympy-13177": {
+        "sympy/core/tests/test_arit.py::test_Mod": true,
+        "sympy/core/tests/test_arit.py::test_Mod_is_nonposneg": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-13177/dedup_patch_4.jsonl": {
+      "sympy__sympy-13177": {
+        "sympy/core/tests/test_arit.py::test_Mod": true,
+        "sympy/core/tests/test_arit.py::test_Mod_is_nonposneg": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-13177/dedup_patch_5.jsonl": {
+      "sympy__sympy-13177": {
+        "sympy/core/tests/test_arit.py::test_Mod": true,
+        "sympy/core/tests/test_arit.py::test_Mod_is_nonposneg": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-13177/dedup_patch_6.jsonl": {
+      "sympy__sympy-13177": {
+        "sympy/core/tests/test_arit.py::test_Mod": true,
+        "sympy/core/tests/test_arit.py::test_Mod_is_nonposneg": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "sympy__sympy-13177": {
+        "sympy/core/tests/test_arit.py::test_Mod#1": false,
+        "sympy/core/tests/test_arit.py::test_Mod#2": false,
+        "sympy/core/tests/test_arit.py::test_issue_5919#3": false,
+        "sympy/core/tests/test_arit.py::test_issue_5919#4": false,
+        "sympy/core/tests/test_arit.py::test_issue_5919#5": false,
+        "sympy/core/tests/test_arit.py::test_issue_5919#6": false
+      }
+    }
+  }
+}

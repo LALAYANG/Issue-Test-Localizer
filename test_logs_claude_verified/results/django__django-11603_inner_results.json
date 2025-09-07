@@ -1,0 +1,36 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/django__django-11603/dedup_patch_0.jsonl": {
+      "django__django-11603": {
+        "aggregation_regress.tests.AggregationTests.test_more_more_more": true,
+        "aggregation.test_filter_argument.FilteredAggregateTests.test_filtered_aggregate_on_annotate": true,
+        "aggregation_regress.tests.AggregationTests.test_allow_distinct": true,
+        "aggregation.tests.AggregateTestCase.test_multi_arg_aggregate": true,
+        "aggregation.tests.AggregateTestCase.test_complex_aggregations_require_kwarg": true,
+        "expressions.tests.ReprTests.test_filtered_aggregates": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-11603": {
+        "aggregation.tests.AggregateTestCase.test_avg_distinct_aggregate#1": true,
+        "aggregation.tests.AggregateTestCase.test_avg_distinct_aggregate#2": true,
+        "aggregation.tests.AggregateTestCase.test_avg_distinct_aggregate#3": true,
+        "aggregation.tests.AggregateTestCase.test_avg_distinct_aggregate#4": true,
+        "aggregation.tests.AggregateTestCase.test_avg_distinct_aggregate#5": true,
+        "aggregation.tests.AggregateTestCase.test_avg_distinct_aggregate#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11603/dedup_patch_0.jsonl": {
+      "django__django-11603": {
+        "aggregation.tests.AggregateTestCase.test_avg_distinct_aggregate#1": false,
+        "aggregation.tests.AggregateTestCase.test_avg_distinct_aggregate#2": true,
+        "aggregation.tests.AggregateTestCase.test_avg_distinct_aggregate#3": true,
+        "aggregation.tests.AggregateTestCase.test_avg_distinct_aggregate#4": false,
+        "aggregation.tests.AggregateTestCase.test_avg_distinct_aggregate#5": true,
+        "aggregation.tests.AggregateTestCase.test_avg_distinct_aggregate#6": true
+      }
+    }
+  }
+}

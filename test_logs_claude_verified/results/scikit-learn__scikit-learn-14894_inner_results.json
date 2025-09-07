@@ -1,0 +1,56 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/scikit-learn__scikit-learn-14894/dedup_patch_0.jsonl": {
+      "scikit-learn__scikit-learn-14894": {
+        "sklearn/svm/tests/test_sparse.py::test_sparse_realdata": true,
+        "sklearn/svm/tests/test_sparse.py::test_sparse_oneclasssvm": true,
+        "sklearn/svm/tests/test_sparse.py::test_svc": true,
+        "sklearn/svm/tests/test_sparse.py::test_sparse_decision_function": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/scikit-learn__scikit-learn-14894/dedup_patch_1.jsonl": {
+      "scikit-learn__scikit-learn-14894": {
+        "sklearn/svm/tests/test_sparse.py::test_sparse_realdata": true,
+        "sklearn/svm/tests/test_sparse.py::test_sparse_oneclasssvm": true,
+        "sklearn/svm/tests/test_sparse.py::test_svc": true,
+        "sklearn/svm/tests/test_sparse.py::test_sparse_decision_function": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/scikit-learn__scikit-learn-14894/dedup_patch_2.jsonl": {
+      "scikit-learn__scikit-learn-14894": {
+        "sklearn/svm/tests/test_sparse.py::test_sparse_realdata": true,
+        "sklearn/svm/tests/test_sparse.py::test_sparse_oneclasssvm": true,
+        "sklearn/svm/tests/test_sparse.py::test_svc": true,
+        "sklearn/svm/tests/test_sparse.py::test_sparse_decision_function": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/scikit-learn__scikit-learn-14894/dedup_patch_3.jsonl": {
+      "scikit-learn__scikit-learn-14894": {
+        "sklearn/svm/tests/test_sparse.py::test_sparse_realdata": true,
+        "sklearn/svm/tests/test_sparse.py::test_sparse_oneclasssvm": true,
+        "sklearn/svm/tests/test_sparse.py::test_svc": true,
+        "sklearn/svm/tests/test_sparse.py::test_sparse_decision_function": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/scikit-learn__scikit-learn-14894/dedup_patch_4.jsonl": {
+      "scikit-learn__scikit-learn-14894": {
+        "sklearn/svm/tests/test_sparse.py::test_sparse_realdata": true,
+        "sklearn/svm/tests/test_sparse.py::test_sparse_oneclasssvm": true,
+        "sklearn/svm/tests/test_sparse.py::test_svc": true,
+        "sklearn/svm/tests/test_sparse.py::test_sparse_decision_function": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "scikit-learn__scikit-learn-14894": {
+        "sklearn/svm/tests/test_sparse.py::test_sparse_decision_function#1": false,
+        "sklearn/svm/tests/test_sparse.py::test_sparse_decision_function#2": false,
+        "sklearn/svm/tests/test_sparse.py::test_consistent_proba#3": false,
+        "sklearn/svm/tests/test_sparse.py::test_consistent_proba#4": false,
+        "sklearn/svm/tests/test_sparse.py::test_sparse_decision_function#5": false,
+        "sklearn/svm/tests/test_sparse.py::test_sparse_decision_function#6": false
+      }
+    }
+  }
+}

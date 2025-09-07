@@ -1,0 +1,882 @@
+{
+  "regression": {
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13220/dedup_patch_0.jsonl": {
+      "django__django-13220": {
+        "validators.tests.TestValidators.test_message_dict": true,
+        "validators.tests.TestValidators.test_message_list": true,
+        "forms_tests.tests.test_validators.TestFieldWithValidators.test_all_errors_get_reported": true,
+        "validation.test_picklable.PickableValidationErrorTestCase.test_validationerror_is_picklable": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_messages_concatenates_error_dict_values": true,
+        "validation.tests.BaseModelValidationTests.test_custom_validate_method": true,
+        "validation.test_error_messages.ValidationMessagesTest.test_autofield_field_raises_error_message": true,
+        "validators.tests.TestValidators.test_single_message": true,
+        "validation.tests.GenericIPAddressFieldTests.test_invalid_generic_ip_raises_error": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13220/dedup_patch_1.jsonl": {
+      "django__django-13220": {
+        "validators.tests.TestValidators.test_message_dict": true,
+        "validators.tests.TestValidators.test_message_list": true,
+        "forms_tests.tests.test_validators.TestFieldWithValidators.test_all_errors_get_reported": true,
+        "validation.test_picklable.PickableValidationErrorTestCase.test_validationerror_is_picklable": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_messages_concatenates_error_dict_values": true,
+        "validation.tests.BaseModelValidationTests.test_custom_validate_method": true,
+        "validation.test_error_messages.ValidationMessagesTest.test_autofield_field_raises_error_message": true,
+        "validators.tests.TestValidators.test_single_message": true,
+        "validation.tests.GenericIPAddressFieldTests.test_invalid_generic_ip_raises_error": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13220/dedup_patch_10.jsonl": {
+      "django__django-13220": {
+        "validators.tests.TestValidators.test_message_dict": false,
+        "validators.tests.TestValidators.test_message_list": false,
+        "forms_tests.tests.test_validators.TestFieldWithValidators.test_all_errors_get_reported": true,
+        "validation.test_picklable.PickableValidationErrorTestCase.test_validationerror_is_picklable": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_messages_concatenates_error_dict_values": true,
+        "validation.tests.BaseModelValidationTests.test_custom_validate_method": true,
+        "validation.test_error_messages.ValidationMessagesTest.test_autofield_field_raises_error_message": true,
+        "validators.tests.TestValidators.test_single_message": false,
+        "validation.tests.GenericIPAddressFieldTests.test_invalid_generic_ip_raises_error": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13220/dedup_patch_11.jsonl": {
+      "django__django-13220": {
+        "validators.tests.TestValidators.test_message_dict": true,
+        "validators.tests.TestValidators.test_message_list": true,
+        "forms_tests.tests.test_validators.TestFieldWithValidators.test_all_errors_get_reported": true,
+        "validation.test_picklable.PickableValidationErrorTestCase.test_validationerror_is_picklable": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_messages_concatenates_error_dict_values": true,
+        "validation.tests.BaseModelValidationTests.test_custom_validate_method": true,
+        "validation.test_error_messages.ValidationMessagesTest.test_autofield_field_raises_error_message": true,
+        "validators.tests.TestValidators.test_single_message": true,
+        "validation.tests.GenericIPAddressFieldTests.test_invalid_generic_ip_raises_error": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13220/dedup_patch_12.jsonl": {
+      "django__django-13220": {
+        "validators.tests.TestValidators.test_message_dict": false,
+        "validators.tests.TestValidators.test_message_list": false,
+        "forms_tests.tests.test_validators.TestFieldWithValidators.test_all_errors_get_reported": true,
+        "validation.test_picklable.PickableValidationErrorTestCase.test_validationerror_is_picklable": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_messages_concatenates_error_dict_values": true,
+        "validation.tests.BaseModelValidationTests.test_custom_validate_method": true,
+        "validation.test_error_messages.ValidationMessagesTest.test_autofield_field_raises_error_message": true,
+        "validators.tests.TestValidators.test_single_message": false,
+        "validation.tests.GenericIPAddressFieldTests.test_invalid_generic_ip_raises_error": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13220/dedup_patch_13.jsonl": {
+      "django__django-13220": {
+        "validators.tests.TestValidators.test_message_dict": true,
+        "validators.tests.TestValidators.test_message_list": true,
+        "forms_tests.tests.test_validators.TestFieldWithValidators.test_all_errors_get_reported": true,
+        "validation.test_picklable.PickableValidationErrorTestCase.test_validationerror_is_picklable": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_messages_concatenates_error_dict_values": true,
+        "validation.tests.BaseModelValidationTests.test_custom_validate_method": true,
+        "validation.test_error_messages.ValidationMessagesTest.test_autofield_field_raises_error_message": true,
+        "validators.tests.TestValidators.test_single_message": true,
+        "validation.tests.GenericIPAddressFieldTests.test_invalid_generic_ip_raises_error": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13220/dedup_patch_14.jsonl": {
+      "django__django-13220": {
+        "validators.tests.TestValidators.test_message_dict": true,
+        "validators.tests.TestValidators.test_message_list": true,
+        "forms_tests.tests.test_validators.TestFieldWithValidators.test_all_errors_get_reported": true,
+        "validation.test_picklable.PickableValidationErrorTestCase.test_validationerror_is_picklable": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_messages_concatenates_error_dict_values": true,
+        "validation.tests.BaseModelValidationTests.test_custom_validate_method": true,
+        "validation.test_error_messages.ValidationMessagesTest.test_autofield_field_raises_error_message": true,
+        "validators.tests.TestValidators.test_single_message": true,
+        "validation.tests.GenericIPAddressFieldTests.test_invalid_generic_ip_raises_error": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13220/dedup_patch_15.jsonl": {
+      "django__django-13220": {
+        "validators.tests.TestValidators.test_message_dict": true,
+        "validators.tests.TestValidators.test_message_list": true,
+        "forms_tests.tests.test_validators.TestFieldWithValidators.test_all_errors_get_reported": true,
+        "validation.test_picklable.PickableValidationErrorTestCase.test_validationerror_is_picklable": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_messages_concatenates_error_dict_values": true,
+        "validation.tests.BaseModelValidationTests.test_custom_validate_method": true,
+        "validation.test_error_messages.ValidationMessagesTest.test_autofield_field_raises_error_message": true,
+        "validators.tests.TestValidators.test_single_message": true,
+        "validation.tests.GenericIPAddressFieldTests.test_invalid_generic_ip_raises_error": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13220/dedup_patch_16.jsonl": {
+      "django__django-13220": {
+        "validators.tests.TestValidators.test_message_dict": true,
+        "validators.tests.TestValidators.test_message_list": true,
+        "forms_tests.tests.test_validators.TestFieldWithValidators.test_all_errors_get_reported": true,
+        "validation.test_picklable.PickableValidationErrorTestCase.test_validationerror_is_picklable": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_messages_concatenates_error_dict_values": true,
+        "validation.tests.BaseModelValidationTests.test_custom_validate_method": true,
+        "validation.test_error_messages.ValidationMessagesTest.test_autofield_field_raises_error_message": true,
+        "validators.tests.TestValidators.test_single_message": true,
+        "validation.tests.GenericIPAddressFieldTests.test_invalid_generic_ip_raises_error": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13220/dedup_patch_17.jsonl": {
+      "django__django-13220": {
+        "validators.tests.TestValidators.test_message_dict": true,
+        "validators.tests.TestValidators.test_message_list": true,
+        "forms_tests.tests.test_validators.TestFieldWithValidators.test_all_errors_get_reported": true,
+        "validation.test_picklable.PickableValidationErrorTestCase.test_validationerror_is_picklable": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_messages_concatenates_error_dict_values": true,
+        "validation.tests.BaseModelValidationTests.test_custom_validate_method": true,
+        "validation.test_error_messages.ValidationMessagesTest.test_autofield_field_raises_error_message": true,
+        "validators.tests.TestValidators.test_single_message": true,
+        "validation.tests.GenericIPAddressFieldTests.test_invalid_generic_ip_raises_error": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13220/dedup_patch_18.jsonl": {
+      "django__django-13220": {
+        "validators.tests.TestValidators.test_message_dict": true,
+        "validators.tests.TestValidators.test_message_list": true,
+        "forms_tests.tests.test_validators.TestFieldWithValidators.test_all_errors_get_reported": true,
+        "validation.test_picklable.PickableValidationErrorTestCase.test_validationerror_is_picklable": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_messages_concatenates_error_dict_values": true,
+        "validation.tests.BaseModelValidationTests.test_custom_validate_method": true,
+        "validation.test_error_messages.ValidationMessagesTest.test_autofield_field_raises_error_message": true,
+        "validators.tests.TestValidators.test_single_message": true,
+        "validation.tests.GenericIPAddressFieldTests.test_invalid_generic_ip_raises_error": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13220/dedup_patch_19.jsonl": {
+      "django__django-13220": {
+        "validators.tests.TestValidators.test_message_dict": true,
+        "validators.tests.TestValidators.test_message_list": true,
+        "forms_tests.tests.test_validators.TestFieldWithValidators.test_all_errors_get_reported": true,
+        "validation.test_picklable.PickableValidationErrorTestCase.test_validationerror_is_picklable": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_messages_concatenates_error_dict_values": true,
+        "validation.tests.BaseModelValidationTests.test_custom_validate_method": true,
+        "validation.test_error_messages.ValidationMessagesTest.test_autofield_field_raises_error_message": true,
+        "validators.tests.TestValidators.test_single_message": true,
+        "validation.tests.GenericIPAddressFieldTests.test_invalid_generic_ip_raises_error": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13220/dedup_patch_2.jsonl": {
+      "django__django-13220": {
+        "validators.tests.TestValidators.test_message_dict": true,
+        "validators.tests.TestValidators.test_message_list": true,
+        "forms_tests.tests.test_validators.TestFieldWithValidators.test_all_errors_get_reported": true,
+        "validation.test_picklable.PickableValidationErrorTestCase.test_validationerror_is_picklable": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_messages_concatenates_error_dict_values": true,
+        "validation.tests.BaseModelValidationTests.test_custom_validate_method": true,
+        "validation.test_error_messages.ValidationMessagesTest.test_autofield_field_raises_error_message": true,
+        "validators.tests.TestValidators.test_single_message": true,
+        "validation.tests.GenericIPAddressFieldTests.test_invalid_generic_ip_raises_error": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13220/dedup_patch_20.jsonl": {
+      "django__django-13220": {
+        "validators.tests.TestValidators.test_message_dict": true,
+        "validators.tests.TestValidators.test_message_list": true,
+        "forms_tests.tests.test_validators.TestFieldWithValidators.test_all_errors_get_reported": true,
+        "validation.test_picklable.PickableValidationErrorTestCase.test_validationerror_is_picklable": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_messages_concatenates_error_dict_values": true,
+        "validation.tests.BaseModelValidationTests.test_custom_validate_method": true,
+        "validation.test_error_messages.ValidationMessagesTest.test_autofield_field_raises_error_message": true,
+        "validators.tests.TestValidators.test_single_message": true,
+        "validation.tests.GenericIPAddressFieldTests.test_invalid_generic_ip_raises_error": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13220/dedup_patch_21.jsonl": {
+      "django__django-13220": {
+        "validators.tests.TestValidators.test_message_dict": true,
+        "validators.tests.TestValidators.test_message_list": true,
+        "forms_tests.tests.test_validators.TestFieldWithValidators.test_all_errors_get_reported": true,
+        "validation.test_picklable.PickableValidationErrorTestCase.test_validationerror_is_picklable": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_messages_concatenates_error_dict_values": true,
+        "validation.tests.BaseModelValidationTests.test_custom_validate_method": true,
+        "validation.test_error_messages.ValidationMessagesTest.test_autofield_field_raises_error_message": true,
+        "validators.tests.TestValidators.test_single_message": true,
+        "validation.tests.GenericIPAddressFieldTests.test_invalid_generic_ip_raises_error": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13220/dedup_patch_22.jsonl": {
+      "django__django-13220": {
+        "validators.tests.TestValidators.test_message_dict": true,
+        "validators.tests.TestValidators.test_message_list": true,
+        "forms_tests.tests.test_validators.TestFieldWithValidators.test_all_errors_get_reported": true,
+        "validation.test_picklable.PickableValidationErrorTestCase.test_validationerror_is_picklable": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_messages_concatenates_error_dict_values": true,
+        "validation.tests.BaseModelValidationTests.test_custom_validate_method": true,
+        "validation.test_error_messages.ValidationMessagesTest.test_autofield_field_raises_error_message": true,
+        "validators.tests.TestValidators.test_single_message": true,
+        "validation.tests.GenericIPAddressFieldTests.test_invalid_generic_ip_raises_error": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13220/dedup_patch_23.jsonl": {
+      "django__django-13220": {
+        "validators.tests.TestValidators.test_message_dict": true,
+        "validators.tests.TestValidators.test_message_list": true,
+        "forms_tests.tests.test_validators.TestFieldWithValidators.test_all_errors_get_reported": true,
+        "validation.test_picklable.PickableValidationErrorTestCase.test_validationerror_is_picklable": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_messages_concatenates_error_dict_values": true,
+        "validation.tests.BaseModelValidationTests.test_custom_validate_method": true,
+        "validation.test_error_messages.ValidationMessagesTest.test_autofield_field_raises_error_message": true,
+        "validators.tests.TestValidators.test_single_message": true,
+        "validation.tests.GenericIPAddressFieldTests.test_invalid_generic_ip_raises_error": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13220/dedup_patch_24.jsonl": {
+      "django__django-13220": {
+        "validators.tests.TestValidators.test_message_dict": true,
+        "validators.tests.TestValidators.test_message_list": true,
+        "forms_tests.tests.test_validators.TestFieldWithValidators.test_all_errors_get_reported": true,
+        "validation.test_picklable.PickableValidationErrorTestCase.test_validationerror_is_picklable": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_messages_concatenates_error_dict_values": true,
+        "validation.tests.BaseModelValidationTests.test_custom_validate_method": true,
+        "validation.test_error_messages.ValidationMessagesTest.test_autofield_field_raises_error_message": true,
+        "validators.tests.TestValidators.test_single_message": true,
+        "validation.tests.GenericIPAddressFieldTests.test_invalid_generic_ip_raises_error": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13220/dedup_patch_25.jsonl": {
+      "django__django-13220": {
+        "validators.tests.TestValidators.test_message_dict": true,
+        "validators.tests.TestValidators.test_message_list": true,
+        "forms_tests.tests.test_validators.TestFieldWithValidators.test_all_errors_get_reported": true,
+        "validation.test_picklable.PickableValidationErrorTestCase.test_validationerror_is_picklable": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_messages_concatenates_error_dict_values": true,
+        "validation.tests.BaseModelValidationTests.test_custom_validate_method": true,
+        "validation.test_error_messages.ValidationMessagesTest.test_autofield_field_raises_error_message": true,
+        "validators.tests.TestValidators.test_single_message": true,
+        "validation.tests.GenericIPAddressFieldTests.test_invalid_generic_ip_raises_error": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13220/dedup_patch_26.jsonl": {
+      "django__django-13220": {
+        "validators.tests.TestValidators.test_message_dict": true,
+        "validators.tests.TestValidators.test_message_list": true,
+        "forms_tests.tests.test_validators.TestFieldWithValidators.test_all_errors_get_reported": true,
+        "validation.test_picklable.PickableValidationErrorTestCase.test_validationerror_is_picklable": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_messages_concatenates_error_dict_values": true,
+        "validation.tests.BaseModelValidationTests.test_custom_validate_method": true,
+        "validation.test_error_messages.ValidationMessagesTest.test_autofield_field_raises_error_message": true,
+        "validators.tests.TestValidators.test_single_message": true,
+        "validation.tests.GenericIPAddressFieldTests.test_invalid_generic_ip_raises_error": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13220/dedup_patch_27.jsonl": {
+      "django__django-13220": {
+        "validators.tests.TestValidators.test_message_dict": true,
+        "validators.tests.TestValidators.test_message_list": true,
+        "forms_tests.tests.test_validators.TestFieldWithValidators.test_all_errors_get_reported": true,
+        "validation.test_picklable.PickableValidationErrorTestCase.test_validationerror_is_picklable": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_messages_concatenates_error_dict_values": true,
+        "validation.tests.BaseModelValidationTests.test_custom_validate_method": true,
+        "validation.test_error_messages.ValidationMessagesTest.test_autofield_field_raises_error_message": true,
+        "validators.tests.TestValidators.test_single_message": true,
+        "validation.tests.GenericIPAddressFieldTests.test_invalid_generic_ip_raises_error": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13220/dedup_patch_28.jsonl": {
+      "django__django-13220": {
+        "validators.tests.TestValidators.test_message_dict": true,
+        "validators.tests.TestValidators.test_message_list": true,
+        "forms_tests.tests.test_validators.TestFieldWithValidators.test_all_errors_get_reported": true,
+        "validation.test_picklable.PickableValidationErrorTestCase.test_validationerror_is_picklable": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_messages_concatenates_error_dict_values": true,
+        "validation.tests.BaseModelValidationTests.test_custom_validate_method": true,
+        "validation.test_error_messages.ValidationMessagesTest.test_autofield_field_raises_error_message": true,
+        "validators.tests.TestValidators.test_single_message": true,
+        "validation.tests.GenericIPAddressFieldTests.test_invalid_generic_ip_raises_error": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13220/dedup_patch_29.jsonl": {
+      "django__django-13220": {
+        "validators.tests.TestValidators.test_message_dict": true,
+        "validators.tests.TestValidators.test_message_list": true,
+        "forms_tests.tests.test_validators.TestFieldWithValidators.test_all_errors_get_reported": true,
+        "validation.test_picklable.PickableValidationErrorTestCase.test_validationerror_is_picklable": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_messages_concatenates_error_dict_values": true,
+        "validation.tests.BaseModelValidationTests.test_custom_validate_method": true,
+        "validation.test_error_messages.ValidationMessagesTest.test_autofield_field_raises_error_message": true,
+        "validators.tests.TestValidators.test_single_message": true,
+        "validation.tests.GenericIPAddressFieldTests.test_invalid_generic_ip_raises_error": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13220/dedup_patch_3.jsonl": {
+      "django__django-13220": {
+        "validators.tests.TestValidators.test_message_dict": true,
+        "validators.tests.TestValidators.test_message_list": true,
+        "forms_tests.tests.test_validators.TestFieldWithValidators.test_all_errors_get_reported": true,
+        "validation.test_picklable.PickableValidationErrorTestCase.test_validationerror_is_picklable": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_messages_concatenates_error_dict_values": true,
+        "validation.tests.BaseModelValidationTests.test_custom_validate_method": true,
+        "validation.test_error_messages.ValidationMessagesTest.test_autofield_field_raises_error_message": true,
+        "validators.tests.TestValidators.test_single_message": true,
+        "validation.tests.GenericIPAddressFieldTests.test_invalid_generic_ip_raises_error": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13220/dedup_patch_30.jsonl": {
+      "django__django-13220": {
+        "validators.tests.TestValidators.test_message_dict": false,
+        "validators.tests.TestValidators.test_message_list": false,
+        "forms_tests.tests.test_validators.TestFieldWithValidators.test_all_errors_get_reported": true,
+        "validation.test_picklable.PickableValidationErrorTestCase.test_validationerror_is_picklable": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_messages_concatenates_error_dict_values": true,
+        "validation.tests.BaseModelValidationTests.test_custom_validate_method": true,
+        "validation.test_error_messages.ValidationMessagesTest.test_autofield_field_raises_error_message": true,
+        "validators.tests.TestValidators.test_single_message": false,
+        "validation.tests.GenericIPAddressFieldTests.test_invalid_generic_ip_raises_error": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13220/dedup_patch_31.jsonl": {
+      "django__django-13220": {
+        "validators.tests.TestValidators.test_message_dict": true,
+        "validators.tests.TestValidators.test_message_list": true,
+        "forms_tests.tests.test_validators.TestFieldWithValidators.test_all_errors_get_reported": true,
+        "validation.test_picklable.PickableValidationErrorTestCase.test_validationerror_is_picklable": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_messages_concatenates_error_dict_values": true,
+        "validation.tests.BaseModelValidationTests.test_custom_validate_method": true,
+        "validation.test_error_messages.ValidationMessagesTest.test_autofield_field_raises_error_message": true,
+        "validators.tests.TestValidators.test_single_message": true,
+        "validation.tests.GenericIPAddressFieldTests.test_invalid_generic_ip_raises_error": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13220/dedup_patch_32.jsonl": {
+      "django__django-13220": {
+        "validators.tests.TestValidators.test_message_dict": true,
+        "validators.tests.TestValidators.test_message_list": true,
+        "forms_tests.tests.test_validators.TestFieldWithValidators.test_all_errors_get_reported": true,
+        "validation.test_picklable.PickableValidationErrorTestCase.test_validationerror_is_picklable": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_messages_concatenates_error_dict_values": true,
+        "validation.tests.BaseModelValidationTests.test_custom_validate_method": true,
+        "validation.test_error_messages.ValidationMessagesTest.test_autofield_field_raises_error_message": true,
+        "validators.tests.TestValidators.test_single_message": true,
+        "validation.tests.GenericIPAddressFieldTests.test_invalid_generic_ip_raises_error": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13220/dedup_patch_33.jsonl": {
+      "django__django-13220": {
+        "validators.tests.TestValidators.test_message_dict": true,
+        "validators.tests.TestValidators.test_message_list": true,
+        "forms_tests.tests.test_validators.TestFieldWithValidators.test_all_errors_get_reported": true,
+        "validation.test_picklable.PickableValidationErrorTestCase.test_validationerror_is_picklable": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_messages_concatenates_error_dict_values": true,
+        "validation.tests.BaseModelValidationTests.test_custom_validate_method": true,
+        "validation.test_error_messages.ValidationMessagesTest.test_autofield_field_raises_error_message": true,
+        "validators.tests.TestValidators.test_single_message": true,
+        "validation.tests.GenericIPAddressFieldTests.test_invalid_generic_ip_raises_error": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13220/dedup_patch_4.jsonl": {
+      "django__django-13220": {
+        "validators.tests.TestValidators.test_message_dict": true,
+        "validators.tests.TestValidators.test_message_list": true,
+        "forms_tests.tests.test_validators.TestFieldWithValidators.test_all_errors_get_reported": true,
+        "validation.test_picklable.PickableValidationErrorTestCase.test_validationerror_is_picklable": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_messages_concatenates_error_dict_values": true,
+        "validation.tests.BaseModelValidationTests.test_custom_validate_method": true,
+        "validation.test_error_messages.ValidationMessagesTest.test_autofield_field_raises_error_message": true,
+        "validators.tests.TestValidators.test_single_message": true,
+        "validation.tests.GenericIPAddressFieldTests.test_invalid_generic_ip_raises_error": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13220/dedup_patch_5.jsonl": {
+      "django__django-13220": {
+        "validators.tests.TestValidators.test_message_dict": true,
+        "validators.tests.TestValidators.test_message_list": true,
+        "forms_tests.tests.test_validators.TestFieldWithValidators.test_all_errors_get_reported": true,
+        "validation.test_picklable.PickableValidationErrorTestCase.test_validationerror_is_picklable": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_messages_concatenates_error_dict_values": true,
+        "validation.tests.BaseModelValidationTests.test_custom_validate_method": true,
+        "validation.test_error_messages.ValidationMessagesTest.test_autofield_field_raises_error_message": true,
+        "validators.tests.TestValidators.test_single_message": true,
+        "validation.tests.GenericIPAddressFieldTests.test_invalid_generic_ip_raises_error": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13220/dedup_patch_6.jsonl": {
+      "django__django-13220": {
+        "validators.tests.TestValidators.test_message_dict": true,
+        "validators.tests.TestValidators.test_message_list": true,
+        "forms_tests.tests.test_validators.TestFieldWithValidators.test_all_errors_get_reported": true,
+        "validation.test_picklable.PickableValidationErrorTestCase.test_validationerror_is_picklable": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_messages_concatenates_error_dict_values": true,
+        "validation.tests.BaseModelValidationTests.test_custom_validate_method": true,
+        "validation.test_error_messages.ValidationMessagesTest.test_autofield_field_raises_error_message": true,
+        "validators.tests.TestValidators.test_single_message": true,
+        "validation.tests.GenericIPAddressFieldTests.test_invalid_generic_ip_raises_error": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13220/dedup_patch_7.jsonl": {
+      "django__django-13220": {
+        "validators.tests.TestValidators.test_message_dict": true,
+        "validators.tests.TestValidators.test_message_list": true,
+        "forms_tests.tests.test_validators.TestFieldWithValidators.test_all_errors_get_reported": true,
+        "validation.test_picklable.PickableValidationErrorTestCase.test_validationerror_is_picklable": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_messages_concatenates_error_dict_values": true,
+        "validation.tests.BaseModelValidationTests.test_custom_validate_method": true,
+        "validation.test_error_messages.ValidationMessagesTest.test_autofield_field_raises_error_message": true,
+        "validators.tests.TestValidators.test_single_message": true,
+        "validation.tests.GenericIPAddressFieldTests.test_invalid_generic_ip_raises_error": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13220/dedup_patch_8.jsonl": {
+      "django__django-13220": {
+        "validators.tests.TestValidators.test_message_dict": false,
+        "validators.tests.TestValidators.test_message_list": false,
+        "forms_tests.tests.test_validators.TestFieldWithValidators.test_all_errors_get_reported": true,
+        "validation.test_picklable.PickableValidationErrorTestCase.test_validationerror_is_picklable": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_messages_concatenates_error_dict_values": true,
+        "validation.tests.BaseModelValidationTests.test_custom_validate_method": true,
+        "validation.test_error_messages.ValidationMessagesTest.test_autofield_field_raises_error_message": true,
+        "validators.tests.TestValidators.test_single_message": false,
+        "validation.tests.GenericIPAddressFieldTests.test_invalid_generic_ip_raises_error": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13220/dedup_patch_9.jsonl": {
+      "django__django-13220": {
+        "validators.tests.TestValidators.test_message_dict": true,
+        "validators.tests.TestValidators.test_message_list": true,
+        "forms_tests.tests.test_validators.TestFieldWithValidators.test_all_errors_get_reported": true,
+        "validation.test_picklable.PickableValidationErrorTestCase.test_validationerror_is_picklable": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_messages_concatenates_error_dict_values": true,
+        "validation.tests.BaseModelValidationTests.test_custom_validate_method": true,
+        "validation.test_error_messages.ValidationMessagesTest.test_autofield_field_raises_error_message": true,
+        "validators.tests.TestValidators.test_single_message": true,
+        "validation.tests.GenericIPAddressFieldTests.test_invalid_generic_ip_raises_error": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-13220": {
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#1": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#2": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#3": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#4": true,
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#5": true,
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#6": true,
+        "validators.tests.DeprecationTests.test_validation_error_equality#7": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#8": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#9": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#10": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13220/dedup_patch_0.jsonl": {
+      "django__django-13220": {
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#1": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#2": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#3": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#4": false,
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#5": false,
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#6": false,
+        "validators.tests.DeprecationTests.test_validation_error_equality#7": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#8": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#9": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13220/dedup_patch_1.jsonl": {
+      "django__django-13220": {
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#1": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#2": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#3": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#4": false,
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#5": false,
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#6": false,
+        "validators.tests.DeprecationTests.test_validation_error_equality#7": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#8": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#9": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13220/dedup_patch_11.jsonl": {
+      "django__django-13220": {
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#1": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#2": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#3": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#4": true,
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#5": false,
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#6": false,
+        "validators.tests.DeprecationTests.test_validation_error_equality#7": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#8": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#9": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#10": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13220/dedup_patch_13.jsonl": {
+      "django__django-13220": {
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#1": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#2": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#3": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#4": true,
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#5": false,
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#6": false,
+        "validators.tests.DeprecationTests.test_validation_error_equality#7": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#8": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#9": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13220/dedup_patch_14.jsonl": {
+      "django__django-13220": {
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#1": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#2": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#3": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#4": true,
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#5": true,
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#6": true,
+        "validators.tests.DeprecationTests.test_validation_error_equality#7": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#8": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#9": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#10": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13220/dedup_patch_15.jsonl": {
+      "django__django-13220": {
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#1": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#2": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#3": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#4": false,
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#5": false,
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#6": false,
+        "validators.tests.DeprecationTests.test_validation_error_equality#7": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#8": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#9": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13220/dedup_patch_16.jsonl": {
+      "django__django-13220": {
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#1": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#2": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#3": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#4": false,
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#5": false,
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#6": false,
+        "validators.tests.DeprecationTests.test_validation_error_equality#7": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#8": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#9": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13220/dedup_patch_17.jsonl": {
+      "django__django-13220": {
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#1": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#2": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#3": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#4": false,
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#5": false,
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#6": false,
+        "validators.tests.DeprecationTests.test_validation_error_equality#7": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#8": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#9": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13220/dedup_patch_18.jsonl": {
+      "django__django-13220": {
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#1": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#2": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#3": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#4": false,
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#5": false,
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#6": false,
+        "validators.tests.DeprecationTests.test_validation_error_equality#7": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#8": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#9": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13220/dedup_patch_19.jsonl": {
+      "django__django-13220": {
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#1": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#2": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#3": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#4": true,
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#5": true,
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#6": true,
+        "validators.tests.DeprecationTests.test_validation_error_equality#7": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#8": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#9": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#10": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13220/dedup_patch_2.jsonl": {
+      "django__django-13220": {
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#1": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#2": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#3": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#4": true,
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#5": true,
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#6": true,
+        "validators.tests.DeprecationTests.test_validation_error_equality#7": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#8": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#9": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#10": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13220/dedup_patch_20.jsonl": {
+      "django__django-13220": {
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#1": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#2": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#3": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#4": false,
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#5": false,
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#6": false,
+        "validators.tests.DeprecationTests.test_validation_error_equality#7": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#8": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#9": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13220/dedup_patch_21.jsonl": {
+      "django__django-13220": {
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#1": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#2": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#3": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#4": true,
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#5": false,
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#6": false,
+        "validators.tests.DeprecationTests.test_validation_error_equality#7": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#8": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#9": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13220/dedup_patch_22.jsonl": {
+      "django__django-13220": {
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#1": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#2": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#3": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#4": false,
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#5": false,
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#6": false,
+        "validators.tests.DeprecationTests.test_validation_error_equality#7": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#8": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#9": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13220/dedup_patch_23.jsonl": {
+      "django__django-13220": {
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#1": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#2": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#3": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#4": true,
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#5": false,
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#6": false,
+        "validators.tests.DeprecationTests.test_validation_error_equality#7": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#8": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#9": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13220/dedup_patch_24.jsonl": {
+      "django__django-13220": {
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#1": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#2": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#3": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#4": false,
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#5": false,
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#6": false,
+        "validators.tests.DeprecationTests.test_validation_error_equality#7": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#8": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#9": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13220/dedup_patch_25.jsonl": {
+      "django__django-13220": {
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#1": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#2": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#3": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#4": true,
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#5": false,
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#6": false,
+        "validators.tests.DeprecationTests.test_validation_error_equality#7": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#8": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#9": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13220/dedup_patch_26.jsonl": {
+      "django__django-13220": {
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#1": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#2": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#3": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#4": false,
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#5": false,
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#6": false,
+        "validators.tests.DeprecationTests.test_validation_error_equality#7": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#8": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#9": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13220/dedup_patch_27.jsonl": {
+      "django__django-13220": {
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#1": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#2": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#3": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#4": false,
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#5": false,
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#6": false,
+        "validators.tests.DeprecationTests.test_validation_error_equality#7": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#8": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#9": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13220/dedup_patch_28.jsonl": {
+      "django__django-13220": {
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#1": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#2": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#3": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#4": true,
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#5": true,
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#6": true,
+        "validators.tests.DeprecationTests.test_validation_error_equality#7": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#8": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#9": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#10": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13220/dedup_patch_29.jsonl": {
+      "django__django-13220": {
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#1": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#2": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#3": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#4": true,
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#5": false,
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#6": false,
+        "validators.tests.DeprecationTests.test_validation_error_equality#7": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#8": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#9": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13220/dedup_patch_3.jsonl": {
+      "django__django-13220": {
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#1": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#2": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#3": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#4": false,
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#5": false,
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#6": false,
+        "validators.tests.DeprecationTests.test_validation_error_equality#7": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#8": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#9": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13220/dedup_patch_31.jsonl": {
+      "django__django-13220": {
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#1": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#2": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#3": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#4": false,
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#5": false,
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#6": false,
+        "validators.tests.DeprecationTests.test_validation_error_equality#7": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#8": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#9": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13220/dedup_patch_32.jsonl": {
+      "django__django-13220": {
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#1": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#2": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#3": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#4": true,
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#5": false,
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#6": false,
+        "validators.tests.DeprecationTests.test_validation_error_equality#7": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#8": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#9": true,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#10": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13220/dedup_patch_33.jsonl": {
+      "django__django-13220": {
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#1": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#2": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#3": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#4": false,
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#5": false,
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#6": false,
+        "validators.tests.DeprecationTests.test_validation_error_equality#7": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#8": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#9": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13220/dedup_patch_4.jsonl": {
+      "django__django-13220": {
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#1": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#2": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#3": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#4": false,
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#5": false,
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#6": false,
+        "validators.tests.DeprecationTests.test_validation_error_equality#7": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#8": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#9": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13220/dedup_patch_5.jsonl": {
+      "django__django-13220": {
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#1": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#2": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#3": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#4": false,
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#5": false,
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#6": false,
+        "validators.tests.DeprecationTests.test_validation_error_equality#7": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#8": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#9": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13220/dedup_patch_6.jsonl": {
+      "django__django-13220": {
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#1": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#2": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#3": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#4": false,
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#5": false,
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#6": false,
+        "validators.tests.DeprecationTests.test_validation_error_equality#7": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#8": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#9": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13220/dedup_patch_7.jsonl": {
+      "django__django-13220": {
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#1": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#2": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#3": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#4": false,
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#5": false,
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#6": false,
+        "validators.tests.DeprecationTests.test_validation_error_equality#7": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#8": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#9": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13220/dedup_patch_9.jsonl": {
+      "django__django-13220": {
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#1": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#2": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#3": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#4": false,
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#5": false,
+        "validators.tests.TestValidatorEquality.test_validation_error_equality#6": false,
+        "validators.tests.DeprecationTests.test_validation_error_equality#7": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#8": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#9": false,
+        "test_exceptions.test_validation_error.TestValidationError.test_validation_error_equality#10": false
+      }
+    }
+  }
+}

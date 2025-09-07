@@ -1,0 +1,23 @@
+{
+  "regression": {
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-17655/dedup_patch_0.jsonl": {
+      "sympy__sympy-17655": {
+        "sympy/geometry/tests/test_entity.py::test_subs": true,
+        "sympy/geometry/tests/test_entity.py::test_reflect_entity_overrides": true,
+        "sympy/geometry/tests/test_point.py::test_point": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "sympy__sympy-17655": {
+        "sympy/geometry/tests/test_point.py::test_Point2D#1": false,
+        "sympy/geometry/tests/test_point.py::test_issue_11617#2": false,
+        "sympy/geometry/tests/test_point.py::test_direction_cosine#3": false,
+        "sympy/geometry/tests/test_point.py::test_direction_cosine#4": false,
+        "sympy/geometry/tests/test_point.py::test_Point2D#5": false,
+        "sympy/geometry/tests/test_point.py::test_issue_11617#6": false
+      }
+    }
+  }
+}

@@ -1,0 +1,858 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/django__django-13964/dedup_patch_0.jsonl": {
+      "django__django-13964": {
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multi_inheritance_field_clashes": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_eq": true,
+        "foreign_object.test_forms.FormsTests.test_foreign_object_form": true,
+        "model_fields.tests.ChoicesTests.test_check": true,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique": true,
+        "foreign_object.tests.MultiColumnFKTests.test_double_nested_query": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_shadow_related_name_when_set_to_none": true,
+        "validation.test_unique.PerformUniqueChecksTest.test_unique_for_date": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multiple_inheritance_cannot_shadow_concrete_inherited_field": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "validation.tests.BaseModelValidationTests.test_custom_validate_method": true,
+        "model_fields.tests.GetChoicesLimitChoicesToTests.test_get_choices": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_ordering_pk_desc": true,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique_together": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_related_objects_for_inherited_models": true,
+        "model_fields.tests.GetFieldDisplayTests.test_overriding_inherited_FIELD_display": true,
+        "foreign_object.tests.MultiColumnFKTests.test_inheritance": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13964/dedup_patch_1.jsonl": {
+      "django__django-13964": {
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multi_inheritance_field_clashes": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_eq": true,
+        "foreign_object.test_forms.FormsTests.test_foreign_object_form": true,
+        "model_fields.tests.ChoicesTests.test_check": true,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique": true,
+        "foreign_object.tests.MultiColumnFKTests.test_double_nested_query": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_shadow_related_name_when_set_to_none": true,
+        "validation.test_unique.PerformUniqueChecksTest.test_unique_for_date": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multiple_inheritance_cannot_shadow_concrete_inherited_field": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "validation.tests.BaseModelValidationTests.test_custom_validate_method": true,
+        "model_fields.tests.GetChoicesLimitChoicesToTests.test_get_choices": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_ordering_pk_desc": true,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique_together": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_related_objects_for_inherited_models": true,
+        "model_fields.tests.GetFieldDisplayTests.test_overriding_inherited_FIELD_display": true,
+        "foreign_object.tests.MultiColumnFKTests.test_inheritance": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13964/dedup_patch_10.jsonl": {
+      "django__django-13964": {
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multi_inheritance_field_clashes": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_eq": true,
+        "foreign_object.test_forms.FormsTests.test_foreign_object_form": true,
+        "model_fields.tests.ChoicesTests.test_check": true,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique": true,
+        "foreign_object.tests.MultiColumnFKTests.test_double_nested_query": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_shadow_related_name_when_set_to_none": true,
+        "validation.test_unique.PerformUniqueChecksTest.test_unique_for_date": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multiple_inheritance_cannot_shadow_concrete_inherited_field": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "validation.tests.BaseModelValidationTests.test_custom_validate_method": true,
+        "model_fields.tests.GetChoicesLimitChoicesToTests.test_get_choices": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_ordering_pk_desc": true,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique_together": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_related_objects_for_inherited_models": true,
+        "model_fields.tests.GetFieldDisplayTests.test_overriding_inherited_FIELD_display": true,
+        "foreign_object.tests.MultiColumnFKTests.test_inheritance": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13964/dedup_patch_11.jsonl": {
+      "django__django-13964": {
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multi_inheritance_field_clashes": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_eq": false,
+        "foreign_object.test_forms.FormsTests.test_foreign_object_form": false,
+        "model_fields.tests.ChoicesTests.test_check": true,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique": false,
+        "foreign_object.tests.MultiColumnFKTests.test_double_nested_query": false,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_shadow_related_name_when_set_to_none": true,
+        "validation.test_unique.PerformUniqueChecksTest.test_unique_for_date": false,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multiple_inheritance_cannot_shadow_concrete_inherited_field": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": false,
+        "validation.tests.BaseModelValidationTests.test_custom_validate_method": false,
+        "model_fields.tests.GetChoicesLimitChoicesToTests.test_get_choices": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_ordering_pk_desc": false,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique_together": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_related_objects_for_inherited_models": false,
+        "model_fields.tests.GetFieldDisplayTests.test_overriding_inherited_FIELD_display": true,
+        "foreign_object.tests.MultiColumnFKTests.test_inheritance": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13964/dedup_patch_12.jsonl": {
+      "django__django-13964": {
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multi_inheritance_field_clashes": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_eq": true,
+        "foreign_object.test_forms.FormsTests.test_foreign_object_form": true,
+        "model_fields.tests.ChoicesTests.test_check": true,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique": true,
+        "foreign_object.tests.MultiColumnFKTests.test_double_nested_query": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_shadow_related_name_when_set_to_none": true,
+        "validation.test_unique.PerformUniqueChecksTest.test_unique_for_date": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multiple_inheritance_cannot_shadow_concrete_inherited_field": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "validation.tests.BaseModelValidationTests.test_custom_validate_method": true,
+        "model_fields.tests.GetChoicesLimitChoicesToTests.test_get_choices": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_ordering_pk_desc": true,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique_together": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_related_objects_for_inherited_models": true,
+        "model_fields.tests.GetFieldDisplayTests.test_overriding_inherited_FIELD_display": true,
+        "foreign_object.tests.MultiColumnFKTests.test_inheritance": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13964/dedup_patch_13.jsonl": {
+      "django__django-13964": {
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multi_inheritance_field_clashes": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_eq": true,
+        "foreign_object.test_forms.FormsTests.test_foreign_object_form": true,
+        "model_fields.tests.ChoicesTests.test_check": true,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique": true,
+        "foreign_object.tests.MultiColumnFKTests.test_double_nested_query": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_shadow_related_name_when_set_to_none": true,
+        "validation.test_unique.PerformUniqueChecksTest.test_unique_for_date": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multiple_inheritance_cannot_shadow_concrete_inherited_field": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "validation.tests.BaseModelValidationTests.test_custom_validate_method": true,
+        "model_fields.tests.GetChoicesLimitChoicesToTests.test_get_choices": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_ordering_pk_desc": true,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique_together": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_related_objects_for_inherited_models": true,
+        "model_fields.tests.GetFieldDisplayTests.test_overriding_inherited_FIELD_display": true,
+        "foreign_object.tests.MultiColumnFKTests.test_inheritance": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13964/dedup_patch_14.jsonl": {
+      "django__django-13964": {
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multi_inheritance_field_clashes": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_eq": false,
+        "foreign_object.test_forms.FormsTests.test_foreign_object_form": false,
+        "model_fields.tests.ChoicesTests.test_check": true,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique": false,
+        "foreign_object.tests.MultiColumnFKTests.test_double_nested_query": false,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_shadow_related_name_when_set_to_none": true,
+        "validation.test_unique.PerformUniqueChecksTest.test_unique_for_date": false,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multiple_inheritance_cannot_shadow_concrete_inherited_field": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": false,
+        "validation.tests.BaseModelValidationTests.test_custom_validate_method": false,
+        "model_fields.tests.GetChoicesLimitChoicesToTests.test_get_choices": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_ordering_pk_desc": false,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique_together": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_related_objects_for_inherited_models": false,
+        "model_fields.tests.GetFieldDisplayTests.test_overriding_inherited_FIELD_display": true,
+        "foreign_object.tests.MultiColumnFKTests.test_inheritance": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13964/dedup_patch_15.jsonl": {
+      "django__django-13964": {
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multi_inheritance_field_clashes": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_eq": true,
+        "foreign_object.test_forms.FormsTests.test_foreign_object_form": true,
+        "model_fields.tests.ChoicesTests.test_check": true,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique": true,
+        "foreign_object.tests.MultiColumnFKTests.test_double_nested_query": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_shadow_related_name_when_set_to_none": true,
+        "validation.test_unique.PerformUniqueChecksTest.test_unique_for_date": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multiple_inheritance_cannot_shadow_concrete_inherited_field": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "validation.tests.BaseModelValidationTests.test_custom_validate_method": true,
+        "model_fields.tests.GetChoicesLimitChoicesToTests.test_get_choices": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_ordering_pk_desc": true,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique_together": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_related_objects_for_inherited_models": true,
+        "model_fields.tests.GetFieldDisplayTests.test_overriding_inherited_FIELD_display": true,
+        "foreign_object.tests.MultiColumnFKTests.test_inheritance": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13964/dedup_patch_16.jsonl": {
+      "django__django-13964": {
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multi_inheritance_field_clashes": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_eq": true,
+        "foreign_object.test_forms.FormsTests.test_foreign_object_form": true,
+        "model_fields.tests.ChoicesTests.test_check": true,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique": true,
+        "foreign_object.tests.MultiColumnFKTests.test_double_nested_query": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_shadow_related_name_when_set_to_none": true,
+        "validation.test_unique.PerformUniqueChecksTest.test_unique_for_date": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multiple_inheritance_cannot_shadow_concrete_inherited_field": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "validation.tests.BaseModelValidationTests.test_custom_validate_method": true,
+        "model_fields.tests.GetChoicesLimitChoicesToTests.test_get_choices": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_ordering_pk_desc": true,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique_together": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_related_objects_for_inherited_models": true,
+        "model_fields.tests.GetFieldDisplayTests.test_overriding_inherited_FIELD_display": true,
+        "foreign_object.tests.MultiColumnFKTests.test_inheritance": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13964/dedup_patch_17.jsonl": {
+      "django__django-13964": {
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multi_inheritance_field_clashes": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_eq": true,
+        "foreign_object.test_forms.FormsTests.test_foreign_object_form": true,
+        "model_fields.tests.ChoicesTests.test_check": true,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique": true,
+        "foreign_object.tests.MultiColumnFKTests.test_double_nested_query": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_shadow_related_name_when_set_to_none": true,
+        "validation.test_unique.PerformUniqueChecksTest.test_unique_for_date": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multiple_inheritance_cannot_shadow_concrete_inherited_field": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "validation.tests.BaseModelValidationTests.test_custom_validate_method": true,
+        "model_fields.tests.GetChoicesLimitChoicesToTests.test_get_choices": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_ordering_pk_desc": true,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique_together": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_related_objects_for_inherited_models": true,
+        "model_fields.tests.GetFieldDisplayTests.test_overriding_inherited_FIELD_display": true,
+        "foreign_object.tests.MultiColumnFKTests.test_inheritance": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13964/dedup_patch_18.jsonl": {
+      "django__django-13964": {
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multi_inheritance_field_clashes": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_eq": true,
+        "foreign_object.test_forms.FormsTests.test_foreign_object_form": true,
+        "model_fields.tests.ChoicesTests.test_check": true,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique": true,
+        "foreign_object.tests.MultiColumnFKTests.test_double_nested_query": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_shadow_related_name_when_set_to_none": true,
+        "validation.test_unique.PerformUniqueChecksTest.test_unique_for_date": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multiple_inheritance_cannot_shadow_concrete_inherited_field": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "validation.tests.BaseModelValidationTests.test_custom_validate_method": true,
+        "model_fields.tests.GetChoicesLimitChoicesToTests.test_get_choices": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_ordering_pk_desc": true,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique_together": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_related_objects_for_inherited_models": true,
+        "model_fields.tests.GetFieldDisplayTests.test_overriding_inherited_FIELD_display": true,
+        "foreign_object.tests.MultiColumnFKTests.test_inheritance": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13964/dedup_patch_19.jsonl": {
+      "django__django-13964": {
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multi_inheritance_field_clashes": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_eq": true,
+        "foreign_object.test_forms.FormsTests.test_foreign_object_form": true,
+        "model_fields.tests.ChoicesTests.test_check": true,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique": true,
+        "foreign_object.tests.MultiColumnFKTests.test_double_nested_query": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_shadow_related_name_when_set_to_none": true,
+        "validation.test_unique.PerformUniqueChecksTest.test_unique_for_date": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multiple_inheritance_cannot_shadow_concrete_inherited_field": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "validation.tests.BaseModelValidationTests.test_custom_validate_method": true,
+        "model_fields.tests.GetChoicesLimitChoicesToTests.test_get_choices": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_ordering_pk_desc": true,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique_together": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_related_objects_for_inherited_models": true,
+        "model_fields.tests.GetFieldDisplayTests.test_overriding_inherited_FIELD_display": true,
+        "foreign_object.tests.MultiColumnFKTests.test_inheritance": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13964/dedup_patch_2.jsonl": {
+      "django__django-13964": {
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multi_inheritance_field_clashes": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_eq": true,
+        "foreign_object.test_forms.FormsTests.test_foreign_object_form": true,
+        "model_fields.tests.ChoicesTests.test_check": true,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique": true,
+        "foreign_object.tests.MultiColumnFKTests.test_double_nested_query": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_shadow_related_name_when_set_to_none": true,
+        "validation.test_unique.PerformUniqueChecksTest.test_unique_for_date": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multiple_inheritance_cannot_shadow_concrete_inherited_field": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "validation.tests.BaseModelValidationTests.test_custom_validate_method": true,
+        "model_fields.tests.GetChoicesLimitChoicesToTests.test_get_choices": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_ordering_pk_desc": true,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique_together": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_related_objects_for_inherited_models": true,
+        "model_fields.tests.GetFieldDisplayTests.test_overriding_inherited_FIELD_display": true,
+        "foreign_object.tests.MultiColumnFKTests.test_inheritance": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13964/dedup_patch_20.jsonl": {
+      "django__django-13964": {
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multi_inheritance_field_clashes": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_eq": false,
+        "foreign_object.test_forms.FormsTests.test_foreign_object_form": false,
+        "model_fields.tests.ChoicesTests.test_check": true,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique": false,
+        "foreign_object.tests.MultiColumnFKTests.test_double_nested_query": false,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_shadow_related_name_when_set_to_none": true,
+        "validation.test_unique.PerformUniqueChecksTest.test_unique_for_date": false,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multiple_inheritance_cannot_shadow_concrete_inherited_field": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": false,
+        "validation.tests.BaseModelValidationTests.test_custom_validate_method": false,
+        "model_fields.tests.GetChoicesLimitChoicesToTests.test_get_choices": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_ordering_pk_desc": false,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique_together": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_related_objects_for_inherited_models": false,
+        "model_fields.tests.GetFieldDisplayTests.test_overriding_inherited_FIELD_display": true,
+        "foreign_object.tests.MultiColumnFKTests.test_inheritance": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13964/dedup_patch_21.jsonl": {
+      "django__django-13964": {
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multi_inheritance_field_clashes": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_eq": false,
+        "foreign_object.test_forms.FormsTests.test_foreign_object_form": false,
+        "model_fields.tests.ChoicesTests.test_check": true,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique": false,
+        "foreign_object.tests.MultiColumnFKTests.test_double_nested_query": false,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_shadow_related_name_when_set_to_none": true,
+        "validation.test_unique.PerformUniqueChecksTest.test_unique_for_date": false,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multiple_inheritance_cannot_shadow_concrete_inherited_field": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": false,
+        "validation.tests.BaseModelValidationTests.test_custom_validate_method": false,
+        "model_fields.tests.GetChoicesLimitChoicesToTests.test_get_choices": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_ordering_pk_desc": false,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique_together": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_related_objects_for_inherited_models": false,
+        "model_fields.tests.GetFieldDisplayTests.test_overriding_inherited_FIELD_display": true,
+        "foreign_object.tests.MultiColumnFKTests.test_inheritance": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13964/dedup_patch_22.jsonl": {
+      "django__django-13964": {
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multi_inheritance_field_clashes": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_eq": false,
+        "foreign_object.test_forms.FormsTests.test_foreign_object_form": false,
+        "model_fields.tests.ChoicesTests.test_check": true,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique": false,
+        "foreign_object.tests.MultiColumnFKTests.test_double_nested_query": false,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_shadow_related_name_when_set_to_none": true,
+        "validation.test_unique.PerformUniqueChecksTest.test_unique_for_date": false,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multiple_inheritance_cannot_shadow_concrete_inherited_field": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": false,
+        "validation.tests.BaseModelValidationTests.test_custom_validate_method": false,
+        "model_fields.tests.GetChoicesLimitChoicesToTests.test_get_choices": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_ordering_pk_desc": false,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique_together": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_related_objects_for_inherited_models": false,
+        "model_fields.tests.GetFieldDisplayTests.test_overriding_inherited_FIELD_display": true,
+        "foreign_object.tests.MultiColumnFKTests.test_inheritance": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13964/dedup_patch_23.jsonl": {
+      "django__django-13964": {
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multi_inheritance_field_clashes": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_eq": false,
+        "foreign_object.test_forms.FormsTests.test_foreign_object_form": false,
+        "model_fields.tests.ChoicesTests.test_check": true,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique": false,
+        "foreign_object.tests.MultiColumnFKTests.test_double_nested_query": false,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_shadow_related_name_when_set_to_none": true,
+        "validation.test_unique.PerformUniqueChecksTest.test_unique_for_date": false,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multiple_inheritance_cannot_shadow_concrete_inherited_field": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": false,
+        "validation.tests.BaseModelValidationTests.test_custom_validate_method": false,
+        "model_fields.tests.GetChoicesLimitChoicesToTests.test_get_choices": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_ordering_pk_desc": false,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique_together": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_related_objects_for_inherited_models": false,
+        "model_fields.tests.GetFieldDisplayTests.test_overriding_inherited_FIELD_display": true,
+        "foreign_object.tests.MultiColumnFKTests.test_inheritance": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13964/dedup_patch_24.jsonl": {
+      "django__django-13964": {
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multi_inheritance_field_clashes": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_eq": false,
+        "foreign_object.test_forms.FormsTests.test_foreign_object_form": false,
+        "model_fields.tests.ChoicesTests.test_check": true,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique": false,
+        "foreign_object.tests.MultiColumnFKTests.test_double_nested_query": false,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_shadow_related_name_when_set_to_none": true,
+        "validation.test_unique.PerformUniqueChecksTest.test_unique_for_date": false,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multiple_inheritance_cannot_shadow_concrete_inherited_field": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": false,
+        "validation.tests.BaseModelValidationTests.test_custom_validate_method": false,
+        "model_fields.tests.GetChoicesLimitChoicesToTests.test_get_choices": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_ordering_pk_desc": false,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique_together": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_related_objects_for_inherited_models": false,
+        "model_fields.tests.GetFieldDisplayTests.test_overriding_inherited_FIELD_display": true,
+        "foreign_object.tests.MultiColumnFKTests.test_inheritance": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13964/dedup_patch_25.jsonl": {
+      "django__django-13964": {
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multi_inheritance_field_clashes": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_eq": false,
+        "foreign_object.test_forms.FormsTests.test_foreign_object_form": false,
+        "model_fields.tests.ChoicesTests.test_check": true,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique": false,
+        "foreign_object.tests.MultiColumnFKTests.test_double_nested_query": false,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_shadow_related_name_when_set_to_none": true,
+        "validation.test_unique.PerformUniqueChecksTest.test_unique_for_date": false,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multiple_inheritance_cannot_shadow_concrete_inherited_field": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": false,
+        "validation.tests.BaseModelValidationTests.test_custom_validate_method": false,
+        "model_fields.tests.GetChoicesLimitChoicesToTests.test_get_choices": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_ordering_pk_desc": false,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique_together": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_related_objects_for_inherited_models": false,
+        "model_fields.tests.GetFieldDisplayTests.test_overriding_inherited_FIELD_display": true,
+        "foreign_object.tests.MultiColumnFKTests.test_inheritance": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13964/dedup_patch_26.jsonl": {
+      "django__django-13964": {
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multi_inheritance_field_clashes": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_eq": true,
+        "foreign_object.test_forms.FormsTests.test_foreign_object_form": true,
+        "model_fields.tests.ChoicesTests.test_check": true,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique": true,
+        "foreign_object.tests.MultiColumnFKTests.test_double_nested_query": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_shadow_related_name_when_set_to_none": true,
+        "validation.test_unique.PerformUniqueChecksTest.test_unique_for_date": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multiple_inheritance_cannot_shadow_concrete_inherited_field": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "validation.tests.BaseModelValidationTests.test_custom_validate_method": true,
+        "model_fields.tests.GetChoicesLimitChoicesToTests.test_get_choices": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_ordering_pk_desc": true,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique_together": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_related_objects_for_inherited_models": true,
+        "model_fields.tests.GetFieldDisplayTests.test_overriding_inherited_FIELD_display": true,
+        "foreign_object.tests.MultiColumnFKTests.test_inheritance": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13964/dedup_patch_27.jsonl": {
+      "django__django-13964": {
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multi_inheritance_field_clashes": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_eq": false,
+        "foreign_object.test_forms.FormsTests.test_foreign_object_form": false,
+        "model_fields.tests.ChoicesTests.test_check": true,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique": false,
+        "foreign_object.tests.MultiColumnFKTests.test_double_nested_query": false,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_shadow_related_name_when_set_to_none": true,
+        "validation.test_unique.PerformUniqueChecksTest.test_unique_for_date": false,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multiple_inheritance_cannot_shadow_concrete_inherited_field": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": false,
+        "validation.tests.BaseModelValidationTests.test_custom_validate_method": false,
+        "model_fields.tests.GetChoicesLimitChoicesToTests.test_get_choices": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_ordering_pk_desc": false,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique_together": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_related_objects_for_inherited_models": false,
+        "model_fields.tests.GetFieldDisplayTests.test_overriding_inherited_FIELD_display": true,
+        "foreign_object.tests.MultiColumnFKTests.test_inheritance": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13964/dedup_patch_28.jsonl": {
+      "django__django-13964": {
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multi_inheritance_field_clashes": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_eq": false,
+        "foreign_object.test_forms.FormsTests.test_foreign_object_form": false,
+        "model_fields.tests.ChoicesTests.test_check": true,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique": false,
+        "foreign_object.tests.MultiColumnFKTests.test_double_nested_query": false,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_shadow_related_name_when_set_to_none": true,
+        "validation.test_unique.PerformUniqueChecksTest.test_unique_for_date": false,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multiple_inheritance_cannot_shadow_concrete_inherited_field": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": false,
+        "validation.tests.BaseModelValidationTests.test_custom_validate_method": false,
+        "model_fields.tests.GetChoicesLimitChoicesToTests.test_get_choices": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_ordering_pk_desc": false,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique_together": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_related_objects_for_inherited_models": false,
+        "model_fields.tests.GetFieldDisplayTests.test_overriding_inherited_FIELD_display": true,
+        "foreign_object.tests.MultiColumnFKTests.test_inheritance": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13964/dedup_patch_29.jsonl": {
+      "django__django-13964": {
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multi_inheritance_field_clashes": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_eq": true,
+        "foreign_object.test_forms.FormsTests.test_foreign_object_form": true,
+        "model_fields.tests.ChoicesTests.test_check": true,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique": true,
+        "foreign_object.tests.MultiColumnFKTests.test_double_nested_query": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_shadow_related_name_when_set_to_none": true,
+        "validation.test_unique.PerformUniqueChecksTest.test_unique_for_date": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multiple_inheritance_cannot_shadow_concrete_inherited_field": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "validation.tests.BaseModelValidationTests.test_custom_validate_method": true,
+        "model_fields.tests.GetChoicesLimitChoicesToTests.test_get_choices": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_ordering_pk_desc": true,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique_together": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_related_objects_for_inherited_models": true,
+        "model_fields.tests.GetFieldDisplayTests.test_overriding_inherited_FIELD_display": true,
+        "foreign_object.tests.MultiColumnFKTests.test_inheritance": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13964/dedup_patch_3.jsonl": {
+      "django__django-13964": {
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multi_inheritance_field_clashes": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_eq": false,
+        "foreign_object.test_forms.FormsTests.test_foreign_object_form": false,
+        "model_fields.tests.ChoicesTests.test_check": true,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique": false,
+        "foreign_object.tests.MultiColumnFKTests.test_double_nested_query": false,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_shadow_related_name_when_set_to_none": true,
+        "validation.test_unique.PerformUniqueChecksTest.test_unique_for_date": false,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multiple_inheritance_cannot_shadow_concrete_inherited_field": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": false,
+        "validation.tests.BaseModelValidationTests.test_custom_validate_method": false,
+        "model_fields.tests.GetChoicesLimitChoicesToTests.test_get_choices": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_ordering_pk_desc": false,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique_together": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_related_objects_for_inherited_models": false,
+        "model_fields.tests.GetFieldDisplayTests.test_overriding_inherited_FIELD_display": true,
+        "foreign_object.tests.MultiColumnFKTests.test_inheritance": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13964/dedup_patch_30.jsonl": {
+      "django__django-13964": {
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multi_inheritance_field_clashes": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_eq": true,
+        "foreign_object.test_forms.FormsTests.test_foreign_object_form": true,
+        "model_fields.tests.ChoicesTests.test_check": true,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique": true,
+        "foreign_object.tests.MultiColumnFKTests.test_double_nested_query": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_shadow_related_name_when_set_to_none": true,
+        "validation.test_unique.PerformUniqueChecksTest.test_unique_for_date": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multiple_inheritance_cannot_shadow_concrete_inherited_field": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "validation.tests.BaseModelValidationTests.test_custom_validate_method": true,
+        "model_fields.tests.GetChoicesLimitChoicesToTests.test_get_choices": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_ordering_pk_desc": true,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique_together": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_related_objects_for_inherited_models": true,
+        "model_fields.tests.GetFieldDisplayTests.test_overriding_inherited_FIELD_display": true,
+        "foreign_object.tests.MultiColumnFKTests.test_inheritance": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13964/dedup_patch_31.jsonl": {
+      "django__django-13964": {
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multi_inheritance_field_clashes": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_eq": true,
+        "foreign_object.test_forms.FormsTests.test_foreign_object_form": true,
+        "model_fields.tests.ChoicesTests.test_check": true,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique": true,
+        "foreign_object.tests.MultiColumnFKTests.test_double_nested_query": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_shadow_related_name_when_set_to_none": true,
+        "validation.test_unique.PerformUniqueChecksTest.test_unique_for_date": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multiple_inheritance_cannot_shadow_concrete_inherited_field": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "validation.tests.BaseModelValidationTests.test_custom_validate_method": true,
+        "model_fields.tests.GetChoicesLimitChoicesToTests.test_get_choices": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_ordering_pk_desc": true,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique_together": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_related_objects_for_inherited_models": true,
+        "model_fields.tests.GetFieldDisplayTests.test_overriding_inherited_FIELD_display": true,
+        "foreign_object.tests.MultiColumnFKTests.test_inheritance": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13964/dedup_patch_4.jsonl": {
+      "django__django-13964": {
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multi_inheritance_field_clashes": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_eq": false,
+        "foreign_object.test_forms.FormsTests.test_foreign_object_form": false,
+        "model_fields.tests.ChoicesTests.test_check": true,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique": false,
+        "foreign_object.tests.MultiColumnFKTests.test_double_nested_query": false,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_shadow_related_name_when_set_to_none": true,
+        "validation.test_unique.PerformUniqueChecksTest.test_unique_for_date": false,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multiple_inheritance_cannot_shadow_concrete_inherited_field": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": false,
+        "validation.tests.BaseModelValidationTests.test_custom_validate_method": false,
+        "model_fields.tests.GetChoicesLimitChoicesToTests.test_get_choices": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_ordering_pk_desc": false,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique_together": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_related_objects_for_inherited_models": false,
+        "model_fields.tests.GetFieldDisplayTests.test_overriding_inherited_FIELD_display": true,
+        "foreign_object.tests.MultiColumnFKTests.test_inheritance": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13964/dedup_patch_5.jsonl": {
+      "django__django-13964": {
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multi_inheritance_field_clashes": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_eq": true,
+        "foreign_object.test_forms.FormsTests.test_foreign_object_form": true,
+        "model_fields.tests.ChoicesTests.test_check": true,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique": true,
+        "foreign_object.tests.MultiColumnFKTests.test_double_nested_query": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_shadow_related_name_when_set_to_none": true,
+        "validation.test_unique.PerformUniqueChecksTest.test_unique_for_date": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multiple_inheritance_cannot_shadow_concrete_inherited_field": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "validation.tests.BaseModelValidationTests.test_custom_validate_method": true,
+        "model_fields.tests.GetChoicesLimitChoicesToTests.test_get_choices": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_ordering_pk_desc": true,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique_together": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_related_objects_for_inherited_models": true,
+        "model_fields.tests.GetFieldDisplayTests.test_overriding_inherited_FIELD_display": true,
+        "foreign_object.tests.MultiColumnFKTests.test_inheritance": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13964/dedup_patch_6.jsonl": {
+      "django__django-13964": {
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multi_inheritance_field_clashes": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_eq": false,
+        "foreign_object.test_forms.FormsTests.test_foreign_object_form": false,
+        "model_fields.tests.ChoicesTests.test_check": true,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique": false,
+        "foreign_object.tests.MultiColumnFKTests.test_double_nested_query": false,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_shadow_related_name_when_set_to_none": true,
+        "validation.test_unique.PerformUniqueChecksTest.test_unique_for_date": false,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multiple_inheritance_cannot_shadow_concrete_inherited_field": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": false,
+        "validation.tests.BaseModelValidationTests.test_custom_validate_method": false,
+        "model_fields.tests.GetChoicesLimitChoicesToTests.test_get_choices": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_ordering_pk_desc": false,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique_together": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_related_objects_for_inherited_models": false,
+        "model_fields.tests.GetFieldDisplayTests.test_overriding_inherited_FIELD_display": true,
+        "foreign_object.tests.MultiColumnFKTests.test_inheritance": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13964/dedup_patch_7.jsonl": {
+      "django__django-13964": {
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multi_inheritance_field_clashes": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_eq": false,
+        "foreign_object.test_forms.FormsTests.test_foreign_object_form": false,
+        "model_fields.tests.ChoicesTests.test_check": true,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique": false,
+        "foreign_object.tests.MultiColumnFKTests.test_double_nested_query": false,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_shadow_related_name_when_set_to_none": true,
+        "validation.test_unique.PerformUniqueChecksTest.test_unique_for_date": false,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multiple_inheritance_cannot_shadow_concrete_inherited_field": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": false,
+        "validation.tests.BaseModelValidationTests.test_custom_validate_method": false,
+        "model_fields.tests.GetChoicesLimitChoicesToTests.test_get_choices": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_ordering_pk_desc": false,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique_together": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_related_objects_for_inherited_models": false,
+        "model_fields.tests.GetFieldDisplayTests.test_overriding_inherited_FIELD_display": true,
+        "foreign_object.tests.MultiColumnFKTests.test_inheritance": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13964/dedup_patch_8.jsonl": {
+      "django__django-13964": {
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multi_inheritance_field_clashes": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_eq": false,
+        "foreign_object.test_forms.FormsTests.test_foreign_object_form": false,
+        "model_fields.tests.ChoicesTests.test_check": true,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique": false,
+        "foreign_object.tests.MultiColumnFKTests.test_double_nested_query": false,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_shadow_related_name_when_set_to_none": true,
+        "validation.test_unique.PerformUniqueChecksTest.test_unique_for_date": false,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multiple_inheritance_cannot_shadow_concrete_inherited_field": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": false,
+        "validation.tests.BaseModelValidationTests.test_custom_validate_method": false,
+        "model_fields.tests.GetChoicesLimitChoicesToTests.test_get_choices": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_ordering_pk_desc": false,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique_together": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_related_objects_for_inherited_models": false,
+        "model_fields.tests.GetFieldDisplayTests.test_overriding_inherited_FIELD_display": true,
+        "foreign_object.tests.MultiColumnFKTests.test_inheritance": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13964/dedup_patch_9.jsonl": {
+      "django__django-13964": {
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multi_inheritance_field_clashes": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_eq": true,
+        "foreign_object.test_forms.FormsTests.test_foreign_object_form": true,
+        "model_fields.tests.ChoicesTests.test_check": true,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique": true,
+        "foreign_object.tests.MultiColumnFKTests.test_double_nested_query": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_shadow_related_name_when_set_to_none": true,
+        "validation.test_unique.PerformUniqueChecksTest.test_unique_for_date": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multiple_inheritance_cannot_shadow_concrete_inherited_field": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "validation.tests.BaseModelValidationTests.test_custom_validate_method": true,
+        "model_fields.tests.GetChoicesLimitChoicesToTests.test_get_choices": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_ordering_pk_desc": true,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique_together": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_related_objects_for_inherited_models": true,
+        "model_fields.tests.GetFieldDisplayTests.test_overriding_inherited_FIELD_display": true,
+        "foreign_object.tests.MultiColumnFKTests.test_inheritance": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-13964": {
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_to_non_numeric_pk_update_after_assignment#1": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_assignment_with_non_numeric_pk#2": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_to_non_numeric_pk_parent_set_after_creation#3": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_non_numeric_pk_parent_save_after_child_assignment#4": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_to_non_numeric_pk_parent_save_after_assignment#5": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_assignment_with_non_numeric_pk#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13964/dedup_patch_0.jsonl": {
+      "django__django-13964": {
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_to_non_numeric_pk_update_after_assignment#1": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_assignment_with_non_numeric_pk#2": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_to_non_numeric_pk_parent_set_after_creation#3": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_non_numeric_pk_parent_save_after_child_assignment#4": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_to_non_numeric_pk_parent_save_after_assignment#5": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_assignment_with_non_numeric_pk#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13964/dedup_patch_1.jsonl": {
+      "django__django-13964": {
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_to_non_numeric_pk_update_after_assignment#1": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_assignment_with_non_numeric_pk#2": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_to_non_numeric_pk_parent_set_after_creation#3": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_non_numeric_pk_parent_save_after_child_assignment#4": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_to_non_numeric_pk_parent_save_after_assignment#5": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_assignment_with_non_numeric_pk#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13964/dedup_patch_10.jsonl": {
+      "django__django-13964": {
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_to_non_numeric_pk_update_after_assignment#1": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_assignment_with_non_numeric_pk#2": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_to_non_numeric_pk_parent_set_after_creation#3": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_non_numeric_pk_parent_save_after_child_assignment#4": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_to_non_numeric_pk_parent_save_after_assignment#5": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_assignment_with_non_numeric_pk#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13964/dedup_patch_12.jsonl": {
+      "django__django-13964": {
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_to_non_numeric_pk_update_after_assignment#1": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_assignment_with_non_numeric_pk#2": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_to_non_numeric_pk_parent_set_after_creation#3": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_non_numeric_pk_parent_save_after_child_assignment#4": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_to_non_numeric_pk_parent_save_after_assignment#5": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_assignment_with_non_numeric_pk#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13964/dedup_patch_13.jsonl": {
+      "django__django-13964": {
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_to_non_numeric_pk_update_after_assignment#1": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_assignment_with_non_numeric_pk#2": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_to_non_numeric_pk_parent_set_after_creation#3": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_non_numeric_pk_parent_save_after_child_assignment#4": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_to_non_numeric_pk_parent_save_after_assignment#5": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_assignment_with_non_numeric_pk#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13964/dedup_patch_15.jsonl": {
+      "django__django-13964": {
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_to_non_numeric_pk_update_after_assignment#1": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_assignment_with_non_numeric_pk#2": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_to_non_numeric_pk_parent_set_after_creation#3": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_non_numeric_pk_parent_save_after_child_assignment#4": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_to_non_numeric_pk_parent_save_after_assignment#5": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_assignment_with_non_numeric_pk#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13964/dedup_patch_16.jsonl": {
+      "django__django-13964": {
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_to_non_numeric_pk_update_after_assignment#1": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_assignment_with_non_numeric_pk#2": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_to_non_numeric_pk_parent_set_after_creation#3": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_non_numeric_pk_parent_save_after_child_assignment#4": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_to_non_numeric_pk_parent_save_after_assignment#5": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_assignment_with_non_numeric_pk#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13964/dedup_patch_17.jsonl": {
+      "django__django-13964": {
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_to_non_numeric_pk_update_after_assignment#1": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_assignment_with_non_numeric_pk#2": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_to_non_numeric_pk_parent_set_after_creation#3": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_non_numeric_pk_parent_save_after_child_assignment#4": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_to_non_numeric_pk_parent_save_after_assignment#5": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_assignment_with_non_numeric_pk#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13964/dedup_patch_18.jsonl": {
+      "django__django-13964": {
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_to_non_numeric_pk_update_after_assignment#1": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_assignment_with_non_numeric_pk#2": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_to_non_numeric_pk_parent_set_after_creation#3": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_non_numeric_pk_parent_save_after_child_assignment#4": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_to_non_numeric_pk_parent_save_after_assignment#5": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_assignment_with_non_numeric_pk#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13964/dedup_patch_19.jsonl": {
+      "django__django-13964": {
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_to_non_numeric_pk_update_after_assignment#1": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_assignment_with_non_numeric_pk#2": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_to_non_numeric_pk_parent_set_after_creation#3": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_non_numeric_pk_parent_save_after_child_assignment#4": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_to_non_numeric_pk_parent_save_after_assignment#5": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_assignment_with_non_numeric_pk#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13964/dedup_patch_2.jsonl": {
+      "django__django-13964": {
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_to_non_numeric_pk_update_after_assignment#1": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_assignment_with_non_numeric_pk#2": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_to_non_numeric_pk_parent_set_after_creation#3": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_non_numeric_pk_parent_save_after_child_assignment#4": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_to_non_numeric_pk_parent_save_after_assignment#5": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_assignment_with_non_numeric_pk#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13964/dedup_patch_26.jsonl": {
+      "django__django-13964": {
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_to_non_numeric_pk_update_after_assignment#1": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_assignment_with_non_numeric_pk#2": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_to_non_numeric_pk_parent_set_after_creation#3": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_non_numeric_pk_parent_save_after_child_assignment#4": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_to_non_numeric_pk_parent_save_after_assignment#5": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_assignment_with_non_numeric_pk#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13964/dedup_patch_29.jsonl": {
+      "django__django-13964": {
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_to_non_numeric_pk_update_after_assignment#1": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_assignment_with_non_numeric_pk#2": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_to_non_numeric_pk_parent_set_after_creation#3": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_non_numeric_pk_parent_save_after_child_assignment#4": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_to_non_numeric_pk_parent_save_after_assignment#5": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_assignment_with_non_numeric_pk#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13964/dedup_patch_30.jsonl": {
+      "django__django-13964": {
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_to_non_numeric_pk_update_after_assignment#1": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_assignment_with_non_numeric_pk#2": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_to_non_numeric_pk_parent_set_after_creation#3": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_non_numeric_pk_parent_save_after_child_assignment#4": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_to_non_numeric_pk_parent_save_after_assignment#5": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_assignment_with_non_numeric_pk#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13964/dedup_patch_31.jsonl": {
+      "django__django-13964": {
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_to_non_numeric_pk_update_after_assignment#1": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_assignment_with_non_numeric_pk#2": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_to_non_numeric_pk_parent_set_after_creation#3": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_non_numeric_pk_parent_save_after_child_assignment#4": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_to_non_numeric_pk_parent_save_after_assignment#5": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_assignment_with_non_numeric_pk#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13964/dedup_patch_5.jsonl": {
+      "django__django-13964": {
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_to_non_numeric_pk_update_after_assignment#1": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_assignment_with_non_numeric_pk#2": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_to_non_numeric_pk_parent_set_after_creation#3": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_non_numeric_pk_parent_save_after_child_assignment#4": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_to_non_numeric_pk_parent_save_after_assignment#5": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_assignment_with_non_numeric_pk#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13964/dedup_patch_9.jsonl": {
+      "django__django-13964": {
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_to_non_numeric_pk_update_after_assignment#1": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_assignment_with_non_numeric_pk#2": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_to_non_numeric_pk_parent_set_after_creation#3": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_non_numeric_pk_parent_save_after_child_assignment#4": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_to_non_numeric_pk_parent_save_after_assignment#5": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_fk_assignment_with_non_numeric_pk#6": false
+      }
+    }
+  }
+}

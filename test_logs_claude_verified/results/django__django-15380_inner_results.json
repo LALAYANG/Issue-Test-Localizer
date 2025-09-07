@@ -1,0 +1,37 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/django__django-15380/dedup_patch_0.jsonl": {
+      "django__django-15380": {
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_model_rename_interactive": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_delete": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_to_managed": true,
+        "migrations.test_autodetector.AutodetectorTests.test_managed_to_unmanaged": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy_proxy": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_related_field_preserved_db_column": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-15380": {
+        "migrations.test_autodetector.AutodetectorTests.test_rename_model_and_field#1": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_model_and_field#2": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_model_and_field#3": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_model_and_field#4": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_model_and_field#5": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_model_and_field#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15380/dedup_patch_0.jsonl": {
+      "django__django-15380": {
+        "migrations.test_autodetector.AutodetectorTests.test_rename_model_and_field#1": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_model_and_field#2": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_model_and_field#3": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_model_and_field#4": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_model_and_field#5": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_model_and_field#6": true
+      }
+    }
+  }
+}

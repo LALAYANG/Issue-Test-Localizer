@@ -1,0 +1,29 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/django__django-13410/dedup_patch_0.jsonl": {
+      "django__django-13410": {
+        "file_storage.tests.FileStorageTests.test_file_save_with_path": true,
+        "file_storage.tests.FileStorageTests.test_makedirs_race_handling": true,
+        "file_storage.tests.FileStorageTests.test_remove_race_handling": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-13410": {
+        "file_storage.tests.FileStorageTests.test_posix_file_locking#1": true,
+        "file_storage.tests.FileLikeObjectTestCase.test_lock_nonblocking_returns_correct_value#2": true,
+        "file_storage.tests.FileStorageTests.test_posix_file_locking#3": true,
+        "file_storage.tests.FileLikeObjectTestCase.test_lock_nonblocking#4": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13410/dedup_patch_0.jsonl": {
+      "django__django-13410": {
+        "file_storage.tests.FileStorageTests.test_posix_file_locking#1": true,
+        "file_storage.tests.FileLikeObjectTestCase.test_lock_nonblocking_returns_correct_value#2": true,
+        "file_storage.tests.FileStorageTests.test_posix_file_locking#3": true,
+        "file_storage.tests.FileLikeObjectTestCase.test_lock_nonblocking#4": true
+      }
+    }
+  }
+}

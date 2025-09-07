@@ -1,0 +1,999 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/django__django-16032/dedup_patch_0.jsonl": {
+      "django__django-16032": {
+        "queries.tests.Queries4Tests.test_ticket24525": true,
+        "aggregation.tests.AggregateTestCase.test_exists_none_with_aggregate": true,
+        "queries.tests.Queries1Tests.test_ticket7235": true,
+        "queries.test_query.TestQueryNoModel.test_q_annotation": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "lookup.tests.LookupTests.test_exact_query_rhs_with_selected_columns": true,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_empty_expression_annotation": true,
+        "lookup.tests.LookupTests.test_isnull_non_boolean_value": true,
+        "queries.tests.QuerySetSupportsPythonIdioms.test_slicing_cannot_filter_queryset_once_sliced": true,
+        "aggregation.tests.AggregateTestCase.test_empty_result_optimization": true,
+        "annotations.tests.AliasTests.test_filter_alias_agg_with_double_f": true,
+        "queries.tests.ExcludeTests.test_exclude_nullable_fields": true,
+        "aggregation.tests.AggregateTestCase.test_complex_aggregations_require_kwarg": true,
+        "lookup.tests.LookupTests.test_relation_nested_lookup_error": true,
+        "queries.tests.ExcludeTests.test_ticket14511": true,
+        "queries.tests.Queries1Tests.test_ticket_20250": true,
+        "queries.tests.Queries1Tests.test_ticket10432": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery": true,
+        "queries.test_query.TestQuery.test_filter_non_conditional": true,
+        "queries.tests.Queries1Tests.test_error_raised_on_filter_with_dictionary": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "queries.test_query.TestQuery.test_foreign_key": true,
+        "queries.test_query.TestQueryNoModel.test_subquery_annotation": true,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_empty_queryset_annotation": true,
+        "queries.test_query.TestQueryNoModel.test_rawsql_annotation": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16032/dedup_patch_1.jsonl": {
+      "django__django-16032": {
+        "queries.tests.Queries4Tests.test_ticket24525": true,
+        "aggregation.tests.AggregateTestCase.test_exists_none_with_aggregate": true,
+        "queries.tests.Queries1Tests.test_ticket7235": true,
+        "queries.test_query.TestQueryNoModel.test_q_annotation": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "lookup.tests.LookupTests.test_exact_query_rhs_with_selected_columns": true,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_empty_expression_annotation": true,
+        "lookup.tests.LookupTests.test_isnull_non_boolean_value": true,
+        "queries.tests.QuerySetSupportsPythonIdioms.test_slicing_cannot_filter_queryset_once_sliced": true,
+        "aggregation.tests.AggregateTestCase.test_empty_result_optimization": true,
+        "annotations.tests.AliasTests.test_filter_alias_agg_with_double_f": true,
+        "queries.tests.ExcludeTests.test_exclude_nullable_fields": true,
+        "aggregation.tests.AggregateTestCase.test_complex_aggregations_require_kwarg": true,
+        "lookup.tests.LookupTests.test_relation_nested_lookup_error": true,
+        "queries.tests.ExcludeTests.test_ticket14511": true,
+        "queries.tests.Queries1Tests.test_ticket_20250": true,
+        "queries.tests.Queries1Tests.test_ticket10432": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery": true,
+        "queries.test_query.TestQuery.test_filter_non_conditional": true,
+        "queries.tests.Queries1Tests.test_error_raised_on_filter_with_dictionary": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "queries.test_query.TestQuery.test_foreign_key": true,
+        "queries.test_query.TestQueryNoModel.test_subquery_annotation": true,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_empty_queryset_annotation": true,
+        "queries.test_query.TestQueryNoModel.test_rawsql_annotation": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16032/dedup_patch_10.jsonl": {
+      "django__django-16032": {
+        "queries.tests.Queries4Tests.test_ticket24525": true,
+        "aggregation.tests.AggregateTestCase.test_exists_none_with_aggregate": true,
+        "queries.tests.Queries1Tests.test_ticket7235": true,
+        "queries.test_query.TestQueryNoModel.test_q_annotation": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "lookup.tests.LookupTests.test_exact_query_rhs_with_selected_columns": true,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_empty_expression_annotation": true,
+        "lookup.tests.LookupTests.test_isnull_non_boolean_value": true,
+        "queries.tests.QuerySetSupportsPythonIdioms.test_slicing_cannot_filter_queryset_once_sliced": true,
+        "aggregation.tests.AggregateTestCase.test_empty_result_optimization": true,
+        "annotations.tests.AliasTests.test_filter_alias_agg_with_double_f": true,
+        "queries.tests.ExcludeTests.test_exclude_nullable_fields": true,
+        "aggregation.tests.AggregateTestCase.test_complex_aggregations_require_kwarg": true,
+        "lookup.tests.LookupTests.test_relation_nested_lookup_error": true,
+        "queries.tests.ExcludeTests.test_ticket14511": true,
+        "queries.tests.Queries1Tests.test_ticket_20250": true,
+        "queries.tests.Queries1Tests.test_ticket10432": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery": true,
+        "queries.test_query.TestQuery.test_filter_non_conditional": true,
+        "queries.tests.Queries1Tests.test_error_raised_on_filter_with_dictionary": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "queries.test_query.TestQuery.test_foreign_key": true,
+        "queries.test_query.TestQueryNoModel.test_subquery_annotation": true,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_empty_queryset_annotation": true,
+        "queries.test_query.TestQueryNoModel.test_rawsql_annotation": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16032/dedup_patch_11.jsonl": {
+      "django__django-16032": {
+        "queries.tests.Queries4Tests.test_ticket24525": true,
+        "aggregation.tests.AggregateTestCase.test_exists_none_with_aggregate": true,
+        "queries.tests.Queries1Tests.test_ticket7235": true,
+        "queries.test_query.TestQueryNoModel.test_q_annotation": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "lookup.tests.LookupTests.test_exact_query_rhs_with_selected_columns": true,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_empty_expression_annotation": true,
+        "lookup.tests.LookupTests.test_isnull_non_boolean_value": true,
+        "queries.tests.QuerySetSupportsPythonIdioms.test_slicing_cannot_filter_queryset_once_sliced": true,
+        "aggregation.tests.AggregateTestCase.test_empty_result_optimization": true,
+        "annotations.tests.AliasTests.test_filter_alias_agg_with_double_f": false,
+        "queries.tests.ExcludeTests.test_exclude_nullable_fields": true,
+        "aggregation.tests.AggregateTestCase.test_complex_aggregations_require_kwarg": true,
+        "lookup.tests.LookupTests.test_relation_nested_lookup_error": true,
+        "queries.tests.ExcludeTests.test_ticket14511": true,
+        "queries.tests.Queries1Tests.test_ticket_20250": true,
+        "queries.tests.Queries1Tests.test_ticket10432": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery": true,
+        "queries.test_query.TestQuery.test_filter_non_conditional": true,
+        "queries.tests.Queries1Tests.test_error_raised_on_filter_with_dictionary": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "queries.test_query.TestQuery.test_foreign_key": true,
+        "queries.test_query.TestQueryNoModel.test_subquery_annotation": true,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_empty_queryset_annotation": true,
+        "queries.test_query.TestQueryNoModel.test_rawsql_annotation": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16032/dedup_patch_12.jsonl": {
+      "django__django-16032": {
+        "queries.tests.Queries4Tests.test_ticket24525": true,
+        "aggregation.tests.AggregateTestCase.test_exists_none_with_aggregate": true,
+        "queries.tests.Queries1Tests.test_ticket7235": true,
+        "queries.test_query.TestQueryNoModel.test_q_annotation": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "lookup.tests.LookupTests.test_exact_query_rhs_with_selected_columns": true,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_empty_expression_annotation": true,
+        "lookup.tests.LookupTests.test_isnull_non_boolean_value": true,
+        "queries.tests.QuerySetSupportsPythonIdioms.test_slicing_cannot_filter_queryset_once_sliced": true,
+        "aggregation.tests.AggregateTestCase.test_empty_result_optimization": true,
+        "annotations.tests.AliasTests.test_filter_alias_agg_with_double_f": true,
+        "queries.tests.ExcludeTests.test_exclude_nullable_fields": true,
+        "aggregation.tests.AggregateTestCase.test_complex_aggregations_require_kwarg": true,
+        "lookup.tests.LookupTests.test_relation_nested_lookup_error": true,
+        "queries.tests.ExcludeTests.test_ticket14511": true,
+        "queries.tests.Queries1Tests.test_ticket_20250": true,
+        "queries.tests.Queries1Tests.test_ticket10432": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery": true,
+        "queries.test_query.TestQuery.test_filter_non_conditional": true,
+        "queries.tests.Queries1Tests.test_error_raised_on_filter_with_dictionary": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "queries.test_query.TestQuery.test_foreign_key": true,
+        "queries.test_query.TestQueryNoModel.test_subquery_annotation": true,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_empty_queryset_annotation": true,
+        "queries.test_query.TestQueryNoModel.test_rawsql_annotation": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16032/dedup_patch_13.jsonl": {
+      "django__django-16032": {
+        "queries.tests.Queries4Tests.test_ticket24525": false,
+        "aggregation.tests.AggregateTestCase.test_exists_none_with_aggregate": false,
+        "queries.tests.Queries1Tests.test_ticket7235": false,
+        "queries.test_query.TestQueryNoModel.test_q_annotation": false,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": false,
+        "lookup.tests.LookupTests.test_exact_query_rhs_with_selected_columns": false,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_empty_expression_annotation": false,
+        "lookup.tests.LookupTests.test_isnull_non_boolean_value": false,
+        "queries.tests.QuerySetSupportsPythonIdioms.test_slicing_cannot_filter_queryset_once_sliced": false,
+        "aggregation.tests.AggregateTestCase.test_empty_result_optimization": false,
+        "annotations.tests.AliasTests.test_filter_alias_agg_with_double_f": false,
+        "queries.tests.ExcludeTests.test_exclude_nullable_fields": false,
+        "aggregation.tests.AggregateTestCase.test_complex_aggregations_require_kwarg": false,
+        "lookup.tests.LookupTests.test_relation_nested_lookup_error": false,
+        "queries.tests.ExcludeTests.test_ticket14511": false,
+        "queries.tests.Queries1Tests.test_ticket_20250": false,
+        "queries.tests.Queries1Tests.test_ticket10432": false,
+        "expressions.tests.BasicExpressionsTests.test_subquery": false,
+        "queries.test_query.TestQuery.test_filter_non_conditional": true,
+        "queries.tests.Queries1Tests.test_error_raised_on_filter_with_dictionary": false,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": false,
+        "queries.test_query.TestQuery.test_foreign_key": true,
+        "queries.test_query.TestQueryNoModel.test_subquery_annotation": false,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_empty_queryset_annotation": false,
+        "queries.test_query.TestQueryNoModel.test_rawsql_annotation": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16032/dedup_patch_14.jsonl": {
+      "django__django-16032": {
+        "queries.tests.Queries4Tests.test_ticket24525": true,
+        "aggregation.tests.AggregateTestCase.test_exists_none_with_aggregate": true,
+        "queries.tests.Queries1Tests.test_ticket7235": true,
+        "queries.test_query.TestQueryNoModel.test_q_annotation": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "lookup.tests.LookupTests.test_exact_query_rhs_with_selected_columns": true,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_empty_expression_annotation": true,
+        "lookup.tests.LookupTests.test_isnull_non_boolean_value": true,
+        "queries.tests.QuerySetSupportsPythonIdioms.test_slicing_cannot_filter_queryset_once_sliced": true,
+        "aggregation.tests.AggregateTestCase.test_empty_result_optimization": true,
+        "annotations.tests.AliasTests.test_filter_alias_agg_with_double_f": true,
+        "queries.tests.ExcludeTests.test_exclude_nullable_fields": true,
+        "aggregation.tests.AggregateTestCase.test_complex_aggregations_require_kwarg": true,
+        "lookup.tests.LookupTests.test_relation_nested_lookup_error": true,
+        "queries.tests.ExcludeTests.test_ticket14511": true,
+        "queries.tests.Queries1Tests.test_ticket_20250": true,
+        "queries.tests.Queries1Tests.test_ticket10432": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery": true,
+        "queries.test_query.TestQuery.test_filter_non_conditional": true,
+        "queries.tests.Queries1Tests.test_error_raised_on_filter_with_dictionary": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "queries.test_query.TestQuery.test_foreign_key": true,
+        "queries.test_query.TestQueryNoModel.test_subquery_annotation": true,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_empty_queryset_annotation": true,
+        "queries.test_query.TestQueryNoModel.test_rawsql_annotation": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16032/dedup_patch_15.jsonl": {
+      "django__django-16032": {
+        "queries.tests.Queries4Tests.test_ticket24525": false,
+        "aggregation.tests.AggregateTestCase.test_exists_none_with_aggregate": false,
+        "queries.tests.Queries1Tests.test_ticket7235": false,
+        "queries.test_query.TestQueryNoModel.test_q_annotation": false,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": false,
+        "lookup.tests.LookupTests.test_exact_query_rhs_with_selected_columns": false,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_empty_expression_annotation": false,
+        "lookup.tests.LookupTests.test_isnull_non_boolean_value": false,
+        "queries.tests.QuerySetSupportsPythonIdioms.test_slicing_cannot_filter_queryset_once_sliced": false,
+        "aggregation.tests.AggregateTestCase.test_empty_result_optimization": false,
+        "annotations.tests.AliasTests.test_filter_alias_agg_with_double_f": false,
+        "queries.tests.ExcludeTests.test_exclude_nullable_fields": false,
+        "aggregation.tests.AggregateTestCase.test_complex_aggregations_require_kwarg": false,
+        "lookup.tests.LookupTests.test_relation_nested_lookup_error": false,
+        "queries.tests.ExcludeTests.test_ticket14511": false,
+        "queries.tests.Queries1Tests.test_ticket_20250": false,
+        "queries.tests.Queries1Tests.test_ticket10432": false,
+        "expressions.tests.BasicExpressionsTests.test_subquery": false,
+        "queries.test_query.TestQuery.test_filter_non_conditional": true,
+        "queries.tests.Queries1Tests.test_error_raised_on_filter_with_dictionary": false,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": false,
+        "queries.test_query.TestQuery.test_foreign_key": true,
+        "queries.test_query.TestQueryNoModel.test_subquery_annotation": false,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_empty_queryset_annotation": false,
+        "queries.test_query.TestQueryNoModel.test_rawsql_annotation": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16032/dedup_patch_16.jsonl": {
+      "django__django-16032": {
+        "queries.tests.Queries4Tests.test_ticket24525": true,
+        "aggregation.tests.AggregateTestCase.test_exists_none_with_aggregate": true,
+        "queries.tests.Queries1Tests.test_ticket7235": true,
+        "queries.test_query.TestQueryNoModel.test_q_annotation": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "lookup.tests.LookupTests.test_exact_query_rhs_with_selected_columns": true,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_empty_expression_annotation": true,
+        "lookup.tests.LookupTests.test_isnull_non_boolean_value": true,
+        "queries.tests.QuerySetSupportsPythonIdioms.test_slicing_cannot_filter_queryset_once_sliced": true,
+        "aggregation.tests.AggregateTestCase.test_empty_result_optimization": true,
+        "annotations.tests.AliasTests.test_filter_alias_agg_with_double_f": true,
+        "queries.tests.ExcludeTests.test_exclude_nullable_fields": true,
+        "aggregation.tests.AggregateTestCase.test_complex_aggregations_require_kwarg": true,
+        "lookup.tests.LookupTests.test_relation_nested_lookup_error": true,
+        "queries.tests.ExcludeTests.test_ticket14511": true,
+        "queries.tests.Queries1Tests.test_ticket_20250": true,
+        "queries.tests.Queries1Tests.test_ticket10432": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery": true,
+        "queries.test_query.TestQuery.test_filter_non_conditional": true,
+        "queries.tests.Queries1Tests.test_error_raised_on_filter_with_dictionary": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "queries.test_query.TestQuery.test_foreign_key": true,
+        "queries.test_query.TestQueryNoModel.test_subquery_annotation": true,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_empty_queryset_annotation": true,
+        "queries.test_query.TestQueryNoModel.test_rawsql_annotation": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16032/dedup_patch_17.jsonl": {
+      "django__django-16032": {
+        "queries.tests.Queries4Tests.test_ticket24525": true,
+        "aggregation.tests.AggregateTestCase.test_exists_none_with_aggregate": true,
+        "queries.tests.Queries1Tests.test_ticket7235": true,
+        "queries.test_query.TestQueryNoModel.test_q_annotation": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "lookup.tests.LookupTests.test_exact_query_rhs_with_selected_columns": true,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_empty_expression_annotation": true,
+        "lookup.tests.LookupTests.test_isnull_non_boolean_value": true,
+        "queries.tests.QuerySetSupportsPythonIdioms.test_slicing_cannot_filter_queryset_once_sliced": true,
+        "aggregation.tests.AggregateTestCase.test_empty_result_optimization": true,
+        "annotations.tests.AliasTests.test_filter_alias_agg_with_double_f": true,
+        "queries.tests.ExcludeTests.test_exclude_nullable_fields": true,
+        "aggregation.tests.AggregateTestCase.test_complex_aggregations_require_kwarg": true,
+        "lookup.tests.LookupTests.test_relation_nested_lookup_error": true,
+        "queries.tests.ExcludeTests.test_ticket14511": true,
+        "queries.tests.Queries1Tests.test_ticket_20250": true,
+        "queries.tests.Queries1Tests.test_ticket10432": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery": true,
+        "queries.test_query.TestQuery.test_filter_non_conditional": true,
+        "queries.tests.Queries1Tests.test_error_raised_on_filter_with_dictionary": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "queries.test_query.TestQuery.test_foreign_key": true,
+        "queries.test_query.TestQueryNoModel.test_subquery_annotation": true,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_empty_queryset_annotation": true,
+        "queries.test_query.TestQueryNoModel.test_rawsql_annotation": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16032/dedup_patch_18.jsonl": {
+      "django__django-16032": {
+        "queries.tests.Queries4Tests.test_ticket24525": true,
+        "aggregation.tests.AggregateTestCase.test_exists_none_with_aggregate": true,
+        "queries.tests.Queries1Tests.test_ticket7235": true,
+        "queries.test_query.TestQueryNoModel.test_q_annotation": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "lookup.tests.LookupTests.test_exact_query_rhs_with_selected_columns": true,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_empty_expression_annotation": true,
+        "lookup.tests.LookupTests.test_isnull_non_boolean_value": true,
+        "queries.tests.QuerySetSupportsPythonIdioms.test_slicing_cannot_filter_queryset_once_sliced": true,
+        "aggregation.tests.AggregateTestCase.test_empty_result_optimization": true,
+        "annotations.tests.AliasTests.test_filter_alias_agg_with_double_f": true,
+        "queries.tests.ExcludeTests.test_exclude_nullable_fields": true,
+        "aggregation.tests.AggregateTestCase.test_complex_aggregations_require_kwarg": true,
+        "lookup.tests.LookupTests.test_relation_nested_lookup_error": true,
+        "queries.tests.ExcludeTests.test_ticket14511": true,
+        "queries.tests.Queries1Tests.test_ticket_20250": true,
+        "queries.tests.Queries1Tests.test_ticket10432": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery": true,
+        "queries.test_query.TestQuery.test_filter_non_conditional": true,
+        "queries.tests.Queries1Tests.test_error_raised_on_filter_with_dictionary": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "queries.test_query.TestQuery.test_foreign_key": true,
+        "queries.test_query.TestQueryNoModel.test_subquery_annotation": true,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_empty_queryset_annotation": true,
+        "queries.test_query.TestQueryNoModel.test_rawsql_annotation": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16032/dedup_patch_19.jsonl": {
+      "django__django-16032": {
+        "queries.tests.Queries4Tests.test_ticket24525": true,
+        "aggregation.tests.AggregateTestCase.test_exists_none_with_aggregate": true,
+        "queries.tests.Queries1Tests.test_ticket7235": true,
+        "queries.test_query.TestQueryNoModel.test_q_annotation": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "lookup.tests.LookupTests.test_exact_query_rhs_with_selected_columns": true,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_empty_expression_annotation": true,
+        "lookup.tests.LookupTests.test_isnull_non_boolean_value": true,
+        "queries.tests.QuerySetSupportsPythonIdioms.test_slicing_cannot_filter_queryset_once_sliced": true,
+        "aggregation.tests.AggregateTestCase.test_empty_result_optimization": true,
+        "annotations.tests.AliasTests.test_filter_alias_agg_with_double_f": true,
+        "queries.tests.ExcludeTests.test_exclude_nullable_fields": true,
+        "aggregation.tests.AggregateTestCase.test_complex_aggregations_require_kwarg": true,
+        "lookup.tests.LookupTests.test_relation_nested_lookup_error": true,
+        "queries.tests.ExcludeTests.test_ticket14511": true,
+        "queries.tests.Queries1Tests.test_ticket_20250": true,
+        "queries.tests.Queries1Tests.test_ticket10432": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery": true,
+        "queries.test_query.TestQuery.test_filter_non_conditional": true,
+        "queries.tests.Queries1Tests.test_error_raised_on_filter_with_dictionary": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "queries.test_query.TestQuery.test_foreign_key": true,
+        "queries.test_query.TestQueryNoModel.test_subquery_annotation": true,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_empty_queryset_annotation": true,
+        "queries.test_query.TestQueryNoModel.test_rawsql_annotation": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16032/dedup_patch_2.jsonl": {
+      "django__django-16032": {
+        "queries.tests.Queries4Tests.test_ticket24525": true,
+        "aggregation.tests.AggregateTestCase.test_exists_none_with_aggregate": true,
+        "queries.tests.Queries1Tests.test_ticket7235": true,
+        "queries.test_query.TestQueryNoModel.test_q_annotation": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "lookup.tests.LookupTests.test_exact_query_rhs_with_selected_columns": false,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_empty_expression_annotation": true,
+        "lookup.tests.LookupTests.test_isnull_non_boolean_value": true,
+        "queries.tests.QuerySetSupportsPythonIdioms.test_slicing_cannot_filter_queryset_once_sliced": true,
+        "aggregation.tests.AggregateTestCase.test_empty_result_optimization": true,
+        "annotations.tests.AliasTests.test_filter_alias_agg_with_double_f": true,
+        "queries.tests.ExcludeTests.test_exclude_nullable_fields": true,
+        "aggregation.tests.AggregateTestCase.test_complex_aggregations_require_kwarg": true,
+        "lookup.tests.LookupTests.test_relation_nested_lookup_error": true,
+        "queries.tests.ExcludeTests.test_ticket14511": true,
+        "queries.tests.Queries1Tests.test_ticket_20250": true,
+        "queries.tests.Queries1Tests.test_ticket10432": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery": false,
+        "queries.test_query.TestQuery.test_filter_non_conditional": true,
+        "queries.tests.Queries1Tests.test_error_raised_on_filter_with_dictionary": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": false,
+        "queries.test_query.TestQuery.test_foreign_key": true,
+        "queries.test_query.TestQueryNoModel.test_subquery_annotation": true,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_empty_queryset_annotation": false,
+        "queries.test_query.TestQueryNoModel.test_rawsql_annotation": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16032/dedup_patch_20.jsonl": {
+      "django__django-16032": {
+        "queries.tests.Queries4Tests.test_ticket24525": true,
+        "aggregation.tests.AggregateTestCase.test_exists_none_with_aggregate": true,
+        "queries.tests.Queries1Tests.test_ticket7235": true,
+        "queries.test_query.TestQueryNoModel.test_q_annotation": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "lookup.tests.LookupTests.test_exact_query_rhs_with_selected_columns": true,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_empty_expression_annotation": true,
+        "lookup.tests.LookupTests.test_isnull_non_boolean_value": true,
+        "queries.tests.QuerySetSupportsPythonIdioms.test_slicing_cannot_filter_queryset_once_sliced": true,
+        "aggregation.tests.AggregateTestCase.test_empty_result_optimization": true,
+        "annotations.tests.AliasTests.test_filter_alias_agg_with_double_f": true,
+        "queries.tests.ExcludeTests.test_exclude_nullable_fields": true,
+        "aggregation.tests.AggregateTestCase.test_complex_aggregations_require_kwarg": true,
+        "lookup.tests.LookupTests.test_relation_nested_lookup_error": true,
+        "queries.tests.ExcludeTests.test_ticket14511": true,
+        "queries.tests.Queries1Tests.test_ticket_20250": true,
+        "queries.tests.Queries1Tests.test_ticket10432": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery": true,
+        "queries.test_query.TestQuery.test_filter_non_conditional": true,
+        "queries.tests.Queries1Tests.test_error_raised_on_filter_with_dictionary": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "queries.test_query.TestQuery.test_foreign_key": true,
+        "queries.test_query.TestQueryNoModel.test_subquery_annotation": true,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_empty_queryset_annotation": true,
+        "queries.test_query.TestQueryNoModel.test_rawsql_annotation": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16032/dedup_patch_21.jsonl": {
+      "django__django-16032": {
+        "queries.tests.Queries4Tests.test_ticket24525": true,
+        "aggregation.tests.AggregateTestCase.test_exists_none_with_aggregate": true,
+        "queries.tests.Queries1Tests.test_ticket7235": true,
+        "queries.test_query.TestQueryNoModel.test_q_annotation": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "lookup.tests.LookupTests.test_exact_query_rhs_with_selected_columns": true,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_empty_expression_annotation": true,
+        "lookup.tests.LookupTests.test_isnull_non_boolean_value": true,
+        "queries.tests.QuerySetSupportsPythonIdioms.test_slicing_cannot_filter_queryset_once_sliced": true,
+        "aggregation.tests.AggregateTestCase.test_empty_result_optimization": true,
+        "annotations.tests.AliasTests.test_filter_alias_agg_with_double_f": true,
+        "queries.tests.ExcludeTests.test_exclude_nullable_fields": true,
+        "aggregation.tests.AggregateTestCase.test_complex_aggregations_require_kwarg": true,
+        "lookup.tests.LookupTests.test_relation_nested_lookup_error": true,
+        "queries.tests.ExcludeTests.test_ticket14511": true,
+        "queries.tests.Queries1Tests.test_ticket_20250": true,
+        "queries.tests.Queries1Tests.test_ticket10432": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery": true,
+        "queries.test_query.TestQuery.test_filter_non_conditional": true,
+        "queries.tests.Queries1Tests.test_error_raised_on_filter_with_dictionary": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "queries.test_query.TestQuery.test_foreign_key": true,
+        "queries.test_query.TestQueryNoModel.test_subquery_annotation": true,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_empty_queryset_annotation": true,
+        "queries.test_query.TestQueryNoModel.test_rawsql_annotation": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16032/dedup_patch_22.jsonl": {
+      "django__django-16032": {
+        "queries.tests.Queries4Tests.test_ticket24525": true,
+        "aggregation.tests.AggregateTestCase.test_exists_none_with_aggregate": true,
+        "queries.tests.Queries1Tests.test_ticket7235": true,
+        "queries.test_query.TestQueryNoModel.test_q_annotation": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "lookup.tests.LookupTests.test_exact_query_rhs_with_selected_columns": true,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_empty_expression_annotation": true,
+        "lookup.tests.LookupTests.test_isnull_non_boolean_value": true,
+        "queries.tests.QuerySetSupportsPythonIdioms.test_slicing_cannot_filter_queryset_once_sliced": true,
+        "aggregation.tests.AggregateTestCase.test_empty_result_optimization": true,
+        "annotations.tests.AliasTests.test_filter_alias_agg_with_double_f": true,
+        "queries.tests.ExcludeTests.test_exclude_nullable_fields": true,
+        "aggregation.tests.AggregateTestCase.test_complex_aggregations_require_kwarg": true,
+        "lookup.tests.LookupTests.test_relation_nested_lookup_error": true,
+        "queries.tests.ExcludeTests.test_ticket14511": true,
+        "queries.tests.Queries1Tests.test_ticket_20250": true,
+        "queries.tests.Queries1Tests.test_ticket10432": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery": true,
+        "queries.test_query.TestQuery.test_filter_non_conditional": true,
+        "queries.tests.Queries1Tests.test_error_raised_on_filter_with_dictionary": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "queries.test_query.TestQuery.test_foreign_key": true,
+        "queries.test_query.TestQueryNoModel.test_subquery_annotation": true,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_empty_queryset_annotation": true,
+        "queries.test_query.TestQueryNoModel.test_rawsql_annotation": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16032/dedup_patch_23.jsonl": {
+      "django__django-16032": {
+        "queries.tests.Queries4Tests.test_ticket24525": true,
+        "aggregation.tests.AggregateTestCase.test_exists_none_with_aggregate": true,
+        "queries.tests.Queries1Tests.test_ticket7235": true,
+        "queries.test_query.TestQueryNoModel.test_q_annotation": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "lookup.tests.LookupTests.test_exact_query_rhs_with_selected_columns": true,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_empty_expression_annotation": true,
+        "lookup.tests.LookupTests.test_isnull_non_boolean_value": true,
+        "queries.tests.QuerySetSupportsPythonIdioms.test_slicing_cannot_filter_queryset_once_sliced": true,
+        "aggregation.tests.AggregateTestCase.test_empty_result_optimization": true,
+        "annotations.tests.AliasTests.test_filter_alias_agg_with_double_f": true,
+        "queries.tests.ExcludeTests.test_exclude_nullable_fields": true,
+        "aggregation.tests.AggregateTestCase.test_complex_aggregations_require_kwarg": true,
+        "lookup.tests.LookupTests.test_relation_nested_lookup_error": true,
+        "queries.tests.ExcludeTests.test_ticket14511": true,
+        "queries.tests.Queries1Tests.test_ticket_20250": true,
+        "queries.tests.Queries1Tests.test_ticket10432": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery": true,
+        "queries.test_query.TestQuery.test_filter_non_conditional": true,
+        "queries.tests.Queries1Tests.test_error_raised_on_filter_with_dictionary": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "queries.test_query.TestQuery.test_foreign_key": true,
+        "queries.test_query.TestQueryNoModel.test_subquery_annotation": true,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_empty_queryset_annotation": true,
+        "queries.test_query.TestQueryNoModel.test_rawsql_annotation": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16032/dedup_patch_24.jsonl": {
+      "django__django-16032": {
+        "queries.tests.Queries4Tests.test_ticket24525": true,
+        "aggregation.tests.AggregateTestCase.test_exists_none_with_aggregate": true,
+        "queries.tests.Queries1Tests.test_ticket7235": true,
+        "queries.test_query.TestQueryNoModel.test_q_annotation": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "lookup.tests.LookupTests.test_exact_query_rhs_with_selected_columns": true,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_empty_expression_annotation": true,
+        "lookup.tests.LookupTests.test_isnull_non_boolean_value": true,
+        "queries.tests.QuerySetSupportsPythonIdioms.test_slicing_cannot_filter_queryset_once_sliced": true,
+        "aggregation.tests.AggregateTestCase.test_empty_result_optimization": true,
+        "annotations.tests.AliasTests.test_filter_alias_agg_with_double_f": true,
+        "queries.tests.ExcludeTests.test_exclude_nullable_fields": true,
+        "aggregation.tests.AggregateTestCase.test_complex_aggregations_require_kwarg": true,
+        "lookup.tests.LookupTests.test_relation_nested_lookup_error": true,
+        "queries.tests.ExcludeTests.test_ticket14511": true,
+        "queries.tests.Queries1Tests.test_ticket_20250": true,
+        "queries.tests.Queries1Tests.test_ticket10432": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery": true,
+        "queries.test_query.TestQuery.test_filter_non_conditional": true,
+        "queries.tests.Queries1Tests.test_error_raised_on_filter_with_dictionary": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "queries.test_query.TestQuery.test_foreign_key": true,
+        "queries.test_query.TestQueryNoModel.test_subquery_annotation": true,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_empty_queryset_annotation": true,
+        "queries.test_query.TestQueryNoModel.test_rawsql_annotation": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16032/dedup_patch_25.jsonl": {
+      "django__django-16032": {
+        "queries.tests.Queries4Tests.test_ticket24525": true,
+        "aggregation.tests.AggregateTestCase.test_exists_none_with_aggregate": true,
+        "queries.tests.Queries1Tests.test_ticket7235": true,
+        "queries.test_query.TestQueryNoModel.test_q_annotation": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "lookup.tests.LookupTests.test_exact_query_rhs_with_selected_columns": true,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_empty_expression_annotation": true,
+        "lookup.tests.LookupTests.test_isnull_non_boolean_value": true,
+        "queries.tests.QuerySetSupportsPythonIdioms.test_slicing_cannot_filter_queryset_once_sliced": true,
+        "aggregation.tests.AggregateTestCase.test_empty_result_optimization": true,
+        "annotations.tests.AliasTests.test_filter_alias_agg_with_double_f": true,
+        "queries.tests.ExcludeTests.test_exclude_nullable_fields": true,
+        "aggregation.tests.AggregateTestCase.test_complex_aggregations_require_kwarg": true,
+        "lookup.tests.LookupTests.test_relation_nested_lookup_error": true,
+        "queries.tests.ExcludeTests.test_ticket14511": true,
+        "queries.tests.Queries1Tests.test_ticket_20250": true,
+        "queries.tests.Queries1Tests.test_ticket10432": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery": true,
+        "queries.test_query.TestQuery.test_filter_non_conditional": true,
+        "queries.tests.Queries1Tests.test_error_raised_on_filter_with_dictionary": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "queries.test_query.TestQuery.test_foreign_key": true,
+        "queries.test_query.TestQueryNoModel.test_subquery_annotation": true,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_empty_queryset_annotation": true,
+        "queries.test_query.TestQueryNoModel.test_rawsql_annotation": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16032/dedup_patch_26.jsonl": {
+      "django__django-16032": {
+        "queries.tests.Queries4Tests.test_ticket24525": true,
+        "aggregation.tests.AggregateTestCase.test_exists_none_with_aggregate": true,
+        "queries.tests.Queries1Tests.test_ticket7235": true,
+        "queries.test_query.TestQueryNoModel.test_q_annotation": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "lookup.tests.LookupTests.test_exact_query_rhs_with_selected_columns": true,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_empty_expression_annotation": true,
+        "lookup.tests.LookupTests.test_isnull_non_boolean_value": true,
+        "queries.tests.QuerySetSupportsPythonIdioms.test_slicing_cannot_filter_queryset_once_sliced": true,
+        "aggregation.tests.AggregateTestCase.test_empty_result_optimization": true,
+        "annotations.tests.AliasTests.test_filter_alias_agg_with_double_f": true,
+        "queries.tests.ExcludeTests.test_exclude_nullable_fields": true,
+        "aggregation.tests.AggregateTestCase.test_complex_aggregations_require_kwarg": true,
+        "lookup.tests.LookupTests.test_relation_nested_lookup_error": true,
+        "queries.tests.ExcludeTests.test_ticket14511": true,
+        "queries.tests.Queries1Tests.test_ticket_20250": true,
+        "queries.tests.Queries1Tests.test_ticket10432": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery": true,
+        "queries.test_query.TestQuery.test_filter_non_conditional": true,
+        "queries.tests.Queries1Tests.test_error_raised_on_filter_with_dictionary": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "queries.test_query.TestQuery.test_foreign_key": true,
+        "queries.test_query.TestQueryNoModel.test_subquery_annotation": true,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_empty_queryset_annotation": true,
+        "queries.test_query.TestQueryNoModel.test_rawsql_annotation": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16032/dedup_patch_3.jsonl": {
+      "django__django-16032": {
+        "queries.tests.Queries4Tests.test_ticket24525": true,
+        "aggregation.tests.AggregateTestCase.test_exists_none_with_aggregate": true,
+        "queries.tests.Queries1Tests.test_ticket7235": true,
+        "queries.test_query.TestQueryNoModel.test_q_annotation": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "lookup.tests.LookupTests.test_exact_query_rhs_with_selected_columns": true,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_empty_expression_annotation": true,
+        "lookup.tests.LookupTests.test_isnull_non_boolean_value": true,
+        "queries.tests.QuerySetSupportsPythonIdioms.test_slicing_cannot_filter_queryset_once_sliced": true,
+        "aggregation.tests.AggregateTestCase.test_empty_result_optimization": true,
+        "annotations.tests.AliasTests.test_filter_alias_agg_with_double_f": true,
+        "queries.tests.ExcludeTests.test_exclude_nullable_fields": true,
+        "aggregation.tests.AggregateTestCase.test_complex_aggregations_require_kwarg": true,
+        "lookup.tests.LookupTests.test_relation_nested_lookup_error": true,
+        "queries.tests.ExcludeTests.test_ticket14511": true,
+        "queries.tests.Queries1Tests.test_ticket_20250": true,
+        "queries.tests.Queries1Tests.test_ticket10432": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery": true,
+        "queries.test_query.TestQuery.test_filter_non_conditional": true,
+        "queries.tests.Queries1Tests.test_error_raised_on_filter_with_dictionary": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "queries.test_query.TestQuery.test_foreign_key": true,
+        "queries.test_query.TestQueryNoModel.test_subquery_annotation": true,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_empty_queryset_annotation": true,
+        "queries.test_query.TestQueryNoModel.test_rawsql_annotation": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16032/dedup_patch_4.jsonl": {
+      "django__django-16032": {
+        "queries.tests.Queries4Tests.test_ticket24525": true,
+        "aggregation.tests.AggregateTestCase.test_exists_none_with_aggregate": true,
+        "queries.tests.Queries1Tests.test_ticket7235": true,
+        "queries.test_query.TestQueryNoModel.test_q_annotation": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "lookup.tests.LookupTests.test_exact_query_rhs_with_selected_columns": true,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_empty_expression_annotation": true,
+        "lookup.tests.LookupTests.test_isnull_non_boolean_value": true,
+        "queries.tests.QuerySetSupportsPythonIdioms.test_slicing_cannot_filter_queryset_once_sliced": true,
+        "aggregation.tests.AggregateTestCase.test_empty_result_optimization": true,
+        "annotations.tests.AliasTests.test_filter_alias_agg_with_double_f": false,
+        "queries.tests.ExcludeTests.test_exclude_nullable_fields": true,
+        "aggregation.tests.AggregateTestCase.test_complex_aggregations_require_kwarg": true,
+        "lookup.tests.LookupTests.test_relation_nested_lookup_error": true,
+        "queries.tests.ExcludeTests.test_ticket14511": true,
+        "queries.tests.Queries1Tests.test_ticket_20250": true,
+        "queries.tests.Queries1Tests.test_ticket10432": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery": true,
+        "queries.test_query.TestQuery.test_filter_non_conditional": true,
+        "queries.tests.Queries1Tests.test_error_raised_on_filter_with_dictionary": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "queries.test_query.TestQuery.test_foreign_key": true,
+        "queries.test_query.TestQueryNoModel.test_subquery_annotation": true,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_empty_queryset_annotation": true,
+        "queries.test_query.TestQueryNoModel.test_rawsql_annotation": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16032/dedup_patch_5.jsonl": {
+      "django__django-16032": {
+        "queries.tests.Queries4Tests.test_ticket24525": true,
+        "aggregation.tests.AggregateTestCase.test_exists_none_with_aggregate": false,
+        "queries.tests.Queries1Tests.test_ticket7235": false,
+        "queries.test_query.TestQueryNoModel.test_q_annotation": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "lookup.tests.LookupTests.test_exact_query_rhs_with_selected_columns": false,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_empty_expression_annotation": false,
+        "lookup.tests.LookupTests.test_isnull_non_boolean_value": true,
+        "queries.tests.QuerySetSupportsPythonIdioms.test_slicing_cannot_filter_queryset_once_sliced": true,
+        "aggregation.tests.AggregateTestCase.test_empty_result_optimization": true,
+        "annotations.tests.AliasTests.test_filter_alias_agg_with_double_f": false,
+        "queries.tests.ExcludeTests.test_exclude_nullable_fields": true,
+        "aggregation.tests.AggregateTestCase.test_complex_aggregations_require_kwarg": false,
+        "lookup.tests.LookupTests.test_relation_nested_lookup_error": true,
+        "queries.tests.ExcludeTests.test_ticket14511": true,
+        "queries.tests.Queries1Tests.test_ticket_20250": false,
+        "queries.tests.Queries1Tests.test_ticket10432": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery": false,
+        "queries.test_query.TestQuery.test_filter_non_conditional": true,
+        "queries.tests.Queries1Tests.test_error_raised_on_filter_with_dictionary": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": false,
+        "queries.test_query.TestQuery.test_foreign_key": true,
+        "queries.test_query.TestQueryNoModel.test_subquery_annotation": true,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_empty_queryset_annotation": false,
+        "queries.test_query.TestQueryNoModel.test_rawsql_annotation": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16032/dedup_patch_6.jsonl": {
+      "django__django-16032": {
+        "queries.tests.Queries4Tests.test_ticket24525": true,
+        "aggregation.tests.AggregateTestCase.test_exists_none_with_aggregate": true,
+        "queries.tests.Queries1Tests.test_ticket7235": true,
+        "queries.test_query.TestQueryNoModel.test_q_annotation": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "lookup.tests.LookupTests.test_exact_query_rhs_with_selected_columns": true,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_empty_expression_annotation": false,
+        "lookup.tests.LookupTests.test_isnull_non_boolean_value": true,
+        "queries.tests.QuerySetSupportsPythonIdioms.test_slicing_cannot_filter_queryset_once_sliced": true,
+        "aggregation.tests.AggregateTestCase.test_empty_result_optimization": true,
+        "annotations.tests.AliasTests.test_filter_alias_agg_with_double_f": false,
+        "queries.tests.ExcludeTests.test_exclude_nullable_fields": true,
+        "aggregation.tests.AggregateTestCase.test_complex_aggregations_require_kwarg": true,
+        "lookup.tests.LookupTests.test_relation_nested_lookup_error": true,
+        "queries.tests.ExcludeTests.test_ticket14511": true,
+        "queries.tests.Queries1Tests.test_ticket_20250": true,
+        "queries.tests.Queries1Tests.test_ticket10432": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery": true,
+        "queries.test_query.TestQuery.test_filter_non_conditional": true,
+        "queries.tests.Queries1Tests.test_error_raised_on_filter_with_dictionary": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": false,
+        "queries.test_query.TestQuery.test_foreign_key": true,
+        "queries.test_query.TestQueryNoModel.test_subquery_annotation": true,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_empty_queryset_annotation": true,
+        "queries.test_query.TestQueryNoModel.test_rawsql_annotation": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16032/dedup_patch_7.jsonl": {
+      "django__django-16032": {
+        "queries.tests.Queries4Tests.test_ticket24525": true,
+        "aggregation.tests.AggregateTestCase.test_exists_none_with_aggregate": true,
+        "queries.tests.Queries1Tests.test_ticket7235": true,
+        "queries.test_query.TestQueryNoModel.test_q_annotation": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "lookup.tests.LookupTests.test_exact_query_rhs_with_selected_columns": true,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_empty_expression_annotation": true,
+        "lookup.tests.LookupTests.test_isnull_non_boolean_value": true,
+        "queries.tests.QuerySetSupportsPythonIdioms.test_slicing_cannot_filter_queryset_once_sliced": true,
+        "aggregation.tests.AggregateTestCase.test_empty_result_optimization": true,
+        "annotations.tests.AliasTests.test_filter_alias_agg_with_double_f": true,
+        "queries.tests.ExcludeTests.test_exclude_nullable_fields": true,
+        "aggregation.tests.AggregateTestCase.test_complex_aggregations_require_kwarg": true,
+        "lookup.tests.LookupTests.test_relation_nested_lookup_error": true,
+        "queries.tests.ExcludeTests.test_ticket14511": true,
+        "queries.tests.Queries1Tests.test_ticket_20250": true,
+        "queries.tests.Queries1Tests.test_ticket10432": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery": true,
+        "queries.test_query.TestQuery.test_filter_non_conditional": true,
+        "queries.tests.Queries1Tests.test_error_raised_on_filter_with_dictionary": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "queries.test_query.TestQuery.test_foreign_key": true,
+        "queries.test_query.TestQueryNoModel.test_subquery_annotation": true,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_empty_queryset_annotation": true,
+        "queries.test_query.TestQueryNoModel.test_rawsql_annotation": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16032/dedup_patch_8.jsonl": {
+      "django__django-16032": {
+        "queries.tests.Queries4Tests.test_ticket24525": true,
+        "aggregation.tests.AggregateTestCase.test_exists_none_with_aggregate": true,
+        "queries.tests.Queries1Tests.test_ticket7235": true,
+        "queries.test_query.TestQueryNoModel.test_q_annotation": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "lookup.tests.LookupTests.test_exact_query_rhs_with_selected_columns": true,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_empty_expression_annotation": true,
+        "lookup.tests.LookupTests.test_isnull_non_boolean_value": true,
+        "queries.tests.QuerySetSupportsPythonIdioms.test_slicing_cannot_filter_queryset_once_sliced": true,
+        "aggregation.tests.AggregateTestCase.test_empty_result_optimization": true,
+        "annotations.tests.AliasTests.test_filter_alias_agg_with_double_f": true,
+        "queries.tests.ExcludeTests.test_exclude_nullable_fields": true,
+        "aggregation.tests.AggregateTestCase.test_complex_aggregations_require_kwarg": true,
+        "lookup.tests.LookupTests.test_relation_nested_lookup_error": true,
+        "queries.tests.ExcludeTests.test_ticket14511": true,
+        "queries.tests.Queries1Tests.test_ticket_20250": true,
+        "queries.tests.Queries1Tests.test_ticket10432": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery": true,
+        "queries.test_query.TestQuery.test_filter_non_conditional": true,
+        "queries.tests.Queries1Tests.test_error_raised_on_filter_with_dictionary": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "queries.test_query.TestQuery.test_foreign_key": true,
+        "queries.test_query.TestQueryNoModel.test_subquery_annotation": true,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_empty_queryset_annotation": true,
+        "queries.test_query.TestQueryNoModel.test_rawsql_annotation": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16032/dedup_patch_9.jsonl": {
+      "django__django-16032": {
+        "queries.tests.Queries4Tests.test_ticket24525": true,
+        "aggregation.tests.AggregateTestCase.test_exists_none_with_aggregate": true,
+        "queries.tests.Queries1Tests.test_ticket7235": true,
+        "queries.test_query.TestQueryNoModel.test_q_annotation": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "lookup.tests.LookupTests.test_exact_query_rhs_with_selected_columns": true,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_empty_expression_annotation": true,
+        "lookup.tests.LookupTests.test_isnull_non_boolean_value": true,
+        "queries.tests.QuerySetSupportsPythonIdioms.test_slicing_cannot_filter_queryset_once_sliced": true,
+        "aggregation.tests.AggregateTestCase.test_empty_result_optimization": true,
+        "annotations.tests.AliasTests.test_filter_alias_agg_with_double_f": true,
+        "queries.tests.ExcludeTests.test_exclude_nullable_fields": true,
+        "aggregation.tests.AggregateTestCase.test_complex_aggregations_require_kwarg": true,
+        "lookup.tests.LookupTests.test_relation_nested_lookup_error": true,
+        "queries.tests.ExcludeTests.test_ticket14511": true,
+        "queries.tests.Queries1Tests.test_ticket_20250": true,
+        "queries.tests.Queries1Tests.test_ticket10432": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery": true,
+        "queries.test_query.TestQuery.test_filter_non_conditional": true,
+        "queries.tests.Queries1Tests.test_error_raised_on_filter_with_dictionary": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "queries.test_query.TestQuery.test_foreign_key": true,
+        "queries.test_query.TestQueryNoModel.test_subquery_annotation": true,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_empty_queryset_annotation": true,
+        "queries.test_query.TestQueryNoModel.test_rawsql_annotation": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-16032": {
+        "annotations.tests.AliasTests.test_annotation_and_alias_filter_in_subquery#1": true,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_annotation_and_alias_filter_in_subquery#2": true,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_annotation_and_alias_filter_in_subquery#3": true,
+        "annotations.tests.AliasTests.test_annotation_and_alias_filter_in_subquery#4": true,
+        "annotations.tests.AliasTests.test_annotation_and_alias_filter_in_subquery#5": true,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_annotation_and_alias_filter_in_subquery#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16032/dedup_patch_0.jsonl": {
+      "django__django-16032": {
+        "annotations.tests.AliasTests.test_annotation_and_alias_filter_in_subquery#1": false,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_annotation_and_alias_filter_in_subquery#2": false,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_annotation_and_alias_filter_in_subquery#3": false,
+        "annotations.tests.AliasTests.test_annotation_and_alias_filter_in_subquery#4": false,
+        "annotations.tests.AliasTests.test_annotation_and_alias_filter_in_subquery#5": false,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_annotation_and_alias_filter_in_subquery#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16032/dedup_patch_1.jsonl": {
+      "django__django-16032": {
+        "annotations.tests.AliasTests.test_annotation_and_alias_filter_in_subquery#1": false,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_annotation_and_alias_filter_in_subquery#2": false,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_annotation_and_alias_filter_in_subquery#3": false,
+        "annotations.tests.AliasTests.test_annotation_and_alias_filter_in_subquery#4": false,
+        "annotations.tests.AliasTests.test_annotation_and_alias_filter_in_subquery#5": false,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_annotation_and_alias_filter_in_subquery#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16032/dedup_patch_10.jsonl": {
+      "django__django-16032": {
+        "annotations.tests.AliasTests.test_annotation_and_alias_filter_in_subquery#1": false,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_annotation_and_alias_filter_in_subquery#2": false,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_annotation_and_alias_filter_in_subquery#3": false,
+        "annotations.tests.AliasTests.test_annotation_and_alias_filter_in_subquery#4": false,
+        "annotations.tests.AliasTests.test_annotation_and_alias_filter_in_subquery#5": false,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_annotation_and_alias_filter_in_subquery#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16032/dedup_patch_12.jsonl": {
+      "django__django-16032": {
+        "annotations.tests.AliasTests.test_annotation_and_alias_filter_in_subquery#1": false,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_annotation_and_alias_filter_in_subquery#2": false,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_annotation_and_alias_filter_in_subquery#3": false,
+        "annotations.tests.AliasTests.test_annotation_and_alias_filter_in_subquery#4": false,
+        "annotations.tests.AliasTests.test_annotation_and_alias_filter_in_subquery#5": false,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_annotation_and_alias_filter_in_subquery#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16032/dedup_patch_14.jsonl": {
+      "django__django-16032": {
+        "annotations.tests.AliasTests.test_annotation_and_alias_filter_in_subquery#1": false,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_annotation_and_alias_filter_in_subquery#2": false,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_annotation_and_alias_filter_in_subquery#3": false,
+        "annotations.tests.AliasTests.test_annotation_and_alias_filter_in_subquery#4": false,
+        "annotations.tests.AliasTests.test_annotation_and_alias_filter_in_subquery#5": false,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_annotation_and_alias_filter_in_subquery#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16032/dedup_patch_16.jsonl": {
+      "django__django-16032": {
+        "annotations.tests.AliasTests.test_annotation_and_alias_filter_in_subquery#1": false,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_annotation_and_alias_filter_in_subquery#2": false,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_annotation_and_alias_filter_in_subquery#3": false,
+        "annotations.tests.AliasTests.test_annotation_and_alias_filter_in_subquery#4": false,
+        "annotations.tests.AliasTests.test_annotation_and_alias_filter_in_subquery#5": false,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_annotation_and_alias_filter_in_subquery#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16032/dedup_patch_17.jsonl": {
+      "django__django-16032": {
+        "annotations.tests.AliasTests.test_annotation_and_alias_filter_in_subquery#1": false,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_annotation_and_alias_filter_in_subquery#2": false,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_annotation_and_alias_filter_in_subquery#3": false,
+        "annotations.tests.AliasTests.test_annotation_and_alias_filter_in_subquery#4": false,
+        "annotations.tests.AliasTests.test_annotation_and_alias_filter_in_subquery#5": false,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_annotation_and_alias_filter_in_subquery#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16032/dedup_patch_18.jsonl": {
+      "django__django-16032": {
+        "annotations.tests.AliasTests.test_annotation_and_alias_filter_in_subquery#1": false,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_annotation_and_alias_filter_in_subquery#2": false,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_annotation_and_alias_filter_in_subquery#3": false,
+        "annotations.tests.AliasTests.test_annotation_and_alias_filter_in_subquery#4": false,
+        "annotations.tests.AliasTests.test_annotation_and_alias_filter_in_subquery#5": false,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_annotation_and_alias_filter_in_subquery#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16032/dedup_patch_19.jsonl": {
+      "django__django-16032": {
+        "annotations.tests.AliasTests.test_annotation_and_alias_filter_in_subquery#1": false,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_annotation_and_alias_filter_in_subquery#2": false,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_annotation_and_alias_filter_in_subquery#3": false,
+        "annotations.tests.AliasTests.test_annotation_and_alias_filter_in_subquery#4": false,
+        "annotations.tests.AliasTests.test_annotation_and_alias_filter_in_subquery#5": false,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_annotation_and_alias_filter_in_subquery#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16032/dedup_patch_20.jsonl": {
+      "django__django-16032": {
+        "annotations.tests.AliasTests.test_annotation_and_alias_filter_in_subquery#1": false,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_annotation_and_alias_filter_in_subquery#2": false,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_annotation_and_alias_filter_in_subquery#3": false,
+        "annotations.tests.AliasTests.test_annotation_and_alias_filter_in_subquery#4": false,
+        "annotations.tests.AliasTests.test_annotation_and_alias_filter_in_subquery#5": false,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_annotation_and_alias_filter_in_subquery#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16032/dedup_patch_21.jsonl": {
+      "django__django-16032": {
+        "annotations.tests.AliasTests.test_annotation_and_alias_filter_in_subquery#1": false,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_annotation_and_alias_filter_in_subquery#2": false,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_annotation_and_alias_filter_in_subquery#3": false,
+        "annotations.tests.AliasTests.test_annotation_and_alias_filter_in_subquery#4": false,
+        "annotations.tests.AliasTests.test_annotation_and_alias_filter_in_subquery#5": false,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_annotation_and_alias_filter_in_subquery#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16032/dedup_patch_22.jsonl": {
+      "django__django-16032": {
+        "annotations.tests.AliasTests.test_annotation_and_alias_filter_in_subquery#1": false,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_annotation_and_alias_filter_in_subquery#2": false,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_annotation_and_alias_filter_in_subquery#3": false,
+        "annotations.tests.AliasTests.test_annotation_and_alias_filter_in_subquery#4": false,
+        "annotations.tests.AliasTests.test_annotation_and_alias_filter_in_subquery#5": false,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_annotation_and_alias_filter_in_subquery#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16032/dedup_patch_23.jsonl": {
+      "django__django-16032": {
+        "annotations.tests.AliasTests.test_annotation_and_alias_filter_in_subquery#1": false,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_annotation_and_alias_filter_in_subquery#2": false,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_annotation_and_alias_filter_in_subquery#3": false,
+        "annotations.tests.AliasTests.test_annotation_and_alias_filter_in_subquery#4": false,
+        "annotations.tests.AliasTests.test_annotation_and_alias_filter_in_subquery#5": false,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_annotation_and_alias_filter_in_subquery#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16032/dedup_patch_24.jsonl": {
+      "django__django-16032": {
+        "annotations.tests.AliasTests.test_annotation_and_alias_filter_in_subquery#1": false,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_annotation_and_alias_filter_in_subquery#2": false,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_annotation_and_alias_filter_in_subquery#3": false,
+        "annotations.tests.AliasTests.test_annotation_and_alias_filter_in_subquery#4": false,
+        "annotations.tests.AliasTests.test_annotation_and_alias_filter_in_subquery#5": false,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_annotation_and_alias_filter_in_subquery#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16032/dedup_patch_25.jsonl": {
+      "django__django-16032": {
+        "annotations.tests.AliasTests.test_annotation_and_alias_filter_in_subquery#1": false,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_annotation_and_alias_filter_in_subquery#2": false,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_annotation_and_alias_filter_in_subquery#3": false,
+        "annotations.tests.AliasTests.test_annotation_and_alias_filter_in_subquery#4": false,
+        "annotations.tests.AliasTests.test_annotation_and_alias_filter_in_subquery#5": false,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_annotation_and_alias_filter_in_subquery#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16032/dedup_patch_26.jsonl": {
+      "django__django-16032": {
+        "annotations.tests.AliasTests.test_annotation_and_alias_filter_in_subquery#1": false,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_annotation_and_alias_filter_in_subquery#2": false,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_annotation_and_alias_filter_in_subquery#3": false,
+        "annotations.tests.AliasTests.test_annotation_and_alias_filter_in_subquery#4": false,
+        "annotations.tests.AliasTests.test_annotation_and_alias_filter_in_subquery#5": false,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_annotation_and_alias_filter_in_subquery#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16032/dedup_patch_3.jsonl": {
+      "django__django-16032": {
+        "annotations.tests.AliasTests.test_annotation_and_alias_filter_in_subquery#1": false,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_annotation_and_alias_filter_in_subquery#2": false,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_annotation_and_alias_filter_in_subquery#3": false,
+        "annotations.tests.AliasTests.test_annotation_and_alias_filter_in_subquery#4": false,
+        "annotations.tests.AliasTests.test_annotation_and_alias_filter_in_subquery#5": false,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_annotation_and_alias_filter_in_subquery#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16032/dedup_patch_7.jsonl": {
+      "django__django-16032": {
+        "annotations.tests.AliasTests.test_annotation_and_alias_filter_in_subquery#1": false,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_annotation_and_alias_filter_in_subquery#2": false,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_annotation_and_alias_filter_in_subquery#3": false,
+        "annotations.tests.AliasTests.test_annotation_and_alias_filter_in_subquery#4": false,
+        "annotations.tests.AliasTests.test_annotation_and_alias_filter_in_subquery#5": false,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_annotation_and_alias_filter_in_subquery#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16032/dedup_patch_8.jsonl": {
+      "django__django-16032": {
+        "annotations.tests.AliasTests.test_annotation_and_alias_filter_in_subquery#1": false,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_annotation_and_alias_filter_in_subquery#2": false,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_annotation_and_alias_filter_in_subquery#3": false,
+        "annotations.tests.AliasTests.test_annotation_and_alias_filter_in_subquery#4": false,
+        "annotations.tests.AliasTests.test_annotation_and_alias_filter_in_subquery#5": false,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_annotation_and_alias_filter_in_subquery#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16032/dedup_patch_9.jsonl": {
+      "django__django-16032": {
+        "annotations.tests.AliasTests.test_annotation_and_alias_filter_in_subquery#1": false,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_annotation_and_alias_filter_in_subquery#2": false,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_annotation_and_alias_filter_in_subquery#3": false,
+        "annotations.tests.AliasTests.test_annotation_and_alias_filter_in_subquery#4": false,
+        "annotations.tests.AliasTests.test_annotation_and_alias_filter_in_subquery#5": false,
+        "annotations.tests.NonAggregateAnnotationTestCase.test_annotation_and_alias_filter_in_subquery#6": false
+      }
+    }
+  }
+}

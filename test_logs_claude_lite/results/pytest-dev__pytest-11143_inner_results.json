@@ -1,0 +1,492 @@
+{
+  "regression": {
+    "all_patches/lite_claude_all_unique_patches/pytest-dev__pytest-11143/dedup_patch_0.jsonl": {
+      "pytest-dev__pytest-11143": {
+        "test_assertrewrite.py::TestIssue11028::test_assertion_walrus_operator_in_operand_json_dumps": false,
+        "test_assertrewrite.py::TestAssertionPass::test_hook_call": false,
+        "test_assertrewrite.py::TestAssertionPass::test_hook_call_with_parens": false,
+        "test_assertrewrite.py::TestIssue10743::test_assertion_walrus_operator_boolean_none_fails": false,
+        "test_collection.py::test_does_not_crash_on_error_from_decorated_function": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_call": false,
+        "test_collection.py::TestImportModeImportlib::test_modules_importable_as_side_effect": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_boolop": false,
+        "test_assertrewrite.py::TestIssue10743::test_assertion_walrus_operator_true_assertion_and_changes_variable_value": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_assertion_message": false,
+        "test_assertion.py::test_assert_tuple_warning": false,
+        "test_assertrewrite.py::TestIssue11028::test_assertion_walrus_operator_equals_operand_function_keyword_arg": false,
+        "test_collection.py::TestImportModeImportlib::test_conftest": false,
+        "test_assertrewrite.py::TestIssue10743::test_assertion_walrus_operator_compare_boolean_fails": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_comparisons": false,
+        "test_assertrewrite.py::TestRewriteOnImport::test_remember_rewritten_modules": false,
+        "test_assertrewrite.py::TestIssue925::test_many_brackets": false,
+        "test_assertrewrite.py::TestIssue10743::test_assertion_walrus_operator_dont_rewrite": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_assertion_message_multiline": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_place_initial_imports": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/pytest-dev__pytest-11143/dedup_patch_1.jsonl": {
+      "pytest-dev__pytest-11143": {
+        "test_assertrewrite.py::TestIssue11028::test_assertion_walrus_operator_in_operand_json_dumps": false,
+        "test_assertrewrite.py::TestAssertionPass::test_hook_call": false,
+        "test_assertrewrite.py::TestAssertionPass::test_hook_call_with_parens": false,
+        "test_assertrewrite.py::TestIssue10743::test_assertion_walrus_operator_boolean_none_fails": false,
+        "test_collection.py::test_does_not_crash_on_error_from_decorated_function": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_call": false,
+        "test_collection.py::TestImportModeImportlib::test_modules_importable_as_side_effect": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_boolop": false,
+        "test_assertrewrite.py::TestIssue10743::test_assertion_walrus_operator_true_assertion_and_changes_variable_value": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_assertion_message": false,
+        "test_assertion.py::test_assert_tuple_warning": false,
+        "test_assertrewrite.py::TestIssue11028::test_assertion_walrus_operator_equals_operand_function_keyword_arg": false,
+        "test_collection.py::TestImportModeImportlib::test_conftest": false,
+        "test_assertrewrite.py::TestIssue10743::test_assertion_walrus_operator_compare_boolean_fails": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_comparisons": false,
+        "test_assertrewrite.py::TestRewriteOnImport::test_remember_rewritten_modules": false,
+        "test_assertrewrite.py::TestIssue925::test_many_brackets": false,
+        "test_assertrewrite.py::TestIssue10743::test_assertion_walrus_operator_dont_rewrite": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_assertion_message_multiline": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_place_initial_imports": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/pytest-dev__pytest-11143/dedup_patch_10.jsonl": {
+      "pytest-dev__pytest-11143": {
+        "test_assertrewrite.py::TestIssue11028::test_assertion_walrus_operator_in_operand_json_dumps": false,
+        "test_assertrewrite.py::TestAssertionPass::test_hook_call": false,
+        "test_assertrewrite.py::TestAssertionPass::test_hook_call_with_parens": false,
+        "test_assertrewrite.py::TestIssue10743::test_assertion_walrus_operator_boolean_none_fails": false,
+        "test_collection.py::test_does_not_crash_on_error_from_decorated_function": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_call": false,
+        "test_collection.py::TestImportModeImportlib::test_modules_importable_as_side_effect": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_boolop": false,
+        "test_assertrewrite.py::TestIssue10743::test_assertion_walrus_operator_true_assertion_and_changes_variable_value": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_assertion_message": false,
+        "test_assertion.py::test_assert_tuple_warning": false,
+        "test_assertrewrite.py::TestIssue11028::test_assertion_walrus_operator_equals_operand_function_keyword_arg": false,
+        "test_collection.py::TestImportModeImportlib::test_conftest": false,
+        "test_assertrewrite.py::TestIssue10743::test_assertion_walrus_operator_compare_boolean_fails": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_comparisons": false,
+        "test_assertrewrite.py::TestRewriteOnImport::test_remember_rewritten_modules": false,
+        "test_assertrewrite.py::TestIssue925::test_many_brackets": false,
+        "test_assertrewrite.py::TestIssue10743::test_assertion_walrus_operator_dont_rewrite": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_assertion_message_multiline": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_place_initial_imports": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/pytest-dev__pytest-11143/dedup_patch_11.jsonl": {
+      "pytest-dev__pytest-11143": {
+        "test_assertrewrite.py::TestIssue11028::test_assertion_walrus_operator_in_operand_json_dumps": false,
+        "test_assertrewrite.py::TestAssertionPass::test_hook_call": false,
+        "test_assertrewrite.py::TestAssertionPass::test_hook_call_with_parens": false,
+        "test_assertrewrite.py::TestIssue10743::test_assertion_walrus_operator_boolean_none_fails": false,
+        "test_collection.py::test_does_not_crash_on_error_from_decorated_function": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_call": false,
+        "test_collection.py::TestImportModeImportlib::test_modules_importable_as_side_effect": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_boolop": false,
+        "test_assertrewrite.py::TestIssue10743::test_assertion_walrus_operator_true_assertion_and_changes_variable_value": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_assertion_message": false,
+        "test_assertion.py::test_assert_tuple_warning": false,
+        "test_assertrewrite.py::TestIssue11028::test_assertion_walrus_operator_equals_operand_function_keyword_arg": false,
+        "test_collection.py::TestImportModeImportlib::test_conftest": false,
+        "test_assertrewrite.py::TestIssue10743::test_assertion_walrus_operator_compare_boolean_fails": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_comparisons": false,
+        "test_assertrewrite.py::TestRewriteOnImport::test_remember_rewritten_modules": false,
+        "test_assertrewrite.py::TestIssue925::test_many_brackets": false,
+        "test_assertrewrite.py::TestIssue10743::test_assertion_walrus_operator_dont_rewrite": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_assertion_message_multiline": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_place_initial_imports": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/pytest-dev__pytest-11143/dedup_patch_12.jsonl": {
+      "pytest-dev__pytest-11143": {
+        "test_assertrewrite.py::TestIssue11028::test_assertion_walrus_operator_in_operand_json_dumps": false,
+        "test_assertrewrite.py::TestAssertionPass::test_hook_call": false,
+        "test_assertrewrite.py::TestAssertionPass::test_hook_call_with_parens": false,
+        "test_assertrewrite.py::TestIssue10743::test_assertion_walrus_operator_boolean_none_fails": false,
+        "test_collection.py::test_does_not_crash_on_error_from_decorated_function": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_call": false,
+        "test_collection.py::TestImportModeImportlib::test_modules_importable_as_side_effect": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_boolop": false,
+        "test_assertrewrite.py::TestIssue10743::test_assertion_walrus_operator_true_assertion_and_changes_variable_value": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_assertion_message": false,
+        "test_assertion.py::test_assert_tuple_warning": false,
+        "test_assertrewrite.py::TestIssue11028::test_assertion_walrus_operator_equals_operand_function_keyword_arg": false,
+        "test_collection.py::TestImportModeImportlib::test_conftest": false,
+        "test_assertrewrite.py::TestIssue10743::test_assertion_walrus_operator_compare_boolean_fails": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_comparisons": false,
+        "test_assertrewrite.py::TestRewriteOnImport::test_remember_rewritten_modules": false,
+        "test_assertrewrite.py::TestIssue925::test_many_brackets": false,
+        "test_assertrewrite.py::TestIssue10743::test_assertion_walrus_operator_dont_rewrite": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_assertion_message_multiline": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_place_initial_imports": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/pytest-dev__pytest-11143/dedup_patch_13.jsonl": {
+      "pytest-dev__pytest-11143": {
+        "test_assertrewrite.py::TestIssue11028::test_assertion_walrus_operator_in_operand_json_dumps": false,
+        "test_assertrewrite.py::TestAssertionPass::test_hook_call": false,
+        "test_assertrewrite.py::TestAssertionPass::test_hook_call_with_parens": false,
+        "test_assertrewrite.py::TestIssue10743::test_assertion_walrus_operator_boolean_none_fails": false,
+        "test_collection.py::test_does_not_crash_on_error_from_decorated_function": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_call": false,
+        "test_collection.py::TestImportModeImportlib::test_modules_importable_as_side_effect": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_boolop": false,
+        "test_assertrewrite.py::TestIssue10743::test_assertion_walrus_operator_true_assertion_and_changes_variable_value": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_assertion_message": false,
+        "test_assertion.py::test_assert_tuple_warning": false,
+        "test_assertrewrite.py::TestIssue11028::test_assertion_walrus_operator_equals_operand_function_keyword_arg": false,
+        "test_collection.py::TestImportModeImportlib::test_conftest": false,
+        "test_assertrewrite.py::TestIssue10743::test_assertion_walrus_operator_compare_boolean_fails": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_comparisons": false,
+        "test_assertrewrite.py::TestRewriteOnImport::test_remember_rewritten_modules": false,
+        "test_assertrewrite.py::TestIssue925::test_many_brackets": false,
+        "test_assertrewrite.py::TestIssue10743::test_assertion_walrus_operator_dont_rewrite": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_assertion_message_multiline": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_place_initial_imports": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/pytest-dev__pytest-11143/dedup_patch_2.jsonl": {
+      "pytest-dev__pytest-11143": {
+        "test_assertrewrite.py::TestIssue11028::test_assertion_walrus_operator_in_operand_json_dumps": false,
+        "test_assertrewrite.py::TestAssertionPass::test_hook_call": false,
+        "test_assertrewrite.py::TestAssertionPass::test_hook_call_with_parens": false,
+        "test_assertrewrite.py::TestIssue10743::test_assertion_walrus_operator_boolean_none_fails": false,
+        "test_collection.py::test_does_not_crash_on_error_from_decorated_function": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_call": false,
+        "test_collection.py::TestImportModeImportlib::test_modules_importable_as_side_effect": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_boolop": false,
+        "test_assertrewrite.py::TestIssue10743::test_assertion_walrus_operator_true_assertion_and_changes_variable_value": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_assertion_message": false,
+        "test_assertion.py::test_assert_tuple_warning": false,
+        "test_assertrewrite.py::TestIssue11028::test_assertion_walrus_operator_equals_operand_function_keyword_arg": false,
+        "test_collection.py::TestImportModeImportlib::test_conftest": false,
+        "test_assertrewrite.py::TestIssue10743::test_assertion_walrus_operator_compare_boolean_fails": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_comparisons": false,
+        "test_assertrewrite.py::TestRewriteOnImport::test_remember_rewritten_modules": false,
+        "test_assertrewrite.py::TestIssue925::test_many_brackets": false,
+        "test_assertrewrite.py::TestIssue10743::test_assertion_walrus_operator_dont_rewrite": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_assertion_message_multiline": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_place_initial_imports": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/pytest-dev__pytest-11143/dedup_patch_3.jsonl": {
+      "pytest-dev__pytest-11143": {
+        "test_assertrewrite.py::TestIssue11028::test_assertion_walrus_operator_in_operand_json_dumps": false,
+        "test_assertrewrite.py::TestAssertionPass::test_hook_call": false,
+        "test_assertrewrite.py::TestAssertionPass::test_hook_call_with_parens": false,
+        "test_assertrewrite.py::TestIssue10743::test_assertion_walrus_operator_boolean_none_fails": false,
+        "test_collection.py::test_does_not_crash_on_error_from_decorated_function": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_call": false,
+        "test_collection.py::TestImportModeImportlib::test_modules_importable_as_side_effect": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_boolop": false,
+        "test_assertrewrite.py::TestIssue10743::test_assertion_walrus_operator_true_assertion_and_changes_variable_value": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_assertion_message": false,
+        "test_assertion.py::test_assert_tuple_warning": false,
+        "test_assertrewrite.py::TestIssue11028::test_assertion_walrus_operator_equals_operand_function_keyword_arg": false,
+        "test_collection.py::TestImportModeImportlib::test_conftest": false,
+        "test_assertrewrite.py::TestIssue10743::test_assertion_walrus_operator_compare_boolean_fails": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_comparisons": false,
+        "test_assertrewrite.py::TestRewriteOnImport::test_remember_rewritten_modules": false,
+        "test_assertrewrite.py::TestIssue925::test_many_brackets": false,
+        "test_assertrewrite.py::TestIssue10743::test_assertion_walrus_operator_dont_rewrite": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_assertion_message_multiline": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_place_initial_imports": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/pytest-dev__pytest-11143/dedup_patch_4.jsonl": {
+      "pytest-dev__pytest-11143": {
+        "test_assertrewrite.py::TestIssue11028::test_assertion_walrus_operator_in_operand_json_dumps": false,
+        "test_assertrewrite.py::TestAssertionPass::test_hook_call": false,
+        "test_assertrewrite.py::TestAssertionPass::test_hook_call_with_parens": false,
+        "test_assertrewrite.py::TestIssue10743::test_assertion_walrus_operator_boolean_none_fails": false,
+        "test_collection.py::test_does_not_crash_on_error_from_decorated_function": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_call": false,
+        "test_collection.py::TestImportModeImportlib::test_modules_importable_as_side_effect": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_boolop": false,
+        "test_assertrewrite.py::TestIssue10743::test_assertion_walrus_operator_true_assertion_and_changes_variable_value": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_assertion_message": false,
+        "test_assertion.py::test_assert_tuple_warning": false,
+        "test_assertrewrite.py::TestIssue11028::test_assertion_walrus_operator_equals_operand_function_keyword_arg": false,
+        "test_collection.py::TestImportModeImportlib::test_conftest": false,
+        "test_assertrewrite.py::TestIssue10743::test_assertion_walrus_operator_compare_boolean_fails": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_comparisons": false,
+        "test_assertrewrite.py::TestRewriteOnImport::test_remember_rewritten_modules": false,
+        "test_assertrewrite.py::TestIssue925::test_many_brackets": false,
+        "test_assertrewrite.py::TestIssue10743::test_assertion_walrus_operator_dont_rewrite": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_assertion_message_multiline": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_place_initial_imports": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/pytest-dev__pytest-11143/dedup_patch_5.jsonl": {
+      "pytest-dev__pytest-11143": {
+        "test_assertrewrite.py::TestIssue11028::test_assertion_walrus_operator_in_operand_json_dumps": false,
+        "test_assertrewrite.py::TestAssertionPass::test_hook_call": false,
+        "test_assertrewrite.py::TestAssertionPass::test_hook_call_with_parens": false,
+        "test_assertrewrite.py::TestIssue10743::test_assertion_walrus_operator_boolean_none_fails": false,
+        "test_collection.py::test_does_not_crash_on_error_from_decorated_function": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_call": false,
+        "test_collection.py::TestImportModeImportlib::test_modules_importable_as_side_effect": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_boolop": false,
+        "test_assertrewrite.py::TestIssue10743::test_assertion_walrus_operator_true_assertion_and_changes_variable_value": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_assertion_message": false,
+        "test_assertion.py::test_assert_tuple_warning": false,
+        "test_assertrewrite.py::TestIssue11028::test_assertion_walrus_operator_equals_operand_function_keyword_arg": false,
+        "test_collection.py::TestImportModeImportlib::test_conftest": false,
+        "test_assertrewrite.py::TestIssue10743::test_assertion_walrus_operator_compare_boolean_fails": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_comparisons": false,
+        "test_assertrewrite.py::TestRewriteOnImport::test_remember_rewritten_modules": false,
+        "test_assertrewrite.py::TestIssue925::test_many_brackets": false,
+        "test_assertrewrite.py::TestIssue10743::test_assertion_walrus_operator_dont_rewrite": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_assertion_message_multiline": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_place_initial_imports": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/pytest-dev__pytest-11143/dedup_patch_6.jsonl": {
+      "pytest-dev__pytest-11143": {
+        "test_assertrewrite.py::TestIssue11028::test_assertion_walrus_operator_in_operand_json_dumps": false,
+        "test_assertrewrite.py::TestAssertionPass::test_hook_call": false,
+        "test_assertrewrite.py::TestAssertionPass::test_hook_call_with_parens": false,
+        "test_assertrewrite.py::TestIssue10743::test_assertion_walrus_operator_boolean_none_fails": false,
+        "test_collection.py::test_does_not_crash_on_error_from_decorated_function": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_call": false,
+        "test_collection.py::TestImportModeImportlib::test_modules_importable_as_side_effect": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_boolop": false,
+        "test_assertrewrite.py::TestIssue10743::test_assertion_walrus_operator_true_assertion_and_changes_variable_value": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_assertion_message": false,
+        "test_assertion.py::test_assert_tuple_warning": false,
+        "test_assertrewrite.py::TestIssue11028::test_assertion_walrus_operator_equals_operand_function_keyword_arg": false,
+        "test_collection.py::TestImportModeImportlib::test_conftest": false,
+        "test_assertrewrite.py::TestIssue10743::test_assertion_walrus_operator_compare_boolean_fails": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_comparisons": false,
+        "test_assertrewrite.py::TestRewriteOnImport::test_remember_rewritten_modules": false,
+        "test_assertrewrite.py::TestIssue925::test_many_brackets": false,
+        "test_assertrewrite.py::TestIssue10743::test_assertion_walrus_operator_dont_rewrite": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_assertion_message_multiline": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_place_initial_imports": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/pytest-dev__pytest-11143/dedup_patch_7.jsonl": {
+      "pytest-dev__pytest-11143": {
+        "test_assertrewrite.py::TestIssue11028::test_assertion_walrus_operator_in_operand_json_dumps": false,
+        "test_assertrewrite.py::TestAssertionPass::test_hook_call": false,
+        "test_assertrewrite.py::TestAssertionPass::test_hook_call_with_parens": false,
+        "test_assertrewrite.py::TestIssue10743::test_assertion_walrus_operator_boolean_none_fails": false,
+        "test_collection.py::test_does_not_crash_on_error_from_decorated_function": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_call": false,
+        "test_collection.py::TestImportModeImportlib::test_modules_importable_as_side_effect": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_boolop": false,
+        "test_assertrewrite.py::TestIssue10743::test_assertion_walrus_operator_true_assertion_and_changes_variable_value": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_assertion_message": false,
+        "test_assertion.py::test_assert_tuple_warning": false,
+        "test_assertrewrite.py::TestIssue11028::test_assertion_walrus_operator_equals_operand_function_keyword_arg": false,
+        "test_collection.py::TestImportModeImportlib::test_conftest": false,
+        "test_assertrewrite.py::TestIssue10743::test_assertion_walrus_operator_compare_boolean_fails": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_comparisons": false,
+        "test_assertrewrite.py::TestRewriteOnImport::test_remember_rewritten_modules": false,
+        "test_assertrewrite.py::TestIssue925::test_many_brackets": false,
+        "test_assertrewrite.py::TestIssue10743::test_assertion_walrus_operator_dont_rewrite": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_assertion_message_multiline": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_place_initial_imports": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/pytest-dev__pytest-11143/dedup_patch_8.jsonl": {
+      "pytest-dev__pytest-11143": {
+        "test_assertrewrite.py::TestIssue11028::test_assertion_walrus_operator_in_operand_json_dumps": false,
+        "test_assertrewrite.py::TestAssertionPass::test_hook_call": false,
+        "test_assertrewrite.py::TestAssertionPass::test_hook_call_with_parens": false,
+        "test_assertrewrite.py::TestIssue10743::test_assertion_walrus_operator_boolean_none_fails": false,
+        "test_collection.py::test_does_not_crash_on_error_from_decorated_function": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_call": false,
+        "test_collection.py::TestImportModeImportlib::test_modules_importable_as_side_effect": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_boolop": false,
+        "test_assertrewrite.py::TestIssue10743::test_assertion_walrus_operator_true_assertion_and_changes_variable_value": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_assertion_message": false,
+        "test_assertion.py::test_assert_tuple_warning": false,
+        "test_assertrewrite.py::TestIssue11028::test_assertion_walrus_operator_equals_operand_function_keyword_arg": false,
+        "test_collection.py::TestImportModeImportlib::test_conftest": false,
+        "test_assertrewrite.py::TestIssue10743::test_assertion_walrus_operator_compare_boolean_fails": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_comparisons": false,
+        "test_assertrewrite.py::TestRewriteOnImport::test_remember_rewritten_modules": false,
+        "test_assertrewrite.py::TestIssue925::test_many_brackets": false,
+        "test_assertrewrite.py::TestIssue10743::test_assertion_walrus_operator_dont_rewrite": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_assertion_message_multiline": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_place_initial_imports": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/pytest-dev__pytest-11143/dedup_patch_9.jsonl": {
+      "pytest-dev__pytest-11143": {
+        "test_assertrewrite.py::TestIssue11028::test_assertion_walrus_operator_in_operand_json_dumps": false,
+        "test_assertrewrite.py::TestAssertionPass::test_hook_call": false,
+        "test_assertrewrite.py::TestAssertionPass::test_hook_call_with_parens": false,
+        "test_assertrewrite.py::TestIssue10743::test_assertion_walrus_operator_boolean_none_fails": false,
+        "test_collection.py::test_does_not_crash_on_error_from_decorated_function": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_call": false,
+        "test_collection.py::TestImportModeImportlib::test_modules_importable_as_side_effect": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_boolop": false,
+        "test_assertrewrite.py::TestIssue10743::test_assertion_walrus_operator_true_assertion_and_changes_variable_value": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_assertion_message": false,
+        "test_assertion.py::test_assert_tuple_warning": false,
+        "test_assertrewrite.py::TestIssue11028::test_assertion_walrus_operator_equals_operand_function_keyword_arg": false,
+        "test_collection.py::TestImportModeImportlib::test_conftest": false,
+        "test_assertrewrite.py::TestIssue10743::test_assertion_walrus_operator_compare_boolean_fails": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_comparisons": false,
+        "test_assertrewrite.py::TestRewriteOnImport::test_remember_rewritten_modules": false,
+        "test_assertrewrite.py::TestIssue925::test_many_brackets": false,
+        "test_assertrewrite.py::TestIssue10743::test_assertion_walrus_operator_dont_rewrite": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_assertion_message_multiline": false,
+        "test_assertrewrite.py::TestAssertionRewrite::test_place_initial_imports": false
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "pytest-dev__pytest-11143": {
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_number_as_first_expr#1": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_with_number_first_expression#2": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_with_number#3": true,
+        "testing/test_assertrewrite.py::TestReprSizeVerbosity::test_rewrite_first_number_in_file#4": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_rewrite_file_starting_with_number#5": true,
+        "testing/test_assertrewrite.py::TestReprSizeVerbosity::test_rewrite_first_expression_is_number#6": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/pytest-dev__pytest-11143/dedup_patch_0.jsonl": {
+      "pytest-dev__pytest-11143": {
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_number_as_first_expr#1": false,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_with_number_first_expression#2": false,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_with_number#3": false,
+        "testing/test_assertrewrite.py::TestReprSizeVerbosity::test_rewrite_first_number_in_file#4": false,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_rewrite_file_starting_with_number#5": false,
+        "testing/test_assertrewrite.py::TestReprSizeVerbosity::test_rewrite_first_expression_is_number#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/pytest-dev__pytest-11143/dedup_patch_1.jsonl": {
+      "pytest-dev__pytest-11143": {
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_number_as_first_expr#1": false,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_with_number_first_expression#2": false,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_with_number#3": false,
+        "testing/test_assertrewrite.py::TestReprSizeVerbosity::test_rewrite_first_number_in_file#4": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_rewrite_file_starting_with_number#5": false,
+        "testing/test_assertrewrite.py::TestReprSizeVerbosity::test_rewrite_first_expression_is_number#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/pytest-dev__pytest-11143/dedup_patch_10.jsonl": {
+      "pytest-dev__pytest-11143": {
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_number_as_first_expr#1": false,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_with_number_first_expression#2": false,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_with_number#3": false,
+        "testing/test_assertrewrite.py::TestReprSizeVerbosity::test_rewrite_first_number_in_file#4": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_rewrite_file_starting_with_number#5": false,
+        "testing/test_assertrewrite.py::TestReprSizeVerbosity::test_rewrite_first_expression_is_number#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/pytest-dev__pytest-11143/dedup_patch_11.jsonl": {
+      "pytest-dev__pytest-11143": {
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_number_as_first_expr#1": false,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_with_number_first_expression#2": false,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_with_number#3": false,
+        "testing/test_assertrewrite.py::TestReprSizeVerbosity::test_rewrite_first_number_in_file#4": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_rewrite_file_starting_with_number#5": false,
+        "testing/test_assertrewrite.py::TestReprSizeVerbosity::test_rewrite_first_expression_is_number#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/pytest-dev__pytest-11143/dedup_patch_12.jsonl": {
+      "pytest-dev__pytest-11143": {
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_number_as_first_expr#1": false,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_with_number_first_expression#2": false,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_with_number#3": false,
+        "testing/test_assertrewrite.py::TestReprSizeVerbosity::test_rewrite_first_number_in_file#4": false,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_rewrite_file_starting_with_number#5": false,
+        "testing/test_assertrewrite.py::TestReprSizeVerbosity::test_rewrite_first_expression_is_number#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/pytest-dev__pytest-11143/dedup_patch_13.jsonl": {
+      "pytest-dev__pytest-11143": {
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_number_as_first_expr#1": false,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_with_number_first_expression#2": false,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_with_number#3": false,
+        "testing/test_assertrewrite.py::TestReprSizeVerbosity::test_rewrite_first_number_in_file#4": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_rewrite_file_starting_with_number#5": false,
+        "testing/test_assertrewrite.py::TestReprSizeVerbosity::test_rewrite_first_expression_is_number#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/pytest-dev__pytest-11143/dedup_patch_2.jsonl": {
+      "pytest-dev__pytest-11143": {
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_number_as_first_expr#1": false,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_with_number_first_expression#2": false,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_with_number#3": false,
+        "testing/test_assertrewrite.py::TestReprSizeVerbosity::test_rewrite_first_number_in_file#4": false,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_rewrite_file_starting_with_number#5": false,
+        "testing/test_assertrewrite.py::TestReprSizeVerbosity::test_rewrite_first_expression_is_number#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/pytest-dev__pytest-11143/dedup_patch_3.jsonl": {
+      "pytest-dev__pytest-11143": {
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_number_as_first_expr#1": false,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_with_number_first_expression#2": false,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_with_number#3": false,
+        "testing/test_assertrewrite.py::TestReprSizeVerbosity::test_rewrite_first_number_in_file#4": false,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_rewrite_file_starting_with_number#5": false,
+        "testing/test_assertrewrite.py::TestReprSizeVerbosity::test_rewrite_first_expression_is_number#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/pytest-dev__pytest-11143/dedup_patch_4.jsonl": {
+      "pytest-dev__pytest-11143": {
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_number_as_first_expr#1": false,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_with_number_first_expression#2": false,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_with_number#3": false,
+        "testing/test_assertrewrite.py::TestReprSizeVerbosity::test_rewrite_first_number_in_file#4": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_rewrite_file_starting_with_number#5": false,
+        "testing/test_assertrewrite.py::TestReprSizeVerbosity::test_rewrite_first_expression_is_number#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/pytest-dev__pytest-11143/dedup_patch_5.jsonl": {
+      "pytest-dev__pytest-11143": {
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_number_as_first_expr#1": false,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_with_number_first_expression#2": false,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_with_number#3": false,
+        "testing/test_assertrewrite.py::TestReprSizeVerbosity::test_rewrite_first_number_in_file#4": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_rewrite_file_starting_with_number#5": false,
+        "testing/test_assertrewrite.py::TestReprSizeVerbosity::test_rewrite_first_expression_is_number#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/pytest-dev__pytest-11143/dedup_patch_6.jsonl": {
+      "pytest-dev__pytest-11143": {
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_number_as_first_expr#1": false,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_with_number_first_expression#2": false,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_with_number#3": false,
+        "testing/test_assertrewrite.py::TestReprSizeVerbosity::test_rewrite_first_number_in_file#4": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_rewrite_file_starting_with_number#5": false,
+        "testing/test_assertrewrite.py::TestReprSizeVerbosity::test_rewrite_first_expression_is_number#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/pytest-dev__pytest-11143/dedup_patch_7.jsonl": {
+      "pytest-dev__pytest-11143": {
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_number_as_first_expr#1": false,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_with_number_first_expression#2": false,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_with_number#3": false,
+        "testing/test_assertrewrite.py::TestReprSizeVerbosity::test_rewrite_first_number_in_file#4": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_rewrite_file_starting_with_number#5": false,
+        "testing/test_assertrewrite.py::TestReprSizeVerbosity::test_rewrite_first_expression_is_number#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/pytest-dev__pytest-11143/dedup_patch_8.jsonl": {
+      "pytest-dev__pytest-11143": {
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_number_as_first_expr#1": false,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_with_number_first_expression#2": false,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_with_number#3": false,
+        "testing/test_assertrewrite.py::TestReprSizeVerbosity::test_rewrite_first_number_in_file#4": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_rewrite_file_starting_with_number#5": false,
+        "testing/test_assertrewrite.py::TestReprSizeVerbosity::test_rewrite_first_expression_is_number#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/pytest-dev__pytest-11143/dedup_patch_9.jsonl": {
+      "pytest-dev__pytest-11143": {
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_number_as_first_expr#1": false,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_with_number_first_expression#2": false,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_with_number#3": false,
+        "testing/test_assertrewrite.py::TestReprSizeVerbosity::test_rewrite_first_number_in_file#4": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_rewrite_file_starting_with_number#5": false,
+        "testing/test_assertrewrite.py::TestReprSizeVerbosity::test_rewrite_first_expression_is_number#6": false
+      }
+    }
+  }
+}

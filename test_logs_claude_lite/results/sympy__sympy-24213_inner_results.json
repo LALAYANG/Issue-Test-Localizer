@@ -1,0 +1,52 @@
+{
+  "regression": {
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-24213/dedup_patch_0.jsonl": {
+      "sympy__sympy-24213": {
+        "sympy/physics/units/tests/test_quantities.py::test_issue_20288": true,
+        "sympy/physics/units/tests/test_quantities.py::test_dimensional_expr_of_derivative": true,
+        "sympy/physics/units/tests/test_quantities.py::test_factor_and_dimension": true,
+        "sympy/physics/units/tests/test_quantities.py::test_issue_24062": true,
+        "sympy/physics/units/tests/test_quantities.py::test_check_unit_consistency": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-24213/dedup_patch_1.jsonl": {
+      "sympy__sympy-24213": {
+        "sympy/physics/units/tests/test_quantities.py::test_issue_20288": true,
+        "sympy/physics/units/tests/test_quantities.py::test_dimensional_expr_of_derivative": true,
+        "sympy/physics/units/tests/test_quantities.py::test_factor_and_dimension": true,
+        "sympy/physics/units/tests/test_quantities.py::test_issue_24062": true,
+        "sympy/physics/units/tests/test_quantities.py::test_check_unit_consistency": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-24213/dedup_patch_2.jsonl": {
+      "sympy__sympy-24213": {
+        "sympy/physics/units/tests/test_quantities.py::test_issue_20288": true,
+        "sympy/physics/units/tests/test_quantities.py::test_dimensional_expr_of_derivative": true,
+        "sympy/physics/units/tests/test_quantities.py::test_factor_and_dimension": true,
+        "sympy/physics/units/tests/test_quantities.py::test_issue_24062": true,
+        "sympy/physics/units/tests/test_quantities.py::test_check_unit_consistency": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-24213/dedup_patch_3.jsonl": {
+      "sympy__sympy-24213": {
+        "sympy/physics/units/tests/test_quantities.py::test_issue_20288": true,
+        "sympy/physics/units/tests/test_quantities.py::test_dimensional_expr_of_derivative": true,
+        "sympy/physics/units/tests/test_quantities.py::test_factor_and_dimension": true,
+        "sympy/physics/units/tests/test_quantities.py::test_issue_24062": true,
+        "sympy/physics/units/tests/test_quantities.py::test_check_unit_consistency": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "sympy__sympy-24213": {
+        "sympy/physics/units/tests/test_unitsystem.py::test_derived_units_must_exist_in_unit_system#1": false,
+        "sympy/physics/units/tests/test_unitsystem.py::test_is_consistent#2": false,
+        "sympy/physics/units/tests/test_unitsystem.py::test_convert_to#3": false,
+        "sympy/physics/units/tests/test_unitsystem.py::test_is_consistent#4": false,
+        "sympy/physics/units/tests/test_unitsystem.py::test_dim#5": false,
+        "sympy/physics/units/tests/test_unitsystem.py::test_derived_units_must_exist_in_unit_system#6": false
+      }
+    }
+  }
+}

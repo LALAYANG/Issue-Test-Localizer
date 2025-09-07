@@ -1,0 +1,70 @@
+{
+  "regression": {
+    "all_patches/lite_claude_all_unique_patches/astropy__astropy-14365/dedup_patch_0.jsonl": {
+      "astropy__astropy-14365": {
+        "astropy/io/ascii/tests/test_qdp.py::test_read_write_simple": true,
+        "astropy/io/ascii/tests/test_qdp.py::test_roundtrip": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/astropy__astropy-14365/dedup_patch_1.jsonl": {
+      "astropy__astropy-14365": {
+        "astropy/io/ascii/tests/test_qdp.py::test_read_write_simple": false,
+        "astropy/io/ascii/tests/test_qdp.py::test_roundtrip": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/astropy__astropy-14365/dedup_patch_2.jsonl": {
+      "astropy__astropy-14365": {
+        "astropy/io/ascii/tests/test_qdp.py::test_read_write_simple": true,
+        "astropy/io/ascii/tests/test_qdp.py::test_roundtrip": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/astropy__astropy-14365/dedup_patch_3.jsonl": {
+      "astropy__astropy-14365": {
+        "astropy/io/ascii/tests/test_qdp.py::test_read_write_simple": true,
+        "astropy/io/ascii/tests/test_qdp.py::test_roundtrip": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/astropy__astropy-14365/dedup_patch_4.jsonl": {
+      "astropy__astropy-14365": {
+        "astropy/io/ascii/tests/test_qdp.py::test_read_write_simple": true,
+        "astropy/io/ascii/tests/test_qdp.py::test_roundtrip": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/astropy__astropy-14365/dedup_patch_5.jsonl": {
+      "astropy__astropy-14365": {
+        "astropy/io/ascii/tests/test_qdp.py::test_read_write_simple": true,
+        "astropy/io/ascii/tests/test_qdp.py::test_roundtrip": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/astropy__astropy-14365/dedup_patch_6.jsonl": {
+      "astropy__astropy-14365": {
+        "astropy/io/ascii/tests/test_qdp.py::test_read_write_simple": true,
+        "astropy/io/ascii/tests/test_qdp.py::test_roundtrip": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/astropy__astropy-14365/dedup_patch_7.jsonl": {
+      "astropy__astropy-14365": {
+        "astropy/io/ascii/tests/test_qdp.py::test_read_write_simple": true,
+        "astropy/io/ascii/tests/test_qdp.py::test_roundtrip": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/astropy__astropy-14365/dedup_patch_8.jsonl": {
+      "astropy__astropy-14365": {
+        "astropy/io/ascii/tests/test_qdp.py::test_read_write_simple": true,
+        "astropy/io/ascii/tests/test_qdp.py::test_roundtrip": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "astropy__astropy-14365": {
+        "astropy/io/ascii/tests/test_qdp.py::test_get_lines_from_qdp#1": false,
+        "astropy/io/ascii/tests/test_qdp.py::test_read_example#2": false,
+        "astropy/io/ascii/tests/test_qdp.py::test_read_example#3": false,
+        "astropy/io/ascii/tests/test_qdp.py::test_read_example#4": false,
+        "astropy/io/ascii/tests/test_qdp.py::test_get_lines_from_qdp#5": false,
+        "astropy/io/ascii/tests/test_qdp.py::test_read_example#6": false
+      }
+    }
+  }
+}

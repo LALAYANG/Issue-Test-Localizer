@@ -1,0 +1,552 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/django__django-13810/dedup_patch_0.jsonl": {
+      "django__django-13810": {
+        "handlers.tests.AsyncHandlerRequestTests.test_no_response": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_not_sync_or_async_middleware": true,
+        "middleware_exceptions.tests.MiddlewareNotUsedTests.test_log": true,
+        "asgi.tests.ASGITest.test_get_asgi_application": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_sync_middleware_async": true,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_view_exception_handled_by_process_exception": true,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_exception_in_render_passed_to_process_exception": true,
+        "middleware_exceptions.tests.MiddlewareTests.test_templateresponse_from_process_view_passed_to_process_template_response": true,
+        "handlers.tests.HandlerRequestTests.test_middleware_returns_none": true,
+        "middleware_exceptions.tests.MiddlewareNotUsedTests.test_log_custom_message": true,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_exception_in_async_render_passed_to_process_exception": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_async_middleware": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13810/dedup_patch_1.jsonl": {
+      "django__django-13810": {
+        "handlers.tests.AsyncHandlerRequestTests.test_no_response": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_not_sync_or_async_middleware": true,
+        "middleware_exceptions.tests.MiddlewareNotUsedTests.test_log": true,
+        "asgi.tests.ASGITest.test_get_asgi_application": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_sync_middleware_async": false,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_view_exception_handled_by_process_exception": true,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_exception_in_render_passed_to_process_exception": true,
+        "middleware_exceptions.tests.MiddlewareTests.test_templateresponse_from_process_view_passed_to_process_template_response": true,
+        "handlers.tests.HandlerRequestTests.test_middleware_returns_none": true,
+        "middleware_exceptions.tests.MiddlewareNotUsedTests.test_log_custom_message": true,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_exception_in_async_render_passed_to_process_exception": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_async_middleware": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13810/dedup_patch_10.jsonl": {
+      "django__django-13810": {
+        "handlers.tests.AsyncHandlerRequestTests.test_no_response": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_not_sync_or_async_middleware": true,
+        "middleware_exceptions.tests.MiddlewareNotUsedTests.test_log": true,
+        "asgi.tests.ASGITest.test_get_asgi_application": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_sync_middleware_async": false,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_view_exception_handled_by_process_exception": true,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_exception_in_render_passed_to_process_exception": true,
+        "middleware_exceptions.tests.MiddlewareTests.test_templateresponse_from_process_view_passed_to_process_template_response": true,
+        "handlers.tests.HandlerRequestTests.test_middleware_returns_none": true,
+        "middleware_exceptions.tests.MiddlewareNotUsedTests.test_log_custom_message": true,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_exception_in_async_render_passed_to_process_exception": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_async_middleware": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13810/dedup_patch_11.jsonl": {
+      "django__django-13810": {
+        "handlers.tests.AsyncHandlerRequestTests.test_no_response": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_not_sync_or_async_middleware": true,
+        "middleware_exceptions.tests.MiddlewareNotUsedTests.test_log": true,
+        "asgi.tests.ASGITest.test_get_asgi_application": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_sync_middleware_async": false,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_view_exception_handled_by_process_exception": true,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_exception_in_render_passed_to_process_exception": true,
+        "middleware_exceptions.tests.MiddlewareTests.test_templateresponse_from_process_view_passed_to_process_template_response": true,
+        "handlers.tests.HandlerRequestTests.test_middleware_returns_none": true,
+        "middleware_exceptions.tests.MiddlewareNotUsedTests.test_log_custom_message": true,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_exception_in_async_render_passed_to_process_exception": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_async_middleware": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13810/dedup_patch_12.jsonl": {
+      "django__django-13810": {
+        "handlers.tests.AsyncHandlerRequestTests.test_no_response": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_not_sync_or_async_middleware": true,
+        "middleware_exceptions.tests.MiddlewareNotUsedTests.test_log": true,
+        "asgi.tests.ASGITest.test_get_asgi_application": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_sync_middleware_async": false,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_view_exception_handled_by_process_exception": true,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_exception_in_render_passed_to_process_exception": true,
+        "middleware_exceptions.tests.MiddlewareTests.test_templateresponse_from_process_view_passed_to_process_template_response": true,
+        "handlers.tests.HandlerRequestTests.test_middleware_returns_none": true,
+        "middleware_exceptions.tests.MiddlewareNotUsedTests.test_log_custom_message": true,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_exception_in_async_render_passed_to_process_exception": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_async_middleware": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13810/dedup_patch_13.jsonl": {
+      "django__django-13810": {
+        "handlers.tests.AsyncHandlerRequestTests.test_no_response": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_not_sync_or_async_middleware": true,
+        "middleware_exceptions.tests.MiddlewareNotUsedTests.test_log": true,
+        "asgi.tests.ASGITest.test_get_asgi_application": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_sync_middleware_async": false,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_view_exception_handled_by_process_exception": true,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_exception_in_render_passed_to_process_exception": true,
+        "middleware_exceptions.tests.MiddlewareTests.test_templateresponse_from_process_view_passed_to_process_template_response": true,
+        "handlers.tests.HandlerRequestTests.test_middleware_returns_none": true,
+        "middleware_exceptions.tests.MiddlewareNotUsedTests.test_log_custom_message": true,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_exception_in_async_render_passed_to_process_exception": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_async_middleware": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13810/dedup_patch_14.jsonl": {
+      "django__django-13810": {
+        "handlers.tests.AsyncHandlerRequestTests.test_no_response": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_not_sync_or_async_middleware": true,
+        "middleware_exceptions.tests.MiddlewareNotUsedTests.test_log": true,
+        "asgi.tests.ASGITest.test_get_asgi_application": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_sync_middleware_async": false,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_view_exception_handled_by_process_exception": true,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_exception_in_render_passed_to_process_exception": true,
+        "middleware_exceptions.tests.MiddlewareTests.test_templateresponse_from_process_view_passed_to_process_template_response": true,
+        "handlers.tests.HandlerRequestTests.test_middleware_returns_none": true,
+        "middleware_exceptions.tests.MiddlewareNotUsedTests.test_log_custom_message": true,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_exception_in_async_render_passed_to_process_exception": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_async_middleware": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13810/dedup_patch_15.jsonl": {
+      "django__django-13810": {
+        "handlers.tests.AsyncHandlerRequestTests.test_no_response": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_not_sync_or_async_middleware": true,
+        "middleware_exceptions.tests.MiddlewareNotUsedTests.test_log": true,
+        "asgi.tests.ASGITest.test_get_asgi_application": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_sync_middleware_async": false,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_view_exception_handled_by_process_exception": true,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_exception_in_render_passed_to_process_exception": true,
+        "middleware_exceptions.tests.MiddlewareTests.test_templateresponse_from_process_view_passed_to_process_template_response": true,
+        "handlers.tests.HandlerRequestTests.test_middleware_returns_none": true,
+        "middleware_exceptions.tests.MiddlewareNotUsedTests.test_log_custom_message": true,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_exception_in_async_render_passed_to_process_exception": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_async_middleware": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13810/dedup_patch_16.jsonl": {
+      "django__django-13810": {
+        "handlers.tests.AsyncHandlerRequestTests.test_no_response": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_not_sync_or_async_middleware": true,
+        "middleware_exceptions.tests.MiddlewareNotUsedTests.test_log": true,
+        "asgi.tests.ASGITest.test_get_asgi_application": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_sync_middleware_async": false,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_view_exception_handled_by_process_exception": true,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_exception_in_render_passed_to_process_exception": true,
+        "middleware_exceptions.tests.MiddlewareTests.test_templateresponse_from_process_view_passed_to_process_template_response": true,
+        "handlers.tests.HandlerRequestTests.test_middleware_returns_none": true,
+        "middleware_exceptions.tests.MiddlewareNotUsedTests.test_log_custom_message": true,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_exception_in_async_render_passed_to_process_exception": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_async_middleware": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13810/dedup_patch_17.jsonl": {
+      "django__django-13810": {
+        "handlers.tests.AsyncHandlerRequestTests.test_no_response": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_not_sync_or_async_middleware": true,
+        "middleware_exceptions.tests.MiddlewareNotUsedTests.test_log": true,
+        "asgi.tests.ASGITest.test_get_asgi_application": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_sync_middleware_async": true,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_view_exception_handled_by_process_exception": true,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_exception_in_render_passed_to_process_exception": true,
+        "middleware_exceptions.tests.MiddlewareTests.test_templateresponse_from_process_view_passed_to_process_template_response": true,
+        "handlers.tests.HandlerRequestTests.test_middleware_returns_none": true,
+        "middleware_exceptions.tests.MiddlewareNotUsedTests.test_log_custom_message": true,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_exception_in_async_render_passed_to_process_exception": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_async_middleware": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13810/dedup_patch_18.jsonl": {
+      "django__django-13810": {
+        "handlers.tests.AsyncHandlerRequestTests.test_no_response": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_not_sync_or_async_middleware": true,
+        "middleware_exceptions.tests.MiddlewareNotUsedTests.test_log": true,
+        "asgi.tests.ASGITest.test_get_asgi_application": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_sync_middleware_async": true,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_view_exception_handled_by_process_exception": true,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_exception_in_render_passed_to_process_exception": true,
+        "middleware_exceptions.tests.MiddlewareTests.test_templateresponse_from_process_view_passed_to_process_template_response": true,
+        "handlers.tests.HandlerRequestTests.test_middleware_returns_none": true,
+        "middleware_exceptions.tests.MiddlewareNotUsedTests.test_log_custom_message": true,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_exception_in_async_render_passed_to_process_exception": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_async_middleware": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13810/dedup_patch_19.jsonl": {
+      "django__django-13810": {
+        "handlers.tests.AsyncHandlerRequestTests.test_no_response": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_not_sync_or_async_middleware": true,
+        "middleware_exceptions.tests.MiddlewareNotUsedTests.test_log": true,
+        "asgi.tests.ASGITest.test_get_asgi_application": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_sync_middleware_async": false,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_view_exception_handled_by_process_exception": true,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_exception_in_render_passed_to_process_exception": true,
+        "middleware_exceptions.tests.MiddlewareTests.test_templateresponse_from_process_view_passed_to_process_template_response": true,
+        "handlers.tests.HandlerRequestTests.test_middleware_returns_none": true,
+        "middleware_exceptions.tests.MiddlewareNotUsedTests.test_log_custom_message": true,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_exception_in_async_render_passed_to_process_exception": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_async_middleware": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13810/dedup_patch_2.jsonl": {
+      "django__django-13810": {
+        "handlers.tests.AsyncHandlerRequestTests.test_no_response": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_not_sync_or_async_middleware": true,
+        "middleware_exceptions.tests.MiddlewareNotUsedTests.test_log": true,
+        "asgi.tests.ASGITest.test_get_asgi_application": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_sync_middleware_async": true,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_view_exception_handled_by_process_exception": true,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_exception_in_render_passed_to_process_exception": true,
+        "middleware_exceptions.tests.MiddlewareTests.test_templateresponse_from_process_view_passed_to_process_template_response": true,
+        "handlers.tests.HandlerRequestTests.test_middleware_returns_none": true,
+        "middleware_exceptions.tests.MiddlewareNotUsedTests.test_log_custom_message": true,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_exception_in_async_render_passed_to_process_exception": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_async_middleware": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13810/dedup_patch_20.jsonl": {
+      "django__django-13810": {
+        "handlers.tests.AsyncHandlerRequestTests.test_no_response": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_not_sync_or_async_middleware": true,
+        "middleware_exceptions.tests.MiddlewareNotUsedTests.test_log": true,
+        "asgi.tests.ASGITest.test_get_asgi_application": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_sync_middleware_async": false,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_view_exception_handled_by_process_exception": true,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_exception_in_render_passed_to_process_exception": true,
+        "middleware_exceptions.tests.MiddlewareTests.test_templateresponse_from_process_view_passed_to_process_template_response": true,
+        "handlers.tests.HandlerRequestTests.test_middleware_returns_none": true,
+        "middleware_exceptions.tests.MiddlewareNotUsedTests.test_log_custom_message": true,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_exception_in_async_render_passed_to_process_exception": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_async_middleware": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13810/dedup_patch_21.jsonl": {
+      "django__django-13810": {
+        "handlers.tests.AsyncHandlerRequestTests.test_no_response": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_not_sync_or_async_middleware": true,
+        "middleware_exceptions.tests.MiddlewareNotUsedTests.test_log": true,
+        "asgi.tests.ASGITest.test_get_asgi_application": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_sync_middleware_async": false,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_view_exception_handled_by_process_exception": true,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_exception_in_render_passed_to_process_exception": true,
+        "middleware_exceptions.tests.MiddlewareTests.test_templateresponse_from_process_view_passed_to_process_template_response": true,
+        "handlers.tests.HandlerRequestTests.test_middleware_returns_none": true,
+        "middleware_exceptions.tests.MiddlewareNotUsedTests.test_log_custom_message": true,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_exception_in_async_render_passed_to_process_exception": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_async_middleware": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13810/dedup_patch_22.jsonl": {
+      "django__django-13810": {
+        "handlers.tests.AsyncHandlerRequestTests.test_no_response": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_not_sync_or_async_middleware": true,
+        "middleware_exceptions.tests.MiddlewareNotUsedTests.test_log": true,
+        "asgi.tests.ASGITest.test_get_asgi_application": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_sync_middleware_async": false,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_view_exception_handled_by_process_exception": true,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_exception_in_render_passed_to_process_exception": true,
+        "middleware_exceptions.tests.MiddlewareTests.test_templateresponse_from_process_view_passed_to_process_template_response": true,
+        "handlers.tests.HandlerRequestTests.test_middleware_returns_none": true,
+        "middleware_exceptions.tests.MiddlewareNotUsedTests.test_log_custom_message": true,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_exception_in_async_render_passed_to_process_exception": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_async_middleware": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13810/dedup_patch_23.jsonl": {
+      "django__django-13810": {
+        "handlers.tests.AsyncHandlerRequestTests.test_no_response": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_not_sync_or_async_middleware": true,
+        "middleware_exceptions.tests.MiddlewareNotUsedTests.test_log": true,
+        "asgi.tests.ASGITest.test_get_asgi_application": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_sync_middleware_async": false,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_view_exception_handled_by_process_exception": true,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_exception_in_render_passed_to_process_exception": true,
+        "middleware_exceptions.tests.MiddlewareTests.test_templateresponse_from_process_view_passed_to_process_template_response": true,
+        "handlers.tests.HandlerRequestTests.test_middleware_returns_none": true,
+        "middleware_exceptions.tests.MiddlewareNotUsedTests.test_log_custom_message": true,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_exception_in_async_render_passed_to_process_exception": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_async_middleware": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13810/dedup_patch_24.jsonl": {
+      "django__django-13810": {
+        "handlers.tests.AsyncHandlerRequestTests.test_no_response": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_not_sync_or_async_middleware": true,
+        "middleware_exceptions.tests.MiddlewareNotUsedTests.test_log": true,
+        "asgi.tests.ASGITest.test_get_asgi_application": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_sync_middleware_async": false,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_view_exception_handled_by_process_exception": true,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_exception_in_render_passed_to_process_exception": true,
+        "middleware_exceptions.tests.MiddlewareTests.test_templateresponse_from_process_view_passed_to_process_template_response": true,
+        "handlers.tests.HandlerRequestTests.test_middleware_returns_none": true,
+        "middleware_exceptions.tests.MiddlewareNotUsedTests.test_log_custom_message": true,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_exception_in_async_render_passed_to_process_exception": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_async_middleware": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13810/dedup_patch_25.jsonl": {
+      "django__django-13810": {
+        "handlers.tests.AsyncHandlerRequestTests.test_no_response": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_not_sync_or_async_middleware": true,
+        "middleware_exceptions.tests.MiddlewareNotUsedTests.test_log": true,
+        "asgi.tests.ASGITest.test_get_asgi_application": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_sync_middleware_async": true,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_view_exception_handled_by_process_exception": true,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_exception_in_render_passed_to_process_exception": true,
+        "middleware_exceptions.tests.MiddlewareTests.test_templateresponse_from_process_view_passed_to_process_template_response": true,
+        "handlers.tests.HandlerRequestTests.test_middleware_returns_none": true,
+        "middleware_exceptions.tests.MiddlewareNotUsedTests.test_log_custom_message": true,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_exception_in_async_render_passed_to_process_exception": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_async_middleware": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13810/dedup_patch_26.jsonl": {
+      "django__django-13810": {
+        "handlers.tests.AsyncHandlerRequestTests.test_no_response": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_not_sync_or_async_middleware": true,
+        "middleware_exceptions.tests.MiddlewareNotUsedTests.test_log": true,
+        "asgi.tests.ASGITest.test_get_asgi_application": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_sync_middleware_async": true,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_view_exception_handled_by_process_exception": true,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_exception_in_render_passed_to_process_exception": true,
+        "middleware_exceptions.tests.MiddlewareTests.test_templateresponse_from_process_view_passed_to_process_template_response": true,
+        "handlers.tests.HandlerRequestTests.test_middleware_returns_none": true,
+        "middleware_exceptions.tests.MiddlewareNotUsedTests.test_log_custom_message": true,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_exception_in_async_render_passed_to_process_exception": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_async_middleware": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13810/dedup_patch_27.jsonl": {
+      "django__django-13810": {
+        "handlers.tests.AsyncHandlerRequestTests.test_no_response": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_not_sync_or_async_middleware": true,
+        "middleware_exceptions.tests.MiddlewareNotUsedTests.test_log": true,
+        "asgi.tests.ASGITest.test_get_asgi_application": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_sync_middleware_async": false,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_view_exception_handled_by_process_exception": true,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_exception_in_render_passed_to_process_exception": true,
+        "middleware_exceptions.tests.MiddlewareTests.test_templateresponse_from_process_view_passed_to_process_template_response": true,
+        "handlers.tests.HandlerRequestTests.test_middleware_returns_none": true,
+        "middleware_exceptions.tests.MiddlewareNotUsedTests.test_log_custom_message": true,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_exception_in_async_render_passed_to_process_exception": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_async_middleware": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13810/dedup_patch_28.jsonl": {
+      "django__django-13810": {
+        "handlers.tests.AsyncHandlerRequestTests.test_no_response": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_not_sync_or_async_middleware": true,
+        "middleware_exceptions.tests.MiddlewareNotUsedTests.test_log": true,
+        "asgi.tests.ASGITest.test_get_asgi_application": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_sync_middleware_async": true,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_view_exception_handled_by_process_exception": true,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_exception_in_render_passed_to_process_exception": true,
+        "middleware_exceptions.tests.MiddlewareTests.test_templateresponse_from_process_view_passed_to_process_template_response": true,
+        "handlers.tests.HandlerRequestTests.test_middleware_returns_none": true,
+        "middleware_exceptions.tests.MiddlewareNotUsedTests.test_log_custom_message": true,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_exception_in_async_render_passed_to_process_exception": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_async_middleware": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13810/dedup_patch_29.jsonl": {
+      "django__django-13810": {
+        "handlers.tests.AsyncHandlerRequestTests.test_no_response": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_not_sync_or_async_middleware": true,
+        "middleware_exceptions.tests.MiddlewareNotUsedTests.test_log": true,
+        "asgi.tests.ASGITest.test_get_asgi_application": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_sync_middleware_async": false,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_view_exception_handled_by_process_exception": true,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_exception_in_render_passed_to_process_exception": true,
+        "middleware_exceptions.tests.MiddlewareTests.test_templateresponse_from_process_view_passed_to_process_template_response": true,
+        "handlers.tests.HandlerRequestTests.test_middleware_returns_none": true,
+        "middleware_exceptions.tests.MiddlewareNotUsedTests.test_log_custom_message": true,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_exception_in_async_render_passed_to_process_exception": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_async_middleware": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13810/dedup_patch_3.jsonl": {
+      "django__django-13810": {
+        "handlers.tests.AsyncHandlerRequestTests.test_no_response": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_not_sync_or_async_middleware": true,
+        "middleware_exceptions.tests.MiddlewareNotUsedTests.test_log": true,
+        "asgi.tests.ASGITest.test_get_asgi_application": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_sync_middleware_async": false,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_view_exception_handled_by_process_exception": true,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_exception_in_render_passed_to_process_exception": true,
+        "middleware_exceptions.tests.MiddlewareTests.test_templateresponse_from_process_view_passed_to_process_template_response": true,
+        "handlers.tests.HandlerRequestTests.test_middleware_returns_none": true,
+        "middleware_exceptions.tests.MiddlewareNotUsedTests.test_log_custom_message": true,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_exception_in_async_render_passed_to_process_exception": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_async_middleware": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13810/dedup_patch_4.jsonl": {
+      "django__django-13810": {
+        "handlers.tests.AsyncHandlerRequestTests.test_no_response": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_not_sync_or_async_middleware": true,
+        "middleware_exceptions.tests.MiddlewareNotUsedTests.test_log": true,
+        "asgi.tests.ASGITest.test_get_asgi_application": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_sync_middleware_async": false,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_view_exception_handled_by_process_exception": true,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_exception_in_render_passed_to_process_exception": true,
+        "middleware_exceptions.tests.MiddlewareTests.test_templateresponse_from_process_view_passed_to_process_template_response": true,
+        "handlers.tests.HandlerRequestTests.test_middleware_returns_none": true,
+        "middleware_exceptions.tests.MiddlewareNotUsedTests.test_log_custom_message": true,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_exception_in_async_render_passed_to_process_exception": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_async_middleware": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13810/dedup_patch_5.jsonl": {
+      "django__django-13810": {
+        "handlers.tests.AsyncHandlerRequestTests.test_no_response": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_not_sync_or_async_middleware": true,
+        "middleware_exceptions.tests.MiddlewareNotUsedTests.test_log": true,
+        "asgi.tests.ASGITest.test_get_asgi_application": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_sync_middleware_async": true,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_view_exception_handled_by_process_exception": true,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_exception_in_render_passed_to_process_exception": true,
+        "middleware_exceptions.tests.MiddlewareTests.test_templateresponse_from_process_view_passed_to_process_template_response": true,
+        "handlers.tests.HandlerRequestTests.test_middleware_returns_none": true,
+        "middleware_exceptions.tests.MiddlewareNotUsedTests.test_log_custom_message": true,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_exception_in_async_render_passed_to_process_exception": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_async_middleware": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13810/dedup_patch_6.jsonl": {
+      "django__django-13810": {
+        "handlers.tests.AsyncHandlerRequestTests.test_no_response": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_not_sync_or_async_middleware": true,
+        "middleware_exceptions.tests.MiddlewareNotUsedTests.test_log": true,
+        "asgi.tests.ASGITest.test_get_asgi_application": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_sync_middleware_async": false,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_view_exception_handled_by_process_exception": true,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_exception_in_render_passed_to_process_exception": true,
+        "middleware_exceptions.tests.MiddlewareTests.test_templateresponse_from_process_view_passed_to_process_template_response": true,
+        "handlers.tests.HandlerRequestTests.test_middleware_returns_none": true,
+        "middleware_exceptions.tests.MiddlewareNotUsedTests.test_log_custom_message": true,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_exception_in_async_render_passed_to_process_exception": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_async_middleware": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13810/dedup_patch_7.jsonl": {
+      "django__django-13810": {
+        "handlers.tests.AsyncHandlerRequestTests.test_no_response": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_not_sync_or_async_middleware": true,
+        "middleware_exceptions.tests.MiddlewareNotUsedTests.test_log": true,
+        "asgi.tests.ASGITest.test_get_asgi_application": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_sync_middleware_async": true,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_view_exception_handled_by_process_exception": true,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_exception_in_render_passed_to_process_exception": true,
+        "middleware_exceptions.tests.MiddlewareTests.test_templateresponse_from_process_view_passed_to_process_template_response": true,
+        "handlers.tests.HandlerRequestTests.test_middleware_returns_none": true,
+        "middleware_exceptions.tests.MiddlewareNotUsedTests.test_log_custom_message": true,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_exception_in_async_render_passed_to_process_exception": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_async_middleware": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13810/dedup_patch_8.jsonl": {
+      "django__django-13810": {
+        "handlers.tests.AsyncHandlerRequestTests.test_no_response": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_not_sync_or_async_middleware": true,
+        "middleware_exceptions.tests.MiddlewareNotUsedTests.test_log": true,
+        "asgi.tests.ASGITest.test_get_asgi_application": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_sync_middleware_async": true,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_view_exception_handled_by_process_exception": true,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_exception_in_render_passed_to_process_exception": true,
+        "middleware_exceptions.tests.MiddlewareTests.test_templateresponse_from_process_view_passed_to_process_template_response": true,
+        "handlers.tests.HandlerRequestTests.test_middleware_returns_none": true,
+        "middleware_exceptions.tests.MiddlewareNotUsedTests.test_log_custom_message": true,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_exception_in_async_render_passed_to_process_exception": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_async_middleware": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13810/dedup_patch_9.jsonl": {
+      "django__django-13810": {
+        "handlers.tests.AsyncHandlerRequestTests.test_no_response": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_not_sync_or_async_middleware": true,
+        "middleware_exceptions.tests.MiddlewareNotUsedTests.test_log": true,
+        "asgi.tests.ASGITest.test_get_asgi_application": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_sync_middleware_async": false,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_view_exception_handled_by_process_exception": true,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_exception_in_render_passed_to_process_exception": true,
+        "middleware_exceptions.tests.MiddlewareTests.test_templateresponse_from_process_view_passed_to_process_template_response": true,
+        "handlers.tests.HandlerRequestTests.test_middleware_returns_none": true,
+        "middleware_exceptions.tests.MiddlewareNotUsedTests.test_log_custom_message": true,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_exception_in_async_render_passed_to_process_exception": true,
+        "middleware_exceptions.tests.MiddlewareSyncAsyncTests.test_async_middleware": false
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-13810": {
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_process_view_return_response#1": false,
+        "asgi.tests.ASGITest.test_middleware_not_used_in_asgi#2": true,
+        "middleware_exceptions.tests.MiddlewareNotUsedTests.test_middleware_not_used_in_asgi_context#3": false,
+        "middleware_exceptions.tests.MiddlewareNotUsedTests.test_middleware_not_used_in_async_context#4": true,
+        "middleware_exceptions.tests.AsyncMiddlewareTests.test_process_view_return_response#5": false,
+        "asgi.tests.ASGITest.test_middleware_not_used_in_asgi#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13810/dedup_patch_0.jsonl": {
+      "django__django-13810": {
+        "asgi.tests.ASGITest.test_middleware_not_used_in_asgi#2": false,
+        "middleware_exceptions.tests.MiddlewareNotUsedTests.test_middleware_not_used_in_async_context#4": false,
+        "asgi.tests.ASGITest.test_middleware_not_used_in_asgi#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13810/dedup_patch_17.jsonl": {
+      "django__django-13810": {
+        "asgi.tests.ASGITest.test_middleware_not_used_in_asgi#2": false,
+        "middleware_exceptions.tests.MiddlewareNotUsedTests.test_middleware_not_used_in_async_context#4": false,
+        "asgi.tests.ASGITest.test_middleware_not_used_in_asgi#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13810/dedup_patch_18.jsonl": {
+      "django__django-13810": {
+        "asgi.tests.ASGITest.test_middleware_not_used_in_asgi#2": false,
+        "middleware_exceptions.tests.MiddlewareNotUsedTests.test_middleware_not_used_in_async_context#4": false,
+        "asgi.tests.ASGITest.test_middleware_not_used_in_asgi#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13810/dedup_patch_2.jsonl": {
+      "django__django-13810": {
+        "asgi.tests.ASGITest.test_middleware_not_used_in_asgi#2": false,
+        "middleware_exceptions.tests.MiddlewareNotUsedTests.test_middleware_not_used_in_async_context#4": false,
+        "asgi.tests.ASGITest.test_middleware_not_used_in_asgi#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13810/dedup_patch_25.jsonl": {
+      "django__django-13810": {
+        "asgi.tests.ASGITest.test_middleware_not_used_in_asgi#2": false,
+        "middleware_exceptions.tests.MiddlewareNotUsedTests.test_middleware_not_used_in_async_context#4": false,
+        "asgi.tests.ASGITest.test_middleware_not_used_in_asgi#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13810/dedup_patch_26.jsonl": {
+      "django__django-13810": {
+        "asgi.tests.ASGITest.test_middleware_not_used_in_asgi#2": false,
+        "middleware_exceptions.tests.MiddlewareNotUsedTests.test_middleware_not_used_in_async_context#4": false,
+        "asgi.tests.ASGITest.test_middleware_not_used_in_asgi#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13810/dedup_patch_7.jsonl": {
+      "django__django-13810": {
+        "asgi.tests.ASGITest.test_middleware_not_used_in_asgi#2": false,
+        "middleware_exceptions.tests.MiddlewareNotUsedTests.test_middleware_not_used_in_async_context#4": false,
+        "asgi.tests.ASGITest.test_middleware_not_used_in_asgi#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13810/dedup_patch_8.jsonl": {
+      "django__django-13810": {
+        "asgi.tests.ASGITest.test_middleware_not_used_in_asgi#2": false,
+        "middleware_exceptions.tests.MiddlewareNotUsedTests.test_middleware_not_used_in_async_context#4": false,
+        "asgi.tests.ASGITest.test_middleware_not_used_in_asgi#6": false
+      }
+    }
+  }
+}

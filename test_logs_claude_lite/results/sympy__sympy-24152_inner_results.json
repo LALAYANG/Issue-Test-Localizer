@@ -1,0 +1,34 @@
+{
+  "regression": {
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-24152/dedup_patch_0.jsonl": {
+      "sympy__sympy-24152": {
+        "sympy/physics/quantum/tests/test_represent.py::test_format_sympy": true,
+        "sympy/physics/quantum/tests/test_tensorproduct.py::test_tensor_product_commutator": true,
+        "sympy/physics/quantum/tests/test_tensorproduct.py::test_eval_trace": true,
+        "sympy/physics/quantum/tests/test_tensorproduct.py::test_tensor_product_dagger": true,
+        "sympy/physics/quantum/tests/test_tensorproduct.py::test_tensor_product_simp": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-24152/dedup_patch_1.jsonl": {
+      "sympy__sympy-24152": {
+        "sympy/physics/quantum/tests/test_represent.py::test_format_sympy": true,
+        "sympy/physics/quantum/tests/test_tensorproduct.py::test_tensor_product_commutator": true,
+        "sympy/physics/quantum/tests/test_tensorproduct.py::test_eval_trace": true,
+        "sympy/physics/quantum/tests/test_tensorproduct.py::test_tensor_product_dagger": true,
+        "sympy/physics/quantum/tests/test_tensorproduct.py::test_tensor_product_simp": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "sympy__sympy-24152": {
+        "sympy/physics/quantum/tests/test_tensorproduct.py::test_tensor_product_abstract#1": false,
+        "sympy/physics/quantum/tests/test_tensorproduct.py::test_tensor_product_expand#2": false,
+        "sympy/physics/quantum/tests/test_tensorproduct.py::test_tensor_product_expand#3": false,
+        "sympy/physics/quantum/tests/test_tensorproduct.py::test_tensor_product_expand#4": false,
+        "sympy/physics/quantum/tests/test_tensorproduct.py::test_tensor_product_expand#5": false,
+        "sympy/physics/quantum/tests/test_tensorproduct.py::test_tensor_product_expand#6": false
+      }
+    }
+  }
+}

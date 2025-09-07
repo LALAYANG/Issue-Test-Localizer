@@ -1,0 +1,50 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/matplotlib__matplotlib-25287/dedup_patch_0.jsonl": {
+      "matplotlib__matplotlib-25287": {
+        "lib/matplotlib/tests/test_axes.py::test_remove_shared_axes": true,
+        "lib/matplotlib/tests/test_axes.py::test_bar_timedelta": true,
+        "lib/matplotlib/tests/test_axes.py::test_inset_polar": true,
+        "lib/matplotlib/testing/decorators.py::test_matshow": false,
+        "lib/matplotlib/tests/test_ticker.py::TestLogLocator::test_polar_axes": true,
+        "lib/matplotlib/testing/decorators.py::test_spy": false,
+        "lib/matplotlib/tests/test_axes.py::test_date_timezone_x_and_y": true,
+        "lib/matplotlib/tests/test_axes.py::test_autoscale_log_shared": true,
+        "lib/matplotlib/tests/test_figure.py::test_align_labels_stray_axes": true,
+        "lib/matplotlib/tests/test_axes.py::test_secondary_xy": true,
+        "lib/matplotlib/tests/test_axes.py::test_twinx_cla": true,
+        "lib/matplotlib/tests/test_axes.py::test_offset_text_visible": true,
+        "lib/matplotlib/tests/test_axes.py::test_offset_label_color": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/matplotlib__matplotlib-25287/dedup_patch_1.jsonl": {
+      "matplotlib__matplotlib-25287": {
+        "lib/matplotlib/tests/test_axes.py::test_remove_shared_axes": true,
+        "lib/matplotlib/tests/test_axes.py::test_bar_timedelta": true,
+        "lib/matplotlib/tests/test_axes.py::test_inset_polar": true,
+        "lib/matplotlib/testing/decorators.py::test_matshow": false,
+        "lib/matplotlib/tests/test_ticker.py::TestLogLocator::test_polar_axes": true,
+        "lib/matplotlib/testing/decorators.py::test_spy": false,
+        "lib/matplotlib/tests/test_axes.py::test_date_timezone_x_and_y": true,
+        "lib/matplotlib/tests/test_axes.py::test_autoscale_log_shared": true,
+        "lib/matplotlib/tests/test_figure.py::test_align_labels_stray_axes": true,
+        "lib/matplotlib/tests/test_axes.py::test_secondary_xy": true,
+        "lib/matplotlib/tests/test_axes.py::test_twinx_cla": true,
+        "lib/matplotlib/tests/test_axes.py::test_offset_text_visible": true,
+        "lib/matplotlib/tests/test_axes.py::test_offset_label_color": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "matplotlib__matplotlib-25287": {
+        "lib/matplotlib/tests/test_axes.py::test_offset_label_color#1": false,
+        "lib/matplotlib/tests/test_axes.py::test_offset_text_visible#2": false,
+        "lib/matplotlib/tests/test_axes.py::test_offset_label_color#3": false,
+        "lib/matplotlib/tests/test_axes.py::test_offset_label_color#4": false,
+        "lib/matplotlib/tests/test_axes.py::test_xtickcolor_is_not_xticklabelcolor#5": false,
+        "lib/matplotlib/tests/test_axes.py::test_title_no_move_off_page#6": false
+      }
+    }
+  }
+}

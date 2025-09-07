@@ -1,0 +1,26 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/scikit-learn__scikit-learn-14710/dedup_patch_0.jsonl": {
+      "scikit-learn__scikit-learn-14710": {
+        "sklearn/ensemble/_hist_gradient_boosting/tests/test_warm_start.py::test_warm_start_yields_identical_results": true,
+        "sklearn/ensemble/_hist_gradient_boosting/tests/test_gradient_boosting.py::test_invalid_classification_loss": true,
+        "sklearn/ensemble/_hist_gradient_boosting/tests/test_warm_start.py::test_max_iter_with_warm_start_validation": true,
+        "sklearn/ensemble/_hist_gradient_boosting/tests/test_gradient_boosting.py::test_early_stopping_classification": true,
+        "sklearn/ensemble/_hist_gradient_boosting/tests/test_gradient_boosting.py::test_init_parameters_validation": true,
+        "sklearn/ensemble/_hist_gradient_boosting/tests/test_gradient_boosting.py::test_small_trainset": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "scikit-learn__scikit-learn-14710": {
+        "sklearn/ensemble/_hist_gradient_boosting/tests/test_gradient_boosting.py::test_early_stopping_classification#1": false,
+        "sklearn/ensemble/_hist_gradient_boosting/tests/test_gradient_boosting.py::test_early_stopping_classification#2": false,
+        "sklearn/ensemble/_hist_gradient_boosting/tests/test_gradient_boosting.py::test_small_trainset#3": false,
+        "sklearn/ensemble/_hist_gradient_boosting/tests/test_gradient_boosting.py::test_small_trainset#4": false,
+        "sklearn/ensemble/_hist_gradient_boosting/tests/test_gradient_boosting.py::test_early_stopping_classification#5": false,
+        "sklearn/ensemble/_hist_gradient_boosting/tests/test_gradient_boosting.py::test_early_stopping_classification#6": false
+      }
+    }
+  }
+}

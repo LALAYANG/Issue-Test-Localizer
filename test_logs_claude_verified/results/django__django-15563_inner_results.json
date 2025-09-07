@@ -1,0 +1,725 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/django__django-15563/dedup_patch_0.jsonl": {
+      "django__django-15563": {
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique": false,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_cannot_override_indirect_abstract_field": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multiple_inheritance_cannot_shadow_concrete_inherited_field": true,
+        "queries.tests.Ticket21203Tests.test_ticket_21203": true,
+        "queries.test_bulk_update.BulkUpdateTests.test_falsey_pk_value": true,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_create_new_instance_with_pk_equals_none": false,
+        "queries.test_bulk_update.BulkUpdateTests.test_nullable_fk_after_related_save": true,
+        "queries.test_bulk_update.BulkUpdateNoteTests.test_set_field_to_null": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_shadow_related_name_when_set_to_none": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_abstract_parent_link": false,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique_together": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_eq": false,
+        "queries.tests.Queries1Tests.test_tickets_1878_2939": true,
+        "queries.tests.SubclassFKTests.test_ticket7778": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_init_subclass": false,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_issue_7276": false,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_virtual_field": true,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_id_field_update_on_ancestor_change": false,
+        "queries.tests.Queries4Tests.test_ticket11811": true,
+        "queries.test_bulk_update.BulkUpdateTests.test_unsaved_parent": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_override_one2one_relation_auto_field_clashes": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15563/dedup_patch_1.jsonl": {
+      "django__django-15563": {
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique": false,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_cannot_override_indirect_abstract_field": false,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multiple_inheritance_cannot_shadow_concrete_inherited_field": false,
+        "queries.tests.Ticket21203Tests.test_ticket_21203": true,
+        "queries.test_bulk_update.BulkUpdateTests.test_falsey_pk_value": true,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_create_new_instance_with_pk_equals_none": false,
+        "queries.test_bulk_update.BulkUpdateTests.test_nullable_fk_after_related_save": true,
+        "queries.test_bulk_update.BulkUpdateNoteTests.test_set_field_to_null": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_shadow_related_name_when_set_to_none": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_abstract_parent_link": false,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique_together": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_eq": false,
+        "queries.tests.Queries1Tests.test_tickets_1878_2939": true,
+        "queries.tests.SubclassFKTests.test_ticket7778": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_init_subclass": false,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_issue_7276": false,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_virtual_field": false,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_id_field_update_on_ancestor_change": false,
+        "queries.tests.Queries4Tests.test_ticket11811": true,
+        "queries.test_bulk_update.BulkUpdateTests.test_unsaved_parent": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_override_one2one_relation_auto_field_clashes": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15563/dedup_patch_10.jsonl": {
+      "django__django-15563": {
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_cannot_override_indirect_abstract_field": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multiple_inheritance_cannot_shadow_concrete_inherited_field": true,
+        "queries.tests.Ticket21203Tests.test_ticket_21203": true,
+        "queries.test_bulk_update.BulkUpdateTests.test_falsey_pk_value": true,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_create_new_instance_with_pk_equals_none": true,
+        "queries.test_bulk_update.BulkUpdateTests.test_nullable_fk_after_related_save": true,
+        "queries.test_bulk_update.BulkUpdateNoteTests.test_set_field_to_null": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_shadow_related_name_when_set_to_none": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_abstract_parent_link": true,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique_together": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_eq": true,
+        "queries.tests.Queries1Tests.test_tickets_1878_2939": true,
+        "queries.tests.SubclassFKTests.test_ticket7778": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_init_subclass": true,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_issue_7276": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_virtual_field": true,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_id_field_update_on_ancestor_change": true,
+        "queries.tests.Queries4Tests.test_ticket11811": true,
+        "queries.test_bulk_update.BulkUpdateTests.test_unsaved_parent": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_override_one2one_relation_auto_field_clashes": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15563/dedup_patch_11.jsonl": {
+      "django__django-15563": {
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_cannot_override_indirect_abstract_field": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multiple_inheritance_cannot_shadow_concrete_inherited_field": true,
+        "queries.tests.Ticket21203Tests.test_ticket_21203": true,
+        "queries.test_bulk_update.BulkUpdateTests.test_falsey_pk_value": true,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_create_new_instance_with_pk_equals_none": true,
+        "queries.test_bulk_update.BulkUpdateTests.test_nullable_fk_after_related_save": true,
+        "queries.test_bulk_update.BulkUpdateNoteTests.test_set_field_to_null": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_shadow_related_name_when_set_to_none": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_abstract_parent_link": true,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique_together": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_eq": true,
+        "queries.tests.Queries1Tests.test_tickets_1878_2939": true,
+        "queries.tests.SubclassFKTests.test_ticket7778": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_init_subclass": true,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_issue_7276": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_virtual_field": true,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_id_field_update_on_ancestor_change": true,
+        "queries.tests.Queries4Tests.test_ticket11811": true,
+        "queries.test_bulk_update.BulkUpdateTests.test_unsaved_parent": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_override_one2one_relation_auto_field_clashes": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15563/dedup_patch_12.jsonl": {
+      "django__django-15563": {
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_cannot_override_indirect_abstract_field": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multiple_inheritance_cannot_shadow_concrete_inherited_field": true,
+        "queries.tests.Ticket21203Tests.test_ticket_21203": true,
+        "queries.test_bulk_update.BulkUpdateTests.test_falsey_pk_value": false,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_create_new_instance_with_pk_equals_none": true,
+        "queries.test_bulk_update.BulkUpdateTests.test_nullable_fk_after_related_save": false,
+        "queries.test_bulk_update.BulkUpdateNoteTests.test_set_field_to_null": false,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_shadow_related_name_when_set_to_none": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_abstract_parent_link": true,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique_together": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_eq": true,
+        "queries.tests.Queries1Tests.test_tickets_1878_2939": true,
+        "queries.tests.SubclassFKTests.test_ticket7778": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_init_subclass": true,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_issue_7276": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_virtual_field": true,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_id_field_update_on_ancestor_change": true,
+        "queries.tests.Queries4Tests.test_ticket11811": false,
+        "queries.test_bulk_update.BulkUpdateTests.test_unsaved_parent": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_override_one2one_relation_auto_field_clashes": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15563/dedup_patch_13.jsonl": {
+      "django__django-15563": {
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_cannot_override_indirect_abstract_field": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multiple_inheritance_cannot_shadow_concrete_inherited_field": true,
+        "queries.tests.Ticket21203Tests.test_ticket_21203": true,
+        "queries.test_bulk_update.BulkUpdateTests.test_falsey_pk_value": true,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_create_new_instance_with_pk_equals_none": true,
+        "queries.test_bulk_update.BulkUpdateTests.test_nullable_fk_after_related_save": true,
+        "queries.test_bulk_update.BulkUpdateNoteTests.test_set_field_to_null": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_shadow_related_name_when_set_to_none": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_abstract_parent_link": true,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique_together": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_eq": true,
+        "queries.tests.Queries1Tests.test_tickets_1878_2939": true,
+        "queries.tests.SubclassFKTests.test_ticket7778": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_init_subclass": true,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_issue_7276": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_virtual_field": true,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_id_field_update_on_ancestor_change": true,
+        "queries.tests.Queries4Tests.test_ticket11811": true,
+        "queries.test_bulk_update.BulkUpdateTests.test_unsaved_parent": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_override_one2one_relation_auto_field_clashes": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15563/dedup_patch_14.jsonl": {
+      "django__django-15563": {
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_cannot_override_indirect_abstract_field": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multiple_inheritance_cannot_shadow_concrete_inherited_field": true,
+        "queries.tests.Ticket21203Tests.test_ticket_21203": true,
+        "queries.test_bulk_update.BulkUpdateTests.test_falsey_pk_value": true,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_create_new_instance_with_pk_equals_none": true,
+        "queries.test_bulk_update.BulkUpdateTests.test_nullable_fk_after_related_save": true,
+        "queries.test_bulk_update.BulkUpdateNoteTests.test_set_field_to_null": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_shadow_related_name_when_set_to_none": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_abstract_parent_link": true,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique_together": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_eq": true,
+        "queries.tests.Queries1Tests.test_tickets_1878_2939": true,
+        "queries.tests.SubclassFKTests.test_ticket7778": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_init_subclass": true,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_issue_7276": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_virtual_field": true,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_id_field_update_on_ancestor_change": true,
+        "queries.tests.Queries4Tests.test_ticket11811": true,
+        "queries.test_bulk_update.BulkUpdateTests.test_unsaved_parent": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_override_one2one_relation_auto_field_clashes": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15563/dedup_patch_15.jsonl": {
+      "django__django-15563": {
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique": false,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_cannot_override_indirect_abstract_field": false,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multiple_inheritance_cannot_shadow_concrete_inherited_field": false,
+        "queries.tests.Ticket21203Tests.test_ticket_21203": false,
+        "queries.test_bulk_update.BulkUpdateTests.test_falsey_pk_value": false,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_create_new_instance_with_pk_equals_none": false,
+        "queries.test_bulk_update.BulkUpdateTests.test_nullable_fk_after_related_save": false,
+        "queries.test_bulk_update.BulkUpdateNoteTests.test_set_field_to_null": false,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_shadow_related_name_when_set_to_none": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_abstract_parent_link": false,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique_together": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_eq": false,
+        "queries.tests.Queries1Tests.test_tickets_1878_2939": false,
+        "queries.tests.SubclassFKTests.test_ticket7778": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_init_subclass": false,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_issue_7276": false,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_virtual_field": false,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_id_field_update_on_ancestor_change": false,
+        "queries.tests.Queries4Tests.test_ticket11811": false,
+        "queries.test_bulk_update.BulkUpdateTests.test_unsaved_parent": false,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_override_one2one_relation_auto_field_clashes": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15563/dedup_patch_16.jsonl": {
+      "django__django-15563": {
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_cannot_override_indirect_abstract_field": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multiple_inheritance_cannot_shadow_concrete_inherited_field": true,
+        "queries.tests.Ticket21203Tests.test_ticket_21203": true,
+        "queries.test_bulk_update.BulkUpdateTests.test_falsey_pk_value": true,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_create_new_instance_with_pk_equals_none": true,
+        "queries.test_bulk_update.BulkUpdateTests.test_nullable_fk_after_related_save": true,
+        "queries.test_bulk_update.BulkUpdateNoteTests.test_set_field_to_null": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_shadow_related_name_when_set_to_none": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_abstract_parent_link": true,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique_together": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_eq": true,
+        "queries.tests.Queries1Tests.test_tickets_1878_2939": true,
+        "queries.tests.SubclassFKTests.test_ticket7778": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_init_subclass": true,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_issue_7276": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_virtual_field": true,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_id_field_update_on_ancestor_change": true,
+        "queries.tests.Queries4Tests.test_ticket11811": true,
+        "queries.test_bulk_update.BulkUpdateTests.test_unsaved_parent": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_override_one2one_relation_auto_field_clashes": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15563/dedup_patch_17.jsonl": {
+      "django__django-15563": {
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_cannot_override_indirect_abstract_field": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multiple_inheritance_cannot_shadow_concrete_inherited_field": true,
+        "queries.tests.Ticket21203Tests.test_ticket_21203": true,
+        "queries.test_bulk_update.BulkUpdateTests.test_falsey_pk_value": true,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_create_new_instance_with_pk_equals_none": true,
+        "queries.test_bulk_update.BulkUpdateTests.test_nullable_fk_after_related_save": true,
+        "queries.test_bulk_update.BulkUpdateNoteTests.test_set_field_to_null": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_shadow_related_name_when_set_to_none": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_abstract_parent_link": true,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique_together": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_eq": true,
+        "queries.tests.Queries1Tests.test_tickets_1878_2939": true,
+        "queries.tests.SubclassFKTests.test_ticket7778": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_init_subclass": true,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_issue_7276": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_virtual_field": true,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_id_field_update_on_ancestor_change": true,
+        "queries.tests.Queries4Tests.test_ticket11811": true,
+        "queries.test_bulk_update.BulkUpdateTests.test_unsaved_parent": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_override_one2one_relation_auto_field_clashes": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15563/dedup_patch_18.jsonl": {
+      "django__django-15563": {
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_cannot_override_indirect_abstract_field": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multiple_inheritance_cannot_shadow_concrete_inherited_field": true,
+        "queries.tests.Ticket21203Tests.test_ticket_21203": true,
+        "queries.test_bulk_update.BulkUpdateTests.test_falsey_pk_value": true,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_create_new_instance_with_pk_equals_none": true,
+        "queries.test_bulk_update.BulkUpdateTests.test_nullable_fk_after_related_save": true,
+        "queries.test_bulk_update.BulkUpdateNoteTests.test_set_field_to_null": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_shadow_related_name_when_set_to_none": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_abstract_parent_link": true,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique_together": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_eq": true,
+        "queries.tests.Queries1Tests.test_tickets_1878_2939": true,
+        "queries.tests.SubclassFKTests.test_ticket7778": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_init_subclass": true,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_issue_7276": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_virtual_field": true,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_id_field_update_on_ancestor_change": true,
+        "queries.tests.Queries4Tests.test_ticket11811": true,
+        "queries.test_bulk_update.BulkUpdateTests.test_unsaved_parent": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_override_one2one_relation_auto_field_clashes": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15563/dedup_patch_19.jsonl": {
+      "django__django-15563": {
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_cannot_override_indirect_abstract_field": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multiple_inheritance_cannot_shadow_concrete_inherited_field": true,
+        "queries.tests.Ticket21203Tests.test_ticket_21203": true,
+        "queries.test_bulk_update.BulkUpdateTests.test_falsey_pk_value": true,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_create_new_instance_with_pk_equals_none": true,
+        "queries.test_bulk_update.BulkUpdateTests.test_nullable_fk_after_related_save": true,
+        "queries.test_bulk_update.BulkUpdateNoteTests.test_set_field_to_null": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_shadow_related_name_when_set_to_none": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_abstract_parent_link": true,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique_together": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_eq": true,
+        "queries.tests.Queries1Tests.test_tickets_1878_2939": true,
+        "queries.tests.SubclassFKTests.test_ticket7778": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_init_subclass": true,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_issue_7276": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_virtual_field": true,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_id_field_update_on_ancestor_change": true,
+        "queries.tests.Queries4Tests.test_ticket11811": true,
+        "queries.test_bulk_update.BulkUpdateTests.test_unsaved_parent": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_override_one2one_relation_auto_field_clashes": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15563/dedup_patch_2.jsonl": {
+      "django__django-15563": {
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_cannot_override_indirect_abstract_field": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multiple_inheritance_cannot_shadow_concrete_inherited_field": true,
+        "queries.tests.Ticket21203Tests.test_ticket_21203": true,
+        "queries.test_bulk_update.BulkUpdateTests.test_falsey_pk_value": true,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_create_new_instance_with_pk_equals_none": false,
+        "queries.test_bulk_update.BulkUpdateTests.test_nullable_fk_after_related_save": true,
+        "queries.test_bulk_update.BulkUpdateNoteTests.test_set_field_to_null": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_shadow_related_name_when_set_to_none": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_abstract_parent_link": true,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique_together": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_eq": true,
+        "queries.tests.Queries1Tests.test_tickets_1878_2939": true,
+        "queries.tests.SubclassFKTests.test_ticket7778": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_init_subclass": true,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_issue_7276": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_virtual_field": true,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_id_field_update_on_ancestor_change": true,
+        "queries.tests.Queries4Tests.test_ticket11811": true,
+        "queries.test_bulk_update.BulkUpdateTests.test_unsaved_parent": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_override_one2one_relation_auto_field_clashes": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15563/dedup_patch_20.jsonl": {
+      "django__django-15563": {
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_cannot_override_indirect_abstract_field": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multiple_inheritance_cannot_shadow_concrete_inherited_field": true,
+        "queries.tests.Ticket21203Tests.test_ticket_21203": true,
+        "queries.test_bulk_update.BulkUpdateTests.test_falsey_pk_value": false,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_create_new_instance_with_pk_equals_none": true,
+        "queries.test_bulk_update.BulkUpdateTests.test_nullable_fk_after_related_save": false,
+        "queries.test_bulk_update.BulkUpdateNoteTests.test_set_field_to_null": false,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_shadow_related_name_when_set_to_none": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_abstract_parent_link": true,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique_together": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_eq": true,
+        "queries.tests.Queries1Tests.test_tickets_1878_2939": true,
+        "queries.tests.SubclassFKTests.test_ticket7778": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_init_subclass": true,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_issue_7276": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_virtual_field": true,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_id_field_update_on_ancestor_change": true,
+        "queries.tests.Queries4Tests.test_ticket11811": false,
+        "queries.test_bulk_update.BulkUpdateTests.test_unsaved_parent": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_override_one2one_relation_auto_field_clashes": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15563/dedup_patch_21.jsonl": {
+      "django__django-15563": {
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_cannot_override_indirect_abstract_field": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multiple_inheritance_cannot_shadow_concrete_inherited_field": true,
+        "queries.tests.Ticket21203Tests.test_ticket_21203": true,
+        "queries.test_bulk_update.BulkUpdateTests.test_falsey_pk_value": true,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_create_new_instance_with_pk_equals_none": true,
+        "queries.test_bulk_update.BulkUpdateTests.test_nullable_fk_after_related_save": true,
+        "queries.test_bulk_update.BulkUpdateNoteTests.test_set_field_to_null": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_shadow_related_name_when_set_to_none": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_abstract_parent_link": true,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique_together": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_eq": true,
+        "queries.tests.Queries1Tests.test_tickets_1878_2939": true,
+        "queries.tests.SubclassFKTests.test_ticket7778": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_init_subclass": true,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_issue_7276": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_virtual_field": true,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_id_field_update_on_ancestor_change": true,
+        "queries.tests.Queries4Tests.test_ticket11811": true,
+        "queries.test_bulk_update.BulkUpdateTests.test_unsaved_parent": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_override_one2one_relation_auto_field_clashes": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15563/dedup_patch_22.jsonl": {
+      "django__django-15563": {
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_cannot_override_indirect_abstract_field": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multiple_inheritance_cannot_shadow_concrete_inherited_field": true,
+        "queries.tests.Ticket21203Tests.test_ticket_21203": true,
+        "queries.test_bulk_update.BulkUpdateTests.test_falsey_pk_value": true,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_create_new_instance_with_pk_equals_none": true,
+        "queries.test_bulk_update.BulkUpdateTests.test_nullable_fk_after_related_save": true,
+        "queries.test_bulk_update.BulkUpdateNoteTests.test_set_field_to_null": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_shadow_related_name_when_set_to_none": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_abstract_parent_link": true,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique_together": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_eq": true,
+        "queries.tests.Queries1Tests.test_tickets_1878_2939": true,
+        "queries.tests.SubclassFKTests.test_ticket7778": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_init_subclass": true,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_issue_7276": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_virtual_field": true,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_id_field_update_on_ancestor_change": true,
+        "queries.tests.Queries4Tests.test_ticket11811": true,
+        "queries.test_bulk_update.BulkUpdateTests.test_unsaved_parent": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_override_one2one_relation_auto_field_clashes": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15563/dedup_patch_3.jsonl": {
+      "django__django-15563": {
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique": false,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_cannot_override_indirect_abstract_field": false,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multiple_inheritance_cannot_shadow_concrete_inherited_field": false,
+        "queries.tests.Ticket21203Tests.test_ticket_21203": true,
+        "queries.test_bulk_update.BulkUpdateTests.test_falsey_pk_value": true,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_create_new_instance_with_pk_equals_none": false,
+        "queries.test_bulk_update.BulkUpdateTests.test_nullable_fk_after_related_save": true,
+        "queries.test_bulk_update.BulkUpdateNoteTests.test_set_field_to_null": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_shadow_related_name_when_set_to_none": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_abstract_parent_link": false,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique_together": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_eq": false,
+        "queries.tests.Queries1Tests.test_tickets_1878_2939": true,
+        "queries.tests.SubclassFKTests.test_ticket7778": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_init_subclass": false,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_issue_7276": false,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_virtual_field": false,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_id_field_update_on_ancestor_change": false,
+        "queries.tests.Queries4Tests.test_ticket11811": true,
+        "queries.test_bulk_update.BulkUpdateTests.test_unsaved_parent": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_override_one2one_relation_auto_field_clashes": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15563/dedup_patch_4.jsonl": {
+      "django__django-15563": {
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique": false,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_cannot_override_indirect_abstract_field": false,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multiple_inheritance_cannot_shadow_concrete_inherited_field": false,
+        "queries.tests.Ticket21203Tests.test_ticket_21203": true,
+        "queries.test_bulk_update.BulkUpdateTests.test_falsey_pk_value": true,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_create_new_instance_with_pk_equals_none": false,
+        "queries.test_bulk_update.BulkUpdateTests.test_nullable_fk_after_related_save": true,
+        "queries.test_bulk_update.BulkUpdateNoteTests.test_set_field_to_null": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_shadow_related_name_when_set_to_none": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_abstract_parent_link": false,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique_together": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_eq": false,
+        "queries.tests.Queries1Tests.test_tickets_1878_2939": true,
+        "queries.tests.SubclassFKTests.test_ticket7778": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_init_subclass": false,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_issue_7276": false,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_virtual_field": false,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_id_field_update_on_ancestor_change": false,
+        "queries.tests.Queries4Tests.test_ticket11811": true,
+        "queries.test_bulk_update.BulkUpdateTests.test_unsaved_parent": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_override_one2one_relation_auto_field_clashes": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15563/dedup_patch_5.jsonl": {
+      "django__django-15563": {
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_cannot_override_indirect_abstract_field": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multiple_inheritance_cannot_shadow_concrete_inherited_field": true,
+        "queries.tests.Ticket21203Tests.test_ticket_21203": true,
+        "queries.test_bulk_update.BulkUpdateTests.test_falsey_pk_value": true,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_create_new_instance_with_pk_equals_none": true,
+        "queries.test_bulk_update.BulkUpdateTests.test_nullable_fk_after_related_save": true,
+        "queries.test_bulk_update.BulkUpdateNoteTests.test_set_field_to_null": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_shadow_related_name_when_set_to_none": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_abstract_parent_link": true,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique_together": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_eq": true,
+        "queries.tests.Queries1Tests.test_tickets_1878_2939": true,
+        "queries.tests.SubclassFKTests.test_ticket7778": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_init_subclass": true,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_issue_7276": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_virtual_field": true,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_id_field_update_on_ancestor_change": true,
+        "queries.tests.Queries4Tests.test_ticket11811": true,
+        "queries.test_bulk_update.BulkUpdateTests.test_unsaved_parent": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_override_one2one_relation_auto_field_clashes": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15563/dedup_patch_6.jsonl": {
+      "django__django-15563": {
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_cannot_override_indirect_abstract_field": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multiple_inheritance_cannot_shadow_concrete_inherited_field": true,
+        "queries.tests.Ticket21203Tests.test_ticket_21203": true,
+        "queries.test_bulk_update.BulkUpdateTests.test_falsey_pk_value": true,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_create_new_instance_with_pk_equals_none": true,
+        "queries.test_bulk_update.BulkUpdateTests.test_nullable_fk_after_related_save": true,
+        "queries.test_bulk_update.BulkUpdateNoteTests.test_set_field_to_null": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_shadow_related_name_when_set_to_none": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_abstract_parent_link": true,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique_together": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_eq": true,
+        "queries.tests.Queries1Tests.test_tickets_1878_2939": true,
+        "queries.tests.SubclassFKTests.test_ticket7778": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_init_subclass": true,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_issue_7276": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_virtual_field": true,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_id_field_update_on_ancestor_change": true,
+        "queries.tests.Queries4Tests.test_ticket11811": true,
+        "queries.test_bulk_update.BulkUpdateTests.test_unsaved_parent": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_override_one2one_relation_auto_field_clashes": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15563/dedup_patch_7.jsonl": {
+      "django__django-15563": {
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_cannot_override_indirect_abstract_field": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multiple_inheritance_cannot_shadow_concrete_inherited_field": true,
+        "queries.tests.Ticket21203Tests.test_ticket_21203": true,
+        "queries.test_bulk_update.BulkUpdateTests.test_falsey_pk_value": true,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_create_new_instance_with_pk_equals_none": true,
+        "queries.test_bulk_update.BulkUpdateTests.test_nullable_fk_after_related_save": true,
+        "queries.test_bulk_update.BulkUpdateNoteTests.test_set_field_to_null": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_shadow_related_name_when_set_to_none": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_abstract_parent_link": true,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique_together": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_eq": true,
+        "queries.tests.Queries1Tests.test_tickets_1878_2939": true,
+        "queries.tests.SubclassFKTests.test_ticket7778": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_init_subclass": true,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_issue_7276": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_virtual_field": true,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_id_field_update_on_ancestor_change": true,
+        "queries.tests.Queries4Tests.test_ticket11811": true,
+        "queries.test_bulk_update.BulkUpdateTests.test_unsaved_parent": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_override_one2one_relation_auto_field_clashes": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15563/dedup_patch_8.jsonl": {
+      "django__django-15563": {
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_cannot_override_indirect_abstract_field": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multiple_inheritance_cannot_shadow_concrete_inherited_field": true,
+        "queries.tests.Ticket21203Tests.test_ticket_21203": true,
+        "queries.test_bulk_update.BulkUpdateTests.test_falsey_pk_value": true,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_create_new_instance_with_pk_equals_none": true,
+        "queries.test_bulk_update.BulkUpdateTests.test_nullable_fk_after_related_save": true,
+        "queries.test_bulk_update.BulkUpdateNoteTests.test_set_field_to_null": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_shadow_related_name_when_set_to_none": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_abstract_parent_link": true,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique_together": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_eq": true,
+        "queries.tests.Queries1Tests.test_tickets_1878_2939": true,
+        "queries.tests.SubclassFKTests.test_ticket7778": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_init_subclass": true,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_issue_7276": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_virtual_field": true,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_id_field_update_on_ancestor_change": true,
+        "queries.tests.Queries4Tests.test_ticket11811": true,
+        "queries.test_bulk_update.BulkUpdateTests.test_unsaved_parent": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_override_one2one_relation_auto_field_clashes": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15563/dedup_patch_9.jsonl": {
+      "django__django-15563": {
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_cannot_override_indirect_abstract_field": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_multiple_inheritance_cannot_shadow_concrete_inherited_field": true,
+        "queries.tests.Ticket21203Tests.test_ticket_21203": true,
+        "queries.test_bulk_update.BulkUpdateTests.test_falsey_pk_value": true,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_create_new_instance_with_pk_equals_none": true,
+        "queries.test_bulk_update.BulkUpdateTests.test_nullable_fk_after_related_save": true,
+        "queries.test_bulk_update.BulkUpdateNoteTests.test_set_field_to_null": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_shadow_related_name_when_set_to_none": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_abstract_parent_link": true,
+        "model_inheritance.tests.InheritanceUniqueTests.test_unique_together": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_eq": true,
+        "queries.tests.Queries1Tests.test_tickets_1878_2939": true,
+        "queries.tests.SubclassFKTests.test_ticket7778": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_init_subclass": true,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_issue_7276": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_virtual_field": true,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_id_field_update_on_ancestor_change": true,
+        "queries.tests.Queries4Tests.test_ticket11811": true,
+        "queries.test_bulk_update.BulkUpdateTests.test_unsaved_parent": true,
+        "model_inheritance.test_abstract_inheritance.AbstractInheritanceTests.test_override_one2one_relation_auto_field_clashes": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-15563": {
+        "model_inheritance.tests.InheritanceUniqueTests.test_queryset_update_with_multiple_inheritance#1": true,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_update_multiple_inheritance#2": true,
+        "model_inheritance.tests.InheritanceUniqueTests.test_update_multiple_inheritance#3": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_update_multiple_inheritance#4": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_update_multiple_inheritance#5": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15563/dedup_patch_10.jsonl": {
+      "django__django-15563": {
+        "model_inheritance.tests.InheritanceUniqueTests.test_queryset_update_with_multiple_inheritance#1": false,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_update_multiple_inheritance#2": false,
+        "model_inheritance.tests.InheritanceUniqueTests.test_update_multiple_inheritance#3": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_update_multiple_inheritance#4": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_update_multiple_inheritance#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15563/dedup_patch_11.jsonl": {
+      "django__django-15563": {
+        "model_inheritance.tests.InheritanceUniqueTests.test_queryset_update_with_multiple_inheritance#1": false,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_update_multiple_inheritance#2": false,
+        "model_inheritance.tests.InheritanceUniqueTests.test_update_multiple_inheritance#3": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_update_multiple_inheritance#4": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_update_multiple_inheritance#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15563/dedup_patch_13.jsonl": {
+      "django__django-15563": {
+        "model_inheritance.tests.InheritanceUniqueTests.test_queryset_update_with_multiple_inheritance#1": false,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_update_multiple_inheritance#2": false,
+        "model_inheritance.tests.InheritanceUniqueTests.test_update_multiple_inheritance#3": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_update_multiple_inheritance#4": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_update_multiple_inheritance#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15563/dedup_patch_14.jsonl": {
+      "django__django-15563": {
+        "model_inheritance.tests.InheritanceUniqueTests.test_queryset_update_with_multiple_inheritance#1": false,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_update_multiple_inheritance#2": false,
+        "model_inheritance.tests.InheritanceUniqueTests.test_update_multiple_inheritance#3": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_update_multiple_inheritance#4": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_update_multiple_inheritance#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15563/dedup_patch_16.jsonl": {
+      "django__django-15563": {
+        "model_inheritance.tests.InheritanceUniqueTests.test_queryset_update_with_multiple_inheritance#1": false,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_update_multiple_inheritance#2": false,
+        "model_inheritance.tests.InheritanceUniqueTests.test_update_multiple_inheritance#3": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_update_multiple_inheritance#4": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_update_multiple_inheritance#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15563/dedup_patch_17.jsonl": {
+      "django__django-15563": {
+        "model_inheritance.tests.InheritanceUniqueTests.test_queryset_update_with_multiple_inheritance#1": false,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_update_multiple_inheritance#2": false,
+        "model_inheritance.tests.InheritanceUniqueTests.test_update_multiple_inheritance#3": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_update_multiple_inheritance#4": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_update_multiple_inheritance#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15563/dedup_patch_18.jsonl": {
+      "django__django-15563": {
+        "model_inheritance.tests.InheritanceUniqueTests.test_queryset_update_with_multiple_inheritance#1": false,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_update_multiple_inheritance#2": false,
+        "model_inheritance.tests.InheritanceUniqueTests.test_update_multiple_inheritance#3": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_update_multiple_inheritance#4": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_update_multiple_inheritance#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15563/dedup_patch_19.jsonl": {
+      "django__django-15563": {
+        "model_inheritance.tests.InheritanceUniqueTests.test_queryset_update_with_multiple_inheritance#1": false,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_update_multiple_inheritance#2": false,
+        "model_inheritance.tests.InheritanceUniqueTests.test_update_multiple_inheritance#3": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_update_multiple_inheritance#4": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_update_multiple_inheritance#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15563/dedup_patch_21.jsonl": {
+      "django__django-15563": {
+        "model_inheritance.tests.InheritanceUniqueTests.test_queryset_update_with_multiple_inheritance#1": false,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_update_multiple_inheritance#2": false,
+        "model_inheritance.tests.InheritanceUniqueTests.test_update_multiple_inheritance#3": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_update_multiple_inheritance#4": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_update_multiple_inheritance#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15563/dedup_patch_22.jsonl": {
+      "django__django-15563": {
+        "model_inheritance.tests.InheritanceUniqueTests.test_queryset_update_with_multiple_inheritance#1": false,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_update_multiple_inheritance#2": false,
+        "model_inheritance.tests.InheritanceUniqueTests.test_update_multiple_inheritance#3": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_update_multiple_inheritance#4": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_update_multiple_inheritance#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15563/dedup_patch_5.jsonl": {
+      "django__django-15563": {
+        "model_inheritance.tests.InheritanceUniqueTests.test_queryset_update_with_multiple_inheritance#1": false,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_update_multiple_inheritance#2": false,
+        "model_inheritance.tests.InheritanceUniqueTests.test_update_multiple_inheritance#3": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_update_multiple_inheritance#4": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_update_multiple_inheritance#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15563/dedup_patch_6.jsonl": {
+      "django__django-15563": {
+        "model_inheritance.tests.InheritanceUniqueTests.test_queryset_update_with_multiple_inheritance#1": false,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_update_multiple_inheritance#2": false,
+        "model_inheritance.tests.InheritanceUniqueTests.test_update_multiple_inheritance#3": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_update_multiple_inheritance#4": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_update_multiple_inheritance#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15563/dedup_patch_7.jsonl": {
+      "django__django-15563": {
+        "model_inheritance.tests.InheritanceUniqueTests.test_queryset_update_with_multiple_inheritance#1": false,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_update_multiple_inheritance#2": false,
+        "model_inheritance.tests.InheritanceUniqueTests.test_update_multiple_inheritance#3": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_update_multiple_inheritance#4": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_update_multiple_inheritance#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15563/dedup_patch_8.jsonl": {
+      "django__django-15563": {
+        "model_inheritance.tests.InheritanceUniqueTests.test_queryset_update_with_multiple_inheritance#1": false,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_update_multiple_inheritance#2": false,
+        "model_inheritance.tests.InheritanceUniqueTests.test_update_multiple_inheritance#3": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_update_multiple_inheritance#4": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_update_multiple_inheritance#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15563/dedup_patch_9.jsonl": {
+      "django__django-15563": {
+        "model_inheritance.tests.InheritanceUniqueTests.test_queryset_update_with_multiple_inheritance#1": false,
+        "model_inheritance_regress.tests.ModelInheritanceTest.test_update_multiple_inheritance#2": false,
+        "model_inheritance.tests.InheritanceUniqueTests.test_update_multiple_inheritance#3": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_update_multiple_inheritance#4": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_update_multiple_inheritance#5": false
+      }
+    }
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "regression": {
+    "all_patches/lite_claude_all_unique_patches/django__django-11620/dedup_patch_0.jsonl": {
+      "django__django-11620": {
+        "admin_views.tests.AdminViewBasicTest.test_allows_attributeerror_to_bubble_up": true,
+        "urlpatterns.tests.ConversionExceptionTests.test_resolve_value_error_means_no_match": true,
+        "resolve_url.tests.ResolveUrlTests.test_non_view_callable_raises_no_reverse_match": true,
+        "admin_views.tests.AdminKeepChangeListFiltersTests.test_add_view": true,
+        "urlpatterns.tests.SimplifiedURLTests.test_invalid_converter": true,
+        "handlers.tests.HandlerRequestTests.test_no_response": true,
+        "urlpatterns.tests.ConversionExceptionTests.test_resolve_type_error_propagates": true,
+        "urlpatterns.tests.SimplifiedURLTests.test_two_variable_at_start_of_path_pattern": true,
+        "urlpatterns.tests.SimplifiedURLTests.test_converter_reverse_with_second_layer_instance_namespace": true,
+        "urlpatterns.tests.SimplifiedURLTests.test_path_inclusion_is_matchable": true,
+        "urlpatterns.tests.ParameterRestrictionTests.test_non_identifier_parameter_name_causes_exception": true,
+        "urlpatterns.tests.SimplifiedURLTests.test_path_lookup_with_double_inclusion": true,
+        "admin_views.tests.AdminViewBasicTest.test_invalid_appindex_url": true,
+        "urlpatterns.tests.SimplifiedURLTests.test_converter_reverse": true,
+        "admin_views.tests.AdminViewBasicTest.test_i18n_language_non_english_default": true,
+        "admin_views.tests.AdminViewBasicTest.test_add_with_GET_args": true,
+        "middleware_exceptions.tests.MiddlewareTests.test_process_template_response_returns_none": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-11620/dedup_patch_1.jsonl": {
+      "django__django-11620": {
+        "admin_views.tests.AdminViewBasicTest.test_allows_attributeerror_to_bubble_up": true,
+        "urlpatterns.tests.ConversionExceptionTests.test_resolve_value_error_means_no_match": false,
+        "resolve_url.tests.ResolveUrlTests.test_non_view_callable_raises_no_reverse_match": true,
+        "admin_views.tests.AdminKeepChangeListFiltersTests.test_add_view": true,
+        "urlpatterns.tests.SimplifiedURLTests.test_invalid_converter": true,
+        "handlers.tests.HandlerRequestTests.test_no_response": true,
+        "urlpatterns.tests.ConversionExceptionTests.test_resolve_type_error_propagates": false,
+        "urlpatterns.tests.SimplifiedURLTests.test_two_variable_at_start_of_path_pattern": true,
+        "urlpatterns.tests.SimplifiedURLTests.test_converter_reverse_with_second_layer_instance_namespace": true,
+        "urlpatterns.tests.SimplifiedURLTests.test_path_inclusion_is_matchable": true,
+        "urlpatterns.tests.ParameterRestrictionTests.test_non_identifier_parameter_name_causes_exception": true,
+        "urlpatterns.tests.SimplifiedURLTests.test_path_lookup_with_double_inclusion": true,
+        "admin_views.tests.AdminViewBasicTest.test_invalid_appindex_url": true,
+        "urlpatterns.tests.SimplifiedURLTests.test_converter_reverse": true,
+        "admin_views.tests.AdminViewBasicTest.test_i18n_language_non_english_default": true,
+        "admin_views.tests.AdminViewBasicTest.test_add_with_GET_args": true,
+        "middleware_exceptions.tests.MiddlewareTests.test_process_template_response_returns_none": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-11620/dedup_patch_2.jsonl": {
+      "django__django-11620": {
+        "admin_views.tests.AdminViewBasicTest.test_allows_attributeerror_to_bubble_up": true,
+        "urlpatterns.tests.ConversionExceptionTests.test_resolve_value_error_means_no_match": true,
+        "resolve_url.tests.ResolveUrlTests.test_non_view_callable_raises_no_reverse_match": true,
+        "admin_views.tests.AdminKeepChangeListFiltersTests.test_add_view": true,
+        "urlpatterns.tests.SimplifiedURLTests.test_invalid_converter": true,
+        "handlers.tests.HandlerRequestTests.test_no_response": true,
+        "urlpatterns.tests.ConversionExceptionTests.test_resolve_type_error_propagates": true,
+        "urlpatterns.tests.SimplifiedURLTests.test_two_variable_at_start_of_path_pattern": true,
+        "urlpatterns.tests.SimplifiedURLTests.test_converter_reverse_with_second_layer_instance_namespace": true,
+        "urlpatterns.tests.SimplifiedURLTests.test_path_inclusion_is_matchable": true,
+        "urlpatterns.tests.ParameterRestrictionTests.test_non_identifier_parameter_name_causes_exception": true,
+        "urlpatterns.tests.SimplifiedURLTests.test_path_lookup_with_double_inclusion": true,
+        "admin_views.tests.AdminViewBasicTest.test_invalid_appindex_url": true,
+        "urlpatterns.tests.SimplifiedURLTests.test_converter_reverse": true,
+        "admin_views.tests.AdminViewBasicTest.test_i18n_language_non_english_default": true,
+        "admin_views.tests.AdminViewBasicTest.test_add_with_GET_args": true,
+        "middleware_exceptions.tests.MiddlewareTests.test_process_template_response_returns_none": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-11620/dedup_patch_3.jsonl": {
+      "django__django-11620": {
+        "admin_views.tests.AdminViewBasicTest.test_allows_attributeerror_to_bubble_up": true,
+        "urlpatterns.tests.ConversionExceptionTests.test_resolve_value_error_means_no_match": false,
+        "resolve_url.tests.ResolveUrlTests.test_non_view_callable_raises_no_reverse_match": true,
+        "admin_views.tests.AdminKeepChangeListFiltersTests.test_add_view": true,
+        "urlpatterns.tests.SimplifiedURLTests.test_invalid_converter": true,
+        "handlers.tests.HandlerRequestTests.test_no_response": true,
+        "urlpatterns.tests.ConversionExceptionTests.test_resolve_type_error_propagates": false,
+        "urlpatterns.tests.SimplifiedURLTests.test_two_variable_at_start_of_path_pattern": true,
+        "urlpatterns.tests.SimplifiedURLTests.test_converter_reverse_with_second_layer_instance_namespace": true,
+        "urlpatterns.tests.SimplifiedURLTests.test_path_inclusion_is_matchable": true,
+        "urlpatterns.tests.ParameterRestrictionTests.test_non_identifier_parameter_name_causes_exception": true,
+        "urlpatterns.tests.SimplifiedURLTests.test_path_lookup_with_double_inclusion": true,
+        "admin_views.tests.AdminViewBasicTest.test_invalid_appindex_url": true,
+        "urlpatterns.tests.SimplifiedURLTests.test_converter_reverse": true,
+        "admin_views.tests.AdminViewBasicTest.test_i18n_language_non_english_default": true,
+        "admin_views.tests.AdminViewBasicTest.test_add_with_GET_args": true,
+        "middleware_exceptions.tests.MiddlewareTests.test_process_template_response_returns_none": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-11620/dedup_patch_4.jsonl": {
+      "django__django-11620": {
+        "admin_views.tests.AdminViewBasicTest.test_allows_attributeerror_to_bubble_up": true,
+        "urlpatterns.tests.ConversionExceptionTests.test_resolve_value_error_means_no_match": true,
+        "resolve_url.tests.ResolveUrlTests.test_non_view_callable_raises_no_reverse_match": true,
+        "admin_views.tests.AdminKeepChangeListFiltersTests.test_add_view": true,
+        "urlpatterns.tests.SimplifiedURLTests.test_invalid_converter": true,
+        "handlers.tests.HandlerRequestTests.test_no_response": true,
+        "urlpatterns.tests.ConversionExceptionTests.test_resolve_type_error_propagates": false,
+        "urlpatterns.tests.SimplifiedURLTests.test_two_variable_at_start_of_path_pattern": true,
+        "urlpatterns.tests.SimplifiedURLTests.test_converter_reverse_with_second_layer_instance_namespace": true,
+        "urlpatterns.tests.SimplifiedURLTests.test_path_inclusion_is_matchable": true,
+        "urlpatterns.tests.ParameterRestrictionTests.test_non_identifier_parameter_name_causes_exception": true,
+        "urlpatterns.tests.SimplifiedURLTests.test_path_lookup_with_double_inclusion": true,
+        "admin_views.tests.AdminViewBasicTest.test_invalid_appindex_url": true,
+        "urlpatterns.tests.SimplifiedURLTests.test_converter_reverse": true,
+        "admin_views.tests.AdminViewBasicTest.test_i18n_language_non_english_default": true,
+        "admin_views.tests.AdminViewBasicTest.test_add_with_GET_args": true,
+        "middleware_exceptions.tests.MiddlewareTests.test_process_template_response_returns_none": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-11620/dedup_patch_5.jsonl": {
+      "django__django-11620": {
+        "admin_views.tests.AdminViewBasicTest.test_allows_attributeerror_to_bubble_up": true,
+        "urlpatterns.tests.ConversionExceptionTests.test_resolve_value_error_means_no_match": true,
+        "resolve_url.tests.ResolveUrlTests.test_non_view_callable_raises_no_reverse_match": true,
+        "admin_views.tests.AdminKeepChangeListFiltersTests.test_add_view": true,
+        "urlpatterns.tests.SimplifiedURLTests.test_invalid_converter": true,
+        "handlers.tests.HandlerRequestTests.test_no_response": true,
+        "urlpatterns.tests.ConversionExceptionTests.test_resolve_type_error_propagates": false,
+        "urlpatterns.tests.SimplifiedURLTests.test_two_variable_at_start_of_path_pattern": true,
+        "urlpatterns.tests.SimplifiedURLTests.test_converter_reverse_with_second_layer_instance_namespace": true,
+        "urlpatterns.tests.SimplifiedURLTests.test_path_inclusion_is_matchable": true,
+        "urlpatterns.tests.ParameterRestrictionTests.test_non_identifier_parameter_name_causes_exception": true,
+        "urlpatterns.tests.SimplifiedURLTests.test_path_lookup_with_double_inclusion": true,
+        "admin_views.tests.AdminViewBasicTest.test_invalid_appindex_url": true,
+        "urlpatterns.tests.SimplifiedURLTests.test_converter_reverse": true,
+        "admin_views.tests.AdminViewBasicTest.test_i18n_language_non_english_default": true,
+        "admin_views.tests.AdminViewBasicTest.test_add_with_GET_args": true,
+        "middleware_exceptions.tests.MiddlewareTests.test_process_template_response_returns_none": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-11620/dedup_patch_6.jsonl": {
+      "django__django-11620": {
+        "admin_views.tests.AdminViewBasicTest.test_allows_attributeerror_to_bubble_up": true,
+        "urlpatterns.tests.ConversionExceptionTests.test_resolve_value_error_means_no_match": true,
+        "resolve_url.tests.ResolveUrlTests.test_non_view_callable_raises_no_reverse_match": true,
+        "admin_views.tests.AdminKeepChangeListFiltersTests.test_add_view": true,
+        "urlpatterns.tests.SimplifiedURLTests.test_invalid_converter": true,
+        "handlers.tests.HandlerRequestTests.test_no_response": true,
+        "urlpatterns.tests.ConversionExceptionTests.test_resolve_type_error_propagates": false,
+        "urlpatterns.tests.SimplifiedURLTests.test_two_variable_at_start_of_path_pattern": true,
+        "urlpatterns.tests.SimplifiedURLTests.test_converter_reverse_with_second_layer_instance_namespace": true,
+        "urlpatterns.tests.SimplifiedURLTests.test_path_inclusion_is_matchable": true,
+        "urlpatterns.tests.ParameterRestrictionTests.test_non_identifier_parameter_name_causes_exception": true,
+        "urlpatterns.tests.SimplifiedURLTests.test_path_lookup_with_double_inclusion": true,
+        "admin_views.tests.AdminViewBasicTest.test_invalid_appindex_url": true,
+        "urlpatterns.tests.SimplifiedURLTests.test_converter_reverse": true,
+        "admin_views.tests.AdminViewBasicTest.test_i18n_language_non_english_default": true,
+        "admin_views.tests.AdminViewBasicTest.test_add_with_GET_args": true,
+        "middleware_exceptions.tests.MiddlewareTests.test_process_template_response_returns_none": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-11620/dedup_patch_7.jsonl": {
+      "django__django-11620": {
+        "admin_views.tests.AdminViewBasicTest.test_allows_attributeerror_to_bubble_up": true,
+        "urlpatterns.tests.ConversionExceptionTests.test_resolve_value_error_means_no_match": true,
+        "resolve_url.tests.ResolveUrlTests.test_non_view_callable_raises_no_reverse_match": true,
+        "admin_views.tests.AdminKeepChangeListFiltersTests.test_add_view": true,
+        "urlpatterns.tests.SimplifiedURLTests.test_invalid_converter": true,
+        "handlers.tests.HandlerRequestTests.test_no_response": true,
+        "urlpatterns.tests.ConversionExceptionTests.test_resolve_type_error_propagates": false,
+        "urlpatterns.tests.SimplifiedURLTests.test_two_variable_at_start_of_path_pattern": true,
+        "urlpatterns.tests.SimplifiedURLTests.test_converter_reverse_with_second_layer_instance_namespace": true,
+        "urlpatterns.tests.SimplifiedURLTests.test_path_inclusion_is_matchable": true,
+        "urlpatterns.tests.ParameterRestrictionTests.test_non_identifier_parameter_name_causes_exception": true,
+        "urlpatterns.tests.SimplifiedURLTests.test_path_lookup_with_double_inclusion": true,
+        "admin_views.tests.AdminViewBasicTest.test_invalid_appindex_url": true,
+        "urlpatterns.tests.SimplifiedURLTests.test_converter_reverse": true,
+        "admin_views.tests.AdminViewBasicTest.test_i18n_language_non_english_default": true,
+        "admin_views.tests.AdminViewBasicTest.test_add_with_GET_args": true,
+        "middleware_exceptions.tests.MiddlewareTests.test_process_template_response_returns_none": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-11620": {
+        "urlpatterns_reverse.tests.ResolverTests.test_http404_in_path_converter#1": true,
+        "urlpatterns_reverse.tests.ResolverTests.test_http404_in_path_converter#2": true,
+        "urlpatterns_reverse.tests.LookaheadTests.test_http404_in_path_converter#3": true,
+        "urlpatterns_reverse.tests.ResolverTests.test_http404_in_path_converter_debug_response#4": true,
+        "urlpatterns.tests.ConversionExceptionTests.test_http404_in_path_converter_debug_response#5": true,
+        "urlpatterns_reverse.tests.ResolverTests.test_http404_in_path_converter#6": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-11620/dedup_patch_0.jsonl": {
+      "django__django-11620": {
+        "urlpatterns_reverse.tests.ResolverTests.test_http404_in_path_converter#1": false,
+        "urlpatterns_reverse.tests.ResolverTests.test_http404_in_path_converter#2": false,
+        "urlpatterns_reverse.tests.LookaheadTests.test_http404_in_path_converter#3": false,
+        "urlpatterns_reverse.tests.ResolverTests.test_http404_in_path_converter_debug_response#4": false,
+        "urlpatterns.tests.ConversionExceptionTests.test_http404_in_path_converter_debug_response#5": false,
+        "urlpatterns_reverse.tests.ResolverTests.test_http404_in_path_converter#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-11620/dedup_patch_2.jsonl": {
+      "django__django-11620": {
+        "urlpatterns_reverse.tests.ResolverTests.test_http404_in_path_converter#1": false,
+        "urlpatterns_reverse.tests.ResolverTests.test_http404_in_path_converter#2": false,
+        "urlpatterns_reverse.tests.LookaheadTests.test_http404_in_path_converter#3": false,
+        "urlpatterns_reverse.tests.ResolverTests.test_http404_in_path_converter_debug_response#4": false,
+        "urlpatterns.tests.ConversionExceptionTests.test_http404_in_path_converter_debug_response#5": false,
+        "urlpatterns_reverse.tests.ResolverTests.test_http404_in_path_converter#6": false
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/astropy__astropy-7166/dedup_patch_0.jsonl": {
+      "astropy__astropy-7166": {
+        "astropy/utils/tests/test_misc.py::test_inherit_docstrings": true,
+        "astropy/modeling/tests/test_parameters.py::test_non_broadcasting_parameters": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "astropy__astropy-7166": {
+        "astropy/utils/tests/test_misc.py::test_inherit_docstrings#1": false,
+        "astropy/utils/tests/test_decorators.py::test_classproperty_docstring#2": false,
+        "astropy/utils/tests/test_decorators.py::test_format_doc_onClass#3": false,
+        "astropy/utils/tests/test_decorators.py::test_classproperty_docstring#4": false,
+        "astropy/utils/tests/test_decorators.py::test_classproperty_docstring#5": false,
+        "astropy/utils/tests/test_decorators.py::test_classproperty_docstring#6": false
+      }
+    }
+  }
+}

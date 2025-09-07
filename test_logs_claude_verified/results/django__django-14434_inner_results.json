@@ -1,0 +1,176 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/django__django-14434/dedup_patch_0.jsonl": {
+      "django__django-14434": {
+        "schema.tests.SchemaTests.test_remove_unique_together_does_not_remove_meta_constraints": false,
+        "schema.tests.SchemaTests.test_composite_func_unique_constraint": false,
+        "schema.tests.SchemaTests.test_func_unique_constraint_partial": false,
+        "schema.tests.SchemaTests.test_func_unique_constraint": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14434/dedup_patch_1.jsonl": {
+      "django__django-14434": {
+        "schema.tests.SchemaTests.test_remove_unique_together_does_not_remove_meta_constraints": false,
+        "schema.tests.SchemaTests.test_composite_func_unique_constraint": false,
+        "schema.tests.SchemaTests.test_func_unique_constraint_partial": false,
+        "schema.tests.SchemaTests.test_func_unique_constraint": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14434/dedup_patch_2.jsonl": {
+      "django__django-14434": {
+        "schema.tests.SchemaTests.test_remove_unique_together_does_not_remove_meta_constraints": true,
+        "schema.tests.SchemaTests.test_composite_func_unique_constraint": true,
+        "schema.tests.SchemaTests.test_func_unique_constraint_partial": true,
+        "schema.tests.SchemaTests.test_func_unique_constraint": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14434/dedup_patch_3.jsonl": {
+      "django__django-14434": {
+        "schema.tests.SchemaTests.test_remove_unique_together_does_not_remove_meta_constraints": true,
+        "schema.tests.SchemaTests.test_composite_func_unique_constraint": true,
+        "schema.tests.SchemaTests.test_func_unique_constraint_partial": true,
+        "schema.tests.SchemaTests.test_func_unique_constraint": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14434/dedup_patch_4.jsonl": {
+      "django__django-14434": {
+        "schema.tests.SchemaTests.test_remove_unique_together_does_not_remove_meta_constraints": true,
+        "schema.tests.SchemaTests.test_composite_func_unique_constraint": true,
+        "schema.tests.SchemaTests.test_func_unique_constraint_partial": true,
+        "schema.tests.SchemaTests.test_func_unique_constraint": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14434/dedup_patch_5.jsonl": {
+      "django__django-14434": {
+        "schema.tests.SchemaTests.test_remove_unique_together_does_not_remove_meta_constraints": true,
+        "schema.tests.SchemaTests.test_composite_func_unique_constraint": true,
+        "schema.tests.SchemaTests.test_func_unique_constraint_partial": true,
+        "schema.tests.SchemaTests.test_func_unique_constraint": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14434/dedup_patch_6.jsonl": {
+      "django__django-14434": {
+        "schema.tests.SchemaTests.test_remove_unique_together_does_not_remove_meta_constraints": true,
+        "schema.tests.SchemaTests.test_composite_func_unique_constraint": true,
+        "schema.tests.SchemaTests.test_func_unique_constraint_partial": true,
+        "schema.tests.SchemaTests.test_func_unique_constraint": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14434/dedup_patch_7.jsonl": {
+      "django__django-14434": {
+        "schema.tests.SchemaTests.test_remove_unique_together_does_not_remove_meta_constraints": true,
+        "schema.tests.SchemaTests.test_composite_func_unique_constraint": true,
+        "schema.tests.SchemaTests.test_func_unique_constraint_partial": true,
+        "schema.tests.SchemaTests.test_func_unique_constraint": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14434/dedup_patch_8.jsonl": {
+      "django__django-14434": {
+        "schema.tests.SchemaTests.test_remove_unique_together_does_not_remove_meta_constraints": true,
+        "schema.tests.SchemaTests.test_composite_func_unique_constraint": true,
+        "schema.tests.SchemaTests.test_func_unique_constraint_partial": true,
+        "schema.tests.SchemaTests.test_func_unique_constraint": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14434/dedup_patch_9.jsonl": {
+      "django__django-14434": {
+        "schema.tests.SchemaTests.test_remove_unique_together_does_not_remove_meta_constraints": true,
+        "schema.tests.SchemaTests.test_composite_func_unique_constraint": true,
+        "schema.tests.SchemaTests.test_func_unique_constraint_partial": true,
+        "schema.tests.SchemaTests.test_func_unique_constraint": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-14434": {
+        "constraints.tests.UniqueConstraintTests.test_references_column_with_table_object#1": true,
+        "constraints.tests.UniqueConstraintTests.test_references_column#2": true,
+        "constraints.tests.UniqueConstraintTests.test_references_column_with_table_object#3": true,
+        "constraints.tests.UniqueConstraintTests.test_references_column#4": true,
+        "constraints.tests.UniqueConstraintTests.test_references_column_with_table_instance#5": true,
+        "constraints.tests.UniqueConstraintTests.test_references_column_with_table_instance#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14434/dedup_patch_2.jsonl": {
+      "django__django-14434": {
+        "constraints.tests.UniqueConstraintTests.test_references_column_with_table_object#1": false,
+        "constraints.tests.UniqueConstraintTests.test_references_column#2": false,
+        "constraints.tests.UniqueConstraintTests.test_references_column_with_table_object#3": false,
+        "constraints.tests.UniqueConstraintTests.test_references_column#4": false,
+        "constraints.tests.UniqueConstraintTests.test_references_column_with_table_instance#5": false,
+        "constraints.tests.UniqueConstraintTests.test_references_column_with_table_instance#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14434/dedup_patch_3.jsonl": {
+      "django__django-14434": {
+        "constraints.tests.UniqueConstraintTests.test_references_column_with_table_object#1": false,
+        "constraints.tests.UniqueConstraintTests.test_references_column#2": false,
+        "constraints.tests.UniqueConstraintTests.test_references_column_with_table_object#3": false,
+        "constraints.tests.UniqueConstraintTests.test_references_column#4": false,
+        "constraints.tests.UniqueConstraintTests.test_references_column_with_table_instance#5": false,
+        "constraints.tests.UniqueConstraintTests.test_references_column_with_table_instance#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14434/dedup_patch_4.jsonl": {
+      "django__django-14434": {
+        "constraints.tests.UniqueConstraintTests.test_references_column_with_table_object#1": false,
+        "constraints.tests.UniqueConstraintTests.test_references_column#2": false,
+        "constraints.tests.UniqueConstraintTests.test_references_column_with_table_object#3": false,
+        "constraints.tests.UniqueConstraintTests.test_references_column#4": false,
+        "constraints.tests.UniqueConstraintTests.test_references_column_with_table_instance#5": false,
+        "constraints.tests.UniqueConstraintTests.test_references_column_with_table_instance#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14434/dedup_patch_5.jsonl": {
+      "django__django-14434": {
+        "constraints.tests.UniqueConstraintTests.test_references_column_with_table_object#1": false,
+        "constraints.tests.UniqueConstraintTests.test_references_column#2": false,
+        "constraints.tests.UniqueConstraintTests.test_references_column_with_table_object#3": false,
+        "constraints.tests.UniqueConstraintTests.test_references_column#4": false,
+        "constraints.tests.UniqueConstraintTests.test_references_column_with_table_instance#5": false,
+        "constraints.tests.UniqueConstraintTests.test_references_column_with_table_instance#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14434/dedup_patch_6.jsonl": {
+      "django__django-14434": {
+        "constraints.tests.UniqueConstraintTests.test_references_column_with_table_object#1": false,
+        "constraints.tests.UniqueConstraintTests.test_references_column#2": false,
+        "constraints.tests.UniqueConstraintTests.test_references_column_with_table_object#3": false,
+        "constraints.tests.UniqueConstraintTests.test_references_column#4": false,
+        "constraints.tests.UniqueConstraintTests.test_references_column_with_table_instance#5": false,
+        "constraints.tests.UniqueConstraintTests.test_references_column_with_table_instance#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14434/dedup_patch_7.jsonl": {
+      "django__django-14434": {
+        "constraints.tests.UniqueConstraintTests.test_references_column_with_table_object#1": false,
+        "constraints.tests.UniqueConstraintTests.test_references_column#2": false,
+        "constraints.tests.UniqueConstraintTests.test_references_column_with_table_object#3": false,
+        "constraints.tests.UniqueConstraintTests.test_references_column#4": false,
+        "constraints.tests.UniqueConstraintTests.test_references_column_with_table_instance#5": false,
+        "constraints.tests.UniqueConstraintTests.test_references_column_with_table_instance#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14434/dedup_patch_8.jsonl": {
+      "django__django-14434": {
+        "constraints.tests.UniqueConstraintTests.test_references_column_with_table_object#1": false,
+        "constraints.tests.UniqueConstraintTests.test_references_column#2": true,
+        "constraints.tests.UniqueConstraintTests.test_references_column_with_table_object#3": false,
+        "constraints.tests.UniqueConstraintTests.test_references_column#4": false,
+        "constraints.tests.UniqueConstraintTests.test_references_column_with_table_instance#5": false,
+        "constraints.tests.UniqueConstraintTests.test_references_column_with_table_instance#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14434/dedup_patch_9.jsonl": {
+      "django__django-14434": {
+        "constraints.tests.UniqueConstraintTests.test_references_column_with_table_object#1": false,
+        "constraints.tests.UniqueConstraintTests.test_references_column#2": false,
+        "constraints.tests.UniqueConstraintTests.test_references_column_with_table_object#3": false,
+        "constraints.tests.UniqueConstraintTests.test_references_column#4": false,
+        "constraints.tests.UniqueConstraintTests.test_references_column_with_table_instance#5": false,
+        "constraints.tests.UniqueConstraintTests.test_references_column_with_table_instance#6": false
+      }
+    }
+  }
+}

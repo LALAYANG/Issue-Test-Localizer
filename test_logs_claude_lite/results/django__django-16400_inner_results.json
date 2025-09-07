@@ -1,0 +1,580 @@
+{
+  "regression": {
+    "all_patches/lite_claude_all_unique_patches/django__django-16400/dedup_patch_0.jsonl": {
+      "django__django-16400": {
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_fields_with_fk_interactive": true,
+        "migrate_signals.tests.MigrateSignalTests.test_args": true,
+        "migrations.test_commands.MigrateTests.test_migrate_fake_initial_case_insensitive": true,
+        "auth_tests.test_management.CreatePermissionsTests.test_default_permissions": true,
+        "auth_tests.test_management.MultiDBCreatesuperuserTestCase.test_createsuperuser_command_suggested_username_with_database_option": true,
+        "migrations.test_commands.MigrateTests.test_migrate_with_system_checks": true,
+        "migrations.test_commands.MigrateTests.test_migrate_backward_to_squashed_migration": true,
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_swappable_user_username_non_unique": true,
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_fields_with_m2m_interactive": true,
+        "auth_tests.test_management.GetDefaultUsernameTestCase.test_with_database": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-16400/dedup_patch_1.jsonl": {
+      "django__django-16400": {
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_fields_with_fk_interactive": false,
+        "migrate_signals.tests.MigrateSignalTests.test_args": false,
+        "migrations.test_commands.MigrateTests.test_migrate_fake_initial_case_insensitive": false,
+        "auth_tests.test_management.CreatePermissionsTests.test_default_permissions": false,
+        "auth_tests.test_management.MultiDBCreatesuperuserTestCase.test_createsuperuser_command_suggested_username_with_database_option": false,
+        "migrations.test_commands.MigrateTests.test_migrate_with_system_checks": false,
+        "migrations.test_commands.MigrateTests.test_migrate_backward_to_squashed_migration": false,
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_swappable_user_username_non_unique": false,
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_fields_with_m2m_interactive": false,
+        "auth_tests.test_management.GetDefaultUsernameTestCase.test_with_database": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-16400/dedup_patch_10.jsonl": {
+      "django__django-16400": {
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_fields_with_fk_interactive": false,
+        "migrate_signals.tests.MigrateSignalTests.test_args": false,
+        "migrations.test_commands.MigrateTests.test_migrate_fake_initial_case_insensitive": false,
+        "auth_tests.test_management.CreatePermissionsTests.test_default_permissions": false,
+        "auth_tests.test_management.MultiDBCreatesuperuserTestCase.test_createsuperuser_command_suggested_username_with_database_option": false,
+        "migrations.test_commands.MigrateTests.test_migrate_with_system_checks": false,
+        "migrations.test_commands.MigrateTests.test_migrate_backward_to_squashed_migration": false,
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_swappable_user_username_non_unique": false,
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_fields_with_m2m_interactive": false,
+        "auth_tests.test_management.GetDefaultUsernameTestCase.test_with_database": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-16400/dedup_patch_11.jsonl": {
+      "django__django-16400": {
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_fields_with_fk_interactive": false,
+        "migrate_signals.tests.MigrateSignalTests.test_args": false,
+        "migrations.test_commands.MigrateTests.test_migrate_fake_initial_case_insensitive": false,
+        "auth_tests.test_management.CreatePermissionsTests.test_default_permissions": false,
+        "auth_tests.test_management.MultiDBCreatesuperuserTestCase.test_createsuperuser_command_suggested_username_with_database_option": false,
+        "migrations.test_commands.MigrateTests.test_migrate_with_system_checks": false,
+        "migrations.test_commands.MigrateTests.test_migrate_backward_to_squashed_migration": false,
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_swappable_user_username_non_unique": false,
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_fields_with_m2m_interactive": false,
+        "auth_tests.test_management.GetDefaultUsernameTestCase.test_with_database": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-16400/dedup_patch_12.jsonl": {
+      "django__django-16400": {
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_fields_with_fk_interactive": false,
+        "migrate_signals.tests.MigrateSignalTests.test_args": false,
+        "migrations.test_commands.MigrateTests.test_migrate_fake_initial_case_insensitive": false,
+        "auth_tests.test_management.CreatePermissionsTests.test_default_permissions": false,
+        "auth_tests.test_management.MultiDBCreatesuperuserTestCase.test_createsuperuser_command_suggested_username_with_database_option": false,
+        "migrations.test_commands.MigrateTests.test_migrate_with_system_checks": false,
+        "migrations.test_commands.MigrateTests.test_migrate_backward_to_squashed_migration": false,
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_swappable_user_username_non_unique": false,
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_fields_with_m2m_interactive": false,
+        "auth_tests.test_management.GetDefaultUsernameTestCase.test_with_database": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-16400/dedup_patch_13.jsonl": {
+      "django__django-16400": {
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_fields_with_fk_interactive": false,
+        "migrate_signals.tests.MigrateSignalTests.test_args": false,
+        "migrations.test_commands.MigrateTests.test_migrate_fake_initial_case_insensitive": false,
+        "auth_tests.test_management.CreatePermissionsTests.test_default_permissions": false,
+        "auth_tests.test_management.MultiDBCreatesuperuserTestCase.test_createsuperuser_command_suggested_username_with_database_option": false,
+        "migrations.test_commands.MigrateTests.test_migrate_with_system_checks": false,
+        "migrations.test_commands.MigrateTests.test_migrate_backward_to_squashed_migration": false,
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_swappable_user_username_non_unique": false,
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_fields_with_m2m_interactive": false,
+        "auth_tests.test_management.GetDefaultUsernameTestCase.test_with_database": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-16400/dedup_patch_14.jsonl": {
+      "django__django-16400": {
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_fields_with_fk_interactive": true,
+        "migrate_signals.tests.MigrateSignalTests.test_args": true,
+        "migrations.test_commands.MigrateTests.test_migrate_fake_initial_case_insensitive": true,
+        "auth_tests.test_management.CreatePermissionsTests.test_default_permissions": true,
+        "auth_tests.test_management.MultiDBCreatesuperuserTestCase.test_createsuperuser_command_suggested_username_with_database_option": true,
+        "migrations.test_commands.MigrateTests.test_migrate_with_system_checks": true,
+        "migrations.test_commands.MigrateTests.test_migrate_backward_to_squashed_migration": true,
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_swappable_user_username_non_unique": true,
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_fields_with_m2m_interactive": true,
+        "auth_tests.test_management.GetDefaultUsernameTestCase.test_with_database": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-16400/dedup_patch_15.jsonl": {
+      "django__django-16400": {
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_fields_with_fk_interactive": true,
+        "migrate_signals.tests.MigrateSignalTests.test_args": true,
+        "migrations.test_commands.MigrateTests.test_migrate_fake_initial_case_insensitive": true,
+        "auth_tests.test_management.CreatePermissionsTests.test_default_permissions": true,
+        "auth_tests.test_management.MultiDBCreatesuperuserTestCase.test_createsuperuser_command_suggested_username_with_database_option": true,
+        "migrations.test_commands.MigrateTests.test_migrate_with_system_checks": true,
+        "migrations.test_commands.MigrateTests.test_migrate_backward_to_squashed_migration": true,
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_swappable_user_username_non_unique": true,
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_fields_with_m2m_interactive": true,
+        "auth_tests.test_management.GetDefaultUsernameTestCase.test_with_database": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-16400/dedup_patch_16.jsonl": {
+      "django__django-16400": {
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_fields_with_fk_interactive": true,
+        "migrate_signals.tests.MigrateSignalTests.test_args": true,
+        "migrations.test_commands.MigrateTests.test_migrate_fake_initial_case_insensitive": true,
+        "auth_tests.test_management.CreatePermissionsTests.test_default_permissions": true,
+        "auth_tests.test_management.MultiDBCreatesuperuserTestCase.test_createsuperuser_command_suggested_username_with_database_option": true,
+        "migrations.test_commands.MigrateTests.test_migrate_with_system_checks": true,
+        "migrations.test_commands.MigrateTests.test_migrate_backward_to_squashed_migration": true,
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_swappable_user_username_non_unique": true,
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_fields_with_m2m_interactive": true,
+        "auth_tests.test_management.GetDefaultUsernameTestCase.test_with_database": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-16400/dedup_patch_17.jsonl": {
+      "django__django-16400": {
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_fields_with_fk_interactive": false,
+        "migrate_signals.tests.MigrateSignalTests.test_args": false,
+        "migrations.test_commands.MigrateTests.test_migrate_fake_initial_case_insensitive": false,
+        "auth_tests.test_management.CreatePermissionsTests.test_default_permissions": false,
+        "auth_tests.test_management.MultiDBCreatesuperuserTestCase.test_createsuperuser_command_suggested_username_with_database_option": false,
+        "migrations.test_commands.MigrateTests.test_migrate_with_system_checks": false,
+        "migrations.test_commands.MigrateTests.test_migrate_backward_to_squashed_migration": false,
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_swappable_user_username_non_unique": false,
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_fields_with_m2m_interactive": false,
+        "auth_tests.test_management.GetDefaultUsernameTestCase.test_with_database": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-16400/dedup_patch_18.jsonl": {
+      "django__django-16400": {
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_fields_with_fk_interactive": true,
+        "migrate_signals.tests.MigrateSignalTests.test_args": true,
+        "migrations.test_commands.MigrateTests.test_migrate_fake_initial_case_insensitive": true,
+        "auth_tests.test_management.CreatePermissionsTests.test_default_permissions": true,
+        "auth_tests.test_management.MultiDBCreatesuperuserTestCase.test_createsuperuser_command_suggested_username_with_database_option": true,
+        "migrations.test_commands.MigrateTests.test_migrate_with_system_checks": true,
+        "migrations.test_commands.MigrateTests.test_migrate_backward_to_squashed_migration": true,
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_swappable_user_username_non_unique": true,
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_fields_with_m2m_interactive": true,
+        "auth_tests.test_management.GetDefaultUsernameTestCase.test_with_database": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-16400/dedup_patch_19.jsonl": {
+      "django__django-16400": {
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_fields_with_fk_interactive": false,
+        "migrate_signals.tests.MigrateSignalTests.test_args": false,
+        "migrations.test_commands.MigrateTests.test_migrate_fake_initial_case_insensitive": false,
+        "auth_tests.test_management.CreatePermissionsTests.test_default_permissions": false,
+        "auth_tests.test_management.MultiDBCreatesuperuserTestCase.test_createsuperuser_command_suggested_username_with_database_option": false,
+        "migrations.test_commands.MigrateTests.test_migrate_with_system_checks": false,
+        "migrations.test_commands.MigrateTests.test_migrate_backward_to_squashed_migration": false,
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_swappable_user_username_non_unique": false,
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_fields_with_m2m_interactive": false,
+        "auth_tests.test_management.GetDefaultUsernameTestCase.test_with_database": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-16400/dedup_patch_2.jsonl": {
+      "django__django-16400": {
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_fields_with_fk_interactive": true,
+        "migrate_signals.tests.MigrateSignalTests.test_args": true,
+        "migrations.test_commands.MigrateTests.test_migrate_fake_initial_case_insensitive": true,
+        "auth_tests.test_management.CreatePermissionsTests.test_default_permissions": true,
+        "auth_tests.test_management.MultiDBCreatesuperuserTestCase.test_createsuperuser_command_suggested_username_with_database_option": true,
+        "migrations.test_commands.MigrateTests.test_migrate_with_system_checks": true,
+        "migrations.test_commands.MigrateTests.test_migrate_backward_to_squashed_migration": true,
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_swappable_user_username_non_unique": true,
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_fields_with_m2m_interactive": true,
+        "auth_tests.test_management.GetDefaultUsernameTestCase.test_with_database": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-16400/dedup_patch_20.jsonl": {
+      "django__django-16400": {
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_fields_with_fk_interactive": false,
+        "migrate_signals.tests.MigrateSignalTests.test_args": false,
+        "migrations.test_commands.MigrateTests.test_migrate_fake_initial_case_insensitive": false,
+        "auth_tests.test_management.CreatePermissionsTests.test_default_permissions": false,
+        "auth_tests.test_management.MultiDBCreatesuperuserTestCase.test_createsuperuser_command_suggested_username_with_database_option": false,
+        "migrations.test_commands.MigrateTests.test_migrate_with_system_checks": false,
+        "migrations.test_commands.MigrateTests.test_migrate_backward_to_squashed_migration": false,
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_swappable_user_username_non_unique": false,
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_fields_with_m2m_interactive": false,
+        "auth_tests.test_management.GetDefaultUsernameTestCase.test_with_database": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-16400/dedup_patch_21.jsonl": {
+      "django__django-16400": {
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_fields_with_fk_interactive": false,
+        "migrate_signals.tests.MigrateSignalTests.test_args": false,
+        "migrations.test_commands.MigrateTests.test_migrate_fake_initial_case_insensitive": false,
+        "auth_tests.test_management.CreatePermissionsTests.test_default_permissions": false,
+        "auth_tests.test_management.MultiDBCreatesuperuserTestCase.test_createsuperuser_command_suggested_username_with_database_option": false,
+        "migrations.test_commands.MigrateTests.test_migrate_with_system_checks": false,
+        "migrations.test_commands.MigrateTests.test_migrate_backward_to_squashed_migration": false,
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_swappable_user_username_non_unique": false,
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_fields_with_m2m_interactive": false,
+        "auth_tests.test_management.GetDefaultUsernameTestCase.test_with_database": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-16400/dedup_patch_22.jsonl": {
+      "django__django-16400": {
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_fields_with_fk_interactive": false,
+        "migrate_signals.tests.MigrateSignalTests.test_args": false,
+        "migrations.test_commands.MigrateTests.test_migrate_fake_initial_case_insensitive": false,
+        "auth_tests.test_management.CreatePermissionsTests.test_default_permissions": false,
+        "auth_tests.test_management.MultiDBCreatesuperuserTestCase.test_createsuperuser_command_suggested_username_with_database_option": false,
+        "migrations.test_commands.MigrateTests.test_migrate_with_system_checks": false,
+        "migrations.test_commands.MigrateTests.test_migrate_backward_to_squashed_migration": false,
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_swappable_user_username_non_unique": false,
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_fields_with_m2m_interactive": false,
+        "auth_tests.test_management.GetDefaultUsernameTestCase.test_with_database": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-16400/dedup_patch_23.jsonl": {
+      "django__django-16400": {
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_fields_with_fk_interactive": false,
+        "migrate_signals.tests.MigrateSignalTests.test_args": false,
+        "migrations.test_commands.MigrateTests.test_migrate_fake_initial_case_insensitive": false,
+        "auth_tests.test_management.CreatePermissionsTests.test_default_permissions": false,
+        "auth_tests.test_management.MultiDBCreatesuperuserTestCase.test_createsuperuser_command_suggested_username_with_database_option": false,
+        "migrations.test_commands.MigrateTests.test_migrate_with_system_checks": false,
+        "migrations.test_commands.MigrateTests.test_migrate_backward_to_squashed_migration": false,
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_swappable_user_username_non_unique": false,
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_fields_with_m2m_interactive": false,
+        "auth_tests.test_management.GetDefaultUsernameTestCase.test_with_database": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-16400/dedup_patch_24.jsonl": {
+      "django__django-16400": {
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_fields_with_fk_interactive": false,
+        "migrate_signals.tests.MigrateSignalTests.test_args": false,
+        "migrations.test_commands.MigrateTests.test_migrate_fake_initial_case_insensitive": false,
+        "auth_tests.test_management.CreatePermissionsTests.test_default_permissions": false,
+        "auth_tests.test_management.MultiDBCreatesuperuserTestCase.test_createsuperuser_command_suggested_username_with_database_option": false,
+        "migrations.test_commands.MigrateTests.test_migrate_with_system_checks": false,
+        "migrations.test_commands.MigrateTests.test_migrate_backward_to_squashed_migration": false,
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_swappable_user_username_non_unique": false,
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_fields_with_m2m_interactive": false,
+        "auth_tests.test_management.GetDefaultUsernameTestCase.test_with_database": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-16400/dedup_patch_25.jsonl": {
+      "django__django-16400": {
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_fields_with_fk_interactive": false,
+        "migrate_signals.tests.MigrateSignalTests.test_args": false,
+        "migrations.test_commands.MigrateTests.test_migrate_fake_initial_case_insensitive": false,
+        "auth_tests.test_management.CreatePermissionsTests.test_default_permissions": false,
+        "auth_tests.test_management.MultiDBCreatesuperuserTestCase.test_createsuperuser_command_suggested_username_with_database_option": false,
+        "migrations.test_commands.MigrateTests.test_migrate_with_system_checks": false,
+        "migrations.test_commands.MigrateTests.test_migrate_backward_to_squashed_migration": false,
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_swappable_user_username_non_unique": false,
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_fields_with_m2m_interactive": false,
+        "auth_tests.test_management.GetDefaultUsernameTestCase.test_with_database": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-16400/dedup_patch_26.jsonl": {
+      "django__django-16400": {
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_fields_with_fk_interactive": true,
+        "migrate_signals.tests.MigrateSignalTests.test_args": true,
+        "migrations.test_commands.MigrateTests.test_migrate_fake_initial_case_insensitive": true,
+        "auth_tests.test_management.CreatePermissionsTests.test_default_permissions": true,
+        "auth_tests.test_management.MultiDBCreatesuperuserTestCase.test_createsuperuser_command_suggested_username_with_database_option": true,
+        "migrations.test_commands.MigrateTests.test_migrate_with_system_checks": true,
+        "migrations.test_commands.MigrateTests.test_migrate_backward_to_squashed_migration": true,
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_swappable_user_username_non_unique": true,
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_fields_with_m2m_interactive": true,
+        "auth_tests.test_management.GetDefaultUsernameTestCase.test_with_database": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-16400/dedup_patch_27.jsonl": {
+      "django__django-16400": {
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_fields_with_fk_interactive": false,
+        "migrate_signals.tests.MigrateSignalTests.test_args": false,
+        "migrations.test_commands.MigrateTests.test_migrate_fake_initial_case_insensitive": false,
+        "auth_tests.test_management.CreatePermissionsTests.test_default_permissions": false,
+        "auth_tests.test_management.MultiDBCreatesuperuserTestCase.test_createsuperuser_command_suggested_username_with_database_option": false,
+        "migrations.test_commands.MigrateTests.test_migrate_with_system_checks": false,
+        "migrations.test_commands.MigrateTests.test_migrate_backward_to_squashed_migration": false,
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_swappable_user_username_non_unique": false,
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_fields_with_m2m_interactive": false,
+        "auth_tests.test_management.GetDefaultUsernameTestCase.test_with_database": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-16400/dedup_patch_28.jsonl": {
+      "django__django-16400": {
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_fields_with_fk_interactive": false,
+        "migrate_signals.tests.MigrateSignalTests.test_args": false,
+        "migrations.test_commands.MigrateTests.test_migrate_fake_initial_case_insensitive": false,
+        "auth_tests.test_management.CreatePermissionsTests.test_default_permissions": false,
+        "auth_tests.test_management.MultiDBCreatesuperuserTestCase.test_createsuperuser_command_suggested_username_with_database_option": false,
+        "migrations.test_commands.MigrateTests.test_migrate_with_system_checks": false,
+        "migrations.test_commands.MigrateTests.test_migrate_backward_to_squashed_migration": false,
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_swappable_user_username_non_unique": false,
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_fields_with_m2m_interactive": false,
+        "auth_tests.test_management.GetDefaultUsernameTestCase.test_with_database": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-16400/dedup_patch_29.jsonl": {
+      "django__django-16400": {
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_fields_with_fk_interactive": true,
+        "migrate_signals.tests.MigrateSignalTests.test_args": true,
+        "migrations.test_commands.MigrateTests.test_migrate_fake_initial_case_insensitive": true,
+        "auth_tests.test_management.CreatePermissionsTests.test_default_permissions": true,
+        "auth_tests.test_management.MultiDBCreatesuperuserTestCase.test_createsuperuser_command_suggested_username_with_database_option": true,
+        "migrations.test_commands.MigrateTests.test_migrate_with_system_checks": true,
+        "migrations.test_commands.MigrateTests.test_migrate_backward_to_squashed_migration": true,
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_swappable_user_username_non_unique": true,
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_fields_with_m2m_interactive": true,
+        "auth_tests.test_management.GetDefaultUsernameTestCase.test_with_database": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-16400/dedup_patch_3.jsonl": {
+      "django__django-16400": {
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_fields_with_fk_interactive": false,
+        "migrate_signals.tests.MigrateSignalTests.test_args": false,
+        "migrations.test_commands.MigrateTests.test_migrate_fake_initial_case_insensitive": false,
+        "auth_tests.test_management.CreatePermissionsTests.test_default_permissions": false,
+        "auth_tests.test_management.MultiDBCreatesuperuserTestCase.test_createsuperuser_command_suggested_username_with_database_option": false,
+        "migrations.test_commands.MigrateTests.test_migrate_with_system_checks": false,
+        "migrations.test_commands.MigrateTests.test_migrate_backward_to_squashed_migration": false,
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_swappable_user_username_non_unique": false,
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_fields_with_m2m_interactive": false,
+        "auth_tests.test_management.GetDefaultUsernameTestCase.test_with_database": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-16400/dedup_patch_30.jsonl": {
+      "django__django-16400": {
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_fields_with_fk_interactive": false,
+        "migrate_signals.tests.MigrateSignalTests.test_args": false,
+        "migrations.test_commands.MigrateTests.test_migrate_fake_initial_case_insensitive": false,
+        "auth_tests.test_management.CreatePermissionsTests.test_default_permissions": false,
+        "auth_tests.test_management.MultiDBCreatesuperuserTestCase.test_createsuperuser_command_suggested_username_with_database_option": false,
+        "migrations.test_commands.MigrateTests.test_migrate_with_system_checks": false,
+        "migrations.test_commands.MigrateTests.test_migrate_backward_to_squashed_migration": false,
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_swappable_user_username_non_unique": false,
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_fields_with_m2m_interactive": false,
+        "auth_tests.test_management.GetDefaultUsernameTestCase.test_with_database": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-16400/dedup_patch_4.jsonl": {
+      "django__django-16400": {
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_fields_with_fk_interactive": true,
+        "migrate_signals.tests.MigrateSignalTests.test_args": true,
+        "migrations.test_commands.MigrateTests.test_migrate_fake_initial_case_insensitive": true,
+        "auth_tests.test_management.CreatePermissionsTests.test_default_permissions": true,
+        "auth_tests.test_management.MultiDBCreatesuperuserTestCase.test_createsuperuser_command_suggested_username_with_database_option": true,
+        "migrations.test_commands.MigrateTests.test_migrate_with_system_checks": true,
+        "migrations.test_commands.MigrateTests.test_migrate_backward_to_squashed_migration": true,
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_swappable_user_username_non_unique": true,
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_fields_with_m2m_interactive": true,
+        "auth_tests.test_management.GetDefaultUsernameTestCase.test_with_database": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-16400/dedup_patch_5.jsonl": {
+      "django__django-16400": {
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_fields_with_fk_interactive": true,
+        "migrate_signals.tests.MigrateSignalTests.test_args": true,
+        "migrations.test_commands.MigrateTests.test_migrate_fake_initial_case_insensitive": true,
+        "auth_tests.test_management.CreatePermissionsTests.test_default_permissions": true,
+        "auth_tests.test_management.MultiDBCreatesuperuserTestCase.test_createsuperuser_command_suggested_username_with_database_option": true,
+        "migrations.test_commands.MigrateTests.test_migrate_with_system_checks": true,
+        "migrations.test_commands.MigrateTests.test_migrate_backward_to_squashed_migration": true,
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_swappable_user_username_non_unique": true,
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_fields_with_m2m_interactive": true,
+        "auth_tests.test_management.GetDefaultUsernameTestCase.test_with_database": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-16400/dedup_patch_6.jsonl": {
+      "django__django-16400": {
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_fields_with_fk_interactive": true,
+        "migrate_signals.tests.MigrateSignalTests.test_args": true,
+        "migrations.test_commands.MigrateTests.test_migrate_fake_initial_case_insensitive": true,
+        "auth_tests.test_management.CreatePermissionsTests.test_default_permissions": true,
+        "auth_tests.test_management.MultiDBCreatesuperuserTestCase.test_createsuperuser_command_suggested_username_with_database_option": true,
+        "migrations.test_commands.MigrateTests.test_migrate_with_system_checks": true,
+        "migrations.test_commands.MigrateTests.test_migrate_backward_to_squashed_migration": true,
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_swappable_user_username_non_unique": true,
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_fields_with_m2m_interactive": true,
+        "auth_tests.test_management.GetDefaultUsernameTestCase.test_with_database": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-16400/dedup_patch_7.jsonl": {
+      "django__django-16400": {
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_fields_with_fk_interactive": true,
+        "migrate_signals.tests.MigrateSignalTests.test_args": true,
+        "migrations.test_commands.MigrateTests.test_migrate_fake_initial_case_insensitive": true,
+        "auth_tests.test_management.CreatePermissionsTests.test_default_permissions": true,
+        "auth_tests.test_management.MultiDBCreatesuperuserTestCase.test_createsuperuser_command_suggested_username_with_database_option": true,
+        "migrations.test_commands.MigrateTests.test_migrate_with_system_checks": true,
+        "migrations.test_commands.MigrateTests.test_migrate_backward_to_squashed_migration": true,
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_swappable_user_username_non_unique": true,
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_fields_with_m2m_interactive": true,
+        "auth_tests.test_management.GetDefaultUsernameTestCase.test_with_database": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-16400/dedup_patch_8.jsonl": {
+      "django__django-16400": {
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_fields_with_fk_interactive": true,
+        "migrate_signals.tests.MigrateSignalTests.test_args": true,
+        "migrations.test_commands.MigrateTests.test_migrate_fake_initial_case_insensitive": true,
+        "auth_tests.test_management.CreatePermissionsTests.test_default_permissions": true,
+        "auth_tests.test_management.MultiDBCreatesuperuserTestCase.test_createsuperuser_command_suggested_username_with_database_option": true,
+        "migrations.test_commands.MigrateTests.test_migrate_with_system_checks": true,
+        "migrations.test_commands.MigrateTests.test_migrate_backward_to_squashed_migration": true,
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_swappable_user_username_non_unique": true,
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_fields_with_m2m_interactive": true,
+        "auth_tests.test_management.GetDefaultUsernameTestCase.test_with_database": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-16400/dedup_patch_9.jsonl": {
+      "django__django-16400": {
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_fields_with_fk_interactive": false,
+        "migrate_signals.tests.MigrateSignalTests.test_args": false,
+        "migrations.test_commands.MigrateTests.test_migrate_fake_initial_case_insensitive": false,
+        "auth_tests.test_management.CreatePermissionsTests.test_default_permissions": false,
+        "auth_tests.test_management.MultiDBCreatesuperuserTestCase.test_createsuperuser_command_suggested_username_with_database_option": false,
+        "migrations.test_commands.MigrateTests.test_migrate_with_system_checks": false,
+        "migrations.test_commands.MigrateTests.test_migrate_backward_to_squashed_migration": false,
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_swappable_user_username_non_unique": false,
+        "auth_tests.test_management.CreatesuperuserManagementCommandTestCase.test_fields_with_m2m_interactive": false,
+        "auth_tests.test_management.GetDefaultUsernameTestCase.test_with_database": false
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-16400": {
+        "auth_tests.test_migrations.MultiDBProxyModelAppLabelTests.test_migrate_respects_database_parameter_for_permissions#1": true,
+        "auth_tests.test_management.CreatePermissionsTests.test_migrate_respects_database_parameter_for_permissions#2": true,
+        "auth_tests.test_migrations.MultiDBProxyModelAppLabelTests.test_migrate_respects_database_parameter_for_permissions#3": true,
+        "auth_tests.test_migrations.MultiDBProxyModelAppLabelTests.test_migrate_respects_database_parameter_for_permissions#4": true,
+        "auth_tests.test_management.CreatePermissionsTests.test_create_permissions_respects_database_parameter#5": true,
+        "auth_tests.test_migrations.MultiDBProxyModelAppLabelTests.test_migrate_respects_database_parameter_for_permissions#6": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-16400/dedup_patch_0.jsonl": {
+      "django__django-16400": {
+        "auth_tests.test_migrations.MultiDBProxyModelAppLabelTests.test_migrate_respects_database_parameter_for_permissions#1": false,
+        "auth_tests.test_management.CreatePermissionsTests.test_migrate_respects_database_parameter_for_permissions#2": false,
+        "auth_tests.test_migrations.MultiDBProxyModelAppLabelTests.test_migrate_respects_database_parameter_for_permissions#3": false,
+        "auth_tests.test_migrations.MultiDBProxyModelAppLabelTests.test_migrate_respects_database_parameter_for_permissions#4": false,
+        "auth_tests.test_management.CreatePermissionsTests.test_create_permissions_respects_database_parameter#5": false,
+        "auth_tests.test_migrations.MultiDBProxyModelAppLabelTests.test_migrate_respects_database_parameter_for_permissions#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-16400/dedup_patch_14.jsonl": {
+      "django__django-16400": {
+        "auth_tests.test_migrations.MultiDBProxyModelAppLabelTests.test_migrate_respects_database_parameter_for_permissions#1": false,
+        "auth_tests.test_management.CreatePermissionsTests.test_migrate_respects_database_parameter_for_permissions#2": false,
+        "auth_tests.test_migrations.MultiDBProxyModelAppLabelTests.test_migrate_respects_database_parameter_for_permissions#3": false,
+        "auth_tests.test_migrations.MultiDBProxyModelAppLabelTests.test_migrate_respects_database_parameter_for_permissions#4": false,
+        "auth_tests.test_management.CreatePermissionsTests.test_create_permissions_respects_database_parameter#5": false,
+        "auth_tests.test_migrations.MultiDBProxyModelAppLabelTests.test_migrate_respects_database_parameter_for_permissions#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-16400/dedup_patch_15.jsonl": {
+      "django__django-16400": {
+        "auth_tests.test_migrations.MultiDBProxyModelAppLabelTests.test_migrate_respects_database_parameter_for_permissions#1": false,
+        "auth_tests.test_management.CreatePermissionsTests.test_migrate_respects_database_parameter_for_permissions#2": false,
+        "auth_tests.test_migrations.MultiDBProxyModelAppLabelTests.test_migrate_respects_database_parameter_for_permissions#3": false,
+        "auth_tests.test_migrations.MultiDBProxyModelAppLabelTests.test_migrate_respects_database_parameter_for_permissions#4": false,
+        "auth_tests.test_management.CreatePermissionsTests.test_create_permissions_respects_database_parameter#5": false,
+        "auth_tests.test_migrations.MultiDBProxyModelAppLabelTests.test_migrate_respects_database_parameter_for_permissions#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-16400/dedup_patch_16.jsonl": {
+      "django__django-16400": {
+        "auth_tests.test_migrations.MultiDBProxyModelAppLabelTests.test_migrate_respects_database_parameter_for_permissions#1": false,
+        "auth_tests.test_management.CreatePermissionsTests.test_migrate_respects_database_parameter_for_permissions#2": false,
+        "auth_tests.test_migrations.MultiDBProxyModelAppLabelTests.test_migrate_respects_database_parameter_for_permissions#3": false,
+        "auth_tests.test_migrations.MultiDBProxyModelAppLabelTests.test_migrate_respects_database_parameter_for_permissions#4": false,
+        "auth_tests.test_management.CreatePermissionsTests.test_create_permissions_respects_database_parameter#5": false,
+        "auth_tests.test_migrations.MultiDBProxyModelAppLabelTests.test_migrate_respects_database_parameter_for_permissions#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-16400/dedup_patch_18.jsonl": {
+      "django__django-16400": {
+        "auth_tests.test_migrations.MultiDBProxyModelAppLabelTests.test_migrate_respects_database_parameter_for_permissions#1": false,
+        "auth_tests.test_management.CreatePermissionsTests.test_migrate_respects_database_parameter_for_permissions#2": false,
+        "auth_tests.test_migrations.MultiDBProxyModelAppLabelTests.test_migrate_respects_database_parameter_for_permissions#3": false,
+        "auth_tests.test_migrations.MultiDBProxyModelAppLabelTests.test_migrate_respects_database_parameter_for_permissions#4": false,
+        "auth_tests.test_management.CreatePermissionsTests.test_create_permissions_respects_database_parameter#5": false,
+        "auth_tests.test_migrations.MultiDBProxyModelAppLabelTests.test_migrate_respects_database_parameter_for_permissions#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-16400/dedup_patch_2.jsonl": {
+      "django__django-16400": {
+        "auth_tests.test_migrations.MultiDBProxyModelAppLabelTests.test_migrate_respects_database_parameter_for_permissions#1": false,
+        "auth_tests.test_management.CreatePermissionsTests.test_migrate_respects_database_parameter_for_permissions#2": false,
+        "auth_tests.test_migrations.MultiDBProxyModelAppLabelTests.test_migrate_respects_database_parameter_for_permissions#3": false,
+        "auth_tests.test_migrations.MultiDBProxyModelAppLabelTests.test_migrate_respects_database_parameter_for_permissions#4": false,
+        "auth_tests.test_management.CreatePermissionsTests.test_create_permissions_respects_database_parameter#5": false,
+        "auth_tests.test_migrations.MultiDBProxyModelAppLabelTests.test_migrate_respects_database_parameter_for_permissions#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-16400/dedup_patch_26.jsonl": {
+      "django__django-16400": {
+        "auth_tests.test_migrations.MultiDBProxyModelAppLabelTests.test_migrate_respects_database_parameter_for_permissions#1": false,
+        "auth_tests.test_management.CreatePermissionsTests.test_migrate_respects_database_parameter_for_permissions#2": false,
+        "auth_tests.test_migrations.MultiDBProxyModelAppLabelTests.test_migrate_respects_database_parameter_for_permissions#3": false,
+        "auth_tests.test_migrations.MultiDBProxyModelAppLabelTests.test_migrate_respects_database_parameter_for_permissions#4": false,
+        "auth_tests.test_management.CreatePermissionsTests.test_create_permissions_respects_database_parameter#5": false,
+        "auth_tests.test_migrations.MultiDBProxyModelAppLabelTests.test_migrate_respects_database_parameter_for_permissions#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-16400/dedup_patch_29.jsonl": {
+      "django__django-16400": {
+        "auth_tests.test_migrations.MultiDBProxyModelAppLabelTests.test_migrate_respects_database_parameter_for_permissions#1": false,
+        "auth_tests.test_management.CreatePermissionsTests.test_migrate_respects_database_parameter_for_permissions#2": false,
+        "auth_tests.test_migrations.MultiDBProxyModelAppLabelTests.test_migrate_respects_database_parameter_for_permissions#3": false,
+        "auth_tests.test_migrations.MultiDBProxyModelAppLabelTests.test_migrate_respects_database_parameter_for_permissions#4": false,
+        "auth_tests.test_management.CreatePermissionsTests.test_create_permissions_respects_database_parameter#5": false,
+        "auth_tests.test_migrations.MultiDBProxyModelAppLabelTests.test_migrate_respects_database_parameter_for_permissions#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-16400/dedup_patch_4.jsonl": {
+      "django__django-16400": {
+        "auth_tests.test_migrations.MultiDBProxyModelAppLabelTests.test_migrate_respects_database_parameter_for_permissions#1": false,
+        "auth_tests.test_management.CreatePermissionsTests.test_migrate_respects_database_parameter_for_permissions#2": false,
+        "auth_tests.test_migrations.MultiDBProxyModelAppLabelTests.test_migrate_respects_database_parameter_for_permissions#3": false,
+        "auth_tests.test_migrations.MultiDBProxyModelAppLabelTests.test_migrate_respects_database_parameter_for_permissions#4": false,
+        "auth_tests.test_management.CreatePermissionsTests.test_create_permissions_respects_database_parameter#5": false,
+        "auth_tests.test_migrations.MultiDBProxyModelAppLabelTests.test_migrate_respects_database_parameter_for_permissions#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-16400/dedup_patch_5.jsonl": {
+      "django__django-16400": {
+        "auth_tests.test_migrations.MultiDBProxyModelAppLabelTests.test_migrate_respects_database_parameter_for_permissions#1": false,
+        "auth_tests.test_management.CreatePermissionsTests.test_migrate_respects_database_parameter_for_permissions#2": false,
+        "auth_tests.test_migrations.MultiDBProxyModelAppLabelTests.test_migrate_respects_database_parameter_for_permissions#3": false,
+        "auth_tests.test_migrations.MultiDBProxyModelAppLabelTests.test_migrate_respects_database_parameter_for_permissions#4": false,
+        "auth_tests.test_management.CreatePermissionsTests.test_create_permissions_respects_database_parameter#5": false,
+        "auth_tests.test_migrations.MultiDBProxyModelAppLabelTests.test_migrate_respects_database_parameter_for_permissions#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-16400/dedup_patch_6.jsonl": {
+      "django__django-16400": {
+        "auth_tests.test_migrations.MultiDBProxyModelAppLabelTests.test_migrate_respects_database_parameter_for_permissions#1": false,
+        "auth_tests.test_management.CreatePermissionsTests.test_migrate_respects_database_parameter_for_permissions#2": false,
+        "auth_tests.test_migrations.MultiDBProxyModelAppLabelTests.test_migrate_respects_database_parameter_for_permissions#3": false,
+        "auth_tests.test_migrations.MultiDBProxyModelAppLabelTests.test_migrate_respects_database_parameter_for_permissions#4": false,
+        "auth_tests.test_management.CreatePermissionsTests.test_create_permissions_respects_database_parameter#5": false,
+        "auth_tests.test_migrations.MultiDBProxyModelAppLabelTests.test_migrate_respects_database_parameter_for_permissions#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-16400/dedup_patch_7.jsonl": {
+      "django__django-16400": {
+        "auth_tests.test_migrations.MultiDBProxyModelAppLabelTests.test_migrate_respects_database_parameter_for_permissions#1": false,
+        "auth_tests.test_management.CreatePermissionsTests.test_migrate_respects_database_parameter_for_permissions#2": false,
+        "auth_tests.test_migrations.MultiDBProxyModelAppLabelTests.test_migrate_respects_database_parameter_for_permissions#3": false,
+        "auth_tests.test_migrations.MultiDBProxyModelAppLabelTests.test_migrate_respects_database_parameter_for_permissions#4": false,
+        "auth_tests.test_management.CreatePermissionsTests.test_create_permissions_respects_database_parameter#5": false,
+        "auth_tests.test_migrations.MultiDBProxyModelAppLabelTests.test_migrate_respects_database_parameter_for_permissions#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-16400/dedup_patch_8.jsonl": {
+      "django__django-16400": {
+        "auth_tests.test_migrations.MultiDBProxyModelAppLabelTests.test_migrate_respects_database_parameter_for_permissions#1": false,
+        "auth_tests.test_management.CreatePermissionsTests.test_migrate_respects_database_parameter_for_permissions#2": false,
+        "auth_tests.test_migrations.MultiDBProxyModelAppLabelTests.test_migrate_respects_database_parameter_for_permissions#3": false,
+        "auth_tests.test_migrations.MultiDBProxyModelAppLabelTests.test_migrate_respects_database_parameter_for_permissions#4": false,
+        "auth_tests.test_management.CreatePermissionsTests.test_create_permissions_respects_database_parameter#5": false,
+        "auth_tests.test_migrations.MultiDBProxyModelAppLabelTests.test_migrate_respects_database_parameter_for_permissions#6": false
+      }
+    }
+  }
+}

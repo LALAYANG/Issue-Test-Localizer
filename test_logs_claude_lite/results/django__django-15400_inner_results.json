@@ -1,0 +1,79 @@
+{
+  "regression": {
+    "all_patches/lite_claude_all_unique_patches/django__django-15400/dedup_patch_0.jsonl": {
+      "django__django-15400": {
+        "utils_tests.test_simplelazyobject.TestUtilsSimpleLazyObjectDjangoTestCase.test_pickle": true,
+        "utils_tests.test_lazyobject.LazyObjectTestCase.test_deepcopy_class": true,
+        "utils_tests.test_lazyobject.SimpleLazyObjectTestCase.test_repr": true,
+        "utils_tests.test_lazyobject.LazyObjectTestCase.test_delattr": true,
+        "utils_tests.test_lazyobject.LazyObjectTestCase.test_copy_list_no_evaluation": true,
+        "utils_tests.test_lazyobject.LazyObjectTestCase.test_deepcopy_list": true,
+        "utils_tests.test_lazyobject.LazyObjectTestCase.test_copy_class": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15400/dedup_patch_1.jsonl": {
+      "django__django-15400": {
+        "utils_tests.test_simplelazyobject.TestUtilsSimpleLazyObjectDjangoTestCase.test_pickle": true,
+        "utils_tests.test_lazyobject.LazyObjectTestCase.test_deepcopy_class": true,
+        "utils_tests.test_lazyobject.SimpleLazyObjectTestCase.test_repr": true,
+        "utils_tests.test_lazyobject.LazyObjectTestCase.test_delattr": true,
+        "utils_tests.test_lazyobject.LazyObjectTestCase.test_copy_list_no_evaluation": true,
+        "utils_tests.test_lazyobject.LazyObjectTestCase.test_deepcopy_list": true,
+        "utils_tests.test_lazyobject.LazyObjectTestCase.test_copy_class": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15400/dedup_patch_2.jsonl": {
+      "django__django-15400": {
+        "utils_tests.test_simplelazyobject.TestUtilsSimpleLazyObjectDjangoTestCase.test_pickle": true,
+        "utils_tests.test_lazyobject.LazyObjectTestCase.test_deepcopy_class": true,
+        "utils_tests.test_lazyobject.SimpleLazyObjectTestCase.test_repr": true,
+        "utils_tests.test_lazyobject.LazyObjectTestCase.test_delattr": true,
+        "utils_tests.test_lazyobject.LazyObjectTestCase.test_copy_list_no_evaluation": true,
+        "utils_tests.test_lazyobject.LazyObjectTestCase.test_deepcopy_list": true,
+        "utils_tests.test_lazyobject.LazyObjectTestCase.test_copy_class": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-15400": {
+        "utils_tests.test_simplelazyobject.TestUtilsSimpleLazyObjectDjangoTestCase.test_radd#1": true,
+        "utils_tests.test_simplelazyobject.TestUtilsSimpleLazyObjectDjangoTestCase.test_radd#2": true,
+        "utils_tests.test_simplelazyobject.TestUtilsSimpleLazyObjectDjangoTestCase.test_radd#3": true,
+        "utils_tests.test_simplelazyobject.TestUtilsSimpleLazyObjectDjangoTestCase.test_radd#4": true,
+        "utils_tests.test_simplelazyobject.TestUtilsSimpleLazyObjectDjangoTestCase.test_radd#5": true,
+        "utils_tests.test_simplelazyobject.TestUtilsSimpleLazyObjectDjangoTestCase.test_radd#6": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15400/dedup_patch_0.jsonl": {
+      "django__django-15400": {
+        "utils_tests.test_simplelazyobject.TestUtilsSimpleLazyObjectDjangoTestCase.test_radd#1": true,
+        "utils_tests.test_simplelazyobject.TestUtilsSimpleLazyObjectDjangoTestCase.test_radd#2": true,
+        "utils_tests.test_simplelazyobject.TestUtilsSimpleLazyObjectDjangoTestCase.test_radd#3": true,
+        "utils_tests.test_simplelazyobject.TestUtilsSimpleLazyObjectDjangoTestCase.test_radd#4": true,
+        "utils_tests.test_simplelazyobject.TestUtilsSimpleLazyObjectDjangoTestCase.test_radd#5": true,
+        "utils_tests.test_simplelazyobject.TestUtilsSimpleLazyObjectDjangoTestCase.test_radd#6": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15400/dedup_patch_1.jsonl": {
+      "django__django-15400": {
+        "utils_tests.test_simplelazyobject.TestUtilsSimpleLazyObjectDjangoTestCase.test_radd#1": true,
+        "utils_tests.test_simplelazyobject.TestUtilsSimpleLazyObjectDjangoTestCase.test_radd#2": true,
+        "utils_tests.test_simplelazyobject.TestUtilsSimpleLazyObjectDjangoTestCase.test_radd#3": true,
+        "utils_tests.test_simplelazyobject.TestUtilsSimpleLazyObjectDjangoTestCase.test_radd#4": true,
+        "utils_tests.test_simplelazyobject.TestUtilsSimpleLazyObjectDjangoTestCase.test_radd#5": true,
+        "utils_tests.test_simplelazyobject.TestUtilsSimpleLazyObjectDjangoTestCase.test_radd#6": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15400/dedup_patch_2.jsonl": {
+      "django__django-15400": {
+        "utils_tests.test_simplelazyobject.TestUtilsSimpleLazyObjectDjangoTestCase.test_radd#1": true,
+        "utils_tests.test_simplelazyobject.TestUtilsSimpleLazyObjectDjangoTestCase.test_radd#2": true,
+        "utils_tests.test_simplelazyobject.TestUtilsSimpleLazyObjectDjangoTestCase.test_radd#3": true,
+        "utils_tests.test_simplelazyobject.TestUtilsSimpleLazyObjectDjangoTestCase.test_radd#4": true,
+        "utils_tests.test_simplelazyobject.TestUtilsSimpleLazyObjectDjangoTestCase.test_radd#5": true,
+        "utils_tests.test_simplelazyobject.TestUtilsSimpleLazyObjectDjangoTestCase.test_radd#6": true
+      }
+    }
+  }
+}

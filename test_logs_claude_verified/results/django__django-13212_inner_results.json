@@ -1,0 +1,112 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/django__django-13212/dedup_patch_0.jsonl": {
+      "django__django-13212": {
+        "validators.tests.TestValidatorEquality.test_decimal_equality": true,
+        "validators.tests.DeprecationTests.test_whitelist": true,
+        "validators.tests.TestValidatorEquality.test_basic_equality": true,
+        "validators.tests.TestValidators.test_validators": true,
+        "validators.tests.TestValidatorEquality.test_file_extension_equality": true,
+        "validators.tests.DeprecationTests.test_domain_whitelist": true,
+        "validators.tests.TestValidatorEquality.test_prohibit_null_characters_validator_equality": true,
+        "validators.tests.TestValidatorEquality.test_regex_equality": true,
+        "validators.tests.TestValidators.test_regex_validator_flags": true,
+        "validators.tests.TestValidatorEquality.test_email_equality": true,
+        "validators.tests.TestValidators.test_max_length_validator_message": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13212/dedup_patch_1.jsonl": {
+      "django__django-13212": {
+        "validators.tests.TestValidatorEquality.test_decimal_equality": true,
+        "validators.tests.DeprecationTests.test_whitelist": true,
+        "validators.tests.TestValidatorEquality.test_basic_equality": true,
+        "validators.tests.TestValidators.test_validators": true,
+        "validators.tests.TestValidatorEquality.test_file_extension_equality": true,
+        "validators.tests.DeprecationTests.test_domain_whitelist": true,
+        "validators.tests.TestValidatorEquality.test_prohibit_null_characters_validator_equality": true,
+        "validators.tests.TestValidatorEquality.test_regex_equality": true,
+        "validators.tests.TestValidators.test_regex_validator_flags": true,
+        "validators.tests.TestValidatorEquality.test_email_equality": true,
+        "validators.tests.TestValidators.test_max_length_validator_message": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13212/dedup_patch_2.jsonl": {
+      "django__django-13212": {
+        "validators.tests.TestValidatorEquality.test_decimal_equality": true,
+        "validators.tests.DeprecationTests.test_whitelist": true,
+        "validators.tests.TestValidatorEquality.test_basic_equality": true,
+        "validators.tests.TestValidators.test_validators": true,
+        "validators.tests.TestValidatorEquality.test_file_extension_equality": true,
+        "validators.tests.DeprecationTests.test_domain_whitelist": true,
+        "validators.tests.TestValidatorEquality.test_prohibit_null_characters_validator_equality": true,
+        "validators.tests.TestValidatorEquality.test_regex_equality": true,
+        "validators.tests.TestValidators.test_regex_validator_flags": true,
+        "validators.tests.TestValidatorEquality.test_email_equality": true,
+        "validators.tests.TestValidators.test_max_length_validator_message": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13212/dedup_patch_3.jsonl": {
+      "django__django-13212": {
+        "validators.tests.TestValidatorEquality.test_decimal_equality": true,
+        "validators.tests.DeprecationTests.test_whitelist": true,
+        "validators.tests.TestValidatorEquality.test_basic_equality": true,
+        "validators.tests.TestValidators.test_validators": true,
+        "validators.tests.TestValidatorEquality.test_file_extension_equality": true,
+        "validators.tests.DeprecationTests.test_domain_whitelist": true,
+        "validators.tests.TestValidatorEquality.test_prohibit_null_characters_validator_equality": true,
+        "validators.tests.TestValidatorEquality.test_regex_equality": true,
+        "validators.tests.TestValidators.test_regex_validator_flags": true,
+        "validators.tests.TestValidatorEquality.test_email_equality": true,
+        "validators.tests.TestValidators.test_max_length_validator_message": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-13212": {
+        "validation.test_custom_messages.CustomMessagesTests.test_custom_null_message#1": false,
+        "validators.tests.TestValidatorEquality.test_validator_includes_value_in_error#2": true,
+        "validation.test_custom_messages.CustomMessagesTests.test_custom_simple_validator_message#3": true,
+        "validation.test_custom_messages.CustomMessagesTests.test_validator_includes_value_in_error#4": true,
+        "validation.test_custom_messages.CustomMessagesTests.test_custom_simple_validator_message#5": true,
+        "validation.test_custom_messages.CustomMessagesTests.test_custom_simple_validator_message#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13212/dedup_patch_0.jsonl": {
+      "django__django-13212": {
+        "validators.tests.TestValidatorEquality.test_validator_includes_value_in_error#2": true,
+        "validation.test_custom_messages.CustomMessagesTests.test_custom_simple_validator_message#3": true,
+        "validation.test_custom_messages.CustomMessagesTests.test_validator_includes_value_in_error#4": false,
+        "validation.test_custom_messages.CustomMessagesTests.test_custom_simple_validator_message#5": false,
+        "validation.test_custom_messages.CustomMessagesTests.test_custom_simple_validator_message#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13212/dedup_patch_1.jsonl": {
+      "django__django-13212": {
+        "validators.tests.TestValidatorEquality.test_validator_includes_value_in_error#2": true,
+        "validation.test_custom_messages.CustomMessagesTests.test_custom_simple_validator_message#3": true,
+        "validation.test_custom_messages.CustomMessagesTests.test_validator_includes_value_in_error#4": false,
+        "validation.test_custom_messages.CustomMessagesTests.test_custom_simple_validator_message#5": false,
+        "validation.test_custom_messages.CustomMessagesTests.test_custom_simple_validator_message#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13212/dedup_patch_2.jsonl": {
+      "django__django-13212": {
+        "validators.tests.TestValidatorEquality.test_validator_includes_value_in_error#2": true,
+        "validation.test_custom_messages.CustomMessagesTests.test_custom_simple_validator_message#3": true,
+        "validation.test_custom_messages.CustomMessagesTests.test_validator_includes_value_in_error#4": false,
+        "validation.test_custom_messages.CustomMessagesTests.test_custom_simple_validator_message#5": false,
+        "validation.test_custom_messages.CustomMessagesTests.test_custom_simple_validator_message#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13212/dedup_patch_3.jsonl": {
+      "django__django-13212": {
+        "validators.tests.TestValidatorEquality.test_validator_includes_value_in_error#2": true,
+        "validation.test_custom_messages.CustomMessagesTests.test_custom_simple_validator_message#3": true,
+        "validation.test_custom_messages.CustomMessagesTests.test_validator_includes_value_in_error#4": false,
+        "validation.test_custom_messages.CustomMessagesTests.test_custom_simple_validator_message#5": false,
+        "validation.test_custom_messages.CustomMessagesTests.test_custom_simple_validator_message#6": false
+      }
+    }
+  }
+}

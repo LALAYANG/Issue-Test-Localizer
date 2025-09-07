@@ -1,0 +1,798 @@
+{
+  "instance_id": "psf__requests-1963",
+  "container_id": "0c76f5349f24f8aa37448d4730d05ee276173635571e9abd606f6aeb6143c3b6",
+  "regression": {
+    "results": [
+      {
+        "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_0.jsonl",
+        "inst": "psf__requests-1963",
+        "passed": 9,
+        "failed": 0
+      },
+      {
+        "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_1.jsonl",
+        "inst": "psf__requests-1963",
+        "passed": 9,
+        "failed": 0
+      },
+      {
+        "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_11.jsonl",
+        "inst": "psf__requests-1963",
+        "passed": 9,
+        "failed": 0
+      },
+      {
+        "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_13.jsonl",
+        "inst": "psf__requests-1963",
+        "passed": 9,
+        "failed": 0
+      },
+      {
+        "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_15.jsonl",
+        "inst": "psf__requests-1963",
+        "passed": 9,
+        "failed": 0
+      },
+      {
+        "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_17.jsonl",
+        "inst": "psf__requests-1963",
+        "passed": 9,
+        "failed": 0
+      },
+      {
+        "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_18.jsonl",
+        "inst": "psf__requests-1963",
+        "passed": 9,
+        "failed": 0
+      },
+      {
+        "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_19.jsonl",
+        "inst": "psf__requests-1963",
+        "passed": 9,
+        "failed": 0
+      },
+      {
+        "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_20.jsonl",
+        "inst": "psf__requests-1963",
+        "passed": 9,
+        "failed": 0
+      },
+      {
+        "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_21.jsonl",
+        "inst": "psf__requests-1963",
+        "passed": 9,
+        "failed": 0
+      },
+      {
+        "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_25.jsonl",
+        "inst": "psf__requests-1963",
+        "passed": 9,
+        "failed": 0
+      },
+      {
+        "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_26.jsonl",
+        "inst": "psf__requests-1963",
+        "passed": 9,
+        "failed": 0
+      },
+      {
+        "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_27.jsonl",
+        "inst": "psf__requests-1963",
+        "passed": 9,
+        "failed": 0
+      },
+      {
+        "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_28.jsonl",
+        "inst": "psf__requests-1963",
+        "passed": 9,
+        "failed": 0
+      },
+      {
+        "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_30.jsonl",
+        "inst": "psf__requests-1963",
+        "passed": 9,
+        "failed": 0
+      },
+      {
+        "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_5.jsonl",
+        "inst": "psf__requests-1963",
+        "passed": 9,
+        "failed": 0
+      },
+      {
+        "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_6.jsonl",
+        "inst": "psf__requests-1963",
+        "passed": 9,
+        "failed": 0
+      },
+      {
+        "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_7.jsonl",
+        "inst": "psf__requests-1963",
+        "passed": 9,
+        "failed": 0
+      },
+      {
+        "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_8.jsonl",
+        "inst": "psf__requests-1963",
+        "passed": 9,
+        "failed": 0
+      },
+      {
+        "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_10.jsonl",
+        "inst": "psf__requests-1963",
+        "passed": 8,
+        "failed": 1
+      },
+      {
+        "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_12.jsonl",
+        "inst": "psf__requests-1963",
+        "passed": 8,
+        "failed": 1
+      },
+      {
+        "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_14.jsonl",
+        "inst": "psf__requests-1963",
+        "passed": 8,
+        "failed": 1
+      },
+      {
+        "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_16.jsonl",
+        "inst": "psf__requests-1963",
+        "passed": 8,
+        "failed": 1
+      },
+      {
+        "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_2.jsonl",
+        "inst": "psf__requests-1963",
+        "passed": 8,
+        "failed": 1
+      },
+      {
+        "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_22.jsonl",
+        "inst": "psf__requests-1963",
+        "passed": 8,
+        "failed": 1
+      },
+      {
+        "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_23.jsonl",
+        "inst": "psf__requests-1963",
+        "passed": 8,
+        "failed": 1
+      },
+      {
+        "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_29.jsonl",
+        "inst": "psf__requests-1963",
+        "passed": 8,
+        "failed": 1
+      },
+      {
+        "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_3.jsonl",
+        "inst": "psf__requests-1963",
+        "passed": 8,
+        "failed": 1
+      },
+      {
+        "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_4.jsonl",
+        "inst": "psf__requests-1963",
+        "passed": 8,
+        "failed": 1
+      },
+      {
+        "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_9.jsonl",
+        "inst": "psf__requests-1963",
+        "passed": 8,
+        "failed": 1
+      },
+      {
+        "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_24.jsonl",
+        "inst": "psf__requests-1963",
+        "passed": 5,
+        "failed": 4
+      }
+    ],
+    "top_passed": 9,
+    "top_subset_size": 19
+  },
+  "reproduction": {
+    "test_requests.py::RequestsTestCase::test_redirect_method_preservation#1": {
+      "repro_fails_on_clean": true,
+      "outcomes": [
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_0.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_1.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_11.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_13.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_15.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_17.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_18.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_19.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_20.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_21.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_25.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_26.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_27.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_28.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_30.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_5.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_6.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_7.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_8.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        }
+      ]
+    },
+    "test_requests.py::RequestsTestCase::test_redirect_303_preserves_method_on_subsequent_redirects#2": {
+      "repro_fails_on_clean": true,
+      "outcomes": [
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_0.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_1.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_11.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_13.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_15.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_17.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_18.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_19.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_20.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_21.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_25.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_26.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_27.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_28.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_30.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_5.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_6.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_7.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_8.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        }
+      ]
+    },
+    "test_requests.py::RequestsTestCase::test_redirect_303_to_307_preserves_method#3": {
+      "repro_fails_on_clean": true,
+      "outcomes": [
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_0.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_1.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_11.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_13.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_15.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_17.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_18.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_19.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_20.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_21.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_25.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_26.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_27.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_28.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_30.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_5.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_6.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_7.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_8.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        }
+      ]
+    },
+    "test_requests.py::RequestsTestCase::test_redirect_303_followed_by_307#4": {
+      "repro_fails_on_clean": true,
+      "outcomes": [
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_0.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_1.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_11.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_13.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_15.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_17.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_18.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_19.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_20.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_21.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_25.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_26.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_27.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_28.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_30.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_5.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_6.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_7.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_8.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        }
+      ]
+    },
+    "test_requests.py::RequestsTestCase::test_redirect_303_307_preserves_method#5": {
+      "repro_fails_on_clean": true,
+      "outcomes": [
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_0.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_1.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_11.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_13.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_15.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_17.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_18.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_19.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_20.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_21.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_25.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_26.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_27.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_28.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_30.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_5.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_6.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_7.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_8.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        }
+      ]
+    },
+    "test_requests.py::RequestsTestCase::test_resolve_redirects_preserves_method_after_303#6": {
+      "repro_fails_on_clean": true,
+      "outcomes": [
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_0.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_1.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_11.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_13.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_15.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_17.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_18.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_19.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_20.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_21.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_25.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_26.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_27.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_28.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_30.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_5.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_6.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_7.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/psf__requests-1963/dedup_patch_8.jsonl",
+          "inst": "psf__requests-1963",
+          "passed": false
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/scikit-learn__scikit-learn-25931/dedup_patch_0.jsonl": {
+      "scikit-learn__scikit-learn-25931": {
+        "sklearn/ensemble/tests/test_iforest.py::test_max_samples_attribute": true,
+        "sklearn/ensemble/tests/test_iforest.py::test_iforest_error": true,
+        "sklearn/tests/test_common.py::test_set_output_transform_pandas": true,
+        "sklearn/tests/test_common.py::test_global_output_transform_pandas": true,
+        "sklearn/tests/test_common.py::test_estimators": false,
+        "sklearn/tests/test_common.py::test_pandas_column_name_consistency": true,
+        "sklearn/ensemble/tests/test_iforest.py::test_iforest": true,
+        "sklearn/tests/test_base.py::test_feature_names_in": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/scikit-learn__scikit-learn-25931/dedup_patch_1.jsonl": {
+      "scikit-learn__scikit-learn-25931": {
+        "sklearn/ensemble/tests/test_iforest.py::test_max_samples_attribute": true,
+        "sklearn/ensemble/tests/test_iforest.py::test_iforest_error": true,
+        "sklearn/tests/test_common.py::test_set_output_transform_pandas": false,
+        "sklearn/tests/test_common.py::test_global_output_transform_pandas": false,
+        "sklearn/tests/test_common.py::test_estimators": false,
+        "sklearn/tests/test_common.py::test_pandas_column_name_consistency": true,
+        "sklearn/ensemble/tests/test_iforest.py::test_iforest": true,
+        "sklearn/tests/test_base.py::test_feature_names_in": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/scikit-learn__scikit-learn-25931/dedup_patch_10.jsonl": {
+      "scikit-learn__scikit-learn-25931": {
+        "sklearn/ensemble/tests/test_iforest.py::test_max_samples_attribute": true,
+        "sklearn/ensemble/tests/test_iforest.py::test_iforest_error": true,
+        "sklearn/tests/test_common.py::test_set_output_transform_pandas": true,
+        "sklearn/tests/test_common.py::test_global_output_transform_pandas": true,
+        "sklearn/tests/test_common.py::test_estimators": false,
+        "sklearn/tests/test_common.py::test_pandas_column_name_consistency": true,
+        "sklearn/ensemble/tests/test_iforest.py::test_iforest": true,
+        "sklearn/tests/test_base.py::test_feature_names_in": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/scikit-learn__scikit-learn-25931/dedup_patch_11.jsonl": {
+      "scikit-learn__scikit-learn-25931": {
+        "sklearn/ensemble/tests/test_iforest.py::test_max_samples_attribute": true,
+        "sklearn/ensemble/tests/test_iforest.py::test_iforest_error": true,
+        "sklearn/tests/test_common.py::test_set_output_transform_pandas": true,
+        "sklearn/tests/test_common.py::test_global_output_transform_pandas": true,
+        "sklearn/tests/test_common.py::test_estimators": false,
+        "sklearn/tests/test_common.py::test_pandas_column_name_consistency": true,
+        "sklearn/ensemble/tests/test_iforest.py::test_iforest": true,
+        "sklearn/tests/test_base.py::test_feature_names_in": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/scikit-learn__scikit-learn-25931/dedup_patch_12.jsonl": {
+      "scikit-learn__scikit-learn-25931": {
+        "sklearn/ensemble/tests/test_iforest.py::test_max_samples_attribute": true,
+        "sklearn/ensemble/tests/test_iforest.py::test_iforest_error": true,
+        "sklearn/tests/test_common.py::test_set_output_transform_pandas": true,
+        "sklearn/tests/test_common.py::test_global_output_transform_pandas": true,
+        "sklearn/tests/test_common.py::test_estimators": false,
+        "sklearn/tests/test_common.py::test_pandas_column_name_consistency": true,
+        "sklearn/ensemble/tests/test_iforest.py::test_iforest": true,
+        "sklearn/tests/test_base.py::test_feature_names_in": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/scikit-learn__scikit-learn-25931/dedup_patch_13.jsonl": {
+      "scikit-learn__scikit-learn-25931": {
+        "sklearn/ensemble/tests/test_iforest.py::test_max_samples_attribute": true,
+        "sklearn/ensemble/tests/test_iforest.py::test_iforest_error": true,
+        "sklearn/tests/test_common.py::test_set_output_transform_pandas": true,
+        "sklearn/tests/test_common.py::test_global_output_transform_pandas": true
+      }
+    }
+  },
+  "reproduction": {}
+}

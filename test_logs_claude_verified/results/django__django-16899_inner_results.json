@@ -1,0 +1,69 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/django__django-16899/dedup_patch_0.jsonl": {
+      "django__django-16899": {
+        "admin_checks.tests.SystemChecksTestCase.test_readonly_fields_not_list_or_tuple": true,
+        "modeladmin.test_checks.FieldsetsCheckTests.test_valid_case": true,
+        "modeladmin.test_checks.ReadOnlyFieldsCheckTests.test_missing_field": false,
+        "modeladmin.test_checks.ReadOnlyFieldsCheckTests.test_valid_case": false,
+        "modeladmin.test_checks.ReadOnlyFieldsCheckTests.test_invalid_field": false,
+        "admin_checks.tests.SystemChecksTestCase.test_nonexistent_field": false,
+        "modeladmin.test_checks.ReadOnlyFieldsCheckTests.test_not_iterable": false,
+        "admin_checks.tests.SystemChecksTestCase.test_readonly_dynamic_attribute_on_modeladmin": true,
+        "admin_checks.tests.SystemChecksTestCase.test_readonly_on_modeladmin": true,
+        "modeladmin.test_checks.ReadOnlyFieldsCheckTests.test_readonly_field_not_list_or_tuple": false,
+        "modeladmin.test_checks.ReadOnlyFieldsCheckTests.test_readonly_field_missing": false,
+        "admin_checks.tests.SystemChecksTestCase.test_readonly_lambda": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16899/dedup_patch_1.jsonl": {
+      "django__django-16899": {
+        "admin_checks.tests.SystemChecksTestCase.test_readonly_fields_not_list_or_tuple": true,
+        "modeladmin.test_checks.FieldsetsCheckTests.test_valid_case": true,
+        "modeladmin.test_checks.ReadOnlyFieldsCheckTests.test_missing_field": false,
+        "modeladmin.test_checks.ReadOnlyFieldsCheckTests.test_valid_case": false,
+        "modeladmin.test_checks.ReadOnlyFieldsCheckTests.test_invalid_field": false,
+        "admin_checks.tests.SystemChecksTestCase.test_nonexistent_field": false,
+        "modeladmin.test_checks.ReadOnlyFieldsCheckTests.test_not_iterable": false,
+        "admin_checks.tests.SystemChecksTestCase.test_readonly_dynamic_attribute_on_modeladmin": true,
+        "admin_checks.tests.SystemChecksTestCase.test_readonly_on_modeladmin": true,
+        "modeladmin.test_checks.ReadOnlyFieldsCheckTests.test_readonly_field_not_list_or_tuple": false,
+        "modeladmin.test_checks.ReadOnlyFieldsCheckTests.test_readonly_field_missing": false,
+        "admin_checks.tests.SystemChecksTestCase.test_readonly_lambda": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16899/dedup_patch_2.jsonl": {
+      "django__django-16899": {
+        "admin_checks.tests.SystemChecksTestCase.test_readonly_fields_not_list_or_tuple": true,
+        "modeladmin.test_checks.FieldsetsCheckTests.test_valid_case": true,
+        "modeladmin.test_checks.ReadOnlyFieldsCheckTests.test_missing_field": false,
+        "modeladmin.test_checks.ReadOnlyFieldsCheckTests.test_valid_case": false,
+        "modeladmin.test_checks.ReadOnlyFieldsCheckTests.test_invalid_field": false,
+        "admin_checks.tests.SystemChecksTestCase.test_nonexistent_field": false,
+        "modeladmin.test_checks.ReadOnlyFieldsCheckTests.test_not_iterable": false,
+        "admin_checks.tests.SystemChecksTestCase.test_readonly_dynamic_attribute_on_modeladmin": true,
+        "admin_checks.tests.SystemChecksTestCase.test_readonly_on_modeladmin": true,
+        "modeladmin.test_checks.ReadOnlyFieldsCheckTests.test_readonly_field_not_list_or_tuple": false,
+        "modeladmin.test_checks.ReadOnlyFieldsCheckTests.test_readonly_field_missing": false,
+        "admin_checks.tests.SystemChecksTestCase.test_readonly_lambda": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16899/dedup_patch_3.jsonl": {
+      "django__django-16899": {
+        "admin_checks.tests.SystemChecksTestCase.test_readonly_fields_not_list_or_tuple": true,
+        "modeladmin.test_checks.FieldsetsCheckTests.test_valid_case": true,
+        "modeladmin.test_checks.ReadOnlyFieldsCheckTests.test_missing_field": false,
+        "modeladmin.test_checks.ReadOnlyFieldsCheckTests.test_valid_case": false,
+        "modeladmin.test_checks.ReadOnlyFieldsCheckTests.test_invalid_field": false,
+        "admin_checks.tests.SystemChecksTestCase.test_nonexistent_field": false,
+        "modeladmin.test_checks.ReadOnlyFieldsCheckTests.test_not_iterable": false,
+        "admin_checks.tests.SystemChecksTestCase.test_readonly_dynamic_attribute_on_modeladmin": true,
+        "admin_checks.tests.SystemChecksTestCase.test_readonly_on_modeladmin": true,
+        "modeladmin.test_checks.ReadOnlyFieldsCheckTests.test_readonly_field_not_list_or_tuple": false,
+        "modeladmin.test_checks.ReadOnlyFieldsCheckTests.test_readonly_field_missing": false,
+        "admin_checks.tests.SystemChecksTestCase.test_readonly_lambda": true
+      }
+    }
+  },
+  "reproduction": {}
+}

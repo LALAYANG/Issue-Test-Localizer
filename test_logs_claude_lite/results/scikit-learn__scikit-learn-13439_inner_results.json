@@ -1,0 +1,95 @@
+{
+  "regression": {
+    "all_patches/lite_claude_all_unique_patches/scikit-learn__scikit-learn-13439/dedup_patch_0.jsonl": {
+      "scikit-learn__scikit-learn-13439": {
+        "sklearn/tests/test_pipeline.py::test_pipeline_init": true,
+        "sklearn/tests/test_pipeline.py::test_pipeline_transform": true,
+        "sklearn/tests/test_base.py::test_is_classifier": true,
+        "sklearn/tests/test_pipeline.py::test_pipeline_memory": true,
+        "sklearn/tests/test_pipeline.py::test_set_pipeline_step_passthrough": true,
+        "sklearn/tests/test_pipeline.py::test_pipeline_methods_preprocessing_svm": true,
+        "sklearn/tests/test_pipeline.py::test_classes_property": true,
+        "sklearn/tests/test_pipeline.py::test_fit_predict_with_intermediate_fit_params": true,
+        "sklearn/tests/test_pipeline.py::test_pipeline_sample_weight_supported": true,
+        "sklearn/tests/test_pipeline.py::test_pipeline_with_cache_attribute": true,
+        "sklearn/tests/test_pipeline.py::test_pipeline_index": true,
+        "sklearn/tests/test_pipeline.py::test_pipeline_slice": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/scikit-learn__scikit-learn-13439/dedup_patch_1.jsonl": {
+      "scikit-learn__scikit-learn-13439": {
+        "sklearn/tests/test_pipeline.py::test_pipeline_init": true,
+        "sklearn/tests/test_pipeline.py::test_pipeline_transform": true,
+        "sklearn/tests/test_base.py::test_is_classifier": true,
+        "sklearn/tests/test_pipeline.py::test_pipeline_memory": true,
+        "sklearn/tests/test_pipeline.py::test_set_pipeline_step_passthrough": true,
+        "sklearn/tests/test_pipeline.py::test_pipeline_methods_preprocessing_svm": true,
+        "sklearn/tests/test_pipeline.py::test_classes_property": true,
+        "sklearn/tests/test_pipeline.py::test_fit_predict_with_intermediate_fit_params": true,
+        "sklearn/tests/test_pipeline.py::test_pipeline_sample_weight_supported": true,
+        "sklearn/tests/test_pipeline.py::test_pipeline_with_cache_attribute": true,
+        "sklearn/tests/test_pipeline.py::test_pipeline_index": true,
+        "sklearn/tests/test_pipeline.py::test_pipeline_slice": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/scikit-learn__scikit-learn-13439/dedup_patch_2.jsonl": {
+      "scikit-learn__scikit-learn-13439": {
+        "sklearn/tests/test_pipeline.py::test_pipeline_init": true,
+        "sklearn/tests/test_pipeline.py::test_pipeline_transform": true,
+        "sklearn/tests/test_base.py::test_is_classifier": true,
+        "sklearn/tests/test_pipeline.py::test_pipeline_memory": true,
+        "sklearn/tests/test_pipeline.py::test_set_pipeline_step_passthrough": true,
+        "sklearn/tests/test_pipeline.py::test_pipeline_methods_preprocessing_svm": true,
+        "sklearn/tests/test_pipeline.py::test_classes_property": true,
+        "sklearn/tests/test_pipeline.py::test_fit_predict_with_intermediate_fit_params": true,
+        "sklearn/tests/test_pipeline.py::test_pipeline_sample_weight_supported": true,
+        "sklearn/tests/test_pipeline.py::test_pipeline_with_cache_attribute": true,
+        "sklearn/tests/test_pipeline.py::test_pipeline_index": true,
+        "sklearn/tests/test_pipeline.py::test_pipeline_slice": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/scikit-learn__scikit-learn-13439/dedup_patch_3.jsonl": {
+      "scikit-learn__scikit-learn-13439": {
+        "sklearn/tests/test_pipeline.py::test_pipeline_init": true,
+        "sklearn/tests/test_pipeline.py::test_pipeline_transform": true,
+        "sklearn/tests/test_base.py::test_is_classifier": true,
+        "sklearn/tests/test_pipeline.py::test_pipeline_memory": true,
+        "sklearn/tests/test_pipeline.py::test_set_pipeline_step_passthrough": true,
+        "sklearn/tests/test_pipeline.py::test_pipeline_methods_preprocessing_svm": true,
+        "sklearn/tests/test_pipeline.py::test_classes_property": true,
+        "sklearn/tests/test_pipeline.py::test_fit_predict_with_intermediate_fit_params": true,
+        "sklearn/tests/test_pipeline.py::test_pipeline_sample_weight_supported": true,
+        "sklearn/tests/test_pipeline.py::test_pipeline_with_cache_attribute": true,
+        "sklearn/tests/test_pipeline.py::test_pipeline_index": true,
+        "sklearn/tests/test_pipeline.py::test_pipeline_slice": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/scikit-learn__scikit-learn-13439/dedup_patch_4.jsonl": {
+      "scikit-learn__scikit-learn-13439": {
+        "sklearn/tests/test_pipeline.py::test_pipeline_init": true,
+        "sklearn/tests/test_pipeline.py::test_pipeline_transform": true,
+        "sklearn/tests/test_base.py::test_is_classifier": true,
+        "sklearn/tests/test_pipeline.py::test_pipeline_memory": true,
+        "sklearn/tests/test_pipeline.py::test_set_pipeline_step_passthrough": true,
+        "sklearn/tests/test_pipeline.py::test_pipeline_methods_preprocessing_svm": true,
+        "sklearn/tests/test_pipeline.py::test_classes_property": true,
+        "sklearn/tests/test_pipeline.py::test_fit_predict_with_intermediate_fit_params": true,
+        "sklearn/tests/test_pipeline.py::test_pipeline_sample_weight_supported": true,
+        "sklearn/tests/test_pipeline.py::test_pipeline_with_cache_attribute": true,
+        "sklearn/tests/test_pipeline.py::test_pipeline_index": true,
+        "sklearn/tests/test_pipeline.py::test_pipeline_slice": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "scikit-learn__scikit-learn-13439": {
+        "sklearn/tests/test_pipeline.py::test_pipeline_index#1": false,
+        "sklearn/tests/test_pipeline.py::test_pipeline_index#2": false,
+        "sklearn/tests/test_pipeline.py::test_pipeline_index#3": false,
+        "sklearn/tests/test_pipeline.py::test_pipeline_index#4": false,
+        "sklearn/tests/test_pipeline.py::test_pipeline_index#5": false
+      }
+    }
+  }
+}

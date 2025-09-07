@@ -1,0 +1,30 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/django__django-11880/dedup_patch_0.jsonl": {
+      "django__django-11880": {
+        "forms_tests.tests.test_forms.FormsTestCase.test_multivalue_deep_copy": true,
+        "forms_tests.tests.test_forms.FormsTestCase.test_hidden_data": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-11880": {
+        "forms_tests.field_tests.test_base.BasicFieldsTests.test_field_deepcopies_error_messages#1": true,
+        "forms_tests.field_tests.test_base.BasicFieldsTests.test_field_deepcopies_error_messages#2": true,
+        "forms_tests.field_tests.test_base.BasicFieldsTests.test_field_deepcopies_error_messages#3": false,
+        "forms_tests.field_tests.test_base.BasicFieldsTests.test_field_deepcopies_error_messages#4": true,
+        "forms_tests.field_tests.test_base.BasicFieldsTests.test_field_deepcopies_error_messages#5": true,
+        "forms_tests.field_tests.test_base.BasicFieldsTests.test_field_deepcopies_error_messages#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11880/dedup_patch_0.jsonl": {
+      "django__django-11880": {
+        "forms_tests.field_tests.test_base.BasicFieldsTests.test_field_deepcopies_error_messages#1": true,
+        "forms_tests.field_tests.test_base.BasicFieldsTests.test_field_deepcopies_error_messages#2": true,
+        "forms_tests.field_tests.test_base.BasicFieldsTests.test_field_deepcopies_error_messages#4": true,
+        "forms_tests.field_tests.test_base.BasicFieldsTests.test_field_deepcopies_error_messages#5": true
+      }
+    }
+  }
+}

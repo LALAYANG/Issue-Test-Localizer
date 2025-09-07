@@ -1,0 +1,138 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/django__django-14315/dedup_patch_0.jsonl": {
+      "django__django-14315": {
+        "dbshell.test_postgresql.PostgreSqlDbshellCommandTestCase.test_ssl_certificate": true,
+        "dbshell.test_postgresql.PostgreSqlDbshellCommandTestCase.test_crash_password_does_not_leak": true,
+        "backends.base.test_client.SimpleDatabaseClientTests.test_settings_to_cmd_args_env": true,
+        "dbshell.tests.DbshellCommandTestCase.test_command_missing": true,
+        "dbshell.test_postgresql.PostgreSqlDbshellCommandTestCase.test_passfile": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14315/dedup_patch_1.jsonl": {
+      "django__django-14315": {
+        "dbshell.test_postgresql.PostgreSqlDbshellCommandTestCase.test_ssl_certificate": true,
+        "dbshell.test_postgresql.PostgreSqlDbshellCommandTestCase.test_crash_password_does_not_leak": true,
+        "backends.base.test_client.SimpleDatabaseClientTests.test_settings_to_cmd_args_env": true,
+        "dbshell.tests.DbshellCommandTestCase.test_command_missing": true,
+        "dbshell.test_postgresql.PostgreSqlDbshellCommandTestCase.test_passfile": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14315/dedup_patch_2.jsonl": {
+      "django__django-14315": {
+        "dbshell.test_postgresql.PostgreSqlDbshellCommandTestCase.test_ssl_certificate": true,
+        "dbshell.test_postgresql.PostgreSqlDbshellCommandTestCase.test_crash_password_does_not_leak": true,
+        "backends.base.test_client.SimpleDatabaseClientTests.test_settings_to_cmd_args_env": true,
+        "dbshell.tests.DbshellCommandTestCase.test_command_missing": false,
+        "dbshell.test_postgresql.PostgreSqlDbshellCommandTestCase.test_passfile": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14315/dedup_patch_3.jsonl": {
+      "django__django-14315": {
+        "dbshell.test_postgresql.PostgreSqlDbshellCommandTestCase.test_ssl_certificate": true,
+        "dbshell.test_postgresql.PostgreSqlDbshellCommandTestCase.test_crash_password_does_not_leak": true,
+        "backends.base.test_client.SimpleDatabaseClientTests.test_settings_to_cmd_args_env": true,
+        "dbshell.tests.DbshellCommandTestCase.test_command_missing": true,
+        "dbshell.test_postgresql.PostgreSqlDbshellCommandTestCase.test_passfile": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14315/dedup_patch_4.jsonl": {
+      "django__django-14315": {
+        "dbshell.test_postgresql.PostgreSqlDbshellCommandTestCase.test_ssl_certificate": true,
+        "dbshell.test_postgresql.PostgreSqlDbshellCommandTestCase.test_crash_password_does_not_leak": true,
+        "backends.base.test_client.SimpleDatabaseClientTests.test_settings_to_cmd_args_env": true,
+        "dbshell.tests.DbshellCommandTestCase.test_command_missing": true,
+        "dbshell.test_postgresql.PostgreSqlDbshellCommandTestCase.test_passfile": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14315/dedup_patch_5.jsonl": {
+      "django__django-14315": {
+        "dbshell.test_postgresql.PostgreSqlDbshellCommandTestCase.test_ssl_certificate": true,
+        "dbshell.test_postgresql.PostgreSqlDbshellCommandTestCase.test_crash_password_does_not_leak": true,
+        "backends.base.test_client.SimpleDatabaseClientTests.test_settings_to_cmd_args_env": true,
+        "dbshell.tests.DbshellCommandTestCase.test_command_missing": true,
+        "dbshell.test_postgresql.PostgreSqlDbshellCommandTestCase.test_passfile": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14315/dedup_patch_6.jsonl": {
+      "django__django-14315": {
+        "dbshell.test_postgresql.PostgreSqlDbshellCommandTestCase.test_ssl_certificate": true,
+        "dbshell.test_postgresql.PostgreSqlDbshellCommandTestCase.test_crash_password_does_not_leak": true,
+        "backends.base.test_client.SimpleDatabaseClientTests.test_settings_to_cmd_args_env": true,
+        "dbshell.tests.DbshellCommandTestCase.test_command_missing": true,
+        "dbshell.test_postgresql.PostgreSqlDbshellCommandTestCase.test_passfile": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14315/dedup_patch_7.jsonl": {
+      "django__django-14315": {
+        "dbshell.test_postgresql.PostgreSqlDbshellCommandTestCase.test_ssl_certificate": true,
+        "dbshell.test_postgresql.PostgreSqlDbshellCommandTestCase.test_crash_password_does_not_leak": true,
+        "backends.base.test_client.SimpleDatabaseClientTests.test_settings_to_cmd_args_env": true,
+        "dbshell.tests.DbshellCommandTestCase.test_command_missing": true,
+        "dbshell.test_postgresql.PostgreSqlDbshellCommandTestCase.test_passfile": false
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-14315": {
+        "backends.base.test_client.SimpleDatabaseClientTests.test_settings_to_cmd_args_env#1": true,
+        "backends.base.test_client.SimpleDatabaseClientTests.test_settings_to_cmd_args_env#2": true,
+        "backends.base.test_client.SimpleDatabaseClientTests.test_env_respects_os_environ#3": true,
+        "dbshell.test_postgresql.PostgreSqlDbshellCommandTestCase.test_env_empty_dict#4": true,
+        "dbshell.test_postgresql.PostgreSqlDbshellCommandTestCase.test_env_respects_os_environ#5": true,
+        "backends.base.test_client.SimpleDatabaseClientTests.test_env_handling#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14315/dedup_patch_0.jsonl": {
+      "django__django-14315": {
+        "backends.base.test_client.SimpleDatabaseClientTests.test_settings_to_cmd_args_env#1": false,
+        "backends.base.test_client.SimpleDatabaseClientTests.test_settings_to_cmd_args_env#2": false,
+        "backends.base.test_client.SimpleDatabaseClientTests.test_env_respects_os_environ#3": false,
+        "dbshell.test_postgresql.PostgreSqlDbshellCommandTestCase.test_env_empty_dict#4": false,
+        "dbshell.test_postgresql.PostgreSqlDbshellCommandTestCase.test_env_respects_os_environ#5": false,
+        "backends.base.test_client.SimpleDatabaseClientTests.test_env_handling#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14315/dedup_patch_1.jsonl": {
+      "django__django-14315": {
+        "backends.base.test_client.SimpleDatabaseClientTests.test_settings_to_cmd_args_env#1": false,
+        "backends.base.test_client.SimpleDatabaseClientTests.test_settings_to_cmd_args_env#2": false,
+        "backends.base.test_client.SimpleDatabaseClientTests.test_env_respects_os_environ#3": false,
+        "dbshell.test_postgresql.PostgreSqlDbshellCommandTestCase.test_env_empty_dict#4": false,
+        "dbshell.test_postgresql.PostgreSqlDbshellCommandTestCase.test_env_respects_os_environ#5": false,
+        "backends.base.test_client.SimpleDatabaseClientTests.test_env_handling#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14315/dedup_patch_3.jsonl": {
+      "django__django-14315": {
+        "backends.base.test_client.SimpleDatabaseClientTests.test_settings_to_cmd_args_env#1": false,
+        "backends.base.test_client.SimpleDatabaseClientTests.test_settings_to_cmd_args_env#2": false,
+        "backends.base.test_client.SimpleDatabaseClientTests.test_env_respects_os_environ#3": false,
+        "dbshell.test_postgresql.PostgreSqlDbshellCommandTestCase.test_env_empty_dict#4": false,
+        "dbshell.test_postgresql.PostgreSqlDbshellCommandTestCase.test_env_respects_os_environ#5": false,
+        "backends.base.test_client.SimpleDatabaseClientTests.test_env_handling#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14315/dedup_patch_4.jsonl": {
+      "django__django-14315": {
+        "backends.base.test_client.SimpleDatabaseClientTests.test_settings_to_cmd_args_env#1": false,
+        "backends.base.test_client.SimpleDatabaseClientTests.test_settings_to_cmd_args_env#2": false,
+        "backends.base.test_client.SimpleDatabaseClientTests.test_env_respects_os_environ#3": false,
+        "dbshell.test_postgresql.PostgreSqlDbshellCommandTestCase.test_env_empty_dict#4": false,
+        "dbshell.test_postgresql.PostgreSqlDbshellCommandTestCase.test_env_respects_os_environ#5": false,
+        "backends.base.test_client.SimpleDatabaseClientTests.test_env_handling#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14315/dedup_patch_6.jsonl": {
+      "django__django-14315": {
+        "backends.base.test_client.SimpleDatabaseClientTests.test_settings_to_cmd_args_env#1": false,
+        "backends.base.test_client.SimpleDatabaseClientTests.test_settings_to_cmd_args_env#2": false,
+        "backends.base.test_client.SimpleDatabaseClientTests.test_env_respects_os_environ#3": false,
+        "dbshell.test_postgresql.PostgreSqlDbshellCommandTestCase.test_env_empty_dict#4": false,
+        "dbshell.test_postgresql.PostgreSqlDbshellCommandTestCase.test_env_respects_os_environ#5": false,
+        "backends.base.test_client.SimpleDatabaseClientTests.test_env_handling#6": false
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/scikit-learn__scikit-learn-10844/dedup_patch_0.jsonl": {
+      "scikit-learn__scikit-learn-10844": {
+        "sklearn/metrics/cluster/tests/test_supervised.py::test_fowlkes_mallows_score": true,
+        "sklearn/metrics/cluster/tests/test_common.py::test_format_invariance": true,
+        "sklearn/metrics/cluster/tests/test_supervised.py::test_fowlkes_mallows_score_properties": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "scikit-learn__scikit-learn-10844": {
+        "sklearn/metrics/cluster/tests/test_supervised.py::test_fowlkes_mallows_score#1": false,
+        "sklearn/metrics/cluster/tests/test_supervised.py::test_fowlkes_mallows_score_properties#2": false,
+        "sklearn/metrics/cluster/tests/test_supervised.py::test_fowlkes_mallows_score#3": false,
+        "sklearn/metrics/cluster/tests/test_supervised.py::test_fowlkes_mallows_score#4": false,
+        "sklearn/metrics/cluster/tests/test_supervised.py::test_fowlkes_mallows_score_properties#5": false,
+        "sklearn/metrics/cluster/tests/test_supervised.py::test_fowlkes_mallows_score_properties#6": false
+      }
+    }
+  }
+}

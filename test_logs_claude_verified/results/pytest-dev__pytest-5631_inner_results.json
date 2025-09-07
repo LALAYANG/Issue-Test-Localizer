@@ -1,0 +1,88 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/pytest-dev__pytest-5631/dedup_patch_0.jsonl": {
+      "pytest-dev__pytest-5631": {
+        "test_collection.py::TestSession::test_collect_protocol_method": false,
+        "test_mark.py::TestFunctional::test_mark_decorator_baseclasses_merged": false,
+        "test_unittest.py::test_function_item_obj_is_instance": false,
+        "test_collection.py::test_collect_invalid_signature_message": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pytest-dev__pytest-5631/dedup_patch_1.jsonl": {
+      "pytest-dev__pytest-5631": {
+        "test_collection.py::TestSession::test_collect_protocol_method": false,
+        "test_mark.py::TestFunctional::test_mark_decorator_baseclasses_merged": false,
+        "test_unittest.py::test_function_item_obj_is_instance": false,
+        "test_collection.py::test_collect_invalid_signature_message": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pytest-dev__pytest-5631/dedup_patch_2.jsonl": {
+      "pytest-dev__pytest-5631": {
+        "test_collection.py::TestSession::test_collect_protocol_method": false,
+        "test_mark.py::TestFunctional::test_mark_decorator_baseclasses_merged": false,
+        "test_unittest.py::test_function_item_obj_is_instance": false,
+        "test_collection.py::test_collect_invalid_signature_message": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pytest-dev__pytest-5631/dedup_patch_3.jsonl": {
+      "pytest-dev__pytest-5631": {
+        "test_collection.py::TestSession::test_collect_protocol_method": false,
+        "test_mark.py::TestFunctional::test_mark_decorator_baseclasses_merged": false,
+        "test_unittest.py::test_function_item_obj_is_instance": false,
+        "test_collection.py::test_collect_invalid_signature_message": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pytest-dev__pytest-5631/dedup_patch_4.jsonl": {
+      "pytest-dev__pytest-5631": {
+        "test_collection.py::TestSession::test_collect_protocol_method": false,
+        "test_mark.py::TestFunctional::test_mark_decorator_baseclasses_merged": false,
+        "test_unittest.py::test_function_item_obj_is_instance": false,
+        "test_collection.py::test_collect_invalid_signature_message": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pytest-dev__pytest-5631/dedup_patch_5.jsonl": {
+      "pytest-dev__pytest-5631": {
+        "test_collection.py::TestSession::test_collect_protocol_method": false,
+        "test_mark.py::TestFunctional::test_mark_decorator_baseclasses_merged": false,
+        "test_unittest.py::test_function_item_obj_is_instance": false,
+        "test_collection.py::test_collect_invalid_signature_message": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pytest-dev__pytest-5631/dedup_patch_6.jsonl": {
+      "pytest-dev__pytest-5631": {
+        "test_collection.py::TestSession::test_collect_protocol_method": false,
+        "test_mark.py::TestFunctional::test_mark_decorator_baseclasses_merged": false,
+        "test_unittest.py::test_function_item_obj_is_instance": false,
+        "test_collection.py::test_collect_invalid_signature_message": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pytest-dev__pytest-5631/dedup_patch_7.jsonl": {
+      "pytest-dev__pytest-5631": {
+        "test_collection.py::TestSession::test_collect_protocol_method": false,
+        "test_mark.py::TestFunctional::test_mark_decorator_baseclasses_merged": false,
+        "test_unittest.py::test_function_item_obj_is_instance": false,
+        "test_collection.py::test_collect_invalid_signature_message": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pytest-dev__pytest-5631/dedup_patch_8.jsonl": {
+      "pytest-dev__pytest-5631": {
+        "test_collection.py::TestSession::test_collect_protocol_method": false,
+        "test_mark.py::TestFunctional::test_mark_decorator_baseclasses_merged": false,
+        "test_unittest.py::test_function_item_obj_is_instance": false,
+        "test_collection.py::test_collect_invalid_signature_message": false
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "pytest-dev__pytest-5631": {
+        "testing/test_compat.py::test_safe_isclass#1": false,
+        "testing/test_compat.py::test_safe_isclass#2": false,
+        "testing/test_compat.py::test_safe_isclass#3": false,
+        "testing/test_compat.py::test_safe_isclass#4": false,
+        "testing/test_compat.py::test_safe_isclass#5": false,
+        "testing/test_compat.py::test_safe_isclass#6": false
+      }
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/django__django-13933/dedup_patch_0.jsonl": {
+      "django__django-13933": {
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_disabled_modelmultiplechoicefield_has_changed": true,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": true,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_disabled_modelchoicefield_initial_model_instance": true,
+        "forms_tests.tests.test_error_messages.ModelChoiceFieldErrorMessagesTestCase.test_modelchoicefield": true,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_choices_radio_blank": true,
+        "model_forms.tests.LimitChoicesToTests.test_callable_called_each_time_form_is_instantiated": true,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_disabled_modelchoicefield_has_changed": true,
+        "model_forms.tests.ModelMultipleChoiceFieldTests.test_show_hidden_initial_changed_queries_efficiently": true,
+        "model_forms.tests.ModelMultipleChoiceFieldTests.test_model_multiple_choice_field": true,
+        "model_forms.tests.LimitChoicesToTests.test_fields_for_model_applies_limit_choices_to": true,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_clean_model_instance": false,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_basics": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13933/dedup_patch_1.jsonl": {
+      "django__django-13933": {
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_disabled_modelmultiplechoicefield_has_changed": true,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": true,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_disabled_modelchoicefield_initial_model_instance": true,
+        "forms_tests.tests.test_error_messages.ModelChoiceFieldErrorMessagesTestCase.test_modelchoicefield": true,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_choices_radio_blank": true,
+        "model_forms.tests.LimitChoicesToTests.test_callable_called_each_time_form_is_instantiated": true,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_disabled_modelchoicefield_has_changed": true,
+        "model_forms.tests.ModelMultipleChoiceFieldTests.test_show_hidden_initial_changed_queries_efficiently": true,
+        "model_forms.tests.ModelMultipleChoiceFieldTests.test_model_multiple_choice_field": true,
+        "model_forms.tests.LimitChoicesToTests.test_fields_for_model_applies_limit_choices_to": true,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_clean_model_instance": false,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_basics": false
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-13933": {
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_invalid_choice_error_message#1": true,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_invalid_choice_error_message#2": true,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_modelchoicefield_invalid_choice_error_message#3": false,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_invalid_choice_error_message#4": true,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_invalid_choice_error_message#5": true,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_invalid_choice_error_message_includes_value#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13933/dedup_patch_0.jsonl": {
+      "django__django-13933": {
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_invalid_choice_error_message#1": true,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_invalid_choice_error_message#2": true,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_invalid_choice_error_message#4": false,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_invalid_choice_error_message#5": true,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_invalid_choice_error_message_includes_value#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13933/dedup_patch_1.jsonl": {
+      "django__django-13933": {
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_invalid_choice_error_message#1": true,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_invalid_choice_error_message#2": true,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_invalid_choice_error_message#4": false,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_invalid_choice_error_message#5": true,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_invalid_choice_error_message_includes_value#6": true
+      }
+    }
+  }
+}

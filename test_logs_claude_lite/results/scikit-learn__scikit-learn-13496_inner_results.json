@@ -1,0 +1,66 @@
+{
+  "regression": {
+    "all_patches/lite_claude_all_unique_patches/scikit-learn__scikit-learn-13496/dedup_patch_0.jsonl": {
+      "scikit-learn__scikit-learn-13496": {
+        "sklearn/ensemble/tests/test_iforest.py::test_iforest_subsampled_features": true,
+        "sklearn/ensemble/tests/test_iforest.py::test_iforest_error": true,
+        "sklearn/ensemble/tests/test_iforest.py::test_iforest_sparse": true,
+        "sklearn/ensemble/tests/test_iforest.py::test_iforest_works": true,
+        "sklearn/ensemble/tests/test_iforest.py::test_iforest_chunks_works1": true,
+        "sklearn/ensemble/tests/test_iforest.py::test_iforest_chunks_works2": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/scikit-learn__scikit-learn-13496/dedup_patch_1.jsonl": {
+      "scikit-learn__scikit-learn-13496": {
+        "sklearn/ensemble/tests/test_iforest.py::test_iforest_subsampled_features": true,
+        "sklearn/ensemble/tests/test_iforest.py::test_iforest_error": true,
+        "sklearn/ensemble/tests/test_iforest.py::test_iforest_sparse": true,
+        "sklearn/ensemble/tests/test_iforest.py::test_iforest_works": true,
+        "sklearn/ensemble/tests/test_iforest.py::test_iforest_chunks_works1": true,
+        "sklearn/ensemble/tests/test_iforest.py::test_iforest_chunks_works2": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/scikit-learn__scikit-learn-13496/dedup_patch_2.jsonl": {
+      "scikit-learn__scikit-learn-13496": {
+        "sklearn/ensemble/tests/test_iforest.py::test_iforest_subsampled_features": true,
+        "sklearn/ensemble/tests/test_iforest.py::test_iforest_error": true,
+        "sklearn/ensemble/tests/test_iforest.py::test_iforest_sparse": true,
+        "sklearn/ensemble/tests/test_iforest.py::test_iforest_works": true,
+        "sklearn/ensemble/tests/test_iforest.py::test_iforest_chunks_works1": true,
+        "sklearn/ensemble/tests/test_iforest.py::test_iforest_chunks_works2": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/scikit-learn__scikit-learn-13496/dedup_patch_3.jsonl": {
+      "scikit-learn__scikit-learn-13496": {
+        "sklearn/ensemble/tests/test_iforest.py::test_iforest_subsampled_features": true,
+        "sklearn/ensemble/tests/test_iforest.py::test_iforest_error": true,
+        "sklearn/ensemble/tests/test_iforest.py::test_iforest_sparse": true,
+        "sklearn/ensemble/tests/test_iforest.py::test_iforest_works": true,
+        "sklearn/ensemble/tests/test_iforest.py::test_iforest_chunks_works1": true,
+        "sklearn/ensemble/tests/test_iforest.py::test_iforest_chunks_works2": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/scikit-learn__scikit-learn-13496/dedup_patch_4.jsonl": {
+      "scikit-learn__scikit-learn-13496": {
+        "sklearn/ensemble/tests/test_iforest.py::test_iforest_subsampled_features": true,
+        "sklearn/ensemble/tests/test_iforest.py::test_iforest_error": true,
+        "sklearn/ensemble/tests/test_iforest.py::test_iforest_sparse": true,
+        "sklearn/ensemble/tests/test_iforest.py::test_iforest_works": true,
+        "sklearn/ensemble/tests/test_iforest.py::test_iforest_chunks_works1": true,
+        "sklearn/ensemble/tests/test_iforest.py::test_iforest_chunks_works2": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "scikit-learn__scikit-learn-13496": {
+        "sklearn/ensemble/tests/test_iforest.py::test_behaviour_param#1": false,
+        "sklearn/ensemble/tests/test_iforest.py::test_iforest_performance#2": false,
+        "sklearn/ensemble/tests/test_iforest.py::test_iforest_performance#3": false,
+        "sklearn/ensemble/tests/test_iforest.py::test_behaviour_param#4": false,
+        "sklearn/ensemble/tests/test_iforest.py::test_iforest_works#5": false,
+        "sklearn/ensemble/tests/test_iforest.py::test_iforest_works#6": false
+      }
+    }
+  }
+}

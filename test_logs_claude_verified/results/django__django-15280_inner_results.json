@@ -1,0 +1,1216 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/django__django-15280/dedup_patch_0.jsonl": {
+      "django__django-15280": {
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_cache_reuse": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_related_objects_for_inherited_models": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_invalid_final_lookup": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_forward_m2m_to_attr_conflict": true,
+        "prefetch_related.tests.DirectPrefetchedObjectCacheReuseTests.test_prefetch_reverse_foreign_key": true,
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_prefetch_eq": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_abstract_parent_link": true,
+        "prefetch_related.tests.GenericRelationTests.test_prefetch_GFK_fk_pk": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_ambiguous": true,
+        "prefetch_related.tests.MultiDbTests.test_using_is_honored_inheritance": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_clear": true,
+        "queries.tests.SubclassFKTests.test_ticket7778": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_named_values_list": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_child_one_to_one_link_on_nonrelated_objects": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_raw_queryset": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_custom_qs": true,
+        "prefetch_related.tests.NullableTest.test_traverse_nullable": true,
+        "prefetch_related.tests.MultiTableInheritanceTest.test_parent_link_prefetch": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_follow_inheritance": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15280/dedup_patch_1.jsonl": {
+      "django__django-15280": {
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_cache_reuse": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_related_objects_for_inherited_models": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_invalid_final_lookup": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_forward_m2m_to_attr_conflict": true,
+        "prefetch_related.tests.DirectPrefetchedObjectCacheReuseTests.test_prefetch_reverse_foreign_key": true,
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_prefetch_eq": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_abstract_parent_link": true,
+        "prefetch_related.tests.GenericRelationTests.test_prefetch_GFK_fk_pk": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_ambiguous": true,
+        "prefetch_related.tests.MultiDbTests.test_using_is_honored_inheritance": false,
+        "prefetch_related.tests.PrefetchRelatedTests.test_clear": true,
+        "queries.tests.SubclassFKTests.test_ticket7778": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_named_values_list": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_child_one_to_one_link_on_nonrelated_objects": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_raw_queryset": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_custom_qs": true,
+        "prefetch_related.tests.NullableTest.test_traverse_nullable": true,
+        "prefetch_related.tests.MultiTableInheritanceTest.test_parent_link_prefetch": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_follow_inheritance": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15280/dedup_patch_10.jsonl": {
+      "django__django-15280": {
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_cache_reuse": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_related_objects_for_inherited_models": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_invalid_final_lookup": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_forward_m2m_to_attr_conflict": true,
+        "prefetch_related.tests.DirectPrefetchedObjectCacheReuseTests.test_prefetch_reverse_foreign_key": true,
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_prefetch_eq": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_abstract_parent_link": true,
+        "prefetch_related.tests.GenericRelationTests.test_prefetch_GFK_fk_pk": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_ambiguous": true,
+        "prefetch_related.tests.MultiDbTests.test_using_is_honored_inheritance": false,
+        "prefetch_related.tests.PrefetchRelatedTests.test_clear": true,
+        "queries.tests.SubclassFKTests.test_ticket7778": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_named_values_list": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_child_one_to_one_link_on_nonrelated_objects": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_raw_queryset": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_custom_qs": false,
+        "prefetch_related.tests.NullableTest.test_traverse_nullable": true,
+        "prefetch_related.tests.MultiTableInheritanceTest.test_parent_link_prefetch": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_follow_inheritance": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15280/dedup_patch_11.jsonl": {
+      "django__django-15280": {
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_cache_reuse": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_related_objects_for_inherited_models": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_invalid_final_lookup": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_forward_m2m_to_attr_conflict": true,
+        "prefetch_related.tests.DirectPrefetchedObjectCacheReuseTests.test_prefetch_reverse_foreign_key": true,
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_prefetch_eq": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_abstract_parent_link": true,
+        "prefetch_related.tests.GenericRelationTests.test_prefetch_GFK_fk_pk": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_ambiguous": true,
+        "prefetch_related.tests.MultiDbTests.test_using_is_honored_inheritance": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_clear": true,
+        "queries.tests.SubclassFKTests.test_ticket7778": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_named_values_list": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_child_one_to_one_link_on_nonrelated_objects": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_raw_queryset": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_custom_qs": true,
+        "prefetch_related.tests.NullableTest.test_traverse_nullable": true,
+        "prefetch_related.tests.MultiTableInheritanceTest.test_parent_link_prefetch": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_follow_inheritance": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15280/dedup_patch_12.jsonl": {
+      "django__django-15280": {
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_cache_reuse": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_related_objects_for_inherited_models": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_invalid_final_lookup": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_forward_m2m_to_attr_conflict": true,
+        "prefetch_related.tests.DirectPrefetchedObjectCacheReuseTests.test_prefetch_reverse_foreign_key": true,
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_prefetch_eq": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_abstract_parent_link": true,
+        "prefetch_related.tests.GenericRelationTests.test_prefetch_GFK_fk_pk": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_ambiguous": true,
+        "prefetch_related.tests.MultiDbTests.test_using_is_honored_inheritance": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_clear": true,
+        "queries.tests.SubclassFKTests.test_ticket7778": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_named_values_list": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_child_one_to_one_link_on_nonrelated_objects": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_raw_queryset": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_custom_qs": true,
+        "prefetch_related.tests.NullableTest.test_traverse_nullable": true,
+        "prefetch_related.tests.MultiTableInheritanceTest.test_parent_link_prefetch": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_follow_inheritance": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15280/dedup_patch_13.jsonl": {
+      "django__django-15280": {
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_cache_reuse": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_related_objects_for_inherited_models": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_invalid_final_lookup": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_forward_m2m_to_attr_conflict": true,
+        "prefetch_related.tests.DirectPrefetchedObjectCacheReuseTests.test_prefetch_reverse_foreign_key": true,
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_prefetch_eq": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_abstract_parent_link": true,
+        "prefetch_related.tests.GenericRelationTests.test_prefetch_GFK_fk_pk": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_ambiguous": true,
+        "prefetch_related.tests.MultiDbTests.test_using_is_honored_inheritance": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_clear": true,
+        "queries.tests.SubclassFKTests.test_ticket7778": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_named_values_list": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_child_one_to_one_link_on_nonrelated_objects": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_raw_queryset": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_custom_qs": true,
+        "prefetch_related.tests.NullableTest.test_traverse_nullable": true,
+        "prefetch_related.tests.MultiTableInheritanceTest.test_parent_link_prefetch": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_follow_inheritance": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15280/dedup_patch_14.jsonl": {
+      "django__django-15280": {
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_cache_reuse": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_related_objects_for_inherited_models": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_invalid_final_lookup": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_forward_m2m_to_attr_conflict": true,
+        "prefetch_related.tests.DirectPrefetchedObjectCacheReuseTests.test_prefetch_reverse_foreign_key": true,
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_prefetch_eq": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_abstract_parent_link": true,
+        "prefetch_related.tests.GenericRelationTests.test_prefetch_GFK_fk_pk": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_ambiguous": true,
+        "prefetch_related.tests.MultiDbTests.test_using_is_honored_inheritance": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_clear": true,
+        "queries.tests.SubclassFKTests.test_ticket7778": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_named_values_list": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_child_one_to_one_link_on_nonrelated_objects": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_raw_queryset": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_custom_qs": true,
+        "prefetch_related.tests.NullableTest.test_traverse_nullable": true,
+        "prefetch_related.tests.MultiTableInheritanceTest.test_parent_link_prefetch": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_follow_inheritance": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15280/dedup_patch_15.jsonl": {
+      "django__django-15280": {
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_cache_reuse": false,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_related_objects_for_inherited_models": false,
+        "prefetch_related.tests.PrefetchRelatedTests.test_invalid_final_lookup": false,
+        "prefetch_related.tests.PrefetchRelatedTests.test_forward_m2m_to_attr_conflict": false,
+        "prefetch_related.tests.DirectPrefetchedObjectCacheReuseTests.test_prefetch_reverse_foreign_key": false,
+        "queries.tests.Queries3Tests.test_ticket22023": false,
+        "prefetch_related.tests.PrefetchRelatedTests.test_prefetch_eq": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_abstract_parent_link": false,
+        "prefetch_related.tests.GenericRelationTests.test_prefetch_GFK_fk_pk": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_ambiguous": false,
+        "prefetch_related.tests.MultiDbTests.test_using_is_honored_inheritance": false,
+        "prefetch_related.tests.PrefetchRelatedTests.test_clear": false,
+        "queries.tests.SubclassFKTests.test_ticket7778": false,
+        "prefetch_related.tests.PrefetchRelatedTests.test_named_values_list": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_child_one_to_one_link_on_nonrelated_objects": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_raw_queryset": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_custom_qs": false,
+        "prefetch_related.tests.NullableTest.test_traverse_nullable": false,
+        "prefetch_related.tests.MultiTableInheritanceTest.test_parent_link_prefetch": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_follow_inheritance": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15280/dedup_patch_16.jsonl": {
+      "django__django-15280": {
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_cache_reuse": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_related_objects_for_inherited_models": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_invalid_final_lookup": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_forward_m2m_to_attr_conflict": true,
+        "prefetch_related.tests.DirectPrefetchedObjectCacheReuseTests.test_prefetch_reverse_foreign_key": true,
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_prefetch_eq": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_abstract_parent_link": true,
+        "prefetch_related.tests.GenericRelationTests.test_prefetch_GFK_fk_pk": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_ambiguous": true,
+        "prefetch_related.tests.MultiDbTests.test_using_is_honored_inheritance": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_clear": true,
+        "queries.tests.SubclassFKTests.test_ticket7778": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_named_values_list": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_child_one_to_one_link_on_nonrelated_objects": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_raw_queryset": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_custom_qs": true,
+        "prefetch_related.tests.NullableTest.test_traverse_nullable": true,
+        "prefetch_related.tests.MultiTableInheritanceTest.test_parent_link_prefetch": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_follow_inheritance": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15280/dedup_patch_17.jsonl": {
+      "django__django-15280": {
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_cache_reuse": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_related_objects_for_inherited_models": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_invalid_final_lookup": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_forward_m2m_to_attr_conflict": true,
+        "prefetch_related.tests.DirectPrefetchedObjectCacheReuseTests.test_prefetch_reverse_foreign_key": true,
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_prefetch_eq": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_abstract_parent_link": true,
+        "prefetch_related.tests.GenericRelationTests.test_prefetch_GFK_fk_pk": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_ambiguous": true,
+        "prefetch_related.tests.MultiDbTests.test_using_is_honored_inheritance": false,
+        "prefetch_related.tests.PrefetchRelatedTests.test_clear": true,
+        "queries.tests.SubclassFKTests.test_ticket7778": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_named_values_list": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_child_one_to_one_link_on_nonrelated_objects": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_raw_queryset": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_custom_qs": true,
+        "prefetch_related.tests.NullableTest.test_traverse_nullable": true,
+        "prefetch_related.tests.MultiTableInheritanceTest.test_parent_link_prefetch": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_follow_inheritance": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15280/dedup_patch_18.jsonl": {
+      "django__django-15280": {
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_cache_reuse": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_related_objects_for_inherited_models": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_invalid_final_lookup": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_forward_m2m_to_attr_conflict": true,
+        "prefetch_related.tests.DirectPrefetchedObjectCacheReuseTests.test_prefetch_reverse_foreign_key": true,
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_prefetch_eq": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_abstract_parent_link": true,
+        "prefetch_related.tests.GenericRelationTests.test_prefetch_GFK_fk_pk": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_ambiguous": true,
+        "prefetch_related.tests.MultiDbTests.test_using_is_honored_inheritance": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_clear": true,
+        "queries.tests.SubclassFKTests.test_ticket7778": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_named_values_list": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_child_one_to_one_link_on_nonrelated_objects": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_raw_queryset": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_custom_qs": true,
+        "prefetch_related.tests.NullableTest.test_traverse_nullable": true,
+        "prefetch_related.tests.MultiTableInheritanceTest.test_parent_link_prefetch": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_follow_inheritance": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15280/dedup_patch_19.jsonl": {
+      "django__django-15280": {
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_cache_reuse": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_related_objects_for_inherited_models": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_invalid_final_lookup": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_forward_m2m_to_attr_conflict": true,
+        "prefetch_related.tests.DirectPrefetchedObjectCacheReuseTests.test_prefetch_reverse_foreign_key": true,
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_prefetch_eq": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_abstract_parent_link": true,
+        "prefetch_related.tests.GenericRelationTests.test_prefetch_GFK_fk_pk": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_ambiguous": true,
+        "prefetch_related.tests.MultiDbTests.test_using_is_honored_inheritance": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_clear": true,
+        "queries.tests.SubclassFKTests.test_ticket7778": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_named_values_list": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_child_one_to_one_link_on_nonrelated_objects": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_raw_queryset": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_custom_qs": true,
+        "prefetch_related.tests.NullableTest.test_traverse_nullable": true,
+        "prefetch_related.tests.MultiTableInheritanceTest.test_parent_link_prefetch": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_follow_inheritance": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15280/dedup_patch_2.jsonl": {
+      "django__django-15280": {
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_cache_reuse": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_related_objects_for_inherited_models": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_invalid_final_lookup": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_forward_m2m_to_attr_conflict": true,
+        "prefetch_related.tests.DirectPrefetchedObjectCacheReuseTests.test_prefetch_reverse_foreign_key": true,
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_prefetch_eq": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_abstract_parent_link": true,
+        "prefetch_related.tests.GenericRelationTests.test_prefetch_GFK_fk_pk": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_ambiguous": true,
+        "prefetch_related.tests.MultiDbTests.test_using_is_honored_inheritance": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_clear": true,
+        "queries.tests.SubclassFKTests.test_ticket7778": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_named_values_list": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_child_one_to_one_link_on_nonrelated_objects": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_raw_queryset": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_custom_qs": true,
+        "prefetch_related.tests.NullableTest.test_traverse_nullable": true,
+        "prefetch_related.tests.MultiTableInheritanceTest.test_parent_link_prefetch": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_follow_inheritance": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15280/dedup_patch_20.jsonl": {
+      "django__django-15280": {
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_cache_reuse": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_related_objects_for_inherited_models": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_invalid_final_lookup": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_forward_m2m_to_attr_conflict": true,
+        "prefetch_related.tests.DirectPrefetchedObjectCacheReuseTests.test_prefetch_reverse_foreign_key": true,
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_prefetch_eq": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_abstract_parent_link": true,
+        "prefetch_related.tests.GenericRelationTests.test_prefetch_GFK_fk_pk": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_ambiguous": true,
+        "prefetch_related.tests.MultiDbTests.test_using_is_honored_inheritance": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_clear": true,
+        "queries.tests.SubclassFKTests.test_ticket7778": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_named_values_list": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_child_one_to_one_link_on_nonrelated_objects": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_raw_queryset": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_custom_qs": true,
+        "prefetch_related.tests.NullableTest.test_traverse_nullable": true,
+        "prefetch_related.tests.MultiTableInheritanceTest.test_parent_link_prefetch": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_follow_inheritance": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15280/dedup_patch_21.jsonl": {
+      "django__django-15280": {
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_cache_reuse": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_related_objects_for_inherited_models": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_invalid_final_lookup": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_forward_m2m_to_attr_conflict": true,
+        "prefetch_related.tests.DirectPrefetchedObjectCacheReuseTests.test_prefetch_reverse_foreign_key": true,
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_prefetch_eq": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_abstract_parent_link": true,
+        "prefetch_related.tests.GenericRelationTests.test_prefetch_GFK_fk_pk": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_ambiguous": true,
+        "prefetch_related.tests.MultiDbTests.test_using_is_honored_inheritance": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_clear": true,
+        "queries.tests.SubclassFKTests.test_ticket7778": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_named_values_list": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_child_one_to_one_link_on_nonrelated_objects": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_raw_queryset": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_custom_qs": true,
+        "prefetch_related.tests.NullableTest.test_traverse_nullable": true,
+        "prefetch_related.tests.MultiTableInheritanceTest.test_parent_link_prefetch": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_follow_inheritance": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15280/dedup_patch_22.jsonl": {
+      "django__django-15280": {
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_cache_reuse": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_related_objects_for_inherited_models": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_invalid_final_lookup": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_forward_m2m_to_attr_conflict": true,
+        "prefetch_related.tests.DirectPrefetchedObjectCacheReuseTests.test_prefetch_reverse_foreign_key": true,
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_prefetch_eq": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_abstract_parent_link": true,
+        "prefetch_related.tests.GenericRelationTests.test_prefetch_GFK_fk_pk": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_ambiguous": true,
+        "prefetch_related.tests.MultiDbTests.test_using_is_honored_inheritance": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_clear": true,
+        "queries.tests.SubclassFKTests.test_ticket7778": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_named_values_list": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_child_one_to_one_link_on_nonrelated_objects": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_raw_queryset": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_custom_qs": true,
+        "prefetch_related.tests.NullableTest.test_traverse_nullable": true,
+        "prefetch_related.tests.MultiTableInheritanceTest.test_parent_link_prefetch": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_follow_inheritance": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15280/dedup_patch_23.jsonl": {
+      "django__django-15280": {
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_cache_reuse": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_related_objects_for_inherited_models": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_invalid_final_lookup": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_forward_m2m_to_attr_conflict": true,
+        "prefetch_related.tests.DirectPrefetchedObjectCacheReuseTests.test_prefetch_reverse_foreign_key": true,
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_prefetch_eq": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_abstract_parent_link": true,
+        "prefetch_related.tests.GenericRelationTests.test_prefetch_GFK_fk_pk": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_ambiguous": true,
+        "prefetch_related.tests.MultiDbTests.test_using_is_honored_inheritance": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_clear": true,
+        "queries.tests.SubclassFKTests.test_ticket7778": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_named_values_list": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_child_one_to_one_link_on_nonrelated_objects": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_raw_queryset": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_custom_qs": true,
+        "prefetch_related.tests.NullableTest.test_traverse_nullable": true,
+        "prefetch_related.tests.MultiTableInheritanceTest.test_parent_link_prefetch": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_follow_inheritance": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15280/dedup_patch_24.jsonl": {
+      "django__django-15280": {
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_cache_reuse": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_related_objects_for_inherited_models": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_invalid_final_lookup": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_forward_m2m_to_attr_conflict": true,
+        "prefetch_related.tests.DirectPrefetchedObjectCacheReuseTests.test_prefetch_reverse_foreign_key": true,
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_prefetch_eq": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_abstract_parent_link": true,
+        "prefetch_related.tests.GenericRelationTests.test_prefetch_GFK_fk_pk": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_ambiguous": true,
+        "prefetch_related.tests.MultiDbTests.test_using_is_honored_inheritance": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_clear": true,
+        "queries.tests.SubclassFKTests.test_ticket7778": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_named_values_list": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_child_one_to_one_link_on_nonrelated_objects": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_raw_queryset": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_custom_qs": true,
+        "prefetch_related.tests.NullableTest.test_traverse_nullable": true,
+        "prefetch_related.tests.MultiTableInheritanceTest.test_parent_link_prefetch": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_follow_inheritance": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15280/dedup_patch_25.jsonl": {
+      "django__django-15280": {
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_cache_reuse": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_related_objects_for_inherited_models": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_invalid_final_lookup": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_forward_m2m_to_attr_conflict": true,
+        "prefetch_related.tests.DirectPrefetchedObjectCacheReuseTests.test_prefetch_reverse_foreign_key": true,
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_prefetch_eq": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_abstract_parent_link": true,
+        "prefetch_related.tests.GenericRelationTests.test_prefetch_GFK_fk_pk": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_ambiguous": true,
+        "prefetch_related.tests.MultiDbTests.test_using_is_honored_inheritance": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_clear": true,
+        "queries.tests.SubclassFKTests.test_ticket7778": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_named_values_list": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_child_one_to_one_link_on_nonrelated_objects": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_raw_queryset": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_custom_qs": true,
+        "prefetch_related.tests.NullableTest.test_traverse_nullable": true,
+        "prefetch_related.tests.MultiTableInheritanceTest.test_parent_link_prefetch": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_follow_inheritance": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15280/dedup_patch_26.jsonl": {
+      "django__django-15280": {
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_cache_reuse": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_related_objects_for_inherited_models": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_invalid_final_lookup": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_forward_m2m_to_attr_conflict": true,
+        "prefetch_related.tests.DirectPrefetchedObjectCacheReuseTests.test_prefetch_reverse_foreign_key": true,
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_prefetch_eq": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_abstract_parent_link": true,
+        "prefetch_related.tests.GenericRelationTests.test_prefetch_GFK_fk_pk": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_ambiguous": true,
+        "prefetch_related.tests.MultiDbTests.test_using_is_honored_inheritance": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_clear": true,
+        "queries.tests.SubclassFKTests.test_ticket7778": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_named_values_list": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_child_one_to_one_link_on_nonrelated_objects": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_raw_queryset": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_custom_qs": true,
+        "prefetch_related.tests.NullableTest.test_traverse_nullable": true,
+        "prefetch_related.tests.MultiTableInheritanceTest.test_parent_link_prefetch": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_follow_inheritance": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15280/dedup_patch_27.jsonl": {
+      "django__django-15280": {
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_cache_reuse": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_related_objects_for_inherited_models": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_invalid_final_lookup": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_forward_m2m_to_attr_conflict": true,
+        "prefetch_related.tests.DirectPrefetchedObjectCacheReuseTests.test_prefetch_reverse_foreign_key": true,
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_prefetch_eq": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_abstract_parent_link": true,
+        "prefetch_related.tests.GenericRelationTests.test_prefetch_GFK_fk_pk": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_ambiguous": true,
+        "prefetch_related.tests.MultiDbTests.test_using_is_honored_inheritance": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_clear": true,
+        "queries.tests.SubclassFKTests.test_ticket7778": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_named_values_list": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_child_one_to_one_link_on_nonrelated_objects": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_raw_queryset": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_custom_qs": true,
+        "prefetch_related.tests.NullableTest.test_traverse_nullable": true,
+        "prefetch_related.tests.MultiTableInheritanceTest.test_parent_link_prefetch": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_follow_inheritance": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15280/dedup_patch_28.jsonl": {
+      "django__django-15280": {
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_cache_reuse": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_related_objects_for_inherited_models": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_invalid_final_lookup": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_forward_m2m_to_attr_conflict": true,
+        "prefetch_related.tests.DirectPrefetchedObjectCacheReuseTests.test_prefetch_reverse_foreign_key": true,
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_prefetch_eq": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_abstract_parent_link": true,
+        "prefetch_related.tests.GenericRelationTests.test_prefetch_GFK_fk_pk": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_ambiguous": true,
+        "prefetch_related.tests.MultiDbTests.test_using_is_honored_inheritance": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_clear": true,
+        "queries.tests.SubclassFKTests.test_ticket7778": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_named_values_list": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_child_one_to_one_link_on_nonrelated_objects": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_raw_queryset": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_custom_qs": true,
+        "prefetch_related.tests.NullableTest.test_traverse_nullable": true,
+        "prefetch_related.tests.MultiTableInheritanceTest.test_parent_link_prefetch": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_follow_inheritance": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15280/dedup_patch_29.jsonl": {
+      "django__django-15280": {
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_cache_reuse": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_related_objects_for_inherited_models": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_invalid_final_lookup": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_forward_m2m_to_attr_conflict": true,
+        "prefetch_related.tests.DirectPrefetchedObjectCacheReuseTests.test_prefetch_reverse_foreign_key": true,
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_prefetch_eq": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_abstract_parent_link": true,
+        "prefetch_related.tests.GenericRelationTests.test_prefetch_GFK_fk_pk": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_ambiguous": true,
+        "prefetch_related.tests.MultiDbTests.test_using_is_honored_inheritance": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_clear": true,
+        "queries.tests.SubclassFKTests.test_ticket7778": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_named_values_list": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_child_one_to_one_link_on_nonrelated_objects": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_raw_queryset": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_custom_qs": true,
+        "prefetch_related.tests.NullableTest.test_traverse_nullable": true,
+        "prefetch_related.tests.MultiTableInheritanceTest.test_parent_link_prefetch": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_follow_inheritance": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15280/dedup_patch_3.jsonl": {
+      "django__django-15280": {
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_cache_reuse": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_related_objects_for_inherited_models": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_invalid_final_lookup": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_forward_m2m_to_attr_conflict": true,
+        "prefetch_related.tests.DirectPrefetchedObjectCacheReuseTests.test_prefetch_reverse_foreign_key": true,
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_prefetch_eq": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_abstract_parent_link": true,
+        "prefetch_related.tests.GenericRelationTests.test_prefetch_GFK_fk_pk": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_ambiguous": true,
+        "prefetch_related.tests.MultiDbTests.test_using_is_honored_inheritance": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_clear": true,
+        "queries.tests.SubclassFKTests.test_ticket7778": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_named_values_list": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_child_one_to_one_link_on_nonrelated_objects": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_raw_queryset": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_custom_qs": true,
+        "prefetch_related.tests.NullableTest.test_traverse_nullable": true,
+        "prefetch_related.tests.MultiTableInheritanceTest.test_parent_link_prefetch": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_follow_inheritance": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15280/dedup_patch_30.jsonl": {
+      "django__django-15280": {
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_cache_reuse": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_related_objects_for_inherited_models": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_invalid_final_lookup": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_forward_m2m_to_attr_conflict": true,
+        "prefetch_related.tests.DirectPrefetchedObjectCacheReuseTests.test_prefetch_reverse_foreign_key": true,
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_prefetch_eq": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_abstract_parent_link": true,
+        "prefetch_related.tests.GenericRelationTests.test_prefetch_GFK_fk_pk": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_ambiguous": true,
+        "prefetch_related.tests.MultiDbTests.test_using_is_honored_inheritance": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_clear": true,
+        "queries.tests.SubclassFKTests.test_ticket7778": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_named_values_list": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_child_one_to_one_link_on_nonrelated_objects": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_raw_queryset": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_custom_qs": true,
+        "prefetch_related.tests.NullableTest.test_traverse_nullable": true,
+        "prefetch_related.tests.MultiTableInheritanceTest.test_parent_link_prefetch": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_follow_inheritance": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15280/dedup_patch_31.jsonl": {
+      "django__django-15280": {
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_cache_reuse": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_related_objects_for_inherited_models": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_invalid_final_lookup": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_forward_m2m_to_attr_conflict": true,
+        "prefetch_related.tests.DirectPrefetchedObjectCacheReuseTests.test_prefetch_reverse_foreign_key": true,
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_prefetch_eq": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_abstract_parent_link": true,
+        "prefetch_related.tests.GenericRelationTests.test_prefetch_GFK_fk_pk": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_ambiguous": true,
+        "prefetch_related.tests.MultiDbTests.test_using_is_honored_inheritance": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_clear": true,
+        "queries.tests.SubclassFKTests.test_ticket7778": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_named_values_list": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_child_one_to_one_link_on_nonrelated_objects": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_raw_queryset": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_custom_qs": true,
+        "prefetch_related.tests.NullableTest.test_traverse_nullable": true,
+        "prefetch_related.tests.MultiTableInheritanceTest.test_parent_link_prefetch": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_follow_inheritance": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15280/dedup_patch_32.jsonl": {
+      "django__django-15280": {
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_cache_reuse": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_related_objects_for_inherited_models": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_invalid_final_lookup": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_forward_m2m_to_attr_conflict": true,
+        "prefetch_related.tests.DirectPrefetchedObjectCacheReuseTests.test_prefetch_reverse_foreign_key": true,
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_prefetch_eq": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_abstract_parent_link": true,
+        "prefetch_related.tests.GenericRelationTests.test_prefetch_GFK_fk_pk": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_ambiguous": true,
+        "prefetch_related.tests.MultiDbTests.test_using_is_honored_inheritance": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_clear": true,
+        "queries.tests.SubclassFKTests.test_ticket7778": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_named_values_list": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_child_one_to_one_link_on_nonrelated_objects": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_raw_queryset": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_custom_qs": true,
+        "prefetch_related.tests.NullableTest.test_traverse_nullable": true,
+        "prefetch_related.tests.MultiTableInheritanceTest.test_parent_link_prefetch": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_follow_inheritance": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15280/dedup_patch_33.jsonl": {
+      "django__django-15280": {
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_cache_reuse": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_related_objects_for_inherited_models": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_invalid_final_lookup": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_forward_m2m_to_attr_conflict": true,
+        "prefetch_related.tests.DirectPrefetchedObjectCacheReuseTests.test_prefetch_reverse_foreign_key": true,
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_prefetch_eq": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_abstract_parent_link": true,
+        "prefetch_related.tests.GenericRelationTests.test_prefetch_GFK_fk_pk": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_ambiguous": true,
+        "prefetch_related.tests.MultiDbTests.test_using_is_honored_inheritance": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_clear": true,
+        "queries.tests.SubclassFKTests.test_ticket7778": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_named_values_list": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_child_one_to_one_link_on_nonrelated_objects": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_raw_queryset": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_custom_qs": true,
+        "prefetch_related.tests.NullableTest.test_traverse_nullable": true,
+        "prefetch_related.tests.MultiTableInheritanceTest.test_parent_link_prefetch": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_follow_inheritance": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15280/dedup_patch_34.jsonl": {
+      "django__django-15280": {
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_cache_reuse": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_related_objects_for_inherited_models": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_invalid_final_lookup": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_forward_m2m_to_attr_conflict": true,
+        "prefetch_related.tests.DirectPrefetchedObjectCacheReuseTests.test_prefetch_reverse_foreign_key": true,
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_prefetch_eq": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_abstract_parent_link": true,
+        "prefetch_related.tests.GenericRelationTests.test_prefetch_GFK_fk_pk": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_ambiguous": true,
+        "prefetch_related.tests.MultiDbTests.test_using_is_honored_inheritance": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_clear": true,
+        "queries.tests.SubclassFKTests.test_ticket7778": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_named_values_list": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_child_one_to_one_link_on_nonrelated_objects": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_raw_queryset": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_custom_qs": true,
+        "prefetch_related.tests.NullableTest.test_traverse_nullable": true,
+        "prefetch_related.tests.MultiTableInheritanceTest.test_parent_link_prefetch": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_follow_inheritance": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15280/dedup_patch_35.jsonl": {
+      "django__django-15280": {
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_cache_reuse": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_related_objects_for_inherited_models": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_invalid_final_lookup": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_forward_m2m_to_attr_conflict": true,
+        "prefetch_related.tests.DirectPrefetchedObjectCacheReuseTests.test_prefetch_reverse_foreign_key": true,
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_prefetch_eq": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_abstract_parent_link": true,
+        "prefetch_related.tests.GenericRelationTests.test_prefetch_GFK_fk_pk": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_ambiguous": true,
+        "prefetch_related.tests.MultiDbTests.test_using_is_honored_inheritance": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_clear": true,
+        "queries.tests.SubclassFKTests.test_ticket7778": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_named_values_list": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_child_one_to_one_link_on_nonrelated_objects": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_raw_queryset": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_custom_qs": true,
+        "prefetch_related.tests.NullableTest.test_traverse_nullable": true,
+        "prefetch_related.tests.MultiTableInheritanceTest.test_parent_link_prefetch": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_follow_inheritance": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15280/dedup_patch_4.jsonl": {
+      "django__django-15280": {
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_cache_reuse": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_related_objects_for_inherited_models": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_invalid_final_lookup": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_forward_m2m_to_attr_conflict": true,
+        "prefetch_related.tests.DirectPrefetchedObjectCacheReuseTests.test_prefetch_reverse_foreign_key": true,
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_prefetch_eq": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_abstract_parent_link": true,
+        "prefetch_related.tests.GenericRelationTests.test_prefetch_GFK_fk_pk": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_ambiguous": true,
+        "prefetch_related.tests.MultiDbTests.test_using_is_honored_inheritance": false,
+        "prefetch_related.tests.PrefetchRelatedTests.test_clear": true,
+        "queries.tests.SubclassFKTests.test_ticket7778": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_named_values_list": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_child_one_to_one_link_on_nonrelated_objects": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_raw_queryset": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_custom_qs": true,
+        "prefetch_related.tests.NullableTest.test_traverse_nullable": true,
+        "prefetch_related.tests.MultiTableInheritanceTest.test_parent_link_prefetch": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_follow_inheritance": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15280/dedup_patch_5.jsonl": {
+      "django__django-15280": {
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_cache_reuse": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_related_objects_for_inherited_models": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_invalid_final_lookup": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_forward_m2m_to_attr_conflict": true,
+        "prefetch_related.tests.DirectPrefetchedObjectCacheReuseTests.test_prefetch_reverse_foreign_key": true,
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_prefetch_eq": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_abstract_parent_link": true,
+        "prefetch_related.tests.GenericRelationTests.test_prefetch_GFK_fk_pk": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_ambiguous": true,
+        "prefetch_related.tests.MultiDbTests.test_using_is_honored_inheritance": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_clear": true,
+        "queries.tests.SubclassFKTests.test_ticket7778": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_named_values_list": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_child_one_to_one_link_on_nonrelated_objects": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_raw_queryset": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_custom_qs": true,
+        "prefetch_related.tests.NullableTest.test_traverse_nullable": true,
+        "prefetch_related.tests.MultiTableInheritanceTest.test_parent_link_prefetch": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_follow_inheritance": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15280/dedup_patch_6.jsonl": {
+      "django__django-15280": {
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_cache_reuse": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_related_objects_for_inherited_models": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_invalid_final_lookup": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_forward_m2m_to_attr_conflict": true,
+        "prefetch_related.tests.DirectPrefetchedObjectCacheReuseTests.test_prefetch_reverse_foreign_key": true,
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_prefetch_eq": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_abstract_parent_link": true,
+        "prefetch_related.tests.GenericRelationTests.test_prefetch_GFK_fk_pk": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_ambiguous": true,
+        "prefetch_related.tests.MultiDbTests.test_using_is_honored_inheritance": false,
+        "prefetch_related.tests.PrefetchRelatedTests.test_clear": true,
+        "queries.tests.SubclassFKTests.test_ticket7778": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_named_values_list": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_child_one_to_one_link_on_nonrelated_objects": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_raw_queryset": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_custom_qs": false,
+        "prefetch_related.tests.NullableTest.test_traverse_nullable": true,
+        "prefetch_related.tests.MultiTableInheritanceTest.test_parent_link_prefetch": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_follow_inheritance": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15280/dedup_patch_7.jsonl": {
+      "django__django-15280": {
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_cache_reuse": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_related_objects_for_inherited_models": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_invalid_final_lookup": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_forward_m2m_to_attr_conflict": true,
+        "prefetch_related.tests.DirectPrefetchedObjectCacheReuseTests.test_prefetch_reverse_foreign_key": true,
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_prefetch_eq": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_abstract_parent_link": true,
+        "prefetch_related.tests.GenericRelationTests.test_prefetch_GFK_fk_pk": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_ambiguous": true,
+        "prefetch_related.tests.MultiDbTests.test_using_is_honored_inheritance": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_clear": true,
+        "queries.tests.SubclassFKTests.test_ticket7778": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_named_values_list": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_child_one_to_one_link_on_nonrelated_objects": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_raw_queryset": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_custom_qs": true,
+        "prefetch_related.tests.NullableTest.test_traverse_nullable": true,
+        "prefetch_related.tests.MultiTableInheritanceTest.test_parent_link_prefetch": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_follow_inheritance": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15280/dedup_patch_8.jsonl": {
+      "django__django-15280": {
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_cache_reuse": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_related_objects_for_inherited_models": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_invalid_final_lookup": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_forward_m2m_to_attr_conflict": true,
+        "prefetch_related.tests.DirectPrefetchedObjectCacheReuseTests.test_prefetch_reverse_foreign_key": true,
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_prefetch_eq": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_abstract_parent_link": true,
+        "prefetch_related.tests.GenericRelationTests.test_prefetch_GFK_fk_pk": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_ambiguous": true,
+        "prefetch_related.tests.MultiDbTests.test_using_is_honored_inheritance": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_clear": true,
+        "queries.tests.SubclassFKTests.test_ticket7778": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_named_values_list": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_child_one_to_one_link_on_nonrelated_objects": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_raw_queryset": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_custom_qs": true,
+        "prefetch_related.tests.NullableTest.test_traverse_nullable": true,
+        "prefetch_related.tests.MultiTableInheritanceTest.test_parent_link_prefetch": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_follow_inheritance": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15280/dedup_patch_9.jsonl": {
+      "django__django-15280": {
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_cache_reuse": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_related_objects_for_inherited_models": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_invalid_final_lookup": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_forward_m2m_to_attr_conflict": true,
+        "prefetch_related.tests.DirectPrefetchedObjectCacheReuseTests.test_prefetch_reverse_foreign_key": true,
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_prefetch_eq": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_abstract_parent_link": true,
+        "prefetch_related.tests.GenericRelationTests.test_prefetch_GFK_fk_pk": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_ambiguous": true,
+        "prefetch_related.tests.MultiDbTests.test_using_is_honored_inheritance": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_clear": true,
+        "queries.tests.SubclassFKTests.test_ticket7778": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_named_values_list": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_parent_child_one_to_one_link_on_nonrelated_objects": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_raw_queryset": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_custom_qs": true,
+        "prefetch_related.tests.NullableTest.test_traverse_nullable": true,
+        "prefetch_related.tests.MultiTableInheritanceTest.test_parent_link_prefetch": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_follow_inheritance": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-15280": {
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#1": true,
+        "prefetch_related.tests.ReadPrefetchedObjectsCacheTests.test_deferred_fields_with_prefetch_back_to_parent#2": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#3": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#4": true,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#5": true,
+        "prefetch_related.tests.PrefetchRelatedTests.test_deferred_fields_with_circular_prefetch#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15280/dedup_patch_0.jsonl": {
+      "django__django-15280": {
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#1": false,
+        "prefetch_related.tests.ReadPrefetchedObjectsCacheTests.test_deferred_fields_with_prefetch_back_to_parent#2": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#3": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#4": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#5": false,
+        "prefetch_related.tests.PrefetchRelatedTests.test_deferred_fields_with_circular_prefetch#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15280/dedup_patch_11.jsonl": {
+      "django__django-15280": {
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#1": false,
+        "prefetch_related.tests.ReadPrefetchedObjectsCacheTests.test_deferred_fields_with_prefetch_back_to_parent#2": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#3": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#4": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#5": false,
+        "prefetch_related.tests.PrefetchRelatedTests.test_deferred_fields_with_circular_prefetch#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15280/dedup_patch_12.jsonl": {
+      "django__django-15280": {
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#1": false,
+        "prefetch_related.tests.ReadPrefetchedObjectsCacheTests.test_deferred_fields_with_prefetch_back_to_parent#2": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#3": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#4": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#5": false,
+        "prefetch_related.tests.PrefetchRelatedTests.test_deferred_fields_with_circular_prefetch#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15280/dedup_patch_13.jsonl": {
+      "django__django-15280": {
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#1": false,
+        "prefetch_related.tests.ReadPrefetchedObjectsCacheTests.test_deferred_fields_with_prefetch_back_to_parent#2": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#3": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#4": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#5": false,
+        "prefetch_related.tests.PrefetchRelatedTests.test_deferred_fields_with_circular_prefetch#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15280/dedup_patch_14.jsonl": {
+      "django__django-15280": {
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#1": false,
+        "prefetch_related.tests.ReadPrefetchedObjectsCacheTests.test_deferred_fields_with_prefetch_back_to_parent#2": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#3": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#4": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#5": false,
+        "prefetch_related.tests.PrefetchRelatedTests.test_deferred_fields_with_circular_prefetch#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15280/dedup_patch_16.jsonl": {
+      "django__django-15280": {
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#1": false,
+        "prefetch_related.tests.ReadPrefetchedObjectsCacheTests.test_deferred_fields_with_prefetch_back_to_parent#2": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#3": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#4": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#5": false,
+        "prefetch_related.tests.PrefetchRelatedTests.test_deferred_fields_with_circular_prefetch#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15280/dedup_patch_18.jsonl": {
+      "django__django-15280": {
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#1": false,
+        "prefetch_related.tests.ReadPrefetchedObjectsCacheTests.test_deferred_fields_with_prefetch_back_to_parent#2": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#3": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#4": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#5": false,
+        "prefetch_related.tests.PrefetchRelatedTests.test_deferred_fields_with_circular_prefetch#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15280/dedup_patch_19.jsonl": {
+      "django__django-15280": {
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#1": false,
+        "prefetch_related.tests.ReadPrefetchedObjectsCacheTests.test_deferred_fields_with_prefetch_back_to_parent#2": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#3": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#4": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#5": false,
+        "prefetch_related.tests.PrefetchRelatedTests.test_deferred_fields_with_circular_prefetch#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15280/dedup_patch_2.jsonl": {
+      "django__django-15280": {
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#1": false,
+        "prefetch_related.tests.ReadPrefetchedObjectsCacheTests.test_deferred_fields_with_prefetch_back_to_parent#2": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#3": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#4": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#5": false,
+        "prefetch_related.tests.PrefetchRelatedTests.test_deferred_fields_with_circular_prefetch#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15280/dedup_patch_20.jsonl": {
+      "django__django-15280": {
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#1": false,
+        "prefetch_related.tests.ReadPrefetchedObjectsCacheTests.test_deferred_fields_with_prefetch_back_to_parent#2": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#3": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#4": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#5": false,
+        "prefetch_related.tests.PrefetchRelatedTests.test_deferred_fields_with_circular_prefetch#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15280/dedup_patch_21.jsonl": {
+      "django__django-15280": {
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#1": false,
+        "prefetch_related.tests.ReadPrefetchedObjectsCacheTests.test_deferred_fields_with_prefetch_back_to_parent#2": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#3": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#4": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#5": false,
+        "prefetch_related.tests.PrefetchRelatedTests.test_deferred_fields_with_circular_prefetch#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15280/dedup_patch_22.jsonl": {
+      "django__django-15280": {
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#1": false,
+        "prefetch_related.tests.ReadPrefetchedObjectsCacheTests.test_deferred_fields_with_prefetch_back_to_parent#2": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#3": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#4": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#5": false,
+        "prefetch_related.tests.PrefetchRelatedTests.test_deferred_fields_with_circular_prefetch#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15280/dedup_patch_23.jsonl": {
+      "django__django-15280": {
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#1": false,
+        "prefetch_related.tests.ReadPrefetchedObjectsCacheTests.test_deferred_fields_with_prefetch_back_to_parent#2": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#3": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#4": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#5": false,
+        "prefetch_related.tests.PrefetchRelatedTests.test_deferred_fields_with_circular_prefetch#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15280/dedup_patch_24.jsonl": {
+      "django__django-15280": {
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#1": false,
+        "prefetch_related.tests.ReadPrefetchedObjectsCacheTests.test_deferred_fields_with_prefetch_back_to_parent#2": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#3": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#4": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#5": false,
+        "prefetch_related.tests.PrefetchRelatedTests.test_deferred_fields_with_circular_prefetch#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15280/dedup_patch_25.jsonl": {
+      "django__django-15280": {
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#1": false,
+        "prefetch_related.tests.ReadPrefetchedObjectsCacheTests.test_deferred_fields_with_prefetch_back_to_parent#2": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#3": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#4": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#5": false,
+        "prefetch_related.tests.PrefetchRelatedTests.test_deferred_fields_with_circular_prefetch#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15280/dedup_patch_26.jsonl": {
+      "django__django-15280": {
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#1": false,
+        "prefetch_related.tests.ReadPrefetchedObjectsCacheTests.test_deferred_fields_with_prefetch_back_to_parent#2": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#3": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#4": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#5": false,
+        "prefetch_related.tests.PrefetchRelatedTests.test_deferred_fields_with_circular_prefetch#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15280/dedup_patch_27.jsonl": {
+      "django__django-15280": {
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#1": false,
+        "prefetch_related.tests.ReadPrefetchedObjectsCacheTests.test_deferred_fields_with_prefetch_back_to_parent#2": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#3": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#4": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#5": false,
+        "prefetch_related.tests.PrefetchRelatedTests.test_deferred_fields_with_circular_prefetch#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15280/dedup_patch_28.jsonl": {
+      "django__django-15280": {
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#1": false,
+        "prefetch_related.tests.ReadPrefetchedObjectsCacheTests.test_deferred_fields_with_prefetch_back_to_parent#2": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#3": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#4": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#5": false,
+        "prefetch_related.tests.PrefetchRelatedTests.test_deferred_fields_with_circular_prefetch#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15280/dedup_patch_29.jsonl": {
+      "django__django-15280": {
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#1": false,
+        "prefetch_related.tests.ReadPrefetchedObjectsCacheTests.test_deferred_fields_with_prefetch_back_to_parent#2": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#3": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#4": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#5": false,
+        "prefetch_related.tests.PrefetchRelatedTests.test_deferred_fields_with_circular_prefetch#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15280/dedup_patch_3.jsonl": {
+      "django__django-15280": {
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#1": false,
+        "prefetch_related.tests.ReadPrefetchedObjectsCacheTests.test_deferred_fields_with_prefetch_back_to_parent#2": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#3": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#4": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#5": false,
+        "prefetch_related.tests.PrefetchRelatedTests.test_deferred_fields_with_circular_prefetch#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15280/dedup_patch_30.jsonl": {
+      "django__django-15280": {
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#1": false,
+        "prefetch_related.tests.ReadPrefetchedObjectsCacheTests.test_deferred_fields_with_prefetch_back_to_parent#2": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#3": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#4": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#5": false,
+        "prefetch_related.tests.PrefetchRelatedTests.test_deferred_fields_with_circular_prefetch#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15280/dedup_patch_31.jsonl": {
+      "django__django-15280": {
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#1": false,
+        "prefetch_related.tests.ReadPrefetchedObjectsCacheTests.test_deferred_fields_with_prefetch_back_to_parent#2": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#3": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#4": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#5": false,
+        "prefetch_related.tests.PrefetchRelatedTests.test_deferred_fields_with_circular_prefetch#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15280/dedup_patch_32.jsonl": {
+      "django__django-15280": {
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#1": false,
+        "prefetch_related.tests.ReadPrefetchedObjectsCacheTests.test_deferred_fields_with_prefetch_back_to_parent#2": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#3": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#4": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#5": false,
+        "prefetch_related.tests.PrefetchRelatedTests.test_deferred_fields_with_circular_prefetch#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15280/dedup_patch_33.jsonl": {
+      "django__django-15280": {
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#1": false,
+        "prefetch_related.tests.ReadPrefetchedObjectsCacheTests.test_deferred_fields_with_prefetch_back_to_parent#2": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#3": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#4": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#5": false,
+        "prefetch_related.tests.PrefetchRelatedTests.test_deferred_fields_with_circular_prefetch#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15280/dedup_patch_34.jsonl": {
+      "django__django-15280": {
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#1": false,
+        "prefetch_related.tests.ReadPrefetchedObjectsCacheTests.test_deferred_fields_with_prefetch_back_to_parent#2": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#3": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#4": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#5": false,
+        "prefetch_related.tests.PrefetchRelatedTests.test_deferred_fields_with_circular_prefetch#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15280/dedup_patch_35.jsonl": {
+      "django__django-15280": {
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#1": false,
+        "prefetch_related.tests.ReadPrefetchedObjectsCacheTests.test_deferred_fields_with_prefetch_back_to_parent#2": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#3": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#4": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#5": false,
+        "prefetch_related.tests.PrefetchRelatedTests.test_deferred_fields_with_circular_prefetch#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15280/dedup_patch_5.jsonl": {
+      "django__django-15280": {
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#1": false,
+        "prefetch_related.tests.ReadPrefetchedObjectsCacheTests.test_deferred_fields_with_prefetch_back_to_parent#2": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#3": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#4": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#5": false,
+        "prefetch_related.tests.PrefetchRelatedTests.test_deferred_fields_with_circular_prefetch#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15280/dedup_patch_7.jsonl": {
+      "django__django-15280": {
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#1": false,
+        "prefetch_related.tests.ReadPrefetchedObjectsCacheTests.test_deferred_fields_with_prefetch_back_to_parent#2": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#3": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#4": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#5": false,
+        "prefetch_related.tests.PrefetchRelatedTests.test_deferred_fields_with_circular_prefetch#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15280/dedup_patch_8.jsonl": {
+      "django__django-15280": {
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#1": false,
+        "prefetch_related.tests.ReadPrefetchedObjectsCacheTests.test_deferred_fields_with_prefetch_back_to_parent#2": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#3": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#4": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#5": false,
+        "prefetch_related.tests.PrefetchRelatedTests.test_deferred_fields_with_circular_prefetch#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15280/dedup_patch_9.jsonl": {
+      "django__django-15280": {
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#1": false,
+        "prefetch_related.tests.ReadPrefetchedObjectsCacheTests.test_deferred_fields_with_prefetch_back_to_parent#2": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#3": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#4": false,
+        "prefetch_related.tests.CustomPrefetchTests.test_deferred_fields_with_prefetch_back_to_parent#5": false,
+        "prefetch_related.tests.PrefetchRelatedTests.test_deferred_fields_with_circular_prefetch#6": false
+      }
+    }
+  }
+}

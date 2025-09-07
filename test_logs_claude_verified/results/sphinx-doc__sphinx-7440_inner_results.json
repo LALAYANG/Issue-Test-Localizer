@@ -1,0 +1,72 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/sphinx-doc__sphinx-7440/dedup_patch_0.jsonl": {
+      "sphinx-doc__sphinx-7440": {
+        "tests/test_domain_std.py::test_glossary_warning": false,
+        "tests/test_build_html.py::test_numfig_without_numbered_toctree_warn": true,
+        "tests/test_domain_std.py::test_get_full_qualified_name": true,
+        "tests/test_domain_std.py::test_glossary_comment": true,
+        "tests/test_build_html.py::test_html5_output": false,
+        "tests/test_environment.py::test_config_status": true,
+        "tests/test_build_html.py::test_html_math_renderer_is_duplicated": true,
+        "tests/test_build_html.py::test_enumerable_node": false,
+        "tests/test_build_html.py::test_html_math_renderer_is_mismatched": true,
+        "tests/test_build_html.py::test_numfig_disabled_warn": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/sphinx-doc__sphinx-7440/dedup_patch_1.jsonl": {
+      "sphinx-doc__sphinx-7440": {
+        "tests/test_domain_std.py::test_glossary_warning": true,
+        "tests/test_build_html.py::test_numfig_without_numbered_toctree_warn": true,
+        "tests/test_domain_std.py::test_get_full_qualified_name": true,
+        "tests/test_domain_std.py::test_glossary_comment": true,
+        "tests/test_build_html.py::test_html5_output": false,
+        "tests/test_environment.py::test_config_status": true,
+        "tests/test_build_html.py::test_html_math_renderer_is_duplicated": true,
+        "tests/test_build_html.py::test_enumerable_node": false,
+        "tests/test_build_html.py::test_html_math_renderer_is_mismatched": true,
+        "tests/test_build_html.py::test_numfig_disabled_warn": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/sphinx-doc__sphinx-7440/dedup_patch_2.jsonl": {
+      "sphinx-doc__sphinx-7440": {
+        "tests/test_domain_std.py::test_glossary_warning": true,
+        "tests/test_build_html.py::test_numfig_without_numbered_toctree_warn": true,
+        "tests/test_domain_std.py::test_get_full_qualified_name": true,
+        "tests/test_domain_std.py::test_glossary_comment": true,
+        "tests/test_build_html.py::test_html5_output": false,
+        "tests/test_environment.py::test_config_status": true,
+        "tests/test_build_html.py::test_html_math_renderer_is_duplicated": true,
+        "tests/test_build_html.py::test_enumerable_node": false,
+        "tests/test_build_html.py::test_html_math_renderer_is_mismatched": true,
+        "tests/test_build_html.py::test_numfig_disabled_warn": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/sphinx-doc__sphinx-7440/dedup_patch_3.jsonl": {
+      "sphinx-doc__sphinx-7440": {
+        "tests/test_domain_std.py::test_glossary_warning": true,
+        "tests/test_build_html.py::test_numfig_without_numbered_toctree_warn": true,
+        "tests/test_domain_std.py::test_get_full_qualified_name": true,
+        "tests/test_domain_std.py::test_glossary_comment": true,
+        "tests/test_build_html.py::test_html5_output": false,
+        "tests/test_environment.py::test_config_status": true,
+        "tests/test_build_html.py::test_html_math_renderer_is_duplicated": true,
+        "tests/test_build_html.py::test_enumerable_node": false,
+        "tests/test_build_html.py::test_html_math_renderer_is_mismatched": true,
+        "tests/test_build_html.py::test_numfig_disabled_warn": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "sphinx-doc__sphinx-7440": {
+        "tests/test_domain_std.py::test_glossary_warning#1": false,
+        "tests/test_domain_std.py::test_glossary_warning#2": false,
+        "tests/test_domain_std.py::test_glossary_warning#3": false,
+        "tests/test_domain_std.py::test_glossary_warning#4": false,
+        "tests/test_domain_std.py::test_glossary_conflicted_labels#5": false,
+        "tests/test_domain_std.py::test_glossary_conflicted_labels#6": false
+      }
+    }
+  }
+}

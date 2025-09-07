@@ -1,0 +1,60 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/matplotlib__matplotlib-13989/dedup_patch_0.jsonl": {
+      "matplotlib__matplotlib-13989": {
+        "lib/matplotlib/tests/test_axes.py::test_hist_labels": true,
+        "lib/matplotlib/tests/test_axes.py::test_hist_density": false,
+        "lib/matplotlib/tests/test_axes.py::test_hist_step_log_bottom": true,
+        "lib/matplotlib/tests/test_axes.py::test_hist_normed_density": true,
+        "lib/matplotlib/tests/test_axes.py::test_hist_stacked_bar": false,
+        "lib/matplotlib/tests/test_axes.py::test_hist_unequal_bins_density": true,
+        "lib/matplotlib/tests/test_axes.py::test_hist_steplog": false,
+        "lib/matplotlib/tests/test_axes.py::test_hist_stacked_weighted": false,
+        "lib/matplotlib/tests/test_axes.py::test_hist_stacked_density": false,
+        "lib/matplotlib/tests/test_axes.py::test_length_one_hist": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/matplotlib__matplotlib-13989/dedup_patch_1.jsonl": {
+      "matplotlib__matplotlib-13989": {
+        "lib/matplotlib/tests/test_axes.py::test_hist_labels": true,
+        "lib/matplotlib/tests/test_axes.py::test_hist_density": false,
+        "lib/matplotlib/tests/test_axes.py::test_hist_step_log_bottom": true,
+        "lib/matplotlib/tests/test_axes.py::test_hist_normed_density": true,
+        "lib/matplotlib/tests/test_axes.py::test_hist_stacked_bar": false,
+        "lib/matplotlib/tests/test_axes.py::test_hist_unequal_bins_density": true,
+        "lib/matplotlib/tests/test_axes.py::test_hist_steplog": false,
+        "lib/matplotlib/tests/test_axes.py::test_hist_stacked_weighted": false,
+        "lib/matplotlib/tests/test_axes.py::test_hist_stacked_density": false,
+        "lib/matplotlib/tests/test_axes.py::test_length_one_hist": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "matplotlib__matplotlib-13989": {
+        "lib/matplotlib/tests/test_axes.py::test_hist_density#1": true,
+        "lib/matplotlib/tests/test_axes.py::test_hist_unequal_bins_density#2": false,
+        "lib/matplotlib/tests/test_axes.py::test_hist_density#3": true,
+        "lib/matplotlib/tests/test_axes.py::test_hist_nan_data#4": false,
+        "lib/matplotlib/tests/test_axes.py::test_hist_density#5": true,
+        "lib/matplotlib/tests/test_axes.py::test_hist_density#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/matplotlib__matplotlib-13989/dedup_patch_0.jsonl": {
+      "matplotlib__matplotlib-13989": {
+        "lib/matplotlib/tests/test_axes.py::test_hist_density#1": false,
+        "lib/matplotlib/tests/test_axes.py::test_hist_density#3": false,
+        "lib/matplotlib/tests/test_axes.py::test_hist_density#5": false,
+        "lib/matplotlib/tests/test_axes.py::test_hist_density#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/matplotlib__matplotlib-13989/dedup_patch_1.jsonl": {
+      "matplotlib__matplotlib-13989": {
+        "lib/matplotlib/tests/test_axes.py::test_hist_density#1": false,
+        "lib/matplotlib/tests/test_axes.py::test_hist_density#3": false,
+        "lib/matplotlib/tests/test_axes.py::test_hist_density#5": false,
+        "lib/matplotlib/tests/test_axes.py::test_hist_density#6": false
+      }
+    }
+  }
+}

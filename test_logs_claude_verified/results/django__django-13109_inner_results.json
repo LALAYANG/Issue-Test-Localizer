@@ -1,0 +1,32 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/django__django-13109/dedup_patch_0.jsonl": {
+      "django__django-13109": {
+        "validation.tests.BaseModelValidationTests.test_limited_FK_raises_error": true,
+        "validation.tests.BaseModelValidationTests.test_wrong_FK_value_raises_error": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-13109": {
+        "model_forms.tests.OtherModelFormTests.test_foreignkey_validates_with_base_manager#1": true,
+        "model_forms.tests.OtherModelFormTests.test_foreignkey_validate_base_manager#2": true,
+        "model_forms.tests.ModelFormBaseTest.test_foreignkey_validate_uses_base_manager#3": true,
+        "model_forms.tests.ModelToDictTests.test_foreign_key_validation_with_base_manager#4": true,
+        "validation.tests.BaseModelValidationTests.test_FK_validate_with_base_manager#5": true,
+        "model_forms.tests.CustomCleanTests.test_foreignkey_validation_with_base_manager#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13109/dedup_patch_0.jsonl": {
+      "django__django-13109": {
+        "model_forms.tests.OtherModelFormTests.test_foreignkey_validates_with_base_manager#1": false,
+        "model_forms.tests.OtherModelFormTests.test_foreignkey_validate_base_manager#2": false,
+        "model_forms.tests.ModelFormBaseTest.test_foreignkey_validate_uses_base_manager#3": false,
+        "model_forms.tests.ModelToDictTests.test_foreign_key_validation_with_base_manager#4": false,
+        "validation.tests.BaseModelValidationTests.test_FK_validate_with_base_manager#5": false,
+        "model_forms.tests.CustomCleanTests.test_foreignkey_validation_with_base_manager#6": false
+      }
+    }
+  }
+}

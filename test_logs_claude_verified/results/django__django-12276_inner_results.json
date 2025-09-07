@@ -1,0 +1,50 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/django__django-12276/dedup_patch_0.jsonl": {
+      "django__django-12276": {
+        "forms_tests.tests.test_forms.FormsTestCase.test_forms_with_file_fields": false,
+        "forms_tests.widget_tests.test_clearablefileinput.ClearableFileInputTest.test_use_required_attribute": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12276/dedup_patch_1.jsonl": {
+      "django__django-12276": {
+        "forms_tests.tests.test_forms.FormsTestCase.test_forms_with_file_fields": true,
+        "forms_tests.widget_tests.test_clearablefileinput.ClearableFileInputTest.test_use_required_attribute": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12276/dedup_patch_2.jsonl": {
+      "django__django-12276": {
+        "forms_tests.tests.test_forms.FormsTestCase.test_forms_with_file_fields": true,
+        "forms_tests.widget_tests.test_clearablefileinput.ClearableFileInputTest.test_use_required_attribute": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-12276": {
+        "forms_tests.widget_tests.test_fileinput.FileInputTest.test_use_required_attribute#1": true,
+        "forms_tests.widget_tests.test_fileinput.FileInputTest.test_value_omitted_from_data#2": false,
+        "forms_tests.widget_tests.test_fileinput.FileInputTest.test_use_required_attribute#3": true,
+        "forms_tests.widget_tests.test_fileinput.FileInputTest.test_use_required_attribute#4": true,
+        "forms_tests.widget_tests.test_fileinput.FileInputTest.test_use_required_attribute#5": true,
+        "forms_tests.widget_tests.test_fileinput.FileInputTest.test_value_omitted_from_data#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12276/dedup_patch_1.jsonl": {
+      "django__django-12276": {
+        "forms_tests.widget_tests.test_fileinput.FileInputTest.test_use_required_attribute#1": true,
+        "forms_tests.widget_tests.test_fileinput.FileInputTest.test_use_required_attribute#3": true,
+        "forms_tests.widget_tests.test_fileinput.FileInputTest.test_use_required_attribute#4": true,
+        "forms_tests.widget_tests.test_fileinput.FileInputTest.test_use_required_attribute#5": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12276/dedup_patch_2.jsonl": {
+      "django__django-12276": {
+        "forms_tests.widget_tests.test_fileinput.FileInputTest.test_use_required_attribute#1": true,
+        "forms_tests.widget_tests.test_fileinput.FileInputTest.test_use_required_attribute#3": true,
+        "forms_tests.widget_tests.test_fileinput.FileInputTest.test_use_required_attribute#4": true,
+        "forms_tests.widget_tests.test_fileinput.FileInputTest.test_use_required_attribute#5": true
+      }
+    }
+  }
+}

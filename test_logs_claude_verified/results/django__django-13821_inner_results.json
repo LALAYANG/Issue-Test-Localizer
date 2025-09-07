@@ -1,0 +1,30 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/django__django-13821/dedup_patch_0.jsonl": {
+      "django__django-13821": {
+        "backends.base.test_creation.TestDeserializeDbFromString.test_self_reference": true,
+        "backends.sqlite.tests.Tests.test_check_sqlite_version": false,
+        "backends.base.test_creation.TestDeserializeDbFromString.test_circular_reference": true,
+        "backends.sqlite.tests.Tests.test_pathlib_name": true,
+        "backends.base.test_creation.TestDeserializeDbFromString.test_circular_reference_with_natural_key": true,
+        "backends.sqlite.tests.SchemaTests.test_constraint_checks_disabled_atomic_allowed": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-13821": {
+        "backends.sqlite.tests.Tests.test_check_sqlite_version#1": true,
+        "backends.sqlite.tests.Tests.test_sqlite_version_requirement#2": true,
+        "backends.sqlite.tests.Tests.test_check_sqlite_version#3": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13821/dedup_patch_0.jsonl": {
+      "django__django-13821": {
+        "backends.sqlite.tests.Tests.test_check_sqlite_version#1": true,
+        "backends.sqlite.tests.Tests.test_sqlite_version_requirement#2": false,
+        "backends.sqlite.tests.Tests.test_check_sqlite_version#3": true
+      }
+    }
+  }
+}

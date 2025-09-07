@@ -1,0 +1,68 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/django__django-15572/dedup_patch_0.jsonl": {
+      "django__django-15572": {
+        "template_tests.test_autoreloader.Jinja2TemplateReloadTests.test_watch_for_template_changes": true,
+        "template_tests.test_autoreloader.TemplateReloadTests.test_watch_for_template_changes": true,
+        "template_tests.test_autoreloader.TemplateReloadTests.test_non_template_changed_in_template_directory": true,
+        "template_tests.test_autoreloader.TemplateReloadTests.test_template_changed": true,
+        "template_tests.test_autoreloader.TemplateReloadTests.test_non_template_changed": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15572/dedup_patch_1.jsonl": {
+      "django__django-15572": {
+        "template_tests.test_autoreloader.Jinja2TemplateReloadTests.test_watch_for_template_changes": true,
+        "template_tests.test_autoreloader.TemplateReloadTests.test_watch_for_template_changes": true,
+        "template_tests.test_autoreloader.TemplateReloadTests.test_non_template_changed_in_template_directory": true,
+        "template_tests.test_autoreloader.TemplateReloadTests.test_template_changed": true,
+        "template_tests.test_autoreloader.TemplateReloadTests.test_non_template_changed": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15572/dedup_patch_2.jsonl": {
+      "django__django-15572": {
+        "template_tests.test_autoreloader.Jinja2TemplateReloadTests.test_watch_for_template_changes": true,
+        "template_tests.test_autoreloader.TemplateReloadTests.test_watch_for_template_changes": true,
+        "template_tests.test_autoreloader.TemplateReloadTests.test_non_template_changed_in_template_directory": true,
+        "template_tests.test_autoreloader.TemplateReloadTests.test_template_changed": true,
+        "template_tests.test_autoreloader.TemplateReloadTests.test_non_template_changed": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15572/dedup_patch_3.jsonl": {
+      "django__django-15572": {
+        "template_tests.test_autoreloader.Jinja2TemplateReloadTests.test_watch_for_template_changes": true,
+        "template_tests.test_autoreloader.TemplateReloadTests.test_watch_for_template_changes": true,
+        "template_tests.test_autoreloader.TemplateReloadTests.test_non_template_changed_in_template_directory": true,
+        "template_tests.test_autoreloader.TemplateReloadTests.test_template_changed": true,
+        "template_tests.test_autoreloader.TemplateReloadTests.test_non_template_changed": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-15572": {
+        "template_tests.test_autoreloader.TemplateReloadTests.test_empty_template_dir_not_matching_root#1": true,
+        "template_tests.test_autoreloader.TemplateReloadTests.test_template_changed_with_empty_dir#2": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15572/dedup_patch_0.jsonl": {
+      "django__django-15572": {
+        "template_tests.test_autoreloader.TemplateReloadTests.test_empty_template_dir_not_matching_root#1": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15572/dedup_patch_1.jsonl": {
+      "django__django-15572": {
+        "template_tests.test_autoreloader.TemplateReloadTests.test_empty_template_dir_not_matching_root#1": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15572/dedup_patch_2.jsonl": {
+      "django__django-15572": {
+        "template_tests.test_autoreloader.TemplateReloadTests.test_empty_template_dir_not_matching_root#1": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15572/dedup_patch_3.jsonl": {
+      "django__django-15572": {
+        "template_tests.test_autoreloader.TemplateReloadTests.test_empty_template_dir_not_matching_root#1": true
+      }
+    }
+  }
+}

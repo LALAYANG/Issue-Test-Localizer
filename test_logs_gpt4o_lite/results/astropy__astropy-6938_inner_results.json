@@ -1,0 +1,72 @@
+{
+  "regression": {
+    "all_patches/lite_gpt4o_all_unique_patches/astropy__astropy-6938/dedup_patch_0.jsonl": {
+      "astropy__astropy-6938": {
+        "astropy/io/fits/tests/test_checksum.py::TestChecksumFunctions::test_ascii_table_data": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/astropy__astropy-6938/dedup_patch_1.jsonl": {
+      "astropy__astropy-6938": {
+        "astropy/io/fits/tests/test_checksum.py::TestChecksumFunctions::test_ascii_table_data": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/astropy__astropy-6938/dedup_patch_2.jsonl": {
+      "astropy__astropy-6938": {
+        "astropy/io/fits/tests/test_checksum.py::TestChecksumFunctions::test_ascii_table_data": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/astropy__astropy-6938/dedup_patch_3.jsonl": {
+      "astropy__astropy-6938": {
+        "astropy/io/fits/tests/test_checksum.py::TestChecksumFunctions::test_ascii_table_data": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/astropy__astropy-6938/dedup_patch_4.jsonl": {
+      "astropy__astropy-6938": {
+        "astropy/io/fits/tests/test_checksum.py::TestChecksumFunctions::test_ascii_table_data": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/astropy__astropy-6938/dedup_patch_5.jsonl": {
+      "astropy__astropy-6938": {
+        "astropy/io/fits/tests/test_checksum.py::TestChecksumFunctions::test_ascii_table_data": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "astropy__astropy-6938": {
+        "astropy/io/fits/tests/test_table.py::TestTableFunctions::test_d_exponent_in_ascii_table#1": true,
+        "astropy/io/fits/tests/test_table.py::TestTableFunctions::test_d_exponent_in_ascii_table#2": true,
+        "astropy/io/fits/tests/test_table.py::TestTableFunctions::test_d_exponent_in_fits_output#3": true,
+        "astropy/io/fits/tests/test_table.py::TestTableFunctions::test_d_exponent_handling#4": true,
+        "astropy/io/fits/tests/test_table.py::TestTableFunctions::test_fitsrec_d_exponent_handling#5": true,
+        "astropy/io/fits/tests/test_table.py::TestTableFunctions::test_fitsrec_d_exponent_handling#6": false,
+        "astropy/io/fits/tests/test_table.py::TestTableFunctions::test_fitsrec_d_exponent_handling#7": true,
+        "astropy/io/fits/tests/test_table.py::TestTableFunctions::test_fitsrec_d_exponent_handling#8": true,
+        "astropy/io/fits/tests/test_table.py::TestTableFunctions::test_fitsrec_d_exponent_handling#9": false,
+        "astropy/io/fits/tests/test_table.py::test_regression_scalar_indexing#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/astropy__astropy-6938/dedup_patch_3.jsonl": {
+      "astropy__astropy-6938": {
+        "astropy/io/fits/tests/test_table.py::TestTableFunctions::test_d_exponent_in_ascii_table#1": false,
+        "astropy/io/fits/tests/test_table.py::TestTableFunctions::test_d_exponent_in_ascii_table#2": false,
+        "astropy/io/fits/tests/test_table.py::TestTableFunctions::test_d_exponent_in_fits_output#3": false,
+        "astropy/io/fits/tests/test_table.py::TestTableFunctions::test_d_exponent_handling#4": false,
+        "astropy/io/fits/tests/test_table.py::TestTableFunctions::test_fitsrec_d_exponent_handling#5": false,
+        "astropy/io/fits/tests/test_table.py::TestTableFunctions::test_fitsrec_d_exponent_handling#7": false,
+        "astropy/io/fits/tests/test_table.py::TestTableFunctions::test_fitsrec_d_exponent_handling#8": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/astropy__astropy-6938/dedup_patch_5.jsonl": {
+      "astropy__astropy-6938": {
+        "astropy/io/fits/tests/test_table.py::TestTableFunctions::test_d_exponent_in_ascii_table#1": false,
+        "astropy/io/fits/tests/test_table.py::TestTableFunctions::test_d_exponent_in_ascii_table#2": false,
+        "astropy/io/fits/tests/test_table.py::TestTableFunctions::test_d_exponent_in_fits_output#3": false,
+        "astropy/io/fits/tests/test_table.py::TestTableFunctions::test_d_exponent_handling#4": false,
+        "astropy/io/fits/tests/test_table.py::TestTableFunctions::test_fitsrec_d_exponent_handling#5": false,
+        "astropy/io/fits/tests/test_table.py::TestTableFunctions::test_fitsrec_d_exponent_handling#7": false,
+        "astropy/io/fits/tests/test_table.py::TestTableFunctions::test_fitsrec_d_exponent_handling#8": false
+      }
+    }
+  }
+}

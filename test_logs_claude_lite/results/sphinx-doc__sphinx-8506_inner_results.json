@@ -1,0 +1,104 @@
+{
+  "regression": {
+    "all_patches/lite_claude_all_unique_patches/sphinx-doc__sphinx-8506/dedup_patch_0.jsonl": {
+      "sphinx-doc__sphinx-8506": {
+        "tests/test_domain_std.py::test_multiple_cmdoptions": true,
+        "tests/test_build_html.py::test_html5_output": false,
+        "tests/test_build.py::test_build_all": false,
+        "tests/test_environment.py::test_images": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sphinx-doc__sphinx-8506/dedup_patch_1.jsonl": {
+      "sphinx-doc__sphinx-8506": {
+        "tests/test_domain_std.py::test_multiple_cmdoptions": true,
+        "tests/test_build_html.py::test_html5_output": false,
+        "tests/test_build.py::test_build_all": false,
+        "tests/test_environment.py::test_images": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sphinx-doc__sphinx-8506/dedup_patch_10.jsonl": {
+      "sphinx-doc__sphinx-8506": {
+        "tests/test_domain_std.py::test_multiple_cmdoptions": true,
+        "tests/test_build_html.py::test_html5_output": false,
+        "tests/test_build.py::test_build_all": false,
+        "tests/test_environment.py::test_images": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sphinx-doc__sphinx-8506/dedup_patch_2.jsonl": {
+      "sphinx-doc__sphinx-8506": {
+        "tests/test_domain_std.py::test_multiple_cmdoptions": true,
+        "tests/test_build_html.py::test_html5_output": false,
+        "tests/test_build.py::test_build_all": false,
+        "tests/test_environment.py::test_images": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sphinx-doc__sphinx-8506/dedup_patch_3.jsonl": {
+      "sphinx-doc__sphinx-8506": {
+        "tests/test_domain_std.py::test_multiple_cmdoptions": false,
+        "tests/test_build_html.py::test_html5_output": false,
+        "tests/test_build.py::test_build_all": false,
+        "tests/test_environment.py::test_images": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sphinx-doc__sphinx-8506/dedup_patch_4.jsonl": {
+      "sphinx-doc__sphinx-8506": {
+        "tests/test_domain_std.py::test_multiple_cmdoptions": true,
+        "tests/test_build_html.py::test_html5_output": false,
+        "tests/test_build.py::test_build_all": false,
+        "tests/test_environment.py::test_images": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sphinx-doc__sphinx-8506/dedup_patch_5.jsonl": {
+      "sphinx-doc__sphinx-8506": {
+        "tests/test_domain_std.py::test_multiple_cmdoptions": true,
+        "tests/test_build_html.py::test_html5_output": false,
+        "tests/test_build.py::test_build_all": false,
+        "tests/test_environment.py::test_images": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sphinx-doc__sphinx-8506/dedup_patch_6.jsonl": {
+      "sphinx-doc__sphinx-8506": {
+        "tests/test_domain_std.py::test_multiple_cmdoptions": true,
+        "tests/test_build_html.py::test_html5_output": false,
+        "tests/test_build.py::test_build_all": false,
+        "tests/test_environment.py::test_images": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sphinx-doc__sphinx-8506/dedup_patch_7.jsonl": {
+      "sphinx-doc__sphinx-8506": {
+        "tests/test_domain_std.py::test_multiple_cmdoptions": true,
+        "tests/test_build_html.py::test_html5_output": false,
+        "tests/test_build.py::test_build_all": false,
+        "tests/test_environment.py::test_images": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sphinx-doc__sphinx-8506/dedup_patch_8.jsonl": {
+      "sphinx-doc__sphinx-8506": {
+        "tests/test_domain_std.py::test_multiple_cmdoptions": true,
+        "tests/test_build_html.py::test_html5_output": false,
+        "tests/test_build.py::test_build_all": false,
+        "tests/test_environment.py::test_images": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sphinx-doc__sphinx-8506/dedup_patch_9.jsonl": {
+      "sphinx-doc__sphinx-8506": {
+        "tests/test_domain_std.py::test_multiple_cmdoptions": true,
+        "tests/test_build_html.py::test_html5_output": false,
+        "tests/test_build.py::test_build_all": false,
+        "tests/test_environment.py::test_images": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "sphinx-doc__sphinx-8506": {
+        "tests/test_directive_other.py::test_toctree_twice#1": false,
+        "tests/test_directive_other.py::test_toctree_twice#2": false,
+        "tests/test_directive_other.py::test_toctree_twice#3": false,
+        "tests/test_directive_other.py::test_toctree_twice#4": false,
+        "tests/test_directive_other.py::test_toctree_twice#5": false,
+        "tests/test_directive_other.py::test_toctree_twice#6": false
+      }
+    }
+  }
+}

@@ -1,0 +1,636 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/django__django-14500/dedup_patch_0.jsonl": {
+      "django__django-14500": {
+        "migrations.test_loader.LoaderTests.test_load_module_file": true,
+        "migrations.test_commands.MigrateTests.test_unknown_prefix": true,
+        "migrations.test_loader.LoaderTests.test_load_empty_dir": true,
+        "migrations.test_executor.ExecutorTests.test_alter_id_type_with_fk": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_auto_merge_name": true,
+        "migrations.test_commands.MigrateTests.test_migrations_no_operations": true,
+        "migrations.test_loader.LoaderTests.test_loading_squashed_complex_multi_apps_partially_applied": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_ambiguous_prefix_squashed_migrations": true,
+        "migrations.test_commands.AppLabelErrorTests.test_migrate_nonexistent_app_label": true,
+        "migrations.test_commands.AppLabelErrorTests.test_migrate_app_name_specified_as_label": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_replaced_migration": true,
+        "migrations.test_commands.MigrateTests.test_migrate_fake_initial_case_insensitive": true,
+        "migrations.test_commands.AppLabelErrorTests.test_sqlmigrate_nonexistent_app_label": true,
+        "migrations.test_loader.LoaderTests.test_check_consistent_history": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_squashed_migration": true,
+        "migrations.test_commands.MigrateTests.test_showmigrations_list_squashed": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14500/dedup_patch_1.jsonl": {
+      "django__django-14500": {
+        "migrations.test_loader.LoaderTests.test_load_module_file": true,
+        "migrations.test_commands.MigrateTests.test_unknown_prefix": true,
+        "migrations.test_loader.LoaderTests.test_load_empty_dir": true,
+        "migrations.test_executor.ExecutorTests.test_alter_id_type_with_fk": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_auto_merge_name": true,
+        "migrations.test_commands.MigrateTests.test_migrations_no_operations": true,
+        "migrations.test_loader.LoaderTests.test_loading_squashed_complex_multi_apps_partially_applied": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_ambiguous_prefix_squashed_migrations": true,
+        "migrations.test_commands.AppLabelErrorTests.test_migrate_nonexistent_app_label": true,
+        "migrations.test_commands.AppLabelErrorTests.test_migrate_app_name_specified_as_label": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_replaced_migration": true,
+        "migrations.test_commands.MigrateTests.test_migrate_fake_initial_case_insensitive": true,
+        "migrations.test_commands.AppLabelErrorTests.test_sqlmigrate_nonexistent_app_label": true,
+        "migrations.test_loader.LoaderTests.test_check_consistent_history": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_squashed_migration": true,
+        "migrations.test_commands.MigrateTests.test_showmigrations_list_squashed": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14500/dedup_patch_10.jsonl": {
+      "django__django-14500": {
+        "migrations.test_loader.LoaderTests.test_load_module_file": true,
+        "migrations.test_commands.MigrateTests.test_unknown_prefix": true,
+        "migrations.test_loader.LoaderTests.test_load_empty_dir": true,
+        "migrations.test_executor.ExecutorTests.test_alter_id_type_with_fk": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_auto_merge_name": true,
+        "migrations.test_commands.MigrateTests.test_migrations_no_operations": true,
+        "migrations.test_loader.LoaderTests.test_loading_squashed_complex_multi_apps_partially_applied": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_ambiguous_prefix_squashed_migrations": true,
+        "migrations.test_commands.AppLabelErrorTests.test_migrate_nonexistent_app_label": true,
+        "migrations.test_commands.AppLabelErrorTests.test_migrate_app_name_specified_as_label": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_replaced_migration": true,
+        "migrations.test_commands.MigrateTests.test_migrate_fake_initial_case_insensitive": true,
+        "migrations.test_commands.AppLabelErrorTests.test_sqlmigrate_nonexistent_app_label": true,
+        "migrations.test_loader.LoaderTests.test_check_consistent_history": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_squashed_migration": true,
+        "migrations.test_commands.MigrateTests.test_showmigrations_list_squashed": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14500/dedup_patch_11.jsonl": {
+      "django__django-14500": {
+        "migrations.test_loader.LoaderTests.test_load_module_file": true,
+        "migrations.test_commands.MigrateTests.test_unknown_prefix": true,
+        "migrations.test_loader.LoaderTests.test_load_empty_dir": true,
+        "migrations.test_executor.ExecutorTests.test_alter_id_type_with_fk": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_auto_merge_name": true,
+        "migrations.test_commands.MigrateTests.test_migrations_no_operations": true,
+        "migrations.test_loader.LoaderTests.test_loading_squashed_complex_multi_apps_partially_applied": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_ambiguous_prefix_squashed_migrations": true,
+        "migrations.test_commands.AppLabelErrorTests.test_migrate_nonexistent_app_label": true,
+        "migrations.test_commands.AppLabelErrorTests.test_migrate_app_name_specified_as_label": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_replaced_migration": true,
+        "migrations.test_commands.MigrateTests.test_migrate_fake_initial_case_insensitive": true,
+        "migrations.test_commands.AppLabelErrorTests.test_sqlmigrate_nonexistent_app_label": true,
+        "migrations.test_loader.LoaderTests.test_check_consistent_history": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_squashed_migration": true,
+        "migrations.test_commands.MigrateTests.test_showmigrations_list_squashed": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14500/dedup_patch_12.jsonl": {
+      "django__django-14500": {
+        "migrations.test_loader.LoaderTests.test_load_module_file": true,
+        "migrations.test_commands.MigrateTests.test_unknown_prefix": true,
+        "migrations.test_loader.LoaderTests.test_load_empty_dir": true,
+        "migrations.test_executor.ExecutorTests.test_alter_id_type_with_fk": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_auto_merge_name": true,
+        "migrations.test_commands.MigrateTests.test_migrations_no_operations": true,
+        "migrations.test_loader.LoaderTests.test_loading_squashed_complex_multi_apps_partially_applied": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_ambiguous_prefix_squashed_migrations": true,
+        "migrations.test_commands.AppLabelErrorTests.test_migrate_nonexistent_app_label": true,
+        "migrations.test_commands.AppLabelErrorTests.test_migrate_app_name_specified_as_label": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_replaced_migration": true,
+        "migrations.test_commands.MigrateTests.test_migrate_fake_initial_case_insensitive": true,
+        "migrations.test_commands.AppLabelErrorTests.test_sqlmigrate_nonexistent_app_label": true,
+        "migrations.test_loader.LoaderTests.test_check_consistent_history": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_squashed_migration": true,
+        "migrations.test_commands.MigrateTests.test_showmigrations_list_squashed": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14500/dedup_patch_13.jsonl": {
+      "django__django-14500": {
+        "migrations.test_loader.LoaderTests.test_load_module_file": true,
+        "migrations.test_commands.MigrateTests.test_unknown_prefix": true,
+        "migrations.test_loader.LoaderTests.test_load_empty_dir": true,
+        "migrations.test_executor.ExecutorTests.test_alter_id_type_with_fk": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_auto_merge_name": true,
+        "migrations.test_commands.MigrateTests.test_migrations_no_operations": true,
+        "migrations.test_loader.LoaderTests.test_loading_squashed_complex_multi_apps_partially_applied": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_ambiguous_prefix_squashed_migrations": true,
+        "migrations.test_commands.AppLabelErrorTests.test_migrate_nonexistent_app_label": true,
+        "migrations.test_commands.AppLabelErrorTests.test_migrate_app_name_specified_as_label": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_replaced_migration": true,
+        "migrations.test_commands.MigrateTests.test_migrate_fake_initial_case_insensitive": true,
+        "migrations.test_commands.AppLabelErrorTests.test_sqlmigrate_nonexistent_app_label": true,
+        "migrations.test_loader.LoaderTests.test_check_consistent_history": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_squashed_migration": true,
+        "migrations.test_commands.MigrateTests.test_showmigrations_list_squashed": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14500/dedup_patch_14.jsonl": {
+      "django__django-14500": {
+        "migrations.test_loader.LoaderTests.test_load_module_file": true,
+        "migrations.test_commands.MigrateTests.test_unknown_prefix": true,
+        "migrations.test_loader.LoaderTests.test_load_empty_dir": true,
+        "migrations.test_executor.ExecutorTests.test_alter_id_type_with_fk": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_auto_merge_name": true,
+        "migrations.test_commands.MigrateTests.test_migrations_no_operations": true,
+        "migrations.test_loader.LoaderTests.test_loading_squashed_complex_multi_apps_partially_applied": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_ambiguous_prefix_squashed_migrations": true,
+        "migrations.test_commands.AppLabelErrorTests.test_migrate_nonexistent_app_label": true,
+        "migrations.test_commands.AppLabelErrorTests.test_migrate_app_name_specified_as_label": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_replaced_migration": true,
+        "migrations.test_commands.MigrateTests.test_migrate_fake_initial_case_insensitive": true,
+        "migrations.test_commands.AppLabelErrorTests.test_sqlmigrate_nonexistent_app_label": true,
+        "migrations.test_loader.LoaderTests.test_check_consistent_history": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_squashed_migration": true,
+        "migrations.test_commands.MigrateTests.test_showmigrations_list_squashed": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14500/dedup_patch_15.jsonl": {
+      "django__django-14500": {
+        "migrations.test_loader.LoaderTests.test_load_module_file": true,
+        "migrations.test_commands.MigrateTests.test_unknown_prefix": true,
+        "migrations.test_loader.LoaderTests.test_load_empty_dir": true,
+        "migrations.test_executor.ExecutorTests.test_alter_id_type_with_fk": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_auto_merge_name": true,
+        "migrations.test_commands.MigrateTests.test_migrations_no_operations": true,
+        "migrations.test_loader.LoaderTests.test_loading_squashed_complex_multi_apps_partially_applied": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_ambiguous_prefix_squashed_migrations": true,
+        "migrations.test_commands.AppLabelErrorTests.test_migrate_nonexistent_app_label": true,
+        "migrations.test_commands.AppLabelErrorTests.test_migrate_app_name_specified_as_label": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_replaced_migration": true,
+        "migrations.test_commands.MigrateTests.test_migrate_fake_initial_case_insensitive": true,
+        "migrations.test_commands.AppLabelErrorTests.test_sqlmigrate_nonexistent_app_label": true,
+        "migrations.test_loader.LoaderTests.test_check_consistent_history": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_squashed_migration": true,
+        "migrations.test_commands.MigrateTests.test_showmigrations_list_squashed": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14500/dedup_patch_16.jsonl": {
+      "django__django-14500": {
+        "migrations.test_loader.LoaderTests.test_load_module_file": true,
+        "migrations.test_commands.MigrateTests.test_unknown_prefix": true,
+        "migrations.test_loader.LoaderTests.test_load_empty_dir": true,
+        "migrations.test_executor.ExecutorTests.test_alter_id_type_with_fk": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_auto_merge_name": true,
+        "migrations.test_commands.MigrateTests.test_migrations_no_operations": true,
+        "migrations.test_loader.LoaderTests.test_loading_squashed_complex_multi_apps_partially_applied": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_ambiguous_prefix_squashed_migrations": true,
+        "migrations.test_commands.AppLabelErrorTests.test_migrate_nonexistent_app_label": true,
+        "migrations.test_commands.AppLabelErrorTests.test_migrate_app_name_specified_as_label": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_replaced_migration": true,
+        "migrations.test_commands.MigrateTests.test_migrate_fake_initial_case_insensitive": true,
+        "migrations.test_commands.AppLabelErrorTests.test_sqlmigrate_nonexistent_app_label": true,
+        "migrations.test_loader.LoaderTests.test_check_consistent_history": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_squashed_migration": true,
+        "migrations.test_commands.MigrateTests.test_showmigrations_list_squashed": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14500/dedup_patch_17.jsonl": {
+      "django__django-14500": {
+        "migrations.test_loader.LoaderTests.test_load_module_file": true,
+        "migrations.test_commands.MigrateTests.test_unknown_prefix": true,
+        "migrations.test_loader.LoaderTests.test_load_empty_dir": true,
+        "migrations.test_executor.ExecutorTests.test_alter_id_type_with_fk": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_auto_merge_name": true,
+        "migrations.test_commands.MigrateTests.test_migrations_no_operations": true,
+        "migrations.test_loader.LoaderTests.test_loading_squashed_complex_multi_apps_partially_applied": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_ambiguous_prefix_squashed_migrations": true,
+        "migrations.test_commands.AppLabelErrorTests.test_migrate_nonexistent_app_label": true,
+        "migrations.test_commands.AppLabelErrorTests.test_migrate_app_name_specified_as_label": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_replaced_migration": true,
+        "migrations.test_commands.MigrateTests.test_migrate_fake_initial_case_insensitive": true,
+        "migrations.test_commands.AppLabelErrorTests.test_sqlmigrate_nonexistent_app_label": true,
+        "migrations.test_loader.LoaderTests.test_check_consistent_history": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_squashed_migration": true,
+        "migrations.test_commands.MigrateTests.test_showmigrations_list_squashed": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14500/dedup_patch_18.jsonl": {
+      "django__django-14500": {
+        "migrations.test_loader.LoaderTests.test_load_module_file": true,
+        "migrations.test_commands.MigrateTests.test_unknown_prefix": true,
+        "migrations.test_loader.LoaderTests.test_load_empty_dir": true,
+        "migrations.test_executor.ExecutorTests.test_alter_id_type_with_fk": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_auto_merge_name": true,
+        "migrations.test_commands.MigrateTests.test_migrations_no_operations": true,
+        "migrations.test_loader.LoaderTests.test_loading_squashed_complex_multi_apps_partially_applied": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_ambiguous_prefix_squashed_migrations": true,
+        "migrations.test_commands.AppLabelErrorTests.test_migrate_nonexistent_app_label": true,
+        "migrations.test_commands.AppLabelErrorTests.test_migrate_app_name_specified_as_label": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_replaced_migration": true,
+        "migrations.test_commands.MigrateTests.test_migrate_fake_initial_case_insensitive": true,
+        "migrations.test_commands.AppLabelErrorTests.test_sqlmigrate_nonexistent_app_label": true,
+        "migrations.test_loader.LoaderTests.test_check_consistent_history": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_squashed_migration": true,
+        "migrations.test_commands.MigrateTests.test_showmigrations_list_squashed": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14500/dedup_patch_19.jsonl": {
+      "django__django-14500": {
+        "migrations.test_loader.LoaderTests.test_load_module_file": true,
+        "migrations.test_commands.MigrateTests.test_unknown_prefix": true,
+        "migrations.test_loader.LoaderTests.test_load_empty_dir": true,
+        "migrations.test_executor.ExecutorTests.test_alter_id_type_with_fk": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_auto_merge_name": true,
+        "migrations.test_commands.MigrateTests.test_migrations_no_operations": true,
+        "migrations.test_loader.LoaderTests.test_loading_squashed_complex_multi_apps_partially_applied": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_ambiguous_prefix_squashed_migrations": true,
+        "migrations.test_commands.AppLabelErrorTests.test_migrate_nonexistent_app_label": true,
+        "migrations.test_commands.AppLabelErrorTests.test_migrate_app_name_specified_as_label": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_replaced_migration": true,
+        "migrations.test_commands.MigrateTests.test_migrate_fake_initial_case_insensitive": true,
+        "migrations.test_commands.AppLabelErrorTests.test_sqlmigrate_nonexistent_app_label": true,
+        "migrations.test_loader.LoaderTests.test_check_consistent_history": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_squashed_migration": true,
+        "migrations.test_commands.MigrateTests.test_showmigrations_list_squashed": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14500/dedup_patch_2.jsonl": {
+      "django__django-14500": {
+        "migrations.test_loader.LoaderTests.test_load_module_file": true,
+        "migrations.test_commands.MigrateTests.test_unknown_prefix": true,
+        "migrations.test_loader.LoaderTests.test_load_empty_dir": true,
+        "migrations.test_executor.ExecutorTests.test_alter_id_type_with_fk": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_auto_merge_name": true,
+        "migrations.test_commands.MigrateTests.test_migrations_no_operations": true,
+        "migrations.test_loader.LoaderTests.test_loading_squashed_complex_multi_apps_partially_applied": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_ambiguous_prefix_squashed_migrations": true,
+        "migrations.test_commands.AppLabelErrorTests.test_migrate_nonexistent_app_label": true,
+        "migrations.test_commands.AppLabelErrorTests.test_migrate_app_name_specified_as_label": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_replaced_migration": true,
+        "migrations.test_commands.MigrateTests.test_migrate_fake_initial_case_insensitive": true,
+        "migrations.test_commands.AppLabelErrorTests.test_sqlmigrate_nonexistent_app_label": true,
+        "migrations.test_loader.LoaderTests.test_check_consistent_history": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_squashed_migration": true,
+        "migrations.test_commands.MigrateTests.test_showmigrations_list_squashed": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14500/dedup_patch_20.jsonl": {
+      "django__django-14500": {
+        "migrations.test_loader.LoaderTests.test_load_module_file": true,
+        "migrations.test_commands.MigrateTests.test_unknown_prefix": true,
+        "migrations.test_loader.LoaderTests.test_load_empty_dir": true,
+        "migrations.test_executor.ExecutorTests.test_alter_id_type_with_fk": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_auto_merge_name": true,
+        "migrations.test_commands.MigrateTests.test_migrations_no_operations": true,
+        "migrations.test_loader.LoaderTests.test_loading_squashed_complex_multi_apps_partially_applied": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_ambiguous_prefix_squashed_migrations": true,
+        "migrations.test_commands.AppLabelErrorTests.test_migrate_nonexistent_app_label": true,
+        "migrations.test_commands.AppLabelErrorTests.test_migrate_app_name_specified_as_label": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_replaced_migration": true,
+        "migrations.test_commands.MigrateTests.test_migrate_fake_initial_case_insensitive": true,
+        "migrations.test_commands.AppLabelErrorTests.test_sqlmigrate_nonexistent_app_label": true,
+        "migrations.test_loader.LoaderTests.test_check_consistent_history": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_squashed_migration": true,
+        "migrations.test_commands.MigrateTests.test_showmigrations_list_squashed": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14500/dedup_patch_21.jsonl": {
+      "django__django-14500": {
+        "migrations.test_loader.LoaderTests.test_load_module_file": true,
+        "migrations.test_commands.MigrateTests.test_unknown_prefix": true,
+        "migrations.test_loader.LoaderTests.test_load_empty_dir": true,
+        "migrations.test_executor.ExecutorTests.test_alter_id_type_with_fk": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_auto_merge_name": true,
+        "migrations.test_commands.MigrateTests.test_migrations_no_operations": true,
+        "migrations.test_loader.LoaderTests.test_loading_squashed_complex_multi_apps_partially_applied": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_ambiguous_prefix_squashed_migrations": true,
+        "migrations.test_commands.AppLabelErrorTests.test_migrate_nonexistent_app_label": true,
+        "migrations.test_commands.AppLabelErrorTests.test_migrate_app_name_specified_as_label": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_replaced_migration": true,
+        "migrations.test_commands.MigrateTests.test_migrate_fake_initial_case_insensitive": true,
+        "migrations.test_commands.AppLabelErrorTests.test_sqlmigrate_nonexistent_app_label": true,
+        "migrations.test_loader.LoaderTests.test_check_consistent_history": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_squashed_migration": true,
+        "migrations.test_commands.MigrateTests.test_showmigrations_list_squashed": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14500/dedup_patch_3.jsonl": {
+      "django__django-14500": {
+        "migrations.test_loader.LoaderTests.test_load_module_file": true,
+        "migrations.test_commands.MigrateTests.test_unknown_prefix": true,
+        "migrations.test_loader.LoaderTests.test_load_empty_dir": true,
+        "migrations.test_executor.ExecutorTests.test_alter_id_type_with_fk": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_auto_merge_name": true,
+        "migrations.test_commands.MigrateTests.test_migrations_no_operations": true,
+        "migrations.test_loader.LoaderTests.test_loading_squashed_complex_multi_apps_partially_applied": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_ambiguous_prefix_squashed_migrations": true,
+        "migrations.test_commands.AppLabelErrorTests.test_migrate_nonexistent_app_label": true,
+        "migrations.test_commands.AppLabelErrorTests.test_migrate_app_name_specified_as_label": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_replaced_migration": true,
+        "migrations.test_commands.MigrateTests.test_migrate_fake_initial_case_insensitive": true,
+        "migrations.test_commands.AppLabelErrorTests.test_sqlmigrate_nonexistent_app_label": true,
+        "migrations.test_loader.LoaderTests.test_check_consistent_history": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_squashed_migration": true,
+        "migrations.test_commands.MigrateTests.test_showmigrations_list_squashed": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14500/dedup_patch_4.jsonl": {
+      "django__django-14500": {
+        "migrations.test_loader.LoaderTests.test_load_module_file": true,
+        "migrations.test_commands.MigrateTests.test_unknown_prefix": true,
+        "migrations.test_loader.LoaderTests.test_load_empty_dir": true,
+        "migrations.test_executor.ExecutorTests.test_alter_id_type_with_fk": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_auto_merge_name": true,
+        "migrations.test_commands.MigrateTests.test_migrations_no_operations": true,
+        "migrations.test_loader.LoaderTests.test_loading_squashed_complex_multi_apps_partially_applied": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_ambiguous_prefix_squashed_migrations": true,
+        "migrations.test_commands.AppLabelErrorTests.test_migrate_nonexistent_app_label": true,
+        "migrations.test_commands.AppLabelErrorTests.test_migrate_app_name_specified_as_label": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_replaced_migration": true,
+        "migrations.test_commands.MigrateTests.test_migrate_fake_initial_case_insensitive": true,
+        "migrations.test_commands.AppLabelErrorTests.test_sqlmigrate_nonexistent_app_label": true,
+        "migrations.test_loader.LoaderTests.test_check_consistent_history": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_squashed_migration": true,
+        "migrations.test_commands.MigrateTests.test_showmigrations_list_squashed": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14500/dedup_patch_5.jsonl": {
+      "django__django-14500": {
+        "migrations.test_loader.LoaderTests.test_load_module_file": true,
+        "migrations.test_commands.MigrateTests.test_unknown_prefix": true,
+        "migrations.test_loader.LoaderTests.test_load_empty_dir": true,
+        "migrations.test_executor.ExecutorTests.test_alter_id_type_with_fk": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_auto_merge_name": true,
+        "migrations.test_commands.MigrateTests.test_migrations_no_operations": true,
+        "migrations.test_loader.LoaderTests.test_loading_squashed_complex_multi_apps_partially_applied": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_ambiguous_prefix_squashed_migrations": true,
+        "migrations.test_commands.AppLabelErrorTests.test_migrate_nonexistent_app_label": true,
+        "migrations.test_commands.AppLabelErrorTests.test_migrate_app_name_specified_as_label": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_replaced_migration": true,
+        "migrations.test_commands.MigrateTests.test_migrate_fake_initial_case_insensitive": true,
+        "migrations.test_commands.AppLabelErrorTests.test_sqlmigrate_nonexistent_app_label": true,
+        "migrations.test_loader.LoaderTests.test_check_consistent_history": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_squashed_migration": true,
+        "migrations.test_commands.MigrateTests.test_showmigrations_list_squashed": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14500/dedup_patch_6.jsonl": {
+      "django__django-14500": {
+        "migrations.test_loader.LoaderTests.test_load_module_file": true,
+        "migrations.test_commands.MigrateTests.test_unknown_prefix": true,
+        "migrations.test_loader.LoaderTests.test_load_empty_dir": true,
+        "migrations.test_executor.ExecutorTests.test_alter_id_type_with_fk": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_auto_merge_name": true,
+        "migrations.test_commands.MigrateTests.test_migrations_no_operations": true,
+        "migrations.test_loader.LoaderTests.test_loading_squashed_complex_multi_apps_partially_applied": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_ambiguous_prefix_squashed_migrations": true,
+        "migrations.test_commands.AppLabelErrorTests.test_migrate_nonexistent_app_label": true,
+        "migrations.test_commands.AppLabelErrorTests.test_migrate_app_name_specified_as_label": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_replaced_migration": true,
+        "migrations.test_commands.MigrateTests.test_migrate_fake_initial_case_insensitive": true,
+        "migrations.test_commands.AppLabelErrorTests.test_sqlmigrate_nonexistent_app_label": true,
+        "migrations.test_loader.LoaderTests.test_check_consistent_history": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_squashed_migration": true,
+        "migrations.test_commands.MigrateTests.test_showmigrations_list_squashed": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14500/dedup_patch_7.jsonl": {
+      "django__django-14500": {
+        "migrations.test_loader.LoaderTests.test_load_module_file": true,
+        "migrations.test_commands.MigrateTests.test_unknown_prefix": true,
+        "migrations.test_loader.LoaderTests.test_load_empty_dir": true,
+        "migrations.test_executor.ExecutorTests.test_alter_id_type_with_fk": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_auto_merge_name": true,
+        "migrations.test_commands.MigrateTests.test_migrations_no_operations": true,
+        "migrations.test_loader.LoaderTests.test_loading_squashed_complex_multi_apps_partially_applied": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_ambiguous_prefix_squashed_migrations": true,
+        "migrations.test_commands.AppLabelErrorTests.test_migrate_nonexistent_app_label": true,
+        "migrations.test_commands.AppLabelErrorTests.test_migrate_app_name_specified_as_label": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_replaced_migration": true,
+        "migrations.test_commands.MigrateTests.test_migrate_fake_initial_case_insensitive": true,
+        "migrations.test_commands.AppLabelErrorTests.test_sqlmigrate_nonexistent_app_label": true,
+        "migrations.test_loader.LoaderTests.test_check_consistent_history": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_squashed_migration": true,
+        "migrations.test_commands.MigrateTests.test_showmigrations_list_squashed": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14500/dedup_patch_8.jsonl": {
+      "django__django-14500": {
+        "migrations.test_loader.LoaderTests.test_load_module_file": true,
+        "migrations.test_commands.MigrateTests.test_unknown_prefix": true,
+        "migrations.test_loader.LoaderTests.test_load_empty_dir": true,
+        "migrations.test_executor.ExecutorTests.test_alter_id_type_with_fk": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_auto_merge_name": true,
+        "migrations.test_commands.MigrateTests.test_migrations_no_operations": true,
+        "migrations.test_loader.LoaderTests.test_loading_squashed_complex_multi_apps_partially_applied": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_ambiguous_prefix_squashed_migrations": true,
+        "migrations.test_commands.AppLabelErrorTests.test_migrate_nonexistent_app_label": true,
+        "migrations.test_commands.AppLabelErrorTests.test_migrate_app_name_specified_as_label": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_replaced_migration": true,
+        "migrations.test_commands.MigrateTests.test_migrate_fake_initial_case_insensitive": true,
+        "migrations.test_commands.AppLabelErrorTests.test_sqlmigrate_nonexistent_app_label": true,
+        "migrations.test_loader.LoaderTests.test_check_consistent_history": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_squashed_migration": true,
+        "migrations.test_commands.MigrateTests.test_showmigrations_list_squashed": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14500/dedup_patch_9.jsonl": {
+      "django__django-14500": {
+        "migrations.test_loader.LoaderTests.test_load_module_file": true,
+        "migrations.test_commands.MigrateTests.test_unknown_prefix": true,
+        "migrations.test_loader.LoaderTests.test_load_empty_dir": true,
+        "migrations.test_executor.ExecutorTests.test_alter_id_type_with_fk": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_auto_merge_name": true,
+        "migrations.test_commands.MigrateTests.test_migrations_no_operations": true,
+        "migrations.test_loader.LoaderTests.test_loading_squashed_complex_multi_apps_partially_applied": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_ambiguous_prefix_squashed_migrations": true,
+        "migrations.test_commands.AppLabelErrorTests.test_migrate_nonexistent_app_label": true,
+        "migrations.test_commands.AppLabelErrorTests.test_migrate_app_name_specified_as_label": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_replaced_migration": true,
+        "migrations.test_commands.MigrateTests.test_migrate_fake_initial_case_insensitive": true,
+        "migrations.test_commands.AppLabelErrorTests.test_sqlmigrate_nonexistent_app_label": true,
+        "migrations.test_loader.LoaderTests.test_check_consistent_history": true,
+        "migrations.test_commands.MigrateTests.test_sqlmigrate_squashed_migration": true,
+        "migrations.test_commands.MigrateTests.test_showmigrations_list_squashed": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-14500": {
+        "migrations.test_executor.ExecutorTests.test_unapply_squashed_migration_marks_only_replaced_as_unapplied#1": true,
+        "migrations.test_executor.ExecutorTests.test_unapply_replaced_migrations_marks_squashed_as_unapplied#2": true,
+        "migrations.test_executor.ExecutorTests.test_unapply_squashed_migration#3": true,
+        "migrations.test_executor.ExecutorTests.test_unapply_squashed_migration#4": true,
+        "migrations.test_executor.ExecutorTests.test_unapply_marks_squashed_as_unapplied#5": true,
+        "migrations.test_executor.ExecutorTests.test_unapply_replaced_keeps_replacement_unapplied#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14500/dedup_patch_0.jsonl": {
+      "django__django-14500": {
+        "migrations.test_executor.ExecutorTests.test_unapply_squashed_migration_marks_only_replaced_as_unapplied#1": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_replaced_migrations_marks_squashed_as_unapplied#2": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_squashed_migration#3": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_squashed_migration#4": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_marks_squashed_as_unapplied#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14500/dedup_patch_1.jsonl": {
+      "django__django-14500": {
+        "migrations.test_executor.ExecutorTests.test_unapply_squashed_migration_marks_only_replaced_as_unapplied#1": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_replaced_migrations_marks_squashed_as_unapplied#2": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_squashed_migration#3": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_squashed_migration#4": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_marks_squashed_as_unapplied#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14500/dedup_patch_10.jsonl": {
+      "django__django-14500": {
+        "migrations.test_executor.ExecutorTests.test_unapply_squashed_migration_marks_only_replaced_as_unapplied#1": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_replaced_migrations_marks_squashed_as_unapplied#2": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_squashed_migration#3": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_squashed_migration#4": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_marks_squashed_as_unapplied#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14500/dedup_patch_11.jsonl": {
+      "django__django-14500": {
+        "migrations.test_executor.ExecutorTests.test_unapply_squashed_migration_marks_only_replaced_as_unapplied#1": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_replaced_migrations_marks_squashed_as_unapplied#2": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_squashed_migration#3": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_squashed_migration#4": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_marks_squashed_as_unapplied#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14500/dedup_patch_14.jsonl": {
+      "django__django-14500": {
+        "migrations.test_executor.ExecutorTests.test_unapply_squashed_migration_marks_only_replaced_as_unapplied#1": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_replaced_migrations_marks_squashed_as_unapplied#2": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_squashed_migration#3": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_squashed_migration#4": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_marks_squashed_as_unapplied#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14500/dedup_patch_15.jsonl": {
+      "django__django-14500": {
+        "migrations.test_executor.ExecutorTests.test_unapply_squashed_migration_marks_only_replaced_as_unapplied#1": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_replaced_migrations_marks_squashed_as_unapplied#2": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_squashed_migration#3": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_squashed_migration#4": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_marks_squashed_as_unapplied#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14500/dedup_patch_16.jsonl": {
+      "django__django-14500": {
+        "migrations.test_executor.ExecutorTests.test_unapply_squashed_migration_marks_only_replaced_as_unapplied#1": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_replaced_migrations_marks_squashed_as_unapplied#2": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_squashed_migration#3": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_squashed_migration#4": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_marks_squashed_as_unapplied#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14500/dedup_patch_17.jsonl": {
+      "django__django-14500": {
+        "migrations.test_executor.ExecutorTests.test_unapply_squashed_migration_marks_only_replaced_as_unapplied#1": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_replaced_migrations_marks_squashed_as_unapplied#2": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_squashed_migration#3": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_squashed_migration#4": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_marks_squashed_as_unapplied#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14500/dedup_patch_18.jsonl": {
+      "django__django-14500": {
+        "migrations.test_executor.ExecutorTests.test_unapply_squashed_migration_marks_only_replaced_as_unapplied#1": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_replaced_migrations_marks_squashed_as_unapplied#2": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_squashed_migration#3": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_squashed_migration#4": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_marks_squashed_as_unapplied#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14500/dedup_patch_19.jsonl": {
+      "django__django-14500": {
+        "migrations.test_executor.ExecutorTests.test_unapply_squashed_migration_marks_only_replaced_as_unapplied#1": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_replaced_migrations_marks_squashed_as_unapplied#2": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_squashed_migration#3": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_squashed_migration#4": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_marks_squashed_as_unapplied#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14500/dedup_patch_2.jsonl": {
+      "django__django-14500": {
+        "migrations.test_executor.ExecutorTests.test_unapply_squashed_migration_marks_only_replaced_as_unapplied#1": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_replaced_migrations_marks_squashed_as_unapplied#2": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_squashed_migration#3": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_squashed_migration#4": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_marks_squashed_as_unapplied#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14500/dedup_patch_20.jsonl": {
+      "django__django-14500": {
+        "migrations.test_executor.ExecutorTests.test_unapply_squashed_migration_marks_only_replaced_as_unapplied#1": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_replaced_migrations_marks_squashed_as_unapplied#2": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_squashed_migration#3": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_squashed_migration#4": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_marks_squashed_as_unapplied#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14500/dedup_patch_21.jsonl": {
+      "django__django-14500": {
+        "migrations.test_executor.ExecutorTests.test_unapply_squashed_migration_marks_only_replaced_as_unapplied#1": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_replaced_migrations_marks_squashed_as_unapplied#2": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_squashed_migration#3": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_squashed_migration#4": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_marks_squashed_as_unapplied#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14500/dedup_patch_3.jsonl": {
+      "django__django-14500": {
+        "migrations.test_executor.ExecutorTests.test_unapply_squashed_migration_marks_only_replaced_as_unapplied#1": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_replaced_migrations_marks_squashed_as_unapplied#2": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_squashed_migration#3": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_squashed_migration#4": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_marks_squashed_as_unapplied#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14500/dedup_patch_4.jsonl": {
+      "django__django-14500": {
+        "migrations.test_executor.ExecutorTests.test_unapply_squashed_migration_marks_only_replaced_as_unapplied#1": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_replaced_migrations_marks_squashed_as_unapplied#2": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_squashed_migration#3": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_squashed_migration#4": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_marks_squashed_as_unapplied#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14500/dedup_patch_5.jsonl": {
+      "django__django-14500": {
+        "migrations.test_executor.ExecutorTests.test_unapply_squashed_migration_marks_only_replaced_as_unapplied#1": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_replaced_migrations_marks_squashed_as_unapplied#2": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_squashed_migration#3": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_squashed_migration#4": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_marks_squashed_as_unapplied#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14500/dedup_patch_6.jsonl": {
+      "django__django-14500": {
+        "migrations.test_executor.ExecutorTests.test_unapply_squashed_migration_marks_only_replaced_as_unapplied#1": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_replaced_migrations_marks_squashed_as_unapplied#2": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_squashed_migration#3": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_squashed_migration#4": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_marks_squashed_as_unapplied#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14500/dedup_patch_7.jsonl": {
+      "django__django-14500": {
+        "migrations.test_executor.ExecutorTests.test_unapply_squashed_migration_marks_only_replaced_as_unapplied#1": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_replaced_migrations_marks_squashed_as_unapplied#2": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_squashed_migration#3": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_squashed_migration#4": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_marks_squashed_as_unapplied#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14500/dedup_patch_8.jsonl": {
+      "django__django-14500": {
+        "migrations.test_executor.ExecutorTests.test_unapply_squashed_migration_marks_only_replaced_as_unapplied#1": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_replaced_migrations_marks_squashed_as_unapplied#2": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_squashed_migration#3": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_squashed_migration#4": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_marks_squashed_as_unapplied#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14500/dedup_patch_9.jsonl": {
+      "django__django-14500": {
+        "migrations.test_executor.ExecutorTests.test_unapply_squashed_migration_marks_only_replaced_as_unapplied#1": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_replaced_migrations_marks_squashed_as_unapplied#2": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_squashed_migration#3": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_squashed_migration#4": false,
+        "migrations.test_executor.ExecutorTests.test_unapply_marks_squashed_as_unapplied#5": false
+      }
+    }
+  }
+}

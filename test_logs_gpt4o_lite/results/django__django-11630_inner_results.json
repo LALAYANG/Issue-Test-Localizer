@@ -1,0 +1,996 @@
+{
+  "regression": {
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11630/dedup_patch_0.jsonl": {
+      "django__django-11630": {
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field_unsaved": false,
+        "model_fields.test_integerfield.IntegerFieldTests.test_documented_range": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_empty_string_fk": false,
+        "model_fields.tests.GetChoicesOrderingTests.test_get_choices": false,
+        "model_regress.tests.ModelTests.test_model_init_too_many_args": false,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": false,
+        "model_regress.tests.EvaluateMethodTest.test_model_with_evaluate_method": false,
+        "model_regress.tests.ModelTests.test_chained_fks": false,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": false,
+        "model_regress.tests.ModelTests.test_related_gte_lookup": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_abstract_model_pending_operations": false,
+        "check_framework.test_model_checks.IndexNameTests.test_no_collision_abstract_model_interpolation": false,
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field": false,
+        "model_regress.tests.ModelTests.test_empty_choice": false,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_no_collision_for_proxy_models": false,
+        "model_fields.tests.GetFieldDisplayTests.test_choices_and_field_display": false,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_collision_across_apps": false,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": false,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11630/dedup_patch_1.jsonl": {
+      "django__django-11630": {
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field_unsaved": false,
+        "model_fields.test_integerfield.IntegerFieldTests.test_documented_range": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_empty_string_fk": false,
+        "model_fields.tests.GetChoicesOrderingTests.test_get_choices": false,
+        "model_regress.tests.ModelTests.test_model_init_too_many_args": false,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": false,
+        "model_regress.tests.EvaluateMethodTest.test_model_with_evaluate_method": false,
+        "model_regress.tests.ModelTests.test_chained_fks": false,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": false,
+        "model_regress.tests.ModelTests.test_related_gte_lookup": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_abstract_model_pending_operations": false,
+        "check_framework.test_model_checks.IndexNameTests.test_no_collision_abstract_model_interpolation": false,
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field": false,
+        "model_regress.tests.ModelTests.test_empty_choice": false,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_no_collision_for_proxy_models": false,
+        "model_fields.tests.GetFieldDisplayTests.test_choices_and_field_display": false,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_collision_across_apps": false,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": false,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11630/dedup_patch_10.jsonl": {
+      "django__django-11630": {
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field_unsaved": false,
+        "model_fields.test_integerfield.IntegerFieldTests.test_documented_range": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_empty_string_fk": false,
+        "model_fields.tests.GetChoicesOrderingTests.test_get_choices": false,
+        "model_regress.tests.ModelTests.test_model_init_too_many_args": false,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": false,
+        "model_regress.tests.EvaluateMethodTest.test_model_with_evaluate_method": false,
+        "model_regress.tests.ModelTests.test_chained_fks": false,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": false,
+        "model_regress.tests.ModelTests.test_related_gte_lookup": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_abstract_model_pending_operations": false,
+        "check_framework.test_model_checks.IndexNameTests.test_no_collision_abstract_model_interpolation": true,
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field": false,
+        "model_regress.tests.ModelTests.test_empty_choice": false,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_no_collision_for_proxy_models": true,
+        "model_fields.tests.GetFieldDisplayTests.test_choices_and_field_display": true,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_collision_across_apps": true,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": true,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11630/dedup_patch_11.jsonl": {
+      "django__django-11630": {
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field_unsaved": true,
+        "model_fields.test_integerfield.IntegerFieldTests.test_documented_range": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_empty_string_fk": true,
+        "model_fields.tests.GetChoicesOrderingTests.test_get_choices": true,
+        "model_regress.tests.ModelTests.test_model_init_too_many_args": true,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "model_regress.tests.EvaluateMethodTest.test_model_with_evaluate_method": true,
+        "model_regress.tests.ModelTests.test_chained_fks": true,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": true,
+        "model_regress.tests.ModelTests.test_related_gte_lookup": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_abstract_model_pending_operations": true,
+        "check_framework.test_model_checks.IndexNameTests.test_no_collision_abstract_model_interpolation": true,
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field": true,
+        "model_regress.tests.ModelTests.test_empty_choice": true,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_no_collision_for_proxy_models": true,
+        "model_fields.tests.GetFieldDisplayTests.test_choices_and_field_display": true,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_collision_across_apps": true,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": true,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11630/dedup_patch_12.jsonl": {
+      "django__django-11630": {
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field_unsaved": false,
+        "model_fields.test_integerfield.IntegerFieldTests.test_documented_range": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_empty_string_fk": false,
+        "model_fields.tests.GetChoicesOrderingTests.test_get_choices": false,
+        "model_regress.tests.ModelTests.test_model_init_too_many_args": false,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": false,
+        "model_regress.tests.EvaluateMethodTest.test_model_with_evaluate_method": false,
+        "model_regress.tests.ModelTests.test_chained_fks": false,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": false,
+        "model_regress.tests.ModelTests.test_related_gte_lookup": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_abstract_model_pending_operations": false,
+        "check_framework.test_model_checks.IndexNameTests.test_no_collision_abstract_model_interpolation": false,
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field": false,
+        "model_regress.tests.ModelTests.test_empty_choice": false,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_no_collision_for_proxy_models": false,
+        "model_fields.tests.GetFieldDisplayTests.test_choices_and_field_display": false,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_collision_across_apps": false,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": false,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11630/dedup_patch_13.jsonl": {
+      "django__django-11630": {
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field_unsaved": true,
+        "model_fields.test_integerfield.IntegerFieldTests.test_documented_range": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_empty_string_fk": true,
+        "model_fields.tests.GetChoicesOrderingTests.test_get_choices": true,
+        "model_regress.tests.ModelTests.test_model_init_too_many_args": true,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "model_regress.tests.EvaluateMethodTest.test_model_with_evaluate_method": true,
+        "model_regress.tests.ModelTests.test_chained_fks": true,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": true,
+        "model_regress.tests.ModelTests.test_related_gte_lookup": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_abstract_model_pending_operations": true,
+        "check_framework.test_model_checks.IndexNameTests.test_no_collision_abstract_model_interpolation": true,
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field": true,
+        "model_regress.tests.ModelTests.test_empty_choice": true,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_no_collision_for_proxy_models": true,
+        "model_fields.tests.GetFieldDisplayTests.test_choices_and_field_display": true,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_collision_across_apps": false,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": true,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11630/dedup_patch_14.jsonl": {
+      "django__django-11630": {
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field_unsaved": false,
+        "model_fields.test_integerfield.IntegerFieldTests.test_documented_range": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_empty_string_fk": false,
+        "model_fields.tests.GetChoicesOrderingTests.test_get_choices": false,
+        "model_regress.tests.ModelTests.test_model_init_too_many_args": false,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": false,
+        "model_regress.tests.EvaluateMethodTest.test_model_with_evaluate_method": false,
+        "model_regress.tests.ModelTests.test_chained_fks": false,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": false,
+        "model_regress.tests.ModelTests.test_related_gte_lookup": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_abstract_model_pending_operations": false,
+        "check_framework.test_model_checks.IndexNameTests.test_no_collision_abstract_model_interpolation": false,
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field": false,
+        "model_regress.tests.ModelTests.test_empty_choice": false,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_no_collision_for_proxy_models": false,
+        "model_fields.tests.GetFieldDisplayTests.test_choices_and_field_display": false,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_collision_across_apps": false,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": false,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11630/dedup_patch_15.jsonl": {
+      "django__django-11630": {
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field_unsaved": false,
+        "model_fields.test_integerfield.IntegerFieldTests.test_documented_range": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_empty_string_fk": false,
+        "model_fields.tests.GetChoicesOrderingTests.test_get_choices": false,
+        "model_regress.tests.ModelTests.test_model_init_too_many_args": false,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": false,
+        "model_regress.tests.EvaluateMethodTest.test_model_with_evaluate_method": false,
+        "model_regress.tests.ModelTests.test_chained_fks": false,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": false,
+        "model_regress.tests.ModelTests.test_related_gte_lookup": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_abstract_model_pending_operations": false,
+        "check_framework.test_model_checks.IndexNameTests.test_no_collision_abstract_model_interpolation": false,
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field": false,
+        "model_regress.tests.ModelTests.test_empty_choice": false,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_no_collision_for_proxy_models": false,
+        "model_fields.tests.GetFieldDisplayTests.test_choices_and_field_display": false,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_collision_across_apps": false,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": false,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11630/dedup_patch_16.jsonl": {
+      "django__django-11630": {
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field_unsaved": true,
+        "model_fields.test_integerfield.IntegerFieldTests.test_documented_range": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_empty_string_fk": true,
+        "model_fields.tests.GetChoicesOrderingTests.test_get_choices": true,
+        "model_regress.tests.ModelTests.test_model_init_too_many_args": true,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "model_regress.tests.EvaluateMethodTest.test_model_with_evaluate_method": true,
+        "model_regress.tests.ModelTests.test_chained_fks": true,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": true,
+        "model_regress.tests.ModelTests.test_related_gte_lookup": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_abstract_model_pending_operations": true,
+        "check_framework.test_model_checks.IndexNameTests.test_no_collision_abstract_model_interpolation": true,
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field": true,
+        "model_regress.tests.ModelTests.test_empty_choice": true,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_no_collision_for_proxy_models": true,
+        "model_fields.tests.GetFieldDisplayTests.test_choices_and_field_display": true,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_collision_across_apps": true,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": true,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11630/dedup_patch_17.jsonl": {
+      "django__django-11630": {
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field_unsaved": true,
+        "model_fields.test_integerfield.IntegerFieldTests.test_documented_range": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_empty_string_fk": true,
+        "model_fields.tests.GetChoicesOrderingTests.test_get_choices": true,
+        "model_regress.tests.ModelTests.test_model_init_too_many_args": true,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "model_regress.tests.EvaluateMethodTest.test_model_with_evaluate_method": true,
+        "model_regress.tests.ModelTests.test_chained_fks": true,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": true,
+        "model_regress.tests.ModelTests.test_related_gte_lookup": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_abstract_model_pending_operations": true,
+        "check_framework.test_model_checks.IndexNameTests.test_no_collision_abstract_model_interpolation": true,
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field": true,
+        "model_regress.tests.ModelTests.test_empty_choice": true,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_no_collision_for_proxy_models": true,
+        "model_fields.tests.GetFieldDisplayTests.test_choices_and_field_display": true,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_collision_across_apps": false,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": true,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11630/dedup_patch_18.jsonl": {
+      "django__django-11630": {
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field_unsaved": false,
+        "model_fields.test_integerfield.IntegerFieldTests.test_documented_range": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_empty_string_fk": false,
+        "model_fields.tests.GetChoicesOrderingTests.test_get_choices": false,
+        "model_regress.tests.ModelTests.test_model_init_too_many_args": false,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": false,
+        "model_regress.tests.EvaluateMethodTest.test_model_with_evaluate_method": false,
+        "model_regress.tests.ModelTests.test_chained_fks": false,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": false,
+        "model_regress.tests.ModelTests.test_related_gte_lookup": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_abstract_model_pending_operations": false,
+        "check_framework.test_model_checks.IndexNameTests.test_no_collision_abstract_model_interpolation": false,
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field": false,
+        "model_regress.tests.ModelTests.test_empty_choice": false,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_no_collision_for_proxy_models": false,
+        "model_fields.tests.GetFieldDisplayTests.test_choices_and_field_display": false,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_collision_across_apps": false,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": false,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11630/dedup_patch_19.jsonl": {
+      "django__django-11630": {
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field_unsaved": false,
+        "model_fields.test_integerfield.IntegerFieldTests.test_documented_range": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_empty_string_fk": false,
+        "model_fields.tests.GetChoicesOrderingTests.test_get_choices": false,
+        "model_regress.tests.ModelTests.test_model_init_too_many_args": false,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": false,
+        "model_regress.tests.EvaluateMethodTest.test_model_with_evaluate_method": false,
+        "model_regress.tests.ModelTests.test_chained_fks": false,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": false,
+        "model_regress.tests.ModelTests.test_related_gte_lookup": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_abstract_model_pending_operations": false,
+        "check_framework.test_model_checks.IndexNameTests.test_no_collision_abstract_model_interpolation": true,
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field": false,
+        "model_regress.tests.ModelTests.test_empty_choice": false,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_no_collision_for_proxy_models": true,
+        "model_fields.tests.GetFieldDisplayTests.test_choices_and_field_display": true,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_collision_across_apps": true,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": true,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11630/dedup_patch_2.jsonl": {
+      "django__django-11630": {
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field_unsaved": true,
+        "model_fields.test_integerfield.IntegerFieldTests.test_documented_range": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_empty_string_fk": true,
+        "model_fields.tests.GetChoicesOrderingTests.test_get_choices": true,
+        "model_regress.tests.ModelTests.test_model_init_too_many_args": true,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "model_regress.tests.EvaluateMethodTest.test_model_with_evaluate_method": true,
+        "model_regress.tests.ModelTests.test_chained_fks": true,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": true,
+        "model_regress.tests.ModelTests.test_related_gte_lookup": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_abstract_model_pending_operations": true,
+        "check_framework.test_model_checks.IndexNameTests.test_no_collision_abstract_model_interpolation": true,
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field": true,
+        "model_regress.tests.ModelTests.test_empty_choice": true,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_no_collision_for_proxy_models": true,
+        "model_fields.tests.GetFieldDisplayTests.test_choices_and_field_display": true,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_collision_across_apps": true,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": true,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11630/dedup_patch_20.jsonl": {
+      "django__django-11630": {
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field_unsaved": true,
+        "model_fields.test_integerfield.IntegerFieldTests.test_documented_range": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_empty_string_fk": true,
+        "model_fields.tests.GetChoicesOrderingTests.test_get_choices": true,
+        "model_regress.tests.ModelTests.test_model_init_too_many_args": true,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "model_regress.tests.EvaluateMethodTest.test_model_with_evaluate_method": true,
+        "model_regress.tests.ModelTests.test_chained_fks": true,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": true,
+        "model_regress.tests.ModelTests.test_related_gte_lookup": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_abstract_model_pending_operations": true,
+        "check_framework.test_model_checks.IndexNameTests.test_no_collision_abstract_model_interpolation": true,
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field": true,
+        "model_regress.tests.ModelTests.test_empty_choice": true,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_no_collision_for_proxy_models": true,
+        "model_fields.tests.GetFieldDisplayTests.test_choices_and_field_display": true,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_collision_across_apps": true,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": true,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11630/dedup_patch_21.jsonl": {
+      "django__django-11630": {
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field_unsaved": true,
+        "model_fields.test_integerfield.IntegerFieldTests.test_documented_range": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_empty_string_fk": true,
+        "model_fields.tests.GetChoicesOrderingTests.test_get_choices": true,
+        "model_regress.tests.ModelTests.test_model_init_too_many_args": true,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "model_regress.tests.EvaluateMethodTest.test_model_with_evaluate_method": true,
+        "model_regress.tests.ModelTests.test_chained_fks": true,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": true,
+        "model_regress.tests.ModelTests.test_related_gte_lookup": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_abstract_model_pending_operations": true,
+        "check_framework.test_model_checks.IndexNameTests.test_no_collision_abstract_model_interpolation": true,
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field": true,
+        "model_regress.tests.ModelTests.test_empty_choice": true,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_no_collision_for_proxy_models": true,
+        "model_fields.tests.GetFieldDisplayTests.test_choices_and_field_display": true,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_collision_across_apps": true,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": true,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11630/dedup_patch_22.jsonl": {
+      "django__django-11630": {
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field_unsaved": true,
+        "model_fields.test_integerfield.IntegerFieldTests.test_documented_range": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_empty_string_fk": true,
+        "model_fields.tests.GetChoicesOrderingTests.test_get_choices": true,
+        "model_regress.tests.ModelTests.test_model_init_too_many_args": true,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "model_regress.tests.EvaluateMethodTest.test_model_with_evaluate_method": true,
+        "model_regress.tests.ModelTests.test_chained_fks": true,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": true,
+        "model_regress.tests.ModelTests.test_related_gte_lookup": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_abstract_model_pending_operations": true,
+        "check_framework.test_model_checks.IndexNameTests.test_no_collision_abstract_model_interpolation": true,
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field": true,
+        "model_regress.tests.ModelTests.test_empty_choice": true,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_no_collision_for_proxy_models": true,
+        "model_fields.tests.GetFieldDisplayTests.test_choices_and_field_display": true,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_collision_across_apps": true,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": true,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11630/dedup_patch_23.jsonl": {
+      "django__django-11630": {
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field_unsaved": true,
+        "model_fields.test_integerfield.IntegerFieldTests.test_documented_range": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_empty_string_fk": true,
+        "model_fields.tests.GetChoicesOrderingTests.test_get_choices": true,
+        "model_regress.tests.ModelTests.test_model_init_too_many_args": true,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "model_regress.tests.EvaluateMethodTest.test_model_with_evaluate_method": true,
+        "model_regress.tests.ModelTests.test_chained_fks": true,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": true,
+        "model_regress.tests.ModelTests.test_related_gte_lookup": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_abstract_model_pending_operations": true,
+        "check_framework.test_model_checks.IndexNameTests.test_no_collision_abstract_model_interpolation": true,
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field": true,
+        "model_regress.tests.ModelTests.test_empty_choice": true,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_no_collision_for_proxy_models": true,
+        "model_fields.tests.GetFieldDisplayTests.test_choices_and_field_display": true,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_collision_across_apps": false,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": true,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11630/dedup_patch_24.jsonl": {
+      "django__django-11630": {
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field_unsaved": false,
+        "model_fields.test_integerfield.IntegerFieldTests.test_documented_range": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_empty_string_fk": false,
+        "model_fields.tests.GetChoicesOrderingTests.test_get_choices": false,
+        "model_regress.tests.ModelTests.test_model_init_too_many_args": false,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": false,
+        "model_regress.tests.EvaluateMethodTest.test_model_with_evaluate_method": false,
+        "model_regress.tests.ModelTests.test_chained_fks": false,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": false,
+        "model_regress.tests.ModelTests.test_related_gte_lookup": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_abstract_model_pending_operations": false,
+        "check_framework.test_model_checks.IndexNameTests.test_no_collision_abstract_model_interpolation": true,
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field": false,
+        "model_regress.tests.ModelTests.test_empty_choice": false,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_no_collision_for_proxy_models": true,
+        "model_fields.tests.GetFieldDisplayTests.test_choices_and_field_display": true,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_collision_across_apps": true,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": true,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11630/dedup_patch_25.jsonl": {
+      "django__django-11630": {
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field_unsaved": true,
+        "model_fields.test_integerfield.IntegerFieldTests.test_documented_range": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_empty_string_fk": true,
+        "model_fields.tests.GetChoicesOrderingTests.test_get_choices": true,
+        "model_regress.tests.ModelTests.test_model_init_too_many_args": true,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "model_regress.tests.EvaluateMethodTest.test_model_with_evaluate_method": true,
+        "model_regress.tests.ModelTests.test_chained_fks": true,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": true,
+        "model_regress.tests.ModelTests.test_related_gte_lookup": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_abstract_model_pending_operations": true,
+        "check_framework.test_model_checks.IndexNameTests.test_no_collision_abstract_model_interpolation": true,
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field": true,
+        "model_regress.tests.ModelTests.test_empty_choice": true,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_no_collision_for_proxy_models": true,
+        "model_fields.tests.GetFieldDisplayTests.test_choices_and_field_display": true,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_collision_across_apps": true,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": true,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11630/dedup_patch_26.jsonl": {
+      "django__django-11630": {
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field_unsaved": true,
+        "model_fields.test_integerfield.IntegerFieldTests.test_documented_range": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_empty_string_fk": true,
+        "model_fields.tests.GetChoicesOrderingTests.test_get_choices": true,
+        "model_regress.tests.ModelTests.test_model_init_too_many_args": true,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "model_regress.tests.EvaluateMethodTest.test_model_with_evaluate_method": true,
+        "model_regress.tests.ModelTests.test_chained_fks": true,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": true,
+        "model_regress.tests.ModelTests.test_related_gte_lookup": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_abstract_model_pending_operations": true,
+        "check_framework.test_model_checks.IndexNameTests.test_no_collision_abstract_model_interpolation": true,
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field": true,
+        "model_regress.tests.ModelTests.test_empty_choice": true,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_no_collision_for_proxy_models": true,
+        "model_fields.tests.GetFieldDisplayTests.test_choices_and_field_display": true,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_collision_across_apps": false,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": true,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11630/dedup_patch_27.jsonl": {
+      "django__django-11630": {
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field_unsaved": false,
+        "model_fields.test_integerfield.IntegerFieldTests.test_documented_range": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_empty_string_fk": false,
+        "model_fields.tests.GetChoicesOrderingTests.test_get_choices": false,
+        "model_regress.tests.ModelTests.test_model_init_too_many_args": false,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": false,
+        "model_regress.tests.EvaluateMethodTest.test_model_with_evaluate_method": false,
+        "model_regress.tests.ModelTests.test_chained_fks": false,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": false,
+        "model_regress.tests.ModelTests.test_related_gte_lookup": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_abstract_model_pending_operations": false,
+        "check_framework.test_model_checks.IndexNameTests.test_no_collision_abstract_model_interpolation": false,
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field": false,
+        "model_regress.tests.ModelTests.test_empty_choice": false,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_no_collision_for_proxy_models": false,
+        "model_fields.tests.GetFieldDisplayTests.test_choices_and_field_display": false,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_collision_across_apps": false,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": false,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11630/dedup_patch_28.jsonl": {
+      "django__django-11630": {
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field_unsaved": true,
+        "model_fields.test_integerfield.IntegerFieldTests.test_documented_range": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_empty_string_fk": true,
+        "model_fields.tests.GetChoicesOrderingTests.test_get_choices": true,
+        "model_regress.tests.ModelTests.test_model_init_too_many_args": true,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "model_regress.tests.EvaluateMethodTest.test_model_with_evaluate_method": true,
+        "model_regress.tests.ModelTests.test_chained_fks": true,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": true,
+        "model_regress.tests.ModelTests.test_related_gte_lookup": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_abstract_model_pending_operations": true,
+        "check_framework.test_model_checks.IndexNameTests.test_no_collision_abstract_model_interpolation": true,
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field": true,
+        "model_regress.tests.ModelTests.test_empty_choice": true,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_no_collision_for_proxy_models": true,
+        "model_fields.tests.GetFieldDisplayTests.test_choices_and_field_display": true,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_collision_across_apps": true,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": true,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11630/dedup_patch_29.jsonl": {
+      "django__django-11630": {
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field_unsaved": true,
+        "model_fields.test_integerfield.IntegerFieldTests.test_documented_range": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_empty_string_fk": true,
+        "model_fields.tests.GetChoicesOrderingTests.test_get_choices": true,
+        "model_regress.tests.ModelTests.test_model_init_too_many_args": true,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "model_regress.tests.EvaluateMethodTest.test_model_with_evaluate_method": true,
+        "model_regress.tests.ModelTests.test_chained_fks": true,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": true,
+        "model_regress.tests.ModelTests.test_related_gte_lookup": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_abstract_model_pending_operations": true,
+        "check_framework.test_model_checks.IndexNameTests.test_no_collision_abstract_model_interpolation": true,
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field": true,
+        "model_regress.tests.ModelTests.test_empty_choice": true,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_no_collision_for_proxy_models": true,
+        "model_fields.tests.GetFieldDisplayTests.test_choices_and_field_display": true,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_collision_across_apps": false,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": true,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11630/dedup_patch_3.jsonl": {
+      "django__django-11630": {
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field_unsaved": false,
+        "model_fields.test_integerfield.IntegerFieldTests.test_documented_range": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_empty_string_fk": false,
+        "model_fields.tests.GetChoicesOrderingTests.test_get_choices": false,
+        "model_regress.tests.ModelTests.test_model_init_too_many_args": false,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": false,
+        "model_regress.tests.EvaluateMethodTest.test_model_with_evaluate_method": false,
+        "model_regress.tests.ModelTests.test_chained_fks": false,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": false,
+        "model_regress.tests.ModelTests.test_related_gte_lookup": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_abstract_model_pending_operations": false,
+        "check_framework.test_model_checks.IndexNameTests.test_no_collision_abstract_model_interpolation": false,
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field": false,
+        "model_regress.tests.ModelTests.test_empty_choice": false,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_no_collision_for_proxy_models": false,
+        "model_fields.tests.GetFieldDisplayTests.test_choices_and_field_display": false,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_collision_across_apps": false,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": false,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11630/dedup_patch_30.jsonl": {
+      "django__django-11630": {
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field_unsaved": true,
+        "model_fields.test_integerfield.IntegerFieldTests.test_documented_range": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_empty_string_fk": true,
+        "model_fields.tests.GetChoicesOrderingTests.test_get_choices": true,
+        "model_regress.tests.ModelTests.test_model_init_too_many_args": true,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "model_regress.tests.EvaluateMethodTest.test_model_with_evaluate_method": true,
+        "model_regress.tests.ModelTests.test_chained_fks": true,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": true,
+        "model_regress.tests.ModelTests.test_related_gte_lookup": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_abstract_model_pending_operations": true,
+        "check_framework.test_model_checks.IndexNameTests.test_no_collision_abstract_model_interpolation": true,
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field": true,
+        "model_regress.tests.ModelTests.test_empty_choice": true,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_no_collision_for_proxy_models": true,
+        "model_fields.tests.GetFieldDisplayTests.test_choices_and_field_display": true,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_collision_across_apps": false,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": true,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11630/dedup_patch_31.jsonl": {
+      "django__django-11630": {
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field_unsaved": true,
+        "model_fields.test_integerfield.IntegerFieldTests.test_documented_range": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_empty_string_fk": true,
+        "model_fields.tests.GetChoicesOrderingTests.test_get_choices": true,
+        "model_regress.tests.ModelTests.test_model_init_too_many_args": true,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "model_regress.tests.EvaluateMethodTest.test_model_with_evaluate_method": true,
+        "model_regress.tests.ModelTests.test_chained_fks": true,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": true,
+        "model_regress.tests.ModelTests.test_related_gte_lookup": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_abstract_model_pending_operations": true,
+        "check_framework.test_model_checks.IndexNameTests.test_no_collision_abstract_model_interpolation": true,
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field": true,
+        "model_regress.tests.ModelTests.test_empty_choice": true,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_no_collision_for_proxy_models": true,
+        "model_fields.tests.GetFieldDisplayTests.test_choices_and_field_display": true,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_collision_across_apps": true,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": true,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11630/dedup_patch_32.jsonl": {
+      "django__django-11630": {
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field_unsaved": false,
+        "model_fields.test_integerfield.IntegerFieldTests.test_documented_range": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_empty_string_fk": false,
+        "model_fields.tests.GetChoicesOrderingTests.test_get_choices": false,
+        "model_regress.tests.ModelTests.test_model_init_too_many_args": false,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": false,
+        "model_regress.tests.EvaluateMethodTest.test_model_with_evaluate_method": false,
+        "model_regress.tests.ModelTests.test_chained_fks": false,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": false,
+        "model_regress.tests.ModelTests.test_related_gte_lookup": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_abstract_model_pending_operations": false,
+        "check_framework.test_model_checks.IndexNameTests.test_no_collision_abstract_model_interpolation": false,
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field": false,
+        "model_regress.tests.ModelTests.test_empty_choice": false,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_no_collision_for_proxy_models": false,
+        "model_fields.tests.GetFieldDisplayTests.test_choices_and_field_display": false,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_collision_across_apps": false,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": false,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11630/dedup_patch_33.jsonl": {
+      "django__django-11630": {
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field_unsaved": false,
+        "model_fields.test_integerfield.IntegerFieldTests.test_documented_range": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_empty_string_fk": false,
+        "model_fields.tests.GetChoicesOrderingTests.test_get_choices": false,
+        "model_regress.tests.ModelTests.test_model_init_too_many_args": false,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": false,
+        "model_regress.tests.EvaluateMethodTest.test_model_with_evaluate_method": false,
+        "model_regress.tests.ModelTests.test_chained_fks": false,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": false,
+        "model_regress.tests.ModelTests.test_related_gte_lookup": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_abstract_model_pending_operations": false,
+        "check_framework.test_model_checks.IndexNameTests.test_no_collision_abstract_model_interpolation": false,
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field": false,
+        "model_regress.tests.ModelTests.test_empty_choice": false,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_no_collision_for_proxy_models": false,
+        "model_fields.tests.GetFieldDisplayTests.test_choices_and_field_display": false,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_collision_across_apps": false,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": false,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11630/dedup_patch_34.jsonl": {
+      "django__django-11630": {
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field_unsaved": false,
+        "model_fields.test_integerfield.IntegerFieldTests.test_documented_range": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_empty_string_fk": false,
+        "model_fields.tests.GetChoicesOrderingTests.test_get_choices": false,
+        "model_regress.tests.ModelTests.test_model_init_too_many_args": false,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": false,
+        "model_regress.tests.EvaluateMethodTest.test_model_with_evaluate_method": false,
+        "model_regress.tests.ModelTests.test_chained_fks": false,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": false,
+        "model_regress.tests.ModelTests.test_related_gte_lookup": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_abstract_model_pending_operations": false,
+        "check_framework.test_model_checks.IndexNameTests.test_no_collision_abstract_model_interpolation": false,
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field": false,
+        "model_regress.tests.ModelTests.test_empty_choice": false,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_no_collision_for_proxy_models": false,
+        "model_fields.tests.GetFieldDisplayTests.test_choices_and_field_display": false,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_collision_across_apps": false,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": false,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11630/dedup_patch_35.jsonl": {
+      "django__django-11630": {
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field_unsaved": true,
+        "model_fields.test_integerfield.IntegerFieldTests.test_documented_range": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_empty_string_fk": true,
+        "model_fields.tests.GetChoicesOrderingTests.test_get_choices": true,
+        "model_regress.tests.ModelTests.test_model_init_too_many_args": true,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "model_regress.tests.EvaluateMethodTest.test_model_with_evaluate_method": true,
+        "model_regress.tests.ModelTests.test_chained_fks": true,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": true,
+        "model_regress.tests.ModelTests.test_related_gte_lookup": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_abstract_model_pending_operations": true,
+        "check_framework.test_model_checks.IndexNameTests.test_no_collision_abstract_model_interpolation": true,
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field": true,
+        "model_regress.tests.ModelTests.test_empty_choice": true,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_no_collision_for_proxy_models": true,
+        "model_fields.tests.GetFieldDisplayTests.test_choices_and_field_display": true,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_collision_across_apps": false,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": true,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11630/dedup_patch_4.jsonl": {
+      "django__django-11630": {
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field_unsaved": true,
+        "model_fields.test_integerfield.IntegerFieldTests.test_documented_range": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_empty_string_fk": true,
+        "model_fields.tests.GetChoicesOrderingTests.test_get_choices": true,
+        "model_regress.tests.ModelTests.test_model_init_too_many_args": true,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "model_regress.tests.EvaluateMethodTest.test_model_with_evaluate_method": true,
+        "model_regress.tests.ModelTests.test_chained_fks": true,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": true,
+        "model_regress.tests.ModelTests.test_related_gte_lookup": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_abstract_model_pending_operations": true,
+        "check_framework.test_model_checks.IndexNameTests.test_no_collision_abstract_model_interpolation": true,
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field": true,
+        "model_regress.tests.ModelTests.test_empty_choice": true,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_no_collision_for_proxy_models": true,
+        "model_fields.tests.GetFieldDisplayTests.test_choices_and_field_display": true,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_collision_across_apps": true,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": true,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11630/dedup_patch_5.jsonl": {
+      "django__django-11630": {
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field_unsaved": true,
+        "model_fields.test_integerfield.IntegerFieldTests.test_documented_range": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_empty_string_fk": true,
+        "model_fields.tests.GetChoicesOrderingTests.test_get_choices": true,
+        "model_regress.tests.ModelTests.test_model_init_too_many_args": true,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "model_regress.tests.EvaluateMethodTest.test_model_with_evaluate_method": true,
+        "model_regress.tests.ModelTests.test_chained_fks": true,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": true,
+        "model_regress.tests.ModelTests.test_related_gte_lookup": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_abstract_model_pending_operations": true,
+        "check_framework.test_model_checks.IndexNameTests.test_no_collision_abstract_model_interpolation": true,
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field": true,
+        "model_regress.tests.ModelTests.test_empty_choice": true,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_no_collision_for_proxy_models": true,
+        "model_fields.tests.GetFieldDisplayTests.test_choices_and_field_display": true,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_collision_across_apps": true,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": true,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11630/dedup_patch_6.jsonl": {
+      "django__django-11630": {
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field_unsaved": true,
+        "model_fields.test_integerfield.IntegerFieldTests.test_documented_range": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_empty_string_fk": true,
+        "model_fields.tests.GetChoicesOrderingTests.test_get_choices": true,
+        "model_regress.tests.ModelTests.test_model_init_too_many_args": true,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "model_regress.tests.EvaluateMethodTest.test_model_with_evaluate_method": true,
+        "model_regress.tests.ModelTests.test_chained_fks": true,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": true,
+        "model_regress.tests.ModelTests.test_related_gte_lookup": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_abstract_model_pending_operations": true,
+        "check_framework.test_model_checks.IndexNameTests.test_no_collision_abstract_model_interpolation": true,
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field": true,
+        "model_regress.tests.ModelTests.test_empty_choice": true,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_no_collision_for_proxy_models": true,
+        "model_fields.tests.GetFieldDisplayTests.test_choices_and_field_display": true,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_collision_across_apps": false,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": true,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11630/dedup_patch_7.jsonl": {
+      "django__django-11630": {
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field_unsaved": false,
+        "model_fields.test_integerfield.IntegerFieldTests.test_documented_range": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_empty_string_fk": false,
+        "model_fields.tests.GetChoicesOrderingTests.test_get_choices": false,
+        "model_regress.tests.ModelTests.test_model_init_too_many_args": false,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": false,
+        "model_regress.tests.EvaluateMethodTest.test_model_with_evaluate_method": false,
+        "model_regress.tests.ModelTests.test_chained_fks": false,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": false,
+        "model_regress.tests.ModelTests.test_related_gte_lookup": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_abstract_model_pending_operations": false,
+        "check_framework.test_model_checks.IndexNameTests.test_no_collision_abstract_model_interpolation": true,
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field": false,
+        "model_regress.tests.ModelTests.test_empty_choice": false,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_no_collision_for_proxy_models": true,
+        "model_fields.tests.GetFieldDisplayTests.test_choices_and_field_display": true,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_collision_across_apps": true,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": true,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11630/dedup_patch_8.jsonl": {
+      "django__django-11630": {
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field_unsaved": true,
+        "model_fields.test_integerfield.IntegerFieldTests.test_documented_range": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_empty_string_fk": true,
+        "model_fields.tests.GetChoicesOrderingTests.test_get_choices": true,
+        "model_regress.tests.ModelTests.test_model_init_too_many_args": true,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "model_regress.tests.EvaluateMethodTest.test_model_with_evaluate_method": true,
+        "model_regress.tests.ModelTests.test_chained_fks": true,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": true,
+        "model_regress.tests.ModelTests.test_related_gte_lookup": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_abstract_model_pending_operations": true,
+        "check_framework.test_model_checks.IndexNameTests.test_no_collision_abstract_model_interpolation": true,
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field": true,
+        "model_regress.tests.ModelTests.test_empty_choice": true,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_no_collision_for_proxy_models": true,
+        "model_fields.tests.GetFieldDisplayTests.test_choices_and_field_display": true,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_collision_across_apps": true,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": true,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11630/dedup_patch_9.jsonl": {
+      "django__django-11630": {
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field_unsaved": true,
+        "model_fields.test_integerfield.IntegerFieldTests.test_documented_range": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_empty_string_fk": true,
+        "model_fields.tests.GetChoicesOrderingTests.test_get_choices": true,
+        "model_regress.tests.ModelTests.test_model_init_too_many_args": true,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "model_regress.tests.EvaluateMethodTest.test_model_with_evaluate_method": true,
+        "model_regress.tests.ModelTests.test_chained_fks": true,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": true,
+        "model_regress.tests.ModelTests.test_related_gte_lookup": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_abstract_model_pending_operations": true,
+        "check_framework.test_model_checks.IndexNameTests.test_no_collision_abstract_model_interpolation": true,
+        "model_regress.tests.ModelTests.test_get_next_prev_by_field": true,
+        "model_regress.tests.ModelTests.test_empty_choice": true,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_no_collision_for_proxy_models": true,
+        "model_fields.tests.GetFieldDisplayTests.test_choices_and_field_display": true,
+        "check_framework.test_model_checks.DuplicateDBTableTests.test_collision_across_apps": true,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": true,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-11630": {
+        "invalid_models_tests.test_models.OtherModelTests.test_same_table_name_different_apps#1": true,
+        "invalid_models_tests.test_models.OtherModelTests.test_table_name_clash_different_apps#2": true,
+        "invalid_models_tests.test_models.OtherModelTests.test_same_table_name_different_apps#3": true,
+        "invalid_models_tests.test_models.OtherModelTests.test_same_table_name_different_apps#4": true,
+        "invalid_models_tests.test_models.OtherModelTests.test_db_table_name_clash_different_apps#5": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11630/dedup_patch_11.jsonl": {
+      "django__django-11630": {
+        "invalid_models_tests.test_models.OtherModelTests.test_same_table_name_different_apps#1": false,
+        "invalid_models_tests.test_models.OtherModelTests.test_table_name_clash_different_apps#2": false,
+        "invalid_models_tests.test_models.OtherModelTests.test_same_table_name_different_apps#3": false,
+        "invalid_models_tests.test_models.OtherModelTests.test_same_table_name_different_apps#4": false,
+        "invalid_models_tests.test_models.OtherModelTests.test_db_table_name_clash_different_apps#5": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11630/dedup_patch_16.jsonl": {
+      "django__django-11630": {
+        "invalid_models_tests.test_models.OtherModelTests.test_same_table_name_different_apps#1": false,
+        "invalid_models_tests.test_models.OtherModelTests.test_table_name_clash_different_apps#2": false,
+        "invalid_models_tests.test_models.OtherModelTests.test_same_table_name_different_apps#3": false,
+        "invalid_models_tests.test_models.OtherModelTests.test_same_table_name_different_apps#4": false,
+        "invalid_models_tests.test_models.OtherModelTests.test_db_table_name_clash_different_apps#5": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11630/dedup_patch_2.jsonl": {
+      "django__django-11630": {
+        "invalid_models_tests.test_models.OtherModelTests.test_same_table_name_different_apps#1": false,
+        "invalid_models_tests.test_models.OtherModelTests.test_table_name_clash_different_apps#2": false,
+        "invalid_models_tests.test_models.OtherModelTests.test_same_table_name_different_apps#3": false,
+        "invalid_models_tests.test_models.OtherModelTests.test_same_table_name_different_apps#4": false,
+        "invalid_models_tests.test_models.OtherModelTests.test_db_table_name_clash_different_apps#5": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11630/dedup_patch_20.jsonl": {
+      "django__django-11630": {
+        "invalid_models_tests.test_models.OtherModelTests.test_same_table_name_different_apps#1": false,
+        "invalid_models_tests.test_models.OtherModelTests.test_table_name_clash_different_apps#2": false,
+        "invalid_models_tests.test_models.OtherModelTests.test_same_table_name_different_apps#3": false,
+        "invalid_models_tests.test_models.OtherModelTests.test_same_table_name_different_apps#4": false,
+        "invalid_models_tests.test_models.OtherModelTests.test_db_table_name_clash_different_apps#5": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11630/dedup_patch_21.jsonl": {
+      "django__django-11630": {
+        "invalid_models_tests.test_models.OtherModelTests.test_same_table_name_different_apps#1": false,
+        "invalid_models_tests.test_models.OtherModelTests.test_table_name_clash_different_apps#2": false,
+        "invalid_models_tests.test_models.OtherModelTests.test_same_table_name_different_apps#3": false,
+        "invalid_models_tests.test_models.OtherModelTests.test_same_table_name_different_apps#4": false,
+        "invalid_models_tests.test_models.OtherModelTests.test_db_table_name_clash_different_apps#5": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11630/dedup_patch_22.jsonl": {
+      "django__django-11630": {
+        "invalid_models_tests.test_models.OtherModelTests.test_same_table_name_different_apps#1": false,
+        "invalid_models_tests.test_models.OtherModelTests.test_table_name_clash_different_apps#2": false,
+        "invalid_models_tests.test_models.OtherModelTests.test_same_table_name_different_apps#3": false,
+        "invalid_models_tests.test_models.OtherModelTests.test_same_table_name_different_apps#4": false,
+        "invalid_models_tests.test_models.OtherModelTests.test_db_table_name_clash_different_apps#5": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11630/dedup_patch_25.jsonl": {
+      "django__django-11630": {
+        "invalid_models_tests.test_models.OtherModelTests.test_same_table_name_different_apps#1": false,
+        "invalid_models_tests.test_models.OtherModelTests.test_table_name_clash_different_apps#2": false,
+        "invalid_models_tests.test_models.OtherModelTests.test_same_table_name_different_apps#3": false,
+        "invalid_models_tests.test_models.OtherModelTests.test_same_table_name_different_apps#4": false,
+        "invalid_models_tests.test_models.OtherModelTests.test_db_table_name_clash_different_apps#5": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11630/dedup_patch_28.jsonl": {
+      "django__django-11630": {
+        "invalid_models_tests.test_models.OtherModelTests.test_same_table_name_different_apps#1": false,
+        "invalid_models_tests.test_models.OtherModelTests.test_table_name_clash_different_apps#2": false,
+        "invalid_models_tests.test_models.OtherModelTests.test_same_table_name_different_apps#3": false,
+        "invalid_models_tests.test_models.OtherModelTests.test_same_table_name_different_apps#4": false,
+        "invalid_models_tests.test_models.OtherModelTests.test_db_table_name_clash_different_apps#5": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11630/dedup_patch_31.jsonl": {
+      "django__django-11630": {
+        "invalid_models_tests.test_models.OtherModelTests.test_same_table_name_different_apps#1": false,
+        "invalid_models_tests.test_models.OtherModelTests.test_table_name_clash_different_apps#2": false,
+        "invalid_models_tests.test_models.OtherModelTests.test_same_table_name_different_apps#3": false,
+        "invalid_models_tests.test_models.OtherModelTests.test_same_table_name_different_apps#4": false,
+        "invalid_models_tests.test_models.OtherModelTests.test_db_table_name_clash_different_apps#5": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11630/dedup_patch_4.jsonl": {
+      "django__django-11630": {
+        "invalid_models_tests.test_models.OtherModelTests.test_same_table_name_different_apps#1": false,
+        "invalid_models_tests.test_models.OtherModelTests.test_table_name_clash_different_apps#2": false,
+        "invalid_models_tests.test_models.OtherModelTests.test_same_table_name_different_apps#3": false,
+        "invalid_models_tests.test_models.OtherModelTests.test_same_table_name_different_apps#4": false,
+        "invalid_models_tests.test_models.OtherModelTests.test_db_table_name_clash_different_apps#5": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11630/dedup_patch_5.jsonl": {
+      "django__django-11630": {
+        "invalid_models_tests.test_models.OtherModelTests.test_same_table_name_different_apps#1": false,
+        "invalid_models_tests.test_models.OtherModelTests.test_table_name_clash_different_apps#2": false,
+        "invalid_models_tests.test_models.OtherModelTests.test_same_table_name_different_apps#3": false,
+        "invalid_models_tests.test_models.OtherModelTests.test_same_table_name_different_apps#4": false,
+        "invalid_models_tests.test_models.OtherModelTests.test_db_table_name_clash_different_apps#5": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11630/dedup_patch_8.jsonl": {
+      "django__django-11630": {
+        "invalid_models_tests.test_models.OtherModelTests.test_same_table_name_different_apps#1": false,
+        "invalid_models_tests.test_models.OtherModelTests.test_table_name_clash_different_apps#2": false,
+        "invalid_models_tests.test_models.OtherModelTests.test_same_table_name_different_apps#3": false,
+        "invalid_models_tests.test_models.OtherModelTests.test_same_table_name_different_apps#4": false,
+        "invalid_models_tests.test_models.OtherModelTests.test_db_table_name_clash_different_apps#5": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11630/dedup_patch_9.jsonl": {
+      "django__django-11630": {
+        "invalid_models_tests.test_models.OtherModelTests.test_same_table_name_different_apps#1": false,
+        "invalid_models_tests.test_models.OtherModelTests.test_table_name_clash_different_apps#2": false,
+        "invalid_models_tests.test_models.OtherModelTests.test_same_table_name_different_apps#3": false,
+        "invalid_models_tests.test_models.OtherModelTests.test_same_table_name_different_apps#4": false,
+        "invalid_models_tests.test_models.OtherModelTests.test_db_table_name_clash_different_apps#5": false
+      }
+    }
+  }
+}

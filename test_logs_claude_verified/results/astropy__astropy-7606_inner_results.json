@@ -1,0 +1,27 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/astropy__astropy-7606/dedup_patch_0.jsonl": {
+      "astropy__astropy-7606": {
+        "astropy/units/tests/test_units.py::test_unknown_unit3": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "astropy__astropy-7606": {
+        "astropy/units/tests/test_units.py::test_data_quantities#1": false,
+        "astropy/units/tests/test_units.py::test_data_quantities#2": false,
+        "astropy/units/tests/test_units.py::test_data_quantities#3": false,
+        "astropy/units/tests/test_units.py::test_compare_with_none#4": true,
+        "astropy/units/tests/test_units.py::test_compare_with_none#5": true,
+        "astropy/units/tests/test_units.py::test_compare_with_none#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/astropy__astropy-7606/dedup_patch_0.jsonl": {
+      "astropy__astropy-7606": {
+        "astropy/units/tests/test_units.py::test_compare_with_none#4": true,
+        "astropy/units/tests/test_units.py::test_compare_with_none#5": true
+      }
+    }
+  }
+}

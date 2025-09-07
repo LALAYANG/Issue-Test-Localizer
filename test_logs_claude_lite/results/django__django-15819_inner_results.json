@@ -1,0 +1,301 @@
+{
+  "regression": {
+    "all_patches/lite_claude_all_unique_patches/django__django-15819/dedup_patch_0.jsonl": {
+      "django__django-15819": {
+        "inspectdb.tests.InspectDBTestCase.test_attribute_name_not_python_keyword": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15819/dedup_patch_1.jsonl": {
+      "django__django-15819": {
+        "inspectdb.tests.InspectDBTestCase.test_attribute_name_not_python_keyword": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15819/dedup_patch_10.jsonl": {
+      "django__django-15819": {
+        "inspectdb.tests.InspectDBTestCase.test_attribute_name_not_python_keyword": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15819/dedup_patch_11.jsonl": {
+      "django__django-15819": {
+        "inspectdb.tests.InspectDBTestCase.test_attribute_name_not_python_keyword": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15819/dedup_patch_12.jsonl": {
+      "django__django-15819": {
+        "inspectdb.tests.InspectDBTestCase.test_attribute_name_not_python_keyword": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15819/dedup_patch_13.jsonl": {
+      "django__django-15819": {
+        "inspectdb.tests.InspectDBTestCase.test_attribute_name_not_python_keyword": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15819/dedup_patch_14.jsonl": {
+      "django__django-15819": {
+        "inspectdb.tests.InspectDBTestCase.test_attribute_name_not_python_keyword": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15819/dedup_patch_15.jsonl": {
+      "django__django-15819": {
+        "inspectdb.tests.InspectDBTestCase.test_attribute_name_not_python_keyword": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15819/dedup_patch_16.jsonl": {
+      "django__django-15819": {
+        "inspectdb.tests.InspectDBTestCase.test_attribute_name_not_python_keyword": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15819/dedup_patch_17.jsonl": {
+      "django__django-15819": {
+        "inspectdb.tests.InspectDBTestCase.test_attribute_name_not_python_keyword": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15819/dedup_patch_18.jsonl": {
+      "django__django-15819": {
+        "inspectdb.tests.InspectDBTestCase.test_attribute_name_not_python_keyword": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15819/dedup_patch_2.jsonl": {
+      "django__django-15819": {
+        "inspectdb.tests.InspectDBTestCase.test_attribute_name_not_python_keyword": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15819/dedup_patch_3.jsonl": {
+      "django__django-15819": {
+        "inspectdb.tests.InspectDBTestCase.test_attribute_name_not_python_keyword": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15819/dedup_patch_4.jsonl": {
+      "django__django-15819": {
+        "inspectdb.tests.InspectDBTestCase.test_attribute_name_not_python_keyword": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15819/dedup_patch_5.jsonl": {
+      "django__django-15819": {
+        "inspectdb.tests.InspectDBTestCase.test_attribute_name_not_python_keyword": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15819/dedup_patch_6.jsonl": {
+      "django__django-15819": {
+        "inspectdb.tests.InspectDBTestCase.test_attribute_name_not_python_keyword": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15819/dedup_patch_7.jsonl": {
+      "django__django-15819": {
+        "inspectdb.tests.InspectDBTestCase.test_attribute_name_not_python_keyword": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15819/dedup_patch_8.jsonl": {
+      "django__django-15819": {
+        "inspectdb.tests.InspectDBTestCase.test_attribute_name_not_python_keyword": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15819/dedup_patch_9.jsonl": {
+      "django__django-15819": {
+        "inspectdb.tests.InspectDBTestCase.test_attribute_name_not_python_keyword": false
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-15819": {
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#1": true,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#2": true,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_foreign_key#3": true,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#4": true,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#5": true,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_for_same_relation#6": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15819/dedup_patch_0.jsonl": {
+      "django__django-15819": {
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#1": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#2": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_foreign_key#3": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#4": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#5": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_for_same_relation#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15819/dedup_patch_1.jsonl": {
+      "django__django-15819": {
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#1": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#2": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_foreign_key#3": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#4": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#5": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_for_same_relation#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15819/dedup_patch_10.jsonl": {
+      "django__django-15819": {
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#1": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#2": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_foreign_key#3": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#4": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#5": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_for_same_relation#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15819/dedup_patch_11.jsonl": {
+      "django__django-15819": {
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#1": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#2": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_foreign_key#3": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#4": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#5": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_for_same_relation#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15819/dedup_patch_12.jsonl": {
+      "django__django-15819": {
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#1": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#2": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_foreign_key#3": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#4": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#5": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_for_same_relation#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15819/dedup_patch_13.jsonl": {
+      "django__django-15819": {
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#1": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#2": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_foreign_key#3": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#4": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#5": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_for_same_relation#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15819/dedup_patch_14.jsonl": {
+      "django__django-15819": {
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#1": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#2": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_foreign_key#3": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#4": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#5": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_for_same_relation#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15819/dedup_patch_15.jsonl": {
+      "django__django-15819": {
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#1": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#2": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_foreign_key#3": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#4": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#5": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_for_same_relation#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15819/dedup_patch_16.jsonl": {
+      "django__django-15819": {
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#1": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#2": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_foreign_key#3": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#4": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#5": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_for_same_relation#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15819/dedup_patch_17.jsonl": {
+      "django__django-15819": {
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#1": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#2": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_foreign_key#3": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#4": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#5": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_for_same_relation#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15819/dedup_patch_18.jsonl": {
+      "django__django-15819": {
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#1": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#2": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_foreign_key#3": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#4": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#5": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_for_same_relation#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15819/dedup_patch_2.jsonl": {
+      "django__django-15819": {
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#1": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#2": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_foreign_key#3": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#4": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#5": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_for_same_relation#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15819/dedup_patch_3.jsonl": {
+      "django__django-15819": {
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#1": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#2": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_foreign_key#3": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#4": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#5": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_for_same_relation#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15819/dedup_patch_4.jsonl": {
+      "django__django-15819": {
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#1": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#2": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_foreign_key#3": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#4": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#5": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_for_same_relation#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15819/dedup_patch_5.jsonl": {
+      "django__django-15819": {
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#1": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#2": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_foreign_key#3": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#4": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#5": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_for_same_relation#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15819/dedup_patch_6.jsonl": {
+      "django__django-15819": {
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#1": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#2": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_foreign_key#3": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#4": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#5": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_for_same_relation#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15819/dedup_patch_7.jsonl": {
+      "django__django-15819": {
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#1": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#2": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_foreign_key#3": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#4": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#5": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_for_same_relation#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15819/dedup_patch_8.jsonl": {
+      "django__django-15819": {
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#1": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#2": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_foreign_key#3": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#4": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#5": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_for_same_relation#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15819/dedup_patch_9.jsonl": {
+      "django__django-15819": {
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#1": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#2": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_foreign_key#3": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#4": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_on_same_relation#5": false,
+        "inspectdb.tests.InspectDBTestCase.test_related_name_for_same_relation#6": false
+      }
+    }
+  }
+}

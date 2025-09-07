@@ -1,0 +1,724 @@
+{
+  "regression": {
+    "all_patches/lite_claude_all_unique_patches/django__django-13033/dedup_patch_0.jsonl": {
+      "django__django-13033": {
+        "ordering.tests.OrderingTests.test_random_ordering": true,
+        "ordering.tests.OrderingTests.test_order_by_nulls_first": true,
+        "queries.tests.DisjunctionPromotionTests.test_disjunction_promotion_select_related": true,
+        "queries.tests.Queries5Tests.test_ordering": true,
+        "queries.tests.ValuesQuerysetTests.test_extra_values_order_multiple": true,
+        "ordering.tests.OrderingTests.test_order_by_constant_value": true,
+        "queries.tests.Queries4Tests.test_join_reuse_order": true,
+        "ordering.tests.OrderingTests.test_order_by_ptr_field_with_default_ordering_by_expression": true,
+        "select_related.tests.SelectRelatedTests.test_chaining": true,
+        "queries.tests.ConditionalTests.test_infinite_loop": true,
+        "ordering.tests.OrderingTests.test_reverse_ordering_pure": true,
+        "ordering.tests.OrderingTests.test_order_by_f_expression_duplicates": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-13033/dedup_patch_1.jsonl": {
+      "django__django-13033": {
+        "ordering.tests.OrderingTests.test_random_ordering": true,
+        "ordering.tests.OrderingTests.test_order_by_nulls_first": true,
+        "queries.tests.DisjunctionPromotionTests.test_disjunction_promotion_select_related": true,
+        "queries.tests.Queries5Tests.test_ordering": true,
+        "queries.tests.ValuesQuerysetTests.test_extra_values_order_multiple": true,
+        "ordering.tests.OrderingTests.test_order_by_constant_value": true,
+        "queries.tests.Queries4Tests.test_join_reuse_order": true,
+        "ordering.tests.OrderingTests.test_order_by_ptr_field_with_default_ordering_by_expression": true,
+        "select_related.tests.SelectRelatedTests.test_chaining": true,
+        "queries.tests.ConditionalTests.test_infinite_loop": true,
+        "ordering.tests.OrderingTests.test_reverse_ordering_pure": true,
+        "ordering.tests.OrderingTests.test_order_by_f_expression_duplicates": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-13033/dedup_patch_10.jsonl": {
+      "django__django-13033": {
+        "ordering.tests.OrderingTests.test_random_ordering": true,
+        "ordering.tests.OrderingTests.test_order_by_nulls_first": true,
+        "queries.tests.DisjunctionPromotionTests.test_disjunction_promotion_select_related": true,
+        "queries.tests.Queries5Tests.test_ordering": true,
+        "queries.tests.ValuesQuerysetTests.test_extra_values_order_multiple": true,
+        "ordering.tests.OrderingTests.test_order_by_constant_value": true,
+        "queries.tests.Queries4Tests.test_join_reuse_order": true,
+        "ordering.tests.OrderingTests.test_order_by_ptr_field_with_default_ordering_by_expression": false,
+        "select_related.tests.SelectRelatedTests.test_chaining": true,
+        "queries.tests.ConditionalTests.test_infinite_loop": false,
+        "ordering.tests.OrderingTests.test_reverse_ordering_pure": true,
+        "ordering.tests.OrderingTests.test_order_by_f_expression_duplicates": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-13033/dedup_patch_11.jsonl": {
+      "django__django-13033": {
+        "ordering.tests.OrderingTests.test_random_ordering": true,
+        "ordering.tests.OrderingTests.test_order_by_nulls_first": true,
+        "queries.tests.DisjunctionPromotionTests.test_disjunction_promotion_select_related": true,
+        "queries.tests.Queries5Tests.test_ordering": true,
+        "queries.tests.ValuesQuerysetTests.test_extra_values_order_multiple": true,
+        "ordering.tests.OrderingTests.test_order_by_constant_value": true,
+        "queries.tests.Queries4Tests.test_join_reuse_order": true,
+        "ordering.tests.OrderingTests.test_order_by_ptr_field_with_default_ordering_by_expression": true,
+        "select_related.tests.SelectRelatedTests.test_chaining": true,
+        "queries.tests.ConditionalTests.test_infinite_loop": true,
+        "ordering.tests.OrderingTests.test_reverse_ordering_pure": true,
+        "ordering.tests.OrderingTests.test_order_by_f_expression_duplicates": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-13033/dedup_patch_12.jsonl": {
+      "django__django-13033": {
+        "ordering.tests.OrderingTests.test_random_ordering": true,
+        "ordering.tests.OrderingTests.test_order_by_nulls_first": true,
+        "queries.tests.DisjunctionPromotionTests.test_disjunction_promotion_select_related": true,
+        "queries.tests.Queries5Tests.test_ordering": true,
+        "queries.tests.ValuesQuerysetTests.test_extra_values_order_multiple": true,
+        "ordering.tests.OrderingTests.test_order_by_constant_value": true,
+        "queries.tests.Queries4Tests.test_join_reuse_order": true,
+        "ordering.tests.OrderingTests.test_order_by_ptr_field_with_default_ordering_by_expression": true,
+        "select_related.tests.SelectRelatedTests.test_chaining": true,
+        "queries.tests.ConditionalTests.test_infinite_loop": true,
+        "ordering.tests.OrderingTests.test_reverse_ordering_pure": true,
+        "ordering.tests.OrderingTests.test_order_by_f_expression_duplicates": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-13033/dedup_patch_13.jsonl": {
+      "django__django-13033": {
+        "ordering.tests.OrderingTests.test_random_ordering": true,
+        "ordering.tests.OrderingTests.test_order_by_nulls_first": true,
+        "queries.tests.DisjunctionPromotionTests.test_disjunction_promotion_select_related": true,
+        "queries.tests.Queries5Tests.test_ordering": true,
+        "queries.tests.ValuesQuerysetTests.test_extra_values_order_multiple": true,
+        "ordering.tests.OrderingTests.test_order_by_constant_value": true,
+        "queries.tests.Queries4Tests.test_join_reuse_order": true,
+        "ordering.tests.OrderingTests.test_order_by_ptr_field_with_default_ordering_by_expression": true,
+        "select_related.tests.SelectRelatedTests.test_chaining": true,
+        "queries.tests.ConditionalTests.test_infinite_loop": true,
+        "ordering.tests.OrderingTests.test_reverse_ordering_pure": true,
+        "ordering.tests.OrderingTests.test_order_by_f_expression_duplicates": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-13033/dedup_patch_14.jsonl": {
+      "django__django-13033": {
+        "ordering.tests.OrderingTests.test_random_ordering": true,
+        "ordering.tests.OrderingTests.test_order_by_nulls_first": true,
+        "queries.tests.DisjunctionPromotionTests.test_disjunction_promotion_select_related": true,
+        "queries.tests.Queries5Tests.test_ordering": true,
+        "queries.tests.ValuesQuerysetTests.test_extra_values_order_multiple": true,
+        "ordering.tests.OrderingTests.test_order_by_constant_value": true,
+        "queries.tests.Queries4Tests.test_join_reuse_order": true,
+        "ordering.tests.OrderingTests.test_order_by_ptr_field_with_default_ordering_by_expression": true,
+        "select_related.tests.SelectRelatedTests.test_chaining": true,
+        "queries.tests.ConditionalTests.test_infinite_loop": true,
+        "ordering.tests.OrderingTests.test_reverse_ordering_pure": true,
+        "ordering.tests.OrderingTests.test_order_by_f_expression_duplicates": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-13033/dedup_patch_15.jsonl": {
+      "django__django-13033": {
+        "ordering.tests.OrderingTests.test_random_ordering": true,
+        "ordering.tests.OrderingTests.test_order_by_nulls_first": true,
+        "queries.tests.DisjunctionPromotionTests.test_disjunction_promotion_select_related": true,
+        "queries.tests.Queries5Tests.test_ordering": true,
+        "queries.tests.ValuesQuerysetTests.test_extra_values_order_multiple": true,
+        "ordering.tests.OrderingTests.test_order_by_constant_value": true,
+        "queries.tests.Queries4Tests.test_join_reuse_order": true,
+        "ordering.tests.OrderingTests.test_order_by_ptr_field_with_default_ordering_by_expression": true,
+        "select_related.tests.SelectRelatedTests.test_chaining": true,
+        "queries.tests.ConditionalTests.test_infinite_loop": true,
+        "ordering.tests.OrderingTests.test_reverse_ordering_pure": true,
+        "ordering.tests.OrderingTests.test_order_by_f_expression_duplicates": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-13033/dedup_patch_16.jsonl": {
+      "django__django-13033": {
+        "ordering.tests.OrderingTests.test_random_ordering": true,
+        "ordering.tests.OrderingTests.test_order_by_nulls_first": true,
+        "queries.tests.DisjunctionPromotionTests.test_disjunction_promotion_select_related": true,
+        "queries.tests.Queries5Tests.test_ordering": true,
+        "queries.tests.ValuesQuerysetTests.test_extra_values_order_multiple": true,
+        "ordering.tests.OrderingTests.test_order_by_constant_value": true,
+        "queries.tests.Queries4Tests.test_join_reuse_order": true,
+        "ordering.tests.OrderingTests.test_order_by_ptr_field_with_default_ordering_by_expression": true,
+        "select_related.tests.SelectRelatedTests.test_chaining": true,
+        "queries.tests.ConditionalTests.test_infinite_loop": true,
+        "ordering.tests.OrderingTests.test_reverse_ordering_pure": true,
+        "ordering.tests.OrderingTests.test_order_by_f_expression_duplicates": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-13033/dedup_patch_17.jsonl": {
+      "django__django-13033": {
+        "ordering.tests.OrderingTests.test_random_ordering": true,
+        "ordering.tests.OrderingTests.test_order_by_nulls_first": true,
+        "queries.tests.DisjunctionPromotionTests.test_disjunction_promotion_select_related": true,
+        "queries.tests.Queries5Tests.test_ordering": true,
+        "queries.tests.ValuesQuerysetTests.test_extra_values_order_multiple": true,
+        "ordering.tests.OrderingTests.test_order_by_constant_value": true,
+        "queries.tests.Queries4Tests.test_join_reuse_order": true,
+        "ordering.tests.OrderingTests.test_order_by_ptr_field_with_default_ordering_by_expression": true,
+        "select_related.tests.SelectRelatedTests.test_chaining": true,
+        "queries.tests.ConditionalTests.test_infinite_loop": true,
+        "ordering.tests.OrderingTests.test_reverse_ordering_pure": true,
+        "ordering.tests.OrderingTests.test_order_by_f_expression_duplicates": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-13033/dedup_patch_18.jsonl": {
+      "django__django-13033": {
+        "ordering.tests.OrderingTests.test_random_ordering": true,
+        "ordering.tests.OrderingTests.test_order_by_nulls_first": true,
+        "queries.tests.DisjunctionPromotionTests.test_disjunction_promotion_select_related": true,
+        "queries.tests.Queries5Tests.test_ordering": true,
+        "queries.tests.ValuesQuerysetTests.test_extra_values_order_multiple": true,
+        "ordering.tests.OrderingTests.test_order_by_constant_value": true,
+        "queries.tests.Queries4Tests.test_join_reuse_order": true,
+        "ordering.tests.OrderingTests.test_order_by_ptr_field_with_default_ordering_by_expression": true,
+        "select_related.tests.SelectRelatedTests.test_chaining": true,
+        "queries.tests.ConditionalTests.test_infinite_loop": true,
+        "ordering.tests.OrderingTests.test_reverse_ordering_pure": true,
+        "ordering.tests.OrderingTests.test_order_by_f_expression_duplicates": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-13033/dedup_patch_19.jsonl": {
+      "django__django-13033": {
+        "ordering.tests.OrderingTests.test_random_ordering": true,
+        "ordering.tests.OrderingTests.test_order_by_nulls_first": true,
+        "queries.tests.DisjunctionPromotionTests.test_disjunction_promotion_select_related": true,
+        "queries.tests.Queries5Tests.test_ordering": true,
+        "queries.tests.ValuesQuerysetTests.test_extra_values_order_multiple": true,
+        "ordering.tests.OrderingTests.test_order_by_constant_value": true,
+        "queries.tests.Queries4Tests.test_join_reuse_order": true,
+        "ordering.tests.OrderingTests.test_order_by_ptr_field_with_default_ordering_by_expression": true,
+        "select_related.tests.SelectRelatedTests.test_chaining": true,
+        "queries.tests.ConditionalTests.test_infinite_loop": true,
+        "ordering.tests.OrderingTests.test_reverse_ordering_pure": true,
+        "ordering.tests.OrderingTests.test_order_by_f_expression_duplicates": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-13033/dedup_patch_2.jsonl": {
+      "django__django-13033": {
+        "ordering.tests.OrderingTests.test_random_ordering": true,
+        "ordering.tests.OrderingTests.test_order_by_nulls_first": true,
+        "queries.tests.DisjunctionPromotionTests.test_disjunction_promotion_select_related": true,
+        "queries.tests.Queries5Tests.test_ordering": true,
+        "queries.tests.ValuesQuerysetTests.test_extra_values_order_multiple": true,
+        "ordering.tests.OrderingTests.test_order_by_constant_value": true,
+        "queries.tests.Queries4Tests.test_join_reuse_order": true,
+        "ordering.tests.OrderingTests.test_order_by_ptr_field_with_default_ordering_by_expression": true,
+        "select_related.tests.SelectRelatedTests.test_chaining": true,
+        "queries.tests.ConditionalTests.test_infinite_loop": true,
+        "ordering.tests.OrderingTests.test_reverse_ordering_pure": true,
+        "ordering.tests.OrderingTests.test_order_by_f_expression_duplicates": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-13033/dedup_patch_20.jsonl": {
+      "django__django-13033": {
+        "ordering.tests.OrderingTests.test_random_ordering": true,
+        "ordering.tests.OrderingTests.test_order_by_nulls_first": true,
+        "queries.tests.DisjunctionPromotionTests.test_disjunction_promotion_select_related": true,
+        "queries.tests.Queries5Tests.test_ordering": true,
+        "queries.tests.ValuesQuerysetTests.test_extra_values_order_multiple": true,
+        "ordering.tests.OrderingTests.test_order_by_constant_value": true,
+        "queries.tests.Queries4Tests.test_join_reuse_order": true,
+        "ordering.tests.OrderingTests.test_order_by_ptr_field_with_default_ordering_by_expression": true,
+        "select_related.tests.SelectRelatedTests.test_chaining": true,
+        "queries.tests.ConditionalTests.test_infinite_loop": true,
+        "ordering.tests.OrderingTests.test_reverse_ordering_pure": true,
+        "ordering.tests.OrderingTests.test_order_by_f_expression_duplicates": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-13033/dedup_patch_21.jsonl": {
+      "django__django-13033": {
+        "ordering.tests.OrderingTests.test_random_ordering": true,
+        "ordering.tests.OrderingTests.test_order_by_nulls_first": true,
+        "queries.tests.DisjunctionPromotionTests.test_disjunction_promotion_select_related": true,
+        "queries.tests.Queries5Tests.test_ordering": true,
+        "queries.tests.ValuesQuerysetTests.test_extra_values_order_multiple": true,
+        "ordering.tests.OrderingTests.test_order_by_constant_value": true,
+        "queries.tests.Queries4Tests.test_join_reuse_order": true,
+        "ordering.tests.OrderingTests.test_order_by_ptr_field_with_default_ordering_by_expression": true,
+        "select_related.tests.SelectRelatedTests.test_chaining": true,
+        "queries.tests.ConditionalTests.test_infinite_loop": true,
+        "ordering.tests.OrderingTests.test_reverse_ordering_pure": true,
+        "ordering.tests.OrderingTests.test_order_by_f_expression_duplicates": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-13033/dedup_patch_22.jsonl": {
+      "django__django-13033": {
+        "ordering.tests.OrderingTests.test_random_ordering": true,
+        "ordering.tests.OrderingTests.test_order_by_nulls_first": true,
+        "queries.tests.DisjunctionPromotionTests.test_disjunction_promotion_select_related": true,
+        "queries.tests.Queries5Tests.test_ordering": false,
+        "queries.tests.ValuesQuerysetTests.test_extra_values_order_multiple": true,
+        "ordering.tests.OrderingTests.test_order_by_constant_value": true,
+        "queries.tests.Queries4Tests.test_join_reuse_order": true,
+        "ordering.tests.OrderingTests.test_order_by_ptr_field_with_default_ordering_by_expression": false,
+        "select_related.tests.SelectRelatedTests.test_chaining": true,
+        "queries.tests.ConditionalTests.test_infinite_loop": false,
+        "ordering.tests.OrderingTests.test_reverse_ordering_pure": true,
+        "ordering.tests.OrderingTests.test_order_by_f_expression_duplicates": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-13033/dedup_patch_23.jsonl": {
+      "django__django-13033": {
+        "ordering.tests.OrderingTests.test_random_ordering": true,
+        "ordering.tests.OrderingTests.test_order_by_nulls_first": true,
+        "queries.tests.DisjunctionPromotionTests.test_disjunction_promotion_select_related": true,
+        "queries.tests.Queries5Tests.test_ordering": true,
+        "queries.tests.ValuesQuerysetTests.test_extra_values_order_multiple": true,
+        "ordering.tests.OrderingTests.test_order_by_constant_value": true,
+        "queries.tests.Queries4Tests.test_join_reuse_order": true,
+        "ordering.tests.OrderingTests.test_order_by_ptr_field_with_default_ordering_by_expression": true,
+        "select_related.tests.SelectRelatedTests.test_chaining": true,
+        "queries.tests.ConditionalTests.test_infinite_loop": true,
+        "ordering.tests.OrderingTests.test_reverse_ordering_pure": true,
+        "ordering.tests.OrderingTests.test_order_by_f_expression_duplicates": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-13033/dedup_patch_24.jsonl": {
+      "django__django-13033": {
+        "ordering.tests.OrderingTests.test_random_ordering": true,
+        "ordering.tests.OrderingTests.test_order_by_nulls_first": true,
+        "queries.tests.DisjunctionPromotionTests.test_disjunction_promotion_select_related": true,
+        "queries.tests.Queries5Tests.test_ordering": true,
+        "queries.tests.ValuesQuerysetTests.test_extra_values_order_multiple": true,
+        "ordering.tests.OrderingTests.test_order_by_constant_value": true,
+        "queries.tests.Queries4Tests.test_join_reuse_order": true,
+        "ordering.tests.OrderingTests.test_order_by_ptr_field_with_default_ordering_by_expression": true,
+        "select_related.tests.SelectRelatedTests.test_chaining": true,
+        "queries.tests.ConditionalTests.test_infinite_loop": true,
+        "ordering.tests.OrderingTests.test_reverse_ordering_pure": true,
+        "ordering.tests.OrderingTests.test_order_by_f_expression_duplicates": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-13033/dedup_patch_25.jsonl": {
+      "django__django-13033": {
+        "ordering.tests.OrderingTests.test_random_ordering": true,
+        "ordering.tests.OrderingTests.test_order_by_nulls_first": true,
+        "queries.tests.DisjunctionPromotionTests.test_disjunction_promotion_select_related": true,
+        "queries.tests.Queries5Tests.test_ordering": true,
+        "queries.tests.ValuesQuerysetTests.test_extra_values_order_multiple": true,
+        "ordering.tests.OrderingTests.test_order_by_constant_value": true,
+        "queries.tests.Queries4Tests.test_join_reuse_order": true,
+        "ordering.tests.OrderingTests.test_order_by_ptr_field_with_default_ordering_by_expression": true,
+        "select_related.tests.SelectRelatedTests.test_chaining": true,
+        "queries.tests.ConditionalTests.test_infinite_loop": true,
+        "ordering.tests.OrderingTests.test_reverse_ordering_pure": true,
+        "ordering.tests.OrderingTests.test_order_by_f_expression_duplicates": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-13033/dedup_patch_26.jsonl": {
+      "django__django-13033": {
+        "ordering.tests.OrderingTests.test_random_ordering": true,
+        "ordering.tests.OrderingTests.test_order_by_nulls_first": true,
+        "queries.tests.DisjunctionPromotionTests.test_disjunction_promotion_select_related": true,
+        "queries.tests.Queries5Tests.test_ordering": true,
+        "queries.tests.ValuesQuerysetTests.test_extra_values_order_multiple": true,
+        "ordering.tests.OrderingTests.test_order_by_constant_value": true,
+        "queries.tests.Queries4Tests.test_join_reuse_order": true,
+        "ordering.tests.OrderingTests.test_order_by_ptr_field_with_default_ordering_by_expression": true,
+        "select_related.tests.SelectRelatedTests.test_chaining": true,
+        "queries.tests.ConditionalTests.test_infinite_loop": true,
+        "ordering.tests.OrderingTests.test_reverse_ordering_pure": true,
+        "ordering.tests.OrderingTests.test_order_by_f_expression_duplicates": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-13033/dedup_patch_27.jsonl": {
+      "django__django-13033": {
+        "ordering.tests.OrderingTests.test_random_ordering": true,
+        "ordering.tests.OrderingTests.test_order_by_nulls_first": true,
+        "queries.tests.DisjunctionPromotionTests.test_disjunction_promotion_select_related": true,
+        "queries.tests.Queries5Tests.test_ordering": true,
+        "queries.tests.ValuesQuerysetTests.test_extra_values_order_multiple": true,
+        "ordering.tests.OrderingTests.test_order_by_constant_value": true,
+        "queries.tests.Queries4Tests.test_join_reuse_order": true,
+        "ordering.tests.OrderingTests.test_order_by_ptr_field_with_default_ordering_by_expression": true,
+        "select_related.tests.SelectRelatedTests.test_chaining": true,
+        "queries.tests.ConditionalTests.test_infinite_loop": true,
+        "ordering.tests.OrderingTests.test_reverse_ordering_pure": true,
+        "ordering.tests.OrderingTests.test_order_by_f_expression_duplicates": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-13033/dedup_patch_3.jsonl": {
+      "django__django-13033": {
+        "ordering.tests.OrderingTests.test_random_ordering": true,
+        "ordering.tests.OrderingTests.test_order_by_nulls_first": true,
+        "queries.tests.DisjunctionPromotionTests.test_disjunction_promotion_select_related": true,
+        "queries.tests.Queries5Tests.test_ordering": true,
+        "queries.tests.ValuesQuerysetTests.test_extra_values_order_multiple": true,
+        "ordering.tests.OrderingTests.test_order_by_constant_value": true,
+        "queries.tests.Queries4Tests.test_join_reuse_order": true,
+        "ordering.tests.OrderingTests.test_order_by_ptr_field_with_default_ordering_by_expression": true,
+        "select_related.tests.SelectRelatedTests.test_chaining": true,
+        "queries.tests.ConditionalTests.test_infinite_loop": true,
+        "ordering.tests.OrderingTests.test_reverse_ordering_pure": true,
+        "ordering.tests.OrderingTests.test_order_by_f_expression_duplicates": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-13033/dedup_patch_4.jsonl": {
+      "django__django-13033": {
+        "ordering.tests.OrderingTests.test_random_ordering": true,
+        "ordering.tests.OrderingTests.test_order_by_nulls_first": true,
+        "queries.tests.DisjunctionPromotionTests.test_disjunction_promotion_select_related": true,
+        "queries.tests.Queries5Tests.test_ordering": true,
+        "queries.tests.ValuesQuerysetTests.test_extra_values_order_multiple": true,
+        "ordering.tests.OrderingTests.test_order_by_constant_value": true,
+        "queries.tests.Queries4Tests.test_join_reuse_order": true,
+        "ordering.tests.OrderingTests.test_order_by_ptr_field_with_default_ordering_by_expression": true,
+        "select_related.tests.SelectRelatedTests.test_chaining": true,
+        "queries.tests.ConditionalTests.test_infinite_loop": true,
+        "ordering.tests.OrderingTests.test_reverse_ordering_pure": true,
+        "ordering.tests.OrderingTests.test_order_by_f_expression_duplicates": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-13033/dedup_patch_5.jsonl": {
+      "django__django-13033": {
+        "ordering.tests.OrderingTests.test_random_ordering": true,
+        "ordering.tests.OrderingTests.test_order_by_nulls_first": true,
+        "queries.tests.DisjunctionPromotionTests.test_disjunction_promotion_select_related": true,
+        "queries.tests.Queries5Tests.test_ordering": true,
+        "queries.tests.ValuesQuerysetTests.test_extra_values_order_multiple": true,
+        "ordering.tests.OrderingTests.test_order_by_constant_value": true,
+        "queries.tests.Queries4Tests.test_join_reuse_order": true,
+        "ordering.tests.OrderingTests.test_order_by_ptr_field_with_default_ordering_by_expression": true,
+        "select_related.tests.SelectRelatedTests.test_chaining": true,
+        "queries.tests.ConditionalTests.test_infinite_loop": true,
+        "ordering.tests.OrderingTests.test_reverse_ordering_pure": true,
+        "ordering.tests.OrderingTests.test_order_by_f_expression_duplicates": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-13033/dedup_patch_6.jsonl": {
+      "django__django-13033": {
+        "ordering.tests.OrderingTests.test_random_ordering": true,
+        "ordering.tests.OrderingTests.test_order_by_nulls_first": true,
+        "queries.tests.DisjunctionPromotionTests.test_disjunction_promotion_select_related": true,
+        "queries.tests.Queries5Tests.test_ordering": true,
+        "queries.tests.ValuesQuerysetTests.test_extra_values_order_multiple": true,
+        "ordering.tests.OrderingTests.test_order_by_constant_value": true,
+        "queries.tests.Queries4Tests.test_join_reuse_order": true,
+        "ordering.tests.OrderingTests.test_order_by_ptr_field_with_default_ordering_by_expression": true,
+        "select_related.tests.SelectRelatedTests.test_chaining": true,
+        "queries.tests.ConditionalTests.test_infinite_loop": true,
+        "ordering.tests.OrderingTests.test_reverse_ordering_pure": true,
+        "ordering.tests.OrderingTests.test_order_by_f_expression_duplicates": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-13033/dedup_patch_7.jsonl": {
+      "django__django-13033": {
+        "ordering.tests.OrderingTests.test_random_ordering": true,
+        "ordering.tests.OrderingTests.test_order_by_nulls_first": true,
+        "queries.tests.DisjunctionPromotionTests.test_disjunction_promotion_select_related": true,
+        "queries.tests.Queries5Tests.test_ordering": true,
+        "queries.tests.ValuesQuerysetTests.test_extra_values_order_multiple": true,
+        "ordering.tests.OrderingTests.test_order_by_constant_value": true,
+        "queries.tests.Queries4Tests.test_join_reuse_order": true,
+        "ordering.tests.OrderingTests.test_order_by_ptr_field_with_default_ordering_by_expression": true,
+        "select_related.tests.SelectRelatedTests.test_chaining": true,
+        "queries.tests.ConditionalTests.test_infinite_loop": true,
+        "ordering.tests.OrderingTests.test_reverse_ordering_pure": true,
+        "ordering.tests.OrderingTests.test_order_by_f_expression_duplicates": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-13033/dedup_patch_8.jsonl": {
+      "django__django-13033": {
+        "ordering.tests.OrderingTests.test_random_ordering": true,
+        "ordering.tests.OrderingTests.test_order_by_nulls_first": true,
+        "queries.tests.DisjunctionPromotionTests.test_disjunction_promotion_select_related": true,
+        "queries.tests.Queries5Tests.test_ordering": true,
+        "queries.tests.ValuesQuerysetTests.test_extra_values_order_multiple": true,
+        "ordering.tests.OrderingTests.test_order_by_constant_value": true,
+        "queries.tests.Queries4Tests.test_join_reuse_order": true,
+        "ordering.tests.OrderingTests.test_order_by_ptr_field_with_default_ordering_by_expression": true,
+        "select_related.tests.SelectRelatedTests.test_chaining": true,
+        "queries.tests.ConditionalTests.test_infinite_loop": true,
+        "ordering.tests.OrderingTests.test_reverse_ordering_pure": true,
+        "ordering.tests.OrderingTests.test_order_by_f_expression_duplicates": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-13033/dedup_patch_9.jsonl": {
+      "django__django-13033": {
+        "ordering.tests.OrderingTests.test_random_ordering": true,
+        "ordering.tests.OrderingTests.test_order_by_nulls_first": true,
+        "queries.tests.DisjunctionPromotionTests.test_disjunction_promotion_select_related": true,
+        "queries.tests.Queries5Tests.test_ordering": true,
+        "queries.tests.ValuesQuerysetTests.test_extra_values_order_multiple": true,
+        "ordering.tests.OrderingTests.test_order_by_constant_value": true,
+        "queries.tests.Queries4Tests.test_join_reuse_order": true,
+        "ordering.tests.OrderingTests.test_order_by_ptr_field_with_default_ordering_by_expression": true,
+        "select_related.tests.SelectRelatedTests.test_chaining": true,
+        "queries.tests.ConditionalTests.test_infinite_loop": true,
+        "ordering.tests.OrderingTests.test_reverse_ordering_pure": true,
+        "ordering.tests.OrderingTests.test_order_by_f_expression_duplicates": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-13033": {
+        "ordering.tests.OrderingTests.test_order_by_self_referencing_fk_id#1": true,
+        "ordering.tests.OrderingTests.test_self_referencing_fk_ordering_by_id#2": true,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#3": true,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#4": true,
+        "ordering.tests.OrderingTests.test_order_by_self_referencing_fk_attname#5": true,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#6": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-13033/dedup_patch_0.jsonl": {
+      "django__django-13033": {
+        "ordering.tests.OrderingTests.test_order_by_self_referencing_fk_id#1": false,
+        "ordering.tests.OrderingTests.test_self_referencing_fk_ordering_by_id#2": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#3": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#4": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referencing_fk_attname#5": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-13033/dedup_patch_1.jsonl": {
+      "django__django-13033": {
+        "ordering.tests.OrderingTests.test_order_by_self_referencing_fk_id#1": false,
+        "ordering.tests.OrderingTests.test_self_referencing_fk_ordering_by_id#2": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#3": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#4": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referencing_fk_attname#5": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-13033/dedup_patch_11.jsonl": {
+      "django__django-13033": {
+        "ordering.tests.OrderingTests.test_order_by_self_referencing_fk_id#1": false,
+        "ordering.tests.OrderingTests.test_self_referencing_fk_ordering_by_id#2": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#3": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#4": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referencing_fk_attname#5": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-13033/dedup_patch_12.jsonl": {
+      "django__django-13033": {
+        "ordering.tests.OrderingTests.test_order_by_self_referencing_fk_id#1": false,
+        "ordering.tests.OrderingTests.test_self_referencing_fk_ordering_by_id#2": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#3": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#4": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referencing_fk_attname#5": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-13033/dedup_patch_13.jsonl": {
+      "django__django-13033": {
+        "ordering.tests.OrderingTests.test_order_by_self_referencing_fk_id#1": false,
+        "ordering.tests.OrderingTests.test_self_referencing_fk_ordering_by_id#2": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#3": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#4": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referencing_fk_attname#5": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-13033/dedup_patch_14.jsonl": {
+      "django__django-13033": {
+        "ordering.tests.OrderingTests.test_order_by_self_referencing_fk_id#1": false,
+        "ordering.tests.OrderingTests.test_self_referencing_fk_ordering_by_id#2": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#3": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#4": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referencing_fk_attname#5": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-13033/dedup_patch_15.jsonl": {
+      "django__django-13033": {
+        "ordering.tests.OrderingTests.test_order_by_self_referencing_fk_id#1": false,
+        "ordering.tests.OrderingTests.test_self_referencing_fk_ordering_by_id#2": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#3": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#4": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referencing_fk_attname#5": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-13033/dedup_patch_16.jsonl": {
+      "django__django-13033": {
+        "ordering.tests.OrderingTests.test_order_by_self_referencing_fk_id#1": false,
+        "ordering.tests.OrderingTests.test_self_referencing_fk_ordering_by_id#2": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#3": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#4": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referencing_fk_attname#5": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-13033/dedup_patch_17.jsonl": {
+      "django__django-13033": {
+        "ordering.tests.OrderingTests.test_order_by_self_referencing_fk_id#1": false,
+        "ordering.tests.OrderingTests.test_self_referencing_fk_ordering_by_id#2": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#3": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#4": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referencing_fk_attname#5": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-13033/dedup_patch_18.jsonl": {
+      "django__django-13033": {
+        "ordering.tests.OrderingTests.test_order_by_self_referencing_fk_id#1": false,
+        "ordering.tests.OrderingTests.test_self_referencing_fk_ordering_by_id#2": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#3": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#4": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referencing_fk_attname#5": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-13033/dedup_patch_19.jsonl": {
+      "django__django-13033": {
+        "ordering.tests.OrderingTests.test_order_by_self_referencing_fk_id#1": false,
+        "ordering.tests.OrderingTests.test_self_referencing_fk_ordering_by_id#2": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#3": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#4": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referencing_fk_attname#5": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-13033/dedup_patch_2.jsonl": {
+      "django__django-13033": {
+        "ordering.tests.OrderingTests.test_order_by_self_referencing_fk_id#1": false,
+        "ordering.tests.OrderingTests.test_self_referencing_fk_ordering_by_id#2": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#3": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#4": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referencing_fk_attname#5": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-13033/dedup_patch_20.jsonl": {
+      "django__django-13033": {
+        "ordering.tests.OrderingTests.test_order_by_self_referencing_fk_id#1": false,
+        "ordering.tests.OrderingTests.test_self_referencing_fk_ordering_by_id#2": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#3": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#4": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referencing_fk_attname#5": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-13033/dedup_patch_21.jsonl": {
+      "django__django-13033": {
+        "ordering.tests.OrderingTests.test_order_by_self_referencing_fk_id#1": false,
+        "ordering.tests.OrderingTests.test_self_referencing_fk_ordering_by_id#2": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#3": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#4": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referencing_fk_attname#5": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-13033/dedup_patch_23.jsonl": {
+      "django__django-13033": {
+        "ordering.tests.OrderingTests.test_order_by_self_referencing_fk_id#1": false,
+        "ordering.tests.OrderingTests.test_self_referencing_fk_ordering_by_id#2": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#3": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#4": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referencing_fk_attname#5": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-13033/dedup_patch_24.jsonl": {
+      "django__django-13033": {
+        "ordering.tests.OrderingTests.test_order_by_self_referencing_fk_id#1": false,
+        "ordering.tests.OrderingTests.test_self_referencing_fk_ordering_by_id#2": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#3": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#4": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referencing_fk_attname#5": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-13033/dedup_patch_25.jsonl": {
+      "django__django-13033": {
+        "ordering.tests.OrderingTests.test_order_by_self_referencing_fk_id#1": false,
+        "ordering.tests.OrderingTests.test_self_referencing_fk_ordering_by_id#2": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#3": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#4": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referencing_fk_attname#5": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-13033/dedup_patch_26.jsonl": {
+      "django__django-13033": {
+        "ordering.tests.OrderingTests.test_order_by_self_referencing_fk_id#1": false,
+        "ordering.tests.OrderingTests.test_self_referencing_fk_ordering_by_id#2": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#3": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#4": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referencing_fk_attname#5": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-13033/dedup_patch_27.jsonl": {
+      "django__django-13033": {
+        "ordering.tests.OrderingTests.test_order_by_self_referencing_fk_id#1": false,
+        "ordering.tests.OrderingTests.test_self_referencing_fk_ordering_by_id#2": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#3": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#4": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referencing_fk_attname#5": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-13033/dedup_patch_3.jsonl": {
+      "django__django-13033": {
+        "ordering.tests.OrderingTests.test_order_by_self_referencing_fk_id#1": false,
+        "ordering.tests.OrderingTests.test_self_referencing_fk_ordering_by_id#2": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#3": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#4": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referencing_fk_attname#5": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-13033/dedup_patch_4.jsonl": {
+      "django__django-13033": {
+        "ordering.tests.OrderingTests.test_order_by_self_referencing_fk_id#1": false,
+        "ordering.tests.OrderingTests.test_self_referencing_fk_ordering_by_id#2": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#3": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#4": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referencing_fk_attname#5": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-13033/dedup_patch_5.jsonl": {
+      "django__django-13033": {
+        "ordering.tests.OrderingTests.test_order_by_self_referencing_fk_id#1": false,
+        "ordering.tests.OrderingTests.test_self_referencing_fk_ordering_by_id#2": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#3": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#4": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referencing_fk_attname#5": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-13033/dedup_patch_6.jsonl": {
+      "django__django-13033": {
+        "ordering.tests.OrderingTests.test_order_by_self_referencing_fk_id#1": false,
+        "ordering.tests.OrderingTests.test_self_referencing_fk_ordering_by_id#2": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#3": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#4": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referencing_fk_attname#5": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-13033/dedup_patch_7.jsonl": {
+      "django__django-13033": {
+        "ordering.tests.OrderingTests.test_order_by_self_referencing_fk_id#1": false,
+        "ordering.tests.OrderingTests.test_self_referencing_fk_ordering_by_id#2": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#3": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#4": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referencing_fk_attname#5": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-13033/dedup_patch_8.jsonl": {
+      "django__django-13033": {
+        "ordering.tests.OrderingTests.test_order_by_self_referencing_fk_id#1": false,
+        "ordering.tests.OrderingTests.test_self_referencing_fk_ordering_by_id#2": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#3": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#4": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referencing_fk_attname#5": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-13033/dedup_patch_9.jsonl": {
+      "django__django-13033": {
+        "ordering.tests.OrderingTests.test_order_by_self_referencing_fk_id#1": false,
+        "ordering.tests.OrderingTests.test_self_referencing_fk_ordering_by_id#2": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#3": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#4": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referencing_fk_attname#5": false,
+        "ordering.tests.OrderingTests.test_order_by_self_referential_fk_id#6": false
+      }
+    }
+  }
+}

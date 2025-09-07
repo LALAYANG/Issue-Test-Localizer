@@ -1,0 +1,11 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/django__django-16502/dedup_patch_0.jsonl": {
+      "django__django-16502": {
+        "servers.tests.SingleThreadLiveServerViews.test_closes_connection_with_content_length": false,
+        "servers.test_basehttp.WSGIRequestHandlerTestCase.test_strips_underscore_headers": false
+      }
+    }
+  },
+  "reproduction": {}
+}

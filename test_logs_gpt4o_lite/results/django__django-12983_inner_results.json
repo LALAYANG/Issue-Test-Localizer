@@ -1,0 +1,168 @@
+{
+  "regression": {
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12983/dedup_patch_0.jsonl": {
+      "django__django-12983": {
+        "utils_tests.test_text.TestUtilsText.test_slugify": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12983/dedup_patch_1.jsonl": {
+      "django__django-12983": {
+        "utils_tests.test_text.TestUtilsText.test_slugify": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12983/dedup_patch_2.jsonl": {
+      "django__django-12983": {
+        "utils_tests.test_text.TestUtilsText.test_slugify": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12983/dedup_patch_3.jsonl": {
+      "django__django-12983": {
+        "utils_tests.test_text.TestUtilsText.test_slugify": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12983/dedup_patch_4.jsonl": {
+      "django__django-12983": {
+        "utils_tests.test_text.TestUtilsText.test_slugify": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12983/dedup_patch_5.jsonl": {
+      "django__django-12983": {
+        "utils_tests.test_text.TestUtilsText.test_slugify": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12983/dedup_patch_6.jsonl": {
+      "django__django-12983": {
+        "utils_tests.test_text.TestUtilsText.test_slugify": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12983/dedup_patch_7.jsonl": {
+      "django__django-12983": {
+        "utils_tests.test_text.TestUtilsText.test_slugify": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12983/dedup_patch_8.jsonl": {
+      "django__django-12983": {
+        "utils_tests.test_text.TestUtilsText.test_slugify": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-12983": {
+        "utils_tests.test_text.TestUtilsText.test_slugify#1": true,
+        "utils_tests.test_text.TestUtilsText.test_slugify#2": true,
+        "utils_tests.test_text.TestUtilsText.test_slugify#3": true,
+        "utils_tests.test_text.TestUtilsText.test_slugify#4": true,
+        "utils_tests.test_text.TestUtilsText.test_slugify#5": true,
+        "utils_tests.test_text.TestUtilsText.test_slugify#6": true,
+        "utils_tests.test_text.TestUtilsText.test_slugify#7": true,
+        "utils_tests.test_text.TestUtilsText.test_slugify#8": true,
+        "utils_tests.test_text.TestUtilsText.test_slugify#9": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12983/dedup_patch_0.jsonl": {
+      "django__django-12983": {
+        "utils_tests.test_text.TestUtilsText.test_slugify#1": false,
+        "utils_tests.test_text.TestUtilsText.test_slugify#2": false,
+        "utils_tests.test_text.TestUtilsText.test_slugify#3": false,
+        "utils_tests.test_text.TestUtilsText.test_slugify#4": false,
+        "utils_tests.test_text.TestUtilsText.test_slugify#5": true,
+        "utils_tests.test_text.TestUtilsText.test_slugify#6": false,
+        "utils_tests.test_text.TestUtilsText.test_slugify#7": false,
+        "utils_tests.test_text.TestUtilsText.test_slugify#8": false,
+        "utils_tests.test_text.TestUtilsText.test_slugify#9": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12983/dedup_patch_1.jsonl": {
+      "django__django-12983": {
+        "utils_tests.test_text.TestUtilsText.test_slugify#1": false,
+        "utils_tests.test_text.TestUtilsText.test_slugify#2": false,
+        "utils_tests.test_text.TestUtilsText.test_slugify#3": false,
+        "utils_tests.test_text.TestUtilsText.test_slugify#4": false,
+        "utils_tests.test_text.TestUtilsText.test_slugify#5": true,
+        "utils_tests.test_text.TestUtilsText.test_slugify#6": false,
+        "utils_tests.test_text.TestUtilsText.test_slugify#7": false,
+        "utils_tests.test_text.TestUtilsText.test_slugify#8": false,
+        "utils_tests.test_text.TestUtilsText.test_slugify#9": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12983/dedup_patch_2.jsonl": {
+      "django__django-12983": {
+        "utils_tests.test_text.TestUtilsText.test_slugify#1": false,
+        "utils_tests.test_text.TestUtilsText.test_slugify#2": false,
+        "utils_tests.test_text.TestUtilsText.test_slugify#3": false,
+        "utils_tests.test_text.TestUtilsText.test_slugify#4": false,
+        "utils_tests.test_text.TestUtilsText.test_slugify#5": true,
+        "utils_tests.test_text.TestUtilsText.test_slugify#6": false,
+        "utils_tests.test_text.TestUtilsText.test_slugify#7": false,
+        "utils_tests.test_text.TestUtilsText.test_slugify#8": false,
+        "utils_tests.test_text.TestUtilsText.test_slugify#9": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12983/dedup_patch_3.jsonl": {
+      "django__django-12983": {
+        "utils_tests.test_text.TestUtilsText.test_slugify#1": false,
+        "utils_tests.test_text.TestUtilsText.test_slugify#2": false,
+        "utils_tests.test_text.TestUtilsText.test_slugify#3": false,
+        "utils_tests.test_text.TestUtilsText.test_slugify#4": false,
+        "utils_tests.test_text.TestUtilsText.test_slugify#5": false,
+        "utils_tests.test_text.TestUtilsText.test_slugify#6": false,
+        "utils_tests.test_text.TestUtilsText.test_slugify#7": false,
+        "utils_tests.test_text.TestUtilsText.test_slugify#8": false,
+        "utils_tests.test_text.TestUtilsText.test_slugify#9": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12983/dedup_patch_5.jsonl": {
+      "django__django-12983": {
+        "utils_tests.test_text.TestUtilsText.test_slugify#1": false,
+        "utils_tests.test_text.TestUtilsText.test_slugify#2": false,
+        "utils_tests.test_text.TestUtilsText.test_slugify#3": false,
+        "utils_tests.test_text.TestUtilsText.test_slugify#4": false,
+        "utils_tests.test_text.TestUtilsText.test_slugify#5": true,
+        "utils_tests.test_text.TestUtilsText.test_slugify#6": false,
+        "utils_tests.test_text.TestUtilsText.test_slugify#7": false,
+        "utils_tests.test_text.TestUtilsText.test_slugify#8": false,
+        "utils_tests.test_text.TestUtilsText.test_slugify#9": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12983/dedup_patch_6.jsonl": {
+      "django__django-12983": {
+        "utils_tests.test_text.TestUtilsText.test_slugify#1": false,
+        "utils_tests.test_text.TestUtilsText.test_slugify#2": false,
+        "utils_tests.test_text.TestUtilsText.test_slugify#3": false,
+        "utils_tests.test_text.TestUtilsText.test_slugify#4": false,
+        "utils_tests.test_text.TestUtilsText.test_slugify#5": true,
+        "utils_tests.test_text.TestUtilsText.test_slugify#6": false,
+        "utils_tests.test_text.TestUtilsText.test_slugify#7": false,
+        "utils_tests.test_text.TestUtilsText.test_slugify#8": false,
+        "utils_tests.test_text.TestUtilsText.test_slugify#9": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12983/dedup_patch_7.jsonl": {
+      "django__django-12983": {
+        "utils_tests.test_text.TestUtilsText.test_slugify#1": false,
+        "utils_tests.test_text.TestUtilsText.test_slugify#2": false,
+        "utils_tests.test_text.TestUtilsText.test_slugify#3": false,
+        "utils_tests.test_text.TestUtilsText.test_slugify#4": false,
+        "utils_tests.test_text.TestUtilsText.test_slugify#5": false,
+        "utils_tests.test_text.TestUtilsText.test_slugify#6": false,
+        "utils_tests.test_text.TestUtilsText.test_slugify#7": false,
+        "utils_tests.test_text.TestUtilsText.test_slugify#8": false,
+        "utils_tests.test_text.TestUtilsText.test_slugify#9": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12983/dedup_patch_8.jsonl": {
+      "django__django-12983": {
+        "utils_tests.test_text.TestUtilsText.test_slugify#1": false,
+        "utils_tests.test_text.TestUtilsText.test_slugify#2": false,
+        "utils_tests.test_text.TestUtilsText.test_slugify#3": false,
+        "utils_tests.test_text.TestUtilsText.test_slugify#4": false,
+        "utils_tests.test_text.TestUtilsText.test_slugify#5": true,
+        "utils_tests.test_text.TestUtilsText.test_slugify#6": false,
+        "utils_tests.test_text.TestUtilsText.test_slugify#7": false,
+        "utils_tests.test_text.TestUtilsText.test_slugify#8": false,
+        "utils_tests.test_text.TestUtilsText.test_slugify#9": false
+      }
+    }
+  }
+}

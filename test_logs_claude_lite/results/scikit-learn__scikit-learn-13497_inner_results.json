@@ -1,0 +1,28 @@
+{
+  "regression": {
+    "all_patches/lite_claude_all_unique_patches/scikit-learn__scikit-learn-13497/dedup_patch_0.jsonl": {
+      "scikit-learn__scikit-learn-13497": {
+        "sklearn/feature_selection/tests/test_mutual_info.py::test_mutual_info_options": true,
+        "sklearn/feature_selection/tests/test_mutual_info.py::test_mutual_info_classif_mixed": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/scikit-learn__scikit-learn-13497/dedup_patch_1.jsonl": {
+      "scikit-learn__scikit-learn-13497": {
+        "sklearn/feature_selection/tests/test_mutual_info.py::test_mutual_info_options": true,
+        "sklearn/feature_selection/tests/test_mutual_info.py::test_mutual_info_classif_mixed": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "scikit-learn__scikit-learn-13497": {
+        "sklearn/feature_selection/tests/test_mutual_info.py::test_mutual_info_options#1": false,
+        "sklearn/feature_selection/tests/test_mutual_info.py::test_mutual_info_options#2": false,
+        "sklearn/feature_selection/tests/test_mutual_info.py::test_mutual_info_options#3": false,
+        "sklearn/feature_selection/tests/test_mutual_info.py::test_mutual_info_classif_mixed#4": false,
+        "sklearn/feature_selection/tests/test_mutual_info.py::test_mutual_info_options#5": false,
+        "sklearn/feature_selection/tests/test_mutual_info.py::test_mutual_info_options#6": false
+      }
+    }
+  }
+}

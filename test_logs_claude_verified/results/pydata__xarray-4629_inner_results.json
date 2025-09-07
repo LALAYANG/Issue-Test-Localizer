@@ -1,0 +1,32 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-4629/dedup_patch_0.jsonl": {
+      "pydata__xarray-4629": {
+        "xarray/tests/test_merge.py::TestMergeMethod::test_merge": true,
+        "xarray/tests/test_merge.py::TestMergeFunction::test_merge_arrays_attrs": true,
+        "xarray/tests/test_merge.py::TestMergeFunction::test_merge_wrong_input_error": true,
+        "xarray/tests/test_merge.py::TestMergeMethod::test_merge_compat": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "pydata__xarray-4629": {
+        "xarray/tests/test_merge.py::TestMergeMethod::test_merge_attrs_override_copy#1": true,
+        "xarray/tests/test_merge.py::TestMergeMethod::test_merge_override_attrs_copy#2": true,
+        "xarray/tests/test_merge.py::TestMergeFunction::test_merge_override_attrs_copy#3": true,
+        "xarray/tests/test_merge.py::TestMergeFunction::test_merge_attrs_override_copies_not_references#4": true,
+        "xarray/tests/test_merge.py::TestMergeFunction::test_merge_attrs_override_copies_not_references#5": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-4629/dedup_patch_0.jsonl": {
+      "pydata__xarray-4629": {
+        "xarray/tests/test_merge.py::TestMergeMethod::test_merge_attrs_override_copy#1": true,
+        "xarray/tests/test_merge.py::TestMergeMethod::test_merge_override_attrs_copy#2": false,
+        "xarray/tests/test_merge.py::TestMergeFunction::test_merge_override_attrs_copy#3": true,
+        "xarray/tests/test_merge.py::TestMergeFunction::test_merge_attrs_override_copies_not_references#4": true,
+        "xarray/tests/test_merge.py::TestMergeFunction::test_merge_attrs_override_copies_not_references#5": true
+      }
+    }
+  }
+}

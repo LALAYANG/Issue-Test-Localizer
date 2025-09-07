@@ -1,0 +1,22 @@
+{
+  "regression": {
+    "all_patches/lite_claude_all_unique_patches/django__django-12453/dedup_patch_0.jsonl": {
+      "django__django-12453": {
+        "test_runner.test_debug_sql.TestDebugSQL.test_output_normal": true,
+        "test_runner.test_debug_sql.TestDebugSQL.test_output_verbose": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-12453": {
+        "backends.base.test_creation.TestDbCreationTests.test_deserialize_db_from_string_atomic#1": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12453/dedup_patch_0.jsonl": {
+      "django__django-12453": {
+        "backends.base.test_creation.TestDbCreationTests.test_deserialize_db_from_string_atomic#1": false
+      }
+    }
+  }
+}

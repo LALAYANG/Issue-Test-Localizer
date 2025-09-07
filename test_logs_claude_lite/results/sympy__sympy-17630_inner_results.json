@@ -1,0 +1,775 @@
+{
+  "regression": {
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-17630/dedup_patch_0.jsonl": {
+      "sympy__sympy-17630": {
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_generic_identity": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_bc_matmul": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_MatMul_postprocessor": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_reblock_2x2": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_matmul_no_matrices": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_Determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_squareBlockMatrix": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_trace": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockDiagMatrix": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_adjoint": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_blockcut": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_issue_12950": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_matrixelement_diff": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-17630/dedup_patch_1.jsonl": {
+      "sympy__sympy-17630": {
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix": false,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_generic_identity": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_bc_matmul": false,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_MatMul_postprocessor": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_reblock_2x2": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_matmul_no_matrices": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_Determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_squareBlockMatrix": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_trace": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockDiagMatrix": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_adjoint": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_blockcut": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_issue_12950": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_matrixelement_diff": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-17630/dedup_patch_10.jsonl": {
+      "sympy__sympy-17630": {
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_generic_identity": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_bc_matmul": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_MatMul_postprocessor": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_reblock_2x2": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_matmul_no_matrices": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_Determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_squareBlockMatrix": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_trace": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockDiagMatrix": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_adjoint": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_blockcut": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_issue_12950": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_matrixelement_diff": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-17630/dedup_patch_11.jsonl": {
+      "sympy__sympy-17630": {
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix": false,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_generic_identity": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_bc_matmul": false,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_MatMul_postprocessor": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_reblock_2x2": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_matmul_no_matrices": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_Determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_squareBlockMatrix": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_trace": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockDiagMatrix": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_adjoint": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_blockcut": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_issue_12950": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_matrixelement_diff": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-17630/dedup_patch_12.jsonl": {
+      "sympy__sympy-17630": {
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix": false,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_generic_identity": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_bc_matmul": false,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_MatMul_postprocessor": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_reblock_2x2": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_matmul_no_matrices": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_Determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_squareBlockMatrix": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_trace": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockDiagMatrix": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_adjoint": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_blockcut": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_issue_12950": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_matrixelement_diff": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-17630/dedup_patch_13.jsonl": {
+      "sympy__sympy-17630": {
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_generic_identity": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_bc_matmul": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_MatMul_postprocessor": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_reblock_2x2": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_matmul_no_matrices": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_Determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_squareBlockMatrix": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_trace": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockDiagMatrix": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_adjoint": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_blockcut": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_issue_12950": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_matrixelement_diff": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-17630/dedup_patch_14.jsonl": {
+      "sympy__sympy-17630": {
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix": false,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_generic_identity": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_bc_matmul": false,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_MatMul_postprocessor": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_reblock_2x2": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_matmul_no_matrices": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_Determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_squareBlockMatrix": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_trace": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockDiagMatrix": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_adjoint": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_blockcut": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_issue_12950": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_matrixelement_diff": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-17630/dedup_patch_15.jsonl": {
+      "sympy__sympy-17630": {
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_generic_identity": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_bc_matmul": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_MatMul_postprocessor": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_reblock_2x2": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_matmul_no_matrices": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_Determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_squareBlockMatrix": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_trace": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockDiagMatrix": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_adjoint": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_blockcut": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_issue_12950": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_matrixelement_diff": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-17630/dedup_patch_16.jsonl": {
+      "sympy__sympy-17630": {
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_generic_identity": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_bc_matmul": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_MatMul_postprocessor": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_reblock_2x2": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_matmul_no_matrices": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_Determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_squareBlockMatrix": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_trace": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockDiagMatrix": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_adjoint": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_blockcut": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_issue_12950": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_matrixelement_diff": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-17630/dedup_patch_17.jsonl": {
+      "sympy__sympy-17630": {
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_generic_identity": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_bc_matmul": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_MatMul_postprocessor": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_reblock_2x2": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_matmul_no_matrices": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_Determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_squareBlockMatrix": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_trace": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockDiagMatrix": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_adjoint": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_blockcut": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_issue_12950": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_matrixelement_diff": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-17630/dedup_patch_18.jsonl": {
+      "sympy__sympy-17630": {
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_generic_identity": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_bc_matmul": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_MatMul_postprocessor": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_reblock_2x2": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_matmul_no_matrices": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_Determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_squareBlockMatrix": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_trace": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockDiagMatrix": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_adjoint": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_blockcut": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_issue_12950": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_matrixelement_diff": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-17630/dedup_patch_19.jsonl": {
+      "sympy__sympy-17630": {
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix": false,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_generic_identity": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_bc_matmul": false,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_MatMul_postprocessor": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_reblock_2x2": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_matmul_no_matrices": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_Determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_squareBlockMatrix": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_trace": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockDiagMatrix": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_adjoint": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_blockcut": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_issue_12950": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_matrixelement_diff": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-17630/dedup_patch_2.jsonl": {
+      "sympy__sympy-17630": {
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_generic_identity": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_bc_matmul": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_MatMul_postprocessor": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_reblock_2x2": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_matmul_no_matrices": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_Determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_squareBlockMatrix": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_trace": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockDiagMatrix": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_adjoint": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_blockcut": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_issue_12950": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_matrixelement_diff": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-17630/dedup_patch_20.jsonl": {
+      "sympy__sympy-17630": {
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_generic_identity": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_bc_matmul": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_MatMul_postprocessor": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_reblock_2x2": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_matmul_no_matrices": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_Determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_squareBlockMatrix": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_trace": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockDiagMatrix": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_adjoint": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_blockcut": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_issue_12950": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_matrixelement_diff": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-17630/dedup_patch_21.jsonl": {
+      "sympy__sympy-17630": {
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix": false,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_generic_identity": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_bc_matmul": false,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_MatMul_postprocessor": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_reblock_2x2": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_matmul_no_matrices": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_Determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_squareBlockMatrix": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_trace": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockDiagMatrix": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_adjoint": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_blockcut": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_issue_12950": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_matrixelement_diff": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-17630/dedup_patch_22.jsonl": {
+      "sympy__sympy-17630": {
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_generic_identity": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_bc_matmul": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_MatMul_postprocessor": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_reblock_2x2": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_matmul_no_matrices": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_Determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_squareBlockMatrix": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_trace": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockDiagMatrix": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_adjoint": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_blockcut": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_issue_12950": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_matrixelement_diff": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-17630/dedup_patch_23.jsonl": {
+      "sympy__sympy-17630": {
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix": false,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_generic_identity": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_bc_matmul": false,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_MatMul_postprocessor": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_reblock_2x2": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_matmul_no_matrices": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_Determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_squareBlockMatrix": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_trace": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockDiagMatrix": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_adjoint": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_blockcut": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_issue_12950": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_matrixelement_diff": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-17630/dedup_patch_24.jsonl": {
+      "sympy__sympy-17630": {
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_generic_identity": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_bc_matmul": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_MatMul_postprocessor": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_reblock_2x2": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_matmul_no_matrices": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_Determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_squareBlockMatrix": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_trace": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockDiagMatrix": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_adjoint": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_blockcut": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_issue_12950": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_matrixelement_diff": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-17630/dedup_patch_25.jsonl": {
+      "sympy__sympy-17630": {
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_generic_identity": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_bc_matmul": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_MatMul_postprocessor": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_reblock_2x2": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_matmul_no_matrices": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_Determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_squareBlockMatrix": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_trace": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockDiagMatrix": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_adjoint": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_blockcut": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_issue_12950": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_matrixelement_diff": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-17630/dedup_patch_26.jsonl": {
+      "sympy__sympy-17630": {
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_generic_identity": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_bc_matmul": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_MatMul_postprocessor": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_reblock_2x2": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_matmul_no_matrices": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_Determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_squareBlockMatrix": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_trace": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockDiagMatrix": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_adjoint": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_blockcut": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_issue_12950": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_matrixelement_diff": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-17630/dedup_patch_27.jsonl": {
+      "sympy__sympy-17630": {
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix": false,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_generic_identity": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_bc_matmul": false,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_MatMul_postprocessor": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_reblock_2x2": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_matmul_no_matrices": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_Determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_squareBlockMatrix": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_trace": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockDiagMatrix": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_adjoint": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_blockcut": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_issue_12950": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_matrixelement_diff": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-17630/dedup_patch_28.jsonl": {
+      "sympy__sympy-17630": {
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_generic_identity": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_bc_matmul": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_MatMul_postprocessor": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_reblock_2x2": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_matmul_no_matrices": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_Determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_squareBlockMatrix": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_trace": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockDiagMatrix": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_adjoint": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_blockcut": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_issue_12950": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_matrixelement_diff": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-17630/dedup_patch_29.jsonl": {
+      "sympy__sympy-17630": {
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_generic_identity": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_bc_matmul": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_MatMul_postprocessor": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_reblock_2x2": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_matmul_no_matrices": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_Determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_squareBlockMatrix": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_trace": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockDiagMatrix": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_adjoint": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_blockcut": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_issue_12950": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_matrixelement_diff": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-17630/dedup_patch_3.jsonl": {
+      "sympy__sympy-17630": {
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix": false,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_generic_identity": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_bc_matmul": false,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_MatMul_postprocessor": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_reblock_2x2": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_matmul_no_matrices": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_Determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_squareBlockMatrix": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_trace": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockDiagMatrix": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_adjoint": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_blockcut": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_issue_12950": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_matrixelement_diff": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-17630/dedup_patch_30.jsonl": {
+      "sympy__sympy-17630": {
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_generic_identity": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_bc_matmul": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_MatMul_postprocessor": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_reblock_2x2": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_matmul_no_matrices": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_Determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_squareBlockMatrix": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_trace": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockDiagMatrix": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_adjoint": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_blockcut": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_issue_12950": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_matrixelement_diff": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-17630/dedup_patch_31.jsonl": {
+      "sympy__sympy-17630": {
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_generic_identity": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_bc_matmul": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_MatMul_postprocessor": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_reblock_2x2": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_matmul_no_matrices": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_Determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_squareBlockMatrix": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_trace": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockDiagMatrix": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_adjoint": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_blockcut": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_issue_12950": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_matrixelement_diff": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-17630/dedup_patch_32.jsonl": {
+      "sympy__sympy-17630": {
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_generic_identity": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_bc_matmul": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_MatMul_postprocessor": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_reblock_2x2": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_matmul_no_matrices": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_Determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_squareBlockMatrix": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_trace": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockDiagMatrix": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_adjoint": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_blockcut": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_issue_12950": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_matrixelement_diff": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-17630/dedup_patch_33.jsonl": {
+      "sympy__sympy-17630": {
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_generic_identity": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_bc_matmul": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_MatMul_postprocessor": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_reblock_2x2": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_matmul_no_matrices": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_Determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_squareBlockMatrix": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_trace": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockDiagMatrix": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_adjoint": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_blockcut": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_issue_12950": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_matrixelement_diff": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-17630/dedup_patch_34.jsonl": {
+      "sympy__sympy-17630": {
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_generic_identity": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_bc_matmul": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_MatMul_postprocessor": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_reblock_2x2": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_matmul_no_matrices": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_Determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_squareBlockMatrix": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_trace": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockDiagMatrix": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_adjoint": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_blockcut": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_issue_12950": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_matrixelement_diff": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-17630/dedup_patch_35.jsonl": {
+      "sympy__sympy-17630": {
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_generic_identity": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_bc_matmul": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_MatMul_postprocessor": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_reblock_2x2": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_matmul_no_matrices": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_Determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_squareBlockMatrix": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_trace": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockDiagMatrix": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_adjoint": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_blockcut": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_issue_12950": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_matrixelement_diff": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-17630/dedup_patch_36.jsonl": {
+      "sympy__sympy-17630": {
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_generic_identity": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_bc_matmul": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_MatMul_postprocessor": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_reblock_2x2": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_matmul_no_matrices": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_Determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_squareBlockMatrix": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_trace": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockDiagMatrix": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_adjoint": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_blockcut": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_issue_12950": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_matrixelement_diff": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-17630/dedup_patch_37.jsonl": {
+      "sympy__sympy-17630": {
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_generic_identity": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_bc_matmul": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_MatMul_postprocessor": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_reblock_2x2": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_matmul_no_matrices": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_Determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_squareBlockMatrix": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_trace": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockDiagMatrix": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_adjoint": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_blockcut": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_issue_12950": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_matrixelement_diff": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-17630/dedup_patch_4.jsonl": {
+      "sympy__sympy-17630": {
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix": false,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_generic_identity": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_bc_matmul": false,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_MatMul_postprocessor": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_reblock_2x2": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_matmul_no_matrices": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_Determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_squareBlockMatrix": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_trace": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockDiagMatrix": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_adjoint": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_blockcut": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_issue_12950": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_matrixelement_diff": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-17630/dedup_patch_5.jsonl": {
+      "sympy__sympy-17630": {
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_generic_identity": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_bc_matmul": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_MatMul_postprocessor": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_reblock_2x2": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_matmul_no_matrices": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_Determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_squareBlockMatrix": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_trace": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockDiagMatrix": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_adjoint": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_blockcut": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_issue_12950": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_matrixelement_diff": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-17630/dedup_patch_6.jsonl": {
+      "sympy__sympy-17630": {
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix": false,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_generic_identity": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_bc_matmul": false,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_MatMul_postprocessor": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_reblock_2x2": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_matmul_no_matrices": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_Determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_squareBlockMatrix": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_trace": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockDiagMatrix": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_adjoint": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_blockcut": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_issue_12950": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_matrixelement_diff": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-17630/dedup_patch_7.jsonl": {
+      "sympy__sympy-17630": {
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix": false,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_generic_identity": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_bc_matmul": false,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_MatMul_postprocessor": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_reblock_2x2": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_matmul_no_matrices": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_Determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_squareBlockMatrix": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_trace": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockDiagMatrix": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_adjoint": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_blockcut": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_issue_12950": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_matrixelement_diff": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-17630/dedup_patch_8.jsonl": {
+      "sympy__sympy-17630": {
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_generic_identity": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_bc_matmul": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_MatMul_postprocessor": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_reblock_2x2": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_matmul_no_matrices": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_Determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_squareBlockMatrix": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_trace": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockDiagMatrix": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_adjoint": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_blockcut": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_issue_12950": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_matrixelement_diff": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-17630/dedup_patch_9.jsonl": {
+      "sympy__sympy-17630": {
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_generic_identity": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_issue_2749": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_bc_matmul": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_MatMul_postprocessor": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_reblock_2x2": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_matmul_no_matrices": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_Determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_squareBlockMatrix": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockMatrix_trace": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_determinant": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_BlockDiagMatrix": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_adjoint": true,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_blockcut": true,
+        "sympy/matrices/expressions/tests/test_matmul.py::test_issue_12950": true,
+        "sympy/matrices/expressions/tests/test_matexpr.py::test_matrixelement_diff": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "sympy__sympy-17630": {
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_block_collapse_type#1": false,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_block_collapse_type#2": false,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_block_collapse_type#3": false,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_block_collapse_type#4": false,
+        "sympy/matrices/expressions/tests/test_blockmatrix.py::test_block_collapse_type#5": false
+      }
+    }
+  }
+}

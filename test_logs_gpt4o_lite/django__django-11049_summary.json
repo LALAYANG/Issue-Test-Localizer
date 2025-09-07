@@ -1,0 +1,132 @@
+{
+  "instance_id": "django__django-11049",
+  "container_id": "39bd1591a697ef3b024a46634359682010ffc12c17b2d06448a4c8fe0560889e",
+  "regression": {
+    "results": [
+      {
+        "patch_file": "all_patches/lite_gpt4o_all_unique_patches/django__django-11049/dedup_patch_6.jsonl",
+        "inst": "django__django-11049",
+        "passed": 13,
+        "failed": 0
+      },
+      {
+        "patch_file": "all_patches/lite_gpt4o_all_unique_patches/django__django-11049/dedup_patch_0.jsonl",
+        "inst": "django__django-11049",
+        "passed": 12,
+        "failed": 1
+      },
+      {
+        "patch_file": "all_patches/lite_gpt4o_all_unique_patches/django__django-11049/dedup_patch_1.jsonl",
+        "inst": "django__django-11049",
+        "passed": 12,
+        "failed": 1
+      },
+      {
+        "patch_file": "all_patches/lite_gpt4o_all_unique_patches/django__django-11049/dedup_patch_2.jsonl",
+        "inst": "django__django-11049",
+        "passed": 12,
+        "failed": 1
+      },
+      {
+        "patch_file": "all_patches/lite_gpt4o_all_unique_patches/django__django-11049/dedup_patch_3.jsonl",
+        "inst": "django__django-11049",
+        "passed": 12,
+        "failed": 1
+      },
+      {
+        "patch_file": "all_patches/lite_gpt4o_all_unique_patches/django__django-11049/dedup_patch_4.jsonl",
+        "inst": "django__django-11049",
+        "passed": 12,
+        "failed": 1
+      },
+      {
+        "patch_file": "all_patches/lite_gpt4o_all_unique_patches/django__django-11049/dedup_patch_5.jsonl",
+        "inst": "django__django-11049",
+        "passed": 12,
+        "failed": 1
+      }
+    ],
+    "top_passed": 13,
+    "top_subset_size": 1
+  },
+  "reproduction": {
+    "forms_tests.field_tests.test_base.BasicFieldsTests.test_duration_field_error_message_format#1": {
+      "repro_fails_on_clean": true,
+      "outcomes": [
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/django__django-11049/dedup_patch_6.jsonl",
+          "inst": "django__django-11049",
+          "passed": false
+        }
+      ]
+    },
+    "forms_tests.field_tests.test_durationfield.DurationFieldTest.test_durationfield_error_message_format#2": {
+      "repro_fails_on_clean": true,
+      "outcomes": [
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/django__django-11049/dedup_patch_6.jsonl",
+          "inst": "django__django-11049",
+          "passed": true
+        }
+      ]
+    },
+    "forms_tests.field_tests.test_base.DisabledFieldTests.test_disabled_field_has_changed_always_false#3": {
+      "repro_fails_on_clean": false,
+      "outcomes": []
+    },
+    "forms_tests.field_tests.test_durationfield.DurationFieldTest.test_invalid_duration_format#4": {
+      "repro_fails_on_clean": true,
+      "outcomes": [
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/django__django-11049/dedup_patch_6.jsonl",
+          "inst": "django__django-11049",
+          "passed": false
+        }
+      ]
+    },
+    "forms_tests.field_tests.test_base.BasicFieldsTests.test_invalid_durationfield_error_message#5": {
+      "repro_fails_on_clean": false,
+      "outcomes": []
+    },
+    "forms_tests.field_tests.test_durationfield.DurationFieldTest.test_duration_field_error_message_format#6": {
+      "repro_fails_on_clean": true,
+      "outcomes": [
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/django__django-11049/dedup_patch_6.jsonl",
+          "inst": "django__django-11049",
+          "passed": false
+        }
+      ]
+    },
+    "forms_tests.field_tests.test_base.BasicFieldsTests.test_durationfield_error_message_format#7": {
+      "repro_fails_on_clean": true,
+      "outcomes": [
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/django__django-11049/dedup_patch_6.jsonl",
+          "inst": "django__django-11049",
+          "passed": false
+        }
+      ]
+    },
+    "forms_tests.field_tests.test_base.BasicFieldsTests.test_invalid_durationfield_error_message#8": {
+      "repro_fails_on_clean": true,
+      "outcomes": [
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/django__django-11049/dedup_patch_6.jsonl",
+          "inst": "django__django-11049",
+          "passed": false
+        }
+      ]
+    },
+    "forms_tests.field_tests.test_durationfield.DurationFieldTest.test_duration_field_error_message_format#9": {
+      "repro_fails_on_clean": true,
+      "outcomes": [
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/django__django-11049/dedup_patch_6.jsonl",
+          "inst": "django__django-11049",
+          "passed": false
+        }
+      ]
+    }
+  }
+}

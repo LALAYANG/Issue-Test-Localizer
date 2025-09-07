@@ -1,0 +1,1022 @@
+{
+  "regression": {
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16910/dedup_patch_0.jsonl": {
+      "django__django-16910": {
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "select_related.tests.SelectRelatedTests.test_list_with_select_related": true,
+        "queries.test_query.TestQuery.test_clone_select_related": true,
+        "queries.tests.Queries4Tests.test_ticket24525": true,
+        "queries.tests.ValuesQuerysetTests.test_field_error_values_list": true,
+        "defer.tests.DeferTests.test_defer_foreign_keys_are_deferred_and_not_traversed": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_after_values_list": true,
+        "queries.test_query.TestQueryNoModel.test_q_annotation": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_with_extra": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedValidationTests.test_reverse_related_validation": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_after_values": true,
+        "select_related.tests.SelectRelatedTests.test_none_clears_list": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "defer.tests.DeferTests.test_only_none_raises_error": true,
+        "defer.tests.InvalidDeferTests.test_invalid_only": false,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_union_with_values_list_and_order": true,
+        "queries.tests.ToFieldTests.test_nested_in_subquery": true,
+        "queries.tests.SubqueryTests.test_ordered_subselect": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_inheritance_deferred2": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16910/dedup_patch_1.jsonl": {
+      "django__django-16910": {
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "select_related.tests.SelectRelatedTests.test_list_with_select_related": false,
+        "queries.test_query.TestQuery.test_clone_select_related": true,
+        "queries.tests.Queries4Tests.test_ticket24525": true,
+        "queries.tests.ValuesQuerysetTests.test_field_error_values_list": true,
+        "defer.tests.DeferTests.test_defer_foreign_keys_are_deferred_and_not_traversed": false,
+        "select_related.tests.SelectRelatedTests.test_select_related_after_values_list": true,
+        "queries.test_query.TestQueryNoModel.test_q_annotation": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_with_extra": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedValidationTests.test_reverse_related_validation": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_after_values": true,
+        "select_related.tests.SelectRelatedTests.test_none_clears_list": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": false,
+        "defer.tests.DeferTests.test_only_none_raises_error": true,
+        "defer.tests.InvalidDeferTests.test_invalid_only": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_union_with_values_list_and_order": true,
+        "queries.tests.ToFieldTests.test_nested_in_subquery": true,
+        "queries.tests.SubqueryTests.test_ordered_subselect": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_inheritance_deferred2": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16910/dedup_patch_10.jsonl": {
+      "django__django-16910": {
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "select_related.tests.SelectRelatedTests.test_list_with_select_related": true,
+        "queries.test_query.TestQuery.test_clone_select_related": true,
+        "queries.tests.Queries4Tests.test_ticket24525": true,
+        "queries.tests.ValuesQuerysetTests.test_field_error_values_list": true,
+        "defer.tests.DeferTests.test_defer_foreign_keys_are_deferred_and_not_traversed": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_after_values_list": true,
+        "queries.test_query.TestQueryNoModel.test_q_annotation": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_with_extra": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedValidationTests.test_reverse_related_validation": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_after_values": true,
+        "select_related.tests.SelectRelatedTests.test_none_clears_list": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": false,
+        "defer.tests.DeferTests.test_only_none_raises_error": true,
+        "defer.tests.InvalidDeferTests.test_invalid_only": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_union_with_values_list_and_order": true,
+        "queries.tests.ToFieldTests.test_nested_in_subquery": true,
+        "queries.tests.SubqueryTests.test_ordered_subselect": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_inheritance_deferred2": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16910/dedup_patch_11.jsonl": {
+      "django__django-16910": {
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "select_related.tests.SelectRelatedTests.test_list_with_select_related": true,
+        "queries.test_query.TestQuery.test_clone_select_related": true,
+        "queries.tests.Queries4Tests.test_ticket24525": true,
+        "queries.tests.ValuesQuerysetTests.test_field_error_values_list": true,
+        "defer.tests.DeferTests.test_defer_foreign_keys_are_deferred_and_not_traversed": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_after_values_list": true,
+        "queries.test_query.TestQueryNoModel.test_q_annotation": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_with_extra": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedValidationTests.test_reverse_related_validation": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_after_values": true,
+        "select_related.tests.SelectRelatedTests.test_none_clears_list": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": false,
+        "defer.tests.DeferTests.test_only_none_raises_error": true,
+        "defer.tests.InvalidDeferTests.test_invalid_only": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_union_with_values_list_and_order": true,
+        "queries.tests.ToFieldTests.test_nested_in_subquery": true,
+        "queries.tests.SubqueryTests.test_ordered_subselect": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_inheritance_deferred2": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16910/dedup_patch_12.jsonl": {
+      "django__django-16910": {
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "select_related.tests.SelectRelatedTests.test_list_with_select_related": true,
+        "queries.test_query.TestQuery.test_clone_select_related": true,
+        "queries.tests.Queries4Tests.test_ticket24525": true,
+        "queries.tests.ValuesQuerysetTests.test_field_error_values_list": true,
+        "defer.tests.DeferTests.test_defer_foreign_keys_are_deferred_and_not_traversed": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_after_values_list": true,
+        "queries.test_query.TestQueryNoModel.test_q_annotation": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_with_extra": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedValidationTests.test_reverse_related_validation": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_after_values": true,
+        "select_related.tests.SelectRelatedTests.test_none_clears_list": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "defer.tests.DeferTests.test_only_none_raises_error": true,
+        "defer.tests.InvalidDeferTests.test_invalid_only": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_union_with_values_list_and_order": true,
+        "queries.tests.ToFieldTests.test_nested_in_subquery": true,
+        "queries.tests.SubqueryTests.test_ordered_subselect": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_inheritance_deferred2": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16910/dedup_patch_13.jsonl": {
+      "django__django-16910": {
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "select_related.tests.SelectRelatedTests.test_list_with_select_related": false,
+        "queries.test_query.TestQuery.test_clone_select_related": true,
+        "queries.tests.Queries4Tests.test_ticket24525": true,
+        "queries.tests.ValuesQuerysetTests.test_field_error_values_list": true,
+        "defer.tests.DeferTests.test_defer_foreign_keys_are_deferred_and_not_traversed": false,
+        "select_related.tests.SelectRelatedTests.test_select_related_after_values_list": true,
+        "queries.test_query.TestQueryNoModel.test_q_annotation": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_with_extra": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedValidationTests.test_reverse_related_validation": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_after_values": true,
+        "select_related.tests.SelectRelatedTests.test_none_clears_list": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": false,
+        "defer.tests.DeferTests.test_only_none_raises_error": true,
+        "defer.tests.InvalidDeferTests.test_invalid_only": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_union_with_values_list_and_order": true,
+        "queries.tests.ToFieldTests.test_nested_in_subquery": true,
+        "queries.tests.SubqueryTests.test_ordered_subselect": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_inheritance_deferred2": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16910/dedup_patch_14.jsonl": {
+      "django__django-16910": {
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "select_related.tests.SelectRelatedTests.test_list_with_select_related": true,
+        "queries.test_query.TestQuery.test_clone_select_related": true,
+        "queries.tests.Queries4Tests.test_ticket24525": true,
+        "queries.tests.ValuesQuerysetTests.test_field_error_values_list": true,
+        "defer.tests.DeferTests.test_defer_foreign_keys_are_deferred_and_not_traversed": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_after_values_list": true,
+        "queries.test_query.TestQueryNoModel.test_q_annotation": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_with_extra": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedValidationTests.test_reverse_related_validation": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_after_values": true,
+        "select_related.tests.SelectRelatedTests.test_none_clears_list": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "defer.tests.DeferTests.test_only_none_raises_error": true,
+        "defer.tests.InvalidDeferTests.test_invalid_only": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_union_with_values_list_and_order": true,
+        "queries.tests.ToFieldTests.test_nested_in_subquery": true,
+        "queries.tests.SubqueryTests.test_ordered_subselect": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_inheritance_deferred2": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16910/dedup_patch_15.jsonl": {
+      "django__django-16910": {
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "select_related.tests.SelectRelatedTests.test_list_with_select_related": true,
+        "queries.test_query.TestQuery.test_clone_select_related": true,
+        "queries.tests.Queries4Tests.test_ticket24525": true,
+        "queries.tests.ValuesQuerysetTests.test_field_error_values_list": true,
+        "defer.tests.DeferTests.test_defer_foreign_keys_are_deferred_and_not_traversed": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_after_values_list": true,
+        "queries.test_query.TestQueryNoModel.test_q_annotation": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_with_extra": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedValidationTests.test_reverse_related_validation": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_after_values": true,
+        "select_related.tests.SelectRelatedTests.test_none_clears_list": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": false,
+        "defer.tests.DeferTests.test_only_none_raises_error": true,
+        "defer.tests.InvalidDeferTests.test_invalid_only": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_union_with_values_list_and_order": true,
+        "queries.tests.ToFieldTests.test_nested_in_subquery": true,
+        "queries.tests.SubqueryTests.test_ordered_subselect": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_inheritance_deferred2": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16910/dedup_patch_16.jsonl": {
+      "django__django-16910": {
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "select_related.tests.SelectRelatedTests.test_list_with_select_related": false,
+        "queries.test_query.TestQuery.test_clone_select_related": true,
+        "queries.tests.Queries4Tests.test_ticket24525": true,
+        "queries.tests.ValuesQuerysetTests.test_field_error_values_list": true,
+        "defer.tests.DeferTests.test_defer_foreign_keys_are_deferred_and_not_traversed": false,
+        "select_related.tests.SelectRelatedTests.test_select_related_after_values_list": true,
+        "queries.test_query.TestQueryNoModel.test_q_annotation": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_with_extra": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedValidationTests.test_reverse_related_validation": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_after_values": true,
+        "select_related.tests.SelectRelatedTests.test_none_clears_list": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": false,
+        "defer.tests.DeferTests.test_only_none_raises_error": true,
+        "defer.tests.InvalidDeferTests.test_invalid_only": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_union_with_values_list_and_order": true,
+        "queries.tests.ToFieldTests.test_nested_in_subquery": true,
+        "queries.tests.SubqueryTests.test_ordered_subselect": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_inheritance_deferred2": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16910/dedup_patch_17.jsonl": {
+      "django__django-16910": {
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "select_related.tests.SelectRelatedTests.test_list_with_select_related": true,
+        "queries.test_query.TestQuery.test_clone_select_related": true,
+        "queries.tests.Queries4Tests.test_ticket24525": true,
+        "queries.tests.ValuesQuerysetTests.test_field_error_values_list": true,
+        "defer.tests.DeferTests.test_defer_foreign_keys_are_deferred_and_not_traversed": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_after_values_list": true,
+        "queries.test_query.TestQueryNoModel.test_q_annotation": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_with_extra": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedValidationTests.test_reverse_related_validation": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_after_values": true,
+        "select_related.tests.SelectRelatedTests.test_none_clears_list": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "defer.tests.DeferTests.test_only_none_raises_error": true,
+        "defer.tests.InvalidDeferTests.test_invalid_only": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_union_with_values_list_and_order": true,
+        "queries.tests.ToFieldTests.test_nested_in_subquery": true,
+        "queries.tests.SubqueryTests.test_ordered_subselect": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_inheritance_deferred2": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16910/dedup_patch_18.jsonl": {
+      "django__django-16910": {
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "select_related.tests.SelectRelatedTests.test_list_with_select_related": true,
+        "queries.test_query.TestQuery.test_clone_select_related": true,
+        "queries.tests.Queries4Tests.test_ticket24525": true,
+        "queries.tests.ValuesQuerysetTests.test_field_error_values_list": true,
+        "defer.tests.DeferTests.test_defer_foreign_keys_are_deferred_and_not_traversed": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_after_values_list": true,
+        "queries.test_query.TestQueryNoModel.test_q_annotation": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_with_extra": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedValidationTests.test_reverse_related_validation": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_after_values": true,
+        "select_related.tests.SelectRelatedTests.test_none_clears_list": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": false,
+        "defer.tests.DeferTests.test_only_none_raises_error": true,
+        "defer.tests.InvalidDeferTests.test_invalid_only": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_union_with_values_list_and_order": true,
+        "queries.tests.ToFieldTests.test_nested_in_subquery": true,
+        "queries.tests.SubqueryTests.test_ordered_subselect": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_inheritance_deferred2": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16910/dedup_patch_19.jsonl": {
+      "django__django-16910": {
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "select_related.tests.SelectRelatedTests.test_list_with_select_related": true,
+        "queries.test_query.TestQuery.test_clone_select_related": true,
+        "queries.tests.Queries4Tests.test_ticket24525": true,
+        "queries.tests.ValuesQuerysetTests.test_field_error_values_list": true,
+        "defer.tests.DeferTests.test_defer_foreign_keys_are_deferred_and_not_traversed": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_after_values_list": true,
+        "queries.test_query.TestQueryNoModel.test_q_annotation": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_with_extra": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedValidationTests.test_reverse_related_validation": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_after_values": true,
+        "select_related.tests.SelectRelatedTests.test_none_clears_list": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "defer.tests.DeferTests.test_only_none_raises_error": true,
+        "defer.tests.InvalidDeferTests.test_invalid_only": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_union_with_values_list_and_order": true,
+        "queries.tests.ToFieldTests.test_nested_in_subquery": true,
+        "queries.tests.SubqueryTests.test_ordered_subselect": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_inheritance_deferred2": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16910/dedup_patch_2.jsonl": {
+      "django__django-16910": {
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "select_related.tests.SelectRelatedTests.test_list_with_select_related": true,
+        "queries.test_query.TestQuery.test_clone_select_related": true,
+        "queries.tests.Queries4Tests.test_ticket24525": true,
+        "queries.tests.ValuesQuerysetTests.test_field_error_values_list": true,
+        "defer.tests.DeferTests.test_defer_foreign_keys_are_deferred_and_not_traversed": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_after_values_list": true,
+        "queries.test_query.TestQueryNoModel.test_q_annotation": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_with_extra": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedValidationTests.test_reverse_related_validation": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_after_values": true,
+        "select_related.tests.SelectRelatedTests.test_none_clears_list": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "defer.tests.DeferTests.test_only_none_raises_error": true,
+        "defer.tests.InvalidDeferTests.test_invalid_only": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_union_with_values_list_and_order": true,
+        "queries.tests.ToFieldTests.test_nested_in_subquery": true,
+        "queries.tests.SubqueryTests.test_ordered_subselect": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_inheritance_deferred2": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16910/dedup_patch_20.jsonl": {
+      "django__django-16910": {
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "select_related.tests.SelectRelatedTests.test_list_with_select_related": true,
+        "queries.test_query.TestQuery.test_clone_select_related": true,
+        "queries.tests.Queries4Tests.test_ticket24525": true,
+        "queries.tests.ValuesQuerysetTests.test_field_error_values_list": true,
+        "defer.tests.DeferTests.test_defer_foreign_keys_are_deferred_and_not_traversed": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_after_values_list": true,
+        "queries.test_query.TestQueryNoModel.test_q_annotation": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_with_extra": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedValidationTests.test_reverse_related_validation": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_after_values": true,
+        "select_related.tests.SelectRelatedTests.test_none_clears_list": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "defer.tests.DeferTests.test_only_none_raises_error": true,
+        "defer.tests.InvalidDeferTests.test_invalid_only": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_union_with_values_list_and_order": true,
+        "queries.tests.ToFieldTests.test_nested_in_subquery": true,
+        "queries.tests.SubqueryTests.test_ordered_subselect": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_inheritance_deferred2": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16910/dedup_patch_21.jsonl": {
+      "django__django-16910": {
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "select_related.tests.SelectRelatedTests.test_list_with_select_related": true,
+        "queries.test_query.TestQuery.test_clone_select_related": true,
+        "queries.tests.Queries4Tests.test_ticket24525": true,
+        "queries.tests.ValuesQuerysetTests.test_field_error_values_list": true,
+        "defer.tests.DeferTests.test_defer_foreign_keys_are_deferred_and_not_traversed": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_after_values_list": true,
+        "queries.test_query.TestQueryNoModel.test_q_annotation": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_with_extra": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedValidationTests.test_reverse_related_validation": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_after_values": true,
+        "select_related.tests.SelectRelatedTests.test_none_clears_list": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "defer.tests.DeferTests.test_only_none_raises_error": true,
+        "defer.tests.InvalidDeferTests.test_invalid_only": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_union_with_values_list_and_order": true,
+        "queries.tests.ToFieldTests.test_nested_in_subquery": true,
+        "queries.tests.SubqueryTests.test_ordered_subselect": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_inheritance_deferred2": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16910/dedup_patch_22.jsonl": {
+      "django__django-16910": {
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "select_related.tests.SelectRelatedTests.test_list_with_select_related": true,
+        "queries.test_query.TestQuery.test_clone_select_related": true,
+        "queries.tests.Queries4Tests.test_ticket24525": true,
+        "queries.tests.ValuesQuerysetTests.test_field_error_values_list": true,
+        "defer.tests.DeferTests.test_defer_foreign_keys_are_deferred_and_not_traversed": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_after_values_list": true,
+        "queries.test_query.TestQueryNoModel.test_q_annotation": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_with_extra": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedValidationTests.test_reverse_related_validation": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_after_values": true,
+        "select_related.tests.SelectRelatedTests.test_none_clears_list": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "defer.tests.DeferTests.test_only_none_raises_error": true,
+        "defer.tests.InvalidDeferTests.test_invalid_only": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_union_with_values_list_and_order": true,
+        "queries.tests.ToFieldTests.test_nested_in_subquery": true,
+        "queries.tests.SubqueryTests.test_ordered_subselect": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_inheritance_deferred2": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16910/dedup_patch_23.jsonl": {
+      "django__django-16910": {
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "select_related.tests.SelectRelatedTests.test_list_with_select_related": true,
+        "queries.test_query.TestQuery.test_clone_select_related": true,
+        "queries.tests.Queries4Tests.test_ticket24525": true,
+        "queries.tests.ValuesQuerysetTests.test_field_error_values_list": true,
+        "defer.tests.DeferTests.test_defer_foreign_keys_are_deferred_and_not_traversed": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_after_values_list": true,
+        "queries.test_query.TestQueryNoModel.test_q_annotation": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_with_extra": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedValidationTests.test_reverse_related_validation": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_after_values": true,
+        "select_related.tests.SelectRelatedTests.test_none_clears_list": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "defer.tests.DeferTests.test_only_none_raises_error": true,
+        "defer.tests.InvalidDeferTests.test_invalid_only": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_union_with_values_list_and_order": true,
+        "queries.tests.ToFieldTests.test_nested_in_subquery": true,
+        "queries.tests.SubqueryTests.test_ordered_subselect": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_inheritance_deferred2": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16910/dedup_patch_24.jsonl": {
+      "django__django-16910": {
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "select_related.tests.SelectRelatedTests.test_list_with_select_related": true,
+        "queries.test_query.TestQuery.test_clone_select_related": true,
+        "queries.tests.Queries4Tests.test_ticket24525": true,
+        "queries.tests.ValuesQuerysetTests.test_field_error_values_list": true,
+        "defer.tests.DeferTests.test_defer_foreign_keys_are_deferred_and_not_traversed": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_after_values_list": true,
+        "queries.test_query.TestQueryNoModel.test_q_annotation": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_with_extra": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedValidationTests.test_reverse_related_validation": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_after_values": true,
+        "select_related.tests.SelectRelatedTests.test_none_clears_list": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "defer.tests.DeferTests.test_only_none_raises_error": true,
+        "defer.tests.InvalidDeferTests.test_invalid_only": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_union_with_values_list_and_order": true,
+        "queries.tests.ToFieldTests.test_nested_in_subquery": true,
+        "queries.tests.SubqueryTests.test_ordered_subselect": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_inheritance_deferred2": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16910/dedup_patch_25.jsonl": {
+      "django__django-16910": {
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "select_related.tests.SelectRelatedTests.test_list_with_select_related": false,
+        "queries.test_query.TestQuery.test_clone_select_related": true,
+        "queries.tests.Queries4Tests.test_ticket24525": true,
+        "queries.tests.ValuesQuerysetTests.test_field_error_values_list": true,
+        "defer.tests.DeferTests.test_defer_foreign_keys_are_deferred_and_not_traversed": false,
+        "select_related.tests.SelectRelatedTests.test_select_related_after_values_list": true,
+        "queries.test_query.TestQueryNoModel.test_q_annotation": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_with_extra": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedValidationTests.test_reverse_related_validation": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_after_values": true,
+        "select_related.tests.SelectRelatedTests.test_none_clears_list": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": false,
+        "defer.tests.DeferTests.test_only_none_raises_error": true,
+        "defer.tests.InvalidDeferTests.test_invalid_only": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_union_with_values_list_and_order": true,
+        "queries.tests.ToFieldTests.test_nested_in_subquery": true,
+        "queries.tests.SubqueryTests.test_ordered_subselect": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_inheritance_deferred2": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16910/dedup_patch_26.jsonl": {
+      "django__django-16910": {
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "select_related.tests.SelectRelatedTests.test_list_with_select_related": true,
+        "queries.test_query.TestQuery.test_clone_select_related": true,
+        "queries.tests.Queries4Tests.test_ticket24525": true,
+        "queries.tests.ValuesQuerysetTests.test_field_error_values_list": true,
+        "defer.tests.DeferTests.test_defer_foreign_keys_are_deferred_and_not_traversed": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_after_values_list": true,
+        "queries.test_query.TestQueryNoModel.test_q_annotation": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_with_extra": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedValidationTests.test_reverse_related_validation": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_after_values": true,
+        "select_related.tests.SelectRelatedTests.test_none_clears_list": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "defer.tests.DeferTests.test_only_none_raises_error": true,
+        "defer.tests.InvalidDeferTests.test_invalid_only": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_union_with_values_list_and_order": true,
+        "queries.tests.ToFieldTests.test_nested_in_subquery": true,
+        "queries.tests.SubqueryTests.test_ordered_subselect": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_inheritance_deferred2": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16910/dedup_patch_27.jsonl": {
+      "django__django-16910": {
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "select_related.tests.SelectRelatedTests.test_list_with_select_related": true,
+        "queries.test_query.TestQuery.test_clone_select_related": true,
+        "queries.tests.Queries4Tests.test_ticket24525": true,
+        "queries.tests.ValuesQuerysetTests.test_field_error_values_list": true,
+        "defer.tests.DeferTests.test_defer_foreign_keys_are_deferred_and_not_traversed": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_after_values_list": true,
+        "queries.test_query.TestQueryNoModel.test_q_annotation": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_with_extra": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedValidationTests.test_reverse_related_validation": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_after_values": true,
+        "select_related.tests.SelectRelatedTests.test_none_clears_list": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": false,
+        "defer.tests.DeferTests.test_only_none_raises_error": true,
+        "defer.tests.InvalidDeferTests.test_invalid_only": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_union_with_values_list_and_order": true,
+        "queries.tests.ToFieldTests.test_nested_in_subquery": true,
+        "queries.tests.SubqueryTests.test_ordered_subselect": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_inheritance_deferred2": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16910/dedup_patch_28.jsonl": {
+      "django__django-16910": {
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "select_related.tests.SelectRelatedTests.test_list_with_select_related": true,
+        "queries.test_query.TestQuery.test_clone_select_related": true,
+        "queries.tests.Queries4Tests.test_ticket24525": true,
+        "queries.tests.ValuesQuerysetTests.test_field_error_values_list": true,
+        "defer.tests.DeferTests.test_defer_foreign_keys_are_deferred_and_not_traversed": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_after_values_list": true,
+        "queries.test_query.TestQueryNoModel.test_q_annotation": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_with_extra": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedValidationTests.test_reverse_related_validation": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_after_values": true,
+        "select_related.tests.SelectRelatedTests.test_none_clears_list": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "defer.tests.DeferTests.test_only_none_raises_error": true,
+        "defer.tests.InvalidDeferTests.test_invalid_only": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_union_with_values_list_and_order": true,
+        "queries.tests.ToFieldTests.test_nested_in_subquery": true,
+        "queries.tests.SubqueryTests.test_ordered_subselect": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_inheritance_deferred2": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16910/dedup_patch_29.jsonl": {
+      "django__django-16910": {
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "select_related.tests.SelectRelatedTests.test_list_with_select_related": true,
+        "queries.test_query.TestQuery.test_clone_select_related": true,
+        "queries.tests.Queries4Tests.test_ticket24525": true,
+        "queries.tests.ValuesQuerysetTests.test_field_error_values_list": true,
+        "defer.tests.DeferTests.test_defer_foreign_keys_are_deferred_and_not_traversed": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_after_values_list": true,
+        "queries.test_query.TestQueryNoModel.test_q_annotation": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_with_extra": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedValidationTests.test_reverse_related_validation": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_after_values": true,
+        "select_related.tests.SelectRelatedTests.test_none_clears_list": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": false,
+        "defer.tests.DeferTests.test_only_none_raises_error": true,
+        "defer.tests.InvalidDeferTests.test_invalid_only": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_union_with_values_list_and_order": true,
+        "queries.tests.ToFieldTests.test_nested_in_subquery": true,
+        "queries.tests.SubqueryTests.test_ordered_subselect": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_inheritance_deferred2": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16910/dedup_patch_3.jsonl": {
+      "django__django-16910": {
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "select_related.tests.SelectRelatedTests.test_list_with_select_related": true,
+        "queries.test_query.TestQuery.test_clone_select_related": true,
+        "queries.tests.Queries4Tests.test_ticket24525": true,
+        "queries.tests.ValuesQuerysetTests.test_field_error_values_list": true,
+        "defer.tests.DeferTests.test_defer_foreign_keys_are_deferred_and_not_traversed": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_after_values_list": true,
+        "queries.test_query.TestQueryNoModel.test_q_annotation": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_with_extra": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedValidationTests.test_reverse_related_validation": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_after_values": true,
+        "select_related.tests.SelectRelatedTests.test_none_clears_list": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "defer.tests.DeferTests.test_only_none_raises_error": true,
+        "defer.tests.InvalidDeferTests.test_invalid_only": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_union_with_values_list_and_order": true,
+        "queries.tests.ToFieldTests.test_nested_in_subquery": true,
+        "queries.tests.SubqueryTests.test_ordered_subselect": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_inheritance_deferred2": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16910/dedup_patch_30.jsonl": {
+      "django__django-16910": {
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "select_related.tests.SelectRelatedTests.test_list_with_select_related": true,
+        "queries.test_query.TestQuery.test_clone_select_related": true,
+        "queries.tests.Queries4Tests.test_ticket24525": true,
+        "queries.tests.ValuesQuerysetTests.test_field_error_values_list": true,
+        "defer.tests.DeferTests.test_defer_foreign_keys_are_deferred_and_not_traversed": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_after_values_list": true,
+        "queries.test_query.TestQueryNoModel.test_q_annotation": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_with_extra": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedValidationTests.test_reverse_related_validation": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_after_values": true,
+        "select_related.tests.SelectRelatedTests.test_none_clears_list": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "defer.tests.DeferTests.test_only_none_raises_error": true,
+        "defer.tests.InvalidDeferTests.test_invalid_only": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_union_with_values_list_and_order": true,
+        "queries.tests.ToFieldTests.test_nested_in_subquery": true,
+        "queries.tests.SubqueryTests.test_ordered_subselect": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_inheritance_deferred2": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16910/dedup_patch_31.jsonl": {
+      "django__django-16910": {
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "select_related.tests.SelectRelatedTests.test_list_with_select_related": true,
+        "queries.test_query.TestQuery.test_clone_select_related": true,
+        "queries.tests.Queries4Tests.test_ticket24525": true,
+        "queries.tests.ValuesQuerysetTests.test_field_error_values_list": true,
+        "defer.tests.DeferTests.test_defer_foreign_keys_are_deferred_and_not_traversed": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_after_values_list": true,
+        "queries.test_query.TestQueryNoModel.test_q_annotation": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_with_extra": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedValidationTests.test_reverse_related_validation": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_after_values": true,
+        "select_related.tests.SelectRelatedTests.test_none_clears_list": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "defer.tests.DeferTests.test_only_none_raises_error": true,
+        "defer.tests.InvalidDeferTests.test_invalid_only": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_union_with_values_list_and_order": true,
+        "queries.tests.ToFieldTests.test_nested_in_subquery": true,
+        "queries.tests.SubqueryTests.test_ordered_subselect": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_inheritance_deferred2": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16910/dedup_patch_4.jsonl": {
+      "django__django-16910": {
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "select_related.tests.SelectRelatedTests.test_list_with_select_related": true,
+        "queries.test_query.TestQuery.test_clone_select_related": true,
+        "queries.tests.Queries4Tests.test_ticket24525": true,
+        "queries.tests.ValuesQuerysetTests.test_field_error_values_list": true,
+        "defer.tests.DeferTests.test_defer_foreign_keys_are_deferred_and_not_traversed": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_after_values_list": true,
+        "queries.test_query.TestQueryNoModel.test_q_annotation": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_with_extra": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedValidationTests.test_reverse_related_validation": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_after_values": true,
+        "select_related.tests.SelectRelatedTests.test_none_clears_list": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "defer.tests.DeferTests.test_only_none_raises_error": true,
+        "defer.tests.InvalidDeferTests.test_invalid_only": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_union_with_values_list_and_order": true,
+        "queries.tests.ToFieldTests.test_nested_in_subquery": true,
+        "queries.tests.SubqueryTests.test_ordered_subselect": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_inheritance_deferred2": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16910/dedup_patch_5.jsonl": {
+      "django__django-16910": {
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "select_related.tests.SelectRelatedTests.test_list_with_select_related": true,
+        "queries.test_query.TestQuery.test_clone_select_related": true,
+        "queries.tests.Queries4Tests.test_ticket24525": true,
+        "queries.tests.ValuesQuerysetTests.test_field_error_values_list": true,
+        "defer.tests.DeferTests.test_defer_foreign_keys_are_deferred_and_not_traversed": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_after_values_list": true,
+        "queries.test_query.TestQueryNoModel.test_q_annotation": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_with_extra": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedValidationTests.test_reverse_related_validation": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_after_values": true,
+        "select_related.tests.SelectRelatedTests.test_none_clears_list": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "defer.tests.DeferTests.test_only_none_raises_error": true,
+        "defer.tests.InvalidDeferTests.test_invalid_only": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_union_with_values_list_and_order": true,
+        "queries.tests.ToFieldTests.test_nested_in_subquery": true,
+        "queries.tests.SubqueryTests.test_ordered_subselect": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_inheritance_deferred2": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16910/dedup_patch_6.jsonl": {
+      "django__django-16910": {
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "select_related.tests.SelectRelatedTests.test_list_with_select_related": true,
+        "queries.test_query.TestQuery.test_clone_select_related": true,
+        "queries.tests.Queries4Tests.test_ticket24525": true,
+        "queries.tests.ValuesQuerysetTests.test_field_error_values_list": true,
+        "defer.tests.DeferTests.test_defer_foreign_keys_are_deferred_and_not_traversed": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_after_values_list": true,
+        "queries.test_query.TestQueryNoModel.test_q_annotation": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_with_extra": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedValidationTests.test_reverse_related_validation": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_after_values": true,
+        "select_related.tests.SelectRelatedTests.test_none_clears_list": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "defer.tests.DeferTests.test_only_none_raises_error": true,
+        "defer.tests.InvalidDeferTests.test_invalid_only": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_union_with_values_list_and_order": true,
+        "queries.tests.ToFieldTests.test_nested_in_subquery": true,
+        "queries.tests.SubqueryTests.test_ordered_subselect": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_inheritance_deferred2": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16910/dedup_patch_7.jsonl": {
+      "django__django-16910": {
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "select_related.tests.SelectRelatedTests.test_list_with_select_related": false,
+        "queries.test_query.TestQuery.test_clone_select_related": true,
+        "queries.tests.Queries4Tests.test_ticket24525": true,
+        "queries.tests.ValuesQuerysetTests.test_field_error_values_list": true,
+        "defer.tests.DeferTests.test_defer_foreign_keys_are_deferred_and_not_traversed": false,
+        "select_related.tests.SelectRelatedTests.test_select_related_after_values_list": true,
+        "queries.test_query.TestQueryNoModel.test_q_annotation": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_with_extra": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedValidationTests.test_reverse_related_validation": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_after_values": true,
+        "select_related.tests.SelectRelatedTests.test_none_clears_list": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": false,
+        "defer.tests.DeferTests.test_only_none_raises_error": true,
+        "defer.tests.InvalidDeferTests.test_invalid_only": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_union_with_values_list_and_order": true,
+        "queries.tests.ToFieldTests.test_nested_in_subquery": true,
+        "queries.tests.SubqueryTests.test_ordered_subselect": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_inheritance_deferred2": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16910/dedup_patch_8.jsonl": {
+      "django__django-16910": {
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "select_related.tests.SelectRelatedTests.test_list_with_select_related": true,
+        "queries.test_query.TestQuery.test_clone_select_related": true,
+        "queries.tests.Queries4Tests.test_ticket24525": true,
+        "queries.tests.ValuesQuerysetTests.test_field_error_values_list": true,
+        "defer.tests.DeferTests.test_defer_foreign_keys_are_deferred_and_not_traversed": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_after_values_list": true,
+        "queries.test_query.TestQueryNoModel.test_q_annotation": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_with_extra": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedValidationTests.test_reverse_related_validation": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_after_values": true,
+        "select_related.tests.SelectRelatedTests.test_none_clears_list": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "defer.tests.DeferTests.test_only_none_raises_error": true,
+        "defer.tests.InvalidDeferTests.test_invalid_only": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_union_with_values_list_and_order": true,
+        "queries.tests.ToFieldTests.test_nested_in_subquery": true,
+        "queries.tests.SubqueryTests.test_ordered_subselect": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_inheritance_deferred2": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16910/dedup_patch_9.jsonl": {
+      "django__django-16910": {
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "select_related.tests.SelectRelatedTests.test_list_with_select_related": true,
+        "queries.test_query.TestQuery.test_clone_select_related": true,
+        "queries.tests.Queries4Tests.test_ticket24525": true,
+        "queries.tests.ValuesQuerysetTests.test_field_error_values_list": true,
+        "defer.tests.DeferTests.test_defer_foreign_keys_are_deferred_and_not_traversed": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_after_values_list": true,
+        "queries.test_query.TestQueryNoModel.test_q_annotation": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_with_extra": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedValidationTests.test_reverse_related_validation": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_after_values": true,
+        "select_related.tests.SelectRelatedTests.test_none_clears_list": true,
+        "queries.tests.Ticket20955Tests.test_ticket_20955": true,
+        "defer.tests.DeferTests.test_only_none_raises_error": true,
+        "defer.tests.InvalidDeferTests.test_invalid_only": true,
+        "queries.test_qs_combinators.QuerySetSetOperationTests.test_union_with_values_list_and_order": true,
+        "queries.tests.ToFieldTests.test_nested_in_subquery": true,
+        "queries.tests.SubqueryTests.test_ordered_subselect": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_inheritance_deferred2": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-16910": {
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#1": true,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#2": true,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#3": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedValidationTests.test_only_with_select_related_on_reverse_onetoone#4": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#5": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#6": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#7": true,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#8": true,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#9": true,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#10": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16910/dedup_patch_12.jsonl": {
+      "django__django-16910": {
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#1": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#2": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#3": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedValidationTests.test_only_with_select_related_on_reverse_onetoone#4": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#5": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#6": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#7": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#8": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#9": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16910/dedup_patch_14.jsonl": {
+      "django__django-16910": {
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#1": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#2": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#3": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedValidationTests.test_only_with_select_related_on_reverse_onetoone#4": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#5": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#6": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#7": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#8": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#9": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16910/dedup_patch_17.jsonl": {
+      "django__django-16910": {
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#1": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#2": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#3": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedValidationTests.test_only_with_select_related_on_reverse_onetoone#4": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#5": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#6": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#7": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#8": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#9": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16910/dedup_patch_19.jsonl": {
+      "django__django-16910": {
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#1": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#2": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#3": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedValidationTests.test_only_with_select_related_on_reverse_onetoone#4": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#5": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#6": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#7": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#8": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#9": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16910/dedup_patch_2.jsonl": {
+      "django__django-16910": {
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#1": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#2": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#3": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedValidationTests.test_only_with_select_related_on_reverse_onetoone#4": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#5": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#6": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#7": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#8": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#9": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16910/dedup_patch_20.jsonl": {
+      "django__django-16910": {
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#1": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#2": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#3": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedValidationTests.test_only_with_select_related_on_reverse_onetoone#4": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#5": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#6": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#7": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#8": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#9": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16910/dedup_patch_21.jsonl": {
+      "django__django-16910": {
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#1": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#2": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#3": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedValidationTests.test_only_with_select_related_on_reverse_onetoone#4": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#5": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#6": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#7": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#8": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#9": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16910/dedup_patch_22.jsonl": {
+      "django__django-16910": {
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#1": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#2": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#3": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedValidationTests.test_only_with_select_related_on_reverse_onetoone#4": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#5": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#6": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#7": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#8": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#9": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16910/dedup_patch_23.jsonl": {
+      "django__django-16910": {
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#1": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#2": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#3": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedValidationTests.test_only_with_select_related_on_reverse_onetoone#4": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#5": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#6": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#7": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#8": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#9": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16910/dedup_patch_26.jsonl": {
+      "django__django-16910": {
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#1": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#2": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#3": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedValidationTests.test_only_with_select_related_on_reverse_onetoone#4": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#5": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#6": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#7": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#8": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#9": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16910/dedup_patch_28.jsonl": {
+      "django__django-16910": {
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#1": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#2": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#3": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedValidationTests.test_only_with_select_related_on_reverse_onetoone#4": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#5": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#6": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#7": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#8": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#9": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16910/dedup_patch_3.jsonl": {
+      "django__django-16910": {
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#1": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#2": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#3": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedValidationTests.test_only_with_select_related_on_reverse_onetoone#4": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#5": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#6": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#7": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#8": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#9": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16910/dedup_patch_30.jsonl": {
+      "django__django-16910": {
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#1": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#2": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#3": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedValidationTests.test_only_with_select_related_on_reverse_onetoone#4": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#5": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#6": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#7": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#8": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#9": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16910/dedup_patch_31.jsonl": {
+      "django__django-16910": {
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#1": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#2": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#3": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedValidationTests.test_only_with_select_related_on_reverse_onetoone#4": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#5": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#6": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#7": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#8": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#9": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16910/dedup_patch_4.jsonl": {
+      "django__django-16910": {
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#1": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#2": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#3": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedValidationTests.test_only_with_select_related_on_reverse_onetoone#4": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#5": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#6": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#7": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#8": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#9": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16910/dedup_patch_5.jsonl": {
+      "django__django-16910": {
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#1": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#2": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#3": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedValidationTests.test_only_with_select_related_on_reverse_onetoone#4": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#5": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#6": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#7": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#8": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#9": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16910/dedup_patch_6.jsonl": {
+      "django__django-16910": {
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#1": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#2": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#3": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedValidationTests.test_only_with_select_related_on_reverse_onetoone#4": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#5": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#6": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#7": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#8": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#9": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16910/dedup_patch_8.jsonl": {
+      "django__django-16910": {
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#1": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#2": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#3": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedValidationTests.test_only_with_select_related_on_reverse_onetoone#4": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#5": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#6": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#7": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#8": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#9": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16910/dedup_patch_9.jsonl": {
+      "django__django-16910": {
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#1": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#2": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#3": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedValidationTests.test_only_with_select_related_on_reverse_onetoone#4": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#5": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#6": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#7": false,
+        "select_related_onetoone.tests.ReverseSelectRelatedTestCase.test_only_with_select_related_on_reverse_onetoone#8": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#9": false,
+        "defer.tests.DeferTests.test_only_with_select_related_reverse_onetoone#10": false
+      }
+    }
+  }
+}

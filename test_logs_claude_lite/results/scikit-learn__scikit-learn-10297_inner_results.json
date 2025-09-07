@@ -1,0 +1,96 @@
+{
+  "regression": {
+    "all_patches/lite_claude_all_unique_patches/scikit-learn__scikit-learn-10297/dedup_patch_0.jsonl": {
+      "scikit-learn__scikit-learn-10297": {
+        "sklearn/linear_model/tests/test_ridge.py::test_ridgecv_store_cv_values": true,
+        "sklearn/linear_model/tests/test_ridge.py::test_errors_and_values_svd_helper": true,
+        "sklearn/linear_model/tests/test_ridge.py::test_ridgecv_sample_weight": true,
+        "sklearn/linear_model/tests/test_ridge.py::test_errors_and_values_helper": true,
+        "sklearn/linear_model/tests/test_ridge.py::test_class_weights_cv": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/scikit-learn__scikit-learn-10297/dedup_patch_1.jsonl": {
+      "scikit-learn__scikit-learn-10297": {
+        "sklearn/linear_model/tests/test_ridge.py::test_ridgecv_store_cv_values": true,
+        "sklearn/linear_model/tests/test_ridge.py::test_errors_and_values_svd_helper": true,
+        "sklearn/linear_model/tests/test_ridge.py::test_ridgecv_sample_weight": true,
+        "sklearn/linear_model/tests/test_ridge.py::test_errors_and_values_helper": true,
+        "sklearn/linear_model/tests/test_ridge.py::test_class_weights_cv": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/scikit-learn__scikit-learn-10297/dedup_patch_2.jsonl": {
+      "scikit-learn__scikit-learn-10297": {
+        "sklearn/linear_model/tests/test_ridge.py::test_ridgecv_store_cv_values": true,
+        "sklearn/linear_model/tests/test_ridge.py::test_errors_and_values_svd_helper": true,
+        "sklearn/linear_model/tests/test_ridge.py::test_ridgecv_sample_weight": true,
+        "sklearn/linear_model/tests/test_ridge.py::test_errors_and_values_helper": true,
+        "sklearn/linear_model/tests/test_ridge.py::test_class_weights_cv": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/scikit-learn__scikit-learn-10297/dedup_patch_3.jsonl": {
+      "scikit-learn__scikit-learn-10297": {
+        "sklearn/linear_model/tests/test_ridge.py::test_ridgecv_store_cv_values": true,
+        "sklearn/linear_model/tests/test_ridge.py::test_errors_and_values_svd_helper": true,
+        "sklearn/linear_model/tests/test_ridge.py::test_ridgecv_sample_weight": true,
+        "sklearn/linear_model/tests/test_ridge.py::test_errors_and_values_helper": true,
+        "sklearn/linear_model/tests/test_ridge.py::test_class_weights_cv": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/scikit-learn__scikit-learn-10297/dedup_patch_4.jsonl": {
+      "scikit-learn__scikit-learn-10297": {
+        "sklearn/linear_model/tests/test_ridge.py::test_ridgecv_store_cv_values": true,
+        "sklearn/linear_model/tests/test_ridge.py::test_errors_and_values_svd_helper": true,
+        "sklearn/linear_model/tests/test_ridge.py::test_ridgecv_sample_weight": true,
+        "sklearn/linear_model/tests/test_ridge.py::test_errors_and_values_helper": true,
+        "sklearn/linear_model/tests/test_ridge.py::test_class_weights_cv": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/scikit-learn__scikit-learn-10297/dedup_patch_5.jsonl": {
+      "scikit-learn__scikit-learn-10297": {
+        "sklearn/linear_model/tests/test_ridge.py::test_ridgecv_store_cv_values": true,
+        "sklearn/linear_model/tests/test_ridge.py::test_errors_and_values_svd_helper": true,
+        "sklearn/linear_model/tests/test_ridge.py::test_ridgecv_sample_weight": true,
+        "sklearn/linear_model/tests/test_ridge.py::test_errors_and_values_helper": true,
+        "sklearn/linear_model/tests/test_ridge.py::test_class_weights_cv": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/scikit-learn__scikit-learn-10297/dedup_patch_6.jsonl": {
+      "scikit-learn__scikit-learn-10297": {
+        "sklearn/linear_model/tests/test_ridge.py::test_ridgecv_store_cv_values": true,
+        "sklearn/linear_model/tests/test_ridge.py::test_errors_and_values_svd_helper": true,
+        "sklearn/linear_model/tests/test_ridge.py::test_ridgecv_sample_weight": true,
+        "sklearn/linear_model/tests/test_ridge.py::test_errors_and_values_helper": true,
+        "sklearn/linear_model/tests/test_ridge.py::test_class_weights_cv": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/scikit-learn__scikit-learn-10297/dedup_patch_7.jsonl": {
+      "scikit-learn__scikit-learn-10297": {
+        "sklearn/linear_model/tests/test_ridge.py::test_ridgecv_store_cv_values": true,
+        "sklearn/linear_model/tests/test_ridge.py::test_errors_and_values_svd_helper": true,
+        "sklearn/linear_model/tests/test_ridge.py::test_ridgecv_sample_weight": true,
+        "sklearn/linear_model/tests/test_ridge.py::test_errors_and_values_helper": true,
+        "sklearn/linear_model/tests/test_ridge.py::test_class_weights_cv": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/scikit-learn__scikit-learn-10297/dedup_patch_8.jsonl": {
+      "scikit-learn__scikit-learn-10297": {
+        "sklearn/linear_model/tests/test_ridge.py::test_ridgecv_store_cv_values": true,
+        "sklearn/linear_model/tests/test_ridge.py::test_errors_and_values_svd_helper": true,
+        "sklearn/linear_model/tests/test_ridge.py::test_ridgecv_sample_weight": true,
+        "sklearn/linear_model/tests/test_ridge.py::test_errors_and_values_helper": true,
+        "sklearn/linear_model/tests/test_ridge.py::test_class_weights_cv": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "scikit-learn__scikit-learn-10297": {
+        "sklearn/linear_model/tests/test_ridge.py::test_ridge_classifier_no_support_multilabel#1": false,
+        "sklearn/linear_model/tests/test_ridge.py::test_ridgecv_store_cv_values#2": false,
+        "sklearn/linear_model/tests/test_ridge.py::test_ridgecv_store_cv_values#3": false,
+        "sklearn/linear_model/tests/test_ridge.py::test_ridgecv_store_cv_values#4": false,
+        "sklearn/linear_model/tests/test_ridge.py::test_ridgecv_store_cv_values#5": false
+      }
+    }
+  }
+}

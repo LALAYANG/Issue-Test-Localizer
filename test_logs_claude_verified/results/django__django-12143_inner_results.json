@@ -1,0 +1,52 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/django__django-12143/dedup_patch_0.jsonl": {
+      "django__django-12143": {
+        "admin_changelist.tests.ChangeListTests.test_get_list_editable_queryset": true,
+        "admin_views.tests.AdminViewPermissionsTest.test_change_view_with_view_only_inlines": true,
+        "admin_inlines.tests.TestInlinePermissions.test_inline_change_fk_all_perms": true,
+        "admin_inlines.tests.TestInlineMedia.test_all_inline_media": true,
+        "admin_inlines.tests.TestInline.test_inline_editable_pk": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12143/dedup_patch_1.jsonl": {
+      "django__django-12143": {
+        "admin_changelist.tests.ChangeListTests.test_get_list_editable_queryset": true,
+        "admin_views.tests.AdminViewPermissionsTest.test_change_view_with_view_only_inlines": true,
+        "admin_inlines.tests.TestInlinePermissions.test_inline_change_fk_all_perms": true,
+        "admin_inlines.tests.TestInlineMedia.test_all_inline_media": true,
+        "admin_inlines.tests.TestInline.test_inline_editable_pk": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-12143": {
+        "admin_inlines.tests.SeleniumTests.test_regex_chars_in_prefix#1": false,
+        "admin_inlines.tests.TestInline.test_regex_special_chars_in_prefix#2": true,
+        "admin_inlines.tests.TestInlinePermissions.test_regex_chars_in_prefix#3": true,
+        "admin_inlines.tests.TestInline.test_regex_special_chars_in_prefix#4": true,
+        "admin_inlines.tests.TestInline.test_regex_special_chars_in_prefix#5": true,
+        "admin_inlines.tests.TestInline.test_regex_special_chars_in_prefix#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12143/dedup_patch_0.jsonl": {
+      "django__django-12143": {
+        "admin_inlines.tests.TestInline.test_regex_special_chars_in_prefix#2": false,
+        "admin_inlines.tests.TestInlinePermissions.test_regex_chars_in_prefix#3": false,
+        "admin_inlines.tests.TestInline.test_regex_special_chars_in_prefix#4": false,
+        "admin_inlines.tests.TestInline.test_regex_special_chars_in_prefix#5": false,
+        "admin_inlines.tests.TestInline.test_regex_special_chars_in_prefix#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12143/dedup_patch_1.jsonl": {
+      "django__django-12143": {
+        "admin_inlines.tests.TestInline.test_regex_special_chars_in_prefix#2": false,
+        "admin_inlines.tests.TestInlinePermissions.test_regex_chars_in_prefix#3": false,
+        "admin_inlines.tests.TestInline.test_regex_special_chars_in_prefix#4": false,
+        "admin_inlines.tests.TestInline.test_regex_special_chars_in_prefix#5": false,
+        "admin_inlines.tests.TestInline.test_regex_special_chars_in_prefix#6": false
+      }
+    }
+  }
+}

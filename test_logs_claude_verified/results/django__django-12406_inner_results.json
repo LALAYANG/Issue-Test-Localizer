@@ -1,0 +1,298 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/django__django-12406/dedup_patch_0.jsonl": {
+      "django__django-12406": {
+        "model_forms.tests.ModelFormBasicTests.test_m2m_initial_callable": false,
+        "model_forms.tests.LocalizedModelFormTest.test_model_form_applies_localize_to_all_fields": false,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_help_text_overrides": false,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_disabled_modelchoicefield_initial_model_instance": false,
+        "model_forms.tests.UniqueTest.test_override_unique_message": false,
+        "model_forms.tests.FormFieldCallbackTests.test_bad_callback": false,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_inlineformset_factory_widgets": false,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_inlineformset_factory_help_text_overrides": false,
+        "model_forms.tests.ModelFormBaseTest.test_exclude_fields": false,
+        "model_forms.tests.ModelFormBasicTests.test_runtime_choicefield_populated": false,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_field_class_overrides": false,
+        "model_forms.tests.ModelOtherFieldTests.test_modelform_non_editable_field": false,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_disabled_modelchoicefield_has_changed": false,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_inlineformset_factory_labels_overrides": false,
+        "model_formsets.tests.ModelFormsetTest.test_prevent_duplicates_from_with_the_same_formset": false,
+        "model_forms.tests.LimitChoicesToTests.test_fields_for_model_applies_limit_choices_to": false,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_clean_model_instance": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12406/dedup_patch_1.jsonl": {
+      "django__django-12406": {
+        "model_forms.tests.ModelFormBasicTests.test_m2m_initial_callable": false,
+        "model_forms.tests.LocalizedModelFormTest.test_model_form_applies_localize_to_all_fields": false,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_help_text_overrides": false,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_disabled_modelchoicefield_initial_model_instance": false,
+        "model_forms.tests.UniqueTest.test_override_unique_message": false,
+        "model_forms.tests.FormFieldCallbackTests.test_bad_callback": false,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_inlineformset_factory_widgets": false,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_inlineformset_factory_help_text_overrides": false,
+        "model_forms.tests.ModelFormBaseTest.test_exclude_fields": false,
+        "model_forms.tests.ModelFormBasicTests.test_runtime_choicefield_populated": false,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_field_class_overrides": false,
+        "model_forms.tests.ModelOtherFieldTests.test_modelform_non_editable_field": false,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_disabled_modelchoicefield_has_changed": false,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_inlineformset_factory_labels_overrides": false,
+        "model_formsets.tests.ModelFormsetTest.test_prevent_duplicates_from_with_the_same_formset": false,
+        "model_forms.tests.LimitChoicesToTests.test_fields_for_model_applies_limit_choices_to": false,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_clean_model_instance": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12406/dedup_patch_10.jsonl": {
+      "django__django-12406": {
+        "model_forms.tests.ModelFormBasicTests.test_m2m_initial_callable": true,
+        "model_forms.tests.LocalizedModelFormTest.test_model_form_applies_localize_to_all_fields": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_help_text_overrides": true,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_disabled_modelchoicefield_initial_model_instance": true,
+        "model_forms.tests.UniqueTest.test_override_unique_message": true,
+        "model_forms.tests.FormFieldCallbackTests.test_bad_callback": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_inlineformset_factory_widgets": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_inlineformset_factory_help_text_overrides": true,
+        "model_forms.tests.ModelFormBaseTest.test_exclude_fields": true,
+        "model_forms.tests.ModelFormBasicTests.test_runtime_choicefield_populated": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_field_class_overrides": true,
+        "model_forms.tests.ModelOtherFieldTests.test_modelform_non_editable_field": true,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_disabled_modelchoicefield_has_changed": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_inlineformset_factory_labels_overrides": true,
+        "model_formsets.tests.ModelFormsetTest.test_prevent_duplicates_from_with_the_same_formset": false,
+        "model_forms.tests.LimitChoicesToTests.test_fields_for_model_applies_limit_choices_to": true,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_clean_model_instance": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12406/dedup_patch_11.jsonl": {
+      "django__django-12406": {
+        "model_forms.tests.ModelFormBasicTests.test_m2m_initial_callable": true,
+        "model_forms.tests.LocalizedModelFormTest.test_model_form_applies_localize_to_all_fields": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_help_text_overrides": true,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_disabled_modelchoicefield_initial_model_instance": true,
+        "model_forms.tests.UniqueTest.test_override_unique_message": true,
+        "model_forms.tests.FormFieldCallbackTests.test_bad_callback": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_inlineformset_factory_widgets": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_inlineformset_factory_help_text_overrides": true,
+        "model_forms.tests.ModelFormBaseTest.test_exclude_fields": true,
+        "model_forms.tests.ModelFormBasicTests.test_runtime_choicefield_populated": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_field_class_overrides": true,
+        "model_forms.tests.ModelOtherFieldTests.test_modelform_non_editable_field": true,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_disabled_modelchoicefield_has_changed": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_inlineformset_factory_labels_overrides": true,
+        "model_formsets.tests.ModelFormsetTest.test_prevent_duplicates_from_with_the_same_formset": true,
+        "model_forms.tests.LimitChoicesToTests.test_fields_for_model_applies_limit_choices_to": true,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_clean_model_instance": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12406/dedup_patch_2.jsonl": {
+      "django__django-12406": {
+        "model_forms.tests.ModelFormBasicTests.test_m2m_initial_callable": false,
+        "model_forms.tests.LocalizedModelFormTest.test_model_form_applies_localize_to_all_fields": false,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_help_text_overrides": false,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_disabled_modelchoicefield_initial_model_instance": true,
+        "model_forms.tests.UniqueTest.test_override_unique_message": false,
+        "model_forms.tests.FormFieldCallbackTests.test_bad_callback": false,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_inlineformset_factory_widgets": false,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_inlineformset_factory_help_text_overrides": false,
+        "model_forms.tests.ModelFormBaseTest.test_exclude_fields": false,
+        "model_forms.tests.ModelFormBasicTests.test_runtime_choicefield_populated": false,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_field_class_overrides": false,
+        "model_forms.tests.ModelOtherFieldTests.test_modelform_non_editable_field": false,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_disabled_modelchoicefield_has_changed": false,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_inlineformset_factory_labels_overrides": false,
+        "model_formsets.tests.ModelFormsetTest.test_prevent_duplicates_from_with_the_same_formset": false,
+        "model_forms.tests.LimitChoicesToTests.test_fields_for_model_applies_limit_choices_to": false,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_clean_model_instance": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12406/dedup_patch_3.jsonl": {
+      "django__django-12406": {
+        "model_forms.tests.ModelFormBasicTests.test_m2m_initial_callable": true,
+        "model_forms.tests.LocalizedModelFormTest.test_model_form_applies_localize_to_all_fields": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_help_text_overrides": true,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_disabled_modelchoicefield_initial_model_instance": true,
+        "model_forms.tests.UniqueTest.test_override_unique_message": true,
+        "model_forms.tests.FormFieldCallbackTests.test_bad_callback": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_inlineformset_factory_widgets": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_inlineformset_factory_help_text_overrides": true,
+        "model_forms.tests.ModelFormBaseTest.test_exclude_fields": true,
+        "model_forms.tests.ModelFormBasicTests.test_runtime_choicefield_populated": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_field_class_overrides": true,
+        "model_forms.tests.ModelOtherFieldTests.test_modelform_non_editable_field": true,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_disabled_modelchoicefield_has_changed": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_inlineformset_factory_labels_overrides": true,
+        "model_formsets.tests.ModelFormsetTest.test_prevent_duplicates_from_with_the_same_formset": true,
+        "model_forms.tests.LimitChoicesToTests.test_fields_for_model_applies_limit_choices_to": true,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_clean_model_instance": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12406/dedup_patch_4.jsonl": {
+      "django__django-12406": {
+        "model_forms.tests.ModelFormBasicTests.test_m2m_initial_callable": true,
+        "model_forms.tests.LocalizedModelFormTest.test_model_form_applies_localize_to_all_fields": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_help_text_overrides": true,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_disabled_modelchoicefield_initial_model_instance": true,
+        "model_forms.tests.UniqueTest.test_override_unique_message": true,
+        "model_forms.tests.FormFieldCallbackTests.test_bad_callback": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_inlineformset_factory_widgets": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_inlineformset_factory_help_text_overrides": true,
+        "model_forms.tests.ModelFormBaseTest.test_exclude_fields": true,
+        "model_forms.tests.ModelFormBasicTests.test_runtime_choicefield_populated": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_field_class_overrides": true,
+        "model_forms.tests.ModelOtherFieldTests.test_modelform_non_editable_field": true,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_disabled_modelchoicefield_has_changed": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_inlineformset_factory_labels_overrides": true,
+        "model_formsets.tests.ModelFormsetTest.test_prevent_duplicates_from_with_the_same_formset": true,
+        "model_forms.tests.LimitChoicesToTests.test_fields_for_model_applies_limit_choices_to": true,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_clean_model_instance": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12406/dedup_patch_5.jsonl": {
+      "django__django-12406": {
+        "model_forms.tests.ModelFormBasicTests.test_m2m_initial_callable": false,
+        "model_forms.tests.LocalizedModelFormTest.test_model_form_applies_localize_to_all_fields": false,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_help_text_overrides": false,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_disabled_modelchoicefield_initial_model_instance": false,
+        "model_forms.tests.UniqueTest.test_override_unique_message": false,
+        "model_forms.tests.FormFieldCallbackTests.test_bad_callback": false,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_inlineformset_factory_widgets": false,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_inlineformset_factory_help_text_overrides": false,
+        "model_forms.tests.ModelFormBaseTest.test_exclude_fields": false,
+        "model_forms.tests.ModelFormBasicTests.test_runtime_choicefield_populated": false,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_field_class_overrides": false,
+        "model_forms.tests.ModelOtherFieldTests.test_modelform_non_editable_field": false,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_disabled_modelchoicefield_has_changed": false,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_inlineformset_factory_labels_overrides": false,
+        "model_formsets.tests.ModelFormsetTest.test_prevent_duplicates_from_with_the_same_formset": false,
+        "model_forms.tests.LimitChoicesToTests.test_fields_for_model_applies_limit_choices_to": false,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_clean_model_instance": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12406/dedup_patch_6.jsonl": {
+      "django__django-12406": {
+        "model_forms.tests.ModelFormBasicTests.test_m2m_initial_callable": false,
+        "model_forms.tests.LocalizedModelFormTest.test_model_form_applies_localize_to_all_fields": false,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_help_text_overrides": false,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_disabled_modelchoicefield_initial_model_instance": true,
+        "model_forms.tests.UniqueTest.test_override_unique_message": false,
+        "model_forms.tests.FormFieldCallbackTests.test_bad_callback": false,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_inlineformset_factory_widgets": false,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_inlineformset_factory_help_text_overrides": false,
+        "model_forms.tests.ModelFormBaseTest.test_exclude_fields": false,
+        "model_forms.tests.ModelFormBasicTests.test_runtime_choicefield_populated": false,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_field_class_overrides": false,
+        "model_forms.tests.ModelOtherFieldTests.test_modelform_non_editable_field": false,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_disabled_modelchoicefield_has_changed": false,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_inlineformset_factory_labels_overrides": false,
+        "model_formsets.tests.ModelFormsetTest.test_prevent_duplicates_from_with_the_same_formset": false,
+        "model_forms.tests.LimitChoicesToTests.test_fields_for_model_applies_limit_choices_to": false,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_clean_model_instance": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12406/dedup_patch_7.jsonl": {
+      "django__django-12406": {
+        "model_forms.tests.ModelFormBasicTests.test_m2m_initial_callable": false,
+        "model_forms.tests.LocalizedModelFormTest.test_model_form_applies_localize_to_all_fields": false,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_help_text_overrides": false,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_disabled_modelchoicefield_initial_model_instance": true,
+        "model_forms.tests.UniqueTest.test_override_unique_message": false,
+        "model_forms.tests.FormFieldCallbackTests.test_bad_callback": false,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_inlineformset_factory_widgets": false,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_inlineformset_factory_help_text_overrides": false,
+        "model_forms.tests.ModelFormBaseTest.test_exclude_fields": false,
+        "model_forms.tests.ModelFormBasicTests.test_runtime_choicefield_populated": false,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_field_class_overrides": false,
+        "model_forms.tests.ModelOtherFieldTests.test_modelform_non_editable_field": false,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_disabled_modelchoicefield_has_changed": false,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_inlineformset_factory_labels_overrides": false,
+        "model_formsets.tests.ModelFormsetTest.test_prevent_duplicates_from_with_the_same_formset": false,
+        "model_forms.tests.LimitChoicesToTests.test_fields_for_model_applies_limit_choices_to": false,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_clean_model_instance": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12406/dedup_patch_8.jsonl": {
+      "django__django-12406": {
+        "model_forms.tests.ModelFormBasicTests.test_m2m_initial_callable": false,
+        "model_forms.tests.LocalizedModelFormTest.test_model_form_applies_localize_to_all_fields": false,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_help_text_overrides": false,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_disabled_modelchoicefield_initial_model_instance": true,
+        "model_forms.tests.UniqueTest.test_override_unique_message": false,
+        "model_forms.tests.FormFieldCallbackTests.test_bad_callback": false,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_inlineformset_factory_widgets": false,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_inlineformset_factory_help_text_overrides": false,
+        "model_forms.tests.ModelFormBaseTest.test_exclude_fields": false,
+        "model_forms.tests.ModelFormBasicTests.test_runtime_choicefield_populated": false,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_field_class_overrides": false,
+        "model_forms.tests.ModelOtherFieldTests.test_modelform_non_editable_field": false,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_disabled_modelchoicefield_has_changed": false,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_inlineformset_factory_labels_overrides": false,
+        "model_formsets.tests.ModelFormsetTest.test_prevent_duplicates_from_with_the_same_formset": false,
+        "model_forms.tests.LimitChoicesToTests.test_fields_for_model_applies_limit_choices_to": false,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_clean_model_instance": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12406/dedup_patch_9.jsonl": {
+      "django__django-12406": {
+        "model_forms.tests.ModelFormBasicTests.test_m2m_initial_callable": true,
+        "model_forms.tests.LocalizedModelFormTest.test_model_form_applies_localize_to_all_fields": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_help_text_overrides": true,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_disabled_modelchoicefield_initial_model_instance": true,
+        "model_forms.tests.UniqueTest.test_override_unique_message": true,
+        "model_forms.tests.FormFieldCallbackTests.test_bad_callback": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_inlineformset_factory_widgets": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_inlineformset_factory_help_text_overrides": true,
+        "model_forms.tests.ModelFormBaseTest.test_exclude_fields": true,
+        "model_forms.tests.ModelFormBasicTests.test_runtime_choicefield_populated": false,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_field_class_overrides": true,
+        "model_forms.tests.ModelOtherFieldTests.test_modelform_non_editable_field": true,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_disabled_modelchoicefield_has_changed": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_inlineformset_factory_labels_overrides": true,
+        "model_formsets.tests.ModelFormsetTest.test_prevent_duplicates_from_with_the_same_formset": true,
+        "model_forms.tests.LimitChoicesToTests.test_fields_for_model_applies_limit_choices_to": true,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_clean_model_instance": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-12406": {
+        "model_forms.tests.ModelFormBaseTest.test_radioselect_blank_false_foreign_key#1": true,
+        "model_forms.tests.ModelFormBaseTest.test_radioselect_blank_false_foreign_key#2": true,
+        "model_forms.tests.ModelFormBaseTest.test_radioselect_blank_false_foreign_key#3": true,
+        "model_forms.tests.ModelFormBaseTest.test_radioselect_blank_false_foreign_key#4": true,
+        "model_forms.tests.ModelFormBaseTest.test_radioselect_no_blank_option_for_blank_false#5": true,
+        "model_forms.tests.ModelFormBaseTest.test_radioselect_blank_false_foreign_key#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12406/dedup_patch_11.jsonl": {
+      "django__django-12406": {
+        "model_forms.tests.ModelFormBaseTest.test_radioselect_blank_false_foreign_key#1": false,
+        "model_forms.tests.ModelFormBaseTest.test_radioselect_blank_false_foreign_key#2": false,
+        "model_forms.tests.ModelFormBaseTest.test_radioselect_blank_false_foreign_key#3": false,
+        "model_forms.tests.ModelFormBaseTest.test_radioselect_blank_false_foreign_key#4": false,
+        "model_forms.tests.ModelFormBaseTest.test_radioselect_no_blank_option_for_blank_false#5": false,
+        "model_forms.tests.ModelFormBaseTest.test_radioselect_blank_false_foreign_key#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12406/dedup_patch_3.jsonl": {
+      "django__django-12406": {
+        "model_forms.tests.ModelFormBaseTest.test_radioselect_blank_false_foreign_key#1": false,
+        "model_forms.tests.ModelFormBaseTest.test_radioselect_blank_false_foreign_key#2": false,
+        "model_forms.tests.ModelFormBaseTest.test_radioselect_blank_false_foreign_key#3": false,
+        "model_forms.tests.ModelFormBaseTest.test_radioselect_blank_false_foreign_key#4": false,
+        "model_forms.tests.ModelFormBaseTest.test_radioselect_no_blank_option_for_blank_false#5": false,
+        "model_forms.tests.ModelFormBaseTest.test_radioselect_blank_false_foreign_key#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12406/dedup_patch_4.jsonl": {
+      "django__django-12406": {
+        "model_forms.tests.ModelFormBaseTest.test_radioselect_blank_false_foreign_key#1": false,
+        "model_forms.tests.ModelFormBaseTest.test_radioselect_blank_false_foreign_key#2": false,
+        "model_forms.tests.ModelFormBaseTest.test_radioselect_blank_false_foreign_key#3": false,
+        "model_forms.tests.ModelFormBaseTest.test_radioselect_blank_false_foreign_key#4": false,
+        "model_forms.tests.ModelFormBaseTest.test_radioselect_no_blank_option_for_blank_false#5": false,
+        "model_forms.tests.ModelFormBaseTest.test_radioselect_blank_false_foreign_key#6": false
+      }
+    }
+  }
+}

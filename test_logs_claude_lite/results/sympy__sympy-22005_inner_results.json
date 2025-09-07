@@ -1,0 +1,30 @@
+{
+  "regression": {
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-22005/dedup_patch_0.jsonl": {
+      "sympy__sympy-22005": {
+        "sympy/solvers/tests/test_polysys.py::test_solve_poly_system": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-22005/dedup_patch_1.jsonl": {
+      "sympy__sympy-22005": {
+        "sympy/solvers/tests/test_polysys.py::test_solve_poly_system": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-22005/dedup_patch_2.jsonl": {
+      "sympy__sympy-22005": {
+        "sympy/solvers/tests/test_polysys.py::test_solve_poly_system": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "sympy__sympy-22005": {
+        "sympy/solvers/tests/test_polysys.py::test_solve_issue_3686#1": false,
+        "sympy/solvers/tests/test_polysys.py::test_solve_issue_3686#2": false,
+        "sympy/solvers/tests/test_polysys.py::test_solve_issue_3686#3": false,
+        "sympy/solvers/tests/test_polysys.py::test_solve_issue_3686#4": false,
+        "sympy/solvers/tests/test_polysys.py::test_solve_issue_3686#5": false
+      }
+    }
+  }
+}

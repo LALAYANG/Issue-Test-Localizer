@@ -1,0 +1,33 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/django__django-15104/dedup_patch_0.jsonl": {
+      "django__django-15104": {
+        "migrations.test_autodetector.AutodetectorTests.test_swappable": true,
+        "migrations.test_autodetector.AutodetectorTests.test_arrange_for_graph_with_multiple_initial": true,
+        "migrations.test_autodetector.AutodetectorTests.test_swappable_circular_multi_mti": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-15104": {
+        "migrations.test_autodetector.AutodetectorTests.test_fk_field_without_to_deconstruction#1": true,
+        "migrations.test_autodetector.AutodetectorTests.test_custom_fk_field_with_hardcoded_reference#2": true,
+        "migrations.test_autodetector.AutodetectorTests.test_fk_field_with_hardcoded_reference#3": true,
+        "migrations.test_autodetector.AutodetectorTests.test_custom_fk_without_to_in_deconstruct#4": true,
+        "migrations.test_autodetector.AutodetectorTests.test_hardcoded_fk_reference_deconstruction#5": true,
+        "migrations.test_autodetector.AutodetectorTests.test_custom_fk_field_with_hardcoded_reference#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15104/dedup_patch_0.jsonl": {
+      "django__django-15104": {
+        "migrations.test_autodetector.AutodetectorTests.test_fk_field_without_to_deconstruction#1": true,
+        "migrations.test_autodetector.AutodetectorTests.test_custom_fk_field_with_hardcoded_reference#2": true,
+        "migrations.test_autodetector.AutodetectorTests.test_fk_field_with_hardcoded_reference#3": true,
+        "migrations.test_autodetector.AutodetectorTests.test_custom_fk_without_to_in_deconstruct#4": true,
+        "migrations.test_autodetector.AutodetectorTests.test_hardcoded_fk_reference_deconstruction#5": true,
+        "migrations.test_autodetector.AutodetectorTests.test_custom_fk_field_with_hardcoded_reference#6": true
+      }
+    }
+  }
+}

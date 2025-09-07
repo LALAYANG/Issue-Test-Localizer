@@ -1,0 +1,610 @@
+{
+  "regression": {
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-21614/dedup_patch_0.jsonl": {
+      "sympy__sympy-21614": {
+        "sympy/core/tests/test_function.py::test_issue_15084_13166": false,
+        "sympy/core/tests/test_function.py::test_issue_5399": false,
+        "sympy/core/tests/test_function.py::test_unhandled": false,
+        "sympy/core/tests/test_function.py::test_negative_counts": false,
+        "sympy/core/tests/test_function.py::test_Derivative__new__": false,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivatives_of_traces": false,
+        "sympy/core/tests/test_function.py::test_issue_15241": false,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivative_vectors_and_scalars": false,
+        "sympy/core/tests/test_function.py::test_issue_15947": false,
+        "sympy/core/tests/test_function.py::test_derivative_evaluate": false,
+        "sympy/core/tests/test_function.py::test_issue_14719_10150": false,
+        "sympy/core/tests/test_function.py::test_derivative_quick_exit": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-21614/dedup_patch_1.jsonl": {
+      "sympy__sympy-21614": {
+        "sympy/core/tests/test_function.py::test_issue_15084_13166": true,
+        "sympy/core/tests/test_function.py::test_issue_5399": true,
+        "sympy/core/tests/test_function.py::test_unhandled": true,
+        "sympy/core/tests/test_function.py::test_negative_counts": true,
+        "sympy/core/tests/test_function.py::test_Derivative__new__": true,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivatives_of_traces": true,
+        "sympy/core/tests/test_function.py::test_issue_15241": true,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivative_vectors_and_scalars": true,
+        "sympy/core/tests/test_function.py::test_issue_15947": true,
+        "sympy/core/tests/test_function.py::test_derivative_evaluate": true,
+        "sympy/core/tests/test_function.py::test_issue_14719_10150": true,
+        "sympy/core/tests/test_function.py::test_derivative_quick_exit": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-21614/dedup_patch_10.jsonl": {
+      "sympy__sympy-21614": {
+        "sympy/core/tests/test_function.py::test_issue_15084_13166": false,
+        "sympy/core/tests/test_function.py::test_issue_5399": false,
+        "sympy/core/tests/test_function.py::test_unhandled": false,
+        "sympy/core/tests/test_function.py::test_negative_counts": false,
+        "sympy/core/tests/test_function.py::test_Derivative__new__": false,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivatives_of_traces": false,
+        "sympy/core/tests/test_function.py::test_issue_15241": false,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivative_vectors_and_scalars": false,
+        "sympy/core/tests/test_function.py::test_issue_15947": false,
+        "sympy/core/tests/test_function.py::test_derivative_evaluate": false,
+        "sympy/core/tests/test_function.py::test_issue_14719_10150": false,
+        "sympy/core/tests/test_function.py::test_derivative_quick_exit": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-21614/dedup_patch_11.jsonl": {
+      "sympy__sympy-21614": {
+        "sympy/core/tests/test_function.py::test_issue_15084_13166": true,
+        "sympy/core/tests/test_function.py::test_issue_5399": true,
+        "sympy/core/tests/test_function.py::test_unhandled": true,
+        "sympy/core/tests/test_function.py::test_negative_counts": true,
+        "sympy/core/tests/test_function.py::test_Derivative__new__": true,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivatives_of_traces": true,
+        "sympy/core/tests/test_function.py::test_issue_15241": true,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivative_vectors_and_scalars": true,
+        "sympy/core/tests/test_function.py::test_issue_15947": true,
+        "sympy/core/tests/test_function.py::test_derivative_evaluate": true,
+        "sympy/core/tests/test_function.py::test_issue_14719_10150": true,
+        "sympy/core/tests/test_function.py::test_derivative_quick_exit": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-21614/dedup_patch_12.jsonl": {
+      "sympy__sympy-21614": {
+        "sympy/core/tests/test_function.py::test_issue_15084_13166": true,
+        "sympy/core/tests/test_function.py::test_issue_5399": true,
+        "sympy/core/tests/test_function.py::test_unhandled": true,
+        "sympy/core/tests/test_function.py::test_negative_counts": true,
+        "sympy/core/tests/test_function.py::test_Derivative__new__": true,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivatives_of_traces": true,
+        "sympy/core/tests/test_function.py::test_issue_15241": true,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivative_vectors_and_scalars": true,
+        "sympy/core/tests/test_function.py::test_issue_15947": true,
+        "sympy/core/tests/test_function.py::test_derivative_evaluate": true,
+        "sympy/core/tests/test_function.py::test_issue_14719_10150": true,
+        "sympy/core/tests/test_function.py::test_derivative_quick_exit": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-21614/dedup_patch_13.jsonl": {
+      "sympy__sympy-21614": {
+        "sympy/core/tests/test_function.py::test_issue_15084_13166": true,
+        "sympy/core/tests/test_function.py::test_issue_5399": true,
+        "sympy/core/tests/test_function.py::test_unhandled": true,
+        "sympy/core/tests/test_function.py::test_negative_counts": true,
+        "sympy/core/tests/test_function.py::test_Derivative__new__": true,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivatives_of_traces": true,
+        "sympy/core/tests/test_function.py::test_issue_15241": true,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivative_vectors_and_scalars": true,
+        "sympy/core/tests/test_function.py::test_issue_15947": true,
+        "sympy/core/tests/test_function.py::test_derivative_evaluate": true,
+        "sympy/core/tests/test_function.py::test_issue_14719_10150": true,
+        "sympy/core/tests/test_function.py::test_derivative_quick_exit": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-21614/dedup_patch_14.jsonl": {
+      "sympy__sympy-21614": {
+        "sympy/core/tests/test_function.py::test_issue_15084_13166": false,
+        "sympy/core/tests/test_function.py::test_issue_5399": false,
+        "sympy/core/tests/test_function.py::test_unhandled": false,
+        "sympy/core/tests/test_function.py::test_negative_counts": true,
+        "sympy/core/tests/test_function.py::test_Derivative__new__": false,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivatives_of_traces": false,
+        "sympy/core/tests/test_function.py::test_issue_15241": false,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivative_vectors_and_scalars": false,
+        "sympy/core/tests/test_function.py::test_issue_15947": true,
+        "sympy/core/tests/test_function.py::test_derivative_evaluate": false,
+        "sympy/core/tests/test_function.py::test_issue_14719_10150": false,
+        "sympy/core/tests/test_function.py::test_derivative_quick_exit": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-21614/dedup_patch_15.jsonl": {
+      "sympy__sympy-21614": {
+        "sympy/core/tests/test_function.py::test_issue_15084_13166": false,
+        "sympy/core/tests/test_function.py::test_issue_5399": true,
+        "sympy/core/tests/test_function.py::test_unhandled": false,
+        "sympy/core/tests/test_function.py::test_negative_counts": true,
+        "sympy/core/tests/test_function.py::test_Derivative__new__": false,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivatives_of_traces": false,
+        "sympy/core/tests/test_function.py::test_issue_15241": false,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivative_vectors_and_scalars": true,
+        "sympy/core/tests/test_function.py::test_issue_15947": true,
+        "sympy/core/tests/test_function.py::test_derivative_evaluate": false,
+        "sympy/core/tests/test_function.py::test_issue_14719_10150": false,
+        "sympy/core/tests/test_function.py::test_derivative_quick_exit": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-21614/dedup_patch_16.jsonl": {
+      "sympy__sympy-21614": {
+        "sympy/core/tests/test_function.py::test_issue_15084_13166": false,
+        "sympy/core/tests/test_function.py::test_issue_5399": true,
+        "sympy/core/tests/test_function.py::test_unhandled": false,
+        "sympy/core/tests/test_function.py::test_negative_counts": true,
+        "sympy/core/tests/test_function.py::test_Derivative__new__": false,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivatives_of_traces": false,
+        "sympy/core/tests/test_function.py::test_issue_15241": false,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivative_vectors_and_scalars": true,
+        "sympy/core/tests/test_function.py::test_issue_15947": true,
+        "sympy/core/tests/test_function.py::test_derivative_evaluate": false,
+        "sympy/core/tests/test_function.py::test_issue_14719_10150": false,
+        "sympy/core/tests/test_function.py::test_derivative_quick_exit": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-21614/dedup_patch_17.jsonl": {
+      "sympy__sympy-21614": {
+        "sympy/core/tests/test_function.py::test_issue_15084_13166": true,
+        "sympy/core/tests/test_function.py::test_issue_5399": true,
+        "sympy/core/tests/test_function.py::test_unhandled": true,
+        "sympy/core/tests/test_function.py::test_negative_counts": true,
+        "sympy/core/tests/test_function.py::test_Derivative__new__": true,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivatives_of_traces": true,
+        "sympy/core/tests/test_function.py::test_issue_15241": true,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivative_vectors_and_scalars": true,
+        "sympy/core/tests/test_function.py::test_issue_15947": true,
+        "sympy/core/tests/test_function.py::test_derivative_evaluate": true,
+        "sympy/core/tests/test_function.py::test_issue_14719_10150": true,
+        "sympy/core/tests/test_function.py::test_derivative_quick_exit": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-21614/dedup_patch_18.jsonl": {
+      "sympy__sympy-21614": {
+        "sympy/core/tests/test_function.py::test_issue_15084_13166": true,
+        "sympy/core/tests/test_function.py::test_issue_5399": true,
+        "sympy/core/tests/test_function.py::test_unhandled": true,
+        "sympy/core/tests/test_function.py::test_negative_counts": true,
+        "sympy/core/tests/test_function.py::test_Derivative__new__": true,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivatives_of_traces": true,
+        "sympy/core/tests/test_function.py::test_issue_15241": false,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivative_vectors_and_scalars": true,
+        "sympy/core/tests/test_function.py::test_issue_15947": true,
+        "sympy/core/tests/test_function.py::test_derivative_evaluate": true,
+        "sympy/core/tests/test_function.py::test_issue_14719_10150": true,
+        "sympy/core/tests/test_function.py::test_derivative_quick_exit": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-21614/dedup_patch_19.jsonl": {
+      "sympy__sympy-21614": {
+        "sympy/core/tests/test_function.py::test_issue_15084_13166": false,
+        "sympy/core/tests/test_function.py::test_issue_5399": false,
+        "sympy/core/tests/test_function.py::test_unhandled": false,
+        "sympy/core/tests/test_function.py::test_negative_counts": true,
+        "sympy/core/tests/test_function.py::test_Derivative__new__": false,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivatives_of_traces": false,
+        "sympy/core/tests/test_function.py::test_issue_15241": false,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivative_vectors_and_scalars": false,
+        "sympy/core/tests/test_function.py::test_issue_15947": true,
+        "sympy/core/tests/test_function.py::test_derivative_evaluate": false,
+        "sympy/core/tests/test_function.py::test_issue_14719_10150": false,
+        "sympy/core/tests/test_function.py::test_derivative_quick_exit": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-21614/dedup_patch_2.jsonl": {
+      "sympy__sympy-21614": {
+        "sympy/core/tests/test_function.py::test_issue_15084_13166": true,
+        "sympy/core/tests/test_function.py::test_issue_5399": true,
+        "sympy/core/tests/test_function.py::test_unhandled": true,
+        "sympy/core/tests/test_function.py::test_negative_counts": true,
+        "sympy/core/tests/test_function.py::test_Derivative__new__": true,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivatives_of_traces": true,
+        "sympy/core/tests/test_function.py::test_issue_15241": true,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivative_vectors_and_scalars": true,
+        "sympy/core/tests/test_function.py::test_issue_15947": true,
+        "sympy/core/tests/test_function.py::test_derivative_evaluate": true,
+        "sympy/core/tests/test_function.py::test_issue_14719_10150": true,
+        "sympy/core/tests/test_function.py::test_derivative_quick_exit": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-21614/dedup_patch_20.jsonl": {
+      "sympy__sympy-21614": {
+        "sympy/core/tests/test_function.py::test_issue_15084_13166": true,
+        "sympy/core/tests/test_function.py::test_issue_5399": true,
+        "sympy/core/tests/test_function.py::test_unhandled": true,
+        "sympy/core/tests/test_function.py::test_negative_counts": true,
+        "sympy/core/tests/test_function.py::test_Derivative__new__": true,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivatives_of_traces": true,
+        "sympy/core/tests/test_function.py::test_issue_15241": true,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivative_vectors_and_scalars": true,
+        "sympy/core/tests/test_function.py::test_issue_15947": true,
+        "sympy/core/tests/test_function.py::test_derivative_evaluate": true,
+        "sympy/core/tests/test_function.py::test_issue_14719_10150": true,
+        "sympy/core/tests/test_function.py::test_derivative_quick_exit": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-21614/dedup_patch_21.jsonl": {
+      "sympy__sympy-21614": {
+        "sympy/core/tests/test_function.py::test_issue_15084_13166": true,
+        "sympy/core/tests/test_function.py::test_issue_5399": true,
+        "sympy/core/tests/test_function.py::test_unhandled": true,
+        "sympy/core/tests/test_function.py::test_negative_counts": true,
+        "sympy/core/tests/test_function.py::test_Derivative__new__": true,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivatives_of_traces": true,
+        "sympy/core/tests/test_function.py::test_issue_15241": true,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivative_vectors_and_scalars": true,
+        "sympy/core/tests/test_function.py::test_issue_15947": true,
+        "sympy/core/tests/test_function.py::test_derivative_evaluate": true,
+        "sympy/core/tests/test_function.py::test_issue_14719_10150": true,
+        "sympy/core/tests/test_function.py::test_derivative_quick_exit": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-21614/dedup_patch_22.jsonl": {
+      "sympy__sympy-21614": {
+        "sympy/core/tests/test_function.py::test_issue_15084_13166": true,
+        "sympy/core/tests/test_function.py::test_issue_5399": true,
+        "sympy/core/tests/test_function.py::test_unhandled": true,
+        "sympy/core/tests/test_function.py::test_negative_counts": true,
+        "sympy/core/tests/test_function.py::test_Derivative__new__": true,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivatives_of_traces": true,
+        "sympy/core/tests/test_function.py::test_issue_15241": true,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivative_vectors_and_scalars": true,
+        "sympy/core/tests/test_function.py::test_issue_15947": true,
+        "sympy/core/tests/test_function.py::test_derivative_evaluate": true,
+        "sympy/core/tests/test_function.py::test_issue_14719_10150": true,
+        "sympy/core/tests/test_function.py::test_derivative_quick_exit": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-21614/dedup_patch_23.jsonl": {
+      "sympy__sympy-21614": {
+        "sympy/core/tests/test_function.py::test_issue_15084_13166": false,
+        "sympy/core/tests/test_function.py::test_issue_5399": false,
+        "sympy/core/tests/test_function.py::test_unhandled": false,
+        "sympy/core/tests/test_function.py::test_negative_counts": false,
+        "sympy/core/tests/test_function.py::test_Derivative__new__": false,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivatives_of_traces": false,
+        "sympy/core/tests/test_function.py::test_issue_15241": false,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivative_vectors_and_scalars": false,
+        "sympy/core/tests/test_function.py::test_issue_15947": false,
+        "sympy/core/tests/test_function.py::test_derivative_evaluate": false,
+        "sympy/core/tests/test_function.py::test_issue_14719_10150": false,
+        "sympy/core/tests/test_function.py::test_derivative_quick_exit": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-21614/dedup_patch_24.jsonl": {
+      "sympy__sympy-21614": {
+        "sympy/core/tests/test_function.py::test_issue_15084_13166": true,
+        "sympy/core/tests/test_function.py::test_issue_5399": true,
+        "sympy/core/tests/test_function.py::test_unhandled": true,
+        "sympy/core/tests/test_function.py::test_negative_counts": true,
+        "sympy/core/tests/test_function.py::test_Derivative__new__": true,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivatives_of_traces": true,
+        "sympy/core/tests/test_function.py::test_issue_15241": true,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivative_vectors_and_scalars": true,
+        "sympy/core/tests/test_function.py::test_issue_15947": true,
+        "sympy/core/tests/test_function.py::test_derivative_evaluate": true,
+        "sympy/core/tests/test_function.py::test_issue_14719_10150": true,
+        "sympy/core/tests/test_function.py::test_derivative_quick_exit": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-21614/dedup_patch_25.jsonl": {
+      "sympy__sympy-21614": {
+        "sympy/core/tests/test_function.py::test_issue_15084_13166": true,
+        "sympy/core/tests/test_function.py::test_issue_5399": true,
+        "sympy/core/tests/test_function.py::test_unhandled": true,
+        "sympy/core/tests/test_function.py::test_negative_counts": true,
+        "sympy/core/tests/test_function.py::test_Derivative__new__": true,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivatives_of_traces": true,
+        "sympy/core/tests/test_function.py::test_issue_15241": true,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivative_vectors_and_scalars": true,
+        "sympy/core/tests/test_function.py::test_issue_15947": true,
+        "sympy/core/tests/test_function.py::test_derivative_evaluate": true,
+        "sympy/core/tests/test_function.py::test_issue_14719_10150": true,
+        "sympy/core/tests/test_function.py::test_derivative_quick_exit": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-21614/dedup_patch_26.jsonl": {
+      "sympy__sympy-21614": {
+        "sympy/core/tests/test_function.py::test_issue_15084_13166": true,
+        "sympy/core/tests/test_function.py::test_issue_5399": true,
+        "sympy/core/tests/test_function.py::test_unhandled": true,
+        "sympy/core/tests/test_function.py::test_negative_counts": true,
+        "sympy/core/tests/test_function.py::test_Derivative__new__": true,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivatives_of_traces": true,
+        "sympy/core/tests/test_function.py::test_issue_15241": true,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivative_vectors_and_scalars": true,
+        "sympy/core/tests/test_function.py::test_issue_15947": true,
+        "sympy/core/tests/test_function.py::test_derivative_evaluate": true,
+        "sympy/core/tests/test_function.py::test_issue_14719_10150": true,
+        "sympy/core/tests/test_function.py::test_derivative_quick_exit": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-21614/dedup_patch_27.jsonl": {
+      "sympy__sympy-21614": {
+        "sympy/core/tests/test_function.py::test_issue_15084_13166": true,
+        "sympy/core/tests/test_function.py::test_issue_5399": true,
+        "sympy/core/tests/test_function.py::test_unhandled": true,
+        "sympy/core/tests/test_function.py::test_negative_counts": true,
+        "sympy/core/tests/test_function.py::test_Derivative__new__": true,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivatives_of_traces": true,
+        "sympy/core/tests/test_function.py::test_issue_15241": true,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivative_vectors_and_scalars": true,
+        "sympy/core/tests/test_function.py::test_issue_15947": true,
+        "sympy/core/tests/test_function.py::test_derivative_evaluate": true,
+        "sympy/core/tests/test_function.py::test_issue_14719_10150": true,
+        "sympy/core/tests/test_function.py::test_derivative_quick_exit": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-21614/dedup_patch_28.jsonl": {
+      "sympy__sympy-21614": {
+        "sympy/core/tests/test_function.py::test_issue_15084_13166": false,
+        "sympy/core/tests/test_function.py::test_issue_5399": false,
+        "sympy/core/tests/test_function.py::test_unhandled": false,
+        "sympy/core/tests/test_function.py::test_negative_counts": false,
+        "sympy/core/tests/test_function.py::test_Derivative__new__": false,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivatives_of_traces": false,
+        "sympy/core/tests/test_function.py::test_issue_15241": false,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivative_vectors_and_scalars": false,
+        "sympy/core/tests/test_function.py::test_issue_15947": false,
+        "sympy/core/tests/test_function.py::test_derivative_evaluate": false,
+        "sympy/core/tests/test_function.py::test_issue_14719_10150": false,
+        "sympy/core/tests/test_function.py::test_derivative_quick_exit": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-21614/dedup_patch_29.jsonl": {
+      "sympy__sympy-21614": {
+        "sympy/core/tests/test_function.py::test_issue_15084_13166": true,
+        "sympy/core/tests/test_function.py::test_issue_5399": true,
+        "sympy/core/tests/test_function.py::test_unhandled": true,
+        "sympy/core/tests/test_function.py::test_negative_counts": true,
+        "sympy/core/tests/test_function.py::test_Derivative__new__": true,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivatives_of_traces": true,
+        "sympy/core/tests/test_function.py::test_issue_15241": true,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivative_vectors_and_scalars": true,
+        "sympy/core/tests/test_function.py::test_issue_15947": true,
+        "sympy/core/tests/test_function.py::test_derivative_evaluate": true,
+        "sympy/core/tests/test_function.py::test_issue_14719_10150": true,
+        "sympy/core/tests/test_function.py::test_derivative_quick_exit": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-21614/dedup_patch_3.jsonl": {
+      "sympy__sympy-21614": {
+        "sympy/core/tests/test_function.py::test_issue_15084_13166": false,
+        "sympy/core/tests/test_function.py::test_issue_5399": false,
+        "sympy/core/tests/test_function.py::test_unhandled": false,
+        "sympy/core/tests/test_function.py::test_negative_counts": true,
+        "sympy/core/tests/test_function.py::test_Derivative__new__": false,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivatives_of_traces": false,
+        "sympy/core/tests/test_function.py::test_issue_15241": false,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivative_vectors_and_scalars": false,
+        "sympy/core/tests/test_function.py::test_issue_15947": true,
+        "sympy/core/tests/test_function.py::test_derivative_evaluate": false,
+        "sympy/core/tests/test_function.py::test_issue_14719_10150": false,
+        "sympy/core/tests/test_function.py::test_derivative_quick_exit": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-21614/dedup_patch_30.jsonl": {
+      "sympy__sympy-21614": {
+        "sympy/core/tests/test_function.py::test_issue_15084_13166": false,
+        "sympy/core/tests/test_function.py::test_issue_5399": false,
+        "sympy/core/tests/test_function.py::test_unhandled": false,
+        "sympy/core/tests/test_function.py::test_negative_counts": true,
+        "sympy/core/tests/test_function.py::test_Derivative__new__": false,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivatives_of_traces": false,
+        "sympy/core/tests/test_function.py::test_issue_15241": false,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivative_vectors_and_scalars": false,
+        "sympy/core/tests/test_function.py::test_issue_15947": true,
+        "sympy/core/tests/test_function.py::test_derivative_evaluate": false,
+        "sympy/core/tests/test_function.py::test_issue_14719_10150": false,
+        "sympy/core/tests/test_function.py::test_derivative_quick_exit": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-21614/dedup_patch_31.jsonl": {
+      "sympy__sympy-21614": {
+        "sympy/core/tests/test_function.py::test_issue_15084_13166": true,
+        "sympy/core/tests/test_function.py::test_issue_5399": true,
+        "sympy/core/tests/test_function.py::test_unhandled": true,
+        "sympy/core/tests/test_function.py::test_negative_counts": true,
+        "sympy/core/tests/test_function.py::test_Derivative__new__": true,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivatives_of_traces": true,
+        "sympy/core/tests/test_function.py::test_issue_15241": true,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivative_vectors_and_scalars": true,
+        "sympy/core/tests/test_function.py::test_issue_15947": true,
+        "sympy/core/tests/test_function.py::test_derivative_evaluate": true,
+        "sympy/core/tests/test_function.py::test_issue_14719_10150": true,
+        "sympy/core/tests/test_function.py::test_derivative_quick_exit": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-21614/dedup_patch_32.jsonl": {
+      "sympy__sympy-21614": {
+        "sympy/core/tests/test_function.py::test_issue_15084_13166": false,
+        "sympy/core/tests/test_function.py::test_issue_5399": false,
+        "sympy/core/tests/test_function.py::test_unhandled": false,
+        "sympy/core/tests/test_function.py::test_negative_counts": false,
+        "sympy/core/tests/test_function.py::test_Derivative__new__": false,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivatives_of_traces": false,
+        "sympy/core/tests/test_function.py::test_issue_15241": false,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivative_vectors_and_scalars": false,
+        "sympy/core/tests/test_function.py::test_issue_15947": false,
+        "sympy/core/tests/test_function.py::test_derivative_evaluate": false,
+        "sympy/core/tests/test_function.py::test_issue_14719_10150": false,
+        "sympy/core/tests/test_function.py::test_derivative_quick_exit": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-21614/dedup_patch_33.jsonl": {
+      "sympy__sympy-21614": {
+        "sympy/core/tests/test_function.py::test_issue_15084_13166": true,
+        "sympy/core/tests/test_function.py::test_issue_5399": true,
+        "sympy/core/tests/test_function.py::test_unhandled": true,
+        "sympy/core/tests/test_function.py::test_negative_counts": true,
+        "sympy/core/tests/test_function.py::test_Derivative__new__": true,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivatives_of_traces": false,
+        "sympy/core/tests/test_function.py::test_issue_15241": true,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivative_vectors_and_scalars": true,
+        "sympy/core/tests/test_function.py::test_issue_15947": true,
+        "sympy/core/tests/test_function.py::test_derivative_evaluate": false,
+        "sympy/core/tests/test_function.py::test_issue_14719_10150": true,
+        "sympy/core/tests/test_function.py::test_derivative_quick_exit": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-21614/dedup_patch_34.jsonl": {
+      "sympy__sympy-21614": {
+        "sympy/core/tests/test_function.py::test_issue_15084_13166": false,
+        "sympy/core/tests/test_function.py::test_issue_5399": false,
+        "sympy/core/tests/test_function.py::test_unhandled": false,
+        "sympy/core/tests/test_function.py::test_negative_counts": false,
+        "sympy/core/tests/test_function.py::test_Derivative__new__": false,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivatives_of_traces": false,
+        "sympy/core/tests/test_function.py::test_issue_15241": false,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivative_vectors_and_scalars": false,
+        "sympy/core/tests/test_function.py::test_issue_15947": false,
+        "sympy/core/tests/test_function.py::test_derivative_evaluate": false,
+        "sympy/core/tests/test_function.py::test_issue_14719_10150": false,
+        "sympy/core/tests/test_function.py::test_derivative_quick_exit": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-21614/dedup_patch_35.jsonl": {
+      "sympy__sympy-21614": {
+        "sympy/core/tests/test_function.py::test_issue_15084_13166": false,
+        "sympy/core/tests/test_function.py::test_issue_5399": true,
+        "sympy/core/tests/test_function.py::test_unhandled": false,
+        "sympy/core/tests/test_function.py::test_negative_counts": true,
+        "sympy/core/tests/test_function.py::test_Derivative__new__": false,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivatives_of_traces": false,
+        "sympy/core/tests/test_function.py::test_issue_15241": false,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivative_vectors_and_scalars": true,
+        "sympy/core/tests/test_function.py::test_issue_15947": true,
+        "sympy/core/tests/test_function.py::test_derivative_evaluate": false,
+        "sympy/core/tests/test_function.py::test_issue_14719_10150": false,
+        "sympy/core/tests/test_function.py::test_derivative_quick_exit": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-21614/dedup_patch_36.jsonl": {
+      "sympy__sympy-21614": {
+        "sympy/core/tests/test_function.py::test_issue_15084_13166": false,
+        "sympy/core/tests/test_function.py::test_issue_5399": false,
+        "sympy/core/tests/test_function.py::test_unhandled": false,
+        "sympy/core/tests/test_function.py::test_negative_counts": false,
+        "sympy/core/tests/test_function.py::test_Derivative__new__": false,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivatives_of_traces": false,
+        "sympy/core/tests/test_function.py::test_issue_15241": false,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivative_vectors_and_scalars": false,
+        "sympy/core/tests/test_function.py::test_issue_15947": false,
+        "sympy/core/tests/test_function.py::test_derivative_evaluate": false,
+        "sympy/core/tests/test_function.py::test_issue_14719_10150": false,
+        "sympy/core/tests/test_function.py::test_derivative_quick_exit": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-21614/dedup_patch_4.jsonl": {
+      "sympy__sympy-21614": {
+        "sympy/core/tests/test_function.py::test_issue_15084_13166": true,
+        "sympy/core/tests/test_function.py::test_issue_5399": true,
+        "sympy/core/tests/test_function.py::test_unhandled": true,
+        "sympy/core/tests/test_function.py::test_negative_counts": true,
+        "sympy/core/tests/test_function.py::test_Derivative__new__": true,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivatives_of_traces": true,
+        "sympy/core/tests/test_function.py::test_issue_15241": true,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivative_vectors_and_scalars": true,
+        "sympy/core/tests/test_function.py::test_issue_15947": true,
+        "sympy/core/tests/test_function.py::test_derivative_evaluate": true,
+        "sympy/core/tests/test_function.py::test_issue_14719_10150": true,
+        "sympy/core/tests/test_function.py::test_derivative_quick_exit": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-21614/dedup_patch_5.jsonl": {
+      "sympy__sympy-21614": {
+        "sympy/core/tests/test_function.py::test_issue_15084_13166": false,
+        "sympy/core/tests/test_function.py::test_issue_5399": true,
+        "sympy/core/tests/test_function.py::test_unhandled": false,
+        "sympy/core/tests/test_function.py::test_negative_counts": true,
+        "sympy/core/tests/test_function.py::test_Derivative__new__": false,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivatives_of_traces": false,
+        "sympy/core/tests/test_function.py::test_issue_15241": false,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivative_vectors_and_scalars": true,
+        "sympy/core/tests/test_function.py::test_issue_15947": true,
+        "sympy/core/tests/test_function.py::test_derivative_evaluate": false,
+        "sympy/core/tests/test_function.py::test_issue_14719_10150": false,
+        "sympy/core/tests/test_function.py::test_derivative_quick_exit": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-21614/dedup_patch_6.jsonl": {
+      "sympy__sympy-21614": {
+        "sympy/core/tests/test_function.py::test_issue_15084_13166": true,
+        "sympy/core/tests/test_function.py::test_issue_5399": true,
+        "sympy/core/tests/test_function.py::test_unhandled": true,
+        "sympy/core/tests/test_function.py::test_negative_counts": true,
+        "sympy/core/tests/test_function.py::test_Derivative__new__": true,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivatives_of_traces": true,
+        "sympy/core/tests/test_function.py::test_issue_15241": true,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivative_vectors_and_scalars": true,
+        "sympy/core/tests/test_function.py::test_issue_15947": true,
+        "sympy/core/tests/test_function.py::test_derivative_evaluate": true,
+        "sympy/core/tests/test_function.py::test_issue_14719_10150": true,
+        "sympy/core/tests/test_function.py::test_derivative_quick_exit": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-21614/dedup_patch_7.jsonl": {
+      "sympy__sympy-21614": {
+        "sympy/core/tests/test_function.py::test_issue_15084_13166": true,
+        "sympy/core/tests/test_function.py::test_issue_5399": true,
+        "sympy/core/tests/test_function.py::test_unhandled": true,
+        "sympy/core/tests/test_function.py::test_negative_counts": true,
+        "sympy/core/tests/test_function.py::test_Derivative__new__": true,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivatives_of_traces": true,
+        "sympy/core/tests/test_function.py::test_issue_15241": true,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivative_vectors_and_scalars": true,
+        "sympy/core/tests/test_function.py::test_issue_15947": true,
+        "sympy/core/tests/test_function.py::test_derivative_evaluate": true,
+        "sympy/core/tests/test_function.py::test_issue_14719_10150": true,
+        "sympy/core/tests/test_function.py::test_derivative_quick_exit": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-21614/dedup_patch_8.jsonl": {
+      "sympy__sympy-21614": {
+        "sympy/core/tests/test_function.py::test_issue_15084_13166": true,
+        "sympy/core/tests/test_function.py::test_issue_5399": true,
+        "sympy/core/tests/test_function.py::test_unhandled": true,
+        "sympy/core/tests/test_function.py::test_negative_counts": true,
+        "sympy/core/tests/test_function.py::test_Derivative__new__": true,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivatives_of_traces": true,
+        "sympy/core/tests/test_function.py::test_issue_15241": true,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivative_vectors_and_scalars": true,
+        "sympy/core/tests/test_function.py::test_issue_15947": true,
+        "sympy/core/tests/test_function.py::test_derivative_evaluate": true,
+        "sympy/core/tests/test_function.py::test_issue_14719_10150": true,
+        "sympy/core/tests/test_function.py::test_derivative_quick_exit": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-21614/dedup_patch_9.jsonl": {
+      "sympy__sympy-21614": {
+        "sympy/core/tests/test_function.py::test_issue_15084_13166": false,
+        "sympy/core/tests/test_function.py::test_issue_5399": false,
+        "sympy/core/tests/test_function.py::test_unhandled": false,
+        "sympy/core/tests/test_function.py::test_negative_counts": false,
+        "sympy/core/tests/test_function.py::test_Derivative__new__": false,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivatives_of_traces": false,
+        "sympy/core/tests/test_function.py::test_issue_15241": false,
+        "sympy/matrices/expressions/tests/test_derivatives.py::test_matrix_derivative_vectors_and_scalars": false,
+        "sympy/core/tests/test_function.py::test_issue_15947": false,
+        "sympy/core/tests/test_function.py::test_derivative_evaluate": false,
+        "sympy/core/tests/test_function.py::test_issue_14719_10150": false,
+        "sympy/core/tests/test_function.py::test_derivative_quick_exit": false
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "sympy__sympy-21614": {
+        "sympy/core/tests/test_function.py::test_issue_20683#1": false,
+        "sympy/core/tests/test_kind.py::test_Integral_kind#2": false,
+        "sympy/core/tests/test_kind.py::test_Integral_kind#3": false,
+        "sympy/core/tests/test_function.py::test_Derivative_as_finite_difference#4": false,
+        "sympy/core/tests/test_function.py::test_derivative_linearity#5": false,
+        "sympy/core/tests/test_kind.py::test_Integral_kind#6": false,
+        "sympy/core/tests/test_function.py::test_derivative_evaluate#7": false,
+        "sympy/core/tests/test_function.py::test_Derivative__new__#8": false
+      }
+    }
+  }
+}

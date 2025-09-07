@@ -1,0 +1,524 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/django__django-11999/dedup_patch_0.jsonl": {
+      "django__django-11999": {
+        "model_forms.tests.ModelFormBaseTest.test_default_not_populated_on_non_empty_value_in_cleaned_data": true,
+        "validation.tests.GenericIPAddressFieldTests.test_invalid_v6_ip_raises_error": true,
+        "model_fields.test_charfield.ValidationTests.test_enum_choices_invalid_input": true,
+        "validation.tests.GenericIPAddressFieldTests.test_invalid_generic_ip_raises_error": true,
+        "model_forms.tests.ModelFormBaseTest.test_prefixed_form_with_default_field": true,
+        "model_fields.tests.GetChoicesTests.test_blank_in_grouped_choices": true,
+        "model_fields.test_charfield.ValidationTests.test_charfield_cleans_empty_string_when_blank_true": true,
+        "model_regress.tests.ModelTests.test_chained_fks": true,
+        "model_fields.test_charfield.ValidationTests.test_charfield_with_choices_raises_error_on_invalid_choice": true,
+        "validation.tests.BaseModelValidationTests.test_missing_required_field_raises_error": true,
+        "model_fields.tests.BasicFieldTests.test_field_str": true,
+        "model_forms.tests.ModelFormBaseTest.test_default_filefield": true,
+        "model_fields.tests.GetChoicesOrderingTests.test_get_choices": true,
+        "model_fields.tests.GetFieldDisplayTests.test_choices_and_field_display": true,
+        "model_fields.tests.ChoicesTests.test_check": true,
+        "model_formsets.tests.ModelFormsetTest.test_inline_formsets": true,
+        "model_fields.tests.ChoicesTests.test_invalid_choice": true,
+        "model_fields.tests.ChoicesTests.test_formfield": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_custom_error_messages": true,
+        "model_fields.tests.ChoicesTests.test_flatchoices": true,
+        "model_regress.tests.ModelTests.test_metaclass_can_access_attribute_dict": true,
+        "model_formsets.tests.DeletionTests.test_outdated_deletion": true,
+        "model_fields.tests.BasicFieldTests.test_field_repr": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11999/dedup_patch_1.jsonl": {
+      "django__django-11999": {
+        "model_forms.tests.ModelFormBaseTest.test_default_not_populated_on_non_empty_value_in_cleaned_data": true,
+        "validation.tests.GenericIPAddressFieldTests.test_invalid_v6_ip_raises_error": true,
+        "model_fields.test_charfield.ValidationTests.test_enum_choices_invalid_input": true,
+        "validation.tests.GenericIPAddressFieldTests.test_invalid_generic_ip_raises_error": true,
+        "model_forms.tests.ModelFormBaseTest.test_prefixed_form_with_default_field": true,
+        "model_fields.tests.GetChoicesTests.test_blank_in_grouped_choices": true,
+        "model_fields.test_charfield.ValidationTests.test_charfield_cleans_empty_string_when_blank_true": true,
+        "model_regress.tests.ModelTests.test_chained_fks": true,
+        "model_fields.test_charfield.ValidationTests.test_charfield_with_choices_raises_error_on_invalid_choice": true,
+        "validation.tests.BaseModelValidationTests.test_missing_required_field_raises_error": true,
+        "model_fields.tests.BasicFieldTests.test_field_str": true,
+        "model_forms.tests.ModelFormBaseTest.test_default_filefield": true,
+        "model_fields.tests.GetChoicesOrderingTests.test_get_choices": true,
+        "model_fields.tests.GetFieldDisplayTests.test_choices_and_field_display": true,
+        "model_fields.tests.ChoicesTests.test_check": true,
+        "model_formsets.tests.ModelFormsetTest.test_inline_formsets": true,
+        "model_fields.tests.ChoicesTests.test_invalid_choice": true,
+        "model_fields.tests.ChoicesTests.test_formfield": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_custom_error_messages": true,
+        "model_fields.tests.ChoicesTests.test_flatchoices": true,
+        "model_regress.tests.ModelTests.test_metaclass_can_access_attribute_dict": true,
+        "model_formsets.tests.DeletionTests.test_outdated_deletion": true,
+        "model_fields.tests.BasicFieldTests.test_field_repr": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11999/dedup_patch_10.jsonl": {
+      "django__django-11999": {
+        "model_forms.tests.ModelFormBaseTest.test_default_not_populated_on_non_empty_value_in_cleaned_data": true,
+        "validation.tests.GenericIPAddressFieldTests.test_invalid_v6_ip_raises_error": true,
+        "model_fields.test_charfield.ValidationTests.test_enum_choices_invalid_input": true,
+        "validation.tests.GenericIPAddressFieldTests.test_invalid_generic_ip_raises_error": true,
+        "model_forms.tests.ModelFormBaseTest.test_prefixed_form_with_default_field": true,
+        "model_fields.tests.GetChoicesTests.test_blank_in_grouped_choices": true,
+        "model_fields.test_charfield.ValidationTests.test_charfield_cleans_empty_string_when_blank_true": true,
+        "model_regress.tests.ModelTests.test_chained_fks": true,
+        "model_fields.test_charfield.ValidationTests.test_charfield_with_choices_raises_error_on_invalid_choice": true,
+        "validation.tests.BaseModelValidationTests.test_missing_required_field_raises_error": true,
+        "model_fields.tests.BasicFieldTests.test_field_str": true,
+        "model_forms.tests.ModelFormBaseTest.test_default_filefield": true,
+        "model_fields.tests.GetChoicesOrderingTests.test_get_choices": true,
+        "model_fields.tests.GetFieldDisplayTests.test_choices_and_field_display": true,
+        "model_fields.tests.ChoicesTests.test_check": true,
+        "model_formsets.tests.ModelFormsetTest.test_inline_formsets": true,
+        "model_fields.tests.ChoicesTests.test_invalid_choice": true,
+        "model_fields.tests.ChoicesTests.test_formfield": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_custom_error_messages": true,
+        "model_fields.tests.ChoicesTests.test_flatchoices": true,
+        "model_regress.tests.ModelTests.test_metaclass_can_access_attribute_dict": true,
+        "model_formsets.tests.DeletionTests.test_outdated_deletion": true,
+        "model_fields.tests.BasicFieldTests.test_field_repr": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11999/dedup_patch_11.jsonl": {
+      "django__django-11999": {
+        "model_forms.tests.ModelFormBaseTest.test_default_not_populated_on_non_empty_value_in_cleaned_data": true,
+        "validation.tests.GenericIPAddressFieldTests.test_invalid_v6_ip_raises_error": true,
+        "model_fields.test_charfield.ValidationTests.test_enum_choices_invalid_input": true,
+        "validation.tests.GenericIPAddressFieldTests.test_invalid_generic_ip_raises_error": true,
+        "model_forms.tests.ModelFormBaseTest.test_prefixed_form_with_default_field": true,
+        "model_fields.tests.GetChoicesTests.test_blank_in_grouped_choices": true,
+        "model_fields.test_charfield.ValidationTests.test_charfield_cleans_empty_string_when_blank_true": true,
+        "model_regress.tests.ModelTests.test_chained_fks": true,
+        "model_fields.test_charfield.ValidationTests.test_charfield_with_choices_raises_error_on_invalid_choice": true,
+        "validation.tests.BaseModelValidationTests.test_missing_required_field_raises_error": true,
+        "model_fields.tests.BasicFieldTests.test_field_str": true,
+        "model_forms.tests.ModelFormBaseTest.test_default_filefield": true,
+        "model_fields.tests.GetChoicesOrderingTests.test_get_choices": true,
+        "model_fields.tests.GetFieldDisplayTests.test_choices_and_field_display": true,
+        "model_fields.tests.ChoicesTests.test_check": true,
+        "model_formsets.tests.ModelFormsetTest.test_inline_formsets": true,
+        "model_fields.tests.ChoicesTests.test_invalid_choice": true,
+        "model_fields.tests.ChoicesTests.test_formfield": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_custom_error_messages": true,
+        "model_fields.tests.ChoicesTests.test_flatchoices": true,
+        "model_regress.tests.ModelTests.test_metaclass_can_access_attribute_dict": true,
+        "model_formsets.tests.DeletionTests.test_outdated_deletion": true,
+        "model_fields.tests.BasicFieldTests.test_field_repr": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11999/dedup_patch_12.jsonl": {
+      "django__django-11999": {
+        "model_forms.tests.ModelFormBaseTest.test_default_not_populated_on_non_empty_value_in_cleaned_data": true,
+        "validation.tests.GenericIPAddressFieldTests.test_invalid_v6_ip_raises_error": true,
+        "model_fields.test_charfield.ValidationTests.test_enum_choices_invalid_input": true,
+        "validation.tests.GenericIPAddressFieldTests.test_invalid_generic_ip_raises_error": true,
+        "model_forms.tests.ModelFormBaseTest.test_prefixed_form_with_default_field": true,
+        "model_fields.tests.GetChoicesTests.test_blank_in_grouped_choices": true,
+        "model_fields.test_charfield.ValidationTests.test_charfield_cleans_empty_string_when_blank_true": true,
+        "model_regress.tests.ModelTests.test_chained_fks": true,
+        "model_fields.test_charfield.ValidationTests.test_charfield_with_choices_raises_error_on_invalid_choice": true,
+        "validation.tests.BaseModelValidationTests.test_missing_required_field_raises_error": true,
+        "model_fields.tests.BasicFieldTests.test_field_str": true,
+        "model_forms.tests.ModelFormBaseTest.test_default_filefield": true,
+        "model_fields.tests.GetChoicesOrderingTests.test_get_choices": true,
+        "model_fields.tests.GetFieldDisplayTests.test_choices_and_field_display": true,
+        "model_fields.tests.ChoicesTests.test_check": true,
+        "model_formsets.tests.ModelFormsetTest.test_inline_formsets": true,
+        "model_fields.tests.ChoicesTests.test_invalid_choice": true,
+        "model_fields.tests.ChoicesTests.test_formfield": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_custom_error_messages": true,
+        "model_fields.tests.ChoicesTests.test_flatchoices": true,
+        "model_regress.tests.ModelTests.test_metaclass_can_access_attribute_dict": true,
+        "model_formsets.tests.DeletionTests.test_outdated_deletion": true,
+        "model_fields.tests.BasicFieldTests.test_field_repr": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11999/dedup_patch_13.jsonl": {
+      "django__django-11999": {
+        "model_forms.tests.ModelFormBaseTest.test_default_not_populated_on_non_empty_value_in_cleaned_data": true,
+        "validation.tests.GenericIPAddressFieldTests.test_invalid_v6_ip_raises_error": true,
+        "model_fields.test_charfield.ValidationTests.test_enum_choices_invalid_input": true,
+        "validation.tests.GenericIPAddressFieldTests.test_invalid_generic_ip_raises_error": true,
+        "model_forms.tests.ModelFormBaseTest.test_prefixed_form_with_default_field": true,
+        "model_fields.tests.GetChoicesTests.test_blank_in_grouped_choices": true,
+        "model_fields.test_charfield.ValidationTests.test_charfield_cleans_empty_string_when_blank_true": true,
+        "model_regress.tests.ModelTests.test_chained_fks": true,
+        "model_fields.test_charfield.ValidationTests.test_charfield_with_choices_raises_error_on_invalid_choice": true,
+        "validation.tests.BaseModelValidationTests.test_missing_required_field_raises_error": true,
+        "model_fields.tests.BasicFieldTests.test_field_str": true,
+        "model_forms.tests.ModelFormBaseTest.test_default_filefield": true,
+        "model_fields.tests.GetChoicesOrderingTests.test_get_choices": true,
+        "model_fields.tests.GetFieldDisplayTests.test_choices_and_field_display": true,
+        "model_fields.tests.ChoicesTests.test_check": true,
+        "model_formsets.tests.ModelFormsetTest.test_inline_formsets": true,
+        "model_fields.tests.ChoicesTests.test_invalid_choice": true,
+        "model_fields.tests.ChoicesTests.test_formfield": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_custom_error_messages": true,
+        "model_fields.tests.ChoicesTests.test_flatchoices": true,
+        "model_regress.tests.ModelTests.test_metaclass_can_access_attribute_dict": true,
+        "model_formsets.tests.DeletionTests.test_outdated_deletion": true,
+        "model_fields.tests.BasicFieldTests.test_field_repr": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11999/dedup_patch_2.jsonl": {
+      "django__django-11999": {
+        "model_forms.tests.ModelFormBaseTest.test_default_not_populated_on_non_empty_value_in_cleaned_data": true,
+        "validation.tests.GenericIPAddressFieldTests.test_invalid_v6_ip_raises_error": true,
+        "model_fields.test_charfield.ValidationTests.test_enum_choices_invalid_input": true,
+        "validation.tests.GenericIPAddressFieldTests.test_invalid_generic_ip_raises_error": true,
+        "model_forms.tests.ModelFormBaseTest.test_prefixed_form_with_default_field": true,
+        "model_fields.tests.GetChoicesTests.test_blank_in_grouped_choices": true,
+        "model_fields.test_charfield.ValidationTests.test_charfield_cleans_empty_string_when_blank_true": true,
+        "model_regress.tests.ModelTests.test_chained_fks": true,
+        "model_fields.test_charfield.ValidationTests.test_charfield_with_choices_raises_error_on_invalid_choice": true,
+        "validation.tests.BaseModelValidationTests.test_missing_required_field_raises_error": true,
+        "model_fields.tests.BasicFieldTests.test_field_str": true,
+        "model_forms.tests.ModelFormBaseTest.test_default_filefield": true,
+        "model_fields.tests.GetChoicesOrderingTests.test_get_choices": true,
+        "model_fields.tests.GetFieldDisplayTests.test_choices_and_field_display": false,
+        "model_fields.tests.ChoicesTests.test_check": true,
+        "model_formsets.tests.ModelFormsetTest.test_inline_formsets": true,
+        "model_fields.tests.ChoicesTests.test_invalid_choice": true,
+        "model_fields.tests.ChoicesTests.test_formfield": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_custom_error_messages": true,
+        "model_fields.tests.ChoicesTests.test_flatchoices": true,
+        "model_regress.tests.ModelTests.test_metaclass_can_access_attribute_dict": true,
+        "model_formsets.tests.DeletionTests.test_outdated_deletion": true,
+        "model_fields.tests.BasicFieldTests.test_field_repr": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11999/dedup_patch_3.jsonl": {
+      "django__django-11999": {
+        "model_forms.tests.ModelFormBaseTest.test_default_not_populated_on_non_empty_value_in_cleaned_data": true,
+        "validation.tests.GenericIPAddressFieldTests.test_invalid_v6_ip_raises_error": true,
+        "model_fields.test_charfield.ValidationTests.test_enum_choices_invalid_input": true,
+        "validation.tests.GenericIPAddressFieldTests.test_invalid_generic_ip_raises_error": true,
+        "model_forms.tests.ModelFormBaseTest.test_prefixed_form_with_default_field": true,
+        "model_fields.tests.GetChoicesTests.test_blank_in_grouped_choices": true,
+        "model_fields.test_charfield.ValidationTests.test_charfield_cleans_empty_string_when_blank_true": true,
+        "model_regress.tests.ModelTests.test_chained_fks": true,
+        "model_fields.test_charfield.ValidationTests.test_charfield_with_choices_raises_error_on_invalid_choice": true,
+        "validation.tests.BaseModelValidationTests.test_missing_required_field_raises_error": true,
+        "model_fields.tests.BasicFieldTests.test_field_str": true,
+        "model_forms.tests.ModelFormBaseTest.test_default_filefield": true,
+        "model_fields.tests.GetChoicesOrderingTests.test_get_choices": true,
+        "model_fields.tests.GetFieldDisplayTests.test_choices_and_field_display": true,
+        "model_fields.tests.ChoicesTests.test_check": true,
+        "model_formsets.tests.ModelFormsetTest.test_inline_formsets": true,
+        "model_fields.tests.ChoicesTests.test_invalid_choice": true,
+        "model_fields.tests.ChoicesTests.test_formfield": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_custom_error_messages": true,
+        "model_fields.tests.ChoicesTests.test_flatchoices": true,
+        "model_regress.tests.ModelTests.test_metaclass_can_access_attribute_dict": true,
+        "model_formsets.tests.DeletionTests.test_outdated_deletion": true,
+        "model_fields.tests.BasicFieldTests.test_field_repr": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11999/dedup_patch_4.jsonl": {
+      "django__django-11999": {
+        "model_forms.tests.ModelFormBaseTest.test_default_not_populated_on_non_empty_value_in_cleaned_data": true,
+        "validation.tests.GenericIPAddressFieldTests.test_invalid_v6_ip_raises_error": true,
+        "model_fields.test_charfield.ValidationTests.test_enum_choices_invalid_input": true,
+        "validation.tests.GenericIPAddressFieldTests.test_invalid_generic_ip_raises_error": true,
+        "model_forms.tests.ModelFormBaseTest.test_prefixed_form_with_default_field": true,
+        "model_fields.tests.GetChoicesTests.test_blank_in_grouped_choices": true,
+        "model_fields.test_charfield.ValidationTests.test_charfield_cleans_empty_string_when_blank_true": true,
+        "model_regress.tests.ModelTests.test_chained_fks": true,
+        "model_fields.test_charfield.ValidationTests.test_charfield_with_choices_raises_error_on_invalid_choice": true,
+        "validation.tests.BaseModelValidationTests.test_missing_required_field_raises_error": true,
+        "model_fields.tests.BasicFieldTests.test_field_str": true,
+        "model_forms.tests.ModelFormBaseTest.test_default_filefield": true,
+        "model_fields.tests.GetChoicesOrderingTests.test_get_choices": true,
+        "model_fields.tests.GetFieldDisplayTests.test_choices_and_field_display": true,
+        "model_fields.tests.ChoicesTests.test_check": true,
+        "model_formsets.tests.ModelFormsetTest.test_inline_formsets": true,
+        "model_fields.tests.ChoicesTests.test_invalid_choice": true,
+        "model_fields.tests.ChoicesTests.test_formfield": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_custom_error_messages": true,
+        "model_fields.tests.ChoicesTests.test_flatchoices": true,
+        "model_regress.tests.ModelTests.test_metaclass_can_access_attribute_dict": true,
+        "model_formsets.tests.DeletionTests.test_outdated_deletion": true,
+        "model_fields.tests.BasicFieldTests.test_field_repr": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11999/dedup_patch_5.jsonl": {
+      "django__django-11999": {
+        "model_forms.tests.ModelFormBaseTest.test_default_not_populated_on_non_empty_value_in_cleaned_data": true,
+        "validation.tests.GenericIPAddressFieldTests.test_invalid_v6_ip_raises_error": true,
+        "model_fields.test_charfield.ValidationTests.test_enum_choices_invalid_input": true,
+        "validation.tests.GenericIPAddressFieldTests.test_invalid_generic_ip_raises_error": true,
+        "model_forms.tests.ModelFormBaseTest.test_prefixed_form_with_default_field": true,
+        "model_fields.tests.GetChoicesTests.test_blank_in_grouped_choices": true,
+        "model_fields.test_charfield.ValidationTests.test_charfield_cleans_empty_string_when_blank_true": true,
+        "model_regress.tests.ModelTests.test_chained_fks": true,
+        "model_fields.test_charfield.ValidationTests.test_charfield_with_choices_raises_error_on_invalid_choice": true,
+        "validation.tests.BaseModelValidationTests.test_missing_required_field_raises_error": true,
+        "model_fields.tests.BasicFieldTests.test_field_str": true,
+        "model_forms.tests.ModelFormBaseTest.test_default_filefield": true,
+        "model_fields.tests.GetChoicesOrderingTests.test_get_choices": true,
+        "model_fields.tests.GetFieldDisplayTests.test_choices_and_field_display": true,
+        "model_fields.tests.ChoicesTests.test_check": true,
+        "model_formsets.tests.ModelFormsetTest.test_inline_formsets": true,
+        "model_fields.tests.ChoicesTests.test_invalid_choice": true,
+        "model_fields.tests.ChoicesTests.test_formfield": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_custom_error_messages": true,
+        "model_fields.tests.ChoicesTests.test_flatchoices": true,
+        "model_regress.tests.ModelTests.test_metaclass_can_access_attribute_dict": true,
+        "model_formsets.tests.DeletionTests.test_outdated_deletion": true,
+        "model_fields.tests.BasicFieldTests.test_field_repr": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11999/dedup_patch_6.jsonl": {
+      "django__django-11999": {
+        "model_forms.tests.ModelFormBaseTest.test_default_not_populated_on_non_empty_value_in_cleaned_data": true,
+        "validation.tests.GenericIPAddressFieldTests.test_invalid_v6_ip_raises_error": true,
+        "model_fields.test_charfield.ValidationTests.test_enum_choices_invalid_input": true,
+        "validation.tests.GenericIPAddressFieldTests.test_invalid_generic_ip_raises_error": true,
+        "model_forms.tests.ModelFormBaseTest.test_prefixed_form_with_default_field": true,
+        "model_fields.tests.GetChoicesTests.test_blank_in_grouped_choices": true,
+        "model_fields.test_charfield.ValidationTests.test_charfield_cleans_empty_string_when_blank_true": true,
+        "model_regress.tests.ModelTests.test_chained_fks": true,
+        "model_fields.test_charfield.ValidationTests.test_charfield_with_choices_raises_error_on_invalid_choice": true,
+        "validation.tests.BaseModelValidationTests.test_missing_required_field_raises_error": true,
+        "model_fields.tests.BasicFieldTests.test_field_str": true,
+        "model_forms.tests.ModelFormBaseTest.test_default_filefield": true,
+        "model_fields.tests.GetChoicesOrderingTests.test_get_choices": true,
+        "model_fields.tests.GetFieldDisplayTests.test_choices_and_field_display": true,
+        "model_fields.tests.ChoicesTests.test_check": true,
+        "model_formsets.tests.ModelFormsetTest.test_inline_formsets": true,
+        "model_fields.tests.ChoicesTests.test_invalid_choice": true,
+        "model_fields.tests.ChoicesTests.test_formfield": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_custom_error_messages": true,
+        "model_fields.tests.ChoicesTests.test_flatchoices": true,
+        "model_regress.tests.ModelTests.test_metaclass_can_access_attribute_dict": true,
+        "model_formsets.tests.DeletionTests.test_outdated_deletion": true,
+        "model_fields.tests.BasicFieldTests.test_field_repr": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11999/dedup_patch_7.jsonl": {
+      "django__django-11999": {
+        "model_forms.tests.ModelFormBaseTest.test_default_not_populated_on_non_empty_value_in_cleaned_data": true,
+        "validation.tests.GenericIPAddressFieldTests.test_invalid_v6_ip_raises_error": true,
+        "model_fields.test_charfield.ValidationTests.test_enum_choices_invalid_input": true,
+        "validation.tests.GenericIPAddressFieldTests.test_invalid_generic_ip_raises_error": true,
+        "model_forms.tests.ModelFormBaseTest.test_prefixed_form_with_default_field": true,
+        "model_fields.tests.GetChoicesTests.test_blank_in_grouped_choices": true,
+        "model_fields.test_charfield.ValidationTests.test_charfield_cleans_empty_string_when_blank_true": true,
+        "model_regress.tests.ModelTests.test_chained_fks": true,
+        "model_fields.test_charfield.ValidationTests.test_charfield_with_choices_raises_error_on_invalid_choice": true,
+        "validation.tests.BaseModelValidationTests.test_missing_required_field_raises_error": true,
+        "model_fields.tests.BasicFieldTests.test_field_str": true,
+        "model_forms.tests.ModelFormBaseTest.test_default_filefield": true,
+        "model_fields.tests.GetChoicesOrderingTests.test_get_choices": true,
+        "model_fields.tests.GetFieldDisplayTests.test_choices_and_field_display": true,
+        "model_fields.tests.ChoicesTests.test_check": true,
+        "model_formsets.tests.ModelFormsetTest.test_inline_formsets": true,
+        "model_fields.tests.ChoicesTests.test_invalid_choice": true,
+        "model_fields.tests.ChoicesTests.test_formfield": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_custom_error_messages": true,
+        "model_fields.tests.ChoicesTests.test_flatchoices": true,
+        "model_regress.tests.ModelTests.test_metaclass_can_access_attribute_dict": true,
+        "model_formsets.tests.DeletionTests.test_outdated_deletion": true,
+        "model_fields.tests.BasicFieldTests.test_field_repr": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11999/dedup_patch_8.jsonl": {
+      "django__django-11999": {
+        "model_forms.tests.ModelFormBaseTest.test_default_not_populated_on_non_empty_value_in_cleaned_data": true,
+        "validation.tests.GenericIPAddressFieldTests.test_invalid_v6_ip_raises_error": true,
+        "model_fields.test_charfield.ValidationTests.test_enum_choices_invalid_input": true,
+        "validation.tests.GenericIPAddressFieldTests.test_invalid_generic_ip_raises_error": true,
+        "model_forms.tests.ModelFormBaseTest.test_prefixed_form_with_default_field": true,
+        "model_fields.tests.GetChoicesTests.test_blank_in_grouped_choices": true,
+        "model_fields.test_charfield.ValidationTests.test_charfield_cleans_empty_string_when_blank_true": true,
+        "model_regress.tests.ModelTests.test_chained_fks": true,
+        "model_fields.test_charfield.ValidationTests.test_charfield_with_choices_raises_error_on_invalid_choice": true,
+        "validation.tests.BaseModelValidationTests.test_missing_required_field_raises_error": true,
+        "model_fields.tests.BasicFieldTests.test_field_str": true,
+        "model_forms.tests.ModelFormBaseTest.test_default_filefield": true,
+        "model_fields.tests.GetChoicesOrderingTests.test_get_choices": true,
+        "model_fields.tests.GetFieldDisplayTests.test_choices_and_field_display": true,
+        "model_fields.tests.ChoicesTests.test_check": true,
+        "model_formsets.tests.ModelFormsetTest.test_inline_formsets": true,
+        "model_fields.tests.ChoicesTests.test_invalid_choice": true,
+        "model_fields.tests.ChoicesTests.test_formfield": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_custom_error_messages": true,
+        "model_fields.tests.ChoicesTests.test_flatchoices": true,
+        "model_regress.tests.ModelTests.test_metaclass_can_access_attribute_dict": true,
+        "model_formsets.tests.DeletionTests.test_outdated_deletion": true,
+        "model_fields.tests.BasicFieldTests.test_field_repr": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11999/dedup_patch_9.jsonl": {
+      "django__django-11999": {
+        "model_forms.tests.ModelFormBaseTest.test_default_not_populated_on_non_empty_value_in_cleaned_data": true,
+        "validation.tests.GenericIPAddressFieldTests.test_invalid_v6_ip_raises_error": true,
+        "model_fields.test_charfield.ValidationTests.test_enum_choices_invalid_input": true,
+        "validation.tests.GenericIPAddressFieldTests.test_invalid_generic_ip_raises_error": true,
+        "model_forms.tests.ModelFormBaseTest.test_prefixed_form_with_default_field": true,
+        "model_fields.tests.GetChoicesTests.test_blank_in_grouped_choices": true,
+        "model_fields.test_charfield.ValidationTests.test_charfield_cleans_empty_string_when_blank_true": true,
+        "model_regress.tests.ModelTests.test_chained_fks": true,
+        "model_fields.test_charfield.ValidationTests.test_charfield_with_choices_raises_error_on_invalid_choice": true,
+        "validation.tests.BaseModelValidationTests.test_missing_required_field_raises_error": true,
+        "model_fields.tests.BasicFieldTests.test_field_str": true,
+        "model_forms.tests.ModelFormBaseTest.test_default_filefield": true,
+        "model_fields.tests.GetChoicesOrderingTests.test_get_choices": true,
+        "model_fields.tests.GetFieldDisplayTests.test_choices_and_field_display": true,
+        "model_fields.tests.ChoicesTests.test_check": true,
+        "model_formsets.tests.ModelFormsetTest.test_inline_formsets": true,
+        "model_fields.tests.ChoicesTests.test_invalid_choice": true,
+        "model_fields.tests.ChoicesTests.test_formfield": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_custom_error_messages": true,
+        "model_fields.tests.ChoicesTests.test_flatchoices": true,
+        "model_regress.tests.ModelTests.test_metaclass_can_access_attribute_dict": true,
+        "model_formsets.tests.DeletionTests.test_outdated_deletion": true,
+        "model_fields.tests.BasicFieldTests.test_field_repr": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-11999": {
+        "model_fields.tests.GetFieldDisplayTests.test_overridden_get_field_display#1": true,
+        "model_fields.tests.GetFieldDisplayTests.test_override_get_field_display#2": true,
+        "model_fields.tests.GetFieldDisplayTests.test_override_field_display#3": true,
+        "model_fields.tests.GetFieldDisplayTests.test_override_get_field_display#4": true,
+        "model_fields.tests.GetFieldDisplayTests.test_override_get_field_display#5": true,
+        "model_fields.tests.GetFieldDisplayTests.test_get_FIELD_display_override#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11999/dedup_patch_0.jsonl": {
+      "django__django-11999": {
+        "model_fields.tests.GetFieldDisplayTests.test_overridden_get_field_display#1": true,
+        "model_fields.tests.GetFieldDisplayTests.test_override_get_field_display#2": true,
+        "model_fields.tests.GetFieldDisplayTests.test_override_field_display#3": true,
+        "model_fields.tests.GetFieldDisplayTests.test_override_get_field_display#4": true,
+        "model_fields.tests.GetFieldDisplayTests.test_override_get_field_display#5": true,
+        "model_fields.tests.GetFieldDisplayTests.test_get_FIELD_display_override#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11999/dedup_patch_1.jsonl": {
+      "django__django-11999": {
+        "model_fields.tests.GetFieldDisplayTests.test_overridden_get_field_display#1": true,
+        "model_fields.tests.GetFieldDisplayTests.test_override_get_field_display#2": true,
+        "model_fields.tests.GetFieldDisplayTests.test_override_field_display#3": true,
+        "model_fields.tests.GetFieldDisplayTests.test_override_get_field_display#4": true,
+        "model_fields.tests.GetFieldDisplayTests.test_override_get_field_display#5": true,
+        "model_fields.tests.GetFieldDisplayTests.test_get_FIELD_display_override#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11999/dedup_patch_10.jsonl": {
+      "django__django-11999": {
+        "model_fields.tests.GetFieldDisplayTests.test_overridden_get_field_display#1": true,
+        "model_fields.tests.GetFieldDisplayTests.test_override_get_field_display#2": true,
+        "model_fields.tests.GetFieldDisplayTests.test_override_field_display#3": true,
+        "model_fields.tests.GetFieldDisplayTests.test_override_get_field_display#4": true,
+        "model_fields.tests.GetFieldDisplayTests.test_override_get_field_display#5": true,
+        "model_fields.tests.GetFieldDisplayTests.test_get_FIELD_display_override#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11999/dedup_patch_11.jsonl": {
+      "django__django-11999": {
+        "model_fields.tests.GetFieldDisplayTests.test_overridden_get_field_display#1": true,
+        "model_fields.tests.GetFieldDisplayTests.test_override_get_field_display#2": true,
+        "model_fields.tests.GetFieldDisplayTests.test_override_field_display#3": true,
+        "model_fields.tests.GetFieldDisplayTests.test_override_get_field_display#4": true,
+        "model_fields.tests.GetFieldDisplayTests.test_override_get_field_display#5": true,
+        "model_fields.tests.GetFieldDisplayTests.test_get_FIELD_display_override#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11999/dedup_patch_12.jsonl": {
+      "django__django-11999": {
+        "model_fields.tests.GetFieldDisplayTests.test_overridden_get_field_display#1": true,
+        "model_fields.tests.GetFieldDisplayTests.test_override_get_field_display#2": true,
+        "model_fields.tests.GetFieldDisplayTests.test_override_field_display#3": true,
+        "model_fields.tests.GetFieldDisplayTests.test_override_get_field_display#4": true,
+        "model_fields.tests.GetFieldDisplayTests.test_override_get_field_display#5": true,
+        "model_fields.tests.GetFieldDisplayTests.test_get_FIELD_display_override#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11999/dedup_patch_13.jsonl": {
+      "django__django-11999": {
+        "model_fields.tests.GetFieldDisplayTests.test_overridden_get_field_display#1": false,
+        "model_fields.tests.GetFieldDisplayTests.test_override_get_field_display#2": false,
+        "model_fields.tests.GetFieldDisplayTests.test_override_field_display#3": false,
+        "model_fields.tests.GetFieldDisplayTests.test_override_get_field_display#4": false,
+        "model_fields.tests.GetFieldDisplayTests.test_override_get_field_display#5": false,
+        "model_fields.tests.GetFieldDisplayTests.test_get_FIELD_display_override#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11999/dedup_patch_3.jsonl": {
+      "django__django-11999": {
+        "model_fields.tests.GetFieldDisplayTests.test_overridden_get_field_display#1": true,
+        "model_fields.tests.GetFieldDisplayTests.test_override_get_field_display#2": true,
+        "model_fields.tests.GetFieldDisplayTests.test_override_field_display#3": true,
+        "model_fields.tests.GetFieldDisplayTests.test_override_get_field_display#4": true,
+        "model_fields.tests.GetFieldDisplayTests.test_override_get_field_display#5": true,
+        "model_fields.tests.GetFieldDisplayTests.test_get_FIELD_display_override#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11999/dedup_patch_4.jsonl": {
+      "django__django-11999": {
+        "model_fields.tests.GetFieldDisplayTests.test_overridden_get_field_display#1": true,
+        "model_fields.tests.GetFieldDisplayTests.test_override_get_field_display#2": true,
+        "model_fields.tests.GetFieldDisplayTests.test_override_field_display#3": true,
+        "model_fields.tests.GetFieldDisplayTests.test_override_get_field_display#4": true,
+        "model_fields.tests.GetFieldDisplayTests.test_override_get_field_display#5": true,
+        "model_fields.tests.GetFieldDisplayTests.test_get_FIELD_display_override#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11999/dedup_patch_5.jsonl": {
+      "django__django-11999": {
+        "model_fields.tests.GetFieldDisplayTests.test_overridden_get_field_display#1": true,
+        "model_fields.tests.GetFieldDisplayTests.test_override_get_field_display#2": true,
+        "model_fields.tests.GetFieldDisplayTests.test_override_field_display#3": true,
+        "model_fields.tests.GetFieldDisplayTests.test_override_get_field_display#4": true,
+        "model_fields.tests.GetFieldDisplayTests.test_override_get_field_display#5": true,
+        "model_fields.tests.GetFieldDisplayTests.test_get_FIELD_display_override#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11999/dedup_patch_6.jsonl": {
+      "django__django-11999": {
+        "model_fields.tests.GetFieldDisplayTests.test_overridden_get_field_display#1": true,
+        "model_fields.tests.GetFieldDisplayTests.test_override_get_field_display#2": true,
+        "model_fields.tests.GetFieldDisplayTests.test_override_field_display#3": true,
+        "model_fields.tests.GetFieldDisplayTests.test_override_get_field_display#4": true,
+        "model_fields.tests.GetFieldDisplayTests.test_override_get_field_display#5": true,
+        "model_fields.tests.GetFieldDisplayTests.test_get_FIELD_display_override#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11999/dedup_patch_7.jsonl": {
+      "django__django-11999": {
+        "model_fields.tests.GetFieldDisplayTests.test_overridden_get_field_display#1": false,
+        "model_fields.tests.GetFieldDisplayTests.test_override_get_field_display#2": false,
+        "model_fields.tests.GetFieldDisplayTests.test_override_field_display#3": false,
+        "model_fields.tests.GetFieldDisplayTests.test_override_get_field_display#4": false,
+        "model_fields.tests.GetFieldDisplayTests.test_override_get_field_display#5": false,
+        "model_fields.tests.GetFieldDisplayTests.test_get_FIELD_display_override#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11999/dedup_patch_8.jsonl": {
+      "django__django-11999": {
+        "model_fields.tests.GetFieldDisplayTests.test_overridden_get_field_display#1": true,
+        "model_fields.tests.GetFieldDisplayTests.test_override_get_field_display#2": true,
+        "model_fields.tests.GetFieldDisplayTests.test_override_field_display#3": true,
+        "model_fields.tests.GetFieldDisplayTests.test_override_get_field_display#4": true,
+        "model_fields.tests.GetFieldDisplayTests.test_override_get_field_display#5": true,
+        "model_fields.tests.GetFieldDisplayTests.test_get_FIELD_display_override#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11999/dedup_patch_9.jsonl": {
+      "django__django-11999": {
+        "model_fields.tests.GetFieldDisplayTests.test_overridden_get_field_display#1": true,
+        "model_fields.tests.GetFieldDisplayTests.test_override_get_field_display#2": true,
+        "model_fields.tests.GetFieldDisplayTests.test_override_field_display#3": true,
+        "model_fields.tests.GetFieldDisplayTests.test_override_get_field_display#4": true,
+        "model_fields.tests.GetFieldDisplayTests.test_override_get_field_display#5": true,
+        "model_fields.tests.GetFieldDisplayTests.test_get_FIELD_display_override#6": true
+      }
+    }
+  }
+}

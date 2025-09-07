@@ -1,0 +1,81 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/django__django-15731/dedup_patch_0.jsonl": {
+      "django__django-15731": {
+        "model_forms.tests.ModelFormBasicTests.test_basic_creation": false,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_choices": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_abstract": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15731/dedup_patch_1.jsonl": {
+      "django__django-15731": {
+        "model_forms.tests.ModelFormBasicTests.test_basic_creation": false,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_choices": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_abstract": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15731/dedup_patch_2.jsonl": {
+      "django__django-15731": {
+        "model_forms.tests.ModelFormBasicTests.test_basic_creation": true,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_choices": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_abstract": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15731/dedup_patch_3.jsonl": {
+      "django__django-15731": {
+        "model_forms.tests.ModelFormBasicTests.test_basic_creation": true,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_choices": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_abstract": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15731/dedup_patch_4.jsonl": {
+      "django__django-15731": {
+        "model_forms.tests.ModelFormBasicTests.test_basic_creation": true,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_choices": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_abstract": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-15731": {
+        "utils_tests.test_inspect.TestInspectMethods.test_manager_method_signature#1": true,
+        "utils_tests.test_inspect.TestInspectMethods.test_manager_method_signature#2": true,
+        "utils_tests.test_inspect.TestInspectMethods.test_manager_method_signature#3": true,
+        "utils_tests.test_inspect.TestInspectMethods.test_manager_method_signature#4": true,
+        "utils_tests.test_inspect.TestInspectMethods.test_manager_method_signature#5": true,
+        "utils_tests.test_inspect.TestInspectMethods.test_manager_method_signature#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15731/dedup_patch_2.jsonl": {
+      "django__django-15731": {
+        "utils_tests.test_inspect.TestInspectMethods.test_manager_method_signature#1": false,
+        "utils_tests.test_inspect.TestInspectMethods.test_manager_method_signature#2": false,
+        "utils_tests.test_inspect.TestInspectMethods.test_manager_method_signature#3": false,
+        "utils_tests.test_inspect.TestInspectMethods.test_manager_method_signature#4": false,
+        "utils_tests.test_inspect.TestInspectMethods.test_manager_method_signature#5": false,
+        "utils_tests.test_inspect.TestInspectMethods.test_manager_method_signature#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15731/dedup_patch_3.jsonl": {
+      "django__django-15731": {
+        "utils_tests.test_inspect.TestInspectMethods.test_manager_method_signature#1": false,
+        "utils_tests.test_inspect.TestInspectMethods.test_manager_method_signature#2": false,
+        "utils_tests.test_inspect.TestInspectMethods.test_manager_method_signature#3": false,
+        "utils_tests.test_inspect.TestInspectMethods.test_manager_method_signature#4": false,
+        "utils_tests.test_inspect.TestInspectMethods.test_manager_method_signature#5": false,
+        "utils_tests.test_inspect.TestInspectMethods.test_manager_method_signature#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15731/dedup_patch_4.jsonl": {
+      "django__django-15731": {
+        "utils_tests.test_inspect.TestInspectMethods.test_manager_method_signature#1": false,
+        "utils_tests.test_inspect.TestInspectMethods.test_manager_method_signature#2": false,
+        "utils_tests.test_inspect.TestInspectMethods.test_manager_method_signature#3": false,
+        "utils_tests.test_inspect.TestInspectMethods.test_manager_method_signature#4": false,
+        "utils_tests.test_inspect.TestInspectMethods.test_manager_method_signature#5": false,
+        "utils_tests.test_inspect.TestInspectMethods.test_manager_method_signature#6": false
+      }
+    }
+  }
+}

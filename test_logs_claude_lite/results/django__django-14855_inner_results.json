@@ -1,0 +1,31 @@
+{
+  "regression": {
+    "all_patches/lite_claude_all_unique_patches/django__django-14855/dedup_patch_0.jsonl": {
+      "django__django-14855": {
+        "admin_views.tests.AdminViewBasicTest.test_view_subtitle_per_object": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-14855": {
+        "admin_views.tests.ReadonlyTest.test_readonly_foreignkey_links_custom_admin_site#1": true,
+        "admin_views.tests.ReadonlyTest.test_readonly_foreignkey_links_custom_admin#2": true,
+        "admin_views.test_history_view.AdminHistoryViewTests.test_readonly_foreignkey_links_custom_admin#3": true,
+        "admin_views.tests.ReadonlyTest.test_readonly_foreignkey_links_custom_admin_site#4": true,
+        "admin_views.tests.ReadonlyTest.test_readonly_foreignkey_links_custom_admin#5": true,
+        "admin_views.tests.ReadonlyTest.test_readonly_foreignkey_links_custom_admin_site#6": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-14855/dedup_patch_0.jsonl": {
+      "django__django-14855": {
+        "admin_views.tests.ReadonlyTest.test_readonly_foreignkey_links_custom_admin_site#1": false,
+        "admin_views.tests.ReadonlyTest.test_readonly_foreignkey_links_custom_admin#2": false,
+        "admin_views.test_history_view.AdminHistoryViewTests.test_readonly_foreignkey_links_custom_admin#3": false,
+        "admin_views.tests.ReadonlyTest.test_readonly_foreignkey_links_custom_admin_site#4": false,
+        "admin_views.tests.ReadonlyTest.test_readonly_foreignkey_links_custom_admin#5": false,
+        "admin_views.tests.ReadonlyTest.test_readonly_foreignkey_links_custom_admin_site#6": false
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "regression": {
+    "all_patches/lite_claude_all_unique_patches/django__django-16595/dedup_patch_0.jsonl": {
+      "django__django-16595": {
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_interactive_not_null_alteration": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_interactive_not_null_addition": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_delete_field": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_rename_field": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-16595/dedup_patch_1.jsonl": {
+      "django__django-16595": {
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_interactive_not_null_alteration": true,
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_interactive_not_null_addition": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_delete_field": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_rename_field": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-16595": {
+        "migrations.test_optimizer.OptimizerTests.test_multiple_alter_field_optimization#1": true,
+        "migrations.test_optimizer.OptimizerTests.test_multiple_alter_field_optimization#2": true,
+        "migrations.test_optimizer.OptimizerTests.test_multiple_alter_field_optimization#3": true,
+        "migrations.test_optimizer.OptimizerTests.test_reduce_multiple_alter_field#4": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_alter_field#5": true,
+        "migrations.test_optimizer.OptimizerTests.test_multiple_alter_field_optimization#6": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-16595/dedup_patch_0.jsonl": {
+      "django__django-16595": {
+        "migrations.test_optimizer.OptimizerTests.test_multiple_alter_field_optimization#1": true,
+        "migrations.test_optimizer.OptimizerTests.test_multiple_alter_field_optimization#2": true,
+        "migrations.test_optimizer.OptimizerTests.test_multiple_alter_field_optimization#3": true,
+        "migrations.test_optimizer.OptimizerTests.test_reduce_multiple_alter_field#4": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_alter_field#5": true,
+        "migrations.test_optimizer.OptimizerTests.test_multiple_alter_field_optimization#6": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-16595/dedup_patch_1.jsonl": {
+      "django__django-16595": {
+        "migrations.test_optimizer.OptimizerTests.test_multiple_alter_field_optimization#1": true,
+        "migrations.test_optimizer.OptimizerTests.test_multiple_alter_field_optimization#2": true,
+        "migrations.test_optimizer.OptimizerTests.test_multiple_alter_field_optimization#3": true,
+        "migrations.test_optimizer.OptimizerTests.test_reduce_multiple_alter_field#4": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_alter_field#5": true,
+        "migrations.test_optimizer.OptimizerTests.test_multiple_alter_field_optimization#6": true
+      }
+    }
+  }
+}

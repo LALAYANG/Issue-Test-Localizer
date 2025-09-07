@@ -1,0 +1,80 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/django__django-15127/dedup_patch_0.jsonl": {
+      "django__django-15127": {
+        "messages_tests.tests.MessageTests.test_eq": true,
+        "messages_tests.test_mixins.SuccessMessageMixinTests.test_set_messages_success_on_delete": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15127/dedup_patch_1.jsonl": {
+      "django__django-15127": {
+        "messages_tests.tests.MessageTests.test_eq": true,
+        "messages_tests.test_mixins.SuccessMessageMixinTests.test_set_messages_success_on_delete": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15127/dedup_patch_2.jsonl": {
+      "django__django-15127": {
+        "messages_tests.tests.MessageTests.test_eq": true,
+        "messages_tests.test_mixins.SuccessMessageMixinTests.test_set_messages_success_on_delete": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15127/dedup_patch_3.jsonl": {
+      "django__django-15127": {
+        "messages_tests.tests.MessageTests.test_eq": true,
+        "messages_tests.test_mixins.SuccessMessageMixinTests.test_set_messages_success_on_delete": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-15127": {
+        "messages_tests.tests.MessageTests.test_level_tag_with_override_settings#1": true,
+        "messages_tests.tests.MessageTests.test_level_tag_override_settings#2": true,
+        "messages_tests.tests.MessageTests.test_override_settings_level_tags#3": true,
+        "messages_tests.tests.MessageTests.test_level_tag_override_settings#4": true,
+        "messages_tests.tests.MessageTests.test_level_tags_override_settings#5": true,
+        "messages_tests.tests.MessageTests.test_level_tags_override_settings#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15127/dedup_patch_0.jsonl": {
+      "django__django-15127": {
+        "messages_tests.tests.MessageTests.test_level_tag_with_override_settings#1": true,
+        "messages_tests.tests.MessageTests.test_level_tag_override_settings#2": false,
+        "messages_tests.tests.MessageTests.test_override_settings_level_tags#3": false,
+        "messages_tests.tests.MessageTests.test_level_tag_override_settings#4": true,
+        "messages_tests.tests.MessageTests.test_level_tags_override_settings#5": true,
+        "messages_tests.tests.MessageTests.test_level_tags_override_settings#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15127/dedup_patch_1.jsonl": {
+      "django__django-15127": {
+        "messages_tests.tests.MessageTests.test_level_tag_with_override_settings#1": true,
+        "messages_tests.tests.MessageTests.test_level_tag_override_settings#2": false,
+        "messages_tests.tests.MessageTests.test_override_settings_level_tags#3": false,
+        "messages_tests.tests.MessageTests.test_level_tag_override_settings#4": true,
+        "messages_tests.tests.MessageTests.test_level_tags_override_settings#5": true,
+        "messages_tests.tests.MessageTests.test_level_tags_override_settings#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15127/dedup_patch_2.jsonl": {
+      "django__django-15127": {
+        "messages_tests.tests.MessageTests.test_level_tag_with_override_settings#1": true,
+        "messages_tests.tests.MessageTests.test_level_tag_override_settings#2": false,
+        "messages_tests.tests.MessageTests.test_override_settings_level_tags#3": false,
+        "messages_tests.tests.MessageTests.test_level_tag_override_settings#4": true,
+        "messages_tests.tests.MessageTests.test_level_tags_override_settings#5": true,
+        "messages_tests.tests.MessageTests.test_level_tags_override_settings#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15127/dedup_patch_3.jsonl": {
+      "django__django-15127": {
+        "messages_tests.tests.MessageTests.test_level_tag_with_override_settings#1": true,
+        "messages_tests.tests.MessageTests.test_level_tag_override_settings#2": true,
+        "messages_tests.tests.MessageTests.test_override_settings_level_tags#3": true,
+        "messages_tests.tests.MessageTests.test_level_tag_override_settings#4": true,
+        "messages_tests.tests.MessageTests.test_level_tags_override_settings#5": true,
+        "messages_tests.tests.MessageTests.test_level_tags_override_settings#6": true
+      }
+    }
+  }
+}

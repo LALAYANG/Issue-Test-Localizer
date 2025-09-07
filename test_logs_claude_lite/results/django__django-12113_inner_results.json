@@ -1,0 +1,787 @@
+{
+  "regression": {
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_0.jsonl": {
+      "django__django-12113": {
+        "backends.sqlite.tests.SchemaTests.test_constraint_checks_disabled_atomic_allowed": true,
+        "backends.tests.FkConstraintsTests.test_check_constraints": true,
+        "multiple_database.tests.FixtureTestCase.test_pseudo_empty_fixtures": true,
+        "backends.sqlite.tests.ThreadSharing.test_database_sharing_in_threads": true,
+        "backends.tests.BackendTestCase.test_cursor_executemany": true,
+        "backends.sqlite.tests.SchemaTests.test_autoincrement": true,
+        "backends.tests.BackendTestCase.test_queries": true,
+        "backends.base.test_base.ExecuteWrapperTests.test_database_queried": true,
+        "transactions.tests.NonAutocommitTests.test_orm_query_after_error_and_rollback": true,
+        "backends.tests.FkConstraintsTests.test_disable_constraint_checks_manually": true,
+        "backends.sqlite.tests.Tests.test_pathlib_name": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_1.jsonl": {
+      "django__django-12113": {
+        "backends.sqlite.tests.SchemaTests.test_constraint_checks_disabled_atomic_allowed": true,
+        "backends.tests.FkConstraintsTests.test_check_constraints": true,
+        "multiple_database.tests.FixtureTestCase.test_pseudo_empty_fixtures": true,
+        "backends.sqlite.tests.ThreadSharing.test_database_sharing_in_threads": true,
+        "backends.tests.BackendTestCase.test_cursor_executemany": true,
+        "backends.sqlite.tests.SchemaTests.test_autoincrement": true,
+        "backends.tests.BackendTestCase.test_queries": true,
+        "backends.base.test_base.ExecuteWrapperTests.test_database_queried": true,
+        "transactions.tests.NonAutocommitTests.test_orm_query_after_error_and_rollback": true,
+        "backends.tests.FkConstraintsTests.test_disable_constraint_checks_manually": true,
+        "backends.sqlite.tests.Tests.test_pathlib_name": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_10.jsonl": {
+      "django__django-12113": {
+        "backends.sqlite.tests.SchemaTests.test_constraint_checks_disabled_atomic_allowed": true,
+        "backends.tests.FkConstraintsTests.test_check_constraints": true,
+        "multiple_database.tests.FixtureTestCase.test_pseudo_empty_fixtures": true,
+        "backends.sqlite.tests.ThreadSharing.test_database_sharing_in_threads": true,
+        "backends.tests.BackendTestCase.test_cursor_executemany": true,
+        "backends.sqlite.tests.SchemaTests.test_autoincrement": true,
+        "backends.tests.BackendTestCase.test_queries": true,
+        "backends.base.test_base.ExecuteWrapperTests.test_database_queried": true,
+        "transactions.tests.NonAutocommitTests.test_orm_query_after_error_and_rollback": true,
+        "backends.tests.FkConstraintsTests.test_disable_constraint_checks_manually": true,
+        "backends.sqlite.tests.Tests.test_pathlib_name": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_11.jsonl": {
+      "django__django-12113": {
+        "backends.sqlite.tests.SchemaTests.test_constraint_checks_disabled_atomic_allowed": true,
+        "backends.tests.FkConstraintsTests.test_check_constraints": true,
+        "multiple_database.tests.FixtureTestCase.test_pseudo_empty_fixtures": true,
+        "backends.sqlite.tests.ThreadSharing.test_database_sharing_in_threads": true,
+        "backends.tests.BackendTestCase.test_cursor_executemany": true,
+        "backends.sqlite.tests.SchemaTests.test_autoincrement": true,
+        "backends.tests.BackendTestCase.test_queries": true,
+        "backends.base.test_base.ExecuteWrapperTests.test_database_queried": true,
+        "transactions.tests.NonAutocommitTests.test_orm_query_after_error_and_rollback": true,
+        "backends.tests.FkConstraintsTests.test_disable_constraint_checks_manually": true,
+        "backends.sqlite.tests.Tests.test_pathlib_name": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_12.jsonl": {
+      "django__django-12113": {
+        "backends.sqlite.tests.SchemaTests.test_constraint_checks_disabled_atomic_allowed": true,
+        "backends.tests.FkConstraintsTests.test_check_constraints": true,
+        "multiple_database.tests.FixtureTestCase.test_pseudo_empty_fixtures": true,
+        "backends.sqlite.tests.ThreadSharing.test_database_sharing_in_threads": true,
+        "backends.tests.BackendTestCase.test_cursor_executemany": true,
+        "backends.sqlite.tests.SchemaTests.test_autoincrement": true,
+        "backends.tests.BackendTestCase.test_queries": true,
+        "backends.base.test_base.ExecuteWrapperTests.test_database_queried": true,
+        "transactions.tests.NonAutocommitTests.test_orm_query_after_error_and_rollback": true,
+        "backends.tests.FkConstraintsTests.test_disable_constraint_checks_manually": true,
+        "backends.sqlite.tests.Tests.test_pathlib_name": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_13.jsonl": {
+      "django__django-12113": {
+        "backends.sqlite.tests.SchemaTests.test_constraint_checks_disabled_atomic_allowed": true,
+        "backends.tests.FkConstraintsTests.test_check_constraints": true,
+        "multiple_database.tests.FixtureTestCase.test_pseudo_empty_fixtures": true,
+        "backends.sqlite.tests.ThreadSharing.test_database_sharing_in_threads": true,
+        "backends.tests.BackendTestCase.test_cursor_executemany": true,
+        "backends.sqlite.tests.SchemaTests.test_autoincrement": true,
+        "backends.tests.BackendTestCase.test_queries": true,
+        "backends.base.test_base.ExecuteWrapperTests.test_database_queried": true,
+        "transactions.tests.NonAutocommitTests.test_orm_query_after_error_and_rollback": true,
+        "backends.tests.FkConstraintsTests.test_disable_constraint_checks_manually": true,
+        "backends.sqlite.tests.Tests.test_pathlib_name": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_14.jsonl": {
+      "django__django-12113": {
+        "backends.sqlite.tests.SchemaTests.test_constraint_checks_disabled_atomic_allowed": true,
+        "backends.tests.FkConstraintsTests.test_check_constraints": true,
+        "multiple_database.tests.FixtureTestCase.test_pseudo_empty_fixtures": true,
+        "backends.sqlite.tests.ThreadSharing.test_database_sharing_in_threads": true,
+        "backends.tests.BackendTestCase.test_cursor_executemany": true,
+        "backends.sqlite.tests.SchemaTests.test_autoincrement": true,
+        "backends.tests.BackendTestCase.test_queries": true,
+        "backends.base.test_base.ExecuteWrapperTests.test_database_queried": true,
+        "transactions.tests.NonAutocommitTests.test_orm_query_after_error_and_rollback": true,
+        "backends.tests.FkConstraintsTests.test_disable_constraint_checks_manually": true,
+        "backends.sqlite.tests.Tests.test_pathlib_name": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_15.jsonl": {
+      "django__django-12113": {
+        "backends.sqlite.tests.SchemaTests.test_constraint_checks_disabled_atomic_allowed": true,
+        "backends.tests.FkConstraintsTests.test_check_constraints": true,
+        "multiple_database.tests.FixtureTestCase.test_pseudo_empty_fixtures": true,
+        "backends.sqlite.tests.ThreadSharing.test_database_sharing_in_threads": true,
+        "backends.tests.BackendTestCase.test_cursor_executemany": true,
+        "backends.sqlite.tests.SchemaTests.test_autoincrement": true,
+        "backends.tests.BackendTestCase.test_queries": true,
+        "backends.base.test_base.ExecuteWrapperTests.test_database_queried": true,
+        "transactions.tests.NonAutocommitTests.test_orm_query_after_error_and_rollback": true,
+        "backends.tests.FkConstraintsTests.test_disable_constraint_checks_manually": true,
+        "backends.sqlite.tests.Tests.test_pathlib_name": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_16.jsonl": {
+      "django__django-12113": {
+        "backends.sqlite.tests.SchemaTests.test_constraint_checks_disabled_atomic_allowed": true,
+        "backends.tests.FkConstraintsTests.test_check_constraints": true,
+        "multiple_database.tests.FixtureTestCase.test_pseudo_empty_fixtures": true,
+        "backends.sqlite.tests.ThreadSharing.test_database_sharing_in_threads": true,
+        "backends.tests.BackendTestCase.test_cursor_executemany": true,
+        "backends.sqlite.tests.SchemaTests.test_autoincrement": true,
+        "backends.tests.BackendTestCase.test_queries": true,
+        "backends.base.test_base.ExecuteWrapperTests.test_database_queried": true,
+        "transactions.tests.NonAutocommitTests.test_orm_query_after_error_and_rollback": true,
+        "backends.tests.FkConstraintsTests.test_disable_constraint_checks_manually": true,
+        "backends.sqlite.tests.Tests.test_pathlib_name": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_17.jsonl": {
+      "django__django-12113": {
+        "backends.sqlite.tests.SchemaTests.test_constraint_checks_disabled_atomic_allowed": true,
+        "backends.tests.FkConstraintsTests.test_check_constraints": true,
+        "multiple_database.tests.FixtureTestCase.test_pseudo_empty_fixtures": true,
+        "backends.sqlite.tests.ThreadSharing.test_database_sharing_in_threads": true,
+        "backends.tests.BackendTestCase.test_cursor_executemany": true,
+        "backends.sqlite.tests.SchemaTests.test_autoincrement": true,
+        "backends.tests.BackendTestCase.test_queries": true,
+        "backends.base.test_base.ExecuteWrapperTests.test_database_queried": true,
+        "transactions.tests.NonAutocommitTests.test_orm_query_after_error_and_rollback": true,
+        "backends.tests.FkConstraintsTests.test_disable_constraint_checks_manually": true,
+        "backends.sqlite.tests.Tests.test_pathlib_name": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_18.jsonl": {
+      "django__django-12113": {
+        "backends.sqlite.tests.SchemaTests.test_constraint_checks_disabled_atomic_allowed": true,
+        "backends.tests.FkConstraintsTests.test_check_constraints": true,
+        "multiple_database.tests.FixtureTestCase.test_pseudo_empty_fixtures": true,
+        "backends.sqlite.tests.ThreadSharing.test_database_sharing_in_threads": true,
+        "backends.tests.BackendTestCase.test_cursor_executemany": true,
+        "backends.sqlite.tests.SchemaTests.test_autoincrement": true,
+        "backends.tests.BackendTestCase.test_queries": true,
+        "backends.base.test_base.ExecuteWrapperTests.test_database_queried": true,
+        "transactions.tests.NonAutocommitTests.test_orm_query_after_error_and_rollback": true,
+        "backends.tests.FkConstraintsTests.test_disable_constraint_checks_manually": true,
+        "backends.sqlite.tests.Tests.test_pathlib_name": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_19.jsonl": {
+      "django__django-12113": {
+        "backends.sqlite.tests.SchemaTests.test_constraint_checks_disabled_atomic_allowed": true,
+        "backends.tests.FkConstraintsTests.test_check_constraints": true,
+        "multiple_database.tests.FixtureTestCase.test_pseudo_empty_fixtures": true,
+        "backends.sqlite.tests.ThreadSharing.test_database_sharing_in_threads": true,
+        "backends.tests.BackendTestCase.test_cursor_executemany": true,
+        "backends.sqlite.tests.SchemaTests.test_autoincrement": true,
+        "backends.tests.BackendTestCase.test_queries": true,
+        "backends.base.test_base.ExecuteWrapperTests.test_database_queried": true,
+        "transactions.tests.NonAutocommitTests.test_orm_query_after_error_and_rollback": true,
+        "backends.tests.FkConstraintsTests.test_disable_constraint_checks_manually": true,
+        "backends.sqlite.tests.Tests.test_pathlib_name": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_2.jsonl": {
+      "django__django-12113": {
+        "backends.sqlite.tests.SchemaTests.test_constraint_checks_disabled_atomic_allowed": true,
+        "backends.tests.FkConstraintsTests.test_check_constraints": true,
+        "multiple_database.tests.FixtureTestCase.test_pseudo_empty_fixtures": true,
+        "backends.sqlite.tests.ThreadSharing.test_database_sharing_in_threads": true,
+        "backends.tests.BackendTestCase.test_cursor_executemany": true,
+        "backends.sqlite.tests.SchemaTests.test_autoincrement": true,
+        "backends.tests.BackendTestCase.test_queries": true,
+        "backends.base.test_base.ExecuteWrapperTests.test_database_queried": true,
+        "transactions.tests.NonAutocommitTests.test_orm_query_after_error_and_rollback": true,
+        "backends.tests.FkConstraintsTests.test_disable_constraint_checks_manually": true,
+        "backends.sqlite.tests.Tests.test_pathlib_name": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_20.jsonl": {
+      "django__django-12113": {
+        "backends.sqlite.tests.SchemaTests.test_constraint_checks_disabled_atomic_allowed": true,
+        "backends.tests.FkConstraintsTests.test_check_constraints": true,
+        "multiple_database.tests.FixtureTestCase.test_pseudo_empty_fixtures": true,
+        "backends.sqlite.tests.ThreadSharing.test_database_sharing_in_threads": true,
+        "backends.tests.BackendTestCase.test_cursor_executemany": true,
+        "backends.sqlite.tests.SchemaTests.test_autoincrement": true,
+        "backends.tests.BackendTestCase.test_queries": true,
+        "backends.base.test_base.ExecuteWrapperTests.test_database_queried": true,
+        "transactions.tests.NonAutocommitTests.test_orm_query_after_error_and_rollback": true,
+        "backends.tests.FkConstraintsTests.test_disable_constraint_checks_manually": true,
+        "backends.sqlite.tests.Tests.test_pathlib_name": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_21.jsonl": {
+      "django__django-12113": {
+        "backends.sqlite.tests.SchemaTests.test_constraint_checks_disabled_atomic_allowed": true,
+        "backends.tests.FkConstraintsTests.test_check_constraints": true,
+        "multiple_database.tests.FixtureTestCase.test_pseudo_empty_fixtures": true,
+        "backends.sqlite.tests.ThreadSharing.test_database_sharing_in_threads": true,
+        "backends.tests.BackendTestCase.test_cursor_executemany": true,
+        "backends.sqlite.tests.SchemaTests.test_autoincrement": true,
+        "backends.tests.BackendTestCase.test_queries": true,
+        "backends.base.test_base.ExecuteWrapperTests.test_database_queried": true,
+        "transactions.tests.NonAutocommitTests.test_orm_query_after_error_and_rollback": true,
+        "backends.tests.FkConstraintsTests.test_disable_constraint_checks_manually": true,
+        "backends.sqlite.tests.Tests.test_pathlib_name": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_22.jsonl": {
+      "django__django-12113": {
+        "backends.sqlite.tests.SchemaTests.test_constraint_checks_disabled_atomic_allowed": true,
+        "backends.tests.FkConstraintsTests.test_check_constraints": true,
+        "multiple_database.tests.FixtureTestCase.test_pseudo_empty_fixtures": true,
+        "backends.sqlite.tests.ThreadSharing.test_database_sharing_in_threads": true,
+        "backends.tests.BackendTestCase.test_cursor_executemany": true,
+        "backends.sqlite.tests.SchemaTests.test_autoincrement": true,
+        "backends.tests.BackendTestCase.test_queries": true,
+        "backends.base.test_base.ExecuteWrapperTests.test_database_queried": true,
+        "transactions.tests.NonAutocommitTests.test_orm_query_after_error_and_rollback": true,
+        "backends.tests.FkConstraintsTests.test_disable_constraint_checks_manually": true,
+        "backends.sqlite.tests.Tests.test_pathlib_name": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_23.jsonl": {
+      "django__django-12113": {
+        "backends.sqlite.tests.SchemaTests.test_constraint_checks_disabled_atomic_allowed": true,
+        "backends.tests.FkConstraintsTests.test_check_constraints": true,
+        "multiple_database.tests.FixtureTestCase.test_pseudo_empty_fixtures": true,
+        "backends.sqlite.tests.ThreadSharing.test_database_sharing_in_threads": true,
+        "backends.tests.BackendTestCase.test_cursor_executemany": true,
+        "backends.sqlite.tests.SchemaTests.test_autoincrement": true,
+        "backends.tests.BackendTestCase.test_queries": true,
+        "backends.base.test_base.ExecuteWrapperTests.test_database_queried": true,
+        "transactions.tests.NonAutocommitTests.test_orm_query_after_error_and_rollback": true,
+        "backends.tests.FkConstraintsTests.test_disable_constraint_checks_manually": true,
+        "backends.sqlite.tests.Tests.test_pathlib_name": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_24.jsonl": {
+      "django__django-12113": {
+        "backends.sqlite.tests.SchemaTests.test_constraint_checks_disabled_atomic_allowed": true,
+        "backends.tests.FkConstraintsTests.test_check_constraints": true,
+        "multiple_database.tests.FixtureTestCase.test_pseudo_empty_fixtures": true,
+        "backends.sqlite.tests.ThreadSharing.test_database_sharing_in_threads": true,
+        "backends.tests.BackendTestCase.test_cursor_executemany": true,
+        "backends.sqlite.tests.SchemaTests.test_autoincrement": true,
+        "backends.tests.BackendTestCase.test_queries": true,
+        "backends.base.test_base.ExecuteWrapperTests.test_database_queried": true,
+        "transactions.tests.NonAutocommitTests.test_orm_query_after_error_and_rollback": true,
+        "backends.tests.FkConstraintsTests.test_disable_constraint_checks_manually": true,
+        "backends.sqlite.tests.Tests.test_pathlib_name": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_25.jsonl": {
+      "django__django-12113": {
+        "backends.sqlite.tests.SchemaTests.test_constraint_checks_disabled_atomic_allowed": true,
+        "backends.tests.FkConstraintsTests.test_check_constraints": true,
+        "multiple_database.tests.FixtureTestCase.test_pseudo_empty_fixtures": true,
+        "backends.sqlite.tests.ThreadSharing.test_database_sharing_in_threads": true,
+        "backends.tests.BackendTestCase.test_cursor_executemany": true,
+        "backends.sqlite.tests.SchemaTests.test_autoincrement": true,
+        "backends.tests.BackendTestCase.test_queries": true,
+        "backends.base.test_base.ExecuteWrapperTests.test_database_queried": true,
+        "transactions.tests.NonAutocommitTests.test_orm_query_after_error_and_rollback": true,
+        "backends.tests.FkConstraintsTests.test_disable_constraint_checks_manually": true,
+        "backends.sqlite.tests.Tests.test_pathlib_name": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_26.jsonl": {
+      "django__django-12113": {
+        "backends.sqlite.tests.SchemaTests.test_constraint_checks_disabled_atomic_allowed": true,
+        "backends.tests.FkConstraintsTests.test_check_constraints": true,
+        "multiple_database.tests.FixtureTestCase.test_pseudo_empty_fixtures": true,
+        "backends.sqlite.tests.ThreadSharing.test_database_sharing_in_threads": true,
+        "backends.tests.BackendTestCase.test_cursor_executemany": true,
+        "backends.sqlite.tests.SchemaTests.test_autoincrement": true,
+        "backends.tests.BackendTestCase.test_queries": true,
+        "backends.base.test_base.ExecuteWrapperTests.test_database_queried": true,
+        "transactions.tests.NonAutocommitTests.test_orm_query_after_error_and_rollback": true,
+        "backends.tests.FkConstraintsTests.test_disable_constraint_checks_manually": true,
+        "backends.sqlite.tests.Tests.test_pathlib_name": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_27.jsonl": {
+      "django__django-12113": {
+        "backends.sqlite.tests.SchemaTests.test_constraint_checks_disabled_atomic_allowed": true,
+        "backends.tests.FkConstraintsTests.test_check_constraints": true,
+        "multiple_database.tests.FixtureTestCase.test_pseudo_empty_fixtures": true,
+        "backends.sqlite.tests.ThreadSharing.test_database_sharing_in_threads": true,
+        "backends.tests.BackendTestCase.test_cursor_executemany": true,
+        "backends.sqlite.tests.SchemaTests.test_autoincrement": true,
+        "backends.tests.BackendTestCase.test_queries": true,
+        "backends.base.test_base.ExecuteWrapperTests.test_database_queried": true,
+        "transactions.tests.NonAutocommitTests.test_orm_query_after_error_and_rollback": true,
+        "backends.tests.FkConstraintsTests.test_disable_constraint_checks_manually": true,
+        "backends.sqlite.tests.Tests.test_pathlib_name": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_28.jsonl": {
+      "django__django-12113": {
+        "backends.sqlite.tests.SchemaTests.test_constraint_checks_disabled_atomic_allowed": true,
+        "backends.tests.FkConstraintsTests.test_check_constraints": true,
+        "multiple_database.tests.FixtureTestCase.test_pseudo_empty_fixtures": true,
+        "backends.sqlite.tests.ThreadSharing.test_database_sharing_in_threads": true,
+        "backends.tests.BackendTestCase.test_cursor_executemany": true,
+        "backends.sqlite.tests.SchemaTests.test_autoincrement": true,
+        "backends.tests.BackendTestCase.test_queries": true,
+        "backends.base.test_base.ExecuteWrapperTests.test_database_queried": true,
+        "transactions.tests.NonAutocommitTests.test_orm_query_after_error_and_rollback": true,
+        "backends.tests.FkConstraintsTests.test_disable_constraint_checks_manually": true,
+        "backends.sqlite.tests.Tests.test_pathlib_name": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_29.jsonl": {
+      "django__django-12113": {
+        "backends.sqlite.tests.SchemaTests.test_constraint_checks_disabled_atomic_allowed": true,
+        "backends.tests.FkConstraintsTests.test_check_constraints": true,
+        "multiple_database.tests.FixtureTestCase.test_pseudo_empty_fixtures": true,
+        "backends.sqlite.tests.ThreadSharing.test_database_sharing_in_threads": true,
+        "backends.tests.BackendTestCase.test_cursor_executemany": true,
+        "backends.sqlite.tests.SchemaTests.test_autoincrement": true,
+        "backends.tests.BackendTestCase.test_queries": true,
+        "backends.base.test_base.ExecuteWrapperTests.test_database_queried": true,
+        "transactions.tests.NonAutocommitTests.test_orm_query_after_error_and_rollback": true,
+        "backends.tests.FkConstraintsTests.test_disable_constraint_checks_manually": true,
+        "backends.sqlite.tests.Tests.test_pathlib_name": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_3.jsonl": {
+      "django__django-12113": {
+        "backends.sqlite.tests.SchemaTests.test_constraint_checks_disabled_atomic_allowed": false,
+        "backends.tests.FkConstraintsTests.test_check_constraints": false,
+        "multiple_database.tests.FixtureTestCase.test_pseudo_empty_fixtures": false,
+        "backends.sqlite.tests.ThreadSharing.test_database_sharing_in_threads": false,
+        "backends.tests.BackendTestCase.test_cursor_executemany": false,
+        "backends.sqlite.tests.SchemaTests.test_autoincrement": false,
+        "backends.tests.BackendTestCase.test_queries": false,
+        "backends.base.test_base.ExecuteWrapperTests.test_database_queried": false,
+        "transactions.tests.NonAutocommitTests.test_orm_query_after_error_and_rollback": false,
+        "backends.tests.FkConstraintsTests.test_disable_constraint_checks_manually": false,
+        "backends.sqlite.tests.Tests.test_pathlib_name": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_30.jsonl": {
+      "django__django-12113": {
+        "backends.sqlite.tests.SchemaTests.test_constraint_checks_disabled_atomic_allowed": true,
+        "backends.tests.FkConstraintsTests.test_check_constraints": true,
+        "multiple_database.tests.FixtureTestCase.test_pseudo_empty_fixtures": true,
+        "backends.sqlite.tests.ThreadSharing.test_database_sharing_in_threads": true,
+        "backends.tests.BackendTestCase.test_cursor_executemany": true,
+        "backends.sqlite.tests.SchemaTests.test_autoincrement": true,
+        "backends.tests.BackendTestCase.test_queries": true,
+        "backends.base.test_base.ExecuteWrapperTests.test_database_queried": true,
+        "transactions.tests.NonAutocommitTests.test_orm_query_after_error_and_rollback": true,
+        "backends.tests.FkConstraintsTests.test_disable_constraint_checks_manually": true,
+        "backends.sqlite.tests.Tests.test_pathlib_name": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_31.jsonl": {
+      "django__django-12113": {
+        "backends.sqlite.tests.SchemaTests.test_constraint_checks_disabled_atomic_allowed": true,
+        "backends.tests.FkConstraintsTests.test_check_constraints": true,
+        "multiple_database.tests.FixtureTestCase.test_pseudo_empty_fixtures": true,
+        "backends.sqlite.tests.ThreadSharing.test_database_sharing_in_threads": true,
+        "backends.tests.BackendTestCase.test_cursor_executemany": true,
+        "backends.sqlite.tests.SchemaTests.test_autoincrement": true,
+        "backends.tests.BackendTestCase.test_queries": true,
+        "backends.base.test_base.ExecuteWrapperTests.test_database_queried": true,
+        "transactions.tests.NonAutocommitTests.test_orm_query_after_error_and_rollback": true,
+        "backends.tests.FkConstraintsTests.test_disable_constraint_checks_manually": true,
+        "backends.sqlite.tests.Tests.test_pathlib_name": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_32.jsonl": {
+      "django__django-12113": {
+        "backends.sqlite.tests.SchemaTests.test_constraint_checks_disabled_atomic_allowed": true,
+        "backends.tests.FkConstraintsTests.test_check_constraints": true,
+        "multiple_database.tests.FixtureTestCase.test_pseudo_empty_fixtures": true,
+        "backends.sqlite.tests.ThreadSharing.test_database_sharing_in_threads": true,
+        "backends.tests.BackendTestCase.test_cursor_executemany": true,
+        "backends.sqlite.tests.SchemaTests.test_autoincrement": true,
+        "backends.tests.BackendTestCase.test_queries": true,
+        "backends.base.test_base.ExecuteWrapperTests.test_database_queried": true,
+        "transactions.tests.NonAutocommitTests.test_orm_query_after_error_and_rollback": true,
+        "backends.tests.FkConstraintsTests.test_disable_constraint_checks_manually": true,
+        "backends.sqlite.tests.Tests.test_pathlib_name": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_33.jsonl": {
+      "django__django-12113": {
+        "backends.sqlite.tests.SchemaTests.test_constraint_checks_disabled_atomic_allowed": true,
+        "backends.tests.FkConstraintsTests.test_check_constraints": true,
+        "multiple_database.tests.FixtureTestCase.test_pseudo_empty_fixtures": true,
+        "backends.sqlite.tests.ThreadSharing.test_database_sharing_in_threads": true,
+        "backends.tests.BackendTestCase.test_cursor_executemany": true,
+        "backends.sqlite.tests.SchemaTests.test_autoincrement": true,
+        "backends.tests.BackendTestCase.test_queries": true,
+        "backends.base.test_base.ExecuteWrapperTests.test_database_queried": true,
+        "transactions.tests.NonAutocommitTests.test_orm_query_after_error_and_rollback": true,
+        "backends.tests.FkConstraintsTests.test_disable_constraint_checks_manually": true,
+        "backends.sqlite.tests.Tests.test_pathlib_name": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_34.jsonl": {
+      "django__django-12113": {
+        "backends.sqlite.tests.SchemaTests.test_constraint_checks_disabled_atomic_allowed": true,
+        "backends.tests.FkConstraintsTests.test_check_constraints": true,
+        "multiple_database.tests.FixtureTestCase.test_pseudo_empty_fixtures": true,
+        "backends.sqlite.tests.ThreadSharing.test_database_sharing_in_threads": true,
+        "backends.tests.BackendTestCase.test_cursor_executemany": true,
+        "backends.sqlite.tests.SchemaTests.test_autoincrement": true,
+        "backends.tests.BackendTestCase.test_queries": true,
+        "backends.base.test_base.ExecuteWrapperTests.test_database_queried": true,
+        "transactions.tests.NonAutocommitTests.test_orm_query_after_error_and_rollback": true,
+        "backends.tests.FkConstraintsTests.test_disable_constraint_checks_manually": true,
+        "backends.sqlite.tests.Tests.test_pathlib_name": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_35.jsonl": {
+      "django__django-12113": {
+        "backends.sqlite.tests.SchemaTests.test_constraint_checks_disabled_atomic_allowed": true,
+        "backends.tests.FkConstraintsTests.test_check_constraints": true,
+        "multiple_database.tests.FixtureTestCase.test_pseudo_empty_fixtures": true,
+        "backends.sqlite.tests.ThreadSharing.test_database_sharing_in_threads": true,
+        "backends.tests.BackendTestCase.test_cursor_executemany": true,
+        "backends.sqlite.tests.SchemaTests.test_autoincrement": true,
+        "backends.tests.BackendTestCase.test_queries": true,
+        "backends.base.test_base.ExecuteWrapperTests.test_database_queried": true,
+        "transactions.tests.NonAutocommitTests.test_orm_query_after_error_and_rollback": true,
+        "backends.tests.FkConstraintsTests.test_disable_constraint_checks_manually": true,
+        "backends.sqlite.tests.Tests.test_pathlib_name": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_36.jsonl": {
+      "django__django-12113": {
+        "backends.sqlite.tests.SchemaTests.test_constraint_checks_disabled_atomic_allowed": true,
+        "backends.tests.FkConstraintsTests.test_check_constraints": true,
+        "multiple_database.tests.FixtureTestCase.test_pseudo_empty_fixtures": true,
+        "backends.sqlite.tests.ThreadSharing.test_database_sharing_in_threads": true,
+        "backends.tests.BackendTestCase.test_cursor_executemany": true,
+        "backends.sqlite.tests.SchemaTests.test_autoincrement": true,
+        "backends.tests.BackendTestCase.test_queries": true,
+        "backends.base.test_base.ExecuteWrapperTests.test_database_queried": true,
+        "transactions.tests.NonAutocommitTests.test_orm_query_after_error_and_rollback": true,
+        "backends.tests.FkConstraintsTests.test_disable_constraint_checks_manually": true,
+        "backends.sqlite.tests.Tests.test_pathlib_name": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_4.jsonl": {
+      "django__django-12113": {
+        "backends.sqlite.tests.SchemaTests.test_constraint_checks_disabled_atomic_allowed": true,
+        "backends.tests.FkConstraintsTests.test_check_constraints": true,
+        "multiple_database.tests.FixtureTestCase.test_pseudo_empty_fixtures": true,
+        "backends.sqlite.tests.ThreadSharing.test_database_sharing_in_threads": true,
+        "backends.tests.BackendTestCase.test_cursor_executemany": true,
+        "backends.sqlite.tests.SchemaTests.test_autoincrement": true,
+        "backends.tests.BackendTestCase.test_queries": true,
+        "backends.base.test_base.ExecuteWrapperTests.test_database_queried": true,
+        "transactions.tests.NonAutocommitTests.test_orm_query_after_error_and_rollback": true,
+        "backends.tests.FkConstraintsTests.test_disable_constraint_checks_manually": true,
+        "backends.sqlite.tests.Tests.test_pathlib_name": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_5.jsonl": {
+      "django__django-12113": {
+        "backends.sqlite.tests.SchemaTests.test_constraint_checks_disabled_atomic_allowed": true,
+        "backends.tests.FkConstraintsTests.test_check_constraints": true,
+        "multiple_database.tests.FixtureTestCase.test_pseudo_empty_fixtures": true,
+        "backends.sqlite.tests.ThreadSharing.test_database_sharing_in_threads": true,
+        "backends.tests.BackendTestCase.test_cursor_executemany": true,
+        "backends.sqlite.tests.SchemaTests.test_autoincrement": true,
+        "backends.tests.BackendTestCase.test_queries": true,
+        "backends.base.test_base.ExecuteWrapperTests.test_database_queried": true,
+        "transactions.tests.NonAutocommitTests.test_orm_query_after_error_and_rollback": true,
+        "backends.tests.FkConstraintsTests.test_disable_constraint_checks_manually": true,
+        "backends.sqlite.tests.Tests.test_pathlib_name": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_6.jsonl": {
+      "django__django-12113": {
+        "backends.sqlite.tests.SchemaTests.test_constraint_checks_disabled_atomic_allowed": true,
+        "backends.tests.FkConstraintsTests.test_check_constraints": true,
+        "multiple_database.tests.FixtureTestCase.test_pseudo_empty_fixtures": true,
+        "backends.sqlite.tests.ThreadSharing.test_database_sharing_in_threads": true,
+        "backends.tests.BackendTestCase.test_cursor_executemany": true,
+        "backends.sqlite.tests.SchemaTests.test_autoincrement": true,
+        "backends.tests.BackendTestCase.test_queries": true,
+        "backends.base.test_base.ExecuteWrapperTests.test_database_queried": true,
+        "transactions.tests.NonAutocommitTests.test_orm_query_after_error_and_rollback": true,
+        "backends.tests.FkConstraintsTests.test_disable_constraint_checks_manually": true,
+        "backends.sqlite.tests.Tests.test_pathlib_name": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_7.jsonl": {
+      "django__django-12113": {
+        "backends.sqlite.tests.SchemaTests.test_constraint_checks_disabled_atomic_allowed": true,
+        "backends.tests.FkConstraintsTests.test_check_constraints": true,
+        "multiple_database.tests.FixtureTestCase.test_pseudo_empty_fixtures": true,
+        "backends.sqlite.tests.ThreadSharing.test_database_sharing_in_threads": true,
+        "backends.tests.BackendTestCase.test_cursor_executemany": true,
+        "backends.sqlite.tests.SchemaTests.test_autoincrement": true,
+        "backends.tests.BackendTestCase.test_queries": true,
+        "backends.base.test_base.ExecuteWrapperTests.test_database_queried": true,
+        "transactions.tests.NonAutocommitTests.test_orm_query_after_error_and_rollback": true,
+        "backends.tests.FkConstraintsTests.test_disable_constraint_checks_manually": true,
+        "backends.sqlite.tests.Tests.test_pathlib_name": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_8.jsonl": {
+      "django__django-12113": {
+        "backends.sqlite.tests.SchemaTests.test_constraint_checks_disabled_atomic_allowed": true,
+        "backends.tests.FkConstraintsTests.test_check_constraints": true,
+        "multiple_database.tests.FixtureTestCase.test_pseudo_empty_fixtures": true,
+        "backends.sqlite.tests.ThreadSharing.test_database_sharing_in_threads": true,
+        "backends.tests.BackendTestCase.test_cursor_executemany": true,
+        "backends.sqlite.tests.SchemaTests.test_autoincrement": true,
+        "backends.tests.BackendTestCase.test_queries": true,
+        "backends.base.test_base.ExecuteWrapperTests.test_database_queried": true,
+        "transactions.tests.NonAutocommitTests.test_orm_query_after_error_and_rollback": true,
+        "backends.tests.FkConstraintsTests.test_disable_constraint_checks_manually": true,
+        "backends.sqlite.tests.Tests.test_pathlib_name": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_9.jsonl": {
+      "django__django-12113": {
+        "backends.sqlite.tests.SchemaTests.test_constraint_checks_disabled_atomic_allowed": true,
+        "backends.tests.FkConstraintsTests.test_check_constraints": true,
+        "multiple_database.tests.FixtureTestCase.test_pseudo_empty_fixtures": true,
+        "backends.sqlite.tests.ThreadSharing.test_database_sharing_in_threads": true,
+        "backends.tests.BackendTestCase.test_cursor_executemany": true,
+        "backends.sqlite.tests.SchemaTests.test_autoincrement": true,
+        "backends.tests.BackendTestCase.test_queries": true,
+        "backends.base.test_base.ExecuteWrapperTests.test_database_queried": true,
+        "transactions.tests.NonAutocommitTests.test_orm_query_after_error_and_rollback": true,
+        "backends.tests.FkConstraintsTests.test_disable_constraint_checks_manually": true,
+        "backends.sqlite.tests.Tests.test_pathlib_name": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-12113": {
+        "admin_views.test_multidb.MultiDatabaseTests.test_persistent_sqlite_database_lock#1": true,
+        "admin_views.test_multidb.MultiDatabaseTests.test_persistent_sqlite_database_lock#2": false,
+        "admin_views.test_multidb.MultiDatabaseTests.test_persistent_sqlite_connections#3": false,
+        "admin_views.test_multidb.MultiDatabaseTests.test_persistent_sqlite_database_lock#4": false,
+        "admin_views.test_multidb.MultiDatabaseTests.test_persistent_sqlite_db_lock#5": false,
+        "admin_views.test_multidb.MultiDatabaseTests.test_sqlite_persistent_db_lock#6": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_0.jsonl": {
+      "django__django-12113": {
+        "admin_views.test_multidb.MultiDatabaseTests.test_persistent_sqlite_database_lock#1": false,
+        "admin_views.test_multidb.MultiDatabaseTests.test_sqlite_persistent_db_lock#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_1.jsonl": {
+      "django__django-12113": {
+        "admin_views.test_multidb.MultiDatabaseTests.test_persistent_sqlite_database_lock#1": false,
+        "admin_views.test_multidb.MultiDatabaseTests.test_sqlite_persistent_db_lock#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_10.jsonl": {
+      "django__django-12113": {
+        "admin_views.test_multidb.MultiDatabaseTests.test_persistent_sqlite_database_lock#1": false,
+        "admin_views.test_multidb.MultiDatabaseTests.test_sqlite_persistent_db_lock#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_11.jsonl": {
+      "django__django-12113": {
+        "admin_views.test_multidb.MultiDatabaseTests.test_persistent_sqlite_database_lock#1": false,
+        "admin_views.test_multidb.MultiDatabaseTests.test_sqlite_persistent_db_lock#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_12.jsonl": {
+      "django__django-12113": {
+        "admin_views.test_multidb.MultiDatabaseTests.test_persistent_sqlite_database_lock#1": false,
+        "admin_views.test_multidb.MultiDatabaseTests.test_sqlite_persistent_db_lock#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_13.jsonl": {
+      "django__django-12113": {
+        "admin_views.test_multidb.MultiDatabaseTests.test_persistent_sqlite_database_lock#1": false,
+        "admin_views.test_multidb.MultiDatabaseTests.test_sqlite_persistent_db_lock#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_14.jsonl": {
+      "django__django-12113": {
+        "admin_views.test_multidb.MultiDatabaseTests.test_persistent_sqlite_database_lock#1": false,
+        "admin_views.test_multidb.MultiDatabaseTests.test_sqlite_persistent_db_lock#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_15.jsonl": {
+      "django__django-12113": {
+        "admin_views.test_multidb.MultiDatabaseTests.test_persistent_sqlite_database_lock#1": false,
+        "admin_views.test_multidb.MultiDatabaseTests.test_sqlite_persistent_db_lock#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_16.jsonl": {
+      "django__django-12113": {
+        "admin_views.test_multidb.MultiDatabaseTests.test_persistent_sqlite_database_lock#1": false,
+        "admin_views.test_multidb.MultiDatabaseTests.test_sqlite_persistent_db_lock#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_17.jsonl": {
+      "django__django-12113": {
+        "admin_views.test_multidb.MultiDatabaseTests.test_persistent_sqlite_database_lock#1": false,
+        "admin_views.test_multidb.MultiDatabaseTests.test_sqlite_persistent_db_lock#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_18.jsonl": {
+      "django__django-12113": {
+        "admin_views.test_multidb.MultiDatabaseTests.test_persistent_sqlite_database_lock#1": false,
+        "admin_views.test_multidb.MultiDatabaseTests.test_sqlite_persistent_db_lock#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_19.jsonl": {
+      "django__django-12113": {
+        "admin_views.test_multidb.MultiDatabaseTests.test_persistent_sqlite_database_lock#1": false,
+        "admin_views.test_multidb.MultiDatabaseTests.test_sqlite_persistent_db_lock#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_2.jsonl": {
+      "django__django-12113": {
+        "admin_views.test_multidb.MultiDatabaseTests.test_persistent_sqlite_database_lock#1": false,
+        "admin_views.test_multidb.MultiDatabaseTests.test_sqlite_persistent_db_lock#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_20.jsonl": {
+      "django__django-12113": {
+        "admin_views.test_multidb.MultiDatabaseTests.test_persistent_sqlite_database_lock#1": false,
+        "admin_views.test_multidb.MultiDatabaseTests.test_sqlite_persistent_db_lock#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_21.jsonl": {
+      "django__django-12113": {
+        "admin_views.test_multidb.MultiDatabaseTests.test_persistent_sqlite_database_lock#1": false,
+        "admin_views.test_multidb.MultiDatabaseTests.test_sqlite_persistent_db_lock#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_22.jsonl": {
+      "django__django-12113": {
+        "admin_views.test_multidb.MultiDatabaseTests.test_persistent_sqlite_database_lock#1": false,
+        "admin_views.test_multidb.MultiDatabaseTests.test_sqlite_persistent_db_lock#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_23.jsonl": {
+      "django__django-12113": {
+        "admin_views.test_multidb.MultiDatabaseTests.test_persistent_sqlite_database_lock#1": false,
+        "admin_views.test_multidb.MultiDatabaseTests.test_sqlite_persistent_db_lock#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_24.jsonl": {
+      "django__django-12113": {
+        "admin_views.test_multidb.MultiDatabaseTests.test_persistent_sqlite_database_lock#1": false,
+        "admin_views.test_multidb.MultiDatabaseTests.test_sqlite_persistent_db_lock#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_25.jsonl": {
+      "django__django-12113": {
+        "admin_views.test_multidb.MultiDatabaseTests.test_persistent_sqlite_database_lock#1": false,
+        "admin_views.test_multidb.MultiDatabaseTests.test_sqlite_persistent_db_lock#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_26.jsonl": {
+      "django__django-12113": {
+        "admin_views.test_multidb.MultiDatabaseTests.test_persistent_sqlite_database_lock#1": false,
+        "admin_views.test_multidb.MultiDatabaseTests.test_sqlite_persistent_db_lock#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_27.jsonl": {
+      "django__django-12113": {
+        "admin_views.test_multidb.MultiDatabaseTests.test_persistent_sqlite_database_lock#1": false,
+        "admin_views.test_multidb.MultiDatabaseTests.test_sqlite_persistent_db_lock#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_28.jsonl": {
+      "django__django-12113": {
+        "admin_views.test_multidb.MultiDatabaseTests.test_persistent_sqlite_database_lock#1": false,
+        "admin_views.test_multidb.MultiDatabaseTests.test_sqlite_persistent_db_lock#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_29.jsonl": {
+      "django__django-12113": {
+        "admin_views.test_multidb.MultiDatabaseTests.test_persistent_sqlite_database_lock#1": false,
+        "admin_views.test_multidb.MultiDatabaseTests.test_sqlite_persistent_db_lock#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_30.jsonl": {
+      "django__django-12113": {
+        "admin_views.test_multidb.MultiDatabaseTests.test_persistent_sqlite_database_lock#1": false,
+        "admin_views.test_multidb.MultiDatabaseTests.test_sqlite_persistent_db_lock#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_31.jsonl": {
+      "django__django-12113": {
+        "admin_views.test_multidb.MultiDatabaseTests.test_persistent_sqlite_database_lock#1": false,
+        "admin_views.test_multidb.MultiDatabaseTests.test_sqlite_persistent_db_lock#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_32.jsonl": {
+      "django__django-12113": {
+        "admin_views.test_multidb.MultiDatabaseTests.test_persistent_sqlite_database_lock#1": false,
+        "admin_views.test_multidb.MultiDatabaseTests.test_sqlite_persistent_db_lock#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_33.jsonl": {
+      "django__django-12113": {
+        "admin_views.test_multidb.MultiDatabaseTests.test_persistent_sqlite_database_lock#1": false,
+        "admin_views.test_multidb.MultiDatabaseTests.test_sqlite_persistent_db_lock#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_34.jsonl": {
+      "django__django-12113": {
+        "admin_views.test_multidb.MultiDatabaseTests.test_persistent_sqlite_database_lock#1": false,
+        "admin_views.test_multidb.MultiDatabaseTests.test_sqlite_persistent_db_lock#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_35.jsonl": {
+      "django__django-12113": {
+        "admin_views.test_multidb.MultiDatabaseTests.test_persistent_sqlite_database_lock#1": false,
+        "admin_views.test_multidb.MultiDatabaseTests.test_sqlite_persistent_db_lock#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_36.jsonl": {
+      "django__django-12113": {
+        "admin_views.test_multidb.MultiDatabaseTests.test_persistent_sqlite_database_lock#1": false,
+        "admin_views.test_multidb.MultiDatabaseTests.test_sqlite_persistent_db_lock#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_4.jsonl": {
+      "django__django-12113": {
+        "admin_views.test_multidb.MultiDatabaseTests.test_persistent_sqlite_database_lock#1": false,
+        "admin_views.test_multidb.MultiDatabaseTests.test_sqlite_persistent_db_lock#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_5.jsonl": {
+      "django__django-12113": {
+        "admin_views.test_multidb.MultiDatabaseTests.test_persistent_sqlite_database_lock#1": false,
+        "admin_views.test_multidb.MultiDatabaseTests.test_sqlite_persistent_db_lock#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_6.jsonl": {
+      "django__django-12113": {
+        "admin_views.test_multidb.MultiDatabaseTests.test_persistent_sqlite_database_lock#1": false,
+        "admin_views.test_multidb.MultiDatabaseTests.test_sqlite_persistent_db_lock#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_7.jsonl": {
+      "django__django-12113": {
+        "admin_views.test_multidb.MultiDatabaseTests.test_persistent_sqlite_database_lock#1": false,
+        "admin_views.test_multidb.MultiDatabaseTests.test_sqlite_persistent_db_lock#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_8.jsonl": {
+      "django__django-12113": {
+        "admin_views.test_multidb.MultiDatabaseTests.test_persistent_sqlite_database_lock#1": false,
+        "admin_views.test_multidb.MultiDatabaseTests.test_sqlite_persistent_db_lock#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12113/dedup_patch_9.jsonl": {
+      "django__django-12113": {
+        "admin_views.test_multidb.MultiDatabaseTests.test_persistent_sqlite_database_lock#1": false,
+        "admin_views.test_multidb.MultiDatabaseTests.test_sqlite_persistent_db_lock#6": false
+      }
+    }
+  }
+}

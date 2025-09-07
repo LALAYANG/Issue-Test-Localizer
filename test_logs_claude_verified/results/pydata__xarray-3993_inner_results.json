@@ -1,0 +1,76 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-3993/dedup_patch_0.jsonl": {
+      "pydata__xarray-3993": {
+        "xarray/tests/test_dataset.py::test_integrate": false,
+        "xarray/tests/test_dataset.py::test_trapz_datetime": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-3993/dedup_patch_1.jsonl": {
+      "pydata__xarray-3993": {
+        "xarray/tests/test_dataset.py::test_integrate": true,
+        "xarray/tests/test_dataset.py::test_trapz_datetime": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-3993/dedup_patch_2.jsonl": {
+      "pydata__xarray-3993": {
+        "xarray/tests/test_dataset.py::test_integrate": true,
+        "xarray/tests/test_dataset.py::test_trapz_datetime": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-3993/dedup_patch_3.jsonl": {
+      "pydata__xarray-3993": {
+        "xarray/tests/test_dataset.py::test_integrate": true,
+        "xarray/tests/test_dataset.py::test_trapz_datetime": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-3993/dedup_patch_4.jsonl": {
+      "pydata__xarray-3993": {
+        "xarray/tests/test_dataset.py::test_integrate": true,
+        "xarray/tests/test_dataset.py::test_trapz_datetime": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-3993/dedup_patch_5.jsonl": {
+      "pydata__xarray-3993": {
+        "xarray/tests/test_dataset.py::test_integrate": true,
+        "xarray/tests/test_dataset.py::test_trapz_datetime": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-3993/dedup_patch_6.jsonl": {
+      "pydata__xarray-3993": {
+        "xarray/tests/test_dataset.py::test_integrate": true,
+        "xarray/tests/test_dataset.py::test_trapz_datetime": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-3993/dedup_patch_7.jsonl": {
+      "pydata__xarray-3993": {
+        "xarray/tests/test_dataset.py::test_integrate": true,
+        "xarray/tests/test_dataset.py::test_trapz_datetime": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-3993/dedup_patch_8.jsonl": {
+      "pydata__xarray-3993": {
+        "xarray/tests/test_dataset.py::test_integrate": true,
+        "xarray/tests/test_dataset.py::test_trapz_datetime": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pydata__xarray-3993/dedup_patch_9.jsonl": {
+      "pydata__xarray-3993": {
+        "xarray/tests/test_dataset.py::test_integrate": true,
+        "xarray/tests/test_dataset.py::test_trapz_datetime": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "pydata__xarray-3993": {
+        "xarray/tests/test_dataset.py::test_trapz_datetime#1": false,
+        "xarray/tests/test_computation.py::test_polyval#2": false,
+        "xarray/tests/test_computation.py::test_polyval#3": false,
+        "xarray/tests/test_computation.py::test_dot_align_coords#4": false,
+        "xarray/tests/test_computation.py::test_where#5": false,
+        "xarray/tests/test_computation.py::test_apply_identity#6": false
+      }
+    }
+  }
+}

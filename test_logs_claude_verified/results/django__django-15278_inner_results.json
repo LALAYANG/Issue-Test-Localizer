@@ -1,0 +1,1001 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_0.jsonl": {
+      "django__django-15278": {
+        "schema.tests.SchemaTests.test_alter_not_unique_field_to_primary_key": true,
+        "migrations.test_executor.ExecutorTests.test_alter_id_type_with_fk": true,
+        "schema.tests.SchemaTests.test_m2m": true,
+        "schema.tests.SchemaTests.test_add_field_default_dropped": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_inherited": true,
+        "schema.tests.SchemaTests.test_db_collation_charfield": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_custom": true,
+        "migrations.test_operations.OperationTests.test_rename_field_case": true,
+        "migrations.test_executor.ExecutorTests.test_migrate_backward_to_squashed_migration": true,
+        "schema.tests.SchemaTests.test_remove_unique_together_does_not_remove_meta_constraints": true,
+        "schema.tests.SchemaTests.test_rename_referenced_field": true,
+        "schema.tests.SchemaTests.test_m2m_repoint": true,
+        "schema.tests.SchemaTests.test_alter_field_db_collation": true,
+        "migrations.test_operations.OperationTests.test_repoint_field_m2m": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_1.jsonl": {
+      "django__django-15278": {
+        "schema.tests.SchemaTests.test_alter_not_unique_field_to_primary_key": true,
+        "migrations.test_executor.ExecutorTests.test_alter_id_type_with_fk": true,
+        "schema.tests.SchemaTests.test_m2m": true,
+        "schema.tests.SchemaTests.test_add_field_default_dropped": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_inherited": true,
+        "schema.tests.SchemaTests.test_db_collation_charfield": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_custom": true,
+        "migrations.test_operations.OperationTests.test_rename_field_case": true,
+        "migrations.test_executor.ExecutorTests.test_migrate_backward_to_squashed_migration": true,
+        "schema.tests.SchemaTests.test_remove_unique_together_does_not_remove_meta_constraints": true,
+        "schema.tests.SchemaTests.test_rename_referenced_field": true,
+        "schema.tests.SchemaTests.test_m2m_repoint": true,
+        "schema.tests.SchemaTests.test_alter_field_db_collation": true,
+        "migrations.test_operations.OperationTests.test_repoint_field_m2m": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_10.jsonl": {
+      "django__django-15278": {
+        "schema.tests.SchemaTests.test_alter_not_unique_field_to_primary_key": true,
+        "migrations.test_executor.ExecutorTests.test_alter_id_type_with_fk": true,
+        "schema.tests.SchemaTests.test_m2m": true,
+        "schema.tests.SchemaTests.test_add_field_default_dropped": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_inherited": true,
+        "schema.tests.SchemaTests.test_db_collation_charfield": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_custom": true,
+        "migrations.test_operations.OperationTests.test_rename_field_case": true,
+        "migrations.test_executor.ExecutorTests.test_migrate_backward_to_squashed_migration": true,
+        "schema.tests.SchemaTests.test_remove_unique_together_does_not_remove_meta_constraints": true,
+        "schema.tests.SchemaTests.test_rename_referenced_field": true,
+        "schema.tests.SchemaTests.test_m2m_repoint": true,
+        "schema.tests.SchemaTests.test_alter_field_db_collation": true,
+        "migrations.test_operations.OperationTests.test_repoint_field_m2m": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_11.jsonl": {
+      "django__django-15278": {
+        "schema.tests.SchemaTests.test_alter_not_unique_field_to_primary_key": true,
+        "migrations.test_executor.ExecutorTests.test_alter_id_type_with_fk": true,
+        "schema.tests.SchemaTests.test_m2m": true,
+        "schema.tests.SchemaTests.test_add_field_default_dropped": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_inherited": true,
+        "schema.tests.SchemaTests.test_db_collation_charfield": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_custom": true,
+        "migrations.test_operations.OperationTests.test_rename_field_case": true,
+        "migrations.test_executor.ExecutorTests.test_migrate_backward_to_squashed_migration": true,
+        "schema.tests.SchemaTests.test_remove_unique_together_does_not_remove_meta_constraints": true,
+        "schema.tests.SchemaTests.test_rename_referenced_field": true,
+        "schema.tests.SchemaTests.test_m2m_repoint": true,
+        "schema.tests.SchemaTests.test_alter_field_db_collation": true,
+        "migrations.test_operations.OperationTests.test_repoint_field_m2m": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_12.jsonl": {
+      "django__django-15278": {
+        "schema.tests.SchemaTests.test_alter_not_unique_field_to_primary_key": true,
+        "migrations.test_executor.ExecutorTests.test_alter_id_type_with_fk": true,
+        "schema.tests.SchemaTests.test_m2m": true,
+        "schema.tests.SchemaTests.test_add_field_default_dropped": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_inherited": true,
+        "schema.tests.SchemaTests.test_db_collation_charfield": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_custom": true,
+        "migrations.test_operations.OperationTests.test_rename_field_case": true,
+        "migrations.test_executor.ExecutorTests.test_migrate_backward_to_squashed_migration": true,
+        "schema.tests.SchemaTests.test_remove_unique_together_does_not_remove_meta_constraints": true,
+        "schema.tests.SchemaTests.test_rename_referenced_field": true,
+        "schema.tests.SchemaTests.test_m2m_repoint": true,
+        "schema.tests.SchemaTests.test_alter_field_db_collation": true,
+        "migrations.test_operations.OperationTests.test_repoint_field_m2m": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_13.jsonl": {
+      "django__django-15278": {
+        "schema.tests.SchemaTests.test_alter_not_unique_field_to_primary_key": true,
+        "migrations.test_executor.ExecutorTests.test_alter_id_type_with_fk": true,
+        "schema.tests.SchemaTests.test_m2m": true,
+        "schema.tests.SchemaTests.test_add_field_default_dropped": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_inherited": true,
+        "schema.tests.SchemaTests.test_db_collation_charfield": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_custom": true,
+        "migrations.test_operations.OperationTests.test_rename_field_case": true,
+        "migrations.test_executor.ExecutorTests.test_migrate_backward_to_squashed_migration": true,
+        "schema.tests.SchemaTests.test_remove_unique_together_does_not_remove_meta_constraints": true,
+        "schema.tests.SchemaTests.test_rename_referenced_field": true,
+        "schema.tests.SchemaTests.test_m2m_repoint": true,
+        "schema.tests.SchemaTests.test_alter_field_db_collation": true,
+        "migrations.test_operations.OperationTests.test_repoint_field_m2m": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_14.jsonl": {
+      "django__django-15278": {
+        "schema.tests.SchemaTests.test_alter_not_unique_field_to_primary_key": true,
+        "migrations.test_executor.ExecutorTests.test_alter_id_type_with_fk": true,
+        "schema.tests.SchemaTests.test_m2m": true,
+        "schema.tests.SchemaTests.test_add_field_default_dropped": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_inherited": true,
+        "schema.tests.SchemaTests.test_db_collation_charfield": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_custom": true,
+        "migrations.test_operations.OperationTests.test_rename_field_case": true,
+        "migrations.test_executor.ExecutorTests.test_migrate_backward_to_squashed_migration": true,
+        "schema.tests.SchemaTests.test_remove_unique_together_does_not_remove_meta_constraints": true,
+        "schema.tests.SchemaTests.test_rename_referenced_field": true,
+        "schema.tests.SchemaTests.test_m2m_repoint": true,
+        "schema.tests.SchemaTests.test_alter_field_db_collation": true,
+        "migrations.test_operations.OperationTests.test_repoint_field_m2m": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_15.jsonl": {
+      "django__django-15278": {
+        "schema.tests.SchemaTests.test_alter_not_unique_field_to_primary_key": true,
+        "migrations.test_executor.ExecutorTests.test_alter_id_type_with_fk": true,
+        "schema.tests.SchemaTests.test_m2m": true,
+        "schema.tests.SchemaTests.test_add_field_default_dropped": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_inherited": true,
+        "schema.tests.SchemaTests.test_db_collation_charfield": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_custom": true,
+        "migrations.test_operations.OperationTests.test_rename_field_case": true,
+        "migrations.test_executor.ExecutorTests.test_migrate_backward_to_squashed_migration": true,
+        "schema.tests.SchemaTests.test_remove_unique_together_does_not_remove_meta_constraints": true,
+        "schema.tests.SchemaTests.test_rename_referenced_field": true,
+        "schema.tests.SchemaTests.test_m2m_repoint": true,
+        "schema.tests.SchemaTests.test_alter_field_db_collation": true,
+        "migrations.test_operations.OperationTests.test_repoint_field_m2m": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_16.jsonl": {
+      "django__django-15278": {
+        "schema.tests.SchemaTests.test_alter_not_unique_field_to_primary_key": true,
+        "migrations.test_executor.ExecutorTests.test_alter_id_type_with_fk": true,
+        "schema.tests.SchemaTests.test_m2m": true,
+        "schema.tests.SchemaTests.test_add_field_default_dropped": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_inherited": true,
+        "schema.tests.SchemaTests.test_db_collation_charfield": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_custom": true,
+        "migrations.test_operations.OperationTests.test_rename_field_case": true,
+        "migrations.test_executor.ExecutorTests.test_migrate_backward_to_squashed_migration": true,
+        "schema.tests.SchemaTests.test_remove_unique_together_does_not_remove_meta_constraints": true,
+        "schema.tests.SchemaTests.test_rename_referenced_field": true,
+        "schema.tests.SchemaTests.test_m2m_repoint": true,
+        "schema.tests.SchemaTests.test_alter_field_db_collation": true,
+        "migrations.test_operations.OperationTests.test_repoint_field_m2m": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_17.jsonl": {
+      "django__django-15278": {
+        "schema.tests.SchemaTests.test_alter_not_unique_field_to_primary_key": true,
+        "migrations.test_executor.ExecutorTests.test_alter_id_type_with_fk": true,
+        "schema.tests.SchemaTests.test_m2m": true,
+        "schema.tests.SchemaTests.test_add_field_default_dropped": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_inherited": true,
+        "schema.tests.SchemaTests.test_db_collation_charfield": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_custom": true,
+        "migrations.test_operations.OperationTests.test_rename_field_case": true,
+        "migrations.test_executor.ExecutorTests.test_migrate_backward_to_squashed_migration": true,
+        "schema.tests.SchemaTests.test_remove_unique_together_does_not_remove_meta_constraints": true,
+        "schema.tests.SchemaTests.test_rename_referenced_field": true,
+        "schema.tests.SchemaTests.test_m2m_repoint": true,
+        "schema.tests.SchemaTests.test_alter_field_db_collation": true,
+        "migrations.test_operations.OperationTests.test_repoint_field_m2m": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_18.jsonl": {
+      "django__django-15278": {
+        "schema.tests.SchemaTests.test_alter_not_unique_field_to_primary_key": true,
+        "migrations.test_executor.ExecutorTests.test_alter_id_type_with_fk": true,
+        "schema.tests.SchemaTests.test_m2m": true,
+        "schema.tests.SchemaTests.test_add_field_default_dropped": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_inherited": true,
+        "schema.tests.SchemaTests.test_db_collation_charfield": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_custom": true,
+        "migrations.test_operations.OperationTests.test_rename_field_case": true,
+        "migrations.test_executor.ExecutorTests.test_migrate_backward_to_squashed_migration": true,
+        "schema.tests.SchemaTests.test_remove_unique_together_does_not_remove_meta_constraints": true,
+        "schema.tests.SchemaTests.test_rename_referenced_field": true,
+        "schema.tests.SchemaTests.test_m2m_repoint": true,
+        "schema.tests.SchemaTests.test_alter_field_db_collation": true,
+        "migrations.test_operations.OperationTests.test_repoint_field_m2m": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_19.jsonl": {
+      "django__django-15278": {
+        "schema.tests.SchemaTests.test_alter_not_unique_field_to_primary_key": true,
+        "migrations.test_executor.ExecutorTests.test_alter_id_type_with_fk": true,
+        "schema.tests.SchemaTests.test_m2m": true,
+        "schema.tests.SchemaTests.test_add_field_default_dropped": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_inherited": true,
+        "schema.tests.SchemaTests.test_db_collation_charfield": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_custom": true,
+        "migrations.test_operations.OperationTests.test_rename_field_case": true,
+        "migrations.test_executor.ExecutorTests.test_migrate_backward_to_squashed_migration": true,
+        "schema.tests.SchemaTests.test_remove_unique_together_does_not_remove_meta_constraints": true,
+        "schema.tests.SchemaTests.test_rename_referenced_field": true,
+        "schema.tests.SchemaTests.test_m2m_repoint": true,
+        "schema.tests.SchemaTests.test_alter_field_db_collation": true,
+        "migrations.test_operations.OperationTests.test_repoint_field_m2m": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_2.jsonl": {
+      "django__django-15278": {
+        "schema.tests.SchemaTests.test_alter_not_unique_field_to_primary_key": true,
+        "migrations.test_executor.ExecutorTests.test_alter_id_type_with_fk": true,
+        "schema.tests.SchemaTests.test_m2m": true,
+        "schema.tests.SchemaTests.test_add_field_default_dropped": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_inherited": true,
+        "schema.tests.SchemaTests.test_db_collation_charfield": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_custom": true,
+        "migrations.test_operations.OperationTests.test_rename_field_case": true,
+        "migrations.test_executor.ExecutorTests.test_migrate_backward_to_squashed_migration": true,
+        "schema.tests.SchemaTests.test_remove_unique_together_does_not_remove_meta_constraints": true,
+        "schema.tests.SchemaTests.test_rename_referenced_field": true,
+        "schema.tests.SchemaTests.test_m2m_repoint": true,
+        "schema.tests.SchemaTests.test_alter_field_db_collation": true,
+        "migrations.test_operations.OperationTests.test_repoint_field_m2m": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_20.jsonl": {
+      "django__django-15278": {
+        "schema.tests.SchemaTests.test_alter_not_unique_field_to_primary_key": true,
+        "migrations.test_executor.ExecutorTests.test_alter_id_type_with_fk": true,
+        "schema.tests.SchemaTests.test_m2m": true,
+        "schema.tests.SchemaTests.test_add_field_default_dropped": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_inherited": true,
+        "schema.tests.SchemaTests.test_db_collation_charfield": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_custom": true,
+        "migrations.test_operations.OperationTests.test_rename_field_case": true,
+        "migrations.test_executor.ExecutorTests.test_migrate_backward_to_squashed_migration": true,
+        "schema.tests.SchemaTests.test_remove_unique_together_does_not_remove_meta_constraints": true,
+        "schema.tests.SchemaTests.test_rename_referenced_field": true,
+        "schema.tests.SchemaTests.test_m2m_repoint": true,
+        "schema.tests.SchemaTests.test_alter_field_db_collation": true,
+        "migrations.test_operations.OperationTests.test_repoint_field_m2m": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_21.jsonl": {
+      "django__django-15278": {
+        "schema.tests.SchemaTests.test_alter_not_unique_field_to_primary_key": true,
+        "migrations.test_executor.ExecutorTests.test_alter_id_type_with_fk": true,
+        "schema.tests.SchemaTests.test_m2m": true,
+        "schema.tests.SchemaTests.test_add_field_default_dropped": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_inherited": true,
+        "schema.tests.SchemaTests.test_db_collation_charfield": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_custom": true,
+        "migrations.test_operations.OperationTests.test_rename_field_case": true,
+        "migrations.test_executor.ExecutorTests.test_migrate_backward_to_squashed_migration": true,
+        "schema.tests.SchemaTests.test_remove_unique_together_does_not_remove_meta_constraints": true,
+        "schema.tests.SchemaTests.test_rename_referenced_field": true,
+        "schema.tests.SchemaTests.test_m2m_repoint": true,
+        "schema.tests.SchemaTests.test_alter_field_db_collation": true,
+        "migrations.test_operations.OperationTests.test_repoint_field_m2m": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_22.jsonl": {
+      "django__django-15278": {
+        "schema.tests.SchemaTests.test_alter_not_unique_field_to_primary_key": true,
+        "migrations.test_executor.ExecutorTests.test_alter_id_type_with_fk": true,
+        "schema.tests.SchemaTests.test_m2m": true,
+        "schema.tests.SchemaTests.test_add_field_default_dropped": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_inherited": true,
+        "schema.tests.SchemaTests.test_db_collation_charfield": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_custom": true,
+        "migrations.test_operations.OperationTests.test_rename_field_case": true,
+        "migrations.test_executor.ExecutorTests.test_migrate_backward_to_squashed_migration": true,
+        "schema.tests.SchemaTests.test_remove_unique_together_does_not_remove_meta_constraints": true,
+        "schema.tests.SchemaTests.test_rename_referenced_field": true,
+        "schema.tests.SchemaTests.test_m2m_repoint": true,
+        "schema.tests.SchemaTests.test_alter_field_db_collation": true,
+        "migrations.test_operations.OperationTests.test_repoint_field_m2m": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_23.jsonl": {
+      "django__django-15278": {
+        "schema.tests.SchemaTests.test_alter_not_unique_field_to_primary_key": true,
+        "migrations.test_executor.ExecutorTests.test_alter_id_type_with_fk": true,
+        "schema.tests.SchemaTests.test_m2m": true,
+        "schema.tests.SchemaTests.test_add_field_default_dropped": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_inherited": true,
+        "schema.tests.SchemaTests.test_db_collation_charfield": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_custom": true,
+        "migrations.test_operations.OperationTests.test_rename_field_case": true,
+        "migrations.test_executor.ExecutorTests.test_migrate_backward_to_squashed_migration": true,
+        "schema.tests.SchemaTests.test_remove_unique_together_does_not_remove_meta_constraints": true,
+        "schema.tests.SchemaTests.test_rename_referenced_field": true,
+        "schema.tests.SchemaTests.test_m2m_repoint": true,
+        "schema.tests.SchemaTests.test_alter_field_db_collation": true,
+        "migrations.test_operations.OperationTests.test_repoint_field_m2m": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_24.jsonl": {
+      "django__django-15278": {
+        "schema.tests.SchemaTests.test_alter_not_unique_field_to_primary_key": true,
+        "migrations.test_executor.ExecutorTests.test_alter_id_type_with_fk": true,
+        "schema.tests.SchemaTests.test_m2m": true,
+        "schema.tests.SchemaTests.test_add_field_default_dropped": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_inherited": true,
+        "schema.tests.SchemaTests.test_db_collation_charfield": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_custom": true,
+        "migrations.test_operations.OperationTests.test_rename_field_case": true,
+        "migrations.test_executor.ExecutorTests.test_migrate_backward_to_squashed_migration": true,
+        "schema.tests.SchemaTests.test_remove_unique_together_does_not_remove_meta_constraints": true,
+        "schema.tests.SchemaTests.test_rename_referenced_field": true,
+        "schema.tests.SchemaTests.test_m2m_repoint": true,
+        "schema.tests.SchemaTests.test_alter_field_db_collation": true,
+        "migrations.test_operations.OperationTests.test_repoint_field_m2m": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_25.jsonl": {
+      "django__django-15278": {
+        "schema.tests.SchemaTests.test_alter_not_unique_field_to_primary_key": true,
+        "migrations.test_executor.ExecutorTests.test_alter_id_type_with_fk": true,
+        "schema.tests.SchemaTests.test_m2m": true,
+        "schema.tests.SchemaTests.test_add_field_default_dropped": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_inherited": true,
+        "schema.tests.SchemaTests.test_db_collation_charfield": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_custom": true,
+        "migrations.test_operations.OperationTests.test_rename_field_case": true,
+        "migrations.test_executor.ExecutorTests.test_migrate_backward_to_squashed_migration": true,
+        "schema.tests.SchemaTests.test_remove_unique_together_does_not_remove_meta_constraints": true,
+        "schema.tests.SchemaTests.test_rename_referenced_field": true,
+        "schema.tests.SchemaTests.test_m2m_repoint": true,
+        "schema.tests.SchemaTests.test_alter_field_db_collation": true,
+        "migrations.test_operations.OperationTests.test_repoint_field_m2m": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_26.jsonl": {
+      "django__django-15278": {
+        "schema.tests.SchemaTests.test_alter_not_unique_field_to_primary_key": true,
+        "migrations.test_executor.ExecutorTests.test_alter_id_type_with_fk": true,
+        "schema.tests.SchemaTests.test_m2m": true,
+        "schema.tests.SchemaTests.test_add_field_default_dropped": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_inherited": true,
+        "schema.tests.SchemaTests.test_db_collation_charfield": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_custom": true,
+        "migrations.test_operations.OperationTests.test_rename_field_case": true,
+        "migrations.test_executor.ExecutorTests.test_migrate_backward_to_squashed_migration": true,
+        "schema.tests.SchemaTests.test_remove_unique_together_does_not_remove_meta_constraints": true,
+        "schema.tests.SchemaTests.test_rename_referenced_field": true,
+        "schema.tests.SchemaTests.test_m2m_repoint": true,
+        "schema.tests.SchemaTests.test_alter_field_db_collation": true,
+        "migrations.test_operations.OperationTests.test_repoint_field_m2m": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_27.jsonl": {
+      "django__django-15278": {
+        "schema.tests.SchemaTests.test_alter_not_unique_field_to_primary_key": true,
+        "migrations.test_executor.ExecutorTests.test_alter_id_type_with_fk": true,
+        "schema.tests.SchemaTests.test_m2m": true,
+        "schema.tests.SchemaTests.test_add_field_default_dropped": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_inherited": true,
+        "schema.tests.SchemaTests.test_db_collation_charfield": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_custom": true,
+        "migrations.test_operations.OperationTests.test_rename_field_case": true,
+        "migrations.test_executor.ExecutorTests.test_migrate_backward_to_squashed_migration": true,
+        "schema.tests.SchemaTests.test_remove_unique_together_does_not_remove_meta_constraints": true,
+        "schema.tests.SchemaTests.test_rename_referenced_field": true,
+        "schema.tests.SchemaTests.test_m2m_repoint": true,
+        "schema.tests.SchemaTests.test_alter_field_db_collation": true,
+        "migrations.test_operations.OperationTests.test_repoint_field_m2m": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_28.jsonl": {
+      "django__django-15278": {
+        "schema.tests.SchemaTests.test_alter_not_unique_field_to_primary_key": true,
+        "migrations.test_executor.ExecutorTests.test_alter_id_type_with_fk": true,
+        "schema.tests.SchemaTests.test_m2m": true,
+        "schema.tests.SchemaTests.test_add_field_default_dropped": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_inherited": true,
+        "schema.tests.SchemaTests.test_db_collation_charfield": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_custom": true,
+        "migrations.test_operations.OperationTests.test_rename_field_case": true,
+        "migrations.test_executor.ExecutorTests.test_migrate_backward_to_squashed_migration": true,
+        "schema.tests.SchemaTests.test_remove_unique_together_does_not_remove_meta_constraints": true,
+        "schema.tests.SchemaTests.test_rename_referenced_field": true,
+        "schema.tests.SchemaTests.test_m2m_repoint": true,
+        "schema.tests.SchemaTests.test_alter_field_db_collation": true,
+        "migrations.test_operations.OperationTests.test_repoint_field_m2m": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_29.jsonl": {
+      "django__django-15278": {
+        "schema.tests.SchemaTests.test_alter_not_unique_field_to_primary_key": true,
+        "migrations.test_executor.ExecutorTests.test_alter_id_type_with_fk": true,
+        "schema.tests.SchemaTests.test_m2m": true,
+        "schema.tests.SchemaTests.test_add_field_default_dropped": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_inherited": true,
+        "schema.tests.SchemaTests.test_db_collation_charfield": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_custom": true,
+        "migrations.test_operations.OperationTests.test_rename_field_case": true,
+        "migrations.test_executor.ExecutorTests.test_migrate_backward_to_squashed_migration": true,
+        "schema.tests.SchemaTests.test_remove_unique_together_does_not_remove_meta_constraints": true,
+        "schema.tests.SchemaTests.test_rename_referenced_field": true,
+        "schema.tests.SchemaTests.test_m2m_repoint": true,
+        "schema.tests.SchemaTests.test_alter_field_db_collation": true,
+        "migrations.test_operations.OperationTests.test_repoint_field_m2m": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_3.jsonl": {
+      "django__django-15278": {
+        "schema.tests.SchemaTests.test_alter_not_unique_field_to_primary_key": true,
+        "migrations.test_executor.ExecutorTests.test_alter_id_type_with_fk": true,
+        "schema.tests.SchemaTests.test_m2m": true,
+        "schema.tests.SchemaTests.test_add_field_default_dropped": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_inherited": true,
+        "schema.tests.SchemaTests.test_db_collation_charfield": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_custom": true,
+        "migrations.test_operations.OperationTests.test_rename_field_case": true,
+        "migrations.test_executor.ExecutorTests.test_migrate_backward_to_squashed_migration": true,
+        "schema.tests.SchemaTests.test_remove_unique_together_does_not_remove_meta_constraints": true,
+        "schema.tests.SchemaTests.test_rename_referenced_field": true,
+        "schema.tests.SchemaTests.test_m2m_repoint": true,
+        "schema.tests.SchemaTests.test_alter_field_db_collation": true,
+        "migrations.test_operations.OperationTests.test_repoint_field_m2m": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_30.jsonl": {
+      "django__django-15278": {
+        "schema.tests.SchemaTests.test_alter_not_unique_field_to_primary_key": true,
+        "migrations.test_executor.ExecutorTests.test_alter_id_type_with_fk": true,
+        "schema.tests.SchemaTests.test_m2m": true,
+        "schema.tests.SchemaTests.test_add_field_default_dropped": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_inherited": true,
+        "schema.tests.SchemaTests.test_db_collation_charfield": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_custom": true,
+        "migrations.test_operations.OperationTests.test_rename_field_case": true,
+        "migrations.test_executor.ExecutorTests.test_migrate_backward_to_squashed_migration": true,
+        "schema.tests.SchemaTests.test_remove_unique_together_does_not_remove_meta_constraints": true,
+        "schema.tests.SchemaTests.test_rename_referenced_field": true,
+        "schema.tests.SchemaTests.test_m2m_repoint": true,
+        "schema.tests.SchemaTests.test_alter_field_db_collation": true,
+        "migrations.test_operations.OperationTests.test_repoint_field_m2m": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_31.jsonl": {
+      "django__django-15278": {
+        "schema.tests.SchemaTests.test_alter_not_unique_field_to_primary_key": true,
+        "migrations.test_executor.ExecutorTests.test_alter_id_type_with_fk": true,
+        "schema.tests.SchemaTests.test_m2m": true,
+        "schema.tests.SchemaTests.test_add_field_default_dropped": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_inherited": true,
+        "schema.tests.SchemaTests.test_db_collation_charfield": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_custom": true,
+        "migrations.test_operations.OperationTests.test_rename_field_case": true,
+        "migrations.test_executor.ExecutorTests.test_migrate_backward_to_squashed_migration": true,
+        "schema.tests.SchemaTests.test_remove_unique_together_does_not_remove_meta_constraints": true,
+        "schema.tests.SchemaTests.test_rename_referenced_field": true,
+        "schema.tests.SchemaTests.test_m2m_repoint": true,
+        "schema.tests.SchemaTests.test_alter_field_db_collation": true,
+        "migrations.test_operations.OperationTests.test_repoint_field_m2m": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_32.jsonl": {
+      "django__django-15278": {
+        "schema.tests.SchemaTests.test_alter_not_unique_field_to_primary_key": true,
+        "migrations.test_executor.ExecutorTests.test_alter_id_type_with_fk": true,
+        "schema.tests.SchemaTests.test_m2m": true,
+        "schema.tests.SchemaTests.test_add_field_default_dropped": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_inherited": true,
+        "schema.tests.SchemaTests.test_db_collation_charfield": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_custom": true,
+        "migrations.test_operations.OperationTests.test_rename_field_case": true,
+        "migrations.test_executor.ExecutorTests.test_migrate_backward_to_squashed_migration": true,
+        "schema.tests.SchemaTests.test_remove_unique_together_does_not_remove_meta_constraints": true,
+        "schema.tests.SchemaTests.test_rename_referenced_field": true,
+        "schema.tests.SchemaTests.test_m2m_repoint": true,
+        "schema.tests.SchemaTests.test_alter_field_db_collation": true,
+        "migrations.test_operations.OperationTests.test_repoint_field_m2m": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_33.jsonl": {
+      "django__django-15278": {
+        "schema.tests.SchemaTests.test_alter_not_unique_field_to_primary_key": true,
+        "migrations.test_executor.ExecutorTests.test_alter_id_type_with_fk": true,
+        "schema.tests.SchemaTests.test_m2m": true,
+        "schema.tests.SchemaTests.test_add_field_default_dropped": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_inherited": true,
+        "schema.tests.SchemaTests.test_db_collation_charfield": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_custom": true,
+        "migrations.test_operations.OperationTests.test_rename_field_case": true,
+        "migrations.test_executor.ExecutorTests.test_migrate_backward_to_squashed_migration": true,
+        "schema.tests.SchemaTests.test_remove_unique_together_does_not_remove_meta_constraints": true,
+        "schema.tests.SchemaTests.test_rename_referenced_field": true,
+        "schema.tests.SchemaTests.test_m2m_repoint": true,
+        "schema.tests.SchemaTests.test_alter_field_db_collation": true,
+        "migrations.test_operations.OperationTests.test_repoint_field_m2m": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_34.jsonl": {
+      "django__django-15278": {
+        "schema.tests.SchemaTests.test_alter_not_unique_field_to_primary_key": true,
+        "migrations.test_executor.ExecutorTests.test_alter_id_type_with_fk": true,
+        "schema.tests.SchemaTests.test_m2m": true,
+        "schema.tests.SchemaTests.test_add_field_default_dropped": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_inherited": true,
+        "schema.tests.SchemaTests.test_db_collation_charfield": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_custom": true,
+        "migrations.test_operations.OperationTests.test_rename_field_case": true,
+        "migrations.test_executor.ExecutorTests.test_migrate_backward_to_squashed_migration": true,
+        "schema.tests.SchemaTests.test_remove_unique_together_does_not_remove_meta_constraints": true,
+        "schema.tests.SchemaTests.test_rename_referenced_field": true,
+        "schema.tests.SchemaTests.test_m2m_repoint": true,
+        "schema.tests.SchemaTests.test_alter_field_db_collation": true,
+        "migrations.test_operations.OperationTests.test_repoint_field_m2m": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_35.jsonl": {
+      "django__django-15278": {
+        "schema.tests.SchemaTests.test_alter_not_unique_field_to_primary_key": true,
+        "migrations.test_executor.ExecutorTests.test_alter_id_type_with_fk": true,
+        "schema.tests.SchemaTests.test_m2m": true,
+        "schema.tests.SchemaTests.test_add_field_default_dropped": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_inherited": true,
+        "schema.tests.SchemaTests.test_db_collation_charfield": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_custom": true,
+        "migrations.test_operations.OperationTests.test_rename_field_case": true,
+        "migrations.test_executor.ExecutorTests.test_migrate_backward_to_squashed_migration": true,
+        "schema.tests.SchemaTests.test_remove_unique_together_does_not_remove_meta_constraints": true,
+        "schema.tests.SchemaTests.test_rename_referenced_field": true,
+        "schema.tests.SchemaTests.test_m2m_repoint": true,
+        "schema.tests.SchemaTests.test_alter_field_db_collation": true,
+        "migrations.test_operations.OperationTests.test_repoint_field_m2m": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_36.jsonl": {
+      "django__django-15278": {
+        "schema.tests.SchemaTests.test_alter_not_unique_field_to_primary_key": true,
+        "migrations.test_executor.ExecutorTests.test_alter_id_type_with_fk": true,
+        "schema.tests.SchemaTests.test_m2m": true,
+        "schema.tests.SchemaTests.test_add_field_default_dropped": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_inherited": true,
+        "schema.tests.SchemaTests.test_db_collation_charfield": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_custom": true,
+        "migrations.test_operations.OperationTests.test_rename_field_case": true,
+        "migrations.test_executor.ExecutorTests.test_migrate_backward_to_squashed_migration": true,
+        "schema.tests.SchemaTests.test_remove_unique_together_does_not_remove_meta_constraints": true,
+        "schema.tests.SchemaTests.test_rename_referenced_field": true,
+        "schema.tests.SchemaTests.test_m2m_repoint": true,
+        "schema.tests.SchemaTests.test_alter_field_db_collation": true,
+        "migrations.test_operations.OperationTests.test_repoint_field_m2m": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_37.jsonl": {
+      "django__django-15278": {
+        "schema.tests.SchemaTests.test_alter_not_unique_field_to_primary_key": true,
+        "migrations.test_executor.ExecutorTests.test_alter_id_type_with_fk": true,
+        "schema.tests.SchemaTests.test_m2m": true,
+        "schema.tests.SchemaTests.test_add_field_default_dropped": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_inherited": true,
+        "schema.tests.SchemaTests.test_db_collation_charfield": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_custom": true,
+        "migrations.test_operations.OperationTests.test_rename_field_case": true,
+        "migrations.test_executor.ExecutorTests.test_migrate_backward_to_squashed_migration": true,
+        "schema.tests.SchemaTests.test_remove_unique_together_does_not_remove_meta_constraints": true,
+        "schema.tests.SchemaTests.test_rename_referenced_field": true,
+        "schema.tests.SchemaTests.test_m2m_repoint": true,
+        "schema.tests.SchemaTests.test_alter_field_db_collation": true,
+        "migrations.test_operations.OperationTests.test_repoint_field_m2m": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_4.jsonl": {
+      "django__django-15278": {
+        "schema.tests.SchemaTests.test_alter_not_unique_field_to_primary_key": true,
+        "migrations.test_executor.ExecutorTests.test_alter_id_type_with_fk": true,
+        "schema.tests.SchemaTests.test_m2m": true,
+        "schema.tests.SchemaTests.test_add_field_default_dropped": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_inherited": true,
+        "schema.tests.SchemaTests.test_db_collation_charfield": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_custom": true,
+        "migrations.test_operations.OperationTests.test_rename_field_case": true,
+        "migrations.test_executor.ExecutorTests.test_migrate_backward_to_squashed_migration": true,
+        "schema.tests.SchemaTests.test_remove_unique_together_does_not_remove_meta_constraints": true,
+        "schema.tests.SchemaTests.test_rename_referenced_field": true,
+        "schema.tests.SchemaTests.test_m2m_repoint": true,
+        "schema.tests.SchemaTests.test_alter_field_db_collation": true,
+        "migrations.test_operations.OperationTests.test_repoint_field_m2m": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_5.jsonl": {
+      "django__django-15278": {
+        "schema.tests.SchemaTests.test_alter_not_unique_field_to_primary_key": true,
+        "migrations.test_executor.ExecutorTests.test_alter_id_type_with_fk": true,
+        "schema.tests.SchemaTests.test_m2m": true,
+        "schema.tests.SchemaTests.test_add_field_default_dropped": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_inherited": true,
+        "schema.tests.SchemaTests.test_db_collation_charfield": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_custom": true,
+        "migrations.test_operations.OperationTests.test_rename_field_case": true,
+        "migrations.test_executor.ExecutorTests.test_migrate_backward_to_squashed_migration": true,
+        "schema.tests.SchemaTests.test_remove_unique_together_does_not_remove_meta_constraints": true,
+        "schema.tests.SchemaTests.test_rename_referenced_field": true,
+        "schema.tests.SchemaTests.test_m2m_repoint": true,
+        "schema.tests.SchemaTests.test_alter_field_db_collation": true,
+        "migrations.test_operations.OperationTests.test_repoint_field_m2m": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_6.jsonl": {
+      "django__django-15278": {
+        "schema.tests.SchemaTests.test_alter_not_unique_field_to_primary_key": true,
+        "migrations.test_executor.ExecutorTests.test_alter_id_type_with_fk": true,
+        "schema.tests.SchemaTests.test_m2m": true,
+        "schema.tests.SchemaTests.test_add_field_default_dropped": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_inherited": true,
+        "schema.tests.SchemaTests.test_db_collation_charfield": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_custom": true,
+        "migrations.test_operations.OperationTests.test_rename_field_case": true,
+        "migrations.test_executor.ExecutorTests.test_migrate_backward_to_squashed_migration": true,
+        "schema.tests.SchemaTests.test_remove_unique_together_does_not_remove_meta_constraints": true,
+        "schema.tests.SchemaTests.test_rename_referenced_field": true,
+        "schema.tests.SchemaTests.test_m2m_repoint": true,
+        "schema.tests.SchemaTests.test_alter_field_db_collation": true,
+        "migrations.test_operations.OperationTests.test_repoint_field_m2m": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_7.jsonl": {
+      "django__django-15278": {
+        "schema.tests.SchemaTests.test_alter_not_unique_field_to_primary_key": true,
+        "migrations.test_executor.ExecutorTests.test_alter_id_type_with_fk": true,
+        "schema.tests.SchemaTests.test_m2m": true,
+        "schema.tests.SchemaTests.test_add_field_default_dropped": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_inherited": true,
+        "schema.tests.SchemaTests.test_db_collation_charfield": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_custom": true,
+        "migrations.test_operations.OperationTests.test_rename_field_case": true,
+        "migrations.test_executor.ExecutorTests.test_migrate_backward_to_squashed_migration": true,
+        "schema.tests.SchemaTests.test_remove_unique_together_does_not_remove_meta_constraints": true,
+        "schema.tests.SchemaTests.test_rename_referenced_field": true,
+        "schema.tests.SchemaTests.test_m2m_repoint": true,
+        "schema.tests.SchemaTests.test_alter_field_db_collation": true,
+        "migrations.test_operations.OperationTests.test_repoint_field_m2m": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_8.jsonl": {
+      "django__django-15278": {
+        "schema.tests.SchemaTests.test_alter_not_unique_field_to_primary_key": true,
+        "migrations.test_executor.ExecutorTests.test_alter_id_type_with_fk": true,
+        "schema.tests.SchemaTests.test_m2m": true,
+        "schema.tests.SchemaTests.test_add_field_default_dropped": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_inherited": true,
+        "schema.tests.SchemaTests.test_db_collation_charfield": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_custom": true,
+        "migrations.test_operations.OperationTests.test_rename_field_case": true,
+        "migrations.test_executor.ExecutorTests.test_migrate_backward_to_squashed_migration": true,
+        "schema.tests.SchemaTests.test_remove_unique_together_does_not_remove_meta_constraints": true,
+        "schema.tests.SchemaTests.test_rename_referenced_field": true,
+        "schema.tests.SchemaTests.test_m2m_repoint": true,
+        "schema.tests.SchemaTests.test_alter_field_db_collation": true,
+        "migrations.test_operations.OperationTests.test_repoint_field_m2m": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_9.jsonl": {
+      "django__django-15278": {
+        "schema.tests.SchemaTests.test_alter_not_unique_field_to_primary_key": true,
+        "migrations.test_executor.ExecutorTests.test_alter_id_type_with_fk": true,
+        "schema.tests.SchemaTests.test_m2m": true,
+        "schema.tests.SchemaTests.test_add_field_default_dropped": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_inherited": true,
+        "schema.tests.SchemaTests.test_db_collation_charfield": true,
+        "schema.tests.SchemaTests.test_m2m_repoint_custom": true,
+        "migrations.test_operations.OperationTests.test_rename_field_case": true,
+        "migrations.test_executor.ExecutorTests.test_migrate_backward_to_squashed_migration": true,
+        "schema.tests.SchemaTests.test_remove_unique_together_does_not_remove_meta_constraints": true,
+        "schema.tests.SchemaTests.test_rename_referenced_field": true,
+        "schema.tests.SchemaTests.test_m2m_repoint": true,
+        "schema.tests.SchemaTests.test_alter_field_db_collation": true,
+        "migrations.test_operations.OperationTests.test_repoint_field_m2m": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-15278": {
+        "tests.SchemaTests.test_add_nullable_onetoone_field#1": true,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#2": true,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#3": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_0.jsonl": {
+      "django__django-15278": {
+        "tests.SchemaTests.test_add_nullable_onetoone_field#1": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#2": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#3": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_1.jsonl": {
+      "django__django-15278": {
+        "tests.SchemaTests.test_add_nullable_onetoone_field#1": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#2": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#3": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_10.jsonl": {
+      "django__django-15278": {
+        "tests.SchemaTests.test_add_nullable_onetoone_field#1": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#2": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#3": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_11.jsonl": {
+      "django__django-15278": {
+        "tests.SchemaTests.test_add_nullable_onetoone_field#1": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#2": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#3": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_12.jsonl": {
+      "django__django-15278": {
+        "tests.SchemaTests.test_add_nullable_onetoone_field#1": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#2": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#3": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_13.jsonl": {
+      "django__django-15278": {
+        "tests.SchemaTests.test_add_nullable_onetoone_field#1": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#2": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#3": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_14.jsonl": {
+      "django__django-15278": {
+        "tests.SchemaTests.test_add_nullable_onetoone_field#1": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#2": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#3": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_15.jsonl": {
+      "django__django-15278": {
+        "tests.SchemaTests.test_add_nullable_onetoone_field#1": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#2": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#3": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_16.jsonl": {
+      "django__django-15278": {
+        "tests.SchemaTests.test_add_nullable_onetoone_field#1": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#2": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#3": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_17.jsonl": {
+      "django__django-15278": {
+        "tests.SchemaTests.test_add_nullable_onetoone_field#1": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#2": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#3": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_18.jsonl": {
+      "django__django-15278": {
+        "tests.SchemaTests.test_add_nullable_onetoone_field#1": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#2": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#3": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_19.jsonl": {
+      "django__django-15278": {
+        "tests.SchemaTests.test_add_nullable_onetoone_field#1": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#2": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#3": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_2.jsonl": {
+      "django__django-15278": {
+        "tests.SchemaTests.test_add_nullable_onetoone_field#1": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#2": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#3": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_20.jsonl": {
+      "django__django-15278": {
+        "tests.SchemaTests.test_add_nullable_onetoone_field#1": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#2": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#3": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_21.jsonl": {
+      "django__django-15278": {
+        "tests.SchemaTests.test_add_nullable_onetoone_field#1": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#2": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#3": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_22.jsonl": {
+      "django__django-15278": {
+        "tests.SchemaTests.test_add_nullable_onetoone_field#1": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#2": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#3": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_23.jsonl": {
+      "django__django-15278": {
+        "tests.SchemaTests.test_add_nullable_onetoone_field#1": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#2": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#3": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_24.jsonl": {
+      "django__django-15278": {
+        "tests.SchemaTests.test_add_nullable_onetoone_field#1": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#2": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#3": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_25.jsonl": {
+      "django__django-15278": {
+        "tests.SchemaTests.test_add_nullable_onetoone_field#1": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#2": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#3": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_26.jsonl": {
+      "django__django-15278": {
+        "tests.SchemaTests.test_add_nullable_onetoone_field#1": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#2": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#3": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_27.jsonl": {
+      "django__django-15278": {
+        "tests.SchemaTests.test_add_nullable_onetoone_field#1": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#2": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#3": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_28.jsonl": {
+      "django__django-15278": {
+        "tests.SchemaTests.test_add_nullable_onetoone_field#1": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#2": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#3": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_29.jsonl": {
+      "django__django-15278": {
+        "tests.SchemaTests.test_add_nullable_onetoone_field#1": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#2": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#3": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_3.jsonl": {
+      "django__django-15278": {
+        "tests.SchemaTests.test_add_nullable_onetoone_field#1": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#2": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#3": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_30.jsonl": {
+      "django__django-15278": {
+        "tests.SchemaTests.test_add_nullable_onetoone_field#1": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#2": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#3": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_31.jsonl": {
+      "django__django-15278": {
+        "tests.SchemaTests.test_add_nullable_onetoone_field#1": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#2": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#3": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_32.jsonl": {
+      "django__django-15278": {
+        "tests.SchemaTests.test_add_nullable_onetoone_field#1": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#2": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#3": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_33.jsonl": {
+      "django__django-15278": {
+        "tests.SchemaTests.test_add_nullable_onetoone_field#1": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#2": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#3": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_34.jsonl": {
+      "django__django-15278": {
+        "tests.SchemaTests.test_add_nullable_onetoone_field#1": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#2": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#3": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_35.jsonl": {
+      "django__django-15278": {
+        "tests.SchemaTests.test_add_nullable_onetoone_field#1": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#2": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#3": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_36.jsonl": {
+      "django__django-15278": {
+        "tests.SchemaTests.test_add_nullable_onetoone_field#1": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#2": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#3": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_37.jsonl": {
+      "django__django-15278": {
+        "tests.SchemaTests.test_add_nullable_onetoone_field#1": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#2": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#3": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_4.jsonl": {
+      "django__django-15278": {
+        "tests.SchemaTests.test_add_nullable_onetoone_field#1": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#2": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#3": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_5.jsonl": {
+      "django__django-15278": {
+        "tests.SchemaTests.test_add_nullable_onetoone_field#1": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#2": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#3": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_6.jsonl": {
+      "django__django-15278": {
+        "tests.SchemaTests.test_add_nullable_onetoone_field#1": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#2": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#3": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_7.jsonl": {
+      "django__django-15278": {
+        "tests.SchemaTests.test_add_nullable_onetoone_field#1": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#2": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#3": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_8.jsonl": {
+      "django__django-15278": {
+        "tests.SchemaTests.test_add_nullable_onetoone_field#1": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#2": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#3": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15278/dedup_patch_9.jsonl": {
+      "django__django-15278": {
+        "tests.SchemaTests.test_add_nullable_onetoone_field#1": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#2": false,
+        "tests.SchemaTests.test_add_nullable_onetoone_field#3": false
+      }
+    }
+  }
+}

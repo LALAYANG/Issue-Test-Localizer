@@ -1,0 +1,72 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/pylint-dev__pylint-7277/dedup_patch_0.jsonl": {
+      "pylint-dev__pylint-7277": {
+        "tests/test_pylint_runners.py::test_runner": true,
+        "tests/test_pylint_runners.py::test_runner_with_arguments": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pylint-dev__pylint-7277/dedup_patch_1.jsonl": {
+      "pylint-dev__pylint-7277": {
+        "tests/test_pylint_runners.py::test_runner": true,
+        "tests/test_pylint_runners.py::test_runner_with_arguments": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pylint-dev__pylint-7277/dedup_patch_2.jsonl": {
+      "pylint-dev__pylint-7277": {
+        "tests/test_pylint_runners.py::test_runner": true,
+        "tests/test_pylint_runners.py::test_runner_with_arguments": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pylint-dev__pylint-7277/dedup_patch_3.jsonl": {
+      "pylint-dev__pylint-7277": {
+        "tests/test_pylint_runners.py::test_runner": true,
+        "tests/test_pylint_runners.py::test_runner_with_arguments": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "pylint-dev__pylint-7277": {
+        "tests/test_pylint_runners.py::test_runner#1": false,
+        "tests/test_pylint_runners.py::test_runner#2": true,
+        "tests/test_pylint_runners.py::test_runner#3": true,
+        "tests/test_pylint_runners.py::test_pylint_run_jobs_equal_zero_dont_crash_with_cpu_fraction#4": true,
+        "tests/test_pylint_runners.py::test_runner#5": false,
+        "tests/test_pylint_runners.py::test_pylint_run_jobs_equal_zero_dont_crash_with_cpu_fraction#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pylint-dev__pylint-7277/dedup_patch_0.jsonl": {
+      "pylint-dev__pylint-7277": {
+        "tests/test_pylint_runners.py::test_runner#2": false,
+        "tests/test_pylint_runners.py::test_runner#3": false,
+        "tests/test_pylint_runners.py::test_pylint_run_jobs_equal_zero_dont_crash_with_cpu_fraction#4": false,
+        "tests/test_pylint_runners.py::test_pylint_run_jobs_equal_zero_dont_crash_with_cpu_fraction#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pylint-dev__pylint-7277/dedup_patch_1.jsonl": {
+      "pylint-dev__pylint-7277": {
+        "tests/test_pylint_runners.py::test_runner#2": false,
+        "tests/test_pylint_runners.py::test_runner#3": false,
+        "tests/test_pylint_runners.py::test_pylint_run_jobs_equal_zero_dont_crash_with_cpu_fraction#4": false,
+        "tests/test_pylint_runners.py::test_pylint_run_jobs_equal_zero_dont_crash_with_cpu_fraction#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pylint-dev__pylint-7277/dedup_patch_2.jsonl": {
+      "pylint-dev__pylint-7277": {
+        "tests/test_pylint_runners.py::test_runner#2": false,
+        "tests/test_pylint_runners.py::test_runner#3": false,
+        "tests/test_pylint_runners.py::test_pylint_run_jobs_equal_zero_dont_crash_with_cpu_fraction#4": false,
+        "tests/test_pylint_runners.py::test_pylint_run_jobs_equal_zero_dont_crash_with_cpu_fraction#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pylint-dev__pylint-7277/dedup_patch_3.jsonl": {
+      "pylint-dev__pylint-7277": {
+        "tests/test_pylint_runners.py::test_runner#2": false,
+        "tests/test_pylint_runners.py::test_runner#3": false,
+        "tests/test_pylint_runners.py::test_pylint_run_jobs_equal_zero_dont_crash_with_cpu_fraction#4": false,
+        "tests/test_pylint_runners.py::test_pylint_run_jobs_equal_zero_dont_crash_with_cpu_fraction#6": false
+      }
+    }
+  }
+}

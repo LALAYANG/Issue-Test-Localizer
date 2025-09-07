@@ -1,0 +1,793 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/psf__requests-6028/dedup_patch_0.jsonl": {
+      "psf__requests-6028": {
+        "tests/test_requests.py::TestRequests::test_non_prepared_request_error": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth_empty_pass": true,
+        "tests/test_lowlevel.py::test_chunked_upload_uses_only_specified_host_header": true,
+        "tests/test_requests.py::TestRequests::test_proxy_error": true,
+        "tests/test_requests.py::TestTimeout::test_total_timeout_connect": true,
+        "tests/test_testserver.py::TestTestServer::test_multiple_requests": true,
+        "tests/test_requests.py::TestRequests::test_invalid_url": true,
+        "tests/test_requests.py::TestRequests::test_session_get_adapter_prefix_matching": true,
+        "tests/test_lowlevel.py::test_digestauth_401_count_reset_on_redirect": true,
+        "tests/test_requests.py::TestTimeout::test_connect_timeout": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth": true,
+        "tests/test_lowlevel.py::test_chunked_upload_doesnt_skip_host_header": true,
+        "tests/test_lowlevel.py::test_conflicting_content_lengths": true,
+        "tests/test_requests.py::TestRequests::test_transport_adapter_ordering": true,
+        "tests/test_lowlevel.py::test_chunked_upload": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/psf__requests-6028/dedup_patch_1.jsonl": {
+      "psf__requests-6028": {
+        "tests/test_requests.py::TestRequests::test_non_prepared_request_error": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth_empty_pass": false,
+        "tests/test_lowlevel.py::test_chunked_upload_uses_only_specified_host_header": true,
+        "tests/test_requests.py::TestRequests::test_proxy_error": true,
+        "tests/test_requests.py::TestTimeout::test_total_timeout_connect": true,
+        "tests/test_testserver.py::TestTestServer::test_multiple_requests": true,
+        "tests/test_requests.py::TestRequests::test_invalid_url": true,
+        "tests/test_requests.py::TestRequests::test_session_get_adapter_prefix_matching": true,
+        "tests/test_lowlevel.py::test_digestauth_401_count_reset_on_redirect": true,
+        "tests/test_requests.py::TestTimeout::test_connect_timeout": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth": true,
+        "tests/test_lowlevel.py::test_chunked_upload_doesnt_skip_host_header": true,
+        "tests/test_lowlevel.py::test_conflicting_content_lengths": true,
+        "tests/test_requests.py::TestRequests::test_transport_adapter_ordering": true,
+        "tests/test_lowlevel.py::test_chunked_upload": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/psf__requests-6028/dedup_patch_10.jsonl": {
+      "psf__requests-6028": {
+        "tests/test_requests.py::TestRequests::test_non_prepared_request_error": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth_empty_pass": true,
+        "tests/test_lowlevel.py::test_chunked_upload_uses_only_specified_host_header": true,
+        "tests/test_requests.py::TestRequests::test_proxy_error": false,
+        "tests/test_requests.py::TestTimeout::test_total_timeout_connect": true,
+        "tests/test_testserver.py::TestTestServer::test_multiple_requests": true,
+        "tests/test_requests.py::TestRequests::test_invalid_url": true,
+        "tests/test_requests.py::TestRequests::test_session_get_adapter_prefix_matching": true,
+        "tests/test_lowlevel.py::test_digestauth_401_count_reset_on_redirect": true,
+        "tests/test_requests.py::TestTimeout::test_connect_timeout": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth": true,
+        "tests/test_lowlevel.py::test_chunked_upload_doesnt_skip_host_header": true,
+        "tests/test_lowlevel.py::test_conflicting_content_lengths": true,
+        "tests/test_requests.py::TestRequests::test_transport_adapter_ordering": true,
+        "tests/test_lowlevel.py::test_chunked_upload": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/psf__requests-6028/dedup_patch_11.jsonl": {
+      "psf__requests-6028": {
+        "tests/test_requests.py::TestRequests::test_non_prepared_request_error": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth_empty_pass": false,
+        "tests/test_lowlevel.py::test_chunked_upload_uses_only_specified_host_header": true,
+        "tests/test_requests.py::TestRequests::test_proxy_error": true,
+        "tests/test_requests.py::TestTimeout::test_total_timeout_connect": true,
+        "tests/test_testserver.py::TestTestServer::test_multiple_requests": true,
+        "tests/test_requests.py::TestRequests::test_invalid_url": true,
+        "tests/test_requests.py::TestRequests::test_session_get_adapter_prefix_matching": true,
+        "tests/test_lowlevel.py::test_digestauth_401_count_reset_on_redirect": true,
+        "tests/test_requests.py::TestTimeout::test_connect_timeout": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth": true,
+        "tests/test_lowlevel.py::test_chunked_upload_doesnt_skip_host_header": true,
+        "tests/test_lowlevel.py::test_conflicting_content_lengths": true,
+        "tests/test_requests.py::TestRequests::test_transport_adapter_ordering": true,
+        "tests/test_lowlevel.py::test_chunked_upload": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/psf__requests-6028/dedup_patch_12.jsonl": {
+      "psf__requests-6028": {
+        "tests/test_requests.py::TestRequests::test_non_prepared_request_error": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth_empty_pass": false,
+        "tests/test_lowlevel.py::test_chunked_upload_uses_only_specified_host_header": true,
+        "tests/test_requests.py::TestRequests::test_proxy_error": true,
+        "tests/test_requests.py::TestTimeout::test_total_timeout_connect": true,
+        "tests/test_testserver.py::TestTestServer::test_multiple_requests": true,
+        "tests/test_requests.py::TestRequests::test_invalid_url": true,
+        "tests/test_requests.py::TestRequests::test_session_get_adapter_prefix_matching": true,
+        "tests/test_lowlevel.py::test_digestauth_401_count_reset_on_redirect": true,
+        "tests/test_requests.py::TestTimeout::test_connect_timeout": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth": true,
+        "tests/test_lowlevel.py::test_chunked_upload_doesnt_skip_host_header": true,
+        "tests/test_lowlevel.py::test_conflicting_content_lengths": true,
+        "tests/test_requests.py::TestRequests::test_transport_adapter_ordering": true,
+        "tests/test_lowlevel.py::test_chunked_upload": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/psf__requests-6028/dedup_patch_13.jsonl": {
+      "psf__requests-6028": {
+        "tests/test_requests.py::TestRequests::test_non_prepared_request_error": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth_empty_pass": true,
+        "tests/test_lowlevel.py::test_chunked_upload_uses_only_specified_host_header": true,
+        "tests/test_requests.py::TestRequests::test_proxy_error": true,
+        "tests/test_requests.py::TestTimeout::test_total_timeout_connect": true,
+        "tests/test_testserver.py::TestTestServer::test_multiple_requests": true,
+        "tests/test_requests.py::TestRequests::test_invalid_url": true,
+        "tests/test_requests.py::TestRequests::test_session_get_adapter_prefix_matching": true,
+        "tests/test_lowlevel.py::test_digestauth_401_count_reset_on_redirect": true,
+        "tests/test_requests.py::TestTimeout::test_connect_timeout": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth": true,
+        "tests/test_lowlevel.py::test_chunked_upload_doesnt_skip_host_header": true,
+        "tests/test_lowlevel.py::test_conflicting_content_lengths": true,
+        "tests/test_requests.py::TestRequests::test_transport_adapter_ordering": true,
+        "tests/test_lowlevel.py::test_chunked_upload": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/psf__requests-6028/dedup_patch_14.jsonl": {
+      "psf__requests-6028": {
+        "tests/test_requests.py::TestRequests::test_non_prepared_request_error": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth_empty_pass": false,
+        "tests/test_lowlevel.py::test_chunked_upload_uses_only_specified_host_header": true,
+        "tests/test_requests.py::TestRequests::test_proxy_error": false,
+        "tests/test_requests.py::TestTimeout::test_total_timeout_connect": true,
+        "tests/test_testserver.py::TestTestServer::test_multiple_requests": true,
+        "tests/test_requests.py::TestRequests::test_invalid_url": true,
+        "tests/test_requests.py::TestRequests::test_session_get_adapter_prefix_matching": true,
+        "tests/test_lowlevel.py::test_digestauth_401_count_reset_on_redirect": true,
+        "tests/test_requests.py::TestTimeout::test_connect_timeout": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth": false,
+        "tests/test_lowlevel.py::test_chunked_upload_doesnt_skip_host_header": true,
+        "tests/test_lowlevel.py::test_conflicting_content_lengths": true,
+        "tests/test_requests.py::TestRequests::test_transport_adapter_ordering": true,
+        "tests/test_lowlevel.py::test_chunked_upload": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/psf__requests-6028/dedup_patch_15.jsonl": {
+      "psf__requests-6028": {
+        "tests/test_requests.py::TestRequests::test_non_prepared_request_error": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth_empty_pass": false,
+        "tests/test_lowlevel.py::test_chunked_upload_uses_only_specified_host_header": false,
+        "tests/test_requests.py::TestRequests::test_proxy_error": true,
+        "tests/test_requests.py::TestTimeout::test_total_timeout_connect": true,
+        "tests/test_testserver.py::TestTestServer::test_multiple_requests": false,
+        "tests/test_requests.py::TestRequests::test_invalid_url": true,
+        "tests/test_requests.py::TestRequests::test_session_get_adapter_prefix_matching": true,
+        "tests/test_lowlevel.py::test_digestauth_401_count_reset_on_redirect": false,
+        "tests/test_requests.py::TestTimeout::test_connect_timeout": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth": true,
+        "tests/test_lowlevel.py::test_chunked_upload_doesnt_skip_host_header": false,
+        "tests/test_lowlevel.py::test_conflicting_content_lengths": false,
+        "tests/test_requests.py::TestRequests::test_transport_adapter_ordering": true,
+        "tests/test_lowlevel.py::test_chunked_upload": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/psf__requests-6028/dedup_patch_16.jsonl": {
+      "psf__requests-6028": {
+        "tests/test_requests.py::TestRequests::test_non_prepared_request_error": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth_empty_pass": true,
+        "tests/test_lowlevel.py::test_chunked_upload_uses_only_specified_host_header": false,
+        "tests/test_requests.py::TestRequests::test_proxy_error": true,
+        "tests/test_requests.py::TestTimeout::test_total_timeout_connect": true,
+        "tests/test_testserver.py::TestTestServer::test_multiple_requests": false,
+        "tests/test_requests.py::TestRequests::test_invalid_url": true,
+        "tests/test_requests.py::TestRequests::test_session_get_adapter_prefix_matching": true,
+        "tests/test_lowlevel.py::test_digestauth_401_count_reset_on_redirect": false,
+        "tests/test_requests.py::TestTimeout::test_connect_timeout": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth": true,
+        "tests/test_lowlevel.py::test_chunked_upload_doesnt_skip_host_header": false,
+        "tests/test_lowlevel.py::test_conflicting_content_lengths": true,
+        "tests/test_requests.py::TestRequests::test_transport_adapter_ordering": true,
+        "tests/test_lowlevel.py::test_chunked_upload": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/psf__requests-6028/dedup_patch_17.jsonl": {
+      "psf__requests-6028": {
+        "tests/test_requests.py::TestRequests::test_non_prepared_request_error": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth_empty_pass": false,
+        "tests/test_lowlevel.py::test_chunked_upload_uses_only_specified_host_header": false,
+        "tests/test_requests.py::TestRequests::test_proxy_error": true,
+        "tests/test_requests.py::TestTimeout::test_total_timeout_connect": true,
+        "tests/test_testserver.py::TestTestServer::test_multiple_requests": false,
+        "tests/test_requests.py::TestRequests::test_invalid_url": true,
+        "tests/test_requests.py::TestRequests::test_session_get_adapter_prefix_matching": true,
+        "tests/test_lowlevel.py::test_digestauth_401_count_reset_on_redirect": false,
+        "tests/test_requests.py::TestTimeout::test_connect_timeout": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth": true,
+        "tests/test_lowlevel.py::test_chunked_upload_doesnt_skip_host_header": false,
+        "tests/test_lowlevel.py::test_conflicting_content_lengths": true,
+        "tests/test_requests.py::TestRequests::test_transport_adapter_ordering": true,
+        "tests/test_lowlevel.py::test_chunked_upload": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/psf__requests-6028/dedup_patch_18.jsonl": {
+      "psf__requests-6028": {
+        "tests/test_requests.py::TestRequests::test_non_prepared_request_error": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth_empty_pass": false,
+        "tests/test_lowlevel.py::test_chunked_upload_uses_only_specified_host_header": false,
+        "tests/test_requests.py::TestRequests::test_proxy_error": true,
+        "tests/test_requests.py::TestTimeout::test_total_timeout_connect": true,
+        "tests/test_testserver.py::TestTestServer::test_multiple_requests": false,
+        "tests/test_requests.py::TestRequests::test_invalid_url": true,
+        "tests/test_requests.py::TestRequests::test_session_get_adapter_prefix_matching": true,
+        "tests/test_lowlevel.py::test_digestauth_401_count_reset_on_redirect": false,
+        "tests/test_requests.py::TestTimeout::test_connect_timeout": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth": true,
+        "tests/test_lowlevel.py::test_chunked_upload_doesnt_skip_host_header": false,
+        "tests/test_lowlevel.py::test_conflicting_content_lengths": false,
+        "tests/test_requests.py::TestRequests::test_transport_adapter_ordering": true,
+        "tests/test_lowlevel.py::test_chunked_upload": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/psf__requests-6028/dedup_patch_19.jsonl": {
+      "psf__requests-6028": {
+        "tests/test_requests.py::TestRequests::test_non_prepared_request_error": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth_empty_pass": true,
+        "tests/test_lowlevel.py::test_chunked_upload_uses_only_specified_host_header": false,
+        "tests/test_requests.py::TestRequests::test_proxy_error": false,
+        "tests/test_requests.py::TestTimeout::test_total_timeout_connect": true,
+        "tests/test_testserver.py::TestTestServer::test_multiple_requests": false,
+        "tests/test_requests.py::TestRequests::test_invalid_url": true,
+        "tests/test_requests.py::TestRequests::test_session_get_adapter_prefix_matching": true,
+        "tests/test_lowlevel.py::test_digestauth_401_count_reset_on_redirect": false,
+        "tests/test_requests.py::TestTimeout::test_connect_timeout": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth": true,
+        "tests/test_lowlevel.py::test_chunked_upload_doesnt_skip_host_header": false,
+        "tests/test_lowlevel.py::test_conflicting_content_lengths": false,
+        "tests/test_requests.py::TestRequests::test_transport_adapter_ordering": true,
+        "tests/test_lowlevel.py::test_chunked_upload": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/psf__requests-6028/dedup_patch_2.jsonl": {
+      "psf__requests-6028": {
+        "tests/test_requests.py::TestRequests::test_non_prepared_request_error": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth_empty_pass": false,
+        "tests/test_lowlevel.py::test_chunked_upload_uses_only_specified_host_header": false,
+        "tests/test_requests.py::TestRequests::test_proxy_error": true,
+        "tests/test_requests.py::TestTimeout::test_total_timeout_connect": true,
+        "tests/test_testserver.py::TestTestServer::test_multiple_requests": false,
+        "tests/test_requests.py::TestRequests::test_invalid_url": true,
+        "tests/test_requests.py::TestRequests::test_session_get_adapter_prefix_matching": true,
+        "tests/test_lowlevel.py::test_digestauth_401_count_reset_on_redirect": false,
+        "tests/test_requests.py::TestTimeout::test_connect_timeout": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth": false,
+        "tests/test_lowlevel.py::test_chunked_upload_doesnt_skip_host_header": false,
+        "tests/test_lowlevel.py::test_conflicting_content_lengths": false,
+        "tests/test_requests.py::TestRequests::test_transport_adapter_ordering": true,
+        "tests/test_lowlevel.py::test_chunked_upload": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/psf__requests-6028/dedup_patch_20.jsonl": {
+      "psf__requests-6028": {
+        "tests/test_requests.py::TestRequests::test_non_prepared_request_error": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth_empty_pass": true,
+        "tests/test_lowlevel.py::test_chunked_upload_uses_only_specified_host_header": false,
+        "tests/test_requests.py::TestRequests::test_proxy_error": true,
+        "tests/test_requests.py::TestTimeout::test_total_timeout_connect": true,
+        "tests/test_testserver.py::TestTestServer::test_multiple_requests": false,
+        "tests/test_requests.py::TestRequests::test_invalid_url": true,
+        "tests/test_requests.py::TestRequests::test_session_get_adapter_prefix_matching": true,
+        "tests/test_lowlevel.py::test_digestauth_401_count_reset_on_redirect": false,
+        "tests/test_requests.py::TestTimeout::test_connect_timeout": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth": true,
+        "tests/test_lowlevel.py::test_chunked_upload_doesnt_skip_host_header": false,
+        "tests/test_lowlevel.py::test_conflicting_content_lengths": false,
+        "tests/test_requests.py::TestRequests::test_transport_adapter_ordering": true,
+        "tests/test_lowlevel.py::test_chunked_upload": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/psf__requests-6028/dedup_patch_21.jsonl": {
+      "psf__requests-6028": {
+        "tests/test_requests.py::TestRequests::test_non_prepared_request_error": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth_empty_pass": false,
+        "tests/test_lowlevel.py::test_chunked_upload_uses_only_specified_host_header": true,
+        "tests/test_requests.py::TestRequests::test_proxy_error": true,
+        "tests/test_requests.py::TestTimeout::test_total_timeout_connect": true,
+        "tests/test_testserver.py::TestTestServer::test_multiple_requests": false,
+        "tests/test_requests.py::TestRequests::test_invalid_url": true,
+        "tests/test_requests.py::TestRequests::test_session_get_adapter_prefix_matching": true,
+        "tests/test_lowlevel.py::test_digestauth_401_count_reset_on_redirect": false,
+        "tests/test_requests.py::TestTimeout::test_connect_timeout": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth": true,
+        "tests/test_lowlevel.py::test_chunked_upload_doesnt_skip_host_header": true,
+        "tests/test_lowlevel.py::test_conflicting_content_lengths": false,
+        "tests/test_requests.py::TestRequests::test_transport_adapter_ordering": true,
+        "tests/test_lowlevel.py::test_chunked_upload": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/psf__requests-6028/dedup_patch_22.jsonl": {
+      "psf__requests-6028": {
+        "tests/test_requests.py::TestRequests::test_non_prepared_request_error": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth_empty_pass": false,
+        "tests/test_lowlevel.py::test_chunked_upload_uses_only_specified_host_header": false,
+        "tests/test_requests.py::TestRequests::test_proxy_error": true,
+        "tests/test_requests.py::TestTimeout::test_total_timeout_connect": true,
+        "tests/test_testserver.py::TestTestServer::test_multiple_requests": false,
+        "tests/test_requests.py::TestRequests::test_invalid_url": true,
+        "tests/test_requests.py::TestRequests::test_session_get_adapter_prefix_matching": true,
+        "tests/test_lowlevel.py::test_digestauth_401_count_reset_on_redirect": true,
+        "tests/test_requests.py::TestTimeout::test_connect_timeout": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth": false,
+        "tests/test_lowlevel.py::test_chunked_upload_doesnt_skip_host_header": true,
+        "tests/test_lowlevel.py::test_conflicting_content_lengths": false,
+        "tests/test_requests.py::TestRequests::test_transport_adapter_ordering": true,
+        "tests/test_lowlevel.py::test_chunked_upload": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/psf__requests-6028/dedup_patch_23.jsonl": {
+      "psf__requests-6028": {
+        "tests/test_requests.py::TestRequests::test_non_prepared_request_error": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth_empty_pass": true,
+        "tests/test_lowlevel.py::test_chunked_upload_uses_only_specified_host_header": true,
+        "tests/test_requests.py::TestRequests::test_proxy_error": false,
+        "tests/test_requests.py::TestTimeout::test_total_timeout_connect": true,
+        "tests/test_testserver.py::TestTestServer::test_multiple_requests": false,
+        "tests/test_requests.py::TestRequests::test_invalid_url": true,
+        "tests/test_requests.py::TestRequests::test_session_get_adapter_prefix_matching": true,
+        "tests/test_lowlevel.py::test_digestauth_401_count_reset_on_redirect": false,
+        "tests/test_requests.py::TestTimeout::test_connect_timeout": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth": true,
+        "tests/test_lowlevel.py::test_chunked_upload_doesnt_skip_host_header": true,
+        "tests/test_lowlevel.py::test_conflicting_content_lengths": false,
+        "tests/test_requests.py::TestRequests::test_transport_adapter_ordering": true,
+        "tests/test_lowlevel.py::test_chunked_upload": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/psf__requests-6028/dedup_patch_24.jsonl": {
+      "psf__requests-6028": {
+        "tests/test_requests.py::TestRequests::test_non_prepared_request_error": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth_empty_pass": true,
+        "tests/test_lowlevel.py::test_chunked_upload_uses_only_specified_host_header": true,
+        "tests/test_requests.py::TestRequests::test_proxy_error": true,
+        "tests/test_requests.py::TestTimeout::test_total_timeout_connect": true,
+        "tests/test_testserver.py::TestTestServer::test_multiple_requests": false,
+        "tests/test_requests.py::TestRequests::test_invalid_url": true,
+        "tests/test_requests.py::TestRequests::test_session_get_adapter_prefix_matching": true,
+        "tests/test_lowlevel.py::test_digestauth_401_count_reset_on_redirect": true,
+        "tests/test_requests.py::TestTimeout::test_connect_timeout": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth": true,
+        "tests/test_lowlevel.py::test_chunked_upload_doesnt_skip_host_header": true,
+        "tests/test_lowlevel.py::test_conflicting_content_lengths": false,
+        "tests/test_requests.py::TestRequests::test_transport_adapter_ordering": true,
+        "tests/test_lowlevel.py::test_chunked_upload": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/psf__requests-6028/dedup_patch_25.jsonl": {
+      "psf__requests-6028": {
+        "tests/test_requests.py::TestRequests::test_non_prepared_request_error": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth_empty_pass": true,
+        "tests/test_lowlevel.py::test_chunked_upload_uses_only_specified_host_header": true,
+        "tests/test_requests.py::TestRequests::test_proxy_error": true,
+        "tests/test_requests.py::TestTimeout::test_total_timeout_connect": true,
+        "tests/test_testserver.py::TestTestServer::test_multiple_requests": false,
+        "tests/test_requests.py::TestRequests::test_invalid_url": true,
+        "tests/test_requests.py::TestRequests::test_session_get_adapter_prefix_matching": true,
+        "tests/test_lowlevel.py::test_digestauth_401_count_reset_on_redirect": true,
+        "tests/test_requests.py::TestTimeout::test_connect_timeout": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth": true,
+        "tests/test_lowlevel.py::test_chunked_upload_doesnt_skip_host_header": true,
+        "tests/test_lowlevel.py::test_conflicting_content_lengths": true,
+        "tests/test_requests.py::TestRequests::test_transport_adapter_ordering": true,
+        "tests/test_lowlevel.py::test_chunked_upload": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/psf__requests-6028/dedup_patch_26.jsonl": {
+      "psf__requests-6028": {
+        "tests/test_requests.py::TestRequests::test_non_prepared_request_error": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth_empty_pass": false,
+        "tests/test_lowlevel.py::test_chunked_upload_uses_only_specified_host_header": true,
+        "tests/test_requests.py::TestRequests::test_proxy_error": true,
+        "tests/test_requests.py::TestTimeout::test_total_timeout_connect": true,
+        "tests/test_testserver.py::TestTestServer::test_multiple_requests": false,
+        "tests/test_requests.py::TestRequests::test_invalid_url": true,
+        "tests/test_requests.py::TestRequests::test_session_get_adapter_prefix_matching": true,
+        "tests/test_lowlevel.py::test_digestauth_401_count_reset_on_redirect": true,
+        "tests/test_requests.py::TestTimeout::test_connect_timeout": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth": false,
+        "tests/test_lowlevel.py::test_chunked_upload_doesnt_skip_host_header": true,
+        "tests/test_lowlevel.py::test_conflicting_content_lengths": false,
+        "tests/test_requests.py::TestRequests::test_transport_adapter_ordering": true,
+        "tests/test_lowlevel.py::test_chunked_upload": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/psf__requests-6028/dedup_patch_27.jsonl": {
+      "psf__requests-6028": {
+        "tests/test_requests.py::TestRequests::test_non_prepared_request_error": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth_empty_pass": true,
+        "tests/test_lowlevel.py::test_chunked_upload_uses_only_specified_host_header": false,
+        "tests/test_requests.py::TestRequests::test_proxy_error": true,
+        "tests/test_requests.py::TestTimeout::test_total_timeout_connect": true,
+        "tests/test_testserver.py::TestTestServer::test_multiple_requests": false,
+        "tests/test_requests.py::TestRequests::test_invalid_url": true,
+        "tests/test_requests.py::TestRequests::test_session_get_adapter_prefix_matching": true,
+        "tests/test_lowlevel.py::test_digestauth_401_count_reset_on_redirect": true,
+        "tests/test_requests.py::TestTimeout::test_connect_timeout": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth": true,
+        "tests/test_lowlevel.py::test_chunked_upload_doesnt_skip_host_header": true,
+        "tests/test_lowlevel.py::test_conflicting_content_lengths": false,
+        "tests/test_requests.py::TestRequests::test_transport_adapter_ordering": true,
+        "tests/test_lowlevel.py::test_chunked_upload": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/psf__requests-6028/dedup_patch_28.jsonl": {
+      "psf__requests-6028": {
+        "tests/test_requests.py::TestRequests::test_non_prepared_request_error": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth_empty_pass": false,
+        "tests/test_lowlevel.py::test_chunked_upload_uses_only_specified_host_header": true,
+        "tests/test_requests.py::TestRequests::test_proxy_error": true,
+        "tests/test_requests.py::TestTimeout::test_total_timeout_connect": true,
+        "tests/test_testserver.py::TestTestServer::test_multiple_requests": false,
+        "tests/test_requests.py::TestRequests::test_invalid_url": true,
+        "tests/test_requests.py::TestRequests::test_session_get_adapter_prefix_matching": true,
+        "tests/test_lowlevel.py::test_digestauth_401_count_reset_on_redirect": false,
+        "tests/test_requests.py::TestTimeout::test_connect_timeout": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth": true,
+        "tests/test_lowlevel.py::test_chunked_upload_doesnt_skip_host_header": true,
+        "tests/test_lowlevel.py::test_conflicting_content_lengths": false,
+        "tests/test_requests.py::TestRequests::test_transport_adapter_ordering": true,
+        "tests/test_lowlevel.py::test_chunked_upload": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/psf__requests-6028/dedup_patch_29.jsonl": {
+      "psf__requests-6028": {
+        "tests/test_requests.py::TestRequests::test_non_prepared_request_error": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth_empty_pass": true,
+        "tests/test_lowlevel.py::test_chunked_upload_uses_only_specified_host_header": true,
+        "tests/test_requests.py::TestRequests::test_proxy_error": true,
+        "tests/test_requests.py::TestTimeout::test_total_timeout_connect": true,
+        "tests/test_testserver.py::TestTestServer::test_multiple_requests": false,
+        "tests/test_requests.py::TestRequests::test_invalid_url": true,
+        "tests/test_requests.py::TestRequests::test_session_get_adapter_prefix_matching": true,
+        "tests/test_lowlevel.py::test_digestauth_401_count_reset_on_redirect": true,
+        "tests/test_requests.py::TestTimeout::test_connect_timeout": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth": true,
+        "tests/test_lowlevel.py::test_chunked_upload_doesnt_skip_host_header": true,
+        "tests/test_lowlevel.py::test_conflicting_content_lengths": true,
+        "tests/test_requests.py::TestRequests::test_transport_adapter_ordering": true,
+        "tests/test_lowlevel.py::test_chunked_upload": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/psf__requests-6028/dedup_patch_3.jsonl": {
+      "psf__requests-6028": {
+        "tests/test_requests.py::TestRequests::test_non_prepared_request_error": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth_empty_pass": true,
+        "tests/test_lowlevel.py::test_chunked_upload_uses_only_specified_host_header": true,
+        "tests/test_requests.py::TestRequests::test_proxy_error": false,
+        "tests/test_requests.py::TestTimeout::test_total_timeout_connect": true,
+        "tests/test_testserver.py::TestTestServer::test_multiple_requests": true,
+        "tests/test_requests.py::TestRequests::test_invalid_url": true,
+        "tests/test_requests.py::TestRequests::test_session_get_adapter_prefix_matching": true,
+        "tests/test_lowlevel.py::test_digestauth_401_count_reset_on_redirect": true,
+        "tests/test_requests.py::TestTimeout::test_connect_timeout": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth": true,
+        "tests/test_lowlevel.py::test_chunked_upload_doesnt_skip_host_header": true,
+        "tests/test_lowlevel.py::test_conflicting_content_lengths": true,
+        "tests/test_requests.py::TestRequests::test_transport_adapter_ordering": true,
+        "tests/test_lowlevel.py::test_chunked_upload": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/psf__requests-6028/dedup_patch_30.jsonl": {
+      "psf__requests-6028": {
+        "tests/test_requests.py::TestRequests::test_non_prepared_request_error": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth_empty_pass": true,
+        "tests/test_lowlevel.py::test_chunked_upload_uses_only_specified_host_header": true,
+        "tests/test_requests.py::TestRequests::test_proxy_error": false,
+        "tests/test_requests.py::TestTimeout::test_total_timeout_connect": true,
+        "tests/test_testserver.py::TestTestServer::test_multiple_requests": true,
+        "tests/test_requests.py::TestRequests::test_invalid_url": true,
+        "tests/test_requests.py::TestRequests::test_session_get_adapter_prefix_matching": true,
+        "tests/test_lowlevel.py::test_digestauth_401_count_reset_on_redirect": true,
+        "tests/test_requests.py::TestTimeout::test_connect_timeout": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth": true,
+        "tests/test_lowlevel.py::test_chunked_upload_doesnt_skip_host_header": true,
+        "tests/test_lowlevel.py::test_conflicting_content_lengths": true,
+        "tests/test_requests.py::TestRequests::test_transport_adapter_ordering": true,
+        "tests/test_lowlevel.py::test_chunked_upload": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/psf__requests-6028/dedup_patch_31.jsonl": {
+      "psf__requests-6028": {
+        "tests/test_requests.py::TestRequests::test_non_prepared_request_error": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth_empty_pass": true,
+        "tests/test_lowlevel.py::test_chunked_upload_uses_only_specified_host_header": true,
+        "tests/test_requests.py::TestRequests::test_proxy_error": true,
+        "tests/test_requests.py::TestTimeout::test_total_timeout_connect": true,
+        "tests/test_testserver.py::TestTestServer::test_multiple_requests": true,
+        "tests/test_requests.py::TestRequests::test_invalid_url": true,
+        "tests/test_requests.py::TestRequests::test_session_get_adapter_prefix_matching": true,
+        "tests/test_lowlevel.py::test_digestauth_401_count_reset_on_redirect": true,
+        "tests/test_requests.py::TestTimeout::test_connect_timeout": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth": true,
+        "tests/test_lowlevel.py::test_chunked_upload_doesnt_skip_host_header": true,
+        "tests/test_lowlevel.py::test_conflicting_content_lengths": true,
+        "tests/test_requests.py::TestRequests::test_transport_adapter_ordering": true,
+        "tests/test_lowlevel.py::test_chunked_upload": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/psf__requests-6028/dedup_patch_32.jsonl": {
+      "psf__requests-6028": {
+        "tests/test_requests.py::TestRequests::test_non_prepared_request_error": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth_empty_pass": true,
+        "tests/test_lowlevel.py::test_chunked_upload_uses_only_specified_host_header": true,
+        "tests/test_requests.py::TestRequests::test_proxy_error": true,
+        "tests/test_requests.py::TestTimeout::test_total_timeout_connect": true,
+        "tests/test_testserver.py::TestTestServer::test_multiple_requests": true,
+        "tests/test_requests.py::TestRequests::test_invalid_url": true,
+        "tests/test_requests.py::TestRequests::test_session_get_adapter_prefix_matching": true,
+        "tests/test_lowlevel.py::test_digestauth_401_count_reset_on_redirect": true,
+        "tests/test_requests.py::TestTimeout::test_connect_timeout": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth": true,
+        "tests/test_lowlevel.py::test_chunked_upload_doesnt_skip_host_header": true,
+        "tests/test_lowlevel.py::test_conflicting_content_lengths": true,
+        "tests/test_requests.py::TestRequests::test_transport_adapter_ordering": true,
+        "tests/test_lowlevel.py::test_chunked_upload": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/psf__requests-6028/dedup_patch_33.jsonl": {
+      "psf__requests-6028": {
+        "tests/test_requests.py::TestRequests::test_non_prepared_request_error": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth_empty_pass": true,
+        "tests/test_lowlevel.py::test_chunked_upload_uses_only_specified_host_header": true,
+        "tests/test_requests.py::TestRequests::test_proxy_error": true,
+        "tests/test_requests.py::TestTimeout::test_total_timeout_connect": true,
+        "tests/test_testserver.py::TestTestServer::test_multiple_requests": true,
+        "tests/test_requests.py::TestRequests::test_invalid_url": true,
+        "tests/test_requests.py::TestRequests::test_session_get_adapter_prefix_matching": true,
+        "tests/test_lowlevel.py::test_digestauth_401_count_reset_on_redirect": true,
+        "tests/test_requests.py::TestTimeout::test_connect_timeout": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth": true,
+        "tests/test_lowlevel.py::test_chunked_upload_doesnt_skip_host_header": true,
+        "tests/test_lowlevel.py::test_conflicting_content_lengths": true,
+        "tests/test_requests.py::TestRequests::test_transport_adapter_ordering": true,
+        "tests/test_lowlevel.py::test_chunked_upload": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/psf__requests-6028/dedup_patch_34.jsonl": {
+      "psf__requests-6028": {
+        "tests/test_requests.py::TestRequests::test_non_prepared_request_error": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth_empty_pass": true,
+        "tests/test_lowlevel.py::test_chunked_upload_uses_only_specified_host_header": true,
+        "tests/test_requests.py::TestRequests::test_proxy_error": true,
+        "tests/test_requests.py::TestTimeout::test_total_timeout_connect": true,
+        "tests/test_testserver.py::TestTestServer::test_multiple_requests": true,
+        "tests/test_requests.py::TestRequests::test_invalid_url": true,
+        "tests/test_requests.py::TestRequests::test_session_get_adapter_prefix_matching": true,
+        "tests/test_lowlevel.py::test_digestauth_401_count_reset_on_redirect": true,
+        "tests/test_requests.py::TestTimeout::test_connect_timeout": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth": true,
+        "tests/test_lowlevel.py::test_chunked_upload_doesnt_skip_host_header": true,
+        "tests/test_lowlevel.py::test_conflicting_content_lengths": true,
+        "tests/test_requests.py::TestRequests::test_transport_adapter_ordering": true,
+        "tests/test_lowlevel.py::test_chunked_upload": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/psf__requests-6028/dedup_patch_35.jsonl": {
+      "psf__requests-6028": {
+        "tests/test_requests.py::TestRequests::test_non_prepared_request_error": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth_empty_pass": true,
+        "tests/test_lowlevel.py::test_chunked_upload_uses_only_specified_host_header": true,
+        "tests/test_requests.py::TestRequests::test_proxy_error": true,
+        "tests/test_requests.py::TestTimeout::test_total_timeout_connect": true,
+        "tests/test_testserver.py::TestTestServer::test_multiple_requests": true,
+        "tests/test_requests.py::TestRequests::test_invalid_url": true,
+        "tests/test_requests.py::TestRequests::test_session_get_adapter_prefix_matching": true,
+        "tests/test_lowlevel.py::test_digestauth_401_count_reset_on_redirect": true,
+        "tests/test_requests.py::TestTimeout::test_connect_timeout": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth": true,
+        "tests/test_lowlevel.py::test_chunked_upload_doesnt_skip_host_header": true,
+        "tests/test_lowlevel.py::test_conflicting_content_lengths": true,
+        "tests/test_requests.py::TestRequests::test_transport_adapter_ordering": true,
+        "tests/test_lowlevel.py::test_chunked_upload": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/psf__requests-6028/dedup_patch_36.jsonl": {
+      "psf__requests-6028": {
+        "tests/test_requests.py::TestRequests::test_non_prepared_request_error": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth_empty_pass": true,
+        "tests/test_lowlevel.py::test_chunked_upload_uses_only_specified_host_header": true,
+        "tests/test_requests.py::TestRequests::test_proxy_error": true,
+        "tests/test_requests.py::TestTimeout::test_total_timeout_connect": true,
+        "tests/test_testserver.py::TestTestServer::test_multiple_requests": true,
+        "tests/test_requests.py::TestRequests::test_invalid_url": true,
+        "tests/test_requests.py::TestRequests::test_session_get_adapter_prefix_matching": true,
+        "tests/test_lowlevel.py::test_digestauth_401_count_reset_on_redirect": true,
+        "tests/test_requests.py::TestTimeout::test_connect_timeout": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth": true,
+        "tests/test_lowlevel.py::test_chunked_upload_doesnt_skip_host_header": true,
+        "tests/test_lowlevel.py::test_conflicting_content_lengths": true,
+        "tests/test_requests.py::TestRequests::test_transport_adapter_ordering": true,
+        "tests/test_lowlevel.py::test_chunked_upload": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/psf__requests-6028/dedup_patch_37.jsonl": {
+      "psf__requests-6028": {
+        "tests/test_requests.py::TestRequests::test_non_prepared_request_error": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth_empty_pass": true,
+        "tests/test_lowlevel.py::test_chunked_upload_uses_only_specified_host_header": true,
+        "tests/test_requests.py::TestRequests::test_proxy_error": true,
+        "tests/test_requests.py::TestTimeout::test_total_timeout_connect": true,
+        "tests/test_testserver.py::TestTestServer::test_multiple_requests": true,
+        "tests/test_requests.py::TestRequests::test_invalid_url": true,
+        "tests/test_requests.py::TestRequests::test_session_get_adapter_prefix_matching": true,
+        "tests/test_lowlevel.py::test_digestauth_401_count_reset_on_redirect": true,
+        "tests/test_requests.py::TestTimeout::test_connect_timeout": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth": true,
+        "tests/test_lowlevel.py::test_chunked_upload_doesnt_skip_host_header": true,
+        "tests/test_lowlevel.py::test_conflicting_content_lengths": true,
+        "tests/test_requests.py::TestRequests::test_transport_adapter_ordering": true,
+        "tests/test_lowlevel.py::test_chunked_upload": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/psf__requests-6028/dedup_patch_4.jsonl": {
+      "psf__requests-6028": {
+        "tests/test_requests.py::TestRequests::test_non_prepared_request_error": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth_empty_pass": true,
+        "tests/test_lowlevel.py::test_chunked_upload_uses_only_specified_host_header": true,
+        "tests/test_requests.py::TestRequests::test_proxy_error": true,
+        "tests/test_requests.py::TestTimeout::test_total_timeout_connect": true,
+        "tests/test_testserver.py::TestTestServer::test_multiple_requests": true,
+        "tests/test_requests.py::TestRequests::test_invalid_url": true,
+        "tests/test_requests.py::TestRequests::test_session_get_adapter_prefix_matching": true,
+        "tests/test_lowlevel.py::test_digestauth_401_count_reset_on_redirect": true,
+        "tests/test_requests.py::TestTimeout::test_connect_timeout": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth": true,
+        "tests/test_lowlevel.py::test_chunked_upload_doesnt_skip_host_header": true,
+        "tests/test_lowlevel.py::test_conflicting_content_lengths": true,
+        "tests/test_requests.py::TestRequests::test_transport_adapter_ordering": true,
+        "tests/test_lowlevel.py::test_chunked_upload": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/psf__requests-6028/dedup_patch_5.jsonl": {
+      "psf__requests-6028": {
+        "tests/test_requests.py::TestRequests::test_non_prepared_request_error": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth_empty_pass": false,
+        "tests/test_lowlevel.py::test_chunked_upload_uses_only_specified_host_header": true,
+        "tests/test_requests.py::TestRequests::test_proxy_error": true,
+        "tests/test_requests.py::TestTimeout::test_total_timeout_connect": true,
+        "tests/test_testserver.py::TestTestServer::test_multiple_requests": true,
+        "tests/test_requests.py::TestRequests::test_invalid_url": true,
+        "tests/test_requests.py::TestRequests::test_session_get_adapter_prefix_matching": true,
+        "tests/test_lowlevel.py::test_digestauth_401_count_reset_on_redirect": true,
+        "tests/test_requests.py::TestTimeout::test_connect_timeout": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth": true,
+        "tests/test_lowlevel.py::test_chunked_upload_doesnt_skip_host_header": true,
+        "tests/test_lowlevel.py::test_conflicting_content_lengths": true,
+        "tests/test_requests.py::TestRequests::test_transport_adapter_ordering": true,
+        "tests/test_lowlevel.py::test_chunked_upload": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/psf__requests-6028/dedup_patch_6.jsonl": {
+      "psf__requests-6028": {
+        "tests/test_requests.py::TestRequests::test_non_prepared_request_error": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth_empty_pass": false,
+        "tests/test_lowlevel.py::test_chunked_upload_uses_only_specified_host_header": true,
+        "tests/test_requests.py::TestRequests::test_proxy_error": true,
+        "tests/test_requests.py::TestTimeout::test_total_timeout_connect": true,
+        "tests/test_testserver.py::TestTestServer::test_multiple_requests": true,
+        "tests/test_requests.py::TestRequests::test_invalid_url": true,
+        "tests/test_requests.py::TestRequests::test_session_get_adapter_prefix_matching": true,
+        "tests/test_lowlevel.py::test_digestauth_401_count_reset_on_redirect": true,
+        "tests/test_requests.py::TestTimeout::test_connect_timeout": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth": false,
+        "tests/test_lowlevel.py::test_chunked_upload_doesnt_skip_host_header": true,
+        "tests/test_lowlevel.py::test_conflicting_content_lengths": true,
+        "tests/test_requests.py::TestRequests::test_transport_adapter_ordering": true,
+        "tests/test_lowlevel.py::test_chunked_upload": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/psf__requests-6028/dedup_patch_7.jsonl": {
+      "psf__requests-6028": {
+        "tests/test_requests.py::TestRequests::test_non_prepared_request_error": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth_empty_pass": true,
+        "tests/test_lowlevel.py::test_chunked_upload_uses_only_specified_host_header": true,
+        "tests/test_requests.py::TestRequests::test_proxy_error": true,
+        "tests/test_requests.py::TestTimeout::test_total_timeout_connect": true,
+        "tests/test_testserver.py::TestTestServer::test_multiple_requests": true,
+        "tests/test_requests.py::TestRequests::test_invalid_url": true,
+        "tests/test_requests.py::TestRequests::test_session_get_adapter_prefix_matching": true,
+        "tests/test_lowlevel.py::test_digestauth_401_count_reset_on_redirect": true,
+        "tests/test_requests.py::TestTimeout::test_connect_timeout": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth": true,
+        "tests/test_lowlevel.py::test_chunked_upload_doesnt_skip_host_header": true,
+        "tests/test_lowlevel.py::test_conflicting_content_lengths": true,
+        "tests/test_requests.py::TestRequests::test_transport_adapter_ordering": true,
+        "tests/test_lowlevel.py::test_chunked_upload": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/psf__requests-6028/dedup_patch_8.jsonl": {
+      "psf__requests-6028": {
+        "tests/test_requests.py::TestRequests::test_non_prepared_request_error": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth_empty_pass": false,
+        "tests/test_lowlevel.py::test_chunked_upload_uses_only_specified_host_header": true,
+        "tests/test_requests.py::TestRequests::test_proxy_error": true,
+        "tests/test_requests.py::TestTimeout::test_total_timeout_connect": true,
+        "tests/test_testserver.py::TestTestServer::test_multiple_requests": true,
+        "tests/test_requests.py::TestRequests::test_invalid_url": true,
+        "tests/test_requests.py::TestRequests::test_session_get_adapter_prefix_matching": true,
+        "tests/test_lowlevel.py::test_digestauth_401_count_reset_on_redirect": true,
+        "tests/test_requests.py::TestTimeout::test_connect_timeout": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth": true,
+        "tests/test_lowlevel.py::test_chunked_upload_doesnt_skip_host_header": true,
+        "tests/test_lowlevel.py::test_conflicting_content_lengths": true,
+        "tests/test_requests.py::TestRequests::test_transport_adapter_ordering": true,
+        "tests/test_lowlevel.py::test_chunked_upload": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/psf__requests-6028/dedup_patch_9.jsonl": {
+      "psf__requests-6028": {
+        "tests/test_requests.py::TestRequests::test_non_prepared_request_error": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth_empty_pass": false,
+        "tests/test_lowlevel.py::test_chunked_upload_uses_only_specified_host_header": true,
+        "tests/test_requests.py::TestRequests::test_proxy_error": true,
+        "tests/test_requests.py::TestTimeout::test_total_timeout_connect": true,
+        "tests/test_testserver.py::TestTestServer::test_multiple_requests": true,
+        "tests/test_requests.py::TestRequests::test_invalid_url": true,
+        "tests/test_requests.py::TestRequests::test_session_get_adapter_prefix_matching": true,
+        "tests/test_lowlevel.py::test_digestauth_401_count_reset_on_redirect": true,
+        "tests/test_requests.py::TestTimeout::test_connect_timeout": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth": true,
+        "tests/test_lowlevel.py::test_chunked_upload_doesnt_skip_host_header": true,
+        "tests/test_lowlevel.py::test_conflicting_content_lengths": true,
+        "tests/test_requests.py::TestRequests::test_transport_adapter_ordering": true,
+        "tests/test_lowlevel.py::test_chunked_upload": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "psf__requests-6028": {
+        "tests/test_requests.py::TestRequests::test_proxy_auth_python_3_8_12_regression#1": false,
+        "tests/test_requests.py::TestRequests::test_proxy_auth_python_3_8_12#2": false,
+        "tests/test_requests.py::TestRequests::test_proxy_auth#3": true,
+        "tests/test_requests.py::TestRequests::test_proxy_auth_with_non_string_credentials#4": false,
+        "tests/test_requests.py::TestRequests::test_proxy_auth_python_3_8_12#5": false,
+        "tests/test_requests.py::TestRequests::test_proxy_auth_python_3_8_12_regression#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/psf__requests-6028/dedup_patch_0.jsonl": {
+      "psf__requests-6028": {
+        "tests/test_requests.py::TestRequests::test_proxy_auth#3": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/psf__requests-6028/dedup_patch_13.jsonl": {
+      "psf__requests-6028": {
+        "tests/test_requests.py::TestRequests::test_proxy_auth#3": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/psf__requests-6028/dedup_patch_31.jsonl": {
+      "psf__requests-6028": {
+        "tests/test_requests.py::TestRequests::test_proxy_auth#3": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/psf__requests-6028/dedup_patch_32.jsonl": {
+      "psf__requests-6028": {
+        "tests/test_requests.py::TestRequests::test_proxy_auth#3": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/psf__requests-6028/dedup_patch_33.jsonl": {
+      "psf__requests-6028": {
+        "tests/test_requests.py::TestRequests::test_proxy_auth#3": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/psf__requests-6028/dedup_patch_34.jsonl": {
+      "psf__requests-6028": {
+        "tests/test_requests.py::TestRequests::test_proxy_auth#3": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/psf__requests-6028/dedup_patch_35.jsonl": {
+      "psf__requests-6028": {
+        "tests/test_requests.py::TestRequests::test_proxy_auth#3": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/psf__requests-6028/dedup_patch_36.jsonl": {
+      "psf__requests-6028": {
+        "tests/test_requests.py::TestRequests::test_proxy_auth#3": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/psf__requests-6028/dedup_patch_37.jsonl": {
+      "psf__requests-6028": {
+        "tests/test_requests.py::TestRequests::test_proxy_auth#3": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/psf__requests-6028/dedup_patch_4.jsonl": {
+      "psf__requests-6028": {
+        "tests/test_requests.py::TestRequests::test_proxy_auth#3": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/psf__requests-6028/dedup_patch_7.jsonl": {
+      "psf__requests-6028": {
+        "tests/test_requests.py::TestRequests::test_proxy_auth#3": false
+      }
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "regression": {
+    "all_patches/lite_claude_all_unique_patches/django__django-15320/dedup_patch_0.jsonl": {
+      "django__django-15320": {
+        "expressions.tests.BasicExpressionsTests.test_nested_subquery": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery": true,
+        "expressions.tests.BasicExpressionsTests.test_nested_subquery_outer_ref_2": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15320/dedup_patch_1.jsonl": {
+      "django__django-15320": {
+        "expressions.tests.BasicExpressionsTests.test_nested_subquery": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery": true,
+        "expressions.tests.BasicExpressionsTests.test_nested_subquery_outer_ref_2": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15320/dedup_patch_2.jsonl": {
+      "django__django-15320": {
+        "expressions.tests.BasicExpressionsTests.test_nested_subquery": false,
+        "expressions.tests.BasicExpressionsTests.test_subquery": false,
+        "expressions.tests.BasicExpressionsTests.test_nested_subquery_outer_ref_2": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15320/dedup_patch_3.jsonl": {
+      "django__django-15320": {
+        "expressions.tests.BasicExpressionsTests.test_nested_subquery": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery": true,
+        "expressions.tests.BasicExpressionsTests.test_nested_subquery_outer_ref_2": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15320/dedup_patch_4.jsonl": {
+      "django__django-15320": {
+        "expressions.tests.BasicExpressionsTests.test_nested_subquery": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery": true,
+        "expressions.tests.BasicExpressionsTests.test_nested_subquery_outer_ref_2": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-15320": {
+        "expressions.tests.BasicExpressionsTests.test_subquery_as_sql#1": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery_as_sql#2": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery_as_sql_generates_valid_sql#3": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery_as_sql#4": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery_as_sql_generates_valid_sql#5": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery_as_sql_generates_valid_sql#6": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15320/dedup_patch_0.jsonl": {
+      "django__django-15320": {
+        "expressions.tests.BasicExpressionsTests.test_subquery_as_sql#1": false,
+        "expressions.tests.BasicExpressionsTests.test_subquery_as_sql#2": false,
+        "expressions.tests.BasicExpressionsTests.test_subquery_as_sql_generates_valid_sql#3": false,
+        "expressions.tests.BasicExpressionsTests.test_subquery_as_sql#4": false,
+        "expressions.tests.BasicExpressionsTests.test_subquery_as_sql_generates_valid_sql#5": false,
+        "expressions.tests.BasicExpressionsTests.test_subquery_as_sql_generates_valid_sql#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15320/dedup_patch_1.jsonl": {
+      "django__django-15320": {
+        "expressions.tests.BasicExpressionsTests.test_subquery_as_sql#1": false,
+        "expressions.tests.BasicExpressionsTests.test_subquery_as_sql#2": false,
+        "expressions.tests.BasicExpressionsTests.test_subquery_as_sql_generates_valid_sql#3": false,
+        "expressions.tests.BasicExpressionsTests.test_subquery_as_sql#4": false,
+        "expressions.tests.BasicExpressionsTests.test_subquery_as_sql_generates_valid_sql#5": false,
+        "expressions.tests.BasicExpressionsTests.test_subquery_as_sql_generates_valid_sql#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15320/dedup_patch_3.jsonl": {
+      "django__django-15320": {
+        "expressions.tests.BasicExpressionsTests.test_subquery_as_sql#1": false,
+        "expressions.tests.BasicExpressionsTests.test_subquery_as_sql#2": false,
+        "expressions.tests.BasicExpressionsTests.test_subquery_as_sql_generates_valid_sql#3": false,
+        "expressions.tests.BasicExpressionsTests.test_subquery_as_sql#4": false,
+        "expressions.tests.BasicExpressionsTests.test_subquery_as_sql_generates_valid_sql#5": false,
+        "expressions.tests.BasicExpressionsTests.test_subquery_as_sql_generates_valid_sql#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15320/dedup_patch_4.jsonl": {
+      "django__django-15320": {
+        "expressions.tests.BasicExpressionsTests.test_subquery_as_sql#1": false,
+        "expressions.tests.BasicExpressionsTests.test_subquery_as_sql#2": false,
+        "expressions.tests.BasicExpressionsTests.test_subquery_as_sql_generates_valid_sql#3": false,
+        "expressions.tests.BasicExpressionsTests.test_subquery_as_sql#4": false,
+        "expressions.tests.BasicExpressionsTests.test_subquery_as_sql_generates_valid_sql#5": false,
+        "expressions.tests.BasicExpressionsTests.test_subquery_as_sql_generates_valid_sql#6": false
+      }
+    }
+  }
+}

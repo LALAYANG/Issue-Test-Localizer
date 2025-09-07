@@ -1,0 +1,152 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/django__django-12039/dedup_patch_0.jsonl": {
+      "django__django-12039": {
+        "backends.test_ddl_references.IndexNameTests.test_repr": true,
+        "indexes.tests.PartialIndexTests.test_partial_index": true,
+        "schema.tests.SchemaTests.test_indexes": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12039/dedup_patch_1.jsonl": {
+      "django__django-12039": {
+        "backends.test_ddl_references.IndexNameTests.test_repr": true,
+        "indexes.tests.PartialIndexTests.test_partial_index": true,
+        "schema.tests.SchemaTests.test_indexes": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12039/dedup_patch_2.jsonl": {
+      "django__django-12039": {
+        "backends.test_ddl_references.IndexNameTests.test_repr": true,
+        "indexes.tests.PartialIndexTests.test_partial_index": true,
+        "schema.tests.SchemaTests.test_indexes": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12039/dedup_patch_3.jsonl": {
+      "django__django-12039": {
+        "backends.test_ddl_references.IndexNameTests.test_repr": true,
+        "indexes.tests.PartialIndexTests.test_partial_index": true,
+        "schema.tests.SchemaTests.test_indexes": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12039/dedup_patch_4.jsonl": {
+      "django__django-12039": {
+        "backends.test_ddl_references.IndexNameTests.test_repr": true,
+        "indexes.tests.PartialIndexTests.test_partial_index": true,
+        "schema.tests.SchemaTests.test_indexes": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12039/dedup_patch_5.jsonl": {
+      "django__django-12039": {
+        "backends.test_ddl_references.IndexNameTests.test_repr": true,
+        "indexes.tests.PartialIndexTests.test_partial_index": true,
+        "schema.tests.SchemaTests.test_indexes": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12039/dedup_patch_6.jsonl": {
+      "django__django-12039": {
+        "backends.test_ddl_references.IndexNameTests.test_repr": true,
+        "indexes.tests.PartialIndexTests.test_partial_index": true,
+        "schema.tests.SchemaTests.test_indexes": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12039/dedup_patch_7.jsonl": {
+      "django__django-12039": {
+        "backends.test_ddl_references.IndexNameTests.test_repr": true,
+        "indexes.tests.PartialIndexTests.test_partial_index": true,
+        "schema.tests.SchemaTests.test_indexes": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-12039": {
+        "backends.test_ddl_references.StatementTests.test_column_str_whitespace#1": true,
+        "backends.test_ddl_references.StatementTests.test_column_whitespace#2": true,
+        "backends.test_ddl_references.StatementTests.test_columns_whitespace#3": true,
+        "backends.test_ddl_references.StatementTests.test_col_str_whitespace#4": true,
+        "backends.test_ddl_references.StatementTests.test_column_str_whitespace#5": true,
+        "backends.test_ddl_references.StatementTests.test_columns_str_formatting#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12039/dedup_patch_0.jsonl": {
+      "django__django-12039": {
+        "backends.test_ddl_references.StatementTests.test_column_str_whitespace#1": false,
+        "backends.test_ddl_references.StatementTests.test_column_whitespace#2": false,
+        "backends.test_ddl_references.StatementTests.test_columns_whitespace#3": false,
+        "backends.test_ddl_references.StatementTests.test_col_str_whitespace#4": false,
+        "backends.test_ddl_references.StatementTests.test_column_str_whitespace#5": false,
+        "backends.test_ddl_references.StatementTests.test_columns_str_formatting#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12039/dedup_patch_1.jsonl": {
+      "django__django-12039": {
+        "backends.test_ddl_references.StatementTests.test_column_str_whitespace#1": false,
+        "backends.test_ddl_references.StatementTests.test_column_whitespace#2": false,
+        "backends.test_ddl_references.StatementTests.test_columns_whitespace#3": false,
+        "backends.test_ddl_references.StatementTests.test_col_str_whitespace#4": false,
+        "backends.test_ddl_references.StatementTests.test_column_str_whitespace#5": false,
+        "backends.test_ddl_references.StatementTests.test_columns_str_formatting#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12039/dedup_patch_2.jsonl": {
+      "django__django-12039": {
+        "backends.test_ddl_references.StatementTests.test_column_str_whitespace#1": false,
+        "backends.test_ddl_references.StatementTests.test_column_whitespace#2": false,
+        "backends.test_ddl_references.StatementTests.test_columns_whitespace#3": false,
+        "backends.test_ddl_references.StatementTests.test_col_str_whitespace#4": false,
+        "backends.test_ddl_references.StatementTests.test_column_str_whitespace#5": false,
+        "backends.test_ddl_references.StatementTests.test_columns_str_formatting#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12039/dedup_patch_3.jsonl": {
+      "django__django-12039": {
+        "backends.test_ddl_references.StatementTests.test_column_str_whitespace#1": false,
+        "backends.test_ddl_references.StatementTests.test_column_whitespace#2": false,
+        "backends.test_ddl_references.StatementTests.test_columns_whitespace#3": false,
+        "backends.test_ddl_references.StatementTests.test_col_str_whitespace#4": false,
+        "backends.test_ddl_references.StatementTests.test_column_str_whitespace#5": false,
+        "backends.test_ddl_references.StatementTests.test_columns_str_formatting#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12039/dedup_patch_4.jsonl": {
+      "django__django-12039": {
+        "backends.test_ddl_references.StatementTests.test_column_str_whitespace#1": false,
+        "backends.test_ddl_references.StatementTests.test_column_whitespace#2": false,
+        "backends.test_ddl_references.StatementTests.test_columns_whitespace#3": false,
+        "backends.test_ddl_references.StatementTests.test_col_str_whitespace#4": false,
+        "backends.test_ddl_references.StatementTests.test_column_str_whitespace#5": false,
+        "backends.test_ddl_references.StatementTests.test_columns_str_formatting#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12039/dedup_patch_5.jsonl": {
+      "django__django-12039": {
+        "backends.test_ddl_references.StatementTests.test_column_str_whitespace#1": false,
+        "backends.test_ddl_references.StatementTests.test_column_whitespace#2": false,
+        "backends.test_ddl_references.StatementTests.test_columns_whitespace#3": false,
+        "backends.test_ddl_references.StatementTests.test_col_str_whitespace#4": false,
+        "backends.test_ddl_references.StatementTests.test_column_str_whitespace#5": false,
+        "backends.test_ddl_references.StatementTests.test_columns_str_formatting#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12039/dedup_patch_6.jsonl": {
+      "django__django-12039": {
+        "backends.test_ddl_references.StatementTests.test_column_str_whitespace#1": false,
+        "backends.test_ddl_references.StatementTests.test_column_whitespace#2": false,
+        "backends.test_ddl_references.StatementTests.test_columns_whitespace#3": false,
+        "backends.test_ddl_references.StatementTests.test_col_str_whitespace#4": false,
+        "backends.test_ddl_references.StatementTests.test_column_str_whitespace#5": false,
+        "backends.test_ddl_references.StatementTests.test_columns_str_formatting#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-12039/dedup_patch_7.jsonl": {
+      "django__django-12039": {
+        "backends.test_ddl_references.StatementTests.test_column_str_whitespace#1": false,
+        "backends.test_ddl_references.StatementTests.test_column_whitespace#2": false,
+        "backends.test_ddl_references.StatementTests.test_columns_whitespace#3": false,
+        "backends.test_ddl_references.StatementTests.test_col_str_whitespace#4": false,
+        "backends.test_ddl_references.StatementTests.test_column_str_whitespace#5": false,
+        "backends.test_ddl_references.StatementTests.test_columns_str_formatting#6": false
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "regression": {
+    "all_patches/lite_claude_all_unique_patches/django__django-16873/dedup_patch_0.jsonl": {
+      "django__django-16873": {
+        "template_tests.filter_tests.test_join.FunctionTests.test_list": true,
+        "template_tests.filter_tests.test_join.FunctionTests.test_autoescape": true,
+        "template_tests.filter_tests.test_join.FunctionTests.test_noniterable_arg": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-16873/dedup_patch_1.jsonl": {
+      "django__django-16873": {
+        "template_tests.filter_tests.test_join.FunctionTests.test_list": true,
+        "template_tests.filter_tests.test_join.FunctionTests.test_autoescape": true,
+        "template_tests.filter_tests.test_join.FunctionTests.test_noniterable_arg": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-16873": {
+        "template_tests.filter_tests.test_join.FunctionTests.test_autoescape_off#1": true,
+        "template_tests.filter_tests.test_join.FunctionTests.test_autoescape_off#2": true,
+        "template_tests.filter_tests.test_join.FunctionTests.test_join_with_autoescape_off#3": true,
+        "template_tests.filter_tests.test_join.FunctionTests.test_autoescape_off#4": true,
+        "template_tests.filter_tests.test_join.FunctionTests.test_autoescape_off_with_separator#5": true,
+        "template_tests.filter_tests.test_join.FunctionTests.test_autoescape_off_join_string#6": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-16873/dedup_patch_0.jsonl": {
+      "django__django-16873": {
+        "template_tests.filter_tests.test_join.FunctionTests.test_autoescape_off#1": true,
+        "template_tests.filter_tests.test_join.FunctionTests.test_autoescape_off#2": true,
+        "template_tests.filter_tests.test_join.FunctionTests.test_join_with_autoescape_off#3": true,
+        "template_tests.filter_tests.test_join.FunctionTests.test_autoescape_off#4": true,
+        "template_tests.filter_tests.test_join.FunctionTests.test_autoescape_off_with_separator#5": true,
+        "template_tests.filter_tests.test_join.FunctionTests.test_autoescape_off_join_string#6": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-16873/dedup_patch_1.jsonl": {
+      "django__django-16873": {
+        "template_tests.filter_tests.test_join.FunctionTests.test_autoescape_off#1": true,
+        "template_tests.filter_tests.test_join.FunctionTests.test_autoescape_off#2": true,
+        "template_tests.filter_tests.test_join.FunctionTests.test_join_with_autoescape_off#3": true,
+        "template_tests.filter_tests.test_join.FunctionTests.test_autoescape_off#4": true,
+        "template_tests.filter_tests.test_join.FunctionTests.test_autoescape_off_with_separator#5": true,
+        "template_tests.filter_tests.test_join.FunctionTests.test_autoescape_off_join_string#6": true
+      }
+    }
+  }
+}

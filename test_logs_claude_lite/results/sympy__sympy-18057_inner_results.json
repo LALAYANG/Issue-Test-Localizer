@@ -1,0 +1,436 @@
+{
+  "regression": {
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-18057/dedup_patch_0.jsonl": {
+      "sympy__sympy-18057": {
+        "sympy/core/tests/test_sympify.py::test_int_float": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_factorial": true,
+        "sympy/core/tests/test_expr.py::test_count": true,
+        "sympy/core/tests/test_sympify.py::test_sympyify_iterables": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_keywords": true,
+        "sympy/core/tests/test_sympify.py::test_sympify1": true,
+        "sympy/core/tests/test_expr.py::test_action_verbs": true,
+        "sympy/core/tests/test_expr.py::test_SAGE1": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-18057/dedup_patch_1.jsonl": {
+      "sympy__sympy-18057": {
+        "sympy/core/tests/test_sympify.py::test_int_float": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_factorial": false,
+        "sympy/core/tests/test_expr.py::test_count": false,
+        "sympy/core/tests/test_sympify.py::test_sympyify_iterables": false,
+        "sympy/core/tests/test_sympify.py::test_sympify_keywords": true,
+        "sympy/core/tests/test_sympify.py::test_sympify1": false,
+        "sympy/core/tests/test_expr.py::test_action_verbs": false,
+        "sympy/core/tests/test_expr.py::test_SAGE1": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-18057/dedup_patch_10.jsonl": {
+      "sympy__sympy-18057": {
+        "sympy/core/tests/test_sympify.py::test_int_float": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_factorial": false,
+        "sympy/core/tests/test_expr.py::test_count": false,
+        "sympy/core/tests/test_sympify.py::test_sympyify_iterables": false,
+        "sympy/core/tests/test_sympify.py::test_sympify_keywords": true,
+        "sympy/core/tests/test_sympify.py::test_sympify1": false,
+        "sympy/core/tests/test_expr.py::test_action_verbs": false,
+        "sympy/core/tests/test_expr.py::test_SAGE1": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-18057/dedup_patch_11.jsonl": {
+      "sympy__sympy-18057": {
+        "sympy/core/tests/test_sympify.py::test_int_float": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_factorial": true,
+        "sympy/core/tests/test_expr.py::test_count": true,
+        "sympy/core/tests/test_sympify.py::test_sympyify_iterables": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_keywords": true,
+        "sympy/core/tests/test_sympify.py::test_sympify1": true,
+        "sympy/core/tests/test_expr.py::test_action_verbs": true,
+        "sympy/core/tests/test_expr.py::test_SAGE1": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-18057/dedup_patch_12.jsonl": {
+      "sympy__sympy-18057": {
+        "sympy/core/tests/test_sympify.py::test_int_float": false,
+        "sympy/core/tests/test_sympify.py::test_sympify_factorial": false,
+        "sympy/core/tests/test_expr.py::test_count": false,
+        "sympy/core/tests/test_sympify.py::test_sympyify_iterables": false,
+        "sympy/core/tests/test_sympify.py::test_sympify_keywords": false,
+        "sympy/core/tests/test_sympify.py::test_sympify1": false,
+        "sympy/core/tests/test_expr.py::test_action_verbs": false,
+        "sympy/core/tests/test_expr.py::test_SAGE1": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-18057/dedup_patch_13.jsonl": {
+      "sympy__sympy-18057": {
+        "sympy/core/tests/test_sympify.py::test_int_float": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_factorial": true,
+        "sympy/core/tests/test_expr.py::test_count": true,
+        "sympy/core/tests/test_sympify.py::test_sympyify_iterables": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_keywords": true,
+        "sympy/core/tests/test_sympify.py::test_sympify1": true,
+        "sympy/core/tests/test_expr.py::test_action_verbs": true,
+        "sympy/core/tests/test_expr.py::test_SAGE1": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-18057/dedup_patch_14.jsonl": {
+      "sympy__sympy-18057": {
+        "sympy/core/tests/test_sympify.py::test_int_float": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_factorial": true,
+        "sympy/core/tests/test_expr.py::test_count": true,
+        "sympy/core/tests/test_sympify.py::test_sympyify_iterables": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_keywords": true,
+        "sympy/core/tests/test_sympify.py::test_sympify1": true,
+        "sympy/core/tests/test_expr.py::test_action_verbs": true,
+        "sympy/core/tests/test_expr.py::test_SAGE1": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-18057/dedup_patch_15.jsonl": {
+      "sympy__sympy-18057": {
+        "sympy/core/tests/test_sympify.py::test_int_float": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_factorial": true,
+        "sympy/core/tests/test_expr.py::test_count": true,
+        "sympy/core/tests/test_sympify.py::test_sympyify_iterables": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_keywords": true,
+        "sympy/core/tests/test_sympify.py::test_sympify1": true,
+        "sympy/core/tests/test_expr.py::test_action_verbs": true,
+        "sympy/core/tests/test_expr.py::test_SAGE1": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-18057/dedup_patch_16.jsonl": {
+      "sympy__sympy-18057": {
+        "sympy/core/tests/test_sympify.py::test_int_float": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_factorial": true,
+        "sympy/core/tests/test_expr.py::test_count": true,
+        "sympy/core/tests/test_sympify.py::test_sympyify_iterables": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_keywords": true,
+        "sympy/core/tests/test_sympify.py::test_sympify1": true,
+        "sympy/core/tests/test_expr.py::test_action_verbs": true,
+        "sympy/core/tests/test_expr.py::test_SAGE1": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-18057/dedup_patch_17.jsonl": {
+      "sympy__sympy-18057": {
+        "sympy/core/tests/test_sympify.py::test_int_float": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_factorial": true,
+        "sympy/core/tests/test_expr.py::test_count": true,
+        "sympy/core/tests/test_sympify.py::test_sympyify_iterables": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_keywords": true,
+        "sympy/core/tests/test_sympify.py::test_sympify1": true,
+        "sympy/core/tests/test_expr.py::test_action_verbs": true,
+        "sympy/core/tests/test_expr.py::test_SAGE1": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-18057/dedup_patch_18.jsonl": {
+      "sympy__sympy-18057": {
+        "sympy/core/tests/test_sympify.py::test_int_float": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_factorial": true,
+        "sympy/core/tests/test_expr.py::test_count": true,
+        "sympy/core/tests/test_sympify.py::test_sympyify_iterables": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_keywords": true,
+        "sympy/core/tests/test_sympify.py::test_sympify1": true,
+        "sympy/core/tests/test_expr.py::test_action_verbs": true,
+        "sympy/core/tests/test_expr.py::test_SAGE1": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-18057/dedup_patch_19.jsonl": {
+      "sympy__sympy-18057": {
+        "sympy/core/tests/test_sympify.py::test_int_float": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_factorial": true,
+        "sympy/core/tests/test_expr.py::test_count": true,
+        "sympy/core/tests/test_sympify.py::test_sympyify_iterables": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_keywords": true,
+        "sympy/core/tests/test_sympify.py::test_sympify1": true,
+        "sympy/core/tests/test_expr.py::test_action_verbs": true,
+        "sympy/core/tests/test_expr.py::test_SAGE1": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-18057/dedup_patch_2.jsonl": {
+      "sympy__sympy-18057": {
+        "sympy/core/tests/test_sympify.py::test_int_float": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_factorial": true,
+        "sympy/core/tests/test_expr.py::test_count": true,
+        "sympy/core/tests/test_sympify.py::test_sympyify_iterables": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_keywords": true,
+        "sympy/core/tests/test_sympify.py::test_sympify1": true,
+        "sympy/core/tests/test_expr.py::test_action_verbs": true,
+        "sympy/core/tests/test_expr.py::test_SAGE1": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-18057/dedup_patch_20.jsonl": {
+      "sympy__sympy-18057": {
+        "sympy/core/tests/test_sympify.py::test_int_float": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_factorial": true,
+        "sympy/core/tests/test_expr.py::test_count": true,
+        "sympy/core/tests/test_sympify.py::test_sympyify_iterables": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_keywords": true,
+        "sympy/core/tests/test_sympify.py::test_sympify1": true,
+        "sympy/core/tests/test_expr.py::test_action_verbs": true,
+        "sympy/core/tests/test_expr.py::test_SAGE1": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-18057/dedup_patch_21.jsonl": {
+      "sympy__sympy-18057": {
+        "sympy/core/tests/test_sympify.py::test_int_float": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_factorial": true,
+        "sympy/core/tests/test_expr.py::test_count": true,
+        "sympy/core/tests/test_sympify.py::test_sympyify_iterables": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_keywords": true,
+        "sympy/core/tests/test_sympify.py::test_sympify1": true,
+        "sympy/core/tests/test_expr.py::test_action_verbs": true,
+        "sympy/core/tests/test_expr.py::test_SAGE1": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-18057/dedup_patch_22.jsonl": {
+      "sympy__sympy-18057": {
+        "sympy/core/tests/test_sympify.py::test_int_float": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_factorial": true,
+        "sympy/core/tests/test_expr.py::test_count": true,
+        "sympy/core/tests/test_sympify.py::test_sympyify_iterables": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_keywords": true,
+        "sympy/core/tests/test_sympify.py::test_sympify1": true,
+        "sympy/core/tests/test_expr.py::test_action_verbs": true,
+        "sympy/core/tests/test_expr.py::test_SAGE1": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-18057/dedup_patch_23.jsonl": {
+      "sympy__sympy-18057": {
+        "sympy/core/tests/test_sympify.py::test_int_float": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_factorial": true,
+        "sympy/core/tests/test_expr.py::test_count": true,
+        "sympy/core/tests/test_sympify.py::test_sympyify_iterables": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_keywords": true,
+        "sympy/core/tests/test_sympify.py::test_sympify1": true,
+        "sympy/core/tests/test_expr.py::test_action_verbs": true,
+        "sympy/core/tests/test_expr.py::test_SAGE1": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-18057/dedup_patch_24.jsonl": {
+      "sympy__sympy-18057": {
+        "sympy/core/tests/test_sympify.py::test_int_float": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_factorial": true,
+        "sympy/core/tests/test_expr.py::test_count": true,
+        "sympy/core/tests/test_sympify.py::test_sympyify_iterables": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_keywords": true,
+        "sympy/core/tests/test_sympify.py::test_sympify1": true,
+        "sympy/core/tests/test_expr.py::test_action_verbs": true,
+        "sympy/core/tests/test_expr.py::test_SAGE1": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-18057/dedup_patch_25.jsonl": {
+      "sympy__sympy-18057": {
+        "sympy/core/tests/test_sympify.py::test_int_float": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_factorial": true,
+        "sympy/core/tests/test_expr.py::test_count": false,
+        "sympy/core/tests/test_sympify.py::test_sympyify_iterables": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_keywords": true,
+        "sympy/core/tests/test_sympify.py::test_sympify1": true,
+        "sympy/core/tests/test_expr.py::test_action_verbs": false,
+        "sympy/core/tests/test_expr.py::test_SAGE1": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-18057/dedup_patch_26.jsonl": {
+      "sympy__sympy-18057": {
+        "sympy/core/tests/test_sympify.py::test_int_float": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_factorial": true,
+        "sympy/core/tests/test_expr.py::test_count": true,
+        "sympy/core/tests/test_sympify.py::test_sympyify_iterables": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_keywords": true,
+        "sympy/core/tests/test_sympify.py::test_sympify1": true,
+        "sympy/core/tests/test_expr.py::test_action_verbs": true,
+        "sympy/core/tests/test_expr.py::test_SAGE1": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-18057/dedup_patch_27.jsonl": {
+      "sympy__sympy-18057": {
+        "sympy/core/tests/test_sympify.py::test_int_float": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_factorial": true,
+        "sympy/core/tests/test_expr.py::test_count": true,
+        "sympy/core/tests/test_sympify.py::test_sympyify_iterables": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_keywords": true,
+        "sympy/core/tests/test_sympify.py::test_sympify1": true,
+        "sympy/core/tests/test_expr.py::test_action_verbs": true,
+        "sympy/core/tests/test_expr.py::test_SAGE1": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-18057/dedup_patch_28.jsonl": {
+      "sympy__sympy-18057": {
+        "sympy/core/tests/test_sympify.py::test_int_float": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_factorial": true,
+        "sympy/core/tests/test_expr.py::test_count": true,
+        "sympy/core/tests/test_sympify.py::test_sympyify_iterables": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_keywords": true,
+        "sympy/core/tests/test_sympify.py::test_sympify1": true,
+        "sympy/core/tests/test_expr.py::test_action_verbs": true,
+        "sympy/core/tests/test_expr.py::test_SAGE1": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-18057/dedup_patch_29.jsonl": {
+      "sympy__sympy-18057": {
+        "sympy/core/tests/test_sympify.py::test_int_float": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_factorial": true,
+        "sympy/core/tests/test_expr.py::test_count": true,
+        "sympy/core/tests/test_sympify.py::test_sympyify_iterables": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_keywords": true,
+        "sympy/core/tests/test_sympify.py::test_sympify1": true,
+        "sympy/core/tests/test_expr.py::test_action_verbs": true,
+        "sympy/core/tests/test_expr.py::test_SAGE1": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-18057/dedup_patch_3.jsonl": {
+      "sympy__sympy-18057": {
+        "sympy/core/tests/test_sympify.py::test_int_float": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_factorial": true,
+        "sympy/core/tests/test_expr.py::test_count": true,
+        "sympy/core/tests/test_sympify.py::test_sympyify_iterables": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_keywords": true,
+        "sympy/core/tests/test_sympify.py::test_sympify1": true,
+        "sympy/core/tests/test_expr.py::test_action_verbs": true,
+        "sympy/core/tests/test_expr.py::test_SAGE1": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-18057/dedup_patch_30.jsonl": {
+      "sympy__sympy-18057": {
+        "sympy/core/tests/test_sympify.py::test_int_float": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_factorial": true,
+        "sympy/core/tests/test_expr.py::test_count": true,
+        "sympy/core/tests/test_sympify.py::test_sympyify_iterables": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_keywords": true,
+        "sympy/core/tests/test_sympify.py::test_sympify1": true,
+        "sympy/core/tests/test_expr.py::test_action_verbs": true,
+        "sympy/core/tests/test_expr.py::test_SAGE1": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-18057/dedup_patch_31.jsonl": {
+      "sympy__sympy-18057": {
+        "sympy/core/tests/test_sympify.py::test_int_float": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_factorial": true,
+        "sympy/core/tests/test_expr.py::test_count": true,
+        "sympy/core/tests/test_sympify.py::test_sympyify_iterables": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_keywords": true,
+        "sympy/core/tests/test_sympify.py::test_sympify1": true,
+        "sympy/core/tests/test_expr.py::test_action_verbs": true,
+        "sympy/core/tests/test_expr.py::test_SAGE1": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-18057/dedup_patch_32.jsonl": {
+      "sympy__sympy-18057": {
+        "sympy/core/tests/test_sympify.py::test_int_float": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_factorial": true,
+        "sympy/core/tests/test_expr.py::test_count": true,
+        "sympy/core/tests/test_sympify.py::test_sympyify_iterables": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_keywords": true,
+        "sympy/core/tests/test_sympify.py::test_sympify1": true,
+        "sympy/core/tests/test_expr.py::test_action_verbs": true,
+        "sympy/core/tests/test_expr.py::test_SAGE1": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-18057/dedup_patch_33.jsonl": {
+      "sympy__sympy-18057": {
+        "sympy/core/tests/test_sympify.py::test_int_float": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_factorial": true,
+        "sympy/core/tests/test_expr.py::test_count": true,
+        "sympy/core/tests/test_sympify.py::test_sympyify_iterables": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_keywords": true,
+        "sympy/core/tests/test_sympify.py::test_sympify1": true,
+        "sympy/core/tests/test_expr.py::test_action_verbs": true,
+        "sympy/core/tests/test_expr.py::test_SAGE1": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-18057/dedup_patch_34.jsonl": {
+      "sympy__sympy-18057": {
+        "sympy/core/tests/test_sympify.py::test_int_float": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_factorial": false,
+        "sympy/core/tests/test_expr.py::test_count": true,
+        "sympy/core/tests/test_sympify.py::test_sympyify_iterables": false,
+        "sympy/core/tests/test_sympify.py::test_sympify_keywords": false,
+        "sympy/core/tests/test_sympify.py::test_sympify1": false,
+        "sympy/core/tests/test_expr.py::test_action_verbs": false,
+        "sympy/core/tests/test_expr.py::test_SAGE1": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-18057/dedup_patch_4.jsonl": {
+      "sympy__sympy-18057": {
+        "sympy/core/tests/test_sympify.py::test_int_float": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_factorial": true,
+        "sympy/core/tests/test_expr.py::test_count": true,
+        "sympy/core/tests/test_sympify.py::test_sympyify_iterables": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_keywords": true,
+        "sympy/core/tests/test_sympify.py::test_sympify1": true,
+        "sympy/core/tests/test_expr.py::test_action_verbs": true,
+        "sympy/core/tests/test_expr.py::test_SAGE1": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-18057/dedup_patch_5.jsonl": {
+      "sympy__sympy-18057": {
+        "sympy/core/tests/test_sympify.py::test_int_float": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_factorial": true,
+        "sympy/core/tests/test_expr.py::test_count": true,
+        "sympy/core/tests/test_sympify.py::test_sympyify_iterables": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_keywords": true,
+        "sympy/core/tests/test_sympify.py::test_sympify1": true,
+        "sympy/core/tests/test_expr.py::test_action_verbs": true,
+        "sympy/core/tests/test_expr.py::test_SAGE1": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-18057/dedup_patch_6.jsonl": {
+      "sympy__sympy-18057": {
+        "sympy/core/tests/test_sympify.py::test_int_float": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_factorial": true,
+        "sympy/core/tests/test_expr.py::test_count": true,
+        "sympy/core/tests/test_sympify.py::test_sympyify_iterables": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_keywords": true,
+        "sympy/core/tests/test_sympify.py::test_sympify1": true,
+        "sympy/core/tests/test_expr.py::test_action_verbs": true,
+        "sympy/core/tests/test_expr.py::test_SAGE1": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-18057/dedup_patch_7.jsonl": {
+      "sympy__sympy-18057": {
+        "sympy/core/tests/test_sympify.py::test_int_float": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_factorial": true,
+        "sympy/core/tests/test_expr.py::test_count": true,
+        "sympy/core/tests/test_sympify.py::test_sympyify_iterables": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_keywords": true,
+        "sympy/core/tests/test_sympify.py::test_sympify1": true,
+        "sympy/core/tests/test_expr.py::test_action_verbs": true,
+        "sympy/core/tests/test_expr.py::test_SAGE1": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-18057/dedup_patch_8.jsonl": {
+      "sympy__sympy-18057": {
+        "sympy/core/tests/test_sympify.py::test_int_float": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_factorial": true,
+        "sympy/core/tests/test_expr.py::test_count": false,
+        "sympy/core/tests/test_sympify.py::test_sympyify_iterables": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_keywords": true,
+        "sympy/core/tests/test_sympify.py::test_sympify1": true,
+        "sympy/core/tests/test_expr.py::test_action_verbs": true,
+        "sympy/core/tests/test_expr.py::test_SAGE1": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sympy__sympy-18057/dedup_patch_9.jsonl": {
+      "sympy__sympy-18057": {
+        "sympy/core/tests/test_sympify.py::test_int_float": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_factorial": true,
+        "sympy/core/tests/test_expr.py::test_count": true,
+        "sympy/core/tests/test_sympify.py::test_sympyify_iterables": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_keywords": true,
+        "sympy/core/tests/test_sympify.py::test_sympify1": true,
+        "sympy/core/tests/test_expr.py::test_action_verbs": true,
+        "sympy/core/tests/test_expr.py::test_SAGE1": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "sympy__sympy-18057": {
+        "sympy/core/tests/test_sympify.py::test_lambda_raises#1": false,
+        "sympy/core/tests/test_sympify.py::test_issue_16759#2": false,
+        "sympy/core/tests/test_sympify.py::test_lambda_raises#3": false,
+        "sympy/core/tests/test_sympify.py::test_lambda_raises#4": false,
+        "sympy/core/tests/test_sympify.py::test_issue_16759#5": false,
+        "sympy/core/tests/test_sympify.py::test_issue_16759#6": false
+      }
+    }
+  }
+}

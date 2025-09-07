@@ -1,0 +1,33 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/django__django-15569/dedup_patch_0.jsonl": {
+      "django__django-15569": {
+        "custom_lookups.tests.LookupTransformCallOrderTests.test_call_order": true,
+        "custom_lookups.tests.BilateralTransformTests.test_bilateral_inner_qs": true,
+        "custom_lookups.tests.BilateralTransformTests.test_bilateral_order": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-15569": {
+        "custom_lookups.tests.LookupTests.test_unregister_lookup_clears_cache#1": true,
+        "custom_lookups.tests.SubqueryTransformTests.test_unregister_lookup_clears_cache#2": true,
+        "custom_lookups.tests.LookupTests.test_unregister_lookup_clears_cache#3": true,
+        "custom_lookups.tests.LookupTests.test_unregister_lookup_clear_cache#4": true,
+        "custom_lookups.tests.LookupTests.test_lookups_caching#5": true,
+        "custom_lookups.tests.LookupTests.test_lookups_caching#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15569/dedup_patch_0.jsonl": {
+      "django__django-15569": {
+        "custom_lookups.tests.LookupTests.test_unregister_lookup_clears_cache#1": false,
+        "custom_lookups.tests.SubqueryTransformTests.test_unregister_lookup_clears_cache#2": true,
+        "custom_lookups.tests.LookupTests.test_unregister_lookup_clears_cache#3": false,
+        "custom_lookups.tests.LookupTests.test_unregister_lookup_clear_cache#4": false,
+        "custom_lookups.tests.LookupTests.test_lookups_caching#5": false,
+        "custom_lookups.tests.LookupTests.test_lookups_caching#6": false
+      }
+    }
+  }
+}

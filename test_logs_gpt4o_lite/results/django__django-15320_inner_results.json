@@ -1,0 +1,97 @@
+{
+  "regression": {
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15320/dedup_patch_0.jsonl": {
+      "django__django-15320": {
+        "expressions.tests.BasicExpressionsTests.test_nested_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_aggregation_nested_subquery_outerref": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15320/dedup_patch_1.jsonl": {
+      "django__django-15320": {
+        "expressions.tests.BasicExpressionsTests.test_nested_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_aggregation_nested_subquery_outerref": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15320/dedup_patch_2.jsonl": {
+      "django__django-15320": {
+        "expressions.tests.BasicExpressionsTests.test_nested_subquery": false,
+        "aggregation.tests.AggregateTestCase.test_aggregation_nested_subquery_outerref": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15320/dedup_patch_3.jsonl": {
+      "django__django-15320": {
+        "expressions.tests.BasicExpressionsTests.test_nested_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_aggregation_nested_subquery_outerref": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15320/dedup_patch_4.jsonl": {
+      "django__django-15320": {
+        "expressions.tests.BasicExpressionsTests.test_nested_subquery": false,
+        "aggregation.tests.AggregateTestCase.test_aggregation_nested_subquery_outerref": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery": false
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-15320": {
+        "expressions.tests.OrderByTests.test_subquery_as_sql#1": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery_as_sql_generates_valid_sql#2": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery_as_sql_generates_valid_sql#3": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery_as_sql_generates_valid_sql#4": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery_as_sql_generates_valid_sql#5": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery_as_sql#6": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery_as_sql_generates_valid_sql#7": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery_as_sql_generates_valid_sql#8": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery_as_sql_generates_valid_sql#9": true,
+        "expressions.tests.OrderByTests.test_subquery_as_sql#10": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15320/dedup_patch_0.jsonl": {
+      "django__django-15320": {
+        "expressions.tests.OrderByTests.test_subquery_as_sql#1": false,
+        "expressions.tests.BasicExpressionsTests.test_subquery_as_sql_generates_valid_sql#2": false,
+        "expressions.tests.BasicExpressionsTests.test_subquery_as_sql_generates_valid_sql#3": false,
+        "expressions.tests.BasicExpressionsTests.test_subquery_as_sql_generates_valid_sql#4": false,
+        "expressions.tests.BasicExpressionsTests.test_subquery_as_sql_generates_valid_sql#5": false,
+        "expressions.tests.BasicExpressionsTests.test_subquery_as_sql#6": false,
+        "expressions.tests.BasicExpressionsTests.test_subquery_as_sql_generates_valid_sql#7": false,
+        "expressions.tests.BasicExpressionsTests.test_subquery_as_sql_generates_valid_sql#8": false,
+        "expressions.tests.BasicExpressionsTests.test_subquery_as_sql_generates_valid_sql#9": false,
+        "expressions.tests.OrderByTests.test_subquery_as_sql#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15320/dedup_patch_1.jsonl": {
+      "django__django-15320": {
+        "expressions.tests.OrderByTests.test_subquery_as_sql#1": false,
+        "expressions.tests.BasicExpressionsTests.test_subquery_as_sql_generates_valid_sql#2": false,
+        "expressions.tests.BasicExpressionsTests.test_subquery_as_sql_generates_valid_sql#3": false,
+        "expressions.tests.BasicExpressionsTests.test_subquery_as_sql_generates_valid_sql#4": false,
+        "expressions.tests.BasicExpressionsTests.test_subquery_as_sql_generates_valid_sql#5": false,
+        "expressions.tests.BasicExpressionsTests.test_subquery_as_sql#6": false,
+        "expressions.tests.BasicExpressionsTests.test_subquery_as_sql_generates_valid_sql#7": false,
+        "expressions.tests.BasicExpressionsTests.test_subquery_as_sql_generates_valid_sql#8": false,
+        "expressions.tests.BasicExpressionsTests.test_subquery_as_sql_generates_valid_sql#9": false,
+        "expressions.tests.OrderByTests.test_subquery_as_sql#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15320/dedup_patch_3.jsonl": {
+      "django__django-15320": {
+        "expressions.tests.OrderByTests.test_subquery_as_sql#1": false,
+        "expressions.tests.BasicExpressionsTests.test_subquery_as_sql_generates_valid_sql#2": false,
+        "expressions.tests.BasicExpressionsTests.test_subquery_as_sql_generates_valid_sql#3": false,
+        "expressions.tests.BasicExpressionsTests.test_subquery_as_sql_generates_valid_sql#4": false,
+        "expressions.tests.BasicExpressionsTests.test_subquery_as_sql_generates_valid_sql#5": false,
+        "expressions.tests.BasicExpressionsTests.test_subquery_as_sql#6": false,
+        "expressions.tests.BasicExpressionsTests.test_subquery_as_sql_generates_valid_sql#7": false,
+        "expressions.tests.BasicExpressionsTests.test_subquery_as_sql_generates_valid_sql#8": false,
+        "expressions.tests.BasicExpressionsTests.test_subquery_as_sql_generates_valid_sql#9": false,
+        "expressions.tests.OrderByTests.test_subquery_as_sql#10": false
+      }
+    }
+  }
+}

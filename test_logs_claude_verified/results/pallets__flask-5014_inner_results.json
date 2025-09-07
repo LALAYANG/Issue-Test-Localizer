@@ -1,0 +1,14 @@
+{
+  "regression": {},
+  "reproduction": {
+    "fail_on_original_repo": {
+      "pallets__flask-5014": {
+        "tests/test_blueprints.py::test_unique_blueprint_names#1": false,
+        "tests/test_blueprints.py::test_unique_blueprint_names#2": false,
+        "tests/test_blueprints.py::test_blueprint_renaming#3": false,
+        "tests/test_blueprints.py::test_unique_blueprint_names#4": false,
+        "tests/test_blueprints.py::test_unique_blueprint_names#5": false
+      }
+    }
+  }
+}

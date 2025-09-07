@@ -1,0 +1,1089 @@
+{
+  "regression": {
+    "all_patches/lite_claude_all_unique_patches/django__django-15388/dedup_patch_0.jsonl": {
+      "django__django-15388": {
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_files_with_recursive_glob": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_ignores_missing_files": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_with_glob": true,
+        "template_tests.test_response.CacheMiddlewareTest.test_middleware_caching": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_unavailable": true,
+        "template_tests.test_response.SimpleTemplateResponseTest.test_using": true,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_manage_py": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_without_exception": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_available": true,
+        "template_tests.test_loaders.FileSystemLoaderTests.test_directory_security": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_dir_with_unresolvable_path": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_sys_exit": true,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_python_m_django": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_tick_does_not_trigger_twice": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_with_duplicates": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_stop_and_return": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_catches_stopiteration": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_swallows_keyboard_interrupt": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_checks_for_exception": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_start_django": true,
+        "template_tests.test_response.TemplateResponseTest.test_using": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15388/dedup_patch_1.jsonl": {
+      "django__django-15388": {
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_files_with_recursive_glob": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_ignores_missing_files": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_with_glob": true,
+        "template_tests.test_response.CacheMiddlewareTest.test_middleware_caching": false,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_unavailable": true,
+        "template_tests.test_response.SimpleTemplateResponseTest.test_using": false,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_manage_py": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_without_exception": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_available": true,
+        "template_tests.test_loaders.FileSystemLoaderTests.test_directory_security": false,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_dir_with_unresolvable_path": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_sys_exit": true,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_python_m_django": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_tick_does_not_trigger_twice": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_with_duplicates": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_stop_and_return": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_catches_stopiteration": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_swallows_keyboard_interrupt": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_checks_for_exception": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_start_django": true,
+        "template_tests.test_response.TemplateResponseTest.test_using": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15388/dedup_patch_10.jsonl": {
+      "django__django-15388": {
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_files_with_recursive_glob": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_ignores_missing_files": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_with_glob": true,
+        "template_tests.test_response.CacheMiddlewareTest.test_middleware_caching": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_unavailable": true,
+        "template_tests.test_response.SimpleTemplateResponseTest.test_using": true,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_manage_py": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_without_exception": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_available": true,
+        "template_tests.test_loaders.FileSystemLoaderTests.test_directory_security": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_dir_with_unresolvable_path": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_sys_exit": true,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_python_m_django": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_tick_does_not_trigger_twice": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_with_duplicates": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_stop_and_return": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_catches_stopiteration": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_swallows_keyboard_interrupt": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_checks_for_exception": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_start_django": true,
+        "template_tests.test_response.TemplateResponseTest.test_using": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15388/dedup_patch_11.jsonl": {
+      "django__django-15388": {
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_files_with_recursive_glob": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_ignores_missing_files": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_with_glob": true,
+        "template_tests.test_response.CacheMiddlewareTest.test_middleware_caching": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_unavailable": true,
+        "template_tests.test_response.SimpleTemplateResponseTest.test_using": true,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_manage_py": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_without_exception": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_available": true,
+        "template_tests.test_loaders.FileSystemLoaderTests.test_directory_security": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_dir_with_unresolvable_path": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_sys_exit": true,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_python_m_django": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_tick_does_not_trigger_twice": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_with_duplicates": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_stop_and_return": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_catches_stopiteration": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_swallows_keyboard_interrupt": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_checks_for_exception": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_start_django": true,
+        "template_tests.test_response.TemplateResponseTest.test_using": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15388/dedup_patch_12.jsonl": {
+      "django__django-15388": {
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_files_with_recursive_glob": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_ignores_missing_files": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_with_glob": true,
+        "template_tests.test_response.CacheMiddlewareTest.test_middleware_caching": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_unavailable": true,
+        "template_tests.test_response.SimpleTemplateResponseTest.test_using": true,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_manage_py": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_without_exception": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_available": true,
+        "template_tests.test_loaders.FileSystemLoaderTests.test_directory_security": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_dir_with_unresolvable_path": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_sys_exit": true,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_python_m_django": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_tick_does_not_trigger_twice": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_with_duplicates": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_stop_and_return": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_catches_stopiteration": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_swallows_keyboard_interrupt": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_checks_for_exception": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_start_django": true,
+        "template_tests.test_response.TemplateResponseTest.test_using": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15388/dedup_patch_13.jsonl": {
+      "django__django-15388": {
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_files_with_recursive_glob": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_ignores_missing_files": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_with_glob": true,
+        "template_tests.test_response.CacheMiddlewareTest.test_middleware_caching": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_unavailable": true,
+        "template_tests.test_response.SimpleTemplateResponseTest.test_using": true,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_manage_py": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_without_exception": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_available": true,
+        "template_tests.test_loaders.FileSystemLoaderTests.test_directory_security": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_dir_with_unresolvable_path": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_sys_exit": true,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_python_m_django": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_tick_does_not_trigger_twice": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_with_duplicates": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_stop_and_return": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_catches_stopiteration": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_swallows_keyboard_interrupt": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_checks_for_exception": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_start_django": true,
+        "template_tests.test_response.TemplateResponseTest.test_using": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15388/dedup_patch_14.jsonl": {
+      "django__django-15388": {
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_files_with_recursive_glob": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_ignores_missing_files": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_with_glob": true,
+        "template_tests.test_response.CacheMiddlewareTest.test_middleware_caching": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_unavailable": true,
+        "template_tests.test_response.SimpleTemplateResponseTest.test_using": true,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_manage_py": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_without_exception": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_available": true,
+        "template_tests.test_loaders.FileSystemLoaderTests.test_directory_security": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_dir_with_unresolvable_path": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_sys_exit": true,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_python_m_django": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_tick_does_not_trigger_twice": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_with_duplicates": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_stop_and_return": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_catches_stopiteration": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_swallows_keyboard_interrupt": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_checks_for_exception": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_start_django": true,
+        "template_tests.test_response.TemplateResponseTest.test_using": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15388/dedup_patch_15.jsonl": {
+      "django__django-15388": {
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_files_with_recursive_glob": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_ignores_missing_files": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_with_glob": true,
+        "template_tests.test_response.CacheMiddlewareTest.test_middleware_caching": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_unavailable": true,
+        "template_tests.test_response.SimpleTemplateResponseTest.test_using": true,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_manage_py": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_without_exception": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_available": true,
+        "template_tests.test_loaders.FileSystemLoaderTests.test_directory_security": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_dir_with_unresolvable_path": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_sys_exit": true,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_python_m_django": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_tick_does_not_trigger_twice": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_with_duplicates": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_stop_and_return": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_catches_stopiteration": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_swallows_keyboard_interrupt": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_checks_for_exception": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_start_django": true,
+        "template_tests.test_response.TemplateResponseTest.test_using": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15388/dedup_patch_16.jsonl": {
+      "django__django-15388": {
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_files_with_recursive_glob": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_ignores_missing_files": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_with_glob": true,
+        "template_tests.test_response.CacheMiddlewareTest.test_middleware_caching": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_unavailable": true,
+        "template_tests.test_response.SimpleTemplateResponseTest.test_using": true,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_manage_py": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_without_exception": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_available": true,
+        "template_tests.test_loaders.FileSystemLoaderTests.test_directory_security": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_dir_with_unresolvable_path": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_sys_exit": true,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_python_m_django": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_tick_does_not_trigger_twice": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_with_duplicates": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_stop_and_return": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_catches_stopiteration": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_swallows_keyboard_interrupt": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_checks_for_exception": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_start_django": true,
+        "template_tests.test_response.TemplateResponseTest.test_using": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15388/dedup_patch_17.jsonl": {
+      "django__django-15388": {
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_files_with_recursive_glob": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_ignores_missing_files": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_with_glob": false,
+        "template_tests.test_response.CacheMiddlewareTest.test_middleware_caching": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_unavailable": true,
+        "template_tests.test_response.SimpleTemplateResponseTest.test_using": true,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_manage_py": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_without_exception": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_available": true,
+        "template_tests.test_loaders.FileSystemLoaderTests.test_directory_security": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_dir_with_unresolvable_path": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_sys_exit": true,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_python_m_django": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_tick_does_not_trigger_twice": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_with_duplicates": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_stop_and_return": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_catches_stopiteration": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_swallows_keyboard_interrupt": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_checks_for_exception": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_start_django": true,
+        "template_tests.test_response.TemplateResponseTest.test_using": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15388/dedup_patch_18.jsonl": {
+      "django__django-15388": {
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_files_with_recursive_glob": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_ignores_missing_files": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_with_glob": true,
+        "template_tests.test_response.CacheMiddlewareTest.test_middleware_caching": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_unavailable": true,
+        "template_tests.test_response.SimpleTemplateResponseTest.test_using": true,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_manage_py": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_without_exception": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_available": true,
+        "template_tests.test_loaders.FileSystemLoaderTests.test_directory_security": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_dir_with_unresolvable_path": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_sys_exit": true,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_python_m_django": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_tick_does_not_trigger_twice": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_with_duplicates": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_stop_and_return": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_catches_stopiteration": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_swallows_keyboard_interrupt": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_checks_for_exception": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_start_django": true,
+        "template_tests.test_response.TemplateResponseTest.test_using": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15388/dedup_patch_19.jsonl": {
+      "django__django-15388": {
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_files_with_recursive_glob": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_ignores_missing_files": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_with_glob": true,
+        "template_tests.test_response.CacheMiddlewareTest.test_middleware_caching": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_unavailable": true,
+        "template_tests.test_response.SimpleTemplateResponseTest.test_using": true,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_manage_py": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_without_exception": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_available": true,
+        "template_tests.test_loaders.FileSystemLoaderTests.test_directory_security": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_dir_with_unresolvable_path": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_sys_exit": true,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_python_m_django": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_tick_does_not_trigger_twice": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_with_duplicates": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_stop_and_return": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_catches_stopiteration": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_swallows_keyboard_interrupt": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_checks_for_exception": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_start_django": true,
+        "template_tests.test_response.TemplateResponseTest.test_using": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15388/dedup_patch_2.jsonl": {
+      "django__django-15388": {
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_files_with_recursive_glob": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_ignores_missing_files": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_with_glob": true,
+        "template_tests.test_response.CacheMiddlewareTest.test_middleware_caching": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_unavailable": true,
+        "template_tests.test_response.SimpleTemplateResponseTest.test_using": true,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_manage_py": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_without_exception": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_available": true,
+        "template_tests.test_loaders.FileSystemLoaderTests.test_directory_security": false,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_dir_with_unresolvable_path": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_sys_exit": true,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_python_m_django": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_tick_does_not_trigger_twice": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_with_duplicates": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_stop_and_return": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_catches_stopiteration": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_swallows_keyboard_interrupt": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_checks_for_exception": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_start_django": true,
+        "template_tests.test_response.TemplateResponseTest.test_using": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15388/dedup_patch_20.jsonl": {
+      "django__django-15388": {
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_files_with_recursive_glob": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_ignores_missing_files": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_with_glob": false,
+        "template_tests.test_response.CacheMiddlewareTest.test_middleware_caching": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_unavailable": true,
+        "template_tests.test_response.SimpleTemplateResponseTest.test_using": true,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_manage_py": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_without_exception": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_available": true,
+        "template_tests.test_loaders.FileSystemLoaderTests.test_directory_security": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_dir_with_unresolvable_path": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_sys_exit": true,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_python_m_django": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_tick_does_not_trigger_twice": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_with_duplicates": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_stop_and_return": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_catches_stopiteration": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_swallows_keyboard_interrupt": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_checks_for_exception": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_start_django": true,
+        "template_tests.test_response.TemplateResponseTest.test_using": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15388/dedup_patch_21.jsonl": {
+      "django__django-15388": {
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_files_with_recursive_glob": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_ignores_missing_files": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_with_glob": true,
+        "template_tests.test_response.CacheMiddlewareTest.test_middleware_caching": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_unavailable": true,
+        "template_tests.test_response.SimpleTemplateResponseTest.test_using": true,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_manage_py": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_without_exception": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_available": true,
+        "template_tests.test_loaders.FileSystemLoaderTests.test_directory_security": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_dir_with_unresolvable_path": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_sys_exit": true,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_python_m_django": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_tick_does_not_trigger_twice": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_with_duplicates": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_stop_and_return": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_catches_stopiteration": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_swallows_keyboard_interrupt": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_checks_for_exception": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_start_django": true,
+        "template_tests.test_response.TemplateResponseTest.test_using": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15388/dedup_patch_22.jsonl": {
+      "django__django-15388": {
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_files_with_recursive_glob": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_ignores_missing_files": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_with_glob": false,
+        "template_tests.test_response.CacheMiddlewareTest.test_middleware_caching": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_unavailable": true,
+        "template_tests.test_response.SimpleTemplateResponseTest.test_using": true,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_manage_py": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_without_exception": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_available": true,
+        "template_tests.test_loaders.FileSystemLoaderTests.test_directory_security": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_dir_with_unresolvable_path": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_sys_exit": true,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_python_m_django": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_tick_does_not_trigger_twice": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_with_duplicates": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_stop_and_return": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_catches_stopiteration": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_swallows_keyboard_interrupt": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_checks_for_exception": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_start_django": true,
+        "template_tests.test_response.TemplateResponseTest.test_using": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15388/dedup_patch_23.jsonl": {
+      "django__django-15388": {
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_files_with_recursive_glob": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_ignores_missing_files": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_with_glob": true,
+        "template_tests.test_response.CacheMiddlewareTest.test_middleware_caching": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_unavailable": true,
+        "template_tests.test_response.SimpleTemplateResponseTest.test_using": true,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_manage_py": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_without_exception": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_available": true,
+        "template_tests.test_loaders.FileSystemLoaderTests.test_directory_security": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_dir_with_unresolvable_path": false,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_sys_exit": true,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_python_m_django": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_tick_does_not_trigger_twice": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_with_duplicates": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_stop_and_return": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_catches_stopiteration": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_swallows_keyboard_interrupt": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_checks_for_exception": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_start_django": true,
+        "template_tests.test_response.TemplateResponseTest.test_using": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15388/dedup_patch_24.jsonl": {
+      "django__django-15388": {
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_files_with_recursive_glob": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_ignores_missing_files": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_with_glob": true,
+        "template_tests.test_response.CacheMiddlewareTest.test_middleware_caching": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_unavailable": true,
+        "template_tests.test_response.SimpleTemplateResponseTest.test_using": true,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_manage_py": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_without_exception": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_available": true,
+        "template_tests.test_loaders.FileSystemLoaderTests.test_directory_security": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_dir_with_unresolvable_path": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_sys_exit": true,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_python_m_django": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_tick_does_not_trigger_twice": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_with_duplicates": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_stop_and_return": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_catches_stopiteration": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_swallows_keyboard_interrupt": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_checks_for_exception": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_start_django": true,
+        "template_tests.test_response.TemplateResponseTest.test_using": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15388/dedup_patch_25.jsonl": {
+      "django__django-15388": {
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_files_with_recursive_glob": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_ignores_missing_files": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_with_glob": true,
+        "template_tests.test_response.CacheMiddlewareTest.test_middleware_caching": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_unavailable": true,
+        "template_tests.test_response.SimpleTemplateResponseTest.test_using": true,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_manage_py": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_without_exception": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_available": true,
+        "template_tests.test_loaders.FileSystemLoaderTests.test_directory_security": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_dir_with_unresolvable_path": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_sys_exit": true,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_python_m_django": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_tick_does_not_trigger_twice": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_with_duplicates": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_stop_and_return": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_catches_stopiteration": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_swallows_keyboard_interrupt": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_checks_for_exception": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_start_django": true,
+        "template_tests.test_response.TemplateResponseTest.test_using": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15388/dedup_patch_26.jsonl": {
+      "django__django-15388": {
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_files_with_recursive_glob": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_ignores_missing_files": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_with_glob": true,
+        "template_tests.test_response.CacheMiddlewareTest.test_middleware_caching": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_unavailable": true,
+        "template_tests.test_response.SimpleTemplateResponseTest.test_using": true,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_manage_py": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_without_exception": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_available": true,
+        "template_tests.test_loaders.FileSystemLoaderTests.test_directory_security": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_dir_with_unresolvable_path": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_sys_exit": true,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_python_m_django": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_tick_does_not_trigger_twice": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_with_duplicates": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_stop_and_return": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_catches_stopiteration": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_swallows_keyboard_interrupt": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_checks_for_exception": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_start_django": true,
+        "template_tests.test_response.TemplateResponseTest.test_using": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15388/dedup_patch_27.jsonl": {
+      "django__django-15388": {
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_files_with_recursive_glob": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_ignores_missing_files": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_with_glob": true,
+        "template_tests.test_response.CacheMiddlewareTest.test_middleware_caching": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_unavailable": true,
+        "template_tests.test_response.SimpleTemplateResponseTest.test_using": true,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_manage_py": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_without_exception": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_available": true,
+        "template_tests.test_loaders.FileSystemLoaderTests.test_directory_security": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_dir_with_unresolvable_path": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_sys_exit": true,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_python_m_django": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_tick_does_not_trigger_twice": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_with_duplicates": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_stop_and_return": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_catches_stopiteration": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_swallows_keyboard_interrupt": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_checks_for_exception": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_start_django": true,
+        "template_tests.test_response.TemplateResponseTest.test_using": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15388/dedup_patch_28.jsonl": {
+      "django__django-15388": {
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_files_with_recursive_glob": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_ignores_missing_files": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_with_glob": true,
+        "template_tests.test_response.CacheMiddlewareTest.test_middleware_caching": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_unavailable": true,
+        "template_tests.test_response.SimpleTemplateResponseTest.test_using": true,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_manage_py": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_without_exception": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_available": true,
+        "template_tests.test_loaders.FileSystemLoaderTests.test_directory_security": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_dir_with_unresolvable_path": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_sys_exit": true,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_python_m_django": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_tick_does_not_trigger_twice": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_with_duplicates": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_stop_and_return": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_catches_stopiteration": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_swallows_keyboard_interrupt": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_checks_for_exception": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_start_django": true,
+        "template_tests.test_response.TemplateResponseTest.test_using": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15388/dedup_patch_29.jsonl": {
+      "django__django-15388": {
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_files_with_recursive_glob": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_ignores_missing_files": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_with_glob": true,
+        "template_tests.test_response.CacheMiddlewareTest.test_middleware_caching": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_unavailable": true,
+        "template_tests.test_response.SimpleTemplateResponseTest.test_using": true,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_manage_py": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_without_exception": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_available": true,
+        "template_tests.test_loaders.FileSystemLoaderTests.test_directory_security": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_dir_with_unresolvable_path": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_sys_exit": true,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_python_m_django": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_tick_does_not_trigger_twice": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_with_duplicates": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_stop_and_return": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_catches_stopiteration": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_swallows_keyboard_interrupt": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_checks_for_exception": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_start_django": true,
+        "template_tests.test_response.TemplateResponseTest.test_using": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15388/dedup_patch_3.jsonl": {
+      "django__django-15388": {
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_files_with_recursive_glob": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_ignores_missing_files": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_with_glob": true,
+        "template_tests.test_response.CacheMiddlewareTest.test_middleware_caching": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_unavailable": true,
+        "template_tests.test_response.SimpleTemplateResponseTest.test_using": true,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_manage_py": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_without_exception": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_available": true,
+        "template_tests.test_loaders.FileSystemLoaderTests.test_directory_security": false,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_dir_with_unresolvable_path": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_sys_exit": true,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_python_m_django": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_tick_does_not_trigger_twice": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_with_duplicates": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_stop_and_return": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_catches_stopiteration": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_swallows_keyboard_interrupt": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_checks_for_exception": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_start_django": true,
+        "template_tests.test_response.TemplateResponseTest.test_using": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15388/dedup_patch_30.jsonl": {
+      "django__django-15388": {
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_files_with_recursive_glob": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_ignores_missing_files": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_with_glob": true,
+        "template_tests.test_response.CacheMiddlewareTest.test_middleware_caching": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_unavailable": true,
+        "template_tests.test_response.SimpleTemplateResponseTest.test_using": true,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_manage_py": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_without_exception": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_available": true,
+        "template_tests.test_loaders.FileSystemLoaderTests.test_directory_security": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_dir_with_unresolvable_path": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_sys_exit": true,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_python_m_django": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_tick_does_not_trigger_twice": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_with_duplicates": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_stop_and_return": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_catches_stopiteration": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_swallows_keyboard_interrupt": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_checks_for_exception": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_start_django": true,
+        "template_tests.test_response.TemplateResponseTest.test_using": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15388/dedup_patch_31.jsonl": {
+      "django__django-15388": {
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_files_with_recursive_glob": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_ignores_missing_files": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_with_glob": true,
+        "template_tests.test_response.CacheMiddlewareTest.test_middleware_caching": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_unavailable": true,
+        "template_tests.test_response.SimpleTemplateResponseTest.test_using": true,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_manage_py": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_without_exception": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_available": true,
+        "template_tests.test_loaders.FileSystemLoaderTests.test_directory_security": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_dir_with_unresolvable_path": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_sys_exit": true,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_python_m_django": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_tick_does_not_trigger_twice": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_with_duplicates": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_stop_and_return": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_catches_stopiteration": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_swallows_keyboard_interrupt": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_checks_for_exception": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_start_django": true,
+        "template_tests.test_response.TemplateResponseTest.test_using": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15388/dedup_patch_32.jsonl": {
+      "django__django-15388": {
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_files_with_recursive_glob": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_ignores_missing_files": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_with_glob": true,
+        "template_tests.test_response.CacheMiddlewareTest.test_middleware_caching": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_unavailable": true,
+        "template_tests.test_response.SimpleTemplateResponseTest.test_using": true,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_manage_py": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_without_exception": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_available": true,
+        "template_tests.test_loaders.FileSystemLoaderTests.test_directory_security": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_dir_with_unresolvable_path": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_sys_exit": true,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_python_m_django": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_tick_does_not_trigger_twice": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_with_duplicates": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_stop_and_return": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_catches_stopiteration": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_swallows_keyboard_interrupt": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_checks_for_exception": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_start_django": true,
+        "template_tests.test_response.TemplateResponseTest.test_using": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15388/dedup_patch_33.jsonl": {
+      "django__django-15388": {
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_files_with_recursive_glob": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_ignores_missing_files": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_with_glob": true,
+        "template_tests.test_response.CacheMiddlewareTest.test_middleware_caching": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_unavailable": true,
+        "template_tests.test_response.SimpleTemplateResponseTest.test_using": true,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_manage_py": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_without_exception": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_available": true,
+        "template_tests.test_loaders.FileSystemLoaderTests.test_directory_security": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_dir_with_unresolvable_path": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_sys_exit": true,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_python_m_django": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_tick_does_not_trigger_twice": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_with_duplicates": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_stop_and_return": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_catches_stopiteration": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_swallows_keyboard_interrupt": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_checks_for_exception": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_start_django": true,
+        "template_tests.test_response.TemplateResponseTest.test_using": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15388/dedup_patch_34.jsonl": {
+      "django__django-15388": {
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_files_with_recursive_glob": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_ignores_missing_files": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_with_glob": true,
+        "template_tests.test_response.CacheMiddlewareTest.test_middleware_caching": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_unavailable": true,
+        "template_tests.test_response.SimpleTemplateResponseTest.test_using": true,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_manage_py": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_without_exception": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_available": true,
+        "template_tests.test_loaders.FileSystemLoaderTests.test_directory_security": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_dir_with_unresolvable_path": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_sys_exit": true,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_python_m_django": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_tick_does_not_trigger_twice": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_with_duplicates": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_stop_and_return": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_catches_stopiteration": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_swallows_keyboard_interrupt": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_checks_for_exception": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_start_django": true,
+        "template_tests.test_response.TemplateResponseTest.test_using": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15388/dedup_patch_35.jsonl": {
+      "django__django-15388": {
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_files_with_recursive_glob": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_ignores_missing_files": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_with_glob": true,
+        "template_tests.test_response.CacheMiddlewareTest.test_middleware_caching": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_unavailable": true,
+        "template_tests.test_response.SimpleTemplateResponseTest.test_using": true,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_manage_py": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_without_exception": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_available": true,
+        "template_tests.test_loaders.FileSystemLoaderTests.test_directory_security": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_dir_with_unresolvable_path": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_sys_exit": true,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_python_m_django": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_tick_does_not_trigger_twice": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_with_duplicates": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_stop_and_return": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_catches_stopiteration": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_swallows_keyboard_interrupt": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_checks_for_exception": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_start_django": true,
+        "template_tests.test_response.TemplateResponseTest.test_using": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15388/dedup_patch_4.jsonl": {
+      "django__django-15388": {
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_files_with_recursive_glob": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_ignores_missing_files": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_with_glob": true,
+        "template_tests.test_response.CacheMiddlewareTest.test_middleware_caching": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_unavailable": true,
+        "template_tests.test_response.SimpleTemplateResponseTest.test_using": true,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_manage_py": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_without_exception": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_available": true,
+        "template_tests.test_loaders.FileSystemLoaderTests.test_directory_security": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_dir_with_unresolvable_path": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_sys_exit": true,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_python_m_django": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_tick_does_not_trigger_twice": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_with_duplicates": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_stop_and_return": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_catches_stopiteration": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_swallows_keyboard_interrupt": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_checks_for_exception": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_start_django": true,
+        "template_tests.test_response.TemplateResponseTest.test_using": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15388/dedup_patch_5.jsonl": {
+      "django__django-15388": {
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_files_with_recursive_glob": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_ignores_missing_files": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_with_glob": true,
+        "template_tests.test_response.CacheMiddlewareTest.test_middleware_caching": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_unavailable": true,
+        "template_tests.test_response.SimpleTemplateResponseTest.test_using": true,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_manage_py": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_without_exception": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_available": true,
+        "template_tests.test_loaders.FileSystemLoaderTests.test_directory_security": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_dir_with_unresolvable_path": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_sys_exit": true,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_python_m_django": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_tick_does_not_trigger_twice": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_with_duplicates": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_stop_and_return": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_catches_stopiteration": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_swallows_keyboard_interrupt": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_checks_for_exception": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_start_django": true,
+        "template_tests.test_response.TemplateResponseTest.test_using": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15388/dedup_patch_6.jsonl": {
+      "django__django-15388": {
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_files_with_recursive_glob": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_ignores_missing_files": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_with_glob": true,
+        "template_tests.test_response.CacheMiddlewareTest.test_middleware_caching": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_unavailable": true,
+        "template_tests.test_response.SimpleTemplateResponseTest.test_using": true,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_manage_py": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_without_exception": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_available": true,
+        "template_tests.test_loaders.FileSystemLoaderTests.test_directory_security": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_dir_with_unresolvable_path": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_sys_exit": true,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_python_m_django": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_tick_does_not_trigger_twice": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_with_duplicates": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_stop_and_return": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_catches_stopiteration": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_swallows_keyboard_interrupt": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_checks_for_exception": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_start_django": true,
+        "template_tests.test_response.TemplateResponseTest.test_using": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15388/dedup_patch_7.jsonl": {
+      "django__django-15388": {
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_files_with_recursive_glob": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_ignores_missing_files": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_with_glob": true,
+        "template_tests.test_response.CacheMiddlewareTest.test_middleware_caching": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_unavailable": true,
+        "template_tests.test_response.SimpleTemplateResponseTest.test_using": true,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_manage_py": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_without_exception": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_available": true,
+        "template_tests.test_loaders.FileSystemLoaderTests.test_directory_security": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_dir_with_unresolvable_path": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_sys_exit": true,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_python_m_django": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_tick_does_not_trigger_twice": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_with_duplicates": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_stop_and_return": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_catches_stopiteration": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_swallows_keyboard_interrupt": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_checks_for_exception": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_start_django": true,
+        "template_tests.test_response.TemplateResponseTest.test_using": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15388/dedup_patch_8.jsonl": {
+      "django__django-15388": {
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_files_with_recursive_glob": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_ignores_missing_files": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_with_glob": true,
+        "template_tests.test_response.CacheMiddlewareTest.test_middleware_caching": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_unavailable": true,
+        "template_tests.test_response.SimpleTemplateResponseTest.test_using": true,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_manage_py": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_without_exception": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_available": true,
+        "template_tests.test_loaders.FileSystemLoaderTests.test_directory_security": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_dir_with_unresolvable_path": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_sys_exit": true,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_python_m_django": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_tick_does_not_trigger_twice": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_with_duplicates": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_stop_and_return": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_catches_stopiteration": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_swallows_keyboard_interrupt": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_checks_for_exception": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_start_django": true,
+        "template_tests.test_response.TemplateResponseTest.test_using": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15388/dedup_patch_9.jsonl": {
+      "django__django-15388": {
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_files_with_recursive_glob": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_ignores_missing_files": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_with_glob": true,
+        "template_tests.test_response.CacheMiddlewareTest.test_middleware_caching": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_unavailable": true,
+        "template_tests.test_response.SimpleTemplateResponseTest.test_using": true,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_manage_py": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_without_exception": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_available": true,
+        "template_tests.test_loaders.FileSystemLoaderTests.test_directory_security": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_dir_with_unresolvable_path": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_sys_exit": true,
+        "utils_tests.test_autoreload.RestartWithReloaderTests.test_python_m_django": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_tick_does_not_trigger_twice": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_with_duplicates": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_stop_and_return": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_catches_stopiteration": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_swallows_keyboard_interrupt": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_checks_for_exception": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_start_django": true,
+        "template_tests.test_response.TemplateResponseTest.test_using": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-15388": {
+        "template_tests.test_autoreloader.TemplateReloadTests.test_base_dir_in_template_dirs#1": false,
+        "template_tests.test_autoreloader.TemplateReloadTests.test_pathlib_base_dir_in_template_dirs#2": false,
+        "template_tests.test_autoreloader.TemplateReloadTests.test_template_dirs_with_pathlib_objects#3": true,
+        "template_tests.test_autoreloader.TemplateReloadTests.test_base_dir_in_template_dirs#4": false,
+        "template_tests.test_autoreloader.TemplateReloadTests.test_template_dirs_with_base_dir#5": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15388/dedup_patch_0.jsonl": {
+      "django__django-15388": {
+        "template_tests.test_autoreloader.TemplateReloadTests.test_template_dirs_with_pathlib_objects#3": false,
+        "template_tests.test_autoreloader.TemplateReloadTests.test_template_dirs_with_base_dir#5": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15388/dedup_patch_10.jsonl": {
+      "django__django-15388": {
+        "template_tests.test_autoreloader.TemplateReloadTests.test_template_dirs_with_pathlib_objects#3": false,
+        "template_tests.test_autoreloader.TemplateReloadTests.test_template_dirs_with_base_dir#5": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15388/dedup_patch_11.jsonl": {
+      "django__django-15388": {
+        "template_tests.test_autoreloader.TemplateReloadTests.test_template_dirs_with_pathlib_objects#3": false,
+        "template_tests.test_autoreloader.TemplateReloadTests.test_template_dirs_with_base_dir#5": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15388/dedup_patch_12.jsonl": {
+      "django__django-15388": {
+        "template_tests.test_autoreloader.TemplateReloadTests.test_template_dirs_with_pathlib_objects#3": false,
+        "template_tests.test_autoreloader.TemplateReloadTests.test_template_dirs_with_base_dir#5": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15388/dedup_patch_13.jsonl": {
+      "django__django-15388": {
+        "template_tests.test_autoreloader.TemplateReloadTests.test_template_dirs_with_pathlib_objects#3": false,
+        "template_tests.test_autoreloader.TemplateReloadTests.test_template_dirs_with_base_dir#5": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15388/dedup_patch_14.jsonl": {
+      "django__django-15388": {
+        "template_tests.test_autoreloader.TemplateReloadTests.test_template_dirs_with_pathlib_objects#3": false,
+        "template_tests.test_autoreloader.TemplateReloadTests.test_template_dirs_with_base_dir#5": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15388/dedup_patch_15.jsonl": {
+      "django__django-15388": {
+        "template_tests.test_autoreloader.TemplateReloadTests.test_template_dirs_with_pathlib_objects#3": false,
+        "template_tests.test_autoreloader.TemplateReloadTests.test_template_dirs_with_base_dir#5": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15388/dedup_patch_16.jsonl": {
+      "django__django-15388": {
+        "template_tests.test_autoreloader.TemplateReloadTests.test_template_dirs_with_pathlib_objects#3": false,
+        "template_tests.test_autoreloader.TemplateReloadTests.test_template_dirs_with_base_dir#5": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15388/dedup_patch_18.jsonl": {
+      "django__django-15388": {
+        "template_tests.test_autoreloader.TemplateReloadTests.test_template_dirs_with_pathlib_objects#3": false,
+        "template_tests.test_autoreloader.TemplateReloadTests.test_template_dirs_with_base_dir#5": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15388/dedup_patch_19.jsonl": {
+      "django__django-15388": {
+        "template_tests.test_autoreloader.TemplateReloadTests.test_template_dirs_with_pathlib_objects#3": false,
+        "template_tests.test_autoreloader.TemplateReloadTests.test_template_dirs_with_base_dir#5": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15388/dedup_patch_21.jsonl": {
+      "django__django-15388": {
+        "template_tests.test_autoreloader.TemplateReloadTests.test_template_dirs_with_pathlib_objects#3": false,
+        "template_tests.test_autoreloader.TemplateReloadTests.test_template_dirs_with_base_dir#5": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15388/dedup_patch_24.jsonl": {
+      "django__django-15388": {
+        "template_tests.test_autoreloader.TemplateReloadTests.test_template_dirs_with_pathlib_objects#3": false,
+        "template_tests.test_autoreloader.TemplateReloadTests.test_template_dirs_with_base_dir#5": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15388/dedup_patch_25.jsonl": {
+      "django__django-15388": {
+        "template_tests.test_autoreloader.TemplateReloadTests.test_template_dirs_with_pathlib_objects#3": false,
+        "template_tests.test_autoreloader.TemplateReloadTests.test_template_dirs_with_base_dir#5": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15388/dedup_patch_26.jsonl": {
+      "django__django-15388": {
+        "template_tests.test_autoreloader.TemplateReloadTests.test_template_dirs_with_pathlib_objects#3": false,
+        "template_tests.test_autoreloader.TemplateReloadTests.test_template_dirs_with_base_dir#5": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15388/dedup_patch_27.jsonl": {
+      "django__django-15388": {
+        "template_tests.test_autoreloader.TemplateReloadTests.test_template_dirs_with_pathlib_objects#3": false,
+        "template_tests.test_autoreloader.TemplateReloadTests.test_template_dirs_with_base_dir#5": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15388/dedup_patch_28.jsonl": {
+      "django__django-15388": {
+        "template_tests.test_autoreloader.TemplateReloadTests.test_template_dirs_with_pathlib_objects#3": false,
+        "template_tests.test_autoreloader.TemplateReloadTests.test_template_dirs_with_base_dir#5": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15388/dedup_patch_29.jsonl": {
+      "django__django-15388": {
+        "template_tests.test_autoreloader.TemplateReloadTests.test_template_dirs_with_pathlib_objects#3": false,
+        "template_tests.test_autoreloader.TemplateReloadTests.test_template_dirs_with_base_dir#5": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15388/dedup_patch_30.jsonl": {
+      "django__django-15388": {
+        "template_tests.test_autoreloader.TemplateReloadTests.test_template_dirs_with_pathlib_objects#3": false,
+        "template_tests.test_autoreloader.TemplateReloadTests.test_template_dirs_with_base_dir#5": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15388/dedup_patch_31.jsonl": {
+      "django__django-15388": {
+        "template_tests.test_autoreloader.TemplateReloadTests.test_template_dirs_with_pathlib_objects#3": false,
+        "template_tests.test_autoreloader.TemplateReloadTests.test_template_dirs_with_base_dir#5": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15388/dedup_patch_32.jsonl": {
+      "django__django-15388": {
+        "template_tests.test_autoreloader.TemplateReloadTests.test_template_dirs_with_pathlib_objects#3": false,
+        "template_tests.test_autoreloader.TemplateReloadTests.test_template_dirs_with_base_dir#5": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15388/dedup_patch_33.jsonl": {
+      "django__django-15388": {
+        "template_tests.test_autoreloader.TemplateReloadTests.test_template_dirs_with_pathlib_objects#3": false,
+        "template_tests.test_autoreloader.TemplateReloadTests.test_template_dirs_with_base_dir#5": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15388/dedup_patch_34.jsonl": {
+      "django__django-15388": {
+        "template_tests.test_autoreloader.TemplateReloadTests.test_template_dirs_with_pathlib_objects#3": false,
+        "template_tests.test_autoreloader.TemplateReloadTests.test_template_dirs_with_base_dir#5": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15388/dedup_patch_35.jsonl": {
+      "django__django-15388": {
+        "template_tests.test_autoreloader.TemplateReloadTests.test_template_dirs_with_pathlib_objects#3": false,
+        "template_tests.test_autoreloader.TemplateReloadTests.test_template_dirs_with_base_dir#5": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15388/dedup_patch_4.jsonl": {
+      "django__django-15388": {
+        "template_tests.test_autoreloader.TemplateReloadTests.test_template_dirs_with_pathlib_objects#3": false,
+        "template_tests.test_autoreloader.TemplateReloadTests.test_template_dirs_with_base_dir#5": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15388/dedup_patch_5.jsonl": {
+      "django__django-15388": {
+        "template_tests.test_autoreloader.TemplateReloadTests.test_template_dirs_with_pathlib_objects#3": false,
+        "template_tests.test_autoreloader.TemplateReloadTests.test_template_dirs_with_base_dir#5": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15388/dedup_patch_6.jsonl": {
+      "django__django-15388": {
+        "template_tests.test_autoreloader.TemplateReloadTests.test_template_dirs_with_pathlib_objects#3": false,
+        "template_tests.test_autoreloader.TemplateReloadTests.test_template_dirs_with_base_dir#5": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15388/dedup_patch_7.jsonl": {
+      "django__django-15388": {
+        "template_tests.test_autoreloader.TemplateReloadTests.test_template_dirs_with_pathlib_objects#3": false,
+        "template_tests.test_autoreloader.TemplateReloadTests.test_template_dirs_with_base_dir#5": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15388/dedup_patch_8.jsonl": {
+      "django__django-15388": {
+        "template_tests.test_autoreloader.TemplateReloadTests.test_template_dirs_with_pathlib_objects#3": false,
+        "template_tests.test_autoreloader.TemplateReloadTests.test_template_dirs_with_base_dir#5": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-15388/dedup_patch_9.jsonl": {
+      "django__django-15388": {
+        "template_tests.test_autoreloader.TemplateReloadTests.test_template_dirs_with_pathlib_objects#3": false,
+        "template_tests.test_autoreloader.TemplateReloadTests.test_template_dirs_with_base_dir#5": false
+      }
+    }
+  }
+}

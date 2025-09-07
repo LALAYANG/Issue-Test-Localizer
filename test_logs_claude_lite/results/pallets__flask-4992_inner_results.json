@@ -1,0 +1,15 @@
+{
+  "regression": {},
+  "reproduction": {
+    "fail_on_original_repo": {
+      "pallets__flask-4992": {
+        "tests/test_config.py::test_config_from_file#1": false,
+        "tests/test_config.py::test_config_from_file#2": false,
+        "tests/test_config.py::test_config_from_file#3": false,
+        "tests/test_config.py::test_config_from_file#4": false,
+        "tests/test_config.py::test_config_from_file#5": false,
+        "tests/test_config.py::test_config_from_file#6": false
+      }
+    }
+  }
+}

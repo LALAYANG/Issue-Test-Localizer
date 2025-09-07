@@ -1,0 +1,284 @@
+{
+  "instance_id": "pylint-dev__pylint-5859",
+  "container_id": "8d921dc51f5813158596289403af90de25ccba2e6a8a3cee9065e1ad27bd7b6e",
+  "regression": {
+    "results": [
+      {
+        "patch_file": "all_patches/lite_claude_all_unique_patches/pylint-dev__pylint-5859/dedup_patch_0.jsonl",
+        "inst": "pylint-dev__pylint-5859",
+        "passed": 7,
+        "failed": 0
+      },
+      {
+        "patch_file": "all_patches/lite_claude_all_unique_patches/pylint-dev__pylint-5859/dedup_patch_1.jsonl",
+        "inst": "pylint-dev__pylint-5859",
+        "passed": 7,
+        "failed": 0
+      },
+      {
+        "patch_file": "all_patches/lite_claude_all_unique_patches/pylint-dev__pylint-5859/dedup_patch_3.jsonl",
+        "inst": "pylint-dev__pylint-5859",
+        "passed": 7,
+        "failed": 0
+      },
+      {
+        "patch_file": "all_patches/lite_claude_all_unique_patches/pylint-dev__pylint-5859/dedup_patch_4.jsonl",
+        "inst": "pylint-dev__pylint-5859",
+        "passed": 7,
+        "failed": 0
+      },
+      {
+        "patch_file": "all_patches/lite_claude_all_unique_patches/pylint-dev__pylint-5859/dedup_patch_5.jsonl",
+        "inst": "pylint-dev__pylint-5859",
+        "passed": 7,
+        "failed": 0
+      },
+      {
+        "patch_file": "all_patches/lite_claude_all_unique_patches/pylint-dev__pylint-5859/dedup_patch_6.jsonl",
+        "inst": "pylint-dev__pylint-5859",
+        "passed": 7,
+        "failed": 0
+      },
+      {
+        "patch_file": "all_patches/lite_claude_all_unique_patches/pylint-dev__pylint-5859/dedup_patch_7.jsonl",
+        "inst": "pylint-dev__pylint-5859",
+        "passed": 7,
+        "failed": 0
+      },
+      {
+        "patch_file": "all_patches/lite_claude_all_unique_patches/pylint-dev__pylint-5859/dedup_patch_10.jsonl",
+        "inst": "pylint-dev__pylint-5859",
+        "passed": 6,
+        "failed": 1
+      },
+      {
+        "patch_file": "all_patches/lite_claude_all_unique_patches/pylint-dev__pylint-5859/dedup_patch_11.jsonl",
+        "inst": "pylint-dev__pylint-5859",
+        "passed": 6,
+        "failed": 1
+      },
+      {
+        "patch_file": "all_patches/lite_claude_all_unique_patches/pylint-dev__pylint-5859/dedup_patch_2.jsonl",
+        "inst": "pylint-dev__pylint-5859",
+        "passed": 6,
+        "failed": 1
+      },
+      {
+        "patch_file": "all_patches/lite_claude_all_unique_patches/pylint-dev__pylint-5859/dedup_patch_8.jsonl",
+        "inst": "pylint-dev__pylint-5859",
+        "passed": 6,
+        "failed": 1
+      },
+      {
+        "patch_file": "all_patches/lite_claude_all_unique_patches/pylint-dev__pylint-5859/dedup_patch_9.jsonl",
+        "inst": "pylint-dev__pylint-5859",
+        "passed": 6,
+        "failed": 1
+      }
+    ],
+    "top_passed": 7,
+    "top_subset_size": 7
+  },
+  "reproduction": {
+    "tests/checkers/unittest_misc.py::TestFixme::test_punctuation_note_tag#1": {
+      "repro_fails_on_clean": true,
+      "outcomes": [
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/pylint-dev__pylint-5859/dedup_patch_0.jsonl",
+          "inst": "pylint-dev__pylint-5859",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/pylint-dev__pylint-5859/dedup_patch_1.jsonl",
+          "inst": "pylint-dev__pylint-5859",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/pylint-dev__pylint-5859/dedup_patch_3.jsonl",
+          "inst": "pylint-dev__pylint-5859",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/pylint-dev__pylint-5859/dedup_patch_4.jsonl",
+          "inst": "pylint-dev__pylint-5859",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/pylint-dev__pylint-5859/dedup_patch_5.jsonl",
+          "inst": "pylint-dev__pylint-5859",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/pylint-dev__pylint-5859/dedup_patch_6.jsonl",
+          "inst": "pylint-dev__pylint-5859",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/pylint-dev__pylint-5859/dedup_patch_7.jsonl",
+          "inst": "pylint-dev__pylint-5859",
+          "passed": false
+        }
+      ]
+    },
+    "tests/checkers/unittest_misc.py::TestFixme::test_fixme_with_punctuation_tag#2": {
+      "repro_fails_on_clean": true,
+      "outcomes": [
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/pylint-dev__pylint-5859/dedup_patch_0.jsonl",
+          "inst": "pylint-dev__pylint-5859",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/pylint-dev__pylint-5859/dedup_patch_1.jsonl",
+          "inst": "pylint-dev__pylint-5859",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/pylint-dev__pylint-5859/dedup_patch_3.jsonl",
+          "inst": "pylint-dev__pylint-5859",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/pylint-dev__pylint-5859/dedup_patch_4.jsonl",
+          "inst": "pylint-dev__pylint-5859",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/pylint-dev__pylint-5859/dedup_patch_5.jsonl",
+          "inst": "pylint-dev__pylint-5859",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/pylint-dev__pylint-5859/dedup_patch_6.jsonl",
+          "inst": "pylint-dev__pylint-5859",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/pylint-dev__pylint-5859/dedup_patch_7.jsonl",
+          "inst": "pylint-dev__pylint-5859",
+          "passed": false
+        }
+      ]
+    },
+    "tests/checkers/unittest_misc.py::TestFixme::test_punctuation_note_tag#3": {
+      "repro_fails_on_clean": true,
+      "outcomes": [
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/pylint-dev__pylint-5859/dedup_patch_0.jsonl",
+          "inst": "pylint-dev__pylint-5859",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/pylint-dev__pylint-5859/dedup_patch_1.jsonl",
+          "inst": "pylint-dev__pylint-5859",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/pylint-dev__pylint-5859/dedup_patch_3.jsonl",
+          "inst": "pylint-dev__pylint-5859",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/pylint-dev__pylint-5859/dedup_patch_4.jsonl",
+          "inst": "pylint-dev__pylint-5859",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/pylint-dev__pylint-5859/dedup_patch_5.jsonl",
+          "inst": "pylint-dev__pylint-5859",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/pylint-dev__pylint-5859/dedup_patch_6.jsonl",
+          "inst": "pylint-dev__pylint-5859",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/pylint-dev__pylint-5859/dedup_patch_7.jsonl",
+          "inst": "pylint-dev__pylint-5859",
+          "passed": false
+        }
+      ]
+    },
+    "tests/checkers/unittest_misc.py::TestFixme::test_fixme_with_punctuation_tag#4": {
+      "repro_fails_on_clean": true,
+      "outcomes": [
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/pylint-dev__pylint-5859/dedup_patch_0.jsonl",
+          "inst": "pylint-dev__pylint-5859",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/pylint-dev__pylint-5859/dedup_patch_1.jsonl",
+          "inst": "pylint-dev__pylint-5859",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/pylint-dev__pylint-5859/dedup_patch_3.jsonl",
+          "inst": "pylint-dev__pylint-5859",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/pylint-dev__pylint-5859/dedup_patch_4.jsonl",
+          "inst": "pylint-dev__pylint-5859",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/pylint-dev__pylint-5859/dedup_patch_5.jsonl",
+          "inst": "pylint-dev__pylint-5859",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/pylint-dev__pylint-5859/dedup_patch_6.jsonl",
+          "inst": "pylint-dev__pylint-5859",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/pylint-dev__pylint-5859/dedup_patch_7.jsonl",
+          "inst": "pylint-dev__pylint-5859",
+          "passed": false
+        }
+      ]
+    },
+    "tests/checkers/unittest_misc.py::TestFixme::test_punctuation_note_tag#5": {
+      "repro_fails_on_clean": true,
+      "outcomes": [
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/pylint-dev__pylint-5859/dedup_patch_0.jsonl",
+          "inst": "pylint-dev__pylint-5859",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/pylint-dev__pylint-5859/dedup_patch_1.jsonl",
+          "inst": "pylint-dev__pylint-5859",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/pylint-dev__pylint-5859/dedup_patch_3.jsonl",
+          "inst": "pylint-dev__pylint-5859",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/pylint-dev__pylint-5859/dedup_patch_4.jsonl",
+          "inst": "pylint-dev__pylint-5859",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/pylint-dev__pylint-5859/dedup_patch_5.jsonl",
+          "inst": "pylint-dev__pylint-5859",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/pylint-dev__pylint-5859/dedup_patch_6.jsonl",
+          "inst": "pylint-dev__pylint-5859",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_claude_all_unique_patches/pylint-dev__pylint-5859/dedup_patch_7.jsonl",
+          "inst": "pylint-dev__pylint-5859",
+          "passed": false
+        }
+      ]
+    }
+  }
+}

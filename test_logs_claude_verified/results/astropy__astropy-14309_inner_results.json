@@ -1,0 +1,120 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/astropy__astropy-14309/dedup_patch_0.jsonl": {
+      "astropy__astropy-14309": {
+        "astropy/io/registry/tests/test_registries.py::TestUnifiedOutputRegistry::test_write_noformat_arbitrary_file": true,
+        "astropy/io/fits/tests/test_connect.py::TestSingleTable::test_simple": true,
+        "astropy/io/fits/tests/test_connect.py::TestSingleTable::test_with_units": true,
+        "astropy/io/fits/tests/test_connect.py::TestSingleTable::test_masked": true,
+        "astropy/io/fits/tests/test_connect.py::TestMultipleHDU::test_read_from_hdulist": true,
+        "astropy/io/fits/tests/test_connect.py::TestMultipleHDU::test_read_from_hdulist_with_hdu_missing": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/astropy__astropy-14309/dedup_patch_1.jsonl": {
+      "astropy__astropy-14309": {
+        "astropy/io/registry/tests/test_registries.py::TestUnifiedOutputRegistry::test_write_noformat_arbitrary_file": true,
+        "astropy/io/fits/tests/test_connect.py::TestSingleTable::test_simple": true,
+        "astropy/io/fits/tests/test_connect.py::TestSingleTable::test_with_units": true,
+        "astropy/io/fits/tests/test_connect.py::TestSingleTable::test_masked": true,
+        "astropy/io/fits/tests/test_connect.py::TestMultipleHDU::test_read_from_hdulist": true,
+        "astropy/io/fits/tests/test_connect.py::TestMultipleHDU::test_read_from_hdulist_with_hdu_missing": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/astropy__astropy-14309/dedup_patch_2.jsonl": {
+      "astropy__astropy-14309": {
+        "astropy/io/registry/tests/test_registries.py::TestUnifiedOutputRegistry::test_write_noformat_arbitrary_file": true,
+        "astropy/io/fits/tests/test_connect.py::TestSingleTable::test_simple": true,
+        "astropy/io/fits/tests/test_connect.py::TestSingleTable::test_with_units": true,
+        "astropy/io/fits/tests/test_connect.py::TestSingleTable::test_masked": true,
+        "astropy/io/fits/tests/test_connect.py::TestMultipleHDU::test_read_from_hdulist": true,
+        "astropy/io/fits/tests/test_connect.py::TestMultipleHDU::test_read_from_hdulist_with_hdu_missing": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/astropy__astropy-14309/dedup_patch_3.jsonl": {
+      "astropy__astropy-14309": {
+        "astropy/io/registry/tests/test_registries.py::TestUnifiedOutputRegistry::test_write_noformat_arbitrary_file": true,
+        "astropy/io/fits/tests/test_connect.py::TestSingleTable::test_simple": true,
+        "astropy/io/fits/tests/test_connect.py::TestSingleTable::test_with_units": true,
+        "astropy/io/fits/tests/test_connect.py::TestSingleTable::test_masked": true,
+        "astropy/io/fits/tests/test_connect.py::TestMultipleHDU::test_read_from_hdulist": true,
+        "astropy/io/fits/tests/test_connect.py::TestMultipleHDU::test_read_from_hdulist_with_hdu_missing": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/astropy__astropy-14309/dedup_patch_4.jsonl": {
+      "astropy__astropy-14309": {
+        "astropy/io/registry/tests/test_registries.py::TestUnifiedOutputRegistry::test_write_noformat_arbitrary_file": true,
+        "astropy/io/fits/tests/test_connect.py::TestSingleTable::test_simple": true,
+        "astropy/io/fits/tests/test_connect.py::TestSingleTable::test_with_units": true,
+        "astropy/io/fits/tests/test_connect.py::TestSingleTable::test_masked": true,
+        "astropy/io/fits/tests/test_connect.py::TestMultipleHDU::test_read_from_hdulist": true,
+        "astropy/io/fits/tests/test_connect.py::TestMultipleHDU::test_read_from_hdulist_with_hdu_missing": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/astropy__astropy-14309/dedup_patch_5.jsonl": {
+      "astropy__astropy-14309": {
+        "astropy/io/registry/tests/test_registries.py::TestUnifiedOutputRegistry::test_write_noformat_arbitrary_file": true,
+        "astropy/io/fits/tests/test_connect.py::TestSingleTable::test_simple": true,
+        "astropy/io/fits/tests/test_connect.py::TestSingleTable::test_with_units": true,
+        "astropy/io/fits/tests/test_connect.py::TestSingleTable::test_masked": true,
+        "astropy/io/fits/tests/test_connect.py::TestMultipleHDU::test_read_from_hdulist": true,
+        "astropy/io/fits/tests/test_connect.py::TestMultipleHDU::test_read_from_hdulist_with_hdu_missing": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/astropy__astropy-14309/dedup_patch_6.jsonl": {
+      "astropy__astropy-14309": {
+        "astropy/io/registry/tests/test_registries.py::TestUnifiedOutputRegistry::test_write_noformat_arbitrary_file": true,
+        "astropy/io/fits/tests/test_connect.py::TestSingleTable::test_simple": true,
+        "astropy/io/fits/tests/test_connect.py::TestSingleTable::test_with_units": true,
+        "astropy/io/fits/tests/test_connect.py::TestSingleTable::test_masked": true,
+        "astropy/io/fits/tests/test_connect.py::TestMultipleHDU::test_read_from_hdulist": true,
+        "astropy/io/fits/tests/test_connect.py::TestMultipleHDU::test_read_from_hdulist_with_hdu_missing": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "astropy__astropy-14309": {
+        "astropy/io/fits/tests/test_connect.py::test_meta_not_modified#1": false,
+        "astropy/io/fits/tests/test_connect.py::test_meta_not_modified#2": false,
+        "astropy/io/fits/tests/test_connect.py::test_meta_not_modified#3": false,
+        "astropy/io/fits/tests/test_connect.py::test_meta_not_modified#4": false,
+        "astropy/io/fits/tests/test_connect.py::TestSingleTable::test_identify_format_with_empty_args#5": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/astropy__astropy-14309/dedup_patch_0.jsonl": {
+      "astropy__astropy-14309": {
+        "astropy/io/fits/tests/test_connect.py::TestSingleTable::test_identify_format_with_empty_args#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/astropy__astropy-14309/dedup_patch_1.jsonl": {
+      "astropy__astropy-14309": {
+        "astropy/io/fits/tests/test_connect.py::TestSingleTable::test_identify_format_with_empty_args#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/astropy__astropy-14309/dedup_patch_2.jsonl": {
+      "astropy__astropy-14309": {
+        "astropy/io/fits/tests/test_connect.py::TestSingleTable::test_identify_format_with_empty_args#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/astropy__astropy-14309/dedup_patch_3.jsonl": {
+      "astropy__astropy-14309": {
+        "astropy/io/fits/tests/test_connect.py::TestSingleTable::test_identify_format_with_empty_args#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/astropy__astropy-14309/dedup_patch_4.jsonl": {
+      "astropy__astropy-14309": {
+        "astropy/io/fits/tests/test_connect.py::TestSingleTable::test_identify_format_with_empty_args#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/astropy__astropy-14309/dedup_patch_5.jsonl": {
+      "astropy__astropy-14309": {
+        "astropy/io/fits/tests/test_connect.py::TestSingleTable::test_identify_format_with_empty_args#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/astropy__astropy-14309/dedup_patch_6.jsonl": {
+      "astropy__astropy-14309": {
+        "astropy/io/fits/tests/test_connect.py::TestSingleTable::test_identify_format_with_empty_args#5": false
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/django__django-15315/dedup_patch_0.jsonl": {
+      "django__django-15315": {
+        "validation.test_unique.PerformUniqueChecksTest.test_unique_errors": true,
+        "model_fields.test_field_flags.FieldFlagsTests.test_hidden_flag": true,
+        "model_fields.tests.GetFieldDisplayTests.test_overriding_inherited_FIELD_display": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "validation.tests.BaseModelValidationTests.test_wrong_FK_value_raises_error": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-15315": {
+        "model_fields.tests.BasicFieldTests.test_field_hash_immutability#1": true,
+        "model_fields.tests.BasicFieldTests.test_field_hash_immutability#2": true,
+        "model_fields.tests.BasicFieldTests.test_field_hash_immutability#3": true,
+        "model_fields.tests.BasicFieldTests.test_field_hash_immutability#4": true,
+        "model_fields.tests.BasicFieldTests.test_field_hash_immutability#5": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15315/dedup_patch_0.jsonl": {
+      "django__django-15315": {
+        "model_fields.tests.BasicFieldTests.test_field_hash_immutability#1": false,
+        "model_fields.tests.BasicFieldTests.test_field_hash_immutability#2": true,
+        "model_fields.tests.BasicFieldTests.test_field_hash_immutability#3": true,
+        "model_fields.tests.BasicFieldTests.test_field_hash_immutability#4": false,
+        "model_fields.tests.BasicFieldTests.test_field_hash_immutability#5": true
+      }
+    }
+  }
+}

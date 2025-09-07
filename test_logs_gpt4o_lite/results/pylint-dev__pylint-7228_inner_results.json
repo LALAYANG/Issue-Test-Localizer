@@ -1,0 +1,45 @@
+{
+  "regression": {
+    "all_patches/lite_gpt4o_all_unique_patches/pylint-dev__pylint-7228/dedup_patch_0.jsonl": {
+      "pylint-dev__pylint-7228": {
+        "tests/test_self.py::TestRunTC::test_exit_zero": true,
+        "tests/test_self.py::TestRunTC::test_output_file_valid_path": true,
+        "tests/lint/unittest_lint.py::test_init_hooks_called_before_load_plugins": true,
+        "tests/test_self.py::TestRunTC::test_parallel_execution_missing_arguments": true,
+        "tests/test_self.py::TestRunTC::test_fail_on": true,
+        "tests/test_self.py::TestRunTC::test_output_file_can_be_combined_with_custom_reporter": true,
+        "tests/test_self.py::TestRunTC::test_output_file_can_be_combined_with_output_format_option": true,
+        "tests/test_pylint_runners.py::test_pylint_run_jobs_equal_zero_dont_crash_with_cpu_fraction": true,
+        "tests/test_self.py::TestRunTC::test_abbreviations_are_not_supported": true,
+        "tests/test_self.py::TestRunTC::test_version": true,
+        "tests/test_self.py::TestRunTC::test_stdin_missing_modulename": true,
+        "tests/test_self.py::TestRunTC::test_output_file_invalid_path_exits_with_code_32": true,
+        "tests/test_self.py::TestRunTC::test_error_missing_arguments": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "pylint-dev__pylint-7228": {
+        "tests/config/test_argparse_config.py::TestArgparseOptionsProviderMixin::test_function_rgx_with_unicode_property#1": true,
+        "tests/config/test_argparse_config.py::TestArgparseOptionsProviderMixin::test_function_rgx_with_unicode_property#2": true,
+        "tests/config/test_argparse_config.py::TestArguments::test_regex_with_unicode_property#3": true,
+        "tests/config/unittest_config.py::test__regexp_validator_invalid#4": false,
+        "tests/config/unittest_config.py::test__regexp_validator_invalid#5": false,
+        "tests/config/test_argparse_config.py::TestArguments::test_function_rgx_with_han#6": true,
+        "tests/config/unittest_config.py::test__regexp_validator_valid#7": false,
+        "tests/config/test_argparse_config.py::TestArguments::test_regex_with_unicode_property#8": true,
+        "tests/config/unittest_config.py::test__regexp_validator_valid#9": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pylint-dev__pylint-7228/dedup_patch_0.jsonl": {
+      "pylint-dev__pylint-7228": {
+        "tests/config/test_argparse_config.py::TestArgparseOptionsProviderMixin::test_function_rgx_with_unicode_property#1": false,
+        "tests/config/test_argparse_config.py::TestArgparseOptionsProviderMixin::test_function_rgx_with_unicode_property#2": false,
+        "tests/config/test_argparse_config.py::TestArguments::test_regex_with_unicode_property#3": false,
+        "tests/config/test_argparse_config.py::TestArguments::test_function_rgx_with_han#6": false,
+        "tests/config/test_argparse_config.py::TestArguments::test_regex_with_unicode_property#8": false
+      }
+    }
+  }
+}

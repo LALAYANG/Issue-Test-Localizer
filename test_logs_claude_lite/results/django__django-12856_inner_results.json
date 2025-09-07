@@ -1,0 +1,952 @@
+{
+  "regression": {
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_0.jsonl": {
+      "django__django-12856": {
+        "constraints.tests.UniqueConstraintTests.test_deferrable_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_condition_must_be_q": true,
+        "constraints.tests.UniqueConstraintTests.test_eq": true,
+        "migrations.test_operations.OperationTests.test_remove_deferred_unique_constraint": true,
+        "migrations.test_operations.OperationTests.test_remove_partial_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_invalid_defer_argument": true,
+        "migrations.test_operations.OperationTests.test_create_model_with_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr": true,
+        "migrations.test_operations.OperationTests.test_add_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_deferrable": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_1.jsonl": {
+      "django__django-12856": {
+        "constraints.tests.UniqueConstraintTests.test_deferrable_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_condition_must_be_q": true,
+        "constraints.tests.UniqueConstraintTests.test_eq": true,
+        "migrations.test_operations.OperationTests.test_remove_deferred_unique_constraint": true,
+        "migrations.test_operations.OperationTests.test_remove_partial_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_invalid_defer_argument": true,
+        "migrations.test_operations.OperationTests.test_create_model_with_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr": true,
+        "migrations.test_operations.OperationTests.test_add_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_deferrable": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_10.jsonl": {
+      "django__django-12856": {
+        "constraints.tests.UniqueConstraintTests.test_deferrable_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_condition_must_be_q": true,
+        "constraints.tests.UniqueConstraintTests.test_eq": true,
+        "migrations.test_operations.OperationTests.test_remove_deferred_unique_constraint": true,
+        "migrations.test_operations.OperationTests.test_remove_partial_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_invalid_defer_argument": true,
+        "migrations.test_operations.OperationTests.test_create_model_with_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr": true,
+        "migrations.test_operations.OperationTests.test_add_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_deferrable": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_11.jsonl": {
+      "django__django-12856": {
+        "constraints.tests.UniqueConstraintTests.test_deferrable_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_condition_must_be_q": true,
+        "constraints.tests.UniqueConstraintTests.test_eq": true,
+        "migrations.test_operations.OperationTests.test_remove_deferred_unique_constraint": true,
+        "migrations.test_operations.OperationTests.test_remove_partial_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_invalid_defer_argument": true,
+        "migrations.test_operations.OperationTests.test_create_model_with_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr": true,
+        "migrations.test_operations.OperationTests.test_add_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_deferrable": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_12.jsonl": {
+      "django__django-12856": {
+        "constraints.tests.UniqueConstraintTests.test_deferrable_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_condition_must_be_q": true,
+        "constraints.tests.UniqueConstraintTests.test_eq": true,
+        "migrations.test_operations.OperationTests.test_remove_deferred_unique_constraint": true,
+        "migrations.test_operations.OperationTests.test_remove_partial_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_invalid_defer_argument": true,
+        "migrations.test_operations.OperationTests.test_create_model_with_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr": true,
+        "migrations.test_operations.OperationTests.test_add_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_deferrable": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_13.jsonl": {
+      "django__django-12856": {
+        "constraints.tests.UniqueConstraintTests.test_deferrable_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_condition_must_be_q": true,
+        "constraints.tests.UniqueConstraintTests.test_eq": true,
+        "migrations.test_operations.OperationTests.test_remove_deferred_unique_constraint": true,
+        "migrations.test_operations.OperationTests.test_remove_partial_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_invalid_defer_argument": true,
+        "migrations.test_operations.OperationTests.test_create_model_with_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr": true,
+        "migrations.test_operations.OperationTests.test_add_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_deferrable": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_14.jsonl": {
+      "django__django-12856": {
+        "constraints.tests.UniqueConstraintTests.test_deferrable_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_condition_must_be_q": true,
+        "constraints.tests.UniqueConstraintTests.test_eq": true,
+        "migrations.test_operations.OperationTests.test_remove_deferred_unique_constraint": true,
+        "migrations.test_operations.OperationTests.test_remove_partial_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_invalid_defer_argument": true,
+        "migrations.test_operations.OperationTests.test_create_model_with_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr": true,
+        "migrations.test_operations.OperationTests.test_add_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_deferrable": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_15.jsonl": {
+      "django__django-12856": {
+        "constraints.tests.UniqueConstraintTests.test_deferrable_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_condition_must_be_q": true,
+        "constraints.tests.UniqueConstraintTests.test_eq": true,
+        "migrations.test_operations.OperationTests.test_remove_deferred_unique_constraint": true,
+        "migrations.test_operations.OperationTests.test_remove_partial_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_invalid_defer_argument": true,
+        "migrations.test_operations.OperationTests.test_create_model_with_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr": true,
+        "migrations.test_operations.OperationTests.test_add_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_deferrable": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_16.jsonl": {
+      "django__django-12856": {
+        "constraints.tests.UniqueConstraintTests.test_deferrable_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_condition_must_be_q": true,
+        "constraints.tests.UniqueConstraintTests.test_eq": true,
+        "migrations.test_operations.OperationTests.test_remove_deferred_unique_constraint": true,
+        "migrations.test_operations.OperationTests.test_remove_partial_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_invalid_defer_argument": true,
+        "migrations.test_operations.OperationTests.test_create_model_with_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr": true,
+        "migrations.test_operations.OperationTests.test_add_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_deferrable": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_17.jsonl": {
+      "django__django-12856": {
+        "constraints.tests.UniqueConstraintTests.test_deferrable_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_condition_must_be_q": true,
+        "constraints.tests.UniqueConstraintTests.test_eq": true,
+        "migrations.test_operations.OperationTests.test_remove_deferred_unique_constraint": true,
+        "migrations.test_operations.OperationTests.test_remove_partial_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_invalid_defer_argument": true,
+        "migrations.test_operations.OperationTests.test_create_model_with_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr": true,
+        "migrations.test_operations.OperationTests.test_add_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_deferrable": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_18.jsonl": {
+      "django__django-12856": {
+        "constraints.tests.UniqueConstraintTests.test_deferrable_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_condition_must_be_q": true,
+        "constraints.tests.UniqueConstraintTests.test_eq": true,
+        "migrations.test_operations.OperationTests.test_remove_deferred_unique_constraint": true,
+        "migrations.test_operations.OperationTests.test_remove_partial_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_invalid_defer_argument": true,
+        "migrations.test_operations.OperationTests.test_create_model_with_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr": true,
+        "migrations.test_operations.OperationTests.test_add_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_deferrable": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_19.jsonl": {
+      "django__django-12856": {
+        "constraints.tests.UniqueConstraintTests.test_deferrable_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_condition_must_be_q": true,
+        "constraints.tests.UniqueConstraintTests.test_eq": true,
+        "migrations.test_operations.OperationTests.test_remove_deferred_unique_constraint": true,
+        "migrations.test_operations.OperationTests.test_remove_partial_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_invalid_defer_argument": true,
+        "migrations.test_operations.OperationTests.test_create_model_with_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr": true,
+        "migrations.test_operations.OperationTests.test_add_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_deferrable": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_2.jsonl": {
+      "django__django-12856": {
+        "constraints.tests.UniqueConstraintTests.test_deferrable_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_condition_must_be_q": true,
+        "constraints.tests.UniqueConstraintTests.test_eq": true,
+        "migrations.test_operations.OperationTests.test_remove_deferred_unique_constraint": true,
+        "migrations.test_operations.OperationTests.test_remove_partial_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_invalid_defer_argument": true,
+        "migrations.test_operations.OperationTests.test_create_model_with_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr": true,
+        "migrations.test_operations.OperationTests.test_add_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_deferrable": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_20.jsonl": {
+      "django__django-12856": {
+        "constraints.tests.UniqueConstraintTests.test_deferrable_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_condition_must_be_q": true,
+        "constraints.tests.UniqueConstraintTests.test_eq": true,
+        "migrations.test_operations.OperationTests.test_remove_deferred_unique_constraint": true,
+        "migrations.test_operations.OperationTests.test_remove_partial_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_invalid_defer_argument": true,
+        "migrations.test_operations.OperationTests.test_create_model_with_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr": true,
+        "migrations.test_operations.OperationTests.test_add_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_deferrable": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_21.jsonl": {
+      "django__django-12856": {
+        "constraints.tests.UniqueConstraintTests.test_deferrable_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_condition_must_be_q": true,
+        "constraints.tests.UniqueConstraintTests.test_eq": true,
+        "migrations.test_operations.OperationTests.test_remove_deferred_unique_constraint": true,
+        "migrations.test_operations.OperationTests.test_remove_partial_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_invalid_defer_argument": true,
+        "migrations.test_operations.OperationTests.test_create_model_with_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr": true,
+        "migrations.test_operations.OperationTests.test_add_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_deferrable": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_22.jsonl": {
+      "django__django-12856": {
+        "constraints.tests.UniqueConstraintTests.test_deferrable_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_condition_must_be_q": true,
+        "constraints.tests.UniqueConstraintTests.test_eq": true,
+        "migrations.test_operations.OperationTests.test_remove_deferred_unique_constraint": true,
+        "migrations.test_operations.OperationTests.test_remove_partial_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_invalid_defer_argument": true,
+        "migrations.test_operations.OperationTests.test_create_model_with_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr": true,
+        "migrations.test_operations.OperationTests.test_add_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_deferrable": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_23.jsonl": {
+      "django__django-12856": {
+        "constraints.tests.UniqueConstraintTests.test_deferrable_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_condition_must_be_q": true,
+        "constraints.tests.UniqueConstraintTests.test_eq": true,
+        "migrations.test_operations.OperationTests.test_remove_deferred_unique_constraint": true,
+        "migrations.test_operations.OperationTests.test_remove_partial_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_invalid_defer_argument": true,
+        "migrations.test_operations.OperationTests.test_create_model_with_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr": true,
+        "migrations.test_operations.OperationTests.test_add_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_deferrable": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_24.jsonl": {
+      "django__django-12856": {
+        "constraints.tests.UniqueConstraintTests.test_deferrable_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_condition_must_be_q": true,
+        "constraints.tests.UniqueConstraintTests.test_eq": true,
+        "migrations.test_operations.OperationTests.test_remove_deferred_unique_constraint": true,
+        "migrations.test_operations.OperationTests.test_remove_partial_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_invalid_defer_argument": true,
+        "migrations.test_operations.OperationTests.test_create_model_with_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr": true,
+        "migrations.test_operations.OperationTests.test_add_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_deferrable": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_25.jsonl": {
+      "django__django-12856": {
+        "constraints.tests.UniqueConstraintTests.test_deferrable_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_condition_must_be_q": true,
+        "constraints.tests.UniqueConstraintTests.test_eq": true,
+        "migrations.test_operations.OperationTests.test_remove_deferred_unique_constraint": true,
+        "migrations.test_operations.OperationTests.test_remove_partial_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_invalid_defer_argument": true,
+        "migrations.test_operations.OperationTests.test_create_model_with_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr": true,
+        "migrations.test_operations.OperationTests.test_add_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_deferrable": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_26.jsonl": {
+      "django__django-12856": {
+        "constraints.tests.UniqueConstraintTests.test_deferrable_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_condition_must_be_q": true,
+        "constraints.tests.UniqueConstraintTests.test_eq": true,
+        "migrations.test_operations.OperationTests.test_remove_deferred_unique_constraint": true,
+        "migrations.test_operations.OperationTests.test_remove_partial_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_invalid_defer_argument": true,
+        "migrations.test_operations.OperationTests.test_create_model_with_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr": true,
+        "migrations.test_operations.OperationTests.test_add_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_deferrable": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_27.jsonl": {
+      "django__django-12856": {
+        "constraints.tests.UniqueConstraintTests.test_deferrable_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_condition_must_be_q": true,
+        "constraints.tests.UniqueConstraintTests.test_eq": true,
+        "migrations.test_operations.OperationTests.test_remove_deferred_unique_constraint": true,
+        "migrations.test_operations.OperationTests.test_remove_partial_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_invalid_defer_argument": true,
+        "migrations.test_operations.OperationTests.test_create_model_with_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr": true,
+        "migrations.test_operations.OperationTests.test_add_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_deferrable": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_28.jsonl": {
+      "django__django-12856": {
+        "constraints.tests.UniqueConstraintTests.test_deferrable_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_condition_must_be_q": true,
+        "constraints.tests.UniqueConstraintTests.test_eq": true,
+        "migrations.test_operations.OperationTests.test_remove_deferred_unique_constraint": true,
+        "migrations.test_operations.OperationTests.test_remove_partial_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_invalid_defer_argument": true,
+        "migrations.test_operations.OperationTests.test_create_model_with_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr": true,
+        "migrations.test_operations.OperationTests.test_add_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_deferrable": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_29.jsonl": {
+      "django__django-12856": {
+        "constraints.tests.UniqueConstraintTests.test_deferrable_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_condition_must_be_q": true,
+        "constraints.tests.UniqueConstraintTests.test_eq": true,
+        "migrations.test_operations.OperationTests.test_remove_deferred_unique_constraint": true,
+        "migrations.test_operations.OperationTests.test_remove_partial_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_invalid_defer_argument": true,
+        "migrations.test_operations.OperationTests.test_create_model_with_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr": true,
+        "migrations.test_operations.OperationTests.test_add_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_deferrable": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_3.jsonl": {
+      "django__django-12856": {
+        "constraints.tests.UniqueConstraintTests.test_deferrable_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_condition_must_be_q": true,
+        "constraints.tests.UniqueConstraintTests.test_eq": true,
+        "migrations.test_operations.OperationTests.test_remove_deferred_unique_constraint": true,
+        "migrations.test_operations.OperationTests.test_remove_partial_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_invalid_defer_argument": true,
+        "migrations.test_operations.OperationTests.test_create_model_with_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr": true,
+        "migrations.test_operations.OperationTests.test_add_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_deferrable": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_30.jsonl": {
+      "django__django-12856": {
+        "constraints.tests.UniqueConstraintTests.test_deferrable_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_condition_must_be_q": true,
+        "constraints.tests.UniqueConstraintTests.test_eq": true,
+        "migrations.test_operations.OperationTests.test_remove_deferred_unique_constraint": true,
+        "migrations.test_operations.OperationTests.test_remove_partial_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_invalid_defer_argument": true,
+        "migrations.test_operations.OperationTests.test_create_model_with_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr": true,
+        "migrations.test_operations.OperationTests.test_add_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_deferrable": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_31.jsonl": {
+      "django__django-12856": {
+        "constraints.tests.UniqueConstraintTests.test_deferrable_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_condition_must_be_q": true,
+        "constraints.tests.UniqueConstraintTests.test_eq": true,
+        "migrations.test_operations.OperationTests.test_remove_deferred_unique_constraint": true,
+        "migrations.test_operations.OperationTests.test_remove_partial_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_invalid_defer_argument": true,
+        "migrations.test_operations.OperationTests.test_create_model_with_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr": true,
+        "migrations.test_operations.OperationTests.test_add_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_deferrable": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_32.jsonl": {
+      "django__django-12856": {
+        "constraints.tests.UniqueConstraintTests.test_deferrable_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_condition_must_be_q": true,
+        "constraints.tests.UniqueConstraintTests.test_eq": true,
+        "migrations.test_operations.OperationTests.test_remove_deferred_unique_constraint": true,
+        "migrations.test_operations.OperationTests.test_remove_partial_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_invalid_defer_argument": true,
+        "migrations.test_operations.OperationTests.test_create_model_with_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr": true,
+        "migrations.test_operations.OperationTests.test_add_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_deferrable": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_33.jsonl": {
+      "django__django-12856": {
+        "constraints.tests.UniqueConstraintTests.test_deferrable_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_condition_must_be_q": true,
+        "constraints.tests.UniqueConstraintTests.test_eq": true,
+        "migrations.test_operations.OperationTests.test_remove_deferred_unique_constraint": true,
+        "migrations.test_operations.OperationTests.test_remove_partial_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_invalid_defer_argument": true,
+        "migrations.test_operations.OperationTests.test_create_model_with_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr": true,
+        "migrations.test_operations.OperationTests.test_add_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_deferrable": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_34.jsonl": {
+      "django__django-12856": {
+        "constraints.tests.UniqueConstraintTests.test_deferrable_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_condition_must_be_q": true,
+        "constraints.tests.UniqueConstraintTests.test_eq": true,
+        "migrations.test_operations.OperationTests.test_remove_deferred_unique_constraint": true,
+        "migrations.test_operations.OperationTests.test_remove_partial_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_invalid_defer_argument": true,
+        "migrations.test_operations.OperationTests.test_create_model_with_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr": true,
+        "migrations.test_operations.OperationTests.test_add_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_deferrable": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_35.jsonl": {
+      "django__django-12856": {
+        "constraints.tests.UniqueConstraintTests.test_deferrable_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_condition_must_be_q": true,
+        "constraints.tests.UniqueConstraintTests.test_eq": true,
+        "migrations.test_operations.OperationTests.test_remove_deferred_unique_constraint": true,
+        "migrations.test_operations.OperationTests.test_remove_partial_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_invalid_defer_argument": true,
+        "migrations.test_operations.OperationTests.test_create_model_with_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr": true,
+        "migrations.test_operations.OperationTests.test_add_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_deferrable": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_4.jsonl": {
+      "django__django-12856": {
+        "constraints.tests.UniqueConstraintTests.test_deferrable_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_condition_must_be_q": true,
+        "constraints.tests.UniqueConstraintTests.test_eq": true,
+        "migrations.test_operations.OperationTests.test_remove_deferred_unique_constraint": true,
+        "migrations.test_operations.OperationTests.test_remove_partial_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_invalid_defer_argument": true,
+        "migrations.test_operations.OperationTests.test_create_model_with_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr": true,
+        "migrations.test_operations.OperationTests.test_add_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_deferrable": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_5.jsonl": {
+      "django__django-12856": {
+        "constraints.tests.UniqueConstraintTests.test_deferrable_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_condition_must_be_q": true,
+        "constraints.tests.UniqueConstraintTests.test_eq": true,
+        "migrations.test_operations.OperationTests.test_remove_deferred_unique_constraint": true,
+        "migrations.test_operations.OperationTests.test_remove_partial_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_invalid_defer_argument": true,
+        "migrations.test_operations.OperationTests.test_create_model_with_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr": true,
+        "migrations.test_operations.OperationTests.test_add_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_deferrable": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_6.jsonl": {
+      "django__django-12856": {
+        "constraints.tests.UniqueConstraintTests.test_deferrable_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_condition_must_be_q": true,
+        "constraints.tests.UniqueConstraintTests.test_eq": true,
+        "migrations.test_operations.OperationTests.test_remove_deferred_unique_constraint": true,
+        "migrations.test_operations.OperationTests.test_remove_partial_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_invalid_defer_argument": true,
+        "migrations.test_operations.OperationTests.test_create_model_with_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr": true,
+        "migrations.test_operations.OperationTests.test_add_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_deferrable": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_7.jsonl": {
+      "django__django-12856": {
+        "constraints.tests.UniqueConstraintTests.test_deferrable_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_condition_must_be_q": true,
+        "constraints.tests.UniqueConstraintTests.test_eq": true,
+        "migrations.test_operations.OperationTests.test_remove_deferred_unique_constraint": true,
+        "migrations.test_operations.OperationTests.test_remove_partial_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_invalid_defer_argument": true,
+        "migrations.test_operations.OperationTests.test_create_model_with_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr": true,
+        "migrations.test_operations.OperationTests.test_add_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_deferrable": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_8.jsonl": {
+      "django__django-12856": {
+        "constraints.tests.UniqueConstraintTests.test_deferrable_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_condition_must_be_q": true,
+        "constraints.tests.UniqueConstraintTests.test_eq": true,
+        "migrations.test_operations.OperationTests.test_remove_deferred_unique_constraint": true,
+        "migrations.test_operations.OperationTests.test_remove_partial_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_invalid_defer_argument": true,
+        "migrations.test_operations.OperationTests.test_create_model_with_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr": true,
+        "migrations.test_operations.OperationTests.test_add_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_deferrable": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_9.jsonl": {
+      "django__django-12856": {
+        "constraints.tests.UniqueConstraintTests.test_deferrable_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_condition_must_be_q": true,
+        "constraints.tests.UniqueConstraintTests.test_eq": true,
+        "migrations.test_operations.OperationTests.test_remove_deferred_unique_constraint": true,
+        "migrations.test_operations.OperationTests.test_remove_partial_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_invalid_defer_argument": true,
+        "migrations.test_operations.OperationTests.test_create_model_with_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr": true,
+        "migrations.test_operations.OperationTests.test_add_deferred_unique_constraint": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_condition": true,
+        "constraints.tests.UniqueConstraintTests.test_repr_with_deferrable": true,
+        "migrations.test_operations.OperationTests.test_add_partial_unique_constraint": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-12856": {
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#1": true,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_nonexistent_field#2": true,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_checks_nonexistent_field#3": true,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_with_nonexistent_field#4": true,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#5": true,
+        "invalid_models_tests.test_models.IndexesTests.test_unique_constraint_pointing_to_missing_field#6": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_0.jsonl": {
+      "django__django-12856": {
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#1": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_nonexistent_field#2": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_checks_nonexistent_field#3": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_with_nonexistent_field#4": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#5": false,
+        "invalid_models_tests.test_models.IndexesTests.test_unique_constraint_pointing_to_missing_field#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_1.jsonl": {
+      "django__django-12856": {
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#1": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_nonexistent_field#2": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_checks_nonexistent_field#3": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_with_nonexistent_field#4": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#5": false,
+        "invalid_models_tests.test_models.IndexesTests.test_unique_constraint_pointing_to_missing_field#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_10.jsonl": {
+      "django__django-12856": {
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#1": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_nonexistent_field#2": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_checks_nonexistent_field#3": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_with_nonexistent_field#4": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#5": false,
+        "invalid_models_tests.test_models.IndexesTests.test_unique_constraint_pointing_to_missing_field#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_11.jsonl": {
+      "django__django-12856": {
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#1": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_nonexistent_field#2": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_checks_nonexistent_field#3": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_with_nonexistent_field#4": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#5": false,
+        "invalid_models_tests.test_models.IndexesTests.test_unique_constraint_pointing_to_missing_field#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_12.jsonl": {
+      "django__django-12856": {
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#1": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_nonexistent_field#2": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_checks_nonexistent_field#3": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_with_nonexistent_field#4": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#5": false,
+        "invalid_models_tests.test_models.IndexesTests.test_unique_constraint_pointing_to_missing_field#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_13.jsonl": {
+      "django__django-12856": {
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#1": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_nonexistent_field#2": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_checks_nonexistent_field#3": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_with_nonexistent_field#4": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#5": false,
+        "invalid_models_tests.test_models.IndexesTests.test_unique_constraint_pointing_to_missing_field#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_14.jsonl": {
+      "django__django-12856": {
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#1": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_nonexistent_field#2": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_checks_nonexistent_field#3": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_with_nonexistent_field#4": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#5": false,
+        "invalid_models_tests.test_models.IndexesTests.test_unique_constraint_pointing_to_missing_field#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_15.jsonl": {
+      "django__django-12856": {
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#1": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_nonexistent_field#2": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_checks_nonexistent_field#3": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_with_nonexistent_field#4": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#5": false,
+        "invalid_models_tests.test_models.IndexesTests.test_unique_constraint_pointing_to_missing_field#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_16.jsonl": {
+      "django__django-12856": {
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#1": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_nonexistent_field#2": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_checks_nonexistent_field#3": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_with_nonexistent_field#4": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#5": false,
+        "invalid_models_tests.test_models.IndexesTests.test_unique_constraint_pointing_to_missing_field#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_17.jsonl": {
+      "django__django-12856": {
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#1": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_nonexistent_field#2": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_checks_nonexistent_field#3": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_with_nonexistent_field#4": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#5": false,
+        "invalid_models_tests.test_models.IndexesTests.test_unique_constraint_pointing_to_missing_field#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_18.jsonl": {
+      "django__django-12856": {
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#1": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_nonexistent_field#2": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_checks_nonexistent_field#3": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_with_nonexistent_field#4": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#5": false,
+        "invalid_models_tests.test_models.IndexesTests.test_unique_constraint_pointing_to_missing_field#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_19.jsonl": {
+      "django__django-12856": {
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#1": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_nonexistent_field#2": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_checks_nonexistent_field#3": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_with_nonexistent_field#4": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#5": false,
+        "invalid_models_tests.test_models.IndexesTests.test_unique_constraint_pointing_to_missing_field#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_2.jsonl": {
+      "django__django-12856": {
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#1": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_nonexistent_field#2": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_checks_nonexistent_field#3": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_with_nonexistent_field#4": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#5": false,
+        "invalid_models_tests.test_models.IndexesTests.test_unique_constraint_pointing_to_missing_field#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_20.jsonl": {
+      "django__django-12856": {
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#1": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_nonexistent_field#2": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_checks_nonexistent_field#3": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_with_nonexistent_field#4": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#5": false,
+        "invalid_models_tests.test_models.IndexesTests.test_unique_constraint_pointing_to_missing_field#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_21.jsonl": {
+      "django__django-12856": {
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#1": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_nonexistent_field#2": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_checks_nonexistent_field#3": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_with_nonexistent_field#4": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#5": false,
+        "invalid_models_tests.test_models.IndexesTests.test_unique_constraint_pointing_to_missing_field#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_22.jsonl": {
+      "django__django-12856": {
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#1": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_nonexistent_field#2": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_checks_nonexistent_field#3": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_with_nonexistent_field#4": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#5": false,
+        "invalid_models_tests.test_models.IndexesTests.test_unique_constraint_pointing_to_missing_field#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_23.jsonl": {
+      "django__django-12856": {
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#1": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_nonexistent_field#2": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_checks_nonexistent_field#3": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_with_nonexistent_field#4": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#5": false,
+        "invalid_models_tests.test_models.IndexesTests.test_unique_constraint_pointing_to_missing_field#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_24.jsonl": {
+      "django__django-12856": {
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#1": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_nonexistent_field#2": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_checks_nonexistent_field#3": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_with_nonexistent_field#4": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#5": false,
+        "invalid_models_tests.test_models.IndexesTests.test_unique_constraint_pointing_to_missing_field#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_25.jsonl": {
+      "django__django-12856": {
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#1": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_nonexistent_field#2": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_checks_nonexistent_field#3": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_with_nonexistent_field#4": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#5": false,
+        "invalid_models_tests.test_models.IndexesTests.test_unique_constraint_pointing_to_missing_field#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_26.jsonl": {
+      "django__django-12856": {
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#1": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_nonexistent_field#2": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_checks_nonexistent_field#3": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_with_nonexistent_field#4": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#5": false,
+        "invalid_models_tests.test_models.IndexesTests.test_unique_constraint_pointing_to_missing_field#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_27.jsonl": {
+      "django__django-12856": {
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#1": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_nonexistent_field#2": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_checks_nonexistent_field#3": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_with_nonexistent_field#4": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#5": false,
+        "invalid_models_tests.test_models.IndexesTests.test_unique_constraint_pointing_to_missing_field#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_28.jsonl": {
+      "django__django-12856": {
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#1": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_nonexistent_field#2": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_checks_nonexistent_field#3": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_with_nonexistent_field#4": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#5": false,
+        "invalid_models_tests.test_models.IndexesTests.test_unique_constraint_pointing_to_missing_field#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_29.jsonl": {
+      "django__django-12856": {
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#1": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_nonexistent_field#2": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_checks_nonexistent_field#3": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_with_nonexistent_field#4": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#5": false,
+        "invalid_models_tests.test_models.IndexesTests.test_unique_constraint_pointing_to_missing_field#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_3.jsonl": {
+      "django__django-12856": {
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#1": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_nonexistent_field#2": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_checks_nonexistent_field#3": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_with_nonexistent_field#4": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#5": false,
+        "invalid_models_tests.test_models.IndexesTests.test_unique_constraint_pointing_to_missing_field#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_30.jsonl": {
+      "django__django-12856": {
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#1": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_nonexistent_field#2": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_checks_nonexistent_field#3": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_with_nonexistent_field#4": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#5": false,
+        "invalid_models_tests.test_models.IndexesTests.test_unique_constraint_pointing_to_missing_field#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_31.jsonl": {
+      "django__django-12856": {
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#1": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_nonexistent_field#2": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_checks_nonexistent_field#3": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_with_nonexistent_field#4": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#5": false,
+        "invalid_models_tests.test_models.IndexesTests.test_unique_constraint_pointing_to_missing_field#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_32.jsonl": {
+      "django__django-12856": {
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#1": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_nonexistent_field#2": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_checks_nonexistent_field#3": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_with_nonexistent_field#4": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#5": false,
+        "invalid_models_tests.test_models.IndexesTests.test_unique_constraint_pointing_to_missing_field#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_33.jsonl": {
+      "django__django-12856": {
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#1": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_nonexistent_field#2": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_checks_nonexistent_field#3": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_with_nonexistent_field#4": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#5": false,
+        "invalid_models_tests.test_models.IndexesTests.test_unique_constraint_pointing_to_missing_field#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_34.jsonl": {
+      "django__django-12856": {
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#1": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_nonexistent_field#2": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_checks_nonexistent_field#3": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_with_nonexistent_field#4": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#5": false,
+        "invalid_models_tests.test_models.IndexesTests.test_unique_constraint_pointing_to_missing_field#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_35.jsonl": {
+      "django__django-12856": {
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#1": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_nonexistent_field#2": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_checks_nonexistent_field#3": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_with_nonexistent_field#4": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#5": false,
+        "invalid_models_tests.test_models.IndexesTests.test_unique_constraint_pointing_to_missing_field#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_4.jsonl": {
+      "django__django-12856": {
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#1": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_nonexistent_field#2": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_checks_nonexistent_field#3": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_with_nonexistent_field#4": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#5": false,
+        "invalid_models_tests.test_models.IndexesTests.test_unique_constraint_pointing_to_missing_field#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_5.jsonl": {
+      "django__django-12856": {
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#1": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_nonexistent_field#2": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_checks_nonexistent_field#3": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_with_nonexistent_field#4": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#5": false,
+        "invalid_models_tests.test_models.IndexesTests.test_unique_constraint_pointing_to_missing_field#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_6.jsonl": {
+      "django__django-12856": {
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#1": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_nonexistent_field#2": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_checks_nonexistent_field#3": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_with_nonexistent_field#4": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#5": false,
+        "invalid_models_tests.test_models.IndexesTests.test_unique_constraint_pointing_to_missing_field#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_7.jsonl": {
+      "django__django-12856": {
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#1": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_nonexistent_field#2": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_checks_nonexistent_field#3": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_with_nonexistent_field#4": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#5": false,
+        "invalid_models_tests.test_models.IndexesTests.test_unique_constraint_pointing_to_missing_field#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_8.jsonl": {
+      "django__django-12856": {
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#1": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_nonexistent_field#2": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_checks_nonexistent_field#3": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_with_nonexistent_field#4": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#5": false,
+        "invalid_models_tests.test_models.IndexesTests.test_unique_constraint_pointing_to_missing_field#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-12856/dedup_patch_9.jsonl": {
+      "django__django-12856": {
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#1": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_nonexistent_field#2": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_checks_nonexistent_field#3": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_with_nonexistent_field#4": false,
+        "invalid_models_tests.test_models.ConstraintsTests.test_unique_constraint_pointing_to_missing_field#5": false,
+        "invalid_models_tests.test_models.IndexesTests.test_unique_constraint_pointing_to_missing_field#6": false
+      }
+    }
+  }
+}

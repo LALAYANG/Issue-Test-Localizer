@@ -1,0 +1,23 @@
+{
+  "regression": {
+    "all_patches/lite_claude_all_unique_patches/scikit-learn__scikit-learn-14894/dedup_patch_0.jsonl": {
+      "scikit-learn__scikit-learn-14894": {
+        "sklearn/tests/test_common.py::test_estimators": true,
+        "sklearn/svm/tests/test_sparse.py::test_sparse_oneclasssvm": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/scikit-learn__scikit-learn-14894/dedup_patch_1.jsonl": {
+      "scikit-learn__scikit-learn-14894": {
+        "sklearn/tests/test_common.py::test_estimators": true,
+        "sklearn/svm/tests/test_sparse.py::test_sparse_oneclasssvm": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/scikit-learn__scikit-learn-14894/dedup_patch_2.jsonl": {
+      "scikit-learn__scikit-learn-14894": {
+        "sklearn/tests/test_common.py::test_estimators": true,
+        "sklearn/svm/tests/test_sparse.py::test_sparse_oneclasssvm": true
+      }
+    }
+  },
+  "reproduction": {}
+}

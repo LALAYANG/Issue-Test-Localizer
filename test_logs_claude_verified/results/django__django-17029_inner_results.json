@@ -1,0 +1,31 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/django__django-17029/dedup_patch_0.jsonl": {
+      "django__django-17029": {
+        "migrations.test_executor.ExecutorTests.test_custom_user": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-17029": {
+        "apps.tests.AppsTests.test_clear_swappable_settings_name_cache#1": true,
+        "apps.tests.AppsTests.test_clear_cache_clears_swappable_settings_name_cache#2": true,
+        "apps.tests.NamespacePackageAppTests.test_clear_cache#3": true,
+        "apps.tests.AppsTests.test_clear_cache_clears_swappable_settings_name_cache#4": true,
+        "apps.tests.AppsTests.test_clear_cache_clears_swappable_settings_name_cache#5": true,
+        "apps.tests.NamespacePackageAppTests.test_clear_cache#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-17029/dedup_patch_0.jsonl": {
+      "django__django-17029": {
+        "apps.tests.AppsTests.test_clear_swappable_settings_name_cache#1": false,
+        "apps.tests.AppsTests.test_clear_cache_clears_swappable_settings_name_cache#2": false,
+        "apps.tests.NamespacePackageAppTests.test_clear_cache#3": false,
+        "apps.tests.AppsTests.test_clear_cache_clears_swappable_settings_name_cache#4": false,
+        "apps.tests.AppsTests.test_clear_cache_clears_swappable_settings_name_cache#5": false,
+        "apps.tests.NamespacePackageAppTests.test_clear_cache#6": false
+      }
+    }
+  }
+}

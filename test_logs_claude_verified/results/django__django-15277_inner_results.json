@@ -1,0 +1,36 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/django__django-15277/dedup_patch_0.jsonl": {
+      "django__django-15277": {
+        "expressions.tests.BasicExpressionsTests.test_new_object_save": true,
+        "model_fields.test_charfield.TestCharField.test_lookup_integer_in_charfield": true,
+        "expressions_case.tests.CaseExpressionTests.test_update_string": true,
+        "queries.test_query.TestQuery.test_iterable_lookup_value": true,
+        "model_fields.test_charfield.TestMethods.test_deconstruct": true,
+        "expressions_case.tests.CaseDocumentationExamples.test_simple_example": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-15277": {
+        "queries.test_explain.ExplainTests.test_value_resolve_output_field_no_validators#1": true,
+        "expressions.tests.ValueTests.test_value_resolve_output_field_no_validator#2": true,
+        "queries.test_query.TestQuery.test_value_charfield_no_max_length#3": true,
+        "queries.test_query.TestQuery.test_value_charfield_no_max_length_validator#4": true,
+        "queries.test_query.TestQuery.test_value_charfield_no_max_length_validator#5": true,
+        "queries.test_query.TestQuery.test_value_string_no_max_length_validator#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15277/dedup_patch_0.jsonl": {
+      "django__django-15277": {
+        "queries.test_explain.ExplainTests.test_value_resolve_output_field_no_validators#1": true,
+        "expressions.tests.ValueTests.test_value_resolve_output_field_no_validator#2": true,
+        "queries.test_query.TestQuery.test_value_charfield_no_max_length#3": true,
+        "queries.test_query.TestQuery.test_value_charfield_no_max_length_validator#4": true,
+        "queries.test_query.TestQuery.test_value_charfield_no_max_length_validator#5": true,
+        "queries.test_query.TestQuery.test_value_string_no_max_length_validator#6": true
+      }
+    }
+  }
+}

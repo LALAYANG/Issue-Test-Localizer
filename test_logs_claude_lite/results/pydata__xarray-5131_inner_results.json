@@ -1,0 +1,28 @@
+{
+  "regression": {
+    "all_patches/lite_claude_all_unique_patches/pydata__xarray-5131/dedup_patch_0.jsonl": {
+      "pydata__xarray-5131": {
+        "xarray/tests/test_computation.py::test_apply_1d_and_0d": true,
+        "xarray/tests/test_computation.py::test_apply_groupby_add": true,
+        "xarray/tests/test_groupby.py::test_groupby_repr_datetime": false,
+        "xarray/tests/test_computation.py::test_apply_identity": true,
+        "xarray/tests/test_groupby.py::test_groupby_repr": false,
+        "xarray/tests/test_groupby.py::test_groupby_drops_nans": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "pydata__xarray-5131": {
+        "xarray/tests/test_groupby.py::test_groupby_getitem#1": false,
+        "xarray/tests/test_groupby.py::test_groupby_getitem#2": false,
+        "xarray/tests/test_groupby.py::test_groupby_repr#3": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/pydata__xarray-5131/dedup_patch_0.jsonl": {
+      "pydata__xarray-5131": {
+        "xarray/tests/test_groupby.py::test_groupby_repr#3": true
+      }
+    }
+  }
+}

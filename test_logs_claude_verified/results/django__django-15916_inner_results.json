@@ -1,0 +1,1246 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/django__django-15916/dedup_patch_0.jsonl": {
+      "django__django-15916": {
+        "model_formsets.tests.ModelFormsetTest.test_unique_together_with_inlineformset_factory": true,
+        "model_formsets.tests.ModelFormsetTest.test_inline_formsets_with_custom_save_method": true,
+        "forms_tests.tests.tests.ManyToManyExclusionTestCase.test_m2m_field_exclusion": true,
+        "model_forms.tests.ModelFormBasicTests.test_m2m_editing": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_labels_overrides": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_custom_error_messages": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_widgets": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_model_clean_error_messages": true,
+        "model_forms.tests.ModelFormBaseTest.test_missing_fields_attribute": true,
+        "model_forms.tests.ModelFormBaseTest.test_no_model_class": true,
+        "model_forms.tests.ModelFormBaseTest.test_extra_field_modelform_factory": true,
+        "model_forms.tests.ModelFormBaseTest.test_limit_fields_with_string": true,
+        "model_forms.tests.FormFieldCallbackTests.test_inherit_after_custom_callback": true,
+        "model_forms.tests.ModelFormBaseTest.test_exclude_fields_with_string": true,
+        "model_formsets.tests.ModelFormsetTest.test_unique_validation": true,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": true,
+        "model_forms.tests.LocalizedModelFormTest.test_model_form_refuses_arbitrary_string": true,
+        "model_forms.tests.UniqueTest.test_override_unique_together_message": true,
+        "forms_tests.tests.tests.FormsModelTestCase.test_formfield_initial": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_help_text_overrides": true,
+        "model_forms.tests.ValidationTest.test_validates_with_replaced_field_excluded": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_field_class_overrides": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_error_messages_overrides": true,
+        "model_forms.tests.ModelFormBasicTests.test_save_with_data_errors": true,
+        "model_forms.tests.ModelFormBasicTests.test_subset_fields": true,
+        "model_forms.tests.ModelFormBaseTest.test_extra_field_model_form": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15916/dedup_patch_1.jsonl": {
+      "django__django-15916": {
+        "model_formsets.tests.ModelFormsetTest.test_unique_together_with_inlineformset_factory": true,
+        "model_formsets.tests.ModelFormsetTest.test_inline_formsets_with_custom_save_method": true,
+        "forms_tests.tests.tests.ManyToManyExclusionTestCase.test_m2m_field_exclusion": true,
+        "model_forms.tests.ModelFormBasicTests.test_m2m_editing": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_labels_overrides": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_custom_error_messages": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_widgets": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_model_clean_error_messages": true,
+        "model_forms.tests.ModelFormBaseTest.test_missing_fields_attribute": true,
+        "model_forms.tests.ModelFormBaseTest.test_no_model_class": true,
+        "model_forms.tests.ModelFormBaseTest.test_extra_field_modelform_factory": true,
+        "model_forms.tests.ModelFormBaseTest.test_limit_fields_with_string": true,
+        "model_forms.tests.FormFieldCallbackTests.test_inherit_after_custom_callback": true,
+        "model_forms.tests.ModelFormBaseTest.test_exclude_fields_with_string": true,
+        "model_formsets.tests.ModelFormsetTest.test_unique_validation": true,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": true,
+        "model_forms.tests.LocalizedModelFormTest.test_model_form_refuses_arbitrary_string": true,
+        "model_forms.tests.UniqueTest.test_override_unique_together_message": true,
+        "forms_tests.tests.tests.FormsModelTestCase.test_formfield_initial": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_help_text_overrides": true,
+        "model_forms.tests.ValidationTest.test_validates_with_replaced_field_excluded": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_field_class_overrides": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_error_messages_overrides": true,
+        "model_forms.tests.ModelFormBasicTests.test_save_with_data_errors": true,
+        "model_forms.tests.ModelFormBasicTests.test_subset_fields": true,
+        "model_forms.tests.ModelFormBaseTest.test_extra_field_model_form": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15916/dedup_patch_10.jsonl": {
+      "django__django-15916": {
+        "model_formsets.tests.ModelFormsetTest.test_unique_together_with_inlineformset_factory": true,
+        "model_formsets.tests.ModelFormsetTest.test_inline_formsets_with_custom_save_method": true,
+        "forms_tests.tests.tests.ManyToManyExclusionTestCase.test_m2m_field_exclusion": true,
+        "model_forms.tests.ModelFormBasicTests.test_m2m_editing": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_labels_overrides": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_custom_error_messages": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_widgets": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_model_clean_error_messages": true,
+        "model_forms.tests.ModelFormBaseTest.test_missing_fields_attribute": true,
+        "model_forms.tests.ModelFormBaseTest.test_no_model_class": true,
+        "model_forms.tests.ModelFormBaseTest.test_extra_field_modelform_factory": true,
+        "model_forms.tests.ModelFormBaseTest.test_limit_fields_with_string": true,
+        "model_forms.tests.FormFieldCallbackTests.test_inherit_after_custom_callback": true,
+        "model_forms.tests.ModelFormBaseTest.test_exclude_fields_with_string": true,
+        "model_formsets.tests.ModelFormsetTest.test_unique_validation": true,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": true,
+        "model_forms.tests.LocalizedModelFormTest.test_model_form_refuses_arbitrary_string": true,
+        "model_forms.tests.UniqueTest.test_override_unique_together_message": true,
+        "forms_tests.tests.tests.FormsModelTestCase.test_formfield_initial": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_help_text_overrides": true,
+        "model_forms.tests.ValidationTest.test_validates_with_replaced_field_excluded": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_field_class_overrides": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_error_messages_overrides": true,
+        "model_forms.tests.ModelFormBasicTests.test_save_with_data_errors": true,
+        "model_forms.tests.ModelFormBasicTests.test_subset_fields": true,
+        "model_forms.tests.ModelFormBaseTest.test_extra_field_model_form": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15916/dedup_patch_11.jsonl": {
+      "django__django-15916": {
+        "model_formsets.tests.ModelFormsetTest.test_unique_together_with_inlineformset_factory": true,
+        "model_formsets.tests.ModelFormsetTest.test_inline_formsets_with_custom_save_method": true,
+        "forms_tests.tests.tests.ManyToManyExclusionTestCase.test_m2m_field_exclusion": true,
+        "model_forms.tests.ModelFormBasicTests.test_m2m_editing": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_labels_overrides": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_custom_error_messages": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_widgets": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_model_clean_error_messages": true,
+        "model_forms.tests.ModelFormBaseTest.test_missing_fields_attribute": true,
+        "model_forms.tests.ModelFormBaseTest.test_no_model_class": true,
+        "model_forms.tests.ModelFormBaseTest.test_extra_field_modelform_factory": true,
+        "model_forms.tests.ModelFormBaseTest.test_limit_fields_with_string": true,
+        "model_forms.tests.FormFieldCallbackTests.test_inherit_after_custom_callback": true,
+        "model_forms.tests.ModelFormBaseTest.test_exclude_fields_with_string": true,
+        "model_formsets.tests.ModelFormsetTest.test_unique_validation": true,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": true,
+        "model_forms.tests.LocalizedModelFormTest.test_model_form_refuses_arbitrary_string": true,
+        "model_forms.tests.UniqueTest.test_override_unique_together_message": true,
+        "forms_tests.tests.tests.FormsModelTestCase.test_formfield_initial": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_help_text_overrides": true,
+        "model_forms.tests.ValidationTest.test_validates_with_replaced_field_excluded": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_field_class_overrides": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_error_messages_overrides": true,
+        "model_forms.tests.ModelFormBasicTests.test_save_with_data_errors": true,
+        "model_forms.tests.ModelFormBasicTests.test_subset_fields": true,
+        "model_forms.tests.ModelFormBaseTest.test_extra_field_model_form": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15916/dedup_patch_12.jsonl": {
+      "django__django-15916": {
+        "model_formsets.tests.ModelFormsetTest.test_unique_together_with_inlineformset_factory": true,
+        "model_formsets.tests.ModelFormsetTest.test_inline_formsets_with_custom_save_method": true,
+        "forms_tests.tests.tests.ManyToManyExclusionTestCase.test_m2m_field_exclusion": true,
+        "model_forms.tests.ModelFormBasicTests.test_m2m_editing": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_labels_overrides": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_custom_error_messages": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_widgets": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_model_clean_error_messages": true,
+        "model_forms.tests.ModelFormBaseTest.test_missing_fields_attribute": true,
+        "model_forms.tests.ModelFormBaseTest.test_no_model_class": true,
+        "model_forms.tests.ModelFormBaseTest.test_extra_field_modelform_factory": true,
+        "model_forms.tests.ModelFormBaseTest.test_limit_fields_with_string": true,
+        "model_forms.tests.FormFieldCallbackTests.test_inherit_after_custom_callback": true,
+        "model_forms.tests.ModelFormBaseTest.test_exclude_fields_with_string": true,
+        "model_formsets.tests.ModelFormsetTest.test_unique_validation": true,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": true,
+        "model_forms.tests.LocalizedModelFormTest.test_model_form_refuses_arbitrary_string": true,
+        "model_forms.tests.UniqueTest.test_override_unique_together_message": true,
+        "forms_tests.tests.tests.FormsModelTestCase.test_formfield_initial": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_help_text_overrides": true,
+        "model_forms.tests.ValidationTest.test_validates_with_replaced_field_excluded": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_field_class_overrides": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_error_messages_overrides": true,
+        "model_forms.tests.ModelFormBasicTests.test_save_with_data_errors": true,
+        "model_forms.tests.ModelFormBasicTests.test_subset_fields": true,
+        "model_forms.tests.ModelFormBaseTest.test_extra_field_model_form": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15916/dedup_patch_13.jsonl": {
+      "django__django-15916": {
+        "model_formsets.tests.ModelFormsetTest.test_unique_together_with_inlineformset_factory": true,
+        "model_formsets.tests.ModelFormsetTest.test_inline_formsets_with_custom_save_method": true,
+        "forms_tests.tests.tests.ManyToManyExclusionTestCase.test_m2m_field_exclusion": true,
+        "model_forms.tests.ModelFormBasicTests.test_m2m_editing": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_labels_overrides": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_custom_error_messages": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_widgets": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_model_clean_error_messages": true,
+        "model_forms.tests.ModelFormBaseTest.test_missing_fields_attribute": true,
+        "model_forms.tests.ModelFormBaseTest.test_no_model_class": true,
+        "model_forms.tests.ModelFormBaseTest.test_extra_field_modelform_factory": true,
+        "model_forms.tests.ModelFormBaseTest.test_limit_fields_with_string": true,
+        "model_forms.tests.FormFieldCallbackTests.test_inherit_after_custom_callback": true,
+        "model_forms.tests.ModelFormBaseTest.test_exclude_fields_with_string": true,
+        "model_formsets.tests.ModelFormsetTest.test_unique_validation": true,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": true,
+        "model_forms.tests.LocalizedModelFormTest.test_model_form_refuses_arbitrary_string": true,
+        "model_forms.tests.UniqueTest.test_override_unique_together_message": true,
+        "forms_tests.tests.tests.FormsModelTestCase.test_formfield_initial": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_help_text_overrides": true,
+        "model_forms.tests.ValidationTest.test_validates_with_replaced_field_excluded": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_field_class_overrides": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_error_messages_overrides": true,
+        "model_forms.tests.ModelFormBasicTests.test_save_with_data_errors": true,
+        "model_forms.tests.ModelFormBasicTests.test_subset_fields": true,
+        "model_forms.tests.ModelFormBaseTest.test_extra_field_model_form": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15916/dedup_patch_14.jsonl": {
+      "django__django-15916": {
+        "model_formsets.tests.ModelFormsetTest.test_unique_together_with_inlineformset_factory": true,
+        "model_formsets.tests.ModelFormsetTest.test_inline_formsets_with_custom_save_method": true,
+        "forms_tests.tests.tests.ManyToManyExclusionTestCase.test_m2m_field_exclusion": true,
+        "model_forms.tests.ModelFormBasicTests.test_m2m_editing": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_labels_overrides": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_custom_error_messages": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_widgets": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_model_clean_error_messages": true,
+        "model_forms.tests.ModelFormBaseTest.test_missing_fields_attribute": true,
+        "model_forms.tests.ModelFormBaseTest.test_no_model_class": true,
+        "model_forms.tests.ModelFormBaseTest.test_extra_field_modelform_factory": true,
+        "model_forms.tests.ModelFormBaseTest.test_limit_fields_with_string": true,
+        "model_forms.tests.FormFieldCallbackTests.test_inherit_after_custom_callback": true,
+        "model_forms.tests.ModelFormBaseTest.test_exclude_fields_with_string": true,
+        "model_formsets.tests.ModelFormsetTest.test_unique_validation": true,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": true,
+        "model_forms.tests.LocalizedModelFormTest.test_model_form_refuses_arbitrary_string": true,
+        "model_forms.tests.UniqueTest.test_override_unique_together_message": true,
+        "forms_tests.tests.tests.FormsModelTestCase.test_formfield_initial": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_help_text_overrides": true,
+        "model_forms.tests.ValidationTest.test_validates_with_replaced_field_excluded": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_field_class_overrides": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_error_messages_overrides": true,
+        "model_forms.tests.ModelFormBasicTests.test_save_with_data_errors": true,
+        "model_forms.tests.ModelFormBasicTests.test_subset_fields": true,
+        "model_forms.tests.ModelFormBaseTest.test_extra_field_model_form": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15916/dedup_patch_15.jsonl": {
+      "django__django-15916": {
+        "model_formsets.tests.ModelFormsetTest.test_unique_together_with_inlineformset_factory": true,
+        "model_formsets.tests.ModelFormsetTest.test_inline_formsets_with_custom_save_method": true,
+        "forms_tests.tests.tests.ManyToManyExclusionTestCase.test_m2m_field_exclusion": true,
+        "model_forms.tests.ModelFormBasicTests.test_m2m_editing": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_labels_overrides": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_custom_error_messages": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_widgets": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_model_clean_error_messages": true,
+        "model_forms.tests.ModelFormBaseTest.test_missing_fields_attribute": true,
+        "model_forms.tests.ModelFormBaseTest.test_no_model_class": true,
+        "model_forms.tests.ModelFormBaseTest.test_extra_field_modelform_factory": true,
+        "model_forms.tests.ModelFormBaseTest.test_limit_fields_with_string": true,
+        "model_forms.tests.FormFieldCallbackTests.test_inherit_after_custom_callback": true,
+        "model_forms.tests.ModelFormBaseTest.test_exclude_fields_with_string": true,
+        "model_formsets.tests.ModelFormsetTest.test_unique_validation": true,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": true,
+        "model_forms.tests.LocalizedModelFormTest.test_model_form_refuses_arbitrary_string": true,
+        "model_forms.tests.UniqueTest.test_override_unique_together_message": true,
+        "forms_tests.tests.tests.FormsModelTestCase.test_formfield_initial": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_help_text_overrides": true,
+        "model_forms.tests.ValidationTest.test_validates_with_replaced_field_excluded": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_field_class_overrides": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_error_messages_overrides": true,
+        "model_forms.tests.ModelFormBasicTests.test_save_with_data_errors": true,
+        "model_forms.tests.ModelFormBasicTests.test_subset_fields": true,
+        "model_forms.tests.ModelFormBaseTest.test_extra_field_model_form": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15916/dedup_patch_16.jsonl": {
+      "django__django-15916": {
+        "model_formsets.tests.ModelFormsetTest.test_unique_together_with_inlineformset_factory": true,
+        "model_formsets.tests.ModelFormsetTest.test_inline_formsets_with_custom_save_method": true,
+        "forms_tests.tests.tests.ManyToManyExclusionTestCase.test_m2m_field_exclusion": true,
+        "model_forms.tests.ModelFormBasicTests.test_m2m_editing": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_labels_overrides": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_custom_error_messages": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_widgets": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_model_clean_error_messages": true,
+        "model_forms.tests.ModelFormBaseTest.test_missing_fields_attribute": true,
+        "model_forms.tests.ModelFormBaseTest.test_no_model_class": true,
+        "model_forms.tests.ModelFormBaseTest.test_extra_field_modelform_factory": true,
+        "model_forms.tests.ModelFormBaseTest.test_limit_fields_with_string": true,
+        "model_forms.tests.FormFieldCallbackTests.test_inherit_after_custom_callback": true,
+        "model_forms.tests.ModelFormBaseTest.test_exclude_fields_with_string": true,
+        "model_formsets.tests.ModelFormsetTest.test_unique_validation": true,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": true,
+        "model_forms.tests.LocalizedModelFormTest.test_model_form_refuses_arbitrary_string": true,
+        "model_forms.tests.UniqueTest.test_override_unique_together_message": true,
+        "forms_tests.tests.tests.FormsModelTestCase.test_formfield_initial": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_help_text_overrides": true,
+        "model_forms.tests.ValidationTest.test_validates_with_replaced_field_excluded": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_field_class_overrides": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_error_messages_overrides": true,
+        "model_forms.tests.ModelFormBasicTests.test_save_with_data_errors": true,
+        "model_forms.tests.ModelFormBasicTests.test_subset_fields": true,
+        "model_forms.tests.ModelFormBaseTest.test_extra_field_model_form": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15916/dedup_patch_17.jsonl": {
+      "django__django-15916": {
+        "model_formsets.tests.ModelFormsetTest.test_unique_together_with_inlineformset_factory": true,
+        "model_formsets.tests.ModelFormsetTest.test_inline_formsets_with_custom_save_method": true,
+        "forms_tests.tests.tests.ManyToManyExclusionTestCase.test_m2m_field_exclusion": true,
+        "model_forms.tests.ModelFormBasicTests.test_m2m_editing": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_labels_overrides": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_custom_error_messages": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_widgets": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_model_clean_error_messages": true,
+        "model_forms.tests.ModelFormBaseTest.test_missing_fields_attribute": true,
+        "model_forms.tests.ModelFormBaseTest.test_no_model_class": true,
+        "model_forms.tests.ModelFormBaseTest.test_extra_field_modelform_factory": true,
+        "model_forms.tests.ModelFormBaseTest.test_limit_fields_with_string": true,
+        "model_forms.tests.FormFieldCallbackTests.test_inherit_after_custom_callback": true,
+        "model_forms.tests.ModelFormBaseTest.test_exclude_fields_with_string": true,
+        "model_formsets.tests.ModelFormsetTest.test_unique_validation": true,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": true,
+        "model_forms.tests.LocalizedModelFormTest.test_model_form_refuses_arbitrary_string": true,
+        "model_forms.tests.UniqueTest.test_override_unique_together_message": true,
+        "forms_tests.tests.tests.FormsModelTestCase.test_formfield_initial": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_help_text_overrides": true,
+        "model_forms.tests.ValidationTest.test_validates_with_replaced_field_excluded": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_field_class_overrides": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_error_messages_overrides": true,
+        "model_forms.tests.ModelFormBasicTests.test_save_with_data_errors": true,
+        "model_forms.tests.ModelFormBasicTests.test_subset_fields": true,
+        "model_forms.tests.ModelFormBaseTest.test_extra_field_model_form": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15916/dedup_patch_18.jsonl": {
+      "django__django-15916": {
+        "model_formsets.tests.ModelFormsetTest.test_unique_together_with_inlineformset_factory": false,
+        "model_formsets.tests.ModelFormsetTest.test_inline_formsets_with_custom_save_method": false,
+        "forms_tests.tests.tests.ManyToManyExclusionTestCase.test_m2m_field_exclusion": false,
+        "model_forms.tests.ModelFormBasicTests.test_m2m_editing": false,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_labels_overrides": false,
+        "model_forms.tests.ModelFormCustomErrorTests.test_custom_error_messages": false,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_widgets": false,
+        "model_forms.tests.ModelFormCustomErrorTests.test_model_clean_error_messages": false,
+        "model_forms.tests.ModelFormBaseTest.test_missing_fields_attribute": false,
+        "model_forms.tests.ModelFormBaseTest.test_no_model_class": false,
+        "model_forms.tests.ModelFormBaseTest.test_extra_field_modelform_factory": false,
+        "model_forms.tests.ModelFormBaseTest.test_limit_fields_with_string": false,
+        "model_forms.tests.FormFieldCallbackTests.test_inherit_after_custom_callback": false,
+        "model_forms.tests.ModelFormBaseTest.test_exclude_fields_with_string": false,
+        "model_formsets.tests.ModelFormsetTest.test_unique_validation": false,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": false,
+        "model_forms.tests.LocalizedModelFormTest.test_model_form_refuses_arbitrary_string": false,
+        "model_forms.tests.UniqueTest.test_override_unique_together_message": false,
+        "forms_tests.tests.tests.FormsModelTestCase.test_formfield_initial": false,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_help_text_overrides": false,
+        "model_forms.tests.ValidationTest.test_validates_with_replaced_field_excluded": false,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_field_class_overrides": false,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_error_messages_overrides": false,
+        "model_forms.tests.ModelFormBasicTests.test_save_with_data_errors": false,
+        "model_forms.tests.ModelFormBasicTests.test_subset_fields": false,
+        "model_forms.tests.ModelFormBaseTest.test_extra_field_model_form": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15916/dedup_patch_19.jsonl": {
+      "django__django-15916": {
+        "model_formsets.tests.ModelFormsetTest.test_unique_together_with_inlineformset_factory": true,
+        "model_formsets.tests.ModelFormsetTest.test_inline_formsets_with_custom_save_method": true,
+        "forms_tests.tests.tests.ManyToManyExclusionTestCase.test_m2m_field_exclusion": true,
+        "model_forms.tests.ModelFormBasicTests.test_m2m_editing": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_labels_overrides": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_custom_error_messages": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_widgets": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_model_clean_error_messages": true,
+        "model_forms.tests.ModelFormBaseTest.test_missing_fields_attribute": true,
+        "model_forms.tests.ModelFormBaseTest.test_no_model_class": true,
+        "model_forms.tests.ModelFormBaseTest.test_extra_field_modelform_factory": true,
+        "model_forms.tests.ModelFormBaseTest.test_limit_fields_with_string": true,
+        "model_forms.tests.FormFieldCallbackTests.test_inherit_after_custom_callback": true,
+        "model_forms.tests.ModelFormBaseTest.test_exclude_fields_with_string": true,
+        "model_formsets.tests.ModelFormsetTest.test_unique_validation": true,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": true,
+        "model_forms.tests.LocalizedModelFormTest.test_model_form_refuses_arbitrary_string": true,
+        "model_forms.tests.UniqueTest.test_override_unique_together_message": true,
+        "forms_tests.tests.tests.FormsModelTestCase.test_formfield_initial": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_help_text_overrides": true,
+        "model_forms.tests.ValidationTest.test_validates_with_replaced_field_excluded": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_field_class_overrides": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_error_messages_overrides": true,
+        "model_forms.tests.ModelFormBasicTests.test_save_with_data_errors": true,
+        "model_forms.tests.ModelFormBasicTests.test_subset_fields": true,
+        "model_forms.tests.ModelFormBaseTest.test_extra_field_model_form": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15916/dedup_patch_2.jsonl": {
+      "django__django-15916": {
+        "model_formsets.tests.ModelFormsetTest.test_unique_together_with_inlineformset_factory": true,
+        "model_formsets.tests.ModelFormsetTest.test_inline_formsets_with_custom_save_method": true,
+        "forms_tests.tests.tests.ManyToManyExclusionTestCase.test_m2m_field_exclusion": true,
+        "model_forms.tests.ModelFormBasicTests.test_m2m_editing": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_labels_overrides": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_custom_error_messages": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_widgets": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_model_clean_error_messages": true,
+        "model_forms.tests.ModelFormBaseTest.test_missing_fields_attribute": true,
+        "model_forms.tests.ModelFormBaseTest.test_no_model_class": true,
+        "model_forms.tests.ModelFormBaseTest.test_extra_field_modelform_factory": true,
+        "model_forms.tests.ModelFormBaseTest.test_limit_fields_with_string": true,
+        "model_forms.tests.FormFieldCallbackTests.test_inherit_after_custom_callback": true,
+        "model_forms.tests.ModelFormBaseTest.test_exclude_fields_with_string": true,
+        "model_formsets.tests.ModelFormsetTest.test_unique_validation": true,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": true,
+        "model_forms.tests.LocalizedModelFormTest.test_model_form_refuses_arbitrary_string": true,
+        "model_forms.tests.UniqueTest.test_override_unique_together_message": true,
+        "forms_tests.tests.tests.FormsModelTestCase.test_formfield_initial": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_help_text_overrides": true,
+        "model_forms.tests.ValidationTest.test_validates_with_replaced_field_excluded": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_field_class_overrides": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_error_messages_overrides": true,
+        "model_forms.tests.ModelFormBasicTests.test_save_with_data_errors": true,
+        "model_forms.tests.ModelFormBasicTests.test_subset_fields": true,
+        "model_forms.tests.ModelFormBaseTest.test_extra_field_model_form": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15916/dedup_patch_20.jsonl": {
+      "django__django-15916": {
+        "model_formsets.tests.ModelFormsetTest.test_unique_together_with_inlineformset_factory": true,
+        "model_formsets.tests.ModelFormsetTest.test_inline_formsets_with_custom_save_method": true,
+        "forms_tests.tests.tests.ManyToManyExclusionTestCase.test_m2m_field_exclusion": true,
+        "model_forms.tests.ModelFormBasicTests.test_m2m_editing": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_labels_overrides": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_custom_error_messages": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_widgets": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_model_clean_error_messages": true,
+        "model_forms.tests.ModelFormBaseTest.test_missing_fields_attribute": true,
+        "model_forms.tests.ModelFormBaseTest.test_no_model_class": true,
+        "model_forms.tests.ModelFormBaseTest.test_extra_field_modelform_factory": true,
+        "model_forms.tests.ModelFormBaseTest.test_limit_fields_with_string": true,
+        "model_forms.tests.FormFieldCallbackTests.test_inherit_after_custom_callback": true,
+        "model_forms.tests.ModelFormBaseTest.test_exclude_fields_with_string": true,
+        "model_formsets.tests.ModelFormsetTest.test_unique_validation": true,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": true,
+        "model_forms.tests.LocalizedModelFormTest.test_model_form_refuses_arbitrary_string": true,
+        "model_forms.tests.UniqueTest.test_override_unique_together_message": true,
+        "forms_tests.tests.tests.FormsModelTestCase.test_formfield_initial": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_help_text_overrides": true,
+        "model_forms.tests.ValidationTest.test_validates_with_replaced_field_excluded": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_field_class_overrides": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_error_messages_overrides": true,
+        "model_forms.tests.ModelFormBasicTests.test_save_with_data_errors": true,
+        "model_forms.tests.ModelFormBasicTests.test_subset_fields": true,
+        "model_forms.tests.ModelFormBaseTest.test_extra_field_model_form": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15916/dedup_patch_21.jsonl": {
+      "django__django-15916": {
+        "model_formsets.tests.ModelFormsetTest.test_unique_together_with_inlineformset_factory": true,
+        "model_formsets.tests.ModelFormsetTest.test_inline_formsets_with_custom_save_method": true,
+        "forms_tests.tests.tests.ManyToManyExclusionTestCase.test_m2m_field_exclusion": true,
+        "model_forms.tests.ModelFormBasicTests.test_m2m_editing": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_labels_overrides": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_custom_error_messages": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_widgets": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_model_clean_error_messages": true,
+        "model_forms.tests.ModelFormBaseTest.test_missing_fields_attribute": true,
+        "model_forms.tests.ModelFormBaseTest.test_no_model_class": true,
+        "model_forms.tests.ModelFormBaseTest.test_extra_field_modelform_factory": true,
+        "model_forms.tests.ModelFormBaseTest.test_limit_fields_with_string": true,
+        "model_forms.tests.FormFieldCallbackTests.test_inherit_after_custom_callback": true,
+        "model_forms.tests.ModelFormBaseTest.test_exclude_fields_with_string": true,
+        "model_formsets.tests.ModelFormsetTest.test_unique_validation": true,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": true,
+        "model_forms.tests.LocalizedModelFormTest.test_model_form_refuses_arbitrary_string": true,
+        "model_forms.tests.UniqueTest.test_override_unique_together_message": true,
+        "forms_tests.tests.tests.FormsModelTestCase.test_formfield_initial": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_help_text_overrides": true,
+        "model_forms.tests.ValidationTest.test_validates_with_replaced_field_excluded": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_field_class_overrides": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_error_messages_overrides": true,
+        "model_forms.tests.ModelFormBasicTests.test_save_with_data_errors": true,
+        "model_forms.tests.ModelFormBasicTests.test_subset_fields": true,
+        "model_forms.tests.ModelFormBaseTest.test_extra_field_model_form": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15916/dedup_patch_22.jsonl": {
+      "django__django-15916": {
+        "model_formsets.tests.ModelFormsetTest.test_unique_together_with_inlineformset_factory": true,
+        "model_formsets.tests.ModelFormsetTest.test_inline_formsets_with_custom_save_method": true,
+        "forms_tests.tests.tests.ManyToManyExclusionTestCase.test_m2m_field_exclusion": true,
+        "model_forms.tests.ModelFormBasicTests.test_m2m_editing": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_labels_overrides": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_custom_error_messages": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_widgets": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_model_clean_error_messages": true,
+        "model_forms.tests.ModelFormBaseTest.test_missing_fields_attribute": true,
+        "model_forms.tests.ModelFormBaseTest.test_no_model_class": true,
+        "model_forms.tests.ModelFormBaseTest.test_extra_field_modelform_factory": true,
+        "model_forms.tests.ModelFormBaseTest.test_limit_fields_with_string": true,
+        "model_forms.tests.FormFieldCallbackTests.test_inherit_after_custom_callback": true,
+        "model_forms.tests.ModelFormBaseTest.test_exclude_fields_with_string": true,
+        "model_formsets.tests.ModelFormsetTest.test_unique_validation": true,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": true,
+        "model_forms.tests.LocalizedModelFormTest.test_model_form_refuses_arbitrary_string": true,
+        "model_forms.tests.UniqueTest.test_override_unique_together_message": true,
+        "forms_tests.tests.tests.FormsModelTestCase.test_formfield_initial": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_help_text_overrides": true,
+        "model_forms.tests.ValidationTest.test_validates_with_replaced_field_excluded": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_field_class_overrides": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_error_messages_overrides": true,
+        "model_forms.tests.ModelFormBasicTests.test_save_with_data_errors": true,
+        "model_forms.tests.ModelFormBasicTests.test_subset_fields": true,
+        "model_forms.tests.ModelFormBaseTest.test_extra_field_model_form": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15916/dedup_patch_23.jsonl": {
+      "django__django-15916": {
+        "model_formsets.tests.ModelFormsetTest.test_unique_together_with_inlineformset_factory": true,
+        "model_formsets.tests.ModelFormsetTest.test_inline_formsets_with_custom_save_method": true,
+        "forms_tests.tests.tests.ManyToManyExclusionTestCase.test_m2m_field_exclusion": true,
+        "model_forms.tests.ModelFormBasicTests.test_m2m_editing": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_labels_overrides": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_custom_error_messages": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_widgets": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_model_clean_error_messages": true,
+        "model_forms.tests.ModelFormBaseTest.test_missing_fields_attribute": true,
+        "model_forms.tests.ModelFormBaseTest.test_no_model_class": true,
+        "model_forms.tests.ModelFormBaseTest.test_extra_field_modelform_factory": true,
+        "model_forms.tests.ModelFormBaseTest.test_limit_fields_with_string": true,
+        "model_forms.tests.FormFieldCallbackTests.test_inherit_after_custom_callback": true,
+        "model_forms.tests.ModelFormBaseTest.test_exclude_fields_with_string": true,
+        "model_formsets.tests.ModelFormsetTest.test_unique_validation": true,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": true,
+        "model_forms.tests.LocalizedModelFormTest.test_model_form_refuses_arbitrary_string": true,
+        "model_forms.tests.UniqueTest.test_override_unique_together_message": true,
+        "forms_tests.tests.tests.FormsModelTestCase.test_formfield_initial": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_help_text_overrides": true,
+        "model_forms.tests.ValidationTest.test_validates_with_replaced_field_excluded": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_field_class_overrides": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_error_messages_overrides": true,
+        "model_forms.tests.ModelFormBasicTests.test_save_with_data_errors": true,
+        "model_forms.tests.ModelFormBasicTests.test_subset_fields": true,
+        "model_forms.tests.ModelFormBaseTest.test_extra_field_model_form": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15916/dedup_patch_24.jsonl": {
+      "django__django-15916": {
+        "model_formsets.tests.ModelFormsetTest.test_unique_together_with_inlineformset_factory": true,
+        "model_formsets.tests.ModelFormsetTest.test_inline_formsets_with_custom_save_method": true,
+        "forms_tests.tests.tests.ManyToManyExclusionTestCase.test_m2m_field_exclusion": true,
+        "model_forms.tests.ModelFormBasicTests.test_m2m_editing": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_labels_overrides": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_custom_error_messages": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_widgets": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_model_clean_error_messages": true,
+        "model_forms.tests.ModelFormBaseTest.test_missing_fields_attribute": true,
+        "model_forms.tests.ModelFormBaseTest.test_no_model_class": true,
+        "model_forms.tests.ModelFormBaseTest.test_extra_field_modelform_factory": true,
+        "model_forms.tests.ModelFormBaseTest.test_limit_fields_with_string": true,
+        "model_forms.tests.FormFieldCallbackTests.test_inherit_after_custom_callback": true,
+        "model_forms.tests.ModelFormBaseTest.test_exclude_fields_with_string": true,
+        "model_formsets.tests.ModelFormsetTest.test_unique_validation": true,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": true,
+        "model_forms.tests.LocalizedModelFormTest.test_model_form_refuses_arbitrary_string": true,
+        "model_forms.tests.UniqueTest.test_override_unique_together_message": true,
+        "forms_tests.tests.tests.FormsModelTestCase.test_formfield_initial": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_help_text_overrides": true,
+        "model_forms.tests.ValidationTest.test_validates_with_replaced_field_excluded": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_field_class_overrides": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_error_messages_overrides": true,
+        "model_forms.tests.ModelFormBasicTests.test_save_with_data_errors": true,
+        "model_forms.tests.ModelFormBasicTests.test_subset_fields": true,
+        "model_forms.tests.ModelFormBaseTest.test_extra_field_model_form": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15916/dedup_patch_25.jsonl": {
+      "django__django-15916": {
+        "model_formsets.tests.ModelFormsetTest.test_unique_together_with_inlineformset_factory": true,
+        "model_formsets.tests.ModelFormsetTest.test_inline_formsets_with_custom_save_method": true,
+        "forms_tests.tests.tests.ManyToManyExclusionTestCase.test_m2m_field_exclusion": true,
+        "model_forms.tests.ModelFormBasicTests.test_m2m_editing": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_labels_overrides": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_custom_error_messages": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_widgets": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_model_clean_error_messages": true,
+        "model_forms.tests.ModelFormBaseTest.test_missing_fields_attribute": true,
+        "model_forms.tests.ModelFormBaseTest.test_no_model_class": true,
+        "model_forms.tests.ModelFormBaseTest.test_extra_field_modelform_factory": true,
+        "model_forms.tests.ModelFormBaseTest.test_limit_fields_with_string": true,
+        "model_forms.tests.FormFieldCallbackTests.test_inherit_after_custom_callback": true,
+        "model_forms.tests.ModelFormBaseTest.test_exclude_fields_with_string": true,
+        "model_formsets.tests.ModelFormsetTest.test_unique_validation": true,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": true,
+        "model_forms.tests.LocalizedModelFormTest.test_model_form_refuses_arbitrary_string": true,
+        "model_forms.tests.UniqueTest.test_override_unique_together_message": true,
+        "forms_tests.tests.tests.FormsModelTestCase.test_formfield_initial": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_help_text_overrides": true,
+        "model_forms.tests.ValidationTest.test_validates_with_replaced_field_excluded": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_field_class_overrides": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_error_messages_overrides": true,
+        "model_forms.tests.ModelFormBasicTests.test_save_with_data_errors": true,
+        "model_forms.tests.ModelFormBasicTests.test_subset_fields": true,
+        "model_forms.tests.ModelFormBaseTest.test_extra_field_model_form": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15916/dedup_patch_26.jsonl": {
+      "django__django-15916": {
+        "model_formsets.tests.ModelFormsetTest.test_unique_together_with_inlineformset_factory": true,
+        "model_formsets.tests.ModelFormsetTest.test_inline_formsets_with_custom_save_method": true,
+        "forms_tests.tests.tests.ManyToManyExclusionTestCase.test_m2m_field_exclusion": true,
+        "model_forms.tests.ModelFormBasicTests.test_m2m_editing": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_labels_overrides": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_custom_error_messages": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_widgets": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_model_clean_error_messages": true,
+        "model_forms.tests.ModelFormBaseTest.test_missing_fields_attribute": true,
+        "model_forms.tests.ModelFormBaseTest.test_no_model_class": true,
+        "model_forms.tests.ModelFormBaseTest.test_extra_field_modelform_factory": true,
+        "model_forms.tests.ModelFormBaseTest.test_limit_fields_with_string": true,
+        "model_forms.tests.FormFieldCallbackTests.test_inherit_after_custom_callback": true,
+        "model_forms.tests.ModelFormBaseTest.test_exclude_fields_with_string": true,
+        "model_formsets.tests.ModelFormsetTest.test_unique_validation": true,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": true,
+        "model_forms.tests.LocalizedModelFormTest.test_model_form_refuses_arbitrary_string": true,
+        "model_forms.tests.UniqueTest.test_override_unique_together_message": true,
+        "forms_tests.tests.tests.FormsModelTestCase.test_formfield_initial": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_help_text_overrides": true,
+        "model_forms.tests.ValidationTest.test_validates_with_replaced_field_excluded": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_field_class_overrides": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_error_messages_overrides": true,
+        "model_forms.tests.ModelFormBasicTests.test_save_with_data_errors": true,
+        "model_forms.tests.ModelFormBasicTests.test_subset_fields": true,
+        "model_forms.tests.ModelFormBaseTest.test_extra_field_model_form": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15916/dedup_patch_27.jsonl": {
+      "django__django-15916": {
+        "model_formsets.tests.ModelFormsetTest.test_unique_together_with_inlineformset_factory": true,
+        "model_formsets.tests.ModelFormsetTest.test_inline_formsets_with_custom_save_method": true,
+        "forms_tests.tests.tests.ManyToManyExclusionTestCase.test_m2m_field_exclusion": true,
+        "model_forms.tests.ModelFormBasicTests.test_m2m_editing": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_labels_overrides": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_custom_error_messages": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_widgets": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_model_clean_error_messages": true,
+        "model_forms.tests.ModelFormBaseTest.test_missing_fields_attribute": true,
+        "model_forms.tests.ModelFormBaseTest.test_no_model_class": true,
+        "model_forms.tests.ModelFormBaseTest.test_extra_field_modelform_factory": true,
+        "model_forms.tests.ModelFormBaseTest.test_limit_fields_with_string": true,
+        "model_forms.tests.FormFieldCallbackTests.test_inherit_after_custom_callback": true,
+        "model_forms.tests.ModelFormBaseTest.test_exclude_fields_with_string": true,
+        "model_formsets.tests.ModelFormsetTest.test_unique_validation": true,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": true,
+        "model_forms.tests.LocalizedModelFormTest.test_model_form_refuses_arbitrary_string": true,
+        "model_forms.tests.UniqueTest.test_override_unique_together_message": true,
+        "forms_tests.tests.tests.FormsModelTestCase.test_formfield_initial": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_help_text_overrides": true,
+        "model_forms.tests.ValidationTest.test_validates_with_replaced_field_excluded": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_field_class_overrides": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_error_messages_overrides": true,
+        "model_forms.tests.ModelFormBasicTests.test_save_with_data_errors": true,
+        "model_forms.tests.ModelFormBasicTests.test_subset_fields": true,
+        "model_forms.tests.ModelFormBaseTest.test_extra_field_model_form": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15916/dedup_patch_28.jsonl": {
+      "django__django-15916": {
+        "model_formsets.tests.ModelFormsetTest.test_unique_together_with_inlineformset_factory": true,
+        "model_formsets.tests.ModelFormsetTest.test_inline_formsets_with_custom_save_method": true,
+        "forms_tests.tests.tests.ManyToManyExclusionTestCase.test_m2m_field_exclusion": true,
+        "model_forms.tests.ModelFormBasicTests.test_m2m_editing": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_labels_overrides": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_custom_error_messages": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_widgets": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_model_clean_error_messages": true,
+        "model_forms.tests.ModelFormBaseTest.test_missing_fields_attribute": true,
+        "model_forms.tests.ModelFormBaseTest.test_no_model_class": true,
+        "model_forms.tests.ModelFormBaseTest.test_extra_field_modelform_factory": true,
+        "model_forms.tests.ModelFormBaseTest.test_limit_fields_with_string": true,
+        "model_forms.tests.FormFieldCallbackTests.test_inherit_after_custom_callback": true,
+        "model_forms.tests.ModelFormBaseTest.test_exclude_fields_with_string": true,
+        "model_formsets.tests.ModelFormsetTest.test_unique_validation": true,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": true,
+        "model_forms.tests.LocalizedModelFormTest.test_model_form_refuses_arbitrary_string": true,
+        "model_forms.tests.UniqueTest.test_override_unique_together_message": true,
+        "forms_tests.tests.tests.FormsModelTestCase.test_formfield_initial": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_help_text_overrides": true,
+        "model_forms.tests.ValidationTest.test_validates_with_replaced_field_excluded": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_field_class_overrides": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_error_messages_overrides": true,
+        "model_forms.tests.ModelFormBasicTests.test_save_with_data_errors": true,
+        "model_forms.tests.ModelFormBasicTests.test_subset_fields": true,
+        "model_forms.tests.ModelFormBaseTest.test_extra_field_model_form": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15916/dedup_patch_29.jsonl": {
+      "django__django-15916": {
+        "model_formsets.tests.ModelFormsetTest.test_unique_together_with_inlineformset_factory": true,
+        "model_formsets.tests.ModelFormsetTest.test_inline_formsets_with_custom_save_method": true,
+        "forms_tests.tests.tests.ManyToManyExclusionTestCase.test_m2m_field_exclusion": true,
+        "model_forms.tests.ModelFormBasicTests.test_m2m_editing": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_labels_overrides": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_custom_error_messages": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_widgets": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_model_clean_error_messages": true,
+        "model_forms.tests.ModelFormBaseTest.test_missing_fields_attribute": true,
+        "model_forms.tests.ModelFormBaseTest.test_no_model_class": true,
+        "model_forms.tests.ModelFormBaseTest.test_extra_field_modelform_factory": true,
+        "model_forms.tests.ModelFormBaseTest.test_limit_fields_with_string": true,
+        "model_forms.tests.FormFieldCallbackTests.test_inherit_after_custom_callback": true,
+        "model_forms.tests.ModelFormBaseTest.test_exclude_fields_with_string": true,
+        "model_formsets.tests.ModelFormsetTest.test_unique_validation": true,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": true,
+        "model_forms.tests.LocalizedModelFormTest.test_model_form_refuses_arbitrary_string": true,
+        "model_forms.tests.UniqueTest.test_override_unique_together_message": true,
+        "forms_tests.tests.tests.FormsModelTestCase.test_formfield_initial": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_help_text_overrides": true,
+        "model_forms.tests.ValidationTest.test_validates_with_replaced_field_excluded": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_field_class_overrides": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_error_messages_overrides": true,
+        "model_forms.tests.ModelFormBasicTests.test_save_with_data_errors": true,
+        "model_forms.tests.ModelFormBasicTests.test_subset_fields": true,
+        "model_forms.tests.ModelFormBaseTest.test_extra_field_model_form": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15916/dedup_patch_3.jsonl": {
+      "django__django-15916": {
+        "model_formsets.tests.ModelFormsetTest.test_unique_together_with_inlineformset_factory": true,
+        "model_formsets.tests.ModelFormsetTest.test_inline_formsets_with_custom_save_method": true,
+        "forms_tests.tests.tests.ManyToManyExclusionTestCase.test_m2m_field_exclusion": true,
+        "model_forms.tests.ModelFormBasicTests.test_m2m_editing": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_labels_overrides": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_custom_error_messages": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_widgets": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_model_clean_error_messages": true,
+        "model_forms.tests.ModelFormBaseTest.test_missing_fields_attribute": true,
+        "model_forms.tests.ModelFormBaseTest.test_no_model_class": true,
+        "model_forms.tests.ModelFormBaseTest.test_extra_field_modelform_factory": true,
+        "model_forms.tests.ModelFormBaseTest.test_limit_fields_with_string": true,
+        "model_forms.tests.FormFieldCallbackTests.test_inherit_after_custom_callback": true,
+        "model_forms.tests.ModelFormBaseTest.test_exclude_fields_with_string": true,
+        "model_formsets.tests.ModelFormsetTest.test_unique_validation": true,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": true,
+        "model_forms.tests.LocalizedModelFormTest.test_model_form_refuses_arbitrary_string": true,
+        "model_forms.tests.UniqueTest.test_override_unique_together_message": true,
+        "forms_tests.tests.tests.FormsModelTestCase.test_formfield_initial": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_help_text_overrides": true,
+        "model_forms.tests.ValidationTest.test_validates_with_replaced_field_excluded": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_field_class_overrides": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_error_messages_overrides": true,
+        "model_forms.tests.ModelFormBasicTests.test_save_with_data_errors": true,
+        "model_forms.tests.ModelFormBasicTests.test_subset_fields": true,
+        "model_forms.tests.ModelFormBaseTest.test_extra_field_model_form": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15916/dedup_patch_30.jsonl": {
+      "django__django-15916": {
+        "model_formsets.tests.ModelFormsetTest.test_unique_together_with_inlineformset_factory": true,
+        "model_formsets.tests.ModelFormsetTest.test_inline_formsets_with_custom_save_method": true,
+        "forms_tests.tests.tests.ManyToManyExclusionTestCase.test_m2m_field_exclusion": true,
+        "model_forms.tests.ModelFormBasicTests.test_m2m_editing": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_labels_overrides": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_custom_error_messages": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_widgets": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_model_clean_error_messages": true,
+        "model_forms.tests.ModelFormBaseTest.test_missing_fields_attribute": true,
+        "model_forms.tests.ModelFormBaseTest.test_no_model_class": true,
+        "model_forms.tests.ModelFormBaseTest.test_extra_field_modelform_factory": true,
+        "model_forms.tests.ModelFormBaseTest.test_limit_fields_with_string": true,
+        "model_forms.tests.FormFieldCallbackTests.test_inherit_after_custom_callback": true,
+        "model_forms.tests.ModelFormBaseTest.test_exclude_fields_with_string": true,
+        "model_formsets.tests.ModelFormsetTest.test_unique_validation": true,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": true,
+        "model_forms.tests.LocalizedModelFormTest.test_model_form_refuses_arbitrary_string": true,
+        "model_forms.tests.UniqueTest.test_override_unique_together_message": true,
+        "forms_tests.tests.tests.FormsModelTestCase.test_formfield_initial": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_help_text_overrides": true,
+        "model_forms.tests.ValidationTest.test_validates_with_replaced_field_excluded": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_field_class_overrides": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_error_messages_overrides": true,
+        "model_forms.tests.ModelFormBasicTests.test_save_with_data_errors": true,
+        "model_forms.tests.ModelFormBasicTests.test_subset_fields": true,
+        "model_forms.tests.ModelFormBaseTest.test_extra_field_model_form": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15916/dedup_patch_31.jsonl": {
+      "django__django-15916": {
+        "model_formsets.tests.ModelFormsetTest.test_unique_together_with_inlineformset_factory": true,
+        "model_formsets.tests.ModelFormsetTest.test_inline_formsets_with_custom_save_method": true,
+        "forms_tests.tests.tests.ManyToManyExclusionTestCase.test_m2m_field_exclusion": true,
+        "model_forms.tests.ModelFormBasicTests.test_m2m_editing": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_labels_overrides": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_custom_error_messages": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_widgets": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_model_clean_error_messages": true,
+        "model_forms.tests.ModelFormBaseTest.test_missing_fields_attribute": true,
+        "model_forms.tests.ModelFormBaseTest.test_no_model_class": true,
+        "model_forms.tests.ModelFormBaseTest.test_extra_field_modelform_factory": true,
+        "model_forms.tests.ModelFormBaseTest.test_limit_fields_with_string": true,
+        "model_forms.tests.FormFieldCallbackTests.test_inherit_after_custom_callback": true,
+        "model_forms.tests.ModelFormBaseTest.test_exclude_fields_with_string": true,
+        "model_formsets.tests.ModelFormsetTest.test_unique_validation": true,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": true,
+        "model_forms.tests.LocalizedModelFormTest.test_model_form_refuses_arbitrary_string": true,
+        "model_forms.tests.UniqueTest.test_override_unique_together_message": true,
+        "forms_tests.tests.tests.FormsModelTestCase.test_formfield_initial": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_help_text_overrides": true,
+        "model_forms.tests.ValidationTest.test_validates_with_replaced_field_excluded": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_field_class_overrides": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_error_messages_overrides": true,
+        "model_forms.tests.ModelFormBasicTests.test_save_with_data_errors": true,
+        "model_forms.tests.ModelFormBasicTests.test_subset_fields": true,
+        "model_forms.tests.ModelFormBaseTest.test_extra_field_model_form": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15916/dedup_patch_4.jsonl": {
+      "django__django-15916": {
+        "model_formsets.tests.ModelFormsetTest.test_unique_together_with_inlineformset_factory": true,
+        "model_formsets.tests.ModelFormsetTest.test_inline_formsets_with_custom_save_method": true,
+        "forms_tests.tests.tests.ManyToManyExclusionTestCase.test_m2m_field_exclusion": true,
+        "model_forms.tests.ModelFormBasicTests.test_m2m_editing": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_labels_overrides": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_custom_error_messages": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_widgets": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_model_clean_error_messages": true,
+        "model_forms.tests.ModelFormBaseTest.test_missing_fields_attribute": true,
+        "model_forms.tests.ModelFormBaseTest.test_no_model_class": true,
+        "model_forms.tests.ModelFormBaseTest.test_extra_field_modelform_factory": true,
+        "model_forms.tests.ModelFormBaseTest.test_limit_fields_with_string": true,
+        "model_forms.tests.FormFieldCallbackTests.test_inherit_after_custom_callback": true,
+        "model_forms.tests.ModelFormBaseTest.test_exclude_fields_with_string": true,
+        "model_formsets.tests.ModelFormsetTest.test_unique_validation": true,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": true,
+        "model_forms.tests.LocalizedModelFormTest.test_model_form_refuses_arbitrary_string": true,
+        "model_forms.tests.UniqueTest.test_override_unique_together_message": true,
+        "forms_tests.tests.tests.FormsModelTestCase.test_formfield_initial": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_help_text_overrides": true,
+        "model_forms.tests.ValidationTest.test_validates_with_replaced_field_excluded": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_field_class_overrides": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_error_messages_overrides": true,
+        "model_forms.tests.ModelFormBasicTests.test_save_with_data_errors": true,
+        "model_forms.tests.ModelFormBasicTests.test_subset_fields": true,
+        "model_forms.tests.ModelFormBaseTest.test_extra_field_model_form": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15916/dedup_patch_5.jsonl": {
+      "django__django-15916": {
+        "model_formsets.tests.ModelFormsetTest.test_unique_together_with_inlineformset_factory": true,
+        "model_formsets.tests.ModelFormsetTest.test_inline_formsets_with_custom_save_method": true,
+        "forms_tests.tests.tests.ManyToManyExclusionTestCase.test_m2m_field_exclusion": true,
+        "model_forms.tests.ModelFormBasicTests.test_m2m_editing": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_labels_overrides": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_custom_error_messages": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_widgets": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_model_clean_error_messages": true,
+        "model_forms.tests.ModelFormBaseTest.test_missing_fields_attribute": true,
+        "model_forms.tests.ModelFormBaseTest.test_no_model_class": true,
+        "model_forms.tests.ModelFormBaseTest.test_extra_field_modelform_factory": true,
+        "model_forms.tests.ModelFormBaseTest.test_limit_fields_with_string": true,
+        "model_forms.tests.FormFieldCallbackTests.test_inherit_after_custom_callback": true,
+        "model_forms.tests.ModelFormBaseTest.test_exclude_fields_with_string": true,
+        "model_formsets.tests.ModelFormsetTest.test_unique_validation": true,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": true,
+        "model_forms.tests.LocalizedModelFormTest.test_model_form_refuses_arbitrary_string": true,
+        "model_forms.tests.UniqueTest.test_override_unique_together_message": true,
+        "forms_tests.tests.tests.FormsModelTestCase.test_formfield_initial": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_help_text_overrides": true,
+        "model_forms.tests.ValidationTest.test_validates_with_replaced_field_excluded": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_field_class_overrides": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_error_messages_overrides": true,
+        "model_forms.tests.ModelFormBasicTests.test_save_with_data_errors": true,
+        "model_forms.tests.ModelFormBasicTests.test_subset_fields": true,
+        "model_forms.tests.ModelFormBaseTest.test_extra_field_model_form": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15916/dedup_patch_6.jsonl": {
+      "django__django-15916": {
+        "model_formsets.tests.ModelFormsetTest.test_unique_together_with_inlineformset_factory": true,
+        "model_formsets.tests.ModelFormsetTest.test_inline_formsets_with_custom_save_method": true,
+        "forms_tests.tests.tests.ManyToManyExclusionTestCase.test_m2m_field_exclusion": true,
+        "model_forms.tests.ModelFormBasicTests.test_m2m_editing": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_labels_overrides": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_custom_error_messages": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_widgets": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_model_clean_error_messages": true,
+        "model_forms.tests.ModelFormBaseTest.test_missing_fields_attribute": true,
+        "model_forms.tests.ModelFormBaseTest.test_no_model_class": true,
+        "model_forms.tests.ModelFormBaseTest.test_extra_field_modelform_factory": true,
+        "model_forms.tests.ModelFormBaseTest.test_limit_fields_with_string": true,
+        "model_forms.tests.FormFieldCallbackTests.test_inherit_after_custom_callback": false,
+        "model_forms.tests.ModelFormBaseTest.test_exclude_fields_with_string": true,
+        "model_formsets.tests.ModelFormsetTest.test_unique_validation": true,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": true,
+        "model_forms.tests.LocalizedModelFormTest.test_model_form_refuses_arbitrary_string": true,
+        "model_forms.tests.UniqueTest.test_override_unique_together_message": true,
+        "forms_tests.tests.tests.FormsModelTestCase.test_formfield_initial": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_help_text_overrides": true,
+        "model_forms.tests.ValidationTest.test_validates_with_replaced_field_excluded": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_field_class_overrides": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_error_messages_overrides": true,
+        "model_forms.tests.ModelFormBasicTests.test_save_with_data_errors": true,
+        "model_forms.tests.ModelFormBasicTests.test_subset_fields": true,
+        "model_forms.tests.ModelFormBaseTest.test_extra_field_model_form": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15916/dedup_patch_7.jsonl": {
+      "django__django-15916": {
+        "model_formsets.tests.ModelFormsetTest.test_unique_together_with_inlineformset_factory": true,
+        "model_formsets.tests.ModelFormsetTest.test_inline_formsets_with_custom_save_method": true,
+        "forms_tests.tests.tests.ManyToManyExclusionTestCase.test_m2m_field_exclusion": true,
+        "model_forms.tests.ModelFormBasicTests.test_m2m_editing": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_labels_overrides": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_custom_error_messages": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_widgets": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_model_clean_error_messages": true,
+        "model_forms.tests.ModelFormBaseTest.test_missing_fields_attribute": true,
+        "model_forms.tests.ModelFormBaseTest.test_no_model_class": true,
+        "model_forms.tests.ModelFormBaseTest.test_extra_field_modelform_factory": true,
+        "model_forms.tests.ModelFormBaseTest.test_limit_fields_with_string": true,
+        "model_forms.tests.FormFieldCallbackTests.test_inherit_after_custom_callback": true,
+        "model_forms.tests.ModelFormBaseTest.test_exclude_fields_with_string": true,
+        "model_formsets.tests.ModelFormsetTest.test_unique_validation": true,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": true,
+        "model_forms.tests.LocalizedModelFormTest.test_model_form_refuses_arbitrary_string": true,
+        "model_forms.tests.UniqueTest.test_override_unique_together_message": true,
+        "forms_tests.tests.tests.FormsModelTestCase.test_formfield_initial": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_help_text_overrides": true,
+        "model_forms.tests.ValidationTest.test_validates_with_replaced_field_excluded": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_field_class_overrides": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_error_messages_overrides": true,
+        "model_forms.tests.ModelFormBasicTests.test_save_with_data_errors": true,
+        "model_forms.tests.ModelFormBasicTests.test_subset_fields": true,
+        "model_forms.tests.ModelFormBaseTest.test_extra_field_model_form": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15916/dedup_patch_8.jsonl": {
+      "django__django-15916": {
+        "model_formsets.tests.ModelFormsetTest.test_unique_together_with_inlineformset_factory": true,
+        "model_formsets.tests.ModelFormsetTest.test_inline_formsets_with_custom_save_method": true,
+        "forms_tests.tests.tests.ManyToManyExclusionTestCase.test_m2m_field_exclusion": true,
+        "model_forms.tests.ModelFormBasicTests.test_m2m_editing": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_labels_overrides": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_custom_error_messages": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_widgets": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_model_clean_error_messages": true,
+        "model_forms.tests.ModelFormBaseTest.test_missing_fields_attribute": true,
+        "model_forms.tests.ModelFormBaseTest.test_no_model_class": true,
+        "model_forms.tests.ModelFormBaseTest.test_extra_field_modelform_factory": true,
+        "model_forms.tests.ModelFormBaseTest.test_limit_fields_with_string": true,
+        "model_forms.tests.FormFieldCallbackTests.test_inherit_after_custom_callback": true,
+        "model_forms.tests.ModelFormBaseTest.test_exclude_fields_with_string": true,
+        "model_formsets.tests.ModelFormsetTest.test_unique_validation": true,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": true,
+        "model_forms.tests.LocalizedModelFormTest.test_model_form_refuses_arbitrary_string": true,
+        "model_forms.tests.UniqueTest.test_override_unique_together_message": true,
+        "forms_tests.tests.tests.FormsModelTestCase.test_formfield_initial": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_help_text_overrides": true,
+        "model_forms.tests.ValidationTest.test_validates_with_replaced_field_excluded": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_field_class_overrides": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_error_messages_overrides": true,
+        "model_forms.tests.ModelFormBasicTests.test_save_with_data_errors": true,
+        "model_forms.tests.ModelFormBasicTests.test_subset_fields": true,
+        "model_forms.tests.ModelFormBaseTest.test_extra_field_model_form": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15916/dedup_patch_9.jsonl": {
+      "django__django-15916": {
+        "model_formsets.tests.ModelFormsetTest.test_unique_together_with_inlineformset_factory": true,
+        "model_formsets.tests.ModelFormsetTest.test_inline_formsets_with_custom_save_method": true,
+        "forms_tests.tests.tests.ManyToManyExclusionTestCase.test_m2m_field_exclusion": true,
+        "model_forms.tests.ModelFormBasicTests.test_m2m_editing": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_labels_overrides": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_custom_error_messages": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_widgets": true,
+        "model_forms.tests.ModelFormCustomErrorTests.test_model_clean_error_messages": true,
+        "model_forms.tests.ModelFormBaseTest.test_missing_fields_attribute": true,
+        "model_forms.tests.ModelFormBaseTest.test_no_model_class": true,
+        "model_forms.tests.ModelFormBaseTest.test_extra_field_modelform_factory": true,
+        "model_forms.tests.ModelFormBaseTest.test_limit_fields_with_string": true,
+        "model_forms.tests.FormFieldCallbackTests.test_inherit_after_custom_callback": true,
+        "model_forms.tests.ModelFormBaseTest.test_exclude_fields_with_string": true,
+        "model_formsets.tests.ModelFormsetTest.test_unique_validation": true,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": true,
+        "model_forms.tests.LocalizedModelFormTest.test_model_form_refuses_arbitrary_string": true,
+        "model_forms.tests.UniqueTest.test_override_unique_together_message": true,
+        "forms_tests.tests.tests.FormsModelTestCase.test_formfield_initial": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_help_text_overrides": true,
+        "model_forms.tests.ValidationTest.test_validates_with_replaced_field_excluded": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_field_class_overrides": true,
+        "model_formsets.tests.TestModelFormsetOverridesTroughFormMeta.test_modelformset_factory_error_messages_overrides": true,
+        "model_forms.tests.ModelFormBasicTests.test_save_with_data_errors": true,
+        "model_forms.tests.ModelFormBasicTests.test_subset_fields": true,
+        "model_forms.tests.ModelFormBaseTest.test_extra_field_model_form": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-15916": {
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_callback#1": true,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_factory_respects_meta_callback#2": true,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_formfield_callback#3": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_factory_meta_callback#4": true,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_formfield_callback#5": true,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_formfield_callback#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15916/dedup_patch_0.jsonl": {
+      "django__django-15916": {
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_callback#1": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_factory_respects_meta_callback#2": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_factory_meta_callback#4": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_formfield_callback#5": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_formfield_callback#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15916/dedup_patch_1.jsonl": {
+      "django__django-15916": {
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_callback#1": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_factory_respects_meta_callback#2": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_factory_meta_callback#4": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_formfield_callback#5": true,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_formfield_callback#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15916/dedup_patch_10.jsonl": {
+      "django__django-15916": {
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_callback#1": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_factory_respects_meta_callback#2": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_factory_meta_callback#4": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_formfield_callback#5": true,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_formfield_callback#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15916/dedup_patch_11.jsonl": {
+      "django__django-15916": {
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_callback#1": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_factory_respects_meta_callback#2": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_factory_meta_callback#4": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_formfield_callback#5": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_formfield_callback#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15916/dedup_patch_12.jsonl": {
+      "django__django-15916": {
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_callback#1": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_factory_respects_meta_callback#2": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_factory_meta_callback#4": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_formfield_callback#5": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_formfield_callback#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15916/dedup_patch_13.jsonl": {
+      "django__django-15916": {
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_callback#1": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_factory_respects_meta_callback#2": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_factory_meta_callback#4": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_formfield_callback#5": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_formfield_callback#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15916/dedup_patch_14.jsonl": {
+      "django__django-15916": {
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_callback#1": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_factory_respects_meta_callback#2": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_factory_meta_callback#4": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_formfield_callback#5": true,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_formfield_callback#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15916/dedup_patch_15.jsonl": {
+      "django__django-15916": {
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_callback#1": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_factory_respects_meta_callback#2": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_factory_meta_callback#4": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_formfield_callback#5": true,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_formfield_callback#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15916/dedup_patch_16.jsonl": {
+      "django__django-15916": {
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_callback#1": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_factory_respects_meta_callback#2": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_factory_meta_callback#4": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_formfield_callback#5": true,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_formfield_callback#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15916/dedup_patch_17.jsonl": {
+      "django__django-15916": {
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_callback#1": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_factory_respects_meta_callback#2": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_factory_meta_callback#4": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_formfield_callback#5": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_formfield_callback#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15916/dedup_patch_19.jsonl": {
+      "django__django-15916": {
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_callback#1": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_factory_respects_meta_callback#2": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_factory_meta_callback#4": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_formfield_callback#5": true,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_formfield_callback#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15916/dedup_patch_2.jsonl": {
+      "django__django-15916": {
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_callback#1": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_factory_respects_meta_callback#2": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_factory_meta_callback#4": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_formfield_callback#5": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_formfield_callback#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15916/dedup_patch_20.jsonl": {
+      "django__django-15916": {
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_callback#1": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_factory_respects_meta_callback#2": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_factory_meta_callback#4": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_formfield_callback#5": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_formfield_callback#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15916/dedup_patch_21.jsonl": {
+      "django__django-15916": {
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_callback#1": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_factory_respects_meta_callback#2": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_factory_meta_callback#4": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_formfield_callback#5": true,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_formfield_callback#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15916/dedup_patch_22.jsonl": {
+      "django__django-15916": {
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_callback#1": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_factory_respects_meta_callback#2": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_factory_meta_callback#4": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_formfield_callback#5": true,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_formfield_callback#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15916/dedup_patch_23.jsonl": {
+      "django__django-15916": {
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_callback#1": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_factory_respects_meta_callback#2": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_factory_meta_callback#4": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_formfield_callback#5": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_formfield_callback#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15916/dedup_patch_24.jsonl": {
+      "django__django-15916": {
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_callback#1": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_factory_respects_meta_callback#2": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_factory_meta_callback#4": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_formfield_callback#5": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_formfield_callback#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15916/dedup_patch_25.jsonl": {
+      "django__django-15916": {
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_callback#1": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_factory_respects_meta_callback#2": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_factory_meta_callback#4": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_formfield_callback#5": true,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_formfield_callback#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15916/dedup_patch_26.jsonl": {
+      "django__django-15916": {
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_callback#1": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_factory_respects_meta_callback#2": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_factory_meta_callback#4": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_formfield_callback#5": true,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_formfield_callback#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15916/dedup_patch_27.jsonl": {
+      "django__django-15916": {
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_callback#1": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_factory_respects_meta_callback#2": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_factory_meta_callback#4": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_formfield_callback#5": true,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_formfield_callback#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15916/dedup_patch_28.jsonl": {
+      "django__django-15916": {
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_callback#1": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_factory_respects_meta_callback#2": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_factory_meta_callback#4": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_formfield_callback#5": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_formfield_callback#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15916/dedup_patch_29.jsonl": {
+      "django__django-15916": {
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_callback#1": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_factory_respects_meta_callback#2": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_factory_meta_callback#4": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_formfield_callback#5": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_formfield_callback#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15916/dedup_patch_3.jsonl": {
+      "django__django-15916": {
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_callback#1": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_factory_respects_meta_callback#2": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_factory_meta_callback#4": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_formfield_callback#5": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_formfield_callback#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15916/dedup_patch_30.jsonl": {
+      "django__django-15916": {
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_callback#1": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_factory_respects_meta_callback#2": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_factory_meta_callback#4": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_formfield_callback#5": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_formfield_callback#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15916/dedup_patch_31.jsonl": {
+      "django__django-15916": {
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_callback#1": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_factory_respects_meta_callback#2": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_factory_meta_callback#4": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_formfield_callback#5": true,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_formfield_callback#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15916/dedup_patch_4.jsonl": {
+      "django__django-15916": {
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_callback#1": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_factory_respects_meta_callback#2": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_factory_meta_callback#4": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_formfield_callback#5": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_formfield_callback#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15916/dedup_patch_5.jsonl": {
+      "django__django-15916": {
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_callback#1": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_factory_respects_meta_callback#2": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_factory_meta_callback#4": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_formfield_callback#5": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_formfield_callback#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15916/dedup_patch_7.jsonl": {
+      "django__django-15916": {
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_callback#1": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_factory_respects_meta_callback#2": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_factory_meta_callback#4": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_formfield_callback#5": true,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_formfield_callback#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15916/dedup_patch_8.jsonl": {
+      "django__django-15916": {
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_callback#1": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_factory_respects_meta_callback#2": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_factory_meta_callback#4": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_formfield_callback#5": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_formfield_callback#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15916/dedup_patch_9.jsonl": {
+      "django__django-15916": {
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_callback#1": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_factory_respects_meta_callback#2": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_factory_meta_callback#4": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_formfield_callback#5": false,
+        "model_formsets_regress.tests.FormfieldCallbackTests.test_modelform_meta_formfield_callback#6": false
+      }
+    }
+  }
+}

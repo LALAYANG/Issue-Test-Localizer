@@ -1,0 +1,32 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/django__django-15851/dedup_patch_0.jsonl": {
+      "django__django-15851": {
+        "dbshell.test_postgresql.PostgreSqlDbshellCommandTestCase.test_passfile": true,
+        "dbshell.test_postgresql.PostgreSqlDbshellCommandTestCase.test_ssl_certificate": true,
+        "dbshell.test_postgresql.PostgreSqlDbshellCommandTestCase.test_crash_password_does_not_leak": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-15851": {
+        "dbshell.test_postgresql.PostgreSqlDbshellCommandTestCase.test_parameters#1": true,
+        "dbshell.test_postgresql.PostgreSqlDbshellCommandTestCase.test_parameters#2": true,
+        "dbshell.test_postgresql.PostgreSqlDbshellCommandTestCase.test_parameters#3": true,
+        "dbshell.test_postgresql.PostgreSqlDbshellCommandTestCase.test_parameters#4": true,
+        "dbshell.test_postgresql.PostgreSqlDbshellCommandTestCase.test_parameters#5": false,
+        "dbshell.test_postgresql.PostgreSqlDbshellCommandTestCase.test_parameters_after_dbname#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-15851/dedup_patch_0.jsonl": {
+      "django__django-15851": {
+        "dbshell.test_postgresql.PostgreSqlDbshellCommandTestCase.test_parameters#1": false,
+        "dbshell.test_postgresql.PostgreSqlDbshellCommandTestCase.test_parameters#2": true,
+        "dbshell.test_postgresql.PostgreSqlDbshellCommandTestCase.test_parameters#3": true,
+        "dbshell.test_postgresql.PostgreSqlDbshellCommandTestCase.test_parameters#4": true,
+        "dbshell.test_postgresql.PostgreSqlDbshellCommandTestCase.test_parameters_after_dbname#6": true
+      }
+    }
+  }
+}

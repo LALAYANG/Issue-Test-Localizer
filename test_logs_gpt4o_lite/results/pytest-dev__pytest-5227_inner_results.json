@@ -1,0 +1,12 @@
+{
+  "regression": {},
+  "reproduction": {
+    "fail_on_original_repo": {
+      "pytest-dev__pytest-5227": {
+        "testing/logging/test_formatter.py::test_coloredlogformatter#1": false,
+        "testing/logging/test_formatter.py::test_coloredlogformatter#2": false,
+        "testing/logging/test_formatter.py::test_coloredlogformatter#3": false
+      }
+    }
+  }
+}

@@ -1,0 +1,798 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/django__django-13297/dedup_patch_0.jsonl": {
+      "django__django-13297": {
+        "generic_views.test_base.RedirectViewTest.test_named_url_pattern_using_args": true,
+        "template_tests.tests.TemplateTests.test_super_errors": true,
+        "generic_views.test_base.TemplateViewTest.test_template_name_required": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang_decodes_http_referer_url": true,
+        "template_tests.tests.TemplateTests.test_url_reverse_view_name": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_lang_from_translated_i18n_pattern": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang_redirect_to_referer": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang": true,
+        "view_tests.tests.test_defaults.DefaultsTests.test_csrf_token_in_404": true,
+        "generic_views.test_base.TemplateViewTest.test_extra_context": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13297/dedup_patch_1.jsonl": {
+      "django__django-13297": {
+        "generic_views.test_base.RedirectViewTest.test_named_url_pattern_using_args": true,
+        "template_tests.tests.TemplateTests.test_super_errors": true,
+        "generic_views.test_base.TemplateViewTest.test_template_name_required": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang_decodes_http_referer_url": true,
+        "template_tests.tests.TemplateTests.test_url_reverse_view_name": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_lang_from_translated_i18n_pattern": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang_redirect_to_referer": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang": true,
+        "view_tests.tests.test_defaults.DefaultsTests.test_csrf_token_in_404": true,
+        "generic_views.test_base.TemplateViewTest.test_extra_context": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13297/dedup_patch_10.jsonl": {
+      "django__django-13297": {
+        "generic_views.test_base.RedirectViewTest.test_named_url_pattern_using_args": true,
+        "template_tests.tests.TemplateTests.test_super_errors": true,
+        "generic_views.test_base.TemplateViewTest.test_template_name_required": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang_decodes_http_referer_url": true,
+        "template_tests.tests.TemplateTests.test_url_reverse_view_name": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_lang_from_translated_i18n_pattern": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang_redirect_to_referer": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang": true,
+        "view_tests.tests.test_defaults.DefaultsTests.test_csrf_token_in_404": true,
+        "generic_views.test_base.TemplateViewTest.test_extra_context": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13297/dedup_patch_11.jsonl": {
+      "django__django-13297": {
+        "generic_views.test_base.RedirectViewTest.test_named_url_pattern_using_args": true,
+        "template_tests.tests.TemplateTests.test_super_errors": true,
+        "generic_views.test_base.TemplateViewTest.test_template_name_required": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang_decodes_http_referer_url": true,
+        "template_tests.tests.TemplateTests.test_url_reverse_view_name": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_lang_from_translated_i18n_pattern": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang_redirect_to_referer": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang": true,
+        "view_tests.tests.test_defaults.DefaultsTests.test_csrf_token_in_404": true,
+        "generic_views.test_base.TemplateViewTest.test_extra_context": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13297/dedup_patch_12.jsonl": {
+      "django__django-13297": {
+        "generic_views.test_base.RedirectViewTest.test_named_url_pattern_using_args": true,
+        "template_tests.tests.TemplateTests.test_super_errors": true,
+        "generic_views.test_base.TemplateViewTest.test_template_name_required": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang_decodes_http_referer_url": true,
+        "template_tests.tests.TemplateTests.test_url_reverse_view_name": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_lang_from_translated_i18n_pattern": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang_redirect_to_referer": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang": true,
+        "view_tests.tests.test_defaults.DefaultsTests.test_csrf_token_in_404": true,
+        "generic_views.test_base.TemplateViewTest.test_extra_context": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13297/dedup_patch_13.jsonl": {
+      "django__django-13297": {
+        "generic_views.test_base.RedirectViewTest.test_named_url_pattern_using_args": true,
+        "template_tests.tests.TemplateTests.test_super_errors": true,
+        "generic_views.test_base.TemplateViewTest.test_template_name_required": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang_decodes_http_referer_url": true,
+        "template_tests.tests.TemplateTests.test_url_reverse_view_name": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_lang_from_translated_i18n_pattern": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang_redirect_to_referer": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang": true,
+        "view_tests.tests.test_defaults.DefaultsTests.test_csrf_token_in_404": true,
+        "generic_views.test_base.TemplateViewTest.test_extra_context": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13297/dedup_patch_14.jsonl": {
+      "django__django-13297": {
+        "generic_views.test_base.RedirectViewTest.test_named_url_pattern_using_args": true,
+        "template_tests.tests.TemplateTests.test_super_errors": true,
+        "generic_views.test_base.TemplateViewTest.test_template_name_required": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang_decodes_http_referer_url": true,
+        "template_tests.tests.TemplateTests.test_url_reverse_view_name": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_lang_from_translated_i18n_pattern": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang_redirect_to_referer": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang": true,
+        "view_tests.tests.test_defaults.DefaultsTests.test_csrf_token_in_404": true,
+        "generic_views.test_base.TemplateViewTest.test_extra_context": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13297/dedup_patch_15.jsonl": {
+      "django__django-13297": {
+        "generic_views.test_base.RedirectViewTest.test_named_url_pattern_using_args": true,
+        "template_tests.tests.TemplateTests.test_super_errors": true,
+        "generic_views.test_base.TemplateViewTest.test_template_name_required": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang_decodes_http_referer_url": true,
+        "template_tests.tests.TemplateTests.test_url_reverse_view_name": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_lang_from_translated_i18n_pattern": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang_redirect_to_referer": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang": true,
+        "view_tests.tests.test_defaults.DefaultsTests.test_csrf_token_in_404": true,
+        "generic_views.test_base.TemplateViewTest.test_extra_context": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13297/dedup_patch_16.jsonl": {
+      "django__django-13297": {
+        "generic_views.test_base.RedirectViewTest.test_named_url_pattern_using_args": true,
+        "template_tests.tests.TemplateTests.test_super_errors": true,
+        "generic_views.test_base.TemplateViewTest.test_template_name_required": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang_decodes_http_referer_url": true,
+        "template_tests.tests.TemplateTests.test_url_reverse_view_name": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_lang_from_translated_i18n_pattern": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang_redirect_to_referer": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang": true,
+        "view_tests.tests.test_defaults.DefaultsTests.test_csrf_token_in_404": true,
+        "generic_views.test_base.TemplateViewTest.test_extra_context": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13297/dedup_patch_17.jsonl": {
+      "django__django-13297": {
+        "generic_views.test_base.RedirectViewTest.test_named_url_pattern_using_args": true,
+        "template_tests.tests.TemplateTests.test_super_errors": true,
+        "generic_views.test_base.TemplateViewTest.test_template_name_required": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang_decodes_http_referer_url": true,
+        "template_tests.tests.TemplateTests.test_url_reverse_view_name": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_lang_from_translated_i18n_pattern": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang_redirect_to_referer": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang": true,
+        "view_tests.tests.test_defaults.DefaultsTests.test_csrf_token_in_404": true,
+        "generic_views.test_base.TemplateViewTest.test_extra_context": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13297/dedup_patch_18.jsonl": {
+      "django__django-13297": {
+        "generic_views.test_base.RedirectViewTest.test_named_url_pattern_using_args": true,
+        "template_tests.tests.TemplateTests.test_super_errors": true,
+        "generic_views.test_base.TemplateViewTest.test_template_name_required": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang_decodes_http_referer_url": true,
+        "template_tests.tests.TemplateTests.test_url_reverse_view_name": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_lang_from_translated_i18n_pattern": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang_redirect_to_referer": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang": true,
+        "view_tests.tests.test_defaults.DefaultsTests.test_csrf_token_in_404": true,
+        "generic_views.test_base.TemplateViewTest.test_extra_context": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13297/dedup_patch_19.jsonl": {
+      "django__django-13297": {
+        "generic_views.test_base.RedirectViewTest.test_named_url_pattern_using_args": true,
+        "template_tests.tests.TemplateTests.test_super_errors": true,
+        "generic_views.test_base.TemplateViewTest.test_template_name_required": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang_decodes_http_referer_url": true,
+        "template_tests.tests.TemplateTests.test_url_reverse_view_name": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_lang_from_translated_i18n_pattern": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang_redirect_to_referer": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang": true,
+        "view_tests.tests.test_defaults.DefaultsTests.test_csrf_token_in_404": true,
+        "generic_views.test_base.TemplateViewTest.test_extra_context": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13297/dedup_patch_2.jsonl": {
+      "django__django-13297": {
+        "generic_views.test_base.RedirectViewTest.test_named_url_pattern_using_args": true,
+        "template_tests.tests.TemplateTests.test_super_errors": true,
+        "generic_views.test_base.TemplateViewTest.test_template_name_required": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang_decodes_http_referer_url": true,
+        "template_tests.tests.TemplateTests.test_url_reverse_view_name": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_lang_from_translated_i18n_pattern": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang_redirect_to_referer": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang": true,
+        "view_tests.tests.test_defaults.DefaultsTests.test_csrf_token_in_404": true,
+        "generic_views.test_base.TemplateViewTest.test_extra_context": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13297/dedup_patch_20.jsonl": {
+      "django__django-13297": {
+        "generic_views.test_base.RedirectViewTest.test_named_url_pattern_using_args": true,
+        "template_tests.tests.TemplateTests.test_super_errors": true,
+        "generic_views.test_base.TemplateViewTest.test_template_name_required": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang_decodes_http_referer_url": true,
+        "template_tests.tests.TemplateTests.test_url_reverse_view_name": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_lang_from_translated_i18n_pattern": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang_redirect_to_referer": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang": true,
+        "view_tests.tests.test_defaults.DefaultsTests.test_csrf_token_in_404": true,
+        "generic_views.test_base.TemplateViewTest.test_extra_context": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13297/dedup_patch_21.jsonl": {
+      "django__django-13297": {
+        "generic_views.test_base.RedirectViewTest.test_named_url_pattern_using_args": true,
+        "template_tests.tests.TemplateTests.test_super_errors": true,
+        "generic_views.test_base.TemplateViewTest.test_template_name_required": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang_decodes_http_referer_url": true,
+        "template_tests.tests.TemplateTests.test_url_reverse_view_name": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_lang_from_translated_i18n_pattern": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang_redirect_to_referer": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang": true,
+        "view_tests.tests.test_defaults.DefaultsTests.test_csrf_token_in_404": true,
+        "generic_views.test_base.TemplateViewTest.test_extra_context": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13297/dedup_patch_22.jsonl": {
+      "django__django-13297": {
+        "generic_views.test_base.RedirectViewTest.test_named_url_pattern_using_args": true,
+        "template_tests.tests.TemplateTests.test_super_errors": true,
+        "generic_views.test_base.TemplateViewTest.test_template_name_required": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang_decodes_http_referer_url": true,
+        "template_tests.tests.TemplateTests.test_url_reverse_view_name": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_lang_from_translated_i18n_pattern": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang_redirect_to_referer": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang": true,
+        "view_tests.tests.test_defaults.DefaultsTests.test_csrf_token_in_404": true,
+        "generic_views.test_base.TemplateViewTest.test_extra_context": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13297/dedup_patch_23.jsonl": {
+      "django__django-13297": {
+        "generic_views.test_base.RedirectViewTest.test_named_url_pattern_using_args": true,
+        "template_tests.tests.TemplateTests.test_super_errors": true,
+        "generic_views.test_base.TemplateViewTest.test_template_name_required": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang_decodes_http_referer_url": true,
+        "template_tests.tests.TemplateTests.test_url_reverse_view_name": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_lang_from_translated_i18n_pattern": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang_redirect_to_referer": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang": true,
+        "view_tests.tests.test_defaults.DefaultsTests.test_csrf_token_in_404": true,
+        "generic_views.test_base.TemplateViewTest.test_extra_context": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13297/dedup_patch_24.jsonl": {
+      "django__django-13297": {
+        "generic_views.test_base.RedirectViewTest.test_named_url_pattern_using_args": true,
+        "template_tests.tests.TemplateTests.test_super_errors": true,
+        "generic_views.test_base.TemplateViewTest.test_template_name_required": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang_decodes_http_referer_url": true,
+        "template_tests.tests.TemplateTests.test_url_reverse_view_name": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_lang_from_translated_i18n_pattern": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang_redirect_to_referer": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang": true,
+        "view_tests.tests.test_defaults.DefaultsTests.test_csrf_token_in_404": true,
+        "generic_views.test_base.TemplateViewTest.test_extra_context": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13297/dedup_patch_25.jsonl": {
+      "django__django-13297": {
+        "generic_views.test_base.RedirectViewTest.test_named_url_pattern_using_args": true,
+        "template_tests.tests.TemplateTests.test_super_errors": true,
+        "generic_views.test_base.TemplateViewTest.test_template_name_required": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang_decodes_http_referer_url": true,
+        "template_tests.tests.TemplateTests.test_url_reverse_view_name": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_lang_from_translated_i18n_pattern": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang_redirect_to_referer": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang": true,
+        "view_tests.tests.test_defaults.DefaultsTests.test_csrf_token_in_404": true,
+        "generic_views.test_base.TemplateViewTest.test_extra_context": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13297/dedup_patch_26.jsonl": {
+      "django__django-13297": {
+        "generic_views.test_base.RedirectViewTest.test_named_url_pattern_using_args": true,
+        "template_tests.tests.TemplateTests.test_super_errors": true,
+        "generic_views.test_base.TemplateViewTest.test_template_name_required": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang_decodes_http_referer_url": true,
+        "template_tests.tests.TemplateTests.test_url_reverse_view_name": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_lang_from_translated_i18n_pattern": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang_redirect_to_referer": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang": true,
+        "view_tests.tests.test_defaults.DefaultsTests.test_csrf_token_in_404": true,
+        "generic_views.test_base.TemplateViewTest.test_extra_context": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13297/dedup_patch_27.jsonl": {
+      "django__django-13297": {
+        "generic_views.test_base.RedirectViewTest.test_named_url_pattern_using_args": true,
+        "template_tests.tests.TemplateTests.test_super_errors": true,
+        "generic_views.test_base.TemplateViewTest.test_template_name_required": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang_decodes_http_referer_url": true,
+        "template_tests.tests.TemplateTests.test_url_reverse_view_name": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_lang_from_translated_i18n_pattern": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang_redirect_to_referer": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang": true,
+        "view_tests.tests.test_defaults.DefaultsTests.test_csrf_token_in_404": true,
+        "generic_views.test_base.TemplateViewTest.test_extra_context": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13297/dedup_patch_28.jsonl": {
+      "django__django-13297": {
+        "generic_views.test_base.RedirectViewTest.test_named_url_pattern_using_args": true,
+        "template_tests.tests.TemplateTests.test_super_errors": true,
+        "generic_views.test_base.TemplateViewTest.test_template_name_required": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang_decodes_http_referer_url": true,
+        "template_tests.tests.TemplateTests.test_url_reverse_view_name": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_lang_from_translated_i18n_pattern": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang_redirect_to_referer": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang": true,
+        "view_tests.tests.test_defaults.DefaultsTests.test_csrf_token_in_404": true,
+        "generic_views.test_base.TemplateViewTest.test_extra_context": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13297/dedup_patch_29.jsonl": {
+      "django__django-13297": {
+        "generic_views.test_base.RedirectViewTest.test_named_url_pattern_using_args": true,
+        "template_tests.tests.TemplateTests.test_super_errors": true,
+        "generic_views.test_base.TemplateViewTest.test_template_name_required": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang_decodes_http_referer_url": true,
+        "template_tests.tests.TemplateTests.test_url_reverse_view_name": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_lang_from_translated_i18n_pattern": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang_redirect_to_referer": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang": true,
+        "view_tests.tests.test_defaults.DefaultsTests.test_csrf_token_in_404": true,
+        "generic_views.test_base.TemplateViewTest.test_extra_context": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13297/dedup_patch_3.jsonl": {
+      "django__django-13297": {
+        "generic_views.test_base.RedirectViewTest.test_named_url_pattern_using_args": true,
+        "template_tests.tests.TemplateTests.test_super_errors": true,
+        "generic_views.test_base.TemplateViewTest.test_template_name_required": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang_decodes_http_referer_url": true,
+        "template_tests.tests.TemplateTests.test_url_reverse_view_name": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_lang_from_translated_i18n_pattern": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang_redirect_to_referer": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang": true,
+        "view_tests.tests.test_defaults.DefaultsTests.test_csrf_token_in_404": true,
+        "generic_views.test_base.TemplateViewTest.test_extra_context": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13297/dedup_patch_30.jsonl": {
+      "django__django-13297": {
+        "generic_views.test_base.RedirectViewTest.test_named_url_pattern_using_args": true,
+        "template_tests.tests.TemplateTests.test_super_errors": true,
+        "generic_views.test_base.TemplateViewTest.test_template_name_required": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang_decodes_http_referer_url": true,
+        "template_tests.tests.TemplateTests.test_url_reverse_view_name": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_lang_from_translated_i18n_pattern": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang_redirect_to_referer": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang": true,
+        "view_tests.tests.test_defaults.DefaultsTests.test_csrf_token_in_404": true,
+        "generic_views.test_base.TemplateViewTest.test_extra_context": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13297/dedup_patch_31.jsonl": {
+      "django__django-13297": {
+        "generic_views.test_base.RedirectViewTest.test_named_url_pattern_using_args": true,
+        "template_tests.tests.TemplateTests.test_super_errors": true,
+        "generic_views.test_base.TemplateViewTest.test_template_name_required": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang_decodes_http_referer_url": true,
+        "template_tests.tests.TemplateTests.test_url_reverse_view_name": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_lang_from_translated_i18n_pattern": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang_redirect_to_referer": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang": true,
+        "view_tests.tests.test_defaults.DefaultsTests.test_csrf_token_in_404": true,
+        "generic_views.test_base.TemplateViewTest.test_extra_context": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13297/dedup_patch_32.jsonl": {
+      "django__django-13297": {
+        "generic_views.test_base.RedirectViewTest.test_named_url_pattern_using_args": true,
+        "template_tests.tests.TemplateTests.test_super_errors": true,
+        "generic_views.test_base.TemplateViewTest.test_template_name_required": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang_decodes_http_referer_url": true,
+        "template_tests.tests.TemplateTests.test_url_reverse_view_name": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_lang_from_translated_i18n_pattern": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang_redirect_to_referer": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang": true,
+        "view_tests.tests.test_defaults.DefaultsTests.test_csrf_token_in_404": true,
+        "generic_views.test_base.TemplateViewTest.test_extra_context": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13297/dedup_patch_33.jsonl": {
+      "django__django-13297": {
+        "generic_views.test_base.RedirectViewTest.test_named_url_pattern_using_args": true,
+        "template_tests.tests.TemplateTests.test_super_errors": true,
+        "generic_views.test_base.TemplateViewTest.test_template_name_required": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang_decodes_http_referer_url": true,
+        "template_tests.tests.TemplateTests.test_url_reverse_view_name": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_lang_from_translated_i18n_pattern": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang_redirect_to_referer": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang": true,
+        "view_tests.tests.test_defaults.DefaultsTests.test_csrf_token_in_404": true,
+        "generic_views.test_base.TemplateViewTest.test_extra_context": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13297/dedup_patch_4.jsonl": {
+      "django__django-13297": {
+        "generic_views.test_base.RedirectViewTest.test_named_url_pattern_using_args": true,
+        "template_tests.tests.TemplateTests.test_super_errors": true,
+        "generic_views.test_base.TemplateViewTest.test_template_name_required": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang_decodes_http_referer_url": true,
+        "template_tests.tests.TemplateTests.test_url_reverse_view_name": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_lang_from_translated_i18n_pattern": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang_redirect_to_referer": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang": true,
+        "view_tests.tests.test_defaults.DefaultsTests.test_csrf_token_in_404": true,
+        "generic_views.test_base.TemplateViewTest.test_extra_context": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13297/dedup_patch_5.jsonl": {
+      "django__django-13297": {
+        "generic_views.test_base.RedirectViewTest.test_named_url_pattern_using_args": true,
+        "template_tests.tests.TemplateTests.test_super_errors": true,
+        "generic_views.test_base.TemplateViewTest.test_template_name_required": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang_decodes_http_referer_url": true,
+        "template_tests.tests.TemplateTests.test_url_reverse_view_name": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_lang_from_translated_i18n_pattern": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang_redirect_to_referer": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang": true,
+        "view_tests.tests.test_defaults.DefaultsTests.test_csrf_token_in_404": true,
+        "generic_views.test_base.TemplateViewTest.test_extra_context": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13297/dedup_patch_6.jsonl": {
+      "django__django-13297": {
+        "generic_views.test_base.RedirectViewTest.test_named_url_pattern_using_args": true,
+        "template_tests.tests.TemplateTests.test_super_errors": true,
+        "generic_views.test_base.TemplateViewTest.test_template_name_required": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang_decodes_http_referer_url": true,
+        "template_tests.tests.TemplateTests.test_url_reverse_view_name": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_lang_from_translated_i18n_pattern": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang_redirect_to_referer": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang": true,
+        "view_tests.tests.test_defaults.DefaultsTests.test_csrf_token_in_404": true,
+        "generic_views.test_base.TemplateViewTest.test_extra_context": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13297/dedup_patch_7.jsonl": {
+      "django__django-13297": {
+        "generic_views.test_base.RedirectViewTest.test_named_url_pattern_using_args": true,
+        "template_tests.tests.TemplateTests.test_super_errors": true,
+        "generic_views.test_base.TemplateViewTest.test_template_name_required": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang_decodes_http_referer_url": true,
+        "template_tests.tests.TemplateTests.test_url_reverse_view_name": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_lang_from_translated_i18n_pattern": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang_redirect_to_referer": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang": true,
+        "view_tests.tests.test_defaults.DefaultsTests.test_csrf_token_in_404": true,
+        "generic_views.test_base.TemplateViewTest.test_extra_context": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13297/dedup_patch_8.jsonl": {
+      "django__django-13297": {
+        "generic_views.test_base.RedirectViewTest.test_named_url_pattern_using_args": true,
+        "template_tests.tests.TemplateTests.test_super_errors": true,
+        "generic_views.test_base.TemplateViewTest.test_template_name_required": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang_decodes_http_referer_url": true,
+        "template_tests.tests.TemplateTests.test_url_reverse_view_name": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_lang_from_translated_i18n_pattern": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang_redirect_to_referer": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang": true,
+        "view_tests.tests.test_defaults.DefaultsTests.test_csrf_token_in_404": true,
+        "generic_views.test_base.TemplateViewTest.test_extra_context": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13297/dedup_patch_9.jsonl": {
+      "django__django-13297": {
+        "generic_views.test_base.RedirectViewTest.test_named_url_pattern_using_args": true,
+        "template_tests.tests.TemplateTests.test_super_errors": true,
+        "generic_views.test_base.TemplateViewTest.test_template_name_required": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang_decodes_http_referer_url": true,
+        "template_tests.tests.TemplateTests.test_url_reverse_view_name": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_lang_from_translated_i18n_pattern": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang_redirect_to_referer": true,
+        "view_tests.tests.test_i18n.SetLanguageTests.test_setlang": true,
+        "view_tests.tests.test_defaults.DefaultsTests.test_csrf_token_in_404": true,
+        "generic_views.test_base.TemplateViewTest.test_extra_context": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-13297": {
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_in_kwargs#1": true,
+        "generic_views.test_base.TemplateViewTest.test_template_view_lazy_object_in_kwargs#2": true,
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_in_kwargs#3": true,
+        "generic_views.test_base.GetContextDataTest.test_lazy_object_in_kwargs#4": true,
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_from_kwargs#5": true,
+        "generic_views.test_base.TemplateViewTest.test_template_view_with_lazy_url_parameters#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13297/dedup_patch_0.jsonl": {
+      "django__django-13297": {
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_in_kwargs#1": false,
+        "generic_views.test_base.TemplateViewTest.test_template_view_lazy_object_in_kwargs#2": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_in_kwargs#3": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_object_in_kwargs#4": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_from_kwargs#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13297/dedup_patch_1.jsonl": {
+      "django__django-13297": {
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_in_kwargs#1": false,
+        "generic_views.test_base.TemplateViewTest.test_template_view_lazy_object_in_kwargs#2": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_in_kwargs#3": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_object_in_kwargs#4": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_from_kwargs#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13297/dedup_patch_10.jsonl": {
+      "django__django-13297": {
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_in_kwargs#1": false,
+        "generic_views.test_base.TemplateViewTest.test_template_view_lazy_object_in_kwargs#2": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_in_kwargs#3": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_object_in_kwargs#4": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_from_kwargs#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13297/dedup_patch_11.jsonl": {
+      "django__django-13297": {
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_in_kwargs#1": false,
+        "generic_views.test_base.TemplateViewTest.test_template_view_lazy_object_in_kwargs#2": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_in_kwargs#3": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_object_in_kwargs#4": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_from_kwargs#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13297/dedup_patch_12.jsonl": {
+      "django__django-13297": {
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_in_kwargs#1": false,
+        "generic_views.test_base.TemplateViewTest.test_template_view_lazy_object_in_kwargs#2": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_in_kwargs#3": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_object_in_kwargs#4": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_from_kwargs#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13297/dedup_patch_13.jsonl": {
+      "django__django-13297": {
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_in_kwargs#1": false,
+        "generic_views.test_base.TemplateViewTest.test_template_view_lazy_object_in_kwargs#2": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_in_kwargs#3": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_object_in_kwargs#4": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_from_kwargs#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13297/dedup_patch_14.jsonl": {
+      "django__django-13297": {
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_in_kwargs#1": false,
+        "generic_views.test_base.TemplateViewTest.test_template_view_lazy_object_in_kwargs#2": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_in_kwargs#3": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_object_in_kwargs#4": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_from_kwargs#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13297/dedup_patch_15.jsonl": {
+      "django__django-13297": {
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_in_kwargs#1": false,
+        "generic_views.test_base.TemplateViewTest.test_template_view_lazy_object_in_kwargs#2": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_in_kwargs#3": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_object_in_kwargs#4": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_from_kwargs#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13297/dedup_patch_16.jsonl": {
+      "django__django-13297": {
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_in_kwargs#1": false,
+        "generic_views.test_base.TemplateViewTest.test_template_view_lazy_object_in_kwargs#2": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_in_kwargs#3": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_object_in_kwargs#4": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_from_kwargs#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13297/dedup_patch_17.jsonl": {
+      "django__django-13297": {
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_in_kwargs#1": false,
+        "generic_views.test_base.TemplateViewTest.test_template_view_lazy_object_in_kwargs#2": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_in_kwargs#3": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_object_in_kwargs#4": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_from_kwargs#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13297/dedup_patch_18.jsonl": {
+      "django__django-13297": {
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_in_kwargs#1": false,
+        "generic_views.test_base.TemplateViewTest.test_template_view_lazy_object_in_kwargs#2": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_in_kwargs#3": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_object_in_kwargs#4": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_from_kwargs#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13297/dedup_patch_19.jsonl": {
+      "django__django-13297": {
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_in_kwargs#1": false,
+        "generic_views.test_base.TemplateViewTest.test_template_view_lazy_object_in_kwargs#2": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_in_kwargs#3": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_object_in_kwargs#4": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_from_kwargs#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13297/dedup_patch_2.jsonl": {
+      "django__django-13297": {
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_in_kwargs#1": false,
+        "generic_views.test_base.TemplateViewTest.test_template_view_lazy_object_in_kwargs#2": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_in_kwargs#3": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_object_in_kwargs#4": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_from_kwargs#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13297/dedup_patch_20.jsonl": {
+      "django__django-13297": {
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_in_kwargs#1": false,
+        "generic_views.test_base.TemplateViewTest.test_template_view_lazy_object_in_kwargs#2": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_in_kwargs#3": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_object_in_kwargs#4": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_from_kwargs#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13297/dedup_patch_21.jsonl": {
+      "django__django-13297": {
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_in_kwargs#1": false,
+        "generic_views.test_base.TemplateViewTest.test_template_view_lazy_object_in_kwargs#2": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_in_kwargs#3": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_object_in_kwargs#4": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_from_kwargs#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13297/dedup_patch_22.jsonl": {
+      "django__django-13297": {
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_in_kwargs#1": false,
+        "generic_views.test_base.TemplateViewTest.test_template_view_lazy_object_in_kwargs#2": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_in_kwargs#3": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_object_in_kwargs#4": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_from_kwargs#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13297/dedup_patch_23.jsonl": {
+      "django__django-13297": {
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_in_kwargs#1": false,
+        "generic_views.test_base.TemplateViewTest.test_template_view_lazy_object_in_kwargs#2": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_in_kwargs#3": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_object_in_kwargs#4": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_from_kwargs#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13297/dedup_patch_24.jsonl": {
+      "django__django-13297": {
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_in_kwargs#1": false,
+        "generic_views.test_base.TemplateViewTest.test_template_view_lazy_object_in_kwargs#2": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_in_kwargs#3": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_object_in_kwargs#4": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_from_kwargs#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13297/dedup_patch_25.jsonl": {
+      "django__django-13297": {
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_in_kwargs#1": false,
+        "generic_views.test_base.TemplateViewTest.test_template_view_lazy_object_in_kwargs#2": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_in_kwargs#3": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_object_in_kwargs#4": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_from_kwargs#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13297/dedup_patch_26.jsonl": {
+      "django__django-13297": {
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_in_kwargs#1": false,
+        "generic_views.test_base.TemplateViewTest.test_template_view_lazy_object_in_kwargs#2": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_in_kwargs#3": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_object_in_kwargs#4": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_from_kwargs#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13297/dedup_patch_27.jsonl": {
+      "django__django-13297": {
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_in_kwargs#1": false,
+        "generic_views.test_base.TemplateViewTest.test_template_view_lazy_object_in_kwargs#2": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_in_kwargs#3": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_object_in_kwargs#4": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_from_kwargs#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13297/dedup_patch_28.jsonl": {
+      "django__django-13297": {
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_in_kwargs#1": false,
+        "generic_views.test_base.TemplateViewTest.test_template_view_lazy_object_in_kwargs#2": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_in_kwargs#3": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_object_in_kwargs#4": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_from_kwargs#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13297/dedup_patch_29.jsonl": {
+      "django__django-13297": {
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_in_kwargs#1": false,
+        "generic_views.test_base.TemplateViewTest.test_template_view_lazy_object_in_kwargs#2": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_in_kwargs#3": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_object_in_kwargs#4": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_from_kwargs#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13297/dedup_patch_3.jsonl": {
+      "django__django-13297": {
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_in_kwargs#1": false,
+        "generic_views.test_base.TemplateViewTest.test_template_view_lazy_object_in_kwargs#2": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_in_kwargs#3": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_object_in_kwargs#4": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_from_kwargs#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13297/dedup_patch_30.jsonl": {
+      "django__django-13297": {
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_in_kwargs#1": false,
+        "generic_views.test_base.TemplateViewTest.test_template_view_lazy_object_in_kwargs#2": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_in_kwargs#3": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_object_in_kwargs#4": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_from_kwargs#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13297/dedup_patch_31.jsonl": {
+      "django__django-13297": {
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_in_kwargs#1": false,
+        "generic_views.test_base.TemplateViewTest.test_template_view_lazy_object_in_kwargs#2": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_in_kwargs#3": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_object_in_kwargs#4": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_from_kwargs#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13297/dedup_patch_32.jsonl": {
+      "django__django-13297": {
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_in_kwargs#1": false,
+        "generic_views.test_base.TemplateViewTest.test_template_view_lazy_object_in_kwargs#2": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_in_kwargs#3": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_object_in_kwargs#4": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_from_kwargs#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13297/dedup_patch_33.jsonl": {
+      "django__django-13297": {
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_in_kwargs#1": false,
+        "generic_views.test_base.TemplateViewTest.test_template_view_lazy_object_in_kwargs#2": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_in_kwargs#3": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_object_in_kwargs#4": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_from_kwargs#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13297/dedup_patch_4.jsonl": {
+      "django__django-13297": {
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_in_kwargs#1": false,
+        "generic_views.test_base.TemplateViewTest.test_template_view_lazy_object_in_kwargs#2": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_in_kwargs#3": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_object_in_kwargs#4": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_from_kwargs#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13297/dedup_patch_5.jsonl": {
+      "django__django-13297": {
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_in_kwargs#1": false,
+        "generic_views.test_base.TemplateViewTest.test_template_view_lazy_object_in_kwargs#2": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_in_kwargs#3": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_object_in_kwargs#4": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_from_kwargs#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13297/dedup_patch_6.jsonl": {
+      "django__django-13297": {
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_in_kwargs#1": false,
+        "generic_views.test_base.TemplateViewTest.test_template_view_lazy_object_in_kwargs#2": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_in_kwargs#3": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_object_in_kwargs#4": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_from_kwargs#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13297/dedup_patch_7.jsonl": {
+      "django__django-13297": {
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_in_kwargs#1": false,
+        "generic_views.test_base.TemplateViewTest.test_template_view_lazy_object_in_kwargs#2": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_in_kwargs#3": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_object_in_kwargs#4": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_from_kwargs#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13297/dedup_patch_8.jsonl": {
+      "django__django-13297": {
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_in_kwargs#1": false,
+        "generic_views.test_base.TemplateViewTest.test_template_view_lazy_object_in_kwargs#2": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_in_kwargs#3": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_object_in_kwargs#4": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_from_kwargs#5": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13297/dedup_patch_9.jsonl": {
+      "django__django-13297": {
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_in_kwargs#1": false,
+        "generic_views.test_base.TemplateViewTest.test_template_view_lazy_object_in_kwargs#2": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_in_kwargs#3": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_object_in_kwargs#4": false,
+        "generic_views.test_base.GetContextDataTest.test_lazy_objects_from_kwargs#5": false
+      }
+    }
+  }
+}

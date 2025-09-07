@@ -1,0 +1,484 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/matplotlib__matplotlib-20826/dedup_patch_0.jsonl": {
+      "matplotlib__matplotlib-20826": {
+        "lib/matplotlib/tests/test_axes.py::test_reset_grid": true,
+        "lib/matplotlib/tests/test_ticker.py::test_minorticks_rc": true,
+        "lib/matplotlib/tests/test_axes.py::test_aitoff_proj": true,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_forward_inverse_closure": true,
+        "lib/matplotlib/tests/test_figure.py::test_subfigure_double": true,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_grid": true,
+        "lib/matplotlib/tests/test_axes.py::test_twinx_cla": true,
+        "lib/matplotlib/testing/decorators.py::test_minorticks_on_rcParams_both": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/matplotlib__matplotlib-20826/dedup_patch_1.jsonl": {
+      "matplotlib__matplotlib-20826": {
+        "lib/matplotlib/tests/test_axes.py::test_reset_grid": true,
+        "lib/matplotlib/tests/test_ticker.py::test_minorticks_rc": true,
+        "lib/matplotlib/tests/test_axes.py::test_aitoff_proj": false,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_forward_inverse_closure": false,
+        "lib/matplotlib/tests/test_figure.py::test_subfigure_double": false,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_grid": false,
+        "lib/matplotlib/tests/test_axes.py::test_twinx_cla": false,
+        "lib/matplotlib/testing/decorators.py::test_minorticks_on_rcParams_both": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/matplotlib__matplotlib-20826/dedup_patch_10.jsonl": {
+      "matplotlib__matplotlib-20826": {
+        "lib/matplotlib/tests/test_axes.py::test_reset_grid": true,
+        "lib/matplotlib/tests/test_ticker.py::test_minorticks_rc": true,
+        "lib/matplotlib/tests/test_axes.py::test_aitoff_proj": true,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_forward_inverse_closure": true,
+        "lib/matplotlib/tests/test_figure.py::test_subfigure_double": true,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_grid": true,
+        "lib/matplotlib/tests/test_axes.py::test_twinx_cla": true,
+        "lib/matplotlib/testing/decorators.py::test_minorticks_on_rcParams_both": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/matplotlib__matplotlib-20826/dedup_patch_11.jsonl": {
+      "matplotlib__matplotlib-20826": {
+        "lib/matplotlib/tests/test_axes.py::test_reset_grid": true,
+        "lib/matplotlib/tests/test_ticker.py::test_minorticks_rc": true,
+        "lib/matplotlib/tests/test_axes.py::test_aitoff_proj": true,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_forward_inverse_closure": true,
+        "lib/matplotlib/tests/test_figure.py::test_subfigure_double": false,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_grid": true,
+        "lib/matplotlib/tests/test_axes.py::test_twinx_cla": false,
+        "lib/matplotlib/testing/decorators.py::test_minorticks_on_rcParams_both": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/matplotlib__matplotlib-20826/dedup_patch_12.jsonl": {
+      "matplotlib__matplotlib-20826": {
+        "lib/matplotlib/tests/test_axes.py::test_reset_grid": true,
+        "lib/matplotlib/tests/test_ticker.py::test_minorticks_rc": true,
+        "lib/matplotlib/tests/test_axes.py::test_aitoff_proj": true,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_forward_inverse_closure": true,
+        "lib/matplotlib/tests/test_figure.py::test_subfigure_double": false,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_grid": true,
+        "lib/matplotlib/tests/test_axes.py::test_twinx_cla": true,
+        "lib/matplotlib/testing/decorators.py::test_minorticks_on_rcParams_both": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/matplotlib__matplotlib-20826/dedup_patch_13.jsonl": {
+      "matplotlib__matplotlib-20826": {
+        "lib/matplotlib/tests/test_axes.py::test_reset_grid": true,
+        "lib/matplotlib/tests/test_ticker.py::test_minorticks_rc": true,
+        "lib/matplotlib/tests/test_axes.py::test_aitoff_proj": true,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_forward_inverse_closure": true,
+        "lib/matplotlib/tests/test_figure.py::test_subfigure_double": false,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_grid": true,
+        "lib/matplotlib/tests/test_axes.py::test_twinx_cla": false,
+        "lib/matplotlib/testing/decorators.py::test_minorticks_on_rcParams_both": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/matplotlib__matplotlib-20826/dedup_patch_14.jsonl": {
+      "matplotlib__matplotlib-20826": {
+        "lib/matplotlib/tests/test_axes.py::test_reset_grid": true,
+        "lib/matplotlib/tests/test_ticker.py::test_minorticks_rc": true,
+        "lib/matplotlib/tests/test_axes.py::test_aitoff_proj": true,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_forward_inverse_closure": true,
+        "lib/matplotlib/tests/test_figure.py::test_subfigure_double": false,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_grid": true,
+        "lib/matplotlib/tests/test_axes.py::test_twinx_cla": false,
+        "lib/matplotlib/testing/decorators.py::test_minorticks_on_rcParams_both": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/matplotlib__matplotlib-20826/dedup_patch_15.jsonl": {
+      "matplotlib__matplotlib-20826": {
+        "lib/matplotlib/tests/test_axes.py::test_reset_grid": true,
+        "lib/matplotlib/tests/test_ticker.py::test_minorticks_rc": true,
+        "lib/matplotlib/tests/test_axes.py::test_aitoff_proj": true,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_forward_inverse_closure": true,
+        "lib/matplotlib/tests/test_figure.py::test_subfigure_double": true,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_grid": true,
+        "lib/matplotlib/tests/test_axes.py::test_twinx_cla": true,
+        "lib/matplotlib/testing/decorators.py::test_minorticks_on_rcParams_both": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/matplotlib__matplotlib-20826/dedup_patch_16.jsonl": {
+      "matplotlib__matplotlib-20826": {
+        "lib/matplotlib/tests/test_axes.py::test_reset_grid": true,
+        "lib/matplotlib/tests/test_ticker.py::test_minorticks_rc": true,
+        "lib/matplotlib/tests/test_axes.py::test_aitoff_proj": true,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_forward_inverse_closure": true,
+        "lib/matplotlib/tests/test_figure.py::test_subfigure_double": false,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_grid": true,
+        "lib/matplotlib/tests/test_axes.py::test_twinx_cla": false,
+        "lib/matplotlib/testing/decorators.py::test_minorticks_on_rcParams_both": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/matplotlib__matplotlib-20826/dedup_patch_17.jsonl": {
+      "matplotlib__matplotlib-20826": {
+        "lib/matplotlib/tests/test_axes.py::test_reset_grid": true,
+        "lib/matplotlib/tests/test_ticker.py::test_minorticks_rc": true,
+        "lib/matplotlib/tests/test_axes.py::test_aitoff_proj": true,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_forward_inverse_closure": true,
+        "lib/matplotlib/tests/test_figure.py::test_subfigure_double": true,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_grid": true,
+        "lib/matplotlib/tests/test_axes.py::test_twinx_cla": true,
+        "lib/matplotlib/testing/decorators.py::test_minorticks_on_rcParams_both": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/matplotlib__matplotlib-20826/dedup_patch_18.jsonl": {
+      "matplotlib__matplotlib-20826": {
+        "lib/matplotlib/tests/test_axes.py::test_reset_grid": false,
+        "lib/matplotlib/tests/test_ticker.py::test_minorticks_rc": false,
+        "lib/matplotlib/tests/test_axes.py::test_aitoff_proj": false,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_forward_inverse_closure": false,
+        "lib/matplotlib/tests/test_figure.py::test_subfigure_double": false,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_grid": false,
+        "lib/matplotlib/tests/test_axes.py::test_twinx_cla": false,
+        "lib/matplotlib/testing/decorators.py::test_minorticks_on_rcParams_both": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/matplotlib__matplotlib-20826/dedup_patch_19.jsonl": {
+      "matplotlib__matplotlib-20826": {
+        "lib/matplotlib/tests/test_axes.py::test_reset_grid": true,
+        "lib/matplotlib/tests/test_ticker.py::test_minorticks_rc": true,
+        "lib/matplotlib/tests/test_axes.py::test_aitoff_proj": true,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_forward_inverse_closure": true,
+        "lib/matplotlib/tests/test_figure.py::test_subfigure_double": false,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_grid": true,
+        "lib/matplotlib/tests/test_axes.py::test_twinx_cla": false,
+        "lib/matplotlib/testing/decorators.py::test_minorticks_on_rcParams_both": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/matplotlib__matplotlib-20826/dedup_patch_2.jsonl": {
+      "matplotlib__matplotlib-20826": {
+        "lib/matplotlib/tests/test_axes.py::test_reset_grid": true,
+        "lib/matplotlib/tests/test_ticker.py::test_minorticks_rc": true,
+        "lib/matplotlib/tests/test_axes.py::test_aitoff_proj": true,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_forward_inverse_closure": true,
+        "lib/matplotlib/tests/test_figure.py::test_subfigure_double": true,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_grid": true,
+        "lib/matplotlib/tests/test_axes.py::test_twinx_cla": true,
+        "lib/matplotlib/testing/decorators.py::test_minorticks_on_rcParams_both": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/matplotlib__matplotlib-20826/dedup_patch_20.jsonl": {
+      "matplotlib__matplotlib-20826": {
+        "lib/matplotlib/tests/test_axes.py::test_reset_grid": false,
+        "lib/matplotlib/tests/test_ticker.py::test_minorticks_rc": false,
+        "lib/matplotlib/tests/test_axes.py::test_aitoff_proj": false,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_forward_inverse_closure": false,
+        "lib/matplotlib/tests/test_figure.py::test_subfigure_double": false,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_grid": false,
+        "lib/matplotlib/tests/test_axes.py::test_twinx_cla": false,
+        "lib/matplotlib/testing/decorators.py::test_minorticks_on_rcParams_both": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/matplotlib__matplotlib-20826/dedup_patch_21.jsonl": {
+      "matplotlib__matplotlib-20826": {
+        "lib/matplotlib/tests/test_axes.py::test_reset_grid": true,
+        "lib/matplotlib/tests/test_ticker.py::test_minorticks_rc": true,
+        "lib/matplotlib/tests/test_axes.py::test_aitoff_proj": false,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_forward_inverse_closure": false,
+        "lib/matplotlib/tests/test_figure.py::test_subfigure_double": false,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_grid": false,
+        "lib/matplotlib/tests/test_axes.py::test_twinx_cla": true,
+        "lib/matplotlib/testing/decorators.py::test_minorticks_on_rcParams_both": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/matplotlib__matplotlib-20826/dedup_patch_22.jsonl": {
+      "matplotlib__matplotlib-20826": {
+        "lib/matplotlib/tests/test_axes.py::test_reset_grid": true,
+        "lib/matplotlib/tests/test_ticker.py::test_minorticks_rc": true,
+        "lib/matplotlib/tests/test_axes.py::test_aitoff_proj": true,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_forward_inverse_closure": true,
+        "lib/matplotlib/tests/test_figure.py::test_subfigure_double": false,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_grid": true,
+        "lib/matplotlib/tests/test_axes.py::test_twinx_cla": false,
+        "lib/matplotlib/testing/decorators.py::test_minorticks_on_rcParams_both": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/matplotlib__matplotlib-20826/dedup_patch_23.jsonl": {
+      "matplotlib__matplotlib-20826": {
+        "lib/matplotlib/tests/test_axes.py::test_reset_grid": true,
+        "lib/matplotlib/tests/test_ticker.py::test_minorticks_rc": true,
+        "lib/matplotlib/tests/test_axes.py::test_aitoff_proj": true,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_forward_inverse_closure": true,
+        "lib/matplotlib/tests/test_figure.py::test_subfigure_double": true,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_grid": true,
+        "lib/matplotlib/tests/test_axes.py::test_twinx_cla": true,
+        "lib/matplotlib/testing/decorators.py::test_minorticks_on_rcParams_both": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/matplotlib__matplotlib-20826/dedup_patch_24.jsonl": {
+      "matplotlib__matplotlib-20826": {
+        "lib/matplotlib/tests/test_axes.py::test_reset_grid": true,
+        "lib/matplotlib/tests/test_ticker.py::test_minorticks_rc": true,
+        "lib/matplotlib/tests/test_axes.py::test_aitoff_proj": true,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_forward_inverse_closure": true,
+        "lib/matplotlib/tests/test_figure.py::test_subfigure_double": true,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_grid": true,
+        "lib/matplotlib/tests/test_axes.py::test_twinx_cla": true,
+        "lib/matplotlib/testing/decorators.py::test_minorticks_on_rcParams_both": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/matplotlib__matplotlib-20826/dedup_patch_25.jsonl": {
+      "matplotlib__matplotlib-20826": {
+        "lib/matplotlib/tests/test_axes.py::test_reset_grid": true,
+        "lib/matplotlib/tests/test_ticker.py::test_minorticks_rc": true,
+        "lib/matplotlib/tests/test_axes.py::test_aitoff_proj": true,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_forward_inverse_closure": true,
+        "lib/matplotlib/tests/test_figure.py::test_subfigure_double": false,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_grid": true,
+        "lib/matplotlib/tests/test_axes.py::test_twinx_cla": false,
+        "lib/matplotlib/testing/decorators.py::test_minorticks_on_rcParams_both": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/matplotlib__matplotlib-20826/dedup_patch_26.jsonl": {
+      "matplotlib__matplotlib-20826": {
+        "lib/matplotlib/tests/test_axes.py::test_reset_grid": true,
+        "lib/matplotlib/tests/test_ticker.py::test_minorticks_rc": true,
+        "lib/matplotlib/tests/test_axes.py::test_aitoff_proj": true,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_forward_inverse_closure": true,
+        "lib/matplotlib/tests/test_figure.py::test_subfigure_double": false,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_grid": true,
+        "lib/matplotlib/tests/test_axes.py::test_twinx_cla": false,
+        "lib/matplotlib/testing/decorators.py::test_minorticks_on_rcParams_both": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/matplotlib__matplotlib-20826/dedup_patch_27.jsonl": {
+      "matplotlib__matplotlib-20826": {
+        "lib/matplotlib/tests/test_axes.py::test_reset_grid": true,
+        "lib/matplotlib/tests/test_ticker.py::test_minorticks_rc": true,
+        "lib/matplotlib/tests/test_axes.py::test_aitoff_proj": true,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_forward_inverse_closure": true,
+        "lib/matplotlib/tests/test_figure.py::test_subfigure_double": true,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_grid": true,
+        "lib/matplotlib/tests/test_axes.py::test_twinx_cla": true,
+        "lib/matplotlib/testing/decorators.py::test_minorticks_on_rcParams_both": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/matplotlib__matplotlib-20826/dedup_patch_28.jsonl": {
+      "matplotlib__matplotlib-20826": {
+        "lib/matplotlib/tests/test_axes.py::test_reset_grid": true,
+        "lib/matplotlib/tests/test_ticker.py::test_minorticks_rc": true,
+        "lib/matplotlib/tests/test_axes.py::test_aitoff_proj": true,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_forward_inverse_closure": true,
+        "lib/matplotlib/tests/test_figure.py::test_subfigure_double": true,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_grid": true,
+        "lib/matplotlib/tests/test_axes.py::test_twinx_cla": true,
+        "lib/matplotlib/testing/decorators.py::test_minorticks_on_rcParams_both": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/matplotlib__matplotlib-20826/dedup_patch_29.jsonl": {
+      "matplotlib__matplotlib-20826": {
+        "lib/matplotlib/tests/test_axes.py::test_reset_grid": true,
+        "lib/matplotlib/tests/test_ticker.py::test_minorticks_rc": true,
+        "lib/matplotlib/tests/test_axes.py::test_aitoff_proj": true,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_forward_inverse_closure": true,
+        "lib/matplotlib/tests/test_figure.py::test_subfigure_double": false,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_grid": true,
+        "lib/matplotlib/tests/test_axes.py::test_twinx_cla": false,
+        "lib/matplotlib/testing/decorators.py::test_minorticks_on_rcParams_both": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/matplotlib__matplotlib-20826/dedup_patch_3.jsonl": {
+      "matplotlib__matplotlib-20826": {
+        "lib/matplotlib/tests/test_axes.py::test_reset_grid": true,
+        "lib/matplotlib/tests/test_ticker.py::test_minorticks_rc": true,
+        "lib/matplotlib/tests/test_axes.py::test_aitoff_proj": true,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_forward_inverse_closure": true,
+        "lib/matplotlib/tests/test_figure.py::test_subfigure_double": true,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_grid": true,
+        "lib/matplotlib/tests/test_axes.py::test_twinx_cla": true,
+        "lib/matplotlib/testing/decorators.py::test_minorticks_on_rcParams_both": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/matplotlib__matplotlib-20826/dedup_patch_30.jsonl": {
+      "matplotlib__matplotlib-20826": {
+        "lib/matplotlib/tests/test_axes.py::test_reset_grid": true,
+        "lib/matplotlib/tests/test_ticker.py::test_minorticks_rc": true,
+        "lib/matplotlib/tests/test_axes.py::test_aitoff_proj": true,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_forward_inverse_closure": true,
+        "lib/matplotlib/tests/test_figure.py::test_subfigure_double": false,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_grid": true,
+        "lib/matplotlib/tests/test_axes.py::test_twinx_cla": false,
+        "lib/matplotlib/testing/decorators.py::test_minorticks_on_rcParams_both": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/matplotlib__matplotlib-20826/dedup_patch_31.jsonl": {
+      "matplotlib__matplotlib-20826": {
+        "lib/matplotlib/tests/test_axes.py::test_reset_grid": true,
+        "lib/matplotlib/tests/test_ticker.py::test_minorticks_rc": true,
+        "lib/matplotlib/tests/test_axes.py::test_aitoff_proj": true,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_forward_inverse_closure": true,
+        "lib/matplotlib/tests/test_figure.py::test_subfigure_double": false,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_grid": true,
+        "lib/matplotlib/tests/test_axes.py::test_twinx_cla": true,
+        "lib/matplotlib/testing/decorators.py::test_minorticks_on_rcParams_both": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/matplotlib__matplotlib-20826/dedup_patch_32.jsonl": {
+      "matplotlib__matplotlib-20826": {
+        "lib/matplotlib/tests/test_axes.py::test_reset_grid": true,
+        "lib/matplotlib/tests/test_ticker.py::test_minorticks_rc": true,
+        "lib/matplotlib/tests/test_axes.py::test_aitoff_proj": true,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_forward_inverse_closure": true,
+        "lib/matplotlib/tests/test_figure.py::test_subfigure_double": false,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_grid": true,
+        "lib/matplotlib/tests/test_axes.py::test_twinx_cla": false,
+        "lib/matplotlib/testing/decorators.py::test_minorticks_on_rcParams_both": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/matplotlib__matplotlib-20826/dedup_patch_33.jsonl": {
+      "matplotlib__matplotlib-20826": {
+        "lib/matplotlib/tests/test_axes.py::test_reset_grid": true,
+        "lib/matplotlib/tests/test_ticker.py::test_minorticks_rc": true,
+        "lib/matplotlib/tests/test_axes.py::test_aitoff_proj": true,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_forward_inverse_closure": true,
+        "lib/matplotlib/tests/test_figure.py::test_subfigure_double": false,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_grid": true,
+        "lib/matplotlib/tests/test_axes.py::test_twinx_cla": false,
+        "lib/matplotlib/testing/decorators.py::test_minorticks_on_rcParams_both": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/matplotlib__matplotlib-20826/dedup_patch_34.jsonl": {
+      "matplotlib__matplotlib-20826": {
+        "lib/matplotlib/tests/test_axes.py::test_reset_grid": true,
+        "lib/matplotlib/tests/test_ticker.py::test_minorticks_rc": true,
+        "lib/matplotlib/tests/test_axes.py::test_aitoff_proj": true,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_forward_inverse_closure": true,
+        "lib/matplotlib/tests/test_figure.py::test_subfigure_double": false,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_grid": true,
+        "lib/matplotlib/tests/test_axes.py::test_twinx_cla": true,
+        "lib/matplotlib/testing/decorators.py::test_minorticks_on_rcParams_both": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/matplotlib__matplotlib-20826/dedup_patch_35.jsonl": {
+      "matplotlib__matplotlib-20826": {
+        "lib/matplotlib/tests/test_axes.py::test_reset_grid": true,
+        "lib/matplotlib/tests/test_ticker.py::test_minorticks_rc": true,
+        "lib/matplotlib/tests/test_axes.py::test_aitoff_proj": true,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_forward_inverse_closure": true,
+        "lib/matplotlib/tests/test_figure.py::test_subfigure_double": true,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_grid": true,
+        "lib/matplotlib/tests/test_axes.py::test_twinx_cla": true,
+        "lib/matplotlib/testing/decorators.py::test_minorticks_on_rcParams_both": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/matplotlib__matplotlib-20826/dedup_patch_36.jsonl": {
+      "matplotlib__matplotlib-20826": {
+        "lib/matplotlib/tests/test_axes.py::test_reset_grid": true,
+        "lib/matplotlib/tests/test_ticker.py::test_minorticks_rc": true,
+        "lib/matplotlib/tests/test_axes.py::test_aitoff_proj": false,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_forward_inverse_closure": false,
+        "lib/matplotlib/tests/test_figure.py::test_subfigure_double": false,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_grid": false,
+        "lib/matplotlib/tests/test_axes.py::test_twinx_cla": false,
+        "lib/matplotlib/testing/decorators.py::test_minorticks_on_rcParams_both": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/matplotlib__matplotlib-20826/dedup_patch_37.jsonl": {
+      "matplotlib__matplotlib-20826": {
+        "lib/matplotlib/tests/test_axes.py::test_reset_grid": true,
+        "lib/matplotlib/tests/test_ticker.py::test_minorticks_rc": true,
+        "lib/matplotlib/tests/test_axes.py::test_aitoff_proj": true,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_forward_inverse_closure": true,
+        "lib/matplotlib/tests/test_figure.py::test_subfigure_double": false,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_grid": true,
+        "lib/matplotlib/tests/test_axes.py::test_twinx_cla": false,
+        "lib/matplotlib/testing/decorators.py::test_minorticks_on_rcParams_both": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/matplotlib__matplotlib-20826/dedup_patch_38.jsonl": {
+      "matplotlib__matplotlib-20826": {
+        "lib/matplotlib/tests/test_axes.py::test_reset_grid": true,
+        "lib/matplotlib/tests/test_ticker.py::test_minorticks_rc": true,
+        "lib/matplotlib/tests/test_axes.py::test_aitoff_proj": true,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_forward_inverse_closure": true,
+        "lib/matplotlib/tests/test_figure.py::test_subfigure_double": true,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_grid": true,
+        "lib/matplotlib/tests/test_axes.py::test_twinx_cla": true,
+        "lib/matplotlib/testing/decorators.py::test_minorticks_on_rcParams_both": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/matplotlib__matplotlib-20826/dedup_patch_4.jsonl": {
+      "matplotlib__matplotlib-20826": {
+        "lib/matplotlib/tests/test_axes.py::test_reset_grid": true,
+        "lib/matplotlib/tests/test_ticker.py::test_minorticks_rc": true,
+        "lib/matplotlib/tests/test_axes.py::test_aitoff_proj": true,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_forward_inverse_closure": true,
+        "lib/matplotlib/tests/test_figure.py::test_subfigure_double": true,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_grid": true,
+        "lib/matplotlib/tests/test_axes.py::test_twinx_cla": true,
+        "lib/matplotlib/testing/decorators.py::test_minorticks_on_rcParams_both": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/matplotlib__matplotlib-20826/dedup_patch_5.jsonl": {
+      "matplotlib__matplotlib-20826": {
+        "lib/matplotlib/tests/test_axes.py::test_reset_grid": true,
+        "lib/matplotlib/tests/test_ticker.py::test_minorticks_rc": true,
+        "lib/matplotlib/tests/test_axes.py::test_aitoff_proj": true,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_forward_inverse_closure": true,
+        "lib/matplotlib/tests/test_figure.py::test_subfigure_double": true,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_grid": true,
+        "lib/matplotlib/tests/test_axes.py::test_twinx_cla": true,
+        "lib/matplotlib/testing/decorators.py::test_minorticks_on_rcParams_both": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/matplotlib__matplotlib-20826/dedup_patch_6.jsonl": {
+      "matplotlib__matplotlib-20826": {
+        "lib/matplotlib/tests/test_axes.py::test_reset_grid": true,
+        "lib/matplotlib/tests/test_ticker.py::test_minorticks_rc": true,
+        "lib/matplotlib/tests/test_axes.py::test_aitoff_proj": true,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_forward_inverse_closure": true,
+        "lib/matplotlib/tests/test_figure.py::test_subfigure_double": false,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_grid": true,
+        "lib/matplotlib/tests/test_axes.py::test_twinx_cla": false,
+        "lib/matplotlib/testing/decorators.py::test_minorticks_on_rcParams_both": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/matplotlib__matplotlib-20826/dedup_patch_7.jsonl": {
+      "matplotlib__matplotlib-20826": {
+        "lib/matplotlib/tests/test_axes.py::test_reset_grid": true,
+        "lib/matplotlib/tests/test_ticker.py::test_minorticks_rc": true,
+        "lib/matplotlib/tests/test_axes.py::test_aitoff_proj": true,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_forward_inverse_closure": true,
+        "lib/matplotlib/tests/test_figure.py::test_subfigure_double": true,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_grid": true,
+        "lib/matplotlib/tests/test_axes.py::test_twinx_cla": true,
+        "lib/matplotlib/testing/decorators.py::test_minorticks_on_rcParams_both": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/matplotlib__matplotlib-20826/dedup_patch_8.jsonl": {
+      "matplotlib__matplotlib-20826": {
+        "lib/matplotlib/tests/test_axes.py::test_reset_grid": true,
+        "lib/matplotlib/tests/test_ticker.py::test_minorticks_rc": true,
+        "lib/matplotlib/tests/test_axes.py::test_aitoff_proj": true,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_forward_inverse_closure": true,
+        "lib/matplotlib/tests/test_figure.py::test_subfigure_double": true,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_grid": true,
+        "lib/matplotlib/tests/test_axes.py::test_twinx_cla": true,
+        "lib/matplotlib/testing/decorators.py::test_minorticks_on_rcParams_both": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/matplotlib__matplotlib-20826/dedup_patch_9.jsonl": {
+      "matplotlib__matplotlib-20826": {
+        "lib/matplotlib/tests/test_axes.py::test_reset_grid": true,
+        "lib/matplotlib/tests/test_ticker.py::test_minorticks_rc": true,
+        "lib/matplotlib/tests/test_axes.py::test_aitoff_proj": true,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_forward_inverse_closure": true,
+        "lib/matplotlib/tests/test_figure.py::test_subfigure_double": false,
+        "lib/matplotlib/tests/test_axes.py::test_mollweide_grid": true,
+        "lib/matplotlib/tests/test_axes.py::test_twinx_cla": false,
+        "lib/matplotlib/testing/decorators.py::test_minorticks_on_rcParams_both": false
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "matplotlib__matplotlib-20826": {
+        "lib/matplotlib/tests/test_axes.py::test_twinx_cla#1": false,
+        "lib/matplotlib/tests/test_axes.py::test_twinx_cla#2": false,
+        "lib/matplotlib/tests/test_axes.py::test_empty_line_plots#3": false,
+        "lib/matplotlib/tests/test_axes.py::test_shared_axes_retick#4": false,
+        "lib/matplotlib/tests/test_axes.py::test_shared_axes_retick#5": false,
+        "lib/matplotlib/tests/test_axes.py::test_shared_axes_autoscale#6": false
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "regression": {},
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-12915": {
+        "staticfiles_tests.test_finders.TestMiscFinder.test_asgi_static_files_handler_get_response_async#1": false,
+        "staticfiles_tests.test_finders.TestMiscFinder.test_get_response_async#2": false
+      }
+    }
+  }
+}

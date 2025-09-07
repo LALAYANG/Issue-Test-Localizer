@@ -1,0 +1,39 @@
+{
+  "regression": {
+    "all_patches/lite_claude_all_unique_patches/sphinx-doc__sphinx-8713/dedup_patch_0.jsonl": {
+      "sphinx-doc__sphinx-8713": {
+        "tests/test_ext_napoleon_docstring.py::GoogleDocstringTest::test_list_in_parameter_description": true,
+        "tests/test_ext_napoleon_docstring.py::NumpyDocstringTest::test_docstrings": true,
+        "tests/test_ext_napoleon_docstring.py::GoogleDocstringTest::test_docstrings": true,
+        "tests/test_ext_napoleon_docstring.py::NumpyDocstringTest::test_parameters_with_class_reference": true,
+        "tests/test_ext_napoleon_docstring.py::NumpyDocstringTest::test_list_in_parameter_description": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sphinx-doc__sphinx-8713/dedup_patch_1.jsonl": {
+      "sphinx-doc__sphinx-8713": {
+        "tests/test_ext_napoleon_docstring.py::GoogleDocstringTest::test_list_in_parameter_description": true,
+        "tests/test_ext_napoleon_docstring.py::NumpyDocstringTest::test_docstrings": true,
+        "tests/test_ext_napoleon_docstring.py::GoogleDocstringTest::test_docstrings": true,
+        "tests/test_ext_napoleon_docstring.py::NumpyDocstringTest::test_parameters_with_class_reference": true,
+        "tests/test_ext_napoleon_docstring.py::NumpyDocstringTest::test_list_in_parameter_description": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "sphinx-doc__sphinx-8713": {
+        "tests/test_ext_napoleon_docstring.py::with PEP 526 annotations and numpy docstring::test_other_parameters_section_with_napoleon_use_param#1": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sphinx-doc__sphinx-8713/dedup_patch_0.jsonl": {
+      "sphinx-doc__sphinx-8713": {
+        "tests/test_ext_napoleon_docstring.py::with PEP 526 annotations and numpy docstring::test_other_parameters_section_with_napoleon_use_param#1": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/sphinx-doc__sphinx-8713/dedup_patch_1.jsonl": {
+      "sphinx-doc__sphinx-8713": {
+        "tests/test_ext_napoleon_docstring.py::with PEP 526 annotations and numpy docstring::test_other_parameters_section_with_napoleon_use_param#1": false
+      }
+    }
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "regression": {
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13315/dedup_patch_0.jsonl": {
+      "django__django-13315": {
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_disabled_modelmultiplechoicefield_has_changed": true,
+        "model_forms.tests.ModelFormBaseTest.test_blank_with_null_foreign_key_field": true,
+        "model_forms.tests.ModelFormBasicTests.test_validate_foreign_key_to_model_with_overridden_manager": true,
+        "model_formsets_regress.tests.RedeleteTests.test_resubmit": true,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_disabled_modelchoicefield_initial_model_instance": true,
+        "model_formsets_regress.tests.RedeleteTests.test_delete_already_deleted": true,
+        "model_forms.tests.ModelMultipleChoiceFieldTests.test_model_multiple_choice_field": true,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_disabled_modelchoicefield_has_changed": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_non_local_to_field": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_recursive_fks_get_col": true,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_choices": true,
+        "model_forms.tests.OtherModelFormTests.test_foreignkeys_which_use_to_field": true,
+        "model_forms.tests.ModelMultipleChoiceFieldTests.test_show_hidden_initial_changed_queries_efficiently": true,
+        "model_forms.tests.LimitChoicesToTests.test_limit_choices_to_callable_for_m2m_rel": true,
+        "foreign_object.tests.MultiColumnFKTests.test_prefetch_related_m2m_forward_works": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "model_forms.tests.ModelMultipleChoiceFieldTests.test_model_multiple_choice_show_hidden_initial": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_empty_string_fk": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13315/dedup_patch_1.jsonl": {
+      "django__django-13315": {
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_disabled_modelmultiplechoicefield_has_changed": true,
+        "model_forms.tests.ModelFormBaseTest.test_blank_with_null_foreign_key_field": true,
+        "model_forms.tests.ModelFormBasicTests.test_validate_foreign_key_to_model_with_overridden_manager": true,
+        "model_formsets_regress.tests.RedeleteTests.test_resubmit": true,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_disabled_modelchoicefield_initial_model_instance": true,
+        "model_formsets_regress.tests.RedeleteTests.test_delete_already_deleted": true,
+        "model_forms.tests.ModelMultipleChoiceFieldTests.test_model_multiple_choice_field": true,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_disabled_modelchoicefield_has_changed": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_non_local_to_field": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_recursive_fks_get_col": true,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_choices": true,
+        "model_forms.tests.OtherModelFormTests.test_foreignkeys_which_use_to_field": true,
+        "model_forms.tests.ModelMultipleChoiceFieldTests.test_show_hidden_initial_changed_queries_efficiently": true,
+        "model_forms.tests.LimitChoicesToTests.test_limit_choices_to_callable_for_m2m_rel": true,
+        "foreign_object.tests.MultiColumnFKTests.test_prefetch_related_m2m_forward_works": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "model_forms.tests.ModelMultipleChoiceFieldTests.test_model_multiple_choice_show_hidden_initial": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_empty_string_fk": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13315/dedup_patch_2.jsonl": {
+      "django__django-13315": {
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_disabled_modelmultiplechoicefield_has_changed": true,
+        "model_forms.tests.ModelFormBaseTest.test_blank_with_null_foreign_key_field": false,
+        "model_forms.tests.ModelFormBasicTests.test_validate_foreign_key_to_model_with_overridden_manager": false,
+        "model_formsets_regress.tests.RedeleteTests.test_resubmit": false,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_disabled_modelchoicefield_initial_model_instance": true,
+        "model_formsets_regress.tests.RedeleteTests.test_delete_already_deleted": false,
+        "model_forms.tests.ModelMultipleChoiceFieldTests.test_model_multiple_choice_field": true,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_disabled_modelchoicefield_has_changed": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_non_local_to_field": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_recursive_fks_get_col": true,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_choices": true,
+        "model_forms.tests.OtherModelFormTests.test_foreignkeys_which_use_to_field": false,
+        "model_forms.tests.ModelMultipleChoiceFieldTests.test_show_hidden_initial_changed_queries_efficiently": true,
+        "model_forms.tests.LimitChoicesToTests.test_limit_choices_to_callable_for_m2m_rel": false,
+        "foreign_object.tests.MultiColumnFKTests.test_prefetch_related_m2m_forward_works": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "model_forms.tests.ModelMultipleChoiceFieldTests.test_model_multiple_choice_show_hidden_initial": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_empty_string_fk": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13315/dedup_patch_3.jsonl": {
+      "django__django-13315": {
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_disabled_modelmultiplechoicefield_has_changed": true,
+        "model_forms.tests.ModelFormBaseTest.test_blank_with_null_foreign_key_field": true,
+        "model_forms.tests.ModelFormBasicTests.test_validate_foreign_key_to_model_with_overridden_manager": true,
+        "model_formsets_regress.tests.RedeleteTests.test_resubmit": true,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_disabled_modelchoicefield_initial_model_instance": true,
+        "model_formsets_regress.tests.RedeleteTests.test_delete_already_deleted": true,
+        "model_forms.tests.ModelMultipleChoiceFieldTests.test_model_multiple_choice_field": true,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_disabled_modelchoicefield_has_changed": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_non_local_to_field": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_recursive_fks_get_col": true,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_choices": true,
+        "model_forms.tests.OtherModelFormTests.test_foreignkeys_which_use_to_field": true,
+        "model_forms.tests.ModelMultipleChoiceFieldTests.test_show_hidden_initial_changed_queries_efficiently": true,
+        "model_forms.tests.LimitChoicesToTests.test_limit_choices_to_callable_for_m2m_rel": true,
+        "foreign_object.tests.MultiColumnFKTests.test_prefetch_related_m2m_forward_works": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "model_forms.tests.ModelMultipleChoiceFieldTests.test_model_multiple_choice_show_hidden_initial": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_empty_string_fk": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13315/dedup_patch_4.jsonl": {
+      "django__django-13315": {
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_disabled_modelmultiplechoicefield_has_changed": true,
+        "model_forms.tests.ModelFormBaseTest.test_blank_with_null_foreign_key_field": true,
+        "model_forms.tests.ModelFormBasicTests.test_validate_foreign_key_to_model_with_overridden_manager": true,
+        "model_formsets_regress.tests.RedeleteTests.test_resubmit": true,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_disabled_modelchoicefield_initial_model_instance": true,
+        "model_formsets_regress.tests.RedeleteTests.test_delete_already_deleted": true,
+        "model_forms.tests.ModelMultipleChoiceFieldTests.test_model_multiple_choice_field": true,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_disabled_modelchoicefield_has_changed": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_non_local_to_field": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_recursive_fks_get_col": true,
+        "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_choices": true,
+        "model_forms.tests.OtherModelFormTests.test_foreignkeys_which_use_to_field": true,
+        "model_forms.tests.ModelMultipleChoiceFieldTests.test_show_hidden_initial_changed_queries_efficiently": true,
+        "model_forms.tests.LimitChoicesToTests.test_limit_choices_to_callable_for_m2m_rel": true,
+        "foreign_object.tests.MultiColumnFKTests.test_prefetch_related_m2m_forward_works": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "model_forms.tests.ModelMultipleChoiceFieldTests.test_model_multiple_choice_show_hidden_initial": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_empty_string_fk": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-13315": {
+        "model_forms.tests.ModelToDictTests.test_limit_choices_to_with_q_object#1": true,
+        "model_forms.tests.LimitChoicesToTests.test_limit_choices_to_q_object_with_join#2": true,
+        "model_forms.tests.LimitChoicesToTests.test_limit_choices_to_with_q_object#3": true,
+        "model_forms.tests.ModelToDictTests.test_limit_choices_to_with_q_object#4": true,
+        "model_forms.tests.ModelToDictTests.test_limit_choices_to_with_q_object#5": true,
+        "model_forms.tests.LimitChoicesToTests.test_limit_choices_to_q_object_for_fk_rel#6": true,
+        "model_forms.tests.ModelToDictTests.test_limit_choices_to_with_q_object#7": true,
+        "model_forms.tests.LimitChoicesToTests.test_limit_choices_to_q_object_with_joins#8": true,
+        "model_forms.tests.LimitChoicesToTests.test_limit_choices_to_with_q_object_join_no_duplicates#9": true,
+        "model_forms.tests.LimitChoicesToTests.test_foreignkey_limit_choices_to_no_duplicates#10": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13315/dedup_patch_0.jsonl": {
+      "django__django-13315": {
+        "model_forms.tests.ModelToDictTests.test_limit_choices_to_with_q_object#1": false,
+        "model_forms.tests.LimitChoicesToTests.test_limit_choices_to_q_object_with_join#2": false,
+        "model_forms.tests.LimitChoicesToTests.test_limit_choices_to_with_q_object#3": false,
+        "model_forms.tests.ModelToDictTests.test_limit_choices_to_with_q_object#4": false,
+        "model_forms.tests.ModelToDictTests.test_limit_choices_to_with_q_object#5": false,
+        "model_forms.tests.LimitChoicesToTests.test_limit_choices_to_q_object_for_fk_rel#6": false,
+        "model_forms.tests.ModelToDictTests.test_limit_choices_to_with_q_object#7": false,
+        "model_forms.tests.LimitChoicesToTests.test_limit_choices_to_q_object_with_joins#8": false,
+        "model_forms.tests.LimitChoicesToTests.test_limit_choices_to_with_q_object_join_no_duplicates#9": false,
+        "model_forms.tests.LimitChoicesToTests.test_foreignkey_limit_choices_to_no_duplicates#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13315/dedup_patch_1.jsonl": {
+      "django__django-13315": {
+        "model_forms.tests.ModelToDictTests.test_limit_choices_to_with_q_object#1": false,
+        "model_forms.tests.LimitChoicesToTests.test_limit_choices_to_q_object_with_join#2": false,
+        "model_forms.tests.LimitChoicesToTests.test_limit_choices_to_with_q_object#3": false,
+        "model_forms.tests.ModelToDictTests.test_limit_choices_to_with_q_object#4": false,
+        "model_forms.tests.ModelToDictTests.test_limit_choices_to_with_q_object#5": false,
+        "model_forms.tests.LimitChoicesToTests.test_limit_choices_to_q_object_for_fk_rel#6": false,
+        "model_forms.tests.ModelToDictTests.test_limit_choices_to_with_q_object#7": false,
+        "model_forms.tests.LimitChoicesToTests.test_limit_choices_to_q_object_with_joins#8": false,
+        "model_forms.tests.LimitChoicesToTests.test_limit_choices_to_with_q_object_join_no_duplicates#9": false,
+        "model_forms.tests.LimitChoicesToTests.test_foreignkey_limit_choices_to_no_duplicates#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13315/dedup_patch_3.jsonl": {
+      "django__django-13315": {
+        "model_forms.tests.ModelToDictTests.test_limit_choices_to_with_q_object#1": false,
+        "model_forms.tests.LimitChoicesToTests.test_limit_choices_to_q_object_with_join#2": false,
+        "model_forms.tests.LimitChoicesToTests.test_limit_choices_to_with_q_object#3": false,
+        "model_forms.tests.ModelToDictTests.test_limit_choices_to_with_q_object#4": false,
+        "model_forms.tests.ModelToDictTests.test_limit_choices_to_with_q_object#5": false,
+        "model_forms.tests.LimitChoicesToTests.test_limit_choices_to_q_object_for_fk_rel#6": false,
+        "model_forms.tests.ModelToDictTests.test_limit_choices_to_with_q_object#7": false,
+        "model_forms.tests.LimitChoicesToTests.test_limit_choices_to_q_object_with_joins#8": false,
+        "model_forms.tests.LimitChoicesToTests.test_limit_choices_to_with_q_object_join_no_duplicates#9": false,
+        "model_forms.tests.LimitChoicesToTests.test_foreignkey_limit_choices_to_no_duplicates#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13315/dedup_patch_4.jsonl": {
+      "django__django-13315": {
+        "model_forms.tests.ModelToDictTests.test_limit_choices_to_with_q_object#1": false,
+        "model_forms.tests.LimitChoicesToTests.test_limit_choices_to_q_object_with_join#2": false,
+        "model_forms.tests.LimitChoicesToTests.test_limit_choices_to_with_q_object#3": false,
+        "model_forms.tests.ModelToDictTests.test_limit_choices_to_with_q_object#4": false,
+        "model_forms.tests.ModelToDictTests.test_limit_choices_to_with_q_object#5": false,
+        "model_forms.tests.LimitChoicesToTests.test_limit_choices_to_q_object_for_fk_rel#6": false,
+        "model_forms.tests.ModelToDictTests.test_limit_choices_to_with_q_object#7": false,
+        "model_forms.tests.LimitChoicesToTests.test_limit_choices_to_q_object_with_joins#8": false,
+        "model_forms.tests.LimitChoicesToTests.test_limit_choices_to_with_q_object_join_no_duplicates#9": false,
+        "model_forms.tests.LimitChoicesToTests.test_foreignkey_limit_choices_to_no_duplicates#10": false
+      }
+    }
+  }
+}

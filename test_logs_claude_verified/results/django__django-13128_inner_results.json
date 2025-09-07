@@ -1,0 +1,472 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/django__django-13128/dedup_patch_0.jsonl": {
+      "django__django-13128": {
+        "expressions.tests.ReprTests.test_expressions": true,
+        "expressions.tests.FTimeDeltaTests.test_negative_timedelta_update": false,
+        "aggregation.tests.AggregateTestCase.test_complex_values_aggregation": false,
+        "expressions.tests.FTests.test_equal": true,
+        "expressions_case.tests.CaseExpressionTests.test_update_binary": true,
+        "expressions.tests.FTests.test_not_equal_Value": true,
+        "expressions_window.tests.WindowFunctionTests.test_lead": true,
+        "expressions.tests.FTimeDeltaTests.test_time_subtraction": true,
+        "expressions.tests.FTests.test_hash": true,
+        "expressions.tests.ExpressionWrapperTests.test_empty_group_by": true,
+        "aggregation.tests.AggregateTestCase.test_aggregation_order_by_not_selected_annotation_values": true,
+        "expressions_window.tests.WindowFunctionTests.test_function_list_of_values": true,
+        "aggregation.tests.AggregateTestCase.test_aggregate_over_complex_annotation": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13128/dedup_patch_1.jsonl": {
+      "django__django-13128": {
+        "expressions.tests.ReprTests.test_expressions": true,
+        "expressions.tests.FTimeDeltaTests.test_negative_timedelta_update": true,
+        "aggregation.tests.AggregateTestCase.test_complex_values_aggregation": true,
+        "expressions.tests.FTests.test_equal": true,
+        "expressions_case.tests.CaseExpressionTests.test_update_binary": true,
+        "expressions.tests.FTests.test_not_equal_Value": true,
+        "expressions_window.tests.WindowFunctionTests.test_lead": true,
+        "expressions.tests.FTimeDeltaTests.test_time_subtraction": false,
+        "expressions.tests.FTests.test_hash": true,
+        "expressions.tests.ExpressionWrapperTests.test_empty_group_by": true,
+        "aggregation.tests.AggregateTestCase.test_aggregation_order_by_not_selected_annotation_values": true,
+        "expressions_window.tests.WindowFunctionTests.test_function_list_of_values": true,
+        "aggregation.tests.AggregateTestCase.test_aggregate_over_complex_annotation": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13128/dedup_patch_10.jsonl": {
+      "django__django-13128": {
+        "expressions.tests.ReprTests.test_expressions": true,
+        "expressions.tests.FTimeDeltaTests.test_negative_timedelta_update": true,
+        "aggregation.tests.AggregateTestCase.test_complex_values_aggregation": true,
+        "expressions.tests.FTests.test_equal": true,
+        "expressions_case.tests.CaseExpressionTests.test_update_binary": true,
+        "expressions.tests.FTests.test_not_equal_Value": true,
+        "expressions_window.tests.WindowFunctionTests.test_lead": true,
+        "expressions.tests.FTimeDeltaTests.test_time_subtraction": true,
+        "expressions.tests.FTests.test_hash": true,
+        "expressions.tests.ExpressionWrapperTests.test_empty_group_by": true,
+        "aggregation.tests.AggregateTestCase.test_aggregation_order_by_not_selected_annotation_values": true,
+        "expressions_window.tests.WindowFunctionTests.test_function_list_of_values": true,
+        "aggregation.tests.AggregateTestCase.test_aggregate_over_complex_annotation": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13128/dedup_patch_11.jsonl": {
+      "django__django-13128": {
+        "expressions.tests.ReprTests.test_expressions": true,
+        "expressions.tests.FTimeDeltaTests.test_negative_timedelta_update": true,
+        "aggregation.tests.AggregateTestCase.test_complex_values_aggregation": true,
+        "expressions.tests.FTests.test_equal": true,
+        "expressions_case.tests.CaseExpressionTests.test_update_binary": true,
+        "expressions.tests.FTests.test_not_equal_Value": true,
+        "expressions_window.tests.WindowFunctionTests.test_lead": true,
+        "expressions.tests.FTimeDeltaTests.test_time_subtraction": true,
+        "expressions.tests.FTests.test_hash": true,
+        "expressions.tests.ExpressionWrapperTests.test_empty_group_by": true,
+        "aggregation.tests.AggregateTestCase.test_aggregation_order_by_not_selected_annotation_values": true,
+        "expressions_window.tests.WindowFunctionTests.test_function_list_of_values": true,
+        "aggregation.tests.AggregateTestCase.test_aggregate_over_complex_annotation": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13128/dedup_patch_12.jsonl": {
+      "django__django-13128": {
+        "expressions.tests.ReprTests.test_expressions": true,
+        "expressions.tests.FTimeDeltaTests.test_negative_timedelta_update": true,
+        "aggregation.tests.AggregateTestCase.test_complex_values_aggregation": true,
+        "expressions.tests.FTests.test_equal": true,
+        "expressions_case.tests.CaseExpressionTests.test_update_binary": true,
+        "expressions.tests.FTests.test_not_equal_Value": true,
+        "expressions_window.tests.WindowFunctionTests.test_lead": true,
+        "expressions.tests.FTimeDeltaTests.test_time_subtraction": true,
+        "expressions.tests.FTests.test_hash": true,
+        "expressions.tests.ExpressionWrapperTests.test_empty_group_by": true,
+        "aggregation.tests.AggregateTestCase.test_aggregation_order_by_not_selected_annotation_values": true,
+        "expressions_window.tests.WindowFunctionTests.test_function_list_of_values": true,
+        "aggregation.tests.AggregateTestCase.test_aggregate_over_complex_annotation": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13128/dedup_patch_13.jsonl": {
+      "django__django-13128": {
+        "expressions.tests.ReprTests.test_expressions": true,
+        "expressions.tests.FTimeDeltaTests.test_negative_timedelta_update": true,
+        "aggregation.tests.AggregateTestCase.test_complex_values_aggregation": true,
+        "expressions.tests.FTests.test_equal": true,
+        "expressions_case.tests.CaseExpressionTests.test_update_binary": true,
+        "expressions.tests.FTests.test_not_equal_Value": true,
+        "expressions_window.tests.WindowFunctionTests.test_lead": true,
+        "expressions.tests.FTimeDeltaTests.test_time_subtraction": true,
+        "expressions.tests.FTests.test_hash": true,
+        "expressions.tests.ExpressionWrapperTests.test_empty_group_by": true,
+        "aggregation.tests.AggregateTestCase.test_aggregation_order_by_not_selected_annotation_values": true,
+        "expressions_window.tests.WindowFunctionTests.test_function_list_of_values": true,
+        "aggregation.tests.AggregateTestCase.test_aggregate_over_complex_annotation": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13128/dedup_patch_14.jsonl": {
+      "django__django-13128": {
+        "expressions.tests.ReprTests.test_expressions": true,
+        "expressions.tests.FTimeDeltaTests.test_negative_timedelta_update": true,
+        "aggregation.tests.AggregateTestCase.test_complex_values_aggregation": true,
+        "expressions.tests.FTests.test_equal": true,
+        "expressions_case.tests.CaseExpressionTests.test_update_binary": true,
+        "expressions.tests.FTests.test_not_equal_Value": true,
+        "expressions_window.tests.WindowFunctionTests.test_lead": true,
+        "expressions.tests.FTimeDeltaTests.test_time_subtraction": true,
+        "expressions.tests.FTests.test_hash": true,
+        "expressions.tests.ExpressionWrapperTests.test_empty_group_by": true,
+        "aggregation.tests.AggregateTestCase.test_aggregation_order_by_not_selected_annotation_values": true,
+        "expressions_window.tests.WindowFunctionTests.test_function_list_of_values": true,
+        "aggregation.tests.AggregateTestCase.test_aggregate_over_complex_annotation": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13128/dedup_patch_15.jsonl": {
+      "django__django-13128": {
+        "expressions.tests.ReprTests.test_expressions": true,
+        "expressions.tests.FTimeDeltaTests.test_negative_timedelta_update": true,
+        "aggregation.tests.AggregateTestCase.test_complex_values_aggregation": true,
+        "expressions.tests.FTests.test_equal": true,
+        "expressions_case.tests.CaseExpressionTests.test_update_binary": true,
+        "expressions.tests.FTests.test_not_equal_Value": true,
+        "expressions_window.tests.WindowFunctionTests.test_lead": true,
+        "expressions.tests.FTimeDeltaTests.test_time_subtraction": true,
+        "expressions.tests.FTests.test_hash": true,
+        "expressions.tests.ExpressionWrapperTests.test_empty_group_by": true,
+        "aggregation.tests.AggregateTestCase.test_aggregation_order_by_not_selected_annotation_values": true,
+        "expressions_window.tests.WindowFunctionTests.test_function_list_of_values": true,
+        "aggregation.tests.AggregateTestCase.test_aggregate_over_complex_annotation": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13128/dedup_patch_16.jsonl": {
+      "django__django-13128": {
+        "expressions.tests.ReprTests.test_expressions": true,
+        "expressions.tests.FTimeDeltaTests.test_negative_timedelta_update": true,
+        "aggregation.tests.AggregateTestCase.test_complex_values_aggregation": true,
+        "expressions.tests.FTests.test_equal": true,
+        "expressions_case.tests.CaseExpressionTests.test_update_binary": true,
+        "expressions.tests.FTests.test_not_equal_Value": true,
+        "expressions_window.tests.WindowFunctionTests.test_lead": true,
+        "expressions.tests.FTimeDeltaTests.test_time_subtraction": true,
+        "expressions.tests.FTests.test_hash": true,
+        "expressions.tests.ExpressionWrapperTests.test_empty_group_by": true,
+        "aggregation.tests.AggregateTestCase.test_aggregation_order_by_not_selected_annotation_values": true,
+        "expressions_window.tests.WindowFunctionTests.test_function_list_of_values": true,
+        "aggregation.tests.AggregateTestCase.test_aggregate_over_complex_annotation": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13128/dedup_patch_17.jsonl": {
+      "django__django-13128": {
+        "expressions.tests.ReprTests.test_expressions": false,
+        "expressions.tests.FTimeDeltaTests.test_negative_timedelta_update": false,
+        "aggregation.tests.AggregateTestCase.test_complex_values_aggregation": false,
+        "expressions.tests.FTests.test_equal": true,
+        "expressions_case.tests.CaseExpressionTests.test_update_binary": true,
+        "expressions.tests.FTests.test_not_equal_Value": true,
+        "expressions_window.tests.WindowFunctionTests.test_lead": true,
+        "expressions.tests.FTimeDeltaTests.test_time_subtraction": false,
+        "expressions.tests.FTests.test_hash": true,
+        "expressions.tests.ExpressionWrapperTests.test_empty_group_by": true,
+        "aggregation.tests.AggregateTestCase.test_aggregation_order_by_not_selected_annotation_values": true,
+        "expressions_window.tests.WindowFunctionTests.test_function_list_of_values": true,
+        "aggregation.tests.AggregateTestCase.test_aggregate_over_complex_annotation": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13128/dedup_patch_2.jsonl": {
+      "django__django-13128": {
+        "expressions.tests.ReprTests.test_expressions": true,
+        "expressions.tests.FTimeDeltaTests.test_negative_timedelta_update": true,
+        "aggregation.tests.AggregateTestCase.test_complex_values_aggregation": true,
+        "expressions.tests.FTests.test_equal": true,
+        "expressions_case.tests.CaseExpressionTests.test_update_binary": true,
+        "expressions.tests.FTests.test_not_equal_Value": true,
+        "expressions_window.tests.WindowFunctionTests.test_lead": true,
+        "expressions.tests.FTimeDeltaTests.test_time_subtraction": true,
+        "expressions.tests.FTests.test_hash": true,
+        "expressions.tests.ExpressionWrapperTests.test_empty_group_by": true,
+        "aggregation.tests.AggregateTestCase.test_aggregation_order_by_not_selected_annotation_values": true,
+        "expressions_window.tests.WindowFunctionTests.test_function_list_of_values": true,
+        "aggregation.tests.AggregateTestCase.test_aggregate_over_complex_annotation": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13128/dedup_patch_3.jsonl": {
+      "django__django-13128": {
+        "expressions.tests.ReprTests.test_expressions": true,
+        "expressions.tests.FTimeDeltaTests.test_negative_timedelta_update": true,
+        "aggregation.tests.AggregateTestCase.test_complex_values_aggregation": true,
+        "expressions.tests.FTests.test_equal": true,
+        "expressions_case.tests.CaseExpressionTests.test_update_binary": true,
+        "expressions.tests.FTests.test_not_equal_Value": true,
+        "expressions_window.tests.WindowFunctionTests.test_lead": true,
+        "expressions.tests.FTimeDeltaTests.test_time_subtraction": true,
+        "expressions.tests.FTests.test_hash": true,
+        "expressions.tests.ExpressionWrapperTests.test_empty_group_by": true,
+        "aggregation.tests.AggregateTestCase.test_aggregation_order_by_not_selected_annotation_values": true,
+        "expressions_window.tests.WindowFunctionTests.test_function_list_of_values": true,
+        "aggregation.tests.AggregateTestCase.test_aggregate_over_complex_annotation": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13128/dedup_patch_4.jsonl": {
+      "django__django-13128": {
+        "expressions.tests.ReprTests.test_expressions": true,
+        "expressions.tests.FTimeDeltaTests.test_negative_timedelta_update": true,
+        "aggregation.tests.AggregateTestCase.test_complex_values_aggregation": true,
+        "expressions.tests.FTests.test_equal": true,
+        "expressions_case.tests.CaseExpressionTests.test_update_binary": true,
+        "expressions.tests.FTests.test_not_equal_Value": true,
+        "expressions_window.tests.WindowFunctionTests.test_lead": true,
+        "expressions.tests.FTimeDeltaTests.test_time_subtraction": true,
+        "expressions.tests.FTests.test_hash": true,
+        "expressions.tests.ExpressionWrapperTests.test_empty_group_by": true,
+        "aggregation.tests.AggregateTestCase.test_aggregation_order_by_not_selected_annotation_values": true,
+        "expressions_window.tests.WindowFunctionTests.test_function_list_of_values": true,
+        "aggregation.tests.AggregateTestCase.test_aggregate_over_complex_annotation": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13128/dedup_patch_5.jsonl": {
+      "django__django-13128": {
+        "expressions.tests.ReprTests.test_expressions": true,
+        "expressions.tests.FTimeDeltaTests.test_negative_timedelta_update": true,
+        "aggregation.tests.AggregateTestCase.test_complex_values_aggregation": true,
+        "expressions.tests.FTests.test_equal": true,
+        "expressions_case.tests.CaseExpressionTests.test_update_binary": true,
+        "expressions.tests.FTests.test_not_equal_Value": true,
+        "expressions_window.tests.WindowFunctionTests.test_lead": true,
+        "expressions.tests.FTimeDeltaTests.test_time_subtraction": true,
+        "expressions.tests.FTests.test_hash": true,
+        "expressions.tests.ExpressionWrapperTests.test_empty_group_by": true,
+        "aggregation.tests.AggregateTestCase.test_aggregation_order_by_not_selected_annotation_values": true,
+        "expressions_window.tests.WindowFunctionTests.test_function_list_of_values": true,
+        "aggregation.tests.AggregateTestCase.test_aggregate_over_complex_annotation": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13128/dedup_patch_6.jsonl": {
+      "django__django-13128": {
+        "expressions.tests.ReprTests.test_expressions": true,
+        "expressions.tests.FTimeDeltaTests.test_negative_timedelta_update": true,
+        "aggregation.tests.AggregateTestCase.test_complex_values_aggregation": true,
+        "expressions.tests.FTests.test_equal": true,
+        "expressions_case.tests.CaseExpressionTests.test_update_binary": true,
+        "expressions.tests.FTests.test_not_equal_Value": true,
+        "expressions_window.tests.WindowFunctionTests.test_lead": true,
+        "expressions.tests.FTimeDeltaTests.test_time_subtraction": true,
+        "expressions.tests.FTests.test_hash": true,
+        "expressions.tests.ExpressionWrapperTests.test_empty_group_by": true,
+        "aggregation.tests.AggregateTestCase.test_aggregation_order_by_not_selected_annotation_values": true,
+        "expressions_window.tests.WindowFunctionTests.test_function_list_of_values": true,
+        "aggregation.tests.AggregateTestCase.test_aggregate_over_complex_annotation": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13128/dedup_patch_7.jsonl": {
+      "django__django-13128": {
+        "expressions.tests.ReprTests.test_expressions": true,
+        "expressions.tests.FTimeDeltaTests.test_negative_timedelta_update": true,
+        "aggregation.tests.AggregateTestCase.test_complex_values_aggregation": true,
+        "expressions.tests.FTests.test_equal": true,
+        "expressions_case.tests.CaseExpressionTests.test_update_binary": true,
+        "expressions.tests.FTests.test_not_equal_Value": true,
+        "expressions_window.tests.WindowFunctionTests.test_lead": true,
+        "expressions.tests.FTimeDeltaTests.test_time_subtraction": true,
+        "expressions.tests.FTests.test_hash": true,
+        "expressions.tests.ExpressionWrapperTests.test_empty_group_by": true,
+        "aggregation.tests.AggregateTestCase.test_aggregation_order_by_not_selected_annotation_values": true,
+        "expressions_window.tests.WindowFunctionTests.test_function_list_of_values": true,
+        "aggregation.tests.AggregateTestCase.test_aggregate_over_complex_annotation": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13128/dedup_patch_8.jsonl": {
+      "django__django-13128": {
+        "expressions.tests.ReprTests.test_expressions": true,
+        "expressions.tests.FTimeDeltaTests.test_negative_timedelta_update": true,
+        "aggregation.tests.AggregateTestCase.test_complex_values_aggregation": true,
+        "expressions.tests.FTests.test_equal": true,
+        "expressions_case.tests.CaseExpressionTests.test_update_binary": true,
+        "expressions.tests.FTests.test_not_equal_Value": true,
+        "expressions_window.tests.WindowFunctionTests.test_lead": true,
+        "expressions.tests.FTimeDeltaTests.test_time_subtraction": true,
+        "expressions.tests.FTests.test_hash": true,
+        "expressions.tests.ExpressionWrapperTests.test_empty_group_by": true,
+        "aggregation.tests.AggregateTestCase.test_aggregation_order_by_not_selected_annotation_values": true,
+        "expressions_window.tests.WindowFunctionTests.test_function_list_of_values": true,
+        "aggregation.tests.AggregateTestCase.test_aggregate_over_complex_annotation": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13128/dedup_patch_9.jsonl": {
+      "django__django-13128": {
+        "expressions.tests.ReprTests.test_expressions": true,
+        "expressions.tests.FTimeDeltaTests.test_negative_timedelta_update": true,
+        "aggregation.tests.AggregateTestCase.test_complex_values_aggregation": true,
+        "expressions.tests.FTests.test_equal": true,
+        "expressions_case.tests.CaseExpressionTests.test_update_binary": true,
+        "expressions.tests.FTests.test_not_equal_Value": true,
+        "expressions_window.tests.WindowFunctionTests.test_lead": true,
+        "expressions.tests.FTimeDeltaTests.test_time_subtraction": true,
+        "expressions.tests.FTests.test_hash": true,
+        "expressions.tests.ExpressionWrapperTests.test_empty_group_by": true,
+        "aggregation.tests.AggregateTestCase.test_aggregation_order_by_not_selected_annotation_values": true,
+        "expressions_window.tests.WindowFunctionTests.test_function_list_of_values": true,
+        "aggregation.tests.AggregateTestCase.test_aggregate_over_complex_annotation": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-13128": {
+        "expressions.tests.FTimeDeltaTests.test_temporal_subtraction_without_wrapper#1": true,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction_without_wrapper#2": true,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction#3": true,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction_without_wrapper#4": true,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction_without_wrapper#5": true,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction_without_wrapper#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13128/dedup_patch_10.jsonl": {
+      "django__django-13128": {
+        "expressions.tests.FTimeDeltaTests.test_temporal_subtraction_without_wrapper#1": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction_without_wrapper#2": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction#3": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction_without_wrapper#4": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction_without_wrapper#5": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction_without_wrapper#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13128/dedup_patch_11.jsonl": {
+      "django__django-13128": {
+        "expressions.tests.FTimeDeltaTests.test_temporal_subtraction_without_wrapper#1": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction_without_wrapper#2": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction#3": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction_without_wrapper#4": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction_without_wrapper#5": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction_without_wrapper#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13128/dedup_patch_12.jsonl": {
+      "django__django-13128": {
+        "expressions.tests.FTimeDeltaTests.test_temporal_subtraction_without_wrapper#1": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction_without_wrapper#2": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction#3": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction_without_wrapper#4": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction_without_wrapper#5": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction_without_wrapper#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13128/dedup_patch_13.jsonl": {
+      "django__django-13128": {
+        "expressions.tests.FTimeDeltaTests.test_temporal_subtraction_without_wrapper#1": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction_without_wrapper#2": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction#3": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction_without_wrapper#4": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction_without_wrapper#5": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction_without_wrapper#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13128/dedup_patch_14.jsonl": {
+      "django__django-13128": {
+        "expressions.tests.FTimeDeltaTests.test_temporal_subtraction_without_wrapper#1": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction_without_wrapper#2": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction#3": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction_without_wrapper#4": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction_without_wrapper#5": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction_without_wrapper#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13128/dedup_patch_15.jsonl": {
+      "django__django-13128": {
+        "expressions.tests.FTimeDeltaTests.test_temporal_subtraction_without_wrapper#1": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction_without_wrapper#2": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction#3": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction_without_wrapper#4": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction_without_wrapper#5": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction_without_wrapper#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13128/dedup_patch_16.jsonl": {
+      "django__django-13128": {
+        "expressions.tests.FTimeDeltaTests.test_temporal_subtraction_without_wrapper#1": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction_without_wrapper#2": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction#3": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction_without_wrapper#4": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction_without_wrapper#5": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction_without_wrapper#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13128/dedup_patch_2.jsonl": {
+      "django__django-13128": {
+        "expressions.tests.FTimeDeltaTests.test_temporal_subtraction_without_wrapper#1": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction_without_wrapper#2": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction#3": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction_without_wrapper#4": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction_without_wrapper#5": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction_without_wrapper#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13128/dedup_patch_3.jsonl": {
+      "django__django-13128": {
+        "expressions.tests.FTimeDeltaTests.test_temporal_subtraction_without_wrapper#1": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction_without_wrapper#2": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction#3": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction_without_wrapper#4": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction_without_wrapper#5": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction_without_wrapper#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13128/dedup_patch_4.jsonl": {
+      "django__django-13128": {
+        "expressions.tests.FTimeDeltaTests.test_temporal_subtraction_without_wrapper#1": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction_without_wrapper#2": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction#3": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction_without_wrapper#4": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction_without_wrapper#5": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction_without_wrapper#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13128/dedup_patch_5.jsonl": {
+      "django__django-13128": {
+        "expressions.tests.FTimeDeltaTests.test_temporal_subtraction_without_wrapper#1": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction_without_wrapper#2": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction#3": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction_without_wrapper#4": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction_without_wrapper#5": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction_without_wrapper#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13128/dedup_patch_6.jsonl": {
+      "django__django-13128": {
+        "expressions.tests.FTimeDeltaTests.test_temporal_subtraction_without_wrapper#1": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction_without_wrapper#2": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction#3": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction_without_wrapper#4": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction_without_wrapper#5": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction_without_wrapper#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13128/dedup_patch_7.jsonl": {
+      "django__django-13128": {
+        "expressions.tests.FTimeDeltaTests.test_temporal_subtraction_without_wrapper#1": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction_without_wrapper#2": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction#3": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction_without_wrapper#4": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction_without_wrapper#5": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction_without_wrapper#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13128/dedup_patch_8.jsonl": {
+      "django__django-13128": {
+        "expressions.tests.FTimeDeltaTests.test_temporal_subtraction_without_wrapper#1": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction_without_wrapper#2": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction#3": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction_without_wrapper#4": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction_without_wrapper#5": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction_without_wrapper#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-13128/dedup_patch_9.jsonl": {
+      "django__django-13128": {
+        "expressions.tests.FTimeDeltaTests.test_temporal_subtraction_without_wrapper#1": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction_without_wrapper#2": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction#3": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction_without_wrapper#4": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction_without_wrapper#5": false,
+        "expressions.tests.FTimeDeltaTests.test_datetime_subtraction_without_wrapper#6": false
+      }
+    }
+  }
+}

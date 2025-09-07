@@ -1,0 +1,36 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/django__django-14855/dedup_patch_0.jsonl": {
+      "django__django-14855": {
+        "admin_inlines.tests.TestInlinePermissions.test_inline_change_m2m_view_only_perm": true,
+        "admin_views.tests.AdminViewBasicTest.test_view_subtitle_per_object": true,
+        "admin_views.tests.ReadonlyTest.test_readonly_get": true,
+        "admin_views.tests.ReadonlyTest.test_readonly_manytomany_forwards_ref": true,
+        "admin_views.tests.AdminViewProxyModelPermissionsTests.test_view": true,
+        "admin_views.tests.ReadonlyTest.test_label_suffix_translated": true,
+        "admin_views.tests.ReadonlyTest.test_readonly_text_field": true,
+        "admin_inlines.tests.TestReadOnlyChangeViewInlinePermissions.test_inlines_are_rendered_as_read_only": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-14855": {
+        "admin_views.tests.ReadonlyTest.test_readonly_foreignkey_links_custom_admin_site#1": true,
+        "admin_views.tests.ReadonlyTest.test_readonly_foreignkey_links_custom_admin_site#2": true,
+        "admin_views.tests.ReadonlyTest.test_readonly_foreignkey_links_custom_admin_site#3": true,
+        "admin_views.tests.ReadonlyTest.test_readonly_foreignkey_links_custom_admin#4": true,
+        "admin_views.tests.ReadonlyTest.test_readonly_foreignkey_links_custom_admin_site#5": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-14855/dedup_patch_0.jsonl": {
+      "django__django-14855": {
+        "admin_views.tests.ReadonlyTest.test_readonly_foreignkey_links_custom_admin_site#1": false,
+        "admin_views.tests.ReadonlyTest.test_readonly_foreignkey_links_custom_admin_site#2": false,
+        "admin_views.tests.ReadonlyTest.test_readonly_foreignkey_links_custom_admin_site#3": false,
+        "admin_views.tests.ReadonlyTest.test_readonly_foreignkey_links_custom_admin#4": false,
+        "admin_views.tests.ReadonlyTest.test_readonly_foreignkey_links_custom_admin_site#5": false
+      }
+    }
+  }
+}

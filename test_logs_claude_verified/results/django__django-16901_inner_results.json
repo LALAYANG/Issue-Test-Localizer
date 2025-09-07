@@ -1,0 +1,190 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/django__django-16901/dedup_patch_0.jsonl": {
+      "django__django-16901": {
+        "queries.tests.QuerySetBitwiseOperationTests.test_xor_with_both_slice": true,
+        "queries.tests.QuerySetBitwiseOperationTests.test_xor_with_both_slice_and_ordering": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16901/dedup_patch_1.jsonl": {
+      "django__django-16901": {
+        "queries.tests.QuerySetBitwiseOperationTests.test_xor_with_both_slice": true,
+        "queries.tests.QuerySetBitwiseOperationTests.test_xor_with_both_slice_and_ordering": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16901/dedup_patch_10.jsonl": {
+      "django__django-16901": {
+        "queries.tests.QuerySetBitwiseOperationTests.test_xor_with_both_slice": false,
+        "queries.tests.QuerySetBitwiseOperationTests.test_xor_with_both_slice_and_ordering": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16901/dedup_patch_11.jsonl": {
+      "django__django-16901": {
+        "queries.tests.QuerySetBitwiseOperationTests.test_xor_with_both_slice": true,
+        "queries.tests.QuerySetBitwiseOperationTests.test_xor_with_both_slice_and_ordering": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16901/dedup_patch_12.jsonl": {
+      "django__django-16901": {
+        "queries.tests.QuerySetBitwiseOperationTests.test_xor_with_both_slice": false,
+        "queries.tests.QuerySetBitwiseOperationTests.test_xor_with_both_slice_and_ordering": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16901/dedup_patch_13.jsonl": {
+      "django__django-16901": {
+        "queries.tests.QuerySetBitwiseOperationTests.test_xor_with_both_slice": false,
+        "queries.tests.QuerySetBitwiseOperationTests.test_xor_with_both_slice_and_ordering": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16901/dedup_patch_2.jsonl": {
+      "django__django-16901": {
+        "queries.tests.QuerySetBitwiseOperationTests.test_xor_with_both_slice": true,
+        "queries.tests.QuerySetBitwiseOperationTests.test_xor_with_both_slice_and_ordering": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16901/dedup_patch_3.jsonl": {
+      "django__django-16901": {
+        "queries.tests.QuerySetBitwiseOperationTests.test_xor_with_both_slice": true,
+        "queries.tests.QuerySetBitwiseOperationTests.test_xor_with_both_slice_and_ordering": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16901/dedup_patch_4.jsonl": {
+      "django__django-16901": {
+        "queries.tests.QuerySetBitwiseOperationTests.test_xor_with_both_slice": true,
+        "queries.tests.QuerySetBitwiseOperationTests.test_xor_with_both_slice_and_ordering": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16901/dedup_patch_5.jsonl": {
+      "django__django-16901": {
+        "queries.tests.QuerySetBitwiseOperationTests.test_xor_with_both_slice": true,
+        "queries.tests.QuerySetBitwiseOperationTests.test_xor_with_both_slice_and_ordering": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16901/dedup_patch_6.jsonl": {
+      "django__django-16901": {
+        "queries.tests.QuerySetBitwiseOperationTests.test_xor_with_both_slice": true,
+        "queries.tests.QuerySetBitwiseOperationTests.test_xor_with_both_slice_and_ordering": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16901/dedup_patch_7.jsonl": {
+      "django__django-16901": {
+        "queries.tests.QuerySetBitwiseOperationTests.test_xor_with_both_slice": true,
+        "queries.tests.QuerySetBitwiseOperationTests.test_xor_with_both_slice_and_ordering": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16901/dedup_patch_8.jsonl": {
+      "django__django-16901": {
+        "queries.tests.QuerySetBitwiseOperationTests.test_xor_with_both_slice": false,
+        "queries.tests.QuerySetBitwiseOperationTests.test_xor_with_both_slice_and_ordering": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16901/dedup_patch_9.jsonl": {
+      "django__django-16901": {
+        "queries.tests.QuerySetBitwiseOperationTests.test_xor_with_both_slice": false,
+        "queries.tests.QuerySetBitwiseOperationTests.test_xor_with_both_slice_and_ordering": false
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-16901": {
+        "xor_lookups.tests.XorLookupsTests.test_xor_multiple_q#1": true,
+        "xor_lookups.tests.XorLookupsTests.test_xor_multiple_arguments#2": true,
+        "xor_lookups.tests.XorLookupsTests.test_xor_multiple_q#3": true,
+        "xor_lookups.tests.XorLookupsTests.test_xor_multiple_q#4": true,
+        "xor_lookups.tests.XorLookupsTests.test_xor_multiple_q#5": true,
+        "xor_lookups.tests.XorLookupsTests.test_multiple_xor#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16901/dedup_patch_0.jsonl": {
+      "django__django-16901": {
+        "xor_lookups.tests.XorLookupsTests.test_xor_multiple_q#1": false,
+        "xor_lookups.tests.XorLookupsTests.test_xor_multiple_arguments#2": false,
+        "xor_lookups.tests.XorLookupsTests.test_xor_multiple_q#3": false,
+        "xor_lookups.tests.XorLookupsTests.test_xor_multiple_q#4": false,
+        "xor_lookups.tests.XorLookupsTests.test_xor_multiple_q#5": false,
+        "xor_lookups.tests.XorLookupsTests.test_multiple_xor#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16901/dedup_patch_1.jsonl": {
+      "django__django-16901": {
+        "xor_lookups.tests.XorLookupsTests.test_xor_multiple_q#1": false,
+        "xor_lookups.tests.XorLookupsTests.test_xor_multiple_arguments#2": false,
+        "xor_lookups.tests.XorLookupsTests.test_xor_multiple_q#3": false,
+        "xor_lookups.tests.XorLookupsTests.test_xor_multiple_q#4": false,
+        "xor_lookups.tests.XorLookupsTests.test_xor_multiple_q#5": false,
+        "xor_lookups.tests.XorLookupsTests.test_multiple_xor#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16901/dedup_patch_11.jsonl": {
+      "django__django-16901": {
+        "xor_lookups.tests.XorLookupsTests.test_xor_multiple_q#1": false,
+        "xor_lookups.tests.XorLookupsTests.test_xor_multiple_arguments#2": false,
+        "xor_lookups.tests.XorLookupsTests.test_xor_multiple_q#3": false,
+        "xor_lookups.tests.XorLookupsTests.test_xor_multiple_q#4": false,
+        "xor_lookups.tests.XorLookupsTests.test_xor_multiple_q#5": false,
+        "xor_lookups.tests.XorLookupsTests.test_multiple_xor#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16901/dedup_patch_2.jsonl": {
+      "django__django-16901": {
+        "xor_lookups.tests.XorLookupsTests.test_xor_multiple_q#1": false,
+        "xor_lookups.tests.XorLookupsTests.test_xor_multiple_arguments#2": false,
+        "xor_lookups.tests.XorLookupsTests.test_xor_multiple_q#3": false,
+        "xor_lookups.tests.XorLookupsTests.test_xor_multiple_q#4": false,
+        "xor_lookups.tests.XorLookupsTests.test_xor_multiple_q#5": false,
+        "xor_lookups.tests.XorLookupsTests.test_multiple_xor#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16901/dedup_patch_3.jsonl": {
+      "django__django-16901": {
+        "xor_lookups.tests.XorLookupsTests.test_xor_multiple_q#1": false,
+        "xor_lookups.tests.XorLookupsTests.test_xor_multiple_arguments#2": false,
+        "xor_lookups.tests.XorLookupsTests.test_xor_multiple_q#3": false,
+        "xor_lookups.tests.XorLookupsTests.test_xor_multiple_q#4": false,
+        "xor_lookups.tests.XorLookupsTests.test_xor_multiple_q#5": false,
+        "xor_lookups.tests.XorLookupsTests.test_multiple_xor#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16901/dedup_patch_4.jsonl": {
+      "django__django-16901": {
+        "xor_lookups.tests.XorLookupsTests.test_xor_multiple_q#1": false,
+        "xor_lookups.tests.XorLookupsTests.test_xor_multiple_arguments#2": false,
+        "xor_lookups.tests.XorLookupsTests.test_xor_multiple_q#3": false,
+        "xor_lookups.tests.XorLookupsTests.test_xor_multiple_q#4": false,
+        "xor_lookups.tests.XorLookupsTests.test_xor_multiple_q#5": false,
+        "xor_lookups.tests.XorLookupsTests.test_multiple_xor#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16901/dedup_patch_5.jsonl": {
+      "django__django-16901": {
+        "xor_lookups.tests.XorLookupsTests.test_xor_multiple_q#1": false,
+        "xor_lookups.tests.XorLookupsTests.test_xor_multiple_arguments#2": false,
+        "xor_lookups.tests.XorLookupsTests.test_xor_multiple_q#3": false,
+        "xor_lookups.tests.XorLookupsTests.test_xor_multiple_q#4": false,
+        "xor_lookups.tests.XorLookupsTests.test_xor_multiple_q#5": false,
+        "xor_lookups.tests.XorLookupsTests.test_multiple_xor#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16901/dedup_patch_6.jsonl": {
+      "django__django-16901": {
+        "xor_lookups.tests.XorLookupsTests.test_xor_multiple_q#1": false,
+        "xor_lookups.tests.XorLookupsTests.test_xor_multiple_arguments#2": false,
+        "xor_lookups.tests.XorLookupsTests.test_xor_multiple_q#3": false,
+        "xor_lookups.tests.XorLookupsTests.test_xor_multiple_q#4": false,
+        "xor_lookups.tests.XorLookupsTests.test_xor_multiple_q#5": false,
+        "xor_lookups.tests.XorLookupsTests.test_multiple_xor#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-16901/dedup_patch_7.jsonl": {
+      "django__django-16901": {
+        "xor_lookups.tests.XorLookupsTests.test_xor_multiple_q#1": false,
+        "xor_lookups.tests.XorLookupsTests.test_xor_multiple_arguments#2": false,
+        "xor_lookups.tests.XorLookupsTests.test_xor_multiple_q#3": false,
+        "xor_lookups.tests.XorLookupsTests.test_xor_multiple_q#4": false,
+        "xor_lookups.tests.XorLookupsTests.test_xor_multiple_q#5": false,
+        "xor_lookups.tests.XorLookupsTests.test_multiple_xor#6": false
+      }
+    }
+  }
+}

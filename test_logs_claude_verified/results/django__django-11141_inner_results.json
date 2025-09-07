@@ -1,0 +1,36 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/django__django-11141/dedup_patch_0.jsonl": {
+      "django__django-11141": {
+        "migrations.test_loader.LoaderTests.test_explicit_missing_module": true,
+        "migrations.test_loader.LoaderTests.test_load_empty_dir": false,
+        "migrations.test_commands.AppLabelErrorTests.test_migrate_nonexistent_app_label": true,
+        "migrations.test_loader.LoaderTests.test_load_module_file": true,
+        "migrations.test_loader.PycLoaderTests.test_invalid": true,
+        "migrations.test_loader.LoaderTests.test_load_import_error": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-11141": {
+        "migrations.test_loader.LoaderTests.test_load_empty_dir#1": true,
+        "migrations.test_loader.LoaderTests.test_migrate_no_init#2": true,
+        "migrations.test_loader.LoaderTests.test_namespace_package_without_init#3": true,
+        "migrations.test_loader.LoaderTests.test_namespace_package_without_init#4": true,
+        "migrations.test_loader.LoaderTests.test_load_namespace_package#5": true,
+        "migrations.test_loader.LoaderTests.test_load_empty_dir#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/django__django-11141/dedup_patch_0.jsonl": {
+      "django__django-11141": {
+        "migrations.test_loader.LoaderTests.test_load_empty_dir#1": true,
+        "migrations.test_loader.LoaderTests.test_migrate_no_init#2": false,
+        "migrations.test_loader.LoaderTests.test_namespace_package_without_init#3": false,
+        "migrations.test_loader.LoaderTests.test_namespace_package_without_init#4": false,
+        "migrations.test_loader.LoaderTests.test_load_namespace_package#5": false,
+        "migrations.test_loader.LoaderTests.test_load_empty_dir#6": true
+      }
+    }
+  }
+}

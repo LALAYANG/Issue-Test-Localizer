@@ -1,0 +1,76 @@
+{
+  "regression": {
+    "all_patches/verified_claude_all_unique_patches/pylint-dev__pylint-6386/dedup_patch_0.jsonl": {
+      "pylint-dev__pylint-6386": {
+        "tests/test_functional_config_loading.py::test_functional_config_loading": false,
+        "tests/lint/unittest_lint.py::test_load_plugin_command_line": true,
+        "tests/lint/unittest_lint.py::test_load_plugin_config_file": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pylint-dev__pylint-6386/dedup_patch_1.jsonl": {
+      "pylint-dev__pylint-6386": {
+        "tests/test_functional_config_loading.py::test_functional_config_loading": false,
+        "tests/lint/unittest_lint.py::test_load_plugin_command_line": true,
+        "tests/lint/unittest_lint.py::test_load_plugin_config_file": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pylint-dev__pylint-6386/dedup_patch_2.jsonl": {
+      "pylint-dev__pylint-6386": {
+        "tests/test_functional_config_loading.py::test_functional_config_loading": false,
+        "tests/lint/unittest_lint.py::test_load_plugin_command_line": true,
+        "tests/lint/unittest_lint.py::test_load_plugin_config_file": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pylint-dev__pylint-6386/dedup_patch_3.jsonl": {
+      "pylint-dev__pylint-6386": {
+        "tests/test_functional_config_loading.py::test_functional_config_loading": false,
+        "tests/lint/unittest_lint.py::test_load_plugin_command_line": true,
+        "tests/lint/unittest_lint.py::test_load_plugin_config_file": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "pylint-dev__pylint-6386": {
+        "tests/test_self.py::TestCallbackOptions::test_short_verbose_option#1": true,
+        "tests/test_self.py::TestCallbackOptions::test_verbose#2": false,
+        "tests/test_self.py::TestCallbackOptions::test_verbose#3": true,
+        "tests/test_self.py::TestCallbackOptions::test_short_verbose_option#4": true,
+        "tests/test_self.py::TestCallbackOptions::test_verbose#5": false,
+        "tests/test_self.py::TestCallbackOptions::test_verbose#6": true
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pylint-dev__pylint-6386/dedup_patch_0.jsonl": {
+      "pylint-dev__pylint-6386": {
+        "tests/test_self.py::TestCallbackOptions::test_short_verbose_option#1": false,
+        "tests/test_self.py::TestCallbackOptions::test_verbose#3": false,
+        "tests/test_self.py::TestCallbackOptions::test_short_verbose_option#4": false,
+        "tests/test_self.py::TestCallbackOptions::test_verbose#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pylint-dev__pylint-6386/dedup_patch_1.jsonl": {
+      "pylint-dev__pylint-6386": {
+        "tests/test_self.py::TestCallbackOptions::test_short_verbose_option#1": false,
+        "tests/test_self.py::TestCallbackOptions::test_verbose#3": false,
+        "tests/test_self.py::TestCallbackOptions::test_short_verbose_option#4": false,
+        "tests/test_self.py::TestCallbackOptions::test_verbose#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pylint-dev__pylint-6386/dedup_patch_2.jsonl": {
+      "pylint-dev__pylint-6386": {
+        "tests/test_self.py::TestCallbackOptions::test_short_verbose_option#1": false,
+        "tests/test_self.py::TestCallbackOptions::test_verbose#3": false,
+        "tests/test_self.py::TestCallbackOptions::test_short_verbose_option#4": false,
+        "tests/test_self.py::TestCallbackOptions::test_verbose#6": false
+      }
+    },
+    "all_patches/verified_claude_all_unique_patches/pylint-dev__pylint-6386/dedup_patch_3.jsonl": {
+      "pylint-dev__pylint-6386": {
+        "tests/test_self.py::TestCallbackOptions::test_short_verbose_option#1": false,
+        "tests/test_self.py::TestCallbackOptions::test_verbose#3": false,
+        "tests/test_self.py::TestCallbackOptions::test_short_verbose_option#4": false,
+        "tests/test_self.py::TestCallbackOptions::test_verbose#6": false
+      }
+    }
+  }
+}

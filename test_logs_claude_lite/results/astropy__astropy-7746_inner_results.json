@@ -1,0 +1,107 @@
+{
+  "regression": {
+    "all_patches/lite_claude_all_unique_patches/astropy__astropy-7746/dedup_patch_0.jsonl": {
+      "astropy__astropy-7746": {
+        "astropy/wcs/tests/test_wcs.py::test_pix2world": true,
+        "astropy/wcs/tests/test_wcs.py::test_shape_mismatch": true,
+        "astropy/wcs/tests/test_wcs.py::test_invalid_shape": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/astropy__astropy-7746/dedup_patch_1.jsonl": {
+      "astropy__astropy-7746": {
+        "astropy/wcs/tests/test_wcs.py::test_pix2world": true,
+        "astropy/wcs/tests/test_wcs.py::test_shape_mismatch": true,
+        "astropy/wcs/tests/test_wcs.py::test_invalid_shape": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/astropy__astropy-7746/dedup_patch_10.jsonl": {
+      "astropy__astropy-7746": {
+        "astropy/wcs/tests/test_wcs.py::test_pix2world": true,
+        "astropy/wcs/tests/test_wcs.py::test_shape_mismatch": true,
+        "astropy/wcs/tests/test_wcs.py::test_invalid_shape": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/astropy__astropy-7746/dedup_patch_11.jsonl": {
+      "astropy__astropy-7746": {
+        "astropy/wcs/tests/test_wcs.py::test_pix2world": true,
+        "astropy/wcs/tests/test_wcs.py::test_shape_mismatch": true,
+        "astropy/wcs/tests/test_wcs.py::test_invalid_shape": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/astropy__astropy-7746/dedup_patch_12.jsonl": {
+      "astropy__astropy-7746": {
+        "astropy/wcs/tests/test_wcs.py::test_pix2world": true,
+        "astropy/wcs/tests/test_wcs.py::test_shape_mismatch": true,
+        "astropy/wcs/tests/test_wcs.py::test_invalid_shape": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/astropy__astropy-7746/dedup_patch_2.jsonl": {
+      "astropy__astropy-7746": {
+        "astropy/wcs/tests/test_wcs.py::test_pix2world": true,
+        "astropy/wcs/tests/test_wcs.py::test_shape_mismatch": true,
+        "astropy/wcs/tests/test_wcs.py::test_invalid_shape": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/astropy__astropy-7746/dedup_patch_3.jsonl": {
+      "astropy__astropy-7746": {
+        "astropy/wcs/tests/test_wcs.py::test_pix2world": true,
+        "astropy/wcs/tests/test_wcs.py::test_shape_mismatch": true,
+        "astropy/wcs/tests/test_wcs.py::test_invalid_shape": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/astropy__astropy-7746/dedup_patch_4.jsonl": {
+      "astropy__astropy-7746": {
+        "astropy/wcs/tests/test_wcs.py::test_pix2world": true,
+        "astropy/wcs/tests/test_wcs.py::test_shape_mismatch": true,
+        "astropy/wcs/tests/test_wcs.py::test_invalid_shape": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/astropy__astropy-7746/dedup_patch_5.jsonl": {
+      "astropy__astropy-7746": {
+        "astropy/wcs/tests/test_wcs.py::test_pix2world": true,
+        "astropy/wcs/tests/test_wcs.py::test_shape_mismatch": true,
+        "astropy/wcs/tests/test_wcs.py::test_invalid_shape": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/astropy__astropy-7746/dedup_patch_6.jsonl": {
+      "astropy__astropy-7746": {
+        "astropy/wcs/tests/test_wcs.py::test_pix2world": true,
+        "astropy/wcs/tests/test_wcs.py::test_shape_mismatch": true,
+        "astropy/wcs/tests/test_wcs.py::test_invalid_shape": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/astropy__astropy-7746/dedup_patch_7.jsonl": {
+      "astropy__astropy-7746": {
+        "astropy/wcs/tests/test_wcs.py::test_pix2world": true,
+        "astropy/wcs/tests/test_wcs.py::test_shape_mismatch": true,
+        "astropy/wcs/tests/test_wcs.py::test_invalid_shape": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/astropy__astropy-7746/dedup_patch_8.jsonl": {
+      "astropy__astropy-7746": {
+        "astropy/wcs/tests/test_wcs.py::test_pix2world": true,
+        "astropy/wcs/tests/test_wcs.py::test_shape_mismatch": true,
+        "astropy/wcs/tests/test_wcs.py::test_invalid_shape": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/astropy__astropy-7746/dedup_patch_9.jsonl": {
+      "astropy__astropy-7746": {
+        "astropy/wcs/tests/test_wcs.py::test_pix2world": true,
+        "astropy/wcs/tests/test_wcs.py::test_shape_mismatch": true,
+        "astropy/wcs/tests/test_wcs.py::test_invalid_shape": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "astropy__astropy-7746": {
+        "astropy/wcs/tests/test_wcs.py::test_broadcasting#1": false,
+        "astropy/wcs/tests/test_wcs.py::test_broadcasting#2": false,
+        "astropy/wcs/tests/test_wcs.py::test_broadcasting#3": false,
+        "astropy/wcs/tests/test_wcs.py::test_broadcasting#4": false,
+        "astropy/wcs/tests/test_wcs.py::test_keyedsip#5": false,
+        "astropy/wcs/tests/test_wcs.py::test_naxis#6": false
+      }
+    }
+  }
+}

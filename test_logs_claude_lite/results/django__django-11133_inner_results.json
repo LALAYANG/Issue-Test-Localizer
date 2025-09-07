@@ -1,0 +1,169 @@
+{
+  "regression": {
+    "all_patches/lite_claude_all_unique_patches/django__django-11133/dedup_patch_0.jsonl": {
+      "django__django-11133": {
+        "httpwrappers.tests.HttpResponseTests.test_iter_content": true,
+        "httpwrappers.tests.HttpResponseTests.test_non_string_content": true,
+        "httpwrappers.tests.HttpResponseTests.test_lazy_content": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-11133/dedup_patch_1.jsonl": {
+      "django__django-11133": {
+        "httpwrappers.tests.HttpResponseTests.test_iter_content": true,
+        "httpwrappers.tests.HttpResponseTests.test_non_string_content": true,
+        "httpwrappers.tests.HttpResponseTests.test_lazy_content": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-11133/dedup_patch_2.jsonl": {
+      "django__django-11133": {
+        "httpwrappers.tests.HttpResponseTests.test_iter_content": true,
+        "httpwrappers.tests.HttpResponseTests.test_non_string_content": true,
+        "httpwrappers.tests.HttpResponseTests.test_lazy_content": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-11133/dedup_patch_3.jsonl": {
+      "django__django-11133": {
+        "httpwrappers.tests.HttpResponseTests.test_iter_content": true,
+        "httpwrappers.tests.HttpResponseTests.test_non_string_content": true,
+        "httpwrappers.tests.HttpResponseTests.test_lazy_content": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-11133/dedup_patch_4.jsonl": {
+      "django__django-11133": {
+        "httpwrappers.tests.HttpResponseTests.test_iter_content": true,
+        "httpwrappers.tests.HttpResponseTests.test_non_string_content": true,
+        "httpwrappers.tests.HttpResponseTests.test_lazy_content": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-11133/dedup_patch_5.jsonl": {
+      "django__django-11133": {
+        "httpwrappers.tests.HttpResponseTests.test_iter_content": true,
+        "httpwrappers.tests.HttpResponseTests.test_non_string_content": true,
+        "httpwrappers.tests.HttpResponseTests.test_lazy_content": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-11133/dedup_patch_6.jsonl": {
+      "django__django-11133": {
+        "httpwrappers.tests.HttpResponseTests.test_iter_content": true,
+        "httpwrappers.tests.HttpResponseTests.test_non_string_content": true,
+        "httpwrappers.tests.HttpResponseTests.test_lazy_content": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-11133/dedup_patch_7.jsonl": {
+      "django__django-11133": {
+        "httpwrappers.tests.HttpResponseTests.test_iter_content": true,
+        "httpwrappers.tests.HttpResponseTests.test_non_string_content": true,
+        "httpwrappers.tests.HttpResponseTests.test_lazy_content": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-11133/dedup_patch_8.jsonl": {
+      "django__django-11133": {
+        "httpwrappers.tests.HttpResponseTests.test_iter_content": true,
+        "httpwrappers.tests.HttpResponseTests.test_non_string_content": true,
+        "httpwrappers.tests.HttpResponseTests.test_lazy_content": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-11133": {
+        "responses.tests.HttpResponseTests.test_memoryview_content#1": true,
+        "responses.tests.HttpResponseTests.test_memoryview_response#2": true,
+        "responses.tests.HttpResponseTests.test_memoryview_content#3": true,
+        "httpwrappers.tests.HttpResponseTests.test_memoryview_content#4": true,
+        "responses.tests.HttpResponseTests.test_memoryview_content#5": true,
+        "responses.tests.HttpResponseTests.test_memoryview_content#6": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-11133/dedup_patch_0.jsonl": {
+      "django__django-11133": {
+        "responses.tests.HttpResponseTests.test_memoryview_content#1": false,
+        "responses.tests.HttpResponseTests.test_memoryview_response#2": false,
+        "responses.tests.HttpResponseTests.test_memoryview_content#3": false,
+        "httpwrappers.tests.HttpResponseTests.test_memoryview_content#4": false,
+        "responses.tests.HttpResponseTests.test_memoryview_content#5": false,
+        "responses.tests.HttpResponseTests.test_memoryview_content#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-11133/dedup_patch_1.jsonl": {
+      "django__django-11133": {
+        "responses.tests.HttpResponseTests.test_memoryview_content#1": false,
+        "responses.tests.HttpResponseTests.test_memoryview_response#2": false,
+        "responses.tests.HttpResponseTests.test_memoryview_content#3": false,
+        "httpwrappers.tests.HttpResponseTests.test_memoryview_content#4": false,
+        "responses.tests.HttpResponseTests.test_memoryview_content#5": false,
+        "responses.tests.HttpResponseTests.test_memoryview_content#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-11133/dedup_patch_2.jsonl": {
+      "django__django-11133": {
+        "responses.tests.HttpResponseTests.test_memoryview_content#1": true,
+        "responses.tests.HttpResponseTests.test_memoryview_response#2": true,
+        "responses.tests.HttpResponseTests.test_memoryview_content#3": true,
+        "httpwrappers.tests.HttpResponseTests.test_memoryview_content#4": true,
+        "responses.tests.HttpResponseTests.test_memoryview_content#5": true,
+        "responses.tests.HttpResponseTests.test_memoryview_content#6": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-11133/dedup_patch_3.jsonl": {
+      "django__django-11133": {
+        "responses.tests.HttpResponseTests.test_memoryview_content#1": true,
+        "responses.tests.HttpResponseTests.test_memoryview_response#2": true,
+        "responses.tests.HttpResponseTests.test_memoryview_content#3": true,
+        "httpwrappers.tests.HttpResponseTests.test_memoryview_content#4": true,
+        "responses.tests.HttpResponseTests.test_memoryview_content#5": true,
+        "responses.tests.HttpResponseTests.test_memoryview_content#6": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-11133/dedup_patch_4.jsonl": {
+      "django__django-11133": {
+        "responses.tests.HttpResponseTests.test_memoryview_content#1": true,
+        "responses.tests.HttpResponseTests.test_memoryview_response#2": true,
+        "responses.tests.HttpResponseTests.test_memoryview_content#3": true,
+        "httpwrappers.tests.HttpResponseTests.test_memoryview_content#4": true,
+        "responses.tests.HttpResponseTests.test_memoryview_content#5": true,
+        "responses.tests.HttpResponseTests.test_memoryview_content#6": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-11133/dedup_patch_5.jsonl": {
+      "django__django-11133": {
+        "responses.tests.HttpResponseTests.test_memoryview_content#1": false,
+        "responses.tests.HttpResponseTests.test_memoryview_response#2": false,
+        "responses.tests.HttpResponseTests.test_memoryview_content#3": false,
+        "httpwrappers.tests.HttpResponseTests.test_memoryview_content#4": false,
+        "responses.tests.HttpResponseTests.test_memoryview_content#5": false,
+        "responses.tests.HttpResponseTests.test_memoryview_content#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-11133/dedup_patch_6.jsonl": {
+      "django__django-11133": {
+        "responses.tests.HttpResponseTests.test_memoryview_content#1": true,
+        "responses.tests.HttpResponseTests.test_memoryview_response#2": true,
+        "responses.tests.HttpResponseTests.test_memoryview_content#3": true,
+        "httpwrappers.tests.HttpResponseTests.test_memoryview_content#4": true,
+        "responses.tests.HttpResponseTests.test_memoryview_content#5": true,
+        "responses.tests.HttpResponseTests.test_memoryview_content#6": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-11133/dedup_patch_7.jsonl": {
+      "django__django-11133": {
+        "responses.tests.HttpResponseTests.test_memoryview_content#1": false,
+        "responses.tests.HttpResponseTests.test_memoryview_response#2": false,
+        "responses.tests.HttpResponseTests.test_memoryview_content#3": false,
+        "httpwrappers.tests.HttpResponseTests.test_memoryview_content#4": false,
+        "responses.tests.HttpResponseTests.test_memoryview_content#5": false,
+        "responses.tests.HttpResponseTests.test_memoryview_content#6": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/django__django-11133/dedup_patch_8.jsonl": {
+      "django__django-11133": {
+        "responses.tests.HttpResponseTests.test_memoryview_content#1": true,
+        "responses.tests.HttpResponseTests.test_memoryview_response#2": true,
+        "responses.tests.HttpResponseTests.test_memoryview_content#3": true,
+        "httpwrappers.tests.HttpResponseTests.test_memoryview_content#4": true,
+        "responses.tests.HttpResponseTests.test_memoryview_content#5": true,
+        "responses.tests.HttpResponseTests.test_memoryview_content#6": true
+      }
+    }
+  }
+}

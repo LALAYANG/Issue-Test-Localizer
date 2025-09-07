@@ -1,0 +1,40 @@
+{
+  "regression": {
+    "all_patches/lite_claude_all_unique_patches/matplotlib__matplotlib-26011/dedup_patch_0.jsonl": {
+      "matplotlib__matplotlib-26011": {
+        "lib/matplotlib/tests/test_axes.py::test_set_margin_updates_limits": false,
+        "lib/matplotlib/tests/test_axes.py::test_inverted_limits": false,
+        "lib/matplotlib/tests/test_axes.py::test_log_scales": false,
+        "lib/matplotlib/tests/test_axes.py::test_axis_method_errors": false
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/matplotlib__matplotlib-26011/dedup_patch_1.jsonl": {
+      "matplotlib__matplotlib-26011": {
+        "lib/matplotlib/tests/test_axes.py::test_set_margin_updates_limits": true,
+        "lib/matplotlib/tests/test_axes.py::test_inverted_limits": true,
+        "lib/matplotlib/tests/test_axes.py::test_log_scales": true,
+        "lib/matplotlib/tests/test_axes.py::test_axis_method_errors": true
+      }
+    },
+    "all_patches/lite_claude_all_unique_patches/matplotlib__matplotlib-26011/dedup_patch_2.jsonl": {
+      "matplotlib__matplotlib-26011": {
+        "lib/matplotlib/tests/test_axes.py::test_set_margin_updates_limits": true,
+        "lib/matplotlib/tests/test_axes.py::test_inverted_limits": true,
+        "lib/matplotlib/tests/test_axes.py::test_log_scales": true,
+        "lib/matplotlib/tests/test_axes.py::test_axis_method_errors": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "matplotlib__matplotlib-26011": {
+        "lib/matplotlib/tests/test_axes.py::test_twin_axis_locators_formatters#1": false,
+        "lib/matplotlib/tests/test_axes.py::test_shared_axes_autoscale#2": false,
+        "lib/matplotlib/tests/test_axes.py::test_shared_axes_autoscale#3": false,
+        "lib/matplotlib/tests/test_axes.py::test_set_secondary_axis_color#4": false,
+        "lib/matplotlib/tests/test_axes.py::test_shared_axes_autoscale#5": false,
+        "lib/matplotlib/tests/test_axes.py::test_shared_axes_autoscale#6": false
+      }
+    }
+  }
+}

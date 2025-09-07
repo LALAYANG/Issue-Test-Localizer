@@ -1,0 +1,545 @@
+{
+  "regression": {
+    "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_0.jsonl": {
+      "psf__requests-3362": {
+        "tests/test_utils.py::test_get_encoding_from_headers": true,
+        "tests/test_testserver.py::TestTestServer::test_text_response": true,
+        "tests/test_requests.py::TestRequests::test_response_chunk_size_int": true,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode": false,
+        "tests/test_testserver.py::TestTestServer::test_basic_response": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_1.jsonl": {
+      "psf__requests-3362": {
+        "tests/test_utils.py::test_get_encoding_from_headers": true,
+        "tests/test_testserver.py::TestTestServer::test_text_response": true,
+        "tests/test_requests.py::TestRequests::test_response_chunk_size_int": true,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode": false,
+        "tests/test_testserver.py::TestTestServer::test_basic_response": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_10.jsonl": {
+      "psf__requests-3362": {
+        "tests/test_utils.py::test_get_encoding_from_headers": true,
+        "tests/test_testserver.py::TestTestServer::test_text_response": true,
+        "tests/test_requests.py::TestRequests::test_response_chunk_size_int": true,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode": true,
+        "tests/test_testserver.py::TestTestServer::test_basic_response": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_11.jsonl": {
+      "psf__requests-3362": {
+        "tests/test_utils.py::test_get_encoding_from_headers": true,
+        "tests/test_testserver.py::TestTestServer::test_text_response": true,
+        "tests/test_requests.py::TestRequests::test_response_chunk_size_int": true,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode": true,
+        "tests/test_testserver.py::TestTestServer::test_basic_response": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_12.jsonl": {
+      "psf__requests-3362": {
+        "tests/test_utils.py::test_get_encoding_from_headers": true,
+        "tests/test_testserver.py::TestTestServer::test_text_response": true,
+        "tests/test_requests.py::TestRequests::test_response_chunk_size_int": true,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode": true,
+        "tests/test_testserver.py::TestTestServer::test_basic_response": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_13.jsonl": {
+      "psf__requests-3362": {
+        "tests/test_utils.py::test_get_encoding_from_headers": true,
+        "tests/test_testserver.py::TestTestServer::test_text_response": true,
+        "tests/test_requests.py::TestRequests::test_response_chunk_size_int": true,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode": false,
+        "tests/test_testserver.py::TestTestServer::test_basic_response": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_14.jsonl": {
+      "psf__requests-3362": {
+        "tests/test_utils.py::test_get_encoding_from_headers": true,
+        "tests/test_testserver.py::TestTestServer::test_text_response": false,
+        "tests/test_requests.py::TestRequests::test_response_chunk_size_int": true,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode": true,
+        "tests/test_testserver.py::TestTestServer::test_basic_response": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_15.jsonl": {
+      "psf__requests-3362": {
+        "tests/test_utils.py::test_get_encoding_from_headers": true,
+        "tests/test_testserver.py::TestTestServer::test_text_response": true,
+        "tests/test_requests.py::TestRequests::test_response_chunk_size_int": true,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode": true,
+        "tests/test_testserver.py::TestTestServer::test_basic_response": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_16.jsonl": {
+      "psf__requests-3362": {
+        "tests/test_utils.py::test_get_encoding_from_headers": true,
+        "tests/test_testserver.py::TestTestServer::test_text_response": true,
+        "tests/test_requests.py::TestRequests::test_response_chunk_size_int": true,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode": false,
+        "tests/test_testserver.py::TestTestServer::test_basic_response": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_17.jsonl": {
+      "psf__requests-3362": {
+        "tests/test_utils.py::test_get_encoding_from_headers": true,
+        "tests/test_testserver.py::TestTestServer::test_text_response": true,
+        "tests/test_requests.py::TestRequests::test_response_chunk_size_int": true,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode": true,
+        "tests/test_testserver.py::TestTestServer::test_basic_response": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_18.jsonl": {
+      "psf__requests-3362": {
+        "tests/test_utils.py::test_get_encoding_from_headers": true,
+        "tests/test_testserver.py::TestTestServer::test_text_response": true,
+        "tests/test_requests.py::TestRequests::test_response_chunk_size_int": false,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode": true,
+        "tests/test_testserver.py::TestTestServer::test_basic_response": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_19.jsonl": {
+      "psf__requests-3362": {
+        "tests/test_utils.py::test_get_encoding_from_headers": true,
+        "tests/test_testserver.py::TestTestServer::test_text_response": false,
+        "tests/test_requests.py::TestRequests::test_response_chunk_size_int": false,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode": false,
+        "tests/test_testserver.py::TestTestServer::test_basic_response": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_2.jsonl": {
+      "psf__requests-3362": {
+        "tests/test_utils.py::test_get_encoding_from_headers": true,
+        "tests/test_testserver.py::TestTestServer::test_text_response": true,
+        "tests/test_requests.py::TestRequests::test_response_chunk_size_int": true,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode": true,
+        "tests/test_testserver.py::TestTestServer::test_basic_response": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_20.jsonl": {
+      "psf__requests-3362": {
+        "tests/test_utils.py::test_get_encoding_from_headers": true,
+        "tests/test_testserver.py::TestTestServer::test_text_response": true,
+        "tests/test_requests.py::TestRequests::test_response_chunk_size_int": true,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode": false,
+        "tests/test_testserver.py::TestTestServer::test_basic_response": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_21.jsonl": {
+      "psf__requests-3362": {
+        "tests/test_utils.py::test_get_encoding_from_headers": true,
+        "tests/test_testserver.py::TestTestServer::test_text_response": true,
+        "tests/test_requests.py::TestRequests::test_response_chunk_size_int": true,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode": true,
+        "tests/test_testserver.py::TestTestServer::test_basic_response": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_22.jsonl": {
+      "psf__requests-3362": {
+        "tests/test_utils.py::test_get_encoding_from_headers": true,
+        "tests/test_testserver.py::TestTestServer::test_text_response": true,
+        "tests/test_requests.py::TestRequests::test_response_chunk_size_int": true,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode": true,
+        "tests/test_testserver.py::TestTestServer::test_basic_response": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_23.jsonl": {
+      "psf__requests-3362": {
+        "tests/test_utils.py::test_get_encoding_from_headers": true,
+        "tests/test_testserver.py::TestTestServer::test_text_response": true,
+        "tests/test_requests.py::TestRequests::test_response_chunk_size_int": true,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode": true,
+        "tests/test_testserver.py::TestTestServer::test_basic_response": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_24.jsonl": {
+      "psf__requests-3362": {
+        "tests/test_utils.py::test_get_encoding_from_headers": true,
+        "tests/test_testserver.py::TestTestServer::test_text_response": true,
+        "tests/test_requests.py::TestRequests::test_response_chunk_size_int": true,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode": false,
+        "tests/test_testserver.py::TestTestServer::test_basic_response": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_25.jsonl": {
+      "psf__requests-3362": {
+        "tests/test_utils.py::test_get_encoding_from_headers": true,
+        "tests/test_testserver.py::TestTestServer::test_text_response": true,
+        "tests/test_requests.py::TestRequests::test_response_chunk_size_int": true,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode": true,
+        "tests/test_testserver.py::TestTestServer::test_basic_response": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_26.jsonl": {
+      "psf__requests-3362": {
+        "tests/test_utils.py::test_get_encoding_from_headers": true,
+        "tests/test_testserver.py::TestTestServer::test_text_response": true,
+        "tests/test_requests.py::TestRequests::test_response_chunk_size_int": true,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode": true,
+        "tests/test_testserver.py::TestTestServer::test_basic_response": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_27.jsonl": {
+      "psf__requests-3362": {
+        "tests/test_utils.py::test_get_encoding_from_headers": true,
+        "tests/test_testserver.py::TestTestServer::test_text_response": true,
+        "tests/test_requests.py::TestRequests::test_response_chunk_size_int": true,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode": true,
+        "tests/test_testserver.py::TestTestServer::test_basic_response": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_28.jsonl": {
+      "psf__requests-3362": {
+        "tests/test_utils.py::test_get_encoding_from_headers": true,
+        "tests/test_testserver.py::TestTestServer::test_text_response": true,
+        "tests/test_requests.py::TestRequests::test_response_chunk_size_int": true,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode": false,
+        "tests/test_testserver.py::TestTestServer::test_basic_response": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_29.jsonl": {
+      "psf__requests-3362": {
+        "tests/test_utils.py::test_get_encoding_from_headers": true,
+        "tests/test_testserver.py::TestTestServer::test_text_response": true,
+        "tests/test_requests.py::TestRequests::test_response_chunk_size_int": true,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode": true,
+        "tests/test_testserver.py::TestTestServer::test_basic_response": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_3.jsonl": {
+      "psf__requests-3362": {
+        "tests/test_utils.py::test_get_encoding_from_headers": true,
+        "tests/test_testserver.py::TestTestServer::test_text_response": true,
+        "tests/test_requests.py::TestRequests::test_response_chunk_size_int": true,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode": true,
+        "tests/test_testserver.py::TestTestServer::test_basic_response": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_30.jsonl": {
+      "psf__requests-3362": {
+        "tests/test_utils.py::test_get_encoding_from_headers": true,
+        "tests/test_testserver.py::TestTestServer::test_text_response": true,
+        "tests/test_requests.py::TestRequests::test_response_chunk_size_int": true,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode": true,
+        "tests/test_testserver.py::TestTestServer::test_basic_response": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_31.jsonl": {
+      "psf__requests-3362": {
+        "tests/test_utils.py::test_get_encoding_from_headers": true,
+        "tests/test_testserver.py::TestTestServer::test_text_response": true,
+        "tests/test_requests.py::TestRequests::test_response_chunk_size_int": true,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode": true,
+        "tests/test_testserver.py::TestTestServer::test_basic_response": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_32.jsonl": {
+      "psf__requests-3362": {
+        "tests/test_utils.py::test_get_encoding_from_headers": true,
+        "tests/test_testserver.py::TestTestServer::test_text_response": true,
+        "tests/test_requests.py::TestRequests::test_response_chunk_size_int": true,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode": false,
+        "tests/test_testserver.py::TestTestServer::test_basic_response": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_33.jsonl": {
+      "psf__requests-3362": {
+        "tests/test_utils.py::test_get_encoding_from_headers": true,
+        "tests/test_testserver.py::TestTestServer::test_text_response": true,
+        "tests/test_requests.py::TestRequests::test_response_chunk_size_int": true,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode": true,
+        "tests/test_testserver.py::TestTestServer::test_basic_response": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_34.jsonl": {
+      "psf__requests-3362": {
+        "tests/test_utils.py::test_get_encoding_from_headers": true,
+        "tests/test_testserver.py::TestTestServer::test_text_response": true,
+        "tests/test_requests.py::TestRequests::test_response_chunk_size_int": true,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode": true,
+        "tests/test_testserver.py::TestTestServer::test_basic_response": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_4.jsonl": {
+      "psf__requests-3362": {
+        "tests/test_utils.py::test_get_encoding_from_headers": true,
+        "tests/test_testserver.py::TestTestServer::test_text_response": true,
+        "tests/test_requests.py::TestRequests::test_response_chunk_size_int": true,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode": true,
+        "tests/test_testserver.py::TestTestServer::test_basic_response": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_5.jsonl": {
+      "psf__requests-3362": {
+        "tests/test_utils.py::test_get_encoding_from_headers": true,
+        "tests/test_testserver.py::TestTestServer::test_text_response": true,
+        "tests/test_requests.py::TestRequests::test_response_chunk_size_int": true,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode": false,
+        "tests/test_testserver.py::TestTestServer::test_basic_response": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_6.jsonl": {
+      "psf__requests-3362": {
+        "tests/test_utils.py::test_get_encoding_from_headers": true,
+        "tests/test_testserver.py::TestTestServer::test_text_response": true,
+        "tests/test_requests.py::TestRequests::test_response_chunk_size_int": true,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode": true,
+        "tests/test_testserver.py::TestTestServer::test_basic_response": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_7.jsonl": {
+      "psf__requests-3362": {
+        "tests/test_utils.py::test_get_encoding_from_headers": true,
+        "tests/test_testserver.py::TestTestServer::test_text_response": true,
+        "tests/test_requests.py::TestRequests::test_response_chunk_size_int": true,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode": true,
+        "tests/test_testserver.py::TestTestServer::test_basic_response": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_8.jsonl": {
+      "psf__requests-3362": {
+        "tests/test_utils.py::test_get_encoding_from_headers": true,
+        "tests/test_testserver.py::TestTestServer::test_text_response": true,
+        "tests/test_requests.py::TestRequests::test_response_chunk_size_int": true,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode": false,
+        "tests/test_testserver.py::TestTestServer::test_basic_response": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_9.jsonl": {
+      "psf__requests-3362": {
+        "tests/test_utils.py::test_get_encoding_from_headers": true,
+        "tests/test_testserver.py::TestTestServer::test_text_response": false,
+        "tests/test_requests.py::TestRequests::test_response_chunk_size_int": true,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode": true,
+        "tests/test_testserver.py::TestTestServer::test_basic_response": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "psf__requests-3362": {
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode#1": false,
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#2": true,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode#3": true,
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#4": true,
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode_returns_str#5": false,
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#6": true,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode#7": false,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode#8": false,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode#9": true,
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#10": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_10.jsonl": {
+      "psf__requests-3362": {
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#2": false,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode#3": false,
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#4": false,
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#6": false,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode#9": false,
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_11.jsonl": {
+      "psf__requests-3362": {
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#2": false,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode#3": false,
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#4": false,
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#6": false,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode#9": false,
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_12.jsonl": {
+      "psf__requests-3362": {
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#2": false,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode#3": false,
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#4": false,
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#6": false,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode#9": false,
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_15.jsonl": {
+      "psf__requests-3362": {
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#2": false,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode#3": false,
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#4": false,
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#6": false,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode#9": false,
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_17.jsonl": {
+      "psf__requests-3362": {
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#2": false,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode#3": false,
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#4": false,
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#6": false,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode#9": false,
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_2.jsonl": {
+      "psf__requests-3362": {
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#2": false,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode#3": false,
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#4": false,
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#6": false,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode#9": false,
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_21.jsonl": {
+      "psf__requests-3362": {
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#2": false,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode#3": false,
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#4": false,
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#6": false,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode#9": false,
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_22.jsonl": {
+      "psf__requests-3362": {
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#2": false,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode#3": false,
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#4": false,
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#6": false,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode#9": false,
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_23.jsonl": {
+      "psf__requests-3362": {
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#2": false,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode#3": false,
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#4": false,
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#6": false,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode#9": false,
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_25.jsonl": {
+      "psf__requests-3362": {
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#2": false,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode#3": false,
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#4": false,
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#6": false,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode#9": false,
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_26.jsonl": {
+      "psf__requests-3362": {
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#2": false,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode#3": false,
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#4": false,
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#6": false,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode#9": false,
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_27.jsonl": {
+      "psf__requests-3362": {
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#2": false,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode#3": false,
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#4": false,
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#6": false,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode#9": false,
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_29.jsonl": {
+      "psf__requests-3362": {
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#2": false,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode#3": false,
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#4": false,
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#6": false,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode#9": false,
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_3.jsonl": {
+      "psf__requests-3362": {
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#2": false,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode#3": false,
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#4": false,
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#6": false,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode#9": false,
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_30.jsonl": {
+      "psf__requests-3362": {
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#2": false,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode#3": false,
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#4": false,
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#6": false,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode#9": false,
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_31.jsonl": {
+      "psf__requests-3362": {
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#2": false,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode#3": false,
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#4": false,
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#6": false,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode#9": false,
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_33.jsonl": {
+      "psf__requests-3362": {
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#2": false,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode#3": false,
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#4": false,
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#6": false,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode#9": false,
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_34.jsonl": {
+      "psf__requests-3362": {
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#2": false,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode#3": false,
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#4": false,
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#6": false,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode#9": false,
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_4.jsonl": {
+      "psf__requests-3362": {
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#2": false,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode#3": false,
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#4": false,
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#6": false,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode#9": false,
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_6.jsonl": {
+      "psf__requests-3362": {
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#2": false,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode#3": false,
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#4": false,
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#6": false,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode#9": false,
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_7.jsonl": {
+      "psf__requests-3362": {
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#2": false,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode#3": false,
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#4": false,
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#6": false,
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode#9": false,
+        "tests/test_requests.py::TestRequests::test_iter_content_decode_unicode#10": false
+      }
+    }
+  }
+}

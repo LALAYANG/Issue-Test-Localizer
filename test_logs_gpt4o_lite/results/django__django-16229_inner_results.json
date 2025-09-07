@@ -1,0 +1,1198 @@
+{
+  "regression": {
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16229/dedup_patch_0.jsonl": {
+      "django__django-16229": {
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default": true,
+        "model_forms.tests.UniqueTest.test_override_unique_together_message": true,
+        "admin_views.tests.SaveAsTests.test_save_as_new_with_inlines_with_validation_errors": true,
+        "model_forms.tests.UniqueTest.test_unique_for_date": true,
+        "admin_views.test_forms.AdminAuthenticationFormTests.test_inactive_user": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_with_extra_context": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_template": true,
+        "admin_views.tests.AdminViewBasicTest.test_password_change_helptext": true,
+        "admin_views.tests.UserAdminTest.test_save_continue_editing_button": true,
+        "model_forms.tests.ModelFormBaseTest.test_invalid_meta_model": true,
+        "admin_views.tests.UserAdminTest.test_save_button": true,
+        "model_forms.tests.ModelFormBaseTest.test_default_filefield": true,
+        "model_forms.tests.ValidationTest.test_validates_with_replaced_field_excluded": true,
+        "admin_views.tests.AdminViewPermissionsTest.test_login_has_permission": true,
+        "model_forms.tests.ModelFormBaseTest.test_no_model_class": true,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": false,
+        "admin_views.tests.AdminCustomQuerysetTest.test_changelist_view": true,
+        "model_forms.tests.ModelFormBasicTests.test_save_with_data_errors": true,
+        "admin_views.tests.AdminViewListEditable.test_non_form_errors": true,
+        "admin_views.tests.AdminViewBasicTest.test_get_sortable_by_columns_subset": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16229/dedup_patch_1.jsonl": {
+      "django__django-16229": {
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default": true,
+        "model_forms.tests.UniqueTest.test_override_unique_together_message": true,
+        "admin_views.tests.SaveAsTests.test_save_as_new_with_inlines_with_validation_errors": true,
+        "model_forms.tests.UniqueTest.test_unique_for_date": true,
+        "admin_views.test_forms.AdminAuthenticationFormTests.test_inactive_user": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_with_extra_context": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_template": true,
+        "admin_views.tests.AdminViewBasicTest.test_password_change_helptext": true,
+        "admin_views.tests.UserAdminTest.test_save_continue_editing_button": true,
+        "model_forms.tests.ModelFormBaseTest.test_invalid_meta_model": true,
+        "admin_views.tests.UserAdminTest.test_save_button": true,
+        "model_forms.tests.ModelFormBaseTest.test_default_filefield": true,
+        "model_forms.tests.ValidationTest.test_validates_with_replaced_field_excluded": true,
+        "admin_views.tests.AdminViewPermissionsTest.test_login_has_permission": true,
+        "model_forms.tests.ModelFormBaseTest.test_no_model_class": true,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": true,
+        "admin_views.tests.AdminCustomQuerysetTest.test_changelist_view": true,
+        "model_forms.tests.ModelFormBasicTests.test_save_with_data_errors": true,
+        "admin_views.tests.AdminViewListEditable.test_non_form_errors": true,
+        "admin_views.tests.AdminViewBasicTest.test_get_sortable_by_columns_subset": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16229/dedup_patch_10.jsonl": {
+      "django__django-16229": {
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default": false,
+        "model_forms.tests.UniqueTest.test_override_unique_together_message": true,
+        "admin_views.tests.SaveAsTests.test_save_as_new_with_inlines_with_validation_errors": true,
+        "model_forms.tests.UniqueTest.test_unique_for_date": true,
+        "admin_views.test_forms.AdminAuthenticationFormTests.test_inactive_user": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_with_extra_context": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_template": true,
+        "admin_views.tests.AdminViewBasicTest.test_password_change_helptext": true,
+        "admin_views.tests.UserAdminTest.test_save_continue_editing_button": true,
+        "model_forms.tests.ModelFormBaseTest.test_invalid_meta_model": true,
+        "admin_views.tests.UserAdminTest.test_save_button": true,
+        "model_forms.tests.ModelFormBaseTest.test_default_filefield": true,
+        "model_forms.tests.ValidationTest.test_validates_with_replaced_field_excluded": true,
+        "admin_views.tests.AdminViewPermissionsTest.test_login_has_permission": true,
+        "model_forms.tests.ModelFormBaseTest.test_no_model_class": true,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": true,
+        "admin_views.tests.AdminCustomQuerysetTest.test_changelist_view": true,
+        "model_forms.tests.ModelFormBasicTests.test_save_with_data_errors": true,
+        "admin_views.tests.AdminViewListEditable.test_non_form_errors": true,
+        "admin_views.tests.AdminViewBasicTest.test_get_sortable_by_columns_subset": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16229/dedup_patch_11.jsonl": {
+      "django__django-16229": {
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default": true,
+        "model_forms.tests.UniqueTest.test_override_unique_together_message": true,
+        "admin_views.tests.SaveAsTests.test_save_as_new_with_inlines_with_validation_errors": true,
+        "model_forms.tests.UniqueTest.test_unique_for_date": true,
+        "admin_views.test_forms.AdminAuthenticationFormTests.test_inactive_user": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_with_extra_context": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_template": true,
+        "admin_views.tests.AdminViewBasicTest.test_password_change_helptext": true,
+        "admin_views.tests.UserAdminTest.test_save_continue_editing_button": true,
+        "model_forms.tests.ModelFormBaseTest.test_invalid_meta_model": true,
+        "admin_views.tests.UserAdminTest.test_save_button": true,
+        "model_forms.tests.ModelFormBaseTest.test_default_filefield": true,
+        "model_forms.tests.ValidationTest.test_validates_with_replaced_field_excluded": true,
+        "admin_views.tests.AdminViewPermissionsTest.test_login_has_permission": true,
+        "model_forms.tests.ModelFormBaseTest.test_no_model_class": true,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": true,
+        "admin_views.tests.AdminCustomQuerysetTest.test_changelist_view": true,
+        "model_forms.tests.ModelFormBasicTests.test_save_with_data_errors": true,
+        "admin_views.tests.AdminViewListEditable.test_non_form_errors": true,
+        "admin_views.tests.AdminViewBasicTest.test_get_sortable_by_columns_subset": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16229/dedup_patch_12.jsonl": {
+      "django__django-16229": {
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default": false,
+        "model_forms.tests.UniqueTest.test_override_unique_together_message": false,
+        "admin_views.tests.SaveAsTests.test_save_as_new_with_inlines_with_validation_errors": false,
+        "model_forms.tests.UniqueTest.test_unique_for_date": false,
+        "admin_views.test_forms.AdminAuthenticationFormTests.test_inactive_user": false,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_with_extra_context": false,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_template": false,
+        "admin_views.tests.AdminViewBasicTest.test_password_change_helptext": false,
+        "admin_views.tests.UserAdminTest.test_save_continue_editing_button": false,
+        "model_forms.tests.ModelFormBaseTest.test_invalid_meta_model": true,
+        "admin_views.tests.UserAdminTest.test_save_button": false,
+        "model_forms.tests.ModelFormBaseTest.test_default_filefield": false,
+        "model_forms.tests.ValidationTest.test_validates_with_replaced_field_excluded": false,
+        "admin_views.tests.AdminViewPermissionsTest.test_login_has_permission": false,
+        "model_forms.tests.ModelFormBaseTest.test_no_model_class": true,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": false,
+        "admin_views.tests.AdminCustomQuerysetTest.test_changelist_view": false,
+        "model_forms.tests.ModelFormBasicTests.test_save_with_data_errors": false,
+        "admin_views.tests.AdminViewListEditable.test_non_form_errors": false,
+        "admin_views.tests.AdminViewBasicTest.test_get_sortable_by_columns_subset": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16229/dedup_patch_13.jsonl": {
+      "django__django-16229": {
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default": true,
+        "model_forms.tests.UniqueTest.test_override_unique_together_message": true,
+        "admin_views.tests.SaveAsTests.test_save_as_new_with_inlines_with_validation_errors": true,
+        "model_forms.tests.UniqueTest.test_unique_for_date": true,
+        "admin_views.test_forms.AdminAuthenticationFormTests.test_inactive_user": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_with_extra_context": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_template": true,
+        "admin_views.tests.AdminViewBasicTest.test_password_change_helptext": true,
+        "admin_views.tests.UserAdminTest.test_save_continue_editing_button": true,
+        "model_forms.tests.ModelFormBaseTest.test_invalid_meta_model": true,
+        "admin_views.tests.UserAdminTest.test_save_button": true,
+        "model_forms.tests.ModelFormBaseTest.test_default_filefield": true,
+        "model_forms.tests.ValidationTest.test_validates_with_replaced_field_excluded": true,
+        "admin_views.tests.AdminViewPermissionsTest.test_login_has_permission": true,
+        "model_forms.tests.ModelFormBaseTest.test_no_model_class": true,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": true,
+        "admin_views.tests.AdminCustomQuerysetTest.test_changelist_view": true,
+        "model_forms.tests.ModelFormBasicTests.test_save_with_data_errors": true,
+        "admin_views.tests.AdminViewListEditable.test_non_form_errors": true,
+        "admin_views.tests.AdminViewBasicTest.test_get_sortable_by_columns_subset": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16229/dedup_patch_14.jsonl": {
+      "django__django-16229": {
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default": false,
+        "model_forms.tests.UniqueTest.test_override_unique_together_message": false,
+        "admin_views.tests.SaveAsTests.test_save_as_new_with_inlines_with_validation_errors": false,
+        "model_forms.tests.UniqueTest.test_unique_for_date": false,
+        "admin_views.test_forms.AdminAuthenticationFormTests.test_inactive_user": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_with_extra_context": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_template": true,
+        "admin_views.tests.AdminViewBasicTest.test_password_change_helptext": true,
+        "admin_views.tests.UserAdminTest.test_save_continue_editing_button": false,
+        "model_forms.tests.ModelFormBaseTest.test_invalid_meta_model": true,
+        "admin_views.tests.UserAdminTest.test_save_button": false,
+        "model_forms.tests.ModelFormBaseTest.test_default_filefield": false,
+        "model_forms.tests.ValidationTest.test_validates_with_replaced_field_excluded": false,
+        "admin_views.tests.AdminViewPermissionsTest.test_login_has_permission": true,
+        "model_forms.tests.ModelFormBaseTest.test_no_model_class": true,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": false,
+        "admin_views.tests.AdminCustomQuerysetTest.test_changelist_view": true,
+        "model_forms.tests.ModelFormBasicTests.test_save_with_data_errors": false,
+        "admin_views.tests.AdminViewListEditable.test_non_form_errors": false,
+        "admin_views.tests.AdminViewBasicTest.test_get_sortable_by_columns_subset": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16229/dedup_patch_15.jsonl": {
+      "django__django-16229": {
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default": true,
+        "model_forms.tests.UniqueTest.test_override_unique_together_message": true,
+        "admin_views.tests.SaveAsTests.test_save_as_new_with_inlines_with_validation_errors": true,
+        "model_forms.tests.UniqueTest.test_unique_for_date": true,
+        "admin_views.test_forms.AdminAuthenticationFormTests.test_inactive_user": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_with_extra_context": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_template": true,
+        "admin_views.tests.AdminViewBasicTest.test_password_change_helptext": true,
+        "admin_views.tests.UserAdminTest.test_save_continue_editing_button": true,
+        "model_forms.tests.ModelFormBaseTest.test_invalid_meta_model": true,
+        "admin_views.tests.UserAdminTest.test_save_button": true,
+        "model_forms.tests.ModelFormBaseTest.test_default_filefield": true,
+        "model_forms.tests.ValidationTest.test_validates_with_replaced_field_excluded": true,
+        "admin_views.tests.AdminViewPermissionsTest.test_login_has_permission": true,
+        "model_forms.tests.ModelFormBaseTest.test_no_model_class": true,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": true,
+        "admin_views.tests.AdminCustomQuerysetTest.test_changelist_view": true,
+        "model_forms.tests.ModelFormBasicTests.test_save_with_data_errors": true,
+        "admin_views.tests.AdminViewListEditable.test_non_form_errors": true,
+        "admin_views.tests.AdminViewBasicTest.test_get_sortable_by_columns_subset": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16229/dedup_patch_16.jsonl": {
+      "django__django-16229": {
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default": true,
+        "model_forms.tests.UniqueTest.test_override_unique_together_message": true,
+        "admin_views.tests.SaveAsTests.test_save_as_new_with_inlines_with_validation_errors": true,
+        "model_forms.tests.UniqueTest.test_unique_for_date": true,
+        "admin_views.test_forms.AdminAuthenticationFormTests.test_inactive_user": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_with_extra_context": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_template": true,
+        "admin_views.tests.AdminViewBasicTest.test_password_change_helptext": true,
+        "admin_views.tests.UserAdminTest.test_save_continue_editing_button": true,
+        "model_forms.tests.ModelFormBaseTest.test_invalid_meta_model": true,
+        "admin_views.tests.UserAdminTest.test_save_button": true,
+        "model_forms.tests.ModelFormBaseTest.test_default_filefield": true,
+        "model_forms.tests.ValidationTest.test_validates_with_replaced_field_excluded": true,
+        "admin_views.tests.AdminViewPermissionsTest.test_login_has_permission": true,
+        "model_forms.tests.ModelFormBaseTest.test_no_model_class": true,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": true,
+        "admin_views.tests.AdminCustomQuerysetTest.test_changelist_view": true,
+        "model_forms.tests.ModelFormBasicTests.test_save_with_data_errors": true,
+        "admin_views.tests.AdminViewListEditable.test_non_form_errors": true,
+        "admin_views.tests.AdminViewBasicTest.test_get_sortable_by_columns_subset": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16229/dedup_patch_17.jsonl": {
+      "django__django-16229": {
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default": false,
+        "model_forms.tests.UniqueTest.test_override_unique_together_message": false,
+        "admin_views.tests.SaveAsTests.test_save_as_new_with_inlines_with_validation_errors": false,
+        "model_forms.tests.UniqueTest.test_unique_for_date": false,
+        "admin_views.test_forms.AdminAuthenticationFormTests.test_inactive_user": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_with_extra_context": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_template": true,
+        "admin_views.tests.AdminViewBasicTest.test_password_change_helptext": true,
+        "admin_views.tests.UserAdminTest.test_save_continue_editing_button": false,
+        "model_forms.tests.ModelFormBaseTest.test_invalid_meta_model": true,
+        "admin_views.tests.UserAdminTest.test_save_button": false,
+        "model_forms.tests.ModelFormBaseTest.test_default_filefield": false,
+        "model_forms.tests.ValidationTest.test_validates_with_replaced_field_excluded": false,
+        "admin_views.tests.AdminViewPermissionsTest.test_login_has_permission": true,
+        "model_forms.tests.ModelFormBaseTest.test_no_model_class": true,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": false,
+        "admin_views.tests.AdminCustomQuerysetTest.test_changelist_view": true,
+        "model_forms.tests.ModelFormBasicTests.test_save_with_data_errors": false,
+        "admin_views.tests.AdminViewListEditable.test_non_form_errors": false,
+        "admin_views.tests.AdminViewBasicTest.test_get_sortable_by_columns_subset": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16229/dedup_patch_18.jsonl": {
+      "django__django-16229": {
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default": false,
+        "model_forms.tests.UniqueTest.test_override_unique_together_message": false,
+        "admin_views.tests.SaveAsTests.test_save_as_new_with_inlines_with_validation_errors": false,
+        "model_forms.tests.UniqueTest.test_unique_for_date": false,
+        "admin_views.test_forms.AdminAuthenticationFormTests.test_inactive_user": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_with_extra_context": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_template": true,
+        "admin_views.tests.AdminViewBasicTest.test_password_change_helptext": true,
+        "admin_views.tests.UserAdminTest.test_save_continue_editing_button": false,
+        "model_forms.tests.ModelFormBaseTest.test_invalid_meta_model": true,
+        "admin_views.tests.UserAdminTest.test_save_button": false,
+        "model_forms.tests.ModelFormBaseTest.test_default_filefield": false,
+        "model_forms.tests.ValidationTest.test_validates_with_replaced_field_excluded": false,
+        "admin_views.tests.AdminViewPermissionsTest.test_login_has_permission": true,
+        "model_forms.tests.ModelFormBaseTest.test_no_model_class": true,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": false,
+        "admin_views.tests.AdminCustomQuerysetTest.test_changelist_view": true,
+        "model_forms.tests.ModelFormBasicTests.test_save_with_data_errors": false,
+        "admin_views.tests.AdminViewListEditable.test_non_form_errors": false,
+        "admin_views.tests.AdminViewBasicTest.test_get_sortable_by_columns_subset": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16229/dedup_patch_19.jsonl": {
+      "django__django-16229": {
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default": true,
+        "model_forms.tests.UniqueTest.test_override_unique_together_message": true,
+        "admin_views.tests.SaveAsTests.test_save_as_new_with_inlines_with_validation_errors": true,
+        "model_forms.tests.UniqueTest.test_unique_for_date": true,
+        "admin_views.test_forms.AdminAuthenticationFormTests.test_inactive_user": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_with_extra_context": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_template": true,
+        "admin_views.tests.AdminViewBasicTest.test_password_change_helptext": true,
+        "admin_views.tests.UserAdminTest.test_save_continue_editing_button": false,
+        "model_forms.tests.ModelFormBaseTest.test_invalid_meta_model": true,
+        "admin_views.tests.UserAdminTest.test_save_button": false,
+        "model_forms.tests.ModelFormBaseTest.test_default_filefield": true,
+        "model_forms.tests.ValidationTest.test_validates_with_replaced_field_excluded": true,
+        "admin_views.tests.AdminViewPermissionsTest.test_login_has_permission": true,
+        "model_forms.tests.ModelFormBaseTest.test_no_model_class": true,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": false,
+        "admin_views.tests.AdminCustomQuerysetTest.test_changelist_view": true,
+        "model_forms.tests.ModelFormBasicTests.test_save_with_data_errors": true,
+        "admin_views.tests.AdminViewListEditable.test_non_form_errors": true,
+        "admin_views.tests.AdminViewBasicTest.test_get_sortable_by_columns_subset": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16229/dedup_patch_2.jsonl": {
+      "django__django-16229": {
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default": true,
+        "model_forms.tests.UniqueTest.test_override_unique_together_message": true,
+        "admin_views.tests.SaveAsTests.test_save_as_new_with_inlines_with_validation_errors": true,
+        "model_forms.tests.UniqueTest.test_unique_for_date": true,
+        "admin_views.test_forms.AdminAuthenticationFormTests.test_inactive_user": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_with_extra_context": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_template": true,
+        "admin_views.tests.AdminViewBasicTest.test_password_change_helptext": true,
+        "admin_views.tests.UserAdminTest.test_save_continue_editing_button": true,
+        "model_forms.tests.ModelFormBaseTest.test_invalid_meta_model": true,
+        "admin_views.tests.UserAdminTest.test_save_button": true,
+        "model_forms.tests.ModelFormBaseTest.test_default_filefield": true,
+        "model_forms.tests.ValidationTest.test_validates_with_replaced_field_excluded": true,
+        "admin_views.tests.AdminViewPermissionsTest.test_login_has_permission": true,
+        "model_forms.tests.ModelFormBaseTest.test_no_model_class": true,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": true,
+        "admin_views.tests.AdminCustomQuerysetTest.test_changelist_view": true,
+        "model_forms.tests.ModelFormBasicTests.test_save_with_data_errors": true,
+        "admin_views.tests.AdminViewListEditable.test_non_form_errors": true,
+        "admin_views.tests.AdminViewBasicTest.test_get_sortable_by_columns_subset": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16229/dedup_patch_20.jsonl": {
+      "django__django-16229": {
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default": false,
+        "model_forms.tests.UniqueTest.test_override_unique_together_message": false,
+        "admin_views.tests.SaveAsTests.test_save_as_new_with_inlines_with_validation_errors": false,
+        "model_forms.tests.UniqueTest.test_unique_for_date": false,
+        "admin_views.test_forms.AdminAuthenticationFormTests.test_inactive_user": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_with_extra_context": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_template": true,
+        "admin_views.tests.AdminViewBasicTest.test_password_change_helptext": true,
+        "admin_views.tests.UserAdminTest.test_save_continue_editing_button": false,
+        "model_forms.tests.ModelFormBaseTest.test_invalid_meta_model": true,
+        "admin_views.tests.UserAdminTest.test_save_button": false,
+        "model_forms.tests.ModelFormBaseTest.test_default_filefield": false,
+        "model_forms.tests.ValidationTest.test_validates_with_replaced_field_excluded": false,
+        "admin_views.tests.AdminViewPermissionsTest.test_login_has_permission": true,
+        "model_forms.tests.ModelFormBaseTest.test_no_model_class": true,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": false,
+        "admin_views.tests.AdminCustomQuerysetTest.test_changelist_view": true,
+        "model_forms.tests.ModelFormBasicTests.test_save_with_data_errors": false,
+        "admin_views.tests.AdminViewListEditable.test_non_form_errors": false,
+        "admin_views.tests.AdminViewBasicTest.test_get_sortable_by_columns_subset": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16229/dedup_patch_21.jsonl": {
+      "django__django-16229": {
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default": false,
+        "model_forms.tests.UniqueTest.test_override_unique_together_message": false,
+        "admin_views.tests.SaveAsTests.test_save_as_new_with_inlines_with_validation_errors": false,
+        "model_forms.tests.UniqueTest.test_unique_for_date": false,
+        "admin_views.test_forms.AdminAuthenticationFormTests.test_inactive_user": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_with_extra_context": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_template": true,
+        "admin_views.tests.AdminViewBasicTest.test_password_change_helptext": true,
+        "admin_views.tests.UserAdminTest.test_save_continue_editing_button": false,
+        "model_forms.tests.ModelFormBaseTest.test_invalid_meta_model": true,
+        "admin_views.tests.UserAdminTest.test_save_button": false,
+        "model_forms.tests.ModelFormBaseTest.test_default_filefield": false,
+        "model_forms.tests.ValidationTest.test_validates_with_replaced_field_excluded": false,
+        "admin_views.tests.AdminViewPermissionsTest.test_login_has_permission": true,
+        "model_forms.tests.ModelFormBaseTest.test_no_model_class": true,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": false,
+        "admin_views.tests.AdminCustomQuerysetTest.test_changelist_view": true,
+        "model_forms.tests.ModelFormBasicTests.test_save_with_data_errors": false,
+        "admin_views.tests.AdminViewListEditable.test_non_form_errors": false,
+        "admin_views.tests.AdminViewBasicTest.test_get_sortable_by_columns_subset": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16229/dedup_patch_22.jsonl": {
+      "django__django-16229": {
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default": false,
+        "model_forms.tests.UniqueTest.test_override_unique_together_message": false,
+        "admin_views.tests.SaveAsTests.test_save_as_new_with_inlines_with_validation_errors": false,
+        "model_forms.tests.UniqueTest.test_unique_for_date": false,
+        "admin_views.test_forms.AdminAuthenticationFormTests.test_inactive_user": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_with_extra_context": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_template": true,
+        "admin_views.tests.AdminViewBasicTest.test_password_change_helptext": true,
+        "admin_views.tests.UserAdminTest.test_save_continue_editing_button": false,
+        "model_forms.tests.ModelFormBaseTest.test_invalid_meta_model": true,
+        "admin_views.tests.UserAdminTest.test_save_button": false,
+        "model_forms.tests.ModelFormBaseTest.test_default_filefield": false,
+        "model_forms.tests.ValidationTest.test_validates_with_replaced_field_excluded": false,
+        "admin_views.tests.AdminViewPermissionsTest.test_login_has_permission": true,
+        "model_forms.tests.ModelFormBaseTest.test_no_model_class": true,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": false,
+        "admin_views.tests.AdminCustomQuerysetTest.test_changelist_view": true,
+        "model_forms.tests.ModelFormBasicTests.test_save_with_data_errors": false,
+        "admin_views.tests.AdminViewListEditable.test_non_form_errors": false,
+        "admin_views.tests.AdminViewBasicTest.test_get_sortable_by_columns_subset": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16229/dedup_patch_23.jsonl": {
+      "django__django-16229": {
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default": false,
+        "model_forms.tests.UniqueTest.test_override_unique_together_message": true,
+        "admin_views.tests.SaveAsTests.test_save_as_new_with_inlines_with_validation_errors": true,
+        "model_forms.tests.UniqueTest.test_unique_for_date": true,
+        "admin_views.test_forms.AdminAuthenticationFormTests.test_inactive_user": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_with_extra_context": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_template": true,
+        "admin_views.tests.AdminViewBasicTest.test_password_change_helptext": true,
+        "admin_views.tests.UserAdminTest.test_save_continue_editing_button": true,
+        "model_forms.tests.ModelFormBaseTest.test_invalid_meta_model": true,
+        "admin_views.tests.UserAdminTest.test_save_button": true,
+        "model_forms.tests.ModelFormBaseTest.test_default_filefield": true,
+        "model_forms.tests.ValidationTest.test_validates_with_replaced_field_excluded": true,
+        "admin_views.tests.AdminViewPermissionsTest.test_login_has_permission": true,
+        "model_forms.tests.ModelFormBaseTest.test_no_model_class": true,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": true,
+        "admin_views.tests.AdminCustomQuerysetTest.test_changelist_view": true,
+        "model_forms.tests.ModelFormBasicTests.test_save_with_data_errors": true,
+        "admin_views.tests.AdminViewListEditable.test_non_form_errors": true,
+        "admin_views.tests.AdminViewBasicTest.test_get_sortable_by_columns_subset": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16229/dedup_patch_24.jsonl": {
+      "django__django-16229": {
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default": true,
+        "model_forms.tests.UniqueTest.test_override_unique_together_message": true,
+        "admin_views.tests.SaveAsTests.test_save_as_new_with_inlines_with_validation_errors": true,
+        "model_forms.tests.UniqueTest.test_unique_for_date": true,
+        "admin_views.test_forms.AdminAuthenticationFormTests.test_inactive_user": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_with_extra_context": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_template": true,
+        "admin_views.tests.AdminViewBasicTest.test_password_change_helptext": true,
+        "admin_views.tests.UserAdminTest.test_save_continue_editing_button": true,
+        "model_forms.tests.ModelFormBaseTest.test_invalid_meta_model": true,
+        "admin_views.tests.UserAdminTest.test_save_button": true,
+        "model_forms.tests.ModelFormBaseTest.test_default_filefield": true,
+        "model_forms.tests.ValidationTest.test_validates_with_replaced_field_excluded": true,
+        "admin_views.tests.AdminViewPermissionsTest.test_login_has_permission": true,
+        "model_forms.tests.ModelFormBaseTest.test_no_model_class": true,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": true,
+        "admin_views.tests.AdminCustomQuerysetTest.test_changelist_view": true,
+        "model_forms.tests.ModelFormBasicTests.test_save_with_data_errors": true,
+        "admin_views.tests.AdminViewListEditable.test_non_form_errors": true,
+        "admin_views.tests.AdminViewBasicTest.test_get_sortable_by_columns_subset": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16229/dedup_patch_25.jsonl": {
+      "django__django-16229": {
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default": true,
+        "model_forms.tests.UniqueTest.test_override_unique_together_message": true,
+        "admin_views.tests.SaveAsTests.test_save_as_new_with_inlines_with_validation_errors": true,
+        "model_forms.tests.UniqueTest.test_unique_for_date": true,
+        "admin_views.test_forms.AdminAuthenticationFormTests.test_inactive_user": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_with_extra_context": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_template": true,
+        "admin_views.tests.AdminViewBasicTest.test_password_change_helptext": true,
+        "admin_views.tests.UserAdminTest.test_save_continue_editing_button": true,
+        "model_forms.tests.ModelFormBaseTest.test_invalid_meta_model": true,
+        "admin_views.tests.UserAdminTest.test_save_button": true,
+        "model_forms.tests.ModelFormBaseTest.test_default_filefield": true,
+        "model_forms.tests.ValidationTest.test_validates_with_replaced_field_excluded": true,
+        "admin_views.tests.AdminViewPermissionsTest.test_login_has_permission": true,
+        "model_forms.tests.ModelFormBaseTest.test_no_model_class": true,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": true,
+        "admin_views.tests.AdminCustomQuerysetTest.test_changelist_view": true,
+        "model_forms.tests.ModelFormBasicTests.test_save_with_data_errors": true,
+        "admin_views.tests.AdminViewListEditable.test_non_form_errors": true,
+        "admin_views.tests.AdminViewBasicTest.test_get_sortable_by_columns_subset": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16229/dedup_patch_26.jsonl": {
+      "django__django-16229": {
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default": true,
+        "model_forms.tests.UniqueTest.test_override_unique_together_message": true,
+        "admin_views.tests.SaveAsTests.test_save_as_new_with_inlines_with_validation_errors": true,
+        "model_forms.tests.UniqueTest.test_unique_for_date": true,
+        "admin_views.test_forms.AdminAuthenticationFormTests.test_inactive_user": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_with_extra_context": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_template": true,
+        "admin_views.tests.AdminViewBasicTest.test_password_change_helptext": true,
+        "admin_views.tests.UserAdminTest.test_save_continue_editing_button": true,
+        "model_forms.tests.ModelFormBaseTest.test_invalid_meta_model": true,
+        "admin_views.tests.UserAdminTest.test_save_button": true,
+        "model_forms.tests.ModelFormBaseTest.test_default_filefield": true,
+        "model_forms.tests.ValidationTest.test_validates_with_replaced_field_excluded": true,
+        "admin_views.tests.AdminViewPermissionsTest.test_login_has_permission": true,
+        "model_forms.tests.ModelFormBaseTest.test_no_model_class": true,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": false,
+        "admin_views.tests.AdminCustomQuerysetTest.test_changelist_view": true,
+        "model_forms.tests.ModelFormBasicTests.test_save_with_data_errors": true,
+        "admin_views.tests.AdminViewListEditable.test_non_form_errors": true,
+        "admin_views.tests.AdminViewBasicTest.test_get_sortable_by_columns_subset": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16229/dedup_patch_27.jsonl": {
+      "django__django-16229": {
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default": true,
+        "model_forms.tests.UniqueTest.test_override_unique_together_message": true,
+        "admin_views.tests.SaveAsTests.test_save_as_new_with_inlines_with_validation_errors": true,
+        "model_forms.tests.UniqueTest.test_unique_for_date": true,
+        "admin_views.test_forms.AdminAuthenticationFormTests.test_inactive_user": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_with_extra_context": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_template": true,
+        "admin_views.tests.AdminViewBasicTest.test_password_change_helptext": true,
+        "admin_views.tests.UserAdminTest.test_save_continue_editing_button": true,
+        "model_forms.tests.ModelFormBaseTest.test_invalid_meta_model": true,
+        "admin_views.tests.UserAdminTest.test_save_button": true,
+        "model_forms.tests.ModelFormBaseTest.test_default_filefield": true,
+        "model_forms.tests.ValidationTest.test_validates_with_replaced_field_excluded": true,
+        "admin_views.tests.AdminViewPermissionsTest.test_login_has_permission": true,
+        "model_forms.tests.ModelFormBaseTest.test_no_model_class": true,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": true,
+        "admin_views.tests.AdminCustomQuerysetTest.test_changelist_view": true,
+        "model_forms.tests.ModelFormBasicTests.test_save_with_data_errors": true,
+        "admin_views.tests.AdminViewListEditable.test_non_form_errors": true,
+        "admin_views.tests.AdminViewBasicTest.test_get_sortable_by_columns_subset": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16229/dedup_patch_28.jsonl": {
+      "django__django-16229": {
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default": false,
+        "model_forms.tests.UniqueTest.test_override_unique_together_message": true,
+        "admin_views.tests.SaveAsTests.test_save_as_new_with_inlines_with_validation_errors": true,
+        "model_forms.tests.UniqueTest.test_unique_for_date": true,
+        "admin_views.test_forms.AdminAuthenticationFormTests.test_inactive_user": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_with_extra_context": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_template": true,
+        "admin_views.tests.AdminViewBasicTest.test_password_change_helptext": true,
+        "admin_views.tests.UserAdminTest.test_save_continue_editing_button": true,
+        "model_forms.tests.ModelFormBaseTest.test_invalid_meta_model": true,
+        "admin_views.tests.UserAdminTest.test_save_button": true,
+        "model_forms.tests.ModelFormBaseTest.test_default_filefield": true,
+        "model_forms.tests.ValidationTest.test_validates_with_replaced_field_excluded": true,
+        "admin_views.tests.AdminViewPermissionsTest.test_login_has_permission": true,
+        "model_forms.tests.ModelFormBaseTest.test_no_model_class": true,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": true,
+        "admin_views.tests.AdminCustomQuerysetTest.test_changelist_view": true,
+        "model_forms.tests.ModelFormBasicTests.test_save_with_data_errors": true,
+        "admin_views.tests.AdminViewListEditable.test_non_form_errors": true,
+        "admin_views.tests.AdminViewBasicTest.test_get_sortable_by_columns_subset": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16229/dedup_patch_29.jsonl": {
+      "django__django-16229": {
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default": true,
+        "model_forms.tests.UniqueTest.test_override_unique_together_message": true,
+        "admin_views.tests.SaveAsTests.test_save_as_new_with_inlines_with_validation_errors": true,
+        "model_forms.tests.UniqueTest.test_unique_for_date": true,
+        "admin_views.test_forms.AdminAuthenticationFormTests.test_inactive_user": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_with_extra_context": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_template": true,
+        "admin_views.tests.AdminViewBasicTest.test_password_change_helptext": true,
+        "admin_views.tests.UserAdminTest.test_save_continue_editing_button": true,
+        "model_forms.tests.ModelFormBaseTest.test_invalid_meta_model": true,
+        "admin_views.tests.UserAdminTest.test_save_button": true,
+        "model_forms.tests.ModelFormBaseTest.test_default_filefield": true,
+        "model_forms.tests.ValidationTest.test_validates_with_replaced_field_excluded": true,
+        "admin_views.tests.AdminViewPermissionsTest.test_login_has_permission": true,
+        "model_forms.tests.ModelFormBaseTest.test_no_model_class": true,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": true,
+        "admin_views.tests.AdminCustomQuerysetTest.test_changelist_view": true,
+        "model_forms.tests.ModelFormBasicTests.test_save_with_data_errors": true,
+        "admin_views.tests.AdminViewListEditable.test_non_form_errors": true,
+        "admin_views.tests.AdminViewBasicTest.test_get_sortable_by_columns_subset": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16229/dedup_patch_3.jsonl": {
+      "django__django-16229": {
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default": false,
+        "model_forms.tests.UniqueTest.test_override_unique_together_message": false,
+        "admin_views.tests.SaveAsTests.test_save_as_new_with_inlines_with_validation_errors": false,
+        "model_forms.tests.UniqueTest.test_unique_for_date": false,
+        "admin_views.test_forms.AdminAuthenticationFormTests.test_inactive_user": false,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_with_extra_context": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_template": true,
+        "admin_views.tests.AdminViewBasicTest.test_password_change_helptext": true,
+        "admin_views.tests.UserAdminTest.test_save_continue_editing_button": false,
+        "model_forms.tests.ModelFormBaseTest.test_invalid_meta_model": true,
+        "admin_views.tests.UserAdminTest.test_save_button": false,
+        "model_forms.tests.ModelFormBaseTest.test_default_filefield": false,
+        "model_forms.tests.ValidationTest.test_validates_with_replaced_field_excluded": false,
+        "admin_views.tests.AdminViewPermissionsTest.test_login_has_permission": false,
+        "model_forms.tests.ModelFormBaseTest.test_no_model_class": true,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": false,
+        "admin_views.tests.AdminCustomQuerysetTest.test_changelist_view": false,
+        "model_forms.tests.ModelFormBasicTests.test_save_with_data_errors": false,
+        "admin_views.tests.AdminViewListEditable.test_non_form_errors": false,
+        "admin_views.tests.AdminViewBasicTest.test_get_sortable_by_columns_subset": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16229/dedup_patch_30.jsonl": {
+      "django__django-16229": {
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default": false,
+        "model_forms.tests.UniqueTest.test_override_unique_together_message": false,
+        "admin_views.tests.SaveAsTests.test_save_as_new_with_inlines_with_validation_errors": false,
+        "model_forms.tests.UniqueTest.test_unique_for_date": false,
+        "admin_views.test_forms.AdminAuthenticationFormTests.test_inactive_user": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_with_extra_context": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_template": true,
+        "admin_views.tests.AdminViewBasicTest.test_password_change_helptext": true,
+        "admin_views.tests.UserAdminTest.test_save_continue_editing_button": false,
+        "model_forms.tests.ModelFormBaseTest.test_invalid_meta_model": true,
+        "admin_views.tests.UserAdminTest.test_save_button": false,
+        "model_forms.tests.ModelFormBaseTest.test_default_filefield": false,
+        "model_forms.tests.ValidationTest.test_validates_with_replaced_field_excluded": false,
+        "admin_views.tests.AdminViewPermissionsTest.test_login_has_permission": true,
+        "model_forms.tests.ModelFormBaseTest.test_no_model_class": true,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": false,
+        "admin_views.tests.AdminCustomQuerysetTest.test_changelist_view": true,
+        "model_forms.tests.ModelFormBasicTests.test_save_with_data_errors": false,
+        "admin_views.tests.AdminViewListEditable.test_non_form_errors": false,
+        "admin_views.tests.AdminViewBasicTest.test_get_sortable_by_columns_subset": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16229/dedup_patch_31.jsonl": {
+      "django__django-16229": {
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default": false,
+        "model_forms.tests.UniqueTest.test_override_unique_together_message": false,
+        "admin_views.tests.SaveAsTests.test_save_as_new_with_inlines_with_validation_errors": false,
+        "model_forms.tests.UniqueTest.test_unique_for_date": false,
+        "admin_views.test_forms.AdminAuthenticationFormTests.test_inactive_user": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_with_extra_context": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_template": true,
+        "admin_views.tests.AdminViewBasicTest.test_password_change_helptext": true,
+        "admin_views.tests.UserAdminTest.test_save_continue_editing_button": false,
+        "model_forms.tests.ModelFormBaseTest.test_invalid_meta_model": true,
+        "admin_views.tests.UserAdminTest.test_save_button": false,
+        "model_forms.tests.ModelFormBaseTest.test_default_filefield": false,
+        "model_forms.tests.ValidationTest.test_validates_with_replaced_field_excluded": false,
+        "admin_views.tests.AdminViewPermissionsTest.test_login_has_permission": true,
+        "model_forms.tests.ModelFormBaseTest.test_no_model_class": true,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": false,
+        "admin_views.tests.AdminCustomQuerysetTest.test_changelist_view": true,
+        "model_forms.tests.ModelFormBasicTests.test_save_with_data_errors": false,
+        "admin_views.tests.AdminViewListEditable.test_non_form_errors": false,
+        "admin_views.tests.AdminViewBasicTest.test_get_sortable_by_columns_subset": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16229/dedup_patch_32.jsonl": {
+      "django__django-16229": {
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default": true,
+        "model_forms.tests.UniqueTest.test_override_unique_together_message": true,
+        "admin_views.tests.SaveAsTests.test_save_as_new_with_inlines_with_validation_errors": true,
+        "model_forms.tests.UniqueTest.test_unique_for_date": true,
+        "admin_views.test_forms.AdminAuthenticationFormTests.test_inactive_user": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_with_extra_context": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_template": true,
+        "admin_views.tests.AdminViewBasicTest.test_password_change_helptext": true,
+        "admin_views.tests.UserAdminTest.test_save_continue_editing_button": true,
+        "model_forms.tests.ModelFormBaseTest.test_invalid_meta_model": true,
+        "admin_views.tests.UserAdminTest.test_save_button": true,
+        "model_forms.tests.ModelFormBaseTest.test_default_filefield": true,
+        "model_forms.tests.ValidationTest.test_validates_with_replaced_field_excluded": true,
+        "admin_views.tests.AdminViewPermissionsTest.test_login_has_permission": true,
+        "model_forms.tests.ModelFormBaseTest.test_no_model_class": true,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": true,
+        "admin_views.tests.AdminCustomQuerysetTest.test_changelist_view": true,
+        "model_forms.tests.ModelFormBasicTests.test_save_with_data_errors": true,
+        "admin_views.tests.AdminViewListEditable.test_non_form_errors": true,
+        "admin_views.tests.AdminViewBasicTest.test_get_sortable_by_columns_subset": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16229/dedup_patch_33.jsonl": {
+      "django__django-16229": {
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default": true,
+        "model_forms.tests.UniqueTest.test_override_unique_together_message": true,
+        "admin_views.tests.SaveAsTests.test_save_as_new_with_inlines_with_validation_errors": true,
+        "model_forms.tests.UniqueTest.test_unique_for_date": true,
+        "admin_views.test_forms.AdminAuthenticationFormTests.test_inactive_user": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_with_extra_context": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_template": true,
+        "admin_views.tests.AdminViewBasicTest.test_password_change_helptext": true,
+        "admin_views.tests.UserAdminTest.test_save_continue_editing_button": true,
+        "model_forms.tests.ModelFormBaseTest.test_invalid_meta_model": true,
+        "admin_views.tests.UserAdminTest.test_save_button": true,
+        "model_forms.tests.ModelFormBaseTest.test_default_filefield": true,
+        "model_forms.tests.ValidationTest.test_validates_with_replaced_field_excluded": true,
+        "admin_views.tests.AdminViewPermissionsTest.test_login_has_permission": true,
+        "model_forms.tests.ModelFormBaseTest.test_no_model_class": true,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": true,
+        "admin_views.tests.AdminCustomQuerysetTest.test_changelist_view": true,
+        "model_forms.tests.ModelFormBasicTests.test_save_with_data_errors": true,
+        "admin_views.tests.AdminViewListEditable.test_non_form_errors": true,
+        "admin_views.tests.AdminViewBasicTest.test_get_sortable_by_columns_subset": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16229/dedup_patch_34.jsonl": {
+      "django__django-16229": {
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default": true,
+        "model_forms.tests.UniqueTest.test_override_unique_together_message": true,
+        "admin_views.tests.SaveAsTests.test_save_as_new_with_inlines_with_validation_errors": true,
+        "model_forms.tests.UniqueTest.test_unique_for_date": true,
+        "admin_views.test_forms.AdminAuthenticationFormTests.test_inactive_user": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_with_extra_context": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_template": true,
+        "admin_views.tests.AdminViewBasicTest.test_password_change_helptext": true,
+        "admin_views.tests.UserAdminTest.test_save_continue_editing_button": true,
+        "model_forms.tests.ModelFormBaseTest.test_invalid_meta_model": true,
+        "admin_views.tests.UserAdminTest.test_save_button": true,
+        "model_forms.tests.ModelFormBaseTest.test_default_filefield": true,
+        "model_forms.tests.ValidationTest.test_validates_with_replaced_field_excluded": true,
+        "admin_views.tests.AdminViewPermissionsTest.test_login_has_permission": true,
+        "model_forms.tests.ModelFormBaseTest.test_no_model_class": true,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": true,
+        "admin_views.tests.AdminCustomQuerysetTest.test_changelist_view": true,
+        "model_forms.tests.ModelFormBasicTests.test_save_with_data_errors": true,
+        "admin_views.tests.AdminViewListEditable.test_non_form_errors": true,
+        "admin_views.tests.AdminViewBasicTest.test_get_sortable_by_columns_subset": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16229/dedup_patch_35.jsonl": {
+      "django__django-16229": {
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default": true,
+        "model_forms.tests.UniqueTest.test_override_unique_together_message": true,
+        "admin_views.tests.SaveAsTests.test_save_as_new_with_inlines_with_validation_errors": true,
+        "model_forms.tests.UniqueTest.test_unique_for_date": true,
+        "admin_views.test_forms.AdminAuthenticationFormTests.test_inactive_user": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_with_extra_context": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_template": true,
+        "admin_views.tests.AdminViewBasicTest.test_password_change_helptext": true,
+        "admin_views.tests.UserAdminTest.test_save_continue_editing_button": true,
+        "model_forms.tests.ModelFormBaseTest.test_invalid_meta_model": true,
+        "admin_views.tests.UserAdminTest.test_save_button": true,
+        "model_forms.tests.ModelFormBaseTest.test_default_filefield": true,
+        "model_forms.tests.ValidationTest.test_validates_with_replaced_field_excluded": true,
+        "admin_views.tests.AdminViewPermissionsTest.test_login_has_permission": true,
+        "model_forms.tests.ModelFormBaseTest.test_no_model_class": true,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": true,
+        "admin_views.tests.AdminCustomQuerysetTest.test_changelist_view": true,
+        "model_forms.tests.ModelFormBasicTests.test_save_with_data_errors": true,
+        "admin_views.tests.AdminViewListEditable.test_non_form_errors": true,
+        "admin_views.tests.AdminViewBasicTest.test_get_sortable_by_columns_subset": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16229/dedup_patch_36.jsonl": {
+      "django__django-16229": {
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default": false,
+        "model_forms.tests.UniqueTest.test_override_unique_together_message": false,
+        "admin_views.tests.SaveAsTests.test_save_as_new_with_inlines_with_validation_errors": false,
+        "model_forms.tests.UniqueTest.test_unique_for_date": false,
+        "admin_views.test_forms.AdminAuthenticationFormTests.test_inactive_user": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_with_extra_context": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_template": true,
+        "admin_views.tests.AdminViewBasicTest.test_password_change_helptext": true,
+        "admin_views.tests.UserAdminTest.test_save_continue_editing_button": false,
+        "model_forms.tests.ModelFormBaseTest.test_invalid_meta_model": true,
+        "admin_views.tests.UserAdminTest.test_save_button": false,
+        "model_forms.tests.ModelFormBaseTest.test_default_filefield": false,
+        "model_forms.tests.ValidationTest.test_validates_with_replaced_field_excluded": false,
+        "admin_views.tests.AdminViewPermissionsTest.test_login_has_permission": true,
+        "model_forms.tests.ModelFormBaseTest.test_no_model_class": true,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": false,
+        "admin_views.tests.AdminCustomQuerysetTest.test_changelist_view": true,
+        "model_forms.tests.ModelFormBasicTests.test_save_with_data_errors": false,
+        "admin_views.tests.AdminViewListEditable.test_non_form_errors": false,
+        "admin_views.tests.AdminViewBasicTest.test_get_sortable_by_columns_subset": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16229/dedup_patch_37.jsonl": {
+      "django__django-16229": {
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default": false,
+        "model_forms.tests.UniqueTest.test_override_unique_together_message": true,
+        "admin_views.tests.SaveAsTests.test_save_as_new_with_inlines_with_validation_errors": true,
+        "model_forms.tests.UniqueTest.test_unique_for_date": true,
+        "admin_views.test_forms.AdminAuthenticationFormTests.test_inactive_user": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_with_extra_context": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_template": true,
+        "admin_views.tests.AdminViewBasicTest.test_password_change_helptext": true,
+        "admin_views.tests.UserAdminTest.test_save_continue_editing_button": false,
+        "model_forms.tests.ModelFormBaseTest.test_invalid_meta_model": true,
+        "admin_views.tests.UserAdminTest.test_save_button": false,
+        "model_forms.tests.ModelFormBaseTest.test_default_filefield": true,
+        "model_forms.tests.ValidationTest.test_validates_with_replaced_field_excluded": true,
+        "admin_views.tests.AdminViewPermissionsTest.test_login_has_permission": true,
+        "model_forms.tests.ModelFormBaseTest.test_no_model_class": true,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": false,
+        "admin_views.tests.AdminCustomQuerysetTest.test_changelist_view": true,
+        "model_forms.tests.ModelFormBasicTests.test_save_with_data_errors": true,
+        "admin_views.tests.AdminViewListEditable.test_non_form_errors": true,
+        "admin_views.tests.AdminViewBasicTest.test_get_sortable_by_columns_subset": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16229/dedup_patch_4.jsonl": {
+      "django__django-16229": {
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default": true,
+        "model_forms.tests.UniqueTest.test_override_unique_together_message": true,
+        "admin_views.tests.SaveAsTests.test_save_as_new_with_inlines_with_validation_errors": true,
+        "model_forms.tests.UniqueTest.test_unique_for_date": true,
+        "admin_views.test_forms.AdminAuthenticationFormTests.test_inactive_user": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_with_extra_context": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_template": true,
+        "admin_views.tests.AdminViewBasicTest.test_password_change_helptext": true,
+        "admin_views.tests.UserAdminTest.test_save_continue_editing_button": true,
+        "model_forms.tests.ModelFormBaseTest.test_invalid_meta_model": true,
+        "admin_views.tests.UserAdminTest.test_save_button": true,
+        "model_forms.tests.ModelFormBaseTest.test_default_filefield": true,
+        "model_forms.tests.ValidationTest.test_validates_with_replaced_field_excluded": true,
+        "admin_views.tests.AdminViewPermissionsTest.test_login_has_permission": true,
+        "model_forms.tests.ModelFormBaseTest.test_no_model_class": true,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": true,
+        "admin_views.tests.AdminCustomQuerysetTest.test_changelist_view": true,
+        "model_forms.tests.ModelFormBasicTests.test_save_with_data_errors": true,
+        "admin_views.tests.AdminViewListEditable.test_non_form_errors": true,
+        "admin_views.tests.AdminViewBasicTest.test_get_sortable_by_columns_subset": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16229/dedup_patch_5.jsonl": {
+      "django__django-16229": {
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default": true,
+        "model_forms.tests.UniqueTest.test_override_unique_together_message": true,
+        "admin_views.tests.SaveAsTests.test_save_as_new_with_inlines_with_validation_errors": true,
+        "model_forms.tests.UniqueTest.test_unique_for_date": true,
+        "admin_views.test_forms.AdminAuthenticationFormTests.test_inactive_user": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_with_extra_context": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_template": true,
+        "admin_views.tests.AdminViewBasicTest.test_password_change_helptext": true,
+        "admin_views.tests.UserAdminTest.test_save_continue_editing_button": true,
+        "model_forms.tests.ModelFormBaseTest.test_invalid_meta_model": true,
+        "admin_views.tests.UserAdminTest.test_save_button": true,
+        "model_forms.tests.ModelFormBaseTest.test_default_filefield": true,
+        "model_forms.tests.ValidationTest.test_validates_with_replaced_field_excluded": true,
+        "admin_views.tests.AdminViewPermissionsTest.test_login_has_permission": true,
+        "model_forms.tests.ModelFormBaseTest.test_no_model_class": true,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": true,
+        "admin_views.tests.AdminCustomQuerysetTest.test_changelist_view": true,
+        "model_forms.tests.ModelFormBasicTests.test_save_with_data_errors": true,
+        "admin_views.tests.AdminViewListEditable.test_non_form_errors": true,
+        "admin_views.tests.AdminViewBasicTest.test_get_sortable_by_columns_subset": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16229/dedup_patch_6.jsonl": {
+      "django__django-16229": {
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default": false,
+        "model_forms.tests.UniqueTest.test_override_unique_together_message": true,
+        "admin_views.tests.SaveAsTests.test_save_as_new_with_inlines_with_validation_errors": true,
+        "model_forms.tests.UniqueTest.test_unique_for_date": true,
+        "admin_views.test_forms.AdminAuthenticationFormTests.test_inactive_user": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_with_extra_context": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_template": true,
+        "admin_views.tests.AdminViewBasicTest.test_password_change_helptext": true,
+        "admin_views.tests.UserAdminTest.test_save_continue_editing_button": true,
+        "model_forms.tests.ModelFormBaseTest.test_invalid_meta_model": true,
+        "admin_views.tests.UserAdminTest.test_save_button": true,
+        "model_forms.tests.ModelFormBaseTest.test_default_filefield": true,
+        "model_forms.tests.ValidationTest.test_validates_with_replaced_field_excluded": true,
+        "admin_views.tests.AdminViewPermissionsTest.test_login_has_permission": true,
+        "model_forms.tests.ModelFormBaseTest.test_no_model_class": true,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": true,
+        "admin_views.tests.AdminCustomQuerysetTest.test_changelist_view": true,
+        "model_forms.tests.ModelFormBasicTests.test_save_with_data_errors": true,
+        "admin_views.tests.AdminViewListEditable.test_non_form_errors": true,
+        "admin_views.tests.AdminViewBasicTest.test_get_sortable_by_columns_subset": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16229/dedup_patch_7.jsonl": {
+      "django__django-16229": {
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default": true,
+        "model_forms.tests.UniqueTest.test_override_unique_together_message": true,
+        "admin_views.tests.SaveAsTests.test_save_as_new_with_inlines_with_validation_errors": true,
+        "model_forms.tests.UniqueTest.test_unique_for_date": true,
+        "admin_views.test_forms.AdminAuthenticationFormTests.test_inactive_user": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_with_extra_context": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_template": true,
+        "admin_views.tests.AdminViewBasicTest.test_password_change_helptext": true,
+        "admin_views.tests.UserAdminTest.test_save_continue_editing_button": true,
+        "model_forms.tests.ModelFormBaseTest.test_invalid_meta_model": true,
+        "admin_views.tests.UserAdminTest.test_save_button": true,
+        "model_forms.tests.ModelFormBaseTest.test_default_filefield": true,
+        "model_forms.tests.ValidationTest.test_validates_with_replaced_field_excluded": true,
+        "admin_views.tests.AdminViewPermissionsTest.test_login_has_permission": true,
+        "model_forms.tests.ModelFormBaseTest.test_no_model_class": true,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": true,
+        "admin_views.tests.AdminCustomQuerysetTest.test_changelist_view": true,
+        "model_forms.tests.ModelFormBasicTests.test_save_with_data_errors": true,
+        "admin_views.tests.AdminViewListEditable.test_non_form_errors": true,
+        "admin_views.tests.AdminViewBasicTest.test_get_sortable_by_columns_subset": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16229/dedup_patch_8.jsonl": {
+      "django__django-16229": {
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default": true,
+        "model_forms.tests.UniqueTest.test_override_unique_together_message": true,
+        "admin_views.tests.SaveAsTests.test_save_as_new_with_inlines_with_validation_errors": true,
+        "model_forms.tests.UniqueTest.test_unique_for_date": true,
+        "admin_views.test_forms.AdminAuthenticationFormTests.test_inactive_user": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_with_extra_context": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_template": true,
+        "admin_views.tests.AdminViewBasicTest.test_password_change_helptext": true,
+        "admin_views.tests.UserAdminTest.test_save_continue_editing_button": true,
+        "model_forms.tests.ModelFormBaseTest.test_invalid_meta_model": true,
+        "admin_views.tests.UserAdminTest.test_save_button": true,
+        "model_forms.tests.ModelFormBaseTest.test_default_filefield": true,
+        "model_forms.tests.ValidationTest.test_validates_with_replaced_field_excluded": true,
+        "admin_views.tests.AdminViewPermissionsTest.test_login_has_permission": true,
+        "model_forms.tests.ModelFormBaseTest.test_no_model_class": true,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": true,
+        "admin_views.tests.AdminCustomQuerysetTest.test_changelist_view": true,
+        "model_forms.tests.ModelFormBasicTests.test_save_with_data_errors": true,
+        "admin_views.tests.AdminViewListEditable.test_non_form_errors": true,
+        "admin_views.tests.AdminViewBasicTest.test_get_sortable_by_columns_subset": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16229/dedup_patch_9.jsonl": {
+      "django__django-16229": {
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default": true,
+        "model_forms.tests.UniqueTest.test_override_unique_together_message": true,
+        "admin_views.tests.SaveAsTests.test_save_as_new_with_inlines_with_validation_errors": true,
+        "model_forms.tests.UniqueTest.test_unique_for_date": true,
+        "admin_views.test_forms.AdminAuthenticationFormTests.test_inactive_user": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_with_extra_context": true,
+        "admin_views.tests.CustomModelAdminTest.test_custom_admin_site_password_change_template": true,
+        "admin_views.tests.AdminViewBasicTest.test_password_change_helptext": true,
+        "admin_views.tests.UserAdminTest.test_save_continue_editing_button": true,
+        "model_forms.tests.ModelFormBaseTest.test_invalid_meta_model": true,
+        "admin_views.tests.UserAdminTest.test_save_button": true,
+        "model_forms.tests.ModelFormBaseTest.test_default_filefield": true,
+        "model_forms.tests.ValidationTest.test_validates_with_replaced_field_excluded": true,
+        "admin_views.tests.AdminViewPermissionsTest.test_login_has_permission": true,
+        "model_forms.tests.ModelFormBaseTest.test_no_model_class": true,
+        "model_forms.tests.ModelFormBasicTests.test_initial_values": true,
+        "admin_views.tests.AdminCustomQuerysetTest.test_changelist_view": true,
+        "model_forms.tests.ModelFormBasicTests.test_save_with_data_errors": true,
+        "admin_views.tests.AdminViewListEditable.test_non_form_errors": true,
+        "admin_views.tests.AdminViewBasicTest.test_get_sortable_by_columns_subset": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-16229": {
+        "model_forms.tests.OtherModelFormTests.test_arrayfield_with_callable_default_in_inline#1": true,
+        "model_forms.tests.OtherModelFormTests.test_callable_default_propagation_in_modelform#2": true,
+        "model_forms.tests.OtherModelFormTests.test_arrayfield_callable_default#3": true,
+        "model_forms.tests.OtherModelFormTests.test_callable_default_in_inline_form#4": true,
+        "model_forms.tests.OtherModelFormTests.test_modelform_callable_default_propagation#5": true,
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default_with_validation_error#6": true,
+        "model_forms.tests.OtherModelFormTests.test_callable_default_propagation_in_modelform#7": true,
+        "model_forms.tests.OtherModelFormTests.test_modelform_callable_default_propagation#8": true,
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default_propagation#9": true,
+        "model_forms.tests.OtherModelFormTests.test_modelform_callable_default_propagation#10": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16229/dedup_patch_1.jsonl": {
+      "django__django-16229": {
+        "model_forms.tests.OtherModelFormTests.test_arrayfield_with_callable_default_in_inline#1": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_default_propagation_in_modelform#2": false,
+        "model_forms.tests.OtherModelFormTests.test_arrayfield_callable_default#3": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_default_in_inline_form#4": false,
+        "model_forms.tests.OtherModelFormTests.test_modelform_callable_default_propagation#5": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default_with_validation_error#6": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_default_propagation_in_modelform#7": false,
+        "model_forms.tests.OtherModelFormTests.test_modelform_callable_default_propagation#8": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default_propagation#9": false,
+        "model_forms.tests.OtherModelFormTests.test_modelform_callable_default_propagation#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16229/dedup_patch_11.jsonl": {
+      "django__django-16229": {
+        "model_forms.tests.OtherModelFormTests.test_arrayfield_with_callable_default_in_inline#1": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_default_propagation_in_modelform#2": false,
+        "model_forms.tests.OtherModelFormTests.test_arrayfield_callable_default#3": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_default_in_inline_form#4": false,
+        "model_forms.tests.OtherModelFormTests.test_modelform_callable_default_propagation#5": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default_with_validation_error#6": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_default_propagation_in_modelform#7": false,
+        "model_forms.tests.OtherModelFormTests.test_modelform_callable_default_propagation#8": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default_propagation#9": false,
+        "model_forms.tests.OtherModelFormTests.test_modelform_callable_default_propagation#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16229/dedup_patch_13.jsonl": {
+      "django__django-16229": {
+        "model_forms.tests.OtherModelFormTests.test_arrayfield_with_callable_default_in_inline#1": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_default_propagation_in_modelform#2": false,
+        "model_forms.tests.OtherModelFormTests.test_arrayfield_callable_default#3": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_default_in_inline_form#4": false,
+        "model_forms.tests.OtherModelFormTests.test_modelform_callable_default_propagation#5": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default_with_validation_error#6": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_default_propagation_in_modelform#7": false,
+        "model_forms.tests.OtherModelFormTests.test_modelform_callable_default_propagation#8": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default_propagation#9": false,
+        "model_forms.tests.OtherModelFormTests.test_modelform_callable_default_propagation#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16229/dedup_patch_15.jsonl": {
+      "django__django-16229": {
+        "model_forms.tests.OtherModelFormTests.test_arrayfield_with_callable_default_in_inline#1": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_default_propagation_in_modelform#2": false,
+        "model_forms.tests.OtherModelFormTests.test_arrayfield_callable_default#3": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_default_in_inline_form#4": false,
+        "model_forms.tests.OtherModelFormTests.test_modelform_callable_default_propagation#5": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default_with_validation_error#6": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_default_propagation_in_modelform#7": false,
+        "model_forms.tests.OtherModelFormTests.test_modelform_callable_default_propagation#8": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default_propagation#9": false,
+        "model_forms.tests.OtherModelFormTests.test_modelform_callable_default_propagation#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16229/dedup_patch_16.jsonl": {
+      "django__django-16229": {
+        "model_forms.tests.OtherModelFormTests.test_arrayfield_with_callable_default_in_inline#1": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_default_propagation_in_modelform#2": false,
+        "model_forms.tests.OtherModelFormTests.test_arrayfield_callable_default#3": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_default_in_inline_form#4": false,
+        "model_forms.tests.OtherModelFormTests.test_modelform_callable_default_propagation#5": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default_with_validation_error#6": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_default_propagation_in_modelform#7": false,
+        "model_forms.tests.OtherModelFormTests.test_modelform_callable_default_propagation#8": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default_propagation#9": false,
+        "model_forms.tests.OtherModelFormTests.test_modelform_callable_default_propagation#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16229/dedup_patch_2.jsonl": {
+      "django__django-16229": {
+        "model_forms.tests.OtherModelFormTests.test_arrayfield_with_callable_default_in_inline#1": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_default_propagation_in_modelform#2": false,
+        "model_forms.tests.OtherModelFormTests.test_arrayfield_callable_default#3": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_default_in_inline_form#4": false,
+        "model_forms.tests.OtherModelFormTests.test_modelform_callable_default_propagation#5": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default_with_validation_error#6": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_default_propagation_in_modelform#7": false,
+        "model_forms.tests.OtherModelFormTests.test_modelform_callable_default_propagation#8": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default_propagation#9": false,
+        "model_forms.tests.OtherModelFormTests.test_modelform_callable_default_propagation#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16229/dedup_patch_24.jsonl": {
+      "django__django-16229": {
+        "model_forms.tests.OtherModelFormTests.test_arrayfield_with_callable_default_in_inline#1": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_default_propagation_in_modelform#2": false,
+        "model_forms.tests.OtherModelFormTests.test_arrayfield_callable_default#3": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_default_in_inline_form#4": false,
+        "model_forms.tests.OtherModelFormTests.test_modelform_callable_default_propagation#5": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default_with_validation_error#6": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_default_propagation_in_modelform#7": false,
+        "model_forms.tests.OtherModelFormTests.test_modelform_callable_default_propagation#8": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default_propagation#9": false,
+        "model_forms.tests.OtherModelFormTests.test_modelform_callable_default_propagation#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16229/dedup_patch_25.jsonl": {
+      "django__django-16229": {
+        "model_forms.tests.OtherModelFormTests.test_arrayfield_with_callable_default_in_inline#1": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_default_propagation_in_modelform#2": false,
+        "model_forms.tests.OtherModelFormTests.test_arrayfield_callable_default#3": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_default_in_inline_form#4": false,
+        "model_forms.tests.OtherModelFormTests.test_modelform_callable_default_propagation#5": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default_with_validation_error#6": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_default_propagation_in_modelform#7": false,
+        "model_forms.tests.OtherModelFormTests.test_modelform_callable_default_propagation#8": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default_propagation#9": false,
+        "model_forms.tests.OtherModelFormTests.test_modelform_callable_default_propagation#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16229/dedup_patch_27.jsonl": {
+      "django__django-16229": {
+        "model_forms.tests.OtherModelFormTests.test_arrayfield_with_callable_default_in_inline#1": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_default_propagation_in_modelform#2": false,
+        "model_forms.tests.OtherModelFormTests.test_arrayfield_callable_default#3": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_default_in_inline_form#4": false,
+        "model_forms.tests.OtherModelFormTests.test_modelform_callable_default_propagation#5": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default_with_validation_error#6": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_default_propagation_in_modelform#7": false,
+        "model_forms.tests.OtherModelFormTests.test_modelform_callable_default_propagation#8": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default_propagation#9": false,
+        "model_forms.tests.OtherModelFormTests.test_modelform_callable_default_propagation#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16229/dedup_patch_29.jsonl": {
+      "django__django-16229": {
+        "model_forms.tests.OtherModelFormTests.test_arrayfield_with_callable_default_in_inline#1": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_default_propagation_in_modelform#2": false,
+        "model_forms.tests.OtherModelFormTests.test_arrayfield_callable_default#3": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_default_in_inline_form#4": false,
+        "model_forms.tests.OtherModelFormTests.test_modelform_callable_default_propagation#5": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default_with_validation_error#6": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_default_propagation_in_modelform#7": false,
+        "model_forms.tests.OtherModelFormTests.test_modelform_callable_default_propagation#8": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default_propagation#9": false,
+        "model_forms.tests.OtherModelFormTests.test_modelform_callable_default_propagation#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16229/dedup_patch_32.jsonl": {
+      "django__django-16229": {
+        "model_forms.tests.OtherModelFormTests.test_arrayfield_with_callable_default_in_inline#1": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_default_propagation_in_modelform#2": false,
+        "model_forms.tests.OtherModelFormTests.test_arrayfield_callable_default#3": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_default_in_inline_form#4": false,
+        "model_forms.tests.OtherModelFormTests.test_modelform_callable_default_propagation#5": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default_with_validation_error#6": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_default_propagation_in_modelform#7": false,
+        "model_forms.tests.OtherModelFormTests.test_modelform_callable_default_propagation#8": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default_propagation#9": false,
+        "model_forms.tests.OtherModelFormTests.test_modelform_callable_default_propagation#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16229/dedup_patch_33.jsonl": {
+      "django__django-16229": {
+        "model_forms.tests.OtherModelFormTests.test_arrayfield_with_callable_default_in_inline#1": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_default_propagation_in_modelform#2": false,
+        "model_forms.tests.OtherModelFormTests.test_arrayfield_callable_default#3": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_default_in_inline_form#4": false,
+        "model_forms.tests.OtherModelFormTests.test_modelform_callable_default_propagation#5": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default_with_validation_error#6": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_default_propagation_in_modelform#7": false,
+        "model_forms.tests.OtherModelFormTests.test_modelform_callable_default_propagation#8": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default_propagation#9": false,
+        "model_forms.tests.OtherModelFormTests.test_modelform_callable_default_propagation#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16229/dedup_patch_34.jsonl": {
+      "django__django-16229": {
+        "model_forms.tests.OtherModelFormTests.test_arrayfield_with_callable_default_in_inline#1": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_default_propagation_in_modelform#2": false,
+        "model_forms.tests.OtherModelFormTests.test_arrayfield_callable_default#3": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_default_in_inline_form#4": false,
+        "model_forms.tests.OtherModelFormTests.test_modelform_callable_default_propagation#5": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default_with_validation_error#6": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_default_propagation_in_modelform#7": false,
+        "model_forms.tests.OtherModelFormTests.test_modelform_callable_default_propagation#8": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default_propagation#9": false,
+        "model_forms.tests.OtherModelFormTests.test_modelform_callable_default_propagation#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16229/dedup_patch_35.jsonl": {
+      "django__django-16229": {
+        "model_forms.tests.OtherModelFormTests.test_arrayfield_with_callable_default_in_inline#1": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_default_propagation_in_modelform#2": false,
+        "model_forms.tests.OtherModelFormTests.test_arrayfield_callable_default#3": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_default_in_inline_form#4": false,
+        "model_forms.tests.OtherModelFormTests.test_modelform_callable_default_propagation#5": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default_with_validation_error#6": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_default_propagation_in_modelform#7": false,
+        "model_forms.tests.OtherModelFormTests.test_modelform_callable_default_propagation#8": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default_propagation#9": false,
+        "model_forms.tests.OtherModelFormTests.test_modelform_callable_default_propagation#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16229/dedup_patch_4.jsonl": {
+      "django__django-16229": {
+        "model_forms.tests.OtherModelFormTests.test_arrayfield_with_callable_default_in_inline#1": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_default_propagation_in_modelform#2": false,
+        "model_forms.tests.OtherModelFormTests.test_arrayfield_callable_default#3": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_default_in_inline_form#4": false,
+        "model_forms.tests.OtherModelFormTests.test_modelform_callable_default_propagation#5": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default_with_validation_error#6": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_default_propagation_in_modelform#7": false,
+        "model_forms.tests.OtherModelFormTests.test_modelform_callable_default_propagation#8": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default_propagation#9": false,
+        "model_forms.tests.OtherModelFormTests.test_modelform_callable_default_propagation#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16229/dedup_patch_5.jsonl": {
+      "django__django-16229": {
+        "model_forms.tests.OtherModelFormTests.test_arrayfield_with_callable_default_in_inline#1": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_default_propagation_in_modelform#2": false,
+        "model_forms.tests.OtherModelFormTests.test_arrayfield_callable_default#3": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_default_in_inline_form#4": false,
+        "model_forms.tests.OtherModelFormTests.test_modelform_callable_default_propagation#5": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default_with_validation_error#6": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_default_propagation_in_modelform#7": false,
+        "model_forms.tests.OtherModelFormTests.test_modelform_callable_default_propagation#8": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default_propagation#9": false,
+        "model_forms.tests.OtherModelFormTests.test_modelform_callable_default_propagation#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16229/dedup_patch_7.jsonl": {
+      "django__django-16229": {
+        "model_forms.tests.OtherModelFormTests.test_arrayfield_with_callable_default_in_inline#1": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_default_propagation_in_modelform#2": false,
+        "model_forms.tests.OtherModelFormTests.test_arrayfield_callable_default#3": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_default_in_inline_form#4": false,
+        "model_forms.tests.OtherModelFormTests.test_modelform_callable_default_propagation#5": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default_with_validation_error#6": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_default_propagation_in_modelform#7": false,
+        "model_forms.tests.OtherModelFormTests.test_modelform_callable_default_propagation#8": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default_propagation#9": false,
+        "model_forms.tests.OtherModelFormTests.test_modelform_callable_default_propagation#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16229/dedup_patch_8.jsonl": {
+      "django__django-16229": {
+        "model_forms.tests.OtherModelFormTests.test_arrayfield_with_callable_default_in_inline#1": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_default_propagation_in_modelform#2": false,
+        "model_forms.tests.OtherModelFormTests.test_arrayfield_callable_default#3": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_default_in_inline_form#4": false,
+        "model_forms.tests.OtherModelFormTests.test_modelform_callable_default_propagation#5": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default_with_validation_error#6": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_default_propagation_in_modelform#7": false,
+        "model_forms.tests.OtherModelFormTests.test_modelform_callable_default_propagation#8": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default_propagation#9": false,
+        "model_forms.tests.OtherModelFormTests.test_modelform_callable_default_propagation#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16229/dedup_patch_9.jsonl": {
+      "django__django-16229": {
+        "model_forms.tests.OtherModelFormTests.test_arrayfield_with_callable_default_in_inline#1": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_default_propagation_in_modelform#2": false,
+        "model_forms.tests.OtherModelFormTests.test_arrayfield_callable_default#3": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_default_in_inline_form#4": false,
+        "model_forms.tests.OtherModelFormTests.test_modelform_callable_default_propagation#5": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default_with_validation_error#6": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_default_propagation_in_modelform#7": false,
+        "model_forms.tests.OtherModelFormTests.test_modelform_callable_default_propagation#8": false,
+        "model_forms.tests.OtherModelFormTests.test_callable_field_default_propagation#9": false,
+        "model_forms.tests.OtherModelFormTests.test_modelform_callable_default_propagation#10": false
+      }
+    }
+  }
+}

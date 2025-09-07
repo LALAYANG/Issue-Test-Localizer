@@ -1,0 +1,62 @@
+{
+  "regression": {
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15814/dedup_patch_0.jsonl": {
+      "django__django-15814": {
+        "model_inheritance.tests.ModelInheritanceDataTests.test_update_works_on_parent_and_child_models_at_once": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_exclude_inherited_on_null": true,
+        "many_to_one.tests.ManyToOneTests.test_values_list_exception": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15814/dedup_patch_1.jsonl": {
+      "django__django-15814": {
+        "model_inheritance.tests.ModelInheritanceDataTests.test_update_works_on_parent_and_child_models_at_once": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_exclude_inherited_on_null": true,
+        "many_to_one.tests.ManyToOneTests.test_values_list_exception": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-15814": {
+        "proxy_model_inheritance.tests.MultiTableInheritanceProxyTest.test_select_related_only_on_proxy_model#1": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_with_only_on_proxy_model#2": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_only_on_proxy_model#3": true,
+        "proxy_model_inheritance.tests.MultiTableInheritanceProxyTest.test_select_related_only_on_proxy_model#4": true,
+        "defer.tests.DeferTests.test_only_with_select_related_proxy_model#5": true,
+        "defer.tests.DeferTests.test_only_with_select_related_proxy_model#6": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_only_on_proxy_model#7": true,
+        "defer.tests.DeferTests.test_only_with_select_related_proxy_model#8": true,
+        "defer.tests.DeferTests.test_only_with_select_related_proxy_model#9": true,
+        "select_related.tests.SelectRelatedTests.test_select_related_only_on_proxy_model#10": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15814/dedup_patch_0.jsonl": {
+      "django__django-15814": {
+        "proxy_model_inheritance.tests.MultiTableInheritanceProxyTest.test_select_related_only_on_proxy_model#1": false,
+        "select_related.tests.SelectRelatedTests.test_select_related_with_only_on_proxy_model#2": false,
+        "select_related.tests.SelectRelatedTests.test_select_related_only_on_proxy_model#3": false,
+        "proxy_model_inheritance.tests.MultiTableInheritanceProxyTest.test_select_related_only_on_proxy_model#4": false,
+        "defer.tests.DeferTests.test_only_with_select_related_proxy_model#5": false,
+        "defer.tests.DeferTests.test_only_with_select_related_proxy_model#6": false,
+        "select_related.tests.SelectRelatedTests.test_select_related_only_on_proxy_model#7": false,
+        "defer.tests.DeferTests.test_only_with_select_related_proxy_model#8": false,
+        "defer.tests.DeferTests.test_only_with_select_related_proxy_model#9": false,
+        "select_related.tests.SelectRelatedTests.test_select_related_only_on_proxy_model#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15814/dedup_patch_1.jsonl": {
+      "django__django-15814": {
+        "proxy_model_inheritance.tests.MultiTableInheritanceProxyTest.test_select_related_only_on_proxy_model#1": false,
+        "select_related.tests.SelectRelatedTests.test_select_related_with_only_on_proxy_model#2": false,
+        "select_related.tests.SelectRelatedTests.test_select_related_only_on_proxy_model#3": false,
+        "proxy_model_inheritance.tests.MultiTableInheritanceProxyTest.test_select_related_only_on_proxy_model#4": false,
+        "defer.tests.DeferTests.test_only_with_select_related_proxy_model#5": false,
+        "defer.tests.DeferTests.test_only_with_select_related_proxy_model#6": false,
+        "select_related.tests.SelectRelatedTests.test_select_related_only_on_proxy_model#7": false,
+        "defer.tests.DeferTests.test_only_with_select_related_proxy_model#8": false,
+        "defer.tests.DeferTests.test_only_with_select_related_proxy_model#9": false,
+        "select_related.tests.SelectRelatedTests.test_select_related_only_on_proxy_model#10": false
+      }
+    }
+  }
+}
