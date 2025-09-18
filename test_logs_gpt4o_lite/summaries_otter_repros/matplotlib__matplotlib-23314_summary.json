@@ -1,0 +1,78 @@
+{
+  "instance_id": "matplotlib__matplotlib-23314",
+  "container_id": "3c90542976791612a9ba1a0b4128c3d7f6473e8f29e5e558c2477da52f0e5d1c",
+  "regression": {
+    "results": [
+      {
+        "patch_file": "all_patches/lite_gpt4o_all_unique_patches/matplotlib__matplotlib-23314/dedup_patch_0.jsonl",
+        "inst": "matplotlib__matplotlib-23314",
+        "passed": 4,
+        "failed": 0
+      },
+      {
+        "patch_file": "all_patches/lite_gpt4o_all_unique_patches/matplotlib__matplotlib-23314/dedup_patch_1.jsonl",
+        "inst": "matplotlib__matplotlib-23314",
+        "passed": 4,
+        "failed": 0
+      },
+      {
+        "patch_file": "all_patches/lite_gpt4o_all_unique_patches/matplotlib__matplotlib-23314/dedup_patch_2.jsonl",
+        "inst": "matplotlib__matplotlib-23314",
+        "passed": 4,
+        "failed": 0
+      },
+      {
+        "patch_file": "all_patches/lite_gpt4o_all_unique_patches/matplotlib__matplotlib-23314/dedup_patch_3.jsonl",
+        "inst": "matplotlib__matplotlib-23314",
+        "passed": 4,
+        "failed": 0
+      },
+      {
+        "patch_file": "all_patches/lite_gpt4o_all_unique_patches/matplotlib__matplotlib-23314/dedup_patch_4.jsonl",
+        "inst": "matplotlib__matplotlib-23314",
+        "passed": 4,
+        "failed": 0
+      }
+    ],
+    "top_passed": 4,
+    "top_subset_size": 5
+  },
+  "reproduction": {
+    "lib/mpl_toolkits/tests/test_mplot3d.py::test_shared_axes_retick#1": {
+      "repro_fails_on_clean": false,
+      "outcomes": []
+    },
+    "lib/mpl_toolkits/tests/test_mplot3d.py::test_axes3d_cla#2": {
+      "repro_fails_on_clean": false,
+      "outcomes": []
+    },
+    "lib/mpl_toolkits/tests/test_mplot3d.py::test_scatter3d#3": {
+      "repro_fails_on_clean": false,
+      "outcomes": []
+    },
+    "lib/mpl_toolkits/tests/test_mplot3d.py::test_scatter3d#4": {
+      "repro_fails_on_clean": false,
+      "outcomes": []
+    },
+    "lib/mpl_toolkits/tests/test_mplot3d.py::test_axes3d_cla#5": {
+      "repro_fails_on_clean": false,
+      "outcomes": []
+    },
+    "lib/mpl_toolkits/tests/test_mplot3d.py::test_axes3d_cla#6": {
+      "repro_fails_on_clean": false,
+      "outcomes": []
+    },
+    "lib/mpl_toolkits/tests/test_mplot3d.py::test_scatter3d#7": {
+      "repro_fails_on_clean": false,
+      "outcomes": []
+    },
+    "lib/mpl_toolkits/tests/test_mplot3d.py::test_axes3d_cla#8": {
+      "repro_fails_on_clean": false,
+      "outcomes": []
+    },
+    "lib/mpl_toolkits/tests/test_mplot3d.py::test_scatter3d#9": {
+      "repro_fails_on_clean": false,
+      "outcomes": []
+    }
+  }
+}

@@ -31,7 +31,19 @@
         "sklearn/feature_selection/tests/test_mutual_info.py::test_mutual_info_options#7": false,
         "sklearn/metrics/cluster/tests/test_supervised.py::test_v_measure_and_mutual_information#8": false,
         "sklearn/feature_selection/tests/test_mutual_info.py::test_mutual_info_options#9": false,
-        "sklearn/metrics/cluster/tests/test_supervised.py::test_error_messages_on_wrong_input#10": false
+        "sklearn/metrics/cluster/tests/test_supervised.py::test_error_messages_on_wrong_input#10": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/scikit-learn__scikit-learn-13497/dedup_patch_1.jsonl": {
+      "scikit-learn__scikit-learn-13497": {
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/scikit-learn__scikit-learn-13497/dedup_patch_2.jsonl": {
+      "scikit-learn__scikit-learn-13497": {
+        "reproduce_bug_new.py#11": false
       }
     }
   }

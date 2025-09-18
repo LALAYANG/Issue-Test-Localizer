@@ -1,6 +1,6 @@
 {
   "instance_id": "matplotlib__matplotlib-23987",
-  "container_id": "5d10ea3d7e0ecdda9d54cfe162c023bbcb93ecc7dc67e623234f6383769f9321",
+  "container_id": "07ce111c52d2278c0f9fcffe2cedd4b35c4d9aea15f52329a6eda2ddd8e25926",
   "regression": {
     "results": [
       {
@@ -227,6 +227,81 @@
     "lib/matplotlib/tests/test_constrainedlayout.py::test_bboxtight#10": {
       "repro_fails_on_clean": false,
       "outcomes": []
+    },
+    "lib/reproduce_bug_new.py#11": {
+      "repro_fails_on_clean": true,
+      "outcomes": [
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/matplotlib__matplotlib-23987/dedup_patch_1.jsonl",
+          "inst": "matplotlib__matplotlib-23987",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/matplotlib__matplotlib-23987/dedup_patch_10.jsonl",
+          "inst": "matplotlib__matplotlib-23987",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/matplotlib__matplotlib-23987/dedup_patch_11.jsonl",
+          "inst": "matplotlib__matplotlib-23987",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/matplotlib__matplotlib-23987/dedup_patch_12.jsonl",
+          "inst": "matplotlib__matplotlib-23987",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/matplotlib__matplotlib-23987/dedup_patch_2.jsonl",
+          "inst": "matplotlib__matplotlib-23987",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/matplotlib__matplotlib-23987/dedup_patch_20.jsonl",
+          "inst": "matplotlib__matplotlib-23987",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/matplotlib__matplotlib-23987/dedup_patch_22.jsonl",
+          "inst": "matplotlib__matplotlib-23987",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/matplotlib__matplotlib-23987/dedup_patch_26.jsonl",
+          "inst": "matplotlib__matplotlib-23987",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/matplotlib__matplotlib-23987/dedup_patch_27.jsonl",
+          "inst": "matplotlib__matplotlib-23987",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/matplotlib__matplotlib-23987/dedup_patch_28.jsonl",
+          "inst": "matplotlib__matplotlib-23987",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/matplotlib__matplotlib-23987/dedup_patch_29.jsonl",
+          "inst": "matplotlib__matplotlib-23987",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/matplotlib__matplotlib-23987/dedup_patch_7.jsonl",
+          "inst": "matplotlib__matplotlib-23987",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/matplotlib__matplotlib-23987/dedup_patch_8.jsonl",
+          "inst": "matplotlib__matplotlib-23987",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/matplotlib__matplotlib-23987/dedup_patch_9.jsonl",
+          "inst": "matplotlib__matplotlib-23987",
+          "passed": false
+        }
+      ]
     }
   }
 }

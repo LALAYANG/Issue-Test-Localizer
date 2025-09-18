@@ -1,6 +1,6 @@
 {
   "instance_id": "django__django-14672",
-  "container_id": "ccb5e5bbd303190d65047967085e8d03b989207a45a936f809cb53e76d4060a3",
+  "container_id": "5c67300d88122e665834d4791c89f548de627dc86103bda21ffd1fc3b7ec2cb2",
   "regression": {
     "results": [
       {
@@ -91,6 +91,26 @@
       "outcomes": []
     },
     "m2m_through_regress.tests.ToFieldThroughTests.test_m2m_through_fields_hashable#6": {
+      "repro_fails_on_clean": true,
+      "outcomes": [
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/django__django-14672/dedup_patch_0.jsonl",
+          "inst": "django__django-14672",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/django__django-14672/dedup_patch_1.jsonl",
+          "inst": "django__django-14672",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/django__django-14672/dedup_patch_4.jsonl",
+          "inst": "django__django-14672",
+          "passed": false
+        }
+      ]
+    },
+    "reproduce_bug_new.py#7": {
       "repro_fails_on_clean": true,
       "outcomes": [
         {

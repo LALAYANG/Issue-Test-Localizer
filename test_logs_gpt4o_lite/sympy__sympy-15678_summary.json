@@ -1,6 +1,6 @@
 {
   "instance_id": "sympy__sympy-15678",
-  "container_id": "677ddfcd23ed6fa4a4e16a78da6b83014bafe04257864e1b398d9d36d1c8666f",
+  "container_id": "d0e3e63678f10bb78aeaad19b5ca47a730156c1ebfbee394af4481f08370cccb",
   "regression": {
     "results": [
       {
@@ -905,6 +905,10 @@
       "outcomes": []
     },
     "sympy/geometry/tests/test_util.py::test_idiff#9": {
+      "repro_fails_on_clean": false,
+      "outcomes": []
+    },
+    "reproduce_bug_new.py#10": {
       "repro_fails_on_clean": false,
       "outcomes": []
     }

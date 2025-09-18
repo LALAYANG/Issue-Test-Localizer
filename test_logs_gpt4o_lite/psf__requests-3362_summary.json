@@ -1,6 +1,6 @@
 {
   "instance_id": "psf__requests-3362",
-  "container_id": "8fbb333bb762c78148d7b2eba6d7e0ddefb67e3cb5b07947760628fbfbbc7ee8",
+  "container_id": "9619982e3277923e6d3753e54b400b6ee310a9d9a98f999d11e1d3491deada1d",
   "regression": {
     "results": [
       {
@@ -886,6 +886,116 @@
           "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_6.jsonl",
           "inst": "psf__requests-3362",
           "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_7.jsonl",
+          "inst": "psf__requests-3362",
+          "passed": false
+        }
+      ]
+    },
+    "reproduce_bug_new.py#11": {
+      "repro_fails_on_clean": true,
+      "outcomes": [
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_10.jsonl",
+          "inst": "psf__requests-3362",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_11.jsonl",
+          "inst": "psf__requests-3362",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_12.jsonl",
+          "inst": "psf__requests-3362",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_15.jsonl",
+          "inst": "psf__requests-3362",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_17.jsonl",
+          "inst": "psf__requests-3362",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_2.jsonl",
+          "inst": "psf__requests-3362",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_21.jsonl",
+          "inst": "psf__requests-3362",
+          "passed": true
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_22.jsonl",
+          "inst": "psf__requests-3362",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_23.jsonl",
+          "inst": "psf__requests-3362",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_25.jsonl",
+          "inst": "psf__requests-3362",
+          "passed": true
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_26.jsonl",
+          "inst": "psf__requests-3362",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_27.jsonl",
+          "inst": "psf__requests-3362",
+          "passed": true
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_29.jsonl",
+          "inst": "psf__requests-3362",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_3.jsonl",
+          "inst": "psf__requests-3362",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_30.jsonl",
+          "inst": "psf__requests-3362",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_31.jsonl",
+          "inst": "psf__requests-3362",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_33.jsonl",
+          "inst": "psf__requests-3362",
+          "passed": true
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_34.jsonl",
+          "inst": "psf__requests-3362",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_4.jsonl",
+          "inst": "psf__requests-3362",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_6.jsonl",
+          "inst": "psf__requests-3362",
+          "passed": true
         },
         {
           "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-3362/dedup_patch_7.jsonl",

@@ -1,6 +1,6 @@
 {
   "instance_id": "scikit-learn__scikit-learn-13584",
-  "container_id": "c4431c6644a2c3d31976313de5fd6bd9e383328b6bd90e8faa220c1c15087101",
+  "container_id": "217f4ada305cb5cfb3687208ffbc6383ce624561bfbb38dbe453634999c29467",
   "regression": {
     "results": [
       {
@@ -161,6 +161,16 @@
     "sklearn/utils/tests/test_pprint.py::test_builtin_prettyprinter#10": {
       "repro_fails_on_clean": false,
       "outcomes": []
+    },
+    "reproduce_bug_new.py#11": {
+      "repro_fails_on_clean": true,
+      "outcomes": [
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/scikit-learn__scikit-learn-13584/dedup_patch_1.jsonl",
+          "inst": "scikit-learn__scikit-learn-13584",
+          "passed": false
+        }
+      ]
     }
   }
 }

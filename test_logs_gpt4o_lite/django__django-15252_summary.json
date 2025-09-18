@@ -1,6 +1,6 @@
 {
   "instance_id": "django__django-15252",
-  "container_id": "edc9d740dc8a7973dfc32bd4e978419b9ff979bddb74c44b94ad768b732677ed",
+  "container_id": "887af067cab693a18e097834fa0f56de2bd8fcb3a7a8da859f4cd09ed17c5e3c",
   "regression": {
     "results": [
       {
@@ -309,6 +309,16 @@
       "outcomes": []
     },
     "migrations.test_multidb.MultiDBOperationTests.test_run_python_migrate_foo_router_with_hints#10": {
+      "repro_fails_on_clean": true,
+      "outcomes": [
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/django__django-15252/dedup_patch_22.jsonl",
+          "inst": "django__django-15252",
+          "passed": false
+        }
+      ]
+    },
+    "reproduce_bug_new.py#11": {
       "repro_fails_on_clean": true,
       "outcomes": [
         {

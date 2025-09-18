@@ -1,6 +1,6 @@
 {
   "instance_id": "django__django-12856",
-  "container_id": "8e9a0b9cd22950cdf0d3668e49f7f14c4bed7e05a22c92fbd78a8955f95675ad",
+  "container_id": "3b9ff11bfe8cdc0b3adae1cf4371888579574db081050b5cc9785b25d53e6378",
   "regression": {
     "results": [
       {
@@ -453,6 +453,26 @@
       ]
     },
     "migrations.test_autodetector.AutodetectorTests.test_create_model_with_unique_constraint_field_check#10": {
+      "repro_fails_on_clean": true,
+      "outcomes": [
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/django__django-12856/dedup_patch_40.jsonl",
+          "inst": "django__django-12856",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/django__django-12856/dedup_patch_42.jsonl",
+          "inst": "django__django-12856",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/django__django-12856/dedup_patch_43.jsonl",
+          "inst": "django__django-12856",
+          "passed": false
+        }
+      ]
+    },
+    "reproduce_bug_new.py#11": {
       "repro_fails_on_clean": true,
       "outcomes": [
         {

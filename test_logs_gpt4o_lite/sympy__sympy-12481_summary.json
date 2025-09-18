@@ -1,6 +1,6 @@
 {
   "instance_id": "sympy__sympy-12481",
-  "container_id": "b6d7f04856f4f60930ef5f44ddab82784145a13806405415dab9c345247cdafc",
+  "container_id": "6c4e01618eac8ce2f9c9ad6abd16be1c110cccdf1d5ed518f136b66908013cfb",
   "regression": {
     "results": [
       {
@@ -209,6 +209,21 @@
     "sympy/combinatorics/tests/test_permutations.py::test_Permutation#10": {
       "repro_fails_on_clean": false,
       "outcomes": []
+    },
+    "reproduce_bug_new.py#11": {
+      "repro_fails_on_clean": true,
+      "outcomes": [
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-12481/dedup_patch_10.jsonl",
+          "inst": "sympy__sympy-12481",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-12481/dedup_patch_15.jsonl",
+          "inst": "sympy__sympy-12481",
+          "passed": false
+        }
+      ]
     }
   }
 }

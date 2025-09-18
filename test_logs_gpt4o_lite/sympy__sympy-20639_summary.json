@@ -1,6 +1,6 @@
 {
   "instance_id": "sympy__sympy-20639",
-  "container_id": "6b7251f794ad1adf823e98fd5e6228f42d7b09426d80e26b8d8b6048d2497269",
+  "container_id": "4ab9ef91c3c03195dd641cf8d7b30e7d3cac952e51ef28854ebe203fa67b47cd",
   "regression": {
     "results": [
       {
@@ -277,6 +277,151 @@
     "sympy/printing/pretty/tests/test_pretty.py::test_upretty_sub_super#9": {
       "repro_fails_on_clean": false,
       "outcomes": []
+    },
+    "reproduce_bug_new.py#10": {
+      "repro_fails_on_clean": true,
+      "outcomes": [
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-20639/dedup_patch_0.jsonl",
+          "inst": "sympy__sympy-20639",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-20639/dedup_patch_1.jsonl",
+          "inst": "sympy__sympy-20639",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-20639/dedup_patch_10.jsonl",
+          "inst": "sympy__sympy-20639",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-20639/dedup_patch_12.jsonl",
+          "inst": "sympy__sympy-20639",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-20639/dedup_patch_13.jsonl",
+          "inst": "sympy__sympy-20639",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-20639/dedup_patch_15.jsonl",
+          "inst": "sympy__sympy-20639",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-20639/dedup_patch_16.jsonl",
+          "inst": "sympy__sympy-20639",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-20639/dedup_patch_18.jsonl",
+          "inst": "sympy__sympy-20639",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-20639/dedup_patch_19.jsonl",
+          "inst": "sympy__sympy-20639",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-20639/dedup_patch_2.jsonl",
+          "inst": "sympy__sympy-20639",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-20639/dedup_patch_21.jsonl",
+          "inst": "sympy__sympy-20639",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-20639/dedup_patch_23.jsonl",
+          "inst": "sympy__sympy-20639",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-20639/dedup_patch_25.jsonl",
+          "inst": "sympy__sympy-20639",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-20639/dedup_patch_26.jsonl",
+          "inst": "sympy__sympy-20639",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-20639/dedup_patch_27.jsonl",
+          "inst": "sympy__sympy-20639",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-20639/dedup_patch_3.jsonl",
+          "inst": "sympy__sympy-20639",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-20639/dedup_patch_30.jsonl",
+          "inst": "sympy__sympy-20639",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-20639/dedup_patch_31.jsonl",
+          "inst": "sympy__sympy-20639",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-20639/dedup_patch_32.jsonl",
+          "inst": "sympy__sympy-20639",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-20639/dedup_patch_33.jsonl",
+          "inst": "sympy__sympy-20639",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-20639/dedup_patch_34.jsonl",
+          "inst": "sympy__sympy-20639",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-20639/dedup_patch_35.jsonl",
+          "inst": "sympy__sympy-20639",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-20639/dedup_patch_36.jsonl",
+          "inst": "sympy__sympy-20639",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-20639/dedup_patch_37.jsonl",
+          "inst": "sympy__sympy-20639",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-20639/dedup_patch_38.jsonl",
+          "inst": "sympy__sympy-20639",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-20639/dedup_patch_4.jsonl",
+          "inst": "sympy__sympy-20639",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-20639/dedup_patch_6.jsonl",
+          "inst": "sympy__sympy-20639",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-20639/dedup_patch_7.jsonl",
+          "inst": "sympy__sympy-20639",
+          "passed": false
+        }
+      ]
     }
   }
 }

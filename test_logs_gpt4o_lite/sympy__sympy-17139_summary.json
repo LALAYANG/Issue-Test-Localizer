@@ -1,6 +1,6 @@
 {
   "instance_id": "sympy__sympy-17139",
-  "container_id": "0178b58a4a43d18fb2913f3e1142c82c0b10a1c4fb90a2c48b6320f561f23dd5",
+  "container_id": "44dce44479f8eeee42fc7e0ce3f6d98aeb26cb83de277edff525eb8964eee43e",
   "regression": {
     "results": [
       {
@@ -125,6 +125,51 @@
     "sympy/simplify/tests/test_fu.py::test_TR6#10": {
       "repro_fails_on_clean": false,
       "outcomes": []
+    },
+    "reproduce_bug_new.py#11": {
+      "repro_fails_on_clean": true,
+      "outcomes": [
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-17139/dedup_patch_0.jsonl",
+          "inst": "sympy__sympy-17139",
+          "passed": true
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-17139/dedup_patch_10.jsonl",
+          "inst": "sympy__sympy-17139",
+          "passed": true
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-17139/dedup_patch_11.jsonl",
+          "inst": "sympy__sympy-17139",
+          "passed": true
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-17139/dedup_patch_12.jsonl",
+          "inst": "sympy__sympy-17139",
+          "passed": true
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-17139/dedup_patch_4.jsonl",
+          "inst": "sympy__sympy-17139",
+          "passed": true
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-17139/dedup_patch_6.jsonl",
+          "inst": "sympy__sympy-17139",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-17139/dedup_patch_7.jsonl",
+          "inst": "sympy__sympy-17139",
+          "passed": true
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-17139/dedup_patch_8.jsonl",
+          "inst": "sympy__sympy-17139",
+          "passed": true
+        }
+      ]
     }
   }
 }

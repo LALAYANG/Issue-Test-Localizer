@@ -1,6 +1,6 @@
 {
   "instance_id": "django__django-16400",
-  "container_id": "ac3752539554305b2c4c8eb6a3d1564147ffd53116738fd2e965ec1c0c572138",
+  "container_id": "d95852fcd3adf266fbd24f6c872eb13534a7ccd3af6302f30c7c37c4df7c4389",
   "regression": {
     "results": [
       {
@@ -570,6 +570,51 @@
       ]
     },
     "migrations.test_commands.MigrateTests.test_migrate_command_respects_database_parameter_with_permissions#10": {
+      "repro_fails_on_clean": true,
+      "outcomes": [
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/django__django-16400/dedup_patch_1.jsonl",
+          "inst": "django__django-16400",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/django__django-16400/dedup_patch_12.jsonl",
+          "inst": "django__django-16400",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/django__django-16400/dedup_patch_17.jsonl",
+          "inst": "django__django-16400",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/django__django-16400/dedup_patch_25.jsonl",
+          "inst": "django__django-16400",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/django__django-16400/dedup_patch_4.jsonl",
+          "inst": "django__django-16400",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/django__django-16400/dedup_patch_5.jsonl",
+          "inst": "django__django-16400",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/django__django-16400/dedup_patch_7.jsonl",
+          "inst": "django__django-16400",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/django__django-16400/dedup_patch_9.jsonl",
+          "inst": "django__django-16400",
+          "passed": false
+        }
+      ]
+    },
+    "reproduce_bug_new.py#11": {
       "repro_fails_on_clean": true,
       "outcomes": [
         {

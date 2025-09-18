@@ -1,6 +1,6 @@
 {
   "instance_id": "astropy__astropy-6938",
-  "container_id": "7671d8969ea6f02f635bcd15800c5b9ad51bcadaba43c148e95fd7061f3de8cb",
+  "container_id": "c870102c934a1f51a1ddc9a81d3ede4d59d6a692f10115eb27833128b5cc70bf",
   "regression": {
     "results": [
       {
@@ -158,6 +158,10 @@
       "outcomes": []
     },
     "astropy/io/fits/tests/test_table.py::test_regression_scalar_indexing#10": {
+      "repro_fails_on_clean": false,
+      "outcomes": []
+    },
+    "reproduce_bug_new.py#11": {
       "repro_fails_on_clean": false,
       "outcomes": []
     }

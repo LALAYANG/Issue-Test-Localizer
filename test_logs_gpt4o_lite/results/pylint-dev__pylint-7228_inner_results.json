@@ -29,7 +29,9 @@
         "tests/config/test_argparse_config.py::TestArguments::test_function_rgx_with_han#6": true,
         "tests/config/unittest_config.py::test__regexp_validator_valid#7": false,
         "tests/config/test_argparse_config.py::TestArguments::test_regex_with_unicode_property#8": true,
-        "tests/config/unittest_config.py::test__regexp_validator_valid#9": false
+        "tests/config/unittest_config.py::test__regexp_validator_valid#9": false,
+        "tests/reproduce_bug.py#10": true,
+        "tests/reproduce_bug_new.py#10": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pylint-dev__pylint-7228/dedup_patch_0.jsonl": {
@@ -38,7 +40,9 @@
         "tests/config/test_argparse_config.py::TestArgparseOptionsProviderMixin::test_function_rgx_with_unicode_property#2": false,
         "tests/config/test_argparse_config.py::TestArguments::test_regex_with_unicode_property#3": false,
         "tests/config/test_argparse_config.py::TestArguments::test_function_rgx_with_han#6": false,
-        "tests/config/test_argparse_config.py::TestArguments::test_regex_with_unicode_property#8": false
+        "tests/config/test_argparse_config.py::TestArguments::test_regex_with_unicode_property#8": false,
+        "tests/reproduce_bug.py#10": false,
+        "tests/reproduce_bug_new.py#10": false
       }
     }
   }

@@ -1,6 +1,6 @@
 {
   "instance_id": "psf__requests-2674",
-  "container_id": "6f6a5f2ce24f449811965330ef78432ef12a8a8effbebe164d3f4eeb73ba2cbd",
+  "container_id": "2e69cb0432b6b7e7b8fd28875f8701dd9caa72b0f400bffbcd10a366868098ce",
   "regression": {
     "results": [
       {
@@ -435,6 +435,10 @@
           "passed": false
         }
       ]
+    },
+    "reproduce_bug_new.py#10": {
+      "repro_fails_on_clean": false,
+      "outcomes": []
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "instance_id": "sympy__sympy-20154",
-  "container_id": "7419bc0a0cf53c08b03e12309a7d6942caceaf99e6ac45a6a79c42f04c257d30",
+  "container_id": "441a53327600be65780654e3d2d6b7b32e3a59873abbc83db0c6e303d39aa0b3",
   "regression": {
     "results": [
       {
@@ -216,6 +216,10 @@
       ]
     },
     "sympy/utilities/tests/test_iterables.py::test_partitions#10": {
+      "repro_fails_on_clean": false,
+      "outcomes": []
+    },
+    "reproduce_bug_new.py#11": {
       "repro_fails_on_clean": false,
       "outcomes": []
     }

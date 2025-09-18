@@ -198,13 +198,16 @@
         "sympy/vector/tests/test_printing.py::test_pretty_print_unicode#7": false,
         "sympy/printing/pretty/tests/test_pretty.py::test_degree_printing#8": false,
         "sympy/vector/tests/test_printing.py::test_pretty_print_unicode#9": false,
-        "sympy/printing/pretty/tests/test_pretty.py::test_degree_printing#10": false
+        "sympy/printing/pretty/tests/test_pretty.py::test_degree_printing#10": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-14308/dedup_patch_33.jsonl": {
       "sympy__sympy-14308": {
         "sympy/vector/tests/test_printing.py::test_pretty_printing_ascii#1": false,
-        "sympy/printing/pretty/tests/test_pretty.py::test_vector_expr_pretty_printing#2": false
+        "sympy/printing/pretty/tests/test_pretty.py::test_vector_expr_pretty_printing#2": false,
+        "reproduce_bug_new.py#11": false
       }
     }
   }

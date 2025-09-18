@@ -12,7 +12,9 @@
         "sitemaps_tests.test_http.HTTPSitemapTests.test_sitemap_callable_lastmod_no_items#7": true,
         "sitemaps_tests.test_http.HTTPSitemapTests.test_sitemap_without_items_callable_lastmod#8": true,
         "sitemaps_tests.test_http.HTTPSitemapTests.test_empty_sitemap_with_callable_lastmod#9": true,
-        "sitemaps_tests.test_http.HTTPSitemapTests.test_sitemap_get_latest_lastmod_empty_items#10": true
+        "sitemaps_tests.test_http.HTTPSitemapTests.test_sitemap_get_latest_lastmod_empty_items#10": true,
+        "reproduce_bug.py#11": true,
+        "reproduce_bug_new.py#11": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/django__django-16255/dedup_patch_0.jsonl": {
@@ -26,7 +28,9 @@
         "sitemaps_tests.test_http.HTTPSitemapTests.test_sitemap_callable_lastmod_no_items#7": true,
         "sitemaps_tests.test_http.HTTPSitemapTests.test_sitemap_without_items_callable_lastmod#8": true,
         "sitemaps_tests.test_http.HTTPSitemapTests.test_empty_sitemap_with_callable_lastmod#9": true,
-        "sitemaps_tests.test_http.HTTPSitemapTests.test_sitemap_get_latest_lastmod_empty_items#10": true
+        "sitemaps_tests.test_http.HTTPSitemapTests.test_sitemap_get_latest_lastmod_empty_items#10": true,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
       }
     }
   }

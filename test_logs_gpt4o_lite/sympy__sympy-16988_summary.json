@@ -1,6 +1,6 @@
 {
   "instance_id": "sympy__sympy-16988",
-  "container_id": "556d56a466252431be7e1dc685c6cab5d2c82b2b1232aa327ed8c540140ce132",
+  "container_id": "3da7636bddff28eb8efe6cc9de7722944719ed9f1e7ce77fa8f06c192237c3d6",
   "regression": {
     "results": [
       {
@@ -429,6 +429,10 @@
           "passed": false
         }
       ]
+    },
+    "reproduce_bug_new.py#9": {
+      "repro_fails_on_clean": false,
+      "outcomes": []
     }
   }
 }

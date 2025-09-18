@@ -1,107 +1,107 @@
 {
   "instance_id": "psf__requests-863",
-  "container_id": "5f6269608858043b8a347201928bd00c1aaa39fa33f8fa60ab4edbd3d13e5af7",
+  "container_id": "c435713039c83c1bfeaf9977bc8cce2a328aff156b9383ed64060d10d3820989",
   "regression": {
     "results": [
       {
         "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_0.jsonl",
         "inst": "psf__requests-863",
-        "passed": 0,
-        "failed": 15
+        "passed": 13,
+        "failed": 4
       },
       {
         "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_1.jsonl",
         "inst": "psf__requests-863",
-        "passed": 0,
-        "failed": 15
+        "passed": 13,
+        "failed": 4
       },
       {
         "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_10.jsonl",
         "inst": "psf__requests-863",
-        "passed": 0,
-        "failed": 15
-      },
-      {
-        "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_11.jsonl",
-        "inst": "psf__requests-863",
-        "passed": 0,
-        "failed": 15
+        "passed": 13,
+        "failed": 4
       },
       {
         "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_12.jsonl",
         "inst": "psf__requests-863",
-        "passed": 0,
-        "failed": 15
-      },
-      {
-        "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_13.jsonl",
-        "inst": "psf__requests-863",
-        "passed": 0,
-        "failed": 15
+        "passed": 13,
+        "failed": 4
       },
       {
         "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_14.jsonl",
         "inst": "psf__requests-863",
-        "passed": 0,
-        "failed": 15
-      },
-      {
-        "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_15.jsonl",
-        "inst": "psf__requests-863",
-        "passed": 0,
-        "failed": 15
-      },
-      {
-        "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_2.jsonl",
-        "inst": "psf__requests-863",
-        "passed": 0,
-        "failed": 15
-      },
-      {
-        "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_3.jsonl",
-        "inst": "psf__requests-863",
-        "passed": 0,
-        "failed": 15
-      },
-      {
-        "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_4.jsonl",
-        "inst": "psf__requests-863",
-        "passed": 0,
-        "failed": 15
-      },
-      {
-        "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_5.jsonl",
-        "inst": "psf__requests-863",
-        "passed": 0,
-        "failed": 15
+        "passed": 13,
+        "failed": 4
       },
       {
         "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_6.jsonl",
         "inst": "psf__requests-863",
-        "passed": 0,
-        "failed": 15
+        "passed": 13,
+        "failed": 4
       },
       {
         "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_7.jsonl",
         "inst": "psf__requests-863",
-        "passed": 0,
-        "failed": 15
+        "passed": 13,
+        "failed": 4
       },
       {
         "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_8.jsonl",
         "inst": "psf__requests-863",
-        "passed": 0,
-        "failed": 15
+        "passed": 13,
+        "failed": 4
       },
       {
         "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_9.jsonl",
         "inst": "psf__requests-863",
-        "passed": 0,
-        "failed": 15
+        "passed": 13,
+        "failed": 4
+      },
+      {
+        "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_11.jsonl",
+        "inst": "psf__requests-863",
+        "passed": 12,
+        "failed": 5
+      },
+      {
+        "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_13.jsonl",
+        "inst": "psf__requests-863",
+        "passed": 11,
+        "failed": 6
+      },
+      {
+        "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_15.jsonl",
+        "inst": "psf__requests-863",
+        "passed": 11,
+        "failed": 6
+      },
+      {
+        "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_5.jsonl",
+        "inst": "psf__requests-863",
+        "passed": 11,
+        "failed": 6
+      },
+      {
+        "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_4.jsonl",
+        "inst": "psf__requests-863",
+        "passed": 10,
+        "failed": 7
+      },
+      {
+        "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_2.jsonl",
+        "inst": "psf__requests-863",
+        "passed": 8,
+        "failed": 9
+      },
+      {
+        "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_3.jsonl",
+        "inst": "psf__requests-863",
+        "passed": 8,
+        "failed": 9
       }
     ],
-    "top_passed": 0,
-    "top_subset_size": 16
+    "top_passed": 13,
+    "top_subset_size": 9
   },
   "reproduction": {
     "tests/test_requests.py::RequestsTestSuite::test_hooks_with_list_values#1": {
@@ -123,47 +123,12 @@
           "passed": false
         },
         {
-          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_11.jsonl",
-          "inst": "psf__requests-863",
-          "passed": false
-        },
-        {
           "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_12.jsonl",
           "inst": "psf__requests-863",
           "passed": false
         },
         {
-          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_13.jsonl",
-          "inst": "psf__requests-863",
-          "passed": false
-        },
-        {
           "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_14.jsonl",
-          "inst": "psf__requests-863",
-          "passed": false
-        },
-        {
-          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_15.jsonl",
-          "inst": "psf__requests-863",
-          "passed": false
-        },
-        {
-          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_2.jsonl",
-          "inst": "psf__requests-863",
-          "passed": false
-        },
-        {
-          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_3.jsonl",
-          "inst": "psf__requests-863",
-          "passed": false
-        },
-        {
-          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_4.jsonl",
-          "inst": "psf__requests-863",
-          "passed": false
-        },
-        {
-          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_5.jsonl",
           "inst": "psf__requests-863",
           "passed": false
         },
@@ -216,47 +181,12 @@
           "passed": false
         },
         {
-          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_11.jsonl",
-          "inst": "psf__requests-863",
-          "passed": false
-        },
-        {
           "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_12.jsonl",
           "inst": "psf__requests-863",
           "passed": false
         },
         {
-          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_13.jsonl",
-          "inst": "psf__requests-863",
-          "passed": false
-        },
-        {
           "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_14.jsonl",
-          "inst": "psf__requests-863",
-          "passed": false
-        },
-        {
-          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_15.jsonl",
-          "inst": "psf__requests-863",
-          "passed": false
-        },
-        {
-          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_2.jsonl",
-          "inst": "psf__requests-863",
-          "passed": false
-        },
-        {
-          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_3.jsonl",
-          "inst": "psf__requests-863",
-          "passed": false
-        },
-        {
-          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_4.jsonl",
-          "inst": "psf__requests-863",
-          "passed": false
-        },
-        {
-          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_5.jsonl",
           "inst": "psf__requests-863",
           "passed": false
         },
@@ -301,47 +231,12 @@
           "passed": false
         },
         {
-          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_11.jsonl",
-          "inst": "psf__requests-863",
-          "passed": false
-        },
-        {
           "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_12.jsonl",
           "inst": "psf__requests-863",
           "passed": false
         },
         {
-          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_13.jsonl",
-          "inst": "psf__requests-863",
-          "passed": false
-        },
-        {
           "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_14.jsonl",
-          "inst": "psf__requests-863",
-          "passed": false
-        },
-        {
-          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_15.jsonl",
-          "inst": "psf__requests-863",
-          "passed": false
-        },
-        {
-          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_2.jsonl",
-          "inst": "psf__requests-863",
-          "passed": false
-        },
-        {
-          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_3.jsonl",
-          "inst": "psf__requests-863",
-          "passed": false
-        },
-        {
-          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_4.jsonl",
-          "inst": "psf__requests-863",
-          "passed": false
-        },
-        {
-          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_5.jsonl",
           "inst": "psf__requests-863",
           "passed": false
         },
@@ -386,47 +281,12 @@
           "passed": false
         },
         {
-          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_11.jsonl",
-          "inst": "psf__requests-863",
-          "passed": false
-        },
-        {
           "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_12.jsonl",
           "inst": "psf__requests-863",
           "passed": false
         },
         {
-          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_13.jsonl",
-          "inst": "psf__requests-863",
-          "passed": false
-        },
-        {
           "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_14.jsonl",
-          "inst": "psf__requests-863",
-          "passed": false
-        },
-        {
-          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_15.jsonl",
-          "inst": "psf__requests-863",
-          "passed": false
-        },
-        {
-          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_2.jsonl",
-          "inst": "psf__requests-863",
-          "passed": false
-        },
-        {
-          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_3.jsonl",
-          "inst": "psf__requests-863",
-          "passed": false
-        },
-        {
-          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_4.jsonl",
-          "inst": "psf__requests-863",
-          "passed": false
-        },
-        {
-          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_5.jsonl",
           "inst": "psf__requests-863",
           "passed": false
         },
@@ -471,47 +331,12 @@
           "passed": false
         },
         {
-          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_11.jsonl",
-          "inst": "psf__requests-863",
-          "passed": false
-        },
-        {
           "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_12.jsonl",
           "inst": "psf__requests-863",
           "passed": false
         },
         {
-          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_13.jsonl",
-          "inst": "psf__requests-863",
-          "passed": false
-        },
-        {
           "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_14.jsonl",
-          "inst": "psf__requests-863",
-          "passed": false
-        },
-        {
-          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_15.jsonl",
-          "inst": "psf__requests-863",
-          "passed": false
-        },
-        {
-          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_2.jsonl",
-          "inst": "psf__requests-863",
-          "passed": false
-        },
-        {
-          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_3.jsonl",
-          "inst": "psf__requests-863",
-          "passed": false
-        },
-        {
-          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_4.jsonl",
-          "inst": "psf__requests-863",
-          "passed": false
-        },
-        {
-          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_5.jsonl",
           "inst": "psf__requests-863",
           "passed": false
         },
@@ -538,8 +363,54 @@
       ]
     },
     "tests/test_requests.py::RequestsTestSuite::test_hooks_with_list_values#8": {
-      "repro_fails_on_clean": false,
-      "outcomes": []
+      "repro_fails_on_clean": true,
+      "outcomes": [
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_0.jsonl",
+          "inst": "psf__requests-863",
+          "passed": true
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_1.jsonl",
+          "inst": "psf__requests-863",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_10.jsonl",
+          "inst": "psf__requests-863",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_12.jsonl",
+          "inst": "psf__requests-863",
+          "passed": true
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_14.jsonl",
+          "inst": "psf__requests-863",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_6.jsonl",
+          "inst": "psf__requests-863",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_7.jsonl",
+          "inst": "psf__requests-863",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_8.jsonl",
+          "inst": "psf__requests-863",
+          "passed": true
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_9.jsonl",
+          "inst": "psf__requests-863",
+          "passed": true
+        }
+      ]
     },
     "tests/test_requests.py::RequestsTestSuite::test_hooks_with_list_values#9": {
       "repro_fails_on_clean": false,
@@ -564,47 +435,12 @@
           "passed": false
         },
         {
-          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_11.jsonl",
-          "inst": "psf__requests-863",
-          "passed": false
-        },
-        {
           "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_12.jsonl",
           "inst": "psf__requests-863",
           "passed": false
         },
         {
-          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_13.jsonl",
-          "inst": "psf__requests-863",
-          "passed": false
-        },
-        {
           "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_14.jsonl",
-          "inst": "psf__requests-863",
-          "passed": false
-        },
-        {
-          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_15.jsonl",
-          "inst": "psf__requests-863",
-          "passed": false
-        },
-        {
-          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_2.jsonl",
-          "inst": "psf__requests-863",
-          "passed": false
-        },
-        {
-          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_3.jsonl",
-          "inst": "psf__requests-863",
-          "passed": false
-        },
-        {
-          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_4.jsonl",
-          "inst": "psf__requests-863",
-          "passed": false
-        },
-        {
-          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/psf__requests-863/dedup_patch_5.jsonl",
           "inst": "psf__requests-863",
           "passed": false
         },

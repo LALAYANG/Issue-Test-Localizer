@@ -1,6 +1,6 @@
 {
   "instance_id": "matplotlib__matplotlib-22711",
-  "container_id": "1efdede2d8117b41da71257a257754cc12f196baf274403807dd0b0a65f85e48",
+  "container_id": "c0c49d8edec69c95025bf3eefcb1fae894e20d227c8320a4c8103ec2c66b8e02",
   "regression": {
     "results": [
       {
@@ -75,6 +75,21 @@
     "lib/matplotlib/tests/test_widgets.py::test_slider_reset#8": {
       "repro_fails_on_clean": false,
       "outcomes": []
+    },
+    "lib/reproduce_bug_new.py#9": {
+      "repro_fails_on_clean": true,
+      "outcomes": [
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/matplotlib__matplotlib-22711/dedup_patch_0.jsonl",
+          "inst": "matplotlib__matplotlib-22711",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/matplotlib__matplotlib-22711/dedup_patch_5.jsonl",
+          "inst": "matplotlib__matplotlib-22711",
+          "passed": false
+        }
+      ]
     }
   }
 }

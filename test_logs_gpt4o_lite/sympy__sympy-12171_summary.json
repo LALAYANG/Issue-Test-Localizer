@@ -1,6 +1,6 @@
 {
   "instance_id": "sympy__sympy-12171",
-  "container_id": "0edccd3fee4ec20159db411001466d0f394dba103c72bdb573f2e0f08400d198",
+  "container_id": "c3445f750cb30192e62b7587e9ba26de038b570f469001e0b97142357407e992",
   "regression": {
     "results": [
       {
@@ -167,6 +167,16 @@
     "sympy/printing/tests/test_mathematica.py::test_Function#10": {
       "repro_fails_on_clean": false,
       "outcomes": []
+    },
+    "reproduce_bug_new.py#11": {
+      "repro_fails_on_clean": true,
+      "outcomes": [
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-12171/dedup_patch_1.jsonl",
+          "inst": "sympy__sympy-12171",
+          "passed": false
+        }
+      ]
     }
   }
 }

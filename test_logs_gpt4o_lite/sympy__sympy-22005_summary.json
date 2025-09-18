@@ -1,6 +1,6 @@
 {
   "instance_id": "sympy__sympy-22005",
-  "container_id": "7ab387bee59e4524ed2e0ccd41eac214063457eb5cd23da53975eba11b803b8d",
+  "container_id": "04e4f159bca260f7ddc1d6ecdb301b1dd4c0ae32c7c4dba6eb123504d77ff209",
   "regression": {
     "results": [
       {
@@ -61,6 +61,16 @@
     "sympy/solvers/tests/test_polysys.py::test_solve_issue_3686#9": {
       "repro_fails_on_clean": false,
       "outcomes": []
+    },
+    "reproduce_bug_new.py#10": {
+      "repro_fails_on_clean": true,
+      "outcomes": [
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-22005/dedup_patch_0.jsonl",
+          "inst": "sympy__sympy-22005",
+          "passed": true
+        }
+      ]
     }
   }
 }

@@ -1,0 +1,39 @@
+{
+  "instance_id": "django__django-13660",
+  "container_id": "fc24b540ae226d78c425c941b411061f0dbe1c5813cb6533d82938d345ddfd46",
+  "regression": {
+    "results": [],
+    "top_passed": 0,
+    "top_subset_size": 0
+  },
+  "reproduction": {
+    "shell.tests.ShellCommandTestCase.test_command_with_function_definition#1": {
+      "repro_fails_on_clean": true,
+      "outcomes": []
+    },
+    "shell.tests.ShellCommandTestCase.test_command_option_with_function#2": {
+      "repro_fails_on_clean": true,
+      "outcomes": []
+    },
+    "shell.tests.ShellCommandTestCase.test_shell_command_with_function#3": {
+      "repro_fails_on_clean": true,
+      "outcomes": []
+    },
+    "shell.tests.ShellCommandTestCase.test_command_option#4": {
+      "repro_fails_on_clean": true,
+      "outcomes": []
+    },
+    "shell.tests.ShellCommandTestCase.test_command_option#5": {
+      "repro_fails_on_clean": true,
+      "outcomes": []
+    },
+    "shell.tests.ShellCommandTestCase.test_shell_command_with_function#6": {
+      "repro_fails_on_clean": true,
+      "outcomes": []
+    },
+    "reproduce_bug.py#7": {
+      "repro_fails_on_clean": true,
+      "outcomes": []
+    }
+  }
+}

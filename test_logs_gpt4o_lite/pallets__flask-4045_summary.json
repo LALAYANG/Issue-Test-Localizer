@@ -1,6 +1,6 @@
 {
   "instance_id": "pallets__flask-4045",
-  "container_id": "79cf734b76abb0d3b1020fbdff9f6f99ccada343a97a0611a79f6f889dece331",
+  "container_id": "0e5a7fe7dc33cd93d39067696b8023d7595de2cb461135b4c051ba2b826e2fba",
   "regression": {
     "results": [
       {
@@ -1170,6 +1170,111 @@
           "patch_file": "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-4045/dedup_patch_8.jsonl",
           "inst": "pallets__flask-4045",
           "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-4045/dedup_patch_9.jsonl",
+          "inst": "pallets__flask-4045",
+          "passed": false
+        }
+      ]
+    },
+    "reproduce_bug_new.py#11": {
+      "repro_fails_on_clean": true,
+      "outcomes": [
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-4045/dedup_patch_0.jsonl",
+          "inst": "pallets__flask-4045",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-4045/dedup_patch_1.jsonl",
+          "inst": "pallets__flask-4045",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-4045/dedup_patch_10.jsonl",
+          "inst": "pallets__flask-4045",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-4045/dedup_patch_11.jsonl",
+          "inst": "pallets__flask-4045",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-4045/dedup_patch_12.jsonl",
+          "inst": "pallets__flask-4045",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-4045/dedup_patch_13.jsonl",
+          "inst": "pallets__flask-4045",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-4045/dedup_patch_14.jsonl",
+          "inst": "pallets__flask-4045",
+          "passed": true
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-4045/dedup_patch_15.jsonl",
+          "inst": "pallets__flask-4045",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-4045/dedup_patch_16.jsonl",
+          "inst": "pallets__flask-4045",
+          "passed": true
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-4045/dedup_patch_17.jsonl",
+          "inst": "pallets__flask-4045",
+          "passed": true
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-4045/dedup_patch_18.jsonl",
+          "inst": "pallets__flask-4045",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-4045/dedup_patch_19.jsonl",
+          "inst": "pallets__flask-4045",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-4045/dedup_patch_2.jsonl",
+          "inst": "pallets__flask-4045",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-4045/dedup_patch_3.jsonl",
+          "inst": "pallets__flask-4045",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-4045/dedup_patch_4.jsonl",
+          "inst": "pallets__flask-4045",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-4045/dedup_patch_5.jsonl",
+          "inst": "pallets__flask-4045",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-4045/dedup_patch_6.jsonl",
+          "inst": "pallets__flask-4045",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-4045/dedup_patch_7.jsonl",
+          "inst": "pallets__flask-4045",
+          "passed": true
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-4045/dedup_patch_8.jsonl",
+          "inst": "pallets__flask-4045",
+          "passed": true
         },
         {
           "patch_file": "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-4045/dedup_patch_9.jsonl",

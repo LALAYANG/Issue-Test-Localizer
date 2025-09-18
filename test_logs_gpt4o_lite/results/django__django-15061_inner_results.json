@@ -22,7 +22,9 @@
         "forms_tests.widget_tests.test_multiwidget.MultiWidgetTest.test_label_without_for_attribute#7": true,
         "forms_tests.widget_tests.test_multiwidget.MultiWidgetTest.test_id_for_label#8": true,
         "forms_tests.widget_tests.test_multiwidget.MultiWidgetTest.test_multiwidget_label_id#9": false,
-        "forms_tests.widget_tests.test_multiwidget.MultiWidgetTest.test_label_id_without_index#10": false
+        "forms_tests.widget_tests.test_multiwidget.MultiWidgetTest.test_label_id_without_index#10": false,
+        "reproduce_bug.py#11": true,
+        "reproduce_bug_new.py#11": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/django__django-15061/dedup_patch_0.jsonl": {
@@ -34,7 +36,9 @@
         "forms_tests.widget_tests.test_multiwidget.MultiWidgetTest.test_multiwidget_label_tag#5": false,
         "forms_tests.widget_tests.test_multiwidget.MultiWidgetTest.test_constructor_attrs#6": false,
         "forms_tests.widget_tests.test_multiwidget.MultiWidgetTest.test_label_without_for_attribute#7": false,
-        "forms_tests.widget_tests.test_multiwidget.MultiWidgetTest.test_id_for_label#8": true
+        "forms_tests.widget_tests.test_multiwidget.MultiWidgetTest.test_id_for_label#8": true,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
       }
     }
   }

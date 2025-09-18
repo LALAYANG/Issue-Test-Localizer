@@ -1,6 +1,6 @@
 {
   "instance_id": "django__django-14915",
-  "container_id": "60752c0ff78501a5c00225d5991aeff771893b6957bd5ed83e682c8442f68e89",
+  "container_id": "efa56a36d1708d223ab5a4d183b1d30db2c541069b87b5c30e980de41062dc2f",
   "regression": {
     "results": [
       {
@@ -423,6 +423,51 @@
     "model_forms.test_modelchoicefield.ModelChoiceFieldTests.test_modelchoiceiteratorvalue_is_hashable#10": {
       "repro_fails_on_clean": false,
       "outcomes": []
+    },
+    "reproduce_bug_new.py#11": {
+      "repro_fails_on_clean": true,
+      "outcomes": [
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/django__django-14915/dedup_patch_0.jsonl",
+          "inst": "django__django-14915",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/django__django-14915/dedup_patch_1.jsonl",
+          "inst": "django__django-14915",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/django__django-14915/dedup_patch_2.jsonl",
+          "inst": "django__django-14915",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/django__django-14915/dedup_patch_3.jsonl",
+          "inst": "django__django-14915",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/django__django-14915/dedup_patch_4.jsonl",
+          "inst": "django__django-14915",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/django__django-14915/dedup_patch_5.jsonl",
+          "inst": "django__django-14915",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/django__django-14915/dedup_patch_6.jsonl",
+          "inst": "django__django-14915",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/django__django-14915/dedup_patch_7.jsonl",
+          "inst": "django__django-14915",
+          "passed": false
+        }
+      ]
     }
   }
 }

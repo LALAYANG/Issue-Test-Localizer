@@ -1,6 +1,6 @@
 {
   "instance_id": "sympy__sympy-11870",
-  "container_id": "4e4917a436d98d4540419fdb347c2c288a8b81c62b25a63dface0c85e1a67bd6",
+  "container_id": "cc9b54e0a156c68e06995ca57f1c1d9fa18b2cbb3b821c04572a7cdf377205f9",
   "regression": {
     "results": [
       {
@@ -273,6 +273,10 @@
       "outcomes": []
     },
     "sympy/simplify/tests/test_trigsimp.py::test_Piecewise#10": {
+      "repro_fails_on_clean": false,
+      "outcomes": []
+    },
+    "reproduce_bug_new.py#11": {
       "repro_fails_on_clean": false,
       "outcomes": []
     }

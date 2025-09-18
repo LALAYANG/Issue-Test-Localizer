@@ -1,6 +1,6 @@
 {
   "instance_id": "sympy__sympy-12419",
-  "container_id": "fca127864587bee7b7a039361e93f4f3964b85fd3b766126a6b7d6f2f724d976",
+  "container_id": "5ec1268a6bc550a635f196ed3ab3dbe02a53dc295bace036004fa59f20efb3b9",
   "regression": {
     "results": [
       {
@@ -287,6 +287,151 @@
     "sympy/matrices/tests/test_matrices.py::test_sum#10": {
       "repro_fails_on_clean": false,
       "outcomes": []
+    },
+    "reproduce_bug_new.py#11": {
+      "repro_fails_on_clean": true,
+      "outcomes": [
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-12419/dedup_patch_10.jsonl",
+          "inst": "sympy__sympy-12419",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-12419/dedup_patch_12.jsonl",
+          "inst": "sympy__sympy-12419",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-12419/dedup_patch_13.jsonl",
+          "inst": "sympy__sympy-12419",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-12419/dedup_patch_14.jsonl",
+          "inst": "sympy__sympy-12419",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-12419/dedup_patch_15.jsonl",
+          "inst": "sympy__sympy-12419",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-12419/dedup_patch_16.jsonl",
+          "inst": "sympy__sympy-12419",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-12419/dedup_patch_17.jsonl",
+          "inst": "sympy__sympy-12419",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-12419/dedup_patch_22.jsonl",
+          "inst": "sympy__sympy-12419",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-12419/dedup_patch_23.jsonl",
+          "inst": "sympy__sympy-12419",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-12419/dedup_patch_24.jsonl",
+          "inst": "sympy__sympy-12419",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-12419/dedup_patch_25.jsonl",
+          "inst": "sympy__sympy-12419",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-12419/dedup_patch_27.jsonl",
+          "inst": "sympy__sympy-12419",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-12419/dedup_patch_28.jsonl",
+          "inst": "sympy__sympy-12419",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-12419/dedup_patch_29.jsonl",
+          "inst": "sympy__sympy-12419",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-12419/dedup_patch_30.jsonl",
+          "inst": "sympy__sympy-12419",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-12419/dedup_patch_31.jsonl",
+          "inst": "sympy__sympy-12419",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-12419/dedup_patch_33.jsonl",
+          "inst": "sympy__sympy-12419",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-12419/dedup_patch_34.jsonl",
+          "inst": "sympy__sympy-12419",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-12419/dedup_patch_35.jsonl",
+          "inst": "sympy__sympy-12419",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-12419/dedup_patch_36.jsonl",
+          "inst": "sympy__sympy-12419",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-12419/dedup_patch_37.jsonl",
+          "inst": "sympy__sympy-12419",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-12419/dedup_patch_38.jsonl",
+          "inst": "sympy__sympy-12419",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-12419/dedup_patch_39.jsonl",
+          "inst": "sympy__sympy-12419",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-12419/dedup_patch_4.jsonl",
+          "inst": "sympy__sympy-12419",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-12419/dedup_patch_5.jsonl",
+          "inst": "sympy__sympy-12419",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-12419/dedup_patch_6.jsonl",
+          "inst": "sympy__sympy-12419",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-12419/dedup_patch_8.jsonl",
+          "inst": "sympy__sympy-12419",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-12419/dedup_patch_9.jsonl",
+          "inst": "sympy__sympy-12419",
+          "passed": false
+        }
+      ]
     }
   }
 }

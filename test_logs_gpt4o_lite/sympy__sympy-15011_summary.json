@@ -1,6 +1,6 @@
 {
   "instance_id": "sympy__sympy-15011",
-  "container_id": "870c6063b8d1afa803a20bd2acb4026ad6db53ea50e08c7248c5183c70352055",
+  "container_id": "2a2ad88fa586f260938924bd61407101225af5ce15fc6f09225283dd129d24b8",
   "regression": {
     "results": [
       {
@@ -351,6 +351,66 @@
     "sympy/utilities/tests/test_lambdify.py::test_dummification#10": {
       "repro_fails_on_clean": false,
       "outcomes": []
+    },
+    "reproduce_bug_new.py#11": {
+      "repro_fails_on_clean": true,
+      "outcomes": [
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-15011/dedup_patch_0.jsonl",
+          "inst": "sympy__sympy-15011",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-15011/dedup_patch_17.jsonl",
+          "inst": "sympy__sympy-15011",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-15011/dedup_patch_20.jsonl",
+          "inst": "sympy__sympy-15011",
+          "passed": true
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-15011/dedup_patch_22.jsonl",
+          "inst": "sympy__sympy-15011",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-15011/dedup_patch_23.jsonl",
+          "inst": "sympy__sympy-15011",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-15011/dedup_patch_25.jsonl",
+          "inst": "sympy__sympy-15011",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-15011/dedup_patch_26.jsonl",
+          "inst": "sympy__sympy-15011",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-15011/dedup_patch_27.jsonl",
+          "inst": "sympy__sympy-15011",
+          "passed": true
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-15011/dedup_patch_3.jsonl",
+          "inst": "sympy__sympy-15011",
+          "passed": true
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-15011/dedup_patch_4.jsonl",
+          "inst": "sympy__sympy-15011",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-15011/dedup_patch_5.jsonl",
+          "inst": "sympy__sympy-15011",
+          "passed": false
+        }
+      ]
     }
   }
 }

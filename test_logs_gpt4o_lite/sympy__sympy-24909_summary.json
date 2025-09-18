@@ -1,6 +1,6 @@
 {
   "instance_id": "sympy__sympy-24909",
-  "container_id": "615d7b531a1acb32749797d0e118264e1cd0c5e4961294a1dbda514573fb57c6",
+  "container_id": "c97bb852e3254c476a5263a84dda7a0e67666d9fe62a7ddc14d9988a4b6be539",
   "regression": {
     "results": [
       {
@@ -313,6 +313,36 @@
     "sympy/physics/units/tests/test_quantities.py::test_prefixed_property#10": {
       "repro_fails_on_clean": false,
       "outcomes": []
+    },
+    "reproduce_bug_new.py#11": {
+      "repro_fails_on_clean": true,
+      "outcomes": [
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-24909/dedup_patch_18.jsonl",
+          "inst": "sympy__sympy-24909",
+          "passed": true
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-24909/dedup_patch_22.jsonl",
+          "inst": "sympy__sympy-24909",
+          "passed": true
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-24909/dedup_patch_37.jsonl",
+          "inst": "sympy__sympy-24909",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-24909/dedup_patch_5.jsonl",
+          "inst": "sympy__sympy-24909",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-24909/dedup_patch_7.jsonl",
+          "inst": "sympy__sympy-24909",
+          "passed": true
+        }
+      ]
     }
   }
 }

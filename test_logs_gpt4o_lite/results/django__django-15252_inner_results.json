@@ -400,13 +400,17 @@
         "migrations.test_multidb.MultiDBOperationTests.test_run_python_migrate_foo_router_with_hints#7": false,
         "migrations.test_multidb.MultiDBOperationTests.test_run_python_migrate_foo_router_with_hints#8": false,
         "migrations.test_multidb.MultiDBOperationTests.test_run_sql_migrate_nothing_router#9": false,
-        "migrations.test_multidb.MultiDBOperationTests.test_run_python_migrate_foo_router_with_hints#10": true
+        "migrations.test_multidb.MultiDBOperationTests.test_run_python_migrate_foo_router_with_hints#10": true,
+        "reproduce_bug.py#11": true,
+        "reproduce_bug_new.py#11": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/django__django-15252/dedup_patch_22.jsonl": {
       "django__django-15252": {
         "migrations.test_multidb.MultiDBOperationTests.test_migration_recorder_obeys_db_router#5": false,
-        "migrations.test_multidb.MultiDBOperationTests.test_run_python_migrate_foo_router_with_hints#10": false
+        "migrations.test_multidb.MultiDBOperationTests.test_run_python_migrate_foo_router_with_hints#10": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
       }
     }
   }

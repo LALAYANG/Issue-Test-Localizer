@@ -1,6 +1,6 @@
 {
   "instance_id": "pydata__xarray-5131",
-  "container_id": "e0ccfff8339b6561b00361a638bce776ff7e3e4ae797cb46035761edc6e05c74",
+  "container_id": "588acbbc9dabbef657ff82c4da7d99c3aeb51f88f37a6aa012be8ff206e56380",
   "regression": {
     "results": [
       {
@@ -121,6 +121,26 @@
     "xarray/tests/test_groupby.py::test_groupby_getitem#8": {
       "repro_fails_on_clean": false,
       "outcomes": []
+    },
+    "reproduce_bug_new.py#9": {
+      "repro_fails_on_clean": true,
+      "outcomes": [
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/pydata__xarray-5131/dedup_patch_0.jsonl",
+          "inst": "pydata__xarray-5131",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/pydata__xarray-5131/dedup_patch_1.jsonl",
+          "inst": "pydata__xarray-5131",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/pydata__xarray-5131/dedup_patch_2.jsonl",
+          "inst": "pydata__xarray-5131",
+          "passed": false
+        }
+      ]
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "instance_id": "astropy__astropy-7746",
-  "container_id": "f528965293d7f5ab05c47b18ab16a635f338d5cef335750732a774cea5eb4ad6",
+  "container_id": "a6d498cc1b28872588e3c33d0a7f3fcd99ddd4bdeeeed8263a3f2b8293778573",
   "regression": {
     "results": [
       {
@@ -299,6 +299,191 @@
     "astropy/wcs/tests/test_wcs.py::test_load_fits_path#10": {
       "repro_fails_on_clean": false,
       "outcomes": []
+    },
+    "reproduce_bug_new.py#11": {
+      "repro_fails_on_clean": true,
+      "outcomes": [
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/astropy__astropy-7746/dedup_patch_0.jsonl",
+          "inst": "astropy__astropy-7746",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/astropy__astropy-7746/dedup_patch_1.jsonl",
+          "inst": "astropy__astropy-7746",
+          "passed": true
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/astropy__astropy-7746/dedup_patch_10.jsonl",
+          "inst": "astropy__astropy-7746",
+          "passed": true
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/astropy__astropy-7746/dedup_patch_13.jsonl",
+          "inst": "astropy__astropy-7746",
+          "passed": true
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/astropy__astropy-7746/dedup_patch_14.jsonl",
+          "inst": "astropy__astropy-7746",
+          "passed": true
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/astropy__astropy-7746/dedup_patch_15.jsonl",
+          "inst": "astropy__astropy-7746",
+          "passed": true
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/astropy__astropy-7746/dedup_patch_16.jsonl",
+          "inst": "astropy__astropy-7746",
+          "passed": true
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/astropy__astropy-7746/dedup_patch_17.jsonl",
+          "inst": "astropy__astropy-7746",
+          "passed": true
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/astropy__astropy-7746/dedup_patch_18.jsonl",
+          "inst": "astropy__astropy-7746",
+          "passed": true
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/astropy__astropy-7746/dedup_patch_19.jsonl",
+          "inst": "astropy__astropy-7746",
+          "passed": true
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/astropy__astropy-7746/dedup_patch_20.jsonl",
+          "inst": "astropy__astropy-7746",
+          "passed": true
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/astropy__astropy-7746/dedup_patch_21.jsonl",
+          "inst": "astropy__astropy-7746",
+          "passed": true
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/astropy__astropy-7746/dedup_patch_22.jsonl",
+          "inst": "astropy__astropy-7746",
+          "passed": true
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/astropy__astropy-7746/dedup_patch_23.jsonl",
+          "inst": "astropy__astropy-7746",
+          "passed": true
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/astropy__astropy-7746/dedup_patch_25.jsonl",
+          "inst": "astropy__astropy-7746",
+          "passed": true
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/astropy__astropy-7746/dedup_patch_26.jsonl",
+          "inst": "astropy__astropy-7746",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/astropy__astropy-7746/dedup_patch_27.jsonl",
+          "inst": "astropy__astropy-7746",
+          "passed": true
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/astropy__astropy-7746/dedup_patch_28.jsonl",
+          "inst": "astropy__astropy-7746",
+          "passed": true
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/astropy__astropy-7746/dedup_patch_3.jsonl",
+          "inst": "astropy__astropy-7746",
+          "passed": true
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/astropy__astropy-7746/dedup_patch_30.jsonl",
+          "inst": "astropy__astropy-7746",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/astropy__astropy-7746/dedup_patch_31.jsonl",
+          "inst": "astropy__astropy-7746",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/astropy__astropy-7746/dedup_patch_32.jsonl",
+          "inst": "astropy__astropy-7746",
+          "passed": true
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/astropy__astropy-7746/dedup_patch_33.jsonl",
+          "inst": "astropy__astropy-7746",
+          "passed": true
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/astropy__astropy-7746/dedup_patch_34.jsonl",
+          "inst": "astropy__astropy-7746",
+          "passed": true
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/astropy__astropy-7746/dedup_patch_35.jsonl",
+          "inst": "astropy__astropy-7746",
+          "passed": true
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/astropy__astropy-7746/dedup_patch_36.jsonl",
+          "inst": "astropy__astropy-7746",
+          "passed": true
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/astropy__astropy-7746/dedup_patch_37.jsonl",
+          "inst": "astropy__astropy-7746",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/astropy__astropy-7746/dedup_patch_38.jsonl",
+          "inst": "astropy__astropy-7746",
+          "passed": true
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/astropy__astropy-7746/dedup_patch_39.jsonl",
+          "inst": "astropy__astropy-7746",
+          "passed": true
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/astropy__astropy-7746/dedup_patch_4.jsonl",
+          "inst": "astropy__astropy-7746",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/astropy__astropy-7746/dedup_patch_41.jsonl",
+          "inst": "astropy__astropy-7746",
+          "passed": true
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/astropy__astropy-7746/dedup_patch_5.jsonl",
+          "inst": "astropy__astropy-7746",
+          "passed": true
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/astropy__astropy-7746/dedup_patch_6.jsonl",
+          "inst": "astropy__astropy-7746",
+          "passed": true
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/astropy__astropy-7746/dedup_patch_7.jsonl",
+          "inst": "astropy__astropy-7746",
+          "passed": true
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/astropy__astropy-7746/dedup_patch_8.jsonl",
+          "inst": "astropy__astropy-7746",
+          "passed": true
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/astropy__astropy-7746/dedup_patch_9.jsonl",
+          "inst": "astropy__astropy-7746",
+          "passed": true
+        }
+      ]
     }
   }
 }

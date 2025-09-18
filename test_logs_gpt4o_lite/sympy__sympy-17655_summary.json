@@ -1,6 +1,6 @@
 {
   "instance_id": "sympy__sympy-17655",
-  "container_id": "7336335e182dcf2033d4454cd880ad747c537c479eab2507af9aba2f4809b62c",
+  "container_id": "de4dc83e50dab5d884980bcfb0528a68e75fadab431b3674a5ec230cd91ba09f",
   "regression": {
     "results": [
       {
@@ -301,6 +301,101 @@
     "sympy/geometry/tests/test_point.py::test_issue_11617#9": {
       "repro_fails_on_clean": false,
       "outcomes": []
+    },
+    "reproduce_bug_new.py#10": {
+      "repro_fails_on_clean": true,
+      "outcomes": [
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-17655/dedup_patch_13.jsonl",
+          "inst": "sympy__sympy-17655",
+          "passed": true
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-17655/dedup_patch_14.jsonl",
+          "inst": "sympy__sympy-17655",
+          "passed": true
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-17655/dedup_patch_15.jsonl",
+          "inst": "sympy__sympy-17655",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-17655/dedup_patch_16.jsonl",
+          "inst": "sympy__sympy-17655",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-17655/dedup_patch_17.jsonl",
+          "inst": "sympy__sympy-17655",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-17655/dedup_patch_18.jsonl",
+          "inst": "sympy__sympy-17655",
+          "passed": true
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-17655/dedup_patch_2.jsonl",
+          "inst": "sympy__sympy-17655",
+          "passed": true
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-17655/dedup_patch_20.jsonl",
+          "inst": "sympy__sympy-17655",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-17655/dedup_patch_21.jsonl",
+          "inst": "sympy__sympy-17655",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-17655/dedup_patch_23.jsonl",
+          "inst": "sympy__sympy-17655",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-17655/dedup_patch_24.jsonl",
+          "inst": "sympy__sympy-17655",
+          "passed": true
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-17655/dedup_patch_26.jsonl",
+          "inst": "sympy__sympy-17655",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-17655/dedup_patch_29.jsonl",
+          "inst": "sympy__sympy-17655",
+          "passed": true
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-17655/dedup_patch_30.jsonl",
+          "inst": "sympy__sympy-17655",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-17655/dedup_patch_31.jsonl",
+          "inst": "sympy__sympy-17655",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-17655/dedup_patch_39.jsonl",
+          "inst": "sympy__sympy-17655",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-17655/dedup_patch_4.jsonl",
+          "inst": "sympy__sympy-17655",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-17655/dedup_patch_5.jsonl",
+          "inst": "sympy__sympy-17655",
+          "passed": false
+        }
+      ]
     }
   }
 }

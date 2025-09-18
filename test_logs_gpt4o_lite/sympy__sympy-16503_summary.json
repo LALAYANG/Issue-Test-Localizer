@@ -1,6 +1,6 @@
 {
   "instance_id": "sympy__sympy-16503",
-  "container_id": "01c00ef6236b6bcbebae221e244d189fa05ad39ec6b58ac30a98de3edf775bca",
+  "container_id": "59da8d4f74e993b9afcb8352efedffef42571d477b49d9b1f738f20f498c0e33",
   "regression": {
     "results": [
       {
@@ -265,6 +265,21 @@
     "sympy/printing/pretty/tests/test_pretty.py::test_settings#9": {
       "repro_fails_on_clean": false,
       "outcomes": []
+    },
+    "reproduce_bug_new.py#10": {
+      "repro_fails_on_clean": true,
+      "outcomes": [
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-16503/dedup_patch_28.jsonl",
+          "inst": "sympy__sympy-16503",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-16503/dedup_patch_34.jsonl",
+          "inst": "sympy__sympy-16503",
+          "passed": false
+        }
+      ]
     }
   }
 }

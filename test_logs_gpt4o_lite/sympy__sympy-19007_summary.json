@@ -1,6 +1,6 @@
 {
   "instance_id": "sympy__sympy-19007",
-  "container_id": "25fe196233a101a9386c158c619140654ed50e6c5267246442431edb2e6f0662",
+  "container_id": "1982bc710fca44452de8c32f96ebaa326f12deb69e03cbe8b7c9a42462d4581a",
   "regression": {
     "results": [
       {
@@ -261,6 +261,10 @@
       "outcomes": []
     },
     "sympy/matrices/expressions/tests/test_blockmatrix.py::test_block_collapse_type#10": {
+      "repro_fails_on_clean": false,
+      "outcomes": []
+    },
+    "reproduce_bug_new.py#11": {
       "repro_fails_on_clean": false,
       "outcomes": []
     }

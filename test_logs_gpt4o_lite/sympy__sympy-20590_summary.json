@@ -1,6 +1,6 @@
 {
   "instance_id": "sympy__sympy-20590",
-  "container_id": "1358eb6d2f94a921b0c6d9ed9b77fec5ecba7319adab00c6cb77fbe0055fa792",
+  "container_id": "caf92b8a5d37f26ec7dea4563f93bf6410ef9fe0232fb05638c74cb94a225794",
   "regression": {
     "results": [
       {
@@ -201,6 +201,10 @@
       "outcomes": []
     },
     "sympy/core/tests/test_symbol.py::test_Dummy_force_dummy_index#10": {
+      "repro_fails_on_clean": false,
+      "outcomes": []
+    },
+    "reproduce_bug_new.py#11": {
       "repro_fails_on_clean": false,
       "outcomes": []
     }

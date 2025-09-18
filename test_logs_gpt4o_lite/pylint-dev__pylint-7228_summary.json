@@ -1,6 +1,6 @@
 {
   "instance_id": "pylint-dev__pylint-7228",
-  "container_id": "ce4de858c5e0f3a7eebfaf8c9577e131690ccad03285b0f65e335dce890b5187",
+  "container_id": "2e363f063150c75a476a105b31e1fd5411db509122b69281f309dcbe30237eff",
   "regression": {
     "results": [
       {
@@ -79,6 +79,16 @@
     "tests/config/unittest_config.py::test__regexp_validator_valid#9": {
       "repro_fails_on_clean": false,
       "outcomes": []
+    },
+    "tests/reproduce_bug_new.py#10": {
+      "repro_fails_on_clean": true,
+      "outcomes": [
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/pylint-dev__pylint-7228/dedup_patch_0.jsonl",
+          "inst": "pylint-dev__pylint-7228",
+          "passed": false
+        }
+      ]
     }
   }
 }

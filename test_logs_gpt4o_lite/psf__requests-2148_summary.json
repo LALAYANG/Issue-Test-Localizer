@@ -1,6 +1,6 @@
 {
   "instance_id": "psf__requests-2148",
-  "container_id": "5fae90bc1cd24d565f85821e1d151107d07b75e347af3a1cfb07df31ff595f49",
+  "container_id": "030d16efdeb158403047a295b8056db921a1c59dc92e4990fd6ddc23d1628edd",
   "regression": {
     "results": [
       {
@@ -159,6 +159,10 @@
       ]
     },
     "test_requests.py::test_prepared_request_complete_copy#10": {
+      "repro_fails_on_clean": false,
+      "outcomes": []
+    },
+    "reproduce_bug_new.py#11": {
       "repro_fails_on_clean": false,
       "outcomes": []
     }

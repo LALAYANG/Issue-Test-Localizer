@@ -1,6 +1,6 @@
 {
   "instance_id": "django__django-13660",
-  "container_id": "11f25b5bce9facff3b4121ed7067cf72c90b5e06c097f4c9a5e6df54cd380d5b",
+  "container_id": "2afadfea22bbe768c3588cb2490d8c85347835da54e6749d69133135c9426039",
   "regression": {
     "results": [],
     "top_passed": 0,
@@ -28,6 +28,10 @@
       "outcomes": []
     },
     "shell.tests.ShellCommandTestCase.test_shell_command_with_function#6": {
+      "repro_fails_on_clean": true,
+      "outcomes": []
+    },
+    "reproduce_bug_new.py#7": {
       "repro_fails_on_clean": true,
       "outcomes": []
     }

@@ -184,7 +184,14 @@
         "sklearn/utils/tests/test_pprint.py::test_builtin_prettyprinter#7": false,
         "sklearn/utils/tests/test_pprint.py::test_builtin_prettyprinter#8": false,
         "sklearn/tests/test_config.py::test_set_config#9": false,
-        "sklearn/utils/tests/test_pprint.py::test_builtin_prettyprinter#10": false
+        "sklearn/utils/tests/test_pprint.py::test_builtin_prettyprinter#10": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/scikit-learn__scikit-learn-13584/dedup_patch_1.jsonl": {
+      "scikit-learn__scikit-learn-13584": {
+        "reproduce_bug_new.py#11": false
       }
     }
   }

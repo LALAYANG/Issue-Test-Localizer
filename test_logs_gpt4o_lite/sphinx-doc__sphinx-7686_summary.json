@@ -1,6 +1,6 @@
 {
   "instance_id": "sphinx-doc__sphinx-7686",
-  "container_id": "9ba85306fe2346dc6898e2858592d7424c1e648ea36813d40b552ce6eb847b9c",
+  "container_id": "96baa7bea5c81896bf329eae4b409e7df27612c29cfc5175da247ad0cb8b538b",
   "regression": {
     "results": [
       {
@@ -188,6 +188,31 @@
       ]
     },
     "tests/test_ext_autosummary.py::test_autosummary_imported_members#9": {
+      "repro_fails_on_clean": true,
+      "outcomes": [
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sphinx-doc__sphinx-7686/dedup_patch_11.jsonl",
+          "inst": "sphinx-doc__sphinx-7686",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sphinx-doc__sphinx-7686/dedup_patch_15.jsonl",
+          "inst": "sphinx-doc__sphinx-7686",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sphinx-doc__sphinx-7686/dedup_patch_20.jsonl",
+          "inst": "sphinx-doc__sphinx-7686",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/sphinx-doc__sphinx-7686/dedup_patch_6.jsonl",
+          "inst": "sphinx-doc__sphinx-7686",
+          "passed": false
+        }
+      ]
+    },
+    "tests/reproduce_bug_new.py#10": {
       "repro_fails_on_clean": true,
       "outcomes": [
         {

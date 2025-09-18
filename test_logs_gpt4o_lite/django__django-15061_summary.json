@@ -1,6 +1,6 @@
 {
   "instance_id": "django__django-15061",
-  "container_id": "186446e32f50ee1054d9a0adda1abd462ba1f9c55f9b71f9d9ba26477723d827",
+  "container_id": "e7436e36a71ee48f16ee9cf9743b9f133c11852182e1f835f6dcc0acb8452129",
   "regression": {
     "results": [
       {
@@ -101,6 +101,16 @@
     "forms_tests.widget_tests.test_multiwidget.MultiWidgetTest.test_label_id_without_index#10": {
       "repro_fails_on_clean": false,
       "outcomes": []
+    },
+    "reproduce_bug_new.py#11": {
+      "repro_fails_on_clean": true,
+      "outcomes": [
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/django__django-15061/dedup_patch_0.jsonl",
+          "inst": "django__django-15061",
+          "passed": false
+        }
+      ]
     }
   }
 }

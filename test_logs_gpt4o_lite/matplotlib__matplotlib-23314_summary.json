@@ -1,6 +1,6 @@
 {
   "instance_id": "matplotlib__matplotlib-23314",
-  "container_id": "3c90542976791612a9ba1a0b4128c3d7f6473e8f29e5e558c2477da52f0e5d1c",
+  "container_id": "3d5b7824d369a5698011c184a44b479c9dbf8c27b772aa5b7a229c840f4a3a2c",
   "regression": {
     "results": [
       {
@@ -73,6 +73,36 @@
     "lib/mpl_toolkits/tests/test_mplot3d.py::test_scatter3d#9": {
       "repro_fails_on_clean": false,
       "outcomes": []
+    },
+    "lib/reproduce_bug_new.py#10": {
+      "repro_fails_on_clean": true,
+      "outcomes": [
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/matplotlib__matplotlib-23314/dedup_patch_0.jsonl",
+          "inst": "matplotlib__matplotlib-23314",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/matplotlib__matplotlib-23314/dedup_patch_1.jsonl",
+          "inst": "matplotlib__matplotlib-23314",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/matplotlib__matplotlib-23314/dedup_patch_2.jsonl",
+          "inst": "matplotlib__matplotlib-23314",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/matplotlib__matplotlib-23314/dedup_patch_3.jsonl",
+          "inst": "matplotlib__matplotlib-23314",
+          "passed": false
+        },
+        {
+          "patch_file": "all_patches/lite_gpt4o_all_unique_patches/matplotlib__matplotlib-23314/dedup_patch_4.jsonl",
+          "inst": "matplotlib__matplotlib-23314",
+          "passed": false
+        }
+      ]
     }
   }
 }

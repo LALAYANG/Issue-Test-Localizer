@@ -1,6 +1,6 @@
 {
   "instance_id": "sympy__sympy-23262",
-  "container_id": "80bddf0cd83405c0457774f109209652fab772ef978f413bfce79ed8d1ee8f78",
+  "container_id": "68cc93e0eeaf05eb1b7f4ee21ca703e901909484cd8ae95d1da0d7545856a74f",
   "regression": {
     "results": [
       {
@@ -243,6 +243,10 @@
       "outcomes": []
     },
     "sympy/printing/tests/test_pycode.py::test_issue_20762#10": {
+      "repro_fails_on_clean": false,
+      "outcomes": []
+    },
+    "reproduce_bug_new.py#11": {
       "repro_fails_on_clean": false,
       "outcomes": []
     }

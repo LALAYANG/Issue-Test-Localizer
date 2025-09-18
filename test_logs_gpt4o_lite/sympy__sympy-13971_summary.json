@@ -1,6 +1,6 @@
 {
   "instance_id": "sympy__sympy-13971",
-  "container_id": "ab15e4132a74d3113587c30bb873db41ac5d424409cd26fd86ba66861cc0e9ac",
+  "container_id": "8476b5603bd49801e55d7b1871157f16bc35f56801cab1f6fcd75e0fcdb45ad7",
   "regression": {
     "results": [
       {
@@ -69,6 +69,10 @@
       "outcomes": []
     },
     "sympy/series/tests/test_sequences.py::test_SeqFormula#10": {
+      "repro_fails_on_clean": false,
+      "outcomes": []
+    },
+    "reproduce_bug_new.py#11": {
       "repro_fails_on_clean": false,
       "outcomes": []
     }
