@@ -4,28 +4,48 @@
       "pytest-dev__pytest-5692": {
         "test_session.py::TestNewSession::test_order_of_execution": false,
         "test_pytester.py::test_unicode_args": false,
-        "test_reports.py::TestHooks::test_test_report": false
+        "test_reports.py::TestHooks::test_test_report": false,
+        "test_junitxml.py::test_logging_passing_tests_disabled_does_not_log_test_output": false,
+        "testing/test_session.py::TestNewSession::test_order_of_execution": true,
+        "testing/test_pytester.py::test_unicode_args": true,
+        "testing/test_reports.py::TestHooks::test_test_report": true,
+        "testing/test_junitxml.py::test_logging_passing_tests_disabled_does_not_log_test_output": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-5692/dedup_patch_1.jsonl": {
       "pytest-dev__pytest-5692": {
         "test_session.py::TestNewSession::test_order_of_execution": false,
         "test_pytester.py::test_unicode_args": false,
-        "test_reports.py::TestHooks::test_test_report": false
+        "test_reports.py::TestHooks::test_test_report": false,
+        "test_junitxml.py::test_logging_passing_tests_disabled_does_not_log_test_output": false,
+        "testing/test_session.py::TestNewSession::test_order_of_execution": true,
+        "testing/test_pytester.py::test_unicode_args": true,
+        "testing/test_reports.py::TestHooks::test_test_report": true,
+        "testing/test_junitxml.py::test_logging_passing_tests_disabled_does_not_log_test_output": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-5692/dedup_patch_2.jsonl": {
       "pytest-dev__pytest-5692": {
         "test_session.py::TestNewSession::test_order_of_execution": false,
         "test_pytester.py::test_unicode_args": false,
-        "test_reports.py::TestHooks::test_test_report": false
+        "test_reports.py::TestHooks::test_test_report": false,
+        "test_junitxml.py::test_logging_passing_tests_disabled_does_not_log_test_output": false,
+        "testing/test_session.py::TestNewSession::test_order_of_execution": true,
+        "testing/test_pytester.py::test_unicode_args": true,
+        "testing/test_reports.py::TestHooks::test_test_report": true,
+        "testing/test_junitxml.py::test_logging_passing_tests_disabled_does_not_log_test_output": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-5692/dedup_patch_3.jsonl": {
       "pytest-dev__pytest-5692": {
         "test_session.py::TestNewSession::test_order_of_execution": false,
         "test_pytester.py::test_unicode_args": false,
-        "test_reports.py::TestHooks::test_test_report": false
+        "test_reports.py::TestHooks::test_test_report": false,
+        "test_junitxml.py::test_logging_passing_tests_disabled_does_not_log_test_output": false,
+        "testing/test_session.py::TestNewSession::test_order_of_execution": true,
+        "testing/test_pytester.py::test_unicode_args": true,
+        "testing/test_reports.py::TestHooks::test_test_report": true,
+        "testing/test_junitxml.py::test_logging_passing_tests_disabled_does_not_log_test_output": false
       }
     }
   },
@@ -43,31 +63,36 @@
         "testing/test_junitxml.py::test_record_testsuite_property#9": false,
         "testing/test_junitxml.py::test_record_testsuite_property#10": false,
         "testing/reproduce_bug.py#11": true,
-        "testing/reproduce_bug_new.py#11": true
+        "testing/reproduce_bug_new.py#11": true,
+        "testing/reproduce_bug_new3.py#11": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-5692/dedup_patch_0.jsonl": {
       "pytest-dev__pytest-5692": {
         "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
+        "testing/reproduce_bug_new.py#11": false,
+        "testing/reproduce_bug_new3.py#11": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-5692/dedup_patch_1.jsonl": {
       "pytest-dev__pytest-5692": {
         "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
+        "testing/reproduce_bug_new.py#11": false,
+        "testing/reproduce_bug_new3.py#11": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-5692/dedup_patch_2.jsonl": {
       "pytest-dev__pytest-5692": {
         "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
+        "testing/reproduce_bug_new.py#11": false,
+        "testing/reproduce_bug_new3.py#11": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-5692/dedup_patch_3.jsonl": {
       "pytest-dev__pytest-5692": {
         "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
+        "testing/reproduce_bug_new.py#11": false,
+        "testing/reproduce_bug_new3.py#11": false
       }
     }
   }
