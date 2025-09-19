@@ -7,7 +7,16 @@
         "test_requests.py::RequestsTestCase::test_status_raising": true,
         "test_requests.py::TestTimeout::test_invalid_timeout": true,
         "test_requests.py::TestTimeout::test_connect_timeout": true,
-        "test_requests.py::RequestsTestCase::test_request_ok_set": true
+        "test_requests.py::RequestsTestCase::test_request_ok_set": true,
+        "test_requests.py::RequestsTestCase::test_pyopenssl_redirect": true,
+        "test_requests.py::RequestsTestCase::test_transport_adapter_ordering": true,
+        "test_requests.py::RequestsTestCase::test_cannot_send_unprepared_requests": true,
+        "test_requests.py::RequestsTestCase::test_DIGESTAUTH_WRONG_HTTP_401_GET": true,
+        "test_requests.py::RequestsTestCase::test_invalid_url": true,
+        "test_requests.py::RequestsTestCase::test_session_pickling": true,
+        "test_requests.py::TestTimeout::test_read_timeout": false,
+        "test_requests.py::RequestsTestCase::test_http_error": true,
+        "test_requests.py::test_urllib3_retries": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/psf__requests-2674/dedup_patch_1.jsonl": {
@@ -17,7 +26,16 @@
         "test_requests.py::RequestsTestCase::test_status_raising": true,
         "test_requests.py::TestTimeout::test_invalid_timeout": true,
         "test_requests.py::TestTimeout::test_connect_timeout": true,
-        "test_requests.py::RequestsTestCase::test_request_ok_set": true
+        "test_requests.py::RequestsTestCase::test_request_ok_set": true,
+        "test_requests.py::RequestsTestCase::test_pyopenssl_redirect": true,
+        "test_requests.py::RequestsTestCase::test_transport_adapter_ordering": true,
+        "test_requests.py::RequestsTestCase::test_cannot_send_unprepared_requests": true,
+        "test_requests.py::RequestsTestCase::test_DIGESTAUTH_WRONG_HTTP_401_GET": true,
+        "test_requests.py::RequestsTestCase::test_invalid_url": true,
+        "test_requests.py::RequestsTestCase::test_session_pickling": true,
+        "test_requests.py::TestTimeout::test_read_timeout": false,
+        "test_requests.py::RequestsTestCase::test_http_error": true,
+        "test_requests.py::test_urllib3_retries": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/psf__requests-2674/dedup_patch_10.jsonl": {
@@ -27,7 +45,16 @@
         "test_requests.py::RequestsTestCase::test_status_raising": true,
         "test_requests.py::TestTimeout::test_invalid_timeout": true,
         "test_requests.py::TestTimeout::test_connect_timeout": true,
-        "test_requests.py::RequestsTestCase::test_request_ok_set": true
+        "test_requests.py::RequestsTestCase::test_request_ok_set": true,
+        "test_requests.py::RequestsTestCase::test_pyopenssl_redirect": true,
+        "test_requests.py::RequestsTestCase::test_transport_adapter_ordering": true,
+        "test_requests.py::RequestsTestCase::test_cannot_send_unprepared_requests": true,
+        "test_requests.py::RequestsTestCase::test_DIGESTAUTH_WRONG_HTTP_401_GET": false,
+        "test_requests.py::RequestsTestCase::test_invalid_url": true,
+        "test_requests.py::RequestsTestCase::test_session_pickling": true,
+        "test_requests.py::TestTimeout::test_read_timeout": true,
+        "test_requests.py::RequestsTestCase::test_http_error": true,
+        "test_requests.py::test_urllib3_retries": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/psf__requests-2674/dedup_patch_11.jsonl": {
@@ -37,7 +64,16 @@
         "test_requests.py::RequestsTestCase::test_status_raising": true,
         "test_requests.py::TestTimeout::test_invalid_timeout": true,
         "test_requests.py::TestTimeout::test_connect_timeout": true,
-        "test_requests.py::RequestsTestCase::test_request_ok_set": true
+        "test_requests.py::RequestsTestCase::test_request_ok_set": true,
+        "test_requests.py::RequestsTestCase::test_pyopenssl_redirect": true,
+        "test_requests.py::RequestsTestCase::test_transport_adapter_ordering": true,
+        "test_requests.py::RequestsTestCase::test_cannot_send_unprepared_requests": true,
+        "test_requests.py::RequestsTestCase::test_DIGESTAUTH_WRONG_HTTP_401_GET": true,
+        "test_requests.py::RequestsTestCase::test_invalid_url": true,
+        "test_requests.py::RequestsTestCase::test_session_pickling": true,
+        "test_requests.py::TestTimeout::test_read_timeout": false,
+        "test_requests.py::RequestsTestCase::test_http_error": true,
+        "test_requests.py::test_urllib3_retries": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/psf__requests-2674/dedup_patch_12.jsonl": {
@@ -47,7 +83,16 @@
         "test_requests.py::RequestsTestCase::test_status_raising": true,
         "test_requests.py::TestTimeout::test_invalid_timeout": true,
         "test_requests.py::TestTimeout::test_connect_timeout": true,
-        "test_requests.py::RequestsTestCase::test_request_ok_set": true
+        "test_requests.py::RequestsTestCase::test_request_ok_set": true,
+        "test_requests.py::RequestsTestCase::test_pyopenssl_redirect": true,
+        "test_requests.py::RequestsTestCase::test_transport_adapter_ordering": true,
+        "test_requests.py::RequestsTestCase::test_cannot_send_unprepared_requests": true,
+        "test_requests.py::RequestsTestCase::test_DIGESTAUTH_WRONG_HTTP_401_GET": true,
+        "test_requests.py::RequestsTestCase::test_invalid_url": true,
+        "test_requests.py::RequestsTestCase::test_session_pickling": true,
+        "test_requests.py::TestTimeout::test_read_timeout": false,
+        "test_requests.py::RequestsTestCase::test_http_error": true,
+        "test_requests.py::test_urllib3_retries": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/psf__requests-2674/dedup_patch_13.jsonl": {
@@ -57,7 +102,16 @@
         "test_requests.py::RequestsTestCase::test_status_raising": true,
         "test_requests.py::TestTimeout::test_invalid_timeout": true,
         "test_requests.py::TestTimeout::test_connect_timeout": true,
-        "test_requests.py::RequestsTestCase::test_request_ok_set": true
+        "test_requests.py::RequestsTestCase::test_request_ok_set": true,
+        "test_requests.py::RequestsTestCase::test_pyopenssl_redirect": true,
+        "test_requests.py::RequestsTestCase::test_transport_adapter_ordering": true,
+        "test_requests.py::RequestsTestCase::test_cannot_send_unprepared_requests": true,
+        "test_requests.py::RequestsTestCase::test_DIGESTAUTH_WRONG_HTTP_401_GET": true,
+        "test_requests.py::RequestsTestCase::test_invalid_url": true,
+        "test_requests.py::RequestsTestCase::test_session_pickling": true,
+        "test_requests.py::TestTimeout::test_read_timeout": false,
+        "test_requests.py::RequestsTestCase::test_http_error": true,
+        "test_requests.py::test_urllib3_retries": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/psf__requests-2674/dedup_patch_14.jsonl": {
@@ -67,7 +121,16 @@
         "test_requests.py::RequestsTestCase::test_status_raising": true,
         "test_requests.py::TestTimeout::test_invalid_timeout": true,
         "test_requests.py::TestTimeout::test_connect_timeout": true,
-        "test_requests.py::RequestsTestCase::test_request_ok_set": true
+        "test_requests.py::RequestsTestCase::test_request_ok_set": true,
+        "test_requests.py::RequestsTestCase::test_pyopenssl_redirect": true,
+        "test_requests.py::RequestsTestCase::test_transport_adapter_ordering": true,
+        "test_requests.py::RequestsTestCase::test_cannot_send_unprepared_requests": true,
+        "test_requests.py::RequestsTestCase::test_DIGESTAUTH_WRONG_HTTP_401_GET": true,
+        "test_requests.py::RequestsTestCase::test_invalid_url": true,
+        "test_requests.py::RequestsTestCase::test_session_pickling": true,
+        "test_requests.py::TestTimeout::test_read_timeout": true,
+        "test_requests.py::RequestsTestCase::test_http_error": true,
+        "test_requests.py::test_urllib3_retries": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/psf__requests-2674/dedup_patch_15.jsonl": {
@@ -77,7 +140,16 @@
         "test_requests.py::RequestsTestCase::test_status_raising": true,
         "test_requests.py::TestTimeout::test_invalid_timeout": true,
         "test_requests.py::TestTimeout::test_connect_timeout": true,
-        "test_requests.py::RequestsTestCase::test_request_ok_set": true
+        "test_requests.py::RequestsTestCase::test_request_ok_set": true,
+        "test_requests.py::RequestsTestCase::test_pyopenssl_redirect": true,
+        "test_requests.py::RequestsTestCase::test_transport_adapter_ordering": true,
+        "test_requests.py::RequestsTestCase::test_cannot_send_unprepared_requests": true,
+        "test_requests.py::RequestsTestCase::test_DIGESTAUTH_WRONG_HTTP_401_GET": true,
+        "test_requests.py::RequestsTestCase::test_invalid_url": true,
+        "test_requests.py::RequestsTestCase::test_session_pickling": true,
+        "test_requests.py::TestTimeout::test_read_timeout": true,
+        "test_requests.py::RequestsTestCase::test_http_error": true,
+        "test_requests.py::test_urllib3_retries": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/psf__requests-2674/dedup_patch_16.jsonl": {
@@ -87,7 +159,16 @@
         "test_requests.py::RequestsTestCase::test_status_raising": true,
         "test_requests.py::TestTimeout::test_invalid_timeout": true,
         "test_requests.py::TestTimeout::test_connect_timeout": true,
-        "test_requests.py::RequestsTestCase::test_request_ok_set": true
+        "test_requests.py::RequestsTestCase::test_request_ok_set": true,
+        "test_requests.py::RequestsTestCase::test_pyopenssl_redirect": true,
+        "test_requests.py::RequestsTestCase::test_transport_adapter_ordering": true,
+        "test_requests.py::RequestsTestCase::test_cannot_send_unprepared_requests": true,
+        "test_requests.py::RequestsTestCase::test_DIGESTAUTH_WRONG_HTTP_401_GET": true,
+        "test_requests.py::RequestsTestCase::test_invalid_url": true,
+        "test_requests.py::RequestsTestCase::test_session_pickling": true,
+        "test_requests.py::TestTimeout::test_read_timeout": false,
+        "test_requests.py::RequestsTestCase::test_http_error": true,
+        "test_requests.py::test_urllib3_retries": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/psf__requests-2674/dedup_patch_17.jsonl": {
@@ -97,7 +178,16 @@
         "test_requests.py::RequestsTestCase::test_status_raising": true,
         "test_requests.py::TestTimeout::test_invalid_timeout": true,
         "test_requests.py::TestTimeout::test_connect_timeout": true,
-        "test_requests.py::RequestsTestCase::test_request_ok_set": true
+        "test_requests.py::RequestsTestCase::test_request_ok_set": true,
+        "test_requests.py::RequestsTestCase::test_pyopenssl_redirect": true,
+        "test_requests.py::RequestsTestCase::test_transport_adapter_ordering": true,
+        "test_requests.py::RequestsTestCase::test_cannot_send_unprepared_requests": true,
+        "test_requests.py::RequestsTestCase::test_DIGESTAUTH_WRONG_HTTP_401_GET": true,
+        "test_requests.py::RequestsTestCase::test_invalid_url": true,
+        "test_requests.py::RequestsTestCase::test_session_pickling": true,
+        "test_requests.py::TestTimeout::test_read_timeout": false,
+        "test_requests.py::RequestsTestCase::test_http_error": true,
+        "test_requests.py::test_urllib3_retries": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/psf__requests-2674/dedup_patch_18.jsonl": {
@@ -107,7 +197,16 @@
         "test_requests.py::RequestsTestCase::test_status_raising": true,
         "test_requests.py::TestTimeout::test_invalid_timeout": true,
         "test_requests.py::TestTimeout::test_connect_timeout": true,
-        "test_requests.py::RequestsTestCase::test_request_ok_set": true
+        "test_requests.py::RequestsTestCase::test_request_ok_set": true,
+        "test_requests.py::RequestsTestCase::test_pyopenssl_redirect": true,
+        "test_requests.py::RequestsTestCase::test_transport_adapter_ordering": true,
+        "test_requests.py::RequestsTestCase::test_cannot_send_unprepared_requests": true,
+        "test_requests.py::RequestsTestCase::test_DIGESTAUTH_WRONG_HTTP_401_GET": true,
+        "test_requests.py::RequestsTestCase::test_invalid_url": true,
+        "test_requests.py::RequestsTestCase::test_session_pickling": true,
+        "test_requests.py::TestTimeout::test_read_timeout": false,
+        "test_requests.py::RequestsTestCase::test_http_error": true,
+        "test_requests.py::test_urllib3_retries": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/psf__requests-2674/dedup_patch_19.jsonl": {
@@ -117,7 +216,16 @@
         "test_requests.py::RequestsTestCase::test_status_raising": true,
         "test_requests.py::TestTimeout::test_invalid_timeout": true,
         "test_requests.py::TestTimeout::test_connect_timeout": true,
-        "test_requests.py::RequestsTestCase::test_request_ok_set": true
+        "test_requests.py::RequestsTestCase::test_request_ok_set": true,
+        "test_requests.py::RequestsTestCase::test_pyopenssl_redirect": true,
+        "test_requests.py::RequestsTestCase::test_transport_adapter_ordering": true,
+        "test_requests.py::RequestsTestCase::test_cannot_send_unprepared_requests": true,
+        "test_requests.py::RequestsTestCase::test_DIGESTAUTH_WRONG_HTTP_401_GET": true,
+        "test_requests.py::RequestsTestCase::test_invalid_url": true,
+        "test_requests.py::RequestsTestCase::test_session_pickling": true,
+        "test_requests.py::TestTimeout::test_read_timeout": false,
+        "test_requests.py::RequestsTestCase::test_http_error": true,
+        "test_requests.py::test_urllib3_retries": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/psf__requests-2674/dedup_patch_2.jsonl": {
@@ -127,7 +235,16 @@
         "test_requests.py::RequestsTestCase::test_status_raising": true,
         "test_requests.py::TestTimeout::test_invalid_timeout": true,
         "test_requests.py::TestTimeout::test_connect_timeout": true,
-        "test_requests.py::RequestsTestCase::test_request_ok_set": true
+        "test_requests.py::RequestsTestCase::test_request_ok_set": true,
+        "test_requests.py::RequestsTestCase::test_pyopenssl_redirect": true,
+        "test_requests.py::RequestsTestCase::test_transport_adapter_ordering": true,
+        "test_requests.py::RequestsTestCase::test_cannot_send_unprepared_requests": true,
+        "test_requests.py::RequestsTestCase::test_DIGESTAUTH_WRONG_HTTP_401_GET": true,
+        "test_requests.py::RequestsTestCase::test_invalid_url": true,
+        "test_requests.py::RequestsTestCase::test_session_pickling": true,
+        "test_requests.py::TestTimeout::test_read_timeout": false,
+        "test_requests.py::RequestsTestCase::test_http_error": true,
+        "test_requests.py::test_urllib3_retries": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/psf__requests-2674/dedup_patch_20.jsonl": {
@@ -137,7 +254,16 @@
         "test_requests.py::RequestsTestCase::test_status_raising": true,
         "test_requests.py::TestTimeout::test_invalid_timeout": true,
         "test_requests.py::TestTimeout::test_connect_timeout": true,
-        "test_requests.py::RequestsTestCase::test_request_ok_set": true
+        "test_requests.py::RequestsTestCase::test_request_ok_set": true,
+        "test_requests.py::RequestsTestCase::test_pyopenssl_redirect": true,
+        "test_requests.py::RequestsTestCase::test_transport_adapter_ordering": true,
+        "test_requests.py::RequestsTestCase::test_cannot_send_unprepared_requests": true,
+        "test_requests.py::RequestsTestCase::test_DIGESTAUTH_WRONG_HTTP_401_GET": true,
+        "test_requests.py::RequestsTestCase::test_invalid_url": true,
+        "test_requests.py::RequestsTestCase::test_session_pickling": true,
+        "test_requests.py::TestTimeout::test_read_timeout": false,
+        "test_requests.py::RequestsTestCase::test_http_error": true,
+        "test_requests.py::test_urllib3_retries": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/psf__requests-2674/dedup_patch_21.jsonl": {
@@ -147,7 +273,16 @@
         "test_requests.py::RequestsTestCase::test_status_raising": true,
         "test_requests.py::TestTimeout::test_invalid_timeout": true,
         "test_requests.py::TestTimeout::test_connect_timeout": true,
-        "test_requests.py::RequestsTestCase::test_request_ok_set": true
+        "test_requests.py::RequestsTestCase::test_request_ok_set": true,
+        "test_requests.py::RequestsTestCase::test_pyopenssl_redirect": true,
+        "test_requests.py::RequestsTestCase::test_transport_adapter_ordering": true,
+        "test_requests.py::RequestsTestCase::test_cannot_send_unprepared_requests": true,
+        "test_requests.py::RequestsTestCase::test_DIGESTAUTH_WRONG_HTTP_401_GET": true,
+        "test_requests.py::RequestsTestCase::test_invalid_url": true,
+        "test_requests.py::RequestsTestCase::test_session_pickling": true,
+        "test_requests.py::TestTimeout::test_read_timeout": false,
+        "test_requests.py::RequestsTestCase::test_http_error": true,
+        "test_requests.py::test_urllib3_retries": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/psf__requests-2674/dedup_patch_22.jsonl": {
@@ -157,7 +292,16 @@
         "test_requests.py::RequestsTestCase::test_status_raising": true,
         "test_requests.py::TestTimeout::test_invalid_timeout": true,
         "test_requests.py::TestTimeout::test_connect_timeout": true,
-        "test_requests.py::RequestsTestCase::test_request_ok_set": true
+        "test_requests.py::RequestsTestCase::test_request_ok_set": true,
+        "test_requests.py::RequestsTestCase::test_pyopenssl_redirect": true,
+        "test_requests.py::RequestsTestCase::test_transport_adapter_ordering": true,
+        "test_requests.py::RequestsTestCase::test_cannot_send_unprepared_requests": true,
+        "test_requests.py::RequestsTestCase::test_DIGESTAUTH_WRONG_HTTP_401_GET": false,
+        "test_requests.py::RequestsTestCase::test_invalid_url": true,
+        "test_requests.py::RequestsTestCase::test_session_pickling": true,
+        "test_requests.py::TestTimeout::test_read_timeout": true,
+        "test_requests.py::RequestsTestCase::test_http_error": true,
+        "test_requests.py::test_urllib3_retries": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/psf__requests-2674/dedup_patch_23.jsonl": {
@@ -167,7 +311,16 @@
         "test_requests.py::RequestsTestCase::test_status_raising": false,
         "test_requests.py::TestTimeout::test_invalid_timeout": false,
         "test_requests.py::TestTimeout::test_connect_timeout": false,
-        "test_requests.py::RequestsTestCase::test_request_ok_set": false
+        "test_requests.py::RequestsTestCase::test_request_ok_set": false,
+        "test_requests.py::RequestsTestCase::test_pyopenssl_redirect": false,
+        "test_requests.py::RequestsTestCase::test_transport_adapter_ordering": false,
+        "test_requests.py::RequestsTestCase::test_cannot_send_unprepared_requests": false,
+        "test_requests.py::RequestsTestCase::test_DIGESTAUTH_WRONG_HTTP_401_GET": false,
+        "test_requests.py::RequestsTestCase::test_invalid_url": false,
+        "test_requests.py::RequestsTestCase::test_session_pickling": false,
+        "test_requests.py::TestTimeout::test_read_timeout": false,
+        "test_requests.py::RequestsTestCase::test_http_error": false,
+        "test_requests.py::test_urllib3_retries": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/psf__requests-2674/dedup_patch_24.jsonl": {
@@ -177,7 +330,16 @@
         "test_requests.py::RequestsTestCase::test_status_raising": true,
         "test_requests.py::TestTimeout::test_invalid_timeout": true,
         "test_requests.py::TestTimeout::test_connect_timeout": true,
-        "test_requests.py::RequestsTestCase::test_request_ok_set": true
+        "test_requests.py::RequestsTestCase::test_request_ok_set": true,
+        "test_requests.py::RequestsTestCase::test_pyopenssl_redirect": true,
+        "test_requests.py::RequestsTestCase::test_transport_adapter_ordering": true,
+        "test_requests.py::RequestsTestCase::test_cannot_send_unprepared_requests": true,
+        "test_requests.py::RequestsTestCase::test_DIGESTAUTH_WRONG_HTTP_401_GET": true,
+        "test_requests.py::RequestsTestCase::test_invalid_url": true,
+        "test_requests.py::RequestsTestCase::test_session_pickling": true,
+        "test_requests.py::TestTimeout::test_read_timeout": true,
+        "test_requests.py::RequestsTestCase::test_http_error": true,
+        "test_requests.py::test_urllib3_retries": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/psf__requests-2674/dedup_patch_3.jsonl": {
@@ -187,7 +349,16 @@
         "test_requests.py::RequestsTestCase::test_status_raising": true,
         "test_requests.py::TestTimeout::test_invalid_timeout": true,
         "test_requests.py::TestTimeout::test_connect_timeout": true,
-        "test_requests.py::RequestsTestCase::test_request_ok_set": true
+        "test_requests.py::RequestsTestCase::test_request_ok_set": true,
+        "test_requests.py::RequestsTestCase::test_pyopenssl_redirect": true,
+        "test_requests.py::RequestsTestCase::test_transport_adapter_ordering": true,
+        "test_requests.py::RequestsTestCase::test_cannot_send_unprepared_requests": true,
+        "test_requests.py::RequestsTestCase::test_DIGESTAUTH_WRONG_HTTP_401_GET": true,
+        "test_requests.py::RequestsTestCase::test_invalid_url": true,
+        "test_requests.py::RequestsTestCase::test_session_pickling": true,
+        "test_requests.py::TestTimeout::test_read_timeout": false,
+        "test_requests.py::RequestsTestCase::test_http_error": true,
+        "test_requests.py::test_urllib3_retries": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/psf__requests-2674/dedup_patch_4.jsonl": {
@@ -197,7 +368,16 @@
         "test_requests.py::RequestsTestCase::test_status_raising": true,
         "test_requests.py::TestTimeout::test_invalid_timeout": true,
         "test_requests.py::TestTimeout::test_connect_timeout": true,
-        "test_requests.py::RequestsTestCase::test_request_ok_set": true
+        "test_requests.py::RequestsTestCase::test_request_ok_set": true,
+        "test_requests.py::RequestsTestCase::test_pyopenssl_redirect": true,
+        "test_requests.py::RequestsTestCase::test_transport_adapter_ordering": true,
+        "test_requests.py::RequestsTestCase::test_cannot_send_unprepared_requests": true,
+        "test_requests.py::RequestsTestCase::test_DIGESTAUTH_WRONG_HTTP_401_GET": true,
+        "test_requests.py::RequestsTestCase::test_invalid_url": true,
+        "test_requests.py::RequestsTestCase::test_session_pickling": true,
+        "test_requests.py::TestTimeout::test_read_timeout": true,
+        "test_requests.py::RequestsTestCase::test_http_error": true,
+        "test_requests.py::test_urllib3_retries": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/psf__requests-2674/dedup_patch_5.jsonl": {
@@ -207,7 +387,16 @@
         "test_requests.py::RequestsTestCase::test_status_raising": true,
         "test_requests.py::TestTimeout::test_invalid_timeout": true,
         "test_requests.py::TestTimeout::test_connect_timeout": true,
-        "test_requests.py::RequestsTestCase::test_request_ok_set": true
+        "test_requests.py::RequestsTestCase::test_request_ok_set": true,
+        "test_requests.py::RequestsTestCase::test_pyopenssl_redirect": true,
+        "test_requests.py::RequestsTestCase::test_transport_adapter_ordering": true,
+        "test_requests.py::RequestsTestCase::test_cannot_send_unprepared_requests": true,
+        "test_requests.py::RequestsTestCase::test_DIGESTAUTH_WRONG_HTTP_401_GET": true,
+        "test_requests.py::RequestsTestCase::test_invalid_url": true,
+        "test_requests.py::RequestsTestCase::test_session_pickling": true,
+        "test_requests.py::TestTimeout::test_read_timeout": false,
+        "test_requests.py::RequestsTestCase::test_http_error": true,
+        "test_requests.py::test_urllib3_retries": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/psf__requests-2674/dedup_patch_6.jsonl": {
@@ -217,7 +406,16 @@
         "test_requests.py::RequestsTestCase::test_status_raising": true,
         "test_requests.py::TestTimeout::test_invalid_timeout": true,
         "test_requests.py::TestTimeout::test_connect_timeout": true,
-        "test_requests.py::RequestsTestCase::test_request_ok_set": true
+        "test_requests.py::RequestsTestCase::test_request_ok_set": true,
+        "test_requests.py::RequestsTestCase::test_pyopenssl_redirect": true,
+        "test_requests.py::RequestsTestCase::test_transport_adapter_ordering": true,
+        "test_requests.py::RequestsTestCase::test_cannot_send_unprepared_requests": true,
+        "test_requests.py::RequestsTestCase::test_DIGESTAUTH_WRONG_HTTP_401_GET": true,
+        "test_requests.py::RequestsTestCase::test_invalid_url": true,
+        "test_requests.py::RequestsTestCase::test_session_pickling": true,
+        "test_requests.py::TestTimeout::test_read_timeout": false,
+        "test_requests.py::RequestsTestCase::test_http_error": true,
+        "test_requests.py::test_urllib3_retries": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/psf__requests-2674/dedup_patch_7.jsonl": {
@@ -227,7 +425,16 @@
         "test_requests.py::RequestsTestCase::test_status_raising": true,
         "test_requests.py::TestTimeout::test_invalid_timeout": true,
         "test_requests.py::TestTimeout::test_connect_timeout": true,
-        "test_requests.py::RequestsTestCase::test_request_ok_set": true
+        "test_requests.py::RequestsTestCase::test_request_ok_set": true,
+        "test_requests.py::RequestsTestCase::test_pyopenssl_redirect": true,
+        "test_requests.py::RequestsTestCase::test_transport_adapter_ordering": true,
+        "test_requests.py::RequestsTestCase::test_cannot_send_unprepared_requests": true,
+        "test_requests.py::RequestsTestCase::test_DIGESTAUTH_WRONG_HTTP_401_GET": true,
+        "test_requests.py::RequestsTestCase::test_invalid_url": true,
+        "test_requests.py::RequestsTestCase::test_session_pickling": true,
+        "test_requests.py::TestTimeout::test_read_timeout": false,
+        "test_requests.py::RequestsTestCase::test_http_error": true,
+        "test_requests.py::test_urllib3_retries": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/psf__requests-2674/dedup_patch_8.jsonl": {
@@ -237,7 +444,16 @@
         "test_requests.py::RequestsTestCase::test_status_raising": true,
         "test_requests.py::TestTimeout::test_invalid_timeout": true,
         "test_requests.py::TestTimeout::test_connect_timeout": true,
-        "test_requests.py::RequestsTestCase::test_request_ok_set": true
+        "test_requests.py::RequestsTestCase::test_request_ok_set": true,
+        "test_requests.py::RequestsTestCase::test_pyopenssl_redirect": true,
+        "test_requests.py::RequestsTestCase::test_transport_adapter_ordering": true,
+        "test_requests.py::RequestsTestCase::test_cannot_send_unprepared_requests": true,
+        "test_requests.py::RequestsTestCase::test_DIGESTAUTH_WRONG_HTTP_401_GET": true,
+        "test_requests.py::RequestsTestCase::test_invalid_url": true,
+        "test_requests.py::RequestsTestCase::test_session_pickling": true,
+        "test_requests.py::TestTimeout::test_read_timeout": true,
+        "test_requests.py::RequestsTestCase::test_http_error": true,
+        "test_requests.py::test_urllib3_retries": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/psf__requests-2674/dedup_patch_9.jsonl": {
@@ -247,7 +463,16 @@
         "test_requests.py::RequestsTestCase::test_status_raising": true,
         "test_requests.py::TestTimeout::test_invalid_timeout": true,
         "test_requests.py::TestTimeout::test_connect_timeout": true,
-        "test_requests.py::RequestsTestCase::test_request_ok_set": true
+        "test_requests.py::RequestsTestCase::test_request_ok_set": true,
+        "test_requests.py::RequestsTestCase::test_pyopenssl_redirect": true,
+        "test_requests.py::RequestsTestCase::test_transport_adapter_ordering": true,
+        "test_requests.py::RequestsTestCase::test_cannot_send_unprepared_requests": true,
+        "test_requests.py::RequestsTestCase::test_DIGESTAUTH_WRONG_HTTP_401_GET": false,
+        "test_requests.py::RequestsTestCase::test_invalid_url": true,
+        "test_requests.py::RequestsTestCase::test_session_pickling": true,
+        "test_requests.py::TestTimeout::test_read_timeout": true,
+        "test_requests.py::RequestsTestCase::test_http_error": true,
+        "test_requests.py::test_urllib3_retries": true
       }
     }
   },
@@ -264,7 +489,8 @@
         "test_requests.py::RequestsTestCase::test_urllib3_exceptions_wrapped#8": true,
         "test_requests.py::RequestsTestCase::test_urllib3_exceptions_wrapped#9": true,
         "reproduce_bug.py#10": false,
-        "reproduce_bug_new.py#10": false
+        "reproduce_bug_new.py#10": false,
+        "reproduce_bug_new3.py#10": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/psf__requests-2674/dedup_patch_0.jsonl": {
@@ -306,13 +532,15 @@
     "all_patches/lite_gpt4o_all_unique_patches/psf__requests-2674/dedup_patch_14.jsonl": {
       "psf__requests-2674": {
         "test_requests.py::RequestsTestCase::test_urllib3_exceptions_wrapped#8": false,
-        "test_requests.py::RequestsTestCase::test_urllib3_exceptions_wrapped#9": false
+        "test_requests.py::RequestsTestCase::test_urllib3_exceptions_wrapped#9": false,
+        "reproduce_bug_new3.py#10": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/psf__requests-2674/dedup_patch_15.jsonl": {
       "psf__requests-2674": {
         "test_requests.py::RequestsTestCase::test_urllib3_exceptions_wrapped#8": false,
-        "test_requests.py::RequestsTestCase::test_urllib3_exceptions_wrapped#9": false
+        "test_requests.py::RequestsTestCase::test_urllib3_exceptions_wrapped#9": false,
+        "reproduce_bug_new3.py#10": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/psf__requests-2674/dedup_patch_16.jsonl": {
@@ -366,7 +594,8 @@
     "all_patches/lite_gpt4o_all_unique_patches/psf__requests-2674/dedup_patch_24.jsonl": {
       "psf__requests-2674": {
         "test_requests.py::RequestsTestCase::test_urllib3_exceptions_wrapped#8": false,
-        "test_requests.py::RequestsTestCase::test_urllib3_exceptions_wrapped#9": false
+        "test_requests.py::RequestsTestCase::test_urllib3_exceptions_wrapped#9": false,
+        "reproduce_bug_new3.py#10": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/psf__requests-2674/dedup_patch_3.jsonl": {
@@ -378,7 +607,8 @@
     "all_patches/lite_gpt4o_all_unique_patches/psf__requests-2674/dedup_patch_4.jsonl": {
       "psf__requests-2674": {
         "test_requests.py::RequestsTestCase::test_urllib3_exceptions_wrapped#8": false,
-        "test_requests.py::RequestsTestCase::test_urllib3_exceptions_wrapped#9": false
+        "test_requests.py::RequestsTestCase::test_urllib3_exceptions_wrapped#9": false,
+        "reproduce_bug_new3.py#10": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/psf__requests-2674/dedup_patch_5.jsonl": {
@@ -402,7 +632,8 @@
     "all_patches/lite_gpt4o_all_unique_patches/psf__requests-2674/dedup_patch_8.jsonl": {
       "psf__requests-2674": {
         "test_requests.py::RequestsTestCase::test_urllib3_exceptions_wrapped#8": false,
-        "test_requests.py::RequestsTestCase::test_urllib3_exceptions_wrapped#9": false
+        "test_requests.py::RequestsTestCase::test_urllib3_exceptions_wrapped#9": false,
+        "reproduce_bug_new3.py#10": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/psf__requests-2674/dedup_patch_9.jsonl": {
