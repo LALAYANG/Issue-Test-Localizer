@@ -2,464 +2,506 @@
   "regression": {
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-5495/dedup_patch_0.jsonl": {
       "pytest-dev__pytest-5495": {
-        "test_assertrewrite.py::TestAssertionRewrite::test_len": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_comparisons": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_boolop": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_formatchar": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": false
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_len": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_comparisons": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_boolop": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_formatchar": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": true,
+        "testing/test_assertion.py::TestAssert_reprcompare::test_sequence_different_items": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-5495/dedup_patch_1.jsonl": {
       "pytest-dev__pytest-5495": {
-        "test_assertrewrite.py::TestAssertionRewrite::test_len": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_comparisons": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_boolop": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_formatchar": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": false
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_len": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_comparisons": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_boolop": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_formatchar": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": true,
+        "testing/test_assertion.py::TestAssert_reprcompare::test_sequence_different_items": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-5495/dedup_patch_10.jsonl": {
       "pytest-dev__pytest-5495": {
-        "test_assertrewrite.py::TestAssertionRewrite::test_len": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_comparisons": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_boolop": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_formatchar": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": false
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_len": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_comparisons": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_boolop": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_formatchar": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": true,
+        "testing/test_assertion.py::TestAssert_reprcompare::test_sequence_different_items": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-5495/dedup_patch_11.jsonl": {
       "pytest-dev__pytest-5495": {
-        "test_assertrewrite.py::TestAssertionRewrite::test_len": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_comparisons": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_boolop": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_formatchar": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": false
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_len": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_comparisons": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_boolop": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_formatchar": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": true,
+        "testing/test_assertion.py::TestAssert_reprcompare::test_sequence_different_items": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-5495/dedup_patch_12.jsonl": {
       "pytest-dev__pytest-5495": {
-        "test_assertrewrite.py::TestAssertionRewrite::test_len": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_comparisons": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_boolop": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_formatchar": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": false
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_len": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_comparisons": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_boolop": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_formatchar": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": true,
+        "testing/test_assertion.py::TestAssert_reprcompare::test_sequence_different_items": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-5495/dedup_patch_13.jsonl": {
       "pytest-dev__pytest-5495": {
-        "test_assertrewrite.py::TestAssertionRewrite::test_len": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_comparisons": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_boolop": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_formatchar": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": false
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_len": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_comparisons": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_boolop": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_formatchar": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": true,
+        "testing/test_assertion.py::TestAssert_reprcompare::test_sequence_different_items": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-5495/dedup_patch_14.jsonl": {
       "pytest-dev__pytest-5495": {
-        "test_assertrewrite.py::TestAssertionRewrite::test_len": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_comparisons": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_boolop": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_formatchar": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": false
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_len": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_comparisons": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_boolop": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_formatchar": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": true,
+        "testing/test_assertion.py::TestAssert_reprcompare::test_sequence_different_items": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-5495/dedup_patch_15.jsonl": {
       "pytest-dev__pytest-5495": {
-        "test_assertrewrite.py::TestAssertionRewrite::test_len": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_comparisons": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_boolop": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_formatchar": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": false
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_len": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_comparisons": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_boolop": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_formatchar": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": true,
+        "testing/test_assertion.py::TestAssert_reprcompare::test_sequence_different_items": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-5495/dedup_patch_16.jsonl": {
       "pytest-dev__pytest-5495": {
-        "test_assertrewrite.py::TestAssertionRewrite::test_len": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_comparisons": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_boolop": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_formatchar": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": false
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_len": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_comparisons": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_boolop": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_formatchar": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": true,
+        "testing/test_assertion.py::TestAssert_reprcompare::test_sequence_different_items": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-5495/dedup_patch_17.jsonl": {
       "pytest-dev__pytest-5495": {
-        "test_assertrewrite.py::TestAssertionRewrite::test_len": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_comparisons": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_boolop": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_formatchar": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": false
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_len": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_comparisons": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_boolop": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_formatchar": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": true,
+        "testing/test_assertion.py::TestAssert_reprcompare::test_sequence_different_items": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-5495/dedup_patch_18.jsonl": {
       "pytest-dev__pytest-5495": {
-        "test_assertrewrite.py::TestAssertionRewrite::test_len": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_comparisons": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_boolop": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_formatchar": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": false
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_len": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_comparisons": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_boolop": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_formatchar": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": true,
+        "testing/test_assertion.py::TestAssert_reprcompare::test_sequence_different_items": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-5495/dedup_patch_19.jsonl": {
       "pytest-dev__pytest-5495": {
-        "test_assertrewrite.py::TestAssertionRewrite::test_len": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_comparisons": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_boolop": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_formatchar": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": false
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_len": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_comparisons": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_boolop": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_formatchar": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": true,
+        "testing/test_assertion.py::TestAssert_reprcompare::test_sequence_different_items": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-5495/dedup_patch_2.jsonl": {
       "pytest-dev__pytest-5495": {
-        "test_assertrewrite.py::TestAssertionRewrite::test_len": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_comparisons": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_boolop": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_formatchar": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": false
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_len": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_comparisons": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_boolop": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_formatchar": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": true,
+        "testing/test_assertion.py::TestAssert_reprcompare::test_sequence_different_items": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-5495/dedup_patch_20.jsonl": {
       "pytest-dev__pytest-5495": {
-        "test_assertrewrite.py::TestAssertionRewrite::test_len": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_comparisons": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_boolop": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_formatchar": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": false
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_len": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_comparisons": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_boolop": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_formatchar": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": true,
+        "testing/test_assertion.py::TestAssert_reprcompare::test_sequence_different_items": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-5495/dedup_patch_21.jsonl": {
       "pytest-dev__pytest-5495": {
-        "test_assertrewrite.py::TestAssertionRewrite::test_len": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_comparisons": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_boolop": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_formatchar": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": false
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_len": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_comparisons": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_boolop": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_formatchar": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": true,
+        "testing/test_assertion.py::TestAssert_reprcompare::test_sequence_different_items": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-5495/dedup_patch_22.jsonl": {
       "pytest-dev__pytest-5495": {
-        "test_assertrewrite.py::TestAssertionRewrite::test_len": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_comparisons": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_boolop": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_formatchar": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": false
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_len": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_comparisons": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_boolop": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_formatchar": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": true,
+        "testing/test_assertion.py::TestAssert_reprcompare::test_sequence_different_items": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-5495/dedup_patch_23.jsonl": {
       "pytest-dev__pytest-5495": {
-        "test_assertrewrite.py::TestAssertionRewrite::test_len": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_comparisons": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_boolop": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_formatchar": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": false
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_len": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_comparisons": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_boolop": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_formatchar": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": true,
+        "testing/test_assertion.py::TestAssert_reprcompare::test_sequence_different_items": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-5495/dedup_patch_24.jsonl": {
       "pytest-dev__pytest-5495": {
-        "test_assertrewrite.py::TestAssertionRewrite::test_len": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_comparisons": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_boolop": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_formatchar": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": false
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_len": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_comparisons": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_boolop": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_formatchar": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": true,
+        "testing/test_assertion.py::TestAssert_reprcompare::test_sequence_different_items": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-5495/dedup_patch_25.jsonl": {
       "pytest-dev__pytest-5495": {
-        "test_assertrewrite.py::TestAssertionRewrite::test_len": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_comparisons": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_boolop": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_formatchar": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": false
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_len": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_comparisons": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_boolop": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_formatchar": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": true,
+        "testing/test_assertion.py::TestAssert_reprcompare::test_sequence_different_items": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-5495/dedup_patch_26.jsonl": {
       "pytest-dev__pytest-5495": {
-        "test_assertrewrite.py::TestAssertionRewrite::test_len": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_comparisons": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_boolop": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_formatchar": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": false
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_len": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_comparisons": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_boolop": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_formatchar": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": true,
+        "testing/test_assertion.py::TestAssert_reprcompare::test_sequence_different_items": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-5495/dedup_patch_27.jsonl": {
       "pytest-dev__pytest-5495": {
-        "test_assertrewrite.py::TestAssertionRewrite::test_len": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_comparisons": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_boolop": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_formatchar": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": false
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_len": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_comparisons": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_boolop": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_formatchar": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": true,
+        "testing/test_assertion.py::TestAssert_reprcompare::test_sequence_different_items": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-5495/dedup_patch_28.jsonl": {
       "pytest-dev__pytest-5495": {
-        "test_assertrewrite.py::TestAssertionRewrite::test_len": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_comparisons": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_boolop": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_formatchar": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": false
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_len": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_comparisons": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_boolop": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_formatchar": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": true,
+        "testing/test_assertion.py::TestAssert_reprcompare::test_sequence_different_items": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-5495/dedup_patch_29.jsonl": {
       "pytest-dev__pytest-5495": {
-        "test_assertrewrite.py::TestAssertionRewrite::test_len": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_comparisons": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_boolop": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_formatchar": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": false
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_len": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_comparisons": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_boolop": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_formatchar": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": true,
+        "testing/test_assertion.py::TestAssert_reprcompare::test_sequence_different_items": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-5495/dedup_patch_3.jsonl": {
       "pytest-dev__pytest-5495": {
-        "test_assertrewrite.py::TestAssertionRewrite::test_len": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_comparisons": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_boolop": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_formatchar": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": false
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_len": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_comparisons": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_boolop": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_formatchar": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": true,
+        "testing/test_assertion.py::TestAssert_reprcompare::test_sequence_different_items": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-5495/dedup_patch_30.jsonl": {
       "pytest-dev__pytest-5495": {
-        "test_assertrewrite.py::TestAssertionRewrite::test_len": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_comparisons": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_boolop": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_formatchar": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": false
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_len": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_comparisons": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_boolop": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_formatchar": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": true,
+        "testing/test_assertion.py::TestAssert_reprcompare::test_sequence_different_items": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-5495/dedup_patch_31.jsonl": {
       "pytest-dev__pytest-5495": {
-        "test_assertrewrite.py::TestAssertionRewrite::test_len": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_comparisons": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_boolop": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_formatchar": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": false
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_len": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_comparisons": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_boolop": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_formatchar": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": true,
+        "testing/test_assertion.py::TestAssert_reprcompare::test_sequence_different_items": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-5495/dedup_patch_32.jsonl": {
       "pytest-dev__pytest-5495": {
-        "test_assertrewrite.py::TestAssertionRewrite::test_len": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_comparisons": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_boolop": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_formatchar": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": false
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_len": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_comparisons": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_boolop": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_formatchar": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": true,
+        "testing/test_assertion.py::TestAssert_reprcompare::test_sequence_different_items": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-5495/dedup_patch_33.jsonl": {
       "pytest-dev__pytest-5495": {
-        "test_assertrewrite.py::TestAssertionRewrite::test_len": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_comparisons": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_boolop": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_formatchar": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": false
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_len": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_comparisons": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_boolop": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_formatchar": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": true,
+        "testing/test_assertion.py::TestAssert_reprcompare::test_sequence_different_items": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-5495/dedup_patch_34.jsonl": {
       "pytest-dev__pytest-5495": {
-        "test_assertrewrite.py::TestAssertionRewrite::test_len": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_comparisons": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_boolop": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_formatchar": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": false
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_len": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_comparisons": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_boolop": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_formatchar": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": true,
+        "testing/test_assertion.py::TestAssert_reprcompare::test_sequence_different_items": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-5495/dedup_patch_35.jsonl": {
       "pytest-dev__pytest-5495": {
-        "test_assertrewrite.py::TestAssertionRewrite::test_len": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_comparisons": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_boolop": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_formatchar": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": false
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_len": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_comparisons": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_boolop": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_formatchar": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": true,
+        "testing/test_assertion.py::TestAssert_reprcompare::test_sequence_different_items": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-5495/dedup_patch_36.jsonl": {
       "pytest-dev__pytest-5495": {
-        "test_assertrewrite.py::TestAssertionRewrite::test_len": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_comparisons": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_boolop": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_formatchar": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": false
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_len": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_comparisons": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_boolop": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_formatchar": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": true,
+        "testing/test_assertion.py::TestAssert_reprcompare::test_sequence_different_items": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-5495/dedup_patch_37.jsonl": {
       "pytest-dev__pytest-5495": {
-        "test_assertrewrite.py::TestAssertionRewrite::test_len": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_comparisons": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_boolop": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_formatchar": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": false
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_len": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_comparisons": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_boolop": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_formatchar": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": true,
+        "testing/test_assertion.py::TestAssert_reprcompare::test_sequence_different_items": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-5495/dedup_patch_38.jsonl": {
       "pytest-dev__pytest-5495": {
-        "test_assertrewrite.py::TestAssertionRewrite::test_len": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_comparisons": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_boolop": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_formatchar": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": false
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_len": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_comparisons": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_boolop": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_formatchar": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": true,
+        "testing/test_assertion.py::TestAssert_reprcompare::test_sequence_different_items": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-5495/dedup_patch_39.jsonl": {
       "pytest-dev__pytest-5495": {
-        "test_assertrewrite.py::TestAssertionRewrite::test_len": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_comparisons": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_boolop": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_formatchar": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": false
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_len": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_comparisons": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_boolop": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_formatchar": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": true,
+        "testing/test_assertion.py::TestAssert_reprcompare::test_sequence_different_items": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-5495/dedup_patch_4.jsonl": {
       "pytest-dev__pytest-5495": {
-        "test_assertrewrite.py::TestAssertionRewrite::test_len": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_comparisons": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_boolop": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_formatchar": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": false
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_len": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_comparisons": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_boolop": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_formatchar": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": true,
+        "testing/test_assertion.py::TestAssert_reprcompare::test_sequence_different_items": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-5495/dedup_patch_40.jsonl": {
       "pytest-dev__pytest-5495": {
-        "test_assertrewrite.py::TestAssertionRewrite::test_len": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_comparisons": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_boolop": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_formatchar": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": false
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_len": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_comparisons": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_boolop": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_formatchar": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": true,
+        "testing/test_assertion.py::TestAssert_reprcompare::test_sequence_different_items": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-5495/dedup_patch_41.jsonl": {
       "pytest-dev__pytest-5495": {
-        "test_assertrewrite.py::TestAssertionRewrite::test_len": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_comparisons": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_boolop": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_formatchar": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": false
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_len": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_comparisons": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_boolop": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_formatchar": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": true,
+        "testing/test_assertion.py::TestAssert_reprcompare::test_sequence_different_items": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-5495/dedup_patch_5.jsonl": {
       "pytest-dev__pytest-5495": {
-        "test_assertrewrite.py::TestAssertionRewrite::test_len": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_comparisons": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_boolop": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_formatchar": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": false
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_len": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_comparisons": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_boolop": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_formatchar": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": true,
+        "testing/test_assertion.py::TestAssert_reprcompare::test_sequence_different_items": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-5495/dedup_patch_6.jsonl": {
       "pytest-dev__pytest-5495": {
-        "test_assertrewrite.py::TestAssertionRewrite::test_len": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_comparisons": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_boolop": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_formatchar": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": false
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_len": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_comparisons": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_boolop": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_formatchar": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": true,
+        "testing/test_assertion.py::TestAssert_reprcompare::test_sequence_different_items": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-5495/dedup_patch_7.jsonl": {
       "pytest-dev__pytest-5495": {
-        "test_assertrewrite.py::TestAssertionRewrite::test_len": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_comparisons": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_boolop": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_formatchar": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": false
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_len": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_comparisons": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_boolop": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_formatchar": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": true,
+        "testing/test_assertion.py::TestAssert_reprcompare::test_sequence_different_items": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-5495/dedup_patch_8.jsonl": {
       "pytest-dev__pytest-5495": {
-        "test_assertrewrite.py::TestAssertionRewrite::test_len": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_comparisons": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_boolop": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_formatchar": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": false
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_len": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_comparisons": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_boolop": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_formatchar": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": true,
+        "testing/test_assertion.py::TestAssert_reprcompare::test_sequence_different_items": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-5495/dedup_patch_9.jsonl": {
       "pytest-dev__pytest-5495": {
-        "test_assertrewrite.py::TestAssertionRewrite::test_len": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_comparisons": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_boolop": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_formatchar": false,
-        "test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": false
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_len": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_comparisons": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_boolop": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_assert_raising_nonzero_in_comparison": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_dont_rewrite_if_hasattr_fails": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_formatchar": true,
+        "testing/test_assertrewrite.py::TestAssertionRewrite::test_custom_repr": true,
+        "testing/test_assertion.py::TestAssert_reprcompare::test_sequence_different_items": true
       }
     }
   },

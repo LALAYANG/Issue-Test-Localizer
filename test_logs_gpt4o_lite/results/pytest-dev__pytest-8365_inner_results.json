@@ -2,240 +2,954 @@
   "regression": {
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-8365/dedup_patch_0.jsonl": {
       "pytest-dev__pytest-8365": {
-        "test_tmpdir.py::TestTempdirHandler::test_mktemp": false,
-        "test_tmpdir.py::test_tmpdir_fallback_uid_not_found": false,
-        "test_tmpdir.py::test_mktemp": false
+        "testing/test_tmpdir.py::TestTempdirHandler::test_mktemp": true,
+        "testing/test_tmpdir.py::test_tmpdir_fallback_uid_not_found": true,
+        "testing/test_tmpdir.py::test_mktemp": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_make": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf_with_read_only_directory": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_ignores_symlink": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf_with_read_only_file": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_locked": true,
+        "testing/test_tmpdir.py::TestRmRf::test_on_rm_rf_error": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf": true,
+        "testing/test_tmpdir.py::test_tmpdir_equals_tmp_path": true,
+        "testing/test_tmpdir.py::test_tmpdir_fixture": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_keep": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_lock_register_cleanup_removal": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_removal_accepts_lock": true,
+        "testing/test_tmpdir.py::test_tmpdir_factory": true,
+        "testing/test_tmpdir.py::test_basetemp_with_read_only_files": true,
+        "testing/test_tmpdir.py::test_tmp_path_always_is_realpath": true,
+        "testing/test_tmpdir.py::test_tmpdir_too_long_on_parametrization": true,
+        "testing/test_tmpdir.py::TestConfigTmpdir::test_getbasetemp_custom_removes_old": true,
+        "testing/test_tmpdir.py::TestTempdirHandler::test_tmppath_relative_basetemp_absolute": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_lock_create": true,
+        "testing/test_tmpdir.py::test_tmpdir_always_is_realpath": true,
+        "testing/test_tmpdir.py::test_tmpdir_fallback_tox_env": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-8365/dedup_patch_1.jsonl": {
       "pytest-dev__pytest-8365": {
-        "test_tmpdir.py::TestTempdirHandler::test_mktemp": false,
-        "test_tmpdir.py::test_tmpdir_fallback_uid_not_found": false,
-        "test_tmpdir.py::test_mktemp": false
+        "testing/test_tmpdir.py::TestTempdirHandler::test_mktemp": true,
+        "testing/test_tmpdir.py::test_tmpdir_fallback_uid_not_found": true,
+        "testing/test_tmpdir.py::test_mktemp": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_make": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf_with_read_only_directory": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_ignores_symlink": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf_with_read_only_file": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_locked": true,
+        "testing/test_tmpdir.py::TestRmRf::test_on_rm_rf_error": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf": true,
+        "testing/test_tmpdir.py::test_tmpdir_equals_tmp_path": true,
+        "testing/test_tmpdir.py::test_tmpdir_fixture": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_keep": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_lock_register_cleanup_removal": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_removal_accepts_lock": true,
+        "testing/test_tmpdir.py::test_tmpdir_factory": true,
+        "testing/test_tmpdir.py::test_basetemp_with_read_only_files": true,
+        "testing/test_tmpdir.py::test_tmp_path_always_is_realpath": true,
+        "testing/test_tmpdir.py::test_tmpdir_too_long_on_parametrization": true,
+        "testing/test_tmpdir.py::TestConfigTmpdir::test_getbasetemp_custom_removes_old": true,
+        "testing/test_tmpdir.py::TestTempdirHandler::test_tmppath_relative_basetemp_absolute": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_lock_create": true,
+        "testing/test_tmpdir.py::test_tmpdir_always_is_realpath": true,
+        "testing/test_tmpdir.py::test_tmpdir_fallback_tox_env": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-8365/dedup_patch_10.jsonl": {
       "pytest-dev__pytest-8365": {
-        "test_tmpdir.py::TestTempdirHandler::test_mktemp": false,
-        "test_tmpdir.py::test_tmpdir_fallback_uid_not_found": false,
-        "test_tmpdir.py::test_mktemp": false
+        "testing/test_tmpdir.py::TestTempdirHandler::test_mktemp": true,
+        "testing/test_tmpdir.py::test_tmpdir_fallback_uid_not_found": true,
+        "testing/test_tmpdir.py::test_mktemp": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_make": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf_with_read_only_directory": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_ignores_symlink": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf_with_read_only_file": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_locked": true,
+        "testing/test_tmpdir.py::TestRmRf::test_on_rm_rf_error": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf": true,
+        "testing/test_tmpdir.py::test_tmpdir_equals_tmp_path": true,
+        "testing/test_tmpdir.py::test_tmpdir_fixture": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_keep": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_lock_register_cleanup_removal": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_removal_accepts_lock": true,
+        "testing/test_tmpdir.py::test_tmpdir_factory": true,
+        "testing/test_tmpdir.py::test_basetemp_with_read_only_files": true,
+        "testing/test_tmpdir.py::test_tmp_path_always_is_realpath": true,
+        "testing/test_tmpdir.py::test_tmpdir_too_long_on_parametrization": true,
+        "testing/test_tmpdir.py::TestConfigTmpdir::test_getbasetemp_custom_removes_old": true,
+        "testing/test_tmpdir.py::TestTempdirHandler::test_tmppath_relative_basetemp_absolute": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_lock_create": true,
+        "testing/test_tmpdir.py::test_tmpdir_always_is_realpath": true,
+        "testing/test_tmpdir.py::test_tmpdir_fallback_tox_env": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-8365/dedup_patch_11.jsonl": {
       "pytest-dev__pytest-8365": {
-        "test_tmpdir.py::TestTempdirHandler::test_mktemp": false,
-        "test_tmpdir.py::test_tmpdir_fallback_uid_not_found": false,
-        "test_tmpdir.py::test_mktemp": false
+        "testing/test_tmpdir.py::TestTempdirHandler::test_mktemp": true,
+        "testing/test_tmpdir.py::test_tmpdir_fallback_uid_not_found": true,
+        "testing/test_tmpdir.py::test_mktemp": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_make": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf_with_read_only_directory": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_ignores_symlink": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf_with_read_only_file": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_locked": true,
+        "testing/test_tmpdir.py::TestRmRf::test_on_rm_rf_error": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf": true,
+        "testing/test_tmpdir.py::test_tmpdir_equals_tmp_path": true,
+        "testing/test_tmpdir.py::test_tmpdir_fixture": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_keep": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_lock_register_cleanup_removal": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_removal_accepts_lock": true,
+        "testing/test_tmpdir.py::test_tmpdir_factory": true,
+        "testing/test_tmpdir.py::test_basetemp_with_read_only_files": true,
+        "testing/test_tmpdir.py::test_tmp_path_always_is_realpath": true,
+        "testing/test_tmpdir.py::test_tmpdir_too_long_on_parametrization": true,
+        "testing/test_tmpdir.py::TestConfigTmpdir::test_getbasetemp_custom_removes_old": true,
+        "testing/test_tmpdir.py::TestTempdirHandler::test_tmppath_relative_basetemp_absolute": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_lock_create": true,
+        "testing/test_tmpdir.py::test_tmpdir_always_is_realpath": true,
+        "testing/test_tmpdir.py::test_tmpdir_fallback_tox_env": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-8365/dedup_patch_12.jsonl": {
       "pytest-dev__pytest-8365": {
-        "test_tmpdir.py::TestTempdirHandler::test_mktemp": false,
-        "test_tmpdir.py::test_tmpdir_fallback_uid_not_found": false,
-        "test_tmpdir.py::test_mktemp": false
+        "testing/test_tmpdir.py::TestTempdirHandler::test_mktemp": false,
+        "testing/test_tmpdir.py::test_tmpdir_fallback_uid_not_found": false,
+        "testing/test_tmpdir.py::test_mktemp": false,
+        "testing/test_tmpdir.py::TestNumberedDir::test_make": false,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf_with_read_only_directory": false,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_ignores_symlink": false,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf_with_read_only_file": false,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_locked": false,
+        "testing/test_tmpdir.py::TestRmRf::test_on_rm_rf_error": false,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf": false,
+        "testing/test_tmpdir.py::test_tmpdir_equals_tmp_path": false,
+        "testing/test_tmpdir.py::test_tmpdir_fixture": false,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_keep": false,
+        "testing/test_tmpdir.py::TestNumberedDir::test_lock_register_cleanup_removal": false,
+        "testing/test_tmpdir.py::TestNumberedDir::test_removal_accepts_lock": false,
+        "testing/test_tmpdir.py::test_tmpdir_factory": false,
+        "testing/test_tmpdir.py::test_basetemp_with_read_only_files": false,
+        "testing/test_tmpdir.py::test_tmp_path_always_is_realpath": false,
+        "testing/test_tmpdir.py::test_tmpdir_too_long_on_parametrization": false,
+        "testing/test_tmpdir.py::TestConfigTmpdir::test_getbasetemp_custom_removes_old": false,
+        "testing/test_tmpdir.py::TestTempdirHandler::test_tmppath_relative_basetemp_absolute": false,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_lock_create": false,
+        "testing/test_tmpdir.py::test_tmpdir_always_is_realpath": false,
+        "testing/test_tmpdir.py::test_tmpdir_fallback_tox_env": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-8365/dedup_patch_13.jsonl": {
       "pytest-dev__pytest-8365": {
-        "test_tmpdir.py::TestTempdirHandler::test_mktemp": false,
-        "test_tmpdir.py::test_tmpdir_fallback_uid_not_found": false,
-        "test_tmpdir.py::test_mktemp": false
+        "testing/test_tmpdir.py::TestTempdirHandler::test_mktemp": false,
+        "testing/test_tmpdir.py::test_tmpdir_fallback_uid_not_found": false,
+        "testing/test_tmpdir.py::test_mktemp": false,
+        "testing/test_tmpdir.py::TestNumberedDir::test_make": false,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf_with_read_only_directory": false,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_ignores_symlink": false,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf_with_read_only_file": false,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_locked": false,
+        "testing/test_tmpdir.py::TestRmRf::test_on_rm_rf_error": false,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf": false,
+        "testing/test_tmpdir.py::test_tmpdir_equals_tmp_path": false,
+        "testing/test_tmpdir.py::test_tmpdir_fixture": false,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_keep": false,
+        "testing/test_tmpdir.py::TestNumberedDir::test_lock_register_cleanup_removal": false,
+        "testing/test_tmpdir.py::TestNumberedDir::test_removal_accepts_lock": false,
+        "testing/test_tmpdir.py::test_tmpdir_factory": false,
+        "testing/test_tmpdir.py::test_basetemp_with_read_only_files": false,
+        "testing/test_tmpdir.py::test_tmp_path_always_is_realpath": false,
+        "testing/test_tmpdir.py::test_tmpdir_too_long_on_parametrization": false,
+        "testing/test_tmpdir.py::TestConfigTmpdir::test_getbasetemp_custom_removes_old": false,
+        "testing/test_tmpdir.py::TestTempdirHandler::test_tmppath_relative_basetemp_absolute": false,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_lock_create": false,
+        "testing/test_tmpdir.py::test_tmpdir_always_is_realpath": false,
+        "testing/test_tmpdir.py::test_tmpdir_fallback_tox_env": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-8365/dedup_patch_14.jsonl": {
       "pytest-dev__pytest-8365": {
-        "test_tmpdir.py::TestTempdirHandler::test_mktemp": false,
-        "test_tmpdir.py::test_tmpdir_fallback_uid_not_found": false,
-        "test_tmpdir.py::test_mktemp": false
+        "testing/test_tmpdir.py::TestTempdirHandler::test_mktemp": false,
+        "testing/test_tmpdir.py::test_tmpdir_fallback_uid_not_found": false,
+        "testing/test_tmpdir.py::test_mktemp": false,
+        "testing/test_tmpdir.py::TestNumberedDir::test_make": false,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf_with_read_only_directory": false,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_ignores_symlink": false,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf_with_read_only_file": false,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_locked": false,
+        "testing/test_tmpdir.py::TestRmRf::test_on_rm_rf_error": false,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf": false,
+        "testing/test_tmpdir.py::test_tmpdir_equals_tmp_path": false,
+        "testing/test_tmpdir.py::test_tmpdir_fixture": false,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_keep": false,
+        "testing/test_tmpdir.py::TestNumberedDir::test_lock_register_cleanup_removal": false,
+        "testing/test_tmpdir.py::TestNumberedDir::test_removal_accepts_lock": false,
+        "testing/test_tmpdir.py::test_tmpdir_factory": false,
+        "testing/test_tmpdir.py::test_basetemp_with_read_only_files": false,
+        "testing/test_tmpdir.py::test_tmp_path_always_is_realpath": false,
+        "testing/test_tmpdir.py::test_tmpdir_too_long_on_parametrization": false,
+        "testing/test_tmpdir.py::TestConfigTmpdir::test_getbasetemp_custom_removes_old": false,
+        "testing/test_tmpdir.py::TestTempdirHandler::test_tmppath_relative_basetemp_absolute": false,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_lock_create": false,
+        "testing/test_tmpdir.py::test_tmpdir_always_is_realpath": false,
+        "testing/test_tmpdir.py::test_tmpdir_fallback_tox_env": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-8365/dedup_patch_15.jsonl": {
       "pytest-dev__pytest-8365": {
-        "test_tmpdir.py::TestTempdirHandler::test_mktemp": false,
-        "test_tmpdir.py::test_tmpdir_fallback_uid_not_found": false,
-        "test_tmpdir.py::test_mktemp": false
+        "testing/test_tmpdir.py::TestTempdirHandler::test_mktemp": true,
+        "testing/test_tmpdir.py::test_tmpdir_fallback_uid_not_found": true,
+        "testing/test_tmpdir.py::test_mktemp": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_make": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf_with_read_only_directory": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_ignores_symlink": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf_with_read_only_file": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_locked": true,
+        "testing/test_tmpdir.py::TestRmRf::test_on_rm_rf_error": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf": true,
+        "testing/test_tmpdir.py::test_tmpdir_equals_tmp_path": true,
+        "testing/test_tmpdir.py::test_tmpdir_fixture": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_keep": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_lock_register_cleanup_removal": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_removal_accepts_lock": true,
+        "testing/test_tmpdir.py::test_tmpdir_factory": true,
+        "testing/test_tmpdir.py::test_basetemp_with_read_only_files": true,
+        "testing/test_tmpdir.py::test_tmp_path_always_is_realpath": true,
+        "testing/test_tmpdir.py::test_tmpdir_too_long_on_parametrization": true,
+        "testing/test_tmpdir.py::TestConfigTmpdir::test_getbasetemp_custom_removes_old": true,
+        "testing/test_tmpdir.py::TestTempdirHandler::test_tmppath_relative_basetemp_absolute": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_lock_create": true,
+        "testing/test_tmpdir.py::test_tmpdir_always_is_realpath": true,
+        "testing/test_tmpdir.py::test_tmpdir_fallback_tox_env": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-8365/dedup_patch_16.jsonl": {
       "pytest-dev__pytest-8365": {
-        "test_tmpdir.py::TestTempdirHandler::test_mktemp": false,
-        "test_tmpdir.py::test_tmpdir_fallback_uid_not_found": false,
-        "test_tmpdir.py::test_mktemp": false
+        "testing/test_tmpdir.py::TestTempdirHandler::test_mktemp": false,
+        "testing/test_tmpdir.py::test_tmpdir_fallback_uid_not_found": false,
+        "testing/test_tmpdir.py::test_mktemp": false,
+        "testing/test_tmpdir.py::TestNumberedDir::test_make": false,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf_with_read_only_directory": false,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_ignores_symlink": false,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf_with_read_only_file": false,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_locked": false,
+        "testing/test_tmpdir.py::TestRmRf::test_on_rm_rf_error": false,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf": false,
+        "testing/test_tmpdir.py::test_tmpdir_equals_tmp_path": false,
+        "testing/test_tmpdir.py::test_tmpdir_fixture": false,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_keep": false,
+        "testing/test_tmpdir.py::TestNumberedDir::test_lock_register_cleanup_removal": false,
+        "testing/test_tmpdir.py::TestNumberedDir::test_removal_accepts_lock": false,
+        "testing/test_tmpdir.py::test_tmpdir_factory": false,
+        "testing/test_tmpdir.py::test_basetemp_with_read_only_files": false,
+        "testing/test_tmpdir.py::test_tmp_path_always_is_realpath": false,
+        "testing/test_tmpdir.py::test_tmpdir_too_long_on_parametrization": false,
+        "testing/test_tmpdir.py::TestConfigTmpdir::test_getbasetemp_custom_removes_old": false,
+        "testing/test_tmpdir.py::TestTempdirHandler::test_tmppath_relative_basetemp_absolute": false,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_lock_create": false,
+        "testing/test_tmpdir.py::test_tmpdir_always_is_realpath": false,
+        "testing/test_tmpdir.py::test_tmpdir_fallback_tox_env": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-8365/dedup_patch_17.jsonl": {
       "pytest-dev__pytest-8365": {
-        "test_tmpdir.py::TestTempdirHandler::test_mktemp": false,
-        "test_tmpdir.py::test_tmpdir_fallback_uid_not_found": false,
-        "test_tmpdir.py::test_mktemp": false
+        "testing/test_tmpdir.py::TestTempdirHandler::test_mktemp": true,
+        "testing/test_tmpdir.py::test_tmpdir_fallback_uid_not_found": true,
+        "testing/test_tmpdir.py::test_mktemp": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_make": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf_with_read_only_directory": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_ignores_symlink": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf_with_read_only_file": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_locked": true,
+        "testing/test_tmpdir.py::TestRmRf::test_on_rm_rf_error": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf": true,
+        "testing/test_tmpdir.py::test_tmpdir_equals_tmp_path": true,
+        "testing/test_tmpdir.py::test_tmpdir_fixture": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_keep": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_lock_register_cleanup_removal": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_removal_accepts_lock": true,
+        "testing/test_tmpdir.py::test_tmpdir_factory": true,
+        "testing/test_tmpdir.py::test_basetemp_with_read_only_files": true,
+        "testing/test_tmpdir.py::test_tmp_path_always_is_realpath": true,
+        "testing/test_tmpdir.py::test_tmpdir_too_long_on_parametrization": true,
+        "testing/test_tmpdir.py::TestConfigTmpdir::test_getbasetemp_custom_removes_old": true,
+        "testing/test_tmpdir.py::TestTempdirHandler::test_tmppath_relative_basetemp_absolute": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_lock_create": true,
+        "testing/test_tmpdir.py::test_tmpdir_always_is_realpath": true,
+        "testing/test_tmpdir.py::test_tmpdir_fallback_tox_env": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-8365/dedup_patch_18.jsonl": {
       "pytest-dev__pytest-8365": {
-        "test_tmpdir.py::TestTempdirHandler::test_mktemp": false,
-        "test_tmpdir.py::test_tmpdir_fallback_uid_not_found": false,
-        "test_tmpdir.py::test_mktemp": false
+        "testing/test_tmpdir.py::TestTempdirHandler::test_mktemp": true,
+        "testing/test_tmpdir.py::test_tmpdir_fallback_uid_not_found": true,
+        "testing/test_tmpdir.py::test_mktemp": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_make": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf_with_read_only_directory": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_ignores_symlink": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf_with_read_only_file": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_locked": true,
+        "testing/test_tmpdir.py::TestRmRf::test_on_rm_rf_error": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf": true,
+        "testing/test_tmpdir.py::test_tmpdir_equals_tmp_path": true,
+        "testing/test_tmpdir.py::test_tmpdir_fixture": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_keep": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_lock_register_cleanup_removal": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_removal_accepts_lock": true,
+        "testing/test_tmpdir.py::test_tmpdir_factory": true,
+        "testing/test_tmpdir.py::test_basetemp_with_read_only_files": true,
+        "testing/test_tmpdir.py::test_tmp_path_always_is_realpath": true,
+        "testing/test_tmpdir.py::test_tmpdir_too_long_on_parametrization": true,
+        "testing/test_tmpdir.py::TestConfigTmpdir::test_getbasetemp_custom_removes_old": true,
+        "testing/test_tmpdir.py::TestTempdirHandler::test_tmppath_relative_basetemp_absolute": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_lock_create": true,
+        "testing/test_tmpdir.py::test_tmpdir_always_is_realpath": true,
+        "testing/test_tmpdir.py::test_tmpdir_fallback_tox_env": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-8365/dedup_patch_19.jsonl": {
       "pytest-dev__pytest-8365": {
-        "test_tmpdir.py::TestTempdirHandler::test_mktemp": false,
-        "test_tmpdir.py::test_tmpdir_fallback_uid_not_found": false,
-        "test_tmpdir.py::test_mktemp": false
+        "testing/test_tmpdir.py::TestTempdirHandler::test_mktemp": true,
+        "testing/test_tmpdir.py::test_tmpdir_fallback_uid_not_found": false,
+        "testing/test_tmpdir.py::test_mktemp": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_make": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf_with_read_only_directory": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_ignores_symlink": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf_with_read_only_file": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_locked": true,
+        "testing/test_tmpdir.py::TestRmRf::test_on_rm_rf_error": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf": true,
+        "testing/test_tmpdir.py::test_tmpdir_equals_tmp_path": true,
+        "testing/test_tmpdir.py::test_tmpdir_fixture": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_keep": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_lock_register_cleanup_removal": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_removal_accepts_lock": true,
+        "testing/test_tmpdir.py::test_tmpdir_factory": true,
+        "testing/test_tmpdir.py::test_basetemp_with_read_only_files": true,
+        "testing/test_tmpdir.py::test_tmp_path_always_is_realpath": true,
+        "testing/test_tmpdir.py::test_tmpdir_too_long_on_parametrization": true,
+        "testing/test_tmpdir.py::TestConfigTmpdir::test_getbasetemp_custom_removes_old": true,
+        "testing/test_tmpdir.py::TestTempdirHandler::test_tmppath_relative_basetemp_absolute": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_lock_create": true,
+        "testing/test_tmpdir.py::test_tmpdir_always_is_realpath": true,
+        "testing/test_tmpdir.py::test_tmpdir_fallback_tox_env": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-8365/dedup_patch_2.jsonl": {
       "pytest-dev__pytest-8365": {
-        "test_tmpdir.py::TestTempdirHandler::test_mktemp": false,
-        "test_tmpdir.py::test_tmpdir_fallback_uid_not_found": false,
-        "test_tmpdir.py::test_mktemp": false
+        "testing/test_tmpdir.py::TestTempdirHandler::test_mktemp": true,
+        "testing/test_tmpdir.py::test_tmpdir_fallback_uid_not_found": true,
+        "testing/test_tmpdir.py::test_mktemp": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_make": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf_with_read_only_directory": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_ignores_symlink": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf_with_read_only_file": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_locked": true,
+        "testing/test_tmpdir.py::TestRmRf::test_on_rm_rf_error": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf": true,
+        "testing/test_tmpdir.py::test_tmpdir_equals_tmp_path": true,
+        "testing/test_tmpdir.py::test_tmpdir_fixture": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_keep": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_lock_register_cleanup_removal": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_removal_accepts_lock": true,
+        "testing/test_tmpdir.py::test_tmpdir_factory": true,
+        "testing/test_tmpdir.py::test_basetemp_with_read_only_files": true,
+        "testing/test_tmpdir.py::test_tmp_path_always_is_realpath": true,
+        "testing/test_tmpdir.py::test_tmpdir_too_long_on_parametrization": true,
+        "testing/test_tmpdir.py::TestConfigTmpdir::test_getbasetemp_custom_removes_old": true,
+        "testing/test_tmpdir.py::TestTempdirHandler::test_tmppath_relative_basetemp_absolute": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_lock_create": true,
+        "testing/test_tmpdir.py::test_tmpdir_always_is_realpath": true,
+        "testing/test_tmpdir.py::test_tmpdir_fallback_tox_env": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-8365/dedup_patch_20.jsonl": {
       "pytest-dev__pytest-8365": {
-        "test_tmpdir.py::TestTempdirHandler::test_mktemp": false,
-        "test_tmpdir.py::test_tmpdir_fallback_uid_not_found": false,
-        "test_tmpdir.py::test_mktemp": false
+        "testing/test_tmpdir.py::TestTempdirHandler::test_mktemp": true,
+        "testing/test_tmpdir.py::test_tmpdir_fallback_uid_not_found": true,
+        "testing/test_tmpdir.py::test_mktemp": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_make": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf_with_read_only_directory": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_ignores_symlink": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf_with_read_only_file": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_locked": true,
+        "testing/test_tmpdir.py::TestRmRf::test_on_rm_rf_error": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf": true,
+        "testing/test_tmpdir.py::test_tmpdir_equals_tmp_path": true,
+        "testing/test_tmpdir.py::test_tmpdir_fixture": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_keep": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_lock_register_cleanup_removal": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_removal_accepts_lock": true,
+        "testing/test_tmpdir.py::test_tmpdir_factory": true,
+        "testing/test_tmpdir.py::test_basetemp_with_read_only_files": true,
+        "testing/test_tmpdir.py::test_tmp_path_always_is_realpath": true,
+        "testing/test_tmpdir.py::test_tmpdir_too_long_on_parametrization": true,
+        "testing/test_tmpdir.py::TestConfigTmpdir::test_getbasetemp_custom_removes_old": true,
+        "testing/test_tmpdir.py::TestTempdirHandler::test_tmppath_relative_basetemp_absolute": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_lock_create": true,
+        "testing/test_tmpdir.py::test_tmpdir_always_is_realpath": true,
+        "testing/test_tmpdir.py::test_tmpdir_fallback_tox_env": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-8365/dedup_patch_21.jsonl": {
       "pytest-dev__pytest-8365": {
-        "test_tmpdir.py::TestTempdirHandler::test_mktemp": false,
-        "test_tmpdir.py::test_tmpdir_fallback_uid_not_found": false,
-        "test_tmpdir.py::test_mktemp": false
+        "testing/test_tmpdir.py::TestTempdirHandler::test_mktemp": true,
+        "testing/test_tmpdir.py::test_tmpdir_fallback_uid_not_found": true,
+        "testing/test_tmpdir.py::test_mktemp": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_make": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf_with_read_only_directory": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_ignores_symlink": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf_with_read_only_file": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_locked": true,
+        "testing/test_tmpdir.py::TestRmRf::test_on_rm_rf_error": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf": true,
+        "testing/test_tmpdir.py::test_tmpdir_equals_tmp_path": true,
+        "testing/test_tmpdir.py::test_tmpdir_fixture": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_keep": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_lock_register_cleanup_removal": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_removal_accepts_lock": true,
+        "testing/test_tmpdir.py::test_tmpdir_factory": true,
+        "testing/test_tmpdir.py::test_basetemp_with_read_only_files": true,
+        "testing/test_tmpdir.py::test_tmp_path_always_is_realpath": true,
+        "testing/test_tmpdir.py::test_tmpdir_too_long_on_parametrization": true,
+        "testing/test_tmpdir.py::TestConfigTmpdir::test_getbasetemp_custom_removes_old": true,
+        "testing/test_tmpdir.py::TestTempdirHandler::test_tmppath_relative_basetemp_absolute": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_lock_create": true,
+        "testing/test_tmpdir.py::test_tmpdir_always_is_realpath": true,
+        "testing/test_tmpdir.py::test_tmpdir_fallback_tox_env": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-8365/dedup_patch_22.jsonl": {
       "pytest-dev__pytest-8365": {
-        "test_tmpdir.py::TestTempdirHandler::test_mktemp": false,
-        "test_tmpdir.py::test_tmpdir_fallback_uid_not_found": false,
-        "test_tmpdir.py::test_mktemp": false
+        "testing/test_tmpdir.py::TestTempdirHandler::test_mktemp": true,
+        "testing/test_tmpdir.py::test_tmpdir_fallback_uid_not_found": true,
+        "testing/test_tmpdir.py::test_mktemp": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_make": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf_with_read_only_directory": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_ignores_symlink": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf_with_read_only_file": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_locked": true,
+        "testing/test_tmpdir.py::TestRmRf::test_on_rm_rf_error": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf": true,
+        "testing/test_tmpdir.py::test_tmpdir_equals_tmp_path": true,
+        "testing/test_tmpdir.py::test_tmpdir_fixture": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_keep": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_lock_register_cleanup_removal": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_removal_accepts_lock": true,
+        "testing/test_tmpdir.py::test_tmpdir_factory": true,
+        "testing/test_tmpdir.py::test_basetemp_with_read_only_files": true,
+        "testing/test_tmpdir.py::test_tmp_path_always_is_realpath": true,
+        "testing/test_tmpdir.py::test_tmpdir_too_long_on_parametrization": true,
+        "testing/test_tmpdir.py::TestConfigTmpdir::test_getbasetemp_custom_removes_old": true,
+        "testing/test_tmpdir.py::TestTempdirHandler::test_tmppath_relative_basetemp_absolute": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_lock_create": true,
+        "testing/test_tmpdir.py::test_tmpdir_always_is_realpath": true,
+        "testing/test_tmpdir.py::test_tmpdir_fallback_tox_env": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-8365/dedup_patch_23.jsonl": {
       "pytest-dev__pytest-8365": {
-        "test_tmpdir.py::TestTempdirHandler::test_mktemp": false,
-        "test_tmpdir.py::test_tmpdir_fallback_uid_not_found": false,
-        "test_tmpdir.py::test_mktemp": false
+        "testing/test_tmpdir.py::TestTempdirHandler::test_mktemp": false,
+        "testing/test_tmpdir.py::test_tmpdir_fallback_uid_not_found": false,
+        "testing/test_tmpdir.py::test_mktemp": false,
+        "testing/test_tmpdir.py::TestNumberedDir::test_make": false,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf_with_read_only_directory": false,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_ignores_symlink": false,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf_with_read_only_file": false,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_locked": false,
+        "testing/test_tmpdir.py::TestRmRf::test_on_rm_rf_error": false,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf": false,
+        "testing/test_tmpdir.py::test_tmpdir_equals_tmp_path": false,
+        "testing/test_tmpdir.py::test_tmpdir_fixture": false,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_keep": false,
+        "testing/test_tmpdir.py::TestNumberedDir::test_lock_register_cleanup_removal": false,
+        "testing/test_tmpdir.py::TestNumberedDir::test_removal_accepts_lock": false,
+        "testing/test_tmpdir.py::test_tmpdir_factory": false,
+        "testing/test_tmpdir.py::test_basetemp_with_read_only_files": false,
+        "testing/test_tmpdir.py::test_tmp_path_always_is_realpath": false,
+        "testing/test_tmpdir.py::test_tmpdir_too_long_on_parametrization": false,
+        "testing/test_tmpdir.py::TestConfigTmpdir::test_getbasetemp_custom_removes_old": false,
+        "testing/test_tmpdir.py::TestTempdirHandler::test_tmppath_relative_basetemp_absolute": false,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_lock_create": false,
+        "testing/test_tmpdir.py::test_tmpdir_always_is_realpath": false,
+        "testing/test_tmpdir.py::test_tmpdir_fallback_tox_env": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-8365/dedup_patch_24.jsonl": {
       "pytest-dev__pytest-8365": {
-        "test_tmpdir.py::TestTempdirHandler::test_mktemp": false,
-        "test_tmpdir.py::test_tmpdir_fallback_uid_not_found": false,
-        "test_tmpdir.py::test_mktemp": false
+        "testing/test_tmpdir.py::TestTempdirHandler::test_mktemp": false,
+        "testing/test_tmpdir.py::test_tmpdir_fallback_uid_not_found": false,
+        "testing/test_tmpdir.py::test_mktemp": false,
+        "testing/test_tmpdir.py::TestNumberedDir::test_make": false,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf_with_read_only_directory": false,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_ignores_symlink": false,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf_with_read_only_file": false,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_locked": false,
+        "testing/test_tmpdir.py::TestRmRf::test_on_rm_rf_error": false,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf": false,
+        "testing/test_tmpdir.py::test_tmpdir_equals_tmp_path": false,
+        "testing/test_tmpdir.py::test_tmpdir_fixture": false,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_keep": false,
+        "testing/test_tmpdir.py::TestNumberedDir::test_lock_register_cleanup_removal": false,
+        "testing/test_tmpdir.py::TestNumberedDir::test_removal_accepts_lock": false,
+        "testing/test_tmpdir.py::test_tmpdir_factory": false,
+        "testing/test_tmpdir.py::test_basetemp_with_read_only_files": false,
+        "testing/test_tmpdir.py::test_tmp_path_always_is_realpath": false,
+        "testing/test_tmpdir.py::test_tmpdir_too_long_on_parametrization": false,
+        "testing/test_tmpdir.py::TestConfigTmpdir::test_getbasetemp_custom_removes_old": false,
+        "testing/test_tmpdir.py::TestTempdirHandler::test_tmppath_relative_basetemp_absolute": false,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_lock_create": false,
+        "testing/test_tmpdir.py::test_tmpdir_always_is_realpath": false,
+        "testing/test_tmpdir.py::test_tmpdir_fallback_tox_env": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-8365/dedup_patch_25.jsonl": {
       "pytest-dev__pytest-8365": {
-        "test_tmpdir.py::TestTempdirHandler::test_mktemp": false,
-        "test_tmpdir.py::test_tmpdir_fallback_uid_not_found": false,
-        "test_tmpdir.py::test_mktemp": false
+        "testing/test_tmpdir.py::TestTempdirHandler::test_mktemp": false,
+        "testing/test_tmpdir.py::test_tmpdir_fallback_uid_not_found": false,
+        "testing/test_tmpdir.py::test_mktemp": false,
+        "testing/test_tmpdir.py::TestNumberedDir::test_make": false,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf_with_read_only_directory": false,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_ignores_symlink": false,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf_with_read_only_file": false,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_locked": false,
+        "testing/test_tmpdir.py::TestRmRf::test_on_rm_rf_error": false,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf": false,
+        "testing/test_tmpdir.py::test_tmpdir_equals_tmp_path": false,
+        "testing/test_tmpdir.py::test_tmpdir_fixture": false,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_keep": false,
+        "testing/test_tmpdir.py::TestNumberedDir::test_lock_register_cleanup_removal": false,
+        "testing/test_tmpdir.py::TestNumberedDir::test_removal_accepts_lock": false,
+        "testing/test_tmpdir.py::test_tmpdir_factory": false,
+        "testing/test_tmpdir.py::test_basetemp_with_read_only_files": false,
+        "testing/test_tmpdir.py::test_tmp_path_always_is_realpath": false,
+        "testing/test_tmpdir.py::test_tmpdir_too_long_on_parametrization": false,
+        "testing/test_tmpdir.py::TestConfigTmpdir::test_getbasetemp_custom_removes_old": false,
+        "testing/test_tmpdir.py::TestTempdirHandler::test_tmppath_relative_basetemp_absolute": false,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_lock_create": false,
+        "testing/test_tmpdir.py::test_tmpdir_always_is_realpath": false,
+        "testing/test_tmpdir.py::test_tmpdir_fallback_tox_env": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-8365/dedup_patch_26.jsonl": {
       "pytest-dev__pytest-8365": {
-        "test_tmpdir.py::TestTempdirHandler::test_mktemp": false,
-        "test_tmpdir.py::test_tmpdir_fallback_uid_not_found": false,
-        "test_tmpdir.py::test_mktemp": false
+        "testing/test_tmpdir.py::TestTempdirHandler::test_mktemp": true,
+        "testing/test_tmpdir.py::test_tmpdir_fallback_uid_not_found": true,
+        "testing/test_tmpdir.py::test_mktemp": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_make": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf_with_read_only_directory": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_ignores_symlink": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf_with_read_only_file": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_locked": true,
+        "testing/test_tmpdir.py::TestRmRf::test_on_rm_rf_error": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf": true,
+        "testing/test_tmpdir.py::test_tmpdir_equals_tmp_path": true,
+        "testing/test_tmpdir.py::test_tmpdir_fixture": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_keep": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_lock_register_cleanup_removal": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_removal_accepts_lock": true,
+        "testing/test_tmpdir.py::test_tmpdir_factory": true,
+        "testing/test_tmpdir.py::test_basetemp_with_read_only_files": true,
+        "testing/test_tmpdir.py::test_tmp_path_always_is_realpath": true,
+        "testing/test_tmpdir.py::test_tmpdir_too_long_on_parametrization": true,
+        "testing/test_tmpdir.py::TestConfigTmpdir::test_getbasetemp_custom_removes_old": true,
+        "testing/test_tmpdir.py::TestTempdirHandler::test_tmppath_relative_basetemp_absolute": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_lock_create": true,
+        "testing/test_tmpdir.py::test_tmpdir_always_is_realpath": true,
+        "testing/test_tmpdir.py::test_tmpdir_fallback_tox_env": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-8365/dedup_patch_27.jsonl": {
       "pytest-dev__pytest-8365": {
-        "test_tmpdir.py::TestTempdirHandler::test_mktemp": false,
-        "test_tmpdir.py::test_tmpdir_fallback_uid_not_found": false,
-        "test_tmpdir.py::test_mktemp": false
+        "testing/test_tmpdir.py::TestTempdirHandler::test_mktemp": true,
+        "testing/test_tmpdir.py::test_tmpdir_fallback_uid_not_found": true,
+        "testing/test_tmpdir.py::test_mktemp": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_make": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf_with_read_only_directory": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_ignores_symlink": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf_with_read_only_file": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_locked": true,
+        "testing/test_tmpdir.py::TestRmRf::test_on_rm_rf_error": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf": true,
+        "testing/test_tmpdir.py::test_tmpdir_equals_tmp_path": true,
+        "testing/test_tmpdir.py::test_tmpdir_fixture": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_keep": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_lock_register_cleanup_removal": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_removal_accepts_lock": true,
+        "testing/test_tmpdir.py::test_tmpdir_factory": true,
+        "testing/test_tmpdir.py::test_basetemp_with_read_only_files": true,
+        "testing/test_tmpdir.py::test_tmp_path_always_is_realpath": true,
+        "testing/test_tmpdir.py::test_tmpdir_too_long_on_parametrization": true,
+        "testing/test_tmpdir.py::TestConfigTmpdir::test_getbasetemp_custom_removes_old": true,
+        "testing/test_tmpdir.py::TestTempdirHandler::test_tmppath_relative_basetemp_absolute": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_lock_create": true,
+        "testing/test_tmpdir.py::test_tmpdir_always_is_realpath": true,
+        "testing/test_tmpdir.py::test_tmpdir_fallback_tox_env": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-8365/dedup_patch_28.jsonl": {
       "pytest-dev__pytest-8365": {
-        "test_tmpdir.py::TestTempdirHandler::test_mktemp": false,
-        "test_tmpdir.py::test_tmpdir_fallback_uid_not_found": false,
-        "test_tmpdir.py::test_mktemp": false
+        "testing/test_tmpdir.py::TestTempdirHandler::test_mktemp": false,
+        "testing/test_tmpdir.py::test_tmpdir_fallback_uid_not_found": false,
+        "testing/test_tmpdir.py::test_mktemp": false,
+        "testing/test_tmpdir.py::TestNumberedDir::test_make": false,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf_with_read_only_directory": false,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_ignores_symlink": false,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf_with_read_only_file": false,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_locked": false,
+        "testing/test_tmpdir.py::TestRmRf::test_on_rm_rf_error": false,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf": false,
+        "testing/test_tmpdir.py::test_tmpdir_equals_tmp_path": false,
+        "testing/test_tmpdir.py::test_tmpdir_fixture": false,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_keep": false,
+        "testing/test_tmpdir.py::TestNumberedDir::test_lock_register_cleanup_removal": false,
+        "testing/test_tmpdir.py::TestNumberedDir::test_removal_accepts_lock": false,
+        "testing/test_tmpdir.py::test_tmpdir_factory": false,
+        "testing/test_tmpdir.py::test_basetemp_with_read_only_files": false,
+        "testing/test_tmpdir.py::test_tmp_path_always_is_realpath": false,
+        "testing/test_tmpdir.py::test_tmpdir_too_long_on_parametrization": false,
+        "testing/test_tmpdir.py::TestConfigTmpdir::test_getbasetemp_custom_removes_old": false,
+        "testing/test_tmpdir.py::TestTempdirHandler::test_tmppath_relative_basetemp_absolute": false,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_lock_create": false,
+        "testing/test_tmpdir.py::test_tmpdir_always_is_realpath": false,
+        "testing/test_tmpdir.py::test_tmpdir_fallback_tox_env": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-8365/dedup_patch_29.jsonl": {
       "pytest-dev__pytest-8365": {
-        "test_tmpdir.py::TestTempdirHandler::test_mktemp": false,
-        "test_tmpdir.py::test_tmpdir_fallback_uid_not_found": false,
-        "test_tmpdir.py::test_mktemp": false
+        "testing/test_tmpdir.py::TestTempdirHandler::test_mktemp": true,
+        "testing/test_tmpdir.py::test_tmpdir_fallback_uid_not_found": true,
+        "testing/test_tmpdir.py::test_mktemp": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_make": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf_with_read_only_directory": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_ignores_symlink": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf_with_read_only_file": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_locked": true,
+        "testing/test_tmpdir.py::TestRmRf::test_on_rm_rf_error": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf": true,
+        "testing/test_tmpdir.py::test_tmpdir_equals_tmp_path": true,
+        "testing/test_tmpdir.py::test_tmpdir_fixture": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_keep": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_lock_register_cleanup_removal": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_removal_accepts_lock": true,
+        "testing/test_tmpdir.py::test_tmpdir_factory": true,
+        "testing/test_tmpdir.py::test_basetemp_with_read_only_files": true,
+        "testing/test_tmpdir.py::test_tmp_path_always_is_realpath": true,
+        "testing/test_tmpdir.py::test_tmpdir_too_long_on_parametrization": true,
+        "testing/test_tmpdir.py::TestConfigTmpdir::test_getbasetemp_custom_removes_old": true,
+        "testing/test_tmpdir.py::TestTempdirHandler::test_tmppath_relative_basetemp_absolute": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_lock_create": true,
+        "testing/test_tmpdir.py::test_tmpdir_always_is_realpath": true,
+        "testing/test_tmpdir.py::test_tmpdir_fallback_tox_env": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-8365/dedup_patch_3.jsonl": {
       "pytest-dev__pytest-8365": {
-        "test_tmpdir.py::TestTempdirHandler::test_mktemp": false,
-        "test_tmpdir.py::test_tmpdir_fallback_uid_not_found": false,
-        "test_tmpdir.py::test_mktemp": false
+        "testing/test_tmpdir.py::TestTempdirHandler::test_mktemp": true,
+        "testing/test_tmpdir.py::test_tmpdir_fallback_uid_not_found": true,
+        "testing/test_tmpdir.py::test_mktemp": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_make": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf_with_read_only_directory": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_ignores_symlink": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf_with_read_only_file": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_locked": true,
+        "testing/test_tmpdir.py::TestRmRf::test_on_rm_rf_error": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf": true,
+        "testing/test_tmpdir.py::test_tmpdir_equals_tmp_path": true,
+        "testing/test_tmpdir.py::test_tmpdir_fixture": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_keep": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_lock_register_cleanup_removal": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_removal_accepts_lock": true,
+        "testing/test_tmpdir.py::test_tmpdir_factory": true,
+        "testing/test_tmpdir.py::test_basetemp_with_read_only_files": true,
+        "testing/test_tmpdir.py::test_tmp_path_always_is_realpath": true,
+        "testing/test_tmpdir.py::test_tmpdir_too_long_on_parametrization": true,
+        "testing/test_tmpdir.py::TestConfigTmpdir::test_getbasetemp_custom_removes_old": true,
+        "testing/test_tmpdir.py::TestTempdirHandler::test_tmppath_relative_basetemp_absolute": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_lock_create": true,
+        "testing/test_tmpdir.py::test_tmpdir_always_is_realpath": true,
+        "testing/test_tmpdir.py::test_tmpdir_fallback_tox_env": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-8365/dedup_patch_30.jsonl": {
       "pytest-dev__pytest-8365": {
-        "test_tmpdir.py::TestTempdirHandler::test_mktemp": false,
-        "test_tmpdir.py::test_tmpdir_fallback_uid_not_found": false,
-        "test_tmpdir.py::test_mktemp": false
+        "testing/test_tmpdir.py::TestTempdirHandler::test_mktemp": true,
+        "testing/test_tmpdir.py::test_tmpdir_fallback_uid_not_found": true,
+        "testing/test_tmpdir.py::test_mktemp": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_make": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf_with_read_only_directory": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_ignores_symlink": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf_with_read_only_file": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_locked": true,
+        "testing/test_tmpdir.py::TestRmRf::test_on_rm_rf_error": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf": true,
+        "testing/test_tmpdir.py::test_tmpdir_equals_tmp_path": true,
+        "testing/test_tmpdir.py::test_tmpdir_fixture": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_keep": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_lock_register_cleanup_removal": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_removal_accepts_lock": true,
+        "testing/test_tmpdir.py::test_tmpdir_factory": true,
+        "testing/test_tmpdir.py::test_basetemp_with_read_only_files": true,
+        "testing/test_tmpdir.py::test_tmp_path_always_is_realpath": true,
+        "testing/test_tmpdir.py::test_tmpdir_too_long_on_parametrization": true,
+        "testing/test_tmpdir.py::TestConfigTmpdir::test_getbasetemp_custom_removes_old": true,
+        "testing/test_tmpdir.py::TestTempdirHandler::test_tmppath_relative_basetemp_absolute": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_lock_create": true,
+        "testing/test_tmpdir.py::test_tmpdir_always_is_realpath": true,
+        "testing/test_tmpdir.py::test_tmpdir_fallback_tox_env": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-8365/dedup_patch_31.jsonl": {
       "pytest-dev__pytest-8365": {
-        "test_tmpdir.py::TestTempdirHandler::test_mktemp": false,
-        "test_tmpdir.py::test_tmpdir_fallback_uid_not_found": false,
-        "test_tmpdir.py::test_mktemp": false
+        "testing/test_tmpdir.py::TestTempdirHandler::test_mktemp": true,
+        "testing/test_tmpdir.py::test_tmpdir_fallback_uid_not_found": true,
+        "testing/test_tmpdir.py::test_mktemp": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_make": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf_with_read_only_directory": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_ignores_symlink": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf_with_read_only_file": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_locked": true,
+        "testing/test_tmpdir.py::TestRmRf::test_on_rm_rf_error": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf": true,
+        "testing/test_tmpdir.py::test_tmpdir_equals_tmp_path": true,
+        "testing/test_tmpdir.py::test_tmpdir_fixture": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_keep": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_lock_register_cleanup_removal": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_removal_accepts_lock": true,
+        "testing/test_tmpdir.py::test_tmpdir_factory": true,
+        "testing/test_tmpdir.py::test_basetemp_with_read_only_files": true,
+        "testing/test_tmpdir.py::test_tmp_path_always_is_realpath": true,
+        "testing/test_tmpdir.py::test_tmpdir_too_long_on_parametrization": true,
+        "testing/test_tmpdir.py::TestConfigTmpdir::test_getbasetemp_custom_removes_old": true,
+        "testing/test_tmpdir.py::TestTempdirHandler::test_tmppath_relative_basetemp_absolute": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_lock_create": true,
+        "testing/test_tmpdir.py::test_tmpdir_always_is_realpath": true,
+        "testing/test_tmpdir.py::test_tmpdir_fallback_tox_env": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-8365/dedup_patch_32.jsonl": {
       "pytest-dev__pytest-8365": {
-        "test_tmpdir.py::TestTempdirHandler::test_mktemp": false,
-        "test_tmpdir.py::test_tmpdir_fallback_uid_not_found": false,
-        "test_tmpdir.py::test_mktemp": false
+        "testing/test_tmpdir.py::TestTempdirHandler::test_mktemp": true,
+        "testing/test_tmpdir.py::test_tmpdir_fallback_uid_not_found": true,
+        "testing/test_tmpdir.py::test_mktemp": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_make": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf_with_read_only_directory": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_ignores_symlink": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf_with_read_only_file": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_locked": true,
+        "testing/test_tmpdir.py::TestRmRf::test_on_rm_rf_error": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf": true,
+        "testing/test_tmpdir.py::test_tmpdir_equals_tmp_path": true,
+        "testing/test_tmpdir.py::test_tmpdir_fixture": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_keep": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_lock_register_cleanup_removal": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_removal_accepts_lock": true,
+        "testing/test_tmpdir.py::test_tmpdir_factory": true,
+        "testing/test_tmpdir.py::test_basetemp_with_read_only_files": true,
+        "testing/test_tmpdir.py::test_tmp_path_always_is_realpath": true,
+        "testing/test_tmpdir.py::test_tmpdir_too_long_on_parametrization": true,
+        "testing/test_tmpdir.py::TestConfigTmpdir::test_getbasetemp_custom_removes_old": true,
+        "testing/test_tmpdir.py::TestTempdirHandler::test_tmppath_relative_basetemp_absolute": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_lock_create": true,
+        "testing/test_tmpdir.py::test_tmpdir_always_is_realpath": true,
+        "testing/test_tmpdir.py::test_tmpdir_fallback_tox_env": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-8365/dedup_patch_33.jsonl": {
       "pytest-dev__pytest-8365": {
-        "test_tmpdir.py::TestTempdirHandler::test_mktemp": false,
-        "test_tmpdir.py::test_tmpdir_fallback_uid_not_found": false,
-        "test_tmpdir.py::test_mktemp": false
+        "testing/test_tmpdir.py::TestTempdirHandler::test_mktemp": true,
+        "testing/test_tmpdir.py::test_tmpdir_fallback_uid_not_found": true,
+        "testing/test_tmpdir.py::test_mktemp": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_make": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf_with_read_only_directory": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_ignores_symlink": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf_with_read_only_file": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_locked": true,
+        "testing/test_tmpdir.py::TestRmRf::test_on_rm_rf_error": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf": true,
+        "testing/test_tmpdir.py::test_tmpdir_equals_tmp_path": true,
+        "testing/test_tmpdir.py::test_tmpdir_fixture": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_keep": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_lock_register_cleanup_removal": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_removal_accepts_lock": true,
+        "testing/test_tmpdir.py::test_tmpdir_factory": true,
+        "testing/test_tmpdir.py::test_basetemp_with_read_only_files": true,
+        "testing/test_tmpdir.py::test_tmp_path_always_is_realpath": true,
+        "testing/test_tmpdir.py::test_tmpdir_too_long_on_parametrization": true,
+        "testing/test_tmpdir.py::TestConfigTmpdir::test_getbasetemp_custom_removes_old": true,
+        "testing/test_tmpdir.py::TestTempdirHandler::test_tmppath_relative_basetemp_absolute": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_lock_create": true,
+        "testing/test_tmpdir.py::test_tmpdir_always_is_realpath": true,
+        "testing/test_tmpdir.py::test_tmpdir_fallback_tox_env": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-8365/dedup_patch_4.jsonl": {
       "pytest-dev__pytest-8365": {
-        "test_tmpdir.py::TestTempdirHandler::test_mktemp": false,
-        "test_tmpdir.py::test_tmpdir_fallback_uid_not_found": false,
-        "test_tmpdir.py::test_mktemp": false
+        "testing/test_tmpdir.py::TestTempdirHandler::test_mktemp": false,
+        "testing/test_tmpdir.py::test_tmpdir_fallback_uid_not_found": false,
+        "testing/test_tmpdir.py::test_mktemp": false,
+        "testing/test_tmpdir.py::TestNumberedDir::test_make": false,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf_with_read_only_directory": false,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_ignores_symlink": false,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf_with_read_only_file": false,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_locked": false,
+        "testing/test_tmpdir.py::TestRmRf::test_on_rm_rf_error": false,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf": false,
+        "testing/test_tmpdir.py::test_tmpdir_equals_tmp_path": false,
+        "testing/test_tmpdir.py::test_tmpdir_fixture": false,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_keep": false,
+        "testing/test_tmpdir.py::TestNumberedDir::test_lock_register_cleanup_removal": false,
+        "testing/test_tmpdir.py::TestNumberedDir::test_removal_accepts_lock": false,
+        "testing/test_tmpdir.py::test_tmpdir_factory": false,
+        "testing/test_tmpdir.py::test_basetemp_with_read_only_files": false,
+        "testing/test_tmpdir.py::test_tmp_path_always_is_realpath": false,
+        "testing/test_tmpdir.py::test_tmpdir_too_long_on_parametrization": false,
+        "testing/test_tmpdir.py::TestConfigTmpdir::test_getbasetemp_custom_removes_old": false,
+        "testing/test_tmpdir.py::TestTempdirHandler::test_tmppath_relative_basetemp_absolute": false,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_lock_create": false,
+        "testing/test_tmpdir.py::test_tmpdir_always_is_realpath": false,
+        "testing/test_tmpdir.py::test_tmpdir_fallback_tox_env": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-8365/dedup_patch_5.jsonl": {
       "pytest-dev__pytest-8365": {
-        "test_tmpdir.py::TestTempdirHandler::test_mktemp": false,
-        "test_tmpdir.py::test_tmpdir_fallback_uid_not_found": false,
-        "test_tmpdir.py::test_mktemp": false
+        "testing/test_tmpdir.py::TestTempdirHandler::test_mktemp": true,
+        "testing/test_tmpdir.py::test_tmpdir_fallback_uid_not_found": true,
+        "testing/test_tmpdir.py::test_mktemp": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_make": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf_with_read_only_directory": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_ignores_symlink": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf_with_read_only_file": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_locked": true,
+        "testing/test_tmpdir.py::TestRmRf::test_on_rm_rf_error": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf": true,
+        "testing/test_tmpdir.py::test_tmpdir_equals_tmp_path": true,
+        "testing/test_tmpdir.py::test_tmpdir_fixture": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_keep": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_lock_register_cleanup_removal": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_removal_accepts_lock": true,
+        "testing/test_tmpdir.py::test_tmpdir_factory": true,
+        "testing/test_tmpdir.py::test_basetemp_with_read_only_files": true,
+        "testing/test_tmpdir.py::test_tmp_path_always_is_realpath": true,
+        "testing/test_tmpdir.py::test_tmpdir_too_long_on_parametrization": true,
+        "testing/test_tmpdir.py::TestConfigTmpdir::test_getbasetemp_custom_removes_old": true,
+        "testing/test_tmpdir.py::TestTempdirHandler::test_tmppath_relative_basetemp_absolute": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_lock_create": true,
+        "testing/test_tmpdir.py::test_tmpdir_always_is_realpath": true,
+        "testing/test_tmpdir.py::test_tmpdir_fallback_tox_env": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-8365/dedup_patch_6.jsonl": {
       "pytest-dev__pytest-8365": {
-        "test_tmpdir.py::TestTempdirHandler::test_mktemp": false,
-        "test_tmpdir.py::test_tmpdir_fallback_uid_not_found": false,
-        "test_tmpdir.py::test_mktemp": false
+        "testing/test_tmpdir.py::TestTempdirHandler::test_mktemp": true,
+        "testing/test_tmpdir.py::test_tmpdir_fallback_uid_not_found": true,
+        "testing/test_tmpdir.py::test_mktemp": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_make": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf_with_read_only_directory": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_ignores_symlink": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf_with_read_only_file": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_locked": true,
+        "testing/test_tmpdir.py::TestRmRf::test_on_rm_rf_error": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf": true,
+        "testing/test_tmpdir.py::test_tmpdir_equals_tmp_path": true,
+        "testing/test_tmpdir.py::test_tmpdir_fixture": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_keep": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_lock_register_cleanup_removal": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_removal_accepts_lock": true,
+        "testing/test_tmpdir.py::test_tmpdir_factory": true,
+        "testing/test_tmpdir.py::test_basetemp_with_read_only_files": true,
+        "testing/test_tmpdir.py::test_tmp_path_always_is_realpath": true,
+        "testing/test_tmpdir.py::test_tmpdir_too_long_on_parametrization": true,
+        "testing/test_tmpdir.py::TestConfigTmpdir::test_getbasetemp_custom_removes_old": true,
+        "testing/test_tmpdir.py::TestTempdirHandler::test_tmppath_relative_basetemp_absolute": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_lock_create": true,
+        "testing/test_tmpdir.py::test_tmpdir_always_is_realpath": true,
+        "testing/test_tmpdir.py::test_tmpdir_fallback_tox_env": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-8365/dedup_patch_7.jsonl": {
       "pytest-dev__pytest-8365": {
-        "test_tmpdir.py::TestTempdirHandler::test_mktemp": false,
-        "test_tmpdir.py::test_tmpdir_fallback_uid_not_found": false,
-        "test_tmpdir.py::test_mktemp": false
+        "testing/test_tmpdir.py::TestTempdirHandler::test_mktemp": true,
+        "testing/test_tmpdir.py::test_tmpdir_fallback_uid_not_found": true,
+        "testing/test_tmpdir.py::test_mktemp": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_make": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf_with_read_only_directory": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_ignores_symlink": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf_with_read_only_file": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_locked": true,
+        "testing/test_tmpdir.py::TestRmRf::test_on_rm_rf_error": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf": true,
+        "testing/test_tmpdir.py::test_tmpdir_equals_tmp_path": true,
+        "testing/test_tmpdir.py::test_tmpdir_fixture": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_keep": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_lock_register_cleanup_removal": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_removal_accepts_lock": true,
+        "testing/test_tmpdir.py::test_tmpdir_factory": true,
+        "testing/test_tmpdir.py::test_basetemp_with_read_only_files": true,
+        "testing/test_tmpdir.py::test_tmp_path_always_is_realpath": true,
+        "testing/test_tmpdir.py::test_tmpdir_too_long_on_parametrization": true,
+        "testing/test_tmpdir.py::TestConfigTmpdir::test_getbasetemp_custom_removes_old": true,
+        "testing/test_tmpdir.py::TestTempdirHandler::test_tmppath_relative_basetemp_absolute": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_lock_create": true,
+        "testing/test_tmpdir.py::test_tmpdir_always_is_realpath": true,
+        "testing/test_tmpdir.py::test_tmpdir_fallback_tox_env": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-8365/dedup_patch_8.jsonl": {
       "pytest-dev__pytest-8365": {
-        "test_tmpdir.py::TestTempdirHandler::test_mktemp": false,
-        "test_tmpdir.py::test_tmpdir_fallback_uid_not_found": false,
-        "test_tmpdir.py::test_mktemp": false
+        "testing/test_tmpdir.py::TestTempdirHandler::test_mktemp": true,
+        "testing/test_tmpdir.py::test_tmpdir_fallback_uid_not_found": true,
+        "testing/test_tmpdir.py::test_mktemp": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_make": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf_with_read_only_directory": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_ignores_symlink": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf_with_read_only_file": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_locked": true,
+        "testing/test_tmpdir.py::TestRmRf::test_on_rm_rf_error": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf": true,
+        "testing/test_tmpdir.py::test_tmpdir_equals_tmp_path": true,
+        "testing/test_tmpdir.py::test_tmpdir_fixture": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_keep": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_lock_register_cleanup_removal": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_removal_accepts_lock": true,
+        "testing/test_tmpdir.py::test_tmpdir_factory": true,
+        "testing/test_tmpdir.py::test_basetemp_with_read_only_files": true,
+        "testing/test_tmpdir.py::test_tmp_path_always_is_realpath": true,
+        "testing/test_tmpdir.py::test_tmpdir_too_long_on_parametrization": true,
+        "testing/test_tmpdir.py::TestConfigTmpdir::test_getbasetemp_custom_removes_old": true,
+        "testing/test_tmpdir.py::TestTempdirHandler::test_tmppath_relative_basetemp_absolute": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_lock_create": true,
+        "testing/test_tmpdir.py::test_tmpdir_always_is_realpath": true,
+        "testing/test_tmpdir.py::test_tmpdir_fallback_tox_env": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-8365/dedup_patch_9.jsonl": {
       "pytest-dev__pytest-8365": {
-        "test_tmpdir.py::TestTempdirHandler::test_mktemp": false,
-        "test_tmpdir.py::test_tmpdir_fallback_uid_not_found": false,
-        "test_tmpdir.py::test_mktemp": false
+        "testing/test_tmpdir.py::TestTempdirHandler::test_mktemp": true,
+        "testing/test_tmpdir.py::test_tmpdir_fallback_uid_not_found": false,
+        "testing/test_tmpdir.py::test_mktemp": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_make": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf_with_read_only_directory": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_ignores_symlink": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf_with_read_only_file": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_locked": true,
+        "testing/test_tmpdir.py::TestRmRf::test_on_rm_rf_error": true,
+        "testing/test_tmpdir.py::TestRmRf::test_rm_rf": true,
+        "testing/test_tmpdir.py::test_tmpdir_equals_tmp_path": true,
+        "testing/test_tmpdir.py::test_tmpdir_fixture": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_keep": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_lock_register_cleanup_removal": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_removal_accepts_lock": true,
+        "testing/test_tmpdir.py::test_tmpdir_factory": true,
+        "testing/test_tmpdir.py::test_basetemp_with_read_only_files": true,
+        "testing/test_tmpdir.py::test_tmp_path_always_is_realpath": true,
+        "testing/test_tmpdir.py::test_tmpdir_too_long_on_parametrization": true,
+        "testing/test_tmpdir.py::TestConfigTmpdir::test_getbasetemp_custom_removes_old": true,
+        "testing/test_tmpdir.py::TestTempdirHandler::test_tmppath_relative_basetemp_absolute": true,
+        "testing/test_tmpdir.py::TestNumberedDir::test_cleanup_lock_create": true,
+        "testing/test_tmpdir.py::test_tmpdir_always_is_realpath": true,
+        "testing/test_tmpdir.py::test_tmpdir_fallback_tox_env": true
       }
     }
   },
@@ -252,212 +966,122 @@
         "testing/test_tmpdir.py::test_tmpdir_factory#8": false,
         "testing/test_tmpdir.py::test_get_user#9": false,
         "testing/test_tmpdir.py::test_get_user#10": false,
-        "testing/reproduce_bug.py#11": true,
-        "testing/reproduce_bug_new.py#11": true
+        "testing/reproduce_bug_new3.py#11": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-8365/dedup_patch_0.jsonl": {
       "pytest-dev__pytest-8365": {
-        "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
+        "testing/reproduce_bug_new3.py#11": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-8365/dedup_patch_1.jsonl": {
       "pytest-dev__pytest-8365": {
-        "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
+        "testing/reproduce_bug_new3.py#11": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-8365/dedup_patch_10.jsonl": {
       "pytest-dev__pytest-8365": {
-        "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
+        "testing/reproduce_bug_new3.py#11": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-8365/dedup_patch_11.jsonl": {
       "pytest-dev__pytest-8365": {
-        "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
-      }
-    },
-    "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-8365/dedup_patch_12.jsonl": {
-      "pytest-dev__pytest-8365": {
-        "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
-      }
-    },
-    "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-8365/dedup_patch_13.jsonl": {
-      "pytest-dev__pytest-8365": {
-        "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
-      }
-    },
-    "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-8365/dedup_patch_14.jsonl": {
-      "pytest-dev__pytest-8365": {
-        "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
+        "testing/reproduce_bug_new3.py#11": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-8365/dedup_patch_15.jsonl": {
       "pytest-dev__pytest-8365": {
-        "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
-      }
-    },
-    "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-8365/dedup_patch_16.jsonl": {
-      "pytest-dev__pytest-8365": {
-        "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
+        "testing/reproduce_bug_new3.py#11": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-8365/dedup_patch_17.jsonl": {
       "pytest-dev__pytest-8365": {
-        "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
+        "testing/reproduce_bug_new3.py#11": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-8365/dedup_patch_18.jsonl": {
       "pytest-dev__pytest-8365": {
-        "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
-      }
-    },
-    "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-8365/dedup_patch_19.jsonl": {
-      "pytest-dev__pytest-8365": {
-        "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
+        "testing/reproduce_bug_new3.py#11": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-8365/dedup_patch_2.jsonl": {
       "pytest-dev__pytest-8365": {
-        "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
+        "testing/reproduce_bug_new3.py#11": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-8365/dedup_patch_20.jsonl": {
       "pytest-dev__pytest-8365": {
-        "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
+        "testing/reproduce_bug_new3.py#11": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-8365/dedup_patch_21.jsonl": {
       "pytest-dev__pytest-8365": {
-        "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
+        "testing/reproduce_bug_new3.py#11": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-8365/dedup_patch_22.jsonl": {
       "pytest-dev__pytest-8365": {
-        "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
-      }
-    },
-    "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-8365/dedup_patch_23.jsonl": {
-      "pytest-dev__pytest-8365": {
-        "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
-      }
-    },
-    "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-8365/dedup_patch_24.jsonl": {
-      "pytest-dev__pytest-8365": {
-        "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
-      }
-    },
-    "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-8365/dedup_patch_25.jsonl": {
-      "pytest-dev__pytest-8365": {
-        "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
+        "testing/reproduce_bug_new3.py#11": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-8365/dedup_patch_26.jsonl": {
       "pytest-dev__pytest-8365": {
-        "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
+        "testing/reproduce_bug_new3.py#11": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-8365/dedup_patch_27.jsonl": {
       "pytest-dev__pytest-8365": {
-        "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
-      }
-    },
-    "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-8365/dedup_patch_28.jsonl": {
-      "pytest-dev__pytest-8365": {
-        "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
+        "testing/reproduce_bug_new3.py#11": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-8365/dedup_patch_29.jsonl": {
       "pytest-dev__pytest-8365": {
-        "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
+        "testing/reproduce_bug_new3.py#11": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-8365/dedup_patch_3.jsonl": {
       "pytest-dev__pytest-8365": {
-        "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
+        "testing/reproduce_bug_new3.py#11": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-8365/dedup_patch_30.jsonl": {
       "pytest-dev__pytest-8365": {
-        "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
+        "testing/reproduce_bug_new3.py#11": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-8365/dedup_patch_31.jsonl": {
       "pytest-dev__pytest-8365": {
-        "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
+        "testing/reproduce_bug_new3.py#11": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-8365/dedup_patch_32.jsonl": {
       "pytest-dev__pytest-8365": {
-        "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
+        "testing/reproduce_bug_new3.py#11": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-8365/dedup_patch_33.jsonl": {
       "pytest-dev__pytest-8365": {
-        "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
-      }
-    },
-    "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-8365/dedup_patch_4.jsonl": {
-      "pytest-dev__pytest-8365": {
-        "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
+        "testing/reproduce_bug_new3.py#11": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-8365/dedup_patch_5.jsonl": {
       "pytest-dev__pytest-8365": {
-        "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
+        "testing/reproduce_bug_new3.py#11": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-8365/dedup_patch_6.jsonl": {
       "pytest-dev__pytest-8365": {
-        "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
+        "testing/reproduce_bug_new3.py#11": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-8365/dedup_patch_7.jsonl": {
       "pytest-dev__pytest-8365": {
-        "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
+        "testing/reproduce_bug_new3.py#11": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-8365/dedup_patch_8.jsonl": {
       "pytest-dev__pytest-8365": {
-        "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
-      }
-    },
-    "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-8365/dedup_patch_9.jsonl": {
-      "pytest-dev__pytest-8365": {
-        "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
+        "testing/reproduce_bug_new3.py#11": false
       }
     }
   }

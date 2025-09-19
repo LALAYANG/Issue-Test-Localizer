@@ -9,7 +9,18 @@
         "test_skipping.py::TestXFail::test_strict_xfail": false,
         "test_skipping.py::TestXFail::test_xfail_imperative": false,
         "test_skipping.py::test_xfail_skipif_with_globals": false,
-        "test_skipping.py::TestXFail::test_strict_xfail_default_from_file": false
+        "test_skipping.py::TestXFail::test_strict_xfail_default_from_file": false,
+        "testing/test_skipping.py::TestXFail::test_xfail_raises": true,
+        "testing/test_skipping.py::TestXFail::test_dynamic_xfail_no_run": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_condition_keyword": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_not_run_xfail_reporting": true,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_imperative": true,
+        "testing/test_skipping.py::test_xfail_skipif_with_globals": true,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail_default_from_file": true,
+        "testing/test_skipping.py::test_xfail_test_setup_exception": true,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_setup_issue9": true,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_teardown_issue9": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-7490/dedup_patch_1.jsonl": {
@@ -21,7 +32,18 @@
         "test_skipping.py::TestXFail::test_strict_xfail": false,
         "test_skipping.py::TestXFail::test_xfail_imperative": false,
         "test_skipping.py::test_xfail_skipif_with_globals": false,
-        "test_skipping.py::TestXFail::test_strict_xfail_default_from_file": false
+        "test_skipping.py::TestXFail::test_strict_xfail_default_from_file": false,
+        "testing/test_skipping.py::TestXFail::test_xfail_raises": true,
+        "testing/test_skipping.py::TestXFail::test_dynamic_xfail_no_run": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_condition_keyword": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_not_run_xfail_reporting": true,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_imperative": true,
+        "testing/test_skipping.py::test_xfail_skipif_with_globals": true,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail_default_from_file": true,
+        "testing/test_skipping.py::test_xfail_test_setup_exception": true,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_setup_issue9": true,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_teardown_issue9": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-7490/dedup_patch_10.jsonl": {
@@ -33,7 +55,18 @@
         "test_skipping.py::TestXFail::test_strict_xfail": false,
         "test_skipping.py::TestXFail::test_xfail_imperative": false,
         "test_skipping.py::test_xfail_skipif_with_globals": false,
-        "test_skipping.py::TestXFail::test_strict_xfail_default_from_file": false
+        "test_skipping.py::TestXFail::test_strict_xfail_default_from_file": false,
+        "testing/test_skipping.py::TestXFail::test_xfail_raises": true,
+        "testing/test_skipping.py::TestXFail::test_dynamic_xfail_no_run": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_condition_keyword": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_not_run_xfail_reporting": true,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_imperative": true,
+        "testing/test_skipping.py::test_xfail_skipif_with_globals": true,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail_default_from_file": true,
+        "testing/test_skipping.py::test_xfail_test_setup_exception": true,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_setup_issue9": true,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_teardown_issue9": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-7490/dedup_patch_11.jsonl": {
@@ -45,391 +78,497 @@
         "test_skipping.py::TestXFail::test_strict_xfail": false,
         "test_skipping.py::TestXFail::test_xfail_imperative": false,
         "test_skipping.py::test_xfail_skipif_with_globals": false,
-        "test_skipping.py::TestXFail::test_strict_xfail_default_from_file": false
+        "testing/test_skipping.py::TestXFail::test_xfail_raises": true,
+        "testing/test_skipping.py::TestXFail::test_dynamic_xfail_no_run": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_condition_keyword": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_not_run_xfail_reporting": true,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_imperative": true,
+        "testing/test_skipping.py::test_xfail_skipif_with_globals": true,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail_default_from_file": true,
+        "testing/test_skipping.py::test_xfail_test_setup_exception": true,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_setup_issue9": true,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_teardown_issue9": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-7490/dedup_patch_12.jsonl": {
       "pytest-dev__pytest-7490": {
-        "test_skipping.py::TestXFail::test_xfail_raises": false,
-        "test_skipping.py::TestXFail::test_dynamic_xfail_no_run": false,
-        "test_skipping.py::TestXFail::test_xfail_condition_keyword": false,
-        "test_skipping.py::TestXFail::test_xfail_not_run_xfail_reporting": false,
-        "test_skipping.py::TestXFail::test_strict_xfail": false,
-        "test_skipping.py::TestXFail::test_xfail_imperative": false,
-        "test_skipping.py::test_xfail_skipif_with_globals": false,
-        "test_skipping.py::TestXFail::test_strict_xfail_default_from_file": false
+        "testing/test_skipping.py::TestXFail::test_xfail_raises": true,
+        "testing/test_skipping.py::TestXFail::test_dynamic_xfail_no_run": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_condition_keyword": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_not_run_xfail_reporting": true,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_imperative": true,
+        "testing/test_skipping.py::test_xfail_skipif_with_globals": true,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail_default_from_file": true,
+        "testing/test_skipping.py::test_xfail_test_setup_exception": true,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_setup_issue9": true,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_teardown_issue9": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-7490/dedup_patch_13.jsonl": {
       "pytest-dev__pytest-7490": {
-        "test_skipping.py::TestXFail::test_xfail_raises": false,
-        "test_skipping.py::TestXFail::test_dynamic_xfail_no_run": false,
-        "test_skipping.py::TestXFail::test_xfail_condition_keyword": false,
-        "test_skipping.py::TestXFail::test_xfail_not_run_xfail_reporting": false,
-        "test_skipping.py::TestXFail::test_strict_xfail": false,
-        "test_skipping.py::TestXFail::test_xfail_imperative": false,
-        "test_skipping.py::test_xfail_skipif_with_globals": false,
-        "test_skipping.py::TestXFail::test_strict_xfail_default_from_file": false
+        "testing/test_skipping.py::TestXFail::test_xfail_raises": true,
+        "testing/test_skipping.py::TestXFail::test_dynamic_xfail_no_run": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_condition_keyword": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_not_run_xfail_reporting": true,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_imperative": true,
+        "testing/test_skipping.py::test_xfail_skipif_with_globals": true,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail_default_from_file": true,
+        "testing/test_skipping.py::test_xfail_test_setup_exception": true,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_setup_issue9": true,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_teardown_issue9": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-7490/dedup_patch_14.jsonl": {
       "pytest-dev__pytest-7490": {
-        "test_skipping.py::TestXFail::test_xfail_raises": false,
-        "test_skipping.py::TestXFail::test_dynamic_xfail_no_run": false,
-        "test_skipping.py::TestXFail::test_xfail_condition_keyword": false,
-        "test_skipping.py::TestXFail::test_xfail_not_run_xfail_reporting": false,
-        "test_skipping.py::TestXFail::test_strict_xfail": false,
-        "test_skipping.py::TestXFail::test_xfail_imperative": false,
-        "test_skipping.py::test_xfail_skipif_with_globals": false,
-        "test_skipping.py::TestXFail::test_strict_xfail_default_from_file": false
+        "testing/test_skipping.py::TestXFail::test_xfail_raises": true,
+        "testing/test_skipping.py::TestXFail::test_dynamic_xfail_no_run": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_condition_keyword": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_not_run_xfail_reporting": true,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_imperative": true,
+        "testing/test_skipping.py::test_xfail_skipif_with_globals": true,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail_default_from_file": true,
+        "testing/test_skipping.py::test_xfail_test_setup_exception": true,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_setup_issue9": true,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_teardown_issue9": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-7490/dedup_patch_15.jsonl": {
       "pytest-dev__pytest-7490": {
-        "test_skipping.py::TestXFail::test_xfail_raises": false,
-        "test_skipping.py::TestXFail::test_dynamic_xfail_no_run": false,
-        "test_skipping.py::TestXFail::test_xfail_condition_keyword": false,
-        "test_skipping.py::TestXFail::test_xfail_not_run_xfail_reporting": false,
-        "test_skipping.py::TestXFail::test_strict_xfail": false,
-        "test_skipping.py::TestXFail::test_xfail_imperative": false,
-        "test_skipping.py::test_xfail_skipif_with_globals": false,
-        "test_skipping.py::TestXFail::test_strict_xfail_default_from_file": false
+        "testing/test_skipping.py::TestXFail::test_xfail_raises": true,
+        "testing/test_skipping.py::TestXFail::test_dynamic_xfail_no_run": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_condition_keyword": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_not_run_xfail_reporting": true,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_imperative": true,
+        "testing/test_skipping.py::test_xfail_skipif_with_globals": true,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail_default_from_file": true,
+        "testing/test_skipping.py::test_xfail_test_setup_exception": true,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_setup_issue9": true,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_teardown_issue9": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-7490/dedup_patch_16.jsonl": {
       "pytest-dev__pytest-7490": {
-        "test_skipping.py::TestXFail::test_xfail_raises": false,
-        "test_skipping.py::TestXFail::test_dynamic_xfail_no_run": false,
-        "test_skipping.py::TestXFail::test_xfail_condition_keyword": false,
-        "test_skipping.py::TestXFail::test_xfail_not_run_xfail_reporting": false,
-        "test_skipping.py::TestXFail::test_strict_xfail": false,
-        "test_skipping.py::TestXFail::test_xfail_imperative": false,
-        "test_skipping.py::test_xfail_skipif_with_globals": false,
-        "test_skipping.py::TestXFail::test_strict_xfail_default_from_file": false
+        "testing/test_skipping.py::TestXFail::test_xfail_raises": true,
+        "testing/test_skipping.py::TestXFail::test_dynamic_xfail_no_run": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_condition_keyword": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_not_run_xfail_reporting": true,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_imperative": true,
+        "testing/test_skipping.py::test_xfail_skipif_with_globals": true,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail_default_from_file": true,
+        "testing/test_skipping.py::test_xfail_test_setup_exception": false,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_setup_issue9": false,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_teardown_issue9": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-7490/dedup_patch_17.jsonl": {
       "pytest-dev__pytest-7490": {
-        "test_skipping.py::TestXFail::test_xfail_raises": false,
-        "test_skipping.py::TestXFail::test_dynamic_xfail_no_run": false,
-        "test_skipping.py::TestXFail::test_xfail_condition_keyword": false,
-        "test_skipping.py::TestXFail::test_xfail_not_run_xfail_reporting": false,
-        "test_skipping.py::TestXFail::test_strict_xfail": false,
-        "test_skipping.py::TestXFail::test_xfail_imperative": false,
-        "test_skipping.py::test_xfail_skipif_with_globals": false,
-        "test_skipping.py::TestXFail::test_strict_xfail_default_from_file": false
+        "testing/test_skipping.py::TestXFail::test_xfail_raises": true,
+        "testing/test_skipping.py::TestXFail::test_dynamic_xfail_no_run": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_condition_keyword": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_not_run_xfail_reporting": true,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_imperative": true,
+        "testing/test_skipping.py::test_xfail_skipif_with_globals": true,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail_default_from_file": true,
+        "testing/test_skipping.py::test_xfail_test_setup_exception": true,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_setup_issue9": true,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_teardown_issue9": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-7490/dedup_patch_18.jsonl": {
       "pytest-dev__pytest-7490": {
-        "test_skipping.py::TestXFail::test_xfail_raises": false,
-        "test_skipping.py::TestXFail::test_dynamic_xfail_no_run": false,
-        "test_skipping.py::TestXFail::test_xfail_condition_keyword": false,
-        "test_skipping.py::TestXFail::test_xfail_not_run_xfail_reporting": false,
-        "test_skipping.py::TestXFail::test_strict_xfail": false,
-        "test_skipping.py::TestXFail::test_xfail_imperative": false,
-        "test_skipping.py::test_xfail_skipif_with_globals": false,
-        "test_skipping.py::TestXFail::test_strict_xfail_default_from_file": false
+        "testing/test_skipping.py::TestXFail::test_xfail_raises": false,
+        "testing/test_skipping.py::TestXFail::test_dynamic_xfail_no_run": false,
+        "testing/test_skipping.py::TestXFail::test_xfail_condition_keyword": false,
+        "testing/test_skipping.py::TestXFail::test_xfail_not_run_xfail_reporting": false,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail": false,
+        "testing/test_skipping.py::TestXFail::test_xfail_imperative": false,
+        "testing/test_skipping.py::test_xfail_skipif_with_globals": false,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail_default_from_file": false,
+        "testing/test_skipping.py::test_xfail_test_setup_exception": false,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_setup_issue9": false,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_teardown_issue9": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-7490/dedup_patch_19.jsonl": {
       "pytest-dev__pytest-7490": {
-        "test_skipping.py::TestXFail::test_xfail_raises": false,
-        "test_skipping.py::TestXFail::test_dynamic_xfail_no_run": false,
-        "test_skipping.py::TestXFail::test_xfail_condition_keyword": false,
-        "test_skipping.py::TestXFail::test_xfail_not_run_xfail_reporting": false,
-        "test_skipping.py::TestXFail::test_strict_xfail": false,
-        "test_skipping.py::TestXFail::test_xfail_imperative": false,
-        "test_skipping.py::test_xfail_skipif_with_globals": false,
-        "test_skipping.py::TestXFail::test_strict_xfail_default_from_file": false
+        "testing/test_skipping.py::TestXFail::test_xfail_raises": true,
+        "testing/test_skipping.py::TestXFail::test_dynamic_xfail_no_run": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_condition_keyword": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_not_run_xfail_reporting": true,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail": false,
+        "testing/test_skipping.py::TestXFail::test_xfail_imperative": true,
+        "testing/test_skipping.py::test_xfail_skipif_with_globals": true,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail_default_from_file": false,
+        "testing/test_skipping.py::test_xfail_test_setup_exception": true,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_setup_issue9": true,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_teardown_issue9": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-7490/dedup_patch_2.jsonl": {
       "pytest-dev__pytest-7490": {
-        "test_skipping.py::TestXFail::test_xfail_raises": false,
-        "test_skipping.py::TestXFail::test_dynamic_xfail_no_run": false,
-        "test_skipping.py::TestXFail::test_xfail_condition_keyword": false,
-        "test_skipping.py::TestXFail::test_xfail_not_run_xfail_reporting": false,
-        "test_skipping.py::TestXFail::test_strict_xfail": false,
-        "test_skipping.py::TestXFail::test_xfail_imperative": false,
-        "test_skipping.py::test_xfail_skipif_with_globals": false,
-        "test_skipping.py::TestXFail::test_strict_xfail_default_from_file": false
+        "testing/test_skipping.py::TestXFail::test_xfail_raises": true,
+        "testing/test_skipping.py::TestXFail::test_dynamic_xfail_no_run": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_condition_keyword": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_not_run_xfail_reporting": true,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_imperative": true,
+        "testing/test_skipping.py::test_xfail_skipif_with_globals": true,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail_default_from_file": true,
+        "testing/test_skipping.py::test_xfail_test_setup_exception": true,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_setup_issue9": true,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_teardown_issue9": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-7490/dedup_patch_20.jsonl": {
       "pytest-dev__pytest-7490": {
-        "test_skipping.py::TestXFail::test_xfail_raises": false,
-        "test_skipping.py::TestXFail::test_dynamic_xfail_no_run": false,
-        "test_skipping.py::TestXFail::test_xfail_condition_keyword": false,
-        "test_skipping.py::TestXFail::test_xfail_not_run_xfail_reporting": false,
-        "test_skipping.py::TestXFail::test_strict_xfail": false,
-        "test_skipping.py::TestXFail::test_xfail_imperative": false,
-        "test_skipping.py::test_xfail_skipif_with_globals": false,
-        "test_skipping.py::TestXFail::test_strict_xfail_default_from_file": false
+        "testing/test_skipping.py::TestXFail::test_xfail_raises": true,
+        "testing/test_skipping.py::TestXFail::test_dynamic_xfail_no_run": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_condition_keyword": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_not_run_xfail_reporting": true,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_imperative": true,
+        "testing/test_skipping.py::test_xfail_skipif_with_globals": true,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail_default_from_file": true,
+        "testing/test_skipping.py::test_xfail_test_setup_exception": true,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_setup_issue9": true,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_teardown_issue9": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-7490/dedup_patch_21.jsonl": {
       "pytest-dev__pytest-7490": {
-        "test_skipping.py::TestXFail::test_xfail_raises": false,
-        "test_skipping.py::TestXFail::test_dynamic_xfail_no_run": false,
-        "test_skipping.py::TestXFail::test_xfail_condition_keyword": false,
-        "test_skipping.py::TestXFail::test_xfail_not_run_xfail_reporting": false,
-        "test_skipping.py::TestXFail::test_strict_xfail": false,
-        "test_skipping.py::TestXFail::test_xfail_imperative": false,
-        "test_skipping.py::test_xfail_skipif_with_globals": false,
-        "test_skipping.py::TestXFail::test_strict_xfail_default_from_file": false
+        "testing/test_skipping.py::TestXFail::test_xfail_raises": true,
+        "testing/test_skipping.py::TestXFail::test_dynamic_xfail_no_run": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_condition_keyword": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_not_run_xfail_reporting": true,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_imperative": true,
+        "testing/test_skipping.py::test_xfail_skipif_with_globals": true,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail_default_from_file": true,
+        "testing/test_skipping.py::test_xfail_test_setup_exception": true,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_setup_issue9": true,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_teardown_issue9": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-7490/dedup_patch_22.jsonl": {
       "pytest-dev__pytest-7490": {
-        "test_skipping.py::TestXFail::test_xfail_raises": false,
-        "test_skipping.py::TestXFail::test_dynamic_xfail_no_run": false,
-        "test_skipping.py::TestXFail::test_xfail_condition_keyword": false,
-        "test_skipping.py::TestXFail::test_xfail_not_run_xfail_reporting": false,
-        "test_skipping.py::TestXFail::test_strict_xfail": false,
-        "test_skipping.py::TestXFail::test_xfail_imperative": false,
-        "test_skipping.py::test_xfail_skipif_with_globals": false,
-        "test_skipping.py::TestXFail::test_strict_xfail_default_from_file": false
+        "testing/test_skipping.py::TestXFail::test_xfail_raises": true,
+        "testing/test_skipping.py::TestXFail::test_dynamic_xfail_no_run": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_condition_keyword": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_not_run_xfail_reporting": true,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_imperative": true,
+        "testing/test_skipping.py::test_xfail_skipif_with_globals": true,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail_default_from_file": true,
+        "testing/test_skipping.py::test_xfail_test_setup_exception": true,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_setup_issue9": true,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_teardown_issue9": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-7490/dedup_patch_23.jsonl": {
       "pytest-dev__pytest-7490": {
-        "test_skipping.py::TestXFail::test_xfail_raises": false,
-        "test_skipping.py::TestXFail::test_dynamic_xfail_no_run": false,
-        "test_skipping.py::TestXFail::test_xfail_condition_keyword": false,
-        "test_skipping.py::TestXFail::test_xfail_not_run_xfail_reporting": false,
-        "test_skipping.py::TestXFail::test_strict_xfail": false,
-        "test_skipping.py::TestXFail::test_xfail_imperative": false,
-        "test_skipping.py::test_xfail_skipif_with_globals": false,
-        "test_skipping.py::TestXFail::test_strict_xfail_default_from_file": false
+        "testing/test_skipping.py::TestXFail::test_xfail_raises": false,
+        "testing/test_skipping.py::TestXFail::test_dynamic_xfail_no_run": false,
+        "testing/test_skipping.py::TestXFail::test_xfail_condition_keyword": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_not_run_xfail_reporting": false,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail": false,
+        "testing/test_skipping.py::TestXFail::test_xfail_imperative": false,
+        "testing/test_skipping.py::test_xfail_skipif_with_globals": false,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail_default_from_file": false,
+        "testing/test_skipping.py::test_xfail_test_setup_exception": false,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_setup_issue9": false,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_teardown_issue9": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-7490/dedup_patch_24.jsonl": {
       "pytest-dev__pytest-7490": {
-        "test_skipping.py::TestXFail::test_xfail_raises": false,
-        "test_skipping.py::TestXFail::test_dynamic_xfail_no_run": false,
-        "test_skipping.py::TestXFail::test_xfail_condition_keyword": false,
-        "test_skipping.py::TestXFail::test_xfail_not_run_xfail_reporting": false,
-        "test_skipping.py::TestXFail::test_strict_xfail": false,
-        "test_skipping.py::TestXFail::test_xfail_imperative": false,
-        "test_skipping.py::test_xfail_skipif_with_globals": false,
-        "test_skipping.py::TestXFail::test_strict_xfail_default_from_file": false
+        "testing/test_skipping.py::TestXFail::test_xfail_raises": true,
+        "testing/test_skipping.py::TestXFail::test_dynamic_xfail_no_run": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_condition_keyword": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_not_run_xfail_reporting": true,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_imperative": true,
+        "testing/test_skipping.py::test_xfail_skipif_with_globals": true,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail_default_from_file": true,
+        "testing/test_skipping.py::test_xfail_test_setup_exception": true,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_setup_issue9": true,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_teardown_issue9": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-7490/dedup_patch_25.jsonl": {
       "pytest-dev__pytest-7490": {
-        "test_skipping.py::TestXFail::test_xfail_raises": false,
-        "test_skipping.py::TestXFail::test_dynamic_xfail_no_run": false,
-        "test_skipping.py::TestXFail::test_xfail_condition_keyword": false,
-        "test_skipping.py::TestXFail::test_xfail_not_run_xfail_reporting": false,
-        "test_skipping.py::TestXFail::test_strict_xfail": false,
-        "test_skipping.py::TestXFail::test_xfail_imperative": false,
-        "test_skipping.py::test_xfail_skipif_with_globals": false,
-        "test_skipping.py::TestXFail::test_strict_xfail_default_from_file": false
+        "testing/test_skipping.py::TestXFail::test_xfail_raises": true,
+        "testing/test_skipping.py::TestXFail::test_dynamic_xfail_no_run": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_condition_keyword": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_not_run_xfail_reporting": true,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_imperative": true,
+        "testing/test_skipping.py::test_xfail_skipif_with_globals": true,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail_default_from_file": true,
+        "testing/test_skipping.py::test_xfail_test_setup_exception": true,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_setup_issue9": true,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_teardown_issue9": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-7490/dedup_patch_26.jsonl": {
       "pytest-dev__pytest-7490": {
-        "test_skipping.py::TestXFail::test_xfail_raises": false,
-        "test_skipping.py::TestXFail::test_dynamic_xfail_no_run": false,
-        "test_skipping.py::TestXFail::test_xfail_condition_keyword": false,
-        "test_skipping.py::TestXFail::test_xfail_not_run_xfail_reporting": false,
-        "test_skipping.py::TestXFail::test_strict_xfail": false,
-        "test_skipping.py::TestXFail::test_xfail_imperative": false,
-        "test_skipping.py::test_xfail_skipif_with_globals": false,
-        "test_skipping.py::TestXFail::test_strict_xfail_default_from_file": false
+        "testing/test_skipping.py::TestXFail::test_xfail_raises": true,
+        "testing/test_skipping.py::TestXFail::test_dynamic_xfail_no_run": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_condition_keyword": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_not_run_xfail_reporting": true,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_imperative": true,
+        "testing/test_skipping.py::test_xfail_skipif_with_globals": true,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail_default_from_file": true,
+        "testing/test_skipping.py::test_xfail_test_setup_exception": true,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_setup_issue9": true,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_teardown_issue9": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-7490/dedup_patch_27.jsonl": {
       "pytest-dev__pytest-7490": {
-        "test_skipping.py::TestXFail::test_xfail_raises": false,
-        "test_skipping.py::TestXFail::test_dynamic_xfail_no_run": false,
-        "test_skipping.py::TestXFail::test_xfail_condition_keyword": false,
-        "test_skipping.py::TestXFail::test_xfail_not_run_xfail_reporting": false,
-        "test_skipping.py::TestXFail::test_strict_xfail": false,
-        "test_skipping.py::TestXFail::test_xfail_imperative": false,
-        "test_skipping.py::test_xfail_skipif_with_globals": false,
-        "test_skipping.py::TestXFail::test_strict_xfail_default_from_file": false
+        "testing/test_skipping.py::TestXFail::test_xfail_raises": true,
+        "testing/test_skipping.py::TestXFail::test_dynamic_xfail_no_run": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_condition_keyword": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_not_run_xfail_reporting": true,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_imperative": true,
+        "testing/test_skipping.py::test_xfail_skipif_with_globals": true,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail_default_from_file": true,
+        "testing/test_skipping.py::test_xfail_test_setup_exception": true,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_setup_issue9": true,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_teardown_issue9": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-7490/dedup_patch_28.jsonl": {
       "pytest-dev__pytest-7490": {
-        "test_skipping.py::TestXFail::test_xfail_raises": false,
-        "test_skipping.py::TestXFail::test_dynamic_xfail_no_run": false,
-        "test_skipping.py::TestXFail::test_xfail_condition_keyword": false,
-        "test_skipping.py::TestXFail::test_xfail_not_run_xfail_reporting": false,
-        "test_skipping.py::TestXFail::test_strict_xfail": false,
-        "test_skipping.py::TestXFail::test_xfail_imperative": false,
-        "test_skipping.py::test_xfail_skipif_with_globals": false,
-        "test_skipping.py::TestXFail::test_strict_xfail_default_from_file": false
+        "testing/test_skipping.py::TestXFail::test_xfail_raises": true,
+        "testing/test_skipping.py::TestXFail::test_dynamic_xfail_no_run": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_condition_keyword": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_not_run_xfail_reporting": true,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_imperative": true,
+        "testing/test_skipping.py::test_xfail_skipif_with_globals": true,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail_default_from_file": true,
+        "testing/test_skipping.py::test_xfail_test_setup_exception": true,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_setup_issue9": true,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_teardown_issue9": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-7490/dedup_patch_29.jsonl": {
       "pytest-dev__pytest-7490": {
-        "test_skipping.py::TestXFail::test_xfail_raises": false,
-        "test_skipping.py::TestXFail::test_dynamic_xfail_no_run": false,
-        "test_skipping.py::TestXFail::test_xfail_condition_keyword": false,
-        "test_skipping.py::TestXFail::test_xfail_not_run_xfail_reporting": false,
-        "test_skipping.py::TestXFail::test_strict_xfail": false,
-        "test_skipping.py::TestXFail::test_xfail_imperative": false,
-        "test_skipping.py::test_xfail_skipif_with_globals": false,
-        "test_skipping.py::TestXFail::test_strict_xfail_default_from_file": false
+        "testing/test_skipping.py::TestXFail::test_xfail_raises": true,
+        "testing/test_skipping.py::TestXFail::test_dynamic_xfail_no_run": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_condition_keyword": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_not_run_xfail_reporting": true,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_imperative": true,
+        "testing/test_skipping.py::test_xfail_skipif_with_globals": true,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail_default_from_file": true,
+        "testing/test_skipping.py::test_xfail_test_setup_exception": true,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_setup_issue9": true,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_teardown_issue9": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-7490/dedup_patch_3.jsonl": {
       "pytest-dev__pytest-7490": {
-        "test_skipping.py::TestXFail::test_xfail_raises": false,
-        "test_skipping.py::TestXFail::test_dynamic_xfail_no_run": false,
-        "test_skipping.py::TestXFail::test_xfail_condition_keyword": false,
-        "test_skipping.py::TestXFail::test_xfail_not_run_xfail_reporting": false,
-        "test_skipping.py::TestXFail::test_strict_xfail": false,
-        "test_skipping.py::TestXFail::test_xfail_imperative": false,
-        "test_skipping.py::test_xfail_skipif_with_globals": false,
-        "test_skipping.py::TestXFail::test_strict_xfail_default_from_file": false
+        "testing/test_skipping.py::TestXFail::test_xfail_raises": true,
+        "testing/test_skipping.py::TestXFail::test_dynamic_xfail_no_run": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_condition_keyword": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_not_run_xfail_reporting": true,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_imperative": true,
+        "testing/test_skipping.py::test_xfail_skipif_with_globals": true,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail_default_from_file": true,
+        "testing/test_skipping.py::test_xfail_test_setup_exception": true,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_setup_issue9": true,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_teardown_issue9": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-7490/dedup_patch_30.jsonl": {
       "pytest-dev__pytest-7490": {
-        "test_skipping.py::TestXFail::test_xfail_raises": false,
-        "test_skipping.py::TestXFail::test_dynamic_xfail_no_run": false,
-        "test_skipping.py::TestXFail::test_xfail_condition_keyword": false,
-        "test_skipping.py::TestXFail::test_xfail_not_run_xfail_reporting": false,
-        "test_skipping.py::TestXFail::test_strict_xfail": false,
-        "test_skipping.py::TestXFail::test_xfail_imperative": false,
-        "test_skipping.py::test_xfail_skipif_with_globals": false,
-        "test_skipping.py::TestXFail::test_strict_xfail_default_from_file": false
+        "testing/test_skipping.py::TestXFail::test_xfail_raises": true,
+        "testing/test_skipping.py::TestXFail::test_dynamic_xfail_no_run": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_condition_keyword": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_not_run_xfail_reporting": true,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_imperative": true,
+        "testing/test_skipping.py::test_xfail_skipif_with_globals": true,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail_default_from_file": true,
+        "testing/test_skipping.py::test_xfail_test_setup_exception": true,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_setup_issue9": true,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_teardown_issue9": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-7490/dedup_patch_31.jsonl": {
       "pytest-dev__pytest-7490": {
-        "test_skipping.py::TestXFail::test_xfail_raises": false,
-        "test_skipping.py::TestXFail::test_dynamic_xfail_no_run": false,
-        "test_skipping.py::TestXFail::test_xfail_condition_keyword": false,
-        "test_skipping.py::TestXFail::test_xfail_not_run_xfail_reporting": false,
-        "test_skipping.py::TestXFail::test_strict_xfail": false,
-        "test_skipping.py::TestXFail::test_xfail_imperative": false,
-        "test_skipping.py::test_xfail_skipif_with_globals": false,
-        "test_skipping.py::TestXFail::test_strict_xfail_default_from_file": false
+        "testing/test_skipping.py::TestXFail::test_xfail_raises": true,
+        "testing/test_skipping.py::TestXFail::test_dynamic_xfail_no_run": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_condition_keyword": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_not_run_xfail_reporting": true,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_imperative": true,
+        "testing/test_skipping.py::test_xfail_skipif_with_globals": true,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail_default_from_file": true,
+        "testing/test_skipping.py::test_xfail_test_setup_exception": true,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_setup_issue9": true,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_teardown_issue9": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-7490/dedup_patch_32.jsonl": {
       "pytest-dev__pytest-7490": {
-        "test_skipping.py::TestXFail::test_xfail_raises": false,
-        "test_skipping.py::TestXFail::test_dynamic_xfail_no_run": false,
-        "test_skipping.py::TestXFail::test_xfail_condition_keyword": false,
-        "test_skipping.py::TestXFail::test_xfail_not_run_xfail_reporting": false,
-        "test_skipping.py::TestXFail::test_strict_xfail": false,
-        "test_skipping.py::TestXFail::test_xfail_imperative": false,
-        "test_skipping.py::test_xfail_skipif_with_globals": false,
-        "test_skipping.py::TestXFail::test_strict_xfail_default_from_file": false
+        "testing/test_skipping.py::TestXFail::test_xfail_raises": true,
+        "testing/test_skipping.py::TestXFail::test_dynamic_xfail_no_run": false,
+        "testing/test_skipping.py::TestXFail::test_xfail_condition_keyword": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_not_run_xfail_reporting": false,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_imperative": true,
+        "testing/test_skipping.py::test_xfail_skipif_with_globals": true,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail_default_from_file": true,
+        "testing/test_skipping.py::test_xfail_test_setup_exception": false,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_setup_issue9": false,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_teardown_issue9": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-7490/dedup_patch_33.jsonl": {
       "pytest-dev__pytest-7490": {
-        "test_skipping.py::TestXFail::test_xfail_raises": false,
-        "test_skipping.py::TestXFail::test_dynamic_xfail_no_run": false,
-        "test_skipping.py::TestXFail::test_xfail_condition_keyword": false,
-        "test_skipping.py::TestXFail::test_xfail_not_run_xfail_reporting": false,
-        "test_skipping.py::TestXFail::test_strict_xfail": false,
-        "test_skipping.py::TestXFail::test_xfail_imperative": false,
-        "test_skipping.py::test_xfail_skipif_with_globals": false,
-        "test_skipping.py::TestXFail::test_strict_xfail_default_from_file": false
+        "testing/test_skipping.py::TestXFail::test_xfail_raises": true,
+        "testing/test_skipping.py::TestXFail::test_dynamic_xfail_no_run": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_condition_keyword": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_not_run_xfail_reporting": true,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_imperative": true,
+        "testing/test_skipping.py::test_xfail_skipif_with_globals": true,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail_default_from_file": true,
+        "testing/test_skipping.py::test_xfail_test_setup_exception": true,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_setup_issue9": true,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_teardown_issue9": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-7490/dedup_patch_34.jsonl": {
       "pytest-dev__pytest-7490": {
-        "test_skipping.py::TestXFail::test_xfail_raises": false,
-        "test_skipping.py::TestXFail::test_dynamic_xfail_no_run": false,
-        "test_skipping.py::TestXFail::test_xfail_condition_keyword": false,
-        "test_skipping.py::TestXFail::test_xfail_not_run_xfail_reporting": false,
-        "test_skipping.py::TestXFail::test_strict_xfail": false,
-        "test_skipping.py::TestXFail::test_xfail_imperative": false,
-        "test_skipping.py::test_xfail_skipif_with_globals": false,
-        "test_skipping.py::TestXFail::test_strict_xfail_default_from_file": false
+        "testing/test_skipping.py::TestXFail::test_xfail_raises": true,
+        "testing/test_skipping.py::TestXFail::test_dynamic_xfail_no_run": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_condition_keyword": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_not_run_xfail_reporting": true,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_imperative": true,
+        "testing/test_skipping.py::test_xfail_skipif_with_globals": true,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail_default_from_file": true,
+        "testing/test_skipping.py::test_xfail_test_setup_exception": true,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_setup_issue9": true,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_teardown_issue9": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-7490/dedup_patch_35.jsonl": {
       "pytest-dev__pytest-7490": {
-        "test_skipping.py::TestXFail::test_xfail_raises": false,
-        "test_skipping.py::TestXFail::test_dynamic_xfail_no_run": false,
-        "test_skipping.py::TestXFail::test_xfail_condition_keyword": false,
-        "test_skipping.py::TestXFail::test_xfail_not_run_xfail_reporting": false,
-        "test_skipping.py::TestXFail::test_strict_xfail": false,
-        "test_skipping.py::TestXFail::test_xfail_imperative": false,
-        "test_skipping.py::test_xfail_skipif_with_globals": false,
-        "test_skipping.py::TestXFail::test_strict_xfail_default_from_file": false
+        "testing/test_skipping.py::TestXFail::test_xfail_raises": true,
+        "testing/test_skipping.py::TestXFail::test_dynamic_xfail_no_run": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_condition_keyword": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_not_run_xfail_reporting": true,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_imperative": true,
+        "testing/test_skipping.py::test_xfail_skipif_with_globals": true,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail_default_from_file": true,
+        "testing/test_skipping.py::test_xfail_test_setup_exception": false,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_setup_issue9": false,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_teardown_issue9": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-7490/dedup_patch_4.jsonl": {
       "pytest-dev__pytest-7490": {
-        "test_skipping.py::TestXFail::test_xfail_raises": false,
-        "test_skipping.py::TestXFail::test_dynamic_xfail_no_run": false,
-        "test_skipping.py::TestXFail::test_xfail_condition_keyword": false,
-        "test_skipping.py::TestXFail::test_xfail_not_run_xfail_reporting": false,
-        "test_skipping.py::TestXFail::test_strict_xfail": false,
-        "test_skipping.py::TestXFail::test_xfail_imperative": false,
-        "test_skipping.py::test_xfail_skipif_with_globals": false,
-        "test_skipping.py::TestXFail::test_strict_xfail_default_from_file": false
+        "testing/test_skipping.py::TestXFail::test_xfail_raises": true,
+        "testing/test_skipping.py::TestXFail::test_dynamic_xfail_no_run": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_condition_keyword": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_not_run_xfail_reporting": true,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_imperative": true,
+        "testing/test_skipping.py::test_xfail_skipif_with_globals": true,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail_default_from_file": true,
+        "testing/test_skipping.py::test_xfail_test_setup_exception": true,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_setup_issue9": true,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_teardown_issue9": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-7490/dedup_patch_5.jsonl": {
       "pytest-dev__pytest-7490": {
-        "test_skipping.py::TestXFail::test_xfail_raises": false,
-        "test_skipping.py::TestXFail::test_dynamic_xfail_no_run": false,
-        "test_skipping.py::TestXFail::test_xfail_condition_keyword": false,
-        "test_skipping.py::TestXFail::test_xfail_not_run_xfail_reporting": false,
-        "test_skipping.py::TestXFail::test_strict_xfail": false,
-        "test_skipping.py::TestXFail::test_xfail_imperative": false,
-        "test_skipping.py::test_xfail_skipif_with_globals": false,
-        "test_skipping.py::TestXFail::test_strict_xfail_default_from_file": false
+        "testing/test_skipping.py::TestXFail::test_xfail_raises": true,
+        "testing/test_skipping.py::TestXFail::test_dynamic_xfail_no_run": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_condition_keyword": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_not_run_xfail_reporting": true,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_imperative": true,
+        "testing/test_skipping.py::test_xfail_skipif_with_globals": true,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail_default_from_file": true,
+        "testing/test_skipping.py::test_xfail_test_setup_exception": false,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_setup_issue9": false,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_teardown_issue9": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-7490/dedup_patch_6.jsonl": {
       "pytest-dev__pytest-7490": {
-        "test_skipping.py::TestXFail::test_xfail_raises": false,
-        "test_skipping.py::TestXFail::test_dynamic_xfail_no_run": false,
-        "test_skipping.py::TestXFail::test_xfail_condition_keyword": false,
-        "test_skipping.py::TestXFail::test_xfail_not_run_xfail_reporting": false,
-        "test_skipping.py::TestXFail::test_strict_xfail": false,
-        "test_skipping.py::TestXFail::test_xfail_imperative": false,
-        "test_skipping.py::test_xfail_skipif_with_globals": false,
-        "test_skipping.py::TestXFail::test_strict_xfail_default_from_file": false
+        "testing/test_skipping.py::TestXFail::test_xfail_raises": true,
+        "testing/test_skipping.py::TestXFail::test_dynamic_xfail_no_run": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_condition_keyword": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_not_run_xfail_reporting": true,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_imperative": true,
+        "testing/test_skipping.py::test_xfail_skipif_with_globals": true,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail_default_from_file": true,
+        "testing/test_skipping.py::test_xfail_test_setup_exception": false,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_setup_issue9": false,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_teardown_issue9": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-7490/dedup_patch_7.jsonl": {
       "pytest-dev__pytest-7490": {
-        "test_skipping.py::TestXFail::test_xfail_raises": false,
-        "test_skipping.py::TestXFail::test_dynamic_xfail_no_run": false,
-        "test_skipping.py::TestXFail::test_xfail_condition_keyword": false,
-        "test_skipping.py::TestXFail::test_xfail_not_run_xfail_reporting": false,
-        "test_skipping.py::TestXFail::test_strict_xfail": false,
-        "test_skipping.py::TestXFail::test_xfail_imperative": false,
-        "test_skipping.py::test_xfail_skipif_with_globals": false,
-        "test_skipping.py::TestXFail::test_strict_xfail_default_from_file": false
+        "testing/test_skipping.py::TestXFail::test_xfail_raises": true,
+        "testing/test_skipping.py::TestXFail::test_dynamic_xfail_no_run": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_condition_keyword": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_not_run_xfail_reporting": true,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_imperative": true,
+        "testing/test_skipping.py::test_xfail_skipif_with_globals": true,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail_default_from_file": true,
+        "testing/test_skipping.py::test_xfail_test_setup_exception": true,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_setup_issue9": true,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_teardown_issue9": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-7490/dedup_patch_8.jsonl": {
       "pytest-dev__pytest-7490": {
-        "test_skipping.py::TestXFail::test_xfail_raises": false,
-        "test_skipping.py::TestXFail::test_dynamic_xfail_no_run": false,
-        "test_skipping.py::TestXFail::test_xfail_condition_keyword": false,
-        "test_skipping.py::TestXFail::test_xfail_not_run_xfail_reporting": false,
-        "test_skipping.py::TestXFail::test_strict_xfail": false,
-        "test_skipping.py::TestXFail::test_xfail_imperative": false,
-        "test_skipping.py::test_xfail_skipif_with_globals": false,
-        "test_skipping.py::TestXFail::test_strict_xfail_default_from_file": false
+        "testing/test_skipping.py::TestXFail::test_xfail_raises": true,
+        "testing/test_skipping.py::TestXFail::test_dynamic_xfail_no_run": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_condition_keyword": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_not_run_xfail_reporting": true,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_imperative": true,
+        "testing/test_skipping.py::test_xfail_skipif_with_globals": true,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail_default_from_file": true,
+        "testing/test_skipping.py::test_xfail_test_setup_exception": true,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_setup_issue9": true,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_teardown_issue9": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-7490/dedup_patch_9.jsonl": {
       "pytest-dev__pytest-7490": {
-        "test_skipping.py::TestXFail::test_xfail_raises": false,
-        "test_skipping.py::TestXFail::test_dynamic_xfail_no_run": false,
-        "test_skipping.py::TestXFail::test_xfail_condition_keyword": false,
-        "test_skipping.py::TestXFail::test_xfail_not_run_xfail_reporting": false,
-        "test_skipping.py::TestXFail::test_strict_xfail": false,
-        "test_skipping.py::TestXFail::test_xfail_imperative": false,
-        "test_skipping.py::test_xfail_skipif_with_globals": false,
-        "test_skipping.py::TestXFail::test_strict_xfail_default_from_file": false
+        "testing/test_skipping.py::TestXFail::test_xfail_raises": true,
+        "testing/test_skipping.py::TestXFail::test_dynamic_xfail_no_run": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_condition_keyword": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_not_run_xfail_reporting": true,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail": true,
+        "testing/test_skipping.py::TestXFail::test_xfail_imperative": true,
+        "testing/test_skipping.py::test_xfail_skipif_with_globals": true,
+        "testing/test_skipping.py::TestXFail::test_strict_xfail_default_from_file": true,
+        "testing/test_skipping.py::test_xfail_test_setup_exception": true,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_setup_issue9": true,
+        "testing/test_skipping.py::TestXFailwithSetupTeardown::test_failing_teardown_issue9": true
       }
     }
   },
@@ -446,8 +585,7 @@
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_marker_during_test#8": true,
         "testing/test_skipping.py::test_relpath_rootdir#9": false,
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_during_test#10": true,
-        "testing/reproduce_bug.py#11": true,
-        "testing/reproduce_bug_new.py#11": true
+        "testing/reproduce_bug_new3.py#11": true
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-7490/dedup_patch_0.jsonl": {
@@ -458,8 +596,7 @@
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_added_during_test#7": false,
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_marker_during_test#8": false,
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_during_test#10": false,
-        "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
+        "testing/reproduce_bug_new3.py#11": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-7490/dedup_patch_1.jsonl": {
@@ -470,8 +607,7 @@
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_added_during_test#7": false,
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_marker_during_test#8": false,
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_during_test#10": false,
-        "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
+        "testing/reproduce_bug_new3.py#11": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-7490/dedup_patch_10.jsonl": {
@@ -482,8 +618,7 @@
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_added_during_test#7": false,
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_marker_during_test#8": false,
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_during_test#10": false,
-        "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
+        "testing/reproduce_bug_new3.py#11": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-7490/dedup_patch_11.jsonl": {
@@ -494,8 +629,7 @@
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_added_during_test#7": false,
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_marker_during_test#8": false,
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_during_test#10": false,
-        "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
+        "testing/reproduce_bug_new3.py#11": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-7490/dedup_patch_12.jsonl": {
@@ -506,8 +640,7 @@
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_added_during_test#7": false,
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_marker_during_test#8": false,
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_during_test#10": false,
-        "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
+        "testing/reproduce_bug_new3.py#11": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-7490/dedup_patch_13.jsonl": {
@@ -518,8 +651,7 @@
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_added_during_test#7": false,
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_marker_during_test#8": false,
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_during_test#10": false,
-        "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
+        "testing/reproduce_bug_new3.py#11": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-7490/dedup_patch_14.jsonl": {
@@ -530,8 +662,7 @@
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_added_during_test#7": false,
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_marker_during_test#8": false,
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_during_test#10": false,
-        "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
+        "testing/reproduce_bug_new3.py#11": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-7490/dedup_patch_15.jsonl": {
@@ -542,8 +673,7 @@
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_added_during_test#7": false,
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_marker_during_test#8": true,
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_during_test#10": false,
-        "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
+        "testing/reproduce_bug_new3.py#11": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-7490/dedup_patch_16.jsonl": {
@@ -554,8 +684,7 @@
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_added_during_test#7": false,
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_marker_during_test#8": false,
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_during_test#10": false,
-        "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
+        "testing/reproduce_bug_new3.py#11": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-7490/dedup_patch_17.jsonl": {
@@ -566,32 +695,7 @@
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_added_during_test#7": false,
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_marker_during_test#8": false,
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_during_test#10": false,
-        "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
-      }
-    },
-    "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-7490/dedup_patch_18.jsonl": {
-      "pytest-dev__pytest-7490": {
-        "testing/test_skipping.py::TestXFail::test_dynamic_xfail_marker_ignored_failure#1": false,
-        "testing/test_skipping.py::TestXFail::test_dynamic_xfail_marker_ignored_failure#3": false,
-        "testing/test_skipping.py::TestXFail::test_dynamic_xfail_marker#4": false,
-        "testing/test_skipping.py::TestXFail::test_dynamic_xfail_added_during_test#7": false,
-        "testing/test_skipping.py::TestXFail::test_dynamic_xfail_marker_during_test#8": false,
-        "testing/test_skipping.py::TestXFail::test_dynamic_xfail_during_test#10": false,
-        "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
-      }
-    },
-    "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-7490/dedup_patch_19.jsonl": {
-      "pytest-dev__pytest-7490": {
-        "testing/test_skipping.py::TestXFail::test_dynamic_xfail_marker_ignored_failure#1": false,
-        "testing/test_skipping.py::TestXFail::test_dynamic_xfail_marker_ignored_failure#3": false,
-        "testing/test_skipping.py::TestXFail::test_dynamic_xfail_marker#4": false,
-        "testing/test_skipping.py::TestXFail::test_dynamic_xfail_added_during_test#7": false,
-        "testing/test_skipping.py::TestXFail::test_dynamic_xfail_marker_during_test#8": false,
-        "testing/test_skipping.py::TestXFail::test_dynamic_xfail_during_test#10": false,
-        "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
+        "testing/reproduce_bug_new3.py#11": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-7490/dedup_patch_2.jsonl": {
@@ -602,8 +706,7 @@
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_added_during_test#7": false,
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_marker_during_test#8": false,
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_during_test#10": false,
-        "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
+        "testing/reproduce_bug_new3.py#11": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-7490/dedup_patch_20.jsonl": {
@@ -614,8 +717,7 @@
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_added_during_test#7": false,
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_marker_during_test#8": true,
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_during_test#10": false,
-        "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
+        "testing/reproduce_bug_new3.py#11": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-7490/dedup_patch_21.jsonl": {
@@ -626,8 +728,7 @@
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_added_during_test#7": false,
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_marker_during_test#8": false,
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_during_test#10": false,
-        "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
+        "testing/reproduce_bug_new3.py#11": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-7490/dedup_patch_22.jsonl": {
@@ -638,20 +739,7 @@
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_added_during_test#7": false,
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_marker_during_test#8": false,
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_during_test#10": false,
-        "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
-      }
-    },
-    "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-7490/dedup_patch_23.jsonl": {
-      "pytest-dev__pytest-7490": {
-        "testing/test_skipping.py::TestXFail::test_dynamic_xfail_marker_ignored_failure#1": false,
-        "testing/test_skipping.py::TestXFail::test_dynamic_xfail_marker_ignored_failure#3": false,
-        "testing/test_skipping.py::TestXFail::test_dynamic_xfail_marker#4": false,
-        "testing/test_skipping.py::TestXFail::test_dynamic_xfail_added_during_test#7": false,
-        "testing/test_skipping.py::TestXFail::test_dynamic_xfail_marker_during_test#8": false,
-        "testing/test_skipping.py::TestXFail::test_dynamic_xfail_during_test#10": false,
-        "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
+        "testing/reproduce_bug_new3.py#11": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-7490/dedup_patch_24.jsonl": {
@@ -662,8 +750,7 @@
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_added_during_test#7": false,
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_marker_during_test#8": true,
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_during_test#10": false,
-        "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
+        "testing/reproduce_bug_new3.py#11": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-7490/dedup_patch_25.jsonl": {
@@ -674,8 +761,7 @@
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_added_during_test#7": false,
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_marker_during_test#8": true,
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_during_test#10": false,
-        "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
+        "testing/reproduce_bug_new3.py#11": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-7490/dedup_patch_26.jsonl": {
@@ -686,8 +772,7 @@
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_added_during_test#7": false,
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_marker_during_test#8": true,
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_during_test#10": false,
-        "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
+        "testing/reproduce_bug_new3.py#11": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-7490/dedup_patch_27.jsonl": {
@@ -698,8 +783,7 @@
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_added_during_test#7": false,
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_marker_during_test#8": false,
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_during_test#10": false,
-        "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
+        "testing/reproduce_bug_new3.py#11": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-7490/dedup_patch_28.jsonl": {
@@ -710,8 +794,7 @@
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_added_during_test#7": false,
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_marker_during_test#8": true,
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_during_test#10": false,
-        "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
+        "testing/reproduce_bug_new3.py#11": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-7490/dedup_patch_29.jsonl": {
@@ -722,8 +805,7 @@
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_added_during_test#7": false,
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_marker_during_test#8": false,
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_during_test#10": false,
-        "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
+        "testing/reproduce_bug_new3.py#11": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-7490/dedup_patch_3.jsonl": {
@@ -734,8 +816,7 @@
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_added_during_test#7": false,
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_marker_during_test#8": false,
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_during_test#10": false,
-        "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
+        "testing/reproduce_bug_new3.py#11": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-7490/dedup_patch_30.jsonl": {
@@ -746,8 +827,7 @@
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_added_during_test#7": false,
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_marker_during_test#8": true,
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_during_test#10": false,
-        "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
+        "testing/reproduce_bug_new3.py#11": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-7490/dedup_patch_31.jsonl": {
@@ -758,20 +838,7 @@
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_added_during_test#7": false,
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_marker_during_test#8": false,
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_during_test#10": false,
-        "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
-      }
-    },
-    "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-7490/dedup_patch_32.jsonl": {
-      "pytest-dev__pytest-7490": {
-        "testing/test_skipping.py::TestXFail::test_dynamic_xfail_marker_ignored_failure#1": false,
-        "testing/test_skipping.py::TestXFail::test_dynamic_xfail_marker_ignored_failure#3": false,
-        "testing/test_skipping.py::TestXFail::test_dynamic_xfail_marker#4": false,
-        "testing/test_skipping.py::TestXFail::test_dynamic_xfail_added_during_test#7": false,
-        "testing/test_skipping.py::TestXFail::test_dynamic_xfail_marker_during_test#8": false,
-        "testing/test_skipping.py::TestXFail::test_dynamic_xfail_during_test#10": false,
-        "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
+        "testing/reproduce_bug_new3.py#11": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-7490/dedup_patch_33.jsonl": {
@@ -782,8 +849,7 @@
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_added_during_test#7": false,
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_marker_during_test#8": false,
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_during_test#10": false,
-        "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
+        "testing/reproduce_bug_new3.py#11": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-7490/dedup_patch_34.jsonl": {
@@ -794,8 +860,7 @@
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_added_during_test#7": false,
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_marker_during_test#8": true,
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_during_test#10": false,
-        "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
+        "testing/reproduce_bug_new3.py#11": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-7490/dedup_patch_35.jsonl": {
@@ -806,8 +871,7 @@
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_added_during_test#7": false,
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_marker_during_test#8": false,
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_during_test#10": false,
-        "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
+        "testing/reproduce_bug_new3.py#11": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-7490/dedup_patch_4.jsonl": {
@@ -818,8 +882,7 @@
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_added_during_test#7": false,
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_marker_during_test#8": false,
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_during_test#10": false,
-        "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
+        "testing/reproduce_bug_new3.py#11": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-7490/dedup_patch_5.jsonl": {
@@ -830,8 +893,7 @@
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_added_during_test#7": false,
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_marker_during_test#8": false,
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_during_test#10": false,
-        "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
+        "testing/reproduce_bug_new3.py#11": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-7490/dedup_patch_6.jsonl": {
@@ -842,8 +904,7 @@
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_added_during_test#7": false,
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_marker_during_test#8": false,
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_during_test#10": false,
-        "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
+        "testing/reproduce_bug_new3.py#11": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-7490/dedup_patch_7.jsonl": {
@@ -854,8 +915,7 @@
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_added_during_test#7": true,
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_marker_during_test#8": true,
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_during_test#10": true,
-        "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
+        "testing/reproduce_bug_new3.py#11": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-7490/dedup_patch_8.jsonl": {
@@ -866,8 +926,7 @@
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_added_during_test#7": false,
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_marker_during_test#8": true,
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_during_test#10": false,
-        "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
+        "testing/reproduce_bug_new3.py#11": false
       }
     },
     "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-7490/dedup_patch_9.jsonl": {
@@ -878,8 +937,7 @@
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_added_during_test#7": false,
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_marker_during_test#8": false,
         "testing/test_skipping.py::TestXFail::test_dynamic_xfail_during_test#10": false,
-        "testing/reproduce_bug.py#11": false,
-        "testing/reproduce_bug_new.py#11": false
+        "testing/reproduce_bug_new3.py#11": false
       }
     }
   }
