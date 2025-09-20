@@ -1,0 +1,60 @@
+{
+  "regression": {
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-14534/dedup_patch_0.jsonl": {
+      "django__django-14534": {
+        "forms_tests.tests.test_forms.FormsTestCase.test_form_with_iterable_boundfield_id": true,
+        "forms_tests.tests.test_forms.FormsTestCase.test_iterable_boundfield_select": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-14534/dedup_patch_1.jsonl": {
+      "django__django-14534": {
+        "forms_tests.tests.test_forms.FormsTestCase.test_form_with_iterable_boundfield_id": true,
+        "forms_tests.tests.test_forms.FormsTestCase.test_iterable_boundfield_select": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-14534/dedup_patch_2.jsonl": {
+      "django__django-14534": {
+        "forms_tests.tests.test_forms.FormsTestCase.test_form_with_iterable_boundfield_id": true,
+        "forms_tests.tests.test_forms.FormsTestCase.test_iterable_boundfield_select": false
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-14534": {
+        "forms_tests.widget_tests.test_checkboxselectmultiple.CheckboxSelectMultipleTest.test_checkbox_select_multiple_id_for_label#1": true,
+        "forms_tests.widget_tests.test_checkboxselectmultiple.CheckboxSelectMultipleTest.test_id_for_label_with_custom_id#2": true,
+        "forms_tests.widget_tests.test_checkboxselectmultiple.CheckboxSelectMultipleTest.test_id_for_label_with_custom_id#3": false,
+        "forms_tests.widget_tests.test_checkboxselectmultiple.CheckboxSelectMultipleTest.test_label_with_custom_id#4": false,
+        "forms_tests.widget_tests.test_checkboxselectmultiple.CheckboxSelectMultipleTest.test_custom_id_for_label#5": false,
+        "forms_tests.tests.test_forms.SomeForm.test_boundfield_widget_type#6": true,
+        "forms_tests.widget_tests.test_checkboxselectmultiple.CheckboxSelectMultipleTest.test_id_for_label_respects_widget_id#7": true,
+        "forms_tests.widget_tests.test_checkboxselectmultiple.CheckboxSelectMultipleTest.test_id_for_label_respects_widget_id#8": true,
+        "forms_tests.widget_tests.test_checkboxselectmultiple.CheckboxSelectMultipleTest.test_id_for_label_with_custom_id#9": true,
+        "forms_tests.widget_tests.test_checkboxselectmultiple.CheckboxSelectMultipleTest.test_boundwidget_id_for_label_with_custom_id#10": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-14534/dedup_patch_0.jsonl": {
+      "django__django-14534": {
+        "forms_tests.widget_tests.test_checkboxselectmultiple.CheckboxSelectMultipleTest.test_checkbox_select_multiple_id_for_label#1": false,
+        "forms_tests.widget_tests.test_checkboxselectmultiple.CheckboxSelectMultipleTest.test_id_for_label_with_custom_id#2": true,
+        "forms_tests.tests.test_forms.SomeForm.test_boundfield_widget_type#6": false,
+        "forms_tests.widget_tests.test_checkboxselectmultiple.CheckboxSelectMultipleTest.test_id_for_label_respects_widget_id#7": true,
+        "forms_tests.widget_tests.test_checkboxselectmultiple.CheckboxSelectMultipleTest.test_id_for_label_respects_widget_id#8": true,
+        "forms_tests.widget_tests.test_checkboxselectmultiple.CheckboxSelectMultipleTest.test_id_for_label_with_custom_id#9": true,
+        "forms_tests.widget_tests.test_checkboxselectmultiple.CheckboxSelectMultipleTest.test_boundwidget_id_for_label_with_custom_id#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-14534/dedup_patch_1.jsonl": {
+      "django__django-14534": {
+        "forms_tests.widget_tests.test_checkboxselectmultiple.CheckboxSelectMultipleTest.test_checkbox_select_multiple_id_for_label#1": false,
+        "forms_tests.widget_tests.test_checkboxselectmultiple.CheckboxSelectMultipleTest.test_id_for_label_with_custom_id#2": true,
+        "forms_tests.tests.test_forms.SomeForm.test_boundfield_widget_type#6": false,
+        "forms_tests.widget_tests.test_checkboxselectmultiple.CheckboxSelectMultipleTest.test_id_for_label_respects_widget_id#7": true,
+        "forms_tests.widget_tests.test_checkboxselectmultiple.CheckboxSelectMultipleTest.test_id_for_label_respects_widget_id#8": true,
+        "forms_tests.widget_tests.test_checkboxselectmultiple.CheckboxSelectMultipleTest.test_id_for_label_with_custom_id#9": true,
+        "forms_tests.widget_tests.test_checkboxselectmultiple.CheckboxSelectMultipleTest.test_boundwidget_id_for_label_with_custom_id#10": false
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "regression": {
+    "all_patches/lite_gpt4o_all_unique_patches/pylint-dev__pylint-5859/dedup_patch_0.jsonl": {
+      "pylint-dev__pylint-5859": {
+        "tests/test_func.py::test_functionality": true,
+        "tests/lint/test_utils.py::test_issue_template_on_fatal_errors": true,
+        "tests/test_functional.py::test_functional": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pylint-dev__pylint-5859/dedup_patch_1.jsonl": {
+      "pylint-dev__pylint-5859": {
+        "tests/test_func.py::test_functionality": true,
+        "tests/lint/test_utils.py::test_issue_template_on_fatal_errors": false,
+        "tests/test_functional.py::test_functional": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pylint-dev__pylint-5859/dedup_patch_10.jsonl": {
+      "pylint-dev__pylint-5859": {
+        "tests/test_func.py::test_functionality": false,
+        "tests/lint/test_utils.py::test_issue_template_on_fatal_errors": false,
+        "tests/test_functional.py::test_functional": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pylint-dev__pylint-5859/dedup_patch_11.jsonl": {
+      "pylint-dev__pylint-5859": {
+        "tests/test_func.py::test_functionality": true,
+        "tests/lint/test_utils.py::test_issue_template_on_fatal_errors": true,
+        "tests/test_functional.py::test_functional": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pylint-dev__pylint-5859/dedup_patch_12.jsonl": {
+      "pylint-dev__pylint-5859": {
+        "tests/test_func.py::test_functionality": false,
+        "tests/lint/test_utils.py::test_issue_template_on_fatal_errors": false,
+        "tests/test_functional.py::test_functional": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pylint-dev__pylint-5859/dedup_patch_13.jsonl": {
+      "pylint-dev__pylint-5859": {
+        "tests/test_func.py::test_functionality": true,
+        "tests/lint/test_utils.py::test_issue_template_on_fatal_errors": true,
+        "tests/test_functional.py::test_functional": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pylint-dev__pylint-5859/dedup_patch_14.jsonl": {
+      "pylint-dev__pylint-5859": {
+        "tests/test_func.py::test_functionality": true,
+        "tests/lint/test_utils.py::test_issue_template_on_fatal_errors": true,
+        "tests/test_functional.py::test_functional": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pylint-dev__pylint-5859/dedup_patch_15.jsonl": {
+      "pylint-dev__pylint-5859": {
+        "tests/test_func.py::test_functionality": true,
+        "tests/lint/test_utils.py::test_issue_template_on_fatal_errors": true,
+        "tests/test_functional.py::test_functional": false
+      }
+    }
+  },
+  "reproduction": {}
+}

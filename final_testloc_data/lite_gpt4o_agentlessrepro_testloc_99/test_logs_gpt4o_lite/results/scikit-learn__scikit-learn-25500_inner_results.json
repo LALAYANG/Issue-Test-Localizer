@@ -1,0 +1,20 @@
+{
+  "regression": {
+    "all_patches/lite_gpt4o_all_unique_patches/scikit-learn__scikit-learn-25500/dedup_patch_0.jsonl": {
+      "scikit-learn__scikit-learn-25500": {
+        "sklearn/tests/test_calibration.py::test_calibrated_classifier_error_base_estimator": true,
+        "sklearn/tests/test_isotonic.py::test_assert_raises_exceptions": true,
+        "sklearn/tests/test_calibration.py::test_calibration_cv_splitter": true,
+        "sklearn/tests/test_isotonic.py::test_get_feature_names_out": true,
+        "sklearn/tests/test_calibration.py::test_calibration_with_fit_params": true,
+        "sklearn/tests/test_isotonic.py::test_isotonic_regression_pickle": true,
+        "sklearn/tests/test_calibration.py::test_calibration_prefit": true,
+        "sklearn/tests/test_calibration.py::test_calibration_without_sample_weight_base_estimator": true,
+        "sklearn/tests/test_isotonic.py::test_fast_predict": true,
+        "sklearn/tests/test_common.py::test_pandas_column_name_consistency": true,
+        "sklearn/tests/test_isotonic.py::test_isotonic_regression": true
+      }
+    }
+  },
+  "reproduction": {}
+}

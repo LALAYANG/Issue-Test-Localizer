@@ -1,0 +1,541 @@
+{
+  "regression": {},
+  "reproduction": {
+    "fail_on_original_repo": {
+      "pallets__flask-5063": {
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#1": true,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#2": true,
+        "tests/test_cli.py::test_cli_blueprints#3": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#4": true,
+        "tests/test_cli.py::test_cli_empty#5": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#6": true,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#7": true,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#8": true,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#9": true,
+        "tests/test_cli.py::test_cli_empty#10": false,
+        "reproduce_bug.py#11": true,
+        "reproduce_bug_new.py#11": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-5063/dedup_patch_0.jsonl": {
+      "pallets__flask-5063": {
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#1": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#2": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#4": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#6": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#7": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#8": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#9": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-5063/dedup_patch_1.jsonl": {
+      "pallets__flask-5063": {
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#1": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#2": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#4": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#6": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#7": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#8": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#9": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-5063/dedup_patch_10.jsonl": {
+      "pallets__flask-5063": {
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#1": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#2": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#4": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#6": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#7": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#8": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#9": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-5063/dedup_patch_11.jsonl": {
+      "pallets__flask-5063": {
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#1": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#2": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#4": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#6": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#7": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#8": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#9": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-5063/dedup_patch_12.jsonl": {
+      "pallets__flask-5063": {
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#1": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#2": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#4": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#6": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#7": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#8": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#9": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-5063/dedup_patch_13.jsonl": {
+      "pallets__flask-5063": {
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#1": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#2": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#4": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#6": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#7": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#8": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#9": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-5063/dedup_patch_14.jsonl": {
+      "pallets__flask-5063": {
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#1": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#2": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#4": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#6": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#7": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#8": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#9": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-5063/dedup_patch_15.jsonl": {
+      "pallets__flask-5063": {
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#1": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#2": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#4": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#6": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#7": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#8": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#9": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-5063/dedup_patch_16.jsonl": {
+      "pallets__flask-5063": {
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#1": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#2": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#4": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#6": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#7": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#8": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#9": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-5063/dedup_patch_17.jsonl": {
+      "pallets__flask-5063": {
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#1": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#2": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#4": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#6": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#7": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#8": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#9": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-5063/dedup_patch_18.jsonl": {
+      "pallets__flask-5063": {
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#1": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#2": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#4": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#6": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#7": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#8": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#9": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-5063/dedup_patch_19.jsonl": {
+      "pallets__flask-5063": {
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#1": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#2": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#4": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#6": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#7": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#8": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#9": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-5063/dedup_patch_2.jsonl": {
+      "pallets__flask-5063": {
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#1": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#2": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#4": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#6": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#7": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#8": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#9": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-5063/dedup_patch_20.jsonl": {
+      "pallets__flask-5063": {
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#1": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#2": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#4": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#6": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#7": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#8": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#9": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-5063/dedup_patch_21.jsonl": {
+      "pallets__flask-5063": {
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#1": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#2": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#4": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#6": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#7": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#8": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#9": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-5063/dedup_patch_22.jsonl": {
+      "pallets__flask-5063": {
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#1": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#2": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#4": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#6": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#7": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#8": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#9": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-5063/dedup_patch_23.jsonl": {
+      "pallets__flask-5063": {
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#1": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#2": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#4": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#6": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#7": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#8": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#9": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-5063/dedup_patch_24.jsonl": {
+      "pallets__flask-5063": {
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#1": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#2": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#4": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#6": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#7": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#8": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#9": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-5063/dedup_patch_25.jsonl": {
+      "pallets__flask-5063": {
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#1": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#2": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#4": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#6": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#7": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#8": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#9": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-5063/dedup_patch_26.jsonl": {
+      "pallets__flask-5063": {
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#1": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#2": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#4": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#6": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#7": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#8": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#9": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-5063/dedup_patch_27.jsonl": {
+      "pallets__flask-5063": {
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#1": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#2": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#4": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#6": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#7": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#8": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#9": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-5063/dedup_patch_28.jsonl": {
+      "pallets__flask-5063": {
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#1": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#2": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#4": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#6": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#7": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#8": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#9": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-5063/dedup_patch_29.jsonl": {
+      "pallets__flask-5063": {
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#1": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#2": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#4": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#6": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#7": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#8": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#9": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-5063/dedup_patch_3.jsonl": {
+      "pallets__flask-5063": {
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#1": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#2": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#4": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#6": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#7": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#8": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#9": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-5063/dedup_patch_30.jsonl": {
+      "pallets__flask-5063": {
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#1": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#2": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#4": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#6": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#7": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#8": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#9": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-5063/dedup_patch_31.jsonl": {
+      "pallets__flask-5063": {
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#1": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#2": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#4": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#6": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#7": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#8": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#9": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-5063/dedup_patch_32.jsonl": {
+      "pallets__flask-5063": {
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#1": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#2": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#4": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#6": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#7": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#8": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#9": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-5063/dedup_patch_33.jsonl": {
+      "pallets__flask-5063": {
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#1": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#2": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#4": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#6": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#7": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#8": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#9": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-5063/dedup_patch_34.jsonl": {
+      "pallets__flask-5063": {
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#1": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#2": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#4": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#6": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#7": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#8": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#9": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-5063/dedup_patch_35.jsonl": {
+      "pallets__flask-5063": {
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#1": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#2": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#4": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#6": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#7": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#8": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#9": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-5063/dedup_patch_36.jsonl": {
+      "pallets__flask-5063": {
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#1": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#2": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#4": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#6": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#7": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#8": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#9": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-5063/dedup_patch_37.jsonl": {
+      "pallets__flask-5063": {
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#1": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#2": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#4": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#6": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#7": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#8": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#9": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-5063/dedup_patch_38.jsonl": {
+      "pallets__flask-5063": {
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#1": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#2": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#4": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#6": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#7": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#8": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#9": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-5063/dedup_patch_39.jsonl": {
+      "pallets__flask-5063": {
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#1": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#2": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#4": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#6": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#7": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#8": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#9": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-5063/dedup_patch_4.jsonl": {
+      "pallets__flask-5063": {
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#1": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#2": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#4": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#6": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#7": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#8": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#9": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-5063/dedup_patch_5.jsonl": {
+      "pallets__flask-5063": {
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#1": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#2": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#4": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#6": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#7": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#8": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#9": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-5063/dedup_patch_6.jsonl": {
+      "pallets__flask-5063": {
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#1": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#2": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#4": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#6": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#7": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#8": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#9": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-5063/dedup_patch_7.jsonl": {
+      "pallets__flask-5063": {
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#1": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#2": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#4": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#6": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#7": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#8": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#9": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-5063/dedup_patch_8.jsonl": {
+      "pallets__flask-5063": {
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#1": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#2": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#4": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#6": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#7": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#8": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#9": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-5063/dedup_patch_9.jsonl": {
+      "pallets__flask-5063": {
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#1": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#2": false,
+        "tests/test_cli.py::TestRoutes::test_cli_routes_with_subdomains#4": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#6": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#7": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#8": false,
+        "tests/test_cli.py::TestRoutes::test_routes_with_subdomains#9": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    }
+  }
+}

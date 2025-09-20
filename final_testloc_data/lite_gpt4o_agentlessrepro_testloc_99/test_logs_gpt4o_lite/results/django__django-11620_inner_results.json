@@ -1,0 +1,554 @@
+{
+  "regression": {
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11620/dedup_patch_0.jsonl": {
+      "django__django-11620": {
+        "test_client_regress.tests.AssertContainsTests.test_nontext_contains": true,
+        "view_tests.tests.test_debug.NonDjangoTemplatesDebugViewTests.test_404": true,
+        "test_client_regress.tests.ContextTests.test_nested_requests": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_template_encoding": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_404": true,
+        "test_client_regress.tests.RequestMethodStringDataTests.test_json": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_default_urlconf_template": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11620/dedup_patch_1.jsonl": {
+      "django__django-11620": {
+        "test_client_regress.tests.AssertContainsTests.test_nontext_contains": true,
+        "view_tests.tests.test_debug.NonDjangoTemplatesDebugViewTests.test_404": true,
+        "test_client_regress.tests.ContextTests.test_nested_requests": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_template_encoding": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_404": true,
+        "test_client_regress.tests.RequestMethodStringDataTests.test_json": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_default_urlconf_template": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11620/dedup_patch_10.jsonl": {
+      "django__django-11620": {
+        "test_client_regress.tests.AssertContainsTests.test_nontext_contains": false,
+        "view_tests.tests.test_debug.NonDjangoTemplatesDebugViewTests.test_404": false,
+        "test_client_regress.tests.ContextTests.test_nested_requests": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_template_encoding": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_404": false,
+        "test_client_regress.tests.RequestMethodStringDataTests.test_json": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_default_urlconf_template": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11620/dedup_patch_11.jsonl": {
+      "django__django-11620": {
+        "test_client_regress.tests.AssertContainsTests.test_nontext_contains": false,
+        "view_tests.tests.test_debug.NonDjangoTemplatesDebugViewTests.test_404": false,
+        "test_client_regress.tests.ContextTests.test_nested_requests": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_template_encoding": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_404": false,
+        "test_client_regress.tests.RequestMethodStringDataTests.test_json": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_default_urlconf_template": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11620/dedup_patch_12.jsonl": {
+      "django__django-11620": {
+        "test_client_regress.tests.AssertContainsTests.test_nontext_contains": false,
+        "view_tests.tests.test_debug.NonDjangoTemplatesDebugViewTests.test_404": false,
+        "test_client_regress.tests.ContextTests.test_nested_requests": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_template_encoding": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_404": false,
+        "test_client_regress.tests.RequestMethodStringDataTests.test_json": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_default_urlconf_template": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11620/dedup_patch_13.jsonl": {
+      "django__django-11620": {
+        "test_client_regress.tests.AssertContainsTests.test_nontext_contains": false,
+        "view_tests.tests.test_debug.NonDjangoTemplatesDebugViewTests.test_404": true,
+        "test_client_regress.tests.ContextTests.test_nested_requests": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_template_encoding": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_404": false,
+        "test_client_regress.tests.RequestMethodStringDataTests.test_json": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_default_urlconf_template": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11620/dedup_patch_14.jsonl": {
+      "django__django-11620": {
+        "test_client_regress.tests.AssertContainsTests.test_nontext_contains": true,
+        "view_tests.tests.test_debug.NonDjangoTemplatesDebugViewTests.test_404": true,
+        "test_client_regress.tests.ContextTests.test_nested_requests": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_template_encoding": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_404": false,
+        "test_client_regress.tests.RequestMethodStringDataTests.test_json": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_default_urlconf_template": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11620/dedup_patch_15.jsonl": {
+      "django__django-11620": {
+        "test_client_regress.tests.AssertContainsTests.test_nontext_contains": true,
+        "view_tests.tests.test_debug.NonDjangoTemplatesDebugViewTests.test_404": true,
+        "test_client_regress.tests.ContextTests.test_nested_requests": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_template_encoding": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_404": true,
+        "test_client_regress.tests.RequestMethodStringDataTests.test_json": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_default_urlconf_template": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11620/dedup_patch_16.jsonl": {
+      "django__django-11620": {
+        "test_client_regress.tests.AssertContainsTests.test_nontext_contains": true,
+        "view_tests.tests.test_debug.NonDjangoTemplatesDebugViewTests.test_404": false,
+        "test_client_regress.tests.ContextTests.test_nested_requests": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_template_encoding": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_404": false,
+        "test_client_regress.tests.RequestMethodStringDataTests.test_json": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_default_urlconf_template": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11620/dedup_patch_17.jsonl": {
+      "django__django-11620": {
+        "test_client_regress.tests.AssertContainsTests.test_nontext_contains": true,
+        "view_tests.tests.test_debug.NonDjangoTemplatesDebugViewTests.test_404": true,
+        "test_client_regress.tests.ContextTests.test_nested_requests": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_template_encoding": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_404": true,
+        "test_client_regress.tests.RequestMethodStringDataTests.test_json": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_default_urlconf_template": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11620/dedup_patch_18.jsonl": {
+      "django__django-11620": {
+        "test_client_regress.tests.AssertContainsTests.test_nontext_contains": true,
+        "view_tests.tests.test_debug.NonDjangoTemplatesDebugViewTests.test_404": true,
+        "test_client_regress.tests.ContextTests.test_nested_requests": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_template_encoding": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_404": true,
+        "test_client_regress.tests.RequestMethodStringDataTests.test_json": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_default_urlconf_template": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11620/dedup_patch_19.jsonl": {
+      "django__django-11620": {
+        "test_client_regress.tests.AssertContainsTests.test_nontext_contains": true,
+        "view_tests.tests.test_debug.NonDjangoTemplatesDebugViewTests.test_404": false,
+        "test_client_regress.tests.ContextTests.test_nested_requests": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_template_encoding": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_404": false,
+        "test_client_regress.tests.RequestMethodStringDataTests.test_json": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_default_urlconf_template": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11620/dedup_patch_2.jsonl": {
+      "django__django-11620": {
+        "test_client_regress.tests.AssertContainsTests.test_nontext_contains": true,
+        "view_tests.tests.test_debug.NonDjangoTemplatesDebugViewTests.test_404": true,
+        "test_client_regress.tests.ContextTests.test_nested_requests": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_template_encoding": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_404": true,
+        "test_client_regress.tests.RequestMethodStringDataTests.test_json": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_default_urlconf_template": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11620/dedup_patch_20.jsonl": {
+      "django__django-11620": {
+        "test_client_regress.tests.AssertContainsTests.test_nontext_contains": true,
+        "view_tests.tests.test_debug.NonDjangoTemplatesDebugViewTests.test_404": true,
+        "test_client_regress.tests.ContextTests.test_nested_requests": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_template_encoding": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_404": true,
+        "test_client_regress.tests.RequestMethodStringDataTests.test_json": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_default_urlconf_template": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11620/dedup_patch_21.jsonl": {
+      "django__django-11620": {
+        "test_client_regress.tests.AssertContainsTests.test_nontext_contains": true,
+        "view_tests.tests.test_debug.NonDjangoTemplatesDebugViewTests.test_404": false,
+        "test_client_regress.tests.ContextTests.test_nested_requests": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_template_encoding": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_404": false,
+        "test_client_regress.tests.RequestMethodStringDataTests.test_json": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_default_urlconf_template": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11620/dedup_patch_22.jsonl": {
+      "django__django-11620": {
+        "test_client_regress.tests.AssertContainsTests.test_nontext_contains": true,
+        "view_tests.tests.test_debug.NonDjangoTemplatesDebugViewTests.test_404": true,
+        "test_client_regress.tests.ContextTests.test_nested_requests": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_template_encoding": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_404": true,
+        "test_client_regress.tests.RequestMethodStringDataTests.test_json": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_default_urlconf_template": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11620/dedup_patch_23.jsonl": {
+      "django__django-11620": {
+        "test_client_regress.tests.AssertContainsTests.test_nontext_contains": true,
+        "view_tests.tests.test_debug.NonDjangoTemplatesDebugViewTests.test_404": true,
+        "test_client_regress.tests.ContextTests.test_nested_requests": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_template_encoding": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_404": true,
+        "test_client_regress.tests.RequestMethodStringDataTests.test_json": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_default_urlconf_template": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11620/dedup_patch_24.jsonl": {
+      "django__django-11620": {
+        "test_client_regress.tests.AssertContainsTests.test_nontext_contains": true,
+        "view_tests.tests.test_debug.NonDjangoTemplatesDebugViewTests.test_404": true,
+        "test_client_regress.tests.ContextTests.test_nested_requests": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_template_encoding": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_404": false,
+        "test_client_regress.tests.RequestMethodStringDataTests.test_json": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_default_urlconf_template": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11620/dedup_patch_25.jsonl": {
+      "django__django-11620": {
+        "test_client_regress.tests.AssertContainsTests.test_nontext_contains": true,
+        "view_tests.tests.test_debug.NonDjangoTemplatesDebugViewTests.test_404": true,
+        "test_client_regress.tests.ContextTests.test_nested_requests": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_template_encoding": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_404": true,
+        "test_client_regress.tests.RequestMethodStringDataTests.test_json": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_default_urlconf_template": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11620/dedup_patch_26.jsonl": {
+      "django__django-11620": {
+        "test_client_regress.tests.AssertContainsTests.test_nontext_contains": true,
+        "view_tests.tests.test_debug.NonDjangoTemplatesDebugViewTests.test_404": true,
+        "test_client_regress.tests.ContextTests.test_nested_requests": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_template_encoding": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_404": true,
+        "test_client_regress.tests.RequestMethodStringDataTests.test_json": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_default_urlconf_template": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11620/dedup_patch_27.jsonl": {
+      "django__django-11620": {
+        "test_client_regress.tests.AssertContainsTests.test_nontext_contains": true,
+        "view_tests.tests.test_debug.NonDjangoTemplatesDebugViewTests.test_404": false,
+        "test_client_regress.tests.ContextTests.test_nested_requests": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_template_encoding": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_404": false,
+        "test_client_regress.tests.RequestMethodStringDataTests.test_json": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_default_urlconf_template": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11620/dedup_patch_28.jsonl": {
+      "django__django-11620": {
+        "test_client_regress.tests.AssertContainsTests.test_nontext_contains": true,
+        "view_tests.tests.test_debug.NonDjangoTemplatesDebugViewTests.test_404": true,
+        "test_client_regress.tests.ContextTests.test_nested_requests": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_template_encoding": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_404": true,
+        "test_client_regress.tests.RequestMethodStringDataTests.test_json": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_default_urlconf_template": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11620/dedup_patch_29.jsonl": {
+      "django__django-11620": {
+        "test_client_regress.tests.AssertContainsTests.test_nontext_contains": true,
+        "view_tests.tests.test_debug.NonDjangoTemplatesDebugViewTests.test_404": true,
+        "test_client_regress.tests.ContextTests.test_nested_requests": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_template_encoding": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_404": true,
+        "test_client_regress.tests.RequestMethodStringDataTests.test_json": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_default_urlconf_template": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11620/dedup_patch_3.jsonl": {
+      "django__django-11620": {
+        "test_client_regress.tests.AssertContainsTests.test_nontext_contains": false,
+        "view_tests.tests.test_debug.NonDjangoTemplatesDebugViewTests.test_404": false,
+        "test_client_regress.tests.ContextTests.test_nested_requests": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_template_encoding": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_404": false,
+        "test_client_regress.tests.RequestMethodStringDataTests.test_json": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_default_urlconf_template": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11620/dedup_patch_30.jsonl": {
+      "django__django-11620": {
+        "test_client_regress.tests.AssertContainsTests.test_nontext_contains": true,
+        "view_tests.tests.test_debug.NonDjangoTemplatesDebugViewTests.test_404": true,
+        "test_client_regress.tests.ContextTests.test_nested_requests": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_template_encoding": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_404": true,
+        "test_client_regress.tests.RequestMethodStringDataTests.test_json": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_default_urlconf_template": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11620/dedup_patch_31.jsonl": {
+      "django__django-11620": {
+        "test_client_regress.tests.AssertContainsTests.test_nontext_contains": true,
+        "view_tests.tests.test_debug.NonDjangoTemplatesDebugViewTests.test_404": true,
+        "test_client_regress.tests.ContextTests.test_nested_requests": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_template_encoding": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_404": true,
+        "test_client_regress.tests.RequestMethodStringDataTests.test_json": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_default_urlconf_template": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11620/dedup_patch_4.jsonl": {
+      "django__django-11620": {
+        "test_client_regress.tests.AssertContainsTests.test_nontext_contains": true,
+        "view_tests.tests.test_debug.NonDjangoTemplatesDebugViewTests.test_404": true,
+        "test_client_regress.tests.ContextTests.test_nested_requests": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_template_encoding": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_404": true,
+        "test_client_regress.tests.RequestMethodStringDataTests.test_json": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_default_urlconf_template": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11620/dedup_patch_5.jsonl": {
+      "django__django-11620": {
+        "test_client_regress.tests.AssertContainsTests.test_nontext_contains": true,
+        "view_tests.tests.test_debug.NonDjangoTemplatesDebugViewTests.test_404": true,
+        "test_client_regress.tests.ContextTests.test_nested_requests": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_template_encoding": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_404": true,
+        "test_client_regress.tests.RequestMethodStringDataTests.test_json": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_default_urlconf_template": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11620/dedup_patch_6.jsonl": {
+      "django__django-11620": {
+        "test_client_regress.tests.AssertContainsTests.test_nontext_contains": true,
+        "view_tests.tests.test_debug.NonDjangoTemplatesDebugViewTests.test_404": false,
+        "test_client_regress.tests.ContextTests.test_nested_requests": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_template_encoding": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_404": false,
+        "test_client_regress.tests.RequestMethodStringDataTests.test_json": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_default_urlconf_template": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11620/dedup_patch_7.jsonl": {
+      "django__django-11620": {
+        "test_client_regress.tests.AssertContainsTests.test_nontext_contains": true,
+        "view_tests.tests.test_debug.NonDjangoTemplatesDebugViewTests.test_404": false,
+        "test_client_regress.tests.ContextTests.test_nested_requests": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_template_encoding": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_404": false,
+        "test_client_regress.tests.RequestMethodStringDataTests.test_json": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_default_urlconf_template": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11620/dedup_patch_8.jsonl": {
+      "django__django-11620": {
+        "test_client_regress.tests.AssertContainsTests.test_nontext_contains": false,
+        "view_tests.tests.test_debug.NonDjangoTemplatesDebugViewTests.test_404": true,
+        "test_client_regress.tests.ContextTests.test_nested_requests": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_template_encoding": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_404": false,
+        "test_client_regress.tests.RequestMethodStringDataTests.test_json": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_default_urlconf_template": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11620/dedup_patch_9.jsonl": {
+      "django__django-11620": {
+        "test_client_regress.tests.AssertContainsTests.test_nontext_contains": false,
+        "view_tests.tests.test_debug.NonDjangoTemplatesDebugViewTests.test_404": false,
+        "test_client_regress.tests.ContextTests.test_nested_requests": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_template_encoding": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_404": false,
+        "test_client_regress.tests.RequestMethodStringDataTests.test_json": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_default_urlconf_template": false
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-11620": {
+        "view_tests.tests.test_debug.DebugViewTests.test_technical_404_with_debug_true#1": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_path_converter_404_debug#2": true,
+        "urlpatterns_reverse.tests.ResolverTests.test_http404_in_path_converter#3": true,
+        "urlpatterns_reverse.tests.ResolverTests.test_http404_in_path_converter_debug_response#4": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_path_converter_404_debug#5": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_path_converter_404_response#6": true,
+        "view_tests.tests.test_debug.DebugViewTests.test_path_converter_404_debug#7": true,
+        "urlpatterns_reverse.tests.LookaheadTests.test_http404_in_path_converter#8": true,
+        "urlpatterns_reverse.tests.ResolverTests.test_http404_in_path_converter#9": true,
+        "view_tests.tests.test_debug.NonDjangoTemplatesDebugViewTests.test_404_in_path_converter#10": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11620/dedup_patch_0.jsonl": {
+      "django__django-11620": {
+        "view_tests.tests.test_debug.DebugViewTests.test_technical_404_with_debug_true#1": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_path_converter_404_debug#2": false,
+        "urlpatterns_reverse.tests.ResolverTests.test_http404_in_path_converter#3": false,
+        "urlpatterns_reverse.tests.ResolverTests.test_http404_in_path_converter_debug_response#4": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_path_converter_404_debug#5": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_path_converter_404_response#6": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_path_converter_404_debug#7": false,
+        "urlpatterns_reverse.tests.LookaheadTests.test_http404_in_path_converter#8": false,
+        "urlpatterns_reverse.tests.ResolverTests.test_http404_in_path_converter#9": false,
+        "view_tests.tests.test_debug.NonDjangoTemplatesDebugViewTests.test_404_in_path_converter#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11620/dedup_patch_1.jsonl": {
+      "django__django-11620": {
+        "view_tests.tests.test_debug.DebugViewTests.test_technical_404_with_debug_true#1": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_path_converter_404_debug#2": false,
+        "urlpatterns_reverse.tests.ResolverTests.test_http404_in_path_converter#3": false,
+        "urlpatterns_reverse.tests.ResolverTests.test_http404_in_path_converter_debug_response#4": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_path_converter_404_debug#5": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_path_converter_404_response#6": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_path_converter_404_debug#7": false,
+        "urlpatterns_reverse.tests.LookaheadTests.test_http404_in_path_converter#8": false,
+        "urlpatterns_reverse.tests.ResolverTests.test_http404_in_path_converter#9": false,
+        "view_tests.tests.test_debug.NonDjangoTemplatesDebugViewTests.test_404_in_path_converter#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11620/dedup_patch_15.jsonl": {
+      "django__django-11620": {
+        "view_tests.tests.test_debug.DebugViewTests.test_technical_404_with_debug_true#1": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_path_converter_404_debug#2": false,
+        "urlpatterns_reverse.tests.ResolverTests.test_http404_in_path_converter#3": false,
+        "urlpatterns_reverse.tests.ResolverTests.test_http404_in_path_converter_debug_response#4": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_path_converter_404_debug#5": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_path_converter_404_response#6": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_path_converter_404_debug#7": false,
+        "urlpatterns_reverse.tests.LookaheadTests.test_http404_in_path_converter#8": false,
+        "urlpatterns_reverse.tests.ResolverTests.test_http404_in_path_converter#9": false,
+        "view_tests.tests.test_debug.NonDjangoTemplatesDebugViewTests.test_404_in_path_converter#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11620/dedup_patch_17.jsonl": {
+      "django__django-11620": {
+        "view_tests.tests.test_debug.DebugViewTests.test_technical_404_with_debug_true#1": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_path_converter_404_debug#2": false,
+        "urlpatterns_reverse.tests.ResolverTests.test_http404_in_path_converter#3": false,
+        "urlpatterns_reverse.tests.ResolverTests.test_http404_in_path_converter_debug_response#4": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_path_converter_404_debug#5": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_path_converter_404_response#6": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_path_converter_404_debug#7": false,
+        "urlpatterns_reverse.tests.LookaheadTests.test_http404_in_path_converter#8": false,
+        "urlpatterns_reverse.tests.ResolverTests.test_http404_in_path_converter#9": false,
+        "view_tests.tests.test_debug.NonDjangoTemplatesDebugViewTests.test_404_in_path_converter#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11620/dedup_patch_18.jsonl": {
+      "django__django-11620": {
+        "view_tests.tests.test_debug.DebugViewTests.test_technical_404_with_debug_true#1": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_path_converter_404_debug#2": false,
+        "urlpatterns_reverse.tests.ResolverTests.test_http404_in_path_converter#3": false,
+        "urlpatterns_reverse.tests.ResolverTests.test_http404_in_path_converter_debug_response#4": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_path_converter_404_debug#5": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_path_converter_404_response#6": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_path_converter_404_debug#7": false,
+        "urlpatterns_reverse.tests.LookaheadTests.test_http404_in_path_converter#8": false,
+        "urlpatterns_reverse.tests.ResolverTests.test_http404_in_path_converter#9": false,
+        "view_tests.tests.test_debug.NonDjangoTemplatesDebugViewTests.test_404_in_path_converter#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11620/dedup_patch_2.jsonl": {
+      "django__django-11620": {
+        "view_tests.tests.test_debug.DebugViewTests.test_technical_404_with_debug_true#1": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_path_converter_404_debug#2": false,
+        "urlpatterns_reverse.tests.ResolverTests.test_http404_in_path_converter#3": false,
+        "urlpatterns_reverse.tests.ResolverTests.test_http404_in_path_converter_debug_response#4": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_path_converter_404_debug#5": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_path_converter_404_response#6": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_path_converter_404_debug#7": false,
+        "urlpatterns_reverse.tests.LookaheadTests.test_http404_in_path_converter#8": false,
+        "urlpatterns_reverse.tests.ResolverTests.test_http404_in_path_converter#9": false,
+        "view_tests.tests.test_debug.NonDjangoTemplatesDebugViewTests.test_404_in_path_converter#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11620/dedup_patch_23.jsonl": {
+      "django__django-11620": {
+        "view_tests.tests.test_debug.DebugViewTests.test_technical_404_with_debug_true#1": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_path_converter_404_debug#2": false,
+        "urlpatterns_reverse.tests.ResolverTests.test_http404_in_path_converter#3": false,
+        "urlpatterns_reverse.tests.ResolverTests.test_http404_in_path_converter_debug_response#4": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_path_converter_404_debug#5": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_path_converter_404_response#6": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_path_converter_404_debug#7": false,
+        "urlpatterns_reverse.tests.LookaheadTests.test_http404_in_path_converter#8": false,
+        "urlpatterns_reverse.tests.ResolverTests.test_http404_in_path_converter#9": false,
+        "view_tests.tests.test_debug.NonDjangoTemplatesDebugViewTests.test_404_in_path_converter#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11620/dedup_patch_25.jsonl": {
+      "django__django-11620": {
+        "view_tests.tests.test_debug.DebugViewTests.test_technical_404_with_debug_true#1": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_path_converter_404_debug#2": false,
+        "urlpatterns_reverse.tests.ResolverTests.test_http404_in_path_converter#3": false,
+        "urlpatterns_reverse.tests.ResolverTests.test_http404_in_path_converter_debug_response#4": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_path_converter_404_debug#5": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_path_converter_404_response#6": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_path_converter_404_debug#7": false,
+        "urlpatterns_reverse.tests.LookaheadTests.test_http404_in_path_converter#8": false,
+        "urlpatterns_reverse.tests.ResolverTests.test_http404_in_path_converter#9": false,
+        "view_tests.tests.test_debug.NonDjangoTemplatesDebugViewTests.test_404_in_path_converter#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11620/dedup_patch_29.jsonl": {
+      "django__django-11620": {
+        "view_tests.tests.test_debug.DebugViewTests.test_technical_404_with_debug_true#1": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_path_converter_404_debug#2": false,
+        "urlpatterns_reverse.tests.ResolverTests.test_http404_in_path_converter#3": false,
+        "urlpatterns_reverse.tests.ResolverTests.test_http404_in_path_converter_debug_response#4": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_path_converter_404_debug#5": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_path_converter_404_response#6": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_path_converter_404_debug#7": false,
+        "urlpatterns_reverse.tests.LookaheadTests.test_http404_in_path_converter#8": false,
+        "urlpatterns_reverse.tests.ResolverTests.test_http404_in_path_converter#9": false,
+        "view_tests.tests.test_debug.NonDjangoTemplatesDebugViewTests.test_404_in_path_converter#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11620/dedup_patch_30.jsonl": {
+      "django__django-11620": {
+        "view_tests.tests.test_debug.DebugViewTests.test_technical_404_with_debug_true#1": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_path_converter_404_debug#2": false,
+        "urlpatterns_reverse.tests.ResolverTests.test_http404_in_path_converter#3": false,
+        "urlpatterns_reverse.tests.ResolverTests.test_http404_in_path_converter_debug_response#4": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_path_converter_404_debug#5": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_path_converter_404_response#6": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_path_converter_404_debug#7": false,
+        "urlpatterns_reverse.tests.LookaheadTests.test_http404_in_path_converter#8": false,
+        "urlpatterns_reverse.tests.ResolverTests.test_http404_in_path_converter#9": false,
+        "view_tests.tests.test_debug.NonDjangoTemplatesDebugViewTests.test_404_in_path_converter#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11620/dedup_patch_31.jsonl": {
+      "django__django-11620": {
+        "view_tests.tests.test_debug.DebugViewTests.test_technical_404_with_debug_true#1": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_path_converter_404_debug#2": false,
+        "urlpatterns_reverse.tests.ResolverTests.test_http404_in_path_converter#3": false,
+        "urlpatterns_reverse.tests.ResolverTests.test_http404_in_path_converter_debug_response#4": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_path_converter_404_debug#5": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_path_converter_404_response#6": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_path_converter_404_debug#7": false,
+        "urlpatterns_reverse.tests.LookaheadTests.test_http404_in_path_converter#8": false,
+        "urlpatterns_reverse.tests.ResolverTests.test_http404_in_path_converter#9": false,
+        "view_tests.tests.test_debug.NonDjangoTemplatesDebugViewTests.test_404_in_path_converter#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11620/dedup_patch_4.jsonl": {
+      "django__django-11620": {
+        "view_tests.tests.test_debug.DebugViewTests.test_technical_404_with_debug_true#1": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_path_converter_404_debug#2": false,
+        "urlpatterns_reverse.tests.ResolverTests.test_http404_in_path_converter#3": false,
+        "urlpatterns_reverse.tests.ResolverTests.test_http404_in_path_converter_debug_response#4": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_path_converter_404_debug#5": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_path_converter_404_response#6": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_path_converter_404_debug#7": false,
+        "urlpatterns_reverse.tests.LookaheadTests.test_http404_in_path_converter#8": false,
+        "urlpatterns_reverse.tests.ResolverTests.test_http404_in_path_converter#9": false,
+        "view_tests.tests.test_debug.NonDjangoTemplatesDebugViewTests.test_404_in_path_converter#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11620/dedup_patch_5.jsonl": {
+      "django__django-11620": {
+        "view_tests.tests.test_debug.DebugViewTests.test_technical_404_with_debug_true#1": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_path_converter_404_debug#2": false,
+        "urlpatterns_reverse.tests.ResolverTests.test_http404_in_path_converter#3": false,
+        "urlpatterns_reverse.tests.ResolverTests.test_http404_in_path_converter_debug_response#4": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_path_converter_404_debug#5": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_path_converter_404_response#6": false,
+        "view_tests.tests.test_debug.DebugViewTests.test_path_converter_404_debug#7": false,
+        "urlpatterns_reverse.tests.LookaheadTests.test_http404_in_path_converter#8": false,
+        "urlpatterns_reverse.tests.ResolverTests.test_http404_in_path_converter#9": false,
+        "view_tests.tests.test_debug.NonDjangoTemplatesDebugViewTests.test_404_in_path_converter#10": false
+      }
+    }
+  }
+}

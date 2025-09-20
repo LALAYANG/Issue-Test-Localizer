@@ -1,0 +1,906 @@
+{
+  "regression": {
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15902/dedup_patch_0.jsonl": {
+      "django__django-15902": {
+        "forms_tests.tests.test_formsets.TestIsBoundBehavior.test_empty_forms_are_unbound": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_validate_max_ignores_forms_marked_for_deletion": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_validate_min_excludes_empty_forms": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_limited_max_forms_two": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_max_num_zero_with_initial": true,
+        "forms_tests.tests.test_renderers.BaseTemplateRendererTests.test_get_renderer": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_absolute_max_invalid": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_repr": false,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_disable_delete_extra_formset_forms": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_total_error_count_with_non_form_errors": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formsets_with_ordering_custom_widget": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_form_kwargs_empty_form": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_validate_min_flag_custom_formatted_error": true,
+        "forms_tests.tests.test_formsets.TestIsBoundBehavior.test_customize_management_form_error": false,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_html_safe": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15902/dedup_patch_1.jsonl": {
+      "django__django-15902": {
+        "forms_tests.tests.test_formsets.TestIsBoundBehavior.test_empty_forms_are_unbound": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_validate_max_ignores_forms_marked_for_deletion": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_validate_min_excludes_empty_forms": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_limited_max_forms_two": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_max_num_zero_with_initial": true,
+        "forms_tests.tests.test_renderers.BaseTemplateRendererTests.test_get_renderer": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_absolute_max_invalid": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_repr": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_disable_delete_extra_formset_forms": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_total_error_count_with_non_form_errors": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formsets_with_ordering_custom_widget": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_form_kwargs_empty_form": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_validate_min_flag_custom_formatted_error": true,
+        "forms_tests.tests.test_formsets.TestIsBoundBehavior.test_customize_management_form_error": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_html_safe": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15902/dedup_patch_10.jsonl": {
+      "django__django-15902": {
+        "forms_tests.tests.test_formsets.TestIsBoundBehavior.test_empty_forms_are_unbound": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_validate_max_ignores_forms_marked_for_deletion": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_validate_min_excludes_empty_forms": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_limited_max_forms_two": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_max_num_zero_with_initial": true,
+        "forms_tests.tests.test_renderers.BaseTemplateRendererTests.test_get_renderer": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_absolute_max_invalid": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_repr": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_disable_delete_extra_formset_forms": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_total_error_count_with_non_form_errors": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formsets_with_ordering_custom_widget": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_form_kwargs_empty_form": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_validate_min_flag_custom_formatted_error": true,
+        "forms_tests.tests.test_formsets.TestIsBoundBehavior.test_customize_management_form_error": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_html_safe": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15902/dedup_patch_11.jsonl": {
+      "django__django-15902": {
+        "forms_tests.tests.test_formsets.TestIsBoundBehavior.test_empty_forms_are_unbound": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_validate_max_ignores_forms_marked_for_deletion": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_validate_min_excludes_empty_forms": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_limited_max_forms_two": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_max_num_zero_with_initial": true,
+        "forms_tests.tests.test_renderers.BaseTemplateRendererTests.test_get_renderer": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_absolute_max_invalid": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_repr": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_disable_delete_extra_formset_forms": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_total_error_count_with_non_form_errors": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formsets_with_ordering_custom_widget": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_form_kwargs_empty_form": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_validate_min_flag_custom_formatted_error": true,
+        "forms_tests.tests.test_formsets.TestIsBoundBehavior.test_customize_management_form_error": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_html_safe": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15902/dedup_patch_12.jsonl": {
+      "django__django-15902": {
+        "forms_tests.tests.test_formsets.TestIsBoundBehavior.test_empty_forms_are_unbound": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_validate_max_ignores_forms_marked_for_deletion": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_validate_min_excludes_empty_forms": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_limited_max_forms_two": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_max_num_zero_with_initial": true,
+        "forms_tests.tests.test_renderers.BaseTemplateRendererTests.test_get_renderer": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_absolute_max_invalid": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_repr": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_disable_delete_extra_formset_forms": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_total_error_count_with_non_form_errors": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formsets_with_ordering_custom_widget": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_form_kwargs_empty_form": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_validate_min_flag_custom_formatted_error": true,
+        "forms_tests.tests.test_formsets.TestIsBoundBehavior.test_customize_management_form_error": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_html_safe": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15902/dedup_patch_13.jsonl": {
+      "django__django-15902": {
+        "forms_tests.tests.test_formsets.TestIsBoundBehavior.test_empty_forms_are_unbound": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_validate_max_ignores_forms_marked_for_deletion": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_validate_min_excludes_empty_forms": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_limited_max_forms_two": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_max_num_zero_with_initial": true,
+        "forms_tests.tests.test_renderers.BaseTemplateRendererTests.test_get_renderer": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_absolute_max_invalid": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_repr": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_disable_delete_extra_formset_forms": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_total_error_count_with_non_form_errors": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formsets_with_ordering_custom_widget": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_form_kwargs_empty_form": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_validate_min_flag_custom_formatted_error": true,
+        "forms_tests.tests.test_formsets.TestIsBoundBehavior.test_customize_management_form_error": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_html_safe": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15902/dedup_patch_14.jsonl": {
+      "django__django-15902": {
+        "forms_tests.tests.test_formsets.TestIsBoundBehavior.test_empty_forms_are_unbound": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_validate_max_ignores_forms_marked_for_deletion": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_validate_min_excludes_empty_forms": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_limited_max_forms_two": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_max_num_zero_with_initial": true,
+        "forms_tests.tests.test_renderers.BaseTemplateRendererTests.test_get_renderer": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_absolute_max_invalid": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_repr": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_disable_delete_extra_formset_forms": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_total_error_count_with_non_form_errors": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formsets_with_ordering_custom_widget": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_form_kwargs_empty_form": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_validate_min_flag_custom_formatted_error": true,
+        "forms_tests.tests.test_formsets.TestIsBoundBehavior.test_customize_management_form_error": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_html_safe": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15902/dedup_patch_15.jsonl": {
+      "django__django-15902": {
+        "forms_tests.tests.test_formsets.TestIsBoundBehavior.test_empty_forms_are_unbound": false,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_validate_max_ignores_forms_marked_for_deletion": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_validate_min_excludes_empty_forms": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_limited_max_forms_two": false,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_max_num_zero_with_initial": false,
+        "forms_tests.tests.test_renderers.BaseTemplateRendererTests.test_get_renderer": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_absolute_max_invalid": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_repr": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_disable_delete_extra_formset_forms": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_total_error_count_with_non_form_errors": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formsets_with_ordering_custom_widget": false,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_form_kwargs_empty_form": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_validate_min_flag_custom_formatted_error": true,
+        "forms_tests.tests.test_formsets.TestIsBoundBehavior.test_customize_management_form_error": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_html_safe": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15902/dedup_patch_16.jsonl": {
+      "django__django-15902": {
+        "forms_tests.tests.test_formsets.TestIsBoundBehavior.test_empty_forms_are_unbound": false,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_validate_max_ignores_forms_marked_for_deletion": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_validate_min_excludes_empty_forms": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_limited_max_forms_two": false,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_max_num_zero_with_initial": false,
+        "forms_tests.tests.test_renderers.BaseTemplateRendererTests.test_get_renderer": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_absolute_max_invalid": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_repr": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_disable_delete_extra_formset_forms": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_total_error_count_with_non_form_errors": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formsets_with_ordering_custom_widget": false,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_form_kwargs_empty_form": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_validate_min_flag_custom_formatted_error": false,
+        "forms_tests.tests.test_formsets.TestIsBoundBehavior.test_customize_management_form_error": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_html_safe": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15902/dedup_patch_17.jsonl": {
+      "django__django-15902": {
+        "forms_tests.tests.test_formsets.TestIsBoundBehavior.test_empty_forms_are_unbound": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_validate_max_ignores_forms_marked_for_deletion": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_validate_min_excludes_empty_forms": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_limited_max_forms_two": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_max_num_zero_with_initial": true,
+        "forms_tests.tests.test_renderers.BaseTemplateRendererTests.test_get_renderer": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_absolute_max_invalid": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_repr": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_disable_delete_extra_formset_forms": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_total_error_count_with_non_form_errors": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formsets_with_ordering_custom_widget": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_form_kwargs_empty_form": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_validate_min_flag_custom_formatted_error": true,
+        "forms_tests.tests.test_formsets.TestIsBoundBehavior.test_customize_management_form_error": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_html_safe": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15902/dedup_patch_18.jsonl": {
+      "django__django-15902": {
+        "forms_tests.tests.test_formsets.TestIsBoundBehavior.test_empty_forms_are_unbound": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_validate_max_ignores_forms_marked_for_deletion": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_validate_min_excludes_empty_forms": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_limited_max_forms_two": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_max_num_zero_with_initial": true,
+        "forms_tests.tests.test_renderers.BaseTemplateRendererTests.test_get_renderer": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_absolute_max_invalid": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_repr": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_disable_delete_extra_formset_forms": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_total_error_count_with_non_form_errors": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formsets_with_ordering_custom_widget": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_form_kwargs_empty_form": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_validate_min_flag_custom_formatted_error": true,
+        "forms_tests.tests.test_formsets.TestIsBoundBehavior.test_customize_management_form_error": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_html_safe": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15902/dedup_patch_19.jsonl": {
+      "django__django-15902": {
+        "forms_tests.tests.test_formsets.TestIsBoundBehavior.test_empty_forms_are_unbound": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_validate_max_ignores_forms_marked_for_deletion": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_validate_min_excludes_empty_forms": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_limited_max_forms_two": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_max_num_zero_with_initial": true,
+        "forms_tests.tests.test_renderers.BaseTemplateRendererTests.test_get_renderer": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_absolute_max_invalid": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_repr": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_disable_delete_extra_formset_forms": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_total_error_count_with_non_form_errors": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formsets_with_ordering_custom_widget": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_form_kwargs_empty_form": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_validate_min_flag_custom_formatted_error": true,
+        "forms_tests.tests.test_formsets.TestIsBoundBehavior.test_customize_management_form_error": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_html_safe": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15902/dedup_patch_2.jsonl": {
+      "django__django-15902": {
+        "forms_tests.tests.test_formsets.TestIsBoundBehavior.test_empty_forms_are_unbound": false,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_validate_max_ignores_forms_marked_for_deletion": false,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_validate_min_excludes_empty_forms": false,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_limited_max_forms_two": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_max_num_zero_with_initial": true,
+        "forms_tests.tests.test_renderers.BaseTemplateRendererTests.test_get_renderer": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_absolute_max_invalid": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_repr": false,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_disable_delete_extra_formset_forms": false,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_total_error_count_with_non_form_errors": false,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formsets_with_ordering_custom_widget": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_form_kwargs_empty_form": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_validate_min_flag_custom_formatted_error": false,
+        "forms_tests.tests.test_formsets.TestIsBoundBehavior.test_customize_management_form_error": false,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_html_safe": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15902/dedup_patch_20.jsonl": {
+      "django__django-15902": {
+        "forms_tests.tests.test_formsets.TestIsBoundBehavior.test_empty_forms_are_unbound": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_validate_max_ignores_forms_marked_for_deletion": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_validate_min_excludes_empty_forms": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_limited_max_forms_two": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_max_num_zero_with_initial": true,
+        "forms_tests.tests.test_renderers.BaseTemplateRendererTests.test_get_renderer": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_absolute_max_invalid": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_repr": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_disable_delete_extra_formset_forms": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_total_error_count_with_non_form_errors": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formsets_with_ordering_custom_widget": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_form_kwargs_empty_form": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_validate_min_flag_custom_formatted_error": true,
+        "forms_tests.tests.test_formsets.TestIsBoundBehavior.test_customize_management_form_error": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_html_safe": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15902/dedup_patch_21.jsonl": {
+      "django__django-15902": {
+        "forms_tests.tests.test_formsets.TestIsBoundBehavior.test_empty_forms_are_unbound": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_validate_max_ignores_forms_marked_for_deletion": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_validate_min_excludes_empty_forms": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_limited_max_forms_two": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_max_num_zero_with_initial": true,
+        "forms_tests.tests.test_renderers.BaseTemplateRendererTests.test_get_renderer": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_absolute_max_invalid": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_repr": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_disable_delete_extra_formset_forms": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_total_error_count_with_non_form_errors": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formsets_with_ordering_custom_widget": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_form_kwargs_empty_form": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_validate_min_flag_custom_formatted_error": true,
+        "forms_tests.tests.test_formsets.TestIsBoundBehavior.test_customize_management_form_error": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_html_safe": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15902/dedup_patch_22.jsonl": {
+      "django__django-15902": {
+        "forms_tests.tests.test_formsets.TestIsBoundBehavior.test_empty_forms_are_unbound": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_validate_max_ignores_forms_marked_for_deletion": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_validate_min_excludes_empty_forms": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_limited_max_forms_two": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_max_num_zero_with_initial": true,
+        "forms_tests.tests.test_renderers.BaseTemplateRendererTests.test_get_renderer": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_absolute_max_invalid": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_repr": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_disable_delete_extra_formset_forms": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_total_error_count_with_non_form_errors": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formsets_with_ordering_custom_widget": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_form_kwargs_empty_form": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_validate_min_flag_custom_formatted_error": true,
+        "forms_tests.tests.test_formsets.TestIsBoundBehavior.test_customize_management_form_error": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_html_safe": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15902/dedup_patch_23.jsonl": {
+      "django__django-15902": {
+        "forms_tests.tests.test_formsets.TestIsBoundBehavior.test_empty_forms_are_unbound": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_validate_max_ignores_forms_marked_for_deletion": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_validate_min_excludes_empty_forms": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_limited_max_forms_two": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_max_num_zero_with_initial": true,
+        "forms_tests.tests.test_renderers.BaseTemplateRendererTests.test_get_renderer": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_absolute_max_invalid": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_repr": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_disable_delete_extra_formset_forms": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_total_error_count_with_non_form_errors": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formsets_with_ordering_custom_widget": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_form_kwargs_empty_form": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_validate_min_flag_custom_formatted_error": true,
+        "forms_tests.tests.test_formsets.TestIsBoundBehavior.test_customize_management_form_error": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_html_safe": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15902/dedup_patch_24.jsonl": {
+      "django__django-15902": {
+        "forms_tests.tests.test_formsets.TestIsBoundBehavior.test_empty_forms_are_unbound": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_validate_max_ignores_forms_marked_for_deletion": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_validate_min_excludes_empty_forms": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_limited_max_forms_two": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_max_num_zero_with_initial": true,
+        "forms_tests.tests.test_renderers.BaseTemplateRendererTests.test_get_renderer": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_absolute_max_invalid": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_repr": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_disable_delete_extra_formset_forms": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_total_error_count_with_non_form_errors": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formsets_with_ordering_custom_widget": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_form_kwargs_empty_form": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_validate_min_flag_custom_formatted_error": true,
+        "forms_tests.tests.test_formsets.TestIsBoundBehavior.test_customize_management_form_error": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_html_safe": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15902/dedup_patch_25.jsonl": {
+      "django__django-15902": {
+        "forms_tests.tests.test_formsets.TestIsBoundBehavior.test_empty_forms_are_unbound": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_validate_max_ignores_forms_marked_for_deletion": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_validate_min_excludes_empty_forms": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_limited_max_forms_two": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_max_num_zero_with_initial": true,
+        "forms_tests.tests.test_renderers.BaseTemplateRendererTests.test_get_renderer": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_absolute_max_invalid": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_repr": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_disable_delete_extra_formset_forms": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_total_error_count_with_non_form_errors": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formsets_with_ordering_custom_widget": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_form_kwargs_empty_form": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_validate_min_flag_custom_formatted_error": true,
+        "forms_tests.tests.test_formsets.TestIsBoundBehavior.test_customize_management_form_error": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_html_safe": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15902/dedup_patch_26.jsonl": {
+      "django__django-15902": {
+        "forms_tests.tests.test_formsets.TestIsBoundBehavior.test_empty_forms_are_unbound": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_validate_max_ignores_forms_marked_for_deletion": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_validate_min_excludes_empty_forms": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_limited_max_forms_two": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_max_num_zero_with_initial": true,
+        "forms_tests.tests.test_renderers.BaseTemplateRendererTests.test_get_renderer": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_absolute_max_invalid": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_repr": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_disable_delete_extra_formset_forms": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_total_error_count_with_non_form_errors": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formsets_with_ordering_custom_widget": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_form_kwargs_empty_form": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_validate_min_flag_custom_formatted_error": true,
+        "forms_tests.tests.test_formsets.TestIsBoundBehavior.test_customize_management_form_error": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_html_safe": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15902/dedup_patch_27.jsonl": {
+      "django__django-15902": {
+        "forms_tests.tests.test_formsets.TestIsBoundBehavior.test_empty_forms_are_unbound": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_validate_max_ignores_forms_marked_for_deletion": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_validate_min_excludes_empty_forms": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_limited_max_forms_two": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_max_num_zero_with_initial": true,
+        "forms_tests.tests.test_renderers.BaseTemplateRendererTests.test_get_renderer": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_absolute_max_invalid": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_repr": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_disable_delete_extra_formset_forms": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_total_error_count_with_non_form_errors": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formsets_with_ordering_custom_widget": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_form_kwargs_empty_form": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_validate_min_flag_custom_formatted_error": true,
+        "forms_tests.tests.test_formsets.TestIsBoundBehavior.test_customize_management_form_error": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_html_safe": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15902/dedup_patch_28.jsonl": {
+      "django__django-15902": {
+        "forms_tests.tests.test_formsets.TestIsBoundBehavior.test_empty_forms_are_unbound": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_validate_max_ignores_forms_marked_for_deletion": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_validate_min_excludes_empty_forms": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_limited_max_forms_two": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_max_num_zero_with_initial": true,
+        "forms_tests.tests.test_renderers.BaseTemplateRendererTests.test_get_renderer": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_absolute_max_invalid": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_repr": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_disable_delete_extra_formset_forms": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_total_error_count_with_non_form_errors": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formsets_with_ordering_custom_widget": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_form_kwargs_empty_form": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_validate_min_flag_custom_formatted_error": true,
+        "forms_tests.tests.test_formsets.TestIsBoundBehavior.test_customize_management_form_error": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_html_safe": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15902/dedup_patch_29.jsonl": {
+      "django__django-15902": {
+        "forms_tests.tests.test_formsets.TestIsBoundBehavior.test_empty_forms_are_unbound": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_validate_max_ignores_forms_marked_for_deletion": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_validate_min_excludes_empty_forms": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_limited_max_forms_two": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_max_num_zero_with_initial": true,
+        "forms_tests.tests.test_renderers.BaseTemplateRendererTests.test_get_renderer": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_absolute_max_invalid": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_repr": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_disable_delete_extra_formset_forms": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_total_error_count_with_non_form_errors": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formsets_with_ordering_custom_widget": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_form_kwargs_empty_form": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_validate_min_flag_custom_formatted_error": true,
+        "forms_tests.tests.test_formsets.TestIsBoundBehavior.test_customize_management_form_error": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_html_safe": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15902/dedup_patch_3.jsonl": {
+      "django__django-15902": {
+        "forms_tests.tests.test_formsets.TestIsBoundBehavior.test_empty_forms_are_unbound": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_validate_max_ignores_forms_marked_for_deletion": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_validate_min_excludes_empty_forms": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_limited_max_forms_two": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_max_num_zero_with_initial": true,
+        "forms_tests.tests.test_renderers.BaseTemplateRendererTests.test_get_renderer": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_absolute_max_invalid": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_repr": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_disable_delete_extra_formset_forms": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_total_error_count_with_non_form_errors": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formsets_with_ordering_custom_widget": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_form_kwargs_empty_form": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_validate_min_flag_custom_formatted_error": true,
+        "forms_tests.tests.test_formsets.TestIsBoundBehavior.test_customize_management_form_error": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_html_safe": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15902/dedup_patch_30.jsonl": {
+      "django__django-15902": {
+        "forms_tests.tests.test_formsets.TestIsBoundBehavior.test_empty_forms_are_unbound": false,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_validate_max_ignores_forms_marked_for_deletion": false,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_validate_min_excludes_empty_forms": false,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_limited_max_forms_two": false,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_max_num_zero_with_initial": false,
+        "forms_tests.tests.test_renderers.BaseTemplateRendererTests.test_get_renderer": false,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_absolute_max_invalid": false,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_repr": false,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_disable_delete_extra_formset_forms": false,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_total_error_count_with_non_form_errors": false,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formsets_with_ordering_custom_widget": false,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_form_kwargs_empty_form": false,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_validate_min_flag_custom_formatted_error": false,
+        "forms_tests.tests.test_formsets.TestIsBoundBehavior.test_customize_management_form_error": false,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_html_safe": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15902/dedup_patch_31.jsonl": {
+      "django__django-15902": {
+        "forms_tests.tests.test_formsets.TestIsBoundBehavior.test_empty_forms_are_unbound": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_validate_max_ignores_forms_marked_for_deletion": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_validate_min_excludes_empty_forms": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_limited_max_forms_two": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_max_num_zero_with_initial": true,
+        "forms_tests.tests.test_renderers.BaseTemplateRendererTests.test_get_renderer": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_absolute_max_invalid": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_repr": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_disable_delete_extra_formset_forms": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_total_error_count_with_non_form_errors": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formsets_with_ordering_custom_widget": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_form_kwargs_empty_form": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_validate_min_flag_custom_formatted_error": true,
+        "forms_tests.tests.test_formsets.TestIsBoundBehavior.test_customize_management_form_error": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_html_safe": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15902/dedup_patch_4.jsonl": {
+      "django__django-15902": {
+        "forms_tests.tests.test_formsets.TestIsBoundBehavior.test_empty_forms_are_unbound": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_validate_max_ignores_forms_marked_for_deletion": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_validate_min_excludes_empty_forms": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_limited_max_forms_two": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_max_num_zero_with_initial": true,
+        "forms_tests.tests.test_renderers.BaseTemplateRendererTests.test_get_renderer": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_absolute_max_invalid": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_repr": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_disable_delete_extra_formset_forms": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_total_error_count_with_non_form_errors": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formsets_with_ordering_custom_widget": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_form_kwargs_empty_form": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_validate_min_flag_custom_formatted_error": true,
+        "forms_tests.tests.test_formsets.TestIsBoundBehavior.test_customize_management_form_error": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_html_safe": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15902/dedup_patch_5.jsonl": {
+      "django__django-15902": {
+        "forms_tests.tests.test_formsets.TestIsBoundBehavior.test_empty_forms_are_unbound": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_validate_max_ignores_forms_marked_for_deletion": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_validate_min_excludes_empty_forms": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_limited_max_forms_two": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_max_num_zero_with_initial": true,
+        "forms_tests.tests.test_renderers.BaseTemplateRendererTests.test_get_renderer": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_absolute_max_invalid": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_repr": false,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_disable_delete_extra_formset_forms": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_total_error_count_with_non_form_errors": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formsets_with_ordering_custom_widget": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_form_kwargs_empty_form": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_validate_min_flag_custom_formatted_error": true,
+        "forms_tests.tests.test_formsets.TestIsBoundBehavior.test_customize_management_form_error": false,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_html_safe": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15902/dedup_patch_6.jsonl": {
+      "django__django-15902": {
+        "forms_tests.tests.test_formsets.TestIsBoundBehavior.test_empty_forms_are_unbound": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_validate_max_ignores_forms_marked_for_deletion": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_validate_min_excludes_empty_forms": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_limited_max_forms_two": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_max_num_zero_with_initial": true,
+        "forms_tests.tests.test_renderers.BaseTemplateRendererTests.test_get_renderer": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_absolute_max_invalid": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_repr": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_disable_delete_extra_formset_forms": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_total_error_count_with_non_form_errors": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formsets_with_ordering_custom_widget": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_form_kwargs_empty_form": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_validate_min_flag_custom_formatted_error": true,
+        "forms_tests.tests.test_formsets.TestIsBoundBehavior.test_customize_management_form_error": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_html_safe": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15902/dedup_patch_7.jsonl": {
+      "django__django-15902": {
+        "forms_tests.tests.test_formsets.TestIsBoundBehavior.test_empty_forms_are_unbound": false,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_validate_max_ignores_forms_marked_for_deletion": false,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_validate_min_excludes_empty_forms": false,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_limited_max_forms_two": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_max_num_zero_with_initial": true,
+        "forms_tests.tests.test_renderers.BaseTemplateRendererTests.test_get_renderer": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_absolute_max_invalid": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_repr": false,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_disable_delete_extra_formset_forms": false,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_total_error_count_with_non_form_errors": false,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formsets_with_ordering_custom_widget": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_form_kwargs_empty_form": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_validate_min_flag_custom_formatted_error": false,
+        "forms_tests.tests.test_formsets.TestIsBoundBehavior.test_customize_management_form_error": false,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_html_safe": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15902/dedup_patch_8.jsonl": {
+      "django__django-15902": {
+        "forms_tests.tests.test_formsets.TestIsBoundBehavior.test_empty_forms_are_unbound": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_validate_max_ignores_forms_marked_for_deletion": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_validate_min_excludes_empty_forms": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_limited_max_forms_two": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_max_num_zero_with_initial": true,
+        "forms_tests.tests.test_renderers.BaseTemplateRendererTests.test_get_renderer": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_absolute_max_invalid": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_repr": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_disable_delete_extra_formset_forms": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_total_error_count_with_non_form_errors": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formsets_with_ordering_custom_widget": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_form_kwargs_empty_form": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_validate_min_flag_custom_formatted_error": true,
+        "forms_tests.tests.test_formsets.TestIsBoundBehavior.test_customize_management_form_error": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_html_safe": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15902/dedup_patch_9.jsonl": {
+      "django__django-15902": {
+        "forms_tests.tests.test_formsets.TestIsBoundBehavior.test_empty_forms_are_unbound": false,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_validate_max_ignores_forms_marked_for_deletion": false,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_validate_min_excludes_empty_forms": false,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_limited_max_forms_two": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_max_num_zero_with_initial": true,
+        "forms_tests.tests.test_renderers.BaseTemplateRendererTests.test_get_renderer": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_absolute_max_invalid": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_repr": false,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_disable_delete_extra_formset_forms": false,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_total_error_count_with_non_form_errors": false,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formsets_with_ordering_custom_widget": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_form_kwargs_empty_form": true,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_formset_validate_min_flag_custom_formatted_error": false,
+        "forms_tests.tests.test_formsets.TestIsBoundBehavior.test_customize_management_form_error": false,
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_html_safe": false
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-15902": {
+        "forms_tests.tests.test_formsets.FormsFormsetTestCase.test_management_form_no_deprecation_warning#1": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_warning#2": true,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_deprecation_warning#3": true,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_warning#4": true,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_deprecation_warning#5": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#6": true,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#7": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#8": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#9": true,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#10": true,
+        "reproduce_bug.py#11": true,
+        "reproduce_bug_new.py#11": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15902/dedup_patch_1.jsonl": {
+      "django__django-15902": {
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_warning#2": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_deprecation_warning#3": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_warning#4": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#6": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#9": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#10": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15902/dedup_patch_10.jsonl": {
+      "django__django-15902": {
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_warning#2": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_deprecation_warning#3": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_warning#4": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#6": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#9": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#10": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15902/dedup_patch_11.jsonl": {
+      "django__django-15902": {
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_warning#2": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_deprecation_warning#3": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_warning#4": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#6": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#9": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#10": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15902/dedup_patch_12.jsonl": {
+      "django__django-15902": {
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_warning#2": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_deprecation_warning#3": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_warning#4": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#6": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#9": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#10": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15902/dedup_patch_13.jsonl": {
+      "django__django-15902": {
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_warning#2": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_deprecation_warning#3": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_warning#4": true,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#6": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#9": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#10": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15902/dedup_patch_14.jsonl": {
+      "django__django-15902": {
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_warning#2": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_deprecation_warning#3": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_warning#4": true,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#6": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#9": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#10": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15902/dedup_patch_17.jsonl": {
+      "django__django-15902": {
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_warning#2": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_deprecation_warning#3": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_warning#4": true,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#6": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#9": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#10": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15902/dedup_patch_18.jsonl": {
+      "django__django-15902": {
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_warning#2": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_deprecation_warning#3": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_warning#4": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#6": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#9": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#10": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15902/dedup_patch_19.jsonl": {
+      "django__django-15902": {
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_warning#2": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_deprecation_warning#3": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_warning#4": true,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#6": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#9": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#10": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15902/dedup_patch_20.jsonl": {
+      "django__django-15902": {
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_warning#2": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_deprecation_warning#3": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_warning#4": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#6": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#9": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#10": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15902/dedup_patch_21.jsonl": {
+      "django__django-15902": {
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_warning#2": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_deprecation_warning#3": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_warning#4": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#6": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#9": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#10": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15902/dedup_patch_22.jsonl": {
+      "django__django-15902": {
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_warning#2": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_deprecation_warning#3": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_warning#4": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#6": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#9": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#10": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15902/dedup_patch_23.jsonl": {
+      "django__django-15902": {
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_warning#2": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_deprecation_warning#3": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_warning#4": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#6": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#9": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#10": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15902/dedup_patch_24.jsonl": {
+      "django__django-15902": {
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_warning#2": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_deprecation_warning#3": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_warning#4": true,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#6": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#9": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#10": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15902/dedup_patch_25.jsonl": {
+      "django__django-15902": {
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_warning#2": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_deprecation_warning#3": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_warning#4": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#6": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#9": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#10": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15902/dedup_patch_26.jsonl": {
+      "django__django-15902": {
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_warning#2": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_deprecation_warning#3": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_warning#4": true,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#6": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#9": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#10": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15902/dedup_patch_27.jsonl": {
+      "django__django-15902": {
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_warning#2": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_deprecation_warning#3": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_warning#4": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#6": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#9": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#10": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15902/dedup_patch_28.jsonl": {
+      "django__django-15902": {
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_warning#2": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_deprecation_warning#3": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_warning#4": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#6": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#9": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#10": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15902/dedup_patch_29.jsonl": {
+      "django__django-15902": {
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_warning#2": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_deprecation_warning#3": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_warning#4": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#6": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#9": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#10": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15902/dedup_patch_3.jsonl": {
+      "django__django-15902": {
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_warning#2": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_deprecation_warning#3": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_warning#4": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#6": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#9": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#10": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15902/dedup_patch_31.jsonl": {
+      "django__django-15902": {
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_warning#2": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_deprecation_warning#3": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_warning#4": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#6": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#9": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#10": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15902/dedup_patch_6.jsonl": {
+      "django__django-15902": {
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_warning#2": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_deprecation_warning#3": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_warning#4": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#6": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#9": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#10": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15902/dedup_patch_8.jsonl": {
+      "django__django-15902": {
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_warning#2": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_deprecation_warning#3": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_no_warning#4": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#6": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#9": false,
+        "forms_tests.tests.test_formsets.DeprecationTests.test_management_form_deprecation_warning#10": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    }
+  }
+}

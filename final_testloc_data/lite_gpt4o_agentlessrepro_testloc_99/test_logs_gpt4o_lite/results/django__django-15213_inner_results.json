@@ -1,0 +1,1055 @@
+{
+  "regression": {
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15213/dedup_patch_0.jsonl": {
+      "django__django-15213": {
+        "queries.test_query.TestQuery.test_filter_conditional": true,
+        "expressions.tests.BasicExpressionsTests.test_filtering_on_annotate_that_uses_q": true,
+        "aggregation.tests.AggregateTestCase.test_empty_result_optimization": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_annotation": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery_filter_by_aggregate": true,
+        "expressions_case.tests.CaseExpressionTests.test_filter_with_aggregation_in_value": true,
+        "queries.tests.ExcludeTests.test_exclude_multivalued_exists": true,
+        "aggregation.tests.AggregateTestCase.test_complex_values_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_values_aggregation": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "queries.tests.Queries6Tests.test_col_alias_quoted": true,
+        "aggregation.tests.AggregateTestCase.test_coalesced_empty_result_set": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15213/dedup_patch_1.jsonl": {
+      "django__django-15213": {
+        "queries.test_query.TestQuery.test_filter_conditional": true,
+        "expressions.tests.BasicExpressionsTests.test_filtering_on_annotate_that_uses_q": true,
+        "aggregation.tests.AggregateTestCase.test_empty_result_optimization": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_annotation": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery_filter_by_aggregate": true,
+        "expressions_case.tests.CaseExpressionTests.test_filter_with_aggregation_in_value": true,
+        "queries.tests.ExcludeTests.test_exclude_multivalued_exists": true,
+        "aggregation.tests.AggregateTestCase.test_complex_values_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_values_aggregation": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "queries.tests.Queries6Tests.test_col_alias_quoted": true,
+        "aggregation.tests.AggregateTestCase.test_coalesced_empty_result_set": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15213/dedup_patch_10.jsonl": {
+      "django__django-15213": {
+        "queries.test_query.TestQuery.test_filter_conditional": true,
+        "expressions.tests.BasicExpressionsTests.test_filtering_on_annotate_that_uses_q": true,
+        "aggregation.tests.AggregateTestCase.test_empty_result_optimization": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_annotation": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery_filter_by_aggregate": true,
+        "expressions_case.tests.CaseExpressionTests.test_filter_with_aggregation_in_value": true,
+        "queries.tests.ExcludeTests.test_exclude_multivalued_exists": true,
+        "aggregation.tests.AggregateTestCase.test_complex_values_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_values_aggregation": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "queries.tests.Queries6Tests.test_col_alias_quoted": true,
+        "aggregation.tests.AggregateTestCase.test_coalesced_empty_result_set": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15213/dedup_patch_11.jsonl": {
+      "django__django-15213": {
+        "queries.test_query.TestQuery.test_filter_conditional": true,
+        "expressions.tests.BasicExpressionsTests.test_filtering_on_annotate_that_uses_q": true,
+        "aggregation.tests.AggregateTestCase.test_empty_result_optimization": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_annotation": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery_filter_by_aggregate": true,
+        "expressions_case.tests.CaseExpressionTests.test_filter_with_aggregation_in_value": true,
+        "queries.tests.ExcludeTests.test_exclude_multivalued_exists": true,
+        "aggregation.tests.AggregateTestCase.test_complex_values_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_values_aggregation": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "queries.tests.Queries6Tests.test_col_alias_quoted": true,
+        "aggregation.tests.AggregateTestCase.test_coalesced_empty_result_set": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15213/dedup_patch_12.jsonl": {
+      "django__django-15213": {
+        "queries.test_query.TestQuery.test_filter_conditional": true,
+        "expressions.tests.BasicExpressionsTests.test_filtering_on_annotate_that_uses_q": true,
+        "aggregation.tests.AggregateTestCase.test_empty_result_optimization": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_annotation": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery_filter_by_aggregate": true,
+        "expressions_case.tests.CaseExpressionTests.test_filter_with_aggregation_in_value": true,
+        "queries.tests.ExcludeTests.test_exclude_multivalued_exists": true,
+        "aggregation.tests.AggregateTestCase.test_complex_values_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_values_aggregation": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "queries.tests.Queries6Tests.test_col_alias_quoted": true,
+        "aggregation.tests.AggregateTestCase.test_coalesced_empty_result_set": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15213/dedup_patch_13.jsonl": {
+      "django__django-15213": {
+        "queries.test_query.TestQuery.test_filter_conditional": true,
+        "expressions.tests.BasicExpressionsTests.test_filtering_on_annotate_that_uses_q": true,
+        "aggregation.tests.AggregateTestCase.test_empty_result_optimization": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_annotation": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery_filter_by_aggregate": true,
+        "expressions_case.tests.CaseExpressionTests.test_filter_with_aggregation_in_value": true,
+        "queries.tests.ExcludeTests.test_exclude_multivalued_exists": true,
+        "aggregation.tests.AggregateTestCase.test_complex_values_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_values_aggregation": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "queries.tests.Queries6Tests.test_col_alias_quoted": true,
+        "aggregation.tests.AggregateTestCase.test_coalesced_empty_result_set": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15213/dedup_patch_14.jsonl": {
+      "django__django-15213": {
+        "queries.test_query.TestQuery.test_filter_conditional": true,
+        "expressions.tests.BasicExpressionsTests.test_filtering_on_annotate_that_uses_q": true,
+        "aggregation.tests.AggregateTestCase.test_empty_result_optimization": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_annotation": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery_filter_by_aggregate": true,
+        "expressions_case.tests.CaseExpressionTests.test_filter_with_aggregation_in_value": true,
+        "queries.tests.ExcludeTests.test_exclude_multivalued_exists": true,
+        "aggregation.tests.AggregateTestCase.test_complex_values_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_values_aggregation": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "queries.tests.Queries6Tests.test_col_alias_quoted": true,
+        "aggregation.tests.AggregateTestCase.test_coalesced_empty_result_set": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15213/dedup_patch_15.jsonl": {
+      "django__django-15213": {
+        "queries.test_query.TestQuery.test_filter_conditional": true,
+        "expressions.tests.BasicExpressionsTests.test_filtering_on_annotate_that_uses_q": true,
+        "aggregation.tests.AggregateTestCase.test_empty_result_optimization": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_annotation": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery_filter_by_aggregate": true,
+        "expressions_case.tests.CaseExpressionTests.test_filter_with_aggregation_in_value": true,
+        "queries.tests.ExcludeTests.test_exclude_multivalued_exists": true,
+        "aggregation.tests.AggregateTestCase.test_complex_values_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_values_aggregation": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "queries.tests.Queries6Tests.test_col_alias_quoted": true,
+        "aggregation.tests.AggregateTestCase.test_coalesced_empty_result_set": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15213/dedup_patch_16.jsonl": {
+      "django__django-15213": {
+        "queries.test_query.TestQuery.test_filter_conditional": true,
+        "expressions.tests.BasicExpressionsTests.test_filtering_on_annotate_that_uses_q": true,
+        "aggregation.tests.AggregateTestCase.test_empty_result_optimization": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_annotation": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery_filter_by_aggregate": true,
+        "expressions_case.tests.CaseExpressionTests.test_filter_with_aggregation_in_value": true,
+        "queries.tests.ExcludeTests.test_exclude_multivalued_exists": true,
+        "aggregation.tests.AggregateTestCase.test_complex_values_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_values_aggregation": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "queries.tests.Queries6Tests.test_col_alias_quoted": true,
+        "aggregation.tests.AggregateTestCase.test_coalesced_empty_result_set": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15213/dedup_patch_17.jsonl": {
+      "django__django-15213": {
+        "queries.test_query.TestQuery.test_filter_conditional": true,
+        "expressions.tests.BasicExpressionsTests.test_filtering_on_annotate_that_uses_q": true,
+        "aggregation.tests.AggregateTestCase.test_empty_result_optimization": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_annotation": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery_filter_by_aggregate": true,
+        "expressions_case.tests.CaseExpressionTests.test_filter_with_aggregation_in_value": true,
+        "queries.tests.ExcludeTests.test_exclude_multivalued_exists": true,
+        "aggregation.tests.AggregateTestCase.test_complex_values_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_values_aggregation": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "queries.tests.Queries6Tests.test_col_alias_quoted": true,
+        "aggregation.tests.AggregateTestCase.test_coalesced_empty_result_set": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15213/dedup_patch_18.jsonl": {
+      "django__django-15213": {
+        "queries.test_query.TestQuery.test_filter_conditional": true,
+        "expressions.tests.BasicExpressionsTests.test_filtering_on_annotate_that_uses_q": true,
+        "aggregation.tests.AggregateTestCase.test_empty_result_optimization": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_annotation": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery_filter_by_aggregate": true,
+        "expressions_case.tests.CaseExpressionTests.test_filter_with_aggregation_in_value": true,
+        "queries.tests.ExcludeTests.test_exclude_multivalued_exists": true,
+        "aggregation.tests.AggregateTestCase.test_complex_values_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_values_aggregation": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "queries.tests.Queries6Tests.test_col_alias_quoted": true,
+        "aggregation.tests.AggregateTestCase.test_coalesced_empty_result_set": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15213/dedup_patch_19.jsonl": {
+      "django__django-15213": {
+        "queries.test_query.TestQuery.test_filter_conditional": true,
+        "expressions.tests.BasicExpressionsTests.test_filtering_on_annotate_that_uses_q": true,
+        "aggregation.tests.AggregateTestCase.test_empty_result_optimization": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_annotation": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery_filter_by_aggregate": true,
+        "expressions_case.tests.CaseExpressionTests.test_filter_with_aggregation_in_value": true,
+        "queries.tests.ExcludeTests.test_exclude_multivalued_exists": true,
+        "aggregation.tests.AggregateTestCase.test_complex_values_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_values_aggregation": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "queries.tests.Queries6Tests.test_col_alias_quoted": true,
+        "aggregation.tests.AggregateTestCase.test_coalesced_empty_result_set": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15213/dedup_patch_2.jsonl": {
+      "django__django-15213": {
+        "queries.test_query.TestQuery.test_filter_conditional": true,
+        "expressions.tests.BasicExpressionsTests.test_filtering_on_annotate_that_uses_q": true,
+        "aggregation.tests.AggregateTestCase.test_empty_result_optimization": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_annotation": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery_filter_by_aggregate": true,
+        "expressions_case.tests.CaseExpressionTests.test_filter_with_aggregation_in_value": true,
+        "queries.tests.ExcludeTests.test_exclude_multivalued_exists": true,
+        "aggregation.tests.AggregateTestCase.test_complex_values_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_values_aggregation": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "queries.tests.Queries6Tests.test_col_alias_quoted": true,
+        "aggregation.tests.AggregateTestCase.test_coalesced_empty_result_set": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15213/dedup_patch_20.jsonl": {
+      "django__django-15213": {
+        "queries.test_query.TestQuery.test_filter_conditional": true,
+        "expressions.tests.BasicExpressionsTests.test_filtering_on_annotate_that_uses_q": true,
+        "aggregation.tests.AggregateTestCase.test_empty_result_optimization": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_annotation": false,
+        "expressions.tests.BasicExpressionsTests.test_subquery_filter_by_aggregate": true,
+        "expressions_case.tests.CaseExpressionTests.test_filter_with_aggregation_in_value": false,
+        "queries.tests.ExcludeTests.test_exclude_multivalued_exists": true,
+        "aggregation.tests.AggregateTestCase.test_complex_values_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_values_aggregation": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "queries.tests.Queries6Tests.test_col_alias_quoted": true,
+        "aggregation.tests.AggregateTestCase.test_coalesced_empty_result_set": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15213/dedup_patch_21.jsonl": {
+      "django__django-15213": {
+        "queries.test_query.TestQuery.test_filter_conditional": true,
+        "expressions.tests.BasicExpressionsTests.test_filtering_on_annotate_that_uses_q": false,
+        "aggregation.tests.AggregateTestCase.test_empty_result_optimization": false,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": false,
+        "aggregation.tests.AggregateTestCase.test_annotation": false,
+        "expressions.tests.BasicExpressionsTests.test_subquery_filter_by_aggregate": false,
+        "expressions_case.tests.CaseExpressionTests.test_filter_with_aggregation_in_value": false,
+        "queries.tests.ExcludeTests.test_exclude_multivalued_exists": false,
+        "aggregation.tests.AggregateTestCase.test_complex_values_aggregation": false,
+        "aggregation.tests.AggregateTestCase.test_values_aggregation": false,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": false,
+        "queries.tests.Queries6Tests.test_col_alias_quoted": false,
+        "aggregation.tests.AggregateTestCase.test_coalesced_empty_result_set": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15213/dedup_patch_22.jsonl": {
+      "django__django-15213": {
+        "queries.test_query.TestQuery.test_filter_conditional": true,
+        "expressions.tests.BasicExpressionsTests.test_filtering_on_annotate_that_uses_q": true,
+        "aggregation.tests.AggregateTestCase.test_empty_result_optimization": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_annotation": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery_filter_by_aggregate": true,
+        "expressions_case.tests.CaseExpressionTests.test_filter_with_aggregation_in_value": true,
+        "queries.tests.ExcludeTests.test_exclude_multivalued_exists": true,
+        "aggregation.tests.AggregateTestCase.test_complex_values_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_values_aggregation": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "queries.tests.Queries6Tests.test_col_alias_quoted": true,
+        "aggregation.tests.AggregateTestCase.test_coalesced_empty_result_set": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15213/dedup_patch_23.jsonl": {
+      "django__django-15213": {
+        "queries.test_query.TestQuery.test_filter_conditional": true,
+        "expressions.tests.BasicExpressionsTests.test_filtering_on_annotate_that_uses_q": true,
+        "aggregation.tests.AggregateTestCase.test_empty_result_optimization": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_annotation": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery_filter_by_aggregate": true,
+        "expressions_case.tests.CaseExpressionTests.test_filter_with_aggregation_in_value": true,
+        "queries.tests.ExcludeTests.test_exclude_multivalued_exists": true,
+        "aggregation.tests.AggregateTestCase.test_complex_values_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_values_aggregation": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "queries.tests.Queries6Tests.test_col_alias_quoted": true,
+        "aggregation.tests.AggregateTestCase.test_coalesced_empty_result_set": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15213/dedup_patch_24.jsonl": {
+      "django__django-15213": {
+        "queries.test_query.TestQuery.test_filter_conditional": true,
+        "expressions.tests.BasicExpressionsTests.test_filtering_on_annotate_that_uses_q": true,
+        "aggregation.tests.AggregateTestCase.test_empty_result_optimization": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_annotation": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery_filter_by_aggregate": true,
+        "expressions_case.tests.CaseExpressionTests.test_filter_with_aggregation_in_value": true,
+        "queries.tests.ExcludeTests.test_exclude_multivalued_exists": true,
+        "aggregation.tests.AggregateTestCase.test_complex_values_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_values_aggregation": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "queries.tests.Queries6Tests.test_col_alias_quoted": true,
+        "aggregation.tests.AggregateTestCase.test_coalesced_empty_result_set": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15213/dedup_patch_25.jsonl": {
+      "django__django-15213": {
+        "queries.test_query.TestQuery.test_filter_conditional": true,
+        "expressions.tests.BasicExpressionsTests.test_filtering_on_annotate_that_uses_q": true,
+        "aggregation.tests.AggregateTestCase.test_empty_result_optimization": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_annotation": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery_filter_by_aggregate": true,
+        "expressions_case.tests.CaseExpressionTests.test_filter_with_aggregation_in_value": true,
+        "queries.tests.ExcludeTests.test_exclude_multivalued_exists": true,
+        "aggregation.tests.AggregateTestCase.test_complex_values_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_values_aggregation": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "queries.tests.Queries6Tests.test_col_alias_quoted": true,
+        "aggregation.tests.AggregateTestCase.test_coalesced_empty_result_set": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15213/dedup_patch_26.jsonl": {
+      "django__django-15213": {
+        "queries.test_query.TestQuery.test_filter_conditional": true,
+        "expressions.tests.BasicExpressionsTests.test_filtering_on_annotate_that_uses_q": true,
+        "aggregation.tests.AggregateTestCase.test_empty_result_optimization": false,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_annotation": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery_filter_by_aggregate": true,
+        "expressions_case.tests.CaseExpressionTests.test_filter_with_aggregation_in_value": true,
+        "queries.tests.ExcludeTests.test_exclude_multivalued_exists": true,
+        "aggregation.tests.AggregateTestCase.test_complex_values_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_values_aggregation": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "queries.tests.Queries6Tests.test_col_alias_quoted": true,
+        "aggregation.tests.AggregateTestCase.test_coalesced_empty_result_set": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15213/dedup_patch_27.jsonl": {
+      "django__django-15213": {
+        "queries.test_query.TestQuery.test_filter_conditional": true,
+        "expressions.tests.BasicExpressionsTests.test_filtering_on_annotate_that_uses_q": true,
+        "aggregation.tests.AggregateTestCase.test_empty_result_optimization": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_annotation": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery_filter_by_aggregate": true,
+        "expressions_case.tests.CaseExpressionTests.test_filter_with_aggregation_in_value": true,
+        "queries.tests.ExcludeTests.test_exclude_multivalued_exists": true,
+        "aggregation.tests.AggregateTestCase.test_complex_values_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_values_aggregation": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "queries.tests.Queries6Tests.test_col_alias_quoted": true,
+        "aggregation.tests.AggregateTestCase.test_coalesced_empty_result_set": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15213/dedup_patch_28.jsonl": {
+      "django__django-15213": {
+        "queries.test_query.TestQuery.test_filter_conditional": true,
+        "expressions.tests.BasicExpressionsTests.test_filtering_on_annotate_that_uses_q": false,
+        "aggregation.tests.AggregateTestCase.test_empty_result_optimization": false,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": false,
+        "aggregation.tests.AggregateTestCase.test_annotation": false,
+        "expressions.tests.BasicExpressionsTests.test_subquery_filter_by_aggregate": false,
+        "expressions_case.tests.CaseExpressionTests.test_filter_with_aggregation_in_value": false,
+        "queries.tests.ExcludeTests.test_exclude_multivalued_exists": false,
+        "aggregation.tests.AggregateTestCase.test_complex_values_aggregation": false,
+        "aggregation.tests.AggregateTestCase.test_values_aggregation": false,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": false,
+        "queries.tests.Queries6Tests.test_col_alias_quoted": false,
+        "aggregation.tests.AggregateTestCase.test_coalesced_empty_result_set": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15213/dedup_patch_29.jsonl": {
+      "django__django-15213": {
+        "queries.test_query.TestQuery.test_filter_conditional": true,
+        "expressions.tests.BasicExpressionsTests.test_filtering_on_annotate_that_uses_q": false,
+        "aggregation.tests.AggregateTestCase.test_empty_result_optimization": false,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": false,
+        "aggregation.tests.AggregateTestCase.test_annotation": false,
+        "expressions.tests.BasicExpressionsTests.test_subquery_filter_by_aggregate": false,
+        "expressions_case.tests.CaseExpressionTests.test_filter_with_aggregation_in_value": false,
+        "queries.tests.ExcludeTests.test_exclude_multivalued_exists": false,
+        "aggregation.tests.AggregateTestCase.test_complex_values_aggregation": false,
+        "aggregation.tests.AggregateTestCase.test_values_aggregation": false,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": false,
+        "queries.tests.Queries6Tests.test_col_alias_quoted": false,
+        "aggregation.tests.AggregateTestCase.test_coalesced_empty_result_set": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15213/dedup_patch_3.jsonl": {
+      "django__django-15213": {
+        "queries.test_query.TestQuery.test_filter_conditional": true,
+        "expressions.tests.BasicExpressionsTests.test_filtering_on_annotate_that_uses_q": true,
+        "aggregation.tests.AggregateTestCase.test_empty_result_optimization": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_annotation": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery_filter_by_aggregate": true,
+        "expressions_case.tests.CaseExpressionTests.test_filter_with_aggregation_in_value": true,
+        "queries.tests.ExcludeTests.test_exclude_multivalued_exists": true,
+        "aggregation.tests.AggregateTestCase.test_complex_values_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_values_aggregation": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "queries.tests.Queries6Tests.test_col_alias_quoted": true,
+        "aggregation.tests.AggregateTestCase.test_coalesced_empty_result_set": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15213/dedup_patch_30.jsonl": {
+      "django__django-15213": {
+        "queries.test_query.TestQuery.test_filter_conditional": true,
+        "expressions.tests.BasicExpressionsTests.test_filtering_on_annotate_that_uses_q": false,
+        "aggregation.tests.AggregateTestCase.test_empty_result_optimization": false,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": false,
+        "aggregation.tests.AggregateTestCase.test_annotation": false,
+        "expressions.tests.BasicExpressionsTests.test_subquery_filter_by_aggregate": false,
+        "expressions_case.tests.CaseExpressionTests.test_filter_with_aggregation_in_value": false,
+        "queries.tests.ExcludeTests.test_exclude_multivalued_exists": false,
+        "aggregation.tests.AggregateTestCase.test_complex_values_aggregation": false,
+        "aggregation.tests.AggregateTestCase.test_values_aggregation": false,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": false,
+        "queries.tests.Queries6Tests.test_col_alias_quoted": false,
+        "aggregation.tests.AggregateTestCase.test_coalesced_empty_result_set": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15213/dedup_patch_31.jsonl": {
+      "django__django-15213": {
+        "queries.test_query.TestQuery.test_filter_conditional": true,
+        "expressions.tests.BasicExpressionsTests.test_filtering_on_annotate_that_uses_q": true,
+        "aggregation.tests.AggregateTestCase.test_empty_result_optimization": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_annotation": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery_filter_by_aggregate": true,
+        "expressions_case.tests.CaseExpressionTests.test_filter_with_aggregation_in_value": true,
+        "queries.tests.ExcludeTests.test_exclude_multivalued_exists": true,
+        "aggregation.tests.AggregateTestCase.test_complex_values_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_values_aggregation": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "queries.tests.Queries6Tests.test_col_alias_quoted": true,
+        "aggregation.tests.AggregateTestCase.test_coalesced_empty_result_set": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15213/dedup_patch_32.jsonl": {
+      "django__django-15213": {
+        "queries.test_query.TestQuery.test_filter_conditional": true,
+        "expressions.tests.BasicExpressionsTests.test_filtering_on_annotate_that_uses_q": false,
+        "aggregation.tests.AggregateTestCase.test_empty_result_optimization": false,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": false,
+        "aggregation.tests.AggregateTestCase.test_annotation": false,
+        "expressions.tests.BasicExpressionsTests.test_subquery_filter_by_aggregate": false,
+        "expressions_case.tests.CaseExpressionTests.test_filter_with_aggregation_in_value": false,
+        "queries.tests.ExcludeTests.test_exclude_multivalued_exists": false,
+        "aggregation.tests.AggregateTestCase.test_complex_values_aggregation": false,
+        "aggregation.tests.AggregateTestCase.test_values_aggregation": false,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": false,
+        "queries.tests.Queries6Tests.test_col_alias_quoted": false,
+        "aggregation.tests.AggregateTestCase.test_coalesced_empty_result_set": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15213/dedup_patch_33.jsonl": {
+      "django__django-15213": {
+        "queries.test_query.TestQuery.test_filter_conditional": true,
+        "expressions.tests.BasicExpressionsTests.test_filtering_on_annotate_that_uses_q": false,
+        "aggregation.tests.AggregateTestCase.test_empty_result_optimization": false,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": false,
+        "aggregation.tests.AggregateTestCase.test_annotation": false,
+        "expressions.tests.BasicExpressionsTests.test_subquery_filter_by_aggregate": false,
+        "expressions_case.tests.CaseExpressionTests.test_filter_with_aggregation_in_value": false,
+        "queries.tests.ExcludeTests.test_exclude_multivalued_exists": false,
+        "aggregation.tests.AggregateTestCase.test_complex_values_aggregation": false,
+        "aggregation.tests.AggregateTestCase.test_values_aggregation": false,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": false,
+        "queries.tests.Queries6Tests.test_col_alias_quoted": false,
+        "aggregation.tests.AggregateTestCase.test_coalesced_empty_result_set": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15213/dedup_patch_34.jsonl": {
+      "django__django-15213": {
+        "queries.test_query.TestQuery.test_filter_conditional": true,
+        "expressions.tests.BasicExpressionsTests.test_filtering_on_annotate_that_uses_q": true,
+        "aggregation.tests.AggregateTestCase.test_empty_result_optimization": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_annotation": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery_filter_by_aggregate": true,
+        "expressions_case.tests.CaseExpressionTests.test_filter_with_aggregation_in_value": true,
+        "queries.tests.ExcludeTests.test_exclude_multivalued_exists": true,
+        "aggregation.tests.AggregateTestCase.test_complex_values_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_values_aggregation": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "queries.tests.Queries6Tests.test_col_alias_quoted": true,
+        "aggregation.tests.AggregateTestCase.test_coalesced_empty_result_set": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15213/dedup_patch_35.jsonl": {
+      "django__django-15213": {
+        "queries.test_query.TestQuery.test_filter_conditional": true,
+        "expressions.tests.BasicExpressionsTests.test_filtering_on_annotate_that_uses_q": true,
+        "aggregation.tests.AggregateTestCase.test_empty_result_optimization": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_annotation": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery_filter_by_aggregate": true,
+        "expressions_case.tests.CaseExpressionTests.test_filter_with_aggregation_in_value": true,
+        "queries.tests.ExcludeTests.test_exclude_multivalued_exists": true,
+        "aggregation.tests.AggregateTestCase.test_complex_values_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_values_aggregation": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "queries.tests.Queries6Tests.test_col_alias_quoted": true,
+        "aggregation.tests.AggregateTestCase.test_coalesced_empty_result_set": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15213/dedup_patch_36.jsonl": {
+      "django__django-15213": {
+        "queries.test_query.TestQuery.test_filter_conditional": true,
+        "expressions.tests.BasicExpressionsTests.test_filtering_on_annotate_that_uses_q": true,
+        "aggregation.tests.AggregateTestCase.test_empty_result_optimization": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_annotation": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery_filter_by_aggregate": true,
+        "expressions_case.tests.CaseExpressionTests.test_filter_with_aggregation_in_value": true,
+        "queries.tests.ExcludeTests.test_exclude_multivalued_exists": true,
+        "aggregation.tests.AggregateTestCase.test_complex_values_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_values_aggregation": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "queries.tests.Queries6Tests.test_col_alias_quoted": true,
+        "aggregation.tests.AggregateTestCase.test_coalesced_empty_result_set": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15213/dedup_patch_37.jsonl": {
+      "django__django-15213": {
+        "queries.test_query.TestQuery.test_filter_conditional": true,
+        "expressions.tests.BasicExpressionsTests.test_filtering_on_annotate_that_uses_q": true,
+        "aggregation.tests.AggregateTestCase.test_empty_result_optimization": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_annotation": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery_filter_by_aggregate": true,
+        "expressions_case.tests.CaseExpressionTests.test_filter_with_aggregation_in_value": true,
+        "queries.tests.ExcludeTests.test_exclude_multivalued_exists": true,
+        "aggregation.tests.AggregateTestCase.test_complex_values_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_values_aggregation": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "queries.tests.Queries6Tests.test_col_alias_quoted": true,
+        "aggregation.tests.AggregateTestCase.test_coalesced_empty_result_set": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15213/dedup_patch_38.jsonl": {
+      "django__django-15213": {
+        "queries.test_query.TestQuery.test_filter_conditional": true,
+        "expressions.tests.BasicExpressionsTests.test_filtering_on_annotate_that_uses_q": true,
+        "aggregation.tests.AggregateTestCase.test_empty_result_optimization": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_annotation": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery_filter_by_aggregate": true,
+        "expressions_case.tests.CaseExpressionTests.test_filter_with_aggregation_in_value": true,
+        "queries.tests.ExcludeTests.test_exclude_multivalued_exists": true,
+        "aggregation.tests.AggregateTestCase.test_complex_values_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_values_aggregation": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "queries.tests.Queries6Tests.test_col_alias_quoted": true,
+        "aggregation.tests.AggregateTestCase.test_coalesced_empty_result_set": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15213/dedup_patch_4.jsonl": {
+      "django__django-15213": {
+        "queries.test_query.TestQuery.test_filter_conditional": true,
+        "expressions.tests.BasicExpressionsTests.test_filtering_on_annotate_that_uses_q": true,
+        "aggregation.tests.AggregateTestCase.test_empty_result_optimization": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_annotation": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery_filter_by_aggregate": true,
+        "expressions_case.tests.CaseExpressionTests.test_filter_with_aggregation_in_value": true,
+        "queries.tests.ExcludeTests.test_exclude_multivalued_exists": true,
+        "aggregation.tests.AggregateTestCase.test_complex_values_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_values_aggregation": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "queries.tests.Queries6Tests.test_col_alias_quoted": true,
+        "aggregation.tests.AggregateTestCase.test_coalesced_empty_result_set": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15213/dedup_patch_5.jsonl": {
+      "django__django-15213": {
+        "queries.test_query.TestQuery.test_filter_conditional": true,
+        "expressions.tests.BasicExpressionsTests.test_filtering_on_annotate_that_uses_q": true,
+        "aggregation.tests.AggregateTestCase.test_empty_result_optimization": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_annotation": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery_filter_by_aggregate": true,
+        "expressions_case.tests.CaseExpressionTests.test_filter_with_aggregation_in_value": true,
+        "queries.tests.ExcludeTests.test_exclude_multivalued_exists": true,
+        "aggregation.tests.AggregateTestCase.test_complex_values_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_values_aggregation": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "queries.tests.Queries6Tests.test_col_alias_quoted": true,
+        "aggregation.tests.AggregateTestCase.test_coalesced_empty_result_set": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15213/dedup_patch_6.jsonl": {
+      "django__django-15213": {
+        "queries.test_query.TestQuery.test_filter_conditional": true,
+        "expressions.tests.BasicExpressionsTests.test_filtering_on_annotate_that_uses_q": true,
+        "aggregation.tests.AggregateTestCase.test_empty_result_optimization": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_annotation": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery_filter_by_aggregate": true,
+        "expressions_case.tests.CaseExpressionTests.test_filter_with_aggregation_in_value": true,
+        "queries.tests.ExcludeTests.test_exclude_multivalued_exists": true,
+        "aggregation.tests.AggregateTestCase.test_complex_values_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_values_aggregation": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "queries.tests.Queries6Tests.test_col_alias_quoted": true,
+        "aggregation.tests.AggregateTestCase.test_coalesced_empty_result_set": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15213/dedup_patch_7.jsonl": {
+      "django__django-15213": {
+        "queries.test_query.TestQuery.test_filter_conditional": true,
+        "expressions.tests.BasicExpressionsTests.test_filtering_on_annotate_that_uses_q": true,
+        "aggregation.tests.AggregateTestCase.test_empty_result_optimization": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_annotation": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery_filter_by_aggregate": true,
+        "expressions_case.tests.CaseExpressionTests.test_filter_with_aggregation_in_value": true,
+        "queries.tests.ExcludeTests.test_exclude_multivalued_exists": true,
+        "aggregation.tests.AggregateTestCase.test_complex_values_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_values_aggregation": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "queries.tests.Queries6Tests.test_col_alias_quoted": true,
+        "aggregation.tests.AggregateTestCase.test_coalesced_empty_result_set": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15213/dedup_patch_8.jsonl": {
+      "django__django-15213": {
+        "queries.test_query.TestQuery.test_filter_conditional": true,
+        "expressions.tests.BasicExpressionsTests.test_filtering_on_annotate_that_uses_q": true,
+        "aggregation.tests.AggregateTestCase.test_empty_result_optimization": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_annotation": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery_filter_by_aggregate": true,
+        "expressions_case.tests.CaseExpressionTests.test_filter_with_aggregation_in_value": true,
+        "queries.tests.ExcludeTests.test_exclude_multivalued_exists": true,
+        "aggregation.tests.AggregateTestCase.test_complex_values_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_values_aggregation": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "queries.tests.Queries6Tests.test_col_alias_quoted": true,
+        "aggregation.tests.AggregateTestCase.test_coalesced_empty_result_set": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15213/dedup_patch_9.jsonl": {
+      "django__django-15213": {
+        "queries.test_query.TestQuery.test_filter_conditional": true,
+        "expressions.tests.BasicExpressionsTests.test_filtering_on_annotate_that_uses_q": true,
+        "aggregation.tests.AggregateTestCase.test_empty_result_optimization": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_annotation": true,
+        "expressions.tests.BasicExpressionsTests.test_subquery_filter_by_aggregate": true,
+        "expressions_case.tests.CaseExpressionTests.test_filter_with_aggregation_in_value": true,
+        "queries.tests.ExcludeTests.test_exclude_multivalued_exists": true,
+        "aggregation.tests.AggregateTestCase.test_complex_values_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_values_aggregation": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "queries.tests.Queries6Tests.test_col_alias_quoted": true,
+        "aggregation.tests.AggregateTestCase.test_coalesced_empty_result_set": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-15213": {
+        "expressions.tests.BasicExpressionsTests.test_expression_wrapper_negated_empty_Q#1": true,
+        "expressions.tests.BasicExpressionsTests.test_expression_wrapper_with_negated_empty_q#2": false,
+        "expressions.tests.OrderByTests.test_expression_wrapper_with_negated_empty_Q#3": true,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#4": true,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_negated_q_with_empty_list#5": true,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_negated_empty_q#6": true,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#7": true,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#8": true,
+        "expressions.tests.BasicExpressionsTests.test_expression_wrapper_with_negated_empty_q#9": false,
+        "expressions.tests.BasicExpressionsTests.test_expression_wrapper_with_negated_empty_Q#10": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15213/dedup_patch_0.jsonl": {
+      "django__django-15213": {
+        "expressions.tests.BasicExpressionsTests.test_expression_wrapper_negated_empty_Q#1": false,
+        "expressions.tests.OrderByTests.test_expression_wrapper_with_negated_empty_Q#3": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#4": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_negated_q_with_empty_list#5": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_negated_empty_q#6": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#7": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#8": true,
+        "expressions.tests.BasicExpressionsTests.test_expression_wrapper_with_negated_empty_Q#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15213/dedup_patch_1.jsonl": {
+      "django__django-15213": {
+        "expressions.tests.BasicExpressionsTests.test_expression_wrapper_negated_empty_Q#1": false,
+        "expressions.tests.OrderByTests.test_expression_wrapper_with_negated_empty_Q#3": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#4": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_negated_q_with_empty_list#5": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_negated_empty_q#6": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#7": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#8": false,
+        "expressions.tests.BasicExpressionsTests.test_expression_wrapper_with_negated_empty_Q#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15213/dedup_patch_10.jsonl": {
+      "django__django-15213": {
+        "expressions.tests.BasicExpressionsTests.test_expression_wrapper_negated_empty_Q#1": false,
+        "expressions.tests.OrderByTests.test_expression_wrapper_with_negated_empty_Q#3": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#4": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_negated_q_with_empty_list#5": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_negated_empty_q#6": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#7": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#8": false,
+        "expressions.tests.BasicExpressionsTests.test_expression_wrapper_with_negated_empty_Q#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15213/dedup_patch_11.jsonl": {
+      "django__django-15213": {
+        "expressions.tests.BasicExpressionsTests.test_expression_wrapper_negated_empty_Q#1": false,
+        "expressions.tests.OrderByTests.test_expression_wrapper_with_negated_empty_Q#3": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#4": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_negated_q_with_empty_list#5": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_negated_empty_q#6": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#7": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#8": false,
+        "expressions.tests.BasicExpressionsTests.test_expression_wrapper_with_negated_empty_Q#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15213/dedup_patch_12.jsonl": {
+      "django__django-15213": {
+        "expressions.tests.BasicExpressionsTests.test_expression_wrapper_negated_empty_Q#1": false,
+        "expressions.tests.OrderByTests.test_expression_wrapper_with_negated_empty_Q#3": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#4": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_negated_q_with_empty_list#5": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_negated_empty_q#6": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#7": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#8": false,
+        "expressions.tests.BasicExpressionsTests.test_expression_wrapper_with_negated_empty_Q#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15213/dedup_patch_13.jsonl": {
+      "django__django-15213": {
+        "expressions.tests.BasicExpressionsTests.test_expression_wrapper_negated_empty_Q#1": false,
+        "expressions.tests.OrderByTests.test_expression_wrapper_with_negated_empty_Q#3": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#4": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_negated_q_with_empty_list#5": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_negated_empty_q#6": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#7": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#8": false,
+        "expressions.tests.BasicExpressionsTests.test_expression_wrapper_with_negated_empty_Q#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15213/dedup_patch_14.jsonl": {
+      "django__django-15213": {
+        "expressions.tests.BasicExpressionsTests.test_expression_wrapper_negated_empty_Q#1": false,
+        "expressions.tests.OrderByTests.test_expression_wrapper_with_negated_empty_Q#3": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#4": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_negated_q_with_empty_list#5": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_negated_empty_q#6": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#7": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#8": false,
+        "expressions.tests.BasicExpressionsTests.test_expression_wrapper_with_negated_empty_Q#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15213/dedup_patch_15.jsonl": {
+      "django__django-15213": {
+        "expressions.tests.BasicExpressionsTests.test_expression_wrapper_negated_empty_Q#1": false,
+        "expressions.tests.OrderByTests.test_expression_wrapper_with_negated_empty_Q#3": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#4": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_negated_q_with_empty_list#5": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_negated_empty_q#6": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#7": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#8": false,
+        "expressions.tests.BasicExpressionsTests.test_expression_wrapper_with_negated_empty_Q#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15213/dedup_patch_16.jsonl": {
+      "django__django-15213": {
+        "expressions.tests.BasicExpressionsTests.test_expression_wrapper_negated_empty_Q#1": false,
+        "expressions.tests.OrderByTests.test_expression_wrapper_with_negated_empty_Q#3": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#4": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_negated_q_with_empty_list#5": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_negated_empty_q#6": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#7": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#8": false,
+        "expressions.tests.BasicExpressionsTests.test_expression_wrapper_with_negated_empty_Q#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15213/dedup_patch_17.jsonl": {
+      "django__django-15213": {
+        "expressions.tests.BasicExpressionsTests.test_expression_wrapper_negated_empty_Q#1": false,
+        "expressions.tests.OrderByTests.test_expression_wrapper_with_negated_empty_Q#3": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#4": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_negated_q_with_empty_list#5": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_negated_empty_q#6": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#7": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#8": false,
+        "expressions.tests.BasicExpressionsTests.test_expression_wrapper_with_negated_empty_Q#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15213/dedup_patch_18.jsonl": {
+      "django__django-15213": {
+        "expressions.tests.BasicExpressionsTests.test_expression_wrapper_negated_empty_Q#1": false,
+        "expressions.tests.OrderByTests.test_expression_wrapper_with_negated_empty_Q#3": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#4": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_negated_q_with_empty_list#5": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_negated_empty_q#6": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#7": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#8": false,
+        "expressions.tests.BasicExpressionsTests.test_expression_wrapper_with_negated_empty_Q#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15213/dedup_patch_19.jsonl": {
+      "django__django-15213": {
+        "expressions.tests.BasicExpressionsTests.test_expression_wrapper_negated_empty_Q#1": false,
+        "expressions.tests.OrderByTests.test_expression_wrapper_with_negated_empty_Q#3": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#4": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_negated_q_with_empty_list#5": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_negated_empty_q#6": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#7": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#8": false,
+        "expressions.tests.BasicExpressionsTests.test_expression_wrapper_with_negated_empty_Q#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15213/dedup_patch_2.jsonl": {
+      "django__django-15213": {
+        "expressions.tests.BasicExpressionsTests.test_expression_wrapper_negated_empty_Q#1": false,
+        "expressions.tests.OrderByTests.test_expression_wrapper_with_negated_empty_Q#3": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#4": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_negated_q_with_empty_list#5": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_negated_empty_q#6": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#7": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#8": false,
+        "expressions.tests.BasicExpressionsTests.test_expression_wrapper_with_negated_empty_Q#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15213/dedup_patch_22.jsonl": {
+      "django__django-15213": {
+        "expressions.tests.BasicExpressionsTests.test_expression_wrapper_negated_empty_Q#1": false,
+        "expressions.tests.OrderByTests.test_expression_wrapper_with_negated_empty_Q#3": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#4": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_negated_q_with_empty_list#5": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_negated_empty_q#6": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#7": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#8": false,
+        "expressions.tests.BasicExpressionsTests.test_expression_wrapper_with_negated_empty_Q#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15213/dedup_patch_23.jsonl": {
+      "django__django-15213": {
+        "expressions.tests.BasicExpressionsTests.test_expression_wrapper_negated_empty_Q#1": false,
+        "expressions.tests.OrderByTests.test_expression_wrapper_with_negated_empty_Q#3": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#4": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_negated_q_with_empty_list#5": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_negated_empty_q#6": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#7": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#8": false,
+        "expressions.tests.BasicExpressionsTests.test_expression_wrapper_with_negated_empty_Q#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15213/dedup_patch_24.jsonl": {
+      "django__django-15213": {
+        "expressions.tests.BasicExpressionsTests.test_expression_wrapper_negated_empty_Q#1": false,
+        "expressions.tests.OrderByTests.test_expression_wrapper_with_negated_empty_Q#3": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#4": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_negated_q_with_empty_list#5": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_negated_empty_q#6": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#7": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#8": false,
+        "expressions.tests.BasicExpressionsTests.test_expression_wrapper_with_negated_empty_Q#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15213/dedup_patch_25.jsonl": {
+      "django__django-15213": {
+        "expressions.tests.BasicExpressionsTests.test_expression_wrapper_negated_empty_Q#1": false,
+        "expressions.tests.OrderByTests.test_expression_wrapper_with_negated_empty_Q#3": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#4": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_negated_q_with_empty_list#5": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_negated_empty_q#6": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#7": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#8": false,
+        "expressions.tests.BasicExpressionsTests.test_expression_wrapper_with_negated_empty_Q#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15213/dedup_patch_27.jsonl": {
+      "django__django-15213": {
+        "expressions.tests.BasicExpressionsTests.test_expression_wrapper_negated_empty_Q#1": false,
+        "expressions.tests.OrderByTests.test_expression_wrapper_with_negated_empty_Q#3": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#4": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_negated_q_with_empty_list#5": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_negated_empty_q#6": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#7": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#8": false,
+        "expressions.tests.BasicExpressionsTests.test_expression_wrapper_with_negated_empty_Q#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15213/dedup_patch_3.jsonl": {
+      "django__django-15213": {
+        "expressions.tests.BasicExpressionsTests.test_expression_wrapper_negated_empty_Q#1": false,
+        "expressions.tests.OrderByTests.test_expression_wrapper_with_negated_empty_Q#3": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#4": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_negated_q_with_empty_list#5": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_negated_empty_q#6": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#7": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#8": false,
+        "expressions.tests.BasicExpressionsTests.test_expression_wrapper_with_negated_empty_Q#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15213/dedup_patch_31.jsonl": {
+      "django__django-15213": {
+        "expressions.tests.BasicExpressionsTests.test_expression_wrapper_negated_empty_Q#1": false,
+        "expressions.tests.OrderByTests.test_expression_wrapper_with_negated_empty_Q#3": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#4": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_negated_q_with_empty_list#5": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_negated_empty_q#6": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#7": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#8": false,
+        "expressions.tests.BasicExpressionsTests.test_expression_wrapper_with_negated_empty_Q#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15213/dedup_patch_34.jsonl": {
+      "django__django-15213": {
+        "expressions.tests.BasicExpressionsTests.test_expression_wrapper_negated_empty_Q#1": false,
+        "expressions.tests.OrderByTests.test_expression_wrapper_with_negated_empty_Q#3": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#4": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_negated_q_with_empty_list#5": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_negated_empty_q#6": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#7": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#8": false,
+        "expressions.tests.BasicExpressionsTests.test_expression_wrapper_with_negated_empty_Q#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15213/dedup_patch_35.jsonl": {
+      "django__django-15213": {
+        "expressions.tests.BasicExpressionsTests.test_expression_wrapper_negated_empty_Q#1": false,
+        "expressions.tests.OrderByTests.test_expression_wrapper_with_negated_empty_Q#3": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#4": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_negated_q_with_empty_list#5": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_negated_empty_q#6": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#7": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#8": false,
+        "expressions.tests.BasicExpressionsTests.test_expression_wrapper_with_negated_empty_Q#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15213/dedup_patch_36.jsonl": {
+      "django__django-15213": {
+        "expressions.tests.BasicExpressionsTests.test_expression_wrapper_negated_empty_Q#1": false,
+        "expressions.tests.OrderByTests.test_expression_wrapper_with_negated_empty_Q#3": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#4": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_negated_q_with_empty_list#5": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_negated_empty_q#6": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#7": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#8": false,
+        "expressions.tests.BasicExpressionsTests.test_expression_wrapper_with_negated_empty_Q#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15213/dedup_patch_37.jsonl": {
+      "django__django-15213": {
+        "expressions.tests.BasicExpressionsTests.test_expression_wrapper_negated_empty_Q#1": false,
+        "expressions.tests.OrderByTests.test_expression_wrapper_with_negated_empty_Q#3": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#4": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_negated_q_with_empty_list#5": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_negated_empty_q#6": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#7": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#8": false,
+        "expressions.tests.BasicExpressionsTests.test_expression_wrapper_with_negated_empty_Q#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15213/dedup_patch_38.jsonl": {
+      "django__django-15213": {
+        "expressions.tests.BasicExpressionsTests.test_expression_wrapper_negated_empty_Q#1": false,
+        "expressions.tests.OrderByTests.test_expression_wrapper_with_negated_empty_Q#3": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#4": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_negated_q_with_empty_list#5": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_negated_empty_q#6": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#7": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#8": false,
+        "expressions.tests.BasicExpressionsTests.test_expression_wrapper_with_negated_empty_Q#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15213/dedup_patch_4.jsonl": {
+      "django__django-15213": {
+        "expressions.tests.BasicExpressionsTests.test_expression_wrapper_negated_empty_Q#1": false,
+        "expressions.tests.OrderByTests.test_expression_wrapper_with_negated_empty_Q#3": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#4": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_negated_q_with_empty_list#5": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_negated_empty_q#6": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#7": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#8": false,
+        "expressions.tests.BasicExpressionsTests.test_expression_wrapper_with_negated_empty_Q#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15213/dedup_patch_5.jsonl": {
+      "django__django-15213": {
+        "expressions.tests.BasicExpressionsTests.test_expression_wrapper_negated_empty_Q#1": false,
+        "expressions.tests.OrderByTests.test_expression_wrapper_with_negated_empty_Q#3": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#4": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_negated_q_with_empty_list#5": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_negated_empty_q#6": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#7": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#8": true,
+        "expressions.tests.BasicExpressionsTests.test_expression_wrapper_with_negated_empty_Q#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15213/dedup_patch_6.jsonl": {
+      "django__django-15213": {
+        "expressions.tests.BasicExpressionsTests.test_expression_wrapper_negated_empty_Q#1": false,
+        "expressions.tests.OrderByTests.test_expression_wrapper_with_negated_empty_Q#3": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#4": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_negated_q_with_empty_list#5": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_negated_empty_q#6": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#7": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#8": false,
+        "expressions.tests.BasicExpressionsTests.test_expression_wrapper_with_negated_empty_Q#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15213/dedup_patch_7.jsonl": {
+      "django__django-15213": {
+        "expressions.tests.BasicExpressionsTests.test_expression_wrapper_negated_empty_Q#1": false,
+        "expressions.tests.OrderByTests.test_expression_wrapper_with_negated_empty_Q#3": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#4": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_negated_q_with_empty_list#5": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_negated_empty_q#6": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#7": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#8": false,
+        "expressions.tests.BasicExpressionsTests.test_expression_wrapper_with_negated_empty_Q#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15213/dedup_patch_8.jsonl": {
+      "django__django-15213": {
+        "expressions.tests.BasicExpressionsTests.test_expression_wrapper_negated_empty_Q#1": false,
+        "expressions.tests.OrderByTests.test_expression_wrapper_with_negated_empty_Q#3": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#4": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_negated_q_with_empty_list#5": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_negated_empty_q#6": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#7": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#8": false,
+        "expressions.tests.BasicExpressionsTests.test_expression_wrapper_with_negated_empty_Q#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15213/dedup_patch_9.jsonl": {
+      "django__django-15213": {
+        "expressions.tests.BasicExpressionsTests.test_expression_wrapper_negated_empty_Q#1": false,
+        "expressions.tests.OrderByTests.test_expression_wrapper_with_negated_empty_Q#3": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#4": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_negated_q_with_empty_list#5": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_negated_empty_q#6": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#7": false,
+        "expressions.tests.BasicExpressionsTests.test_expressionwrapper_with_negated_empty_q#8": false,
+        "expressions.tests.BasicExpressionsTests.test_expression_wrapper_with_negated_empty_Q#10": false
+      }
+    }
+  }
+}

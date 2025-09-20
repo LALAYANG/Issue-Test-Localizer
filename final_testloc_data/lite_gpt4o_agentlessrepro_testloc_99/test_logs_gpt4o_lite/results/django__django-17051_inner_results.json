@@ -1,0 +1,460 @@
+{
+  "regression": {
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-17051/dedup_patch_0.jsonl": {
+      "django__django-17051": {
+        "bulk_create.tests.BulkCreateTests.test_ignore_update_conflicts_exclusive": true,
+        "bulk_create.tests.BulkCreateTests.test_multi_table_inheritance_unsupported": true,
+        "bulk_create.tests.BulkCreateTests.test_simple": true,
+        "queries.test_db_returning.ReturningValuesTests.test_bulk_insert": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_invalid_update_fields": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_no_update_fields": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_unique_fields_pk": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_unique_fields_required": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_invalid_unique_fields": true,
+        "queries.tests.Ticket22429Tests.test_ticket_22429": false,
+        "bulk_create.tests.BulkCreateTests.test_invalid_batch_size_exception": true,
+        "expressions.tests.BasicExpressionsTests.test_object_create_with_aggregate": true,
+        "bulk_create.tests.BulkCreateTests.test_bulk_insert_now": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_pk_in_update_fields": true,
+        "expressions.tests.BasicExpressionsTests.test_object_update_unsaved_objects": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-17051/dedup_patch_1.jsonl": {
+      "django__django-17051": {
+        "bulk_create.tests.BulkCreateTests.test_ignore_update_conflicts_exclusive": true,
+        "bulk_create.tests.BulkCreateTests.test_multi_table_inheritance_unsupported": true,
+        "bulk_create.tests.BulkCreateTests.test_simple": true,
+        "queries.test_db_returning.ReturningValuesTests.test_bulk_insert": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_invalid_update_fields": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_no_update_fields": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_unique_fields_pk": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_unique_fields_required": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_invalid_unique_fields": true,
+        "queries.tests.Ticket22429Tests.test_ticket_22429": true,
+        "bulk_create.tests.BulkCreateTests.test_invalid_batch_size_exception": true,
+        "expressions.tests.BasicExpressionsTests.test_object_create_with_aggregate": true,
+        "bulk_create.tests.BulkCreateTests.test_bulk_insert_now": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_pk_in_update_fields": true,
+        "expressions.tests.BasicExpressionsTests.test_object_update_unsaved_objects": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-17051/dedup_patch_10.jsonl": {
+      "django__django-17051": {
+        "bulk_create.tests.BulkCreateTests.test_ignore_update_conflicts_exclusive": true,
+        "bulk_create.tests.BulkCreateTests.test_multi_table_inheritance_unsupported": true,
+        "bulk_create.tests.BulkCreateTests.test_simple": true,
+        "queries.test_db_returning.ReturningValuesTests.test_bulk_insert": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_invalid_update_fields": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_no_update_fields": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_unique_fields_pk": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_unique_fields_required": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_invalid_unique_fields": true,
+        "queries.tests.Ticket22429Tests.test_ticket_22429": true,
+        "bulk_create.tests.BulkCreateTests.test_invalid_batch_size_exception": true,
+        "expressions.tests.BasicExpressionsTests.test_object_create_with_aggregate": true,
+        "bulk_create.tests.BulkCreateTests.test_bulk_insert_now": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_pk_in_update_fields": true,
+        "expressions.tests.BasicExpressionsTests.test_object_update_unsaved_objects": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-17051/dedup_patch_11.jsonl": {
+      "django__django-17051": {
+        "bulk_create.tests.BulkCreateTests.test_ignore_update_conflicts_exclusive": true,
+        "bulk_create.tests.BulkCreateTests.test_multi_table_inheritance_unsupported": true,
+        "bulk_create.tests.BulkCreateTests.test_simple": true,
+        "queries.test_db_returning.ReturningValuesTests.test_bulk_insert": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_invalid_update_fields": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_no_update_fields": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_unique_fields_pk": false,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_unique_fields_required": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_invalid_unique_fields": true,
+        "queries.tests.Ticket22429Tests.test_ticket_22429": true,
+        "bulk_create.tests.BulkCreateTests.test_invalid_batch_size_exception": true,
+        "expressions.tests.BasicExpressionsTests.test_object_create_with_aggregate": true,
+        "bulk_create.tests.BulkCreateTests.test_bulk_insert_now": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_pk_in_update_fields": true,
+        "expressions.tests.BasicExpressionsTests.test_object_update_unsaved_objects": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-17051/dedup_patch_12.jsonl": {
+      "django__django-17051": {
+        "bulk_create.tests.BulkCreateTests.test_ignore_update_conflicts_exclusive": true,
+        "bulk_create.tests.BulkCreateTests.test_multi_table_inheritance_unsupported": true,
+        "bulk_create.tests.BulkCreateTests.test_simple": true,
+        "queries.test_db_returning.ReturningValuesTests.test_bulk_insert": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_invalid_update_fields": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_no_update_fields": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_unique_fields_pk": false,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_unique_fields_required": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_invalid_unique_fields": true,
+        "queries.tests.Ticket22429Tests.test_ticket_22429": false,
+        "bulk_create.tests.BulkCreateTests.test_invalid_batch_size_exception": true,
+        "expressions.tests.BasicExpressionsTests.test_object_create_with_aggregate": true,
+        "bulk_create.tests.BulkCreateTests.test_bulk_insert_now": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_pk_in_update_fields": true,
+        "expressions.tests.BasicExpressionsTests.test_object_update_unsaved_objects": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-17051/dedup_patch_13.jsonl": {
+      "django__django-17051": {
+        "bulk_create.tests.BulkCreateTests.test_ignore_update_conflicts_exclusive": true,
+        "bulk_create.tests.BulkCreateTests.test_multi_table_inheritance_unsupported": true,
+        "bulk_create.tests.BulkCreateTests.test_simple": true,
+        "queries.test_db_returning.ReturningValuesTests.test_bulk_insert": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_invalid_update_fields": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_no_update_fields": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_unique_fields_pk": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_unique_fields_required": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_invalid_unique_fields": true,
+        "queries.tests.Ticket22429Tests.test_ticket_22429": true,
+        "bulk_create.tests.BulkCreateTests.test_invalid_batch_size_exception": true,
+        "expressions.tests.BasicExpressionsTests.test_object_create_with_aggregate": true,
+        "bulk_create.tests.BulkCreateTests.test_bulk_insert_now": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_pk_in_update_fields": true,
+        "expressions.tests.BasicExpressionsTests.test_object_update_unsaved_objects": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-17051/dedup_patch_14.jsonl": {
+      "django__django-17051": {
+        "bulk_create.tests.BulkCreateTests.test_ignore_update_conflicts_exclusive": true,
+        "bulk_create.tests.BulkCreateTests.test_multi_table_inheritance_unsupported": true,
+        "bulk_create.tests.BulkCreateTests.test_simple": true,
+        "queries.test_db_returning.ReturningValuesTests.test_bulk_insert": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_invalid_update_fields": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_no_update_fields": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_unique_fields_pk": false,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_unique_fields_required": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_invalid_unique_fields": true,
+        "queries.tests.Ticket22429Tests.test_ticket_22429": false,
+        "bulk_create.tests.BulkCreateTests.test_invalid_batch_size_exception": true,
+        "expressions.tests.BasicExpressionsTests.test_object_create_with_aggregate": true,
+        "bulk_create.tests.BulkCreateTests.test_bulk_insert_now": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_pk_in_update_fields": true,
+        "expressions.tests.BasicExpressionsTests.test_object_update_unsaved_objects": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-17051/dedup_patch_15.jsonl": {
+      "django__django-17051": {
+        "bulk_create.tests.BulkCreateTests.test_ignore_update_conflicts_exclusive": true,
+        "bulk_create.tests.BulkCreateTests.test_multi_table_inheritance_unsupported": true,
+        "bulk_create.tests.BulkCreateTests.test_simple": true,
+        "queries.test_db_returning.ReturningValuesTests.test_bulk_insert": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_invalid_update_fields": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_no_update_fields": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_unique_fields_pk": false,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_unique_fields_required": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_invalid_unique_fields": true,
+        "queries.tests.Ticket22429Tests.test_ticket_22429": false,
+        "bulk_create.tests.BulkCreateTests.test_invalid_batch_size_exception": true,
+        "expressions.tests.BasicExpressionsTests.test_object_create_with_aggregate": true,
+        "bulk_create.tests.BulkCreateTests.test_bulk_insert_now": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_pk_in_update_fields": true,
+        "expressions.tests.BasicExpressionsTests.test_object_update_unsaved_objects": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-17051/dedup_patch_16.jsonl": {
+      "django__django-17051": {
+        "bulk_create.tests.BulkCreateTests.test_ignore_update_conflicts_exclusive": false,
+        "bulk_create.tests.BulkCreateTests.test_multi_table_inheritance_unsupported": false,
+        "bulk_create.tests.BulkCreateTests.test_simple": false,
+        "queries.test_db_returning.ReturningValuesTests.test_bulk_insert": false,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_invalid_update_fields": false,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_no_update_fields": false,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_unique_fields_pk": false,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_unique_fields_required": false,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_invalid_unique_fields": false,
+        "queries.tests.Ticket22429Tests.test_ticket_22429": false,
+        "bulk_create.tests.BulkCreateTests.test_invalid_batch_size_exception": false,
+        "expressions.tests.BasicExpressionsTests.test_object_create_with_aggregate": false,
+        "bulk_create.tests.BulkCreateTests.test_bulk_insert_now": false,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_pk_in_update_fields": false,
+        "expressions.tests.BasicExpressionsTests.test_object_update_unsaved_objects": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-17051/dedup_patch_17.jsonl": {
+      "django__django-17051": {
+        "bulk_create.tests.BulkCreateTests.test_ignore_update_conflicts_exclusive": true,
+        "bulk_create.tests.BulkCreateTests.test_multi_table_inheritance_unsupported": true,
+        "bulk_create.tests.BulkCreateTests.test_simple": true,
+        "queries.test_db_returning.ReturningValuesTests.test_bulk_insert": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_invalid_update_fields": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_no_update_fields": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_unique_fields_pk": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_unique_fields_required": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_invalid_unique_fields": true,
+        "queries.tests.Ticket22429Tests.test_ticket_22429": true,
+        "bulk_create.tests.BulkCreateTests.test_invalid_batch_size_exception": true,
+        "expressions.tests.BasicExpressionsTests.test_object_create_with_aggregate": true,
+        "bulk_create.tests.BulkCreateTests.test_bulk_insert_now": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_pk_in_update_fields": true,
+        "expressions.tests.BasicExpressionsTests.test_object_update_unsaved_objects": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-17051/dedup_patch_18.jsonl": {
+      "django__django-17051": {
+        "bulk_create.tests.BulkCreateTests.test_ignore_update_conflicts_exclusive": true,
+        "bulk_create.tests.BulkCreateTests.test_multi_table_inheritance_unsupported": true,
+        "bulk_create.tests.BulkCreateTests.test_simple": true,
+        "queries.test_db_returning.ReturningValuesTests.test_bulk_insert": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_invalid_update_fields": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_no_update_fields": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_unique_fields_pk": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_unique_fields_required": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_invalid_unique_fields": true,
+        "queries.tests.Ticket22429Tests.test_ticket_22429": true,
+        "bulk_create.tests.BulkCreateTests.test_invalid_batch_size_exception": true,
+        "expressions.tests.BasicExpressionsTests.test_object_create_with_aggregate": true,
+        "bulk_create.tests.BulkCreateTests.test_bulk_insert_now": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_pk_in_update_fields": true,
+        "expressions.tests.BasicExpressionsTests.test_object_update_unsaved_objects": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-17051/dedup_patch_2.jsonl": {
+      "django__django-17051": {
+        "bulk_create.tests.BulkCreateTests.test_ignore_update_conflicts_exclusive": true,
+        "bulk_create.tests.BulkCreateTests.test_multi_table_inheritance_unsupported": true,
+        "bulk_create.tests.BulkCreateTests.test_simple": true,
+        "queries.test_db_returning.ReturningValuesTests.test_bulk_insert": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_invalid_update_fields": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_no_update_fields": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_unique_fields_pk": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_unique_fields_required": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_invalid_unique_fields": true,
+        "queries.tests.Ticket22429Tests.test_ticket_22429": true,
+        "bulk_create.tests.BulkCreateTests.test_invalid_batch_size_exception": true,
+        "expressions.tests.BasicExpressionsTests.test_object_create_with_aggregate": true,
+        "bulk_create.tests.BulkCreateTests.test_bulk_insert_now": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_pk_in_update_fields": true,
+        "expressions.tests.BasicExpressionsTests.test_object_update_unsaved_objects": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-17051/dedup_patch_3.jsonl": {
+      "django__django-17051": {
+        "bulk_create.tests.BulkCreateTests.test_ignore_update_conflicts_exclusive": true,
+        "bulk_create.tests.BulkCreateTests.test_multi_table_inheritance_unsupported": true,
+        "bulk_create.tests.BulkCreateTests.test_simple": true,
+        "queries.test_db_returning.ReturningValuesTests.test_bulk_insert": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_invalid_update_fields": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_no_update_fields": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_unique_fields_pk": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_unique_fields_required": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_invalid_unique_fields": true,
+        "queries.tests.Ticket22429Tests.test_ticket_22429": true,
+        "bulk_create.tests.BulkCreateTests.test_invalid_batch_size_exception": true,
+        "expressions.tests.BasicExpressionsTests.test_object_create_with_aggregate": true,
+        "bulk_create.tests.BulkCreateTests.test_bulk_insert_now": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_pk_in_update_fields": true,
+        "expressions.tests.BasicExpressionsTests.test_object_update_unsaved_objects": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-17051/dedup_patch_4.jsonl": {
+      "django__django-17051": {
+        "bulk_create.tests.BulkCreateTests.test_ignore_update_conflicts_exclusive": true,
+        "bulk_create.tests.BulkCreateTests.test_multi_table_inheritance_unsupported": true,
+        "bulk_create.tests.BulkCreateTests.test_simple": true,
+        "queries.test_db_returning.ReturningValuesTests.test_bulk_insert": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_invalid_update_fields": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_no_update_fields": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_unique_fields_pk": false,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_unique_fields_required": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_invalid_unique_fields": true,
+        "queries.tests.Ticket22429Tests.test_ticket_22429": true,
+        "bulk_create.tests.BulkCreateTests.test_invalid_batch_size_exception": true,
+        "expressions.tests.BasicExpressionsTests.test_object_create_with_aggregate": true,
+        "bulk_create.tests.BulkCreateTests.test_bulk_insert_now": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_pk_in_update_fields": true,
+        "expressions.tests.BasicExpressionsTests.test_object_update_unsaved_objects": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-17051/dedup_patch_5.jsonl": {
+      "django__django-17051": {
+        "bulk_create.tests.BulkCreateTests.test_ignore_update_conflicts_exclusive": true,
+        "bulk_create.tests.BulkCreateTests.test_multi_table_inheritance_unsupported": true,
+        "bulk_create.tests.BulkCreateTests.test_simple": true,
+        "queries.test_db_returning.ReturningValuesTests.test_bulk_insert": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_invalid_update_fields": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_no_update_fields": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_unique_fields_pk": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_unique_fields_required": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_invalid_unique_fields": true,
+        "queries.tests.Ticket22429Tests.test_ticket_22429": false,
+        "bulk_create.tests.BulkCreateTests.test_invalid_batch_size_exception": true,
+        "expressions.tests.BasicExpressionsTests.test_object_create_with_aggregate": true,
+        "bulk_create.tests.BulkCreateTests.test_bulk_insert_now": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_pk_in_update_fields": true,
+        "expressions.tests.BasicExpressionsTests.test_object_update_unsaved_objects": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-17051/dedup_patch_6.jsonl": {
+      "django__django-17051": {
+        "bulk_create.tests.BulkCreateTests.test_ignore_update_conflicts_exclusive": true,
+        "bulk_create.tests.BulkCreateTests.test_multi_table_inheritance_unsupported": true,
+        "bulk_create.tests.BulkCreateTests.test_simple": true,
+        "queries.test_db_returning.ReturningValuesTests.test_bulk_insert": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_invalid_update_fields": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_no_update_fields": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_unique_fields_pk": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_unique_fields_required": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_invalid_unique_fields": true,
+        "queries.tests.Ticket22429Tests.test_ticket_22429": true,
+        "bulk_create.tests.BulkCreateTests.test_invalid_batch_size_exception": true,
+        "expressions.tests.BasicExpressionsTests.test_object_create_with_aggregate": true,
+        "bulk_create.tests.BulkCreateTests.test_bulk_insert_now": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_pk_in_update_fields": true,
+        "expressions.tests.BasicExpressionsTests.test_object_update_unsaved_objects": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-17051/dedup_patch_7.jsonl": {
+      "django__django-17051": {
+        "bulk_create.tests.BulkCreateTests.test_ignore_update_conflicts_exclusive": true,
+        "bulk_create.tests.BulkCreateTests.test_multi_table_inheritance_unsupported": true,
+        "bulk_create.tests.BulkCreateTests.test_simple": true,
+        "queries.test_db_returning.ReturningValuesTests.test_bulk_insert": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_invalid_update_fields": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_no_update_fields": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_unique_fields_pk": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_unique_fields_required": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_invalid_unique_fields": true,
+        "queries.tests.Ticket22429Tests.test_ticket_22429": true,
+        "bulk_create.tests.BulkCreateTests.test_invalid_batch_size_exception": true,
+        "expressions.tests.BasicExpressionsTests.test_object_create_with_aggregate": true,
+        "bulk_create.tests.BulkCreateTests.test_bulk_insert_now": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_pk_in_update_fields": true,
+        "expressions.tests.BasicExpressionsTests.test_object_update_unsaved_objects": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-17051/dedup_patch_8.jsonl": {
+      "django__django-17051": {
+        "bulk_create.tests.BulkCreateTests.test_ignore_update_conflicts_exclusive": true,
+        "bulk_create.tests.BulkCreateTests.test_multi_table_inheritance_unsupported": true,
+        "bulk_create.tests.BulkCreateTests.test_simple": true,
+        "queries.test_db_returning.ReturningValuesTests.test_bulk_insert": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_invalid_update_fields": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_no_update_fields": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_unique_fields_pk": false,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_unique_fields_required": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_invalid_unique_fields": true,
+        "queries.tests.Ticket22429Tests.test_ticket_22429": false,
+        "bulk_create.tests.BulkCreateTests.test_invalid_batch_size_exception": true,
+        "expressions.tests.BasicExpressionsTests.test_object_create_with_aggregate": true,
+        "bulk_create.tests.BulkCreateTests.test_bulk_insert_now": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_pk_in_update_fields": true,
+        "expressions.tests.BasicExpressionsTests.test_object_update_unsaved_objects": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-17051/dedup_patch_9.jsonl": {
+      "django__django-17051": {
+        "bulk_create.tests.BulkCreateTests.test_ignore_update_conflicts_exclusive": false,
+        "bulk_create.tests.BulkCreateTests.test_multi_table_inheritance_unsupported": false,
+        "bulk_create.tests.BulkCreateTests.test_simple": false,
+        "queries.test_db_returning.ReturningValuesTests.test_bulk_insert": false,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_invalid_update_fields": false,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_no_update_fields": false,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_unique_fields_pk": false,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_unique_fields_required": false,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_invalid_unique_fields": false,
+        "queries.tests.Ticket22429Tests.test_ticket_22429": false,
+        "bulk_create.tests.BulkCreateTests.test_invalid_batch_size_exception": false,
+        "expressions.tests.BasicExpressionsTests.test_object_create_with_aggregate": false,
+        "bulk_create.tests.BulkCreateTests.test_bulk_insert_now": false,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_pk_in_update_fields": false,
+        "expressions.tests.BasicExpressionsTests.test_object_update_unsaved_objects": false
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-17051": {
+        "bulk_create.tests.BulkCreateTests.test_bulk_create_with_update_conflicts_returning_ids#1": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_unique_fields#2": false,
+        "bulk_create.tests.BulkCreateTests.test_bulk_create_returning_ids_on_update_conflicts#3": true,
+        "bulk_create.tests.BulkCreateTests.test_bulk_create_returning_ids_on_update_conflicts#4": true,
+        "bulk_create.tests.BulkCreateTests.test_bulk_create_with_update_conflicts_returning_ids#5": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_unique_fields#6": false,
+        "bulk_create.tests.BulkCreateTests.test_bulk_create_returning_ids_on_update_conflicts#7": true,
+        "bulk_create.tests.BulkCreateTests.test_update_conflicts_no_unique_fields#8": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-17051/dedup_patch_1.jsonl": {
+      "django__django-17051": {
+        "bulk_create.tests.BulkCreateTests.test_bulk_create_with_update_conflicts_returning_ids#1": false,
+        "bulk_create.tests.BulkCreateTests.test_bulk_create_returning_ids_on_update_conflicts#3": false,
+        "bulk_create.tests.BulkCreateTests.test_bulk_create_returning_ids_on_update_conflicts#4": false,
+        "bulk_create.tests.BulkCreateTests.test_bulk_create_with_update_conflicts_returning_ids#5": false,
+        "bulk_create.tests.BulkCreateTests.test_bulk_create_returning_ids_on_update_conflicts#7": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-17051/dedup_patch_10.jsonl": {
+      "django__django-17051": {
+        "bulk_create.tests.BulkCreateTests.test_bulk_create_with_update_conflicts_returning_ids#1": false,
+        "bulk_create.tests.BulkCreateTests.test_bulk_create_returning_ids_on_update_conflicts#3": false,
+        "bulk_create.tests.BulkCreateTests.test_bulk_create_returning_ids_on_update_conflicts#4": false,
+        "bulk_create.tests.BulkCreateTests.test_bulk_create_with_update_conflicts_returning_ids#5": false,
+        "bulk_create.tests.BulkCreateTests.test_bulk_create_returning_ids_on_update_conflicts#7": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-17051/dedup_patch_13.jsonl": {
+      "django__django-17051": {
+        "bulk_create.tests.BulkCreateTests.test_bulk_create_with_update_conflicts_returning_ids#1": false,
+        "bulk_create.tests.BulkCreateTests.test_bulk_create_returning_ids_on_update_conflicts#3": false,
+        "bulk_create.tests.BulkCreateTests.test_bulk_create_returning_ids_on_update_conflicts#4": false,
+        "bulk_create.tests.BulkCreateTests.test_bulk_create_with_update_conflicts_returning_ids#5": false,
+        "bulk_create.tests.BulkCreateTests.test_bulk_create_returning_ids_on_update_conflicts#7": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-17051/dedup_patch_17.jsonl": {
+      "django__django-17051": {
+        "bulk_create.tests.BulkCreateTests.test_bulk_create_with_update_conflicts_returning_ids#1": false,
+        "bulk_create.tests.BulkCreateTests.test_bulk_create_returning_ids_on_update_conflicts#3": false,
+        "bulk_create.tests.BulkCreateTests.test_bulk_create_returning_ids_on_update_conflicts#4": false,
+        "bulk_create.tests.BulkCreateTests.test_bulk_create_with_update_conflicts_returning_ids#5": false,
+        "bulk_create.tests.BulkCreateTests.test_bulk_create_returning_ids_on_update_conflicts#7": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-17051/dedup_patch_18.jsonl": {
+      "django__django-17051": {
+        "bulk_create.tests.BulkCreateTests.test_bulk_create_with_update_conflicts_returning_ids#1": false,
+        "bulk_create.tests.BulkCreateTests.test_bulk_create_returning_ids_on_update_conflicts#3": false,
+        "bulk_create.tests.BulkCreateTests.test_bulk_create_returning_ids_on_update_conflicts#4": false,
+        "bulk_create.tests.BulkCreateTests.test_bulk_create_with_update_conflicts_returning_ids#5": false,
+        "bulk_create.tests.BulkCreateTests.test_bulk_create_returning_ids_on_update_conflicts#7": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-17051/dedup_patch_2.jsonl": {
+      "django__django-17051": {
+        "bulk_create.tests.BulkCreateTests.test_bulk_create_with_update_conflicts_returning_ids#1": false,
+        "bulk_create.tests.BulkCreateTests.test_bulk_create_returning_ids_on_update_conflicts#3": false,
+        "bulk_create.tests.BulkCreateTests.test_bulk_create_returning_ids_on_update_conflicts#4": false,
+        "bulk_create.tests.BulkCreateTests.test_bulk_create_with_update_conflicts_returning_ids#5": false,
+        "bulk_create.tests.BulkCreateTests.test_bulk_create_returning_ids_on_update_conflicts#7": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-17051/dedup_patch_3.jsonl": {
+      "django__django-17051": {
+        "bulk_create.tests.BulkCreateTests.test_bulk_create_with_update_conflicts_returning_ids#1": false,
+        "bulk_create.tests.BulkCreateTests.test_bulk_create_returning_ids_on_update_conflicts#3": false,
+        "bulk_create.tests.BulkCreateTests.test_bulk_create_returning_ids_on_update_conflicts#4": false,
+        "bulk_create.tests.BulkCreateTests.test_bulk_create_with_update_conflicts_returning_ids#5": false,
+        "bulk_create.tests.BulkCreateTests.test_bulk_create_returning_ids_on_update_conflicts#7": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-17051/dedup_patch_6.jsonl": {
+      "django__django-17051": {
+        "bulk_create.tests.BulkCreateTests.test_bulk_create_with_update_conflicts_returning_ids#1": false,
+        "bulk_create.tests.BulkCreateTests.test_bulk_create_returning_ids_on_update_conflicts#3": false,
+        "bulk_create.tests.BulkCreateTests.test_bulk_create_returning_ids_on_update_conflicts#4": false,
+        "bulk_create.tests.BulkCreateTests.test_bulk_create_with_update_conflicts_returning_ids#5": false,
+        "bulk_create.tests.BulkCreateTests.test_bulk_create_returning_ids_on_update_conflicts#7": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-17051/dedup_patch_7.jsonl": {
+      "django__django-17051": {
+        "bulk_create.tests.BulkCreateTests.test_bulk_create_with_update_conflicts_returning_ids#1": false,
+        "bulk_create.tests.BulkCreateTests.test_bulk_create_returning_ids_on_update_conflicts#3": false,
+        "bulk_create.tests.BulkCreateTests.test_bulk_create_returning_ids_on_update_conflicts#4": false,
+        "bulk_create.tests.BulkCreateTests.test_bulk_create_with_update_conflicts_returning_ids#5": false,
+        "bulk_create.tests.BulkCreateTests.test_bulk_create_returning_ids_on_update_conflicts#7": false
+      }
+    }
+  }
+}

@@ -1,0 +1,926 @@
+{
+  "regression": {
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11910/dedup_patch_0.jsonl": {
+      "django__django-11910": {
+        "migrations.test_autodetector.AutodetectorTests.test_managed_to_unmanaged": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_foreign_object_fields": true,
+        "migrations.test_operations.OperationTests.test_rename_missing_field": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_rename_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_alter_field_to_not_null_oneoff_default": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_delete_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_many_to_many_changed_to_concrete_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_model_with_renamed_rel_field": true,
+        "migrations.test_operations.OperationTests.test_rename_referenced_field_state_forward": true,
+        "migrations.test_autodetector.AutodetectorTests.test_add_date_fields_with_auto_now_add_asking_for_default": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_to_managed": true,
+        "migrations.test_autodetector.AutodetectorTests.test_alter_fk_before_model_deletion": true,
+        "migrations.test_operations.OperationTests.test_rename_field": true,
+        "migrations.test_operations.OperationTests.test_rename_field_reloads_state_on_fk_target_changes": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy": true,
+        "migrations.test_operations.OperationTests.test_alter_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_concrete_field_changed_to_many_to_many": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_related_field_preserved_db_column": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_m2m_through_model": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11910/dedup_patch_1.jsonl": {
+      "django__django-11910": {
+        "migrations.test_autodetector.AutodetectorTests.test_managed_to_unmanaged": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_foreign_object_fields": true,
+        "migrations.test_operations.OperationTests.test_rename_missing_field": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_rename_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_alter_field_to_not_null_oneoff_default": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_delete_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_many_to_many_changed_to_concrete_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_model_with_renamed_rel_field": true,
+        "migrations.test_operations.OperationTests.test_rename_referenced_field_state_forward": true,
+        "migrations.test_autodetector.AutodetectorTests.test_add_date_fields_with_auto_now_add_asking_for_default": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_to_managed": true,
+        "migrations.test_autodetector.AutodetectorTests.test_alter_fk_before_model_deletion": true,
+        "migrations.test_operations.OperationTests.test_rename_field": true,
+        "migrations.test_operations.OperationTests.test_rename_field_reloads_state_on_fk_target_changes": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy": true,
+        "migrations.test_operations.OperationTests.test_alter_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_concrete_field_changed_to_many_to_many": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_related_field_preserved_db_column": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_m2m_through_model": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11910/dedup_patch_10.jsonl": {
+      "django__django-11910": {
+        "migrations.test_autodetector.AutodetectorTests.test_managed_to_unmanaged": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_foreign_object_fields": true,
+        "migrations.test_operations.OperationTests.test_rename_missing_field": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_rename_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_alter_field_to_not_null_oneoff_default": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_delete_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_many_to_many_changed_to_concrete_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_model_with_renamed_rel_field": true,
+        "migrations.test_operations.OperationTests.test_rename_referenced_field_state_forward": true,
+        "migrations.test_autodetector.AutodetectorTests.test_add_date_fields_with_auto_now_add_asking_for_default": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_to_managed": true,
+        "migrations.test_autodetector.AutodetectorTests.test_alter_fk_before_model_deletion": true,
+        "migrations.test_operations.OperationTests.test_rename_field": true,
+        "migrations.test_operations.OperationTests.test_rename_field_reloads_state_on_fk_target_changes": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy": true,
+        "migrations.test_operations.OperationTests.test_alter_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_concrete_field_changed_to_many_to_many": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_related_field_preserved_db_column": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_m2m_through_model": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11910/dedup_patch_11.jsonl": {
+      "django__django-11910": {
+        "migrations.test_autodetector.AutodetectorTests.test_managed_to_unmanaged": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_foreign_object_fields": true,
+        "migrations.test_operations.OperationTests.test_rename_missing_field": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_rename_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_alter_field_to_not_null_oneoff_default": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_delete_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_many_to_many_changed_to_concrete_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_model_with_renamed_rel_field": true,
+        "migrations.test_operations.OperationTests.test_rename_referenced_field_state_forward": true,
+        "migrations.test_autodetector.AutodetectorTests.test_add_date_fields_with_auto_now_add_asking_for_default": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_to_managed": true,
+        "migrations.test_autodetector.AutodetectorTests.test_alter_fk_before_model_deletion": true,
+        "migrations.test_operations.OperationTests.test_rename_field": true,
+        "migrations.test_operations.OperationTests.test_rename_field_reloads_state_on_fk_target_changes": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy": true,
+        "migrations.test_operations.OperationTests.test_alter_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_concrete_field_changed_to_many_to_many": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_related_field_preserved_db_column": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_m2m_through_model": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11910/dedup_patch_12.jsonl": {
+      "django__django-11910": {
+        "migrations.test_autodetector.AutodetectorTests.test_managed_to_unmanaged": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_foreign_object_fields": true,
+        "migrations.test_operations.OperationTests.test_rename_missing_field": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_rename_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_alter_field_to_not_null_oneoff_default": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_delete_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_many_to_many_changed_to_concrete_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_model_with_renamed_rel_field": true,
+        "migrations.test_operations.OperationTests.test_rename_referenced_field_state_forward": false,
+        "migrations.test_autodetector.AutodetectorTests.test_add_date_fields_with_auto_now_add_asking_for_default": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_to_managed": true,
+        "migrations.test_autodetector.AutodetectorTests.test_alter_fk_before_model_deletion": true,
+        "migrations.test_operations.OperationTests.test_rename_field": true,
+        "migrations.test_operations.OperationTests.test_rename_field_reloads_state_on_fk_target_changes": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy": true,
+        "migrations.test_operations.OperationTests.test_alter_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_concrete_field_changed_to_many_to_many": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_related_field_preserved_db_column": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_m2m_through_model": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11910/dedup_patch_13.jsonl": {
+      "django__django-11910": {
+        "migrations.test_autodetector.AutodetectorTests.test_managed_to_unmanaged": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_foreign_object_fields": true,
+        "migrations.test_operations.OperationTests.test_rename_missing_field": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_rename_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_alter_field_to_not_null_oneoff_default": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_delete_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_many_to_many_changed_to_concrete_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_model_with_renamed_rel_field": true,
+        "migrations.test_operations.OperationTests.test_rename_referenced_field_state_forward": true,
+        "migrations.test_autodetector.AutodetectorTests.test_add_date_fields_with_auto_now_add_asking_for_default": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_to_managed": true,
+        "migrations.test_autodetector.AutodetectorTests.test_alter_fk_before_model_deletion": true,
+        "migrations.test_operations.OperationTests.test_rename_field": true,
+        "migrations.test_operations.OperationTests.test_rename_field_reloads_state_on_fk_target_changes": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy": true,
+        "migrations.test_operations.OperationTests.test_alter_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_concrete_field_changed_to_many_to_many": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_related_field_preserved_db_column": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_m2m_through_model": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11910/dedup_patch_14.jsonl": {
+      "django__django-11910": {
+        "migrations.test_autodetector.AutodetectorTests.test_managed_to_unmanaged": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_foreign_object_fields": true,
+        "migrations.test_operations.OperationTests.test_rename_missing_field": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_rename_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_alter_field_to_not_null_oneoff_default": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_delete_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_many_to_many_changed_to_concrete_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_model_with_renamed_rel_field": true,
+        "migrations.test_operations.OperationTests.test_rename_referenced_field_state_forward": false,
+        "migrations.test_autodetector.AutodetectorTests.test_add_date_fields_with_auto_now_add_asking_for_default": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_to_managed": true,
+        "migrations.test_autodetector.AutodetectorTests.test_alter_fk_before_model_deletion": true,
+        "migrations.test_operations.OperationTests.test_rename_field": true,
+        "migrations.test_operations.OperationTests.test_rename_field_reloads_state_on_fk_target_changes": false,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy": true,
+        "migrations.test_operations.OperationTests.test_alter_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_concrete_field_changed_to_many_to_many": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_related_field_preserved_db_column": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_m2m_through_model": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11910/dedup_patch_15.jsonl": {
+      "django__django-11910": {
+        "migrations.test_autodetector.AutodetectorTests.test_managed_to_unmanaged": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_foreign_object_fields": true,
+        "migrations.test_operations.OperationTests.test_rename_missing_field": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_rename_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_alter_field_to_not_null_oneoff_default": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_delete_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_many_to_many_changed_to_concrete_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_model_with_renamed_rel_field": true,
+        "migrations.test_operations.OperationTests.test_rename_referenced_field_state_forward": true,
+        "migrations.test_autodetector.AutodetectorTests.test_add_date_fields_with_auto_now_add_asking_for_default": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_to_managed": true,
+        "migrations.test_autodetector.AutodetectorTests.test_alter_fk_before_model_deletion": true,
+        "migrations.test_operations.OperationTests.test_rename_field": true,
+        "migrations.test_operations.OperationTests.test_rename_field_reloads_state_on_fk_target_changes": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy": true,
+        "migrations.test_operations.OperationTests.test_alter_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_concrete_field_changed_to_many_to_many": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_related_field_preserved_db_column": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_m2m_through_model": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11910/dedup_patch_16.jsonl": {
+      "django__django-11910": {
+        "migrations.test_autodetector.AutodetectorTests.test_managed_to_unmanaged": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_foreign_object_fields": true,
+        "migrations.test_operations.OperationTests.test_rename_missing_field": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_rename_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_alter_field_to_not_null_oneoff_default": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_delete_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_many_to_many_changed_to_concrete_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_model_with_renamed_rel_field": true,
+        "migrations.test_operations.OperationTests.test_rename_referenced_field_state_forward": true,
+        "migrations.test_autodetector.AutodetectorTests.test_add_date_fields_with_auto_now_add_asking_for_default": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_to_managed": true,
+        "migrations.test_autodetector.AutodetectorTests.test_alter_fk_before_model_deletion": true,
+        "migrations.test_operations.OperationTests.test_rename_field": true,
+        "migrations.test_operations.OperationTests.test_rename_field_reloads_state_on_fk_target_changes": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy": true,
+        "migrations.test_operations.OperationTests.test_alter_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_concrete_field_changed_to_many_to_many": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_related_field_preserved_db_column": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_m2m_through_model": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11910/dedup_patch_17.jsonl": {
+      "django__django-11910": {
+        "migrations.test_autodetector.AutodetectorTests.test_managed_to_unmanaged": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_foreign_object_fields": true,
+        "migrations.test_operations.OperationTests.test_rename_missing_field": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_rename_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_alter_field_to_not_null_oneoff_default": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_delete_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_many_to_many_changed_to_concrete_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_model_with_renamed_rel_field": true,
+        "migrations.test_operations.OperationTests.test_rename_referenced_field_state_forward": false,
+        "migrations.test_autodetector.AutodetectorTests.test_add_date_fields_with_auto_now_add_asking_for_default": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_to_managed": true,
+        "migrations.test_autodetector.AutodetectorTests.test_alter_fk_before_model_deletion": true,
+        "migrations.test_operations.OperationTests.test_rename_field": true,
+        "migrations.test_operations.OperationTests.test_rename_field_reloads_state_on_fk_target_changes": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy": true,
+        "migrations.test_operations.OperationTests.test_alter_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_concrete_field_changed_to_many_to_many": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_related_field_preserved_db_column": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_m2m_through_model": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11910/dedup_patch_18.jsonl": {
+      "django__django-11910": {
+        "migrations.test_autodetector.AutodetectorTests.test_managed_to_unmanaged": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_foreign_object_fields": true,
+        "migrations.test_operations.OperationTests.test_rename_missing_field": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_rename_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_alter_field_to_not_null_oneoff_default": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_delete_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_many_to_many_changed_to_concrete_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_model_with_renamed_rel_field": true,
+        "migrations.test_operations.OperationTests.test_rename_referenced_field_state_forward": false,
+        "migrations.test_autodetector.AutodetectorTests.test_add_date_fields_with_auto_now_add_asking_for_default": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_to_managed": true,
+        "migrations.test_autodetector.AutodetectorTests.test_alter_fk_before_model_deletion": true,
+        "migrations.test_operations.OperationTests.test_rename_field": true,
+        "migrations.test_operations.OperationTests.test_rename_field_reloads_state_on_fk_target_changes": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy": true,
+        "migrations.test_operations.OperationTests.test_alter_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_concrete_field_changed_to_many_to_many": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_related_field_preserved_db_column": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_m2m_through_model": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11910/dedup_patch_19.jsonl": {
+      "django__django-11910": {
+        "migrations.test_autodetector.AutodetectorTests.test_managed_to_unmanaged": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_foreign_object_fields": true,
+        "migrations.test_operations.OperationTests.test_rename_missing_field": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_rename_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_alter_field_to_not_null_oneoff_default": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_delete_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_many_to_many_changed_to_concrete_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_model_with_renamed_rel_field": true,
+        "migrations.test_operations.OperationTests.test_rename_referenced_field_state_forward": true,
+        "migrations.test_autodetector.AutodetectorTests.test_add_date_fields_with_auto_now_add_asking_for_default": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_to_managed": true,
+        "migrations.test_autodetector.AutodetectorTests.test_alter_fk_before_model_deletion": true,
+        "migrations.test_operations.OperationTests.test_rename_field": true,
+        "migrations.test_operations.OperationTests.test_rename_field_reloads_state_on_fk_target_changes": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy": true,
+        "migrations.test_operations.OperationTests.test_alter_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_concrete_field_changed_to_many_to_many": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_related_field_preserved_db_column": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_m2m_through_model": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11910/dedup_patch_2.jsonl": {
+      "django__django-11910": {
+        "migrations.test_autodetector.AutodetectorTests.test_managed_to_unmanaged": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_foreign_object_fields": true,
+        "migrations.test_operations.OperationTests.test_rename_missing_field": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_rename_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_alter_field_to_not_null_oneoff_default": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_delete_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_many_to_many_changed_to_concrete_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_model_with_renamed_rel_field": true,
+        "migrations.test_operations.OperationTests.test_rename_referenced_field_state_forward": true,
+        "migrations.test_autodetector.AutodetectorTests.test_add_date_fields_with_auto_now_add_asking_for_default": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_to_managed": true,
+        "migrations.test_autodetector.AutodetectorTests.test_alter_fk_before_model_deletion": true,
+        "migrations.test_operations.OperationTests.test_rename_field": true,
+        "migrations.test_operations.OperationTests.test_rename_field_reloads_state_on_fk_target_changes": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy": true,
+        "migrations.test_operations.OperationTests.test_alter_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_concrete_field_changed_to_many_to_many": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_related_field_preserved_db_column": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_m2m_through_model": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11910/dedup_patch_20.jsonl": {
+      "django__django-11910": {
+        "migrations.test_autodetector.AutodetectorTests.test_managed_to_unmanaged": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_foreign_object_fields": false,
+        "migrations.test_operations.OperationTests.test_rename_missing_field": false,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_rename_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_alter_field_to_not_null_oneoff_default": false,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_delete_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field": false,
+        "migrations.test_autodetector.AutodetectorTests.test_many_to_many_changed_to_concrete_field": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_model_with_renamed_rel_field": false,
+        "migrations.test_operations.OperationTests.test_rename_referenced_field_state_forward": false,
+        "migrations.test_autodetector.AutodetectorTests.test_add_date_fields_with_auto_now_add_asking_for_default": false,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_to_managed": false,
+        "migrations.test_autodetector.AutodetectorTests.test_alter_fk_before_model_deletion": false,
+        "migrations.test_operations.OperationTests.test_rename_field": false,
+        "migrations.test_operations.OperationTests.test_rename_field_reloads_state_on_fk_target_changes": false,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy": false,
+        "migrations.test_operations.OperationTests.test_alter_field": false,
+        "migrations.test_autodetector.AutodetectorTests.test_concrete_field_changed_to_many_to_many": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_related_field_preserved_db_column": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_m2m_through_model": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11910/dedup_patch_21.jsonl": {
+      "django__django-11910": {
+        "migrations.test_autodetector.AutodetectorTests.test_managed_to_unmanaged": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_foreign_object_fields": false,
+        "migrations.test_operations.OperationTests.test_rename_missing_field": false,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_rename_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_alter_field_to_not_null_oneoff_default": false,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_delete_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field": false,
+        "migrations.test_autodetector.AutodetectorTests.test_many_to_many_changed_to_concrete_field": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_model_with_renamed_rel_field": false,
+        "migrations.test_operations.OperationTests.test_rename_referenced_field_state_forward": false,
+        "migrations.test_autodetector.AutodetectorTests.test_add_date_fields_with_auto_now_add_asking_for_default": false,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_to_managed": false,
+        "migrations.test_autodetector.AutodetectorTests.test_alter_fk_before_model_deletion": false,
+        "migrations.test_operations.OperationTests.test_rename_field": false,
+        "migrations.test_operations.OperationTests.test_rename_field_reloads_state_on_fk_target_changes": false,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy": false,
+        "migrations.test_operations.OperationTests.test_alter_field": false,
+        "migrations.test_autodetector.AutodetectorTests.test_concrete_field_changed_to_many_to_many": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_related_field_preserved_db_column": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_m2m_through_model": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11910/dedup_patch_22.jsonl": {
+      "django__django-11910": {
+        "migrations.test_autodetector.AutodetectorTests.test_managed_to_unmanaged": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_foreign_object_fields": true,
+        "migrations.test_operations.OperationTests.test_rename_missing_field": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_rename_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_alter_field_to_not_null_oneoff_default": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_delete_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_many_to_many_changed_to_concrete_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_model_with_renamed_rel_field": true,
+        "migrations.test_operations.OperationTests.test_rename_referenced_field_state_forward": true,
+        "migrations.test_autodetector.AutodetectorTests.test_add_date_fields_with_auto_now_add_asking_for_default": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_to_managed": true,
+        "migrations.test_autodetector.AutodetectorTests.test_alter_fk_before_model_deletion": true,
+        "migrations.test_operations.OperationTests.test_rename_field": true,
+        "migrations.test_operations.OperationTests.test_rename_field_reloads_state_on_fk_target_changes": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy": true,
+        "migrations.test_operations.OperationTests.test_alter_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_concrete_field_changed_to_many_to_many": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_related_field_preserved_db_column": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_m2m_through_model": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11910/dedup_patch_23.jsonl": {
+      "django__django-11910": {
+        "migrations.test_autodetector.AutodetectorTests.test_managed_to_unmanaged": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_foreign_object_fields": true,
+        "migrations.test_operations.OperationTests.test_rename_missing_field": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_rename_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_alter_field_to_not_null_oneoff_default": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_delete_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_many_to_many_changed_to_concrete_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_model_with_renamed_rel_field": true,
+        "migrations.test_operations.OperationTests.test_rename_referenced_field_state_forward": true,
+        "migrations.test_autodetector.AutodetectorTests.test_add_date_fields_with_auto_now_add_asking_for_default": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_to_managed": true,
+        "migrations.test_autodetector.AutodetectorTests.test_alter_fk_before_model_deletion": true,
+        "migrations.test_operations.OperationTests.test_rename_field": true,
+        "migrations.test_operations.OperationTests.test_rename_field_reloads_state_on_fk_target_changes": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy": true,
+        "migrations.test_operations.OperationTests.test_alter_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_concrete_field_changed_to_many_to_many": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_related_field_preserved_db_column": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_m2m_through_model": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11910/dedup_patch_24.jsonl": {
+      "django__django-11910": {
+        "migrations.test_autodetector.AutodetectorTests.test_managed_to_unmanaged": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_foreign_object_fields": true,
+        "migrations.test_operations.OperationTests.test_rename_missing_field": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_rename_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_alter_field_to_not_null_oneoff_default": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_delete_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_many_to_many_changed_to_concrete_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_model_with_renamed_rel_field": true,
+        "migrations.test_operations.OperationTests.test_rename_referenced_field_state_forward": true,
+        "migrations.test_autodetector.AutodetectorTests.test_add_date_fields_with_auto_now_add_asking_for_default": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_to_managed": true,
+        "migrations.test_autodetector.AutodetectorTests.test_alter_fk_before_model_deletion": true,
+        "migrations.test_operations.OperationTests.test_rename_field": true,
+        "migrations.test_operations.OperationTests.test_rename_field_reloads_state_on_fk_target_changes": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy": true,
+        "migrations.test_operations.OperationTests.test_alter_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_concrete_field_changed_to_many_to_many": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_related_field_preserved_db_column": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_m2m_through_model": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11910/dedup_patch_25.jsonl": {
+      "django__django-11910": {
+        "migrations.test_autodetector.AutodetectorTests.test_managed_to_unmanaged": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_foreign_object_fields": true,
+        "migrations.test_operations.OperationTests.test_rename_missing_field": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_rename_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_alter_field_to_not_null_oneoff_default": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_delete_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_many_to_many_changed_to_concrete_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_model_with_renamed_rel_field": true,
+        "migrations.test_operations.OperationTests.test_rename_referenced_field_state_forward": true,
+        "migrations.test_autodetector.AutodetectorTests.test_add_date_fields_with_auto_now_add_asking_for_default": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_to_managed": true,
+        "migrations.test_autodetector.AutodetectorTests.test_alter_fk_before_model_deletion": true,
+        "migrations.test_operations.OperationTests.test_rename_field": true,
+        "migrations.test_operations.OperationTests.test_rename_field_reloads_state_on_fk_target_changes": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy": true,
+        "migrations.test_operations.OperationTests.test_alter_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_concrete_field_changed_to_many_to_many": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_related_field_preserved_db_column": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_m2m_through_model": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11910/dedup_patch_26.jsonl": {
+      "django__django-11910": {
+        "migrations.test_autodetector.AutodetectorTests.test_managed_to_unmanaged": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_foreign_object_fields": true,
+        "migrations.test_operations.OperationTests.test_rename_missing_field": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_rename_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_alter_field_to_not_null_oneoff_default": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_delete_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_many_to_many_changed_to_concrete_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_model_with_renamed_rel_field": true,
+        "migrations.test_operations.OperationTests.test_rename_referenced_field_state_forward": true,
+        "migrations.test_autodetector.AutodetectorTests.test_add_date_fields_with_auto_now_add_asking_for_default": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_to_managed": true,
+        "migrations.test_autodetector.AutodetectorTests.test_alter_fk_before_model_deletion": true,
+        "migrations.test_operations.OperationTests.test_rename_field": true,
+        "migrations.test_operations.OperationTests.test_rename_field_reloads_state_on_fk_target_changes": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy": true,
+        "migrations.test_operations.OperationTests.test_alter_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_concrete_field_changed_to_many_to_many": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_related_field_preserved_db_column": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_m2m_through_model": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11910/dedup_patch_27.jsonl": {
+      "django__django-11910": {
+        "migrations.test_autodetector.AutodetectorTests.test_managed_to_unmanaged": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_foreign_object_fields": true,
+        "migrations.test_operations.OperationTests.test_rename_missing_field": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_rename_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_alter_field_to_not_null_oneoff_default": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_delete_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_many_to_many_changed_to_concrete_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_model_with_renamed_rel_field": true,
+        "migrations.test_operations.OperationTests.test_rename_referenced_field_state_forward": true,
+        "migrations.test_autodetector.AutodetectorTests.test_add_date_fields_with_auto_now_add_asking_for_default": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_to_managed": true,
+        "migrations.test_autodetector.AutodetectorTests.test_alter_fk_before_model_deletion": true,
+        "migrations.test_operations.OperationTests.test_rename_field": true,
+        "migrations.test_operations.OperationTests.test_rename_field_reloads_state_on_fk_target_changes": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy": true,
+        "migrations.test_operations.OperationTests.test_alter_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_concrete_field_changed_to_many_to_many": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_related_field_preserved_db_column": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_m2m_through_model": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11910/dedup_patch_28.jsonl": {
+      "django__django-11910": {
+        "migrations.test_autodetector.AutodetectorTests.test_managed_to_unmanaged": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_foreign_object_fields": true,
+        "migrations.test_operations.OperationTests.test_rename_missing_field": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_rename_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_alter_field_to_not_null_oneoff_default": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_delete_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_many_to_many_changed_to_concrete_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_model_with_renamed_rel_field": true,
+        "migrations.test_operations.OperationTests.test_rename_referenced_field_state_forward": true,
+        "migrations.test_autodetector.AutodetectorTests.test_add_date_fields_with_auto_now_add_asking_for_default": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_to_managed": true,
+        "migrations.test_autodetector.AutodetectorTests.test_alter_fk_before_model_deletion": true,
+        "migrations.test_operations.OperationTests.test_rename_field": true,
+        "migrations.test_operations.OperationTests.test_rename_field_reloads_state_on_fk_target_changes": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy": true,
+        "migrations.test_operations.OperationTests.test_alter_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_concrete_field_changed_to_many_to_many": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_related_field_preserved_db_column": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_m2m_through_model": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11910/dedup_patch_3.jsonl": {
+      "django__django-11910": {
+        "migrations.test_autodetector.AutodetectorTests.test_managed_to_unmanaged": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_foreign_object_fields": true,
+        "migrations.test_operations.OperationTests.test_rename_missing_field": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_rename_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_alter_field_to_not_null_oneoff_default": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_delete_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_many_to_many_changed_to_concrete_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_model_with_renamed_rel_field": true,
+        "migrations.test_operations.OperationTests.test_rename_referenced_field_state_forward": true,
+        "migrations.test_autodetector.AutodetectorTests.test_add_date_fields_with_auto_now_add_asking_for_default": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_to_managed": true,
+        "migrations.test_autodetector.AutodetectorTests.test_alter_fk_before_model_deletion": true,
+        "migrations.test_operations.OperationTests.test_rename_field": true,
+        "migrations.test_operations.OperationTests.test_rename_field_reloads_state_on_fk_target_changes": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy": true,
+        "migrations.test_operations.OperationTests.test_alter_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_concrete_field_changed_to_many_to_many": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_related_field_preserved_db_column": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_m2m_through_model": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11910/dedup_patch_4.jsonl": {
+      "django__django-11910": {
+        "migrations.test_autodetector.AutodetectorTests.test_managed_to_unmanaged": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_foreign_object_fields": true,
+        "migrations.test_operations.OperationTests.test_rename_missing_field": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_rename_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_alter_field_to_not_null_oneoff_default": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_delete_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_many_to_many_changed_to_concrete_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_model_with_renamed_rel_field": true,
+        "migrations.test_operations.OperationTests.test_rename_referenced_field_state_forward": true,
+        "migrations.test_autodetector.AutodetectorTests.test_add_date_fields_with_auto_now_add_asking_for_default": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_to_managed": true,
+        "migrations.test_autodetector.AutodetectorTests.test_alter_fk_before_model_deletion": true,
+        "migrations.test_operations.OperationTests.test_rename_field": true,
+        "migrations.test_operations.OperationTests.test_rename_field_reloads_state_on_fk_target_changes": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy": true,
+        "migrations.test_operations.OperationTests.test_alter_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_concrete_field_changed_to_many_to_many": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_related_field_preserved_db_column": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_m2m_through_model": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11910/dedup_patch_5.jsonl": {
+      "django__django-11910": {
+        "migrations.test_autodetector.AutodetectorTests.test_managed_to_unmanaged": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_foreign_object_fields": true,
+        "migrations.test_operations.OperationTests.test_rename_missing_field": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_rename_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_alter_field_to_not_null_oneoff_default": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_delete_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_many_to_many_changed_to_concrete_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_model_with_renamed_rel_field": true,
+        "migrations.test_operations.OperationTests.test_rename_referenced_field_state_forward": true,
+        "migrations.test_autodetector.AutodetectorTests.test_add_date_fields_with_auto_now_add_asking_for_default": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_to_managed": true,
+        "migrations.test_autodetector.AutodetectorTests.test_alter_fk_before_model_deletion": true,
+        "migrations.test_operations.OperationTests.test_rename_field": true,
+        "migrations.test_operations.OperationTests.test_rename_field_reloads_state_on_fk_target_changes": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy": true,
+        "migrations.test_operations.OperationTests.test_alter_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_concrete_field_changed_to_many_to_many": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_related_field_preserved_db_column": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_m2m_through_model": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11910/dedup_patch_6.jsonl": {
+      "django__django-11910": {
+        "migrations.test_autodetector.AutodetectorTests.test_managed_to_unmanaged": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_foreign_object_fields": true,
+        "migrations.test_operations.OperationTests.test_rename_missing_field": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_rename_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_alter_field_to_not_null_oneoff_default": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_delete_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_many_to_many_changed_to_concrete_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_model_with_renamed_rel_field": true,
+        "migrations.test_operations.OperationTests.test_rename_referenced_field_state_forward": true,
+        "migrations.test_autodetector.AutodetectorTests.test_add_date_fields_with_auto_now_add_asking_for_default": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_to_managed": true,
+        "migrations.test_autodetector.AutodetectorTests.test_alter_fk_before_model_deletion": true,
+        "migrations.test_operations.OperationTests.test_rename_field": true,
+        "migrations.test_operations.OperationTests.test_rename_field_reloads_state_on_fk_target_changes": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy": true,
+        "migrations.test_operations.OperationTests.test_alter_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_concrete_field_changed_to_many_to_many": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_related_field_preserved_db_column": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_m2m_through_model": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11910/dedup_patch_7.jsonl": {
+      "django__django-11910": {
+        "migrations.test_autodetector.AutodetectorTests.test_managed_to_unmanaged": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_foreign_object_fields": false,
+        "migrations.test_operations.OperationTests.test_rename_missing_field": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_rename_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_alter_field_to_not_null_oneoff_default": false,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_delete_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field": false,
+        "migrations.test_autodetector.AutodetectorTests.test_many_to_many_changed_to_concrete_field": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_model_with_renamed_rel_field": false,
+        "migrations.test_operations.OperationTests.test_rename_referenced_field_state_forward": true,
+        "migrations.test_autodetector.AutodetectorTests.test_add_date_fields_with_auto_now_add_asking_for_default": false,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_to_managed": false,
+        "migrations.test_autodetector.AutodetectorTests.test_alter_fk_before_model_deletion": false,
+        "migrations.test_operations.OperationTests.test_rename_field": true,
+        "migrations.test_operations.OperationTests.test_rename_field_reloads_state_on_fk_target_changes": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy": false,
+        "migrations.test_operations.OperationTests.test_alter_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_concrete_field_changed_to_many_to_many": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_related_field_preserved_db_column": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_m2m_through_model": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11910/dedup_patch_8.jsonl": {
+      "django__django-11910": {
+        "migrations.test_autodetector.AutodetectorTests.test_managed_to_unmanaged": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_foreign_object_fields": true,
+        "migrations.test_operations.OperationTests.test_rename_missing_field": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_rename_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_alter_field_to_not_null_oneoff_default": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_delete_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_many_to_many_changed_to_concrete_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_model_with_renamed_rel_field": true,
+        "migrations.test_operations.OperationTests.test_rename_referenced_field_state_forward": false,
+        "migrations.test_autodetector.AutodetectorTests.test_add_date_fields_with_auto_now_add_asking_for_default": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_to_managed": true,
+        "migrations.test_autodetector.AutodetectorTests.test_alter_fk_before_model_deletion": true,
+        "migrations.test_operations.OperationTests.test_rename_field": true,
+        "migrations.test_operations.OperationTests.test_rename_field_reloads_state_on_fk_target_changes": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy": true,
+        "migrations.test_operations.OperationTests.test_alter_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_concrete_field_changed_to_many_to_many": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_related_field_preserved_db_column": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_m2m_through_model": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11910/dedup_patch_9.jsonl": {
+      "django__django-11910": {
+        "migrations.test_autodetector.AutodetectorTests.test_managed_to_unmanaged": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_foreign_object_fields": true,
+        "migrations.test_operations.OperationTests.test_rename_missing_field": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_rename_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_alter_field_to_not_null_oneoff_default": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_delete_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_many_to_many_changed_to_concrete_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_model_with_renamed_rel_field": true,
+        "migrations.test_operations.OperationTests.test_rename_referenced_field_state_forward": true,
+        "migrations.test_autodetector.AutodetectorTests.test_add_date_fields_with_auto_now_add_asking_for_default": true,
+        "migrations.test_autodetector.AutodetectorTests.test_unmanaged_to_managed": true,
+        "migrations.test_autodetector.AutodetectorTests.test_alter_fk_before_model_deletion": true,
+        "migrations.test_operations.OperationTests.test_rename_field": true,
+        "migrations.test_operations.OperationTests.test_rename_field_reloads_state_on_fk_target_changes": true,
+        "migrations.test_autodetector.AutodetectorTests.test_proxy_to_mti_with_fk_to_proxy": true,
+        "migrations.test_operations.OperationTests.test_alter_field": true,
+        "migrations.test_autodetector.AutodetectorTests.test_concrete_field_changed_to_many_to_many": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_related_field_preserved_db_column": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_m2m_through_model": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-11910": {
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field#1": false,
+        "migrations.test_operations.OperationTests.test_rename_field_updates_fk_to_field#2": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field#3": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field#4": true,
+        "migrations.test_operations.OperationTests.test_rename_field_updates_fk_to_field#5": false,
+        "migrations.test_operations.OperationTests.test_foreign_key_to_field_updates_on_primary_key_rename#6": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_primary_key_with_foreign_key#7": true,
+        "migrations.test_operations.OperationTests.test_rename_field_updates_foreign_key_to_field#8": true,
+        "migrations.test_operations.OperationTests.test_rename_field_updates_fk_to_field#9": true,
+        "migrations.test_operations.OperationTests.test_rename_field_updates_fk_to_field#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11910/dedup_patch_0.jsonl": {
+      "django__django-11910": {
+        "migrations.test_operations.OperationTests.test_rename_field_updates_fk_to_field#2": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field#3": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field#4": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_primary_key_with_foreign_key#7": false,
+        "migrations.test_operations.OperationTests.test_rename_field_updates_foreign_key_to_field#8": false,
+        "migrations.test_operations.OperationTests.test_rename_field_updates_fk_to_field#9": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11910/dedup_patch_1.jsonl": {
+      "django__django-11910": {
+        "migrations.test_operations.OperationTests.test_rename_field_updates_fk_to_field#2": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field#3": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field#4": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_primary_key_with_foreign_key#7": false,
+        "migrations.test_operations.OperationTests.test_rename_field_updates_foreign_key_to_field#8": false,
+        "migrations.test_operations.OperationTests.test_rename_field_updates_fk_to_field#9": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11910/dedup_patch_10.jsonl": {
+      "django__django-11910": {
+        "migrations.test_operations.OperationTests.test_rename_field_updates_fk_to_field#2": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field#3": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field#4": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_primary_key_with_foreign_key#7": false,
+        "migrations.test_operations.OperationTests.test_rename_field_updates_foreign_key_to_field#8": false,
+        "migrations.test_operations.OperationTests.test_rename_field_updates_fk_to_field#9": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11910/dedup_patch_11.jsonl": {
+      "django__django-11910": {
+        "migrations.test_operations.OperationTests.test_rename_field_updates_fk_to_field#2": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field#3": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field#4": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_primary_key_with_foreign_key#7": false,
+        "migrations.test_operations.OperationTests.test_rename_field_updates_foreign_key_to_field#8": false,
+        "migrations.test_operations.OperationTests.test_rename_field_updates_fk_to_field#9": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11910/dedup_patch_13.jsonl": {
+      "django__django-11910": {
+        "migrations.test_operations.OperationTests.test_rename_field_updates_fk_to_field#2": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field#3": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field#4": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_primary_key_with_foreign_key#7": false,
+        "migrations.test_operations.OperationTests.test_rename_field_updates_foreign_key_to_field#8": false,
+        "migrations.test_operations.OperationTests.test_rename_field_updates_fk_to_field#9": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11910/dedup_patch_15.jsonl": {
+      "django__django-11910": {
+        "migrations.test_operations.OperationTests.test_rename_field_updates_fk_to_field#2": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field#3": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field#4": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_primary_key_with_foreign_key#7": false,
+        "migrations.test_operations.OperationTests.test_rename_field_updates_foreign_key_to_field#8": false,
+        "migrations.test_operations.OperationTests.test_rename_field_updates_fk_to_field#9": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11910/dedup_patch_16.jsonl": {
+      "django__django-11910": {
+        "migrations.test_operations.OperationTests.test_rename_field_updates_fk_to_field#2": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field#3": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field#4": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_primary_key_with_foreign_key#7": false,
+        "migrations.test_operations.OperationTests.test_rename_field_updates_foreign_key_to_field#8": false,
+        "migrations.test_operations.OperationTests.test_rename_field_updates_fk_to_field#9": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11910/dedup_patch_19.jsonl": {
+      "django__django-11910": {
+        "migrations.test_operations.OperationTests.test_rename_field_updates_fk_to_field#2": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field#3": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field#4": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_primary_key_with_foreign_key#7": false,
+        "migrations.test_operations.OperationTests.test_rename_field_updates_foreign_key_to_field#8": false,
+        "migrations.test_operations.OperationTests.test_rename_field_updates_fk_to_field#9": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11910/dedup_patch_2.jsonl": {
+      "django__django-11910": {
+        "migrations.test_operations.OperationTests.test_rename_field_updates_fk_to_field#2": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field#3": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field#4": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_primary_key_with_foreign_key#7": false,
+        "migrations.test_operations.OperationTests.test_rename_field_updates_foreign_key_to_field#8": false,
+        "migrations.test_operations.OperationTests.test_rename_field_updates_fk_to_field#9": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11910/dedup_patch_22.jsonl": {
+      "django__django-11910": {
+        "migrations.test_operations.OperationTests.test_rename_field_updates_fk_to_field#2": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field#3": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field#4": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_primary_key_with_foreign_key#7": false,
+        "migrations.test_operations.OperationTests.test_rename_field_updates_foreign_key_to_field#8": false,
+        "migrations.test_operations.OperationTests.test_rename_field_updates_fk_to_field#9": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11910/dedup_patch_23.jsonl": {
+      "django__django-11910": {
+        "migrations.test_operations.OperationTests.test_rename_field_updates_fk_to_field#2": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field#3": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field#4": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_primary_key_with_foreign_key#7": false,
+        "migrations.test_operations.OperationTests.test_rename_field_updates_foreign_key_to_field#8": false,
+        "migrations.test_operations.OperationTests.test_rename_field_updates_fk_to_field#9": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11910/dedup_patch_24.jsonl": {
+      "django__django-11910": {
+        "migrations.test_operations.OperationTests.test_rename_field_updates_fk_to_field#2": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field#3": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field#4": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_primary_key_with_foreign_key#7": false,
+        "migrations.test_operations.OperationTests.test_rename_field_updates_foreign_key_to_field#8": false,
+        "migrations.test_operations.OperationTests.test_rename_field_updates_fk_to_field#9": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11910/dedup_patch_25.jsonl": {
+      "django__django-11910": {
+        "migrations.test_operations.OperationTests.test_rename_field_updates_fk_to_field#2": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field#3": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field#4": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_primary_key_with_foreign_key#7": false,
+        "migrations.test_operations.OperationTests.test_rename_field_updates_foreign_key_to_field#8": false,
+        "migrations.test_operations.OperationTests.test_rename_field_updates_fk_to_field#9": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11910/dedup_patch_26.jsonl": {
+      "django__django-11910": {
+        "migrations.test_operations.OperationTests.test_rename_field_updates_fk_to_field#2": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field#3": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field#4": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_primary_key_with_foreign_key#7": false,
+        "migrations.test_operations.OperationTests.test_rename_field_updates_foreign_key_to_field#8": false,
+        "migrations.test_operations.OperationTests.test_rename_field_updates_fk_to_field#9": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11910/dedup_patch_27.jsonl": {
+      "django__django-11910": {
+        "migrations.test_operations.OperationTests.test_rename_field_updates_fk_to_field#2": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field#3": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field#4": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_primary_key_with_foreign_key#7": false,
+        "migrations.test_operations.OperationTests.test_rename_field_updates_foreign_key_to_field#8": false,
+        "migrations.test_operations.OperationTests.test_rename_field_updates_fk_to_field#9": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11910/dedup_patch_28.jsonl": {
+      "django__django-11910": {
+        "migrations.test_operations.OperationTests.test_rename_field_updates_fk_to_field#2": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field#3": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field#4": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_primary_key_with_foreign_key#7": false,
+        "migrations.test_operations.OperationTests.test_rename_field_updates_foreign_key_to_field#8": false,
+        "migrations.test_operations.OperationTests.test_rename_field_updates_fk_to_field#9": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11910/dedup_patch_3.jsonl": {
+      "django__django-11910": {
+        "migrations.test_operations.OperationTests.test_rename_field_updates_fk_to_field#2": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field#3": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field#4": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_primary_key_with_foreign_key#7": false,
+        "migrations.test_operations.OperationTests.test_rename_field_updates_foreign_key_to_field#8": false,
+        "migrations.test_operations.OperationTests.test_rename_field_updates_fk_to_field#9": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11910/dedup_patch_4.jsonl": {
+      "django__django-11910": {
+        "migrations.test_operations.OperationTests.test_rename_field_updates_fk_to_field#2": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field#3": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field#4": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_primary_key_with_foreign_key#7": false,
+        "migrations.test_operations.OperationTests.test_rename_field_updates_foreign_key_to_field#8": false,
+        "migrations.test_operations.OperationTests.test_rename_field_updates_fk_to_field#9": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11910/dedup_patch_5.jsonl": {
+      "django__django-11910": {
+        "migrations.test_operations.OperationTests.test_rename_field_updates_fk_to_field#2": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field#3": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field#4": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_primary_key_with_foreign_key#7": false,
+        "migrations.test_operations.OperationTests.test_rename_field_updates_foreign_key_to_field#8": false,
+        "migrations.test_operations.OperationTests.test_rename_field_updates_fk_to_field#9": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11910/dedup_patch_6.jsonl": {
+      "django__django-11910": {
+        "migrations.test_operations.OperationTests.test_rename_field_updates_fk_to_field#2": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field#3": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field#4": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_primary_key_with_foreign_key#7": false,
+        "migrations.test_operations.OperationTests.test_rename_field_updates_foreign_key_to_field#8": false,
+        "migrations.test_operations.OperationTests.test_rename_field_updates_fk_to_field#9": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11910/dedup_patch_9.jsonl": {
+      "django__django-11910": {
+        "migrations.test_operations.OperationTests.test_rename_field_updates_fk_to_field#2": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field#3": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_foreign_key_to_field#4": false,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_primary_key_with_foreign_key#7": false,
+        "migrations.test_operations.OperationTests.test_rename_field_updates_foreign_key_to_field#8": false,
+        "migrations.test_operations.OperationTests.test_rename_field_updates_fk_to_field#9": false
+      }
+    }
+  }
+}

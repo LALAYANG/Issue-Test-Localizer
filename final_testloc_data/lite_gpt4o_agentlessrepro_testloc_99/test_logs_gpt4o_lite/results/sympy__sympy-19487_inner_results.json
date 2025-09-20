@@ -1,0 +1,614 @@
+{
+  "regression": {
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-19487/dedup_patch_0.jsonl": {
+      "sympy__sympy-19487": {
+        "sympy/core/tests/test_function.py::test_diff_wrt": true,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_instantiation_evaluation": true,
+        "sympy/core/tests/test_function.py::test_evalf_default": true,
+        "sympy/core/tests/test_function.py::test_function__eval_nseries": true,
+        "sympy/core/tests/test_function.py::test_diff_wrt_not_allowed": true,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_Min": true,
+        "sympy/core/tests/test_function.py::test_issue_7027": true,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_rewrite_as_Abs": true,
+        "sympy/core/tests/test_function.py::test_fdiff_argument_index_error": true,
+        "sympy/core/tests/test_function.py::test_Subs": true,
+        "sympy/core/tests/test_expr.py::test_eval_interval": true,
+        "sympy/core/tests/test_expr.py::test_random": true,
+        "sympy/core/tests/test_expr.py::test_as_leading_term_stub": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-19487/dedup_patch_1.jsonl": {
+      "sympy__sympy-19487": {
+        "sympy/core/tests/test_function.py::test_diff_wrt": true,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_instantiation_evaluation": true,
+        "sympy/core/tests/test_function.py::test_evalf_default": true,
+        "sympy/core/tests/test_function.py::test_function__eval_nseries": true,
+        "sympy/core/tests/test_function.py::test_diff_wrt_not_allowed": true,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_Min": true,
+        "sympy/core/tests/test_function.py::test_issue_7027": true,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_rewrite_as_Abs": true,
+        "sympy/core/tests/test_function.py::test_fdiff_argument_index_error": true,
+        "sympy/core/tests/test_function.py::test_Subs": true,
+        "sympy/core/tests/test_expr.py::test_eval_interval": true,
+        "sympy/core/tests/test_expr.py::test_random": true,
+        "sympy/core/tests/test_expr.py::test_as_leading_term_stub": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-19487/dedup_patch_10.jsonl": {
+      "sympy__sympy-19487": {
+        "sympy/core/tests/test_function.py::test_diff_wrt": true,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_instantiation_evaluation": true,
+        "sympy/core/tests/test_function.py::test_evalf_default": true,
+        "sympy/core/tests/test_function.py::test_function__eval_nseries": true,
+        "sympy/core/tests/test_function.py::test_diff_wrt_not_allowed": true,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_Min": true,
+        "sympy/core/tests/test_function.py::test_issue_7027": true,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_rewrite_as_Abs": false,
+        "sympy/core/tests/test_function.py::test_fdiff_argument_index_error": true,
+        "sympy/core/tests/test_function.py::test_Subs": true,
+        "sympy/core/tests/test_expr.py::test_eval_interval": true,
+        "sympy/core/tests/test_expr.py::test_random": true,
+        "sympy/core/tests/test_expr.py::test_as_leading_term_stub": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-19487/dedup_patch_11.jsonl": {
+      "sympy__sympy-19487": {
+        "sympy/core/tests/test_function.py::test_diff_wrt": false,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_instantiation_evaluation": false,
+        "sympy/core/tests/test_function.py::test_evalf_default": false,
+        "sympy/core/tests/test_function.py::test_function__eval_nseries": false,
+        "sympy/core/tests/test_function.py::test_diff_wrt_not_allowed": false,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_Min": false,
+        "sympy/core/tests/test_function.py::test_issue_7027": false,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_rewrite_as_Abs": false,
+        "sympy/core/tests/test_function.py::test_fdiff_argument_index_error": false,
+        "sympy/core/tests/test_function.py::test_Subs": false,
+        "sympy/core/tests/test_expr.py::test_eval_interval": false,
+        "sympy/core/tests/test_expr.py::test_random": false,
+        "sympy/core/tests/test_expr.py::test_as_leading_term_stub": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-19487/dedup_patch_12.jsonl": {
+      "sympy__sympy-19487": {
+        "sympy/core/tests/test_function.py::test_diff_wrt": false,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_instantiation_evaluation": false,
+        "sympy/core/tests/test_function.py::test_evalf_default": false,
+        "sympy/core/tests/test_function.py::test_function__eval_nseries": false,
+        "sympy/core/tests/test_function.py::test_diff_wrt_not_allowed": false,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_Min": false,
+        "sympy/core/tests/test_function.py::test_issue_7027": false,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_rewrite_as_Abs": false,
+        "sympy/core/tests/test_function.py::test_fdiff_argument_index_error": false,
+        "sympy/core/tests/test_function.py::test_Subs": false,
+        "sympy/core/tests/test_expr.py::test_eval_interval": false,
+        "sympy/core/tests/test_expr.py::test_random": false,
+        "sympy/core/tests/test_expr.py::test_as_leading_term_stub": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-19487/dedup_patch_13.jsonl": {
+      "sympy__sympy-19487": {
+        "sympy/core/tests/test_function.py::test_diff_wrt": true,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_instantiation_evaluation": true,
+        "sympy/core/tests/test_function.py::test_evalf_default": true,
+        "sympy/core/tests/test_function.py::test_function__eval_nseries": true,
+        "sympy/core/tests/test_function.py::test_diff_wrt_not_allowed": true,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_Min": true,
+        "sympy/core/tests/test_function.py::test_issue_7027": true,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_rewrite_as_Abs": true,
+        "sympy/core/tests/test_function.py::test_fdiff_argument_index_error": true,
+        "sympy/core/tests/test_function.py::test_Subs": true,
+        "sympy/core/tests/test_expr.py::test_eval_interval": true,
+        "sympy/core/tests/test_expr.py::test_random": true,
+        "sympy/core/tests/test_expr.py::test_as_leading_term_stub": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-19487/dedup_patch_14.jsonl": {
+      "sympy__sympy-19487": {
+        "sympy/core/tests/test_function.py::test_diff_wrt": false,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_instantiation_evaluation": false,
+        "sympy/core/tests/test_function.py::test_evalf_default": false,
+        "sympy/core/tests/test_function.py::test_function__eval_nseries": false,
+        "sympy/core/tests/test_function.py::test_diff_wrt_not_allowed": false,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_Min": false,
+        "sympy/core/tests/test_function.py::test_issue_7027": false,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_rewrite_as_Abs": false,
+        "sympy/core/tests/test_function.py::test_fdiff_argument_index_error": false,
+        "sympy/core/tests/test_function.py::test_Subs": false,
+        "sympy/core/tests/test_expr.py::test_eval_interval": false,
+        "sympy/core/tests/test_expr.py::test_random": false,
+        "sympy/core/tests/test_expr.py::test_as_leading_term_stub": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-19487/dedup_patch_15.jsonl": {
+      "sympy__sympy-19487": {
+        "sympy/core/tests/test_function.py::test_diff_wrt": true,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_instantiation_evaluation": true,
+        "sympy/core/tests/test_function.py::test_evalf_default": true,
+        "sympy/core/tests/test_function.py::test_function__eval_nseries": true,
+        "sympy/core/tests/test_function.py::test_diff_wrt_not_allowed": true,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_Min": true,
+        "sympy/core/tests/test_function.py::test_issue_7027": true,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_rewrite_as_Abs": false,
+        "sympy/core/tests/test_function.py::test_fdiff_argument_index_error": true,
+        "sympy/core/tests/test_function.py::test_Subs": true,
+        "sympy/core/tests/test_expr.py::test_eval_interval": true,
+        "sympy/core/tests/test_expr.py::test_random": true,
+        "sympy/core/tests/test_expr.py::test_as_leading_term_stub": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-19487/dedup_patch_16.jsonl": {
+      "sympy__sympy-19487": {
+        "sympy/core/tests/test_function.py::test_diff_wrt": true,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_instantiation_evaluation": true,
+        "sympy/core/tests/test_function.py::test_evalf_default": true,
+        "sympy/core/tests/test_function.py::test_function__eval_nseries": true,
+        "sympy/core/tests/test_function.py::test_diff_wrt_not_allowed": true,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_Min": true,
+        "sympy/core/tests/test_function.py::test_issue_7027": true,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_rewrite_as_Abs": false,
+        "sympy/core/tests/test_function.py::test_fdiff_argument_index_error": true,
+        "sympy/core/tests/test_function.py::test_Subs": true,
+        "sympy/core/tests/test_expr.py::test_eval_interval": true,
+        "sympy/core/tests/test_expr.py::test_random": true,
+        "sympy/core/tests/test_expr.py::test_as_leading_term_stub": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-19487/dedup_patch_17.jsonl": {
+      "sympy__sympy-19487": {
+        "sympy/core/tests/test_function.py::test_diff_wrt": false,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_instantiation_evaluation": false,
+        "sympy/core/tests/test_function.py::test_evalf_default": false,
+        "sympy/core/tests/test_function.py::test_function__eval_nseries": false,
+        "sympy/core/tests/test_function.py::test_diff_wrt_not_allowed": false,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_Min": false,
+        "sympy/core/tests/test_function.py::test_issue_7027": false,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_rewrite_as_Abs": false,
+        "sympy/core/tests/test_function.py::test_fdiff_argument_index_error": false,
+        "sympy/core/tests/test_function.py::test_Subs": false,
+        "sympy/core/tests/test_expr.py::test_eval_interval": false,
+        "sympy/core/tests/test_expr.py::test_random": false,
+        "sympy/core/tests/test_expr.py::test_as_leading_term_stub": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-19487/dedup_patch_18.jsonl": {
+      "sympy__sympy-19487": {
+        "sympy/core/tests/test_function.py::test_diff_wrt": true,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_instantiation_evaluation": true,
+        "sympy/core/tests/test_function.py::test_evalf_default": true,
+        "sympy/core/tests/test_function.py::test_function__eval_nseries": true,
+        "sympy/core/tests/test_function.py::test_diff_wrt_not_allowed": true,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_Min": true,
+        "sympy/core/tests/test_function.py::test_issue_7027": true,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_rewrite_as_Abs": false,
+        "sympy/core/tests/test_function.py::test_fdiff_argument_index_error": true,
+        "sympy/core/tests/test_function.py::test_Subs": true,
+        "sympy/core/tests/test_expr.py::test_eval_interval": true,
+        "sympy/core/tests/test_expr.py::test_random": true,
+        "sympy/core/tests/test_expr.py::test_as_leading_term_stub": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-19487/dedup_patch_19.jsonl": {
+      "sympy__sympy-19487": {
+        "sympy/core/tests/test_function.py::test_diff_wrt": true,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_instantiation_evaluation": true,
+        "sympy/core/tests/test_function.py::test_evalf_default": true,
+        "sympy/core/tests/test_function.py::test_function__eval_nseries": true,
+        "sympy/core/tests/test_function.py::test_diff_wrt_not_allowed": true,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_Min": true,
+        "sympy/core/tests/test_function.py::test_issue_7027": true,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_rewrite_as_Abs": false,
+        "sympy/core/tests/test_function.py::test_fdiff_argument_index_error": true,
+        "sympy/core/tests/test_function.py::test_Subs": true,
+        "sympy/core/tests/test_expr.py::test_eval_interval": true,
+        "sympy/core/tests/test_expr.py::test_random": true,
+        "sympy/core/tests/test_expr.py::test_as_leading_term_stub": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-19487/dedup_patch_2.jsonl": {
+      "sympy__sympy-19487": {
+        "sympy/core/tests/test_function.py::test_diff_wrt": true,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_instantiation_evaluation": true,
+        "sympy/core/tests/test_function.py::test_evalf_default": true,
+        "sympy/core/tests/test_function.py::test_function__eval_nseries": true,
+        "sympy/core/tests/test_function.py::test_diff_wrt_not_allowed": true,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_Min": true,
+        "sympy/core/tests/test_function.py::test_issue_7027": true,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_rewrite_as_Abs": false,
+        "sympy/core/tests/test_function.py::test_fdiff_argument_index_error": true,
+        "sympy/core/tests/test_function.py::test_Subs": true,
+        "sympy/core/tests/test_expr.py::test_eval_interval": true,
+        "sympy/core/tests/test_expr.py::test_random": true,
+        "sympy/core/tests/test_expr.py::test_as_leading_term_stub": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-19487/dedup_patch_20.jsonl": {
+      "sympy__sympy-19487": {
+        "sympy/core/tests/test_function.py::test_diff_wrt": true,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_instantiation_evaluation": true,
+        "sympy/core/tests/test_function.py::test_evalf_default": true,
+        "sympy/core/tests/test_function.py::test_function__eval_nseries": true,
+        "sympy/core/tests/test_function.py::test_diff_wrt_not_allowed": true,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_Min": true,
+        "sympy/core/tests/test_function.py::test_issue_7027": true,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_rewrite_as_Abs": false,
+        "sympy/core/tests/test_function.py::test_fdiff_argument_index_error": true,
+        "sympy/core/tests/test_function.py::test_Subs": true,
+        "sympy/core/tests/test_expr.py::test_eval_interval": true,
+        "sympy/core/tests/test_expr.py::test_random": true,
+        "sympy/core/tests/test_expr.py::test_as_leading_term_stub": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-19487/dedup_patch_21.jsonl": {
+      "sympy__sympy-19487": {
+        "sympy/core/tests/test_function.py::test_diff_wrt": true,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_instantiation_evaluation": true,
+        "sympy/core/tests/test_function.py::test_evalf_default": true,
+        "sympy/core/tests/test_function.py::test_function__eval_nseries": true,
+        "sympy/core/tests/test_function.py::test_diff_wrt_not_allowed": true,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_Min": true,
+        "sympy/core/tests/test_function.py::test_issue_7027": true,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_rewrite_as_Abs": false,
+        "sympy/core/tests/test_function.py::test_fdiff_argument_index_error": true,
+        "sympy/core/tests/test_function.py::test_Subs": true,
+        "sympy/core/tests/test_expr.py::test_eval_interval": true,
+        "sympy/core/tests/test_expr.py::test_random": true,
+        "sympy/core/tests/test_expr.py::test_as_leading_term_stub": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-19487/dedup_patch_22.jsonl": {
+      "sympy__sympy-19487": {
+        "sympy/core/tests/test_function.py::test_diff_wrt": true,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_instantiation_evaluation": true,
+        "sympy/core/tests/test_function.py::test_evalf_default": true,
+        "sympy/core/tests/test_function.py::test_function__eval_nseries": true,
+        "sympy/core/tests/test_function.py::test_diff_wrt_not_allowed": true,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_Min": true,
+        "sympy/core/tests/test_function.py::test_issue_7027": true,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_rewrite_as_Abs": false,
+        "sympy/core/tests/test_function.py::test_fdiff_argument_index_error": true,
+        "sympy/core/tests/test_function.py::test_Subs": true,
+        "sympy/core/tests/test_expr.py::test_eval_interval": true,
+        "sympy/core/tests/test_expr.py::test_random": true,
+        "sympy/core/tests/test_expr.py::test_as_leading_term_stub": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-19487/dedup_patch_23.jsonl": {
+      "sympy__sympy-19487": {
+        "sympy/core/tests/test_function.py::test_diff_wrt": true,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_instantiation_evaluation": true,
+        "sympy/core/tests/test_function.py::test_evalf_default": true,
+        "sympy/core/tests/test_function.py::test_function__eval_nseries": true,
+        "sympy/core/tests/test_function.py::test_diff_wrt_not_allowed": true,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_Min": true,
+        "sympy/core/tests/test_function.py::test_issue_7027": true,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_rewrite_as_Abs": false,
+        "sympy/core/tests/test_function.py::test_fdiff_argument_index_error": true,
+        "sympy/core/tests/test_function.py::test_Subs": true,
+        "sympy/core/tests/test_expr.py::test_eval_interval": true,
+        "sympy/core/tests/test_expr.py::test_random": true,
+        "sympy/core/tests/test_expr.py::test_as_leading_term_stub": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-19487/dedup_patch_24.jsonl": {
+      "sympy__sympy-19487": {
+        "sympy/core/tests/test_function.py::test_diff_wrt": true,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_instantiation_evaluation": true,
+        "sympy/core/tests/test_function.py::test_evalf_default": true,
+        "sympy/core/tests/test_function.py::test_function__eval_nseries": true,
+        "sympy/core/tests/test_function.py::test_diff_wrt_not_allowed": true,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_Min": true,
+        "sympy/core/tests/test_function.py::test_issue_7027": true,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_rewrite_as_Abs": false,
+        "sympy/core/tests/test_function.py::test_fdiff_argument_index_error": true,
+        "sympy/core/tests/test_function.py::test_Subs": true,
+        "sympy/core/tests/test_expr.py::test_eval_interval": true,
+        "sympy/core/tests/test_expr.py::test_random": true,
+        "sympy/core/tests/test_expr.py::test_as_leading_term_stub": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-19487/dedup_patch_25.jsonl": {
+      "sympy__sympy-19487": {
+        "sympy/core/tests/test_function.py::test_diff_wrt": false,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_instantiation_evaluation": false,
+        "sympy/core/tests/test_function.py::test_evalf_default": false,
+        "sympy/core/tests/test_function.py::test_function__eval_nseries": false,
+        "sympy/core/tests/test_function.py::test_diff_wrt_not_allowed": false,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_Min": false,
+        "sympy/core/tests/test_function.py::test_issue_7027": false,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_rewrite_as_Abs": false,
+        "sympy/core/tests/test_function.py::test_fdiff_argument_index_error": false,
+        "sympy/core/tests/test_function.py::test_Subs": false,
+        "sympy/core/tests/test_expr.py::test_eval_interval": false,
+        "sympy/core/tests/test_expr.py::test_random": false,
+        "sympy/core/tests/test_expr.py::test_as_leading_term_stub": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-19487/dedup_patch_26.jsonl": {
+      "sympy__sympy-19487": {
+        "sympy/core/tests/test_function.py::test_diff_wrt": false,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_instantiation_evaluation": false,
+        "sympy/core/tests/test_function.py::test_evalf_default": false,
+        "sympy/core/tests/test_function.py::test_function__eval_nseries": false,
+        "sympy/core/tests/test_function.py::test_diff_wrt_not_allowed": false,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_Min": false,
+        "sympy/core/tests/test_function.py::test_issue_7027": false,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_rewrite_as_Abs": false,
+        "sympy/core/tests/test_function.py::test_fdiff_argument_index_error": false,
+        "sympy/core/tests/test_function.py::test_Subs": false,
+        "sympy/core/tests/test_expr.py::test_eval_interval": false,
+        "sympy/core/tests/test_expr.py::test_random": false,
+        "sympy/core/tests/test_expr.py::test_as_leading_term_stub": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-19487/dedup_patch_27.jsonl": {
+      "sympy__sympy-19487": {
+        "sympy/core/tests/test_function.py::test_diff_wrt": true,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_instantiation_evaluation": true,
+        "sympy/core/tests/test_function.py::test_evalf_default": true,
+        "sympy/core/tests/test_function.py::test_function__eval_nseries": true,
+        "sympy/core/tests/test_function.py::test_diff_wrt_not_allowed": true,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_Min": true,
+        "sympy/core/tests/test_function.py::test_issue_7027": true,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_rewrite_as_Abs": false,
+        "sympy/core/tests/test_function.py::test_fdiff_argument_index_error": true,
+        "sympy/core/tests/test_function.py::test_Subs": true,
+        "sympy/core/tests/test_expr.py::test_eval_interval": true,
+        "sympy/core/tests/test_expr.py::test_random": true,
+        "sympy/core/tests/test_expr.py::test_as_leading_term_stub": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-19487/dedup_patch_28.jsonl": {
+      "sympy__sympy-19487": {
+        "sympy/core/tests/test_function.py::test_diff_wrt": true,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_instantiation_evaluation": true,
+        "sympy/core/tests/test_function.py::test_evalf_default": true,
+        "sympy/core/tests/test_function.py::test_function__eval_nseries": true,
+        "sympy/core/tests/test_function.py::test_diff_wrt_not_allowed": true,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_Min": true,
+        "sympy/core/tests/test_function.py::test_issue_7027": true,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_rewrite_as_Abs": false,
+        "sympy/core/tests/test_function.py::test_fdiff_argument_index_error": true,
+        "sympy/core/tests/test_function.py::test_Subs": true,
+        "sympy/core/tests/test_expr.py::test_eval_interval": true,
+        "sympy/core/tests/test_expr.py::test_random": true,
+        "sympy/core/tests/test_expr.py::test_as_leading_term_stub": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-19487/dedup_patch_29.jsonl": {
+      "sympy__sympy-19487": {
+        "sympy/core/tests/test_function.py::test_diff_wrt": true,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_instantiation_evaluation": true,
+        "sympy/core/tests/test_function.py::test_evalf_default": true,
+        "sympy/core/tests/test_function.py::test_function__eval_nseries": true,
+        "sympy/core/tests/test_function.py::test_diff_wrt_not_allowed": true,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_Min": true,
+        "sympy/core/tests/test_function.py::test_issue_7027": true,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_rewrite_as_Abs": false,
+        "sympy/core/tests/test_function.py::test_fdiff_argument_index_error": true,
+        "sympy/core/tests/test_function.py::test_Subs": true,
+        "sympy/core/tests/test_expr.py::test_eval_interval": true,
+        "sympy/core/tests/test_expr.py::test_random": true,
+        "sympy/core/tests/test_expr.py::test_as_leading_term_stub": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-19487/dedup_patch_3.jsonl": {
+      "sympy__sympy-19487": {
+        "sympy/core/tests/test_function.py::test_diff_wrt": true,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_instantiation_evaluation": true,
+        "sympy/core/tests/test_function.py::test_evalf_default": true,
+        "sympy/core/tests/test_function.py::test_function__eval_nseries": true,
+        "sympy/core/tests/test_function.py::test_diff_wrt_not_allowed": true,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_Min": true,
+        "sympy/core/tests/test_function.py::test_issue_7027": true,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_rewrite_as_Abs": false,
+        "sympy/core/tests/test_function.py::test_fdiff_argument_index_error": true,
+        "sympy/core/tests/test_function.py::test_Subs": true,
+        "sympy/core/tests/test_expr.py::test_eval_interval": true,
+        "sympy/core/tests/test_expr.py::test_random": true,
+        "sympy/core/tests/test_expr.py::test_as_leading_term_stub": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-19487/dedup_patch_30.jsonl": {
+      "sympy__sympy-19487": {
+        "sympy/core/tests/test_function.py::test_diff_wrt": false,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_instantiation_evaluation": false,
+        "sympy/core/tests/test_function.py::test_evalf_default": false,
+        "sympy/core/tests/test_function.py::test_function__eval_nseries": false,
+        "sympy/core/tests/test_function.py::test_diff_wrt_not_allowed": false,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_Min": false,
+        "sympy/core/tests/test_function.py::test_issue_7027": false,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_rewrite_as_Abs": false,
+        "sympy/core/tests/test_function.py::test_fdiff_argument_index_error": false,
+        "sympy/core/tests/test_function.py::test_Subs": false,
+        "sympy/core/tests/test_expr.py::test_eval_interval": false,
+        "sympy/core/tests/test_expr.py::test_random": false,
+        "sympy/core/tests/test_expr.py::test_as_leading_term_stub": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-19487/dedup_patch_31.jsonl": {
+      "sympy__sympy-19487": {
+        "sympy/core/tests/test_function.py::test_diff_wrt": false,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_instantiation_evaluation": false,
+        "sympy/core/tests/test_function.py::test_evalf_default": false,
+        "sympy/core/tests/test_function.py::test_function__eval_nseries": false,
+        "sympy/core/tests/test_function.py::test_diff_wrt_not_allowed": false,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_Min": false,
+        "sympy/core/tests/test_function.py::test_issue_7027": false,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_rewrite_as_Abs": false,
+        "sympy/core/tests/test_function.py::test_fdiff_argument_index_error": false,
+        "sympy/core/tests/test_function.py::test_Subs": false,
+        "sympy/core/tests/test_expr.py::test_eval_interval": false,
+        "sympy/core/tests/test_expr.py::test_random": false,
+        "sympy/core/tests/test_expr.py::test_as_leading_term_stub": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-19487/dedup_patch_32.jsonl": {
+      "sympy__sympy-19487": {
+        "sympy/core/tests/test_function.py::test_diff_wrt": true,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_instantiation_evaluation": true,
+        "sympy/core/tests/test_function.py::test_evalf_default": true,
+        "sympy/core/tests/test_function.py::test_function__eval_nseries": true,
+        "sympy/core/tests/test_function.py::test_diff_wrt_not_allowed": true,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_Min": true,
+        "sympy/core/tests/test_function.py::test_issue_7027": true,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_rewrite_as_Abs": false,
+        "sympy/core/tests/test_function.py::test_fdiff_argument_index_error": true,
+        "sympy/core/tests/test_function.py::test_Subs": true,
+        "sympy/core/tests/test_expr.py::test_eval_interval": true,
+        "sympy/core/tests/test_expr.py::test_random": true,
+        "sympy/core/tests/test_expr.py::test_as_leading_term_stub": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-19487/dedup_patch_33.jsonl": {
+      "sympy__sympy-19487": {
+        "sympy/core/tests/test_function.py::test_diff_wrt": true,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_instantiation_evaluation": true,
+        "sympy/core/tests/test_function.py::test_evalf_default": true,
+        "sympy/core/tests/test_function.py::test_function__eval_nseries": true,
+        "sympy/core/tests/test_function.py::test_diff_wrt_not_allowed": true,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_Min": true,
+        "sympy/core/tests/test_function.py::test_issue_7027": true,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_rewrite_as_Abs": false,
+        "sympy/core/tests/test_function.py::test_fdiff_argument_index_error": true,
+        "sympy/core/tests/test_function.py::test_Subs": true,
+        "sympy/core/tests/test_expr.py::test_eval_interval": true,
+        "sympy/core/tests/test_expr.py::test_random": true,
+        "sympy/core/tests/test_expr.py::test_as_leading_term_stub": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-19487/dedup_patch_4.jsonl": {
+      "sympy__sympy-19487": {
+        "sympy/core/tests/test_function.py::test_diff_wrt": false,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_instantiation_evaluation": false,
+        "sympy/core/tests/test_function.py::test_evalf_default": false,
+        "sympy/core/tests/test_function.py::test_function__eval_nseries": false,
+        "sympy/core/tests/test_function.py::test_diff_wrt_not_allowed": false,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_Min": false,
+        "sympy/core/tests/test_function.py::test_issue_7027": false,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_rewrite_as_Abs": false,
+        "sympy/core/tests/test_function.py::test_fdiff_argument_index_error": false,
+        "sympy/core/tests/test_function.py::test_Subs": false,
+        "sympy/core/tests/test_expr.py::test_eval_interval": false,
+        "sympy/core/tests/test_expr.py::test_random": false,
+        "sympy/core/tests/test_expr.py::test_as_leading_term_stub": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-19487/dedup_patch_5.jsonl": {
+      "sympy__sympy-19487": {
+        "sympy/core/tests/test_function.py::test_diff_wrt": false,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_instantiation_evaluation": false,
+        "sympy/core/tests/test_function.py::test_evalf_default": false,
+        "sympy/core/tests/test_function.py::test_function__eval_nseries": false,
+        "sympy/core/tests/test_function.py::test_diff_wrt_not_allowed": false,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_Min": false,
+        "sympy/core/tests/test_function.py::test_issue_7027": false,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_rewrite_as_Abs": false,
+        "sympy/core/tests/test_function.py::test_fdiff_argument_index_error": false,
+        "sympy/core/tests/test_function.py::test_Subs": false,
+        "sympy/core/tests/test_expr.py::test_eval_interval": false,
+        "sympy/core/tests/test_expr.py::test_random": false,
+        "sympy/core/tests/test_expr.py::test_as_leading_term_stub": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-19487/dedup_patch_6.jsonl": {
+      "sympy__sympy-19487": {
+        "sympy/core/tests/test_function.py::test_diff_wrt": true,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_instantiation_evaluation": true,
+        "sympy/core/tests/test_function.py::test_evalf_default": true,
+        "sympy/core/tests/test_function.py::test_function__eval_nseries": true,
+        "sympy/core/tests/test_function.py::test_diff_wrt_not_allowed": true,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_Min": true,
+        "sympy/core/tests/test_function.py::test_issue_7027": true,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_rewrite_as_Abs": false,
+        "sympy/core/tests/test_function.py::test_fdiff_argument_index_error": true,
+        "sympy/core/tests/test_function.py::test_Subs": true,
+        "sympy/core/tests/test_expr.py::test_eval_interval": true,
+        "sympy/core/tests/test_expr.py::test_random": true,
+        "sympy/core/tests/test_expr.py::test_as_leading_term_stub": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-19487/dedup_patch_7.jsonl": {
+      "sympy__sympy-19487": {
+        "sympy/core/tests/test_function.py::test_diff_wrt": false,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_instantiation_evaluation": true,
+        "sympy/core/tests/test_function.py::test_evalf_default": false,
+        "sympy/core/tests/test_function.py::test_function__eval_nseries": false,
+        "sympy/core/tests/test_function.py::test_diff_wrt_not_allowed": false,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_Min": false,
+        "sympy/core/tests/test_function.py::test_issue_7027": false,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_rewrite_as_Abs": false,
+        "sympy/core/tests/test_function.py::test_fdiff_argument_index_error": false,
+        "sympy/core/tests/test_function.py::test_Subs": false,
+        "sympy/core/tests/test_expr.py::test_eval_interval": false,
+        "sympy/core/tests/test_expr.py::test_random": false,
+        "sympy/core/tests/test_expr.py::test_as_leading_term_stub": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-19487/dedup_patch_8.jsonl": {
+      "sympy__sympy-19487": {
+        "sympy/core/tests/test_function.py::test_diff_wrt": true,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_instantiation_evaluation": true,
+        "sympy/core/tests/test_function.py::test_evalf_default": true,
+        "sympy/core/tests/test_function.py::test_function__eval_nseries": true,
+        "sympy/core/tests/test_function.py::test_diff_wrt_not_allowed": true,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_Min": true,
+        "sympy/core/tests/test_function.py::test_issue_7027": true,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_rewrite_as_Abs": false,
+        "sympy/core/tests/test_function.py::test_fdiff_argument_index_error": true,
+        "sympy/core/tests/test_function.py::test_Subs": true,
+        "sympy/core/tests/test_expr.py::test_eval_interval": true,
+        "sympy/core/tests/test_expr.py::test_random": true,
+        "sympy/core/tests/test_expr.py::test_as_leading_term_stub": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-19487/dedup_patch_9.jsonl": {
+      "sympy__sympy-19487": {
+        "sympy/core/tests/test_function.py::test_diff_wrt": true,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_instantiation_evaluation": true,
+        "sympy/core/tests/test_function.py::test_evalf_default": true,
+        "sympy/core/tests/test_function.py::test_function__eval_nseries": true,
+        "sympy/core/tests/test_function.py::test_diff_wrt_not_allowed": true,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_Min": true,
+        "sympy/core/tests/test_function.py::test_issue_7027": true,
+        "sympy/functions/elementary/tests/test_miscellaneous.py::test_rewrite_as_Abs": false,
+        "sympy/core/tests/test_function.py::test_fdiff_argument_index_error": true,
+        "sympy/core/tests/test_function.py::test_Subs": true,
+        "sympy/core/tests/test_expr.py::test_eval_interval": true,
+        "sympy/core/tests/test_expr.py::test_random": true,
+        "sympy/core/tests/test_expr.py::test_as_leading_term_stub": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "sympy__sympy-19487": {
+        "sympy/core/tests/test_function.py::test_Derivative_free_symbols#1": false,
+        "sympy/simplify/tests/test_rewrite.py::test_sin_exp_rewrite#2": false,
+        "sympy/core/tests/test_function.py::test_Derivative_free_symbols#3": false,
+        "sympy/functions/elementary/tests/test_complexes.py::test_sign#4": false,
+        "sympy/core/tests/test_function.py::test_function_complex#5": false,
+        "sympy/functions/elementary/tests/test_complexes.py::test_sign#6": false,
+        "sympy/functions/elementary/tests/test_complexes.py::test_im#7": false,
+        "sympy/functions/elementary/tests/test_complexes.py::test_sign#8": false,
+        "sympy/core/tests/test_function.py::test_issue_15947#9": false,
+        "reproduce_bug.py#10": false,
+        "reproduce_bug_new.py#10": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-19487/dedup_patch_0.jsonl": {
+      "sympy__sympy-19487": {
+        "reproduce_bug_new.py#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-19487/dedup_patch_1.jsonl": {
+      "sympy__sympy-19487": {
+        "reproduce_bug_new.py#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-19487/dedup_patch_13.jsonl": {
+      "sympy__sympy-19487": {
+        "reproduce_bug_new.py#10": false
+      }
+    }
+  }
+}

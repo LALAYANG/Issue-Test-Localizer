@@ -1,0 +1,132 @@
+{
+  "regression": {
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-18199/dedup_patch_0.jsonl": {
+      "sympy__sympy-18199": {
+        "sympy/ntheory/tests/test_residue.py::test_residue": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-18199/dedup_patch_1.jsonl": {
+      "sympy__sympy-18199": {
+        "sympy/ntheory/tests/test_residue.py::test_residue": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-18199/dedup_patch_10.jsonl": {
+      "sympy__sympy-18199": {
+        "sympy/ntheory/tests/test_residue.py::test_residue": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-18199/dedup_patch_2.jsonl": {
+      "sympy__sympy-18199": {
+        "sympy/ntheory/tests/test_residue.py::test_residue": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-18199/dedup_patch_3.jsonl": {
+      "sympy__sympy-18199": {
+        "sympy/ntheory/tests/test_residue.py::test_residue": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-18199/dedup_patch_4.jsonl": {
+      "sympy__sympy-18199": {
+        "sympy/ntheory/tests/test_residue.py::test_residue": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-18199/dedup_patch_5.jsonl": {
+      "sympy__sympy-18199": {
+        "sympy/ntheory/tests/test_residue.py::test_residue": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-18199/dedup_patch_6.jsonl": {
+      "sympy__sympy-18199": {
+        "sympy/ntheory/tests/test_residue.py::test_residue": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-18199/dedup_patch_7.jsonl": {
+      "sympy__sympy-18199": {
+        "sympy/ntheory/tests/test_residue.py::test_residue": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-18199/dedup_patch_8.jsonl": {
+      "sympy__sympy-18199": {
+        "sympy/ntheory/tests/test_residue.py::test_residue": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-18199/dedup_patch_9.jsonl": {
+      "sympy__sympy-18199": {
+        "sympy/ntheory/tests/test_residue.py::test_residue": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "sympy__sympy-18199": {
+        "sympy/ntheory/tests/test_modular.py::test_modular#1": false,
+        "sympy/ntheory/tests/test_residue.py::test_residue#2": false,
+        "sympy/ntheory/tests/test_modular.py::test_modular#3": false,
+        "sympy/ntheory/tests/test_modular.py::test_modular#4": false,
+        "sympy/ntheory/tests/test_modular.py::test_modular#5": false,
+        "sympy/ntheory/tests/test_residue.py::test_residue#6": false,
+        "sympy/ntheory/tests/test_residue.py::test_residue#7": false,
+        "sympy/ntheory/tests/test_residue.py::test_residue#8": false,
+        "sympy/ntheory/tests/test_residue.py::test_residue#9": false,
+        "sympy/ntheory/tests/test_residue.py::test_residue#10": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-18199/dedup_patch_0.jsonl": {
+      "sympy__sympy-18199": {
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-18199/dedup_patch_1.jsonl": {
+      "sympy__sympy-18199": {
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-18199/dedup_patch_10.jsonl": {
+      "sympy__sympy-18199": {
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-18199/dedup_patch_2.jsonl": {
+      "sympy__sympy-18199": {
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-18199/dedup_patch_3.jsonl": {
+      "sympy__sympy-18199": {
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-18199/dedup_patch_4.jsonl": {
+      "sympy__sympy-18199": {
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-18199/dedup_patch_5.jsonl": {
+      "sympy__sympy-18199": {
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-18199/dedup_patch_6.jsonl": {
+      "sympy__sympy-18199": {
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-18199/dedup_patch_7.jsonl": {
+      "sympy__sympy-18199": {
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-18199/dedup_patch_8.jsonl": {
+      "sympy__sympy-18199": {
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-18199/dedup_patch_9.jsonl": {
+      "sympy__sympy-18199": {
+        "reproduce_bug_new.py#11": false
+      }
+    }
+  }
+}

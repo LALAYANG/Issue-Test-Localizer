@@ -1,0 +1,321 @@
+{
+  "regression": {},
+  "reproduction": {
+    "fail_on_original_repo": {
+      "pallets__flask-4045": {
+        "tests/test_blueprints.py::test_dotted_names#1": true,
+        "tests/test_blueprints.py::test_nested_blueprint#2": true,
+        "tests/test_blueprints.py::test_dotted_names#3": true,
+        "tests/test_blueprints.py::test_route_decorator_custom_endpoint_with_dots#4": true,
+        "tests/test_blueprints.py::test_route_decorator_custom_endpoint_with_dots#5": true,
+        "tests/test_blueprints.py::test_dotted_names#6": true,
+        "tests/test_blueprints.py::test_dotted_names#7": true,
+        "tests/test_blueprints.py::test_nested_blueprint#8": true,
+        "tests/test_blueprints.py::test_dotted_names#9": true,
+        "tests/test_blueprints.py::test_dotted_names#10": true,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-4045/dedup_patch_0.jsonl": {
+      "pallets__flask-4045": {
+        "tests/test_blueprints.py::test_dotted_names#1": false,
+        "tests/test_blueprints.py::test_nested_blueprint#2": false,
+        "tests/test_blueprints.py::test_dotted_names#3": false,
+        "tests/test_blueprints.py::test_route_decorator_custom_endpoint_with_dots#4": false,
+        "tests/test_blueprints.py::test_route_decorator_custom_endpoint_with_dots#5": false,
+        "tests/test_blueprints.py::test_dotted_names#6": false,
+        "tests/test_blueprints.py::test_dotted_names#7": false,
+        "tests/test_blueprints.py::test_nested_blueprint#8": false,
+        "tests/test_blueprints.py::test_dotted_names#9": false,
+        "tests/test_blueprints.py::test_dotted_names#10": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-4045/dedup_patch_1.jsonl": {
+      "pallets__flask-4045": {
+        "tests/test_blueprints.py::test_dotted_names#1": false,
+        "tests/test_blueprints.py::test_nested_blueprint#2": false,
+        "tests/test_blueprints.py::test_dotted_names#3": false,
+        "tests/test_blueprints.py::test_route_decorator_custom_endpoint_with_dots#4": false,
+        "tests/test_blueprints.py::test_route_decorator_custom_endpoint_with_dots#5": false,
+        "tests/test_blueprints.py::test_dotted_names#6": false,
+        "tests/test_blueprints.py::test_dotted_names#7": false,
+        "tests/test_blueprints.py::test_nested_blueprint#8": false,
+        "tests/test_blueprints.py::test_dotted_names#9": false,
+        "tests/test_blueprints.py::test_dotted_names#10": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-4045/dedup_patch_10.jsonl": {
+      "pallets__flask-4045": {
+        "tests/test_blueprints.py::test_dotted_names#1": false,
+        "tests/test_blueprints.py::test_nested_blueprint#2": false,
+        "tests/test_blueprints.py::test_dotted_names#3": false,
+        "tests/test_blueprints.py::test_route_decorator_custom_endpoint_with_dots#4": false,
+        "tests/test_blueprints.py::test_route_decorator_custom_endpoint_with_dots#5": false,
+        "tests/test_blueprints.py::test_dotted_names#6": false,
+        "tests/test_blueprints.py::test_dotted_names#7": false,
+        "tests/test_blueprints.py::test_nested_blueprint#8": false,
+        "tests/test_blueprints.py::test_dotted_names#9": false,
+        "tests/test_blueprints.py::test_dotted_names#10": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-4045/dedup_patch_11.jsonl": {
+      "pallets__flask-4045": {
+        "tests/test_blueprints.py::test_dotted_names#1": false,
+        "tests/test_blueprints.py::test_nested_blueprint#2": false,
+        "tests/test_blueprints.py::test_dotted_names#3": false,
+        "tests/test_blueprints.py::test_route_decorator_custom_endpoint_with_dots#4": false,
+        "tests/test_blueprints.py::test_route_decorator_custom_endpoint_with_dots#5": false,
+        "tests/test_blueprints.py::test_dotted_names#6": false,
+        "tests/test_blueprints.py::test_dotted_names#7": false,
+        "tests/test_blueprints.py::test_nested_blueprint#8": false,
+        "tests/test_blueprints.py::test_dotted_names#9": false,
+        "tests/test_blueprints.py::test_dotted_names#10": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-4045/dedup_patch_12.jsonl": {
+      "pallets__flask-4045": {
+        "tests/test_blueprints.py::test_dotted_names#1": false,
+        "tests/test_blueprints.py::test_nested_blueprint#2": false,
+        "tests/test_blueprints.py::test_dotted_names#3": false,
+        "tests/test_blueprints.py::test_route_decorator_custom_endpoint_with_dots#4": false,
+        "tests/test_blueprints.py::test_route_decorator_custom_endpoint_with_dots#5": false,
+        "tests/test_blueprints.py::test_dotted_names#6": false,
+        "tests/test_blueprints.py::test_dotted_names#7": false,
+        "tests/test_blueprints.py::test_nested_blueprint#8": false,
+        "tests/test_blueprints.py::test_dotted_names#9": false,
+        "tests/test_blueprints.py::test_dotted_names#10": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-4045/dedup_patch_13.jsonl": {
+      "pallets__flask-4045": {
+        "tests/test_blueprints.py::test_dotted_names#1": false,
+        "tests/test_blueprints.py::test_nested_blueprint#2": false,
+        "tests/test_blueprints.py::test_dotted_names#3": false,
+        "tests/test_blueprints.py::test_route_decorator_custom_endpoint_with_dots#4": false,
+        "tests/test_blueprints.py::test_route_decorator_custom_endpoint_with_dots#5": false,
+        "tests/test_blueprints.py::test_dotted_names#6": false,
+        "tests/test_blueprints.py::test_dotted_names#7": false,
+        "tests/test_blueprints.py::test_nested_blueprint#8": false,
+        "tests/test_blueprints.py::test_dotted_names#9": false,
+        "tests/test_blueprints.py::test_dotted_names#10": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-4045/dedup_patch_14.jsonl": {
+      "pallets__flask-4045": {
+        "tests/test_blueprints.py::test_dotted_names#1": false,
+        "tests/test_blueprints.py::test_nested_blueprint#2": false,
+        "tests/test_blueprints.py::test_dotted_names#3": false,
+        "tests/test_blueprints.py::test_route_decorator_custom_endpoint_with_dots#4": false,
+        "tests/test_blueprints.py::test_route_decorator_custom_endpoint_with_dots#5": false,
+        "tests/test_blueprints.py::test_dotted_names#6": false,
+        "tests/test_blueprints.py::test_dotted_names#7": false,
+        "tests/test_blueprints.py::test_nested_blueprint#8": false,
+        "tests/test_blueprints.py::test_dotted_names#9": false,
+        "tests/test_blueprints.py::test_dotted_names#10": false,
+        "reproduce_bug_new.py#11": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-4045/dedup_patch_15.jsonl": {
+      "pallets__flask-4045": {
+        "tests/test_blueprints.py::test_dotted_names#1": false,
+        "tests/test_blueprints.py::test_nested_blueprint#2": false,
+        "tests/test_blueprints.py::test_dotted_names#3": false,
+        "tests/test_blueprints.py::test_route_decorator_custom_endpoint_with_dots#4": false,
+        "tests/test_blueprints.py::test_route_decorator_custom_endpoint_with_dots#5": false,
+        "tests/test_blueprints.py::test_dotted_names#6": false,
+        "tests/test_blueprints.py::test_dotted_names#7": false,
+        "tests/test_blueprints.py::test_nested_blueprint#8": false,
+        "tests/test_blueprints.py::test_dotted_names#9": false,
+        "tests/test_blueprints.py::test_dotted_names#10": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-4045/dedup_patch_16.jsonl": {
+      "pallets__flask-4045": {
+        "tests/test_blueprints.py::test_dotted_names#1": false,
+        "tests/test_blueprints.py::test_nested_blueprint#2": false,
+        "tests/test_blueprints.py::test_dotted_names#3": false,
+        "tests/test_blueprints.py::test_route_decorator_custom_endpoint_with_dots#4": false,
+        "tests/test_blueprints.py::test_route_decorator_custom_endpoint_with_dots#5": false,
+        "tests/test_blueprints.py::test_dotted_names#6": false,
+        "tests/test_blueprints.py::test_dotted_names#7": false,
+        "tests/test_blueprints.py::test_nested_blueprint#8": false,
+        "tests/test_blueprints.py::test_dotted_names#9": false,
+        "tests/test_blueprints.py::test_dotted_names#10": false,
+        "reproduce_bug_new.py#11": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-4045/dedup_patch_17.jsonl": {
+      "pallets__flask-4045": {
+        "tests/test_blueprints.py::test_dotted_names#1": false,
+        "tests/test_blueprints.py::test_nested_blueprint#2": false,
+        "tests/test_blueprints.py::test_dotted_names#3": false,
+        "tests/test_blueprints.py::test_route_decorator_custom_endpoint_with_dots#4": false,
+        "tests/test_blueprints.py::test_route_decorator_custom_endpoint_with_dots#5": false,
+        "tests/test_blueprints.py::test_dotted_names#6": false,
+        "tests/test_blueprints.py::test_dotted_names#7": false,
+        "tests/test_blueprints.py::test_nested_blueprint#8": false,
+        "tests/test_blueprints.py::test_dotted_names#9": false,
+        "tests/test_blueprints.py::test_dotted_names#10": false,
+        "reproduce_bug_new.py#11": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-4045/dedup_patch_18.jsonl": {
+      "pallets__flask-4045": {
+        "tests/test_blueprints.py::test_dotted_names#1": false,
+        "tests/test_blueprints.py::test_nested_blueprint#2": false,
+        "tests/test_blueprints.py::test_dotted_names#3": false,
+        "tests/test_blueprints.py::test_route_decorator_custom_endpoint_with_dots#4": false,
+        "tests/test_blueprints.py::test_route_decorator_custom_endpoint_with_dots#5": false,
+        "tests/test_blueprints.py::test_dotted_names#6": false,
+        "tests/test_blueprints.py::test_dotted_names#7": false,
+        "tests/test_blueprints.py::test_nested_blueprint#8": false,
+        "tests/test_blueprints.py::test_dotted_names#9": false,
+        "tests/test_blueprints.py::test_dotted_names#10": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-4045/dedup_patch_19.jsonl": {
+      "pallets__flask-4045": {
+        "tests/test_blueprints.py::test_dotted_names#1": false,
+        "tests/test_blueprints.py::test_nested_blueprint#2": false,
+        "tests/test_blueprints.py::test_dotted_names#3": false,
+        "tests/test_blueprints.py::test_route_decorator_custom_endpoint_with_dots#4": false,
+        "tests/test_blueprints.py::test_route_decorator_custom_endpoint_with_dots#5": false,
+        "tests/test_blueprints.py::test_dotted_names#6": false,
+        "tests/test_blueprints.py::test_dotted_names#7": false,
+        "tests/test_blueprints.py::test_nested_blueprint#8": false,
+        "tests/test_blueprints.py::test_dotted_names#9": false,
+        "tests/test_blueprints.py::test_dotted_names#10": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-4045/dedup_patch_2.jsonl": {
+      "pallets__flask-4045": {
+        "tests/test_blueprints.py::test_dotted_names#1": false,
+        "tests/test_blueprints.py::test_nested_blueprint#2": false,
+        "tests/test_blueprints.py::test_dotted_names#3": false,
+        "tests/test_blueprints.py::test_route_decorator_custom_endpoint_with_dots#4": false,
+        "tests/test_blueprints.py::test_route_decorator_custom_endpoint_with_dots#5": false,
+        "tests/test_blueprints.py::test_dotted_names#6": false,
+        "tests/test_blueprints.py::test_dotted_names#7": false,
+        "tests/test_blueprints.py::test_nested_blueprint#8": false,
+        "tests/test_blueprints.py::test_dotted_names#9": false,
+        "tests/test_blueprints.py::test_dotted_names#10": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-4045/dedup_patch_3.jsonl": {
+      "pallets__flask-4045": {
+        "tests/test_blueprints.py::test_dotted_names#1": false,
+        "tests/test_blueprints.py::test_nested_blueprint#2": false,
+        "tests/test_blueprints.py::test_dotted_names#3": false,
+        "tests/test_blueprints.py::test_route_decorator_custom_endpoint_with_dots#4": false,
+        "tests/test_blueprints.py::test_route_decorator_custom_endpoint_with_dots#5": false,
+        "tests/test_blueprints.py::test_dotted_names#6": false,
+        "tests/test_blueprints.py::test_dotted_names#7": false,
+        "tests/test_blueprints.py::test_nested_blueprint#8": false,
+        "tests/test_blueprints.py::test_dotted_names#9": false,
+        "tests/test_blueprints.py::test_dotted_names#10": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-4045/dedup_patch_4.jsonl": {
+      "pallets__flask-4045": {
+        "tests/test_blueprints.py::test_dotted_names#1": false,
+        "tests/test_blueprints.py::test_nested_blueprint#2": false,
+        "tests/test_blueprints.py::test_dotted_names#3": false,
+        "tests/test_blueprints.py::test_route_decorator_custom_endpoint_with_dots#4": false,
+        "tests/test_blueprints.py::test_route_decorator_custom_endpoint_with_dots#5": false,
+        "tests/test_blueprints.py::test_dotted_names#6": false,
+        "tests/test_blueprints.py::test_dotted_names#7": false,
+        "tests/test_blueprints.py::test_nested_blueprint#8": false,
+        "tests/test_blueprints.py::test_dotted_names#9": false,
+        "tests/test_blueprints.py::test_dotted_names#10": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-4045/dedup_patch_5.jsonl": {
+      "pallets__flask-4045": {
+        "tests/test_blueprints.py::test_dotted_names#1": false,
+        "tests/test_blueprints.py::test_nested_blueprint#2": false,
+        "tests/test_blueprints.py::test_dotted_names#3": false,
+        "tests/test_blueprints.py::test_route_decorator_custom_endpoint_with_dots#4": false,
+        "tests/test_blueprints.py::test_route_decorator_custom_endpoint_with_dots#5": false,
+        "tests/test_blueprints.py::test_dotted_names#6": false,
+        "tests/test_blueprints.py::test_dotted_names#7": false,
+        "tests/test_blueprints.py::test_nested_blueprint#8": false,
+        "tests/test_blueprints.py::test_dotted_names#9": false,
+        "tests/test_blueprints.py::test_dotted_names#10": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-4045/dedup_patch_6.jsonl": {
+      "pallets__flask-4045": {
+        "tests/test_blueprints.py::test_dotted_names#1": false,
+        "tests/test_blueprints.py::test_nested_blueprint#2": false,
+        "tests/test_blueprints.py::test_dotted_names#3": false,
+        "tests/test_blueprints.py::test_route_decorator_custom_endpoint_with_dots#4": false,
+        "tests/test_blueprints.py::test_route_decorator_custom_endpoint_with_dots#5": false,
+        "tests/test_blueprints.py::test_dotted_names#6": false,
+        "tests/test_blueprints.py::test_dotted_names#7": false,
+        "tests/test_blueprints.py::test_nested_blueprint#8": false,
+        "tests/test_blueprints.py::test_dotted_names#9": false,
+        "tests/test_blueprints.py::test_dotted_names#10": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-4045/dedup_patch_7.jsonl": {
+      "pallets__flask-4045": {
+        "tests/test_blueprints.py::test_dotted_names#1": false,
+        "tests/test_blueprints.py::test_nested_blueprint#2": false,
+        "tests/test_blueprints.py::test_dotted_names#3": false,
+        "tests/test_blueprints.py::test_route_decorator_custom_endpoint_with_dots#4": false,
+        "tests/test_blueprints.py::test_route_decorator_custom_endpoint_with_dots#5": false,
+        "tests/test_blueprints.py::test_dotted_names#6": false,
+        "tests/test_blueprints.py::test_dotted_names#7": false,
+        "tests/test_blueprints.py::test_nested_blueprint#8": false,
+        "tests/test_blueprints.py::test_dotted_names#9": false,
+        "tests/test_blueprints.py::test_dotted_names#10": false,
+        "reproduce_bug_new.py#11": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-4045/dedup_patch_8.jsonl": {
+      "pallets__flask-4045": {
+        "tests/test_blueprints.py::test_dotted_names#1": false,
+        "tests/test_blueprints.py::test_nested_blueprint#2": false,
+        "tests/test_blueprints.py::test_dotted_names#3": false,
+        "tests/test_blueprints.py::test_route_decorator_custom_endpoint_with_dots#4": false,
+        "tests/test_blueprints.py::test_route_decorator_custom_endpoint_with_dots#5": false,
+        "tests/test_blueprints.py::test_dotted_names#6": false,
+        "tests/test_blueprints.py::test_dotted_names#7": false,
+        "tests/test_blueprints.py::test_nested_blueprint#8": false,
+        "tests/test_blueprints.py::test_dotted_names#9": false,
+        "tests/test_blueprints.py::test_dotted_names#10": false,
+        "reproduce_bug_new.py#11": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-4045/dedup_patch_9.jsonl": {
+      "pallets__flask-4045": {
+        "tests/test_blueprints.py::test_dotted_names#1": false,
+        "tests/test_blueprints.py::test_nested_blueprint#2": false,
+        "tests/test_blueprints.py::test_dotted_names#3": false,
+        "tests/test_blueprints.py::test_route_decorator_custom_endpoint_with_dots#4": false,
+        "tests/test_blueprints.py::test_route_decorator_custom_endpoint_with_dots#5": false,
+        "tests/test_blueprints.py::test_dotted_names#6": false,
+        "tests/test_blueprints.py::test_dotted_names#7": false,
+        "tests/test_blueprints.py::test_nested_blueprint#8": false,
+        "tests/test_blueprints.py::test_dotted_names#9": false,
+        "tests/test_blueprints.py::test_dotted_names#10": false,
+        "reproduce_bug_new.py#11": false
+      }
+    }
+  }
+}

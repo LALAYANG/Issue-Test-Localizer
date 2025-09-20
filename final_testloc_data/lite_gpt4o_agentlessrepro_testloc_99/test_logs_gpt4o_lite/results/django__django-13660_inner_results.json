@@ -1,0 +1,17 @@
+{
+  "regression": {},
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-13660": {
+        "shell.tests.ShellCommandTestCase.test_command_with_function_definition#1": true,
+        "shell.tests.ShellCommandTestCase.test_command_option_with_function#2": true,
+        "shell.tests.ShellCommandTestCase.test_shell_command_with_function#3": true,
+        "shell.tests.ShellCommandTestCase.test_command_option#4": true,
+        "shell.tests.ShellCommandTestCase.test_command_option#5": true,
+        "shell.tests.ShellCommandTestCase.test_shell_command_with_function#6": true,
+        "reproduce_bug.py#7": true,
+        "reproduce_bug_new.py#7": true
+      }
+    }
+  }
+}

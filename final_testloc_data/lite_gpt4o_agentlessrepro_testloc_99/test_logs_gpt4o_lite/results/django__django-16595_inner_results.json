@@ -1,0 +1,213 @@
+{
+  "regression": {
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16595/dedup_patch_0.jsonl": {
+      "django__django-16595": {
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_rename_field": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_delete_field": true,
+        "migrations.test_autodetector.AutodetectorIndexTogetherTests.test_alter_field_and_index_together": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_preserved_db_column": true,
+        "migrations.test_autodetector.AutodetectorTests.test_alter_field_and_unique_together": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16595/dedup_patch_1.jsonl": {
+      "django__django-16595": {
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_rename_field": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_delete_field": true,
+        "migrations.test_autodetector.AutodetectorIndexTogetherTests.test_alter_field_and_index_together": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_preserved_db_column": true,
+        "migrations.test_autodetector.AutodetectorTests.test_alter_field_and_unique_together": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16595/dedup_patch_2.jsonl": {
+      "django__django-16595": {
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_rename_field": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_delete_field": true,
+        "migrations.test_autodetector.AutodetectorIndexTogetherTests.test_alter_field_and_index_together": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_preserved_db_column": true,
+        "migrations.test_autodetector.AutodetectorTests.test_alter_field_and_unique_together": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16595/dedup_patch_3.jsonl": {
+      "django__django-16595": {
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_rename_field": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_delete_field": true,
+        "migrations.test_autodetector.AutodetectorIndexTogetherTests.test_alter_field_and_index_together": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_preserved_db_column": true,
+        "migrations.test_autodetector.AutodetectorTests.test_alter_field_and_unique_together": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16595/dedup_patch_4.jsonl": {
+      "django__django-16595": {
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_rename_field": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_delete_field": true,
+        "migrations.test_autodetector.AutodetectorIndexTogetherTests.test_alter_field_and_index_together": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_preserved_db_column": true,
+        "migrations.test_autodetector.AutodetectorTests.test_alter_field_and_unique_together": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16595/dedup_patch_5.jsonl": {
+      "django__django-16595": {
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_rename_field": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_delete_field": true,
+        "migrations.test_autodetector.AutodetectorIndexTogetherTests.test_alter_field_and_index_together": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_preserved_db_column": true,
+        "migrations.test_autodetector.AutodetectorTests.test_alter_field_and_unique_together": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16595/dedup_patch_6.jsonl": {
+      "django__django-16595": {
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_rename_field": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_delete_field": true,
+        "migrations.test_autodetector.AutodetectorIndexTogetherTests.test_alter_field_and_index_together": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_preserved_db_column": true,
+        "migrations.test_autodetector.AutodetectorTests.test_alter_field_and_unique_together": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16595/dedup_patch_7.jsonl": {
+      "django__django-16595": {
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_rename_field": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_delete_field": true,
+        "migrations.test_autodetector.AutodetectorIndexTogetherTests.test_alter_field_and_index_together": true,
+        "migrations.test_autodetector.AutodetectorTests.test_rename_field_preserved_db_column": true,
+        "migrations.test_autodetector.AutodetectorTests.test_alter_field_and_unique_together": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-16595": {
+        "migrations.test_optimizer.OptimizerTests.test_multiple_alter_field_optimization#1": true,
+        "migrations.test_optimizer.OptimizerTests.test_multiple_alter_field_reduction#2": true,
+        "migrations.test_optimizer.OptimizerTests.test_multiple_alter_field_optimization#3": true,
+        "migrations.test_optimizer.OptimizerTests.test_multiple_alter_field_optimization#4": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_reduction#5": true,
+        "migrations.test_optimizer.OptimizerTests.test_multiple_alter_field_optimization#6": true,
+        "migrations.test_optimizer.OptimizerTests.test_optimize_multiple_alterfield#7": true,
+        "migrations.test_optimizer.OptimizerTests.test_multiple_alter_field_optimization#8": true,
+        "migrations.test_optimizer.OptimizerTests.test_optimize_multiple_alter_field#9": true,
+        "reproduce_bug.py#10": true,
+        "reproduce_bug_new.py#10": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16595/dedup_patch_0.jsonl": {
+      "django__django-16595": {
+        "migrations.test_optimizer.OptimizerTests.test_multiple_alter_field_optimization#1": true,
+        "migrations.test_optimizer.OptimizerTests.test_multiple_alter_field_reduction#2": true,
+        "migrations.test_optimizer.OptimizerTests.test_multiple_alter_field_optimization#3": true,
+        "migrations.test_optimizer.OptimizerTests.test_multiple_alter_field_optimization#4": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_reduction#5": true,
+        "migrations.test_optimizer.OptimizerTests.test_multiple_alter_field_optimization#6": true,
+        "migrations.test_optimizer.OptimizerTests.test_optimize_multiple_alterfield#7": true,
+        "migrations.test_optimizer.OptimizerTests.test_multiple_alter_field_optimization#8": true,
+        "migrations.test_optimizer.OptimizerTests.test_optimize_multiple_alter_field#9": true,
+        "reproduce_bug.py#10": false,
+        "reproduce_bug_new.py#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16595/dedup_patch_1.jsonl": {
+      "django__django-16595": {
+        "migrations.test_optimizer.OptimizerTests.test_multiple_alter_field_optimization#1": true,
+        "migrations.test_optimizer.OptimizerTests.test_multiple_alter_field_reduction#2": true,
+        "migrations.test_optimizer.OptimizerTests.test_multiple_alter_field_optimization#3": true,
+        "migrations.test_optimizer.OptimizerTests.test_multiple_alter_field_optimization#4": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_reduction#5": true,
+        "migrations.test_optimizer.OptimizerTests.test_multiple_alter_field_optimization#6": true,
+        "migrations.test_optimizer.OptimizerTests.test_optimize_multiple_alterfield#7": true,
+        "migrations.test_optimizer.OptimizerTests.test_multiple_alter_field_optimization#8": true,
+        "migrations.test_optimizer.OptimizerTests.test_optimize_multiple_alter_field#9": true,
+        "reproduce_bug.py#10": false,
+        "reproduce_bug_new.py#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16595/dedup_patch_2.jsonl": {
+      "django__django-16595": {
+        "migrations.test_optimizer.OptimizerTests.test_multiple_alter_field_optimization#1": true,
+        "migrations.test_optimizer.OptimizerTests.test_multiple_alter_field_reduction#2": true,
+        "migrations.test_optimizer.OptimizerTests.test_multiple_alter_field_optimization#3": true,
+        "migrations.test_optimizer.OptimizerTests.test_multiple_alter_field_optimization#4": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_reduction#5": true,
+        "migrations.test_optimizer.OptimizerTests.test_multiple_alter_field_optimization#6": true,
+        "migrations.test_optimizer.OptimizerTests.test_optimize_multiple_alterfield#7": true,
+        "migrations.test_optimizer.OptimizerTests.test_multiple_alter_field_optimization#8": true,
+        "migrations.test_optimizer.OptimizerTests.test_optimize_multiple_alter_field#9": true,
+        "reproduce_bug.py#10": false,
+        "reproduce_bug_new.py#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16595/dedup_patch_3.jsonl": {
+      "django__django-16595": {
+        "migrations.test_optimizer.OptimizerTests.test_multiple_alter_field_optimization#1": true,
+        "migrations.test_optimizer.OptimizerTests.test_multiple_alter_field_reduction#2": true,
+        "migrations.test_optimizer.OptimizerTests.test_multiple_alter_field_optimization#3": true,
+        "migrations.test_optimizer.OptimizerTests.test_multiple_alter_field_optimization#4": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_reduction#5": true,
+        "migrations.test_optimizer.OptimizerTests.test_multiple_alter_field_optimization#6": true,
+        "migrations.test_optimizer.OptimizerTests.test_optimize_multiple_alterfield#7": true,
+        "migrations.test_optimizer.OptimizerTests.test_multiple_alter_field_optimization#8": true,
+        "migrations.test_optimizer.OptimizerTests.test_optimize_multiple_alter_field#9": true,
+        "reproduce_bug.py#10": false,
+        "reproduce_bug_new.py#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16595/dedup_patch_4.jsonl": {
+      "django__django-16595": {
+        "migrations.test_optimizer.OptimizerTests.test_multiple_alter_field_optimization#1": true,
+        "migrations.test_optimizer.OptimizerTests.test_multiple_alter_field_reduction#2": true,
+        "migrations.test_optimizer.OptimizerTests.test_multiple_alter_field_optimization#3": true,
+        "migrations.test_optimizer.OptimizerTests.test_multiple_alter_field_optimization#4": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_reduction#5": true,
+        "migrations.test_optimizer.OptimizerTests.test_multiple_alter_field_optimization#6": true,
+        "migrations.test_optimizer.OptimizerTests.test_optimize_multiple_alterfield#7": true,
+        "migrations.test_optimizer.OptimizerTests.test_multiple_alter_field_optimization#8": true,
+        "migrations.test_optimizer.OptimizerTests.test_optimize_multiple_alter_field#9": true,
+        "reproduce_bug.py#10": false,
+        "reproduce_bug_new.py#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16595/dedup_patch_5.jsonl": {
+      "django__django-16595": {
+        "migrations.test_optimizer.OptimizerTests.test_multiple_alter_field_optimization#1": true,
+        "migrations.test_optimizer.OptimizerTests.test_multiple_alter_field_reduction#2": true,
+        "migrations.test_optimizer.OptimizerTests.test_multiple_alter_field_optimization#3": true,
+        "migrations.test_optimizer.OptimizerTests.test_multiple_alter_field_optimization#4": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_reduction#5": true,
+        "migrations.test_optimizer.OptimizerTests.test_multiple_alter_field_optimization#6": true,
+        "migrations.test_optimizer.OptimizerTests.test_optimize_multiple_alterfield#7": true,
+        "migrations.test_optimizer.OptimizerTests.test_multiple_alter_field_optimization#8": true,
+        "migrations.test_optimizer.OptimizerTests.test_optimize_multiple_alter_field#9": true,
+        "reproduce_bug.py#10": false,
+        "reproduce_bug_new.py#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16595/dedup_patch_6.jsonl": {
+      "django__django-16595": {
+        "migrations.test_optimizer.OptimizerTests.test_multiple_alter_field_optimization#1": true,
+        "migrations.test_optimizer.OptimizerTests.test_multiple_alter_field_reduction#2": true,
+        "migrations.test_optimizer.OptimizerTests.test_multiple_alter_field_optimization#3": true,
+        "migrations.test_optimizer.OptimizerTests.test_multiple_alter_field_optimization#4": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_reduction#5": true,
+        "migrations.test_optimizer.OptimizerTests.test_multiple_alter_field_optimization#6": true,
+        "migrations.test_optimizer.OptimizerTests.test_optimize_multiple_alterfield#7": true,
+        "migrations.test_optimizer.OptimizerTests.test_multiple_alter_field_optimization#8": true,
+        "migrations.test_optimizer.OptimizerTests.test_optimize_multiple_alter_field#9": true,
+        "reproduce_bug.py#10": false,
+        "reproduce_bug_new.py#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16595/dedup_patch_7.jsonl": {
+      "django__django-16595": {
+        "migrations.test_optimizer.OptimizerTests.test_multiple_alter_field_optimization#1": true,
+        "migrations.test_optimizer.OptimizerTests.test_multiple_alter_field_reduction#2": true,
+        "migrations.test_optimizer.OptimizerTests.test_multiple_alter_field_optimization#3": true,
+        "migrations.test_optimizer.OptimizerTests.test_multiple_alter_field_optimization#4": true,
+        "migrations.test_optimizer.OptimizerTests.test_alter_field_reduction#5": true,
+        "migrations.test_optimizer.OptimizerTests.test_multiple_alter_field_optimization#6": true,
+        "migrations.test_optimizer.OptimizerTests.test_optimize_multiple_alterfield#7": true,
+        "migrations.test_optimizer.OptimizerTests.test_multiple_alter_field_optimization#8": true,
+        "migrations.test_optimizer.OptimizerTests.test_optimize_multiple_alter_field#9": true,
+        "reproduce_bug.py#10": false,
+        "reproduce_bug_new.py#10": false
+      }
+    }
+  }
+}

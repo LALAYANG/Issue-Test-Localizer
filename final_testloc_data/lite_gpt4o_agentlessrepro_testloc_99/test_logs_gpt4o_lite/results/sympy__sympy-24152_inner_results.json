@@ -1,0 +1,116 @@
+{
+  "regression": {
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-24152/dedup_patch_0.jsonl": {
+      "sympy__sympy-24152": {
+        "sympy/physics/quantum/tests/test_tensorproduct.py::test_tensor_product_commutator": true,
+        "sympy/physics/quantum/tests/test_tensorproduct.py::test_tensor_product_expand": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-24152/dedup_patch_1.jsonl": {
+      "sympy__sympy-24152": {
+        "sympy/physics/quantum/tests/test_tensorproduct.py::test_tensor_product_commutator": true,
+        "sympy/physics/quantum/tests/test_tensorproduct.py::test_tensor_product_expand": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-24152/dedup_patch_2.jsonl": {
+      "sympy__sympy-24152": {
+        "sympy/physics/quantum/tests/test_tensorproduct.py::test_tensor_product_commutator": true,
+        "sympy/physics/quantum/tests/test_tensorproduct.py::test_tensor_product_expand": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-24152/dedup_patch_3.jsonl": {
+      "sympy__sympy-24152": {
+        "sympy/physics/quantum/tests/test_tensorproduct.py::test_tensor_product_commutator": false,
+        "sympy/physics/quantum/tests/test_tensorproduct.py::test_tensor_product_expand": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-24152/dedup_patch_4.jsonl": {
+      "sympy__sympy-24152": {
+        "sympy/physics/quantum/tests/test_tensorproduct.py::test_tensor_product_commutator": false,
+        "sympy/physics/quantum/tests/test_tensorproduct.py::test_tensor_product_expand": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-24152/dedup_patch_5.jsonl": {
+      "sympy__sympy-24152": {
+        "sympy/physics/quantum/tests/test_tensorproduct.py::test_tensor_product_commutator": true,
+        "sympy/physics/quantum/tests/test_tensorproduct.py::test_tensor_product_expand": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-24152/dedup_patch_6.jsonl": {
+      "sympy__sympy-24152": {
+        "sympy/physics/quantum/tests/test_tensorproduct.py::test_tensor_product_commutator": true,
+        "sympy/physics/quantum/tests/test_tensorproduct.py::test_tensor_product_expand": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-24152/dedup_patch_7.jsonl": {
+      "sympy__sympy-24152": {
+        "sympy/physics/quantum/tests/test_tensorproduct.py::test_tensor_product_commutator": true,
+        "sympy/physics/quantum/tests/test_tensorproduct.py::test_tensor_product_expand": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-24152/dedup_patch_8.jsonl": {
+      "sympy__sympy-24152": {
+        "sympy/physics/quantum/tests/test_tensorproduct.py::test_tensor_product_commutator": true,
+        "sympy/physics/quantum/tests/test_tensorproduct.py::test_tensor_product_expand": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-24152/dedup_patch_9.jsonl": {
+      "sympy__sympy-24152": {
+        "sympy/physics/quantum/tests/test_tensorproduct.py::test_tensor_product_commutator": true,
+        "sympy/physics/quantum/tests/test_tensorproduct.py::test_tensor_product_expand": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "sympy__sympy-24152": {
+        "sympy/physics/quantum/tests/test_tensorproduct.py::test_tensor_product_expand#1": false,
+        "sympy/physics/quantum/tests/test_tensorproduct.py::test_tensor_product_abstract#2": false,
+        "sympy/physics/quantum/tests/test_tensorproduct.py::test_tensor_product_expand#3": false,
+        "sympy/physics/quantum/tests/test_tensorproduct.py::test_tensor_product_expand#4": false,
+        "sympy/physics/quantum/tests/test_tensorproduct.py::test_issue_5923#5": false,
+        "sympy/physics/quantum/tests/test_tensorproduct.py::test_tensor_product_expand#6": false,
+        "sympy/physics/quantum/tests/test_tensorproduct.py::test_tensor_product_expand#7": false,
+        "sympy/physics/quantum/tests/test_tensorproduct.py::test_tensor_product_expand#8": false,
+        "sympy/physics/quantum/tests/test_tensorproduct.py::test_issue_5923#9": false,
+        "reproduce_bug.py#10": false,
+        "reproduce_bug_new.py#10": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-24152/dedup_patch_0.jsonl": {
+      "sympy__sympy-24152": {
+        "reproduce_bug_new.py#10": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-24152/dedup_patch_1.jsonl": {
+      "sympy__sympy-24152": {
+        "reproduce_bug_new.py#10": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-24152/dedup_patch_5.jsonl": {
+      "sympy__sympy-24152": {
+        "reproduce_bug_new.py#10": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-24152/dedup_patch_6.jsonl": {
+      "sympy__sympy-24152": {
+        "reproduce_bug_new.py#10": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-24152/dedup_patch_7.jsonl": {
+      "sympy__sympy-24152": {
+        "reproduce_bug_new.py#10": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-24152/dedup_patch_8.jsonl": {
+      "sympy__sympy-24152": {
+        "reproduce_bug_new.py#10": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-24152/dedup_patch_9.jsonl": {
+      "sympy__sympy-24152": {
+        "reproduce_bug_new.py#10": true
+      }
+    }
+  }
+}

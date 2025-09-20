@@ -1,0 +1,542 @@
+{
+  "regression": {
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-14667/dedup_patch_0.jsonl": {
+      "django__django-14667": {
+        "defer.tests.DeferTests.test_only_none_raises_error": true,
+        "defer_regress.tests.DeferAnnotateSelectRelatedTest.test_defer_annotate_select_related": true,
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": true,
+        "defer.tests.DeferTests.test_defer_only_chaining": false,
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": true,
+        "defer_regress.tests.DeferRegressionTest.test_basic": true,
+        "defer.tests.DeferTests.test_only": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-14667/dedup_patch_1.jsonl": {
+      "django__django-14667": {
+        "defer.tests.DeferTests.test_only_none_raises_error": true,
+        "defer_regress.tests.DeferAnnotateSelectRelatedTest.test_defer_annotate_select_related": true,
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": true,
+        "defer.tests.DeferTests.test_defer_only_chaining": true,
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": true,
+        "defer_regress.tests.DeferRegressionTest.test_basic": true,
+        "defer.tests.DeferTests.test_only": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-14667/dedup_patch_10.jsonl": {
+      "django__django-14667": {
+        "defer.tests.DeferTests.test_only_none_raises_error": true,
+        "defer_regress.tests.DeferAnnotateSelectRelatedTest.test_defer_annotate_select_related": false,
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": false,
+        "defer.tests.DeferTests.test_defer_only_chaining": false,
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": false,
+        "defer_regress.tests.DeferRegressionTest.test_basic": false,
+        "defer.tests.DeferTests.test_only": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-14667/dedup_patch_11.jsonl": {
+      "django__django-14667": {
+        "defer.tests.DeferTests.test_only_none_raises_error": true,
+        "defer_regress.tests.DeferAnnotateSelectRelatedTest.test_defer_annotate_select_related": true,
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": false,
+        "defer.tests.DeferTests.test_defer_only_chaining": false,
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": true,
+        "defer_regress.tests.DeferRegressionTest.test_basic": true,
+        "defer.tests.DeferTests.test_only": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-14667/dedup_patch_12.jsonl": {
+      "django__django-14667": {
+        "defer.tests.DeferTests.test_only_none_raises_error": true,
+        "defer_regress.tests.DeferAnnotateSelectRelatedTest.test_defer_annotate_select_related": true,
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": true,
+        "defer.tests.DeferTests.test_defer_only_chaining": false,
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": true,
+        "defer_regress.tests.DeferRegressionTest.test_basic": true,
+        "defer.tests.DeferTests.test_only": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-14667/dedup_patch_13.jsonl": {
+      "django__django-14667": {
+        "defer.tests.DeferTests.test_only_none_raises_error": true,
+        "defer_regress.tests.DeferAnnotateSelectRelatedTest.test_defer_annotate_select_related": true,
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": true,
+        "defer.tests.DeferTests.test_defer_only_chaining": false,
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": true,
+        "defer_regress.tests.DeferRegressionTest.test_basic": true,
+        "defer.tests.DeferTests.test_only": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-14667/dedup_patch_14.jsonl": {
+      "django__django-14667": {
+        "defer.tests.DeferTests.test_only_none_raises_error": true,
+        "defer_regress.tests.DeferAnnotateSelectRelatedTest.test_defer_annotate_select_related": true,
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": false,
+        "defer.tests.DeferTests.test_defer_only_chaining": true,
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": true,
+        "defer_regress.tests.DeferRegressionTest.test_basic": true,
+        "defer.tests.DeferTests.test_only": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-14667/dedup_patch_15.jsonl": {
+      "django__django-14667": {
+        "defer.tests.DeferTests.test_only_none_raises_error": true,
+        "defer_regress.tests.DeferAnnotateSelectRelatedTest.test_defer_annotate_select_related": true,
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": true,
+        "defer.tests.DeferTests.test_defer_only_chaining": false,
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": true,
+        "defer_regress.tests.DeferRegressionTest.test_basic": true,
+        "defer.tests.DeferTests.test_only": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-14667/dedup_patch_16.jsonl": {
+      "django__django-14667": {
+        "defer.tests.DeferTests.test_only_none_raises_error": true,
+        "defer_regress.tests.DeferAnnotateSelectRelatedTest.test_defer_annotate_select_related": true,
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": true,
+        "defer.tests.DeferTests.test_defer_only_chaining": false,
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": true,
+        "defer_regress.tests.DeferRegressionTest.test_basic": true,
+        "defer.tests.DeferTests.test_only": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-14667/dedup_patch_17.jsonl": {
+      "django__django-14667": {
+        "defer.tests.DeferTests.test_only_none_raises_error": true,
+        "defer_regress.tests.DeferAnnotateSelectRelatedTest.test_defer_annotate_select_related": true,
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": true,
+        "defer.tests.DeferTests.test_defer_only_chaining": false,
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": true,
+        "defer_regress.tests.DeferRegressionTest.test_basic": true,
+        "defer.tests.DeferTests.test_only": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-14667/dedup_patch_18.jsonl": {
+      "django__django-14667": {
+        "defer.tests.DeferTests.test_only_none_raises_error": true,
+        "defer_regress.tests.DeferAnnotateSelectRelatedTest.test_defer_annotate_select_related": true,
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": true,
+        "defer.tests.DeferTests.test_defer_only_chaining": true,
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": true,
+        "defer_regress.tests.DeferRegressionTest.test_basic": true,
+        "defer.tests.DeferTests.test_only": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-14667/dedup_patch_19.jsonl": {
+      "django__django-14667": {
+        "defer.tests.DeferTests.test_only_none_raises_error": true,
+        "defer_regress.tests.DeferAnnotateSelectRelatedTest.test_defer_annotate_select_related": true,
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": true,
+        "defer.tests.DeferTests.test_defer_only_chaining": false,
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": true,
+        "defer_regress.tests.DeferRegressionTest.test_basic": true,
+        "defer.tests.DeferTests.test_only": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-14667/dedup_patch_2.jsonl": {
+      "django__django-14667": {
+        "defer.tests.DeferTests.test_only_none_raises_error": false,
+        "defer_regress.tests.DeferAnnotateSelectRelatedTest.test_defer_annotate_select_related": false,
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": false,
+        "defer.tests.DeferTests.test_defer_only_chaining": false,
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": true,
+        "defer_regress.tests.DeferRegressionTest.test_basic": false,
+        "defer.tests.DeferTests.test_only": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-14667/dedup_patch_20.jsonl": {
+      "django__django-14667": {
+        "defer.tests.DeferTests.test_only_none_raises_error": true,
+        "defer_regress.tests.DeferAnnotateSelectRelatedTest.test_defer_annotate_select_related": true,
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": true,
+        "defer.tests.DeferTests.test_defer_only_chaining": true,
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": true,
+        "defer_regress.tests.DeferRegressionTest.test_basic": true,
+        "defer.tests.DeferTests.test_only": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-14667/dedup_patch_21.jsonl": {
+      "django__django-14667": {
+        "defer.tests.DeferTests.test_only_none_raises_error": true,
+        "defer_regress.tests.DeferAnnotateSelectRelatedTest.test_defer_annotate_select_related": false,
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": false,
+        "defer.tests.DeferTests.test_defer_only_chaining": false,
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": false,
+        "defer_regress.tests.DeferRegressionTest.test_basic": false,
+        "defer.tests.DeferTests.test_only": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-14667/dedup_patch_22.jsonl": {
+      "django__django-14667": {
+        "defer.tests.DeferTests.test_only_none_raises_error": true,
+        "defer_regress.tests.DeferAnnotateSelectRelatedTest.test_defer_annotate_select_related": false,
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": false,
+        "defer.tests.DeferTests.test_defer_only_chaining": false,
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": false,
+        "defer_regress.tests.DeferRegressionTest.test_basic": false,
+        "defer.tests.DeferTests.test_only": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-14667/dedup_patch_23.jsonl": {
+      "django__django-14667": {
+        "defer.tests.DeferTests.test_only_none_raises_error": false,
+        "defer_regress.tests.DeferAnnotateSelectRelatedTest.test_defer_annotate_select_related": false,
+        "queries.tests.Queries3Tests.test_ticket22023": false,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": false,
+        "defer.tests.DeferTests.test_defer_only_chaining": false,
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": false,
+        "defer_regress.tests.DeferRegressionTest.test_basic": false,
+        "defer.tests.DeferTests.test_only": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-14667/dedup_patch_24.jsonl": {
+      "django__django-14667": {
+        "defer.tests.DeferTests.test_only_none_raises_error": true,
+        "defer_regress.tests.DeferAnnotateSelectRelatedTest.test_defer_annotate_select_related": true,
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": false,
+        "defer.tests.DeferTests.test_defer_only_chaining": false,
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": true,
+        "defer_regress.tests.DeferRegressionTest.test_basic": true,
+        "defer.tests.DeferTests.test_only": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-14667/dedup_patch_25.jsonl": {
+      "django__django-14667": {
+        "defer.tests.DeferTests.test_only_none_raises_error": true,
+        "defer_regress.tests.DeferAnnotateSelectRelatedTest.test_defer_annotate_select_related": true,
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": true,
+        "defer.tests.DeferTests.test_defer_only_chaining": false,
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": true,
+        "defer_regress.tests.DeferRegressionTest.test_basic": true,
+        "defer.tests.DeferTests.test_only": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-14667/dedup_patch_26.jsonl": {
+      "django__django-14667": {
+        "defer.tests.DeferTests.test_only_none_raises_error": true,
+        "defer_regress.tests.DeferAnnotateSelectRelatedTest.test_defer_annotate_select_related": false,
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": false,
+        "defer.tests.DeferTests.test_defer_only_chaining": false,
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": false,
+        "defer_regress.tests.DeferRegressionTest.test_basic": false,
+        "defer.tests.DeferTests.test_only": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-14667/dedup_patch_27.jsonl": {
+      "django__django-14667": {
+        "defer.tests.DeferTests.test_only_none_raises_error": true,
+        "defer_regress.tests.DeferAnnotateSelectRelatedTest.test_defer_annotate_select_related": true,
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": true,
+        "defer.tests.DeferTests.test_defer_only_chaining": false,
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": true,
+        "defer_regress.tests.DeferRegressionTest.test_basic": true,
+        "defer.tests.DeferTests.test_only": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-14667/dedup_patch_28.jsonl": {
+      "django__django-14667": {
+        "defer.tests.DeferTests.test_only_none_raises_error": true,
+        "defer_regress.tests.DeferAnnotateSelectRelatedTest.test_defer_annotate_select_related": true,
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": true,
+        "defer.tests.DeferTests.test_defer_only_chaining": false,
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": true,
+        "defer_regress.tests.DeferRegressionTest.test_basic": true,
+        "defer.tests.DeferTests.test_only": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-14667/dedup_patch_29.jsonl": {
+      "django__django-14667": {
+        "defer.tests.DeferTests.test_only_none_raises_error": true,
+        "defer_regress.tests.DeferAnnotateSelectRelatedTest.test_defer_annotate_select_related": true,
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": true,
+        "defer.tests.DeferTests.test_defer_only_chaining": false,
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": true,
+        "defer_regress.tests.DeferRegressionTest.test_basic": true,
+        "defer.tests.DeferTests.test_only": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-14667/dedup_patch_3.jsonl": {
+      "django__django-14667": {
+        "defer.tests.DeferTests.test_only_none_raises_error": true,
+        "defer_regress.tests.DeferAnnotateSelectRelatedTest.test_defer_annotate_select_related": false,
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": false,
+        "defer.tests.DeferTests.test_defer_only_chaining": false,
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": false,
+        "defer_regress.tests.DeferRegressionTest.test_basic": false,
+        "defer.tests.DeferTests.test_only": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-14667/dedup_patch_30.jsonl": {
+      "django__django-14667": {
+        "defer.tests.DeferTests.test_only_none_raises_error": true,
+        "defer_regress.tests.DeferAnnotateSelectRelatedTest.test_defer_annotate_select_related": true,
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": true,
+        "defer.tests.DeferTests.test_defer_only_chaining": false,
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": true,
+        "defer_regress.tests.DeferRegressionTest.test_basic": true,
+        "defer.tests.DeferTests.test_only": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-14667/dedup_patch_31.jsonl": {
+      "django__django-14667": {
+        "defer.tests.DeferTests.test_only_none_raises_error": true,
+        "defer_regress.tests.DeferAnnotateSelectRelatedTest.test_defer_annotate_select_related": true,
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": true,
+        "defer.tests.DeferTests.test_defer_only_chaining": true,
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": true,
+        "defer_regress.tests.DeferRegressionTest.test_basic": true,
+        "defer.tests.DeferTests.test_only": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-14667/dedup_patch_32.jsonl": {
+      "django__django-14667": {
+        "defer.tests.DeferTests.test_only_none_raises_error": true,
+        "defer_regress.tests.DeferAnnotateSelectRelatedTest.test_defer_annotate_select_related": true,
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": true,
+        "defer.tests.DeferTests.test_defer_only_chaining": true,
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": true,
+        "defer_regress.tests.DeferRegressionTest.test_basic": true,
+        "defer.tests.DeferTests.test_only": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-14667/dedup_patch_4.jsonl": {
+      "django__django-14667": {
+        "defer.tests.DeferTests.test_only_none_raises_error": true,
+        "defer_regress.tests.DeferAnnotateSelectRelatedTest.test_defer_annotate_select_related": true,
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": true,
+        "defer.tests.DeferTests.test_defer_only_chaining": true,
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": true,
+        "defer_regress.tests.DeferRegressionTest.test_basic": true,
+        "defer.tests.DeferTests.test_only": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-14667/dedup_patch_5.jsonl": {
+      "django__django-14667": {
+        "defer.tests.DeferTests.test_only_none_raises_error": true,
+        "defer_regress.tests.DeferAnnotateSelectRelatedTest.test_defer_annotate_select_related": true,
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": true,
+        "defer.tests.DeferTests.test_defer_only_chaining": false,
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": true,
+        "defer_regress.tests.DeferRegressionTest.test_basic": true,
+        "defer.tests.DeferTests.test_only": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-14667/dedup_patch_6.jsonl": {
+      "django__django-14667": {
+        "defer.tests.DeferTests.test_only_none_raises_error": true,
+        "defer_regress.tests.DeferAnnotateSelectRelatedTest.test_defer_annotate_select_related": true,
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": true,
+        "defer.tests.DeferTests.test_defer_only_chaining": true,
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": true,
+        "defer_regress.tests.DeferRegressionTest.test_basic": true,
+        "defer.tests.DeferTests.test_only": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-14667/dedup_patch_7.jsonl": {
+      "django__django-14667": {
+        "defer.tests.DeferTests.test_only_none_raises_error": true,
+        "defer_regress.tests.DeferAnnotateSelectRelatedTest.test_defer_annotate_select_related": true,
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": true,
+        "defer.tests.DeferTests.test_defer_only_chaining": false,
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": true,
+        "defer_regress.tests.DeferRegressionTest.test_basic": true,
+        "defer.tests.DeferTests.test_only": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-14667/dedup_patch_8.jsonl": {
+      "django__django-14667": {
+        "defer.tests.DeferTests.test_only_none_raises_error": true,
+        "defer_regress.tests.DeferAnnotateSelectRelatedTest.test_defer_annotate_select_related": true,
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": true,
+        "defer.tests.DeferTests.test_defer_only_chaining": true,
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": true,
+        "defer_regress.tests.DeferRegressionTest.test_basic": true,
+        "defer.tests.DeferTests.test_only": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-14667/dedup_patch_9.jsonl": {
+      "django__django-14667": {
+        "defer.tests.DeferTests.test_only_none_raises_error": true,
+        "defer_regress.tests.DeferAnnotateSelectRelatedTest.test_defer_annotate_select_related": true,
+        "queries.tests.Queries3Tests.test_ticket22023": true,
+        "defer.tests.DeferTests.test_defer_none_to_clear_deferred_set": true,
+        "defer.tests.DeferTests.test_defer_only_chaining": true,
+        "defer_regress.tests.DeferRegressionTest.test_defer_with_select_related": true,
+        "defer_regress.tests.DeferRegressionTest.test_basic": true,
+        "defer.tests.DeferTests.test_only": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-14667": {
+        "defer.tests.DeferTests.test_defer_only_chaining#1": true,
+        "defer.tests.DeferTests.test_defer_only_chaining#2": true,
+        "defer.tests.DeferTests.test_defer_only_chaining_with_single_field#3": true,
+        "defer.tests.DeferTests.test_defer_only_chaining_with_single_field#4": true,
+        "defer.tests.DeferTests.test_defer_only_chaining_clears_deferred_fields#5": true,
+        "defer.tests.DeferTests.test_defer_only_chaining_with_single_field#6": true,
+        "defer.tests.DeferTests.test_defer_only_chaining#7": true,
+        "defer.tests.DeferTests.test_defer_only_chaining_with_single_field#8": true,
+        "defer.tests.DeferTests.test_defer_only_chaining#9": true,
+        "defer.tests.DeferTests.test_defer_only_behavior#10": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-14667/dedup_patch_1.jsonl": {
+      "django__django-14667": {
+        "defer.tests.DeferTests.test_defer_only_chaining#1": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#2": false,
+        "defer.tests.DeferTests.test_defer_only_chaining_with_single_field#3": false,
+        "defer.tests.DeferTests.test_defer_only_chaining_with_single_field#4": false,
+        "defer.tests.DeferTests.test_defer_only_chaining_clears_deferred_fields#5": false,
+        "defer.tests.DeferTests.test_defer_only_chaining_with_single_field#6": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#7": false,
+        "defer.tests.DeferTests.test_defer_only_chaining_with_single_field#8": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#9": false,
+        "defer.tests.DeferTests.test_defer_only_behavior#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-14667/dedup_patch_18.jsonl": {
+      "django__django-14667": {
+        "defer.tests.DeferTests.test_defer_only_chaining#1": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#2": false,
+        "defer.tests.DeferTests.test_defer_only_chaining_with_single_field#3": false,
+        "defer.tests.DeferTests.test_defer_only_chaining_with_single_field#4": false,
+        "defer.tests.DeferTests.test_defer_only_chaining_clears_deferred_fields#5": false,
+        "defer.tests.DeferTests.test_defer_only_chaining_with_single_field#6": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#7": false,
+        "defer.tests.DeferTests.test_defer_only_chaining_with_single_field#8": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#9": false,
+        "defer.tests.DeferTests.test_defer_only_behavior#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-14667/dedup_patch_20.jsonl": {
+      "django__django-14667": {
+        "defer.tests.DeferTests.test_defer_only_chaining#1": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#2": false,
+        "defer.tests.DeferTests.test_defer_only_chaining_with_single_field#3": false,
+        "defer.tests.DeferTests.test_defer_only_chaining_with_single_field#4": false,
+        "defer.tests.DeferTests.test_defer_only_chaining_clears_deferred_fields#5": false,
+        "defer.tests.DeferTests.test_defer_only_chaining_with_single_field#6": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#7": false,
+        "defer.tests.DeferTests.test_defer_only_chaining_with_single_field#8": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#9": false,
+        "defer.tests.DeferTests.test_defer_only_behavior#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-14667/dedup_patch_31.jsonl": {
+      "django__django-14667": {
+        "defer.tests.DeferTests.test_defer_only_chaining#1": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#2": false,
+        "defer.tests.DeferTests.test_defer_only_chaining_with_single_field#3": false,
+        "defer.tests.DeferTests.test_defer_only_chaining_with_single_field#4": false,
+        "defer.tests.DeferTests.test_defer_only_chaining_clears_deferred_fields#5": false,
+        "defer.tests.DeferTests.test_defer_only_chaining_with_single_field#6": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#7": false,
+        "defer.tests.DeferTests.test_defer_only_chaining_with_single_field#8": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#9": false,
+        "defer.tests.DeferTests.test_defer_only_behavior#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-14667/dedup_patch_32.jsonl": {
+      "django__django-14667": {
+        "defer.tests.DeferTests.test_defer_only_chaining#1": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#2": false,
+        "defer.tests.DeferTests.test_defer_only_chaining_with_single_field#3": false,
+        "defer.tests.DeferTests.test_defer_only_chaining_with_single_field#4": false,
+        "defer.tests.DeferTests.test_defer_only_chaining_clears_deferred_fields#5": false,
+        "defer.tests.DeferTests.test_defer_only_chaining_with_single_field#6": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#7": false,
+        "defer.tests.DeferTests.test_defer_only_chaining_with_single_field#8": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#9": false,
+        "defer.tests.DeferTests.test_defer_only_behavior#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-14667/dedup_patch_4.jsonl": {
+      "django__django-14667": {
+        "defer.tests.DeferTests.test_defer_only_chaining#1": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#2": false,
+        "defer.tests.DeferTests.test_defer_only_chaining_with_single_field#3": false,
+        "defer.tests.DeferTests.test_defer_only_chaining_with_single_field#4": false,
+        "defer.tests.DeferTests.test_defer_only_chaining_clears_deferred_fields#5": false,
+        "defer.tests.DeferTests.test_defer_only_chaining_with_single_field#6": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#7": false,
+        "defer.tests.DeferTests.test_defer_only_chaining_with_single_field#8": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#9": false,
+        "defer.tests.DeferTests.test_defer_only_behavior#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-14667/dedup_patch_6.jsonl": {
+      "django__django-14667": {
+        "defer.tests.DeferTests.test_defer_only_chaining#1": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#2": false,
+        "defer.tests.DeferTests.test_defer_only_chaining_with_single_field#3": false,
+        "defer.tests.DeferTests.test_defer_only_chaining_with_single_field#4": false,
+        "defer.tests.DeferTests.test_defer_only_chaining_clears_deferred_fields#5": false,
+        "defer.tests.DeferTests.test_defer_only_chaining_with_single_field#6": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#7": false,
+        "defer.tests.DeferTests.test_defer_only_chaining_with_single_field#8": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#9": false,
+        "defer.tests.DeferTests.test_defer_only_behavior#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-14667/dedup_patch_8.jsonl": {
+      "django__django-14667": {
+        "defer.tests.DeferTests.test_defer_only_chaining#1": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#2": false,
+        "defer.tests.DeferTests.test_defer_only_chaining_with_single_field#3": false,
+        "defer.tests.DeferTests.test_defer_only_chaining_with_single_field#4": false,
+        "defer.tests.DeferTests.test_defer_only_chaining_clears_deferred_fields#5": false,
+        "defer.tests.DeferTests.test_defer_only_chaining_with_single_field#6": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#7": false,
+        "defer.tests.DeferTests.test_defer_only_chaining_with_single_field#8": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#9": false,
+        "defer.tests.DeferTests.test_defer_only_behavior#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-14667/dedup_patch_9.jsonl": {
+      "django__django-14667": {
+        "defer.tests.DeferTests.test_defer_only_chaining#1": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#2": false,
+        "defer.tests.DeferTests.test_defer_only_chaining_with_single_field#3": false,
+        "defer.tests.DeferTests.test_defer_only_chaining_with_single_field#4": false,
+        "defer.tests.DeferTests.test_defer_only_chaining_clears_deferred_fields#5": false,
+        "defer.tests.DeferTests.test_defer_only_chaining_with_single_field#6": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#7": false,
+        "defer.tests.DeferTests.test_defer_only_chaining_with_single_field#8": false,
+        "defer.tests.DeferTests.test_defer_only_chaining#9": false,
+        "defer.tests.DeferTests.test_defer_only_behavior#10": false
+      }
+    }
+  }
+}

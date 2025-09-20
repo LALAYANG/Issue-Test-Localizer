@@ -1,0 +1,106 @@
+{
+  "regression": {
+    "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-5227/dedup_patch_0.jsonl": {
+      "pytest-dev__pytest-5227": {
+        "testing/logging/test_reporting.py::test_teardown_logging": true,
+        "testing/logging/test_reporting.py::test_log_cli_default_level_multiple_tests": true,
+        "testing/logging/test_reporting.py::test_collection_logging_to_file": true,
+        "testing/logging/test_reporting.py::test_log_file_ini": true,
+        "testing/logging/test_reporting.py::test_log_file_cli_level": true,
+        "testing/logging/test_reporting.py::test_log_file_cli": true,
+        "testing/logging/test_reporting.py::test_live_logs_unknown_sections": true,
+        "testing/logging/test_reporting.py::test_messages_logged": true,
+        "testing/logging/test_reporting.py::test_log_cli_default_level_sections": true,
+        "testing/logging/test_reporting.py::test_setup_logging": true,
+        "testing/logging/test_reporting.py::test_log_level_not_changed_by_default": true,
+        "testing/logging/test_reporting.py::test_live_logging_suspends_capture": true,
+        "testing/logging/test_reporting.py::test_collection_live_logging": true,
+        "testing/logging/test_reporting.py::test_log_cli_level": false,
+        "testing/logging/test_reporting.py::test_log_in_runtest_logreport": true,
+        "testing/logging/test_reporting.py::test_log_cli_level_log_level_interaction": true,
+        "testing/logging/test_reporting.py::test_root_logger_affected": true,
+        "testing/logging/test_reporting.py::test_disable_log_capturing_ini": true,
+        "testing/logging/test_reporting.py::test_disable_log_capturing": true,
+        "testing/logging/test_reporting.py::test_log_set_path": true,
+        "testing/logging/test_reporting.py::test_log_file_unicode": true,
+        "testing/logging/test_reporting.py::test_log_file_ini_level": true,
+        "testing/logging/test_reporting.py::test_log_in_hooks": true,
+        "testing/logging/test_reporting.py::test_log_cli_ini_level": false,
+        "testing/logging/test_reporting.py::test_nothing_logged": true,
+        "testing/logging/test_reporting.py::test_log_cli_enabled_disabled": false,
+        "testing/logging/test_reporting.py::test_log_cli_auto_enable": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-5227/dedup_patch_1.jsonl": {
+      "pytest-dev__pytest-5227": {
+        "testing/logging/test_reporting.py::test_teardown_logging": false,
+        "testing/logging/test_reporting.py::test_log_cli_default_level_multiple_tests": false,
+        "testing/logging/test_reporting.py::test_collection_logging_to_file": false,
+        "testing/logging/test_reporting.py::test_log_file_ini": false,
+        "testing/logging/test_reporting.py::test_log_file_cli_level": false,
+        "testing/logging/test_reporting.py::test_log_file_cli": false,
+        "testing/logging/test_reporting.py::test_live_logs_unknown_sections": false,
+        "testing/logging/test_reporting.py::test_messages_logged": false,
+        "testing/logging/test_reporting.py::test_log_cli_default_level_sections": false,
+        "testing/logging/test_reporting.py::test_setup_logging": false,
+        "testing/logging/test_reporting.py::test_log_level_not_changed_by_default": false,
+        "testing/logging/test_reporting.py::test_live_logging_suspends_capture": false,
+        "testing/logging/test_reporting.py::test_collection_live_logging": false,
+        "testing/logging/test_reporting.py::test_log_cli_level": false,
+        "testing/logging/test_reporting.py::test_log_in_runtest_logreport": false,
+        "testing/logging/test_reporting.py::test_log_cli_level_log_level_interaction": false,
+        "testing/logging/test_reporting.py::test_root_logger_affected": false,
+        "testing/logging/test_reporting.py::test_disable_log_capturing_ini": false,
+        "testing/logging/test_reporting.py::test_disable_log_capturing": false,
+        "testing/logging/test_reporting.py::test_log_set_path": false,
+        "testing/logging/test_reporting.py::test_log_file_unicode": false,
+        "testing/logging/test_reporting.py::test_log_file_ini_level": false,
+        "testing/logging/test_reporting.py::test_log_in_hooks": false,
+        "testing/logging/test_reporting.py::test_log_cli_ini_level": false,
+        "testing/logging/test_reporting.py::test_nothing_logged": false,
+        "testing/logging/test_reporting.py::test_log_cli_enabled_disabled": false,
+        "testing/logging/test_reporting.py::test_log_cli_auto_enable": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-5227/dedup_patch_2.jsonl": {
+      "pytest-dev__pytest-5227": {
+        "testing/logging/test_reporting.py::test_teardown_logging": true,
+        "testing/logging/test_reporting.py::test_log_cli_default_level_multiple_tests": false,
+        "testing/logging/test_reporting.py::test_collection_logging_to_file": true,
+        "testing/logging/test_reporting.py::test_log_file_ini": true,
+        "testing/logging/test_reporting.py::test_log_file_cli_level": true,
+        "testing/logging/test_reporting.py::test_log_file_cli": true,
+        "testing/logging/test_reporting.py::test_live_logs_unknown_sections": false,
+        "testing/logging/test_reporting.py::test_messages_logged": true,
+        "testing/logging/test_reporting.py::test_log_cli_default_level_sections": false,
+        "testing/logging/test_reporting.py::test_setup_logging": true,
+        "testing/logging/test_reporting.py::test_log_level_not_changed_by_default": true,
+        "testing/logging/test_reporting.py::test_live_logging_suspends_capture": true,
+        "testing/logging/test_reporting.py::test_collection_live_logging": false,
+        "testing/logging/test_reporting.py::test_log_cli_level": false,
+        "testing/logging/test_reporting.py::test_log_in_runtest_logreport": false,
+        "testing/logging/test_reporting.py::test_log_cli_level_log_level_interaction": false,
+        "testing/logging/test_reporting.py::test_root_logger_affected": true,
+        "testing/logging/test_reporting.py::test_disable_log_capturing_ini": true,
+        "testing/logging/test_reporting.py::test_disable_log_capturing": true,
+        "testing/logging/test_reporting.py::test_log_set_path": false,
+        "testing/logging/test_reporting.py::test_log_file_unicode": true,
+        "testing/logging/test_reporting.py::test_log_file_ini_level": true,
+        "testing/logging/test_reporting.py::test_log_in_hooks": false,
+        "testing/logging/test_reporting.py::test_log_cli_ini_level": false,
+        "testing/logging/test_reporting.py::test_nothing_logged": true,
+        "testing/logging/test_reporting.py::test_log_cli_enabled_disabled": false,
+        "testing/logging/test_reporting.py::test_log_cli_auto_enable": false
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "pytest-dev__pytest-5227": {
+        "testing/logging/test_formatter.py::test_coloredlogformatter#1": false,
+        "testing/logging/test_formatter.py::test_coloredlogformatter#2": false,
+        "testing/logging/test_formatter.py::test_coloredlogformatter#3": false
+      }
+    }
+  }
+}

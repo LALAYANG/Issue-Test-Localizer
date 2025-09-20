@@ -1,0 +1,95 @@
+{
+  "regression": {
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16527/dedup_patch_0.jsonl": {
+      "django__django-16527": {
+        "admin_views.test_templatetags.AdminTemplateTagsTest.test_override_change_form_template_tags": true,
+        "admin_views.test_templatetags.AdminTemplateTagsTest.test_override_show_save_and_add_another": true,
+        "admin_views.test_templatetags.AdminTemplateTagsTest.test_submit_row": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16527/dedup_patch_1.jsonl": {
+      "django__django-16527": {
+        "admin_views.test_templatetags.AdminTemplateTagsTest.test_override_change_form_template_tags": true,
+        "admin_views.test_templatetags.AdminTemplateTagsTest.test_override_show_save_and_add_another": true,
+        "admin_views.test_templatetags.AdminTemplateTagsTest.test_submit_row": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16527/dedup_patch_2.jsonl": {
+      "django__django-16527": {
+        "admin_views.test_templatetags.AdminTemplateTagsTest.test_override_change_form_template_tags": true,
+        "admin_views.test_templatetags.AdminTemplateTagsTest.test_override_show_save_and_add_another": true,
+        "admin_views.test_templatetags.AdminTemplateTagsTest.test_submit_row": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16527/dedup_patch_3.jsonl": {
+      "django__django-16527": {
+        "admin_views.test_templatetags.AdminTemplateTagsTest.test_override_change_form_template_tags": true,
+        "admin_views.test_templatetags.AdminTemplateTagsTest.test_override_show_save_and_add_another": true,
+        "admin_views.test_templatetags.AdminTemplateTagsTest.test_submit_row": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-16527": {
+        "admin_views.test_templatetags.AdminTemplateTagsTest.test_show_save_as_new_with_add_permission#1": true,
+        "admin_views.tests.AdminViewPermissionsTest.test_change_view_save_as_new_with_add_permission#2": true,
+        "admin_views.tests.AdminSiteFinalCatchAllPatternTests.test_show_save_as_new_permission#3": true,
+        "admin_views.test_templatetags.AdminTemplateTagsTest.test_submit_row#4": true,
+        "admin_views.tests.AdminViewPermissionsTest.test_change_view_save_as_new#5": false,
+        "admin_views.test_templatetags.AdminTemplateTagsTest.test_submit_row_show_save_as_new_with_add_permission#6": true,
+        "admin_views.tests.AdminViewPermissionsTest.test_change_view_save_as_new#7": true,
+        "admin_views.tests.AdminSiteFinalCatchAllPatternTests.test_save_as_new_requires_add_permission#8": true,
+        "admin_views.test_templatetags.AdminTemplateTagsTest.test_show_save_as_new_with_add_permission#9": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16527/dedup_patch_0.jsonl": {
+      "django__django-16527": {
+        "admin_views.test_templatetags.AdminTemplateTagsTest.test_show_save_as_new_with_add_permission#1": false,
+        "admin_views.tests.AdminViewPermissionsTest.test_change_view_save_as_new_with_add_permission#2": false,
+        "admin_views.tests.AdminSiteFinalCatchAllPatternTests.test_show_save_as_new_permission#3": false,
+        "admin_views.test_templatetags.AdminTemplateTagsTest.test_submit_row#4": true,
+        "admin_views.test_templatetags.AdminTemplateTagsTest.test_submit_row_show_save_as_new_with_add_permission#6": false,
+        "admin_views.tests.AdminViewPermissionsTest.test_change_view_save_as_new#7": false,
+        "admin_views.tests.AdminSiteFinalCatchAllPatternTests.test_save_as_new_requires_add_permission#8": false,
+        "admin_views.test_templatetags.AdminTemplateTagsTest.test_show_save_as_new_with_add_permission#9": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16527/dedup_patch_1.jsonl": {
+      "django__django-16527": {
+        "admin_views.test_templatetags.AdminTemplateTagsTest.test_show_save_as_new_with_add_permission#1": false,
+        "admin_views.tests.AdminViewPermissionsTest.test_change_view_save_as_new_with_add_permission#2": false,
+        "admin_views.tests.AdminSiteFinalCatchAllPatternTests.test_show_save_as_new_permission#3": false,
+        "admin_views.test_templatetags.AdminTemplateTagsTest.test_submit_row#4": true,
+        "admin_views.test_templatetags.AdminTemplateTagsTest.test_submit_row_show_save_as_new_with_add_permission#6": false,
+        "admin_views.tests.AdminViewPermissionsTest.test_change_view_save_as_new#7": false,
+        "admin_views.tests.AdminSiteFinalCatchAllPatternTests.test_save_as_new_requires_add_permission#8": false,
+        "admin_views.test_templatetags.AdminTemplateTagsTest.test_show_save_as_new_with_add_permission#9": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16527/dedup_patch_2.jsonl": {
+      "django__django-16527": {
+        "admin_views.test_templatetags.AdminTemplateTagsTest.test_show_save_as_new_with_add_permission#1": false,
+        "admin_views.tests.AdminViewPermissionsTest.test_change_view_save_as_new_with_add_permission#2": false,
+        "admin_views.tests.AdminSiteFinalCatchAllPatternTests.test_show_save_as_new_permission#3": false,
+        "admin_views.test_templatetags.AdminTemplateTagsTest.test_submit_row#4": true,
+        "admin_views.test_templatetags.AdminTemplateTagsTest.test_submit_row_show_save_as_new_with_add_permission#6": false,
+        "admin_views.tests.AdminViewPermissionsTest.test_change_view_save_as_new#7": false,
+        "admin_views.tests.AdminSiteFinalCatchAllPatternTests.test_save_as_new_requires_add_permission#8": false,
+        "admin_views.test_templatetags.AdminTemplateTagsTest.test_show_save_as_new_with_add_permission#9": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16527/dedup_patch_3.jsonl": {
+      "django__django-16527": {
+        "admin_views.test_templatetags.AdminTemplateTagsTest.test_show_save_as_new_with_add_permission#1": false,
+        "admin_views.tests.AdminViewPermissionsTest.test_change_view_save_as_new_with_add_permission#2": false,
+        "admin_views.tests.AdminSiteFinalCatchAllPatternTests.test_show_save_as_new_permission#3": false,
+        "admin_views.test_templatetags.AdminTemplateTagsTest.test_submit_row#4": true,
+        "admin_views.test_templatetags.AdminTemplateTagsTest.test_submit_row_show_save_as_new_with_add_permission#6": false,
+        "admin_views.tests.AdminViewPermissionsTest.test_change_view_save_as_new#7": false,
+        "admin_views.tests.AdminSiteFinalCatchAllPatternTests.test_save_as_new_requires_add_permission#8": false,
+        "admin_views.test_templatetags.AdminTemplateTagsTest.test_show_save_as_new_with_add_permission#9": false
+      }
+    }
+  }
+}

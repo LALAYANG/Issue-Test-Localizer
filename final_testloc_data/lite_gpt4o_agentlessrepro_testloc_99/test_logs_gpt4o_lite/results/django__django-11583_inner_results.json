@@ -1,0 +1,1178 @@
+{
+  "regression": {
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11583/dedup_patch_0.jsonl": {
+      "django__django-11583": {
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_files_with_recursive_glob": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_checks_for_exception": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_with_single_file": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_unavailable": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_ignores_missing_files": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_start_django": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_without_exception": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_swallows_keyboard_interrupt": true,
+        "utils_tests.test_autoreload.TestIterModulesAndFiles.test_paths_are_pathlib_instances": true,
+        "utils_tests.test_autoreload.TestIterModulesAndFiles.test_main_module_is_resolved": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_sys_exit": true,
+        "utils_tests.test_autoreload.StartDjangoTests.test_watchman_becomes_unavailable": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_stop_and_return": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_without_absolute": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_tick_does_not_trigger_twice": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_catches_stopiteration": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_with_duplicates": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11583/dedup_patch_1.jsonl": {
+      "django__django-11583": {
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_files_with_recursive_glob": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_checks_for_exception": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_with_single_file": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_unavailable": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_ignores_missing_files": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_start_django": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_without_exception": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_swallows_keyboard_interrupt": true,
+        "utils_tests.test_autoreload.TestIterModulesAndFiles.test_paths_are_pathlib_instances": true,
+        "utils_tests.test_autoreload.TestIterModulesAndFiles.test_main_module_is_resolved": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_sys_exit": true,
+        "utils_tests.test_autoreload.StartDjangoTests.test_watchman_becomes_unavailable": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_stop_and_return": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_without_absolute": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_tick_does_not_trigger_twice": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_catches_stopiteration": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_with_duplicates": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11583/dedup_patch_10.jsonl": {
+      "django__django-11583": {
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_files_with_recursive_glob": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_checks_for_exception": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_with_single_file": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_unavailable": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_ignores_missing_files": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_start_django": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_without_exception": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_swallows_keyboard_interrupt": true,
+        "utils_tests.test_autoreload.TestIterModulesAndFiles.test_paths_are_pathlib_instances": true,
+        "utils_tests.test_autoreload.TestIterModulesAndFiles.test_main_module_is_resolved": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_sys_exit": true,
+        "utils_tests.test_autoreload.StartDjangoTests.test_watchman_becomes_unavailable": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_stop_and_return": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_without_absolute": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_tick_does_not_trigger_twice": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_catches_stopiteration": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_with_duplicates": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11583/dedup_patch_11.jsonl": {
+      "django__django-11583": {
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_files_with_recursive_glob": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_checks_for_exception": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_with_single_file": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_unavailable": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_ignores_missing_files": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_start_django": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_without_exception": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_swallows_keyboard_interrupt": true,
+        "utils_tests.test_autoreload.TestIterModulesAndFiles.test_paths_are_pathlib_instances": true,
+        "utils_tests.test_autoreload.TestIterModulesAndFiles.test_main_module_is_resolved": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_sys_exit": true,
+        "utils_tests.test_autoreload.StartDjangoTests.test_watchman_becomes_unavailable": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_stop_and_return": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_without_absolute": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_tick_does_not_trigger_twice": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_catches_stopiteration": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_with_duplicates": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11583/dedup_patch_12.jsonl": {
+      "django__django-11583": {
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_files_with_recursive_glob": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_checks_for_exception": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_with_single_file": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_unavailable": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_ignores_missing_files": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_start_django": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_without_exception": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_swallows_keyboard_interrupt": true,
+        "utils_tests.test_autoreload.TestIterModulesAndFiles.test_paths_are_pathlib_instances": true,
+        "utils_tests.test_autoreload.TestIterModulesAndFiles.test_main_module_is_resolved": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_sys_exit": true,
+        "utils_tests.test_autoreload.StartDjangoTests.test_watchman_becomes_unavailable": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_stop_and_return": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_without_absolute": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_tick_does_not_trigger_twice": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_catches_stopiteration": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_with_duplicates": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11583/dedup_patch_13.jsonl": {
+      "django__django-11583": {
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_files_with_recursive_glob": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_checks_for_exception": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_with_single_file": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_unavailable": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_ignores_missing_files": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_start_django": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_without_exception": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_swallows_keyboard_interrupt": true,
+        "utils_tests.test_autoreload.TestIterModulesAndFiles.test_paths_are_pathlib_instances": true,
+        "utils_tests.test_autoreload.TestIterModulesAndFiles.test_main_module_is_resolved": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_sys_exit": true,
+        "utils_tests.test_autoreload.StartDjangoTests.test_watchman_becomes_unavailable": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_stop_and_return": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_without_absolute": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_tick_does_not_trigger_twice": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_catches_stopiteration": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_with_duplicates": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11583/dedup_patch_14.jsonl": {
+      "django__django-11583": {
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_files_with_recursive_glob": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_checks_for_exception": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_with_single_file": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_unavailable": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_ignores_missing_files": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_start_django": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_without_exception": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_swallows_keyboard_interrupt": true,
+        "utils_tests.test_autoreload.TestIterModulesAndFiles.test_paths_are_pathlib_instances": true,
+        "utils_tests.test_autoreload.TestIterModulesAndFiles.test_main_module_is_resolved": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_sys_exit": true,
+        "utils_tests.test_autoreload.StartDjangoTests.test_watchman_becomes_unavailable": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_stop_and_return": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_without_absolute": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_tick_does_not_trigger_twice": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_catches_stopiteration": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_with_duplicates": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11583/dedup_patch_15.jsonl": {
+      "django__django-11583": {
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_files_with_recursive_glob": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_checks_for_exception": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_with_single_file": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_unavailable": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_ignores_missing_files": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_start_django": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_without_exception": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_swallows_keyboard_interrupt": true,
+        "utils_tests.test_autoreload.TestIterModulesAndFiles.test_paths_are_pathlib_instances": true,
+        "utils_tests.test_autoreload.TestIterModulesAndFiles.test_main_module_is_resolved": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_sys_exit": true,
+        "utils_tests.test_autoreload.StartDjangoTests.test_watchman_becomes_unavailable": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_stop_and_return": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_without_absolute": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_tick_does_not_trigger_twice": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_catches_stopiteration": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_with_duplicates": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11583/dedup_patch_16.jsonl": {
+      "django__django-11583": {
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_files_with_recursive_glob": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_checks_for_exception": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_with_single_file": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_unavailable": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_ignores_missing_files": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_start_django": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_without_exception": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_swallows_keyboard_interrupt": true,
+        "utils_tests.test_autoreload.TestIterModulesAndFiles.test_paths_are_pathlib_instances": true,
+        "utils_tests.test_autoreload.TestIterModulesAndFiles.test_main_module_is_resolved": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_sys_exit": true,
+        "utils_tests.test_autoreload.StartDjangoTests.test_watchman_becomes_unavailable": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_stop_and_return": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_without_absolute": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_tick_does_not_trigger_twice": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_catches_stopiteration": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_with_duplicates": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11583/dedup_patch_17.jsonl": {
+      "django__django-11583": {
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_files_with_recursive_glob": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_checks_for_exception": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_with_single_file": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_unavailable": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_ignores_missing_files": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_start_django": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_without_exception": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_swallows_keyboard_interrupt": true,
+        "utils_tests.test_autoreload.TestIterModulesAndFiles.test_paths_are_pathlib_instances": true,
+        "utils_tests.test_autoreload.TestIterModulesAndFiles.test_main_module_is_resolved": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_sys_exit": true,
+        "utils_tests.test_autoreload.StartDjangoTests.test_watchman_becomes_unavailable": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_stop_and_return": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_without_absolute": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_tick_does_not_trigger_twice": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_catches_stopiteration": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_with_duplicates": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11583/dedup_patch_18.jsonl": {
+      "django__django-11583": {
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_files_with_recursive_glob": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_checks_for_exception": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_with_single_file": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_unavailable": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_ignores_missing_files": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_start_django": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_without_exception": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_swallows_keyboard_interrupt": true,
+        "utils_tests.test_autoreload.TestIterModulesAndFiles.test_paths_are_pathlib_instances": true,
+        "utils_tests.test_autoreload.TestIterModulesAndFiles.test_main_module_is_resolved": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_sys_exit": true,
+        "utils_tests.test_autoreload.StartDjangoTests.test_watchman_becomes_unavailable": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_stop_and_return": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_without_absolute": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_tick_does_not_trigger_twice": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_catches_stopiteration": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_with_duplicates": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11583/dedup_patch_19.jsonl": {
+      "django__django-11583": {
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_files_with_recursive_glob": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_checks_for_exception": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_with_single_file": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_unavailable": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_ignores_missing_files": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_start_django": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_without_exception": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_swallows_keyboard_interrupt": true,
+        "utils_tests.test_autoreload.TestIterModulesAndFiles.test_paths_are_pathlib_instances": true,
+        "utils_tests.test_autoreload.TestIterModulesAndFiles.test_main_module_is_resolved": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_sys_exit": true,
+        "utils_tests.test_autoreload.StartDjangoTests.test_watchman_becomes_unavailable": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_stop_and_return": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_without_absolute": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_tick_does_not_trigger_twice": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_catches_stopiteration": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_with_duplicates": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11583/dedup_patch_2.jsonl": {
+      "django__django-11583": {
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_files_with_recursive_glob": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_checks_for_exception": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_with_single_file": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_unavailable": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_ignores_missing_files": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_start_django": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_without_exception": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_swallows_keyboard_interrupt": true,
+        "utils_tests.test_autoreload.TestIterModulesAndFiles.test_paths_are_pathlib_instances": true,
+        "utils_tests.test_autoreload.TestIterModulesAndFiles.test_main_module_is_resolved": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_sys_exit": true,
+        "utils_tests.test_autoreload.StartDjangoTests.test_watchman_becomes_unavailable": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_stop_and_return": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_without_absolute": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_tick_does_not_trigger_twice": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_catches_stopiteration": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_with_duplicates": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11583/dedup_patch_20.jsonl": {
+      "django__django-11583": {
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_files_with_recursive_glob": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_checks_for_exception": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_with_single_file": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_unavailable": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_ignores_missing_files": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_start_django": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_without_exception": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_swallows_keyboard_interrupt": true,
+        "utils_tests.test_autoreload.TestIterModulesAndFiles.test_paths_are_pathlib_instances": true,
+        "utils_tests.test_autoreload.TestIterModulesAndFiles.test_main_module_is_resolved": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_sys_exit": true,
+        "utils_tests.test_autoreload.StartDjangoTests.test_watchman_becomes_unavailable": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_stop_and_return": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_without_absolute": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_tick_does_not_trigger_twice": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_catches_stopiteration": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_with_duplicates": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11583/dedup_patch_21.jsonl": {
+      "django__django-11583": {
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_files_with_recursive_glob": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_checks_for_exception": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_with_single_file": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_unavailable": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_ignores_missing_files": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_start_django": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_without_exception": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_swallows_keyboard_interrupt": true,
+        "utils_tests.test_autoreload.TestIterModulesAndFiles.test_paths_are_pathlib_instances": true,
+        "utils_tests.test_autoreload.TestIterModulesAndFiles.test_main_module_is_resolved": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_sys_exit": true,
+        "utils_tests.test_autoreload.StartDjangoTests.test_watchman_becomes_unavailable": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_stop_and_return": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_without_absolute": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_tick_does_not_trigger_twice": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_catches_stopiteration": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_with_duplicates": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11583/dedup_patch_22.jsonl": {
+      "django__django-11583": {
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_files_with_recursive_glob": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_checks_for_exception": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_with_single_file": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_unavailable": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_ignores_missing_files": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_start_django": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_without_exception": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_swallows_keyboard_interrupt": true,
+        "utils_tests.test_autoreload.TestIterModulesAndFiles.test_paths_are_pathlib_instances": true,
+        "utils_tests.test_autoreload.TestIterModulesAndFiles.test_main_module_is_resolved": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_sys_exit": true,
+        "utils_tests.test_autoreload.StartDjangoTests.test_watchman_becomes_unavailable": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_stop_and_return": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_without_absolute": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_tick_does_not_trigger_twice": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_catches_stopiteration": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_with_duplicates": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11583/dedup_patch_23.jsonl": {
+      "django__django-11583": {
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_files_with_recursive_glob": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_checks_for_exception": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_with_single_file": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_unavailable": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_ignores_missing_files": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_start_django": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_without_exception": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_swallows_keyboard_interrupt": true,
+        "utils_tests.test_autoreload.TestIterModulesAndFiles.test_paths_are_pathlib_instances": true,
+        "utils_tests.test_autoreload.TestIterModulesAndFiles.test_main_module_is_resolved": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_sys_exit": true,
+        "utils_tests.test_autoreload.StartDjangoTests.test_watchman_becomes_unavailable": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_stop_and_return": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_without_absolute": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_tick_does_not_trigger_twice": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_catches_stopiteration": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_with_duplicates": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11583/dedup_patch_24.jsonl": {
+      "django__django-11583": {
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_files_with_recursive_glob": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_checks_for_exception": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_with_single_file": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_unavailable": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_ignores_missing_files": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_start_django": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_without_exception": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_swallows_keyboard_interrupt": true,
+        "utils_tests.test_autoreload.TestIterModulesAndFiles.test_paths_are_pathlib_instances": true,
+        "utils_tests.test_autoreload.TestIterModulesAndFiles.test_main_module_is_resolved": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_sys_exit": true,
+        "utils_tests.test_autoreload.StartDjangoTests.test_watchman_becomes_unavailable": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_stop_and_return": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_without_absolute": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_tick_does_not_trigger_twice": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_catches_stopiteration": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_with_duplicates": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11583/dedup_patch_25.jsonl": {
+      "django__django-11583": {
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_files_with_recursive_glob": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_checks_for_exception": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_with_single_file": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_unavailable": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_ignores_missing_files": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_start_django": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_without_exception": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_swallows_keyboard_interrupt": true,
+        "utils_tests.test_autoreload.TestIterModulesAndFiles.test_paths_are_pathlib_instances": true,
+        "utils_tests.test_autoreload.TestIterModulesAndFiles.test_main_module_is_resolved": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_sys_exit": true,
+        "utils_tests.test_autoreload.StartDjangoTests.test_watchman_becomes_unavailable": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_stop_and_return": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_without_absolute": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_tick_does_not_trigger_twice": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_catches_stopiteration": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_with_duplicates": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11583/dedup_patch_26.jsonl": {
+      "django__django-11583": {
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_files_with_recursive_glob": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_checks_for_exception": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_with_single_file": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_unavailable": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_ignores_missing_files": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_start_django": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_without_exception": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_swallows_keyboard_interrupt": true,
+        "utils_tests.test_autoreload.TestIterModulesAndFiles.test_paths_are_pathlib_instances": true,
+        "utils_tests.test_autoreload.TestIterModulesAndFiles.test_main_module_is_resolved": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_sys_exit": true,
+        "utils_tests.test_autoreload.StartDjangoTests.test_watchman_becomes_unavailable": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_stop_and_return": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_without_absolute": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_tick_does_not_trigger_twice": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_catches_stopiteration": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_with_duplicates": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11583/dedup_patch_27.jsonl": {
+      "django__django-11583": {
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_files_with_recursive_glob": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_checks_for_exception": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_with_single_file": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_unavailable": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_ignores_missing_files": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_start_django": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_without_exception": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_swallows_keyboard_interrupt": true,
+        "utils_tests.test_autoreload.TestIterModulesAndFiles.test_paths_are_pathlib_instances": true,
+        "utils_tests.test_autoreload.TestIterModulesAndFiles.test_main_module_is_resolved": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_sys_exit": true,
+        "utils_tests.test_autoreload.StartDjangoTests.test_watchman_becomes_unavailable": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_stop_and_return": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_without_absolute": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_tick_does_not_trigger_twice": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_catches_stopiteration": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_with_duplicates": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11583/dedup_patch_28.jsonl": {
+      "django__django-11583": {
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_files_with_recursive_glob": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_checks_for_exception": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_with_single_file": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_unavailable": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_ignores_missing_files": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_start_django": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_without_exception": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_swallows_keyboard_interrupt": true,
+        "utils_tests.test_autoreload.TestIterModulesAndFiles.test_paths_are_pathlib_instances": true,
+        "utils_tests.test_autoreload.TestIterModulesAndFiles.test_main_module_is_resolved": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_sys_exit": true,
+        "utils_tests.test_autoreload.StartDjangoTests.test_watchman_becomes_unavailable": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_stop_and_return": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_without_absolute": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_tick_does_not_trigger_twice": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_catches_stopiteration": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_with_duplicates": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11583/dedup_patch_29.jsonl": {
+      "django__django-11583": {
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_files_with_recursive_glob": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_checks_for_exception": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_with_single_file": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_unavailable": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_ignores_missing_files": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_start_django": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_without_exception": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_swallows_keyboard_interrupt": true,
+        "utils_tests.test_autoreload.TestIterModulesAndFiles.test_paths_are_pathlib_instances": true,
+        "utils_tests.test_autoreload.TestIterModulesAndFiles.test_main_module_is_resolved": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_sys_exit": true,
+        "utils_tests.test_autoreload.StartDjangoTests.test_watchman_becomes_unavailable": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_stop_and_return": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_without_absolute": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_tick_does_not_trigger_twice": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_catches_stopiteration": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_with_duplicates": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11583/dedup_patch_3.jsonl": {
+      "django__django-11583": {
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_files_with_recursive_glob": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_checks_for_exception": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_with_single_file": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_unavailable": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_ignores_missing_files": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_start_django": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_without_exception": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_swallows_keyboard_interrupt": true,
+        "utils_tests.test_autoreload.TestIterModulesAndFiles.test_paths_are_pathlib_instances": true,
+        "utils_tests.test_autoreload.TestIterModulesAndFiles.test_main_module_is_resolved": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_sys_exit": true,
+        "utils_tests.test_autoreload.StartDjangoTests.test_watchman_becomes_unavailable": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_stop_and_return": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_without_absolute": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_tick_does_not_trigger_twice": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_catches_stopiteration": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_with_duplicates": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11583/dedup_patch_30.jsonl": {
+      "django__django-11583": {
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_files_with_recursive_glob": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_checks_for_exception": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_with_single_file": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_unavailable": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_ignores_missing_files": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_start_django": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_without_exception": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_swallows_keyboard_interrupt": true,
+        "utils_tests.test_autoreload.TestIterModulesAndFiles.test_paths_are_pathlib_instances": true,
+        "utils_tests.test_autoreload.TestIterModulesAndFiles.test_main_module_is_resolved": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_sys_exit": true,
+        "utils_tests.test_autoreload.StartDjangoTests.test_watchman_becomes_unavailable": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_stop_and_return": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_without_absolute": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_tick_does_not_trigger_twice": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_catches_stopiteration": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_with_duplicates": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11583/dedup_patch_31.jsonl": {
+      "django__django-11583": {
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_files_with_recursive_glob": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_checks_for_exception": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_with_single_file": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_unavailable": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_ignores_missing_files": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_start_django": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_without_exception": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_swallows_keyboard_interrupt": true,
+        "utils_tests.test_autoreload.TestIterModulesAndFiles.test_paths_are_pathlib_instances": true,
+        "utils_tests.test_autoreload.TestIterModulesAndFiles.test_main_module_is_resolved": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_sys_exit": true,
+        "utils_tests.test_autoreload.StartDjangoTests.test_watchman_becomes_unavailable": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_stop_and_return": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_without_absolute": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_tick_does_not_trigger_twice": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_catches_stopiteration": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_with_duplicates": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11583/dedup_patch_32.jsonl": {
+      "django__django-11583": {
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_files_with_recursive_glob": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_checks_for_exception": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_with_single_file": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_unavailable": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_ignores_missing_files": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_start_django": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_without_exception": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_swallows_keyboard_interrupt": true,
+        "utils_tests.test_autoreload.TestIterModulesAndFiles.test_paths_are_pathlib_instances": true,
+        "utils_tests.test_autoreload.TestIterModulesAndFiles.test_main_module_is_resolved": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_sys_exit": true,
+        "utils_tests.test_autoreload.StartDjangoTests.test_watchman_becomes_unavailable": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_stop_and_return": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_without_absolute": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_tick_does_not_trigger_twice": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_catches_stopiteration": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_with_duplicates": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11583/dedup_patch_33.jsonl": {
+      "django__django-11583": {
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_files_with_recursive_glob": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_checks_for_exception": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_with_single_file": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_unavailable": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_ignores_missing_files": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_start_django": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_without_exception": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_swallows_keyboard_interrupt": true,
+        "utils_tests.test_autoreload.TestIterModulesAndFiles.test_paths_are_pathlib_instances": true,
+        "utils_tests.test_autoreload.TestIterModulesAndFiles.test_main_module_is_resolved": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_sys_exit": true,
+        "utils_tests.test_autoreload.StartDjangoTests.test_watchman_becomes_unavailable": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_stop_and_return": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_without_absolute": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_tick_does_not_trigger_twice": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_catches_stopiteration": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_with_duplicates": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11583/dedup_patch_4.jsonl": {
+      "django__django-11583": {
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_files_with_recursive_glob": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_checks_for_exception": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_with_single_file": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_unavailable": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_ignores_missing_files": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_start_django": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_without_exception": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_swallows_keyboard_interrupt": true,
+        "utils_tests.test_autoreload.TestIterModulesAndFiles.test_paths_are_pathlib_instances": true,
+        "utils_tests.test_autoreload.TestIterModulesAndFiles.test_main_module_is_resolved": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_sys_exit": true,
+        "utils_tests.test_autoreload.StartDjangoTests.test_watchman_becomes_unavailable": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_stop_and_return": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_without_absolute": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_tick_does_not_trigger_twice": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_catches_stopiteration": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_with_duplicates": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11583/dedup_patch_5.jsonl": {
+      "django__django-11583": {
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_files_with_recursive_glob": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_checks_for_exception": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_with_single_file": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_unavailable": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_ignores_missing_files": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_start_django": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_without_exception": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_swallows_keyboard_interrupt": true,
+        "utils_tests.test_autoreload.TestIterModulesAndFiles.test_paths_are_pathlib_instances": true,
+        "utils_tests.test_autoreload.TestIterModulesAndFiles.test_main_module_is_resolved": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_sys_exit": true,
+        "utils_tests.test_autoreload.StartDjangoTests.test_watchman_becomes_unavailable": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_stop_and_return": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_without_absolute": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_tick_does_not_trigger_twice": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_catches_stopiteration": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_with_duplicates": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11583/dedup_patch_6.jsonl": {
+      "django__django-11583": {
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_files_with_recursive_glob": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_checks_for_exception": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_with_single_file": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_unavailable": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_ignores_missing_files": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_start_django": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_without_exception": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_swallows_keyboard_interrupt": true,
+        "utils_tests.test_autoreload.TestIterModulesAndFiles.test_paths_are_pathlib_instances": true,
+        "utils_tests.test_autoreload.TestIterModulesAndFiles.test_main_module_is_resolved": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_sys_exit": true,
+        "utils_tests.test_autoreload.StartDjangoTests.test_watchman_becomes_unavailable": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_stop_and_return": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_without_absolute": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_tick_does_not_trigger_twice": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_catches_stopiteration": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_with_duplicates": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11583/dedup_patch_7.jsonl": {
+      "django__django-11583": {
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_files_with_recursive_glob": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_checks_for_exception": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_with_single_file": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_unavailable": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_ignores_missing_files": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_start_django": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_without_exception": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_swallows_keyboard_interrupt": true,
+        "utils_tests.test_autoreload.TestIterModulesAndFiles.test_paths_are_pathlib_instances": true,
+        "utils_tests.test_autoreload.TestIterModulesAndFiles.test_main_module_is_resolved": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_sys_exit": true,
+        "utils_tests.test_autoreload.StartDjangoTests.test_watchman_becomes_unavailable": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_stop_and_return": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_without_absolute": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_tick_does_not_trigger_twice": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_catches_stopiteration": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_with_duplicates": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11583/dedup_patch_8.jsonl": {
+      "django__django-11583": {
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_files_with_recursive_glob": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_checks_for_exception": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_with_single_file": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_unavailable": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_ignores_missing_files": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_start_django": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_without_exception": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_swallows_keyboard_interrupt": true,
+        "utils_tests.test_autoreload.TestIterModulesAndFiles.test_paths_are_pathlib_instances": true,
+        "utils_tests.test_autoreload.TestIterModulesAndFiles.test_main_module_is_resolved": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_sys_exit": true,
+        "utils_tests.test_autoreload.StartDjangoTests.test_watchman_becomes_unavailable": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_stop_and_return": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_without_absolute": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_tick_does_not_trigger_twice": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_catches_stopiteration": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_with_duplicates": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11583/dedup_patch_9.jsonl": {
+      "django__django-11583": {
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_files_with_recursive_glob": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_checks_for_exception": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_with_single_file": true,
+        "utils_tests.test_autoreload.GetReloaderTests.test_watchman_unavailable": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_ignores_missing_files": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_start_django": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_wait_for_apps_ready_without_exception": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_swallows_keyboard_interrupt": true,
+        "utils_tests.test_autoreload.TestIterModulesAndFiles.test_paths_are_pathlib_instances": true,
+        "utils_tests.test_autoreload.TestIterModulesAndFiles.test_main_module_is_resolved": true,
+        "utils_tests.test_autoreload.RunWithReloaderTests.test_calls_sys_exit": true,
+        "utils_tests.test_autoreload.StartDjangoTests.test_watchman_becomes_unavailable": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_stop_and_return": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_watch_without_absolute": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_tick_does_not_trigger_twice": true,
+        "utils_tests.test_autoreload.BaseReloaderTests.test_run_loop_catches_stopiteration": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_with_duplicates": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-11583": {
+        "utils_tests.test_autoreload.StatReloaderTests.test_null_byte_in_path_handling#1": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_bytes#2": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_autoreload_with_embedded_null_byte#3": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_embedded_null_byte_handling#4": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_path_with_null_byte#5": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_bytes#6": true,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_byte#7": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_byte#8": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_byte#9": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_embedded_null_byte_handling#10": true,
+        "reproduce_bug.py#11": true,
+        "reproduce_bug_new.py#11": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11583/dedup_patch_0.jsonl": {
+      "django__django-11583": {
+        "utils_tests.test_autoreload.StatReloaderTests.test_null_byte_in_path_handling#1": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_bytes#2": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_autoreload_with_embedded_null_byte#3": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_embedded_null_byte_handling#4": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_path_with_null_byte#5": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_bytes#6": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_embedded_null_byte_handling#10": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11583/dedup_patch_1.jsonl": {
+      "django__django-11583": {
+        "utils_tests.test_autoreload.StatReloaderTests.test_null_byte_in_path_handling#1": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_bytes#2": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_autoreload_with_embedded_null_byte#3": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_embedded_null_byte_handling#4": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_path_with_null_byte#5": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_bytes#6": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_embedded_null_byte_handling#10": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11583/dedup_patch_10.jsonl": {
+      "django__django-11583": {
+        "utils_tests.test_autoreload.StatReloaderTests.test_null_byte_in_path_handling#1": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_bytes#2": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_autoreload_with_embedded_null_byte#3": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_embedded_null_byte_handling#4": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_path_with_null_byte#5": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_bytes#6": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_embedded_null_byte_handling#10": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11583/dedup_patch_11.jsonl": {
+      "django__django-11583": {
+        "utils_tests.test_autoreload.StatReloaderTests.test_null_byte_in_path_handling#1": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_bytes#2": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_autoreload_with_embedded_null_byte#3": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_embedded_null_byte_handling#4": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_path_with_null_byte#5": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_bytes#6": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_embedded_null_byte_handling#10": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11583/dedup_patch_12.jsonl": {
+      "django__django-11583": {
+        "utils_tests.test_autoreload.StatReloaderTests.test_null_byte_in_path_handling#1": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_bytes#2": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_autoreload_with_embedded_null_byte#3": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_embedded_null_byte_handling#4": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_path_with_null_byte#5": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_bytes#6": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_embedded_null_byte_handling#10": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11583/dedup_patch_13.jsonl": {
+      "django__django-11583": {
+        "utils_tests.test_autoreload.StatReloaderTests.test_null_byte_in_path_handling#1": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_bytes#2": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_autoreload_with_embedded_null_byte#3": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_embedded_null_byte_handling#4": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_path_with_null_byte#5": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_bytes#6": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_embedded_null_byte_handling#10": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11583/dedup_patch_14.jsonl": {
+      "django__django-11583": {
+        "utils_tests.test_autoreload.StatReloaderTests.test_null_byte_in_path_handling#1": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_bytes#2": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_autoreload_with_embedded_null_byte#3": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_embedded_null_byte_handling#4": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_path_with_null_byte#5": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_bytes#6": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_embedded_null_byte_handling#10": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11583/dedup_patch_15.jsonl": {
+      "django__django-11583": {
+        "utils_tests.test_autoreload.StatReloaderTests.test_null_byte_in_path_handling#1": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_bytes#2": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_autoreload_with_embedded_null_byte#3": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_embedded_null_byte_handling#4": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_path_with_null_byte#5": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_bytes#6": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_embedded_null_byte_handling#10": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11583/dedup_patch_16.jsonl": {
+      "django__django-11583": {
+        "utils_tests.test_autoreload.StatReloaderTests.test_null_byte_in_path_handling#1": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_bytes#2": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_autoreload_with_embedded_null_byte#3": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_embedded_null_byte_handling#4": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_path_with_null_byte#5": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_bytes#6": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_embedded_null_byte_handling#10": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11583/dedup_patch_17.jsonl": {
+      "django__django-11583": {
+        "utils_tests.test_autoreload.StatReloaderTests.test_null_byte_in_path_handling#1": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_bytes#2": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_autoreload_with_embedded_null_byte#3": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_embedded_null_byte_handling#4": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_path_with_null_byte#5": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_bytes#6": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_embedded_null_byte_handling#10": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11583/dedup_patch_18.jsonl": {
+      "django__django-11583": {
+        "utils_tests.test_autoreload.StatReloaderTests.test_null_byte_in_path_handling#1": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_bytes#2": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_autoreload_with_embedded_null_byte#3": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_embedded_null_byte_handling#4": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_path_with_null_byte#5": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_bytes#6": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_embedded_null_byte_handling#10": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11583/dedup_patch_19.jsonl": {
+      "django__django-11583": {
+        "utils_tests.test_autoreload.StatReloaderTests.test_null_byte_in_path_handling#1": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_bytes#2": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_autoreload_with_embedded_null_byte#3": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_embedded_null_byte_handling#4": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_path_with_null_byte#5": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_bytes#6": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_embedded_null_byte_handling#10": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11583/dedup_patch_2.jsonl": {
+      "django__django-11583": {
+        "utils_tests.test_autoreload.StatReloaderTests.test_null_byte_in_path_handling#1": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_bytes#2": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_autoreload_with_embedded_null_byte#3": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_embedded_null_byte_handling#4": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_path_with_null_byte#5": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_bytes#6": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_embedded_null_byte_handling#10": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11583/dedup_patch_20.jsonl": {
+      "django__django-11583": {
+        "utils_tests.test_autoreload.StatReloaderTests.test_null_byte_in_path_handling#1": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_bytes#2": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_autoreload_with_embedded_null_byte#3": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_embedded_null_byte_handling#4": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_path_with_null_byte#5": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_bytes#6": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_embedded_null_byte_handling#10": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11583/dedup_patch_21.jsonl": {
+      "django__django-11583": {
+        "utils_tests.test_autoreload.StatReloaderTests.test_null_byte_in_path_handling#1": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_bytes#2": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_autoreload_with_embedded_null_byte#3": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_embedded_null_byte_handling#4": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_path_with_null_byte#5": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_bytes#6": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_embedded_null_byte_handling#10": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11583/dedup_patch_22.jsonl": {
+      "django__django-11583": {
+        "utils_tests.test_autoreload.StatReloaderTests.test_null_byte_in_path_handling#1": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_bytes#2": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_autoreload_with_embedded_null_byte#3": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_embedded_null_byte_handling#4": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_path_with_null_byte#5": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_bytes#6": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_embedded_null_byte_handling#10": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11583/dedup_patch_23.jsonl": {
+      "django__django-11583": {
+        "utils_tests.test_autoreload.StatReloaderTests.test_null_byte_in_path_handling#1": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_bytes#2": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_autoreload_with_embedded_null_byte#3": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_embedded_null_byte_handling#4": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_path_with_null_byte#5": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_bytes#6": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_embedded_null_byte_handling#10": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11583/dedup_patch_24.jsonl": {
+      "django__django-11583": {
+        "utils_tests.test_autoreload.StatReloaderTests.test_null_byte_in_path_handling#1": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_bytes#2": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_autoreload_with_embedded_null_byte#3": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_embedded_null_byte_handling#4": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_path_with_null_byte#5": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_bytes#6": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_embedded_null_byte_handling#10": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11583/dedup_patch_25.jsonl": {
+      "django__django-11583": {
+        "utils_tests.test_autoreload.StatReloaderTests.test_null_byte_in_path_handling#1": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_bytes#2": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_autoreload_with_embedded_null_byte#3": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_embedded_null_byte_handling#4": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_path_with_null_byte#5": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_bytes#6": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_embedded_null_byte_handling#10": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11583/dedup_patch_26.jsonl": {
+      "django__django-11583": {
+        "utils_tests.test_autoreload.StatReloaderTests.test_null_byte_in_path_handling#1": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_bytes#2": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_autoreload_with_embedded_null_byte#3": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_embedded_null_byte_handling#4": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_path_with_null_byte#5": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_bytes#6": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_embedded_null_byte_handling#10": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11583/dedup_patch_27.jsonl": {
+      "django__django-11583": {
+        "utils_tests.test_autoreload.StatReloaderTests.test_null_byte_in_path_handling#1": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_bytes#2": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_autoreload_with_embedded_null_byte#3": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_embedded_null_byte_handling#4": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_path_with_null_byte#5": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_bytes#6": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_embedded_null_byte_handling#10": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11583/dedup_patch_28.jsonl": {
+      "django__django-11583": {
+        "utils_tests.test_autoreload.StatReloaderTests.test_null_byte_in_path_handling#1": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_bytes#2": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_autoreload_with_embedded_null_byte#3": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_embedded_null_byte_handling#4": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_path_with_null_byte#5": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_bytes#6": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_embedded_null_byte_handling#10": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11583/dedup_patch_29.jsonl": {
+      "django__django-11583": {
+        "utils_tests.test_autoreload.StatReloaderTests.test_null_byte_in_path_handling#1": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_bytes#2": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_autoreload_with_embedded_null_byte#3": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_embedded_null_byte_handling#4": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_path_with_null_byte#5": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_bytes#6": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_embedded_null_byte_handling#10": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11583/dedup_patch_3.jsonl": {
+      "django__django-11583": {
+        "utils_tests.test_autoreload.StatReloaderTests.test_null_byte_in_path_handling#1": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_bytes#2": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_autoreload_with_embedded_null_byte#3": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_embedded_null_byte_handling#4": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_path_with_null_byte#5": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_bytes#6": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_embedded_null_byte_handling#10": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11583/dedup_patch_30.jsonl": {
+      "django__django-11583": {
+        "utils_tests.test_autoreload.StatReloaderTests.test_null_byte_in_path_handling#1": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_bytes#2": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_autoreload_with_embedded_null_byte#3": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_embedded_null_byte_handling#4": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_path_with_null_byte#5": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_bytes#6": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_embedded_null_byte_handling#10": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11583/dedup_patch_31.jsonl": {
+      "django__django-11583": {
+        "utils_tests.test_autoreload.StatReloaderTests.test_null_byte_in_path_handling#1": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_bytes#2": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_autoreload_with_embedded_null_byte#3": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_embedded_null_byte_handling#4": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_path_with_null_byte#5": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_bytes#6": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_embedded_null_byte_handling#10": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11583/dedup_patch_32.jsonl": {
+      "django__django-11583": {
+        "utils_tests.test_autoreload.StatReloaderTests.test_null_byte_in_path_handling#1": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_bytes#2": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_autoreload_with_embedded_null_byte#3": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_embedded_null_byte_handling#4": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_path_with_null_byte#5": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_bytes#6": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_embedded_null_byte_handling#10": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11583/dedup_patch_33.jsonl": {
+      "django__django-11583": {
+        "utils_tests.test_autoreload.StatReloaderTests.test_null_byte_in_path_handling#1": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_bytes#2": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_autoreload_with_embedded_null_byte#3": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_embedded_null_byte_handling#4": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_path_with_null_byte#5": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_bytes#6": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_embedded_null_byte_handling#10": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11583/dedup_patch_4.jsonl": {
+      "django__django-11583": {
+        "utils_tests.test_autoreload.StatReloaderTests.test_null_byte_in_path_handling#1": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_bytes#2": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_autoreload_with_embedded_null_byte#3": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_embedded_null_byte_handling#4": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_path_with_null_byte#5": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_bytes#6": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_embedded_null_byte_handling#10": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11583/dedup_patch_5.jsonl": {
+      "django__django-11583": {
+        "utils_tests.test_autoreload.StatReloaderTests.test_null_byte_in_path_handling#1": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_bytes#2": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_autoreload_with_embedded_null_byte#3": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_embedded_null_byte_handling#4": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_path_with_null_byte#5": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_bytes#6": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_embedded_null_byte_handling#10": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11583/dedup_patch_6.jsonl": {
+      "django__django-11583": {
+        "utils_tests.test_autoreload.StatReloaderTests.test_null_byte_in_path_handling#1": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_bytes#2": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_autoreload_with_embedded_null_byte#3": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_embedded_null_byte_handling#4": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_path_with_null_byte#5": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_bytes#6": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_embedded_null_byte_handling#10": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11583/dedup_patch_7.jsonl": {
+      "django__django-11583": {
+        "utils_tests.test_autoreload.StatReloaderTests.test_null_byte_in_path_handling#1": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_bytes#2": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_autoreload_with_embedded_null_byte#3": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_embedded_null_byte_handling#4": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_path_with_null_byte#5": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_bytes#6": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_embedded_null_byte_handling#10": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11583/dedup_patch_8.jsonl": {
+      "django__django-11583": {
+        "utils_tests.test_autoreload.StatReloaderTests.test_null_byte_in_path_handling#1": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_bytes#2": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_autoreload_with_embedded_null_byte#3": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_embedded_null_byte_handling#4": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_path_with_null_byte#5": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_bytes#6": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_embedded_null_byte_handling#10": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-11583/dedup_patch_9.jsonl": {
+      "django__django-11583": {
+        "utils_tests.test_autoreload.StatReloaderTests.test_null_byte_in_path_handling#1": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_bytes#2": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_autoreload_with_embedded_null_byte#3": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_embedded_null_byte_handling#4": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_path_with_null_byte#5": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_snapshot_files_handles_null_bytes#6": false,
+        "utils_tests.test_autoreload.StatReloaderTests.test_embedded_null_byte_handling#10": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    }
+  }
+}

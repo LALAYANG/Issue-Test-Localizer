@@ -1,0 +1,921 @@
+{
+  "regression": {
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12589/dedup_patch_0.jsonl": {
+      "django__django-12589": {
+        "aggregation_regress.tests.AggregationTests.test_more_more_more": false,
+        "aggregation_regress.tests.AggregationTests.test_having_group_by": false,
+        "aggregation_regress.tests.AggregationTests.test_duplicate_alias": true,
+        "queries.test_explain.ExplainTests.test_basic": false,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": false,
+        "aggregation.tests.AggregateTestCase.test_multi_arg_aggregate": true,
+        "aggregation_regress.tests.AggregationTests.test_field_name_conflict": true,
+        "aggregation_regress.tests.AggregationTests.test_fk_attname_conflict": true,
+        "aggregation.tests.AggregateTestCase.test_complex_aggregations_require_kwarg": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_group_by_exists_annotation": false,
+        "aggregation_regress.tests.AggregationTests.test_m2m_name_conflict": true,
+        "filtered_relation.tests.FilteredRelationTests.test_with_join_and_complex_condition": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12589/dedup_patch_1.jsonl": {
+      "django__django-12589": {
+        "aggregation_regress.tests.AggregationTests.test_more_more_more": false,
+        "aggregation_regress.tests.AggregationTests.test_having_group_by": true,
+        "aggregation_regress.tests.AggregationTests.test_duplicate_alias": true,
+        "queries.test_explain.ExplainTests.test_basic": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": false,
+        "aggregation.tests.AggregateTestCase.test_multi_arg_aggregate": true,
+        "aggregation_regress.tests.AggregationTests.test_field_name_conflict": true,
+        "aggregation_regress.tests.AggregationTests.test_fk_attname_conflict": true,
+        "aggregation.tests.AggregateTestCase.test_complex_aggregations_require_kwarg": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_group_by_exists_annotation": true,
+        "aggregation_regress.tests.AggregationTests.test_m2m_name_conflict": true,
+        "filtered_relation.tests.FilteredRelationTests.test_with_join_and_complex_condition": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12589/dedup_patch_10.jsonl": {
+      "django__django-12589": {
+        "aggregation_regress.tests.AggregationTests.test_more_more_more": true,
+        "aggregation_regress.tests.AggregationTests.test_having_group_by": true,
+        "aggregation_regress.tests.AggregationTests.test_duplicate_alias": true,
+        "queries.test_explain.ExplainTests.test_basic": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_multi_arg_aggregate": true,
+        "aggregation_regress.tests.AggregationTests.test_field_name_conflict": true,
+        "aggregation_regress.tests.AggregationTests.test_fk_attname_conflict": true,
+        "aggregation.tests.AggregateTestCase.test_complex_aggregations_require_kwarg": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_group_by_exists_annotation": true,
+        "aggregation_regress.tests.AggregationTests.test_m2m_name_conflict": true,
+        "filtered_relation.tests.FilteredRelationTests.test_with_join_and_complex_condition": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12589/dedup_patch_11.jsonl": {
+      "django__django-12589": {
+        "aggregation_regress.tests.AggregationTests.test_more_more_more": true,
+        "aggregation_regress.tests.AggregationTests.test_having_group_by": true,
+        "aggregation_regress.tests.AggregationTests.test_duplicate_alias": true,
+        "queries.test_explain.ExplainTests.test_basic": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_multi_arg_aggregate": true,
+        "aggregation_regress.tests.AggregationTests.test_field_name_conflict": true,
+        "aggregation_regress.tests.AggregationTests.test_fk_attname_conflict": true,
+        "aggregation.tests.AggregateTestCase.test_complex_aggregations_require_kwarg": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_group_by_exists_annotation": true,
+        "aggregation_regress.tests.AggregationTests.test_m2m_name_conflict": true,
+        "filtered_relation.tests.FilteredRelationTests.test_with_join_and_complex_condition": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12589/dedup_patch_12.jsonl": {
+      "django__django-12589": {
+        "aggregation_regress.tests.AggregationTests.test_more_more_more": false,
+        "aggregation_regress.tests.AggregationTests.test_having_group_by": false,
+        "aggregation_regress.tests.AggregationTests.test_duplicate_alias": true,
+        "queries.test_explain.ExplainTests.test_basic": false,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_multi_arg_aggregate": true,
+        "aggregation_regress.tests.AggregationTests.test_field_name_conflict": true,
+        "aggregation_regress.tests.AggregationTests.test_fk_attname_conflict": true,
+        "aggregation.tests.AggregateTestCase.test_complex_aggregations_require_kwarg": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_group_by_exists_annotation": false,
+        "aggregation_regress.tests.AggregationTests.test_m2m_name_conflict": true,
+        "filtered_relation.tests.FilteredRelationTests.test_with_join_and_complex_condition": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12589/dedup_patch_13.jsonl": {
+      "django__django-12589": {
+        "aggregation_regress.tests.AggregationTests.test_more_more_more": true,
+        "aggregation_regress.tests.AggregationTests.test_having_group_by": true,
+        "aggregation_regress.tests.AggregationTests.test_duplicate_alias": true,
+        "queries.test_explain.ExplainTests.test_basic": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_multi_arg_aggregate": true,
+        "aggregation_regress.tests.AggregationTests.test_field_name_conflict": true,
+        "aggregation_regress.tests.AggregationTests.test_fk_attname_conflict": true,
+        "aggregation.tests.AggregateTestCase.test_complex_aggregations_require_kwarg": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_group_by_exists_annotation": false,
+        "aggregation_regress.tests.AggregationTests.test_m2m_name_conflict": true,
+        "filtered_relation.tests.FilteredRelationTests.test_with_join_and_complex_condition": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12589/dedup_patch_14.jsonl": {
+      "django__django-12589": {
+        "aggregation_regress.tests.AggregationTests.test_more_more_more": true,
+        "aggregation_regress.tests.AggregationTests.test_having_group_by": true,
+        "aggregation_regress.tests.AggregationTests.test_duplicate_alias": true,
+        "queries.test_explain.ExplainTests.test_basic": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_multi_arg_aggregate": true,
+        "aggregation_regress.tests.AggregationTests.test_field_name_conflict": true,
+        "aggregation_regress.tests.AggregationTests.test_fk_attname_conflict": true,
+        "aggregation.tests.AggregateTestCase.test_complex_aggregations_require_kwarg": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_group_by_exists_annotation": true,
+        "aggregation_regress.tests.AggregationTests.test_m2m_name_conflict": true,
+        "filtered_relation.tests.FilteredRelationTests.test_with_join_and_complex_condition": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12589/dedup_patch_15.jsonl": {
+      "django__django-12589": {
+        "aggregation_regress.tests.AggregationTests.test_more_more_more": true,
+        "aggregation_regress.tests.AggregationTests.test_having_group_by": true,
+        "aggregation_regress.tests.AggregationTests.test_duplicate_alias": true,
+        "queries.test_explain.ExplainTests.test_basic": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_multi_arg_aggregate": true,
+        "aggregation_regress.tests.AggregationTests.test_field_name_conflict": true,
+        "aggregation_regress.tests.AggregationTests.test_fk_attname_conflict": true,
+        "aggregation.tests.AggregateTestCase.test_complex_aggregations_require_kwarg": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_group_by_exists_annotation": true,
+        "aggregation_regress.tests.AggregationTests.test_m2m_name_conflict": true,
+        "filtered_relation.tests.FilteredRelationTests.test_with_join_and_complex_condition": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12589/dedup_patch_16.jsonl": {
+      "django__django-12589": {
+        "aggregation_regress.tests.AggregationTests.test_more_more_more": false,
+        "aggregation_regress.tests.AggregationTests.test_having_group_by": true,
+        "aggregation_regress.tests.AggregationTests.test_duplicate_alias": true,
+        "queries.test_explain.ExplainTests.test_basic": false,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_multi_arg_aggregate": true,
+        "aggregation_regress.tests.AggregationTests.test_field_name_conflict": true,
+        "aggregation_regress.tests.AggregationTests.test_fk_attname_conflict": true,
+        "aggregation.tests.AggregateTestCase.test_complex_aggregations_require_kwarg": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_group_by_exists_annotation": false,
+        "aggregation_regress.tests.AggregationTests.test_m2m_name_conflict": true,
+        "filtered_relation.tests.FilteredRelationTests.test_with_join_and_complex_condition": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12589/dedup_patch_17.jsonl": {
+      "django__django-12589": {
+        "aggregation_regress.tests.AggregationTests.test_more_more_more": false,
+        "aggregation_regress.tests.AggregationTests.test_having_group_by": false,
+        "aggregation_regress.tests.AggregationTests.test_duplicate_alias": true,
+        "queries.test_explain.ExplainTests.test_basic": false,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_multi_arg_aggregate": true,
+        "aggregation_regress.tests.AggregationTests.test_field_name_conflict": true,
+        "aggregation_regress.tests.AggregationTests.test_fk_attname_conflict": true,
+        "aggregation.tests.AggregateTestCase.test_complex_aggregations_require_kwarg": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_group_by_exists_annotation": false,
+        "aggregation_regress.tests.AggregationTests.test_m2m_name_conflict": true,
+        "filtered_relation.tests.FilteredRelationTests.test_with_join_and_complex_condition": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12589/dedup_patch_18.jsonl": {
+      "django__django-12589": {
+        "aggregation_regress.tests.AggregationTests.test_more_more_more": false,
+        "aggregation_regress.tests.AggregationTests.test_having_group_by": false,
+        "aggregation_regress.tests.AggregationTests.test_duplicate_alias": true,
+        "queries.test_explain.ExplainTests.test_basic": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_multi_arg_aggregate": true,
+        "aggregation_regress.tests.AggregationTests.test_field_name_conflict": true,
+        "aggregation_regress.tests.AggregationTests.test_fk_attname_conflict": true,
+        "aggregation.tests.AggregateTestCase.test_complex_aggregations_require_kwarg": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_group_by_exists_annotation": false,
+        "aggregation_regress.tests.AggregationTests.test_m2m_name_conflict": true,
+        "filtered_relation.tests.FilteredRelationTests.test_with_join_and_complex_condition": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12589/dedup_patch_19.jsonl": {
+      "django__django-12589": {
+        "aggregation_regress.tests.AggregationTests.test_more_more_more": false,
+        "aggregation_regress.tests.AggregationTests.test_having_group_by": false,
+        "aggregation_regress.tests.AggregationTests.test_duplicate_alias": true,
+        "queries.test_explain.ExplainTests.test_basic": false,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_multi_arg_aggregate": true,
+        "aggregation_regress.tests.AggregationTests.test_field_name_conflict": true,
+        "aggregation_regress.tests.AggregationTests.test_fk_attname_conflict": true,
+        "aggregation.tests.AggregateTestCase.test_complex_aggregations_require_kwarg": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_group_by_exists_annotation": false,
+        "aggregation_regress.tests.AggregationTests.test_m2m_name_conflict": true,
+        "filtered_relation.tests.FilteredRelationTests.test_with_join_and_complex_condition": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12589/dedup_patch_2.jsonl": {
+      "django__django-12589": {
+        "aggregation_regress.tests.AggregationTests.test_more_more_more": false,
+        "aggregation_regress.tests.AggregationTests.test_having_group_by": false,
+        "aggregation_regress.tests.AggregationTests.test_duplicate_alias": true,
+        "queries.test_explain.ExplainTests.test_basic": false,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_multi_arg_aggregate": true,
+        "aggregation_regress.tests.AggregationTests.test_field_name_conflict": true,
+        "aggregation_regress.tests.AggregationTests.test_fk_attname_conflict": true,
+        "aggregation.tests.AggregateTestCase.test_complex_aggregations_require_kwarg": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_group_by_exists_annotation": false,
+        "aggregation_regress.tests.AggregationTests.test_m2m_name_conflict": true,
+        "filtered_relation.tests.FilteredRelationTests.test_with_join_and_complex_condition": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12589/dedup_patch_20.jsonl": {
+      "django__django-12589": {
+        "aggregation_regress.tests.AggregationTests.test_more_more_more": false,
+        "aggregation_regress.tests.AggregationTests.test_having_group_by": false,
+        "aggregation_regress.tests.AggregationTests.test_duplicate_alias": true,
+        "queries.test_explain.ExplainTests.test_basic": false,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_multi_arg_aggregate": true,
+        "aggregation_regress.tests.AggregationTests.test_field_name_conflict": true,
+        "aggregation_regress.tests.AggregationTests.test_fk_attname_conflict": true,
+        "aggregation.tests.AggregateTestCase.test_complex_aggregations_require_kwarg": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_group_by_exists_annotation": false,
+        "aggregation_regress.tests.AggregationTests.test_m2m_name_conflict": true,
+        "filtered_relation.tests.FilteredRelationTests.test_with_join_and_complex_condition": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12589/dedup_patch_21.jsonl": {
+      "django__django-12589": {
+        "aggregation_regress.tests.AggregationTests.test_more_more_more": true,
+        "aggregation_regress.tests.AggregationTests.test_having_group_by": true,
+        "aggregation_regress.tests.AggregationTests.test_duplicate_alias": true,
+        "queries.test_explain.ExplainTests.test_basic": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_multi_arg_aggregate": true,
+        "aggregation_regress.tests.AggregationTests.test_field_name_conflict": true,
+        "aggregation_regress.tests.AggregationTests.test_fk_attname_conflict": true,
+        "aggregation.tests.AggregateTestCase.test_complex_aggregations_require_kwarg": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_group_by_exists_annotation": true,
+        "aggregation_regress.tests.AggregationTests.test_m2m_name_conflict": true,
+        "filtered_relation.tests.FilteredRelationTests.test_with_join_and_complex_condition": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12589/dedup_patch_22.jsonl": {
+      "django__django-12589": {
+        "aggregation_regress.tests.AggregationTests.test_more_more_more": true,
+        "aggregation_regress.tests.AggregationTests.test_having_group_by": true,
+        "aggregation_regress.tests.AggregationTests.test_duplicate_alias": true,
+        "queries.test_explain.ExplainTests.test_basic": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_multi_arg_aggregate": true,
+        "aggregation_regress.tests.AggregationTests.test_field_name_conflict": true,
+        "aggregation_regress.tests.AggregationTests.test_fk_attname_conflict": true,
+        "aggregation.tests.AggregateTestCase.test_complex_aggregations_require_kwarg": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_group_by_exists_annotation": true,
+        "aggregation_regress.tests.AggregationTests.test_m2m_name_conflict": true,
+        "filtered_relation.tests.FilteredRelationTests.test_with_join_and_complex_condition": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12589/dedup_patch_23.jsonl": {
+      "django__django-12589": {
+        "aggregation_regress.tests.AggregationTests.test_more_more_more": true,
+        "aggregation_regress.tests.AggregationTests.test_having_group_by": true,
+        "aggregation_regress.tests.AggregationTests.test_duplicate_alias": true,
+        "queries.test_explain.ExplainTests.test_basic": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_multi_arg_aggregate": true,
+        "aggregation_regress.tests.AggregationTests.test_field_name_conflict": true,
+        "aggregation_regress.tests.AggregationTests.test_fk_attname_conflict": true,
+        "aggregation.tests.AggregateTestCase.test_complex_aggregations_require_kwarg": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_group_by_exists_annotation": true,
+        "aggregation_regress.tests.AggregationTests.test_m2m_name_conflict": true,
+        "filtered_relation.tests.FilteredRelationTests.test_with_join_and_complex_condition": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12589/dedup_patch_24.jsonl": {
+      "django__django-12589": {
+        "aggregation_regress.tests.AggregationTests.test_more_more_more": false,
+        "aggregation_regress.tests.AggregationTests.test_having_group_by": false,
+        "aggregation_regress.tests.AggregationTests.test_duplicate_alias": true,
+        "queries.test_explain.ExplainTests.test_basic": false,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_multi_arg_aggregate": true,
+        "aggregation_regress.tests.AggregationTests.test_field_name_conflict": true,
+        "aggregation_regress.tests.AggregationTests.test_fk_attname_conflict": true,
+        "aggregation.tests.AggregateTestCase.test_complex_aggregations_require_kwarg": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_group_by_exists_annotation": false,
+        "aggregation_regress.tests.AggregationTests.test_m2m_name_conflict": true,
+        "filtered_relation.tests.FilteredRelationTests.test_with_join_and_complex_condition": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12589/dedup_patch_25.jsonl": {
+      "django__django-12589": {
+        "aggregation_regress.tests.AggregationTests.test_more_more_more": true,
+        "aggregation_regress.tests.AggregationTests.test_having_group_by": true,
+        "aggregation_regress.tests.AggregationTests.test_duplicate_alias": true,
+        "queries.test_explain.ExplainTests.test_basic": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_multi_arg_aggregate": true,
+        "aggregation_regress.tests.AggregationTests.test_field_name_conflict": true,
+        "aggregation_regress.tests.AggregationTests.test_fk_attname_conflict": true,
+        "aggregation.tests.AggregateTestCase.test_complex_aggregations_require_kwarg": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_group_by_exists_annotation": true,
+        "aggregation_regress.tests.AggregationTests.test_m2m_name_conflict": true,
+        "filtered_relation.tests.FilteredRelationTests.test_with_join_and_complex_condition": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12589/dedup_patch_26.jsonl": {
+      "django__django-12589": {
+        "aggregation_regress.tests.AggregationTests.test_more_more_more": true,
+        "aggregation_regress.tests.AggregationTests.test_having_group_by": false,
+        "aggregation_regress.tests.AggregationTests.test_duplicate_alias": true,
+        "queries.test_explain.ExplainTests.test_basic": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_multi_arg_aggregate": true,
+        "aggregation_regress.tests.AggregationTests.test_field_name_conflict": true,
+        "aggregation_regress.tests.AggregationTests.test_fk_attname_conflict": true,
+        "aggregation.tests.AggregateTestCase.test_complex_aggregations_require_kwarg": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_group_by_exists_annotation": true,
+        "aggregation_regress.tests.AggregationTests.test_m2m_name_conflict": true,
+        "filtered_relation.tests.FilteredRelationTests.test_with_join_and_complex_condition": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12589/dedup_patch_27.jsonl": {
+      "django__django-12589": {
+        "aggregation_regress.tests.AggregationTests.test_more_more_more": true,
+        "aggregation_regress.tests.AggregationTests.test_having_group_by": true,
+        "aggregation_regress.tests.AggregationTests.test_duplicate_alias": true,
+        "queries.test_explain.ExplainTests.test_basic": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_multi_arg_aggregate": true,
+        "aggregation_regress.tests.AggregationTests.test_field_name_conflict": true,
+        "aggregation_regress.tests.AggregationTests.test_fk_attname_conflict": true,
+        "aggregation.tests.AggregateTestCase.test_complex_aggregations_require_kwarg": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_group_by_exists_annotation": true,
+        "aggregation_regress.tests.AggregationTests.test_m2m_name_conflict": true,
+        "filtered_relation.tests.FilteredRelationTests.test_with_join_and_complex_condition": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12589/dedup_patch_28.jsonl": {
+      "django__django-12589": {
+        "aggregation_regress.tests.AggregationTests.test_more_more_more": false,
+        "aggregation_regress.tests.AggregationTests.test_having_group_by": false,
+        "aggregation_regress.tests.AggregationTests.test_duplicate_alias": false,
+        "queries.test_explain.ExplainTests.test_basic": false,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": false,
+        "aggregation.tests.AggregateTestCase.test_multi_arg_aggregate": false,
+        "aggregation_regress.tests.AggregationTests.test_field_name_conflict": false,
+        "aggregation_regress.tests.AggregationTests.test_fk_attname_conflict": false,
+        "aggregation.tests.AggregateTestCase.test_complex_aggregations_require_kwarg": false,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_exists_annotation": false,
+        "aggregation_regress.tests.AggregationTests.test_m2m_name_conflict": false,
+        "filtered_relation.tests.FilteredRelationTests.test_with_join_and_complex_condition": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12589/dedup_patch_29.jsonl": {
+      "django__django-12589": {
+        "aggregation_regress.tests.AggregationTests.test_more_more_more": true,
+        "aggregation_regress.tests.AggregationTests.test_having_group_by": true,
+        "aggregation_regress.tests.AggregationTests.test_duplicate_alias": true,
+        "queries.test_explain.ExplainTests.test_basic": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_multi_arg_aggregate": true,
+        "aggregation_regress.tests.AggregationTests.test_field_name_conflict": true,
+        "aggregation_regress.tests.AggregationTests.test_fk_attname_conflict": true,
+        "aggregation.tests.AggregateTestCase.test_complex_aggregations_require_kwarg": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_group_by_exists_annotation": true,
+        "aggregation_regress.tests.AggregationTests.test_m2m_name_conflict": true,
+        "filtered_relation.tests.FilteredRelationTests.test_with_join_and_complex_condition": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12589/dedup_patch_3.jsonl": {
+      "django__django-12589": {
+        "aggregation_regress.tests.AggregationTests.test_more_more_more": true,
+        "aggregation_regress.tests.AggregationTests.test_having_group_by": true,
+        "aggregation_regress.tests.AggregationTests.test_duplicate_alias": true,
+        "queries.test_explain.ExplainTests.test_basic": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_multi_arg_aggregate": true,
+        "aggregation_regress.tests.AggregationTests.test_field_name_conflict": true,
+        "aggregation_regress.tests.AggregationTests.test_fk_attname_conflict": true,
+        "aggregation.tests.AggregateTestCase.test_complex_aggregations_require_kwarg": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_group_by_exists_annotation": true,
+        "aggregation_regress.tests.AggregationTests.test_m2m_name_conflict": true,
+        "filtered_relation.tests.FilteredRelationTests.test_with_join_and_complex_condition": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12589/dedup_patch_30.jsonl": {
+      "django__django-12589": {
+        "aggregation_regress.tests.AggregationTests.test_more_more_more": true,
+        "aggregation_regress.tests.AggregationTests.test_having_group_by": true,
+        "aggregation_regress.tests.AggregationTests.test_duplicate_alias": true,
+        "queries.test_explain.ExplainTests.test_basic": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_multi_arg_aggregate": true,
+        "aggregation_regress.tests.AggregationTests.test_field_name_conflict": true,
+        "aggregation_regress.tests.AggregationTests.test_fk_attname_conflict": true,
+        "aggregation.tests.AggregateTestCase.test_complex_aggregations_require_kwarg": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_group_by_exists_annotation": true,
+        "aggregation_regress.tests.AggregationTests.test_m2m_name_conflict": true,
+        "filtered_relation.tests.FilteredRelationTests.test_with_join_and_complex_condition": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12589/dedup_patch_31.jsonl": {
+      "django__django-12589": {
+        "aggregation_regress.tests.AggregationTests.test_more_more_more": true,
+        "aggregation_regress.tests.AggregationTests.test_having_group_by": true,
+        "aggregation_regress.tests.AggregationTests.test_duplicate_alias": true,
+        "queries.test_explain.ExplainTests.test_basic": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_multi_arg_aggregate": true,
+        "aggregation_regress.tests.AggregationTests.test_field_name_conflict": true,
+        "aggregation_regress.tests.AggregationTests.test_fk_attname_conflict": true,
+        "aggregation.tests.AggregateTestCase.test_complex_aggregations_require_kwarg": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_group_by_exists_annotation": true,
+        "aggregation_regress.tests.AggregationTests.test_m2m_name_conflict": true,
+        "filtered_relation.tests.FilteredRelationTests.test_with_join_and_complex_condition": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12589/dedup_patch_32.jsonl": {
+      "django__django-12589": {
+        "aggregation_regress.tests.AggregationTests.test_more_more_more": false,
+        "aggregation_regress.tests.AggregationTests.test_having_group_by": false,
+        "aggregation_regress.tests.AggregationTests.test_duplicate_alias": true,
+        "queries.test_explain.ExplainTests.test_basic": false,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_multi_arg_aggregate": true,
+        "aggregation_regress.tests.AggregationTests.test_field_name_conflict": true,
+        "aggregation_regress.tests.AggregationTests.test_fk_attname_conflict": true,
+        "aggregation.tests.AggregateTestCase.test_complex_aggregations_require_kwarg": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_group_by_exists_annotation": false,
+        "aggregation_regress.tests.AggregationTests.test_m2m_name_conflict": true,
+        "filtered_relation.tests.FilteredRelationTests.test_with_join_and_complex_condition": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12589/dedup_patch_33.jsonl": {
+      "django__django-12589": {
+        "aggregation_regress.tests.AggregationTests.test_more_more_more": false,
+        "aggregation_regress.tests.AggregationTests.test_having_group_by": true,
+        "aggregation_regress.tests.AggregationTests.test_duplicate_alias": true,
+        "queries.test_explain.ExplainTests.test_basic": false,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_multi_arg_aggregate": true,
+        "aggregation_regress.tests.AggregationTests.test_field_name_conflict": true,
+        "aggregation_regress.tests.AggregationTests.test_fk_attname_conflict": true,
+        "aggregation.tests.AggregateTestCase.test_complex_aggregations_require_kwarg": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_group_by_exists_annotation": true,
+        "aggregation_regress.tests.AggregationTests.test_m2m_name_conflict": true,
+        "filtered_relation.tests.FilteredRelationTests.test_with_join_and_complex_condition": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12589/dedup_patch_34.jsonl": {
+      "django__django-12589": {
+        "aggregation_regress.tests.AggregationTests.test_more_more_more": true,
+        "aggregation_regress.tests.AggregationTests.test_having_group_by": true,
+        "aggregation_regress.tests.AggregationTests.test_duplicate_alias": true,
+        "queries.test_explain.ExplainTests.test_basic": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_multi_arg_aggregate": true,
+        "aggregation_regress.tests.AggregationTests.test_field_name_conflict": true,
+        "aggregation_regress.tests.AggregationTests.test_fk_attname_conflict": true,
+        "aggregation.tests.AggregateTestCase.test_complex_aggregations_require_kwarg": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_group_by_exists_annotation": true,
+        "aggregation_regress.tests.AggregationTests.test_m2m_name_conflict": true,
+        "filtered_relation.tests.FilteredRelationTests.test_with_join_and_complex_condition": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12589/dedup_patch_35.jsonl": {
+      "django__django-12589": {
+        "aggregation_regress.tests.AggregationTests.test_more_more_more": true,
+        "aggregation_regress.tests.AggregationTests.test_having_group_by": true,
+        "aggregation_regress.tests.AggregationTests.test_duplicate_alias": true,
+        "queries.test_explain.ExplainTests.test_basic": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_multi_arg_aggregate": true,
+        "aggregation_regress.tests.AggregationTests.test_field_name_conflict": true,
+        "aggregation_regress.tests.AggregationTests.test_fk_attname_conflict": true,
+        "aggregation.tests.AggregateTestCase.test_complex_aggregations_require_kwarg": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_group_by_exists_annotation": true,
+        "aggregation_regress.tests.AggregationTests.test_m2m_name_conflict": true,
+        "filtered_relation.tests.FilteredRelationTests.test_with_join_and_complex_condition": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12589/dedup_patch_36.jsonl": {
+      "django__django-12589": {
+        "aggregation_regress.tests.AggregationTests.test_more_more_more": true,
+        "aggregation_regress.tests.AggregationTests.test_having_group_by": true,
+        "aggregation_regress.tests.AggregationTests.test_duplicate_alias": true,
+        "queries.test_explain.ExplainTests.test_basic": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_multi_arg_aggregate": true,
+        "aggregation_regress.tests.AggregationTests.test_field_name_conflict": true,
+        "aggregation_regress.tests.AggregationTests.test_fk_attname_conflict": true,
+        "aggregation.tests.AggregateTestCase.test_complex_aggregations_require_kwarg": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_group_by_exists_annotation": true,
+        "aggregation_regress.tests.AggregationTests.test_m2m_name_conflict": true,
+        "filtered_relation.tests.FilteredRelationTests.test_with_join_and_complex_condition": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12589/dedup_patch_37.jsonl": {
+      "django__django-12589": {
+        "aggregation_regress.tests.AggregationTests.test_more_more_more": false,
+        "aggregation_regress.tests.AggregationTests.test_having_group_by": false,
+        "aggregation_regress.tests.AggregationTests.test_duplicate_alias": true,
+        "queries.test_explain.ExplainTests.test_basic": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_multi_arg_aggregate": true,
+        "aggregation_regress.tests.AggregationTests.test_field_name_conflict": true,
+        "aggregation_regress.tests.AggregationTests.test_fk_attname_conflict": true,
+        "aggregation.tests.AggregateTestCase.test_complex_aggregations_require_kwarg": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_group_by_exists_annotation": false,
+        "aggregation_regress.tests.AggregationTests.test_m2m_name_conflict": true,
+        "filtered_relation.tests.FilteredRelationTests.test_with_join_and_complex_condition": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12589/dedup_patch_38.jsonl": {
+      "django__django-12589": {
+        "aggregation_regress.tests.AggregationTests.test_more_more_more": true,
+        "aggregation_regress.tests.AggregationTests.test_having_group_by": true,
+        "aggregation_regress.tests.AggregationTests.test_duplicate_alias": true,
+        "queries.test_explain.ExplainTests.test_basic": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_multi_arg_aggregate": true,
+        "aggregation_regress.tests.AggregationTests.test_field_name_conflict": true,
+        "aggregation_regress.tests.AggregationTests.test_fk_attname_conflict": true,
+        "aggregation.tests.AggregateTestCase.test_complex_aggregations_require_kwarg": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_group_by_exists_annotation": true,
+        "aggregation_regress.tests.AggregationTests.test_m2m_name_conflict": true,
+        "filtered_relation.tests.FilteredRelationTests.test_with_join_and_complex_condition": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12589/dedup_patch_39.jsonl": {
+      "django__django-12589": {
+        "aggregation_regress.tests.AggregationTests.test_more_more_more": false,
+        "aggregation_regress.tests.AggregationTests.test_having_group_by": false,
+        "aggregation_regress.tests.AggregationTests.test_duplicate_alias": true,
+        "queries.test_explain.ExplainTests.test_basic": true,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_multi_arg_aggregate": true,
+        "aggregation_regress.tests.AggregationTests.test_field_name_conflict": true,
+        "aggregation_regress.tests.AggregationTests.test_fk_attname_conflict": true,
+        "aggregation.tests.AggregateTestCase.test_complex_aggregations_require_kwarg": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_group_by_exists_annotation": true,
+        "aggregation_regress.tests.AggregationTests.test_m2m_name_conflict": true,
+        "filtered_relation.tests.FilteredRelationTests.test_with_join_and_complex_condition": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12589/dedup_patch_4.jsonl": {
+      "django__django-12589": {
+        "aggregation_regress.tests.AggregationTests.test_more_more_more": false,
+        "aggregation_regress.tests.AggregationTests.test_having_group_by": false,
+        "aggregation_regress.tests.AggregationTests.test_duplicate_alias": true,
+        "queries.test_explain.ExplainTests.test_basic": false,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_multi_arg_aggregate": true,
+        "aggregation_regress.tests.AggregationTests.test_field_name_conflict": true,
+        "aggregation_regress.tests.AggregationTests.test_fk_attname_conflict": true,
+        "aggregation.tests.AggregateTestCase.test_complex_aggregations_require_kwarg": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_group_by_exists_annotation": false,
+        "aggregation_regress.tests.AggregationTests.test_m2m_name_conflict": true,
+        "filtered_relation.tests.FilteredRelationTests.test_with_join_and_complex_condition": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12589/dedup_patch_5.jsonl": {
+      "django__django-12589": {
+        "aggregation_regress.tests.AggregationTests.test_more_more_more": false,
+        "aggregation_regress.tests.AggregationTests.test_having_group_by": false,
+        "aggregation_regress.tests.AggregationTests.test_duplicate_alias": true,
+        "queries.test_explain.ExplainTests.test_basic": false,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_multi_arg_aggregate": true,
+        "aggregation_regress.tests.AggregationTests.test_field_name_conflict": true,
+        "aggregation_regress.tests.AggregationTests.test_fk_attname_conflict": true,
+        "aggregation.tests.AggregateTestCase.test_complex_aggregations_require_kwarg": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_group_by_exists_annotation": false,
+        "aggregation_regress.tests.AggregationTests.test_m2m_name_conflict": true,
+        "filtered_relation.tests.FilteredRelationTests.test_with_join_and_complex_condition": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12589/dedup_patch_6.jsonl": {
+      "django__django-12589": {
+        "aggregation_regress.tests.AggregationTests.test_more_more_more": false,
+        "aggregation_regress.tests.AggregationTests.test_having_group_by": false,
+        "aggregation_regress.tests.AggregationTests.test_duplicate_alias": true,
+        "queries.test_explain.ExplainTests.test_basic": false,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_multi_arg_aggregate": true,
+        "aggregation_regress.tests.AggregationTests.test_field_name_conflict": true,
+        "aggregation_regress.tests.AggregationTests.test_fk_attname_conflict": true,
+        "aggregation.tests.AggregateTestCase.test_complex_aggregations_require_kwarg": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_group_by_exists_annotation": false,
+        "aggregation_regress.tests.AggregationTests.test_m2m_name_conflict": true,
+        "filtered_relation.tests.FilteredRelationTests.test_with_join_and_complex_condition": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12589/dedup_patch_7.jsonl": {
+      "django__django-12589": {
+        "aggregation_regress.tests.AggregationTests.test_more_more_more": false,
+        "aggregation_regress.tests.AggregationTests.test_having_group_by": false,
+        "aggregation_regress.tests.AggregationTests.test_duplicate_alias": true,
+        "queries.test_explain.ExplainTests.test_basic": false,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_multi_arg_aggregate": true,
+        "aggregation_regress.tests.AggregationTests.test_field_name_conflict": true,
+        "aggregation_regress.tests.AggregationTests.test_fk_attname_conflict": true,
+        "aggregation.tests.AggregateTestCase.test_complex_aggregations_require_kwarg": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_group_by_exists_annotation": false,
+        "aggregation_regress.tests.AggregationTests.test_m2m_name_conflict": true,
+        "filtered_relation.tests.FilteredRelationTests.test_with_join_and_complex_condition": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12589/dedup_patch_8.jsonl": {
+      "django__django-12589": {
+        "aggregation_regress.tests.AggregationTests.test_more_more_more": false,
+        "aggregation_regress.tests.AggregationTests.test_having_group_by": false,
+        "aggregation_regress.tests.AggregationTests.test_duplicate_alias": true,
+        "queries.test_explain.ExplainTests.test_basic": false,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_multi_arg_aggregate": true,
+        "aggregation_regress.tests.AggregationTests.test_field_name_conflict": true,
+        "aggregation_regress.tests.AggregationTests.test_fk_attname_conflict": true,
+        "aggregation.tests.AggregateTestCase.test_complex_aggregations_require_kwarg": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_group_by_exists_annotation": false,
+        "aggregation_regress.tests.AggregationTests.test_m2m_name_conflict": true,
+        "filtered_relation.tests.FilteredRelationTests.test_with_join_and_complex_condition": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12589/dedup_patch_9.jsonl": {
+      "django__django-12589": {
+        "aggregation_regress.tests.AggregationTests.test_more_more_more": false,
+        "aggregation_regress.tests.AggregationTests.test_having_group_by": false,
+        "aggregation_regress.tests.AggregationTests.test_duplicate_alias": true,
+        "queries.test_explain.ExplainTests.test_basic": false,
+        "queries.tests.SubqueryTests.test_distinct_ordered_sliced_subquery": true,
+        "aggregation.tests.AggregateTestCase.test_multi_arg_aggregate": true,
+        "aggregation_regress.tests.AggregationTests.test_field_name_conflict": true,
+        "aggregation_regress.tests.AggregationTests.test_fk_attname_conflict": true,
+        "aggregation.tests.AggregateTestCase.test_complex_aggregations_require_kwarg": true,
+        "queries.tests.Queries6Tests.test_distinct_ordered_sliced_subquery_aggregation": true,
+        "aggregation.tests.AggregateTestCase.test_group_by_exists_annotation": false,
+        "aggregation_regress.tests.AggregationTests.test_m2m_name_conflict": true,
+        "filtered_relation.tests.FilteredRelationTests.test_with_join_and_complex_condition": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-12589": {
+        "aggregation.tests.AggregateTestCase.test_group_by_ambiguous_annotation#1": true,
+        "aggregation.tests.AggregateTestCase.test_group_by_clauses_with_tricky_field_annotation#2": true,
+        "aggregation.tests.AggregateTestCase.test_tricky_field_annotation_group_by#3": true,
+        "aggregation.tests.AggregateTestCase.test_group_by_ambiguous_annotation#4": true,
+        "aggregation.tests.AggregateTestCase.test_group_by_annotation_with_subquery#5": true,
+        "aggregation.tests.AggregateTestCase.test_group_by_subquery_annotation_with_values#6": true,
+        "aggregation.tests.AggregateTestCase.test_group_by_clause_with_tricky_annotation#7": true,
+        "aggregation.tests.AggregateTestCase.test_group_by_clauses_with_tricky_field_annotation#8": true,
+        "aggregation.tests.AggregateTestCase.test_group_by_ambiguous_annotation#9": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_annotation_with_subquery#10": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12589/dedup_patch_10.jsonl": {
+      "django__django-12589": {
+        "aggregation.tests.AggregateTestCase.test_group_by_ambiguous_annotation#1": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_clauses_with_tricky_field_annotation#2": false,
+        "aggregation.tests.AggregateTestCase.test_tricky_field_annotation_group_by#3": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_ambiguous_annotation#4": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_annotation_with_subquery#5": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_subquery_annotation_with_values#6": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_clause_with_tricky_annotation#7": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_clauses_with_tricky_field_annotation#8": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_annotation_with_subquery#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12589/dedup_patch_11.jsonl": {
+      "django__django-12589": {
+        "aggregation.tests.AggregateTestCase.test_group_by_ambiguous_annotation#1": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_clauses_with_tricky_field_annotation#2": false,
+        "aggregation.tests.AggregateTestCase.test_tricky_field_annotation_group_by#3": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_ambiguous_annotation#4": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_annotation_with_subquery#5": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_subquery_annotation_with_values#6": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_clause_with_tricky_annotation#7": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_clauses_with_tricky_field_annotation#8": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_annotation_with_subquery#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12589/dedup_patch_14.jsonl": {
+      "django__django-12589": {
+        "aggregation.tests.AggregateTestCase.test_group_by_ambiguous_annotation#1": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_clauses_with_tricky_field_annotation#2": false,
+        "aggregation.tests.AggregateTestCase.test_tricky_field_annotation_group_by#3": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_ambiguous_annotation#4": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_annotation_with_subquery#5": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_subquery_annotation_with_values#6": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_clause_with_tricky_annotation#7": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_clauses_with_tricky_field_annotation#8": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_annotation_with_subquery#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12589/dedup_patch_15.jsonl": {
+      "django__django-12589": {
+        "aggregation.tests.AggregateTestCase.test_group_by_ambiguous_annotation#1": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_clauses_with_tricky_field_annotation#2": false,
+        "aggregation.tests.AggregateTestCase.test_tricky_field_annotation_group_by#3": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_ambiguous_annotation#4": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_annotation_with_subquery#5": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_subquery_annotation_with_values#6": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_clause_with_tricky_annotation#7": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_clauses_with_tricky_field_annotation#8": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_annotation_with_subquery#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12589/dedup_patch_21.jsonl": {
+      "django__django-12589": {
+        "aggregation.tests.AggregateTestCase.test_group_by_ambiguous_annotation#1": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_clauses_with_tricky_field_annotation#2": false,
+        "aggregation.tests.AggregateTestCase.test_tricky_field_annotation_group_by#3": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_ambiguous_annotation#4": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_annotation_with_subquery#5": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_subquery_annotation_with_values#6": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_clause_with_tricky_annotation#7": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_clauses_with_tricky_field_annotation#8": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_annotation_with_subquery#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12589/dedup_patch_22.jsonl": {
+      "django__django-12589": {
+        "aggregation.tests.AggregateTestCase.test_group_by_ambiguous_annotation#1": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_clauses_with_tricky_field_annotation#2": false,
+        "aggregation.tests.AggregateTestCase.test_tricky_field_annotation_group_by#3": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_ambiguous_annotation#4": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_annotation_with_subquery#5": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_subquery_annotation_with_values#6": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_clause_with_tricky_annotation#7": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_clauses_with_tricky_field_annotation#8": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_annotation_with_subquery#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12589/dedup_patch_23.jsonl": {
+      "django__django-12589": {
+        "aggregation.tests.AggregateTestCase.test_group_by_ambiguous_annotation#1": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_clauses_with_tricky_field_annotation#2": false,
+        "aggregation.tests.AggregateTestCase.test_tricky_field_annotation_group_by#3": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_ambiguous_annotation#4": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_annotation_with_subquery#5": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_subquery_annotation_with_values#6": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_clause_with_tricky_annotation#7": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_clauses_with_tricky_field_annotation#8": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_annotation_with_subquery#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12589/dedup_patch_25.jsonl": {
+      "django__django-12589": {
+        "aggregation.tests.AggregateTestCase.test_group_by_ambiguous_annotation#1": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_clauses_with_tricky_field_annotation#2": false,
+        "aggregation.tests.AggregateTestCase.test_tricky_field_annotation_group_by#3": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_ambiguous_annotation#4": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_annotation_with_subquery#5": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_subquery_annotation_with_values#6": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_clause_with_tricky_annotation#7": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_clauses_with_tricky_field_annotation#8": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_annotation_with_subquery#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12589/dedup_patch_27.jsonl": {
+      "django__django-12589": {
+        "aggregation.tests.AggregateTestCase.test_group_by_ambiguous_annotation#1": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_clauses_with_tricky_field_annotation#2": false,
+        "aggregation.tests.AggregateTestCase.test_tricky_field_annotation_group_by#3": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_ambiguous_annotation#4": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_annotation_with_subquery#5": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_subquery_annotation_with_values#6": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_clause_with_tricky_annotation#7": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_clauses_with_tricky_field_annotation#8": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_annotation_with_subquery#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12589/dedup_patch_29.jsonl": {
+      "django__django-12589": {
+        "aggregation.tests.AggregateTestCase.test_group_by_ambiguous_annotation#1": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_clauses_with_tricky_field_annotation#2": false,
+        "aggregation.tests.AggregateTestCase.test_tricky_field_annotation_group_by#3": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_ambiguous_annotation#4": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_annotation_with_subquery#5": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_subquery_annotation_with_values#6": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_clause_with_tricky_annotation#7": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_clauses_with_tricky_field_annotation#8": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_annotation_with_subquery#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12589/dedup_patch_3.jsonl": {
+      "django__django-12589": {
+        "aggregation.tests.AggregateTestCase.test_group_by_ambiguous_annotation#1": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_clauses_with_tricky_field_annotation#2": false,
+        "aggregation.tests.AggregateTestCase.test_tricky_field_annotation_group_by#3": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_ambiguous_annotation#4": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_annotation_with_subquery#5": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_subquery_annotation_with_values#6": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_clause_with_tricky_annotation#7": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_clauses_with_tricky_field_annotation#8": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_annotation_with_subquery#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12589/dedup_patch_30.jsonl": {
+      "django__django-12589": {
+        "aggregation.tests.AggregateTestCase.test_group_by_ambiguous_annotation#1": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_clauses_with_tricky_field_annotation#2": false,
+        "aggregation.tests.AggregateTestCase.test_tricky_field_annotation_group_by#3": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_ambiguous_annotation#4": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_annotation_with_subquery#5": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_subquery_annotation_with_values#6": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_clause_with_tricky_annotation#7": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_clauses_with_tricky_field_annotation#8": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_annotation_with_subquery#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12589/dedup_patch_31.jsonl": {
+      "django__django-12589": {
+        "aggregation.tests.AggregateTestCase.test_group_by_ambiguous_annotation#1": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_clauses_with_tricky_field_annotation#2": false,
+        "aggregation.tests.AggregateTestCase.test_tricky_field_annotation_group_by#3": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_ambiguous_annotation#4": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_annotation_with_subquery#5": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_subquery_annotation_with_values#6": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_clause_with_tricky_annotation#7": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_clauses_with_tricky_field_annotation#8": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_annotation_with_subquery#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12589/dedup_patch_34.jsonl": {
+      "django__django-12589": {
+        "aggregation.tests.AggregateTestCase.test_group_by_ambiguous_annotation#1": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_clauses_with_tricky_field_annotation#2": false,
+        "aggregation.tests.AggregateTestCase.test_tricky_field_annotation_group_by#3": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_ambiguous_annotation#4": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_annotation_with_subquery#5": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_subquery_annotation_with_values#6": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_clause_with_tricky_annotation#7": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_clauses_with_tricky_field_annotation#8": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_annotation_with_subquery#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12589/dedup_patch_35.jsonl": {
+      "django__django-12589": {
+        "aggregation.tests.AggregateTestCase.test_group_by_ambiguous_annotation#1": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_clauses_with_tricky_field_annotation#2": false,
+        "aggregation.tests.AggregateTestCase.test_tricky_field_annotation_group_by#3": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_ambiguous_annotation#4": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_annotation_with_subquery#5": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_subquery_annotation_with_values#6": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_clause_with_tricky_annotation#7": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_clauses_with_tricky_field_annotation#8": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_annotation_with_subquery#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12589/dedup_patch_36.jsonl": {
+      "django__django-12589": {
+        "aggregation.tests.AggregateTestCase.test_group_by_ambiguous_annotation#1": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_clauses_with_tricky_field_annotation#2": false,
+        "aggregation.tests.AggregateTestCase.test_tricky_field_annotation_group_by#3": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_ambiguous_annotation#4": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_annotation_with_subquery#5": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_subquery_annotation_with_values#6": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_clause_with_tricky_annotation#7": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_clauses_with_tricky_field_annotation#8": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_annotation_with_subquery#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12589/dedup_patch_38.jsonl": {
+      "django__django-12589": {
+        "aggregation.tests.AggregateTestCase.test_group_by_ambiguous_annotation#1": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_clauses_with_tricky_field_annotation#2": false,
+        "aggregation.tests.AggregateTestCase.test_tricky_field_annotation_group_by#3": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_ambiguous_annotation#4": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_annotation_with_subquery#5": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_subquery_annotation_with_values#6": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_clause_with_tricky_annotation#7": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_clauses_with_tricky_field_annotation#8": false,
+        "aggregation.tests.AggregateTestCase.test_group_by_annotation_with_subquery#10": false
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "regression": {},
+  "reproduction": {
+    "fail_on_original_repo": {
+      "matplotlib__matplotlib-26011": {
+        "lib/matplotlib/tests/test_axes.py::test_shared_axes_autoscale#1": false,
+        "lib/matplotlib/tests/test_axes.py::test_shared_axes_autoscale#2": false,
+        "lib/matplotlib/tests/test_axes.py::test_twin_axis_locators_formatters#3": false,
+        "lib/matplotlib/tests/test_axes.py::test_shared_axes_autoscale#4": false,
+        "lib/matplotlib/tests/test_axes.py::test_shared_axes_clear#5": false,
+        "lib/matplotlib/tests/test_axes.py::test_shared_axes_retick#6": false,
+        "lib/matplotlib/tests/test_axes.py::test_shared_axes_retick#7": false,
+        "lib/matplotlib/tests/test_axes.py::test_shared_axes_retick#8": false,
+        "lib/matplotlib/tests/test_axes.py::test_shared_axes_retick#9": false,
+        "lib/reproduce_bug.py#10": true,
+        "lib/reproduce_bug_new.py#10": true
+      }
+    }
+  }
+}

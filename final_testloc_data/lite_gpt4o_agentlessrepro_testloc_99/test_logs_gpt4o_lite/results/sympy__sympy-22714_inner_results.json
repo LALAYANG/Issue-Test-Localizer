@@ -1,0 +1,817 @@
+{
+  "regression": {
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-22714/dedup_patch_0.jsonl": {
+      "sympy__sympy-22714": {
+        "sympy/geometry/tests/test_point.py::test_dot": true,
+        "sympy/core/tests/test_sympify.py::test__sympify": true,
+        "sympy/geometry/tests/test_point.py::test_arguments": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_function_evaluate_false": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_sympy_parser": true,
+        "sympy/core/tests/test_sympify.py::test_issue_16859": true,
+        "sympy/geometry/tests/test_point.py::test_point": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_parsing_definitions": true,
+        "sympy/core/tests/test_sympify.py::test_sympify1": true,
+        "sympy/geometry/tests/test_point.py::test_point3D": true,
+        "sympy/geometry/tests/test_point.py::test_unit": true,
+        "sympy/geometry/tests/test_point.py::test_transform": true,
+        "sympy/geometry/tests/test_point.py::test_Point2D": true,
+        "sympy/core/tests/test_sympify.py::test_issue_6046": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_raises": true,
+        "sympy/geometry/tests/test_polygon.py::test_polygon": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-22714/dedup_patch_1.jsonl": {
+      "sympy__sympy-22714": {
+        "sympy/geometry/tests/test_point.py::test_dot": true,
+        "sympy/core/tests/test_sympify.py::test__sympify": true,
+        "sympy/geometry/tests/test_point.py::test_arguments": false,
+        "sympy/parsing/tests/test_sympy_parser.py::test_function_evaluate_false": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_sympy_parser": false,
+        "sympy/core/tests/test_sympify.py::test_issue_16859": true,
+        "sympy/geometry/tests/test_point.py::test_point": false,
+        "sympy/parsing/tests/test_sympy_parser.py::test_parsing_definitions": true,
+        "sympy/core/tests/test_sympify.py::test_sympify1": false,
+        "sympy/geometry/tests/test_point.py::test_point3D": false,
+        "sympy/geometry/tests/test_point.py::test_unit": false,
+        "sympy/geometry/tests/test_point.py::test_transform": true,
+        "sympy/geometry/tests/test_point.py::test_Point2D": false,
+        "sympy/core/tests/test_sympify.py::test_issue_6046": false,
+        "sympy/core/tests/test_sympify.py::test_sympify_raises": false,
+        "sympy/geometry/tests/test_polygon.py::test_polygon": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-22714/dedup_patch_10.jsonl": {
+      "sympy__sympy-22714": {
+        "sympy/geometry/tests/test_point.py::test_dot": true,
+        "sympy/core/tests/test_sympify.py::test__sympify": true,
+        "sympy/geometry/tests/test_point.py::test_arguments": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_function_evaluate_false": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_sympy_parser": true,
+        "sympy/core/tests/test_sympify.py::test_issue_16859": true,
+        "sympy/geometry/tests/test_point.py::test_point": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_parsing_definitions": true,
+        "sympy/core/tests/test_sympify.py::test_sympify1": true,
+        "sympy/geometry/tests/test_point.py::test_point3D": false,
+        "sympy/geometry/tests/test_point.py::test_unit": true,
+        "sympy/geometry/tests/test_point.py::test_transform": true,
+        "sympy/geometry/tests/test_point.py::test_Point2D": true,
+        "sympy/core/tests/test_sympify.py::test_issue_6046": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_raises": true,
+        "sympy/geometry/tests/test_polygon.py::test_polygon": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-22714/dedup_patch_11.jsonl": {
+      "sympy__sympy-22714": {
+        "sympy/geometry/tests/test_point.py::test_dot": true,
+        "sympy/core/tests/test_sympify.py::test__sympify": true,
+        "sympy/geometry/tests/test_point.py::test_arguments": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_function_evaluate_false": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_sympy_parser": true,
+        "sympy/core/tests/test_sympify.py::test_issue_16859": true,
+        "sympy/geometry/tests/test_point.py::test_point": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_parsing_definitions": true,
+        "sympy/core/tests/test_sympify.py::test_sympify1": true,
+        "sympy/geometry/tests/test_point.py::test_point3D": true,
+        "sympy/geometry/tests/test_point.py::test_unit": true,
+        "sympy/geometry/tests/test_point.py::test_transform": true,
+        "sympy/geometry/tests/test_point.py::test_Point2D": true,
+        "sympy/core/tests/test_sympify.py::test_issue_6046": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_raises": true,
+        "sympy/geometry/tests/test_polygon.py::test_polygon": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-22714/dedup_patch_12.jsonl": {
+      "sympy__sympy-22714": {
+        "sympy/geometry/tests/test_point.py::test_dot": true,
+        "sympy/core/tests/test_sympify.py::test__sympify": true,
+        "sympy/geometry/tests/test_point.py::test_arguments": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_function_evaluate_false": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_sympy_parser": true,
+        "sympy/core/tests/test_sympify.py::test_issue_16859": true,
+        "sympy/geometry/tests/test_point.py::test_point": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_parsing_definitions": true,
+        "sympy/core/tests/test_sympify.py::test_sympify1": true,
+        "sympy/geometry/tests/test_point.py::test_point3D": true,
+        "sympy/geometry/tests/test_point.py::test_unit": true,
+        "sympy/geometry/tests/test_point.py::test_transform": true,
+        "sympy/geometry/tests/test_point.py::test_Point2D": true,
+        "sympy/core/tests/test_sympify.py::test_issue_6046": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_raises": true,
+        "sympy/geometry/tests/test_polygon.py::test_polygon": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-22714/dedup_patch_13.jsonl": {
+      "sympy__sympy-22714": {
+        "sympy/geometry/tests/test_point.py::test_dot": true,
+        "sympy/core/tests/test_sympify.py::test__sympify": true,
+        "sympy/geometry/tests/test_point.py::test_arguments": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_function_evaluate_false": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_sympy_parser": true,
+        "sympy/core/tests/test_sympify.py::test_issue_16859": true,
+        "sympy/geometry/tests/test_point.py::test_point": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_parsing_definitions": true,
+        "sympy/core/tests/test_sympify.py::test_sympify1": true,
+        "sympy/geometry/tests/test_point.py::test_point3D": true,
+        "sympy/geometry/tests/test_point.py::test_unit": true,
+        "sympy/geometry/tests/test_point.py::test_transform": true,
+        "sympy/geometry/tests/test_point.py::test_Point2D": true,
+        "sympy/core/tests/test_sympify.py::test_issue_6046": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_raises": true,
+        "sympy/geometry/tests/test_polygon.py::test_polygon": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-22714/dedup_patch_14.jsonl": {
+      "sympy__sympy-22714": {
+        "sympy/geometry/tests/test_point.py::test_dot": true,
+        "sympy/core/tests/test_sympify.py::test__sympify": true,
+        "sympy/geometry/tests/test_point.py::test_arguments": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_function_evaluate_false": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_sympy_parser": true,
+        "sympy/core/tests/test_sympify.py::test_issue_16859": true,
+        "sympy/geometry/tests/test_point.py::test_point": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_parsing_definitions": true,
+        "sympy/core/tests/test_sympify.py::test_sympify1": true,
+        "sympy/geometry/tests/test_point.py::test_point3D": true,
+        "sympy/geometry/tests/test_point.py::test_unit": true,
+        "sympy/geometry/tests/test_point.py::test_transform": true,
+        "sympy/geometry/tests/test_point.py::test_Point2D": true,
+        "sympy/core/tests/test_sympify.py::test_issue_6046": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_raises": true,
+        "sympy/geometry/tests/test_polygon.py::test_polygon": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-22714/dedup_patch_15.jsonl": {
+      "sympy__sympy-22714": {
+        "sympy/geometry/tests/test_point.py::test_dot": true,
+        "sympy/core/tests/test_sympify.py::test__sympify": true,
+        "sympy/geometry/tests/test_point.py::test_arguments": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_function_evaluate_false": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_sympy_parser": true,
+        "sympy/core/tests/test_sympify.py::test_issue_16859": true,
+        "sympy/geometry/tests/test_point.py::test_point": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_parsing_definitions": true,
+        "sympy/core/tests/test_sympify.py::test_sympify1": true,
+        "sympy/geometry/tests/test_point.py::test_point3D": true,
+        "sympy/geometry/tests/test_point.py::test_unit": true,
+        "sympy/geometry/tests/test_point.py::test_transform": true,
+        "sympy/geometry/tests/test_point.py::test_Point2D": true,
+        "sympy/core/tests/test_sympify.py::test_issue_6046": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_raises": true,
+        "sympy/geometry/tests/test_polygon.py::test_polygon": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-22714/dedup_patch_16.jsonl": {
+      "sympy__sympy-22714": {
+        "sympy/geometry/tests/test_point.py::test_dot": true,
+        "sympy/core/tests/test_sympify.py::test__sympify": true,
+        "sympy/geometry/tests/test_point.py::test_arguments": false,
+        "sympy/parsing/tests/test_sympy_parser.py::test_function_evaluate_false": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_sympy_parser": true,
+        "sympy/core/tests/test_sympify.py::test_issue_16859": true,
+        "sympy/geometry/tests/test_point.py::test_point": false,
+        "sympy/parsing/tests/test_sympy_parser.py::test_parsing_definitions": true,
+        "sympy/core/tests/test_sympify.py::test_sympify1": true,
+        "sympy/geometry/tests/test_point.py::test_point3D": false,
+        "sympy/geometry/tests/test_point.py::test_unit": true,
+        "sympy/geometry/tests/test_point.py::test_transform": true,
+        "sympy/geometry/tests/test_point.py::test_Point2D": true,
+        "sympy/core/tests/test_sympify.py::test_issue_6046": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_raises": true,
+        "sympy/geometry/tests/test_polygon.py::test_polygon": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-22714/dedup_patch_17.jsonl": {
+      "sympy__sympy-22714": {
+        "sympy/geometry/tests/test_point.py::test_dot": true,
+        "sympy/core/tests/test_sympify.py::test__sympify": true,
+        "sympy/geometry/tests/test_point.py::test_arguments": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_function_evaluate_false": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_sympy_parser": true,
+        "sympy/core/tests/test_sympify.py::test_issue_16859": true,
+        "sympy/geometry/tests/test_point.py::test_point": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_parsing_definitions": true,
+        "sympy/core/tests/test_sympify.py::test_sympify1": true,
+        "sympy/geometry/tests/test_point.py::test_point3D": true,
+        "sympy/geometry/tests/test_point.py::test_unit": true,
+        "sympy/geometry/tests/test_point.py::test_transform": true,
+        "sympy/geometry/tests/test_point.py::test_Point2D": true,
+        "sympy/core/tests/test_sympify.py::test_issue_6046": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_raises": true,
+        "sympy/geometry/tests/test_polygon.py::test_polygon": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-22714/dedup_patch_18.jsonl": {
+      "sympy__sympy-22714": {
+        "sympy/geometry/tests/test_point.py::test_dot": true,
+        "sympy/core/tests/test_sympify.py::test__sympify": true,
+        "sympy/geometry/tests/test_point.py::test_arguments": false,
+        "sympy/parsing/tests/test_sympy_parser.py::test_function_evaluate_false": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_sympy_parser": true,
+        "sympy/core/tests/test_sympify.py::test_issue_16859": true,
+        "sympy/geometry/tests/test_point.py::test_point": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_parsing_definitions": true,
+        "sympy/core/tests/test_sympify.py::test_sympify1": true,
+        "sympy/geometry/tests/test_point.py::test_point3D": true,
+        "sympy/geometry/tests/test_point.py::test_unit": true,
+        "sympy/geometry/tests/test_point.py::test_transform": true,
+        "sympy/geometry/tests/test_point.py::test_Point2D": false,
+        "sympy/core/tests/test_sympify.py::test_issue_6046": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_raises": true,
+        "sympy/geometry/tests/test_polygon.py::test_polygon": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-22714/dedup_patch_19.jsonl": {
+      "sympy__sympy-22714": {
+        "sympy/geometry/tests/test_point.py::test_dot": true,
+        "sympy/core/tests/test_sympify.py::test__sympify": true,
+        "sympy/geometry/tests/test_point.py::test_arguments": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_function_evaluate_false": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_sympy_parser": true,
+        "sympy/core/tests/test_sympify.py::test_issue_16859": true,
+        "sympy/geometry/tests/test_point.py::test_point": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_parsing_definitions": true,
+        "sympy/core/tests/test_sympify.py::test_sympify1": true,
+        "sympy/geometry/tests/test_point.py::test_point3D": true,
+        "sympy/geometry/tests/test_point.py::test_unit": true,
+        "sympy/geometry/tests/test_point.py::test_transform": true,
+        "sympy/geometry/tests/test_point.py::test_Point2D": true,
+        "sympy/core/tests/test_sympify.py::test_issue_6046": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_raises": true,
+        "sympy/geometry/tests/test_polygon.py::test_polygon": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-22714/dedup_patch_2.jsonl": {
+      "sympy__sympy-22714": {
+        "sympy/geometry/tests/test_point.py::test_dot": true,
+        "sympy/core/tests/test_sympify.py::test__sympify": true,
+        "sympy/geometry/tests/test_point.py::test_arguments": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_function_evaluate_false": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_sympy_parser": true,
+        "sympy/core/tests/test_sympify.py::test_issue_16859": true,
+        "sympy/geometry/tests/test_point.py::test_point": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_parsing_definitions": true,
+        "sympy/core/tests/test_sympify.py::test_sympify1": true,
+        "sympy/geometry/tests/test_point.py::test_point3D": true,
+        "sympy/geometry/tests/test_point.py::test_unit": true,
+        "sympy/geometry/tests/test_point.py::test_transform": true,
+        "sympy/geometry/tests/test_point.py::test_Point2D": true,
+        "sympy/core/tests/test_sympify.py::test_issue_6046": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_raises": true,
+        "sympy/geometry/tests/test_polygon.py::test_polygon": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-22714/dedup_patch_20.jsonl": {
+      "sympy__sympy-22714": {
+        "sympy/geometry/tests/test_point.py::test_dot": true,
+        "sympy/core/tests/test_sympify.py::test__sympify": true,
+        "sympy/geometry/tests/test_point.py::test_arguments": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_function_evaluate_false": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_sympy_parser": true,
+        "sympy/core/tests/test_sympify.py::test_issue_16859": true,
+        "sympy/geometry/tests/test_point.py::test_point": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_parsing_definitions": true,
+        "sympy/core/tests/test_sympify.py::test_sympify1": true,
+        "sympy/geometry/tests/test_point.py::test_point3D": true,
+        "sympy/geometry/tests/test_point.py::test_unit": true,
+        "sympy/geometry/tests/test_point.py::test_transform": true,
+        "sympy/geometry/tests/test_point.py::test_Point2D": true,
+        "sympy/core/tests/test_sympify.py::test_issue_6046": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_raises": true,
+        "sympy/geometry/tests/test_polygon.py::test_polygon": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-22714/dedup_patch_21.jsonl": {
+      "sympy__sympy-22714": {
+        "sympy/geometry/tests/test_point.py::test_dot": true,
+        "sympy/core/tests/test_sympify.py::test__sympify": true,
+        "sympy/geometry/tests/test_point.py::test_arguments": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_function_evaluate_false": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_sympy_parser": true,
+        "sympy/core/tests/test_sympify.py::test_issue_16859": true,
+        "sympy/geometry/tests/test_point.py::test_point": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_parsing_definitions": true,
+        "sympy/core/tests/test_sympify.py::test_sympify1": true,
+        "sympy/geometry/tests/test_point.py::test_point3D": true,
+        "sympy/geometry/tests/test_point.py::test_unit": true,
+        "sympy/geometry/tests/test_point.py::test_transform": true,
+        "sympy/geometry/tests/test_point.py::test_Point2D": true,
+        "sympy/core/tests/test_sympify.py::test_issue_6046": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_raises": true,
+        "sympy/geometry/tests/test_polygon.py::test_polygon": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-22714/dedup_patch_22.jsonl": {
+      "sympy__sympy-22714": {
+        "sympy/geometry/tests/test_point.py::test_dot": true,
+        "sympy/core/tests/test_sympify.py::test__sympify": true,
+        "sympy/geometry/tests/test_point.py::test_arguments": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_function_evaluate_false": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_sympy_parser": true,
+        "sympy/core/tests/test_sympify.py::test_issue_16859": true,
+        "sympy/geometry/tests/test_point.py::test_point": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_parsing_definitions": true,
+        "sympy/core/tests/test_sympify.py::test_sympify1": true,
+        "sympy/geometry/tests/test_point.py::test_point3D": true,
+        "sympy/geometry/tests/test_point.py::test_unit": true,
+        "sympy/geometry/tests/test_point.py::test_transform": true,
+        "sympy/geometry/tests/test_point.py::test_Point2D": true,
+        "sympy/core/tests/test_sympify.py::test_issue_6046": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_raises": true,
+        "sympy/geometry/tests/test_polygon.py::test_polygon": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-22714/dedup_patch_23.jsonl": {
+      "sympy__sympy-22714": {
+        "sympy/geometry/tests/test_point.py::test_dot": true,
+        "sympy/core/tests/test_sympify.py::test__sympify": true,
+        "sympy/geometry/tests/test_point.py::test_arguments": false,
+        "sympy/parsing/tests/test_sympy_parser.py::test_function_evaluate_false": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_sympy_parser": true,
+        "sympy/core/tests/test_sympify.py::test_issue_16859": true,
+        "sympy/geometry/tests/test_point.py::test_point": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_parsing_definitions": true,
+        "sympy/core/tests/test_sympify.py::test_sympify1": true,
+        "sympy/geometry/tests/test_point.py::test_point3D": true,
+        "sympy/geometry/tests/test_point.py::test_unit": true,
+        "sympy/geometry/tests/test_point.py::test_transform": true,
+        "sympy/geometry/tests/test_point.py::test_Point2D": false,
+        "sympy/core/tests/test_sympify.py::test_issue_6046": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_raises": true,
+        "sympy/geometry/tests/test_polygon.py::test_polygon": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-22714/dedup_patch_24.jsonl": {
+      "sympy__sympy-22714": {
+        "sympy/geometry/tests/test_point.py::test_dot": false,
+        "sympy/core/tests/test_sympify.py::test__sympify": true,
+        "sympy/geometry/tests/test_point.py::test_arguments": false,
+        "sympy/parsing/tests/test_sympy_parser.py::test_function_evaluate_false": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_sympy_parser": true,
+        "sympy/core/tests/test_sympify.py::test_issue_16859": true,
+        "sympy/geometry/tests/test_point.py::test_point": false,
+        "sympy/parsing/tests/test_sympy_parser.py::test_parsing_definitions": true,
+        "sympy/core/tests/test_sympify.py::test_sympify1": true,
+        "sympy/geometry/tests/test_point.py::test_point3D": false,
+        "sympy/geometry/tests/test_point.py::test_unit": false,
+        "sympy/geometry/tests/test_point.py::test_transform": false,
+        "sympy/geometry/tests/test_point.py::test_Point2D": false,
+        "sympy/core/tests/test_sympify.py::test_issue_6046": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_raises": true,
+        "sympy/geometry/tests/test_polygon.py::test_polygon": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-22714/dedup_patch_25.jsonl": {
+      "sympy__sympy-22714": {
+        "sympy/geometry/tests/test_point.py::test_dot": true,
+        "sympy/core/tests/test_sympify.py::test__sympify": true,
+        "sympy/geometry/tests/test_point.py::test_arguments": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_function_evaluate_false": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_sympy_parser": true,
+        "sympy/core/tests/test_sympify.py::test_issue_16859": true,
+        "sympy/geometry/tests/test_point.py::test_point": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_parsing_definitions": true,
+        "sympy/core/tests/test_sympify.py::test_sympify1": true,
+        "sympy/geometry/tests/test_point.py::test_point3D": true,
+        "sympy/geometry/tests/test_point.py::test_unit": true,
+        "sympy/geometry/tests/test_point.py::test_transform": true,
+        "sympy/geometry/tests/test_point.py::test_Point2D": true,
+        "sympy/core/tests/test_sympify.py::test_issue_6046": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_raises": true,
+        "sympy/geometry/tests/test_polygon.py::test_polygon": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-22714/dedup_patch_26.jsonl": {
+      "sympy__sympy-22714": {
+        "sympy/geometry/tests/test_point.py::test_dot": true,
+        "sympy/core/tests/test_sympify.py::test__sympify": true,
+        "sympy/geometry/tests/test_point.py::test_arguments": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_function_evaluate_false": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_sympy_parser": true,
+        "sympy/core/tests/test_sympify.py::test_issue_16859": true,
+        "sympy/geometry/tests/test_point.py::test_point": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_parsing_definitions": true,
+        "sympy/core/tests/test_sympify.py::test_sympify1": true,
+        "sympy/geometry/tests/test_point.py::test_point3D": true,
+        "sympy/geometry/tests/test_point.py::test_unit": true,
+        "sympy/geometry/tests/test_point.py::test_transform": true,
+        "sympy/geometry/tests/test_point.py::test_Point2D": true,
+        "sympy/core/tests/test_sympify.py::test_issue_6046": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_raises": true,
+        "sympy/geometry/tests/test_polygon.py::test_polygon": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-22714/dedup_patch_27.jsonl": {
+      "sympy__sympy-22714": {
+        "sympy/geometry/tests/test_point.py::test_dot": true,
+        "sympy/core/tests/test_sympify.py::test__sympify": true,
+        "sympy/geometry/tests/test_point.py::test_arguments": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_function_evaluate_false": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_sympy_parser": true,
+        "sympy/core/tests/test_sympify.py::test_issue_16859": true,
+        "sympy/geometry/tests/test_point.py::test_point": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_parsing_definitions": true,
+        "sympy/core/tests/test_sympify.py::test_sympify1": true,
+        "sympy/geometry/tests/test_point.py::test_point3D": true,
+        "sympy/geometry/tests/test_point.py::test_unit": true,
+        "sympy/geometry/tests/test_point.py::test_transform": true,
+        "sympy/geometry/tests/test_point.py::test_Point2D": true,
+        "sympy/core/tests/test_sympify.py::test_issue_6046": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_raises": true,
+        "sympy/geometry/tests/test_polygon.py::test_polygon": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-22714/dedup_patch_28.jsonl": {
+      "sympy__sympy-22714": {
+        "sympy/geometry/tests/test_point.py::test_dot": true,
+        "sympy/core/tests/test_sympify.py::test__sympify": true,
+        "sympy/geometry/tests/test_point.py::test_arguments": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_function_evaluate_false": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_sympy_parser": true,
+        "sympy/core/tests/test_sympify.py::test_issue_16859": true,
+        "sympy/geometry/tests/test_point.py::test_point": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_parsing_definitions": true,
+        "sympy/core/tests/test_sympify.py::test_sympify1": true,
+        "sympy/geometry/tests/test_point.py::test_point3D": true,
+        "sympy/geometry/tests/test_point.py::test_unit": true,
+        "sympy/geometry/tests/test_point.py::test_transform": true,
+        "sympy/geometry/tests/test_point.py::test_Point2D": true,
+        "sympy/core/tests/test_sympify.py::test_issue_6046": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_raises": true,
+        "sympy/geometry/tests/test_polygon.py::test_polygon": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-22714/dedup_patch_29.jsonl": {
+      "sympy__sympy-22714": {
+        "sympy/geometry/tests/test_point.py::test_dot": true,
+        "sympy/core/tests/test_sympify.py::test__sympify": true,
+        "sympy/geometry/tests/test_point.py::test_arguments": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_function_evaluate_false": false,
+        "sympy/parsing/tests/test_sympy_parser.py::test_sympy_parser": true,
+        "sympy/core/tests/test_sympify.py::test_issue_16859": true,
+        "sympy/geometry/tests/test_point.py::test_point": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_parsing_definitions": true,
+        "sympy/core/tests/test_sympify.py::test_sympify1": true,
+        "sympy/geometry/tests/test_point.py::test_point3D": true,
+        "sympy/geometry/tests/test_point.py::test_unit": true,
+        "sympy/geometry/tests/test_point.py::test_transform": true,
+        "sympy/geometry/tests/test_point.py::test_Point2D": true,
+        "sympy/core/tests/test_sympify.py::test_issue_6046": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_raises": true,
+        "sympy/geometry/tests/test_polygon.py::test_polygon": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-22714/dedup_patch_3.jsonl": {
+      "sympy__sympy-22714": {
+        "sympy/geometry/tests/test_point.py::test_dot": true,
+        "sympy/core/tests/test_sympify.py::test__sympify": true,
+        "sympy/geometry/tests/test_point.py::test_arguments": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_function_evaluate_false": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_sympy_parser": true,
+        "sympy/core/tests/test_sympify.py::test_issue_16859": true,
+        "sympy/geometry/tests/test_point.py::test_point": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_parsing_definitions": true,
+        "sympy/core/tests/test_sympify.py::test_sympify1": true,
+        "sympy/geometry/tests/test_point.py::test_point3D": true,
+        "sympy/geometry/tests/test_point.py::test_unit": true,
+        "sympy/geometry/tests/test_point.py::test_transform": true,
+        "sympy/geometry/tests/test_point.py::test_Point2D": true,
+        "sympy/core/tests/test_sympify.py::test_issue_6046": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_raises": true,
+        "sympy/geometry/tests/test_polygon.py::test_polygon": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-22714/dedup_patch_30.jsonl": {
+      "sympy__sympy-22714": {
+        "sympy/geometry/tests/test_point.py::test_dot": true,
+        "sympy/core/tests/test_sympify.py::test__sympify": true,
+        "sympy/geometry/tests/test_point.py::test_arguments": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_function_evaluate_false": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_sympy_parser": true,
+        "sympy/core/tests/test_sympify.py::test_issue_16859": true,
+        "sympy/geometry/tests/test_point.py::test_point": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_parsing_definitions": true,
+        "sympy/core/tests/test_sympify.py::test_sympify1": true,
+        "sympy/geometry/tests/test_point.py::test_point3D": true,
+        "sympy/geometry/tests/test_point.py::test_unit": true,
+        "sympy/geometry/tests/test_point.py::test_transform": true,
+        "sympy/geometry/tests/test_point.py::test_Point2D": true,
+        "sympy/core/tests/test_sympify.py::test_issue_6046": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_raises": true,
+        "sympy/geometry/tests/test_polygon.py::test_polygon": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-22714/dedup_patch_31.jsonl": {
+      "sympy__sympy-22714": {
+        "sympy/geometry/tests/test_point.py::test_dot": true,
+        "sympy/core/tests/test_sympify.py::test__sympify": true,
+        "sympy/geometry/tests/test_point.py::test_arguments": false,
+        "sympy/parsing/tests/test_sympy_parser.py::test_function_evaluate_false": false,
+        "sympy/parsing/tests/test_sympy_parser.py::test_sympy_parser": false,
+        "sympy/core/tests/test_sympify.py::test_issue_16859": true,
+        "sympy/geometry/tests/test_point.py::test_point": false,
+        "sympy/parsing/tests/test_sympy_parser.py::test_parsing_definitions": false,
+        "sympy/core/tests/test_sympify.py::test_sympify1": false,
+        "sympy/geometry/tests/test_point.py::test_point3D": false,
+        "sympy/geometry/tests/test_point.py::test_unit": false,
+        "sympy/geometry/tests/test_point.py::test_transform": true,
+        "sympy/geometry/tests/test_point.py::test_Point2D": false,
+        "sympy/core/tests/test_sympify.py::test_issue_6046": false,
+        "sympy/core/tests/test_sympify.py::test_sympify_raises": false,
+        "sympy/geometry/tests/test_polygon.py::test_polygon": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-22714/dedup_patch_32.jsonl": {
+      "sympy__sympy-22714": {
+        "sympy/geometry/tests/test_point.py::test_dot": true,
+        "sympy/core/tests/test_sympify.py::test__sympify": true,
+        "sympy/geometry/tests/test_point.py::test_arguments": false,
+        "sympy/parsing/tests/test_sympy_parser.py::test_function_evaluate_false": false,
+        "sympy/parsing/tests/test_sympy_parser.py::test_sympy_parser": false,
+        "sympy/core/tests/test_sympify.py::test_issue_16859": true,
+        "sympy/geometry/tests/test_point.py::test_point": false,
+        "sympy/parsing/tests/test_sympy_parser.py::test_parsing_definitions": false,
+        "sympy/core/tests/test_sympify.py::test_sympify1": false,
+        "sympy/geometry/tests/test_point.py::test_point3D": false,
+        "sympy/geometry/tests/test_point.py::test_unit": false,
+        "sympy/geometry/tests/test_point.py::test_transform": true,
+        "sympy/geometry/tests/test_point.py::test_Point2D": false,
+        "sympy/core/tests/test_sympify.py::test_issue_6046": false,
+        "sympy/core/tests/test_sympify.py::test_sympify_raises": false,
+        "sympy/geometry/tests/test_polygon.py::test_polygon": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-22714/dedup_patch_33.jsonl": {
+      "sympy__sympy-22714": {
+        "sympy/geometry/tests/test_point.py::test_dot": true,
+        "sympy/core/tests/test_sympify.py::test__sympify": true,
+        "sympy/geometry/tests/test_point.py::test_arguments": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_function_evaluate_false": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_sympy_parser": true,
+        "sympy/core/tests/test_sympify.py::test_issue_16859": true,
+        "sympy/geometry/tests/test_point.py::test_point": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_parsing_definitions": true,
+        "sympy/core/tests/test_sympify.py::test_sympify1": true,
+        "sympy/geometry/tests/test_point.py::test_point3D": true,
+        "sympy/geometry/tests/test_point.py::test_unit": true,
+        "sympy/geometry/tests/test_point.py::test_transform": true,
+        "sympy/geometry/tests/test_point.py::test_Point2D": true,
+        "sympy/core/tests/test_sympify.py::test_issue_6046": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_raises": true,
+        "sympy/geometry/tests/test_polygon.py::test_polygon": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-22714/dedup_patch_4.jsonl": {
+      "sympy__sympy-22714": {
+        "sympy/geometry/tests/test_point.py::test_dot": true,
+        "sympy/core/tests/test_sympify.py::test__sympify": true,
+        "sympy/geometry/tests/test_point.py::test_arguments": false,
+        "sympy/parsing/tests/test_sympy_parser.py::test_function_evaluate_false": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_sympy_parser": false,
+        "sympy/core/tests/test_sympify.py::test_issue_16859": true,
+        "sympy/geometry/tests/test_point.py::test_point": false,
+        "sympy/parsing/tests/test_sympy_parser.py::test_parsing_definitions": true,
+        "sympy/core/tests/test_sympify.py::test_sympify1": false,
+        "sympy/geometry/tests/test_point.py::test_point3D": false,
+        "sympy/geometry/tests/test_point.py::test_unit": false,
+        "sympy/geometry/tests/test_point.py::test_transform": true,
+        "sympy/geometry/tests/test_point.py::test_Point2D": false,
+        "sympy/core/tests/test_sympify.py::test_issue_6046": false,
+        "sympy/core/tests/test_sympify.py::test_sympify_raises": false,
+        "sympy/geometry/tests/test_polygon.py::test_polygon": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-22714/dedup_patch_5.jsonl": {
+      "sympy__sympy-22714": {
+        "sympy/geometry/tests/test_point.py::test_dot": true,
+        "sympy/core/tests/test_sympify.py::test__sympify": true,
+        "sympy/geometry/tests/test_point.py::test_arguments": false,
+        "sympy/parsing/tests/test_sympy_parser.py::test_function_evaluate_false": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_sympy_parser": false,
+        "sympy/core/tests/test_sympify.py::test_issue_16859": true,
+        "sympy/geometry/tests/test_point.py::test_point": false,
+        "sympy/parsing/tests/test_sympy_parser.py::test_parsing_definitions": true,
+        "sympy/core/tests/test_sympify.py::test_sympify1": false,
+        "sympy/geometry/tests/test_point.py::test_point3D": false,
+        "sympy/geometry/tests/test_point.py::test_unit": false,
+        "sympy/geometry/tests/test_point.py::test_transform": true,
+        "sympy/geometry/tests/test_point.py::test_Point2D": false,
+        "sympy/core/tests/test_sympify.py::test_issue_6046": false,
+        "sympy/core/tests/test_sympify.py::test_sympify_raises": false,
+        "sympy/geometry/tests/test_polygon.py::test_polygon": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-22714/dedup_patch_6.jsonl": {
+      "sympy__sympy-22714": {
+        "sympy/geometry/tests/test_point.py::test_dot": true,
+        "sympy/core/tests/test_sympify.py::test__sympify": true,
+        "sympy/geometry/tests/test_point.py::test_arguments": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_function_evaluate_false": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_sympy_parser": true,
+        "sympy/core/tests/test_sympify.py::test_issue_16859": true,
+        "sympy/geometry/tests/test_point.py::test_point": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_parsing_definitions": true,
+        "sympy/core/tests/test_sympify.py::test_sympify1": true,
+        "sympy/geometry/tests/test_point.py::test_point3D": true,
+        "sympy/geometry/tests/test_point.py::test_unit": true,
+        "sympy/geometry/tests/test_point.py::test_transform": true,
+        "sympy/geometry/tests/test_point.py::test_Point2D": true,
+        "sympy/core/tests/test_sympify.py::test_issue_6046": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_raises": true,
+        "sympy/geometry/tests/test_polygon.py::test_polygon": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-22714/dedup_patch_7.jsonl": {
+      "sympy__sympy-22714": {
+        "sympy/geometry/tests/test_point.py::test_dot": true,
+        "sympy/core/tests/test_sympify.py::test__sympify": true,
+        "sympy/geometry/tests/test_point.py::test_arguments": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_function_evaluate_false": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_sympy_parser": true,
+        "sympy/core/tests/test_sympify.py::test_issue_16859": true,
+        "sympy/geometry/tests/test_point.py::test_point": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_parsing_definitions": true,
+        "sympy/core/tests/test_sympify.py::test_sympify1": true,
+        "sympy/geometry/tests/test_point.py::test_point3D": true,
+        "sympy/geometry/tests/test_point.py::test_unit": true,
+        "sympy/geometry/tests/test_point.py::test_transform": true,
+        "sympy/geometry/tests/test_point.py::test_Point2D": true,
+        "sympy/core/tests/test_sympify.py::test_issue_6046": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_raises": true,
+        "sympy/geometry/tests/test_polygon.py::test_polygon": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-22714/dedup_patch_8.jsonl": {
+      "sympy__sympy-22714": {
+        "sympy/geometry/tests/test_point.py::test_dot": true,
+        "sympy/core/tests/test_sympify.py::test__sympify": true,
+        "sympy/geometry/tests/test_point.py::test_arguments": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_function_evaluate_false": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_sympy_parser": true,
+        "sympy/core/tests/test_sympify.py::test_issue_16859": true,
+        "sympy/geometry/tests/test_point.py::test_point": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_parsing_definitions": true,
+        "sympy/core/tests/test_sympify.py::test_sympify1": true,
+        "sympy/geometry/tests/test_point.py::test_point3D": true,
+        "sympy/geometry/tests/test_point.py::test_unit": true,
+        "sympy/geometry/tests/test_point.py::test_transform": true,
+        "sympy/geometry/tests/test_point.py::test_Point2D": true,
+        "sympy/core/tests/test_sympify.py::test_issue_6046": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_raises": true,
+        "sympy/geometry/tests/test_polygon.py::test_polygon": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-22714/dedup_patch_9.jsonl": {
+      "sympy__sympy-22714": {
+        "sympy/geometry/tests/test_point.py::test_dot": true,
+        "sympy/core/tests/test_sympify.py::test__sympify": true,
+        "sympy/geometry/tests/test_point.py::test_arguments": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_function_evaluate_false": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_sympy_parser": true,
+        "sympy/core/tests/test_sympify.py::test_issue_16859": true,
+        "sympy/geometry/tests/test_point.py::test_point": true,
+        "sympy/parsing/tests/test_sympy_parser.py::test_parsing_definitions": true,
+        "sympy/core/tests/test_sympify.py::test_sympify1": true,
+        "sympy/geometry/tests/test_point.py::test_point3D": true,
+        "sympy/geometry/tests/test_point.py::test_unit": true,
+        "sympy/geometry/tests/test_point.py::test_transform": true,
+        "sympy/geometry/tests/test_point.py::test_Point2D": true,
+        "sympy/core/tests/test_sympify.py::test_issue_6046": true,
+        "sympy/core/tests/test_sympify.py::test_sympify_raises": true,
+        "sympy/geometry/tests/test_polygon.py::test_polygon": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "sympy__sympy-22714": {
+        "sympy/geometry/tests/test_point.py::test_Point2D#1": false,
+        "sympy/geometry/tests/test_point.py::test_Point2D#2": false,
+        "sympy/geometry/tests/test_point.py::test_issue_9214#3": false,
+        "sympy/geometry/tests/test_point.py::test_issue_11617#4": false,
+        "sympy/geometry/tests/test_point.py::test_issue_11617#5": false,
+        "sympy/geometry/tests/test_point.py::test_issue_11617#6": false,
+        "sympy/geometry/tests/test_point.py::test_issue_11617#7": false,
+        "sympy/geometry/tests/test_point.py::test_point3D#8": false,
+        "sympy/geometry/tests/test_point.py::test_issue_11617#9": false,
+        "sympy/geometry/tests/test_point.py::test_Point2D#10": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-22714/dedup_patch_0.jsonl": {
+      "sympy__sympy-22714": {
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-22714/dedup_patch_11.jsonl": {
+      "sympy__sympy-22714": {
+        "reproduce_bug_new.py#11": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-22714/dedup_patch_12.jsonl": {
+      "sympy__sympy-22714": {
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-22714/dedup_patch_13.jsonl": {
+      "sympy__sympy-22714": {
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-22714/dedup_patch_14.jsonl": {
+      "sympy__sympy-22714": {
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-22714/dedup_patch_15.jsonl": {
+      "sympy__sympy-22714": {
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-22714/dedup_patch_17.jsonl": {
+      "sympy__sympy-22714": {
+        "reproduce_bug_new.py#11": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-22714/dedup_patch_19.jsonl": {
+      "sympy__sympy-22714": {
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-22714/dedup_patch_2.jsonl": {
+      "sympy__sympy-22714": {
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-22714/dedup_patch_20.jsonl": {
+      "sympy__sympy-22714": {
+        "reproduce_bug_new.py#11": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-22714/dedup_patch_21.jsonl": {
+      "sympy__sympy-22714": {
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-22714/dedup_patch_22.jsonl": {
+      "sympy__sympy-22714": {
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-22714/dedup_patch_25.jsonl": {
+      "sympy__sympy-22714": {
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-22714/dedup_patch_26.jsonl": {
+      "sympy__sympy-22714": {
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-22714/dedup_patch_27.jsonl": {
+      "sympy__sympy-22714": {
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-22714/dedup_patch_28.jsonl": {
+      "sympy__sympy-22714": {
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-22714/dedup_patch_3.jsonl": {
+      "sympy__sympy-22714": {
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-22714/dedup_patch_30.jsonl": {
+      "sympy__sympy-22714": {
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-22714/dedup_patch_33.jsonl": {
+      "sympy__sympy-22714": {
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-22714/dedup_patch_6.jsonl": {
+      "sympy__sympy-22714": {
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-22714/dedup_patch_7.jsonl": {
+      "sympy__sympy-22714": {
+        "reproduce_bug_new.py#11": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-22714/dedup_patch_8.jsonl": {
+      "sympy__sympy-22714": {
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-22714/dedup_patch_9.jsonl": {
+      "sympy__sympy-22714": {
+        "reproduce_bug_new.py#11": false
+      }
+    }
+  }
+}

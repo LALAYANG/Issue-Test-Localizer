@@ -1,0 +1,45 @@
+{
+  "regression": {
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15061/dedup_patch_0.jsonl": {
+      "django__django-15061": {
+        "forms_tests.widget_tests.test_multiwidget.MultiWidgetTest.test_value_omitted_from_data_subwidgets_name": true,
+        "forms_tests.tests.test_media.FormsMediaTestCase.test_multi_widget": true,
+        "forms_tests.widget_tests.test_multiwidget.MultiWidgetTest.test_text_inputs": true,
+        "forms_tests.widget_tests.test_multiwidget.MultiWidgetTest.test_value_from_datadict_subwidgets_name": true,
+        "forms_tests.widget_tests.test_multiwidget.MultiWidgetTest.test_constructor_attrs_with_type": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-15061": {
+        "forms_tests.widget_tests.test_multiwidget.MultiWidgetTest.test_multiwidget_id_for_label#1": true,
+        "forms_tests.widget_tests.test_multiwidget.MultiWidgetTest.test_id_for_label_removal#2": true,
+        "forms_tests.widget_tests.test_multiwidget.MultiWidgetTest.test_id_for_label_removal#3": true,
+        "forms_tests.widget_tests.test_multiwidget.MultiWidgetTest.test_id_for_label_removal#4": true,
+        "forms_tests.widget_tests.test_multiwidget.MultiWidgetTest.test_multiwidget_label_tag#5": true,
+        "forms_tests.widget_tests.test_multiwidget.MultiWidgetTest.test_constructor_attrs#6": true,
+        "forms_tests.widget_tests.test_multiwidget.MultiWidgetTest.test_label_without_for_attribute#7": true,
+        "forms_tests.widget_tests.test_multiwidget.MultiWidgetTest.test_id_for_label#8": true,
+        "forms_tests.widget_tests.test_multiwidget.MultiWidgetTest.test_multiwidget_label_id#9": false,
+        "forms_tests.widget_tests.test_multiwidget.MultiWidgetTest.test_label_id_without_index#10": false,
+        "reproduce_bug.py#11": true,
+        "reproduce_bug_new.py#11": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-15061/dedup_patch_0.jsonl": {
+      "django__django-15061": {
+        "forms_tests.widget_tests.test_multiwidget.MultiWidgetTest.test_multiwidget_id_for_label#1": true,
+        "forms_tests.widget_tests.test_multiwidget.MultiWidgetTest.test_id_for_label_removal#2": false,
+        "forms_tests.widget_tests.test_multiwidget.MultiWidgetTest.test_id_for_label_removal#3": true,
+        "forms_tests.widget_tests.test_multiwidget.MultiWidgetTest.test_id_for_label_removal#4": false,
+        "forms_tests.widget_tests.test_multiwidget.MultiWidgetTest.test_multiwidget_label_tag#5": false,
+        "forms_tests.widget_tests.test_multiwidget.MultiWidgetTest.test_constructor_attrs#6": false,
+        "forms_tests.widget_tests.test_multiwidget.MultiWidgetTest.test_label_without_for_attribute#7": false,
+        "forms_tests.widget_tests.test_multiwidget.MultiWidgetTest.test_id_for_label#8": true,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    }
+  }
+}

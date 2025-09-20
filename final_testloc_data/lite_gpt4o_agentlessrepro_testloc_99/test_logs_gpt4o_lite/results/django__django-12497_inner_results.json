@@ -1,0 +1,177 @@
+{
+  "regression": {
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12497/dedup_patch_0.jsonl": {
+      "django__django-12497": {
+        "invalid_models_tests.test_relative_fields.RelativeFieldTests.test_unique_m2m": true,
+        "m2m_recursive.tests.RecursiveM2MTests.test_recursive_m2m_related_to_self": true,
+        "invalid_models_tests.test_relative_fields.RelativeFieldTests.test_many_to_many_to_missing_model": true,
+        "invalid_models_tests.test_relative_fields.RelativeFieldTests.test_relationship_model_with_foreign_key_to_wrong_model": true,
+        "invalid_models_tests.test_relative_fields.RelativeFieldTests.test_ambiguous_relationship_model": false,
+        "invalid_models_tests.test_relative_fields.SelfReferentialM2MClashTests.test_clash_between_accessors": true,
+        "invalid_models_tests.test_relative_fields.RelativeFieldTests.test_too_many_foreign_keys_in_self_referential_model": true,
+        "invalid_models_tests.test_relative_fields.RelativeFieldTests.test_many_to_many_with_useless_options": true,
+        "m2m_through.tests.M2mThroughTests.test_through_fields": true,
+        "m2m_regress.tests.M2MRegressionTests.test_multiple_m2m": true,
+        "m2m_through.tests.M2mThroughTests.test_add_on_reverse_m2m_with_intermediate_model": true,
+        "m2m_through.tests.M2mThroughReferentialTests.test_through_fields_self_referential": true,
+        "invalid_models_tests.test_relative_fields.RelativeFieldTests.test_relationship_model_missing_foreign_key": true,
+        "invalid_models_tests.test_relative_fields.ExplicitRelatedQueryNameClashTests.test_hidden_m2m_to_m2m": true,
+        "invalid_models_tests.test_relative_fields.M2mThroughFieldsTests.test_invalid_order": true,
+        "invalid_models_tests.test_relative_fields.RelativeFieldTests.test_missing_relationship_model_on_model_check": true,
+        "model_fields.test_manytomanyfield.ManyToManyFieldDBTests.test_value_from_object_instance_with_pk": true,
+        "m2m_through.tests.M2mThroughTests.test_set_on_reverse_m2m_with_intermediate_model": true,
+        "invalid_models_tests.test_relative_fields.M2mThroughFieldsTests.test_invalid_field": true,
+        "invalid_models_tests.test_relative_fields.M2mThroughFieldsTests.test_explicit_field_names": true,
+        "invalid_models_tests.test_relative_fields.RelativeFieldTests.test_missing_relationship_model": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12497/dedup_patch_1.jsonl": {
+      "django__django-12497": {
+        "invalid_models_tests.test_relative_fields.RelativeFieldTests.test_unique_m2m": true,
+        "m2m_recursive.tests.RecursiveM2MTests.test_recursive_m2m_related_to_self": true,
+        "invalid_models_tests.test_relative_fields.RelativeFieldTests.test_many_to_many_to_missing_model": true,
+        "invalid_models_tests.test_relative_fields.RelativeFieldTests.test_relationship_model_with_foreign_key_to_wrong_model": true,
+        "invalid_models_tests.test_relative_fields.RelativeFieldTests.test_ambiguous_relationship_model": false,
+        "invalid_models_tests.test_relative_fields.SelfReferentialM2MClashTests.test_clash_between_accessors": true,
+        "invalid_models_tests.test_relative_fields.RelativeFieldTests.test_too_many_foreign_keys_in_self_referential_model": true,
+        "invalid_models_tests.test_relative_fields.RelativeFieldTests.test_many_to_many_with_useless_options": true,
+        "m2m_through.tests.M2mThroughTests.test_through_fields": true,
+        "m2m_regress.tests.M2MRegressionTests.test_multiple_m2m": true,
+        "m2m_through.tests.M2mThroughTests.test_add_on_reverse_m2m_with_intermediate_model": true,
+        "m2m_through.tests.M2mThroughReferentialTests.test_through_fields_self_referential": true,
+        "invalid_models_tests.test_relative_fields.RelativeFieldTests.test_relationship_model_missing_foreign_key": true,
+        "invalid_models_tests.test_relative_fields.ExplicitRelatedQueryNameClashTests.test_hidden_m2m_to_m2m": true,
+        "invalid_models_tests.test_relative_fields.M2mThroughFieldsTests.test_invalid_order": true,
+        "invalid_models_tests.test_relative_fields.RelativeFieldTests.test_missing_relationship_model_on_model_check": true,
+        "model_fields.test_manytomanyfield.ManyToManyFieldDBTests.test_value_from_object_instance_with_pk": true,
+        "m2m_through.tests.M2mThroughTests.test_set_on_reverse_m2m_with_intermediate_model": true,
+        "invalid_models_tests.test_relative_fields.M2mThroughFieldsTests.test_invalid_field": true,
+        "invalid_models_tests.test_relative_fields.M2mThroughFieldsTests.test_explicit_field_names": true,
+        "invalid_models_tests.test_relative_fields.RelativeFieldTests.test_missing_relationship_model": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12497/dedup_patch_2.jsonl": {
+      "django__django-12497": {
+        "invalid_models_tests.test_relative_fields.RelativeFieldTests.test_unique_m2m": true,
+        "m2m_recursive.tests.RecursiveM2MTests.test_recursive_m2m_related_to_self": true,
+        "invalid_models_tests.test_relative_fields.RelativeFieldTests.test_many_to_many_to_missing_model": true,
+        "invalid_models_tests.test_relative_fields.RelativeFieldTests.test_relationship_model_with_foreign_key_to_wrong_model": true,
+        "invalid_models_tests.test_relative_fields.RelativeFieldTests.test_ambiguous_relationship_model": false,
+        "invalid_models_tests.test_relative_fields.SelfReferentialM2MClashTests.test_clash_between_accessors": true,
+        "invalid_models_tests.test_relative_fields.RelativeFieldTests.test_too_many_foreign_keys_in_self_referential_model": true,
+        "invalid_models_tests.test_relative_fields.RelativeFieldTests.test_many_to_many_with_useless_options": true,
+        "m2m_through.tests.M2mThroughTests.test_through_fields": true,
+        "m2m_regress.tests.M2MRegressionTests.test_multiple_m2m": true,
+        "m2m_through.tests.M2mThroughTests.test_add_on_reverse_m2m_with_intermediate_model": true,
+        "m2m_through.tests.M2mThroughReferentialTests.test_through_fields_self_referential": true,
+        "invalid_models_tests.test_relative_fields.RelativeFieldTests.test_relationship_model_missing_foreign_key": true,
+        "invalid_models_tests.test_relative_fields.ExplicitRelatedQueryNameClashTests.test_hidden_m2m_to_m2m": true,
+        "invalid_models_tests.test_relative_fields.M2mThroughFieldsTests.test_invalid_order": true,
+        "invalid_models_tests.test_relative_fields.RelativeFieldTests.test_missing_relationship_model_on_model_check": true,
+        "model_fields.test_manytomanyfield.ManyToManyFieldDBTests.test_value_from_object_instance_with_pk": true,
+        "m2m_through.tests.M2mThroughTests.test_set_on_reverse_m2m_with_intermediate_model": true,
+        "invalid_models_tests.test_relative_fields.M2mThroughFieldsTests.test_invalid_field": true,
+        "invalid_models_tests.test_relative_fields.M2mThroughFieldsTests.test_explicit_field_names": true,
+        "invalid_models_tests.test_relative_fields.RelativeFieldTests.test_missing_relationship_model": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12497/dedup_patch_3.jsonl": {
+      "django__django-12497": {
+        "invalid_models_tests.test_relative_fields.RelativeFieldTests.test_unique_m2m": true,
+        "m2m_recursive.tests.RecursiveM2MTests.test_recursive_m2m_related_to_self": true,
+        "invalid_models_tests.test_relative_fields.RelativeFieldTests.test_many_to_many_to_missing_model": true,
+        "invalid_models_tests.test_relative_fields.RelativeFieldTests.test_relationship_model_with_foreign_key_to_wrong_model": true,
+        "invalid_models_tests.test_relative_fields.RelativeFieldTests.test_ambiguous_relationship_model": false,
+        "invalid_models_tests.test_relative_fields.SelfReferentialM2MClashTests.test_clash_between_accessors": true,
+        "invalid_models_tests.test_relative_fields.RelativeFieldTests.test_too_many_foreign_keys_in_self_referential_model": true,
+        "invalid_models_tests.test_relative_fields.RelativeFieldTests.test_many_to_many_with_useless_options": true,
+        "m2m_through.tests.M2mThroughTests.test_through_fields": true,
+        "m2m_regress.tests.M2MRegressionTests.test_multiple_m2m": true,
+        "m2m_through.tests.M2mThroughTests.test_add_on_reverse_m2m_with_intermediate_model": true,
+        "m2m_through.tests.M2mThroughReferentialTests.test_through_fields_self_referential": true,
+        "invalid_models_tests.test_relative_fields.RelativeFieldTests.test_relationship_model_missing_foreign_key": true,
+        "invalid_models_tests.test_relative_fields.ExplicitRelatedQueryNameClashTests.test_hidden_m2m_to_m2m": true,
+        "invalid_models_tests.test_relative_fields.M2mThroughFieldsTests.test_invalid_order": true,
+        "invalid_models_tests.test_relative_fields.RelativeFieldTests.test_missing_relationship_model_on_model_check": true,
+        "model_fields.test_manytomanyfield.ManyToManyFieldDBTests.test_value_from_object_instance_with_pk": true,
+        "m2m_through.tests.M2mThroughTests.test_set_on_reverse_m2m_with_intermediate_model": true,
+        "invalid_models_tests.test_relative_fields.M2mThroughFieldsTests.test_invalid_field": true,
+        "invalid_models_tests.test_relative_fields.M2mThroughFieldsTests.test_explicit_field_names": true,
+        "invalid_models_tests.test_relative_fields.RelativeFieldTests.test_missing_relationship_model": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-12497": {
+        "m2m_through.tests.M2mThroughReferentialTests.test_recursive_relationship_hint#1": true,
+        "m2m_through.tests.M2mThroughReferentialTests.test_recursive_relationship_hint#2": true,
+        "m2m_through.tests.M2mThroughReferentialTests.test_recursive_relationship_hint#3": true,
+        "m2m_through.tests.M2mThroughReferentialTests.test_recursive_relationship_hint_message#4": true,
+        "m2m_through.tests.M2mThroughTests.test_recursive_relationship_hint#5": false,
+        "m2m_through.tests.M2mThroughReferentialTests.test_recursive_relationship_hint_message#6": true,
+        "m2m_through.tests.M2mThroughReferentialTests.test_recursive_relationship_hint#7": true,
+        "m2m_through.tests.M2mThroughReferentialTests.test_recursive_relationship_error_message#8": true,
+        "m2m_through.tests.M2mThroughReferentialTests.test_recursive_relationship_error_message#9": true,
+        "reproduce_bug.py#10": true,
+        "reproduce_bug_new.py#10": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12497/dedup_patch_0.jsonl": {
+      "django__django-12497": {
+        "m2m_through.tests.M2mThroughReferentialTests.test_recursive_relationship_hint#1": false,
+        "m2m_through.tests.M2mThroughReferentialTests.test_recursive_relationship_hint#2": false,
+        "m2m_through.tests.M2mThroughReferentialTests.test_recursive_relationship_hint#3": false,
+        "m2m_through.tests.M2mThroughReferentialTests.test_recursive_relationship_hint_message#4": false,
+        "m2m_through.tests.M2mThroughReferentialTests.test_recursive_relationship_hint_message#6": true,
+        "m2m_through.tests.M2mThroughReferentialTests.test_recursive_relationship_hint#7": false,
+        "m2m_through.tests.M2mThroughReferentialTests.test_recursive_relationship_error_message#8": false,
+        "m2m_through.tests.M2mThroughReferentialTests.test_recursive_relationship_error_message#9": false,
+        "reproduce_bug.py#10": false,
+        "reproduce_bug_new.py#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12497/dedup_patch_1.jsonl": {
+      "django__django-12497": {
+        "m2m_through.tests.M2mThroughReferentialTests.test_recursive_relationship_hint#1": false,
+        "m2m_through.tests.M2mThroughReferentialTests.test_recursive_relationship_hint#2": false,
+        "m2m_through.tests.M2mThroughReferentialTests.test_recursive_relationship_hint#3": false,
+        "m2m_through.tests.M2mThroughReferentialTests.test_recursive_relationship_hint_message#4": false,
+        "m2m_through.tests.M2mThroughReferentialTests.test_recursive_relationship_hint_message#6": true,
+        "m2m_through.tests.M2mThroughReferentialTests.test_recursive_relationship_hint#7": false,
+        "m2m_through.tests.M2mThroughReferentialTests.test_recursive_relationship_error_message#8": false,
+        "m2m_through.tests.M2mThroughReferentialTests.test_recursive_relationship_error_message#9": false,
+        "reproduce_bug.py#10": false,
+        "reproduce_bug_new.py#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12497/dedup_patch_2.jsonl": {
+      "django__django-12497": {
+        "m2m_through.tests.M2mThroughReferentialTests.test_recursive_relationship_hint#1": false,
+        "m2m_through.tests.M2mThroughReferentialTests.test_recursive_relationship_hint#2": false,
+        "m2m_through.tests.M2mThroughReferentialTests.test_recursive_relationship_hint#3": false,
+        "m2m_through.tests.M2mThroughReferentialTests.test_recursive_relationship_hint_message#4": false,
+        "m2m_through.tests.M2mThroughReferentialTests.test_recursive_relationship_hint_message#6": true,
+        "m2m_through.tests.M2mThroughReferentialTests.test_recursive_relationship_hint#7": false,
+        "m2m_through.tests.M2mThroughReferentialTests.test_recursive_relationship_error_message#8": false,
+        "m2m_through.tests.M2mThroughReferentialTests.test_recursive_relationship_error_message#9": false,
+        "reproduce_bug.py#10": false,
+        "reproduce_bug_new.py#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12497/dedup_patch_3.jsonl": {
+      "django__django-12497": {
+        "m2m_through.tests.M2mThroughReferentialTests.test_recursive_relationship_hint#1": false,
+        "m2m_through.tests.M2mThroughReferentialTests.test_recursive_relationship_hint#2": false,
+        "m2m_through.tests.M2mThroughReferentialTests.test_recursive_relationship_hint#3": false,
+        "m2m_through.tests.M2mThroughReferentialTests.test_recursive_relationship_hint_message#4": false,
+        "m2m_through.tests.M2mThroughReferentialTests.test_recursive_relationship_hint_message#6": true,
+        "m2m_through.tests.M2mThroughReferentialTests.test_recursive_relationship_hint#7": false,
+        "m2m_through.tests.M2mThroughReferentialTests.test_recursive_relationship_error_message#8": false,
+        "m2m_through.tests.M2mThroughReferentialTests.test_recursive_relationship_error_message#9": false,
+        "reproduce_bug.py#10": false,
+        "reproduce_bug_new.py#10": false
+      }
+    }
+  }
+}

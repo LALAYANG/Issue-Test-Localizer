@@ -1,0 +1,76 @@
+{
+  "regression": {},
+  "reproduction": {
+    "fail_on_original_repo": {
+      "pallets__flask-4992": {
+        "tests/test_config.py::test_config_from_file#1": false,
+        "tests/test_config.py::test_config_from_file#2": false,
+        "tests/test_config.py::test_config_from_file#3": false,
+        "tests/test_config.py::test_config_from_file#4": false,
+        "tests/test_config.py::test_config_from_file#5": false,
+        "tests/test_config.py::test_config_from_object#6": false,
+        "tests/test_config.py::test_config_from_file#7": false,
+        "tests/test_config.py::test_config_from_file#8": false,
+        "tests/test_config.py::test_config_from_file#9": false,
+        "tests/test_config.py::test_config_from_object#10": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-4992/dedup_patch_0.jsonl": {
+      "pallets__flask-4992": {
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-4992/dedup_patch_1.jsonl": {
+      "pallets__flask-4992": {
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-4992/dedup_patch_10.jsonl": {
+      "pallets__flask-4992": {
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-4992/dedup_patch_2.jsonl": {
+      "pallets__flask-4992": {
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-4992/dedup_patch_3.jsonl": {
+      "pallets__flask-4992": {
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-4992/dedup_patch_4.jsonl": {
+      "pallets__flask-4992": {
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-4992/dedup_patch_5.jsonl": {
+      "pallets__flask-4992": {
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-4992/dedup_patch_6.jsonl": {
+      "pallets__flask-4992": {
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-4992/dedup_patch_7.jsonl": {
+      "pallets__flask-4992": {
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-4992/dedup_patch_8.jsonl": {
+      "pallets__flask-4992": {
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pallets__flask-4992/dedup_patch_9.jsonl": {
+      "pallets__flask-4992": {
+        "reproduce_bug_new.py#11": false
+      }
+    }
+  }
+}

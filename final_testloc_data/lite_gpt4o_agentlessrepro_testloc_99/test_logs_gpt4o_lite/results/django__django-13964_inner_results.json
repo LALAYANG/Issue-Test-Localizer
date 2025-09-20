@@ -1,0 +1,1146 @@
+{
+  "regression": {
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13964/dedup_patch_0.jsonl": {
+      "django__django-13964": {
+        "foreign_object.test_forms.FormsTests.test_foreign_object_form": true,
+        "foreign_object.tests.MultiColumnFKTests.test_double_nested_query": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_set_after_prefetch": true,
+        "foreign_object.tests.MultiColumnFKTests.test_inheritance": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_non_local_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_to_python": true,
+        "many_to_one.tests.ManyToOneTests.test_fk_assignment_and_related_object_cache": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_recursive_fks_get_col": true,
+        "model_fields.tests.GetFieldDisplayTests.test_overriding_inherited_FIELD_display": true,
+        "foreign_object.tests.TestModelCheckTests.test_check_subset_composite_foreign_object": true,
+        "foreign_object.tests.TestModelCheckTests.test_check_composite_foreign_object": true,
+        "many_to_one.tests.ManyToOneTests.test_add_then_remove_after_prefetch": true,
+        "foreign_object.tests.MultiColumnFKTests.test_many_to_many_related_query_name": true,
+        "foreign_object.tests.MultiColumnFKTests.test_prefetch_related_m2m_forward_works": true,
+        "foreign_object.tests.MultiColumnFKTests.test_batch_create_foreign_object": true,
+        "many_to_one.tests.ManyToOneTests.test_delete": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13964/dedup_patch_1.jsonl": {
+      "django__django-13964": {
+        "foreign_object.test_forms.FormsTests.test_foreign_object_form": true,
+        "foreign_object.tests.MultiColumnFKTests.test_double_nested_query": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_set_after_prefetch": true,
+        "foreign_object.tests.MultiColumnFKTests.test_inheritance": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_non_local_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_to_python": true,
+        "many_to_one.tests.ManyToOneTests.test_fk_assignment_and_related_object_cache": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_recursive_fks_get_col": true,
+        "model_fields.tests.GetFieldDisplayTests.test_overriding_inherited_FIELD_display": true,
+        "foreign_object.tests.TestModelCheckTests.test_check_subset_composite_foreign_object": true,
+        "foreign_object.tests.TestModelCheckTests.test_check_composite_foreign_object": true,
+        "many_to_one.tests.ManyToOneTests.test_add_then_remove_after_prefetch": true,
+        "foreign_object.tests.MultiColumnFKTests.test_many_to_many_related_query_name": true,
+        "foreign_object.tests.MultiColumnFKTests.test_prefetch_related_m2m_forward_works": true,
+        "foreign_object.tests.MultiColumnFKTests.test_batch_create_foreign_object": true,
+        "many_to_one.tests.ManyToOneTests.test_delete": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13964/dedup_patch_10.jsonl": {
+      "django__django-13964": {
+        "foreign_object.test_forms.FormsTests.test_foreign_object_form": true,
+        "foreign_object.tests.MultiColumnFKTests.test_double_nested_query": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": false,
+        "many_to_one.tests.ManyToOneTests.test_set_after_prefetch": true,
+        "foreign_object.tests.MultiColumnFKTests.test_inheritance": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_non_local_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_to_python": true,
+        "many_to_one.tests.ManyToOneTests.test_fk_assignment_and_related_object_cache": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_recursive_fks_get_col": true,
+        "model_fields.tests.GetFieldDisplayTests.test_overriding_inherited_FIELD_display": true,
+        "foreign_object.tests.TestModelCheckTests.test_check_subset_composite_foreign_object": true,
+        "foreign_object.tests.TestModelCheckTests.test_check_composite_foreign_object": true,
+        "many_to_one.tests.ManyToOneTests.test_add_then_remove_after_prefetch": true,
+        "foreign_object.tests.MultiColumnFKTests.test_many_to_many_related_query_name": true,
+        "foreign_object.tests.MultiColumnFKTests.test_prefetch_related_m2m_forward_works": true,
+        "foreign_object.tests.MultiColumnFKTests.test_batch_create_foreign_object": true,
+        "many_to_one.tests.ManyToOneTests.test_delete": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13964/dedup_patch_11.jsonl": {
+      "django__django-13964": {
+        "foreign_object.test_forms.FormsTests.test_foreign_object_form": true,
+        "foreign_object.tests.MultiColumnFKTests.test_double_nested_query": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": false,
+        "many_to_one.tests.ManyToOneTests.test_set_after_prefetch": true,
+        "foreign_object.tests.MultiColumnFKTests.test_inheritance": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_non_local_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_to_python": true,
+        "many_to_one.tests.ManyToOneTests.test_fk_assignment_and_related_object_cache": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_recursive_fks_get_col": true,
+        "model_fields.tests.GetFieldDisplayTests.test_overriding_inherited_FIELD_display": true,
+        "foreign_object.tests.TestModelCheckTests.test_check_subset_composite_foreign_object": true,
+        "foreign_object.tests.TestModelCheckTests.test_check_composite_foreign_object": true,
+        "many_to_one.tests.ManyToOneTests.test_add_then_remove_after_prefetch": true,
+        "foreign_object.tests.MultiColumnFKTests.test_many_to_many_related_query_name": true,
+        "foreign_object.tests.MultiColumnFKTests.test_prefetch_related_m2m_forward_works": true,
+        "foreign_object.tests.MultiColumnFKTests.test_batch_create_foreign_object": true,
+        "many_to_one.tests.ManyToOneTests.test_delete": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13964/dedup_patch_12.jsonl": {
+      "django__django-13964": {
+        "foreign_object.test_forms.FormsTests.test_foreign_object_form": true,
+        "foreign_object.tests.MultiColumnFKTests.test_double_nested_query": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_set_after_prefetch": true,
+        "foreign_object.tests.MultiColumnFKTests.test_inheritance": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_non_local_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_to_python": true,
+        "many_to_one.tests.ManyToOneTests.test_fk_assignment_and_related_object_cache": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_recursive_fks_get_col": true,
+        "model_fields.tests.GetFieldDisplayTests.test_overriding_inherited_FIELD_display": true,
+        "foreign_object.tests.TestModelCheckTests.test_check_subset_composite_foreign_object": true,
+        "foreign_object.tests.TestModelCheckTests.test_check_composite_foreign_object": true,
+        "many_to_one.tests.ManyToOneTests.test_add_then_remove_after_prefetch": true,
+        "foreign_object.tests.MultiColumnFKTests.test_many_to_many_related_query_name": true,
+        "foreign_object.tests.MultiColumnFKTests.test_prefetch_related_m2m_forward_works": true,
+        "foreign_object.tests.MultiColumnFKTests.test_batch_create_foreign_object": true,
+        "many_to_one.tests.ManyToOneTests.test_delete": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13964/dedup_patch_13.jsonl": {
+      "django__django-13964": {
+        "foreign_object.test_forms.FormsTests.test_foreign_object_form": true,
+        "foreign_object.tests.MultiColumnFKTests.test_double_nested_query": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_set_after_prefetch": true,
+        "foreign_object.tests.MultiColumnFKTests.test_inheritance": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_non_local_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_to_python": true,
+        "many_to_one.tests.ManyToOneTests.test_fk_assignment_and_related_object_cache": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_recursive_fks_get_col": true,
+        "model_fields.tests.GetFieldDisplayTests.test_overriding_inherited_FIELD_display": true,
+        "foreign_object.tests.TestModelCheckTests.test_check_subset_composite_foreign_object": true,
+        "foreign_object.tests.TestModelCheckTests.test_check_composite_foreign_object": true,
+        "many_to_one.tests.ManyToOneTests.test_add_then_remove_after_prefetch": true,
+        "foreign_object.tests.MultiColumnFKTests.test_many_to_many_related_query_name": true,
+        "foreign_object.tests.MultiColumnFKTests.test_prefetch_related_m2m_forward_works": true,
+        "foreign_object.tests.MultiColumnFKTests.test_batch_create_foreign_object": true,
+        "many_to_one.tests.ManyToOneTests.test_delete": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13964/dedup_patch_14.jsonl": {
+      "django__django-13964": {
+        "foreign_object.test_forms.FormsTests.test_foreign_object_form": true,
+        "foreign_object.tests.MultiColumnFKTests.test_double_nested_query": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_set_after_prefetch": true,
+        "foreign_object.tests.MultiColumnFKTests.test_inheritance": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_non_local_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_to_python": true,
+        "many_to_one.tests.ManyToOneTests.test_fk_assignment_and_related_object_cache": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_recursive_fks_get_col": true,
+        "model_fields.tests.GetFieldDisplayTests.test_overriding_inherited_FIELD_display": true,
+        "foreign_object.tests.TestModelCheckTests.test_check_subset_composite_foreign_object": true,
+        "foreign_object.tests.TestModelCheckTests.test_check_composite_foreign_object": true,
+        "many_to_one.tests.ManyToOneTests.test_add_then_remove_after_prefetch": true,
+        "foreign_object.tests.MultiColumnFKTests.test_many_to_many_related_query_name": true,
+        "foreign_object.tests.MultiColumnFKTests.test_prefetch_related_m2m_forward_works": true,
+        "foreign_object.tests.MultiColumnFKTests.test_batch_create_foreign_object": true,
+        "many_to_one.tests.ManyToOneTests.test_delete": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13964/dedup_patch_15.jsonl": {
+      "django__django-13964": {
+        "foreign_object.test_forms.FormsTests.test_foreign_object_form": true,
+        "foreign_object.tests.MultiColumnFKTests.test_double_nested_query": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": false,
+        "many_to_one.tests.ManyToOneTests.test_set_after_prefetch": true,
+        "foreign_object.tests.MultiColumnFKTests.test_inheritance": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_non_local_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_to_python": true,
+        "many_to_one.tests.ManyToOneTests.test_fk_assignment_and_related_object_cache": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_recursive_fks_get_col": true,
+        "model_fields.tests.GetFieldDisplayTests.test_overriding_inherited_FIELD_display": true,
+        "foreign_object.tests.TestModelCheckTests.test_check_subset_composite_foreign_object": true,
+        "foreign_object.tests.TestModelCheckTests.test_check_composite_foreign_object": true,
+        "many_to_one.tests.ManyToOneTests.test_add_then_remove_after_prefetch": true,
+        "foreign_object.tests.MultiColumnFKTests.test_many_to_many_related_query_name": true,
+        "foreign_object.tests.MultiColumnFKTests.test_prefetch_related_m2m_forward_works": true,
+        "foreign_object.tests.MultiColumnFKTests.test_batch_create_foreign_object": true,
+        "many_to_one.tests.ManyToOneTests.test_delete": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13964/dedup_patch_16.jsonl": {
+      "django__django-13964": {
+        "foreign_object.test_forms.FormsTests.test_foreign_object_form": true,
+        "foreign_object.tests.MultiColumnFKTests.test_double_nested_query": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": false,
+        "many_to_one.tests.ManyToOneTests.test_set_after_prefetch": true,
+        "foreign_object.tests.MultiColumnFKTests.test_inheritance": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_non_local_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_to_python": true,
+        "many_to_one.tests.ManyToOneTests.test_fk_assignment_and_related_object_cache": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_recursive_fks_get_col": true,
+        "model_fields.tests.GetFieldDisplayTests.test_overriding_inherited_FIELD_display": true,
+        "foreign_object.tests.TestModelCheckTests.test_check_subset_composite_foreign_object": true,
+        "foreign_object.tests.TestModelCheckTests.test_check_composite_foreign_object": true,
+        "many_to_one.tests.ManyToOneTests.test_add_then_remove_after_prefetch": true,
+        "foreign_object.tests.MultiColumnFKTests.test_many_to_many_related_query_name": true,
+        "foreign_object.tests.MultiColumnFKTests.test_prefetch_related_m2m_forward_works": true,
+        "foreign_object.tests.MultiColumnFKTests.test_batch_create_foreign_object": true,
+        "many_to_one.tests.ManyToOneTests.test_delete": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13964/dedup_patch_17.jsonl": {
+      "django__django-13964": {
+        "foreign_object.test_forms.FormsTests.test_foreign_object_form": true,
+        "foreign_object.tests.MultiColumnFKTests.test_double_nested_query": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_set_after_prefetch": true,
+        "foreign_object.tests.MultiColumnFKTests.test_inheritance": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_non_local_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_to_python": true,
+        "many_to_one.tests.ManyToOneTests.test_fk_assignment_and_related_object_cache": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_recursive_fks_get_col": true,
+        "model_fields.tests.GetFieldDisplayTests.test_overriding_inherited_FIELD_display": true,
+        "foreign_object.tests.TestModelCheckTests.test_check_subset_composite_foreign_object": true,
+        "foreign_object.tests.TestModelCheckTests.test_check_composite_foreign_object": true,
+        "many_to_one.tests.ManyToOneTests.test_add_then_remove_after_prefetch": true,
+        "foreign_object.tests.MultiColumnFKTests.test_many_to_many_related_query_name": true,
+        "foreign_object.tests.MultiColumnFKTests.test_prefetch_related_m2m_forward_works": true,
+        "foreign_object.tests.MultiColumnFKTests.test_batch_create_foreign_object": true,
+        "many_to_one.tests.ManyToOneTests.test_delete": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13964/dedup_patch_18.jsonl": {
+      "django__django-13964": {
+        "foreign_object.test_forms.FormsTests.test_foreign_object_form": true,
+        "foreign_object.tests.MultiColumnFKTests.test_double_nested_query": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": false,
+        "many_to_one.tests.ManyToOneTests.test_set_after_prefetch": true,
+        "foreign_object.tests.MultiColumnFKTests.test_inheritance": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_non_local_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_to_python": true,
+        "many_to_one.tests.ManyToOneTests.test_fk_assignment_and_related_object_cache": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_recursive_fks_get_col": true,
+        "model_fields.tests.GetFieldDisplayTests.test_overriding_inherited_FIELD_display": true,
+        "foreign_object.tests.TestModelCheckTests.test_check_subset_composite_foreign_object": true,
+        "foreign_object.tests.TestModelCheckTests.test_check_composite_foreign_object": true,
+        "many_to_one.tests.ManyToOneTests.test_add_then_remove_after_prefetch": true,
+        "foreign_object.tests.MultiColumnFKTests.test_many_to_many_related_query_name": true,
+        "foreign_object.tests.MultiColumnFKTests.test_prefetch_related_m2m_forward_works": true,
+        "foreign_object.tests.MultiColumnFKTests.test_batch_create_foreign_object": true,
+        "many_to_one.tests.ManyToOneTests.test_delete": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13964/dedup_patch_19.jsonl": {
+      "django__django-13964": {
+        "foreign_object.test_forms.FormsTests.test_foreign_object_form": true,
+        "foreign_object.tests.MultiColumnFKTests.test_double_nested_query": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": false,
+        "many_to_one.tests.ManyToOneTests.test_set_after_prefetch": true,
+        "foreign_object.tests.MultiColumnFKTests.test_inheritance": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_non_local_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_to_python": true,
+        "many_to_one.tests.ManyToOneTests.test_fk_assignment_and_related_object_cache": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_recursive_fks_get_col": true,
+        "model_fields.tests.GetFieldDisplayTests.test_overriding_inherited_FIELD_display": true,
+        "foreign_object.tests.TestModelCheckTests.test_check_subset_composite_foreign_object": true,
+        "foreign_object.tests.TestModelCheckTests.test_check_composite_foreign_object": true,
+        "many_to_one.tests.ManyToOneTests.test_add_then_remove_after_prefetch": true,
+        "foreign_object.tests.MultiColumnFKTests.test_many_to_many_related_query_name": true,
+        "foreign_object.tests.MultiColumnFKTests.test_prefetch_related_m2m_forward_works": true,
+        "foreign_object.tests.MultiColumnFKTests.test_batch_create_foreign_object": true,
+        "many_to_one.tests.ManyToOneTests.test_delete": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13964/dedup_patch_2.jsonl": {
+      "django__django-13964": {
+        "foreign_object.test_forms.FormsTests.test_foreign_object_form": true,
+        "foreign_object.tests.MultiColumnFKTests.test_double_nested_query": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_set_after_prefetch": true,
+        "foreign_object.tests.MultiColumnFKTests.test_inheritance": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_non_local_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_to_python": true,
+        "many_to_one.tests.ManyToOneTests.test_fk_assignment_and_related_object_cache": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_recursive_fks_get_col": true,
+        "model_fields.tests.GetFieldDisplayTests.test_overriding_inherited_FIELD_display": true,
+        "foreign_object.tests.TestModelCheckTests.test_check_subset_composite_foreign_object": true,
+        "foreign_object.tests.TestModelCheckTests.test_check_composite_foreign_object": true,
+        "many_to_one.tests.ManyToOneTests.test_add_then_remove_after_prefetch": true,
+        "foreign_object.tests.MultiColumnFKTests.test_many_to_many_related_query_name": true,
+        "foreign_object.tests.MultiColumnFKTests.test_prefetch_related_m2m_forward_works": true,
+        "foreign_object.tests.MultiColumnFKTests.test_batch_create_foreign_object": true,
+        "many_to_one.tests.ManyToOneTests.test_delete": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13964/dedup_patch_20.jsonl": {
+      "django__django-13964": {
+        "foreign_object.test_forms.FormsTests.test_foreign_object_form": true,
+        "foreign_object.tests.MultiColumnFKTests.test_double_nested_query": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": false,
+        "many_to_one.tests.ManyToOneTests.test_set_after_prefetch": true,
+        "foreign_object.tests.MultiColumnFKTests.test_inheritance": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_non_local_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_to_python": true,
+        "many_to_one.tests.ManyToOneTests.test_fk_assignment_and_related_object_cache": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_recursive_fks_get_col": true,
+        "model_fields.tests.GetFieldDisplayTests.test_overriding_inherited_FIELD_display": true,
+        "foreign_object.tests.TestModelCheckTests.test_check_subset_composite_foreign_object": true,
+        "foreign_object.tests.TestModelCheckTests.test_check_composite_foreign_object": true,
+        "many_to_one.tests.ManyToOneTests.test_add_then_remove_after_prefetch": true,
+        "foreign_object.tests.MultiColumnFKTests.test_many_to_many_related_query_name": true,
+        "foreign_object.tests.MultiColumnFKTests.test_prefetch_related_m2m_forward_works": true,
+        "foreign_object.tests.MultiColumnFKTests.test_batch_create_foreign_object": true,
+        "many_to_one.tests.ManyToOneTests.test_delete": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13964/dedup_patch_21.jsonl": {
+      "django__django-13964": {
+        "foreign_object.test_forms.FormsTests.test_foreign_object_form": true,
+        "foreign_object.tests.MultiColumnFKTests.test_double_nested_query": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_set_after_prefetch": true,
+        "foreign_object.tests.MultiColumnFKTests.test_inheritance": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_non_local_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_to_python": true,
+        "many_to_one.tests.ManyToOneTests.test_fk_assignment_and_related_object_cache": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_recursive_fks_get_col": true,
+        "model_fields.tests.GetFieldDisplayTests.test_overriding_inherited_FIELD_display": true,
+        "foreign_object.tests.TestModelCheckTests.test_check_subset_composite_foreign_object": true,
+        "foreign_object.tests.TestModelCheckTests.test_check_composite_foreign_object": true,
+        "many_to_one.tests.ManyToOneTests.test_add_then_remove_after_prefetch": true,
+        "foreign_object.tests.MultiColumnFKTests.test_many_to_many_related_query_name": true,
+        "foreign_object.tests.MultiColumnFKTests.test_prefetch_related_m2m_forward_works": true,
+        "foreign_object.tests.MultiColumnFKTests.test_batch_create_foreign_object": true,
+        "many_to_one.tests.ManyToOneTests.test_delete": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13964/dedup_patch_22.jsonl": {
+      "django__django-13964": {
+        "foreign_object.test_forms.FormsTests.test_foreign_object_form": true,
+        "foreign_object.tests.MultiColumnFKTests.test_double_nested_query": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_set_after_prefetch": true,
+        "foreign_object.tests.MultiColumnFKTests.test_inheritance": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_non_local_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_to_python": true,
+        "many_to_one.tests.ManyToOneTests.test_fk_assignment_and_related_object_cache": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_recursive_fks_get_col": true,
+        "model_fields.tests.GetFieldDisplayTests.test_overriding_inherited_FIELD_display": true,
+        "foreign_object.tests.TestModelCheckTests.test_check_subset_composite_foreign_object": true,
+        "foreign_object.tests.TestModelCheckTests.test_check_composite_foreign_object": true,
+        "many_to_one.tests.ManyToOneTests.test_add_then_remove_after_prefetch": true,
+        "foreign_object.tests.MultiColumnFKTests.test_many_to_many_related_query_name": true,
+        "foreign_object.tests.MultiColumnFKTests.test_prefetch_related_m2m_forward_works": true,
+        "foreign_object.tests.MultiColumnFKTests.test_batch_create_foreign_object": true,
+        "many_to_one.tests.ManyToOneTests.test_delete": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13964/dedup_patch_23.jsonl": {
+      "django__django-13964": {
+        "foreign_object.test_forms.FormsTests.test_foreign_object_form": true,
+        "foreign_object.tests.MultiColumnFKTests.test_double_nested_query": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_set_after_prefetch": true,
+        "foreign_object.tests.MultiColumnFKTests.test_inheritance": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_non_local_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_to_python": true,
+        "many_to_one.tests.ManyToOneTests.test_fk_assignment_and_related_object_cache": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_recursive_fks_get_col": true,
+        "model_fields.tests.GetFieldDisplayTests.test_overriding_inherited_FIELD_display": true,
+        "foreign_object.tests.TestModelCheckTests.test_check_subset_composite_foreign_object": true,
+        "foreign_object.tests.TestModelCheckTests.test_check_composite_foreign_object": true,
+        "many_to_one.tests.ManyToOneTests.test_add_then_remove_after_prefetch": true,
+        "foreign_object.tests.MultiColumnFKTests.test_many_to_many_related_query_name": true,
+        "foreign_object.tests.MultiColumnFKTests.test_prefetch_related_m2m_forward_works": true,
+        "foreign_object.tests.MultiColumnFKTests.test_batch_create_foreign_object": true,
+        "many_to_one.tests.ManyToOneTests.test_delete": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13964/dedup_patch_24.jsonl": {
+      "django__django-13964": {
+        "foreign_object.test_forms.FormsTests.test_foreign_object_form": true,
+        "foreign_object.tests.MultiColumnFKTests.test_double_nested_query": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_set_after_prefetch": true,
+        "foreign_object.tests.MultiColumnFKTests.test_inheritance": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_non_local_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_to_python": true,
+        "many_to_one.tests.ManyToOneTests.test_fk_assignment_and_related_object_cache": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_recursive_fks_get_col": true,
+        "model_fields.tests.GetFieldDisplayTests.test_overriding_inherited_FIELD_display": true,
+        "foreign_object.tests.TestModelCheckTests.test_check_subset_composite_foreign_object": true,
+        "foreign_object.tests.TestModelCheckTests.test_check_composite_foreign_object": true,
+        "many_to_one.tests.ManyToOneTests.test_add_then_remove_after_prefetch": true,
+        "foreign_object.tests.MultiColumnFKTests.test_many_to_many_related_query_name": true,
+        "foreign_object.tests.MultiColumnFKTests.test_prefetch_related_m2m_forward_works": true,
+        "foreign_object.tests.MultiColumnFKTests.test_batch_create_foreign_object": true,
+        "many_to_one.tests.ManyToOneTests.test_delete": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13964/dedup_patch_25.jsonl": {
+      "django__django-13964": {
+        "foreign_object.test_forms.FormsTests.test_foreign_object_form": true,
+        "foreign_object.tests.MultiColumnFKTests.test_double_nested_query": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_set_after_prefetch": true,
+        "foreign_object.tests.MultiColumnFKTests.test_inheritance": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_non_local_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_to_python": true,
+        "many_to_one.tests.ManyToOneTests.test_fk_assignment_and_related_object_cache": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_recursive_fks_get_col": true,
+        "model_fields.tests.GetFieldDisplayTests.test_overriding_inherited_FIELD_display": true,
+        "foreign_object.tests.TestModelCheckTests.test_check_subset_composite_foreign_object": true,
+        "foreign_object.tests.TestModelCheckTests.test_check_composite_foreign_object": true,
+        "many_to_one.tests.ManyToOneTests.test_add_then_remove_after_prefetch": true,
+        "foreign_object.tests.MultiColumnFKTests.test_many_to_many_related_query_name": true,
+        "foreign_object.tests.MultiColumnFKTests.test_prefetch_related_m2m_forward_works": true,
+        "foreign_object.tests.MultiColumnFKTests.test_batch_create_foreign_object": true,
+        "many_to_one.tests.ManyToOneTests.test_delete": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13964/dedup_patch_26.jsonl": {
+      "django__django-13964": {
+        "foreign_object.test_forms.FormsTests.test_foreign_object_form": true,
+        "foreign_object.tests.MultiColumnFKTests.test_double_nested_query": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_set_after_prefetch": true,
+        "foreign_object.tests.MultiColumnFKTests.test_inheritance": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_non_local_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_to_python": true,
+        "many_to_one.tests.ManyToOneTests.test_fk_assignment_and_related_object_cache": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_recursive_fks_get_col": true,
+        "model_fields.tests.GetFieldDisplayTests.test_overriding_inherited_FIELD_display": true,
+        "foreign_object.tests.TestModelCheckTests.test_check_subset_composite_foreign_object": true,
+        "foreign_object.tests.TestModelCheckTests.test_check_composite_foreign_object": true,
+        "many_to_one.tests.ManyToOneTests.test_add_then_remove_after_prefetch": true,
+        "foreign_object.tests.MultiColumnFKTests.test_many_to_many_related_query_name": true,
+        "foreign_object.tests.MultiColumnFKTests.test_prefetch_related_m2m_forward_works": true,
+        "foreign_object.tests.MultiColumnFKTests.test_batch_create_foreign_object": true,
+        "many_to_one.tests.ManyToOneTests.test_delete": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13964/dedup_patch_27.jsonl": {
+      "django__django-13964": {
+        "foreign_object.test_forms.FormsTests.test_foreign_object_form": true,
+        "foreign_object.tests.MultiColumnFKTests.test_double_nested_query": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_set_after_prefetch": true,
+        "foreign_object.tests.MultiColumnFKTests.test_inheritance": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_non_local_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_to_python": true,
+        "many_to_one.tests.ManyToOneTests.test_fk_assignment_and_related_object_cache": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_recursive_fks_get_col": true,
+        "model_fields.tests.GetFieldDisplayTests.test_overriding_inherited_FIELD_display": true,
+        "foreign_object.tests.TestModelCheckTests.test_check_subset_composite_foreign_object": true,
+        "foreign_object.tests.TestModelCheckTests.test_check_composite_foreign_object": true,
+        "many_to_one.tests.ManyToOneTests.test_add_then_remove_after_prefetch": true,
+        "foreign_object.tests.MultiColumnFKTests.test_many_to_many_related_query_name": true,
+        "foreign_object.tests.MultiColumnFKTests.test_prefetch_related_m2m_forward_works": true,
+        "foreign_object.tests.MultiColumnFKTests.test_batch_create_foreign_object": true,
+        "many_to_one.tests.ManyToOneTests.test_delete": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13964/dedup_patch_28.jsonl": {
+      "django__django-13964": {
+        "foreign_object.test_forms.FormsTests.test_foreign_object_form": true,
+        "foreign_object.tests.MultiColumnFKTests.test_double_nested_query": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_set_after_prefetch": true,
+        "foreign_object.tests.MultiColumnFKTests.test_inheritance": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_non_local_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_to_python": true,
+        "many_to_one.tests.ManyToOneTests.test_fk_assignment_and_related_object_cache": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_recursive_fks_get_col": true,
+        "model_fields.tests.GetFieldDisplayTests.test_overriding_inherited_FIELD_display": true,
+        "foreign_object.tests.TestModelCheckTests.test_check_subset_composite_foreign_object": true,
+        "foreign_object.tests.TestModelCheckTests.test_check_composite_foreign_object": true,
+        "many_to_one.tests.ManyToOneTests.test_add_then_remove_after_prefetch": true,
+        "foreign_object.tests.MultiColumnFKTests.test_many_to_many_related_query_name": true,
+        "foreign_object.tests.MultiColumnFKTests.test_prefetch_related_m2m_forward_works": true,
+        "foreign_object.tests.MultiColumnFKTests.test_batch_create_foreign_object": true,
+        "many_to_one.tests.ManyToOneTests.test_delete": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13964/dedup_patch_29.jsonl": {
+      "django__django-13964": {
+        "foreign_object.test_forms.FormsTests.test_foreign_object_form": true,
+        "foreign_object.tests.MultiColumnFKTests.test_double_nested_query": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_set_after_prefetch": true,
+        "foreign_object.tests.MultiColumnFKTests.test_inheritance": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_non_local_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_to_python": true,
+        "many_to_one.tests.ManyToOneTests.test_fk_assignment_and_related_object_cache": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_recursive_fks_get_col": true,
+        "model_fields.tests.GetFieldDisplayTests.test_overriding_inherited_FIELD_display": true,
+        "foreign_object.tests.TestModelCheckTests.test_check_subset_composite_foreign_object": true,
+        "foreign_object.tests.TestModelCheckTests.test_check_composite_foreign_object": true,
+        "many_to_one.tests.ManyToOneTests.test_add_then_remove_after_prefetch": true,
+        "foreign_object.tests.MultiColumnFKTests.test_many_to_many_related_query_name": true,
+        "foreign_object.tests.MultiColumnFKTests.test_prefetch_related_m2m_forward_works": true,
+        "foreign_object.tests.MultiColumnFKTests.test_batch_create_foreign_object": true,
+        "many_to_one.tests.ManyToOneTests.test_delete": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13964/dedup_patch_3.jsonl": {
+      "django__django-13964": {
+        "foreign_object.test_forms.FormsTests.test_foreign_object_form": true,
+        "foreign_object.tests.MultiColumnFKTests.test_double_nested_query": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_set_after_prefetch": true,
+        "foreign_object.tests.MultiColumnFKTests.test_inheritance": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_non_local_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_to_python": true,
+        "many_to_one.tests.ManyToOneTests.test_fk_assignment_and_related_object_cache": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_recursive_fks_get_col": true,
+        "model_fields.tests.GetFieldDisplayTests.test_overriding_inherited_FIELD_display": true,
+        "foreign_object.tests.TestModelCheckTests.test_check_subset_composite_foreign_object": true,
+        "foreign_object.tests.TestModelCheckTests.test_check_composite_foreign_object": true,
+        "many_to_one.tests.ManyToOneTests.test_add_then_remove_after_prefetch": true,
+        "foreign_object.tests.MultiColumnFKTests.test_many_to_many_related_query_name": true,
+        "foreign_object.tests.MultiColumnFKTests.test_prefetch_related_m2m_forward_works": true,
+        "foreign_object.tests.MultiColumnFKTests.test_batch_create_foreign_object": true,
+        "many_to_one.tests.ManyToOneTests.test_delete": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13964/dedup_patch_30.jsonl": {
+      "django__django-13964": {
+        "foreign_object.test_forms.FormsTests.test_foreign_object_form": false,
+        "foreign_object.tests.MultiColumnFKTests.test_double_nested_query": false,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": false,
+        "many_to_one.tests.ManyToOneTests.test_set_after_prefetch": false,
+        "foreign_object.tests.MultiColumnFKTests.test_inheritance": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_non_local_to_field": false,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_to_python": false,
+        "many_to_one.tests.ManyToOneTests.test_fk_assignment_and_related_object_cache": false,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_recursive_fks_get_col": false,
+        "model_fields.tests.GetFieldDisplayTests.test_overriding_inherited_FIELD_display": false,
+        "foreign_object.tests.TestModelCheckTests.test_check_subset_composite_foreign_object": false,
+        "foreign_object.tests.TestModelCheckTests.test_check_composite_foreign_object": false,
+        "many_to_one.tests.ManyToOneTests.test_add_then_remove_after_prefetch": false,
+        "foreign_object.tests.MultiColumnFKTests.test_many_to_many_related_query_name": false,
+        "foreign_object.tests.MultiColumnFKTests.test_prefetch_related_m2m_forward_works": false,
+        "foreign_object.tests.MultiColumnFKTests.test_batch_create_foreign_object": false,
+        "many_to_one.tests.ManyToOneTests.test_delete": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13964/dedup_patch_31.jsonl": {
+      "django__django-13964": {
+        "foreign_object.test_forms.FormsTests.test_foreign_object_form": true,
+        "foreign_object.tests.MultiColumnFKTests.test_double_nested_query": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_set_after_prefetch": true,
+        "foreign_object.tests.MultiColumnFKTests.test_inheritance": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_non_local_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_to_python": true,
+        "many_to_one.tests.ManyToOneTests.test_fk_assignment_and_related_object_cache": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_recursive_fks_get_col": true,
+        "model_fields.tests.GetFieldDisplayTests.test_overriding_inherited_FIELD_display": true,
+        "foreign_object.tests.TestModelCheckTests.test_check_subset_composite_foreign_object": true,
+        "foreign_object.tests.TestModelCheckTests.test_check_composite_foreign_object": true,
+        "many_to_one.tests.ManyToOneTests.test_add_then_remove_after_prefetch": true,
+        "foreign_object.tests.MultiColumnFKTests.test_many_to_many_related_query_name": true,
+        "foreign_object.tests.MultiColumnFKTests.test_prefetch_related_m2m_forward_works": true,
+        "foreign_object.tests.MultiColumnFKTests.test_batch_create_foreign_object": true,
+        "many_to_one.tests.ManyToOneTests.test_delete": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13964/dedup_patch_32.jsonl": {
+      "django__django-13964": {
+        "foreign_object.test_forms.FormsTests.test_foreign_object_form": true,
+        "foreign_object.tests.MultiColumnFKTests.test_double_nested_query": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_set_after_prefetch": true,
+        "foreign_object.tests.MultiColumnFKTests.test_inheritance": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_non_local_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_to_python": true,
+        "many_to_one.tests.ManyToOneTests.test_fk_assignment_and_related_object_cache": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_recursive_fks_get_col": true,
+        "model_fields.tests.GetFieldDisplayTests.test_overriding_inherited_FIELD_display": true,
+        "foreign_object.tests.TestModelCheckTests.test_check_subset_composite_foreign_object": true,
+        "foreign_object.tests.TestModelCheckTests.test_check_composite_foreign_object": true,
+        "many_to_one.tests.ManyToOneTests.test_add_then_remove_after_prefetch": true,
+        "foreign_object.tests.MultiColumnFKTests.test_many_to_many_related_query_name": true,
+        "foreign_object.tests.MultiColumnFKTests.test_prefetch_related_m2m_forward_works": true,
+        "foreign_object.tests.MultiColumnFKTests.test_batch_create_foreign_object": true,
+        "many_to_one.tests.ManyToOneTests.test_delete": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13964/dedup_patch_33.jsonl": {
+      "django__django-13964": {
+        "foreign_object.test_forms.FormsTests.test_foreign_object_form": true,
+        "foreign_object.tests.MultiColumnFKTests.test_double_nested_query": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_set_after_prefetch": true,
+        "foreign_object.tests.MultiColumnFKTests.test_inheritance": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_non_local_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_to_python": true,
+        "many_to_one.tests.ManyToOneTests.test_fk_assignment_and_related_object_cache": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_recursive_fks_get_col": true,
+        "model_fields.tests.GetFieldDisplayTests.test_overriding_inherited_FIELD_display": true,
+        "foreign_object.tests.TestModelCheckTests.test_check_subset_composite_foreign_object": true,
+        "foreign_object.tests.TestModelCheckTests.test_check_composite_foreign_object": true,
+        "many_to_one.tests.ManyToOneTests.test_add_then_remove_after_prefetch": true,
+        "foreign_object.tests.MultiColumnFKTests.test_many_to_many_related_query_name": true,
+        "foreign_object.tests.MultiColumnFKTests.test_prefetch_related_m2m_forward_works": true,
+        "foreign_object.tests.MultiColumnFKTests.test_batch_create_foreign_object": true,
+        "many_to_one.tests.ManyToOneTests.test_delete": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13964/dedup_patch_34.jsonl": {
+      "django__django-13964": {
+        "foreign_object.test_forms.FormsTests.test_foreign_object_form": true,
+        "foreign_object.tests.MultiColumnFKTests.test_double_nested_query": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_set_after_prefetch": true,
+        "foreign_object.tests.MultiColumnFKTests.test_inheritance": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_non_local_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_to_python": true,
+        "many_to_one.tests.ManyToOneTests.test_fk_assignment_and_related_object_cache": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_recursive_fks_get_col": true,
+        "model_fields.tests.GetFieldDisplayTests.test_overriding_inherited_FIELD_display": true,
+        "foreign_object.tests.TestModelCheckTests.test_check_subset_composite_foreign_object": true,
+        "foreign_object.tests.TestModelCheckTests.test_check_composite_foreign_object": true,
+        "many_to_one.tests.ManyToOneTests.test_add_then_remove_after_prefetch": true,
+        "foreign_object.tests.MultiColumnFKTests.test_many_to_many_related_query_name": true,
+        "foreign_object.tests.MultiColumnFKTests.test_prefetch_related_m2m_forward_works": true,
+        "foreign_object.tests.MultiColumnFKTests.test_batch_create_foreign_object": true,
+        "many_to_one.tests.ManyToOneTests.test_delete": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13964/dedup_patch_35.jsonl": {
+      "django__django-13964": {
+        "foreign_object.test_forms.FormsTests.test_foreign_object_form": true,
+        "foreign_object.tests.MultiColumnFKTests.test_double_nested_query": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_set_after_prefetch": true,
+        "foreign_object.tests.MultiColumnFKTests.test_inheritance": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_non_local_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_to_python": true,
+        "many_to_one.tests.ManyToOneTests.test_fk_assignment_and_related_object_cache": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_recursive_fks_get_col": true,
+        "model_fields.tests.GetFieldDisplayTests.test_overriding_inherited_FIELD_display": true,
+        "foreign_object.tests.TestModelCheckTests.test_check_subset_composite_foreign_object": true,
+        "foreign_object.tests.TestModelCheckTests.test_check_composite_foreign_object": true,
+        "many_to_one.tests.ManyToOneTests.test_add_then_remove_after_prefetch": true,
+        "foreign_object.tests.MultiColumnFKTests.test_many_to_many_related_query_name": true,
+        "foreign_object.tests.MultiColumnFKTests.test_prefetch_related_m2m_forward_works": true,
+        "foreign_object.tests.MultiColumnFKTests.test_batch_create_foreign_object": true,
+        "many_to_one.tests.ManyToOneTests.test_delete": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13964/dedup_patch_4.jsonl": {
+      "django__django-13964": {
+        "foreign_object.test_forms.FormsTests.test_foreign_object_form": true,
+        "foreign_object.tests.MultiColumnFKTests.test_double_nested_query": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": false,
+        "many_to_one.tests.ManyToOneTests.test_set_after_prefetch": true,
+        "foreign_object.tests.MultiColumnFKTests.test_inheritance": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_non_local_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_to_python": true,
+        "many_to_one.tests.ManyToOneTests.test_fk_assignment_and_related_object_cache": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_recursive_fks_get_col": true,
+        "model_fields.tests.GetFieldDisplayTests.test_overriding_inherited_FIELD_display": true,
+        "foreign_object.tests.TestModelCheckTests.test_check_subset_composite_foreign_object": true,
+        "foreign_object.tests.TestModelCheckTests.test_check_composite_foreign_object": true,
+        "many_to_one.tests.ManyToOneTests.test_add_then_remove_after_prefetch": true,
+        "foreign_object.tests.MultiColumnFKTests.test_many_to_many_related_query_name": true,
+        "foreign_object.tests.MultiColumnFKTests.test_prefetch_related_m2m_forward_works": true,
+        "foreign_object.tests.MultiColumnFKTests.test_batch_create_foreign_object": true,
+        "many_to_one.tests.ManyToOneTests.test_delete": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13964/dedup_patch_5.jsonl": {
+      "django__django-13964": {
+        "foreign_object.test_forms.FormsTests.test_foreign_object_form": true,
+        "foreign_object.tests.MultiColumnFKTests.test_double_nested_query": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": false,
+        "many_to_one.tests.ManyToOneTests.test_set_after_prefetch": true,
+        "foreign_object.tests.MultiColumnFKTests.test_inheritance": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_non_local_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_to_python": true,
+        "many_to_one.tests.ManyToOneTests.test_fk_assignment_and_related_object_cache": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_recursive_fks_get_col": true,
+        "model_fields.tests.GetFieldDisplayTests.test_overriding_inherited_FIELD_display": true,
+        "foreign_object.tests.TestModelCheckTests.test_check_subset_composite_foreign_object": true,
+        "foreign_object.tests.TestModelCheckTests.test_check_composite_foreign_object": true,
+        "many_to_one.tests.ManyToOneTests.test_add_then_remove_after_prefetch": true,
+        "foreign_object.tests.MultiColumnFKTests.test_many_to_many_related_query_name": true,
+        "foreign_object.tests.MultiColumnFKTests.test_prefetch_related_m2m_forward_works": true,
+        "foreign_object.tests.MultiColumnFKTests.test_batch_create_foreign_object": true,
+        "many_to_one.tests.ManyToOneTests.test_delete": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13964/dedup_patch_6.jsonl": {
+      "django__django-13964": {
+        "foreign_object.test_forms.FormsTests.test_foreign_object_form": true,
+        "foreign_object.tests.MultiColumnFKTests.test_double_nested_query": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": false,
+        "many_to_one.tests.ManyToOneTests.test_set_after_prefetch": true,
+        "foreign_object.tests.MultiColumnFKTests.test_inheritance": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_non_local_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_to_python": true,
+        "many_to_one.tests.ManyToOneTests.test_fk_assignment_and_related_object_cache": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_recursive_fks_get_col": true,
+        "model_fields.tests.GetFieldDisplayTests.test_overriding_inherited_FIELD_display": true,
+        "foreign_object.tests.TestModelCheckTests.test_check_subset_composite_foreign_object": true,
+        "foreign_object.tests.TestModelCheckTests.test_check_composite_foreign_object": true,
+        "many_to_one.tests.ManyToOneTests.test_add_then_remove_after_prefetch": true,
+        "foreign_object.tests.MultiColumnFKTests.test_many_to_many_related_query_name": true,
+        "foreign_object.tests.MultiColumnFKTests.test_prefetch_related_m2m_forward_works": true,
+        "foreign_object.tests.MultiColumnFKTests.test_batch_create_foreign_object": true,
+        "many_to_one.tests.ManyToOneTests.test_delete": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13964/dedup_patch_7.jsonl": {
+      "django__django-13964": {
+        "foreign_object.test_forms.FormsTests.test_foreign_object_form": true,
+        "foreign_object.tests.MultiColumnFKTests.test_double_nested_query": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_set_after_prefetch": true,
+        "foreign_object.tests.MultiColumnFKTests.test_inheritance": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_non_local_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_to_python": true,
+        "many_to_one.tests.ManyToOneTests.test_fk_assignment_and_related_object_cache": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_recursive_fks_get_col": true,
+        "model_fields.tests.GetFieldDisplayTests.test_overriding_inherited_FIELD_display": true,
+        "foreign_object.tests.TestModelCheckTests.test_check_subset_composite_foreign_object": true,
+        "foreign_object.tests.TestModelCheckTests.test_check_composite_foreign_object": true,
+        "many_to_one.tests.ManyToOneTests.test_add_then_remove_after_prefetch": true,
+        "foreign_object.tests.MultiColumnFKTests.test_many_to_many_related_query_name": true,
+        "foreign_object.tests.MultiColumnFKTests.test_prefetch_related_m2m_forward_works": true,
+        "foreign_object.tests.MultiColumnFKTests.test_batch_create_foreign_object": true,
+        "many_to_one.tests.ManyToOneTests.test_delete": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13964/dedup_patch_8.jsonl": {
+      "django__django-13964": {
+        "foreign_object.test_forms.FormsTests.test_foreign_object_form": true,
+        "foreign_object.tests.MultiColumnFKTests.test_double_nested_query": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_set_after_prefetch": true,
+        "foreign_object.tests.MultiColumnFKTests.test_inheritance": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_non_local_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_to_python": true,
+        "many_to_one.tests.ManyToOneTests.test_fk_assignment_and_related_object_cache": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_recursive_fks_get_col": true,
+        "model_fields.tests.GetFieldDisplayTests.test_overriding_inherited_FIELD_display": true,
+        "foreign_object.tests.TestModelCheckTests.test_check_subset_composite_foreign_object": true,
+        "foreign_object.tests.TestModelCheckTests.test_check_composite_foreign_object": true,
+        "many_to_one.tests.ManyToOneTests.test_add_then_remove_after_prefetch": true,
+        "foreign_object.tests.MultiColumnFKTests.test_many_to_many_related_query_name": true,
+        "foreign_object.tests.MultiColumnFKTests.test_prefetch_related_m2m_forward_works": true,
+        "foreign_object.tests.MultiColumnFKTests.test_batch_create_foreign_object": true,
+        "many_to_one.tests.ManyToOneTests.test_delete": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13964/dedup_patch_9.jsonl": {
+      "django__django-13964": {
+        "foreign_object.test_forms.FormsTests.test_foreign_object_form": true,
+        "foreign_object.tests.MultiColumnFKTests.test_double_nested_query": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": false,
+        "many_to_one.tests.ManyToOneTests.test_set_after_prefetch": true,
+        "foreign_object.tests.MultiColumnFKTests.test_inheritance": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_non_local_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_warning_when_unique_true_on_fk": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_to_python": true,
+        "many_to_one.tests.ManyToOneTests.test_fk_assignment_and_related_object_cache": true,
+        "model_fields.test_foreignkey.ForeignKeyTests.test_recursive_fks_get_col": true,
+        "model_fields.tests.GetFieldDisplayTests.test_overriding_inherited_FIELD_display": true,
+        "foreign_object.tests.TestModelCheckTests.test_check_subset_composite_foreign_object": true,
+        "foreign_object.tests.TestModelCheckTests.test_check_composite_foreign_object": true,
+        "many_to_one.tests.ManyToOneTests.test_add_then_remove_after_prefetch": true,
+        "foreign_object.tests.MultiColumnFKTests.test_many_to_many_related_query_name": true,
+        "foreign_object.tests.MultiColumnFKTests.test_prefetch_related_m2m_forward_works": true,
+        "foreign_object.tests.MultiColumnFKTests.test_batch_create_foreign_object": true,
+        "many_to_one.tests.ManyToOneTests.test_delete": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-13964": {
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_parent_non_numeric_pk#1": true,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_auto_pk#2": true,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_parent_non_numeric_pk#3": true,
+        "model_regress.tests.ModelTests.test_foreign_key_with_non_numeric_primary_key#4": true,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_non_numeric_pk#5": true,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_numeric_pk#6": true,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_non_numeric_pk#7": true,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_numeric_pk#8": true,
+        "model_regress.tests.ModelTests.test_non_numeric_primary_key_assignment#9": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13964/dedup_patch_0.jsonl": {
+      "django__django-13964": {
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_parent_non_numeric_pk#1": false,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_auto_pk#2": false,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_parent_non_numeric_pk#3": false,
+        "model_regress.tests.ModelTests.test_foreign_key_with_non_numeric_primary_key#4": false,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_non_numeric_pk#5": false,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_numeric_pk#6": false,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_non_numeric_pk#7": false,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_numeric_pk#8": false,
+        "model_regress.tests.ModelTests.test_non_numeric_primary_key_assignment#9": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13964/dedup_patch_1.jsonl": {
+      "django__django-13964": {
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_parent_non_numeric_pk#1": false,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_auto_pk#2": false,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_parent_non_numeric_pk#3": false,
+        "model_regress.tests.ModelTests.test_foreign_key_with_non_numeric_primary_key#4": false,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_non_numeric_pk#5": false,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_numeric_pk#6": false,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_non_numeric_pk#7": false,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_numeric_pk#8": false,
+        "model_regress.tests.ModelTests.test_non_numeric_primary_key_assignment#9": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13964/dedup_patch_12.jsonl": {
+      "django__django-13964": {
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_parent_non_numeric_pk#1": false,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_auto_pk#2": false,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_parent_non_numeric_pk#3": false,
+        "model_regress.tests.ModelTests.test_foreign_key_with_non_numeric_primary_key#4": false,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_non_numeric_pk#5": false,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_numeric_pk#6": false,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_non_numeric_pk#7": false,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_numeric_pk#8": false,
+        "model_regress.tests.ModelTests.test_non_numeric_primary_key_assignment#9": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13964/dedup_patch_13.jsonl": {
+      "django__django-13964": {
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_parent_non_numeric_pk#1": false,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_auto_pk#2": false,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_parent_non_numeric_pk#3": false,
+        "model_regress.tests.ModelTests.test_foreign_key_with_non_numeric_primary_key#4": false,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_non_numeric_pk#5": false,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_numeric_pk#6": false,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_non_numeric_pk#7": false,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_numeric_pk#8": false,
+        "model_regress.tests.ModelTests.test_non_numeric_primary_key_assignment#9": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13964/dedup_patch_14.jsonl": {
+      "django__django-13964": {
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_parent_non_numeric_pk#1": false,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_auto_pk#2": false,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_parent_non_numeric_pk#3": false,
+        "model_regress.tests.ModelTests.test_foreign_key_with_non_numeric_primary_key#4": false,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_non_numeric_pk#5": false,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_numeric_pk#6": false,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_non_numeric_pk#7": false,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_numeric_pk#8": false,
+        "model_regress.tests.ModelTests.test_non_numeric_primary_key_assignment#9": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13964/dedup_patch_17.jsonl": {
+      "django__django-13964": {
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_parent_non_numeric_pk#1": false,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_auto_pk#2": false,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_parent_non_numeric_pk#3": false,
+        "model_regress.tests.ModelTests.test_foreign_key_with_non_numeric_primary_key#4": false,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_non_numeric_pk#5": false,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_numeric_pk#6": false,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_non_numeric_pk#7": false,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_numeric_pk#8": false,
+        "model_regress.tests.ModelTests.test_non_numeric_primary_key_assignment#9": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13964/dedup_patch_2.jsonl": {
+      "django__django-13964": {
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_parent_non_numeric_pk#1": false,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_auto_pk#2": false,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_parent_non_numeric_pk#3": false,
+        "model_regress.tests.ModelTests.test_foreign_key_with_non_numeric_primary_key#4": false,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_non_numeric_pk#5": false,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_numeric_pk#6": false,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_non_numeric_pk#7": false,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_numeric_pk#8": false,
+        "model_regress.tests.ModelTests.test_non_numeric_primary_key_assignment#9": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13964/dedup_patch_21.jsonl": {
+      "django__django-13964": {
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_parent_non_numeric_pk#1": false,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_auto_pk#2": false,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_parent_non_numeric_pk#3": false,
+        "model_regress.tests.ModelTests.test_foreign_key_with_non_numeric_primary_key#4": false,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_non_numeric_pk#5": false,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_numeric_pk#6": false,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_non_numeric_pk#7": false,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_numeric_pk#8": false,
+        "model_regress.tests.ModelTests.test_non_numeric_primary_key_assignment#9": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13964/dedup_patch_22.jsonl": {
+      "django__django-13964": {
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_parent_non_numeric_pk#1": false,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_auto_pk#2": false,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_parent_non_numeric_pk#3": false,
+        "model_regress.tests.ModelTests.test_foreign_key_with_non_numeric_primary_key#4": false,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_non_numeric_pk#5": false,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_numeric_pk#6": false,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_non_numeric_pk#7": false,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_numeric_pk#8": false,
+        "model_regress.tests.ModelTests.test_non_numeric_primary_key_assignment#9": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13964/dedup_patch_23.jsonl": {
+      "django__django-13964": {
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_parent_non_numeric_pk#1": false,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_auto_pk#2": false,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_parent_non_numeric_pk#3": false,
+        "model_regress.tests.ModelTests.test_foreign_key_with_non_numeric_primary_key#4": false,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_non_numeric_pk#5": false,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_numeric_pk#6": false,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_non_numeric_pk#7": false,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_numeric_pk#8": false,
+        "model_regress.tests.ModelTests.test_non_numeric_primary_key_assignment#9": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13964/dedup_patch_25.jsonl": {
+      "django__django-13964": {
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_parent_non_numeric_pk#1": false,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_auto_pk#2": false,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_parent_non_numeric_pk#3": false,
+        "model_regress.tests.ModelTests.test_foreign_key_with_non_numeric_primary_key#4": false,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_non_numeric_pk#5": false,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_numeric_pk#6": false,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_non_numeric_pk#7": false,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_numeric_pk#8": false,
+        "model_regress.tests.ModelTests.test_non_numeric_primary_key_assignment#9": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13964/dedup_patch_26.jsonl": {
+      "django__django-13964": {
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_parent_non_numeric_pk#1": false,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_auto_pk#2": false,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_parent_non_numeric_pk#3": false,
+        "model_regress.tests.ModelTests.test_foreign_key_with_non_numeric_primary_key#4": false,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_non_numeric_pk#5": false,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_numeric_pk#6": false,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_non_numeric_pk#7": false,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_numeric_pk#8": false,
+        "model_regress.tests.ModelTests.test_non_numeric_primary_key_assignment#9": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13964/dedup_patch_27.jsonl": {
+      "django__django-13964": {
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_parent_non_numeric_pk#1": false,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_auto_pk#2": false,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_parent_non_numeric_pk#3": false,
+        "model_regress.tests.ModelTests.test_foreign_key_with_non_numeric_primary_key#4": false,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_non_numeric_pk#5": false,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_numeric_pk#6": false,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_non_numeric_pk#7": false,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_numeric_pk#8": false,
+        "model_regress.tests.ModelTests.test_non_numeric_primary_key_assignment#9": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13964/dedup_patch_28.jsonl": {
+      "django__django-13964": {
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_parent_non_numeric_pk#1": false,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_auto_pk#2": false,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_parent_non_numeric_pk#3": false,
+        "model_regress.tests.ModelTests.test_foreign_key_with_non_numeric_primary_key#4": false,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_non_numeric_pk#5": false,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_numeric_pk#6": false,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_non_numeric_pk#7": false,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_numeric_pk#8": false,
+        "model_regress.tests.ModelTests.test_non_numeric_primary_key_assignment#9": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13964/dedup_patch_29.jsonl": {
+      "django__django-13964": {
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_parent_non_numeric_pk#1": false,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_auto_pk#2": false,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_parent_non_numeric_pk#3": false,
+        "model_regress.tests.ModelTests.test_foreign_key_with_non_numeric_primary_key#4": false,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_non_numeric_pk#5": false,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_numeric_pk#6": false,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_non_numeric_pk#7": false,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_numeric_pk#8": false,
+        "model_regress.tests.ModelTests.test_non_numeric_primary_key_assignment#9": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13964/dedup_patch_3.jsonl": {
+      "django__django-13964": {
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_parent_non_numeric_pk#1": false,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_auto_pk#2": false,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_parent_non_numeric_pk#3": false,
+        "model_regress.tests.ModelTests.test_foreign_key_with_non_numeric_primary_key#4": false,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_non_numeric_pk#5": false,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_numeric_pk#6": false,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_non_numeric_pk#7": false,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_numeric_pk#8": false,
+        "model_regress.tests.ModelTests.test_non_numeric_primary_key_assignment#9": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13964/dedup_patch_31.jsonl": {
+      "django__django-13964": {
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_parent_non_numeric_pk#1": false,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_auto_pk#2": false,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_parent_non_numeric_pk#3": false,
+        "model_regress.tests.ModelTests.test_foreign_key_with_non_numeric_primary_key#4": false,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_non_numeric_pk#5": false,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_numeric_pk#6": false,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_non_numeric_pk#7": false,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_numeric_pk#8": false,
+        "model_regress.tests.ModelTests.test_non_numeric_primary_key_assignment#9": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13964/dedup_patch_32.jsonl": {
+      "django__django-13964": {
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_parent_non_numeric_pk#1": false,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_auto_pk#2": false,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_parent_non_numeric_pk#3": false,
+        "model_regress.tests.ModelTests.test_foreign_key_with_non_numeric_primary_key#4": false,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_non_numeric_pk#5": false,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_numeric_pk#6": false,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_non_numeric_pk#7": false,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_numeric_pk#8": false,
+        "model_regress.tests.ModelTests.test_non_numeric_primary_key_assignment#9": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13964/dedup_patch_33.jsonl": {
+      "django__django-13964": {
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_parent_non_numeric_pk#1": false,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_auto_pk#2": false,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_parent_non_numeric_pk#3": false,
+        "model_regress.tests.ModelTests.test_foreign_key_with_non_numeric_primary_key#4": false,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_non_numeric_pk#5": false,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_numeric_pk#6": false,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_non_numeric_pk#7": false,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_numeric_pk#8": false,
+        "model_regress.tests.ModelTests.test_non_numeric_primary_key_assignment#9": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13964/dedup_patch_34.jsonl": {
+      "django__django-13964": {
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_parent_non_numeric_pk#1": false,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_auto_pk#2": false,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_parent_non_numeric_pk#3": false,
+        "model_regress.tests.ModelTests.test_foreign_key_with_non_numeric_primary_key#4": false,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_non_numeric_pk#5": false,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_numeric_pk#6": false,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_non_numeric_pk#7": false,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_numeric_pk#8": false,
+        "model_regress.tests.ModelTests.test_non_numeric_primary_key_assignment#9": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13964/dedup_patch_35.jsonl": {
+      "django__django-13964": {
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_parent_non_numeric_pk#1": false,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_auto_pk#2": false,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_parent_non_numeric_pk#3": false,
+        "model_regress.tests.ModelTests.test_foreign_key_with_non_numeric_primary_key#4": false,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_non_numeric_pk#5": false,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_numeric_pk#6": false,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_non_numeric_pk#7": false,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_numeric_pk#8": false,
+        "model_regress.tests.ModelTests.test_non_numeric_primary_key_assignment#9": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13964/dedup_patch_7.jsonl": {
+      "django__django-13964": {
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_parent_non_numeric_pk#1": false,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_auto_pk#2": false,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_parent_non_numeric_pk#3": false,
+        "model_regress.tests.ModelTests.test_foreign_key_with_non_numeric_primary_key#4": false,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_non_numeric_pk#5": false,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_numeric_pk#6": false,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_non_numeric_pk#7": false,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_numeric_pk#8": false,
+        "model_regress.tests.ModelTests.test_non_numeric_primary_key_assignment#9": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-13964/dedup_patch_8.jsonl": {
+      "django__django-13964": {
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_parent_non_numeric_pk#1": false,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_auto_pk#2": false,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_parent_non_numeric_pk#3": false,
+        "model_regress.tests.ModelTests.test_foreign_key_with_non_numeric_primary_key#4": false,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_unsaved_non_numeric_pk#5": false,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_numeric_pk#6": false,
+        "custom_pk.tests.CustomPKTests.test_fk_assignment_with_non_numeric_pk#7": false,
+        "model_regress.tests.ModelTests.test_save_parent_after_setting_child_with_non_numeric_pk#8": false,
+        "model_regress.tests.ModelTests.test_non_numeric_primary_key_assignment#9": false
+      }
+    }
+  }
+}

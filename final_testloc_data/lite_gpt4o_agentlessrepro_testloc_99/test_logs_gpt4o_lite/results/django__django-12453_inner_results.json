@@ -1,0 +1,33 @@
+{
+  "regression": {
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12453/dedup_patch_0.jsonl": {
+      "django__django-12453": {
+        "test_runner.test_debug_sql.TestDebugSQL.test_output_normal": true,
+        "test_runner.test_debug_sql.TestDebugSQL.test_output_verbose": true,
+        "test_runner.tests.SQLiteInMemoryTestDbs.test_transaction_support": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-12453": {
+        "fixtures_regress.tests.TestTicket11101.test_serialized_rollback_with_foreign_keys#1": true,
+        "fixtures_regress.tests.TestTicket11101.test_serialized_rollback_with_foreign_keys#2": true,
+        "fixtures_regress.tests.TestFixtures.test_serialized_rollback_with_foreign_keys#3": true,
+        "fixtures_regress.tests.TestTicket11101.test_serialized_rollback_with_foreign_keys#4": true,
+        "fixtures_regress.tests.TestTicket11101.test_serialized_rollback_ordering#5": true,
+        "fixtures_regress.tests.TestTicket11101.test_serialized_rollback_ordering#6": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12453/dedup_patch_0.jsonl": {
+      "django__django-12453": {
+        "fixtures_regress.tests.TestTicket11101.test_serialized_rollback_with_foreign_keys#1": false,
+        "fixtures_regress.tests.TestTicket11101.test_serialized_rollback_with_foreign_keys#2": false,
+        "fixtures_regress.tests.TestFixtures.test_serialized_rollback_with_foreign_keys#3": false,
+        "fixtures_regress.tests.TestTicket11101.test_serialized_rollback_with_foreign_keys#4": false,
+        "fixtures_regress.tests.TestTicket11101.test_serialized_rollback_ordering#5": false,
+        "fixtures_regress.tests.TestTicket11101.test_serialized_rollback_ordering#6": false
+      }
+    }
+  }
+}

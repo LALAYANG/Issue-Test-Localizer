@@ -1,0 +1,84 @@
+{
+  "regression": {
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-13480/dedup_patch_0.jsonl": {
+      "sympy__sympy-13480": {
+        "sympy/functions/elementary/tests/test_hyperbolic.py::test_simplifications": true,
+        "sympy/functions/elementary/tests/test_hyperbolic.py::test_coth": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-13480/dedup_patch_1.jsonl": {
+      "sympy__sympy-13480": {
+        "sympy/functions/elementary/tests/test_hyperbolic.py::test_simplifications": true,
+        "sympy/functions/elementary/tests/test_hyperbolic.py::test_coth": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-13480/dedup_patch_2.jsonl": {
+      "sympy__sympy-13480": {
+        "sympy/functions/elementary/tests/test_hyperbolic.py::test_simplifications": true,
+        "sympy/functions/elementary/tests/test_hyperbolic.py::test_coth": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-13480/dedup_patch_3.jsonl": {
+      "sympy__sympy-13480": {
+        "sympy/functions/elementary/tests/test_hyperbolic.py::test_simplifications": true,
+        "sympy/functions/elementary/tests/test_hyperbolic.py::test_coth": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-13480/dedup_patch_4.jsonl": {
+      "sympy__sympy-13480": {
+        "sympy/functions/elementary/tests/test_hyperbolic.py::test_simplifications": true,
+        "sympy/functions/elementary/tests/test_hyperbolic.py::test_coth": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-13480/dedup_patch_5.jsonl": {
+      "sympy__sympy-13480": {
+        "sympy/functions/elementary/tests/test_hyperbolic.py::test_simplifications": true,
+        "sympy/functions/elementary/tests/test_hyperbolic.py::test_coth": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "sympy__sympy-13480": {
+        "sympy/functions/elementary/tests/test_hyperbolic.py::test_coth#1": false,
+        "sympy/functions/elementary/tests/test_hyperbolic.py::test_coth#2": false,
+        "sympy/functions/elementary/tests/test_hyperbolic.py::test_tanh_series#3": false,
+        "sympy/functions/elementary/tests/test_hyperbolic.py::test_tanh_series#4": false,
+        "sympy/functions/elementary/tests/test_hyperbolic.py::test_coth_rewrite#5": false,
+        "sympy/functions/elementary/tests/test_hyperbolic.py::test_coth_rewrite#6": false,
+        "reproduce_bug.py#7": false,
+        "reproduce_bug_new.py#7": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-13480/dedup_patch_0.jsonl": {
+      "sympy__sympy-13480": {
+        "reproduce_bug_new.py#7": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-13480/dedup_patch_1.jsonl": {
+      "sympy__sympy-13480": {
+        "reproduce_bug_new.py#7": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-13480/dedup_patch_2.jsonl": {
+      "sympy__sympy-13480": {
+        "reproduce_bug_new.py#7": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-13480/dedup_patch_3.jsonl": {
+      "sympy__sympy-13480": {
+        "reproduce_bug_new.py#7": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-13480/dedup_patch_4.jsonl": {
+      "sympy__sympy-13480": {
+        "reproduce_bug_new.py#7": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-13480/dedup_patch_5.jsonl": {
+      "sympy__sympy-13480": {
+        "reproduce_bug_new.py#7": true
+      }
+    }
+  }
+}

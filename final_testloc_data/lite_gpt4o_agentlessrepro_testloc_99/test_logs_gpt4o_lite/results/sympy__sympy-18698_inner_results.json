@@ -1,0 +1,13 @@
+{
+  "regression": {
+    "all_patches/lite_gpt4o_all_unique_patches/sympy__sympy-18698/dedup_patch_0.jsonl": {
+      "sympy__sympy-18698": {
+        "sympy/polys/tests/test_polytools.py::test_factor_terms": true,
+        "sympy/polys/tests/test_sqfreetools.py::test_dmp_sqf": true,
+        "sympy/polys/tests/test_polytools.py::test_sqf": false,
+        "sympy/polys/tests/test_sqfreetools.py::test_dup_sqf": true
+      }
+    }
+  },
+  "reproduction": {}
+}

@@ -1,0 +1,142 @@
+{
+  "regression": {
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16046/dedup_patch_0.jsonl": {
+      "django__django-16046": {
+        "utils_tests.test_numberformat.TestNumberFormat.test_format_number": true,
+        "utils_tests.test_numberformat.TestNumberFormat.test_float_numbers": true,
+        "utils_tests.test_numberformat.TestNumberFormat.test_decimal_numbers": true,
+        "utils_tests.test_numberformat.TestNumberFormat.test_large_number": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16046/dedup_patch_1.jsonl": {
+      "django__django-16046": {
+        "utils_tests.test_numberformat.TestNumberFormat.test_format_number": true,
+        "utils_tests.test_numberformat.TestNumberFormat.test_float_numbers": true,
+        "utils_tests.test_numberformat.TestNumberFormat.test_decimal_numbers": true,
+        "utils_tests.test_numberformat.TestNumberFormat.test_large_number": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16046/dedup_patch_2.jsonl": {
+      "django__django-16046": {
+        "utils_tests.test_numberformat.TestNumberFormat.test_format_number": true,
+        "utils_tests.test_numberformat.TestNumberFormat.test_float_numbers": true,
+        "utils_tests.test_numberformat.TestNumberFormat.test_decimal_numbers": true,
+        "utils_tests.test_numberformat.TestNumberFormat.test_large_number": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16046/dedup_patch_3.jsonl": {
+      "django__django-16046": {
+        "utils_tests.test_numberformat.TestNumberFormat.test_format_number": true,
+        "utils_tests.test_numberformat.TestNumberFormat.test_float_numbers": true,
+        "utils_tests.test_numberformat.TestNumberFormat.test_decimal_numbers": true,
+        "utils_tests.test_numberformat.TestNumberFormat.test_large_number": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16046/dedup_patch_4.jsonl": {
+      "django__django-16046": {
+        "utils_tests.test_numberformat.TestNumberFormat.test_format_number": true,
+        "utils_tests.test_numberformat.TestNumberFormat.test_float_numbers": true,
+        "utils_tests.test_numberformat.TestNumberFormat.test_decimal_numbers": true,
+        "utils_tests.test_numberformat.TestNumberFormat.test_large_number": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-16046": {
+        "utils_tests.test_numberformat.TestNumberFormat.test_format_none_value#1": true,
+        "utils_tests.test_numberformat.TestNumberFormat.test_format_number#2": true,
+        "utils_tests.test_numberformat.TestNumberFormat.test_format_null#3": true,
+        "utils_tests.test_numberformat.TestNumberFormat.test_format_none#4": true,
+        "utils_tests.test_numberformat.TestNumberFormat.test_format_number_with_null#5": true,
+        "utils_tests.test_numberformat.TestNumberFormat.test_null_number#6": true,
+        "utils_tests.test_numberformat.TestNumberFormat.test_null_number#7": true,
+        "utils_tests.test_numberformat.TestNumberFormat.test_null_number_format#8": true,
+        "utils_tests.test_numberformat.TestNumberFormat.test_format_none_value#9": true,
+        "utils_tests.test_numberformat.TestNumberFormat.test_format_null_number#10": true,
+        "reproduce_bug.py#11": true,
+        "reproduce_bug_new.py#11": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16046/dedup_patch_0.jsonl": {
+      "django__django-16046": {
+        "utils_tests.test_numberformat.TestNumberFormat.test_format_none_value#1": false,
+        "utils_tests.test_numberformat.TestNumberFormat.test_format_number#2": true,
+        "utils_tests.test_numberformat.TestNumberFormat.test_format_null#3": false,
+        "utils_tests.test_numberformat.TestNumberFormat.test_format_none#4": false,
+        "utils_tests.test_numberformat.TestNumberFormat.test_format_number_with_null#5": false,
+        "utils_tests.test_numberformat.TestNumberFormat.test_null_number#6": false,
+        "utils_tests.test_numberformat.TestNumberFormat.test_null_number#7": true,
+        "utils_tests.test_numberformat.TestNumberFormat.test_null_number_format#8": false,
+        "utils_tests.test_numberformat.TestNumberFormat.test_format_none_value#9": false,
+        "utils_tests.test_numberformat.TestNumberFormat.test_format_null_number#10": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16046/dedup_patch_1.jsonl": {
+      "django__django-16046": {
+        "utils_tests.test_numberformat.TestNumberFormat.test_format_none_value#1": false,
+        "utils_tests.test_numberformat.TestNumberFormat.test_format_number#2": true,
+        "utils_tests.test_numberformat.TestNumberFormat.test_format_null#3": false,
+        "utils_tests.test_numberformat.TestNumberFormat.test_format_none#4": false,
+        "utils_tests.test_numberformat.TestNumberFormat.test_format_number_with_null#5": false,
+        "utils_tests.test_numberformat.TestNumberFormat.test_null_number#6": false,
+        "utils_tests.test_numberformat.TestNumberFormat.test_null_number#7": true,
+        "utils_tests.test_numberformat.TestNumberFormat.test_null_number_format#8": false,
+        "utils_tests.test_numberformat.TestNumberFormat.test_format_none_value#9": false,
+        "utils_tests.test_numberformat.TestNumberFormat.test_format_null_number#10": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16046/dedup_patch_2.jsonl": {
+      "django__django-16046": {
+        "utils_tests.test_numberformat.TestNumberFormat.test_format_none_value#1": false,
+        "utils_tests.test_numberformat.TestNumberFormat.test_format_number#2": true,
+        "utils_tests.test_numberformat.TestNumberFormat.test_format_null#3": false,
+        "utils_tests.test_numberformat.TestNumberFormat.test_format_none#4": false,
+        "utils_tests.test_numberformat.TestNumberFormat.test_format_number_with_null#5": false,
+        "utils_tests.test_numberformat.TestNumberFormat.test_null_number#6": false,
+        "utils_tests.test_numberformat.TestNumberFormat.test_null_number#7": true,
+        "utils_tests.test_numberformat.TestNumberFormat.test_null_number_format#8": false,
+        "utils_tests.test_numberformat.TestNumberFormat.test_format_none_value#9": false,
+        "utils_tests.test_numberformat.TestNumberFormat.test_format_null_number#10": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16046/dedup_patch_3.jsonl": {
+      "django__django-16046": {
+        "utils_tests.test_numberformat.TestNumberFormat.test_format_none_value#1": false,
+        "utils_tests.test_numberformat.TestNumberFormat.test_format_number#2": false,
+        "utils_tests.test_numberformat.TestNumberFormat.test_format_null#3": false,
+        "utils_tests.test_numberformat.TestNumberFormat.test_format_none#4": false,
+        "utils_tests.test_numberformat.TestNumberFormat.test_format_number_with_null#5": false,
+        "utils_tests.test_numberformat.TestNumberFormat.test_null_number#6": false,
+        "utils_tests.test_numberformat.TestNumberFormat.test_null_number#7": false,
+        "utils_tests.test_numberformat.TestNumberFormat.test_null_number_format#8": false,
+        "utils_tests.test_numberformat.TestNumberFormat.test_format_none_value#9": true,
+        "utils_tests.test_numberformat.TestNumberFormat.test_format_null_number#10": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-16046/dedup_patch_4.jsonl": {
+      "django__django-16046": {
+        "utils_tests.test_numberformat.TestNumberFormat.test_format_none_value#1": false,
+        "utils_tests.test_numberformat.TestNumberFormat.test_format_number#2": false,
+        "utils_tests.test_numberformat.TestNumberFormat.test_format_null#3": false,
+        "utils_tests.test_numberformat.TestNumberFormat.test_format_none#4": false,
+        "utils_tests.test_numberformat.TestNumberFormat.test_format_number_with_null#5": false,
+        "utils_tests.test_numberformat.TestNumberFormat.test_null_number#6": false,
+        "utils_tests.test_numberformat.TestNumberFormat.test_null_number#7": false,
+        "utils_tests.test_numberformat.TestNumberFormat.test_null_number_format#8": false,
+        "utils_tests.test_numberformat.TestNumberFormat.test_format_none_value#9": true,
+        "utils_tests.test_numberformat.TestNumberFormat.test_format_null_number#10": false,
+        "reproduce_bug.py#11": false,
+        "reproduce_bug_new.py#11": false
+      }
+    }
+  }
+}

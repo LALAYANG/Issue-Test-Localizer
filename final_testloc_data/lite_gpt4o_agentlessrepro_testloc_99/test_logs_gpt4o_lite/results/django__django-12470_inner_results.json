@@ -1,0 +1,941 @@
+{
+  "regression": {
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_0.jsonl": {
+      "django__django-12470": {
+        "ordering.tests.OrderingTests.test_related_ordering_duplicate_table_reference": true,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": true,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": true,
+        "many_to_one.tests.ManyToOneTests.test_related_object": true,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": true,
+        "ordering.tests.OrderingTests.test_order_by_ptr_field_with_default_ordering_by_expression": true,
+        "order_with_respect_to.tests.OrderWithRespectToTests.test_duplicate_order_field": true,
+        "ordering.tests.OrderingTests.test_orders_nulls_first_on_filtered_subquery": true,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_1.jsonl": {
+      "django__django-12470": {
+        "ordering.tests.OrderingTests.test_related_ordering_duplicate_table_reference": true,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": true,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": true,
+        "many_to_one.tests.ManyToOneTests.test_related_object": true,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": true,
+        "ordering.tests.OrderingTests.test_order_by_ptr_field_with_default_ordering_by_expression": true,
+        "order_with_respect_to.tests.OrderWithRespectToTests.test_duplicate_order_field": true,
+        "ordering.tests.OrderingTests.test_orders_nulls_first_on_filtered_subquery": true,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_10.jsonl": {
+      "django__django-12470": {
+        "ordering.tests.OrderingTests.test_related_ordering_duplicate_table_reference": true,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": true,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": true,
+        "many_to_one.tests.ManyToOneTests.test_related_object": true,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": true,
+        "ordering.tests.OrderingTests.test_order_by_ptr_field_with_default_ordering_by_expression": true,
+        "order_with_respect_to.tests.OrderWithRespectToTests.test_duplicate_order_field": true,
+        "ordering.tests.OrderingTests.test_orders_nulls_first_on_filtered_subquery": true,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_11.jsonl": {
+      "django__django-12470": {
+        "ordering.tests.OrderingTests.test_related_ordering_duplicate_table_reference": true,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": true,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": true,
+        "many_to_one.tests.ManyToOneTests.test_related_object": true,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": true,
+        "ordering.tests.OrderingTests.test_order_by_ptr_field_with_default_ordering_by_expression": true,
+        "order_with_respect_to.tests.OrderWithRespectToTests.test_duplicate_order_field": true,
+        "ordering.tests.OrderingTests.test_orders_nulls_first_on_filtered_subquery": true,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_12.jsonl": {
+      "django__django-12470": {
+        "ordering.tests.OrderingTests.test_related_ordering_duplicate_table_reference": true,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": true,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": true,
+        "many_to_one.tests.ManyToOneTests.test_related_object": true,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": true,
+        "ordering.tests.OrderingTests.test_order_by_ptr_field_with_default_ordering_by_expression": true,
+        "order_with_respect_to.tests.OrderWithRespectToTests.test_duplicate_order_field": true,
+        "ordering.tests.OrderingTests.test_orders_nulls_first_on_filtered_subquery": true,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_13.jsonl": {
+      "django__django-12470": {
+        "ordering.tests.OrderingTests.test_related_ordering_duplicate_table_reference": true,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": true,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": true,
+        "many_to_one.tests.ManyToOneTests.test_related_object": true,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": true,
+        "ordering.tests.OrderingTests.test_order_by_ptr_field_with_default_ordering_by_expression": true,
+        "order_with_respect_to.tests.OrderWithRespectToTests.test_duplicate_order_field": true,
+        "ordering.tests.OrderingTests.test_orders_nulls_first_on_filtered_subquery": true,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_14.jsonl": {
+      "django__django-12470": {
+        "ordering.tests.OrderingTests.test_related_ordering_duplicate_table_reference": true,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": true,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": true,
+        "many_to_one.tests.ManyToOneTests.test_related_object": true,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": true,
+        "ordering.tests.OrderingTests.test_order_by_ptr_field_with_default_ordering_by_expression": true,
+        "order_with_respect_to.tests.OrderWithRespectToTests.test_duplicate_order_field": true,
+        "ordering.tests.OrderingTests.test_orders_nulls_first_on_filtered_subquery": true,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_15.jsonl": {
+      "django__django-12470": {
+        "ordering.tests.OrderingTests.test_related_ordering_duplicate_table_reference": true,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": true,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": true,
+        "many_to_one.tests.ManyToOneTests.test_related_object": true,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": true,
+        "ordering.tests.OrderingTests.test_order_by_ptr_field_with_default_ordering_by_expression": true,
+        "order_with_respect_to.tests.OrderWithRespectToTests.test_duplicate_order_field": true,
+        "ordering.tests.OrderingTests.test_orders_nulls_first_on_filtered_subquery": true,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_16.jsonl": {
+      "django__django-12470": {
+        "ordering.tests.OrderingTests.test_related_ordering_duplicate_table_reference": false,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": false,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": false,
+        "many_to_one.tests.ManyToOneTests.test_related_object": false,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": false,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": false,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": false,
+        "ordering.tests.OrderingTests.test_order_by_ptr_field_with_default_ordering_by_expression": false,
+        "order_with_respect_to.tests.OrderWithRespectToTests.test_duplicate_order_field": false,
+        "ordering.tests.OrderingTests.test_orders_nulls_first_on_filtered_subquery": false,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_17.jsonl": {
+      "django__django-12470": {
+        "ordering.tests.OrderingTests.test_related_ordering_duplicate_table_reference": true,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": true,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": true,
+        "many_to_one.tests.ManyToOneTests.test_related_object": true,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": true,
+        "ordering.tests.OrderingTests.test_order_by_ptr_field_with_default_ordering_by_expression": true,
+        "order_with_respect_to.tests.OrderWithRespectToTests.test_duplicate_order_field": true,
+        "ordering.tests.OrderingTests.test_orders_nulls_first_on_filtered_subquery": true,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_18.jsonl": {
+      "django__django-12470": {
+        "ordering.tests.OrderingTests.test_related_ordering_duplicate_table_reference": true,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": true,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": true,
+        "many_to_one.tests.ManyToOneTests.test_related_object": true,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": true,
+        "ordering.tests.OrderingTests.test_order_by_ptr_field_with_default_ordering_by_expression": true,
+        "order_with_respect_to.tests.OrderWithRespectToTests.test_duplicate_order_field": true,
+        "ordering.tests.OrderingTests.test_orders_nulls_first_on_filtered_subquery": true,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_19.jsonl": {
+      "django__django-12470": {
+        "ordering.tests.OrderingTests.test_related_ordering_duplicate_table_reference": true,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": true,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": true,
+        "many_to_one.tests.ManyToOneTests.test_related_object": true,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": true,
+        "ordering.tests.OrderingTests.test_order_by_ptr_field_with_default_ordering_by_expression": true,
+        "order_with_respect_to.tests.OrderWithRespectToTests.test_duplicate_order_field": true,
+        "ordering.tests.OrderingTests.test_orders_nulls_first_on_filtered_subquery": true,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_2.jsonl": {
+      "django__django-12470": {
+        "ordering.tests.OrderingTests.test_related_ordering_duplicate_table_reference": true,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": true,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": true,
+        "many_to_one.tests.ManyToOneTests.test_related_object": true,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": true,
+        "ordering.tests.OrderingTests.test_order_by_ptr_field_with_default_ordering_by_expression": true,
+        "order_with_respect_to.tests.OrderWithRespectToTests.test_duplicate_order_field": true,
+        "ordering.tests.OrderingTests.test_orders_nulls_first_on_filtered_subquery": true,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_20.jsonl": {
+      "django__django-12470": {
+        "ordering.tests.OrderingTests.test_related_ordering_duplicate_table_reference": true,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": true,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": true,
+        "many_to_one.tests.ManyToOneTests.test_related_object": true,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": true,
+        "ordering.tests.OrderingTests.test_order_by_ptr_field_with_default_ordering_by_expression": true,
+        "order_with_respect_to.tests.OrderWithRespectToTests.test_duplicate_order_field": true,
+        "ordering.tests.OrderingTests.test_orders_nulls_first_on_filtered_subquery": true,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_21.jsonl": {
+      "django__django-12470": {
+        "ordering.tests.OrderingTests.test_related_ordering_duplicate_table_reference": true,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": true,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": true,
+        "many_to_one.tests.ManyToOneTests.test_related_object": true,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": true,
+        "ordering.tests.OrderingTests.test_order_by_ptr_field_with_default_ordering_by_expression": true,
+        "order_with_respect_to.tests.OrderWithRespectToTests.test_duplicate_order_field": true,
+        "ordering.tests.OrderingTests.test_orders_nulls_first_on_filtered_subquery": true,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_22.jsonl": {
+      "django__django-12470": {
+        "ordering.tests.OrderingTests.test_related_ordering_duplicate_table_reference": false,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": false,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": false,
+        "many_to_one.tests.ManyToOneTests.test_related_object": false,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": false,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": false,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": false,
+        "ordering.tests.OrderingTests.test_order_by_ptr_field_with_default_ordering_by_expression": false,
+        "order_with_respect_to.tests.OrderWithRespectToTests.test_duplicate_order_field": false,
+        "ordering.tests.OrderingTests.test_orders_nulls_first_on_filtered_subquery": false,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_23.jsonl": {
+      "django__django-12470": {
+        "ordering.tests.OrderingTests.test_related_ordering_duplicate_table_reference": true,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": true,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": true,
+        "many_to_one.tests.ManyToOneTests.test_related_object": true,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": true,
+        "ordering.tests.OrderingTests.test_order_by_ptr_field_with_default_ordering_by_expression": true,
+        "order_with_respect_to.tests.OrderWithRespectToTests.test_duplicate_order_field": true,
+        "ordering.tests.OrderingTests.test_orders_nulls_first_on_filtered_subquery": true,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_24.jsonl": {
+      "django__django-12470": {
+        "ordering.tests.OrderingTests.test_related_ordering_duplicate_table_reference": false,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": true,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": true,
+        "many_to_one.tests.ManyToOneTests.test_related_object": true,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": true,
+        "ordering.tests.OrderingTests.test_order_by_ptr_field_with_default_ordering_by_expression": true,
+        "order_with_respect_to.tests.OrderWithRespectToTests.test_duplicate_order_field": true,
+        "ordering.tests.OrderingTests.test_orders_nulls_first_on_filtered_subquery": true,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_25.jsonl": {
+      "django__django-12470": {
+        "ordering.tests.OrderingTests.test_related_ordering_duplicate_table_reference": true,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": true,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": true,
+        "many_to_one.tests.ManyToOneTests.test_related_object": true,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": true,
+        "ordering.tests.OrderingTests.test_order_by_ptr_field_with_default_ordering_by_expression": true,
+        "order_with_respect_to.tests.OrderWithRespectToTests.test_duplicate_order_field": true,
+        "ordering.tests.OrderingTests.test_orders_nulls_first_on_filtered_subquery": true,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_26.jsonl": {
+      "django__django-12470": {
+        "ordering.tests.OrderingTests.test_related_ordering_duplicate_table_reference": true,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": true,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": true,
+        "many_to_one.tests.ManyToOneTests.test_related_object": true,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": true,
+        "ordering.tests.OrderingTests.test_order_by_ptr_field_with_default_ordering_by_expression": true,
+        "order_with_respect_to.tests.OrderWithRespectToTests.test_duplicate_order_field": true,
+        "ordering.tests.OrderingTests.test_orders_nulls_first_on_filtered_subquery": true,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_27.jsonl": {
+      "django__django-12470": {
+        "ordering.tests.OrderingTests.test_related_ordering_duplicate_table_reference": true,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": true,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": true,
+        "many_to_one.tests.ManyToOneTests.test_related_object": true,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": true,
+        "ordering.tests.OrderingTests.test_order_by_ptr_field_with_default_ordering_by_expression": true,
+        "order_with_respect_to.tests.OrderWithRespectToTests.test_duplicate_order_field": true,
+        "ordering.tests.OrderingTests.test_orders_nulls_first_on_filtered_subquery": true,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_28.jsonl": {
+      "django__django-12470": {
+        "ordering.tests.OrderingTests.test_related_ordering_duplicate_table_reference": true,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": true,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": true,
+        "many_to_one.tests.ManyToOneTests.test_related_object": true,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": true,
+        "ordering.tests.OrderingTests.test_order_by_ptr_field_with_default_ordering_by_expression": true,
+        "order_with_respect_to.tests.OrderWithRespectToTests.test_duplicate_order_field": true,
+        "ordering.tests.OrderingTests.test_orders_nulls_first_on_filtered_subquery": true,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_29.jsonl": {
+      "django__django-12470": {
+        "ordering.tests.OrderingTests.test_related_ordering_duplicate_table_reference": true,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": true,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": true,
+        "many_to_one.tests.ManyToOneTests.test_related_object": true,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": true,
+        "ordering.tests.OrderingTests.test_order_by_ptr_field_with_default_ordering_by_expression": true,
+        "order_with_respect_to.tests.OrderWithRespectToTests.test_duplicate_order_field": true,
+        "ordering.tests.OrderingTests.test_orders_nulls_first_on_filtered_subquery": true,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_3.jsonl": {
+      "django__django-12470": {
+        "ordering.tests.OrderingTests.test_related_ordering_duplicate_table_reference": false,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": false,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": false,
+        "many_to_one.tests.ManyToOneTests.test_related_object": false,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": false,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": false,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": false,
+        "ordering.tests.OrderingTests.test_order_by_ptr_field_with_default_ordering_by_expression": false,
+        "order_with_respect_to.tests.OrderWithRespectToTests.test_duplicate_order_field": false,
+        "ordering.tests.OrderingTests.test_orders_nulls_first_on_filtered_subquery": false,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_30.jsonl": {
+      "django__django-12470": {
+        "ordering.tests.OrderingTests.test_related_ordering_duplicate_table_reference": true,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": true,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": true,
+        "many_to_one.tests.ManyToOneTests.test_related_object": true,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": true,
+        "ordering.tests.OrderingTests.test_order_by_ptr_field_with_default_ordering_by_expression": true,
+        "order_with_respect_to.tests.OrderWithRespectToTests.test_duplicate_order_field": true,
+        "ordering.tests.OrderingTests.test_orders_nulls_first_on_filtered_subquery": true,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_31.jsonl": {
+      "django__django-12470": {
+        "ordering.tests.OrderingTests.test_related_ordering_duplicate_table_reference": true,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": true,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": true,
+        "many_to_one.tests.ManyToOneTests.test_related_object": true,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": true,
+        "ordering.tests.OrderingTests.test_order_by_ptr_field_with_default_ordering_by_expression": true,
+        "order_with_respect_to.tests.OrderWithRespectToTests.test_duplicate_order_field": true,
+        "ordering.tests.OrderingTests.test_orders_nulls_first_on_filtered_subquery": true,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_32.jsonl": {
+      "django__django-12470": {
+        "ordering.tests.OrderingTests.test_related_ordering_duplicate_table_reference": false,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": true,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": true,
+        "many_to_one.tests.ManyToOneTests.test_related_object": true,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": true,
+        "ordering.tests.OrderingTests.test_order_by_ptr_field_with_default_ordering_by_expression": false,
+        "order_with_respect_to.tests.OrderWithRespectToTests.test_duplicate_order_field": true,
+        "ordering.tests.OrderingTests.test_orders_nulls_first_on_filtered_subquery": false,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_33.jsonl": {
+      "django__django-12470": {
+        "ordering.tests.OrderingTests.test_related_ordering_duplicate_table_reference": true,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": true,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": true,
+        "many_to_one.tests.ManyToOneTests.test_related_object": true,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": true,
+        "ordering.tests.OrderingTests.test_order_by_ptr_field_with_default_ordering_by_expression": true,
+        "order_with_respect_to.tests.OrderWithRespectToTests.test_duplicate_order_field": true,
+        "ordering.tests.OrderingTests.test_orders_nulls_first_on_filtered_subquery": true,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_34.jsonl": {
+      "django__django-12470": {
+        "ordering.tests.OrderingTests.test_related_ordering_duplicate_table_reference": true,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": true,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": true,
+        "many_to_one.tests.ManyToOneTests.test_related_object": true,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": true,
+        "ordering.tests.OrderingTests.test_order_by_ptr_field_with_default_ordering_by_expression": true,
+        "order_with_respect_to.tests.OrderWithRespectToTests.test_duplicate_order_field": true,
+        "ordering.tests.OrderingTests.test_orders_nulls_first_on_filtered_subquery": true,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_35.jsonl": {
+      "django__django-12470": {
+        "ordering.tests.OrderingTests.test_related_ordering_duplicate_table_reference": true,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": true,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": true,
+        "many_to_one.tests.ManyToOneTests.test_related_object": true,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": true,
+        "ordering.tests.OrderingTests.test_order_by_ptr_field_with_default_ordering_by_expression": true,
+        "order_with_respect_to.tests.OrderWithRespectToTests.test_duplicate_order_field": true,
+        "ordering.tests.OrderingTests.test_orders_nulls_first_on_filtered_subquery": true,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_36.jsonl": {
+      "django__django-12470": {
+        "ordering.tests.OrderingTests.test_related_ordering_duplicate_table_reference": false,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": false,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": false,
+        "many_to_one.tests.ManyToOneTests.test_related_object": false,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": false,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": false,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": false,
+        "ordering.tests.OrderingTests.test_order_by_ptr_field_with_default_ordering_by_expression": false,
+        "order_with_respect_to.tests.OrderWithRespectToTests.test_duplicate_order_field": false,
+        "ordering.tests.OrderingTests.test_orders_nulls_first_on_filtered_subquery": false,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_37.jsonl": {
+      "django__django-12470": {
+        "ordering.tests.OrderingTests.test_related_ordering_duplicate_table_reference": false,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": false,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": false,
+        "many_to_one.tests.ManyToOneTests.test_related_object": false,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": false,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": false,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": false,
+        "ordering.tests.OrderingTests.test_order_by_ptr_field_with_default_ordering_by_expression": false,
+        "order_with_respect_to.tests.OrderWithRespectToTests.test_duplicate_order_field": false,
+        "ordering.tests.OrderingTests.test_orders_nulls_first_on_filtered_subquery": false,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_38.jsonl": {
+      "django__django-12470": {
+        "ordering.tests.OrderingTests.test_related_ordering_duplicate_table_reference": true,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": true,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": true,
+        "many_to_one.tests.ManyToOneTests.test_related_object": true,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": true,
+        "ordering.tests.OrderingTests.test_order_by_ptr_field_with_default_ordering_by_expression": true,
+        "order_with_respect_to.tests.OrderWithRespectToTests.test_duplicate_order_field": true,
+        "ordering.tests.OrderingTests.test_orders_nulls_first_on_filtered_subquery": true,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_39.jsonl": {
+      "django__django-12470": {
+        "ordering.tests.OrderingTests.test_related_ordering_duplicate_table_reference": true,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": true,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": true,
+        "many_to_one.tests.ManyToOneTests.test_related_object": true,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": true,
+        "ordering.tests.OrderingTests.test_order_by_ptr_field_with_default_ordering_by_expression": true,
+        "order_with_respect_to.tests.OrderWithRespectToTests.test_duplicate_order_field": true,
+        "ordering.tests.OrderingTests.test_orders_nulls_first_on_filtered_subquery": true,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_4.jsonl": {
+      "django__django-12470": {
+        "ordering.tests.OrderingTests.test_related_ordering_duplicate_table_reference": true,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": true,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": true,
+        "many_to_one.tests.ManyToOneTests.test_related_object": true,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": true,
+        "ordering.tests.OrderingTests.test_order_by_ptr_field_with_default_ordering_by_expression": true,
+        "order_with_respect_to.tests.OrderWithRespectToTests.test_duplicate_order_field": true,
+        "ordering.tests.OrderingTests.test_orders_nulls_first_on_filtered_subquery": true,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_40.jsonl": {
+      "django__django-12470": {
+        "ordering.tests.OrderingTests.test_related_ordering_duplicate_table_reference": false,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": true,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": true,
+        "many_to_one.tests.ManyToOneTests.test_related_object": true,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": true,
+        "ordering.tests.OrderingTests.test_order_by_ptr_field_with_default_ordering_by_expression": false,
+        "order_with_respect_to.tests.OrderWithRespectToTests.test_duplicate_order_field": true,
+        "ordering.tests.OrderingTests.test_orders_nulls_first_on_filtered_subquery": false,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_5.jsonl": {
+      "django__django-12470": {
+        "ordering.tests.OrderingTests.test_related_ordering_duplicate_table_reference": true,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": true,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": true,
+        "many_to_one.tests.ManyToOneTests.test_related_object": true,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": true,
+        "ordering.tests.OrderingTests.test_order_by_ptr_field_with_default_ordering_by_expression": true,
+        "order_with_respect_to.tests.OrderWithRespectToTests.test_duplicate_order_field": true,
+        "ordering.tests.OrderingTests.test_orders_nulls_first_on_filtered_subquery": true,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_6.jsonl": {
+      "django__django-12470": {
+        "ordering.tests.OrderingTests.test_related_ordering_duplicate_table_reference": false,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": false,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": false,
+        "many_to_one.tests.ManyToOneTests.test_related_object": false,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": false,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": false,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": false,
+        "ordering.tests.OrderingTests.test_order_by_ptr_field_with_default_ordering_by_expression": false,
+        "order_with_respect_to.tests.OrderWithRespectToTests.test_duplicate_order_field": false,
+        "ordering.tests.OrderingTests.test_orders_nulls_first_on_filtered_subquery": false,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_7.jsonl": {
+      "django__django-12470": {
+        "ordering.tests.OrderingTests.test_related_ordering_duplicate_table_reference": true,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": true,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": true,
+        "many_to_one.tests.ManyToOneTests.test_related_object": true,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": true,
+        "ordering.tests.OrderingTests.test_order_by_ptr_field_with_default_ordering_by_expression": true,
+        "order_with_respect_to.tests.OrderWithRespectToTests.test_duplicate_order_field": true,
+        "ordering.tests.OrderingTests.test_orders_nulls_first_on_filtered_subquery": true,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_8.jsonl": {
+      "django__django-12470": {
+        "ordering.tests.OrderingTests.test_related_ordering_duplicate_table_reference": true,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": true,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": true,
+        "many_to_one.tests.ManyToOneTests.test_related_object": true,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": true,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": true,
+        "ordering.tests.OrderingTests.test_order_by_ptr_field_with_default_ordering_by_expression": true,
+        "order_with_respect_to.tests.OrderWithRespectToTests.test_duplicate_order_field": true,
+        "ordering.tests.OrderingTests.test_orders_nulls_first_on_filtered_subquery": true,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_9.jsonl": {
+      "django__django-12470": {
+        "ordering.tests.OrderingTests.test_related_ordering_duplicate_table_reference": false,
+        "model_regress.tests.ModelValidationTest.test_pk_validation": false,
+        "model_regress.test_pickle.ModelPickleTests.test_missing_django_version_unpickling": false,
+        "many_to_one.tests.ManyToOneTests.test_related_object": false,
+        "model_regress.test_pickle.ModelPickleTests.test_unsupported_unpickle": false,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent_with_to_field": false,
+        "many_to_one.tests.ManyToOneTests.test_save_nullable_fk_after_parent": false,
+        "ordering.tests.OrderingTests.test_order_by_ptr_field_with_default_ordering_by_expression": false,
+        "order_with_respect_to.tests.OrderWithRespectToTests.test_duplicate_order_field": false,
+        "ordering.tests.OrderingTests.test_orders_nulls_first_on_filtered_subquery": false,
+        "model_regress.test_pickle.ModelPickleTests.test_with_getstate": false
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-12470": {
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering_by_pk_desc#1": true,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_inherited_model_ordering_by_pk#2": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_respects_parent_meta_ordering#3": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering#4": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering_by_pk#5": true,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_ordering_with_pk#6": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_0.jsonl": {
+      "django__django-12470": {
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering_by_pk_desc#1": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_inherited_model_ordering_by_pk#2": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_respects_parent_meta_ordering#3": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering#4": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering_by_pk#5": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_ordering_with_pk#6": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_1.jsonl": {
+      "django__django-12470": {
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering_by_pk_desc#1": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_inherited_model_ordering_by_pk#2": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_respects_parent_meta_ordering#3": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering#4": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering_by_pk#5": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_ordering_with_pk#6": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_10.jsonl": {
+      "django__django-12470": {
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering_by_pk_desc#1": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_inherited_model_ordering_by_pk#2": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_respects_parent_meta_ordering#3": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering#4": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering_by_pk#5": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_ordering_with_pk#6": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_11.jsonl": {
+      "django__django-12470": {
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering_by_pk_desc#1": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_inherited_model_ordering_by_pk#2": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_respects_parent_meta_ordering#3": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering#4": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering_by_pk#5": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_ordering_with_pk#6": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_12.jsonl": {
+      "django__django-12470": {
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering_by_pk_desc#1": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_inherited_model_ordering_by_pk#2": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_respects_parent_meta_ordering#3": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering#4": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering_by_pk#5": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_ordering_with_pk#6": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_13.jsonl": {
+      "django__django-12470": {
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering_by_pk_desc#1": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_inherited_model_ordering_by_pk#2": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_respects_parent_meta_ordering#3": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering#4": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering_by_pk#5": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_ordering_with_pk#6": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_14.jsonl": {
+      "django__django-12470": {
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering_by_pk_desc#1": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_inherited_model_ordering_by_pk#2": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_respects_parent_meta_ordering#3": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering#4": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering_by_pk#5": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_ordering_with_pk#6": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_15.jsonl": {
+      "django__django-12470": {
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering_by_pk_desc#1": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_inherited_model_ordering_by_pk#2": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_respects_parent_meta_ordering#3": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering#4": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering_by_pk#5": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_ordering_with_pk#6": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_17.jsonl": {
+      "django__django-12470": {
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering_by_pk_desc#1": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_inherited_model_ordering_by_pk#2": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_respects_parent_meta_ordering#3": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering#4": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering_by_pk#5": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_ordering_with_pk#6": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_18.jsonl": {
+      "django__django-12470": {
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering_by_pk_desc#1": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_inherited_model_ordering_by_pk#2": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_respects_parent_meta_ordering#3": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering#4": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering_by_pk#5": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_ordering_with_pk#6": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_19.jsonl": {
+      "django__django-12470": {
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering_by_pk_desc#1": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_inherited_model_ordering_by_pk#2": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_respects_parent_meta_ordering#3": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering#4": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering_by_pk#5": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_ordering_with_pk#6": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_2.jsonl": {
+      "django__django-12470": {
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering_by_pk_desc#1": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_inherited_model_ordering_by_pk#2": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_respects_parent_meta_ordering#3": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering#4": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering_by_pk#5": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_ordering_with_pk#6": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_20.jsonl": {
+      "django__django-12470": {
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering_by_pk_desc#1": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_inherited_model_ordering_by_pk#2": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_respects_parent_meta_ordering#3": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering#4": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering_by_pk#5": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_ordering_with_pk#6": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_21.jsonl": {
+      "django__django-12470": {
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering_by_pk_desc#1": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_inherited_model_ordering_by_pk#2": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_respects_parent_meta_ordering#3": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering#4": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering_by_pk#5": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_ordering_with_pk#6": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_23.jsonl": {
+      "django__django-12470": {
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering_by_pk_desc#1": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_inherited_model_ordering_by_pk#2": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_respects_parent_meta_ordering#3": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering#4": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering_by_pk#5": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_ordering_with_pk#6": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_25.jsonl": {
+      "django__django-12470": {
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering_by_pk_desc#1": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_inherited_model_ordering_by_pk#2": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_respects_parent_meta_ordering#3": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering#4": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering_by_pk#5": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_ordering_with_pk#6": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_26.jsonl": {
+      "django__django-12470": {
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering_by_pk_desc#1": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_inherited_model_ordering_by_pk#2": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_respects_parent_meta_ordering#3": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering#4": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering_by_pk#5": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_ordering_with_pk#6": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_27.jsonl": {
+      "django__django-12470": {
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering_by_pk_desc#1": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_inherited_model_ordering_by_pk#2": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_respects_parent_meta_ordering#3": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering#4": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering_by_pk#5": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_ordering_with_pk#6": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_28.jsonl": {
+      "django__django-12470": {
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering_by_pk_desc#1": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_inherited_model_ordering_by_pk#2": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_respects_parent_meta_ordering#3": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering#4": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering_by_pk#5": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_ordering_with_pk#6": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_29.jsonl": {
+      "django__django-12470": {
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering_by_pk_desc#1": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_inherited_model_ordering_by_pk#2": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_respects_parent_meta_ordering#3": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering#4": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering_by_pk#5": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_ordering_with_pk#6": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_30.jsonl": {
+      "django__django-12470": {
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering_by_pk_desc#1": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_inherited_model_ordering_by_pk#2": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_respects_parent_meta_ordering#3": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering#4": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering_by_pk#5": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_ordering_with_pk#6": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_31.jsonl": {
+      "django__django-12470": {
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering_by_pk_desc#1": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_inherited_model_ordering_by_pk#2": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_respects_parent_meta_ordering#3": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering#4": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering_by_pk#5": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_ordering_with_pk#6": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_33.jsonl": {
+      "django__django-12470": {
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering_by_pk_desc#1": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_inherited_model_ordering_by_pk#2": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_respects_parent_meta_ordering#3": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering#4": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering_by_pk#5": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_ordering_with_pk#6": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_34.jsonl": {
+      "django__django-12470": {
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering_by_pk_desc#1": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_inherited_model_ordering_by_pk#2": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_respects_parent_meta_ordering#3": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering#4": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering_by_pk#5": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_ordering_with_pk#6": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_35.jsonl": {
+      "django__django-12470": {
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering_by_pk_desc#1": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_inherited_model_ordering_by_pk#2": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_respects_parent_meta_ordering#3": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering#4": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering_by_pk#5": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_ordering_with_pk#6": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_38.jsonl": {
+      "django__django-12470": {
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering_by_pk_desc#1": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_inherited_model_ordering_by_pk#2": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_respects_parent_meta_ordering#3": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering#4": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering_by_pk#5": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_ordering_with_pk#6": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_39.jsonl": {
+      "django__django-12470": {
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering_by_pk_desc#1": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_inherited_model_ordering_by_pk#2": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_respects_parent_meta_ordering#3": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering#4": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering_by_pk#5": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_ordering_with_pk#6": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_4.jsonl": {
+      "django__django-12470": {
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering_by_pk_desc#1": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_inherited_model_ordering_by_pk#2": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_respects_parent_meta_ordering#3": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering#4": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering_by_pk#5": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_ordering_with_pk#6": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_5.jsonl": {
+      "django__django-12470": {
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering_by_pk_desc#1": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_inherited_model_ordering_by_pk#2": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_respects_parent_meta_ordering#3": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering#4": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering_by_pk#5": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_ordering_with_pk#6": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_7.jsonl": {
+      "django__django-12470": {
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering_by_pk_desc#1": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_inherited_model_ordering_by_pk#2": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_respects_parent_meta_ordering#3": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering#4": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering_by_pk#5": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_ordering_with_pk#6": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-12470/dedup_patch_8.jsonl": {
+      "django__django-12470": {
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering_by_pk_desc#1": false,
+        "model_inheritance.tests.ModelInheritanceDataTests.test_inherited_model_ordering_by_pk#2": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_respects_parent_meta_ordering#3": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering#4": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_model_ordering_by_pk#5": false,
+        "model_inheritance.tests.ModelInheritanceTests.test_inherited_ordering_with_pk#6": false
+      }
+    }
+  }
+}

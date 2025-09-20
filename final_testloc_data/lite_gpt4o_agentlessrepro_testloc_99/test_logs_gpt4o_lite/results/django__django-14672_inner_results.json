@@ -1,0 +1,75 @@
+{
+  "regression": {
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-14672/dedup_patch_0.jsonl": {
+      "django__django-14672": {
+        "model_fields.test_manytomanyfield.ManyToManyFieldTests.test_abstract_model_app_relative_foreign_key": true,
+        "proxy_model_inheritance.tests.ProxyModelInheritanceTests.test_table_exists": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-14672/dedup_patch_1.jsonl": {
+      "django__django-14672": {
+        "model_fields.test_manytomanyfield.ManyToManyFieldTests.test_abstract_model_app_relative_foreign_key": true,
+        "proxy_model_inheritance.tests.ProxyModelInheritanceTests.test_table_exists": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-14672/dedup_patch_2.jsonl": {
+      "django__django-14672": {
+        "model_fields.test_manytomanyfield.ManyToManyFieldTests.test_abstract_model_app_relative_foreign_key": false,
+        "proxy_model_inheritance.tests.ProxyModelInheritanceTests.test_table_exists": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-14672/dedup_patch_3.jsonl": {
+      "django__django-14672": {
+        "model_fields.test_manytomanyfield.ManyToManyFieldTests.test_abstract_model_app_relative_foreign_key": false,
+        "proxy_model_inheritance.tests.ProxyModelInheritanceTests.test_table_exists": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-14672/dedup_patch_4.jsonl": {
+      "django__django-14672": {
+        "model_fields.test_manytomanyfield.ManyToManyFieldTests.test_abstract_model_app_relative_foreign_key": true,
+        "proxy_model_inheritance.tests.ProxyModelInheritanceTests.test_table_exists": true
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "django__django-14672": {
+        "m2m_through_regress.tests.M2MThroughTestCase.test_retrieve_reverse_m2m_items_via_custom_id_intermediary#1": false,
+        "m2m_through_regress.tests.ToFieldThroughTests.test_m2m_through_fields_hashable#2": true,
+        "m2m_through_regress.tests.ToFieldThroughTests.test_to_field#3": false,
+        "m2m_through_regress.tests.ToFieldThroughTests.test_m2m_through_fields_hashable#4": true,
+        "m2m_through_regress.tests.M2MThroughTestCase.test_retrieve_reverse_m2m_items#5": false,
+        "m2m_through_regress.tests.ToFieldThroughTests.test_m2m_through_fields_hashable#6": true,
+        "reproduce_bug.py#7": true,
+        "reproduce_bug_new.py#7": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-14672/dedup_patch_0.jsonl": {
+      "django__django-14672": {
+        "m2m_through_regress.tests.ToFieldThroughTests.test_m2m_through_fields_hashable#2": false,
+        "m2m_through_regress.tests.ToFieldThroughTests.test_m2m_through_fields_hashable#4": false,
+        "m2m_through_regress.tests.ToFieldThroughTests.test_m2m_through_fields_hashable#6": false,
+        "reproduce_bug.py#7": false,
+        "reproduce_bug_new.py#7": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-14672/dedup_patch_1.jsonl": {
+      "django__django-14672": {
+        "m2m_through_regress.tests.ToFieldThroughTests.test_m2m_through_fields_hashable#2": false,
+        "m2m_through_regress.tests.ToFieldThroughTests.test_m2m_through_fields_hashable#4": false,
+        "m2m_through_regress.tests.ToFieldThroughTests.test_m2m_through_fields_hashable#6": false,
+        "reproduce_bug.py#7": false,
+        "reproduce_bug_new.py#7": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/django__django-14672/dedup_patch_4.jsonl": {
+      "django__django-14672": {
+        "m2m_through_regress.tests.ToFieldThroughTests.test_m2m_through_fields_hashable#2": false,
+        "m2m_through_regress.tests.ToFieldThroughTests.test_m2m_through_fields_hashable#4": false,
+        "m2m_through_regress.tests.ToFieldThroughTests.test_m2m_through_fields_hashable#6": false,
+        "reproduce_bug.py#7": false,
+        "reproduce_bug_new.py#7": false
+      }
+    }
+  }
+}

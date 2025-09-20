@@ -1,0 +1,287 @@
+{
+  "regression": {
+    "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-6116/dedup_patch_0.jsonl": {
+      "pytest-dev__pytest-6116": {
+        "test_collection.py::TestCollectFS::test_ignored_certain_directories": false,
+        "test_config.py::TestConfigAPI::test_config_getoption": false,
+        "test_collection.py::TestCollectFS::test_custom_norecursedirs": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-6116/dedup_patch_1.jsonl": {
+      "pytest-dev__pytest-6116": {
+        "test_collection.py::TestCollectFS::test_ignored_certain_directories": false,
+        "test_config.py::TestConfigAPI::test_config_getoption": false,
+        "test_collection.py::TestCollectFS::test_custom_norecursedirs": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-6116/dedup_patch_10.jsonl": {
+      "pytest-dev__pytest-6116": {
+        "test_collection.py::TestCollectFS::test_ignored_certain_directories": false,
+        "test_config.py::TestConfigAPI::test_config_getoption": false,
+        "test_collection.py::TestCollectFS::test_custom_norecursedirs": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-6116/dedup_patch_11.jsonl": {
+      "pytest-dev__pytest-6116": {
+        "test_collection.py::TestCollectFS::test_ignored_certain_directories": false,
+        "test_config.py::TestConfigAPI::test_config_getoption": false,
+        "test_collection.py::TestCollectFS::test_custom_norecursedirs": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-6116/dedup_patch_12.jsonl": {
+      "pytest-dev__pytest-6116": {
+        "test_collection.py::TestCollectFS::test_ignored_certain_directories": false,
+        "test_config.py::TestConfigAPI::test_config_getoption": false,
+        "test_collection.py::TestCollectFS::test_custom_norecursedirs": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-6116/dedup_patch_13.jsonl": {
+      "pytest-dev__pytest-6116": {
+        "test_collection.py::TestCollectFS::test_ignored_certain_directories": false,
+        "test_config.py::TestConfigAPI::test_config_getoption": false,
+        "test_collection.py::TestCollectFS::test_custom_norecursedirs": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-6116/dedup_patch_2.jsonl": {
+      "pytest-dev__pytest-6116": {
+        "test_collection.py::TestCollectFS::test_ignored_certain_directories": false,
+        "test_config.py::TestConfigAPI::test_config_getoption": false,
+        "test_collection.py::TestCollectFS::test_custom_norecursedirs": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-6116/dedup_patch_3.jsonl": {
+      "pytest-dev__pytest-6116": {
+        "test_collection.py::TestCollectFS::test_ignored_certain_directories": false,
+        "test_config.py::TestConfigAPI::test_config_getoption": false,
+        "test_collection.py::TestCollectFS::test_custom_norecursedirs": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-6116/dedup_patch_4.jsonl": {
+      "pytest-dev__pytest-6116": {
+        "test_collection.py::TestCollectFS::test_ignored_certain_directories": false,
+        "test_config.py::TestConfigAPI::test_config_getoption": false,
+        "test_collection.py::TestCollectFS::test_custom_norecursedirs": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-6116/dedup_patch_5.jsonl": {
+      "pytest-dev__pytest-6116": {
+        "test_collection.py::TestCollectFS::test_ignored_certain_directories": false,
+        "test_config.py::TestConfigAPI::test_config_getoption": false,
+        "test_collection.py::TestCollectFS::test_custom_norecursedirs": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-6116/dedup_patch_6.jsonl": {
+      "pytest-dev__pytest-6116": {
+        "test_collection.py::TestCollectFS::test_ignored_certain_directories": false,
+        "test_config.py::TestConfigAPI::test_config_getoption": false,
+        "test_collection.py::TestCollectFS::test_custom_norecursedirs": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-6116/dedup_patch_7.jsonl": {
+      "pytest-dev__pytest-6116": {
+        "test_collection.py::TestCollectFS::test_ignored_certain_directories": false,
+        "test_config.py::TestConfigAPI::test_config_getoption": false,
+        "test_collection.py::TestCollectFS::test_custom_norecursedirs": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-6116/dedup_patch_8.jsonl": {
+      "pytest-dev__pytest-6116": {
+        "test_collection.py::TestCollectFS::test_ignored_certain_directories": false,
+        "test_config.py::TestConfigAPI::test_config_getoption": false,
+        "test_collection.py::TestCollectFS::test_custom_norecursedirs": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-6116/dedup_patch_9.jsonl": {
+      "pytest-dev__pytest-6116": {
+        "test_collection.py::TestCollectFS::test_ignored_certain_directories": false,
+        "test_config.py::TestConfigAPI::test_config_getoption": false,
+        "test_collection.py::TestCollectFS::test_custom_norecursedirs": false
+      }
+    }
+  },
+  "reproduction": {
+    "fail_on_original_repo": {
+      "pytest-dev__pytest-6116": {
+        "testing/test_terminal.py::TestTerminal::test_collectonly_basic#1": true,
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#2": true,
+        "testing/test_terminal.py::test_collecterror#3": false,
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#4": true,
+        "testing/test_terminal.py::test_collecterror#5": false,
+        "testing/test_terminal.py::test_collecterror#6": false,
+        "testing/test_terminal.py::TestCollectonly::test_collectonly_shortcut#7": true,
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#8": true,
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#9": true,
+        "testing/reproduce_bug.py#10": true,
+        "testing/reproduce_bug_new.py#10": true
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-6116/dedup_patch_0.jsonl": {
+      "pytest-dev__pytest-6116": {
+        "testing/test_terminal.py::TestTerminal::test_collectonly_basic#1": false,
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#2": false,
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#4": false,
+        "testing/test_terminal.py::TestCollectonly::test_collectonly_shortcut#7": false,
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#8": false,
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#9": false,
+        "testing/reproduce_bug.py#10": false,
+        "testing/reproduce_bug_new.py#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-6116/dedup_patch_1.jsonl": {
+      "pytest-dev__pytest-6116": {
+        "testing/test_terminal.py::TestTerminal::test_collectonly_basic#1": false,
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#2": false,
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#4": false,
+        "testing/test_terminal.py::TestCollectonly::test_collectonly_shortcut#7": false,
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#8": false,
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#9": false,
+        "testing/reproduce_bug.py#10": false,
+        "testing/reproduce_bug_new.py#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-6116/dedup_patch_10.jsonl": {
+      "pytest-dev__pytest-6116": {
+        "testing/test_terminal.py::TestTerminal::test_collectonly_basic#1": false,
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#2": false,
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#4": false,
+        "testing/test_terminal.py::TestCollectonly::test_collectonly_shortcut#7": false,
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#8": false,
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#9": false,
+        "testing/reproduce_bug.py#10": false,
+        "testing/reproduce_bug_new.py#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-6116/dedup_patch_11.jsonl": {
+      "pytest-dev__pytest-6116": {
+        "testing/test_terminal.py::TestTerminal::test_collectonly_basic#1": false,
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#2": false,
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#4": false,
+        "testing/test_terminal.py::TestCollectonly::test_collectonly_shortcut#7": false,
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#8": false,
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#9": false,
+        "testing/reproduce_bug.py#10": false,
+        "testing/reproduce_bug_new.py#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-6116/dedup_patch_12.jsonl": {
+      "pytest-dev__pytest-6116": {
+        "testing/test_terminal.py::TestTerminal::test_collectonly_basic#1": false,
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#2": false,
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#4": false,
+        "testing/test_terminal.py::TestCollectonly::test_collectonly_shortcut#7": false,
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#8": false,
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#9": false,
+        "testing/reproduce_bug.py#10": false,
+        "testing/reproduce_bug_new.py#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-6116/dedup_patch_13.jsonl": {
+      "pytest-dev__pytest-6116": {
+        "testing/test_terminal.py::TestTerminal::test_collectonly_basic#1": false,
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#2": false,
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#4": false,
+        "testing/test_terminal.py::TestCollectonly::test_collectonly_shortcut#7": false,
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#8": false,
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#9": false,
+        "testing/reproduce_bug.py#10": false,
+        "testing/reproduce_bug_new.py#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-6116/dedup_patch_2.jsonl": {
+      "pytest-dev__pytest-6116": {
+        "testing/test_terminal.py::TestTerminal::test_collectonly_basic#1": false,
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#2": false,
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#4": false,
+        "testing/test_terminal.py::TestCollectonly::test_collectonly_shortcut#7": false,
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#8": false,
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#9": false,
+        "testing/reproduce_bug.py#10": false,
+        "testing/reproduce_bug_new.py#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-6116/dedup_patch_3.jsonl": {
+      "pytest-dev__pytest-6116": {
+        "testing/test_terminal.py::TestTerminal::test_collectonly_basic#1": false,
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#2": false,
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#4": false,
+        "testing/test_terminal.py::TestCollectonly::test_collectonly_shortcut#7": false,
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#8": false,
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#9": false,
+        "testing/reproduce_bug.py#10": false,
+        "testing/reproduce_bug_new.py#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-6116/dedup_patch_4.jsonl": {
+      "pytest-dev__pytest-6116": {
+        "testing/test_terminal.py::TestTerminal::test_collectonly_basic#1": false,
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#2": false,
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#4": false,
+        "testing/test_terminal.py::TestCollectonly::test_collectonly_shortcut#7": false,
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#8": false,
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#9": false,
+        "testing/reproduce_bug.py#10": false,
+        "testing/reproduce_bug_new.py#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-6116/dedup_patch_5.jsonl": {
+      "pytest-dev__pytest-6116": {
+        "testing/test_terminal.py::TestTerminal::test_collectonly_basic#1": false,
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#2": false,
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#4": false,
+        "testing/test_terminal.py::TestCollectonly::test_collectonly_shortcut#7": false,
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#8": false,
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#9": false,
+        "testing/reproduce_bug.py#10": false,
+        "testing/reproduce_bug_new.py#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-6116/dedup_patch_6.jsonl": {
+      "pytest-dev__pytest-6116": {
+        "testing/test_terminal.py::TestTerminal::test_collectonly_basic#1": false,
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#2": false,
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#4": false,
+        "testing/test_terminal.py::TestCollectonly::test_collectonly_shortcut#7": false,
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#8": false,
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#9": false,
+        "testing/reproduce_bug.py#10": false,
+        "testing/reproduce_bug_new.py#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-6116/dedup_patch_7.jsonl": {
+      "pytest-dev__pytest-6116": {
+        "testing/test_terminal.py::TestTerminal::test_collectonly_basic#1": false,
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#2": false,
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#4": false,
+        "testing/test_terminal.py::TestCollectonly::test_collectonly_shortcut#7": false,
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#8": false,
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#9": false,
+        "testing/reproduce_bug.py#10": false,
+        "testing/reproduce_bug_new.py#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-6116/dedup_patch_8.jsonl": {
+      "pytest-dev__pytest-6116": {
+        "testing/test_terminal.py::TestTerminal::test_collectonly_basic#1": false,
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#2": false,
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#4": false,
+        "testing/test_terminal.py::TestCollectonly::test_collectonly_shortcut#7": false,
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#8": false,
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#9": false,
+        "testing/reproduce_bug.py#10": false,
+        "testing/reproduce_bug_new.py#10": false
+      }
+    },
+    "all_patches/lite_gpt4o_all_unique_patches/pytest-dev__pytest-6116/dedup_patch_9.jsonl": {
+      "pytest-dev__pytest-6116": {
+        "testing/test_terminal.py::TestTerminal::test_collectonly_basic#1": false,
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#2": false,
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#4": false,
+        "testing/test_terminal.py::TestCollectonly::test_collectonly_shortcut#7": false,
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#8": false,
+        "testing/test_parseopt.py::TestParser::test_collect_only_shortcut#9": false,
+        "testing/reproduce_bug.py#10": false,
+        "testing/reproduce_bug_new.py#10": false
+      }
+    }
+  }
+}
