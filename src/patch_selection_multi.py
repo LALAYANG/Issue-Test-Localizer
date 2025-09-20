@@ -76,23 +76,33 @@ class ResultStore:
             self._save()
 
 
-DEFAULT_UNIQPATCH_TMPL = "all_patches/verified_gpt4o_all_unique_patches/{instance_id}/*.jsonl"
+DEFAULT_UNIQPATCH_TMPL = "all_patches/lite_gpt4o_all_unique_patches/{instance_id}/*.jsonl"
 REPO_PATH_IN_CONTAINER = "/testbed"
 OCCUR_COUNT_FILE = "regression_reproduction_data/per_instance_patch_counts.json"
-RESULTS_DIR_DEFAULT = Path("test_logs/results")
+RESULTS_DIR_DEFAULT = Path("test_logs_lite_gpt4o/results")
 
 
 # Logs
 DEFAULT_LOG_DIR = Path("logs")
 
-SWEBENCH_CMD = (
+SWEBENCH_CMD_lite = (
+    "python -m swebench.harness.run_evaluation "
+    "--dataset_name princeton-nlp/SWE-bench_Lite "
+    "--predictions_path gold "
+    "--max_workers 5 "
+    "--run_id {run_id} "
+    "--instance_ids {instance_id} "
+    "--test_methods \"[]\""
+)
+
+SWEBENCH_CMD_verified = (
     "python -m swebench.harness.run_evaluation "
     "--dataset_name princeton-nlp/SWE-bench_Verified "
     "--predictions_path gold "
     "--max_workers 5 "
     "--run_id {run_id} "
     "--instance_ids {instance_id} "
-    "--test_methods '[]'"
+    "--test_methods \"[]\""
 )
 
 # ============================== Logging ==============================
@@ -145,7 +155,7 @@ def sh(
 ) -> subprocess.CompletedProcess:
     if logger:
         logger.info("RUN: %s", " ".join(shlex.quote(c) for c in cmd))
-    return subprocess.run(cmd, check=check, capture_output=capture_output, text=True)
+    return subprocess.run(cmd, check=check, capture_output=capture_output, text=True, timeout=300)
 
 
 def docker_exec(
@@ -293,6 +303,7 @@ def evaluate_patches(
     """
     jsonl_files = sorted(glob.glob(jsonl_glob))
     logger.info("Found %d JSONL files", len(jsonl_files))
+    logger.info(jsonl_files)
     results: List[PatchRunResult] = []
 
     for jsonl_path in map(Path, jsonl_files):
@@ -375,6 +386,44 @@ def evaluate_patches(
 
 # ============================== reproduction tests ==============================
 
+def run_reproduce_script(
+    container: str, script_name: str, logger: Optional[logging.Logger]
+) -> Tuple[bool, bool]:
+    """
+    Run a reproduce_bug_new*.py script inside the container using eval_test.sh.
+    Returns (fails_on_clean_repo, passed).
+    - fails_on_clean_repo = True if stdout contains "Issue reproduced"
+    - passed = True if stdout contains "Issue resolved"
+    """
+    quoted = shlex.quote(script_name)
+    cmd = (
+        "bash",
+        "-c",
+        "set -euo pipefail; "
+        r"grep -Evi 'pip[[:space:]]+install|(^|[[:space:]])git[[:space:]]+' /eval.sh > /eval_test.sh; "
+        f"printf '\\npython {quoted}\\n' >> /eval_test.sh; "
+        "chmod +x /eval_test.sh; "
+        "/eval_test.sh"
+    )
+
+    res = docker_exec(container, *cmd, check=False, capture_output=True, logger=logger)
+
+    if logger:
+        if res.stdout:
+            logger.info("[PYTHON STDOUT]\n%s", res.stdout)
+        if res.stderr:
+            logger.info("[PYTHON STDERR]\n%s", res.stderr)
+        logger.info("Repro script %s -> returncode %s", script_name, res.returncode)
+
+    stdout = res.stdout or ""
+
+    fails_on_clean_repo = "Issue reproduced" in stdout
+    passed = "Issue resolved" in stdout
+
+    return fails_on_clean_repo, passed
+
+
+
 def verify_repro_fails_on_clean_repo(
     container: str,
     repo_path: str,
@@ -414,10 +463,14 @@ def verify_repro_fails_on_clean_repo(
         TEMP_PATCH_PATH.unlink()
     except Exception as e:
         logger.debug("Failed to cleanup temp patch file %s: %s", TEMP_PATCH_PATH, e)
-
-    rc = run_tests(container, test_name, instance_id, logger)
-    passed = rc == 0
-    fails_on_clean_repo = not passed
+        
+    if test_name == "reproduce_bug_new3.py":
+        # run directly with python and check output
+        fails_on_clean_repo, passed = run_reproduce_script(container, "reproduce_bug_new3.py", logger)
+    else:
+        rc = run_tests(container, test_name, instance_id, logger)
+        passed = rc == 0
+        fails_on_clean_repo = not passed
 
     if store:
         store.set("reproduction", "fail_on_original_repo", label, fails_on_clean_repo)
@@ -510,8 +563,12 @@ def evaluate_top_patches_with_repro(
             continue
 
         # (apply test patch + candidate patch like you do now)
-        rc = run_tests(container, label, pr.instance_id, logger)
-        passed = rc == 0
+        if test_name == "reproduce_bug_new3.py":
+            # TODO: check if resolved by parsing json (lite_gpt4o_repro_true_summary.json)
+            _, passed = run_reproduce_script(container, "reproduce_bug_new3.py", logger)
+        else:
+            rc = run_tests(container, label, pr.instance_id, logger)
+            passed = rc == 0
         outcomes.append(
             ReproOutcome(pr.patch_file, pr.instance_id, f"{label}#{test_idx}", passed)
         )
@@ -524,19 +581,31 @@ def evaluate_top_patches_with_repro(
 
 
 def run_swebench_and_get_container(
-    instance_id: str, run_id: str, logger: logging.Logger
+    instance_id: str, run_id: str, logger: logging.Logger, datasetname: str
 ) -> str:
     """
     Run the SWE-bench harness command for a single instance and return its container id.
     """
+    print(f"Now to get id for {instance_id} with run_id {run_id}")
+    if "verified" in datasetname.lower():
+        SWEBENCH_CMD = SWEBENCH_CMD_verified
+    else:
+        SWEBENCH_CMD = SWEBENCH_CMD_lite
     cmd = SWEBENCH_CMD.format(run_id=run_id, instance_id=instance_id)
     logger.info("Launching SWE-bench harness to create container: %s", cmd)
     res = sh(shlex.split(cmd), check=False, capture_output=True, logger=logger)
+    
+    # # wait a bit for the container to start
+    # import time
+    # time.sleep(30)
 
     if res.stdout:
         logger.info("[SWEBENCH STDOUT]\n%s", res.stdout)
     if res.stderr:
         logger.info("[SWEBENCH STDERR]\n%s", res.stderr)
+        
+    print(res.stdout)
+    print(res.stderr)
 
     out = (res.stdout or "") + "\n" + (res.stderr or "")
 
@@ -626,6 +695,12 @@ def transform_testname(test_name: str, instance_id: str) -> str:
         else:
             runname = test_name
         return runname
+    elif "pytest" in instance_id:
+        if not test_name.startswith("testing/"):
+            runname = "testing/" + test_name
+        else:
+            runname = test_name
+        return runname
     else:
         return test_name
 
@@ -668,7 +743,34 @@ def transform_fq_name(regression_tests, instance_id):
             test if test.startswith("tests/") else f"tests/{test}"
             for test in fq_regression_tests
         ]
+    elif "pytest" in instance_id:
+        fq_regression_tests = [
+            test if test.startswith("testing/") else f"testing/{test}"
+            for test in fq_regression_tests
+        ]
     return fq_regression_tests
+
+def run_python_and_check(container: str, script_name: str, logger: Optional[logging.Logger]) -> bool:
+    """
+    Run a Python script inside the container and check its output
+    for the phrase 'Issue resolved'.
+    Returns True if found, False otherwise.
+    """
+    cmd = ("bash", "-c", f"set -euo pipefail; python {shlex.quote(script_name)}")
+    res = docker_exec(container, *cmd, check=False, capture_output=True, logger=logger)
+
+    stdout = res.stdout or ""
+    stderr = res.stderr or ""
+
+    if logger:
+        if stdout:
+            logger.info("[PYTHON STDOUT]\n%s", stdout)
+        if stderr:
+            logger.info("[PYTHON STDERR]\n%s", stderr)
+        logger.info("Python script %s -> returncode %s", script_name, res.returncode)
+
+    return "Issue resolved" in stdout
+
 
 
 def process_instance(
@@ -679,6 +781,7 @@ def process_instance(
     repo_path: str,
     log_dir: Path,
     run_id_prefix: str,
+    datasetname: str,
     **kwargs,
 ) -> Dict[str, object]:
     """
@@ -702,14 +805,14 @@ def process_instance(
 
     # Start container via SWE-bench
     run_id = f"{run_id_prefix}"
-    container_id = run_swebench_and_get_container(instance_id, run_id, logger)
+    container_id = run_swebench_and_get_container(instance_id, run_id, logger, datasetname)
     summary["container_id"] = container_id
 
     regression_tests = transform_fq_name(regression_tests, instance_id)
 
     try:
         # run regression tests
-        jsonl_glob = all_uniq_patch_jsonl.format(instance_id=instance_id)
+        jsonl_glob = f"{all_uniq_patch_jsonl}/{instance_id}/*.jsonl"
         # """
         all_results, top = evaluate_patches(
             container=container_id,
@@ -740,11 +843,15 @@ def process_instance(
         for test_patch in repro_tests_for_instance:
             # apply the test_patch to the clean repo and run the repro test
             # print(test_patch)
+            # continue
             test_idx += 1
-            if "reproduce_bug.py" in test_patch:
-                patched_test_name = "reproduce_bug.py"
+            if "reproduce_bug_new3" in test_patch:
+                patched_test_name = "reproduce_bug_new3.py"
+                # instead of run the following with pytest, we will run it directly with python
+                # run_python_and_check(container_id, patched_test_name, logger)
             else:
                 patched_test_name = extract_testname_from_patch(test_patch)
+                
             test_name = transform_testname(patched_test_name, instance_id)
             # print(f"testname: {test_name}")
             logger.info(f"Reproduction test {test_idx}")
@@ -981,6 +1088,11 @@ def parse_args() -> argparse.Namespace:
     p.add_argument(
         "--run-id-prefix", default="test00", help="Prefix for SWE-bench --run_id."
     )
+    
+    p.add_argument(
+        "--datasetname", help="Name of the dataset (for logging purposes)."
+    )
+    
     p.add_argument(
         "--log-level", default="INFO", choices=["DEBUG", "INFO", "WARNING", "ERROR"]
     )
@@ -992,8 +1104,8 @@ def parse_args() -> argparse.Namespace:
     p.add_argument(
         "--timeout",
         type=int,
-        default=1800,  # 1800 seconds = 30 min
-        help="Timeout per instance in seconds (default: 1800)",
+        default=36000,  # 3600 seconds = 60 min
+        help="Timeout per instance in seconds (default: 3600)",
     )
 
     return p.parse_args()
@@ -1057,8 +1169,8 @@ def main():
             # if inst in skip:
             #     print(f"Skipping {inst} (in skip list)")
             #     continue
-            if inst != "django__django-10097":
-                continue
+            # if inst != "django__django-11333":
+            #     continue
 
             summary_result = Path(log_dir) / f"{inst}_summary.json"
             if summary_result.exists():
@@ -1074,6 +1186,7 @@ def main():
                 args.repo_path,
                 log_dir,
                 args.run_id_prefix,
+                args.datasetname,
                 results_dir=Path(args.results_dir),
             )
             future_to_inst[future] = inst
