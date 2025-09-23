@@ -1151,7 +1151,6 @@
     "scikit-learn__scikit-learn-25931": [
         "sklearn.ensemble.tests.test_iforest.test_iforest",
         "sklearn.ensemble.tests.test_iforest.test_iforest_error",
-        "sklearn.tests.test_common.test_estimators",
         "sklearn.ensemble.tests.test_iforest.test_iforest_performance",
         "sklearn.ensemble.tests.test_iforest.test_iforest_warm_start"
     ],
@@ -1309,7 +1308,8 @@
         "template_tests.filter_tests.test_floatformat.FunctionTests.test_inputs",
         "template_tests.filter_tests.test_floatformat.FunctionTests.test_force_grouping",
         "template_tests.filter_tests.test_floatformat.FunctionTests.test_infinity",
-        "template_tests.filter_tests.test_floatformat.FunctionTests.test_unlocalize"
+        "template_tests.filter_tests.test_floatformat.FunctionTests.test_unlocalize",
+        "template_tests.filter_tests.test_floatformat.FunctionTests.test_float_dunder_method"
     ],
     "django__django-12713": [
         "admin_views.tests.UserAdminTest.test_save_continue_editing_button",
@@ -1517,7 +1517,8 @@
         "migrations.test_commands.MakeMigrationsTests.test_makemigrations_continues_number_sequence_after_squash",
         "migrations.test_commands.MakeMigrationsTests.test_makemigrations_scriptable_merge",
         "migrations.test_commands.MakeMigrationsTests.test_makemigrations_empty_connections",
-        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_non_interactive_unique_callable_default_addition"
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_non_interactive_unique_callable_default_addition",
+        "migrations.test_commands.MakeMigrationsTests.test_makemigrations_check"
     ],
     "pytest-dev__pytest-5631": [
         "test_unittest.test_error_message_with_parametrized_fixtures",
@@ -2364,7 +2365,18 @@
         "test_collection.Test_genitems.test_class_and_functions_discovery_using_glob",
         "test_collection.TestSession.test_collect_protocol_method"
     ],
-    "sympy__sympy-18189": [],
+    "sympy__sympy-18189": [   
+        "sympy.solvers.tests.test_diophantine.test_diophantine_permute_sign",
+        "sympy.solvers.tests.test_diophantine.test_issue_9538",
+        "sympy.solvers.tests.test_diophantine.test_no_square_ternary_quadratic",
+        "sympy.solvers.tests.test_diophantine.test_issue_8943",
+        "sympy.solvers.tests.test_diophantine.test_general_pythagorean",
+        "sympy.solvers.tests.test_diophantine.test_diop_ternary_quadratic",
+        "sympy.solvers.tests.test_diophantine.test_input_format",
+        "sympy.solvers.tests.test_diophantine.test_diophantine",
+        "sympy.solvers.tests.test_diophantine.test_classify_diop",
+        "sympy.solvers.tests.test_diophantine.test_assumptions"
+],
     "django__django-15732": [
         "migrations.test_autodetector.AutodetectorTests.test_create_model_and_unique_together",
         "migrations.test_optimizer.OptimizerTests.test_create_alter_unique_field",
@@ -5060,7 +5072,11 @@
         "backends.base.test_operations.SqlFlushTests.test_execute_sql_flush_statements",
         "backends.tests.LongNameTest.test_sequence_name_length_limits_flush"
     ],
-    "django__django-16145": [],
+    "django__django-16145": [
+        "admin_scripts.tests.ManageRunserver.test_runner_addrport",
+        "admin_scripts.tests.ManageRunserver.test_runner_hostname",
+        "admin_scripts.tests.ManageRunserver.test_runserver_addrport"
+    ],
     "psf__requests-6028": [
         "tests.test_lowlevel.test_digestauth_401_count_reset_on_redirect",
         "tests.test_requests.TestTimeout.test_connect_timeout",

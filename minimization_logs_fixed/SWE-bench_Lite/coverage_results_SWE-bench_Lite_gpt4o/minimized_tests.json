@@ -233,7 +233,11 @@
     ],
     "scikit-learn__scikit-learn-13142": [
         "sklearn.mixture.tests.test_bayesian_mixture.test_bayesian_mixture_fit_predict",
-        "sklearn.mixture.tests.test_gaussian_mixture.test_gaussian_mixture_fit_predict"
+        "sklearn.mixture.tests.test_gaussian_mixture.test_gaussian_mixture_fit_predict",
+        "sklearn.mixture.tests.test_gaussian_mixture.test_gaussian_mixture_predict_predict_proba",
+        "sklearn.mixture.tests.test_gaussian_mixture.test_multiple_init",
+        "sklearn.mixture.tests.test_gaussian_mixture.test_check_weights"
+
     ],
     "sympy__sympy-13895": [
         "sympy.core.tests.test_expr.test_is_algebraic_expr",
@@ -327,7 +331,10 @@
         "sympy.polys.tests.test_monomials.test_monomial_count",
         "sympy.polys.tests.test_monomials.test_monomials"
     ],
-    "sympy__sympy-15678": [],
+    "sympy__sympy-15678": [
+        "sympy.geometry.tests.test_polygon.test_intersection",
+        "sympy.geometry.tests.test_polygon.test_convex_hull"
+    ],
     "pylint-dev__pylint-5859": [
         "test_func.test_functionality",
         "lint.test_utils.test_issue_template_on_fatal_errors",
@@ -795,12 +802,19 @@
 
     ],
     "scikit-learn__scikit-learn-13496": [
-        "sklearn.ensemble.tests.test_iforest.test_iforest_chunks_works1",
-        "sklearn.ensemble.tests.test_iforest.test_iforest_sparse",
-        "sklearn.ensemble.tests.test_iforest.test_iforest_chunks_works2",
-        "sklearn.ensemble.tests.test_iforest.test_iforest_works",
-        "sklearn.ensemble.tests.test_iforest.test_iforest_subsampled_features",
-        "sklearn.ensemble.tests.test_iforest.test_iforest_error"
+  "sklearn.ensemble.tests.test_iforest.test_max_samples_consistency",
+  "sklearn.ensemble.tests.test_iforest.test_iforest_parallel_regression",
+  "sklearn.ensemble.tests.test_iforest.test_iforest_chunks_works1",
+  "sklearn.ensemble.tests.test_iforest.test_score_samples",
+  "sklearn.ensemble.tests.test_iforest.test_recalculate_max_depth",
+  "sklearn.ensemble.tests.test_iforest.test_iforest_chunks_works2",
+  "sklearn.ensemble.tests.test_iforest.test_iforest_sparse",
+  "sklearn.ensemble.tests.test_iforest.test_iforest",
+  "sklearn.ensemble.tests.test_iforest.test_max_samples_attribute",
+  "sklearn.ensemble.tests.test_iforest.test_iforest_works",
+  "sklearn.ensemble.tests.test_iforest.test_iforest_subsampled_features",
+  "sklearn.ensemble.tests.test_iforest.test_iforest_performance",
+  "sklearn.ensemble.tests.test_iforest.test_behaviour_param"
 
     ],
     "psf__requests-1963": [
@@ -1430,7 +1444,8 @@
         "test_assertrewrite.TestAssertionRewrite.test_assert_raising_nonzero_in_comparison",
         "test_assertrewrite.TestAssertionRewrite.test_dont_rewrite_if_hasattr_fails",
         "test_assertrewrite.TestAssertionRewrite.test_formatchar",
-        "test_assertrewrite.TestAssertionRewrite.test_custom_repr"
+        "test_assertrewrite.TestAssertionRewrite.test_custom_repr",
+        "test_assertion.TestAssert_reprcompare.test_sequence_different_items"
     ],
     "sympy__sympy-20639": [
         "sympy.printing.pretty.tests.test_pretty.test_pretty_sum",
@@ -2146,8 +2161,7 @@
     ],
     "django__django-11742": [
         "model_fields.tests.ChoicesTests.test_check",
-        "check_framework.test_model_checks.IndexNameTests.test_no_collision_abstract_model_interpolation"
-    ],
+        "check_framework.test_model_checks.IndexNameTests.test_no_collision_abstract_model_interpolation"    ],
     "astropy__astropy-7746": [
         "astropy.wcs.tests.test_wcs.test_pix2world",
         "astropy.wcs.tests.test_wcs.test_shape_mismatch",
@@ -2168,7 +2182,10 @@
         "test_skipping.TestXFail.test_strict_xfail",
         "test_skipping.TestXFail.test_xfail_imperative",
         "test_skipping.test_xfail_skipif_with_globals",
-        "test_skipping.TestXFail.test_strict_xfail_default_from_file"
+        "test_skipping.TestXFail.test_strict_xfail_default_from_file",
+        "test_skipping.test_xfail_test_setup_exception",
+        "test_skipping.TestXFailwithSetupTeardown.test_failing_setup_issue9",
+        "test_skipping.TestXFailwithSetupTeardown.test_failing_teardown_issue9"
     ],
     "sympy__sympy-22840": [],
     "django__django-11001": [
@@ -2250,7 +2267,32 @@
     "pytest-dev__pytest-8365": [
         "test_tmpdir.TestTempdirHandler.test_mktemp",
         "test_tmpdir.test_tmpdir_fallback_uid_not_found",
-        "test_tmpdir.test_mktemp"
+        "test_tmpdir.test_mktemp",
+          "testing.test_tmpdir.TestNumberedDir.test_make",
+  "testing.test_tmpdir.test_tmpdir_fallback_uid_not_found",
+  "testing.test_tmpdir.TestRmRf.test_rm_rf_with_read_only_directory",
+  "testing.test_tmpdir.TestNumberedDir.test_cleanup_ignores_symlink",
+  "testing.test_tmpdir.TestRmRf.test_rm_rf_with_read_only_file",
+  "testing.test_tmpdir.TestNumberedDir.test_cleanup_locked",
+  "testing.test_tmpdir.TestRmRf.test_on_rm_rf_error",
+  "testing.test_tmpdir.TestRmRf.test_rm_rf",
+  "testing.test_tmpdir.test_tmpdir_equals_tmp_path",
+  "testing.test_tmpdir.TestTempdirHandler.test_mktemp",
+  "testing.test_tmpdir.test_tmpdir_fixture",
+  "testing.test_tmpdir.TestNumberedDir.test_cleanup_keep",
+  "testing.test_tmpdir.TestNumberedDir.test_lock_register_cleanup_removal",
+  "testing.test_tmpdir.TestNumberedDir.test_removal_accepts_lock",
+  "testing.test_tmpdir.test_mktemp",
+  "testing.test_tmpdir.test_tmpdir_factory",
+  "testing.test_tmpdir.test_basetemp_with_read_only_files",
+  "testing.test_tmpdir.test_tmp_path_always_is_realpath",
+  "testing.test_tmpdir.test_tmpdir_too_long_on_parametrization",
+  "testing.test_tmpdir.TestConfigTmpdir.test_getbasetemp_custom_removes_old",
+  "testing.test_tmpdir.TestTempdirHandler.test_tmppath_relative_basetemp_absolute",
+  "testing.test_tmpdir.TestNumberedDir.test_cleanup_lock_create",
+  "testing.test_tmpdir.test_tmpdir_always_is_realpath",
+  "testing.test_tmpdir.test_tmpdir_fallback_tox_env"
+
     ],
     "sympy__sympy-18087": [
         "sympy.holonomic.tests.test_holonomic.test_diff",
